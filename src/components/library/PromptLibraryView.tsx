@@ -15,6 +15,7 @@ import {
   X,
   Check,
   Tag,
+  Trash2,
 } from 'lucide-react';
 
 export const PromptLibraryView: React.FC = () => {
@@ -36,6 +37,32 @@ export const PromptLibraryView: React.FC = () => {
   const [isFolderModalOpen, setIsFolderModalOpen] = useState(false);
   const [newFolderName, setNewFolderName] = useState('');
   const [newFolderColor, setNewFolderColor] = useState('#6366f1');
+
+  // Delete folder state
+  const [folderToDelete, setFolderToDelete] = useState<FolderItem | null>(null);
+
+  const handleDeleteFolder = async (folder: FolderItem) => {
+    // Unassign folderId from any prompts in this folder
+    const promptsInFolder = await db.prompts.where('folderId').equals(folder.id).toArray();
+    for (const p of promptsInFolder) {
+      await db.prompts.update(p.id, { folderId: undefined });
+    }
+
+    await db.folders.delete(folder.id);
+
+    if (selectedFolder === folder.id) {
+      setSelectedFolder(null);
+    }
+
+    addToast({
+      type: 'info',
+      title: 'Folder deleted',
+      description: `Folder "${folder.name}" was deleted. Prompts remain in All.`,
+    });
+
+    setFolderToDelete(null);
+    loadData();
+  };
 
   const loadData = async () => {
     const p = await db.prompts.toArray();
@@ -200,21 +227,41 @@ export const PromptLibraryView: React.FC = () => {
           {folders.map((folder) => {
             const isSelected = selectedFolder === folder.id;
             return (
-              <button
+              <div
                 key={folder.id}
-                onClick={() => setSelectedFolder(isSelected ? null : folder.id)}
-                className={`shrink-0 flex items-center gap-1.5 rounded-xl px-3 py-1.5 font-medium transition cursor-pointer ${
+                className={`group shrink-0 flex items-center gap-1.5 rounded-xl px-2.5 py-1.5 text-xs font-medium transition ${
                   isSelected
                     ? 'bg-indigo-600 text-white shadow-sm'
                     : 'bg-slate-900 border border-slate-800 text-slate-300 hover:bg-slate-800'
                 }`}
               >
-                <span
-                  className="w-2 h-2 rounded-full"
-                  style={{ backgroundColor: folder.color || '#6366f1' }}
-                />
-                <span>{folder.name}</span>
-              </button>
+                <button
+                  type="button"
+                  onClick={() => setSelectedFolder(isSelected ? null : folder.id)}
+                  className="flex items-center gap-1.5 cursor-pointer"
+                >
+                  <span
+                    className="w-2 h-2 rounded-full shrink-0"
+                    style={{ backgroundColor: folder.color || '#6366f1' }}
+                  />
+                  <span>{folder.name}</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setFolderToDelete(folder);
+                  }}
+                  className={`ml-0.5 p-1 rounded-md transition cursor-pointer ${
+                    isSelected
+                      ? 'text-indigo-200 hover:text-white hover:bg-indigo-500/50'
+                      : 'text-slate-500 hover:text-rose-400 hover:bg-slate-800'
+                  }`}
+                  title={`Delete folder "${folder.name}"`}
+                >
+                  <Trash2 className="w-3 h-3" />
+                </button>
+              </div>
             );
           })}
 
@@ -427,6 +474,50 @@ export const PromptLibraryView: React.FC = () => {
                 className="rounded-xl px-3 py-1.5 text-xs text-slate-400 hover:text-white"
               >
                 Done
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Delete Folder Confirmation Modal */}
+      {folderToDelete && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4">
+          <div className="w-full max-w-sm rounded-2xl border border-slate-700 bg-slate-900 p-5 shadow-2xl text-slate-100">
+            <div className="flex items-center justify-between pb-3 border-b border-slate-800">
+              <div className="flex items-center gap-2 text-rose-400 font-semibold text-sm">
+                <Trash2 className="w-4 h-4" />
+                <h3>Delete Folder</h3>
+              </div>
+              <button
+                onClick={() => setFolderToDelete(null)}
+                className="rounded-lg p-1 text-slate-400 hover:text-white"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+            <div className="mt-4 space-y-2">
+              <p className="text-xs text-slate-300">
+                Are you sure you want to delete <strong className="text-white">"{folderToDelete.name}"</strong>?
+              </p>
+              <p className="text-[11px] text-slate-400 bg-slate-800/80 p-2.5 rounded-xl border border-slate-700/50">
+                Prompts inside this folder will not be deleted, but will remain accessible in "All".
+              </p>
+            </div>
+            <div className="flex items-center justify-end gap-2 pt-4 border-t border-slate-800 mt-4">
+              <button
+                type="button"
+                onClick={() => setFolderToDelete(null)}
+                className="rounded-xl px-3 py-1.5 text-xs font-medium text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 transition cursor-pointer"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={() => handleDeleteFolder(folderToDelete)}
+                className="rounded-xl bg-rose-600 px-4 py-1.5 text-xs font-semibold text-white hover:bg-rose-500 transition shadow-sm cursor-pointer"
+              >
+                Delete Folder
               </button>
             </div>
           </div>
