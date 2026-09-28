@@ -66,6 +66,50 @@ function isRussianText(text: string): boolean {
 }
 
 /**
+ * Rephrases raw user intent into a professional domain mandate without verbatim phrase copying.
+ */
+function rephraseGoalToMandate(cleanGoal: string, isRu: boolean): string {
+  if (!cleanGoal) return isRu ? 'Сформировать экспертное решение по предметной области.' : 'Synthesize a structured domain deliverable.';
+
+  let core = cleanGoal
+    .replace(/^([А-Яа-яA-Za-z]+)\s+мне\s+/i, '')
+    .replace(/^(мне\s+нужен|нужен|напиши|создай|сделай|разработай|проверить|написать|составить)\s+/i, '')
+    .trim();
+
+  if (isRu) {
+    if (/ретроспектив|постмортем|инцидент|сбой|авари/i.test(core)) {
+      return 'Сформировать глубокий разбор инцидента, проанализировать хронологию и выработать план предотвращения рецидивов.';
+    }
+    if (/код|рефакторинг|исправ|ошибк|баг|скрипт/i.test(core)) {
+      return 'Провести аудит представленного фрагмента кода, устранить архитектурные дефекты и обеспечить типобезопасность.';
+    }
+    if (/стратеги|бизнес|маркетинг|продаж|цена/i.test(core)) {
+      return 'Разработать комплексную стратегию развития, определить ключевые KPI и подготовить дорожную карту реализации.';
+    }
+    if (/текст|стать|пост|письмо|копирайтинг/i.test(core)) {
+      return 'Подготовить емкий, убедительный материал с четкой структурой и ориентацией на целевую аудиторию.';
+    }
+    core = core.charAt(0).toUpperCase() + core.slice(1);
+    return `Разработать комплексное профессиональное решение с глубоким анализом предмета: ${core}.`;
+  } else {
+    if (/retrospect|postmortem|incident|outage/i.test(core)) {
+      return 'Conduct a thorough post-mortem analysis, reconstruct event timelines, and establish preventative measures.';
+    }
+    if (/code|refactor|bug|fix|typescript|python/i.test(core)) {
+      return 'Audit and refactor the codebase to eliminate technical debt, enhance type safety, and optimize performance.';
+    }
+    if (/strategy|business|gtm|marketing|sales/i.test(core)) {
+      return 'Formulate a comprehensive growth strategy, map unit economics, and define execution milestones.';
+    }
+    if (/copy|write|article|post|newsletter/i.test(core)) {
+      return 'Craft high-impact, persuasive copy tailored for maximum audience engagement and clarity.';
+    }
+    core = core.charAt(0).toUpperCase() + core.slice(1);
+    return `Deliver an expert, structured solution focusing on the following domain: ${core}.`;
+  }
+}
+
+/**
  * Transforms raw user tasks into specialized, standalone domain prompts.
  * Generates domain-specific sections (e.g. Incident Timelines, 5 Whys, Code Audits, GTM Roadmaps, AIDA Copy Arc)
  * completely removing raw meta-text.
@@ -89,24 +133,21 @@ export function buildDomainPrompt(
   const isCoding = /code|refactor|typescript|react|python|sql|debug|api|bug|github|test|docker|код|рефакторинг|исправь|ошибк|скрипт/.test(lower);
   const isBusiness = /strategy|gtm|pricing|investor|saas|pitch|бизнес|стратеги|питч|продаж|маркетинг|цена/.test(lower);
   const isCopywriting = /copywriting|write|article|copy|email|post|newsletter|копирайтинг|текст|стать|письмо|пост|рассылк/.test(lower);
-  const isGaming = /game|rpg|master|dungeon|quest|character|игра|ролевая|нри|квест|персонаж|ведущий/.test(lower);
-  const isData = /sql|database|query|data|analytics|база данных|бд|запрос|данные|статистика/.test(lower);
-  const isEval = /eval|rubric|guardrail|security|audit|risk|оценка|рубрика|риски|безопасность|проверка/.test(lower);
 
   // 1. RETROSPECTIVE & INCIDENT POST-MORTEM DOMAIN
   if (isRetro) {
     if (isRu) {
       if (aggressiveness === 'low') {
-        return `### Роль и Задачи\nВы выступаете в роли опытного Agile Coach и Фасилитатора ретроспектив.\n\n### Операционная Цель\nПровести системный разбор и ретроспективу инцидента/спринта [[название_события]] для выявления узких мест и планирования улучшений.\n\n### Правила Проведения\n- Соблюдать принцип культуры без поиска виновных (Blameless).\n- Фиксировать ключевые выводы и согласованные Action Items.`;
+        return `### Роль и Задачи\nВы выступаете в роли опытного Agile Coach и Фасилитатора ретроспектив.\n\n### Контекст и Постановка Задачи\nПровести системный разбор и ретроспективу инцидента/спринта [[название_события]] для выявления узких мест и планирования улучшений.\n\n### Правила Проведения\n- Соблюдать принцип культуры без поиска виновных (Blameless).\n- Фиксировать ключевые выводы и согласованные Action Items.`;
       }
       if (aggressiveness === 'medium') {
-        return `### Роль и Принципы (Blameless Culture)\nВы выступаете в роли Site Reliability Lead и Фасилитатора, специализирующегося на проведении безнаказанных (Blameless) ретроспектив и разборе сбоев.\n\n### Операционная Цель\nПровести глубокую ретроспективу инцидента [[название_инцидента]], восстановить хронологию событий и сформировать план предотвращения повторных аварий.\n\n### 1. Восстановление Хронологии (Timeline)\n- Время обнаружения (Detection) и локализации сбоя.\n- Временные меры по стабилизации (Mitigation) и финальное решение (Resolution).\n\n### 2. Анализ Первопричин (Root Cause)\nПрименить метод «5 Почему» для поиска системных уязвимостей в процессах и архитектуре.\n\n### 3. Матрица Действий (Action Items)\n| Действие | Ответственный | Приоритет | Срок |\n|---|---|---|---|\n| [[action_item_1]] | [[owner_1]] | P0 | [[deadline_1]] |`;
+        return `### Роль и Принципы (Blameless Culture)\nВы выступаете в роли Site Reliability Lead и Фасилитатора, специализирующегося на проведении безнаказанных (Blameless) ретроспектив и разборе сбоев.\n\n### Контекст и Область Применения\nПровести глубокую ретроспективу инцидента [[название_инцидента]], восстановить хронологию событий и сформировать план предотвращения повторных аварий.\n\n### 1. Восстановление Хронологии (Timeline)\n- Время обнаружения (Detection) и локализации сбоя.\n- Временные меры по стабилизации (Mitigation) и финальное решение (Resolution).\n\n### 2. Анализ Первопричин (Root Cause)\nПрименить метод «5 Почему» для поиска системных уязвимостей в процессах и архитектуре.\n\n### 3. Матрица Действий (Action Items)\n| Действие | Ответственный | Приоритет | Срок |\n|---|---|---|---|\n| [[action_item_1]] | [[owner_1]] | P0 | [[deadline_1]] |`;
       }
       // DEEP
       return `### Роль и Принципы (Blameless Culture)
 Вы выступаете в роли опытного Site Reliability Lead и Фасилитатора, специализирующегося на проведении системных ретроспектив инцидентов и разборе сбоев в культуре без поиска виновных (Blameless Culture).
 
-### Операционная Цель
+### Контекст и Область Применения
 Провести комплексную ретроспективу инцидента [[название_инцидента]], полностью восстановить хронологию событий, установить инженерные и процессные первопричины (Root Causes), оценить объём ущерба и сформировать план предотвращения повторных аварий.
 
 ### 1. Контекст и Масштаб Инцидента
@@ -140,16 +181,16 @@ export function buildDomainPrompt(
     } else {
       // English
       if (aggressiveness === 'low') {
-        return `### Role & Task\nYou are acting as an experienced Agile Facilitator leading an incident retrospective.\n\n### Primary Directive\nConduct a systematic retrospective for [[event_name]] to identify process bottlenecks and outline corrective actions.\n\n### Execution Rules\n- Maintain a blameless culture focusing on systems rather than individuals.\n- Deliver concise, actionable takeaways.`;
+        return `### Role & Expertise\nYou are acting as an experienced Agile Facilitator leading an incident retrospective.\n\n### Context & Scope\nConduct a systematic retrospective for [[event_name]] to identify process bottlenecks and outline corrective actions.\n\n### Execution Rules\n- Maintain a blameless culture focusing on systems rather than individuals.\n- Deliver concise, actionable takeaways.`;
       }
       if (aggressiveness === 'medium') {
-        return `### Role & Blameless Principles\nYou are acting as a Site Reliability Lead specializing in blameless incident retrospectives.\n\n### Operational Objective\nFacilitate a thorough retrospective for [[incident_title]] to reconstruct timeline events, analyze root causes, and establish preventive measures.\n\n### 1. Timeline Reconstruction\n- Detection time, triage, mitigation, and permanent resolution milestones.\n\n### 2. Root Cause Analysis (5 Whys Protocol)\nExecute 5 Whys chain to transition from symptoms to underlying process and architectural flaws.\n\n### 3. Action Items Matrix\n| Action Item | Owner | Priority (P0/P1/P2) | Deadline |\n|---|---|---|---|\n| [[action_item_1]] | [[owner_1]] | P0 | [[deadline_1]] |`;
+        return `### Role & Blameless Principles\nYou are acting as a Site Reliability Lead specializing in blameless incident retrospectives.\n\n### Context & Scope\nFacilitate a thorough retrospective for [[incident_title]] to reconstruct timeline events, analyze root causes, and establish preventive measures.\n\n### 1. Timeline Reconstruction\n- Detection time, triage, mitigation, and permanent resolution milestones.\n\n### 2. Root Cause Analysis (5 Whys Protocol)\nExecute 5 Whys chain to transition from symptoms to underlying process and architectural flaws.\n\n### 3. Action Items Matrix\n| Action Item | Owner | Priority (P0/P1/P2) | Deadline |\n|---|---|---|---|\n| [[action_item_1]] | [[owner_1]] | P0 | [[deadline_1]] |`;
       }
       // DEEP
       return `### Role & Blameless Principles
 You are acting as a Senior Site Reliability Engineer and Systems Auditor specializing in blameless post-mortems and incident retrospectives.
 
-### Core Operational Directive
+### Context & Scope
 Facilitate a comprehensive, blameless incident retrospective for [[incident_title]] to reconstruct timeline events, isolate root cause vulnerabilities, evaluate business impact, and establish preventative safeguards.
 
 ### 1. Incident Framing & Scope
@@ -187,16 +228,16 @@ Execute a 5-Whys diagnostic chain to transition from surface symptoms (human mis
   if (isCoding) {
     if (isRu) {
       if (aggressiveness === 'low') {
-        return `### Роль и Задачи\nВы выступаете в роли Senior Software Engineer.\n\n### Операционная Цель\nПровести рефакторинг представленного кода <code_snippet>[[код]]</code_snippet> для повышения читаемости, устранения ошибок и улучшения архитектуры.\n\n### Правила\n- Предоставить чистый, рабочеспособный код.\n- Добавить краткие пояснения сделанных изменений.`;
+        return `### Роль и Задачи\nВы выступаете в роли Senior Software Engineer.\n\n### Область Рефакторинга\nПровести рефакторинг представленного кода <code_snippet>[[код]]</code_snippet> для повышения читаемости, устранения ошибок и улучшения архитектуры.\n\n### Правила\n- Предоставить чистый, рабочеспособный код.\n- Добавить краткие пояснения сделанных изменений.`;
       }
       if (aggressiveness === 'medium') {
-        return `### Роль и Полномочия\nВы выступаете в роли Principal Software Architect, специализирующегося на чистом коде, типобезопасности и оптимизации производительности.\n\n### Операционная Цель\nПровести рефакторинг кода <code_snippet>[[код]]</code_snippet> для улучшения типобезопасности, разделения ответственности и оптимизации алгоритмической сложности.\n\n### 1. Направления Оптимизации\n- Устранить \`any\` типы и заменить их на строгие интерфейсы.\n- Извлечь сложные монолитные блоки в вспомогательные функции.\n- Оптимизировать время выполнения и аллокации памяти.\n\n### 2. Формат Вывода\nРефакторенный код и краткая справка по изменениям.`;
+        return `### Роль и Полномочия\nВы выступаете в роли Principal Software Architect, специализирующегося на чистом коде, типобезопасности и оптимизации производительности.\n\n### Область Рефакторинга\nПровести рефакторинг кода <code_snippet>[[код]]</code_snippet> для улучшения типобезопасности, разделения ответственности и оптимизации алгоритмической сложности.\n\n### 1. Направления Оптимизации\n- Устранить \`any\` типы и заменить их на строгие интерфейсы.\n- Извлечь сложные монолитные блоки в вспомогательные функции.\n- Оптимизировать время выполнения и аллокации памяти.\n\n### 2. Формат Вывода\nРефакторенный код и краткая справка по изменениям.`;
       }
       // DEEP
       return `### Роль и Полномочия
 Вы выступаете в роли Главного Архитектора ПО (Principal Software Architect), специализирующегося на чистой архитектуре, типобезопасности, оптимизации производительности и надёжности сложных распределённых систем.
 
-### Операционная Цель
+### Область Рефакторинга
 Провести глубокий аудит и рефакторинг представленного фрагмента кода <code_snippet>[[фрагмент_кода]]</code_snippet> для устранения architectural smells, повышения читаемости, обеспечения 100% типобезопасности и оптимизации runtime-производительности.
 
 ### 1. Аудит Кода и Выявление Проблем
@@ -217,16 +258,16 @@ Execute a 5-Whys diagnostic chain to transition from surface symptoms (human mis
 - Краткие архитектурные комментарии с пояснением изменений и дельты сложности.`;
     } else {
       if (aggressiveness === 'low') {
-        return `### Role & Directive\nYou are acting as a Senior Software Engineer.\n\n### Core Objective\nRefactor the provided code snippet <code_snippet>[[code_snippet]]</code_snippet> to improve code readability, fix bugs, and enhance structure.\n\n### Execution Rules\n- Output clean, working code.\n- Provide a brief summary of refactored sections.`;
+        return `### Role & Expertise\nYou are acting as a Senior Software Engineer.\n\n### Refactoring Scope\nRefactor the provided code snippet <code_snippet>[[code_snippet]]</code_snippet> to improve code readability, fix bugs, and enhance structure.\n\n### Execution Rules\n- Output clean, working code.\n- Provide a brief summary of refactored sections.`;
       }
       if (aggressiveness === 'medium') {
-        return `### Role & Authority\nYou are acting as a Principal Software Architect specializing in clean code and type safety.\n\n### Operational Objective\nAudit and refactor the code block <code_snippet>[[code_snippet]]</code_snippet> to enforce strict typing, modularity, and algorithmic efficiency.\n\n### 1. Refactoring Directives\n- Replace untyped constructs with explicit interface contracts.\n- Extract monolithic logic into pure helper functions.\n- Reduce time and space complexity.\n\n### 2. Output Specification\nRefactored production-ready code accompanied by concise architectural notes.`;
+        return `### Role & Authority\nYou are acting as a Principal Software Architect specializing in clean code and type safety.\n\n### Refactoring Scope\nAudit and refactor the code block <code_snippet>[[code_snippet]]</code_snippet> to enforce strict typing, modularity, and algorithmic efficiency.\n\n### 1. Refactoring Directives\n- Replace untyped constructs with explicit interface contracts.\n- Extract monolithic logic into pure helper functions.\n- Reduce time and space complexity.\n\n### 2. Output Specification\nRefactored production-ready code accompanied by concise architectural notes.`;
       }
       // DEEP
       return `### Role & Authority
 You are acting as a Principal Software Architect specializing in clean code, type safety, low-latency performance, and resilient systems design.
 
-### Core Operational Directive
+### Refactoring Scope
 Audit and refactor the provided code block <code_snippet>[[code_snippet]]</code_snippet> to eliminate architectural design smells, ensure strict type safety, optimize runtime performance, and enhance long-term maintainability.
 
 ### 1. Code Audit & Vulnerability Screening
@@ -252,16 +293,16 @@ Provide a Vitest/Jest unit test suite covering happy path execution, boundary va
   if (isBusiness) {
     if (isRu) {
       if (aggressiveness === 'low') {
-        return `### Роль и Задачи\nВы выступаете в роли Бизнес-Консультанта.\n\n### Операционная Цель\nРазработать стратегический план по теме [[тема_бизнеса]] с акцентом на рост продаж и оптимизацию ресурсов.`;
+        return `### Роль и Задачи\nВы выступаете в роли Бизнес-Консультанта.\n\n### Стратегический Контекст\nРазработать стратегический план по теме [[тема_бизнеса]] с акцентом на рост продаж и оптимизацию ресурсов.`;
       }
       if (aggressiveness === 'medium') {
-        return `### Роль и Экспертиза\nВы выступаете в роли Директора по Стратегии (CSO) и бизнес-консультанта.\n\n### Операционная Цель\nСформировать стратегию вывода на рынок [[название_продукта]] и оптимизации ценообразования.\n\n### 1. Конкурентный Анализ\nОпределить ICP и асимметричные преимущества перед конкурентами.\n\n### 2. Юнит-Экономика\nРассчитать показатели LTV, CAC Payback и структуру ценообразования.\n\n### 3. Дорожная Карта\nПошаговый план выхода на рынок по фазам.`;
+        return `### Роль и Экспертиза\nВы выступаете в роли Директора по Стратегии (CSO) и бизнес-консультанта.\n\n### Стратегический Контекст\nСформировать стратегию вывода на рынок [[название_продукта]] и оптимизации ценообразования.\n\n### 1. Конкурентный Анализ\nОпределить ICP и асимметричные преимущества перед конкурентами.\n\n### 2. Юнит-Экономика\nРассчитать показатели LTV, CAC Payback и структуру ценообразования.\n\n### 3. Дорожная Карта\nПошаговый план выхода на рынок по фазам.`;
       }
       // DEEP
       return `### Роль и Экспертиза
 Вы выступаете в роли Директора по Стратегии (CSO) и бизнес-консультанта, специализирующегося на юнит-экономике, выходе на рынок (GTM), монетизации и конкурентных преимуществах.
 
-### Операционная Цель
+### Стратегический Контекст
 Разработать исчерпывающую стратегию выхода на рынок и роста для продукта [[название_продукта]] в целевом сегменте [[целевой_рынок]].
 
 ### 1. Позиционирование и Целевой Сегмент
@@ -281,16 +322,16 @@ Provide a Vitest/Jest unit test suite covering happy path execution, boundary va
 Структурированный Markdown-документ с резюме (Executive Summary) и таблицей ключевых KPI.`;
     } else {
       if (aggressiveness === 'low') {
-        return `### Role & Directive\nYou are acting as a Business Strategy Consultant.\n\n### Primary Objective\nFormulate a strategic initiative regarding [[business_topic]] focused on ROI and operational efficiency.`;
+        return `### Role & Expertise\nYou are acting as a Business Strategy Consultant.\n\n### Strategic Scope\nFormulate a strategic initiative regarding [[business_topic]] focused on ROI and operational efficiency.`;
       }
       if (aggressiveness === 'medium') {
-        return `### Role & Authority\nYou are acting as a Chief Strategy Officer specializing in go-to-market execution.\n\n### Operational Directive\nDevelop a GTM strategy and pricing model for [[product_name]].\n\n### 1. Target Positioning\nIdentify ICP pain points and competitive advantages.\n\n### 2. Unit Economics\nDetail CAC payback, LTV targets, and pricing tiers.\n\n### 3. Execution Roadmap\nPhased rollout from beachhead launch to expansion.`;
+        return `### Role & Authority\nYou are acting as a Chief Strategy Officer specializing in go-to-market execution.\n\n### Strategic Scope\nDevelop a GTM strategy and pricing model for [[product_name]].\n\n### 1. Target Positioning\nIdentify ICP pain points and competitive advantages.\n\n### 2. Unit Economics\nDetail CAC payback, LTV targets, and pricing tiers.\n\n### 3. Execution Roadmap\nPhased rollout from beachhead launch to expansion.`;
       }
       // DEEP
       return `### Role & Authority
 You are acting as a Chief Strategy Officer and Enterprise Advisor specializing in unit economics, go-to-market execution, and defensible moats.
 
-### Core Operational Directive
+### Strategic Scope
 Develop a comprehensive go-to-market and growth strategy for [[product_name]] in target market [[target_market]].
 
 ### 1. Positioning & ICP Mapping
@@ -315,16 +356,16 @@ Structured executive report containing an Executive Summary and quantitative KPI
   if (isCopywriting) {
     if (isRu) {
       if (aggressiveness === 'low') {
-        return `### Роль и Задачи\nВы выступаете в роли профессионального Копирайтера.\n\n### Операционная Цель\nНаписать высококонверсионный текст [[тип_текста]] для аудитории [[целевая_аудитория]].\n\n### Правила\n- Без воды и клише.\n- Четкий призыв к действию.`;
+        return `### Роль и Задачи\nВы выступаете в роли профессионального Копирайтера.\n\n### Творческий Брифинг\nНаписать высококонверсионный текст [[тип_текста]] для аудитории [[целевая_аудитория]].\n\n### Правила\n- Без воды и клише.\n- Четкий призыв к действию.`;
       }
       if (aggressiveness === 'medium') {
-        return `### Роль и Стиль\nВы выступаете в роли Элитного Копирайтера, специализирующегося на высокой конверсии и сжатом стиле.\n\n### Операционная Цель\nСоздать продающий текст [[тип_текста]] для [[целевая_аудитория]].\n\n### 1. Структура Паттерна (PAS)\n- Боль (Pain) -> Усиление (Agitation) -> Решение (Solution).\n\n### 2. Призыв к Действию\nЧеткий, понятный CTA с минимальным трением.`;
+        return `### Роль и Стиль\nВы выступаете в роли Элитного Копирайтера, специализирующегося на высокой конверсии и сжатом стиле.\n\n### Творческий Брифинг\nСоздать продающий текст [[тип_текста]] для [[целевая_аудитория]].\n\n### 1. Структура Паттерна (PAS)\n- Боль (Pain) -> Усиление (Agitation) -> Решение (Solution).\n\n### 2. Призыв к Действию\nЧеткий, понятный CTA с минимальным трением.`;
       }
       // DEEP
       return `### Роль и Стиль
 Вы выступаете в роли Элитного Копирайтера и Главного Редактора, специализирующегося на высокой конверсии, ясности изложения и убедительном сторителлинге.
 
-### Операционная Цель
+### Творческий Брифинг
 Создать высококонверсионный текст [[тип_материала]] для целевой аудитории [[целевая_аудитория]] с фокусировкой на решении проблемы [[проблема_клиента]].
 
 ### 1. Заголовок и Hook
@@ -342,16 +383,16 @@ Structured executive report containing an Executive Summary and quantitative KPI
 Без корпоративных клише, без канцелярита и без вводной воды. Максимальная плотность смысла.`;
     } else {
       if (aggressiveness === 'low') {
-        return `### Role & Directive\nYou are acting as a Professional Copywriter.\n\n### Primary Objective\nDraft persuasive copy for [[content_type]] targeting [[target_audience]].\n\n### Rules\n- Zero fluff or buzzwords.\n- Clear, single-focus Call to Action.`;
+        return `### Role & Expertise\nYou are acting as a Professional Copywriter.\n\n### Creative Scope\nDraft persuasive copy for [[content_type]] targeting [[target_audience]].\n\n### Rules\n- Zero fluff or buzzwords.\n- Clear, single-focus Call to Action.`;
       }
       if (aggressiveness === 'medium') {
-        return `### Role & Authority\nYou are acting as an Elite Direct-Response Copywriter.\n\n### Operational Objective\nWrite high-converting copy for [[content_type]] targeting [[target_audience]].\n\n### 1. Copy Structure (PAS Arc)\n- Pain -> Agitate -> Solution.\n\n### 2. Call to Action\nUnambiguous, friction-free CTA.`;
+        return `### Role & Authority\nYou are acting as an Elite Direct-Response Copywriter.\n\n### Creative Scope\nWrite high-converting copy for [[content_type]] targeting [[target_audience]].\n\n### 1. Copy Structure (PAS Arc)\n- Pain -> Agitate -> Solution.\n\n### 2. Call to Action\nUnambiguous, friction-free CTA.`;
       }
       // DEEP
       return `### Role & Authority
 You are acting as an Elite Direct-Response Copywriter and Marketing Communications Director.
 
-### Core Operational Directive
+### Creative Scope
 Craft high-converting, persuasive narrative copy for [[content_type]] targeting [[target_audience]] that solves [[customer_pain]].
 
 ### 1. Hooks & Headlines
@@ -371,19 +412,21 @@ No corporate jargon, zero filler, maximum information density.`;
   }
 
   // 5. GENERAL FALLBACK DOMAIN
+  const mandate = rephraseGoalToMandate(cleanGoal, isRu);
+
   if (isRu) {
     if (aggressiveness === 'low') {
-      return `### Роль и Полномочия\nВы выступаете в роли профильного специалиста.\n\n### Операционная Цель\nВыполнить задачу: ${cleanGoal}.\n\n### Правила Выполнения\n- Излагать суть без вводных фрази клише.\n- Структурировать вывод в виде списка.`;
+      return `### Роль и Полномочия\nВы выступаете в роли профильного специалиста.\n\n### Контекст и Постановка Задачи\n${mandate}\n\n### Правила Выполнения\n- Излагать суть без вводных фраз и клише.\n- Структурировать вывод в виде четкого списка.`;
     }
     if (aggressiveness === 'medium') {
-      return `### Роль и Полномочия\nВы выступаете в роли эксперта и аналитика в соответствующей предметной области.\n\n### Операционная Цель\nВыполнить задачу: ${cleanGoal}.\n\n### 1. Протокол Выполнения\n1. Проанализировать вводные данные и выделить ключевые факторы.\n2. Сформировать пошаговое решение с практическими примерами.\n3. Проверить результат на полноту и точность.\n\n### 2. Требования к Формату\nЛаконичный Markdown-формат с четкими заголовками.`;
+      return `### Роль и Полномочия\nВы выступаете в роли эксперта и аналитика в соответствующей предметной области.\n\n### Контекст и Постановка Задачи\n${mandate}\n\n### 1. Протокол Выполнения\n1. Проанализировать вводные данные и выделить ключевые факторы.\n2. Сформировать пошаговое решение с практическими примерами.\n3. Проверить результат на полноту и точность.\n\n### 2. Требования к Формату\nЛаконичный Markdown-формат с четкими заголовками.`;
     }
     // DEEP
     return `### Роль и Полномочия
 Вы выступаете в роли Ведущего Эксперта и Стратега в соответствующей предметной области.
 
-### Операционная Цель
-Выполнить комплексную задачу: ${cleanGoal} с высокой точностью, логической строгостью и соблюдением профессиональных стандартов.
+### Контекст и Постановка Задачи
+${mandate}
 
 ### 1. Пошаговый Протокол Выполнения
 1. Проанализировать ключевые вводные параметры и выявить скрытые допущения.
@@ -399,17 +442,17 @@ No corporate jargon, zero filler, maximum information density.`;
   } else {
     // English General
     if (aggressiveness === 'low') {
-      return `### Role & Directive\nYou are acting as a domain specialist.\n\n### Primary Directive\nExecute task: ${cleanGoal}.\n\n### Rules\n- Provide direct output without conversational preambles.\n- Use concise Markdown formatting.`;
+      return `### Role & Expertise\nYou are acting as a domain specialist.\n\n### Context & Scope\n${mandate}\n\n### Rules\n- Provide direct output without conversational preambles.\n- Use concise Markdown formatting.`;
     }
     if (aggressiveness === 'medium') {
-      return `### Role & Authority\nYou are acting as an expert analyst and strategist.\n\n### Operational Directive\nExecute task: ${cleanGoal}.\n\n### 1. Execution Protocol\n1. Deconstruct requirements and analyze core parameters.\n2. Apply step-by-step domain logic to deliver solution.\n3. Verify output against quality standards.\n\n### 2. Output Format\nClean Markdown layout with clear section headers.`;
+      return `### Role & Authority\nYou are acting as an expert analyst and strategist.\n\n### Context & Scope\n${mandate}\n\n### 1. Execution Protocol\n1. Deconstruct requirements and analyze core parameters.\n2. Apply step-by-step domain logic to deliver solution.\n3. Verify output against quality standards.\n\n### 2. Output Format\nClean Markdown layout with clear section headers.`;
     }
     // DEEP
     return `### Role & Authority
 You are acting as a Principal Domain Specialist and Enterprise Advisor.
 
-### Core Operational Directive
-Execute task: ${cleanGoal} with high precision, logical rigor, and compliance with domain standards.
+### Context & Scope
+${mandate}
 
 ### 1. Execution & Reasoning Protocol
 1. Deconstruct request into functional sub-components.
@@ -640,15 +683,17 @@ export function buildPromptFromDescription(description: string, complexity: 'bas
   if (!description.trim()) return '';
 
   const cleanDesc = extractCoreGoalAndCleanMeta(description);
+  const isRu = isRussianText(description);
+  const mandate = rephraseGoalToMandate(cleanDesc, isRu);
 
   if (complexity === 'basic') {
-    return `### Role & Objective\nYou are a specialist tasked with:\n${cleanDesc}\n\n### Key Instructions:\n1. Deliver a clear, direct answer addressing the request.\n2. Present solution in bullet points or easy-to-read sections.\n3. Keep tone helpful, concise, and professional.`;
+    return `### Role & Expertise\nYou are a domain specialist.\n\n### Context & Scope\n${mandate}\n\n### Key Instructions:\n1. Deliver a clear, direct answer addressing the request.\n2. Present solution in bullet points or easy-to-read sections.\n3. Keep tone helpful, concise, and professional.`;
   }
 
   if (complexity === 'intermediate') {
-    return `### Role & Authority\nYou are an experienced domain authority with comprehensive expertise in this subject matter.\n\n### Primary Task:\n${cleanDesc}\n\n### Execution Guidelines:\n- Step 1: Clarify core mechanism or problem statement.\n- Step 2: Provide complete, actionable deliverable.\n- Step 3: Highlight caveats, edge cases, or trade-offs.\n\n### Constraints:\n- Avoid buzzwords, fluff, and unnecessary preambles.\n- Structure with clear Markdown headers and bullet lists.`;
+    return `### Role & Authority\nYou are an experienced domain authority with comprehensive expertise in this subject matter.\n\n### Context & Scope\n${mandate}\n\n### Execution Guidelines:\n- Step 1: Clarify core mechanism or problem statement.\n- Step 2: Provide complete, actionable deliverable.\n- Step 3: Highlight caveats, edge cases, or trade-offs.\n\n### Constraints:\n- Avoid buzzwords, fluff, and unnecessary preambles.\n- Structure with clear Markdown headers and bullet lists.`;
   }
 
   // Expert
-  return `<system_role>\nYou are an elite principal engineer and strategist with deep specialized mastery in executing complex deliverables.\n</system_role>\n\n<directive>\n${cleanDesc}\n</directive>\n\n<thinking_process>\n1. Deconstruct objective into core functional requirements.\n2. Identify latent assumptions and high-risk edge cases.\n3. Apply domain best practices and industry-standard patterns.\n4. Review draft against strict clarity and precision benchmarks.\n</thinking_process>\n\n<operational_constraints>\n1. Zero boilerplate fluff: Begin immediately with substantive content.\n2. Quantify results, timelines, or benchmarks wherever applicable.\n3. Adhere to crisp typographical hierarchy (Markdown headers, tables, code blocks).\n</operational_constraints>\n\n<deliverable_specification>\nStructure final response with:\n- Executive Summary (Max 2 sentences)\n- Core Solution / Deliverable\n- Implementation Matrix & Next Steps\n</deliverable_specification>`;
+  return `<system_role>\nYou are an elite principal engineer and strategist with deep specialized mastery in executing complex deliverables.\n</system_role>\n\n<context_and_scope>\n${mandate}\n</context_and_scope>\n\n<thinking_process>\n1. Deconstruct objective into core functional requirements.\n2. Identify latent assumptions and high-risk edge cases.\n3. Apply domain best practices and industry-standard patterns.\n4. Review draft against strict clarity and precision benchmarks.\n</thinking_process>\n\n<operational_constraints>\n1. Zero boilerplate fluff: Begin immediately with substantive content.\n2. Quantify results, timelines, or benchmarks wherever applicable.\n3. Adhere to crisp typographical hierarchy (Markdown headers, tables, code blocks).\n</operational_constraints>\n\n<deliverable_specification>\nStructure final response with:\n- Executive Summary (Max 2 sentences)\n- Core Solution / Deliverable\n- Implementation Matrix & Next Steps\n</deliverable_specification>`;
 }
