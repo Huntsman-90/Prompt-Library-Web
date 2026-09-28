@@ -5,7 +5,6 @@ import { useThemeStore } from './store/useThemeStore';
 
 import { Header } from './components/common/Header';
 import { MobileTabBar } from './components/common/MobileTabBar';
-import { OfflineIndicator } from './components/common/OfflineIndicator';
 import { ToastContainer } from './components/common/ToastContainer';
 
 import { PromptLibraryView } from './components/library/PromptLibraryView';
@@ -92,9 +91,6 @@ export default function App() {
       <PromptSplicerModal />
       <PromptChainView />
       <AIBuildModal />
-
-      {/* Floating Offline Notification */}
-      <OfflineIndicator />
 
       {/* Toast Notification Stack */}
       <ToastContainer />
