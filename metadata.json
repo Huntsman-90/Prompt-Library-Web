@@ -1,0 +1,6 @@
+{
+  "name": "Prompt Library Pro Web",
+  "description": "Professional 100% offline-first PWA prompt library, visual board, component catalog, and rule-based prompt engineering studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

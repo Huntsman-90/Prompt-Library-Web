@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#09090b" />
+    </linearGradient>
+    <linearGradient id="primary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded Base -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="4" />
+
+  <!-- Outer Glow Stack -->
+  <g transform="translate(64, 64) scale(0.75)">
+    <!-- Terminal Prompt Symbol >_ -->
+    <path d="M120 160 L240 256 L120 352" fill="none" stroke="url(#primary)" stroke-width="44" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="280" y1="352" x2="380" y2="352" stroke="url(#accent)" stroke-width="44" stroke-linecap="round" />
+    
+    <!-- Sparkle Stars -->
+    <path d="M380 140 Q380 180 420 180 Q380 180 380 220 Q380 180 340 180 Q380 180 380 140 Z" fill="#38bdf8" />
+    <path d="M140 100 Q140 120 160 120 Q140 120 140 140 Q140 120 120 120 Q140 120 140 100 Z" fill="#ec4899" />
+  </g>
+</svg>
