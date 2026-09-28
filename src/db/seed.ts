@@ -11,7 +11,7 @@ export async function initializeDatabase(): Promise<void> {
   const seedFlag = await db.settings.get('seed_version');
 
   // If already seeded at current version, skip
-  if (seedFlag?.value === '3.3.0') {
+  if (seedFlag?.value === '3.4.0') {
     return;
   }
 
@@ -26,6 +26,27 @@ export async function initializeDatabase(): Promise<void> {
 
   for (const id of defaultPromptIds) {
     await db.prompts.delete(id);
+  }
+
+  const defaultFolderIds = [
+    'folder-engineering',
+    'folder-strategy',
+    'folder-product',
+    'folder-writing',
+  ];
+
+  for (const id of defaultFolderIds) {
+    await db.folders.delete(id);
+  }
+
+  const defaultBoardIds = [
+    'board-tech-lead',
+    'board-gtm-suite',
+    'board-deep-thinking',
+  ];
+
+  for (const id of defaultBoardIds) {
+    await db.boards.delete(id);
   }
 
   // Remove those IDs from any existing boards
@@ -71,6 +92,6 @@ export async function initializeDatabase(): Promise<void> {
   }
 
   // Mark seed completed
-  await db.settings.put({ key: 'seed_version', value: '3.3.0' });
-  console.log(`Database seeded v3.3.0: ${allComponents.length} components, ${FRAMEWORKS_SEED.length} frameworks.`);
+  await db.settings.put({ key: 'seed_version', value: '3.4.0' });
+  console.log(`Database seeded v3.4.0: ${allComponents.length} components, ${FRAMEWORKS_SEED.length} frameworks.`);
 }
