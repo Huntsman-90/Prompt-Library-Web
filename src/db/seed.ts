@@ -11,8 +11,30 @@ export async function initializeDatabase(): Promise<void> {
   const seedFlag = await db.settings.get('seed_version');
 
   // If already seeded at current version, skip
-  if (seedFlag?.value === '3.1.0') {
+  if (seedFlag?.value === '3.3.0') {
     return;
+  }
+
+  const defaultPromptIds = [
+    'prompt-systems-architect-review',
+    'prompt-b2b-gtm-playbook',
+    'prompt-feynman-concept-mastery',
+    'prompt-ux-onboarding-audit',
+    'prompt-blameless-postmortem',
+    'prompt-executive-cold-email',
+  ];
+
+  for (const id of defaultPromptIds) {
+    await db.prompts.delete(id);
+  }
+
+  // Remove those IDs from any existing boards
+  const existingBoards = await db.boards.toArray();
+  for (const board of existingBoards) {
+    const updatedIds = board.promptIds.filter((pid) => !defaultPromptIds.includes(pid));
+    if (updatedIds.length !== board.promptIds.length) {
+      await db.boards.put({ ...board, promptIds: updatedIds });
+    }
   }
 
   const allComponents = [
@@ -32,7 +54,7 @@ export async function initializeDatabase(): Promise<void> {
 
   // Check if prompts already exist
   const existingPromptsCount = await db.prompts.count();
-  if (existingPromptsCount === 0) {
+  if (existingPromptsCount === 0 && DEFAULT_PROMPTS.length > 0) {
     await db.prompts.bulkPut(DEFAULT_PROMPTS);
   }
 
@@ -49,6 +71,6 @@ export async function initializeDatabase(): Promise<void> {
   }
 
   // Mark seed completed
-  await db.settings.put({ key: 'seed_version', value: '3.1.0' });
-  console.log(`Database seeded v3.1.0: ${allComponents.length} components, ${FRAMEWORKS_SEED.length} frameworks.`);
+  await db.settings.put({ key: 'seed_version', value: '3.3.0' });
+  console.log(`Database seeded v3.3.0: ${allComponents.length} components, ${FRAMEWORKS_SEED.length} frameworks.`);
 }
