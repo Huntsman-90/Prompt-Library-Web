@@ -172,7 +172,7 @@ export const CATEGORIES: CategoryMeta[] = [
   {
     id: 'frameworks',
     name: 'Frameworks',
-    shortDesc: '40+ end-to-end prompt architectures (RTF, CREATE, SPAR, TRACE, CRISPE, etc.)',
+    shortDesc: '55+ end-to-end prompt architectures (RTF, CREATE, SPAR, TRACE, CRISPE, CO-STAR, etc.)',
     iconName: 'Compass',
     color: 'from-indigo-600 via-purple-600 to-pink-600',
   },

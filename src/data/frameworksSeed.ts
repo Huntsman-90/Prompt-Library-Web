@@ -2,576 +2,588 @@ import type { FrameworkItem } from '../types';
 
 export const FRAMEWORKS_SEED: FrameworkItem[] = [
   {
-    id: 'framework-rtf',
-    name: 'RTF (Role, Task, Format)',
-    description: 'The golden classic: establishes authority, clear action, and precise delivery schema.',
-    category: 'frameworks',
+    id: 'fw-rtf',
+    name: 'RTF (Role-Task-Format)',
+    description: 'Crisp three-part architectural structure ideal for rapid execution directives.',
+    category: 'Core Architectures',
     structure: 'Role -> Task -> Format',
-    content: `You are a [[role_description]].
-Your task is to [[specific_task]].
-Format your response as [[desired_format_and_constraints]].`,
-    tags: ['classic', 'essential', 'beginner-friendly'],
-    exampleInputs: {
-      role_description: 'Principal UX Architect with 15 years in SaaS',
-      specific_task: 'audit our mobile onboarding checkout flow',
-      desired_format_and_constraints: 'a 5-point bulleted executive checklist with estimated drop-off risk percentages',
-    },
+    content: `### 1. ROLE\nYou are an expert [[role_title]] with deep mastery in [[domain_expertise]].\n\n### 2. TASK\nYour task is to [[primary_task_directive]]. Ensure you address [[key_constraint_or_focus]].\n\n### 3. FORMAT\nDeliver output as [[output_format_specification]]. Do not include unnecessary preamble or postscript.`,
+    tags: ['rtf', 'core', 'fast'],
   },
   {
-    id: 'framework-create',
-    name: 'CREATE (Character, Request, Examples, Adjustments, Type, Extras)',
-    description: 'Comprehensive framework covering persona, sample exemplars, and fine-tuning knobs.',
-    category: 'frameworks',
+    id: 'fw-create',
+    name: 'CREATE Framework',
+    description: 'Character, Request, Examples, Adjustment, Type, Extras for high-precision generation.',
+    category: 'End-to-End Workflows',
     structure: 'Character -> Request -> Examples -> Adjustments -> Type -> Extras',
-    content: `**Character:** Embody [[character_persona]].
-**Request:** [[core_request]].
-**Examples:** Follow this baseline model:
-\`\`\`
-[[few_shot_example]]
-\`\`\`
-**Adjustments:** [[style_adjustments_or_constraints]].
-**Type of Output:** [[output_type_schema]].
-**Extras:** [[negative_rules_or_bonus_sections]].`,
-    tags: ['advanced', 'comprehensive', 'prompt-engineering'],
+    content: `### 1. CHARACTER\nYou are [[persona_character]] operating in context of [[operational_environment]].\n\n### 2. REQUEST\nGenerate [[core_deliverable]] designed to solve [[user_problem]].\n\n### 3. EXAMPLES\nReference style and depth based on these benchmarks:\n[[reference_examples]]\n\n### 4. ADJUSTMENTS & CONSTRAINTS\n- Tone: [[desired_tone]]\n- Exclude: [[excluded_elements]]\n- Length Budget: [[length_limit]]\n\n### 5. TYPE & OUTPUT FORMAT\nFormat strictly as [[output_type]].\n\n### 6. EXTRAS\nInclude a short 3-item self-critique checking compliance against constraints.`,
+    tags: ['create', 'comprehensive', 'workflow'],
   },
   {
-    id: 'framework-care',
-    name: 'CARE (Context, Action, Result, Example)',
-    description: 'Anchors business problem, actions, expected outcome, and illustrative example.',
-    category: 'frameworks',
-    structure: 'Context -> Action -> Result -> Example',
-    content: `### Context
-[[background_context_and_constraints]]
-
-### Action
-Perform this specific action: [[action_steps]]
-
-### Desired Result
-The target milestone or outcome is: [[target_outcome]]
-
-### Reference Example
-Model your response closely on this benchmark:
-[[reference_example]]`,
-    tags: ['business', 'clarity', 'results-driven'],
-  },
-  {
-    id: 'framework-clear',
-    name: 'CLEAR (Concise, Logical, Explicit, Adaptive, Reflective)',
-    description: 'High-density framework for analytical, multi-layered problem solving.',
-    category: 'frameworks',
-    structure: 'Concise Context -> Logical Plan -> Explicit Task -> Adaptive Tone -> Reflective Audit',
-    content: `**Concise Background:** [[brief_context]]
-**Logical Roadmap:** Break down the solution across [[logical_stages]].
-**Explicit Requirements:** You must include [[explicit_deliverables]] and strictly avoid [[prohibited_items]].
-**Adaptive Tone:** Match the cognitive style of a [[target_reader]].
-**Reflective Audit:** Before finishing, review your work and state any residual risks or assumptions.`,
-    tags: ['analytical', 'multi-stage', 'strategic'],
-  },
-  {
-    id: 'framework-race',
-    name: 'RACE (Role, Action, Context, Expectation)',
-    description: 'Direct corporate framework aligning execution with business expectations.',
-    category: 'frameworks',
-    structure: 'Role -> Action -> Context -> Expectation',
-    content: `**Role:** [[expert_title]]
-**Action:** [[action_directive]]
-**Context:** [[operating_environment]]
-**Expectation:** Success will be judged by [[metric_or_quality_bar]].`,
-    tags: ['corporate', 'management', 'kpi'],
-  },
-  {
-    id: 'framework-tag',
-    name: 'TAG (Task, Action, Goal)',
-    description: 'Lightweight, rapid-fire framework for quick high-precision prompts.',
-    category: 'frameworks',
-    structure: 'Task -> Action -> Goal',
-    content: `1. **Task:** [[main_assignment]]
-2. **Action:** [[step_by_step_operations]]
-3. **Goal:** [[ultimate_objective_and_business_impact]]`,
-    tags: ['minimalist', 'fast', 'productivity'],
-  },
-  {
-    id: 'framework-bab',
-    name: 'BAB (Before, After, Bridge)',
-    description: 'Copywriting and narrative framework transforming current pain into future triumph.',
-    category: 'frameworks',
-    structure: 'Before -> After -> Bridge',
-    content: `**Before:** Describe the current frustrating status quo regarding [[current_pain_point]].
-**After:** Paint the vivid picture of life once [[solution_state]] is achieved.
-**Bridge:** Provide the actionable roadmap and exact steps that bridge the gap from Before to After.`,
-    tags: ['copywriting', 'marketing', 'persuasion'],
-  },
-  {
-    id: 'framework-pastor',
-    name: 'PASTOR (Problem, Amplify, Story, Transformation, Offer, Response)',
-    description: 'Master conversion storytelling structure for sales letters, pitches, and manifestos.',
-    category: 'frameworks',
-    structure: 'Problem -> Amplify -> Story -> Transformation -> Offer -> Response',
-    content: `1. **Problem:** Identify the acute friction of [[target_customer_problem]].
-2. **Amplify:** Illustrate the compounding cost of inaction.
-3. **Story:** Share a relatable case narrative of someone trapped in this problem.
-4. **Transformation:** Detail the pivotal shift in strategy that unlocked success.
-5. **Offer:** Introduce [[product_or_solution]] as the proven mechanism.
-6. **Response:** Conclude with an unmistakable call-to-action.`,
-    tags: ['sales', 'storytelling', 'conversion'],
-  },
-  {
-    id: 'framework-ape',
-    name: 'APE (Action, Purpose, Expectation)',
-    description: 'Crystal-clear task delegation framework for AI autonomy.',
-    category: 'frameworks',
-    structure: 'Action -> Purpose -> Expectation',
-    content: `**Action:** [[exact_action_to_take]]
-**Purpose:** We are doing this because [[strategic_rationale]].
-**Expectation:** The final deliverable must satisfy:
-- [[criterion_1]]
-- [[criterion_2]]
-- Format: [[schema_format]]`,
-    tags: ['delegation', 'clarity', 'direction'],
-  },
-  {
-    id: 'framework-prep',
-    name: 'PREP (Point, Reason, Example, Point)',
-    description: 'Rhetorical structure for airtight arguments, memos, and debate positions.',
-    category: 'frameworks',
-    structure: 'Point -> Reason -> Example -> Point',
-    content: `**Main Point:** State the primary thesis on [[controversial_topic]].
-**Reason:** Provide the core logical and empirical foundation.
-**Example:** Deliver a concrete real-world case study or data point.
-**Point Restated:** Conclude with the inescapable strategic implication.`,
-    tags: ['argumentation', 'debate', 'rhetoric'],
-  },
-  {
-    id: 'framework-spar',
-    name: 'SPAR (Situation, Problem, Action, Result)',
-    description: 'Case study and performance narrative framework.',
-    category: 'frameworks',
+    id: 'fw-spar',
+    name: 'SPAR (Situation-Problem-Action-Result)',
+    description: 'Case study and narrative framework tailored for executive storytelling and reports.',
+    category: 'Business & Strategy',
     structure: 'Situation -> Problem -> Action -> Result',
-    content: `### Scenario Breakdown
-- **Situation:** [[baseline_conditions]]
-- **Problem:** [[critical_obstacle]]
-- **Action:** [[intervention_steps]]
-- **Result:** [[quantified_outcomes_and_lessons]]`,
-    tags: ['case-study', 'retrospective', 'analysis'],
+    content: `### 1. SITUATION\nEstablish baseline context for [[organization_or_project]]:\n- Market Environment: [[market_context]]\n- Current Resources: [[resource_baseline]]\n\n### 2. PROBLEM\nIdentify core challenge:\n- Primary Friction: [[core_friction]]\n- Quantified Cost of Status Quo: [[cost_of_inaction]]\n\n### 3. ACTION\nOutline step-by-step strategic initiative implemented:\n[[step_by_step_actions]]\n\n### 4. RESULT\nDetail high-leverage outcomes:\n- Primary KPI Delta: [[kpi_results]]\n- Long-term Enterprise Value: [[value_created]]`,
+    tags: ['spar', 'business', 'case-study'],
   },
   {
-    id: 'framework-grade',
-    name: 'GRADE (Goal, Role, Audience, Deliverable, Evaluation)',
-    description: 'Comprehensive assignment rubric for research, memos, and technical specs.',
-    category: 'frameworks',
-    structure: 'Goal -> Role -> Audience -> Deliverable -> Evaluation',
-    content: `**Goal:** [[primary_mission]]
-**Role:** Embody a [[domain_expert]]
-**Audience:** Tailored for a [[target_reader]]
-**Deliverable:** Structure as a [[document_format]]
-**Evaluation Rubric:** Score the output on accuracy, depth, conciseness, and actionability.`,
-    tags: ['rubric', 'academic', 'management'],
+    id: 'fw-co-star',
+    name: 'CO-STAR Prompt Framework',
+    description: 'Context, Objective, Style, Tone, Audience, Response for enterprise-grade outputs.',
+    category: 'Executive Communications',
+    structure: 'Context -> Objective -> Style -> Tone -> Audience -> Response',
+    content: `### CONTEXT\n[[background_context]]\n\n### OBJECTIVE\n[[primary_goal]]\n\n### STYLE\n[[writing_style_reference]]\n\n### TONE\n[[emotional_and_professional_tone]]\n\n### AUDIENCE\n[[target_audience_profile]]\n\n### RESPONSE FORMAT\n[[exact_output_formatting]]`,
+    tags: ['co-star', 'enterprise', 'communication'],
   },
   {
-    id: 'framework-scqa',
-    name: 'SCQA (Situation, Complication, Question, Answer)',
-    description: 'The classic McKinsey pyramid principle communication structure.',
-    category: 'frameworks',
-    structure: 'Situation -> Complication -> Question -> Answer',
-    content: `1. **Situation:** Set the uncontroversial baseline facts regarding [[context]].
-2. **Complication:** Introduce the destabilizing event or conflict: [[complication]].
-3. **Question:** Formulate the central strategic dilemma: "How do we [[key_question]]?"
-4. **Answer:** Deliver your decisive, structured recommendation.`,
-    tags: ['mckinsey', 'consulting', 'pyramid-principle'],
-  },
-  {
-    id: 'framework-star',
-    name: 'STAR (Situation, Task, Action, Result)',
-    description: 'Standard behavioral interview and portfolio case structure.',
-    category: 'frameworks',
-    structure: 'Situation -> Task -> Action -> Result',
-    content: `Craft a compelling STAR narrative around [[achievement_topic]]:
-- **Situation:** Set the organizational stakes and constraints.
-- **Task:** Detail your explicit individual responsibility.
-- **Action:** Highlight proactive, high-leverage decisions you made.
-- **Result:** Quantify the business impact, metrics moved, and long-term benefit.`,
-    tags: ['interview', 'career', 'storytelling'],
-  },
-  {
-    id: 'framework-coast',
-    name: 'COAST (Context, Objective, Actions, Scenario, Task)',
-    description: 'Scenario-based operational task planning framework.',
-    category: 'frameworks',
-    structure: 'Context -> Objective -> Actions -> Scenario -> Task',
-    content: `**Context:** [[operating_background]]
-**Objective:** [[end_state_goal]]
-**Actions:** [[approved_tools_and_methods]]
-**Scenario:** If [[risk_event]] occurs, adjust by [[mitigation_route]].
-**Task:** Execute the primary phase [[phase_one_deliverable]].`,
-    tags: ['operations', 'scenario-planning', 'tactical'],
-  },
-  {
-    id: 'framework-era',
-    name: 'ERA (Expectation, Role, Action)',
-    description: 'Rapid executive delegation prompt.',
-    category: 'frameworks',
-    structure: 'Expectation -> Role -> Action',
-    content: `My **Expectation** is a world-class [[deliverable_name]].
-Take on the **Role** of a [[veteran_expert]].
-Your immediate **Action** is to [[immediate_directive]].`,
-    tags: ['minimalist', 'executive', 'fast'],
-  },
-  {
-    id: 'framework-trace',
-    name: 'TRACE (Task, Request, Action, Context, Example)',
-    description: 'Iterative technical blueprint prompt structure.',
-    category: 'frameworks',
-    structure: 'Task -> Request -> Action -> Context -> Example',
-    content: `**Task:** [[overall_job]]
-**Request:** [[specific_file_or_code_request]]
-**Action:** [[architectural_steps_to_take]]
-**Context:** [[runtime_and_library_versions]]
-**Example:** Follow the syntactic style shown here:
-\`\`\`
-[[code_syntax_reference]]
-\`\`\``,
-    tags: ['technical', 'coding', 'architecture'],
-  },
-  {
-    id: 'framework-roses',
-    name: 'ROSES (Role, Objective, Scenario, Expected Solution, Steps)',
-    description: 'Rich problem-solving framework for complex real-world challenges.',
-    category: 'frameworks',
-    structure: 'Role -> Objective -> Scenario -> Expected Solution -> Steps',
-    content: `**Role:** [[practitioner_role]]
-**Objective:** [[target_mission]]
-**Scenario:** [[crisis_or_challenge_setting]]
-**Expected Solution:** A production-ready plan that resolves [[root_issue]].
-**Steps:** Provide your solution as a phased step-by-step rollout.`,
-    tags: ['problem-solving', 'strategy', 'rollout'],
-  },
-  {
-    id: 'framework-cidi',
-    name: 'CIDI (Context, Instructions, Details, Input)',
-    description: 'Clean data transformation and processing structure.',
-    category: 'frameworks',
-    structure: 'Context -> Instructions -> Details -> Input',
-    content: `### Context
-[[domain_rules_and_environment]]
-
-### Instructions
-1. Parse the input below.
-2. Apply [[transformation_rules]].
-3. Return in [[target_format]].
-
-### Details & Constraints
-- Constraint: [[constraint_rules]]
-
-### Input Data
-\`\`\`
-[[raw_input_data]]
-\`\`\``,
-    tags: ['data-processing', 'etl', 'structured'],
-  },
-  {
-    id: 'framework-crispe',
-    name: 'CRISPE (Capacity, Role, Insight, Statement, Personality, Experiment)',
-    description: 'Advanced prompt-tuning framework incorporating personality and exploration runs.',
-    category: 'frameworks',
+    id: 'fw-crispe',
+    name: 'CRISPE Framework',
+    description: 'Capacity, Role, Insight, Statement, Personality, Experiment for creative & technical tasks.',
+    category: 'Technical & Engineering',
     structure: 'Capacity -> Role -> Insight -> Statement -> Personality -> Experiment',
-    content: `**Capacity & Role:** Act as [[elite_specialist]] with supreme competence in [[domain]].
-**Insight:** Ground your worldview in this core insight: [[foundational_insight]].
-**Statement of Work:** [[precise_statement_of_task]].
-**Personality:** Radiate a [[stylistic_personality_traits]] tone.
-**Experiment:** Provide 2 alternative divergent formulations for testing.`,
-    tags: ['advanced', 'divergence', 'creative'],
+    content: `### CAPACITY & ROLE\nAct as [[capacity_and_role]] with specialized authority in [[specialized_field]].\n\n### INSIGHT\nKey background facts and domain assumptions:\n[[background_facts]]\n\n### STATEMENT\nYour directive is to generate [[exact_deliverable]].\n\n### PERSONALITY\nAdopt tone that is [[personality_traits]].\n\n### EXPERIMENT & VARIATIONS\nProvide 2 alternative approaches: Option A focusing on [[focus_a]], Option B focusing on [[focus_b]].`,
+    tags: ['crispe', 'technical', 'experiments'],
   },
   {
-    id: 'framework-aida',
-    name: 'AIDA (Attention, Interest, Desire, Action)',
-    description: 'The immortal advertising formula for converting attention into revenue.',
-    category: 'frameworks',
+    id: 'fw-trace',
+    name: 'TRACE Framework',
+    description: 'Task, Reason, Action, Context, Exemplar for clear instructional generation.',
+    category: 'Reasoning & Logic',
+    structure: 'Task -> Reason -> Action -> Context -> Exemplar',
+    content: `### TASK\n[[task_description]]\n\n### REASON\nWhy this matters: [[strategic_justification]]\n\n### ACTION\nStep-by-step execution directives:\n[[execution_steps]]\n\n### CONTEXT\nOperating conditions and environment:\n[[operating_context]]\n\n### EXEMPLAR\nIdeal response sample:\n[[sample_output_reference]]`,
+    tags: ['trace', 'reasoning', 'instructional'],
+  },
+  {
+    id: 'fw-roses',
+    name: 'ROSES Architecture',
+    description: 'Role, Objective, Scenario, Expected Solution, Steps.',
+    category: 'Problem Solving',
+    structure: 'Role -> Objective -> Scenario -> Expected Solution -> Steps',
+    content: `### ROLE\n[[role_definition]]\n\n### OBJECTIVE\n[[primary_objective]]\n\n### SCENARIO\n[[scenario_details]]\n\n### EXPECTED SOLUTION\n[[solution_criteria]]\n\n### STEPS\n[[step_by_step_process]]`,
+    tags: ['roses', 'problem-solving'],
+  },
+  {
+    id: 'fw-cidi',
+    name: 'CIDI Framework',
+    description: 'Context, Instruction, Data, Interpretation for data analysis tasks.',
+    category: 'Data & Analytics',
+    structure: 'Context -> Instruction -> Data -> Interpretation',
+    content: `### CONTEXT\n[[data_context]]\n\n### INSTRUCTION\n[[analysis_instruction]]\n\n### DATA PAYLOAD\n<data>\n[[data_payload]]\n</data>\n\n### INTERPRETATION REQUIREMENTS\nProvide insights grouped by:\n1. Core Anomalies\n2. Key Drivers\n3. Strategic Recommendations`,
+    tags: ['cidi', 'data', 'analytics'],
+  },
+  {
+    id: 'fw-aida',
+    name: 'AIDA Copywriting Framework',
+    description: 'Attention, Interest, Desire, Action for persuasive marketing copy.',
+    category: 'Writing & Marketing',
     structure: 'Attention -> Interest -> Desire -> Action',
-    content: `Create high-converting copy for [[offer_name]]:
-1. **Attention:** Stop the reader in their tracks with a provocative hook.
-2. **Interest:** Share an intriguing fact or fresh perspective on [[pain_point]].
-3. **Desire:** Show how life shifts when [[product_benefit]] takes effect.
-4. **Action:** Give an urgent, low-friction call-to-action.`,
-    tags: ['marketing', 'advertising', 'copywriting'],
+    content: `### 1. ATTENTION\nHook for [[target_audience]]: [[attention_hook]]\n\n### 2. INTEREST\nBuild interest regarding [[product_feature]]: [[interest_narrative]]\n\n### 3. DESIRE\nHighlight transformational benefits: [[desire_proof]]\n\n### 4. ACTION\nCompelling call to action: [[cta_link]]`,
+    tags: ['aida', 'copywriting', 'marketing'],
   },
   {
-    id: 'framework-pas',
-    name: 'PAS (Problem, Agitate, Solve)',
-    description: 'The highest-converting direct response framework.',
-    category: 'frameworks',
+    id: 'fw-pas',
+    name: 'PAS (Problem-Agitate-Solve)',
+    description: 'Classic high-conversion copywriting architecture.',
+    category: 'Writing & Marketing',
     structure: 'Problem -> Agitate -> Solve',
-    content: `1. **Problem:** Clearly name the silent struggle of [[audience_pain]].
-2. **Agitate:** Agitate the visceral consequences of ignoring this issue.
-3. **Solve:** Introduce [[solution_protocol]] as the definitive cure.`,
-    tags: ['direct-response', 'copywriting', 'conversion'],
+    content: `### PROBLEM\nDefine core frustration experienced by [[target_customer]]:\n[[problem_statement]]\n\n### AGITATE\nAmplify emotional and financial pain of leaving this unresolved:\n[[pain_amplification]]\n\n### SOLVE\nPresent [[solution_name]] as definitive resolution:\n[[solution_overview]]`,
+    tags: ['pas', 'marketing', 'conversion'],
   },
   {
-    id: 'framework-fab',
-    name: 'FAB (Features, Advantages, Benefits)',
-    description: 'B2B product marketing structure translating technical specs into business value.',
-    category: 'frameworks',
-    structure: 'Feature -> Advantage -> Benefit',
-    content: `Break down the value proposition of [[product_feature]]:
-- **Feature (What it is):** Concrete technical spec or capability.
-- **Advantage (What it does):** How it outperforms competing approaches.
-- **Benefit (What it means for the buyer):** The bottom-line emotional or financial win.`,
-    tags: ['product-marketing', 'b2b', 'sales'],
+    id: 'fw-fab',
+    name: 'FAB (Features-Advantages-Benefits)',
+    description: 'Translates technical specifications into human value drivers.',
+    category: 'Product & Sales',
+    structure: 'Features -> Advantages -> Benefits',
+    content: `### FEATURE\n[[technical_feature_spec]]\n\n### ADVANTAGE\nHow this outperforms traditional approaches:\n[[competitive_advantage]]\n\n### BENEFIT\nThe ultimate real-world value for [[end_user]]:\n[[user_benefit]]`,
+    tags: ['fab', 'sales', 'product'],
   },
   {
-    id: 'framework-4c',
-    name: '4C (Clear, Concise, Compelling, Credible)',
-    description: 'Editorial review filter ensuring copy hits executive standards.',
-    category: 'frameworks',
-    structure: 'Clear -> Concise -> Compelling -> Credible',
-    content: `Rewrite the draft text below according to the 4C Standard:
-1. **Clear:** Remove all vague phrases and buzzwords.
-2. **Concise:** Cut word count by 35% without losing information.
-3. **Compelling:** Elevate the emotional stakes and urgency.
-4. **Credible:** Back assertions with verifiable proof points.
-Draft:
-[[draft_text]]`,
-    tags: ['editing', 'copywriting', 'polish'],
+    id: 'fw-care',
+    name: 'CARE Framework',
+    description: 'Context, Action, Result, Example for performance reviews & case studies.',
+    category: 'Management & HR',
+    structure: 'Context -> Action -> Result -> Example',
+    content: `### CONTEXT\n[[situation_background]]\n\n### ACTION\n[[actions_taken]]\n\n### RESULT\n[[quantified_outcomes]]\n\n### EXAMPLE\n[[concrete_supporting_evidence]]`,
+    tags: ['care', 'management', 'hr'],
   },
   {
-    id: 'framework-5w1h',
-    name: '5W1H (Who, What, Where, When, Why, How)',
-    description: 'Comprehensive journalistic discovery protocol.',
-    category: 'frameworks',
-    structure: 'Who -> What -> Where -> When -> Why -> How',
-    content: `Analyze the release of [[topic_or_event]]:
-- **Who:** Stakeholders, drivers, and beneficiaries
-- **What:** The exact substance and scope
-- **Where:** Ecosystem, geography, or architectural layer
-- **When:** Chronology, milestones, and urgency
-- **Why:** Underlying economic, political, or psychological drivers
-- **How:** Technical mechanism of operation`,
-    tags: ['investigative', 'journalism', 'discovery'],
+    id: 'fw-coast',
+    name: 'COAST Architecture',
+    description: 'Context, Objective, Actions, Scenario, Task.',
+    category: 'Operations',
+    structure: 'Context -> Objective -> Actions -> Scenario -> Task',
+    content: `### CONTEXT: [[operational_context]]\n### OBJECTIVE: [[target_goal]]\n### ACTIONS: [[required_actions]]\n### SCENARIO: [[edge_case_scenario]]\n### TASK: [[immediate_task]]`,
+    tags: ['coast', 'operations'],
   },
   {
-    id: 'framework-six-hats',
-    name: 'Six Thinking Hats (De Bono)',
-    description: 'Holistic multi-dimensional perspective rotation.',
-    category: 'frameworks',
-    structure: 'White -> Red -> Black -> Yellow -> Green -> Blue',
-    content: `Evaluate [[strategic_decision]] across all Six Thinking Hats:
-- **White Hat (Data):** What objective facts and figures do we know?
-- **Red Hat (Emotion):** What are the gut feelings, fears, and intuitions?
-- **Black Hat (Caution):** What are the catastrophic failure points and legal risks?
-- **Yellow Hat (Optimism):** What is the blue-sky upside if everything goes right?
-- **Green Hat (Creativity):** What novel or crazy workarounds could we invent?
-- **Blue Hat (Process):** What is our final synthesis and next action?`,
-    tags: ['de-bono', 'decision-making', 'creativity'],
+    id: 'fw-race',
+    name: 'RACE Framework',
+    description: 'Role, Action, Context, Expectation.',
+    category: 'Core Architectures',
+    structure: 'Role -> Action -> Context -> Expectation',
+    content: `### ROLE: [[role_title]]\n### ACTION: [[action_directive]]\n### CONTEXT: [[background_context]]\n### EXPECTATION: [[expected_deliverable]]`,
+    tags: ['race', 'core'],
   },
   {
-    id: 'framework-first-principles',
-    name: 'First Principles Engineering',
-    description: 'Deconstructs to immutable axioms and builds solutions upward.',
-    category: 'frameworks',
-    structure: 'Axioms -> Constraints -> Bottom-Up Synthesis',
-    content: `Apply First-Principles Reasoning to [[intractable_problem]]:
-1. Strip away all industry precedent, common practices, and analogies.
-2. What are the immutable physical, mathematical, or economic truths?
-3. What constraints are artificial self-imposed myths?
-4. Synthesize a breakthrough solution built upwards from first axioms alone.`,
-    tags: ['first-principles', 'physics', 'engineering'],
-  },
-  {
-    id: 'framework-feynman',
-    name: 'Feynman Teaching Framework',
-    description: 'True mastery through radical simplification and testing.',
-    category: 'frameworks',
-    structure: 'Simple Explanation -> Metaphor -> Knowledge Gaps -> Self-Test',
-    content: `Master the concept of [[complex_subject]]:
-1. **Explain simply:** Write an explanation so intuitive a 10-year-old grasps it.
-2. **Anchor with metaphor:** Connect it to an everyday sensory experience.
-3. **Pinpoint gaps:** Where does simplification risk distortion?
-4. **Comprehension check:** 3 questions to verify deep understanding.`,
-    tags: ['feynman', 'pedagogy', 'mastery'],
-  },
-  {
-    id: 'framework-react',
-    name: 'ReAct (Reasoning and Acting)',
-    description: 'Agentic thought-action-observation loop.',
-    category: 'frameworks',
-    structure: 'Thought -> Action -> Observation -> Final Answer',
-    content: `Solve [[complex_multi_step_problem]] in a strict ReAct sequence:
-- **Thought 1:** Analyze the current state.
-- **Action 1:** Specify the targeted calculation or lookup.
-- **Observation 1:** Detail the findings.
-- **Repeat until resolved.**
-- **Final Answer:** State the verified synthesis.`,
-    tags: ['agentic', 'react', 'logic'],
-  },
-  {
-    id: 'framework-chain-of-thought',
-    name: 'Chain-of-Thought (CoT)',
-    description: 'Linear deduction breaking multi-layered reasoning into verified steps.',
-    category: 'frameworks',
-    structure: 'Deconstruct -> Step-wise Deduction -> Verification -> Answer',
-    content: `Approach this problem step by step:
-1. State the known givens and target unknowns for [[problem_prompt]].
-2. Show each intermediate mathematical or conceptual transformation.
-3. Check for arithmetic or logical fallacies before proceeding.
-4. Box the final answer clearly.`,
-    tags: ['chain-of-thought', 'math', 'reasoning'],
-  },
-  {
-    id: 'framework-tree-of-thoughts',
-    name: 'Tree of Thoughts (ToT)',
-    description: 'Branching exploration with explicit heuristic scoring and pruning.',
-    category: 'frameworks',
-    structure: 'Branching -> Heuristic Scoring -> Pruning -> Convergence',
-    content: `To solve [[strategic_challenge]], construct a Tree of Thoughts:
-- Generate 3 distinct initial strategies (Branches A, B, C).
-- Score each branch on Feasibility (1-5), Impact (1-5), and Speed (1-5).
-- Prune the 2 weaker branches with clear justification.
-- Expand the winning branch into 3 sub-tactics and select the winner.`,
-    tags: ['tree-of-thought', 'exploration', 'scoring'],
-  },
-  {
-    id: 'framework-inversion',
-    name: 'Inversion Thinking (Charlie Munger)',
-    description: 'Solves problems by violently planning how to fail.',
-    category: 'frameworks',
-    structure: 'Catastrophic Failure -> Root Hazards -> Proactive Moats',
-    content: `Apply Inversion to [[project_or_goal]]:
-1. Imagine this project is 12 months in the future and has failed in absolute disgrace.
-2. List the 5 exact blunders that triggered the collapse.
-3. For each blunder, design an ironclad operational policy that guarantees it can never occur.`,
-    tags: ['munger', 'inversion', 'risk-management'],
-  },
-  {
-    id: 'framework-second-order',
-    name: 'Second-Order Thinking',
-    description: 'Evaluates ripple effects beyond immediate immediate outcomes.',
-    category: 'frameworks',
-    structure: '1st Order Impact -> 2nd Order Ripple -> 3rd Order Systemic Equilibrium',
-    content: `Analyze the systemic fallout of [[proposed_policy]]:
-- **1st Order Effect (Immediate & Obvious):** What happens right away?
-- **2nd Order Effect (Behavioral Adaptations):** How will people react to the new incentive?
-- **3rd Order Effect (Unintended Systemic Shifts):** What unforeseen equilibrium forms 3 years out?`,
-    tags: ['systems-thinking', 'economics', 'strategy'],
-  },
-  {
-    id: 'framework-pestel',
-    name: 'PESTEL Environmental Scan',
-    description: 'Macro-environmental framework for strategic risk assessment.',
-    category: 'frameworks',
+    id: 'fw-pestel',
+    name: 'PESTEL Strategic Analysis',
+    description: 'Macro-environmental audit spanning Political, Economic, Social, Tech, Environmental, Legal vectors.',
+    category: 'Business & Strategy',
     structure: 'Political -> Economic -> Social -> Technological -> Environmental -> Legal',
-    content: `Conduct a macro PESTEL audit for [[market_or_company]]:
-- **Political:** Regulatory stability, trade tariffs, state interventions.
-- **Economic:** Inflation, capital availability, consumer spending power.
-- **Social:** Demographic shifts, cultural values, lifestyle trends.
-- **Technological:** AI disruption, obsolescence, infrastructure upgrades.
-- **Environmental:** Carbon mandates, climate resilience, resource constraints.
-- **Legal:** Antitrust, employment law, IP rights.`,
-    tags: ['pestel', 'macro', 'strategy'],
+    content: `### PESTEL Macro Analysis for [[industry_or_market]]\n1. **Political**: [[political_factors]]\n2. **Economic**: [[economic_drivers]]\n3. **Social**: [[demographic_shifts]]\n4. **Technological**: [[tech_disruptions]]\n5. **Environmental**: [[sustainability_impacts]]\n6. **Legal**: [[regulatory_risks]]`,
+    tags: ['pestel', 'strategy', 'analysis'],
   },
   {
-    id: 'framework-swot-matrix',
-    name: 'SWOT + TOWS Strategic Cross-Matrix',
-    description: 'Pairs internal strengths with external market forces.',
-    category: 'frameworks',
-    structure: 'SWOT Audit -> SO Strategies -> WO Strategies -> ST Strategies -> WT Defenses',
-    content: `Evaluate [[organization_name]] with a TOWS matrix:
-1. **Internal:** Strengths & Weaknesses.
-2. **External:** Opportunities & Threats.
-3. **SO Strategies:** How do Strengths maximize Opportunities?
-4. **WO Strategies:** How do Opportunities cure Weaknesses?
-5. **ST Strategies:** How do Strengths shield against Threats?
-6. **WT Defenses:** How do we prevent Weaknesses from colliding with Threats?`,
-    tags: ['swot', 'tows', 'strategic-planning'],
+    id: 'fw-swot-cross',
+    name: 'SWOT + Cross-Matrix Action Generator',
+    description: 'Transforms raw SWOT into actionable SO, WO, ST, WT strategy vectors.',
+    category: 'Business & Strategy',
+    structure: 'SWOT Assessment -> Cross-Matrix Strategy',
+    content: `### SWOT Assessment for [[company_name]]\n- Strengths: [[strengths]]\n- Weaknesses: [[weaknesses]]\n- Opportunities: [[opportunities]]\n- Threats: [[threats]]\n\n### TOWS Action Strategies\n- SO (Leverage Strengths for Opportunities): [[so_strategy]]\n- WO (Overcome Weaknesses via Opportunities): [[wo_strategy]]\n- ST (Use Strengths to Shield Threats): [[st_strategy]]\n- WT (Defensive Risk Reduction): [[wt_strategy]]`,
+    tags: ['swot', 'tows', 'strategy'],
   },
   {
-    id: 'framework-mckinsey-7s',
-    name: 'McKinsey 7S Organizational Alignment',
-    description: 'Diagnoses organizational friction across hard and soft dimensions.',
-    category: 'frameworks',
-    structure: 'Hard Elements (Strategy, Structure, Systems) -> Soft Elements (Shared Values, Style, Staff, Skills)',
-    content: `Audit organizational readiness for [[strategic_pivot]] using McKinsey 7S:
-- **Hard S:** Strategy, Organizational Structure, Core IT/Operational Systems.
-- **Soft S:** Shared Core Values, Leadership Style, Staffing Capacity, Key Skills.
-- Identify the single greatest misalignment threatening the transition.`,
-    tags: ['mckinsey-7s', 'transformation', 'leadership'],
+    id: 'fw-5w1h',
+    name: '5W1H Inquiry Framework',
+    description: 'Who, What, Where, When, Why, How comprehensive breakdown.',
+    category: 'Research & Analysis',
+    structure: 'Who -> What -> Where -> When -> Why -> How',
+    content: `### 5W1H Investigation for [[incident_or_topic]]\n- **Who**: [[stakeholders_involved]]\n- **What**: [[event_description]]\n- **Where**: [[location_or_system]]\n- **When**: [[timeline_and_frequency]]\n- **Why**: [[root_causes]]\n- **How**: [[mechanisms_and_process]]`,
+    tags: ['5w1h', 'investigation', 'research'],
   },
   {
-    id: 'framework-blue-ocean',
-    name: 'Blue Ocean Strategy Canvas (ERRC)',
-    description: 'Breaks out of red ocean competition by redefining value curves.',
-    category: 'frameworks',
-    structure: 'Eliminate -> Reduce -> Raise -> Create',
-    content: `Apply the ERRC Grid to disrupt [[traditional_industry]]:
-- **Eliminate:** Which factors that the industry takes for granted should be eliminated?
-- **Reduce:** Which factors should be reduced well below industry standards?
-- **Raise:** Which factors should be raised well above the industry standard?
-- **Create:** What entirely new factor should be created that the industry has never offered?`,
-    tags: ['blue-ocean', 'innovation', 'disruption'],
+    id: 'fw-six-hats',
+    name: 'Six Thinking Hats Deconstruct',
+    description: 'Parallel thinking model examining problems through 6 distinct cognitive perspectives.',
+    category: 'Reasoning & Logic',
+    structure: 'White -> Red -> Black -> Yellow -> Green -> Blue',
+    content: `### Six Thinking Hats Analysis for [[proposal]]\n1. **White Hat (Facts & Data)**: [[neutral_data]]\n2. **Red Hat (Emotions & Intuition)**: [[gut_reactions]]\n3. **Black Hat (Caution & Risk)**: [[pessimistic_risks]]\n4. **Yellow Hat (Optimism & Value)**: [[optimistic_benefits]]\n5. **Green Hat (Creativity & Growth)**: [[out_of_box_ideas]]\n6. **Blue Hat (Process Control & Next Steps)**: [[action_synthesis]]`,
+    tags: ['six-hats', 'cognition', 'reasoning'],
   },
   {
-    id: 'framework-okr',
-    name: 'OKR (Objectives & Key Results) Cascade',
-    description: 'High-alignment quarterly goal setting architecture.',
-    category: 'frameworks',
-    structure: 'Objective -> Key Result 1 -> Key Result 2 -> Key Result 3 -> Key Initiatives',
-    content: `Draft inspiring, metric-driven OKRs for [[department_or_team]]:
-**Objective:** [[inspirational_qualitative_goal]]
-- **KR 1 (Outcome metric):** Move from X to Y by Date.
-- **KR 2 (Quality/efficiency metric):** Maintain standard Z while scaling.
-- **KR 3 (Milestone metric):** Deliver core platform by Date.
-**Top 3 Initiatives:** The high-leverage bets executed to hit these KRs.`,
-    tags: ['okr', 'management', 'goals'],
+    id: 'fw-react-agent',
+    name: 'ReAct Agent Pattern',
+    description: 'Reasoning and Acting loop for autonomous tool-augmented LLM workflows.',
+    category: 'Agentic & Tools',
+    structure: 'Thought -> Action -> Observation -> Loop -> Conclusion',
+    content: `### ReAct Autonomous Execution\nTarget Goal: [[user_objective]]\n\nLoop Specification:\nThought: [[internal_reasoning]]\nAction: [[tool_to_call]]\nObservation: [[tool_result]]\n\nConclude with synthesized final answer once goal is satisfied.`,
+    tags: ['react', 'agent', 'autonomous'],
   },
   {
-    id: 'framework-jtbd',
-    name: 'Jobs-To-Be-Done (JTBD)',
-    description: 'Focuses on the customer progress struggle rather than product features.',
-    category: 'frameworks',
-    structure: 'When [Situation] -> I Want To [Motivation] -> So I Can [Desired Outcome]',
-    content: `Deconstruct the JTBD for [[target_user]]:
-"When [[trigger_situation]],
-I want to [[functional_and_emotional_struggle]],
-so I can [[ultimate_transformational_progress]]."
-Analyze:
-- What competing "job" are they currently firing to hire our solution?
-- What anxieties hold them back from switching?`,
-    tags: ['jtbd', 'product-discovery', 'ux'],
+    id: 'fw-chain-of-thought',
+    name: 'Chain-of-Thought (CoT) Explicit Reasoning',
+    description: 'Forces step-by-step intermediate calculation before outputting final answers.',
+    category: 'Reasoning & Logic',
+    structure: 'Step 1 -> Step 2 -> Step 3 -> Final Answer',
+    content: `### Chain of Thought Directive\nSolve complex problem: [[complex_problem]]\n\nInstructions:\n1. Break down problem into logical sub-problems.\n2. Show intermediate work and logical deductions step-by-step.\n3. Verify intermediate results for internal consistency.\n4. Conclude with final answer inside explicit tag.`,
+    tags: ['cot', 'reasoning', 'logic'],
   },
   {
-    id: 'framework-eisenhower',
-    name: 'Eisenhower Priority Matrix',
-    description: 'Decisive workload triage based on urgency vs importance.',
-    category: 'frameworks',
-    structure: 'Do (Q1) -> Schedule (Q2) -> Delegate (Q3) -> Delete (Q4)',
-    content: `Triage the operational initiatives for [[executive_role]]:
-- **Quadrant 1 (Urgent & Important):** Crises, deadlines, pressing bugs.
-- **Quadrant 2 (Not Urgent but Strategic):** Deep work, architecture, skill growth.
-- **Quadrant 3 (Urgent but Low Value):** Interruptions, shallow requests.
-- **Quadrant 4 (Waste):** Bureaucracy and vanity metrics to eliminate today.`,
-    tags: ['productivity', 'eisenhower', 'priorities'],
+    id: 'fw-tree-of-thoughts',
+    name: 'Tree-of-Thoughts (ToT) Decision Matrix',
+    description: 'Explores multiple logical branches, scoring each before committing to an execution path.',
+    category: 'Reasoning & Logic',
+    structure: 'Branching -> Scoring -> Pruning -> Convergence',
+    content: `### Tree of Thoughts (ToT) Framework\nObjective: [[objective]]\n\n1. **Path A**: [[path_a_hypothesis]] -> Feasibility Score: [1-10]\n2. **Path B**: [[path_b_hypothesis]] -> Feasibility Score: [1-10]\n3. **Path C**: [[path_c_hypothesis]] -> Feasibility Score: [1-10]\n\nPrune paths with scores < 7. Synthesize execution roadmap for winning branch.`,
+    tags: ['tot', 'decision-making', 'reasoning'],
   },
   {
-    id: 'framework-radical-candor',
-    name: 'Radical Candor Feedback Matrix',
-    description: 'Delivers tough, loving, career-altering direct feedback.',
-    category: 'frameworks',
-    structure: 'Care Personally -> Challenge Directly -> Actionable Path Forward',
-    content: `Deliver constructive feedback to [[colleague_role]] regarding [[performance_issue]]:
-1. **Care Personally:** Reaffirm genuine belief in their potential and long-term trajectory.
-2. **Challenge Directly:** Name the specific observed behavior and its real business consequence without sugarcoating.
-3. **Actionable Path:** Offer 2 concrete, observable behavioral adjustments they can make tomorrow.`,
-    tags: ['feedback', 'management', 'communication'],
+    id: 'fw-inversion',
+    name: 'Inversion Framework (Pre-Mortem)',
+    description: 'Inverts the problem to identify guaranteed paths to failure.',
+    category: 'Risk Management',
+    structure: 'Inverted Goal -> Failure Drivers -> Prevention Protocol',
+    content: `### Inversion Analysis\nGoal: Ensure success of [[project_name]].\n\nInverted Question: How could we guarantee catastrophic failure for [[project_name]]?\n1. [[failure_mode_1]]\n2. [[failure_mode_2]]\n3. [[failure_mode_3]]\n\nAction Plan: Convert each failure vector into an immediate protective constraint.`,
+    tags: ['inversion', 'pre-mortem', 'risk'],
   },
   {
-    id: 'framework-socratic-dialogue',
-    name: 'Socratic Inquiry Engine',
-    description: 'Guides the user to discover their own breakthrough through incisive questions.',
-    category: 'frameworks',
-    structure: 'Clarify -> Unpack Assumptions -> Explore Evidence -> Probe Implications',
-    content: `Engage the user in a rigorous Socratic dialogue on [[belief_or_premise]]:
-1. Ask for a crisp definition of the terms they are using.
-2. Question the hidden unexamined premise behind their thesis.
-3. Offer a thought experiment where the premise produces an absurd result.
-4. Guide them to formulate a more resilient, nuanced understanding.`,
-    tags: ['socratic', 'inquiry', 'critical-thinking'],
+    id: 'fw-second-order',
+    name: 'Second-Order Thinking Architecture',
+    description: 'Evaluates long-term cascading systemic consequences.',
+    category: 'Business & Strategy',
+    structure: 'Direct Result -> Cascading Impact -> Systemic Equilibrium',
+    content: `### Second-Order Impact Audit\nProposed Decision: [[decision]]\n\n- **1st Order Impact (Immediate)**: [[first_order_result]]\n- **2nd Order Impact (3-6 Months)**: [[second_order_effect]]\n- **3rd Order Impact (12-24 Months)**: [[third_order_effect]]\n\nStrategic Verdict: [[strategic_verdict]]`,
+    tags: ['second-order', 'systems-thinking', 'strategy'],
   },
+  {
+    id: 'fw-scamper',
+    name: 'SCAMPER Product Innovation',
+    description: 'Seven-operator creative product redesign framework.',
+    category: 'Product & Ideation',
+    structure: 'Substitute -> Combine -> Adapt -> Modify -> Put to use -> Eliminate -> Reverse',
+    content: `### SCAMPER Analysis for [[product_or_service]]\n- **S (Substitute)**: [[substitute]]\n- **C (Combine)**: [[combine]]\n- **A (Adapt)**: [[adapt]]\n- **M (Modify)**: [[modify]]\n- **P (Put to another use)**: [[put_to_use]]\n- **E (Eliminate)**: [[eliminate]]\n- **R (Reverse)**: [[reverse]]`,
+    tags: ['scamper', 'ideation', 'product'],
+  },
+  {
+    id: 'fw-smart',
+    name: 'SMART Goal Specifier',
+    description: 'Converts vague objectives into Specific, Measurable, Achievable, Relevant, Time-bound specs.',
+    category: 'Management & Productivity',
+    structure: 'Specific -> Measurable -> Achievable -> Relevant -> Time-bound',
+    content: `### SMART Goal Refinement\nOriginal Vague Goal: "[[vague_goal]]"\n\n- **Specific**: [[specific_details]]\n- **Measurable**: [[kpi_metric]]\n- **Achievable**: [[feasibility_proof]]\n- **Relevant**: [[strategic_alignment]]\n- **Time-bound**: [[hard_deadline]]`,
+    tags: ['smart', 'goals', 'management'],
+  },
+  {
+    id: 'fw-okr',
+    name: 'Objective & Key Results (OKR) Architecture',
+    description: 'Establishes ambitious qualitative objectives aligned with 3 quantitative key results.',
+    category: 'Executive Communications',
+    structure: 'Objective -> Key Result 1 -> Key Result 2 -> Key Result 3',
+    content: `### OKR Specification for [[team_or_company]]\n**Qualitative Objective**: [[inspiring_objective]]\n\n- **KR 1**: [[metric_1_baseline]] to [[metric_1_target]]\n- **KR 2**: [[metric_2_baseline]] to [[metric_2_target]]\n- **KR 3**: [[metric_3_baseline]] to [[metric_3_target]]`,
+    tags: ['okr', 'management', 'executive'],
+  },
+  {
+    id: 'fw-jobs-to-be-done',
+    name: 'Jobs-To-Be-Done (JTBD) Framework',
+    description: 'Focuses on emotional, social, and functional circumstances driving user adoption.',
+    category: 'Product & Sales',
+    structure: 'Situation -> Motivation -> Expected Outcome',
+    content: `### JTBD Statement for [[target_user]]\n"When I am [[user_situation]], I want to [[user_action]], so that I can [[desired_outcome]]."\n\nFunctional Drivers: [[functional_needs]]\nEmotional Drivers: [[emotional_needs]]\nSocial Drivers: [[social_perception]]`,
+    tags: ['jtbd', 'product', 'ux'],
+  },
+  {
+    id: 'fw-star',
+    name: 'STAR Interview Method',
+    description: 'Situation, Task, Action, Result structured response for interviews and testimonials.',
+    category: 'Writing & Marketing',
+    structure: 'Situation -> Task -> Action -> Result',
+    content: `### STAR Narrative for [[experience_topic]]\n- **Situation**: [[situation]]\n- **Task**: [[task]]\n- **Action**: [[action]]\n- **Result**: [[result]]`,
+    tags: ['star', 'interview', 'narrative'],
+  },
+  {
+    id: 'fw-pyramid',
+    name: 'Minto Pyramid Executive Summary',
+    description: 'Bottom-line upfront structure for executive decision documents.',
+    category: 'Executive Communications',
+    structure: 'Answer First -> Core Arguments -> Detailed Supporting Evidence',
+    content: `# Executive Summary: [[topic]]\n**Core Recommendation**: [[bottom_line_recommendation]]\n\n## Key Pillars\n1. [[pillar_1_argument]]\n2. [[pillar_2_argument]]\n3. [[pillar_3_argument]]\n\n## Supporting Analysis\n[[detailed_evidence]]`,
+    tags: ['pyramid', 'minto', 'executive'],
+  },
+  {
+    id: 'fw-feynman',
+    name: 'Feynman Technique Teaching Framework',
+    description: 'Simplifies complex concepts through elementary analogies and gap identification.',
+    category: 'Education & Pedagogy',
+    structure: 'Concept -> Simple Explanation -> Identify Gaps -> Refine Analogy',
+    content: `### Feynman Explanation of [[concept_name]]\n1. Explain to 10-year-old using simple words: [[simple_explanation]]\n2. Analogy from daily life: [[analogy]]\n3. Identify technical terminology to remove: [[jargon_to_remove]]\n4. Final crystal-clear summary: [[final_summary]]`,
+    tags: ['feynman', 'education', 'learning'],
+  },
+  {
+    id: 'fw-4c',
+    name: '4C Communication Model',
+    description: 'Clear, Concise, Complete, Correct messaging benchmark.',
+    category: 'Writing & Marketing',
+    structure: 'Clear -> Concise -> Complete -> Correct',
+    content: `### 4C Audit of [[draft_text]]\n- **Clear**: Is core message unmistakable? [[clarity_check]]\n- **Concise**: Have wordy redundancies been purged? [[conciseness_check]]\n- **Complete**: Are all necessary data points present? [[completeness_check]]\n- **Correct**: Are facts and grammar 100% verified? [[correctness_check]]`,
+    tags: ['4c', 'editing', 'writing'],
+  },
+  {
+    id: 'fw-before-after-bridge',
+    name: 'Before-After-Bridge (BAB) Copywriting',
+    description: 'Paints current painful state, ideal future state, and product bridge.',
+    category: 'Writing & Marketing',
+    structure: 'Before -> After -> Bridge',
+    content: `### BAB Copy Arc\n- **BEFORE**: Current painful reality: [[current_pain]]\n- **AFTER**: World where problem is completely solved: [[ideal_world]]\n- **BRIDGE**: How [[product_name]] gets you there: [[product_bridge]]`,
+    tags: ['bab', 'copywriting', 'sales'],
+  },
+  {
+    id: 'fw-hooks-story-offer',
+    name: 'Hook-Story-Offer Framework',
+    description: 'High-converting social and video sales script structure.',
+    category: 'Writing & Marketing',
+    structure: 'Hook -> Story -> Offer',
+    content: `### Hook-Story-Offer Script\n- **HOOK** (0-3s): [[attention_grabber]]\n- **STORY** (3-60s): [[epiphany_bridge_story]]\n- **OFFER** (60s+): [[irresistible_offer_stack]]`,
+    tags: ['hook-story-offer', 'video', 'sales'],
+  },
+  {
+    id: 'fw-socrative-dialogue',
+    name: 'Socratic Dialogue Framework',
+    description: 'Guides understanding through targeted counter-questions rather than direct answers.',
+    category: 'Education & Pedagogy',
+    structure: 'Listen -> Probe -> Counter-Example -> Refined Understanding',
+    content: `### Socratic Learning Directive\nUser Statement: "[[user_statement]]"\n\nYour Response Strategy:\n1. Restate user premise gently.\n2. Formulate 1 targeted Socratic question highlighting a logical edge case.\n3. Encourage user to re-evaluate assumption.`,
+    tags: ['socratic', 'dialogue', 'teaching'],
+  },
+  {
+    id: 'fw-value-proposition-canvas',
+    name: 'Value Proposition Canvas',
+    description: 'Maps Customer Profile against Value Map.',
+    category: 'Product & Sales',
+    structure: 'Customer Profile -> Value Map -> Fit Matrix',
+    content: `### Value Proposition Canvas for [[product_name]]\n#### Customer Profile\n- Customer Jobs: [[customer_jobs]]\n- Pain Points: [[customer_pains]]\n- Desired Gains: [[customer_gains]]\n\n#### Value Map\n- Products & Services: [[products_services]]\n- Pain Relievers: [[pain_relievers]]\n- Gain Creators: [[gain_creators]]`,
+    tags: ['vpc', 'product', 'strategy'],
+  },
+  {
+    id: 'fw-lean-canvas',
+    name: 'Lean Startup Canvas Architecture',
+    description: '1-page business plan framing problem, solution, metrics, channels, and moat.',
+    category: 'Business & Strategy',
+    structure: 'Problem -> Solution -> Metrics -> Value Prop -> Unfair Advantage -> Channels -> Costs -> Revenue',
+    content: `### Lean Canvas: [[startup_concept]]\n1. **Problem**: [[top_3_problems]]\n2. **Solution**: [[top_3_features]]\n3. **Unique Value Proposition**: [[single_clear_compelling_message]]\n4. **Unfair Advantage**: [[defensible_moat]]\n5. **Customer Segments**: [[target_customers]]\n6. **Key Metrics**: [[key_activities_measured]]\n7. **Channels**: [[path_to_customers]]\n8. **Cost Structure**: [[fixed_and_variable_costs]]\n9. **Revenue Streams**: [[revenue_models]]`,
+    tags: ['lean-canvas', 'startup', 'business'],
+  },
+  {
+    id: 'fw-refactoring-kata',
+    name: 'Code Refactoring Protocol (RED-GREEN-REFACTOR)',
+    description: 'Disciplined TDD refactoring structure ensuring zero regression.',
+    category: 'Technical & Engineering',
+    structure: 'Analyze -> Test Harness -> Refactor -> Benchmark',
+    content: `### Code Refactoring Protocol\nTarget Code: <code_block>[[code_block]]</code_block>\n\n1. **Smell Analysis**: Identify design smells.\n2. **Test Guarantee**: Confirm test coverage.\n3. **Refactored Code**: Output clean module.\n4. **Complexity Delta**: Show cyclomatic complexity reduction.`,
+    tags: ['refactoring', 'clean-code', 'tdd'],
+  },
+  {
+    id: 'fw-incident-postmortem',
+    name: 'Blameless Incident Postmortem',
+    description: 'Root cause analysis and prevention roadmap following outages.',
+    category: 'Technical & Engineering',
+    structure: 'Timeline -> Root Cause (5 Whys) -> Impact -> Action Items',
+    content: `### Blameless Postmortem: [[incident_title]]\n- Date & Duration: [[incident_date]], [[duration_minutes]] mins\n- User Impact: [[impact_summary]]\n\n#### Timeline\n[[chronological_events]]\n\n#### Root Cause Analysis (5 Whys)\n1. [[why_1]]\n2. [[why_2]]\n3. [[why_3]]\n4. [[why_4]]\n5. [[why_5]]\n\n#### Preventative Action Items\n| Action Item | Owner | Priority |\n|---|---|---|`,
+    tags: ['postmortem', 'sre', 'incident'],
+  },
+  {
+    id: 'fw-design-system-spec',
+    name: 'Design System Token Specification',
+    description: 'Defines reusable UI design tokens, component props, and accessibility guidelines.',
+    category: 'Technical & Engineering',
+    structure: 'Tokens -> Component Props -> Accessibility -> States',
+    content: `### Design System Specification: [[component_name]]\n1. **Tokens Used**: Colors: [[colors]], Spacing: [[spacing]]\n2. **Component API / Props**:\n   - \`variant\`: 'primary' | 'secondary' | 'ghost'\n   - \`size\`: 'sm' | 'md' | 'lg'\n3. **Accessibility (WCAG 2.1 AA)**: Contrast ratio checks.\n4. **States**: Hover, Active, Focused, Disabled.`,
+    tags: ['design-system', 'ui', 'tokens'],
+  },
+  {
+    id: 'fw-data-pipeline-architecture',
+    name: 'Data Engineering Pipeline Architecture',
+    description: 'ETL/ELT design document covering ingest, transformation, staging, and monitoring.',
+    category: 'Data & Analytics',
+    structure: 'Ingestion -> Staging -> Transformation -> Serving -> Monitoring',
+    content: `### Pipeline Spec: [[pipeline_name]]\n1. **Source Ingestion**: Source: [[data_source]], Frequency: [[batch_or_stream]]\n2. **Staging Schema**: Raw storage in [[bucket_name]]\n3. **Transformation Logic**: SQL model transformations: [[transformation_rules]]\n4. **Data Quality Checks**: Test rules for NULLs and schema drift.`,
+    tags: ['etl', 'data-pipeline', 'dbt'],
+  },
+  {
+    id: 'fw-zero-shot-cot',
+    name: 'Zero-Shot CoT ("Think Step by Step")',
+    description: 'Appends explicit reasoning directives to trigger internal chain of thought.',
+    category: 'Core Architectures',
+    structure: 'Task -> Let\'s Think Step by Step -> Final Answer',
+    content: `### Directive\nSolve [[problem_statement]].\n\nLet's think step by step:\n1. Analyze given inputs and constraints.\n2. Derive intermediate equations or logic.\n3. Cross-check for edge cases.\n4. State conclusion clearly.`,
+    tags: ['zero-shot-cot', 'reasoning', 'core'],
+  },
+  {
+    id: 'fw-few-shot-prompting',
+    name: 'Few-Shot Exemplar Alignment Framework',
+    description: 'Provides 3 high-quality input-output pairs to enforce strict pattern matching.',
+    category: 'Core Architectures',
+    structure: 'System Task -> Example 1 -> Example 2 -> Example 3 -> Actual Target',
+    content: `### Task Definition\nConvert raw user text into structured JSON.\n\nExample 1:\nInput: [[example_1_input]]\nOutput: [[example_1_output]]\n\nExample 2:\nInput: [[example_2_input]]\nOutput: [[example_2_output]]\n\nTarget Input: [[target_input]]\nTarget Output:`,
+    tags: ['few-shot', 'exemplars', 'pattern-matching'],
+  },
+  {
+    id: 'fw-self-consistency',
+    name: 'Self-Consistency Sampling Architecture',
+    description: 'Generates 3 independent reasoning paths and selects majority consensus.',
+    category: 'Reasoning & Logic',
+    structure: 'Generate 3 Reasoning Paths -> Aggregate Votes -> Output Consensus',
+    content: `### Self-Consistency Reasoning\nProblem: [[problem]]\n\nGenerate 3 independent logic paths to solve this problem:\n- **Path 1**: [[path_1_reasoning]] -> Answer 1\n- **Path 2**: [[path_2_reasoning]] -> Answer 2\n- **Path 3**: [[path_3_reasoning]] -> Answer 3\n\nSynthesize majority consensus answer.`,
+    tags: ['self-consistency', 'consensus', 'reasoning'],
+  },
+  {
+    id: 'fw-prompt-chaining',
+    name: 'Multi-Step Prompt Chaining Protocol',
+    description: 'Pipes the output of Prompt A directly into input context of Prompt B.',
+    category: 'End-to-End Workflows',
+    structure: 'Step 1 (Extract) -> Step 2 (Transform) -> Step 3 (Format)',
+    content: `### Chained Pipeline Spec\n**Step 1: Information Extraction**\nExtract key entities from <source>[[source_document]]</source>.\n\n**Step 2: Analysis & Synthesis**\nUsing Step 1 entities, perform [[analysis_type]].\n\n**Step 3: Executive Formatting**\nConvert Step 2 analysis into [[final_format]].`,
+    tags: ['chaining', 'pipeline', 'workflow'],
+  },
+  {
+    id: 'fw-least-to-most',
+    name: 'Least-to-Most Decomposition Prompting',
+    description: 'Decomposes complex problems into simpler sub-problems solved sequentially.',
+    category: 'Reasoning & Logic',
+    structure: 'Decompose -> Solve Sub-problem 1 -> Use Answer for Sub-problem 2 -> Final Answer',
+    content: `### Least-to-Most Decomposition\nTarget Goal: [[complex_goal]]\n\n1. Sub-problem 1 (Simplest): [[sub_1]]\n   - Solution 1: [Solve]\n2. Sub-problem 2 (Intermediate): [[sub_2]]\n   - Solution 2: [Solve using Solution 1]\n3. Final Master Problem: Combine solutions into complete answer.`,
+    tags: ['least-to-most', 'decomposition', 'logic'],
+  },
+  {
+    id: 'fw-direction-stimulus',
+    name: 'Direction-Stimulus Prompting',
+    description: 'Includes explicit directional hints or key phrase triggers to guide LLM generation.',
+    category: 'Writing & Marketing',
+    structure: 'Main Directive + Stimulus Hints -> Guided Output',
+    content: `### Direction-Stimulus Generation\nTask: Write [[article_type]] about [[topic]].\n\n**Directional Hints / Key Keywords**:\n- Ensure emphasis on [[keyword_1]]\n- Frame through concept of [[keyword_2]]\n- Must mention [[data_point]]`,
+    tags: ['direction-stimulus', 'guided', 'writing'],
+  },
+  {
+    id: 'fw-pal-prompting',
+    name: 'Program-Aided Language Models (PAL)',
+    description: 'Generates executable code (Python) to solve mathematical/logical steps reliably.',
+    category: 'Technical & Engineering',
+    structure: 'Problem Statement -> Python Code Block -> Executable Logic -> Answer',
+    content: `### PAL Logic Directive\nProblem: [[math_or_logic_problem]]\n\nWrite a pure Python script to calculate exact answer:\n\`\`\`python\n# Read inputs\n# Perform calculations\n# Return output\n\`\`\`\nState calculated numeric result clearly.`,
+    tags: ['pal', 'python', 'code-reasoning'],
+  },
+  {
+    id: 'fw-skeleton-of-thought',
+    name: 'Skeleton-of-Thought (SoT) Parallel Execution',
+    description: 'Outlines a skeleton structure first, then expands each point in parallel.',
+    category: 'Core Architectures',
+    structure: 'Generate Skeleton -> Parallel Expansion -> Synthesis',
+    content: `### Skeleton-of-Thought Protocol\nTopic: [[broad_topic]]\n\n**Phase 1: Skeleton Generation**\nList 5 core headings (1 sentence each).\n\n**Phase 2: Point Expansion**\nExpand each heading with high-density facts.`,
+    tags: ['sot', 'skeleton', 'parallel'],
+  },
+  {
+    id: 'fw-thread-of-thought',
+    name: 'Thread-of-Thought (ThOT) Context Parsing',
+    description: 'Processes chaotic or noisy long context transcripts in organized logical threads.',
+    category: 'Data & Analytics',
+    structure: 'Scan Context -> Identify Thread A/B/C -> Synthesize Clean Context',
+    content: `### Thread-of-Thought Transcript Processing\nAnalyze chaotic text log: <log>[[raw_log]]</log>\n\n1. **Thread 1 (Technical Issue)**: Extract relevant lines.\n2. **Thread 2 (Customer Feedback)**: Extract user sentiment.\n3. **Synthesis**: Provide actionable summary grouped by thread.`,
+    tags: ['thot', 'context-parsing', 'threads'],
+  },
+  {
+    id: 'fw-active-prompting',
+    name: 'Active Prompting Strategy',
+    description: 'Uses uncertainty scoring to select hardest examples for few-shot learning.',
+    category: 'Metaprompting',
+    structure: 'Identify Uncertainty -> Construct Targeted Exemplars -> Run Production Prompt',
+    content: `### Active Prompt Design\nFor task [[task_name]]:\nIdentify top 3 ambiguous edge cases where models fail.\nConstruct explicit solution rules for these edge cases:\n- Case 1: [[case_1]]\n- Case 2: [[case_2]]\n- Case 3: [[case_3]]`,
+    tags: ['active-prompting', 'edge-cases', 'evals'],
+  },
+  {
+    id: 'fw-auto-cot',
+    name: 'Auto-CoT (Automated Chain of Thought)',
+    description: 'Automatically clusters questions and constructs diverse CoT demonstrations.',
+    category: 'Metaprompting',
+    structure: 'Cluster Query Types -> Generate CoT for Representative Sample -> Execute Prompt',
+    content: `### Auto-CoT Architecture\nInput Dataset: [[dataset_type]]\n1. Group queries into distinct semantic clusters.\n2. For each cluster, write explicit step-by-step reasoning template.\n3. Execute target query using matching cluster template.`,
+    tags: ['auto-cot', 'clustering', 'metaprompting'],
+  },
+  {
+    id: 'fw-reframe-prompting',
+    name: 'Cognitive Reframing Architecture',
+    description: 'Reframes a difficult problem into an analogous solved domain.',
+    category: 'Reasoning & Logic',
+    structure: 'Original Problem -> Analogous Domain Mapping -> Solution Transfer',
+    content: `### Cognitive Reframing\nDifficult Domain Problem: [[problem]]\n\n1. **Reframing Analogy**: Map problem to [[solved_domain]].\n2. **Mechanistic Transfer**: Translate how solved domain resolves this exact bottleneck.\n3. **Application**: Apply transferred mechanism to original problem.`,
+    tags: ['reframing', 'analogy', 'creativity'],
+  },
+  {
+    id: 'fw-step-back-prompting',
+    name: 'Step-Back Question Abstraction',
+    description: 'Asks a higher-level abstract question before answering specific instance questions.',
+    category: 'Reasoning & Logic',
+    structure: 'Specific Question -> Step-Back Principle Question -> Apply Principle to Answer',
+    content: `### Step-Back Abstraction\nSpecific Instance Query: [[specific_query]]\n\n1. **Step-Back Question**: What fundamental law governs [[broad_topic]]?\n2. **Principle Answer**: State governing principle clearly.\n3. **Instance Resolution**: Apply principle to solve specific query.`,
+    tags: ['step-back', 'principles', 'abstraction'],
+  },
+  {
+    id: 'fw-emotion-prompt',
+    name: 'EmotionPrompt Psychological Calibration',
+    description: 'Leverages psychological urgency and high-stakes framing to improve LLM attention.',
+    category: 'Core Architectures',
+    structure: 'High-Stakes Directive + Urgency Calibration + Strict Verification',
+    content: `### High-Stakes Priority Execution\nThis task is critical for [[high_stakes_consequence]]. It requires maximum diligence.\n\nDirective: [[core_directive]]\n\nChecklist:\n- Verify data points twice before finalizing.\n- Ensure zero errors or speculative statements.`,
+    tags: ['emotion-prompt', 'high-stakes', 'calibration'],
+  },
+  {
+    id: 'fw-take-a-deep-breath',
+    name: 'Systemic Verification ("Take a Deep Breath")',
+    description: 'Forces systemic pause and self-verification before finalizing math/logic steps.',
+    category: 'Reasoning & Logic',
+    structure: 'Pause Directive -> Verify Assumptions -> Output Validated Answer',
+    content: `### Systemic Verification Protocol\nDirective: Solve [[complex_logic_puzzle]].\n\nTake a deep breath and work step by step:\n1. Re-read constraints carefully.\n2. Draft initial hypothesis.\n3. Test hypothesis against edge cases.\n4. Output verified solution.`,
+    tags: ['verification', 'logic', 'math'],
+  },
+  {
+    id: 'fw-contrastive-prompting',
+    name: 'Contrastive Explanation Framework',
+    description: 'Explains why Answer A is correct AND explicitly why Answer B is incorrect.',
+    category: 'Reasoning & Logic',
+    structure: 'State Correct Answer -> Why It Works -> Why Alternative Fails',
+    content: `### Contrastive Analysis\nTarget Question: [[question]]\n\n- **Correct Approach ([[correct_option]])**: Explain why this works.\n- **Incorrect Counter-Approach ([[incorrect_option]])**: Explain exact flaw or misconception that makes this fail.`,
+    tags: ['contrastive', 'explanations', 'logic'],
+  },
+  {
+    id: 'fw-dialogue-state-tracking',
+    name: 'Dialogue State Tracking & Intent Router Architecture',
+    description: 'Multi-turn conversational architecture tracking entity slots, intent deltas, and state transitions.',
+    category: 'Dialogue & Agentic',
+    structure: 'State Extraction -> Slot Filling -> Intent Classification -> Next Action Dispatch',
+    content: `### Dialogue State Tracking Spec\nTranscript: <transcript>[[conversation_transcript]]</transcript>\n\n1. **Slot Extraction**: Extract filled slots [[slot_schema]].\n2. **Missing Required Slots**: List required missing variables.\n3. **Intent Delta**: Classify user intent change in latest turn.\n4. **Next Agent Action**: Dispatch next response directive.`,
+    tags: ['dialogue-state', 'slots', 'conversational'],
+  },
+  {
+    id: 'fw-dynamic-few-shot-rag',
+    name: 'Dynamic Few-Shot RAG Exemplar Injector',
+    description: 'Retrieves top-k relevant exemplars dynamically based on vector similarity before executing generation.',
+    category: 'Agentic & Tools',
+    structure: 'Query Embedding -> Vector DB Retrieval -> Dynamic Few-Shot Injection -> Generation',
+    content: `### Dynamic RAG Few-Shot Pipeline\nQuery: [[user_query]]\n\n1. **Retrieved Context**: <retrieved_docs>[[retrieved_context]]</retrieved_docs>\n2. **Matching Exemplars**: <exemplars>[[retrieved_exemplars]]</exemplars>\n3. **Instruction**: Answer [[user_query]] using retrieved context and adhering to exemplar formatting.`,
+    tags: ['rag', 'few-shot', 'vector-retrieval'],
+  },
+  {
+    id: 'fw-multi-persona-panel',
+    name: 'Multi-Persona Advisory Panel Synthesis',
+    description: 'Convenes 3 opposing domain experts to debate a topic before synthesizing a unified decision.',
+    category: 'Executive Communications',
+    structure: 'Expert A View -> Expert B View -> Expert C View -> Cross-Panel Debate -> Unifying Synthesis',
+    content: `### Multi-Expert Advisory Panel\nTopic: [[strategic_decision]]\n\n- **Expert 1 (CTO Tech Perspective)**: [[tech_expert_opinion]]\n- **Expert 2 (CFO Financial Perspective)**: [[finance_expert_opinion]]\n- **Expert 3 (CMO Growth Perspective)**: [[growth_expert_opinion]]\n\nSynthesis Matrix: Reconcile trade-offs into a single prioritized execution roadmap.`,
+    tags: ['multi-persona', 'advisory-panel', 'synthesis'],
+  },
+  {
+    id: 'fw-dag-agent-pipeline',
+    name: 'Directed Acyclic Graph (DAG) Multi-Agent Workflow',
+    description: 'Complex multi-agent pipeline executing non-linear dependent tasks with parallel nodes.',
+    category: 'Agentic & Tools',
+    structure: 'Node A (Ingest) -> Nodes B & C (Parallel Processing) -> Node D (Synthesis) -> Node E (Format)',
+    content: `### DAG Multi-Agent Specification\nPipeline Name: [[pipeline_name]]\n\nWave 1 (Parallel Ingest):\n- Agent Alpha: [[task_alpha]]\n- Agent Beta: [[task_beta]]\n\nWave 2 (Dependent Synthesis):\n- Agent Gamma: Synthesize outputs from Alpha & Beta -> Output [[gamma_result]]\n\nWave 3 (Formatting):\n- Agent Delta: Format final output as [[final_format]].`,
+    tags: ['dag', 'multi-agent', 'workflow'],
+  },
+  {
+    id: 'fw-security-threat-model',
+    name: 'STRIDE Security Threat Model Architecture',
+    description: 'Systematic cybersecurity threat modeling (Spoofing, Tampering, Repudiation, Info Disclosure, DoS, Elevation).',
+    category: 'Technical & Engineering',
+    structure: 'Spoofing -> Tampering -> Repudiation -> Information Disclosure -> Denial of Service -> Elevation of Privilege',
+    content: `### STRIDE Security Audit for [[system_component]]\n- **Spoofing**: [[spoofing_risks]]\n- **Tampering**: [[tampering_risks]]\n- **Repudiation**: [[repudiation_risks]]\n- **Information Disclosure**: [[info_disclosure_risks]]\n- **Denial of Service**: [[dos_risks]]\n- **Elevation of Privilege**: [[privilege_risks]]\n\nProvide exact technical mitigations for every identified threat vector.`,
+    tags: ['stride', 'security', 'threat-modeling'],
+  },
+  {
+    id: 'fw-product-market-fit-survey',
+    name: 'Sean Ellis PMF Score & High-Expectation Customer Engine',
+    description: 'Measures PMF score ("How disappointed would you be...") and isolates key product value drivers.',
+    category: 'Product & Sales',
+    structure: 'Disappointment Metric -> User Segment Segmentation -> Core Value Driver Isolation -> Roadmap Focus',
+    content: `### PMF Survey Analysis Engine for [[product_name]]\n1. **PMF Disappointment Score**: % Very Disappointed = [[very_disappointed_pct]]% (Target > 40%).\n2. **High-Expectation Customer (HXC) Profile**: Isolate common traits of "Very Disappointed" users.\n3. **Core Benefit Driver**: What is the single main benefit cited by HXC users?\n4. **Product Roadmap Directives**: Focus 80% of engineering bandwidth on doubling down on core benefit driver.`,
+    tags: ['pmf', 'sean-ellis', 'product-growth'],
+  },
+  {
+    id: 'fw-regulatory-impact-audit',
+    name: 'Global Regulatory Impact & Compliance Risk Matrix',
+    description: 'Audits software or business models against EU AI Act, GDPR, HIPAA, and US Federal Regulations.',
+    category: 'Business & Strategy',
+    structure: 'Regulatory Framework -> Compliance Risk Vector -> Gap Analysis -> Remediation Roadmap',
+    content: `### Regulatory Compliance Audit for [[product_or_feature]]\n- **EU AI Act Risk Tier**: [[ai_act_tier]] (Unacceptable, High Risk, Limited, Minimal)\n- **GDPR / Data Privacy Gaps**: [[gdpr_gaps]]\n- **SOC2 / Security Control Gaps**: [[soc2_gaps]]\n\nRemediation Action Plan: List technical and operational mandates required to achieve full compliance within [[timeline_months]] months.`,
+    tags: ['compliance', 'gdpr', 'eu-ai-act'],
+  },
+  {
+    id: 'fw-unit-testing-pyramid',
+    name: 'Test Pyramid Architecture (Unit -> Integration -> End-to-End)',
+    description: 'Defines balanced testing suite distribution (70% Unit, 20% Integration, 10% E2E) with explicit mock rules.',
+    category: 'Technical & Engineering',
+    structure: 'Unit Tests (70%) -> Integration Tests (20%) -> E2E Tests (10%)',
+    content: `### Test Pyramid Architecture for [[module_name]]\n1. **Unit Tests (Fast, Isolated)**:\n   - Scope: Pure functions, utility modules, state reducers.\n   - Mocks: DB and network fully mocked.\n2. **Integration Tests (Component Interaction)**:\n   - Scope: API endpoints, DB queries, component rendering.\n3. **End-to-End Tests (Critical User Journeys)**:\n   - Scope: Complete checkout, auth login flow.\nProvide Vitest/Playwright test code snippets for each tier.`,
+    tags: ['testing', 'test-pyramid', 'quality-assurance'],
+  },
+  {
+    id: 'fw-growth-loop-flywheel',
+    name: 'Self-Reinforcing Growth Loop & Flywheel Architecture',
+    description: 'Architects viral growth loops (User Input -> Value Creation -> Public Output -> New User Acquisition).',
+    category: 'Business & Strategy',
+    structure: 'Trigger -> Action -> Reward -> Investment -> Viral Output -> New User Loop',
+    content: `### Growth Flywheel Architecture for [[product_name]]\n- **Input Action**: User performs [[core_user_action]].\n- **Value Accumulation**: Creates [[accumulated_value]] (e.g., shareable report, public profile).\n- **Viral Distribution Vector**: How non-users discover this output: [[distribution_channel]].\n- **Incentive to Sign Up**: Why viewer converts into new active user: [[conversion_hook]].\n\nCalculate Virality K-Factor and recommend tactics to reduce loop cycle time from [[current_cycle_days]] days to [[target_cycle_days]] days.`,
+    tags: ['growth-loop', 'flywheel', 'viral-k-factor'],
+  }
 ];

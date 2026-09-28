@@ -2,6 +2,8 @@ import { db } from './database';
 import { COMPONENTS_PART_1 } from '../data/componentsSeedPart1';
 import { COMPONENTS_PART_2 } from '../data/componentsSeedPart2';
 import { COMPONENTS_PART_3 } from '../data/componentsSeedPart3';
+import { COMPONENTS_PART_4 } from '../data/componentsSeedPart4';
+import { COMPONENTS_PART_5 } from '../data/componentsSeedPart5';
 import { FRAMEWORKS_SEED } from '../data/frameworksSeed';
 import { DEFAULT_PROMPTS, DEFAULT_FOLDERS, DEFAULT_BOARDS } from '../data/defaultPrompts';
 
@@ -9,7 +11,7 @@ export async function initializeDatabase(): Promise<void> {
   const seedFlag = await db.settings.get('seed_version');
 
   // If already seeded at current version, skip
-  if (seedFlag?.value === '1.0.0') {
+  if (seedFlag?.value === '3.1.0') {
     return;
   }
 
@@ -17,12 +19,15 @@ export async function initializeDatabase(): Promise<void> {
     ...COMPONENTS_PART_1,
     ...COMPONENTS_PART_2,
     ...COMPONENTS_PART_3,
+    ...COMPONENTS_PART_4,
+    ...COMPONENTS_PART_5,
   ];
 
-  // Bulk put components
+  // Clear and update components and frameworks with v3.0.0 massive professional library
+  await db.components.clear();
   await db.components.bulkPut(allComponents);
 
-  // Bulk put frameworks
+  await db.frameworks.clear();
   await db.frameworks.bulkPut(FRAMEWORKS_SEED);
 
   // Check if prompts already exist
@@ -44,6 +49,6 @@ export async function initializeDatabase(): Promise<void> {
   }
 
   // Mark seed completed
-  await db.settings.put({ key: 'seed_version', value: '1.0.0' });
-  console.log(`Database seeded: ${allComponents.length} components, ${FRAMEWORKS_SEED.length} frameworks.`);
+  await db.settings.put({ key: 'seed_version', value: '3.1.0' });
+  console.log(`Database seeded v3.1.0: ${allComponents.length} components, ${FRAMEWORKS_SEED.length} frameworks.`);
 }

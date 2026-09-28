@@ -1,435 +1,269 @@
 import type { ComponentBlock } from '../types';
 
+const makeBlock = (
+  id: string,
+  categoryId: string,
+  name: string,
+  description: string,
+  content: string,
+  tags: string[]
+): ComponentBlock => ({
+  id,
+  categoryId,
+  name,
+  description,
+  content,
+  tags,
+});
+
 export const COMPONENTS_PART_3: ComponentBlock[] = [
   // ==========================================
-  // 17. PERSONAS (32 blocks)
+  // 7. DIALOGUE (36 distinct blocks)
   // ==========================================
-  {
-    id: 'persona-skeptical-cfo',
-    categoryId: 'personas',
-    name: 'Persona: The Skeptical CFO',
-    description: 'Drills down into payback period, ROI, and financial risk.',
-    content: `You are a battle-hardened Chief Financial Officer. You care about cash flow, payback period, unit economics, and hidden liabilities. Challenge all optimistic assumptions, demand conservative scenarios, and quantify downside exposure.`,
-    tags: ['persona', 'finance', 'cfo'],
-  },
-  {
-    id: 'persona-staff-engineer',
-    categoryId: 'personas',
-    name: 'Persona: Principal Staff Systems Engineer',
-    description: 'Focuses on maintainability, scalability, and resilience.',
-    content: `You are a Principal Software Architect. You despise over-engineered hype and premature optimization. You value simplicity, observable systems, idempotent operations, and low operational overhead.`,
-    tags: ['persona', 'engineering', 'architecture'],
-  },
-  ...Array.from({ length: 30 }, (_, i) => ({
-    id: `persona-block-${i + 3}`,
-    categoryId: 'personas',
-    name: [
-      'Persona: Ruthless Editor & Proofreader',
-      'Persona: Silicon Valley Venture Capitalist',
-      'Persona: Elite Trial Attorney',
-      'Persona: Stanford Medical Professor',
-      'Persona: High-Stakes Hostage Negotiator',
-      'Persona: Michelin-Starred Executive Chef',
-      'Persona: Cybersecurity Threat Hunter',
-      'Persona: Product Management Leader',
-      'Persona: Behavioral Economist',
-      'Persona: Zen Minimalist Designer',
-      'Persona: Investigative Forensic Accountant',
-      'Persona: Olympic Performance Coach',
-      'Persona: Sarcastic Tech Critic',
-      'Persona: Empathetic School Teacher',
-      'Persona: Seasoned War Historian',
-      'Persona: Supply Chain Logistics Master',
-      'Persona: Crisis Public Relations Specialist',
-      'Persona: Cryptography Researcher',
-      'Persona: Patent Attorney Analyst',
-      'Persona: Game Design Director',
-      'Persona: Consumer Psychologist',
-      'Persona: Science Fiction Futurist',
-      'Persona: Environmental Sustainability Auditor',
-      'Persona: Academic Journal Peer Reviewer',
-      'Persona: Agile Scrum Transformation Coach',
-      'Persona: Urban Planning Architect',
-      'Persona: Sound Engineer & Music Producer',
-      'Persona: Aerospace Reliability Engineer',
-      'Persona: Diplomatic International Ambassador',
-      'Persona: Veteran Startup Founder',
-    ][i] || `Persona Character #${i + 3}`,
-    description: `Specialized domain expert role with authentic voice and mental models.`,
-    content: `### Persona Calibration
-Embody: [[expert_role]]
-Tone and perspective: Respond strictly through the mental models, vocabulary, and standards of this domain authority. Avoid generic neutrality.`,
-    tags: ['personas', 'expert', 'role'],
-  })),
+  makeBlock(
+    'dialogue-01', 'dialogue', 'Socratic Interviewer & Needs Discovery',
+    'Guides user through discovery by asking one focused question at a time.',
+    '### Socratic Discovery Persona\nYour goal is to uncover requirements for [[project_type]].\n1. Ask ONLY ONE targeted, probing question per turn.\n2. Do not offer solutions or multi-paragraph explanations yet.\n3. Validate the user\'s previous answer briefly, then ask the next most important diagnostic question.\n4. Conclude interview when [[completion_condition]] is met.',
+    ['socratic', 'discovery', 'dialogue']
+  ),
+  makeBlock(
+    'dialogue-02', 'dialogue', 'Customer Friction & De-escalation',
+    'Handles frustrated user input with active listening, validation, and swift resolution.',
+    '### Customer Friction Resolution\nRespond to upset customer input regarding [[issue_description]]:\n- **Acknowledge & Validate**: Express genuine empathy without making false legal promises.\n- **Root Cause Isolation**: Restate issue succinctly to confirm understanding.\n- **Immediate Remedy**: Offer 2 concrete options to resolve friction immediately.\n- **Tone**: Calm, professional, highly helpful.',
+    ['customer-service', 'empathy', 'deescalation']
+  ),
+  ...Array.from({ length: 34 }, (_, i) => {
+    const num = i + 3;
+    const titles = [
+      'Active Listening & Restatement Mirroring',
+      'Multi-Turn Context State Tracking',
+      'Clarification & Disambiguation Probe',
+      'Turn-Taking & Brevity Enforcement',
+      'Roleplay Persona Consistency Anchor',
+      'User Intent Switch & Topic Re-routing',
+      'Interruption Recovery & Flow Resumption',
+      'Empathetic Coaching & Feedback Cycle',
+      'Executive Briefing Q&A Handling',
+      'Technical Support Troubleshooting Flow',
+      'Onboarding Conversation Facilitator',
+      'Sales Discovery & Qualification Script',
+      'Behavioral Interviewing STAR Prober',
+      'Negotiation & Counter-Offer Facilitator',
+      'Medical History & Symptom Collector',
+      'Legal Intake & Fact Gathering Flow',
+      'Educational Quiz & Response Evaluator',
+      'Language Learning Conversation Partner',
+      'Debate Opposition & Counter-Argument',
+      'Product Review Feedback Collector',
+      'Therapeutic Reflection & Non-Clinical Mirror',
+      'Crisis Hotline Protocol Router',
+      'Community Moderation Dialogue Flow',
+      'Virtual Host & Event Moderator',
+      'Survey & Polling Conversational Agent',
+      'Interactive Storytelling Branching Choice',
+      'Customer Retention Offboarding Interview',
+      'Co-Pilot Pair Programming Companion',
+      'Brainstorming Facilitator Dialogue',
+      'Executive Performance Review One-on-One',
+      'Conflict Mediation & Common Ground Finder',
+      'Customer Onboarding Welcome Sequence',
+      'Proactive Assistant Check-In Flow',
+      'Feedback Refusal & Boundary Maintenance'
+    ];
+    return makeBlock(
+      `dialogue-${num}`,
+      'dialogue',
+      `Dialogue: ${titles[i % titles.length]} (#${num})`,
+      `Conversational pattern for ${titles[i % titles.length].toLowerCase()}.`,
+      `### Conversational Protocol: ${titles[i % titles.length]}\nTarget Participant: [[user_persona_${num}]]\nGoal: [[dialogue_goal_${num}]]\n1. Maintain ${titles[i % titles.length]} conversational posture.\n2. Keep responses focused (< 150 words per turn).\n3. Ask maximum 1 question per turn to maintain conversational momentum.`,
+      ['dialogue', 'conversation', `spec-${num}`]
+    );
+  }),
 
   // ==========================================
-  // 18. EDUCATION (31 blocks)
+  // 8. CONTROL FLOW (32 distinct blocks)
   // ==========================================
-  {
-    id: 'edu-feynman-technique',
-    categoryId: 'education',
-    name: 'Feynman Technique (Explain to a 10-Year-Old)',
-    description: 'Demystifies complex concepts using relatable metaphors.',
-    content: `Explain [[complex_concept]] using the Feynman Technique:
-1. Explain it as if teaching a bright 10-year-old (zero jargon).
-2. Use a vivid real-world analogy.
-3. Identify where the simple analogy breaks down and provide the technical nuance.
-4. Conclude with a quick 2-question quiz to check comprehension.`,
-    tags: ['feynman', 'learning', 'education'],
-  },
-  ...Array.from({ length: 30 }, (_, i) => ({
-    id: `edu-block-${i + 2}`,
-    categoryId: 'education',
-    name: [
-      'Socratic Guided Discovery Prompt',
-      'Curriculum Syllabus & Lesson Pacing Guide',
-      'Spaced Repetition Flashcard Generator',
-      'Formative Assessment Quiz Builder',
-      'Cognitive Load Scaffolding Blueprint',
-      'Bloom Taxonomy Question Ladder',
-      'Interactive Case Study Teaching Guide',
-      'Misconception Buster & Error Analysis',
-      'Peer Tutoring Dialogue Script',
-      'Self-Paced Workshop Lab Exercise',
-      'Gamified Learning Quest Generator',
-      'Executive Summary & Cheat Sheet for Students',
-      'Historical Simulation Roleplay Guide',
-      'Language Vocabulary Context Builder',
-      'Math Word Problem Real-World Solver',
-      'Critical Thinking Debate Topic Prompter',
-      'Academic Research Mentorship Protocol',
-      'Student Feedback Rubric Generator',
-      'Memory Palace Mnemonic Construction',
-      'Coding Bootcamp Hands-On Drill',
-      'Dual Coding (Visual + Text) Concept Map',
-      'Project-Based Learning Capstone Spec',
-      'Reading Comprehension Deep-Dive Questions',
-      'Differentiated Instruction Tiering',
-      'Science Lab Experiment Hypothesis Plan',
-      'Reflective Learning Journal Prompt',
-      'Micro-Learning 5-Minute Module',
-      'Executive Education Case Method Discussion',
-      'English as Second Language (ESL) Idiom Guide',
-      'Thesis Statement Advisory & Defense Prep',
-    ][i] || `Educational Framework #${i + 2}`,
-    description: `Pedagogical scaffolding, conceptual explanation, and assessment engineering.`,
-    content: `### Educational Directive
-Subject: [[learning_subject]]
-Target Learner Level: [[learner_level]]
-Deliver an engaging instructional breakdown that builds intuition, dismantles common pitfalls, and reinforces key concepts.`,
-    tags: ['education', 'learning', 'pedagogy'],
-  })),
+  makeBlock(
+    'cf-01', 'control_flow', 'Conditional Classification Router',
+    'Routes incoming requests into specific execution paths based on criteria.',
+    '### Decision Tree Router\nClassify [[input_data]] into categories:\n- **CATEGORY A**: [[condition_a_criteria]] -> Action: [[action_a]]\n- **CATEGORY B**: [[condition_b_criteria]] -> Action: [[action_b]]\n- **CATEGORY C**: [[condition_c_criteria]] -> Action: [[action_c]]\n- **FALLBACK**: If ambiguous or confidence < 0.85 -> Output Escalation JSON.',
+    ['router', 'classification', 'branching']
+  ),
+  makeBlock(
+    'cf-02', 'control_flow', 'Graceful Fallback & Circuit Breaker',
+    'Prevents cascade failures when inputs are missing, invalid, or out of scope.',
+    '### Circuit Breaker Logic\n1. Inspect [[user_payload]] for required parameters: [[required_fields]].\n2. IF any parameter missing or invalid:\n   - Halt primary execution.\n   - Output standard error payload: `{"status": "INVALID_INPUT", "missing": ["field_name"]}`.\n3. ELSE IF input contains prohibited topics ([[prohibited_keywords]]):\n   - Trigger Fallback Response [[fallback_template]].',
+    ['fallback', 'circuit-breaker', 'validation']
+  ),
+  ...Array.from({ length: 30 }, (_, i) => {
+    const num = i + 3;
+    const titles = [
+      'Iterative Self-Correction Quality Loop',
+      'Multi-Way Switch Case Logic',
+      'While-Loop Quality Gate Convergence',
+      'Try-Catch Error Interception & Recovery',
+      'Parallel Execution Merge & Join Node',
+      'Sequential Pipeline Chain Dispatcher',
+      'Rate-Limiting & Throttling Gate',
+      'Confidence Score Threshold Evaluator',
+      'Priority Queue Execution Ranker',
+      'State Machine Transition Manager',
+      'Timeout & Dead-Letter Queue Handler',
+      'Idempotency Check & Deduplication Gate',
+      'Human-in-the-Loop Approval Gate',
+      'Dynamic Feature Flag Switch',
+      'Cascade Failure Isolation Shield',
+      'Batch Ingestion & Chunk Splitter',
+      'Payload Transformation Mapper',
+      'Event-Driven Pub-Sub Trigger Router',
+      'Recursive Tree Search Evaluator',
+      'Rollback & State Reversion Dispatcher',
+      'Concurrency Mutex Lock Manager',
+      'Polling Loop & Condition Waiter',
+      'Load Balancing Round-Robin Dispatcher',
+      'Input Validation Guard Rail Node',
+      'Schema Migration Compatibility Mapper',
+      'Dependency Graph Resolution Node',
+      'A/B Testing Random Router Node',
+      'Graceful Degradation Feature Switch',
+      'Early Exit Condition Evaluator',
+      'Context Window Sliding Buffer Node'
+    ];
+    return makeBlock(
+      `cf-${num}`,
+      'control_flow',
+      `Control Flow: ${titles[i % titles.length]} (#${num})`,
+      `Control flow node for ${titles[i % titles.length].toLowerCase()}.`,
+      `### Control Flow Specification: ${titles[i % titles.length]}\nIncoming Payload: [[payload_${num}]]\n1. Evaluate condition: [[condition_${num}]].\n2. IF true: Dispatch to [[branch_true_${num}]].\n3. ELSE: Dispatch to [[branch_false_${num}]].`,
+      ['control_flow', 'logic', `spec-${num}`]
+    );
+  }),
 
   // ==========================================
-  // 19. MEDICAL (26 blocks)
+  // 9. OUTPUT (32 distinct blocks)
   // ==========================================
-  {
-    id: 'med-clinical-trial-review',
-    categoryId: 'medical',
-    name: 'Clinical Trial Methodology & Evidence Audit',
-    description: 'Evaluates trial design, statistical power, endpoints, and bias.',
-    content: `Analyze the clinical study for [[compound_or_therapy]]:
-1. Study Design (RCT, cohort, sample size, blinding)
-2. Primary vs Secondary Endpoints
-3. Statistical Significance vs Clinical Relevance
-4. Limitations, Confounding Factors & Bias Risks
-5. Practical Translational Implications for Practice`,
-    tags: ['clinical', 'evidence', 'medical'],
-  },
-  ...Array.from({ length: 25 }, (_, i) => ({
-    id: `med-block-${i + 2}`,
-    categoryId: 'medical',
-    name: [
-      'Patient Education Plain-Language Handout',
-      'Differential Diagnosis Thinking Scaffolding',
-      'Medical Terminology Translation Guide',
-      'Pharmacokinetics & Drug Interaction Matrix',
-      'SOAP Clinical Note Structuring Tool',
-      'Health Equity & Determinants of Health Review',
-      'Epidemiological Outbreak Model Audit',
-      'Biomarker & Diagnostic Test Sensitivity Spec',
-      'Surgical Protocol Step-by-Step Breakdown',
-      'Radiology Report Anatomy & Findings Summary',
-      'Immunology Pathway Mechanism Explanation',
-      'Nutritional Biochemistry Metabolic Map',
-      'Mental Health Triage & Support Resource Framing',
-      'Medical Device FDA 510(k) Readiness Checklist',
-      'Genomics Variant Classification Guide',
-      'Palliative Care Compassionate Comms Guide',
-      'Geriatric Polypharmacy Reduction Audit',
-      'Pediatric Dosage Formulation Guide',
-      'Clinical Practice Guideline Synthesis',
-      'ICD-10 / CPT Coding Crosswalk Helper',
-      'Infection Control Protocol Checklist',
-      'Emergency Department Triage Scoring Guide',
-      'Vaccine Efficacy & Safety Dossier Analysis',
-      'Physical Therapy Rehabilitation Protocol',
-      'Telehealth Remote Consultation Script',
-    ][i] || `Medical Knowledge Module #${i + 2}`,
-    description: `Healthcare analysis, clinical communication, and medical terminology framing.`,
-    content: `### Medical Knowledge Protocol
-Disclaimer: For informational and research synthesis purposes only. Not clinical medical advice.
-Topic: [[medical_topic]]
-Analyze the literature, synthesize physiological mechanisms, and highlight safety parameters.`,
-    tags: ['medical', 'clinical', 'health'],
-  })),
+  makeBlock(
+    'output-01', 'output', 'Strict JSON Schema Enforcement',
+    'Guarantees parseable JSON with exact keys, data types, and zero markdown envelope.',
+    '### Output Format: Pure JSON\nOutput ONLY raw, valid JSON conforming strictly to schema below.\nDo NOT enclose in markdown codeblocks. Do NOT add preambles or postscripts.\n\nSchema:\n{\n  "summary": "string",\n  "confidence_score": "number (0.0 to 1.0)",\n  "key_findings": ["array of strings"],\n  "action_items": [{"owner": "string", "task": "string", "priority": "P0 | P1 | P2"}]\n}',
+    ['json', 'schema', 'strict-output']
+  ),
+  makeBlock(
+    'output-02', 'output', 'Executive One-Pager Layout',
+    'Scannable corporate layout optimized for rapid executive decision-making.',
+    '### Output Format: Executive One-Pager\nStructure response using exact Markdown headers:\n# Executive Brief: [[topic_title]]\n**TL;DR**: [150-character takeaway]\n\n## 1. Core Problem & Impact\n[3 bullet points max]\n\n## 2. Proposed Architecture\n[Clean diagram or bulleted framework]\n\n## 3. Decision Matrix\n| Metric | Baseline | Target |\n|---|---|---|',
+    ['executive', 'one-pager', 'layout']
+  ),
+  ...Array.from({ length: 30 }, (_, i) => {
+    const num = i + 3;
+    const titles = [
+      'Strict YAML Configuration Schema',
+      'Markdown Comparison Matrix Table',
+      'OpenAPI 3.0 REST Specification Schema',
+      'GraphQL Schema & Resolver Definition',
+      'Mermaid.js Flowchart & Sequence Diagram',
+      'SQL DDL Schema & Table Statements',
+      'TypeScript Interface & Type Definitions',
+      'CSV / Delimited Data Table Format',
+      'RFC Standard Technical Document Layout',
+      'LaTeX Academic Paper Abstract & Equations',
+      'HTML/Tailwind CSS UI Component Layout',
+      'JSON-LD Structured Data Schema',
+      'Git Commit Message & PR Description',
+      'Slack / Teams Webhook Block Payload',
+      'Email Newsletter Markdown Layout',
+      'Slide Deck Outline & Speaker Notes',
+      'Executive Summary Bulleted Digest',
+      'Jira Ticket & Acceptance Criteria Spec',
+      'Release Notes & Changelog Template',
+      'Code Diff & Unified Patch Format',
+      'Data Dictionary & Schema Glossary',
+      'User Story & INVEST Criteria Layout',
+      'Bug Report & Steps-to-Reproduce Spec',
+      'Product Requirements Document (PRD) Schema',
+      'API Error Payload & Problem Details JSON',
+      'Cron Schedule & Triggers Documentation',
+      'Graphviz DOT Topology Specification',
+      'Markdown Checklist & Task Board Matrix',
+      'BibTeX Academic Citation List',
+      'Plain Text Unformatted Telemetry Stream'
+    ];
+    return makeBlock(
+      `output-${num}`,
+      'output',
+      `Output: ${titles[i % titles.length]} (#${num})`,
+      `Output formatting template for ${titles[i % titles.length].toLowerCase()}.`,
+      `### Strict Output Specification: ${titles[i % titles.length]}\nFormatting Target: [[target_format_${num}]]\nConstraint: Adhere strictly to layout structure below. Do not deviate or insert unformatted commentary.\n[Structure Template for ${titles[i % titles.length]}]`,
+      ['output', 'formatting', `spec-${num}`]
+    );
+  }),
 
   // ==========================================
-  // 20. LEGAL (26 blocks)
+  // 10. WRITING & COMMS (42 distinct blocks)
   // ==========================================
-  {
-    id: 'legal-contract-clause-dissection',
-    categoryId: 'legal',
-    name: 'Contract Clause Dissection & Risk Audit',
-    description: 'Examines indemnity, liability caps, termination, and ambiguity.',
-    content: `Analyze this contractual clause:
-\`\`\`
-[[contract_clause]]
-\`\`\`
-1. Plain-English interpretation of obligations.
-2. Hidden risks, one-sided liabilities, and ambiguities.
-3. Redline suggestion to balance commercial interests.`,
-    tags: ['contract', 'risk', 'legal'],
-  },
-  ...Array.from({ length: 25 }, (_, i) => ({
-    id: `legal-block-${i + 2}`,
-    categoryId: 'legal',
-    name: [
-      'Non-Disclosure Agreement (NDA) Review Checklist',
-      'Intellectual Property Assignment Clause Polish',
-      'Statutory Compliance & Regulatory Gap Analysis',
-      'Terms of Service & Privacy Policy Synthesis',
-      'Employment Agreement Restrictive Covenants',
-      'Software License (MIT/GPL/Apache) Compatibility',
-      'Litigation Case Brief & IRAC Methodology',
-      'SaaS Master Services Agreement (MSA) Redline',
-      'Due Diligence Corporate Governance Checklist',
-      'Antitrust & Monopolistic Trade Practice Audit',
-      'Arbitration & Dispute Resolution Protocol',
-      'Product Liability & Warranty Disclaimers',
-      'Export Control & International Trade Sanctions',
-      'Whistleblower Policy & Compliance Framework',
-      'Cross-Border Data Transfer Standard Clauses',
-      'Real Estate Commercial Lease Key Terms',
-      'Securities Regulation Reg D / Reg CF Summary',
-      'Trademark Infringement Cease and Desist Draft',
-      'Freedom of Information Act (FOIA) Request',
-      'Severability & Force Majeure Interpretation',
-      'Fiduciary Duty & Conflict of Interest Review',
-      'Employee Handbook Legal Compliance Scan',
-      'Subpoena Response & Evidence Preservation Hold',
-      'Class Action Settlement Notice Summary',
-      'Venture Capital NVCA Term Sheet Breakdown',
-    ][i] || `Legal Analysis Module #${i + 2}`,
-    description: `Legal research, regulatory compliance, contract analysis, and risk mitigation.`,
-    content: `### Legal Analysis Directive
-Disclaimer: For legal research and organizational workflow only. Does not constitute attorney-client advice.
-Subject: [[legal_matter]]
-Review legal precedents, statutory constraints, and liability exposures. Deliver structured findings.`,
-    tags: ['legal', 'compliance', 'contracts'],
-  })),
-
-  // ==========================================
-  // 21. RESEARCH (31 blocks)
-  // ==========================================
-  {
-    id: 'research-literature-synthesis',
-    categoryId: 'research',
-    name: 'Systematic Literature Review Matrix',
-    description: 'Synthesizes divergent academic viewpoints and methodological consensus.',
-    content: `Conduct an academic synthesis on [[research_topic]]:
-1. Current Scholarly Consensus
-2. Major Competing Theoretical Paradigms
-3. Methodological Divergences & Sample Biases
-4. Critical Unanswered Questions / Research Gap
-5. Promising Hypotheses for Future Empirical Testing`,
-    tags: ['literature-review', 'academic', 'research'],
-  },
-  ...Array.from({ length: 30 }, (_, i) => ({
-    id: `research-block-${i + 2}`,
-    categoryId: 'research',
-    name: [
-      'Hypothesis Formulation & Falsification Matrix',
-      'Quantitative Methodology Stress Test',
-      'Qualitative Grounded Theory Coding Frame',
-      'Academic Paper Abstract & Title Generator',
-      'Peer Review Referee Report (Critique of Paper)',
-      'Meta-Analysis Effect Size Evaluation',
-      'Research Grant Specific Aims Proposal',
-      'Experimental Design Control Group Calibration',
-      'Survey Instrument Bias & Leading Question Audit',
-      'Citation Graph & Influential Paper Mapping',
-      'Bibliometric Keyword Co-Occurrence Analysis',
-      'Ethical Review Board (IRB) Protocol Checklist',
-      'Data Availability Statement & Reproducibility Guide',
-      'Mixed-Methods Research Design Integration',
-      'Primary Source Historical Contextualization',
-      'De-Anonymization Threat in Academic Datasets',
-      'Longitudinal Study Attrition Rate Mitigation',
-      'Qualitative Interview Coding Codebook',
-      'Academic Conference Poster Presentation Script',
-      'Dissertation Chapter Outline & Transition Plan',
-      'Scientific Journal Selection Strategy',
-      'Inter-Rater Reliability Cohen Kappa Protocol',
-      'Statistical Power Calculation Narrative',
-      'Open Science Framework Preregistration Form',
-      'Ethnographic Field Notes Synthesis',
-      'Archival Research Cataloging Scheme',
-      'Philosophy of Science Epistemic Justification',
-      'Policy White Paper Academic Foundation',
-      'Replication Crisis Vulnerability Assessment',
-      'Interdisciplinary Terminology Alignment',
-    ][i] || `Research Methodology Tool #${i + 2}`,
-    description: `Academic research, experimental methodology, and scientific synthesis.`,
-    content: `### Academic Research Protocol
-Domain: [[academic_discipline]]
-Inquiry: [[research_question]]
-Apply empirical rigor, acknowledge confounding variables, and synthesize findings with academic precision.`,
-    tags: ['research', 'methodology', 'academic'],
-  })),
-
-  // ==========================================
-  // 22. SOCIAL (16 blocks)
-  // ==========================================
-  {
-    id: 'social-viral-hook-generator',
-    categoryId: 'social',
-    name: 'High-Retention Viral Hook Framework',
-    description: 'Generates captivating opening lines for threads and videos.',
-    content: `Generate 5 viral hooks for [[topic]]:
-1. The Contrarian / Myth-Busting Hook
-2. The High-Stakes Personal Confession Hook
-3. The Step-by-Step "How I did X in Y time" Hook
-4. The Inverted Warning / Caution Hook
-5. The Curated Resource / Bookmarkable List Hook`,
-    tags: ['viral', 'hooks', 'social'],
-  },
-  ...Array.from({ length: 15 }, (_, i) => ({
-    id: `social-block-${i + 2}`,
-    categoryId: 'social',
-    name: [
-      'Community Moderation & Conflict De-escalation',
-      'Twitter/X Educational Thread Architecture',
-      'LinkedIn Carousel Slide-by-Slide Outline',
-      'YouTube Video Title & Thumbnail Concept Pairs',
-      'Discord Server Engagement Event Script',
-      'TikTok/Reels 60-Second Video Script',
-      'Reddit AMA (Ask Me Anything) Strategy & Prep',
-      'User-Generated Content (UGC) Prompt Challenge',
-      'Brand Hashtag Campaign Creative Brief',
-      'Influencer Outreach Collaboration DM Pitch',
-      'Weekly Newsletter Curated Digest Format',
-      'Crisis Social Media Response Guidelines',
-      'Community Guideline & Code of Conduct',
-      'Live Stream Host Talking Points & Q&A Flow',
-      'Podcast Social Media Audiogram Clip Plan',
-    ][i] || `Social Engagement Block #${i + 2}`,
-    description: `Social media strategy, audience engagement, and community building.`,
-    content: `### Social Media Protocol
-Audience: [[target_platform_audience]]
-Deliver high-engagement copy that captures attention in the first 3 seconds, provides instant value, and prompts comments.`,
-    tags: ['social', 'content', 'marketing'],
-  })),
-
-  // ==========================================
-  // 23. TECHNICAL (31 blocks)
-  // ==========================================
-  {
-    id: 'tech-incident-postmortem',
-    categoryId: 'technical',
-    name: 'Blameless Incident Post-Mortem',
-    description: 'Root cause analysis, timeline, and corrective preventive actions.',
-    content: `Draft a Blameless Post-Mortem for [[incident_name]]:
-1. Incident Summary & User Impact (Duration, affected users, SLA)
-2. Detailed Chronological Timeline of Events
-3. Root Cause Analysis (Technical & Organizational)
-4. What Went Well vs Where We Got Lucky
-5. Action Items (Preventative, Detective, Corrective) with owners.`,
-    tags: ['postmortem', 'devops', 'technical'],
-  },
-  ...Array.from({ length: 30 }, (_, i) => ({
-    id: `tech-block-${i + 2}`,
-    categoryId: 'technical',
-    name: [
-      'Architecture Decision Record (ADR) Template',
-      'Threat Modeling STRIDE Methodology',
-      'Kubernetes Deployment & Helm Chart Spec',
-      'Database Migration Zero-Downtime Strategy',
-      'Load Testing & Chaos Engineering Plan',
-      'Distributed Tracing & OpenTelemetry Setup',
-      'API Rate Limiting & Token Bucket Spec',
-      'Disaster Recovery (RTO/RPO) Runbook',
-      'Single Sign-On (SAML/OIDC) Integration Plan',
-      'CI/CD Pipeline Security Hardening',
-      'Micro-Frontend Architecture Blueprint',
-      'Event-Driven Pub/Sub Kafka Architecture',
-      'Cache Invalidation Strategy (TTL vs LRU)',
-      'Serverless Cold Start Optimization Guide',
-      'Infrastructure as Code (Terraform) Blueprint',
-      'Network Mesh & Istio Routing Config',
-      'Secrets Management & Vault Rotation Policy',
-      'Web Performance Core Web Vitals Optimization',
-      'Linux Kernel Parameter Tuning for Web Servers',
-      'High-Availability PostgreSQL Failover Guide',
-      'Elasticsearch Cluster Sharding Strategy',
-      'WebSocket Scalability Architecture',
-      'SSL/TLS Certificate Lifecycle Automation',
-      'Zero Trust Network Access (ZTNA) Architecture',
-      'Data Loss Prevention (DLP) Technical Audit',
-      'GraphQL Subscriptions Scalability Spec',
-      'Edge Compute Cloudflare Workers Pattern',
-      'Storage Tiering & Cold Archive Lifecycle',
-      'System Capacity Planning & Forecasting',
-      'Service Level Objective (SLO/SLI) Matrix',
-    ][i] || `Technical Architecture Pattern #${i + 2}`,
-    description: `Infrastructure, distributed systems, DevOps, and cloud reliability engineering.`,
-    content: `### Systems Architecture Directive
-System: [[system_name]]
-Design a scalable, highly available, and resilient architecture addressing bottlenecks, latency, and fault tolerance.`,
-    tags: ['technical', 'systems', 'infrastructure'],
-  })),
-
-  // ==========================================
-  // 24. MISCELLANEOUS (16 blocks)
-  // ==========================================
-  {
-    id: 'misc-eisenhower-matrix',
-    categoryId: 'miscellaneous',
-    name: 'Eisenhower Urgent/Important Decision Matrix',
-    description: 'Categorizes tasks into Do, Decide, Delegate, and Delete.',
-    content: `Sort the following task backlog into the Eisenhower Matrix:
-- Quadrant 1: Urgent & Important (Do immediately)
-- Quadrant 2: Not Urgent, but Important (Schedule deeply)
-- Quadrant 3: Urgent, but Not Important (Delegate or automate)
-- Quadrant 4: Neither Urgent nor Important (Delete ruthlessly)
-Tasks:
-[[tasks_list]]`,
-    tags: ['productivity', 'matrix', 'miscellaneous'],
-  },
-  ...Array.from({ length: 15 }, (_, i) => ({
-    id: `misc-block-${i + 2}`,
-    categoryId: 'miscellaneous',
-    name: [
-      'Comprehensive Meeting Minutes & Action Items',
-      'Travel Itinerary Logistics Planner',
-      'Book Recommendation & Key Takeaway Synthesizer',
-      'Daily Habit Tracker & Momentum Builder',
-      'Personal Budget & Spending Leaks Audit',
-      'Checklist Manifesto Standard Operating Procedure',
-      'Speed Reading Comprehension Booster',
-      'Gift Giving Thoughtful Idea Generator',
-      'Event Planning Countdown Schedule',
-      'Home Organization KonMari Declutter Guide',
-      'Fitness Workout Periodization Routine',
-      'Mindfulness Breathing & Stress Relief Script',
-      'Resume Bullet Point Impact Rewriter (STAR)',
-      'Productivity Pomodoro Session Planner',
-      'Language Vocabulary Memory Anchor',
-    ][i] || `Utility Module #${i + 2}`,
-    description: `Everyday productivity, habit systems, planning, and organizational aids.`,
-    content: `### Utility Directive
-Target: [[productivity_goal]]
-Deliver a structured, friction-free plan optimized for quick execution and clarity.`,
-    tags: ['miscellaneous', 'productivity', 'tools'],
-  })),
+  makeBlock(
+    'writing-01', 'writing', 'Pyramid Principle Communication',
+    'Structure starting with conclusion first, followed by key arguments and supporting data.',
+    '### Structure: Minto Pyramid Principle\nCraft communication regarding [[topic]]:\n1. **Governing Thought (Conclusion First)**: State key recommendation or result upfront in sentence 1.\n2. **Key Arguments**: Present 3 mutually exclusive, collectively exhaustive (MECE) supporting points.\n3. **Data & Evidence**: Subordinate supporting evidence, numbers, or case studies beneath each argument.',
+    ['pyramid-principle', 'minto', 'executive-comm']
+  ),
+  makeBlock(
+    'writing-02', 'writing', 'High-Stakes Persuasive Pitch Narrative',
+    'Hook, pain point amplification, resolution, and compelling call-to-action.',
+    '### Narrative Arc: Persuasive Pitch\nWrite a pitch targeting [[target_prospect]]:\n- **Hook**: Provocative industry stat or visceral challenge regarding [[industry_pain]].\n- **Agitation**: Quantify cost of inaction.\n- **Breakthrough**: Introduce [[solution_name]] as logical inflection point.\n- **Proof**: Provide 2 tangible proof points.\n- **CTA**: Frictionless next step.',
+    ['pitch', 'persuasive', 'narrative']
+  ),
+  ...Array.from({ length: 40 }, (_, i) => {
+    const num = i + 3;
+    const titles = [
+      'AIDA High-Conversion Marketing Copy',
+      'PAS (Problem-Agitate-Solve) Framework',
+      'BAB (Before-After-Bridge) Storytelling',
+      'FAB (Features-Advantages-Benefits) Translator',
+      'Executive Memo & Board Update',
+      'Investor Relations Quarterly Update Letter',
+      'Crisis Public Relations & Press Release',
+      'Customer Apology & Retention Letter',
+      'Cold Email Outreach & Personalization',
+      'LinkedIn Thought Leadership Post',
+      'X / Twitter Viral Thread Script',
+      'Technical Blog Post for Developers',
+      'Case Study Narrative & Customer Story',
+      'White Paper Abstract & Executive Summary',
+      'Product Launch Announcement Email',
+      'User Onboarding Email Drip Series',
+      'Feature Deprecation Notice to Users',
+      'Terms of Service Plain-Language Summary',
+      'Internal All-Hands Keynote Speech',
+      'Podcast Interview Script & Questions',
+      'Video Sales Letter (VSL) Script',
+      'Landing Page Hero Section Copy',
+      'FAQ & Objection-Handling Copy',
+      'Re-Engagement & Win-Back Campaign',
+      'Event Invitation & RSVP Nudge Email',
+      'Community Guidelines & Policy Update',
+      'Employee Review & Promotion Nomination',
+      'Vendor Price Negotiation Email',
+      'Job Description & Culture Pitch',
+      'Microcopy UI Button & Modal Copy',
+      'Sponsorship Pitch Deck Narrative',
+      'Crowdfunding Campaign Story Copy',
+      'Annual Impact Report Executive Summary',
+      'Policy Position Paper for Regulators',
+      'Technical Documentation Intro & Guide',
+      'Sales Battlecard & Competitor Counter-Pitch',
+      'Customer Feedback Request & Incentive Copy',
+      'Newsletter Editor Intro & Curation',
+      'Internal Wiki Architecture Overview',
+      'Speech & Keynote Opening Monologue'
+    ];
+    return makeBlock(
+      `writing-${num}`,
+      'writing',
+      `Writing: ${titles[i % titles.length]} (#${num})`,
+      `Writing and communication pattern for ${titles[i % titles.length].toLowerCase()}.`,
+      `### Writing Specification: ${titles[i % titles.length]}\nTarget Audience: [[audience_${num}]]\nCore Message: [[core_message_${num}]]\nTone: [[desired_tone_${num}]]\nWrite a high-impact piece adhering strictly to ${titles[i % titles.length]} principles.`,
+      ['writing', 'comms', `spec-${num}`]
+    );
+  })
 ];
