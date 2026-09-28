@@ -10,35 +10,43 @@ export interface GeneratePromptParams {
 }
 
 /**
- * Helper: Strips meta-prompt noise, prompt-generator preambles, and meta-instructions.
- * Extracts the true operational task.
+ * Strips meta-prompting noise, generator preambles, and conversational meta-instructions
+ * in both English and Russian, returning the clean, operational core task.
  */
 export function extractCoreGoalAndCleanMeta(input: string): string {
   if (!input) return '';
 
   let clean = input.trim();
 
-  // Common meta-prompt wrapper patterns
-  const metaPhrases = [
-    /^(I need|I want|Please write|Write|Create|Draft|Generate|Build|Make|Construct)\s+(a|an)?\s*(system|expert|custom|detailed)?\s*prompt\s+(for|that|which|to|where|allowing|capable of)\s+/i,
-    /^(Can you|Could you|Would you)\s+(please\s+)?(write|create|generate|draft|build|make)\s+(a|an)?\s*(system|custom)?\s*prompt\s+(for|that|which|to)\s+/i,
-    /^(Act as a|You are a)\s+prompt\s+(engineer|generator|creator|architect)\s+(and|to|that)\s+/i,
-    /^(Here is a prompt|This is a prompt|Optimize this prompt|Improve this prompt):\s*/i,
-    /^(I am looking for a prompt that|I need help writing a prompt to)\s+/i,
+  // Multi-line and line-level meta-prompt patterns (English & Russian)
+  const metaRegexes = [
+    // English meta-prompting prefixes
+    /^(I need|I want|Please write|Write|Create|Draft|Generate|Build|Make|Construct|Design)\s+(a|an)?\s*(system|expert|custom|detailed)?\s*prompt\s+(for|that|which|to|where|allowing|capable of|about|helping to|to help)\s+/gi,
+    /^(Can you|Could you|Would you)\s+(please\s+)?(write|create|generate|draft|build|make)\s+(a|an)?\s*(system|custom)?\s*prompt\s+(for|that|which|to|about)\s+/gi,
+    /^(Act as a|You are a)\s+prompt\s+(engineer|generator|creator|architect)\s+(and|to|that)\s+/gi,
+    /^(Here is a prompt|This is a prompt|Optimize this prompt|Improve this prompt):\s*/gi,
+    /^(I am looking for a prompt that|I need help writing a prompt to|Help me write a prompt for)\s+/gi,
+
+    // Russian meta-prompting prefixes
+    /^(мне нужен|нужен|напиши|создай|сделай|составь|разработай|сгенерируй|оптимизируй)\s+(системный|кастомный|детальный|хороший)?\s*промпт\s+(для|который|чтобы|по|помогающий)\s+/gi,
+    /^(можешь|могла бы|помоги|напиши|создай)\s+(составить|написать|сделать|сгенерировать)?\s*(системный|кастомный)?\s*промпт\s+(для|который|чтобы|по|помогающий)\s+/gi,
+    /^(ты\s*[-—]?\s*промпт[- ](инженер|инженерка|архитектор|эксперт)|действуй как промпт[- ]инженер)\s*(напиши|создай|составь)?\s*/gi,
+    /^(вот промпт|улучши этот промпт|оптимизируй промпт):\s*/gi,
+    /^(напиши системный промпт|создай системный промпт|нужен системный промпт)\s+(для|по|который|помогающий)?\s*/gi,
   ];
 
-  for (const regex of metaPhrases) {
-    clean = clean.replace(regex, '');
+  for (const rx of metaRegexes) {
+    clean = clean.replace(rx, '');
   }
 
-  // Clean trailing meta-request sentences
-  clean = clean.replace(/\s*(Please make sure the prompt|The prompt should include|Ensure the prompt has|Format the prompt as|Make it professional|Include variables like).*$/i, '');
+  // Remove meta instructions embedded at the end
+  clean = clean.replace(/\s*(Please make sure the prompt|The prompt should include|Ensure the prompt has|Format the prompt as|Make it professional|Include variables like|Убедись, что промпт содержит|Промпт должен включать|Сделай промпт профессиональным).*$/gi, '');
 
-  // Clean polite preambles and boilerplate conversational intros
+  // Remove polite conversational preambles
   clean = clean
-    .replace(/^(Hello|Hi|Hey|Dear AI|As an AI),\s*/i, '')
-    .replace(/\b(please|kindly)\b/gi, '')
-    .replace(/\s+/g, ' ')
+    .replace(/^(Hello|Hi|Hey|Dear AI|Привет|Здравствуйте),\s*/gi, '')
+    .replace(/\b(please|kindly|пожалуйста)\b/gi, '')
+    .replace(/[ \t]+/g, ' ')
     .trim();
 
   // Capitalize first letter
@@ -50,149 +58,378 @@ export function extractCoreGoalAndCleanMeta(input: string): string {
 }
 
 /**
- * Helper: Classifies task into domain archetype for specialized architectural framing.
+ * Detects whether the input text is primarily Russian.
  */
-export function classifyTaskType(text: string): 'coding' | 'analysis' | 'business' | 'writing' | 'evaluation' | 'creative' | 'process' | 'general' {
-  const lower = text.toLowerCase();
-
-  if (/\b(code|refactor|typescript|react|python|sql|debug|api|bug|github|test|docker|backend|frontend|function|script|database|orm)\b/.test(lower)) {
-    return 'coding';
-  }
-  if (/\b(analyze|audit|evaluation|root cause|gap|swot|review|inspect|metric|churn|trend|baseline|data|stat)\b/.test(lower)) {
-    return 'analysis';
-  }
-  if (/\b(strategy|gtm|saas|pricing|market|revenue|pitch|investor|unit economics|roi|okr|lead|b2b|growth|business)\b/.test(lower)) {
-    return 'business';
-  }
-  if (/\b(write|copy|article|post|email|script|story|sales|headline|blog|newsletter|hook|persuasive|press release)\b/.test(lower)) {
-    return 'writing';
-  }
-  if (/\b(grade|rubric|score|eval|security|vulnerability|compliance|guardrail|risk|check|jailbreak|pii)\b/.test(lower)) {
-    return 'evaluation';
-  }
-  if (/\b(fiction|worldbuilding|character|poem|plot|novel|scene|dialogue|fantasy|sci-fi|creative)\b/.test(lower)) {
-    return 'creative';
-  }
-  if (/\b(workflow|pipeline|step-by-step|sop|sequence|dag|process|automation|orchestration)\b/.test(lower)) {
-    return 'process';
-  }
-
-  return 'general';
+function isRussianText(text: string): boolean {
+  const cyrillicMatches = text.match(/[а-яА-ЯёЁ]/g);
+  return (cyrillicMatches?.length || 0) > 3;
 }
 
 /**
- * Helper: Assigns authoritative role persona based on task archetype.
+ * Transforms raw user tasks into specialized, standalone domain prompts.
+ * Generates domain-specific sections (e.g. Incident Timelines, 5 Whys, Code Audits, GTM Roadmaps, AIDA Copy Arc)
+ * completely removing raw meta-text.
  */
-function getRoleForTaskType(taskType: ReturnType<typeof classifyTaskType>): string {
-  switch (taskType) {
-    case 'coding':
-      return 'You are a Principal Software Architect with 15+ years of experience in distributed systems, clean code, and type-safe software engineering.';
-    case 'analysis':
-      return 'You are a Principal Data Analyst and Root-Cause Auditor specializing in uncovering hidden failure modes, operational bottlenecks, and systemic patterns.';
-    case 'business':
-      return 'You are a Chief Strategy Officer and veteran management consultant with expertise in enterprise unit economics, go-to-market execution, and scalable growth.';
-    case 'writing':
-      return 'You are an Elite Direct-Response Copywriter and Brand Communications Director focused on high-density, persuasive prose with zero fluff.';
-    case 'evaluation':
-      return 'You are a Senior Risk & Compliance Auditor specializing in strict vulnerability assessments, rule enforcement, and objective grading rubrics.';
-    case 'creative':
-      return 'You are an Award-Winning Creative Director and Narrative Architect specializing in immersive worldbuilding and character dynamics.';
-    case 'process':
-      return 'You are a Senior Operations Engineer and Systems Orchestration Lead specializing in workflow optimization and execution pipelines.';
-    case 'general':
-    default:
-      return 'You are an authoritative domain specialist with deep practical expertise in executing complex technical and strategic deliverables.';
+export function buildDomainPrompt(
+  input: string,
+  aggressiveness: 'low' | 'medium' | 'high',
+  options?: {
+    chainOfThought?: boolean;
+    riskAudit?: boolean;
+    constraints?: boolean;
+    examples?: boolean;
   }
-}
+): string {
+  const cleanGoal = extractCoreGoalAndCleanMeta(input);
+  const lower = cleanGoal.toLowerCase();
+  const isRu = isRussianText(input);
 
-export function generatePromptFromParams(params: GeneratePromptParams): string {
-  const { domain, task, technique, tone, detailLevel, targetModel } = params;
+  // Detect domain
+  const isRetro = /retrospect|postmortem|incident|outage|ретроспектив|постмортем|инцидент|авари|сбой|скрам|спринт/.test(lower);
+  const isCoding = /code|refactor|typescript|react|python|sql|debug|api|bug|github|test|docker|код|рефакторинг|исправь|ошибк|скрипт/.test(lower);
+  const isBusiness = /strategy|gtm|pricing|investor|saas|pitch|бизнес|стратеги|питч|продаж|маркетинг|цена/.test(lower);
+  const isCopywriting = /copywriting|write|article|copy|email|post|newsletter|копирайтинг|текст|стать|письмо|пост|рассылк/.test(lower);
+  const isGaming = /game|rpg|master|dungeon|quest|character|игра|ролевая|нри|квест|персонаж|ведущий/.test(lower);
+  const isData = /sql|database|query|data|analytics|база данных|бд|запрос|данные|статистика/.test(lower);
+  const isEval = /eval|rubric|guardrail|security|audit|risk|оценка|рубрика|риски|безопасность|проверка/.test(lower);
 
-  let roleIntro = '';
-  switch (domain.toLowerCase()) {
-    case 'coding':
-      roleIntro = `You are a Principal Software Architect with 15+ years of experience in distributed systems, clean architecture, and type-safe software engineering.`;
-      break;
-    case 'business':
-      roleIntro = `You are a Chief Strategy Officer and veteran management consultant with expertise in enterprise unit economics, market positioning, and scalable operations.`;
-      break;
-    case 'copywriting':
-      roleIntro = `You are an elite direct-response copywriter and brand storyteller who creates compelling, high-converting prose with zero fluff.`;
-      break;
-    case 'product':
-      roleIntro = `You are a Head of Product and UX Design veteran specializing in user retention, progressive disclosure, and frictionless workflows.`;
-      break;
-    case 'research':
-      roleIntro = `You are a Senior Principal Research Scientist with rigorous academic training in empirical methodology, literature synthesis, and statistical inference.`;
-      break;
-    default:
-      roleIntro = `You are a world-class domain specialist with deep practical expertise in [[${domain || 'domain_subject'}]].`;
+  // 1. RETROSPECTIVE & INCIDENT POST-MORTEM DOMAIN
+  if (isRetro) {
+    if (isRu) {
+      if (aggressiveness === 'low') {
+        return `### Роль и Задачи\nВы выступаете в роли опытного Agile Coach и Фасилитатора ретроспектив.\n\n### Операционная Цель\nПровести системный разбор и ретроспективу инцидента/спринта [[название_события]] для выявления узких мест и планирования улучшений.\n\n### Правила Проведения\n- Соблюдать принцип культуры без поиска виновных (Blameless).\n- Фиксировать ключевые выводы и согласованные Action Items.`;
+      }
+      if (aggressiveness === 'medium') {
+        return `### Роль и Принципы (Blameless Culture)\nВы выступаете в роли Site Reliability Lead и Фасилитатора, специализирующегося на проведении безнаказанных (Blameless) ретроспектив и разборе сбоев.\n\n### Операционная Цель\nПровести глубокую ретроспективу инцидента [[название_инцидента]], восстановить хронологию событий и сформировать план предотвращения повторных аварий.\n\n### 1. Восстановление Хронологии (Timeline)\n- Время обнаружения (Detection) и локализации сбоя.\n- Временные меры по стабилизации (Mitigation) и финальное решение (Resolution).\n\n### 2. Анализ Первопричин (Root Cause)\nПрименить метод «5 Почему» для поиска системных уязвимостей в процессах и архитектуре.\n\n### 3. Матрица Действий (Action Items)\n| Действие | Ответственный | Приоритет | Срок |\n|---|---|---|---|\n| [[action_item_1]] | [[owner_1]] | P0 | [[deadline_1]] |`;
+      }
+      // DEEP
+      return `### Роль и Принципы (Blameless Culture)
+Вы выступаете в роли опытного Site Reliability Lead и Фасилитатора, специализирующегося на проведении системных ретроспектив инцидентов и разборе сбоев в культуре без поиска виновных (Blameless Culture).
+
+### Операционная Цель
+Провести комплексную ретроспективу инцидента [[название_инцидента]], полностью восстановить хронологию событий, установить инженерные и процессные первопричины (Root Causes), оценить объём ущерба и сформировать план предотвращения повторных аварий.
+
+### 1. Контекст и Масштаб Инцидента
+- Название / ID Инцидента: [[id_инцидента]]
+- Затронутые сервисы / Системы: [[затронутые_сервисы]]
+- Уровень критичности (Severity): [[уровень_severity]]
+- Длительность простоя (Downtime): [[длительность_мин]] мин
+
+### 2. Реконструкция Хронологии (Timeline)
+- **Обнаружение (Detection)**: Время и канал первого сигнала (мониторинг, саппорт, пользователи).
+- **Локализация и Триатлон (Triage)**: Определение эпицентра сбоя.
+- **Стабилизация (Mitigation)**: Временные меры для восстановления работоспособности.
+- **Полное Решение (Resolution)**: Окончательное устранение дефекта.
+
+### 3. Анализ Первопричин (Протокол 5 Почему / Root Cause)
+Примените цепочку «5 Почему» для перехода от поверхностных симптомов (человеческий фактор, ошибка конфигурации) к глубиновым архитектурным и процессным уязвимостям.
+
+### 4. Оценка Ущерба и Влияния на Бизнес
+- Потерянный доход / Финансовый ущерб
+- Нарушение SLA / SLO договоренностей
+- Репутационные риски и жалобы пользователей
+
+### 5. Матрица Предотвращения и Action Items
+| Действие / Таск | Ответственный | Приоритет (P0/P1/P2) | Срок |
+|---|---|---|---|
+| [[action_item_1]] | [[owner_1]] | P0 | [[deadline_1]] |
+
+### 6. Ограничения и Правила
+- ФОКУС strictly на процессах, архитектуре и системных лазейках, а не на персоналиях.
+- Каждое рекомендательное действие должно иметь четкий критерий проверки (Definition of Done).`;
+    } else {
+      // English
+      if (aggressiveness === 'low') {
+        return `### Role & Task\nYou are acting as an experienced Agile Facilitator leading an incident retrospective.\n\n### Primary Directive\nConduct a systematic retrospective for [[event_name]] to identify process bottlenecks and outline corrective actions.\n\n### Execution Rules\n- Maintain a blameless culture focusing on systems rather than individuals.\n- Deliver concise, actionable takeaways.`;
+      }
+      if (aggressiveness === 'medium') {
+        return `### Role & Blameless Principles\nYou are acting as a Site Reliability Lead specializing in blameless incident retrospectives.\n\n### Operational Objective\nFacilitate a thorough retrospective for [[incident_title]] to reconstruct timeline events, analyze root causes, and establish preventive measures.\n\n### 1. Timeline Reconstruction\n- Detection time, triage, mitigation, and permanent resolution milestones.\n\n### 2. Root Cause Analysis (5 Whys Protocol)\nExecute 5 Whys chain to transition from symptoms to underlying process and architectural flaws.\n\n### 3. Action Items Matrix\n| Action Item | Owner | Priority (P0/P1/P2) | Deadline |\n|---|---|---|---|\n| [[action_item_1]] | [[owner_1]] | P0 | [[deadline_1]] |`;
+      }
+      // DEEP
+      return `### Role & Blameless Principles
+You are acting as a Senior Site Reliability Engineer and Systems Auditor specializing in blameless post-mortems and incident retrospectives.
+
+### Core Operational Directive
+Facilitate a comprehensive, blameless incident retrospective for [[incident_title]] to reconstruct timeline events, isolate root cause vulnerabilities, evaluate business impact, and establish preventative safeguards.
+
+### 1. Incident Framing & Scope
+- Incident Title / ID: [[incident_id]]
+- Affected Systems & Services: [[affected_services]]
+- Severity Rating: [[severity_rating]]
+- Total Downtime: [[downtime_minutes]] minutes
+
+### 2. Timeline Reconstruction
+- **Detection Phase**: Initial trigger, monitoring alert, or user escalation.
+- **Triage Phase**: Failure isolation and diagnosis.
+- **Mitigation Phase**: Workaround applied to restore service.
+- **Resolution Phase**: Permanent fix deployment.
+
+### 3. Root Cause Analysis (5 Whys Protocol)
+Execute a 5-Whys diagnostic chain to transition from surface symptoms (human mistake, config error) to deep architectural, policy, or testing deficits.
+
+### 4. Impact & Loss Assessment
+- Quantified financial loss & revenue impact.
+- SLA/SLO breach thresholds.
+- Customer trust and support ticket volume delta.
+
+### 5. Preventative Action Items Matrix
+| Action Item | Owner | Priority (P0/P1/P2) | Target Date |
+|---|---|---|---|
+| [[action_item_1]] | [[owner_1]] | P0 | [[target_date_1]] |
+
+### 6. Governance & Negative Constraints
+- Maintain absolute focus on process, tooling, and architectural flaws rather than personal blame.
+- Every corrective action item must feature a verifiable Definition of Done.`;
+    }
   }
 
-  let techniqueBlock = '';
-  switch (technique.toLowerCase()) {
-    case 'chain-of-thought':
-      techniqueBlock = `### Reasoning Protocol (Chain-of-Thought)\nBefore delivering your final conclusion:\n1. Break the problem into its atomic constituent elements.\n2. Outline your step-by-step deduction path showing your intermediate rationale.\n3. Validate each assertion against first-principles logic before moving to the next.`;
-      break;
-    case 'six-hats':
-      techniqueBlock = `### Analysis Framework (Six Thinking Hats)\nEvaluate this task through distinct perspective lenses:\n- White Hat: Known facts, verified data, and objective constraints.\n- Black Hat: Critical failure modes, risks, and downside vulnerabilities.\n- Yellow Hat: Maximum upside, strategic value, and opportunistic wins.\n- Green Hat: Innovative, non-obvious alternatives and creative workarounds.\n- Blue Hat: Decisive synthesized action plan.`;
-      break;
-    case 'first-principles':
-      techniqueBlock = `### First-Principles Decomposition\nStrip away all industry precedent, historical analogies, and conventional wisdom:\n1. Identify the fundamental, undeniable physical/mathematical axioms of this problem.\n2. Discard artificial or self-imposed constraints.\n3. Construct an optimal solution strictly upwards from baseline axioms.`;
-      break;
-    case 'tree-of-thoughts':
-      techniqueBlock = `### Multi-Branch Evaluation (Tree of Thoughts)\n1. Formulate 3 distinct conceptual strategies to solve this.\n2. Score each strategy on feasibility (1-5), speed (1-5), and strategic leverage (1-5).\n3. Select the winning path and explain why the alternative branches were pruned.`;
-      break;
-    case 'inversion':
-      techniqueBlock = `### Inversion Protocol (Charlie Munger Principle)\n1. Envision how this project could fail catastrophically and completely.\n2. Identify the top 3 fatal traps and vulnerabilities.\n3. Convert those failure modes into proactive, ironclad defensive guardrails.`;
-      break;
-    default:
-      techniqueBlock = `### Step-by-Step Execution Plan\nAnalyze the request systematically, prioritizing high-leverage outcomes and quantifiable clarity.`;
+  // 2. CODE REFACTORING & SOFTWARE AUDIT DOMAIN
+  if (isCoding) {
+    if (isRu) {
+      if (aggressiveness === 'low') {
+        return `### Роль и Задачи\nВы выступаете в роли Senior Software Engineer.\n\n### Операционная Цель\nПровести рефакторинг представленного кода <code_snippet>[[код]]</code_snippet> для повышения читаемости, устранения ошибок и улучшения архитектуры.\n\n### Правила\n- Предоставить чистый, рабочеспособный код.\n- Добавить краткие пояснения сделанных изменений.`;
+      }
+      if (aggressiveness === 'medium') {
+        return `### Роль и Полномочия\nВы выступаете в роли Principal Software Architect, специализирующегося на чистом коде, типобезопасности и оптимизации производительности.\n\n### Операционная Цель\nПровести рефакторинг кода <code_snippet>[[код]]</code_snippet> для улучшения типобезопасности, разделения ответственности и оптимизации алгоритмической сложности.\n\n### 1. Направления Оптимизации\n- Устранить \`any\` типы и заменить их на строгие интерфейсы.\n- Извлечь сложные монолитные блоки в вспомогательные функции.\n- Оптимизировать время выполнения и аллокации памяти.\n\n### 2. Формат Вывода\nРефакторенный код и краткая справка по изменениям.`;
+      }
+      // DEEP
+      return `### Роль и Полномочия
+Вы выступаете в роли Главного Архитектора ПО (Principal Software Architect), специализирующегося на чистой архитектуре, типобезопасности, оптимизации производительности и надёжности сложных распределённых систем.
+
+### Операционная Цель
+Провести глубокий аудит и рефакторинг представленного фрагмента кода <code_snippet>[[фрагмент_кода]]</code_snippet> для устранения architectural smells, повышения читаемости, обеспечения 100% типобезопасности и оптимизации runtime-производительности.
+
+### 1. Аудит Кода и Выявление Проблем
+- **Типобезопасность**: Поиск неявных \`any\`, небезопасных приведений типов и отсутствующих интерфейсов.
+- **Производительность**: Выявление лишних аллокаций памяти, неоптимальных циклов и утечек памяти.
+- **Архитектурная Связность**: Извлечение сложной монолитной логики в чистые, тестируемые вспомогательные функции.
+
+### 2. Директивы по Рефакторингу
+- Внедрить строгие интерфейсы и дискриминантные объединения (Discriminated Unions).
+- Оптимизировать асинхронные вызовы и обработку ошибок через явную иерархию исключений.
+- Ограничить вычислительную сложность алгоритмов верхним пределом O(N).
+
+### 3. Гарантия Регрессионной Безопасности
+Предоставить модуль юнит-тестов (Vitest/Jest), покрывающий базовый сценарий (Happy Path), граничные условия (Edge Cases) и обработку ошибок.
+
+### 4. Формат Вывода
+- Четкий сфокусированный рефакторенный код в блоке кода.
+- Краткие архитектурные комментарии с пояснением изменений и дельты сложности.`;
+    } else {
+      if (aggressiveness === 'low') {
+        return `### Role & Directive\nYou are acting as a Senior Software Engineer.\n\n### Core Objective\nRefactor the provided code snippet <code_snippet>[[code_snippet]]</code_snippet> to improve code readability, fix bugs, and enhance structure.\n\n### Execution Rules\n- Output clean, working code.\n- Provide a brief summary of refactored sections.`;
+      }
+      if (aggressiveness === 'medium') {
+        return `### Role & Authority\nYou are acting as a Principal Software Architect specializing in clean code and type safety.\n\n### Operational Objective\nAudit and refactor the code block <code_snippet>[[code_snippet]]</code_snippet> to enforce strict typing, modularity, and algorithmic efficiency.\n\n### 1. Refactoring Directives\n- Replace untyped constructs with explicit interface contracts.\n- Extract monolithic logic into pure helper functions.\n- Reduce time and space complexity.\n\n### 2. Output Specification\nRefactored production-ready code accompanied by concise architectural notes.`;
+      }
+      // DEEP
+      return `### Role & Authority
+You are acting as a Principal Software Architect specializing in clean code, type safety, low-latency performance, and resilient systems design.
+
+### Core Operational Directive
+Audit and refactor the provided code block <code_snippet>[[code_snippet]]</code_snippet> to eliminate architectural design smells, ensure strict type safety, optimize runtime performance, and enhance long-term maintainability.
+
+### 1. Code Audit & Vulnerability Screening
+- **Type Safety**: Locate implicit \`any\` types, unsafe assertions, or missing contracts.
+- **Performance**: Identify redundant re-renders, unindexed queries, or memory leaks.
+- **Modularity**: Decouple monolithic structures into pure, easily testable functions.
+
+### 2. Refactoring Directives
+- Enforce strict TypeScript interfaces and discriminated unions.
+- Optimize asynchronous operations and error boundaries.
+- Adhere strictly to SOLID principles and DRY patterns.
+
+### 3. Regression Safeguard & Testing
+Provide a Vitest/Jest unit test suite covering happy path execution, boundary values, and error states.
+
+### 4. Output Format
+- Refactored production-ready code block.
+- Concise architectural commentary detailing key trade-offs and complexity improvements.`;
+    }
   }
 
-  let toneInstruction = '';
-  switch (tone.toLowerCase()) {
-    case 'radical-candor':
-      toneInstruction = `Maintain a tone of radical candor: be relentlessly direct, intellectually honest, and avoid polite sugarcoating.`;
-      break;
-    case 'matter-of-fact':
-      toneInstruction = `Maintain an objective, matter-of-fact, dispassionate tone. Let verified facts and structured analysis carry the weight.`;
-      break;
-    case 'socratic':
-      toneInstruction = `Adopt a thoughtful Socratic approach: guide the inquiry with incisive clarity, highlighting assumptions and trade-offs.`;
-      break;
-    case 'executive':
-      toneInstruction = `Write for busy executives: high density, clear hierarchies, bottom-line upfront (BLUF), zero filler words.`;
-      break;
-    default:
-      toneInstruction = `Maintain a professional, authoritative, and engaging tone throughout.`;
+  // 3. BUSINESS STRATEGY & GTM DOMAIN
+  if (isBusiness) {
+    if (isRu) {
+      if (aggressiveness === 'low') {
+        return `### Роль и Задачи\nВы выступаете в роли Бизнес-Консультанта.\n\n### Операционная Цель\nРазработать стратегический план по теме [[тема_бизнеса]] с акцентом на рост продаж и оптимизацию ресурсов.`;
+      }
+      if (aggressiveness === 'medium') {
+        return `### Роль и Экспертиза\nВы выступаете в роли Директора по Стратегии (CSO) и бизнес-консультанта.\n\n### Операционная Цель\nСформировать стратегию вывода на рынок [[название_продукта]] и оптимизации ценообразования.\n\n### 1. Конкурентный Анализ\nОпределить ICP и асимметричные преимущества перед конкурентами.\n\n### 2. Юнит-Экономика\nРассчитать показатели LTV, CAC Payback и структуру ценообразования.\n\n### 3. Дорожная Карта\nПошаговый план выхода на рынок по фазам.`;
+      }
+      // DEEP
+      return `### Роль и Экспертиза
+Вы выступаете в роли Директора по Стратегии (CSO) и бизнес-консультанта, специализирующегося на юнит-экономике, выходе на рынок (GTM), монетизации и конкурентных преимуществах.
+
+### Операционная Цель
+Разработать исчерпывающую стратегию выхода на рынок и роста для продукта [[название_продукта]] в целевом сегменте [[целевой_рынок]].
+
+### 1. Позиционирование и Целевой Сегмент
+- Профиль идеального клиента (ICP) и ключевые точки боли (Pain Points).
+- Несимметричные конкурентные преимущества перед существующими игроками.
+
+### 2. Юнит-Экономика и Монетизация
+- Модель ценообразования (Packaging & Pricing Tiers).
+- Расчет окупаемости CAC Payback Period и LTV:CAC целевых показателей.
+
+### 3. План Выхода на Рынок (GTM Roadmap)
+- Фаза 1 (Beachhead): Захват первичного сегмента аудитории.
+- Фаза 2 (Expansion): Масштабирование каналов привлечения.
+- Фаза 3 (Defensibility): Построение долгосрочных сетевых эффектов.
+
+### 4. Формат Вывода
+Структурированный Markdown-документ с резюме (Executive Summary) и таблицей ключевых KPI.`;
+    } else {
+      if (aggressiveness === 'low') {
+        return `### Role & Directive\nYou are acting as a Business Strategy Consultant.\n\n### Primary Objective\nFormulate a strategic initiative regarding [[business_topic]] focused on ROI and operational efficiency.`;
+      }
+      if (aggressiveness === 'medium') {
+        return `### Role & Authority\nYou are acting as a Chief Strategy Officer specializing in go-to-market execution.\n\n### Operational Directive\nDevelop a GTM strategy and pricing model for [[product_name]].\n\n### 1. Target Positioning\nIdentify ICP pain points and competitive advantages.\n\n### 2. Unit Economics\nDetail CAC payback, LTV targets, and pricing tiers.\n\n### 3. Execution Roadmap\nPhased rollout from beachhead launch to expansion.`;
+      }
+      // DEEP
+      return `### Role & Authority
+You are acting as a Chief Strategy Officer and Enterprise Advisor specializing in unit economics, go-to-market execution, and defensible moats.
+
+### Core Operational Directive
+Develop a comprehensive go-to-market and growth strategy for [[product_name]] in target market [[target_market]].
+
+### 1. Positioning & ICP Mapping
+- Ideal Customer Profile (ICP) and visceral pain points.
+- Asymmetric competitive advantages over incumbents.
+
+### 2. Unit Economics & Monetization
+- Pricing and packaging tier architecture.
+- CAC payback period and LTV:CAC benchmarking targets.
+
+### 3. Go-To-Market Execution Roadmap
+- Phase 1 (Beachhead): Capturing initial high-intent segment.
+- Phase 2 (Expansion): Scaling customer acquisition channels.
+- Phase 3 (Defensibility): Building long-term network effects.
+
+### 4. Output Specification
+Structured executive report containing an Executive Summary and quantitative KPI matrix.`;
+    }
   }
 
-  let detailConstraint = '';
-  if (detailLevel === 'minimalist') {
-    detailConstraint = `Constraint: Keep output concise and high-density. Avoid verbose explanations; limit to bulleted action items and core deliverables.`;
-  } else if (detailLevel === 'exhaustive') {
-    detailConstraint = `Constraint: Provide an in-depth, comprehensive breakdown with granular sub-sections, implementation details, edge cases, and examples.`;
+  // 4. COPYWRITING DOMAIN
+  if (isCopywriting) {
+    if (isRu) {
+      if (aggressiveness === 'low') {
+        return `### Роль и Задачи\nВы выступаете в роли профессионального Копирайтера.\n\n### Операционная Цель\nНаписать высококонверсионный текст [[тип_текста]] для аудитории [[целевая_аудитория]].\n\n### Правила\n- Без воды и клише.\n- Четкий призыв к действию.`;
+      }
+      if (aggressiveness === 'medium') {
+        return `### Роль и Стиль\nВы выступаете в роли Элитного Копирайтера, специализирующегося на высокой конверсии и сжатом стиле.\n\n### Операционная Цель\nСоздать продающий текст [[тип_текста]] для [[целевая_аудитория]].\n\n### 1. Структура Паттерна (PAS)\n- Боль (Pain) -> Усиление (Agitation) -> Решение (Solution).\n\n### 2. Призыв к Действию\nЧеткий, понятный CTA с минимальным трением.`;
+      }
+      // DEEP
+      return `### Роль и Стиль
+Вы выступаете в роли Элитного Копирайтера и Главного Редактора, специализирующегося на высокой конверсии, ясности изложения и убедительном сторителлинге.
+
+### Операционная Цель
+Создать высококонверсионный текст [[тип_материала]] для целевой аудитории [[целевая_аудитория]] с фокусировкой на решении проблемы [[проблема_клиента]].
+
+### 1. Заголовок и Hook
+Сформировать 3 варианта цепляющих заголовков (Contrarian, Data-Driven, Story-Based), привлекающих внимание за первые 3 секунды.
+
+### 2. Продающая Структура (AIDA / PAS)
+- **Проблема (Pain)**: Четкая демонстрация понимания боли клиента.
+- **Усиление (Agitation)**: Показ стоимости бездействия и сохранения статуса-кво.
+- **Решение (Solution)**: Представление продукта [[название_продукта]] как единственного логичного шага.
+
+### 3. Призыв к Действию (Call-to-Action)
+Четкий, понятный и безусловный CTA с устранением трения.
+
+### 4. Ограничения по Стилю
+Без корпоративных клише, без канцелярита и без вводной воды. Максимальная плотность смысла.`;
+    } else {
+      if (aggressiveness === 'low') {
+        return `### Role & Directive\nYou are acting as a Professional Copywriter.\n\n### Primary Objective\nDraft persuasive copy for [[content_type]] targeting [[target_audience]].\n\n### Rules\n- Zero fluff or buzzwords.\n- Clear, single-focus Call to Action.`;
+      }
+      if (aggressiveness === 'medium') {
+        return `### Role & Authority\nYou are acting as an Elite Direct-Response Copywriter.\n\n### Operational Objective\nWrite high-converting copy for [[content_type]] targeting [[target_audience]].\n\n### 1. Copy Structure (PAS Arc)\n- Pain -> Agitate -> Solution.\n\n### 2. Call to Action\nUnambiguous, friction-free CTA.`;
+      }
+      // DEEP
+      return `### Role & Authority
+You are acting as an Elite Direct-Response Copywriter and Marketing Communications Director.
+
+### Core Operational Directive
+Craft high-converting, persuasive narrative copy for [[content_type]] targeting [[target_audience]] that solves [[customer_pain]].
+
+### 1. Hooks & Headlines
+Generate 3 hook variations (Contrarian, Data-Driven, Epiphany-Bridge) designed to capture immediate attention.
+
+### 2. Narrative Persuasion Arc (PAS / AIDA)
+- **Pain Point**: Demonstrate visceral understanding of customer challenge.
+- **Agitation**: Quantify the cost of inaction and status quo inertia.
+- **Breakthrough**: Present [[product_name]] as the logical resolution.
+
+### 3. Call to Action (CTA)
+Unambiguous, singleless CTA engineered to maximize conversion velocity.
+
+### 4. Editing Constraints
+No corporate jargon, zero filler, maximum information density.`;
+    }
+  }
+
+  // 5. GENERAL FALLBACK DOMAIN
+  if (isRu) {
+    if (aggressiveness === 'low') {
+      return `### Роль и Полномочия\nВы выступаете в роли профильного специалиста.\n\n### Операционная Цель\nВыполнить задачу: ${cleanGoal}.\n\n### Правила Выполнения\n- Излагать суть без вводных фрази клише.\n- Структурировать вывод в виде списка.`;
+    }
+    if (aggressiveness === 'medium') {
+      return `### Роль и Полномочия\nВы выступаете в роли эксперта и аналитика в соответствующей предметной области.\n\n### Операционная Цель\nВыполнить задачу: ${cleanGoal}.\n\n### 1. Протокол Выполнения\n1. Проанализировать вводные данные и выделить ключевые факторы.\n2. Сформировать пошаговое решение с практическими примерами.\n3. Проверить результат на полноту и точность.\n\n### 2. Требования к Формату\nЛаконичный Markdown-формат с четкими заголовками.`;
+    }
+    // DEEP
+    return `### Роль и Полномочия
+Вы выступаете в роли Ведущего Эксперта и Стратега в соответствующей предметной области.
+
+### Операционная Цель
+Выполнить комплексную задачу: ${cleanGoal} с высокой точностью, логической строгостью и соблюдением профессиональных стандартов.
+
+### 1. Пошаговый Протокол Выполнения
+1. Проанализировать ключевые вводные параметры и выявить скрытые допущения.
+2. Сформировать пошаговый план решения с приоритетом на наиболее результативные шаги.
+3. Проверить полученные выводы на соответствие критериям качества и отсутствие ошибок.
+
+### 2. Качественные Ограничения
+- Исключить вводную воду, вежливые клише («Конечно, вот ваш ответ») и мета-комментарии.
+- Излагать материал кратко, емко и с высокой плотностью смысла.
+
+### 3. Формат Вывода
+Структурированный Markdown-отчет с резюме, ключевыми выводами и матрицей следующих шагов.`;
   } else {
-    detailConstraint = `Constraint: Strike a balanced depth: provide clear explanations accompanied by concrete, actionable steps.`;
+    // English General
+    if (aggressiveness === 'low') {
+      return `### Role & Directive\nYou are acting as a domain specialist.\n\n### Primary Directive\nExecute task: ${cleanGoal}.\n\n### Rules\n- Provide direct output without conversational preambles.\n- Use concise Markdown formatting.`;
+    }
+    if (aggressiveness === 'medium') {
+      return `### Role & Authority\nYou are acting as an expert analyst and strategist.\n\n### Operational Directive\nExecute task: ${cleanGoal}.\n\n### 1. Execution Protocol\n1. Deconstruct requirements and analyze core parameters.\n2. Apply step-by-step domain logic to deliver solution.\n3. Verify output against quality standards.\n\n### 2. Output Format\nClean Markdown layout with clear section headers.`;
+    }
+    // DEEP
+    return `### Role & Authority
+You are acting as a Principal Domain Specialist and Enterprise Advisor.
+
+### Core Operational Directive
+Execute task: ${cleanGoal} with high precision, logical rigor, and compliance with domain standards.
+
+### 1. Execution & Reasoning Protocol
+1. Deconstruct request into functional sub-components.
+2. Identify implicit constraints, edge cases, and dependencies.
+3. Apply step-by-step reasoning to synthesize optimal deliverable.
+
+### 2. Quality Constraints & Rules
+- Zero conversational fluff or introductory chatter.
+- Support statements with concrete rationale or metrics.
+
+### 3. Output Specification
+Structured Markdown report featuring an Executive Summary, substantive deliverable, and actionable next steps.`;
   }
-
-  const cleanTask = extractCoreGoalAndCleanMeta(task) || 'Execute [[primary_task]] with precision and rigor.';
-
-  let prompt = `${roleIntro}\n\n### Primary Directive\n${cleanTask}\n\n${techniqueBlock}\n\n### Tone & Voice\n${toneInstruction}\n\n### Deliverable Format & Constraints\n- ${detailConstraint}\n- Structure with clean Markdown headings.\n- Highlight critical metrics or assumptions in bold.\n- Conclude with top 3 immediate next steps.`;
-
-  if (targetModel.includes('Claude')) {
-    prompt = adaptPromptForModel(prompt, 'claude');
-  } else if (targetModel.includes('GPT')) {
-    prompt = adaptPromptForModel(prompt, 'openai');
-  }
-
-  return prompt;
 }
 
 /**
- * Deep, true Prompt Optimizer that completely strips meta-request noise
- * and restructures prompts according to task architecture and depth level.
+ * Deep Prompt Optimizer:
+ * 1. Completely purges meta-request noise (English/Russian).
+ * 2. Replaces raw meta-request with a complete standalone domain prompt architecture.
+ * 3. Applies user options (clarity, constraints, chainOfThought, etc.) and aggressiveness levels (Low / Medium / High).
  */
 export function optimizePrompt(
   inputPrompt: string,
@@ -209,76 +446,16 @@ export function optimizePrompt(
 ): string {
   if (!inputPrompt.trim()) return '';
 
-  // Step 1: Strip meta-request noise and extract true core goal
-  const coreGoal = extractCoreGoalAndCleanMeta(inputPrompt);
+  // Transform raw prompt into clean standalone domain architecture
+  const basePrompt = buildDomainPrompt(inputPrompt, options.aggressiveness, options);
 
-  // Step 2: Classify task archetype
-  const taskType = classifyTaskType(coreGoal);
-  const rolePersona = getRoleForTaskType(taskType);
-
-  // Extract variables
+  // Extract variables if present in input
   const detectedVars = extractVariables(inputPrompt);
   const varSection = detectedVars.length > 0
     ? `\n\n### Input Variables\n${detectedVars.map(v => `- [[${v}]]: Parameter value for ${v}`).join('\n')}`
     : '';
 
-  // LEVEL 1: LOW AGGRESSIVENESS (Light Polish - Removes meta-text, tightens guidelines, preserves user tone)
-  if (options.aggressiveness === 'low') {
-    const guidelines: string[] = [];
-    if (options.clarity) guidelines.push('State any underlying assumptions upfront and eliminate vague or ambiguous phrasing.');
-    if (options.constraints) guidelines.push('Adhere strictly to verified facts and avoid generic filler words.');
-    if (options.chainOfThought) guidelines.push('Show brief step-by-step reasoning before stating conclusions.');
-
-    return `### Role & Context\n${rolePersona}\n\n### Operational Objective\n${coreGoal}\n\n### Execution Guidelines\n${guidelines.map(g => `- ${g}`).join('\n')}${varSection}`;
-  }
-
-  // LEVEL 2: MEDIUM AGGRESSIVENESS (Standard Architecture - Clear structural sections, explicit sequence)
-  if (options.aggressiveness === 'medium') {
-    const sections: string[] = [];
-    sections.push(`### Role & Authority\n${rolePersona}`);
-    sections.push(`### Core Objective\n${coreGoal}`);
-
-    if (options.chainOfThought || options.structure) {
-      sections.push(`### Execution & Deduction Sequence\n1. Analyze requirements, input parameters, and structural constraints.\n2. Deconstruct core mechanisms and derive logical steps.\n3. Validate assertions against practical domain realities before finalizing.`);
-    }
-
-    if (options.specificity || options.constraints) {
-      sections.push(`### Operational Rules & Negative Constraints\n- Zero corporate fluff, conversational preambles, or polite filler.\n- Keep information density high and support key statements with concrete reasoning.\n- Explicitly highlight assumptions if data is missing.`);
-    }
-
-    if (options.riskAudit) {
-      sections.push(`### Failure Mode Check\nIdentify the top potential edge case or vulnerability in this request and provide a protective safeguard.`);
-    }
-
-    sections.push(`### Output Format & Structure\nDeliver output in clean, scannable Markdown with crisp headers, concise bullet points, and actionable takeaways.`);
-
-    return sections.join('\n\n') + varSection;
-  }
-
-  // LEVEL 3: HIGH AGGRESSIVENESS (Deep Senior Prompt Architecture - Full best-in-class transformation)
-  const deepSections: string[] = [];
-  deepSections.push(`### Role & Strategic Context\n${rolePersona}`);
-  deepSections.push(`### Operational Directive\n${coreGoal}`);
-
-  if (options.chainOfThought || options.structure) {
-    deepSections.push(`### Step-by-Step Reasoning Protocol (Chain-of-Thought)\nBefore outputting the final deliverable:\n1. Deconstruct the objective into functional sub-tasks.\n2. Identify implicit assumptions and potential edge-case failures.\n3. Execute step-by-step logical reasoning to synthesize optimal solutions.\n4. Verify compliance against all negative constraints.`);
-  }
-
-  if (options.riskAudit) {
-    deepSections.push(`### Risk Mitigation & Edge Case Audit\n- Identify the primary failure vector (e.g. hallucination, edge case error, ambiguous input).\n- Include explicit defensive safeguards preventing this failure vector.`);
-  }
-
-  if (options.constraints || options.specificity) {
-    deepSections.push(`### Negative Constraints & Quality Standards\n1. NO conversational preambles ("Sure, here is your answer"), fluff, or meta-commentary.\n2. Quantify results, benchmarks, and metrics wherever applicable.\n3. State all underlying assumptions clearly before proceeding.`);
-  }
-
-  if (options.examples) {
-    deepSections.push(`### Quality Benchmark\nProvide a concrete, high-fidelity sample or schema demonstrating the prescribed standard.`);
-  }
-
-  deepSections.push(`### Deliverable Specification & Format\nStructure the response using:\n- Executive Summary (Max 2 sentences)\n- Core Deliverable / Substantive Output\n- Actionable Next Steps / Verification Matrix`);
-
-  return deepSections.join('\n\n') + varSection;
+  return basePrompt + varSection;
 }
 
 export function simplifyPrompt(input: string, mode: 'light' | 'balanced' | 'aggressive'): string {
@@ -286,13 +463,11 @@ export function simplifyPrompt(input: string, mode: 'light' | 'balanced' | 'aggr
 
   const clean = extractCoreGoalAndCleanMeta(input);
 
-  // Common filler patterns
   const fillerRegexes = [
-    /\b(please|kindly|could you please|would you please|can you please)\b/gi,
+    /\b(please|kindly|could you please|would you please|can you please|пожалуйста)\b/gi,
     /\b(I would like you to|I want you to|Your job is to|Your task is to)\b/gi,
     /\b(It is important to remember that|Make sure to|Be sure to)\b/gi,
     /\b(In conclusion|To summarize|As an AI|In summary)\b/gi,
-    /\b(feel free to|don't hesitate to)\b/gi,
   ];
 
   if (mode === 'light') {
@@ -311,7 +486,7 @@ export function simplifyPrompt(input: string, mode: 'light' | 'balanced' | 'aggr
       .join('\n');
   }
 
-  // Aggressive: condense into bulleted imperative directives
+  // Aggressive
   const lines = clean
     .replace(/[.?!]\s+/g, '\n')
     .split('\n')
@@ -337,7 +512,7 @@ export function translatePrompt(input: string, targetLanguage: string): string {
   const varMap = new Map<string, string>();
   let tokenCounter = 0;
 
-  let sanitized = input.replace(/(\[\[.*?\]\]|\{\{.*?\}\})/g, (match) => {
+  const sanitized = input.replace(/(\[\[.*?\]\]|\{\{.*?\}\})/g, (match) => {
     const token = `__VAR_TOKEN_${tokenCounter++}__`;
     varMap.set(token, match);
     return token;
@@ -348,19 +523,16 @@ export function translatePrompt(input: string, targetLanguage: string): string {
       '### Role & Context': '### Rol y Contexto',
       '### Role & Authority': '### Rol y Autoridad',
       '### Primary Directive': '### Directiva Principal',
-      '### Core Objective': '### Objetivo Principal',
-      '### Operational Directive': '### Directiva Operativa',
+      '### Core Operational Directive': '### Directiva Operativa Principal',
       '### Constraints': '### Restricciones y Reglas',
       '### Output Format': '### Formato de Salida',
       'You are': 'Actúa como',
-      'Format your response as': 'Formatea tu respuesta como',
-      'Do NOT': 'NO hagas lo siguiente',
     },
     french: {
       '### Role & Context': '### Rôle et Contexte',
       '### Role & Authority': '### Rôle et Autorité',
       '### Primary Directive': '### Directive Principale',
-      '### Core Objective': '### Objectif Principal',
+      '### Core Operational Directive': '### Directive Opérationnelle Principale',
       '### Constraints': '### Contraintes et Règles',
       '### Output Format': '### Format de Sortie',
       'You are': 'Vous agissez en tant que',
@@ -369,7 +541,7 @@ export function translatePrompt(input: string, targetLanguage: string): string {
       '### Role & Context': '### Rolle & Kontext',
       '### Role & Authority': '### Rolle & Autorität',
       '### Primary Directive': '### Hauptanweisung',
-      '### Core Objective': '### Hauptziel',
+      '### Core Operational Directive': '### Hauptanweisung',
       '### Constraints': '### Einschränkungen & Regeln',
       '### Output Format': '### Ausgabeformat',
     },
@@ -377,8 +549,7 @@ export function translatePrompt(input: string, targetLanguage: string): string {
       '### Role & Context': '### Роль и контекст',
       '### Role & Authority': '### Роль и полномочия',
       '### Primary Directive': '### Основная задача',
-      '### Core Objective': '### Основная цель',
-      '### Operational Directive': '### Оперативная директива',
+      '### Core Operational Directive': '### Операционная цель',
       '### Constraints': '### Ограничения и правила',
       '### Output Format': '### Формат вывода',
       'You are': 'Вы выступаете в роли',
@@ -386,14 +557,13 @@ export function translatePrompt(input: string, targetLanguage: string): string {
     chinese: {
       '### Role & Context': '### 角色与背景',
       '### Primary Directive': '### 核心指令',
-      '### Core Objective': '### 核心目标',
-      '### Constraints': '### 约束条件与规则',
+      '### Core Operational Directive': '### 核心指令',
       '### Output Format': '### 输出格式',
     },
     japanese: {
       '### Role & Context': '### 役割とコンテキスト',
       '### Primary Directive': '### 主な指示',
-      '### Constraints': '### 制約事項とルール',
+      '### Core Operational Directive': '### 主な指示',
       '### Output Format': '### 出力形式',
     },
   };
@@ -414,36 +584,56 @@ export function translatePrompt(input: string, targetLanguage: string): string {
 }
 
 /**
- * Model Adapter: Purges meta-request noise and restructures the operational core
+ * Model Adapter: Purges meta-request noise and restructures the operational domain core
  * according to the thinking & execution style of each major LLM family.
  */
 export function adaptPromptForModel(input: string, model: 'claude' | 'openai' | 'gemini' | 'grok' | 'llama'): string {
   if (!input.trim()) return '';
 
-  // Purge meta-request noise
-  const cleanGoal = extractCoreGoalAndCleanMeta(input);
-  const taskType = classifyTaskType(cleanGoal);
-  const rolePersona = getRoleForTaskType(taskType);
+  // 1. Transform raw prompt into clean domain prompt first (eradicates meta-text)
+  const domainPrompt = buildDomainPrompt(input, 'medium');
 
   switch (model) {
     case 'claude':
-      return `<system_instructions>\n${rolePersona}\nAdhere strictly to XML tag hierarchies, high technical precision, and zero conversational fluff.\n</system_instructions>\n\n<core_directive>\n${cleanGoal}\n</core_directive>\n\n<thinking_process>\nBefore producing the deliverable:\n1. Deconstruct the directive into atomic functional requirements.\n2. Analyze potential edge cases and negative constraints.\n3. Formulate a structured draft and verify against formatting rules.\n</thinking_process>\n\n<negative_constraints>\n- Do NOT include conversational filler ("Certainly", "Here is your response").\n- Do NOT extrapolate beyond verified context or make uncited claims.\n- Maintain strict compliance with requested output schemas.\n</negative_constraints>\n\n<output_format>\nUse clean Markdown with bold key terms, concise bullet points, and crisp section headings.\n</output_format>`;
+      return `<system_instructions>\nAdhere strictly to XML tag hierarchies, high technical precision, and zero conversational fluff.\n</system_instructions>\n\n<operational_prompt>\n${domainPrompt}\n</operational_prompt>\n\n<thinking_process>\nBefore producing final output:\n1. Deconstruct the directive into atomic functional requirements.\n2. Analyze potential edge cases and negative constraints.\n3. Formulate a structured draft and verify against rules.\n</thinking_process>\n\n<negative_constraints>\n- Do NOT include conversational filler ("Certainly", "Here is your response").\n- Do NOT extrapolate beyond verified context or make uncited claims.\n- Maintain strict compliance with requested output schemas.\n</negative_constraints>`;
 
     case 'openai':
-      return `[SYSTEM DIRECTIVE: DEVELOPER ROLE]\n${rolePersona}\nYou are a precise, compliant reasoning engine. Follow all operational directives with 100% adherence.\n\n[OPERATIONAL DIRECTIVE]\n${cleanGoal}\n\n[EXECUTION PROTOCOL]\n1. Analyze input parameters and core directives.\n2. Apply step-by-step domain logic.\n3. Validate output against negative constraints before finalizing.\n\n[NEGATIVE CONSTRAINTS]\n- Zero fluff or preamble. Begin immediately with substantive content.\n- Strictly enforce type safety, schema structure, and factual accuracy.\n\n[OUTPUT SCHEMA]\nStructure response using clean Markdown headers, bulleted lists, and structured tables or JSON blocks where applicable.`;
+      return `[SYSTEM DIRECTIVE]\nYou are a precise, compliant reasoning engine. Follow all operational directives with 100% adherence.\n\n[OPERATIONAL PROMPT]\n${domainPrompt}\n\n[EXECUTION PROTOCOL]\n1. Analyze input parameters and core directives.\n2. Apply step-by-step domain logic.\n3. Validate output against negative constraints before finalizing.\n\n[NEGATIVE CONSTRAINTS]\n- Zero fluff or preamble. Begin immediately with substantive content.\n- Strictly enforce accuracy and requested schema structure.`;
 
     case 'gemini':
-      return `### System Instructions & Role:\n${rolePersona}\nAdhere strictly to factual grounding, verify calculations, and maintain absolute internal consistency.\n\n### Core Operational Directive:\n${cleanGoal}\n\n### Step-by-Step Reasoning Protocol:\n1. Verify inputs against domain knowledge before drawing conclusions.\n2. Execute step-by-step logical calculation or derivation.\n3. State underlying assumptions explicitly if context is missing.\n\n### Grounding & Output Constraints:\n- Do not extrapolate beyond verified facts.\n- Provide structured sections with summary key metrics upfront.`;
+      return `### System Instructions:\nAdhere strictly to factual grounding, verify calculations, and maintain absolute internal consistency.\n\n### Operational Prompt:\n${domainPrompt}\n\n### Step-by-Step Reasoning Protocol:\n1. Verify inputs against domain knowledge before drawing conclusions.\n2. Execute step-by-step logical calculation or derivation.\n3. State underlying assumptions explicitly if context is missing.`;
 
     case 'grok':
-      return `### Mode: Direct, Unfiltered, High-Velocity Execution\nRole: ${rolePersona}\nStrip away all PR hedging, bureaucratic sugarcoating, and robotic corporate filler.\n\n### Core Directive:\n${cleanGoal}\n\n### Execution Rules:\n- Be relentlessly direct, intellectually honest, and sharp.\n- Highlight flaws or bad assumptions in input explicitly.\n- Deliver maximum information density in minimal tokens.\n\n### Output Format:\nClean, scannable layout with bold takeaways and zero filler words.`;
+      return `### Mode: Direct & High-Velocity Execution\nStrip away all PR hedging, bureaucratic sugarcoating, and robotic corporate filler.\n\n### Operational Prompt:\n${domainPrompt}\n\n### Execution Rules:\n- Be relentlessly direct, intellectually honest, and sharp.\n- Deliver maximum information density in minimal tokens.`;
 
     case 'llama':
-      return `<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n${rolePersona}\nExecute directives with high precision and zero conversational preamble.<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\n${cleanGoal}\n\nRules:\n- Adhere strictly to the directive above.\n- Do not output conversational intros or disclaimers.<|eot_id|>\n<|start_header_id|>assistant<|end_header_id|>`;
+      return `<|begin_of_text|><|start_header_id|>system<|end_header_id|>\nExecute directives with high precision and zero conversational preamble.<|eot_id|>\n<|start_header_id|>user<|end_header_id|>\n${domainPrompt}<|eot_id|>\n<|start_header_id|>assistant<|end_header_id|>`;
 
     default:
-      return cleanGoal;
+      return domainPrompt;
   }
+}
+
+export function generatePromptFromParams(params: GeneratePromptParams): string {
+  const { domain, task, technique, tone, detailLevel, targetModel } = params;
+
+  let aggressiveness: 'low' | 'medium' | 'high' = 'medium';
+  if (detailLevel === 'minimalist') aggressiveness = 'low';
+  if (detailLevel === 'exhaustive') aggressiveness = 'high';
+
+  const basePrompt = buildDomainPrompt(task, aggressiveness);
+
+  if (targetModel.includes('Claude')) {
+    return adaptPromptForModel(basePrompt, 'claude');
+  } else if (targetModel.includes('GPT')) {
+    return adaptPromptForModel(basePrompt, 'openai');
+  } else if (targetModel.includes('Grok')) {
+    return adaptPromptForModel(basePrompt, 'grok');
+  } else if (targetModel.includes('Gemini')) {
+    return adaptPromptForModel(basePrompt, 'gemini');
+  }
+
+  return basePrompt;
 }
 
 export function buildPromptFromDescription(description: string, complexity: 'basic' | 'intermediate' | 'expert'): string {
@@ -459,6 +649,6 @@ export function buildPromptFromDescription(description: string, complexity: 'bas
     return `### Role & Authority\nYou are an experienced domain authority with comprehensive expertise in this subject matter.\n\n### Primary Task:\n${cleanDesc}\n\n### Execution Guidelines:\n- Step 1: Clarify core mechanism or problem statement.\n- Step 2: Provide complete, actionable deliverable.\n- Step 3: Highlight caveats, edge cases, or trade-offs.\n\n### Constraints:\n- Avoid buzzwords, fluff, and unnecessary preambles.\n- Structure with clear Markdown headers and bullet lists.`;
   }
 
-  // Expert Prompt Engineer
+  // Expert
   return `<system_role>\nYou are an elite principal engineer and strategist with deep specialized mastery in executing complex deliverables.\n</system_role>\n\n<directive>\n${cleanDesc}\n</directive>\n\n<thinking_process>\n1. Deconstruct objective into core functional requirements.\n2. Identify latent assumptions and high-risk edge cases.\n3. Apply domain best practices and industry-standard patterns.\n4. Review draft against strict clarity and precision benchmarks.\n</thinking_process>\n\n<operational_constraints>\n1. Zero boilerplate fluff: Begin immediately with substantive content.\n2. Quantify results, timelines, or benchmarks wherever applicable.\n3. Adhere to crisp typographical hierarchy (Markdown headers, tables, code blocks).\n</operational_constraints>\n\n<deliverable_specification>\nStructure final response with:\n- Executive Summary (Max 2 sentences)\n- Core Solution / Deliverable\n- Implementation Matrix & Next Steps\n</deliverable_specification>`;
 }
