@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useUIStore } from '../../store/useUIStore';
-import { generatePromptFromParams } from '../../utils/promptEngine';
+import { generatePromptFromParams, isRussianText } from '../../utils/promptEngine';
 import { applySkills, getSkillsByCategory, SKILLS_REGISTRY, type SkillDefinition } from '../../skills/skillsRegistry';
 import { CATEGORIES } from '../../data/categories';
 import { X, Wand2, Copy, Check, Plus, Zap, ChevronDown, ChevronUp } from 'lucide-react';
@@ -45,7 +45,12 @@ export const PromptGeneratorModal: React.FC = () => {
 
   const handleGenerate = (e: React.FormEvent) => {
     e.preventDefault();
-    const targetTask = task.trim() || `Analyze and solve [[target_issue]] with high technical fidelity.`;
+    const isRu = isRussianText(task);
+    const targetTask =
+      task.trim() ||
+      (isRu
+        ? `Разработать комплексное экспертное решение по направлению «${domain}».`
+        : `Synthesize an authoritative engineering solution for ${domain}.`);
     let finalResult = '';
     let appliedSkillsList: SkillDefinition[] = [];
 

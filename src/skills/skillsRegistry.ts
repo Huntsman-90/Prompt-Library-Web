@@ -25,23 +25,25 @@ import { SOCIAL_SKILLS } from './categories/social';
 import { TECHNICAL_SKILLS } from './categories/technical';
 import { MISCELLANEOUS_SKILLS } from './categories/miscellaneous';
 import { FRAMEWORKS_SKILLS } from './categories/frameworks';
+import { getCachedUserSkills, userSkillToDefinition, loadUserSkills } from './customSkillsManager';
 
 export interface SkillDefinition {
   id: string;
   name: string; // e.g. "RoleCalibrationSkill"
   displayName: string; // e.g. "Role Calibration"
-  categoryId: string; // matches CATEGORIES id
+  categoryId: string; // matches CATEGORIES id or "my_skills"
   description: string;
   tags: string[];
   iconName?: string;
   subSkills?: string[]; // IDs of sub-skills for composite skills
+  isUserCreated?: boolean;
   transform: (prompt: string, context?: Record<string, any>) => string;
 }
 
 /**
- * Registry of all modular Prompt Skills organized across all 25 categories.
+ * Built-in skills registry (350+ skills across all categories)
  */
-export const SKILLS_REGISTRY: Record<string, SkillDefinition> = {
+export const BUILTIN_SKILLS_REGISTRY: Record<string, SkillDefinition> = {
   ...CORE_SKILLS,
   ...REASONING_SKILLS,
   ...CONTROL_FLOW_SKILLS,
@@ -69,18 +71,74 @@ export const SKILLS_REGISTRY: Record<string, SkillDefinition> = {
   ...FRAMEWORKS_SKILLS,
 };
 
-/**
- * Get all skills that belong to a specific category
- */
-export function getSkillsByCategory(categoryId: string): SkillDefinition[] {
-  return Object.values(SKILLS_REGISTRY).filter((s) => s.categoryId === categoryId);
+// Initialize user skills from storage
+if (typeof window !== 'undefined') {
+  loadUserSkills().catch(() => {});
 }
 
 /**
- * Get all registered skills
+ * Dynamic registry proxy supporting both built-in and custom user skills
+ */
+export const SKILLS_REGISTRY: Record<string, SkillDefinition> = new Proxy(BUILTIN_SKILLS_REGISTRY, {
+  get(target, prop: string) {
+    if (prop in target) {
+      return target[prop];
+    }
+    const userSkills = getCachedUserSkills();
+    const foundUserSkill = userSkills.find((s) => s.id === prop);
+    if (foundUserSkill) {
+      return userSkillToDefinition(foundUserSkill);
+    }
+    return undefined;
+  },
+  has(target, prop: string) {
+    if (prop in target) return true;
+    return getCachedUserSkills().some((s) => s.id === prop);
+  },
+  ownKeys(target) {
+    const builtinKeys = Reflect.ownKeys(target);
+    const userKeys = getCachedUserSkills().map((s) => s.id);
+    return Array.from(new Set([...builtinKeys, ...userKeys]));
+  },
+  getOwnPropertyDescriptor(target, prop: string) {
+    if (prop in target) {
+      return Reflect.getOwnPropertyDescriptor(target, prop);
+    }
+    const found = getCachedUserSkills().find((s) => s.id === prop);
+    if (found) {
+      return {
+        configurable: true,
+        enumerable: true,
+        writable: false,
+        value: userSkillToDefinition(found),
+      };
+    }
+    return undefined;
+  },
+});
+
+/**
+ * Get all skills that belong to a specific category (including user-created skills)
+ */
+export function getSkillsByCategory(categoryId: string): SkillDefinition[] {
+  const userSkillDefs = getCachedUserSkills().map(userSkillToDefinition);
+
+  if (categoryId === 'my_skills') {
+    return userSkillDefs;
+  }
+
+  const builtinInCat = Object.values(BUILTIN_SKILLS_REGISTRY).filter((s) => s.categoryId === categoryId);
+  const userInCat = userSkillDefs.filter((s) => s.categoryId === categoryId);
+
+  return [...builtinInCat, ...userInCat];
+}
+
+/**
+ * Get all registered skills (built-in + user-created)
  */
 export function getAllSkills(): SkillDefinition[] {
-  return Object.values(SKILLS_REGISTRY);
+  const userSkillDefs = getCachedUserSkills().map(userSkillToDefinition);
+  return [...Object.values(BUILTIN_SKILLS_REGISTRY), ...userSkillDefs];
 }
 
 /**
@@ -94,6 +152,13 @@ export function applySkill(prompt: string, skillId: string, context?: Record<str
   if (!skill) {
     return { prompt, appliedSkill: null };
   }
+
+  // If user-created skill, run direct transform or compose
+  if (skill.isUserCreated) {
+    const transformed = skill.transform(prompt, context);
+    return { prompt: transformed, appliedSkill: skill };
+  }
+
   const result = composeSkillsArchitecture(prompt, [skillId], context);
   return { prompt: result.prompt, appliedSkill: skill };
 }
@@ -124,6 +189,17 @@ export function detectSkillsInPrompt(prompt: string): SkillDefinition[] {
       detected.push(SKILLS_REGISTRY[id]);
     }
   };
+
+  // Check user skills
+  for (const u of getCachedUserSkills()) {
+    if (
+      lower.includes(u.name.toLowerCase()) ||
+      lower.includes(u.displayName.toLowerCase()) ||
+      (u.tags && u.tags.some((t) => lower.includes(t.toLowerCase())))
+    ) {
+      detected.push(userSkillToDefinition(u));
+    }
+  }
 
   // Core & Roles
   addIfPresent('role-calibration', /роль|role & authority|вы выступаете в роли/i);

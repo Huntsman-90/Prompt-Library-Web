@@ -103,6 +103,21 @@ export interface AppSettings {
   hasCompletedSeed: boolean;
 }
 
+export interface UserSkill {
+  id: string;
+  name: string; // e.g. "ApiSecurityAuditSkill"
+  displayName: string; // e.g. "API Security Audit"
+  categoryId: string; // matches CATEGORIES id or 'my_skills'
+  description: string;
+  tags: string[];
+  iconName?: string;
+  transformationDirectives: string; // The user-defined directives / markdown protocol
+  targetSection?: 'role' | 'protocol' | 'constraints' | 'output_format' | 'context';
+  isUserCreated: boolean;
+  createdAt: string;
+  updatedAt: string;
+}
+
 export interface CategoryMeta {
   id: string;
   name: string;

@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { CATEGORIES } from '../../data/categories';
 import { useUIStore } from '../../store/useUIStore';
 import { getSkillsByCategory, applySkill, type SkillDefinition } from '../../skills/skillsRegistry';
-import { X, Search, Zap, Layers } from 'lucide-react';
+import { subscribeToCustomSkills } from '../../skills/customSkillsManager';
+import { X, Search, Zap, Layers, Sparkles } from 'lucide-react';
 
 interface ComponentInserterModalProps {
   onInsert?: (contentToInsert: string) => void;
@@ -18,6 +19,14 @@ export const ComponentInserterModal: React.FC<ComponentInserterModalProps> = ({
   const { isComponentPickerOpen, setIsComponentPickerOpen, addToast } = useUIStore();
   const [selectedCatId, setSelectedCatId] = useState<string>('core');
   const [searchQuery, setSearchQuery] = useState('');
+  const [, setVersion] = useState(0);
+
+  useEffect(() => {
+    const unsubscribe = subscribeToCustomSkills(() => {
+      setVersion((v) => v + 1);
+    });
+    return unsubscribe;
+  }, []);
 
   if (!isComponentPickerOpen) return null;
 
@@ -41,14 +50,14 @@ export const ComponentInserterModal: React.FC<ComponentInserterModalProps> = ({
       const { prompt: transformed } = applySkill(currentContent, skill.id);
       onInsert(transformed);
     } else if (onInsert) {
-      const sample = skill.transform('### Task Context\nExecute task with high rigor.');
+      const sample = skill.transform('Execute task with production rigor.');
       onInsert(`\n\n${sample}\n`);
     }
 
     setIsComponentPickerOpen(false);
     addToast({
       type: 'success',
-      title: `${skill.name} Applied!`,
+      title: `${skill.displayName} Applied!`,
       description: 'Active prompt enriched with modular ability',
     });
   };
@@ -91,13 +100,20 @@ export const ComponentInserterModal: React.FC<ComponentInserterModalProps> = ({
         <div className="flex items-center gap-1.5 overflow-x-auto p-2.5 border-b border-slate-800/80 bg-slate-950 text-xs no-scrollbar">
           {CATEGORIES.map((cat) => {
             const count = getSkillsByCategory(cat.id).length;
+            const isSelected = selectedCatId === cat.id;
+            const isMySkills = cat.id === 'my_skills';
+
             return (
               <button
                 key={cat.id}
                 onClick={() => setSelectedCatId(cat.id)}
                 className={`shrink-0 rounded-xl px-3 py-1.5 font-medium transition flex items-center gap-1.5 ${
-                  selectedCatId === cat.id
-                    ? 'bg-indigo-600 text-white shadow-sm'
+                  isSelected
+                    ? isMySkills
+                      ? 'bg-amber-600 text-white shadow-sm'
+                      : 'bg-indigo-600 text-white shadow-sm'
+                    : isMySkills
+                    ? 'bg-amber-950/40 text-amber-300 hover:text-white'
                     : 'bg-slate-900 text-slate-400 hover:text-white'
                 }`}
               >
@@ -119,14 +135,24 @@ export const ComponentInserterModal: React.FC<ComponentInserterModalProps> = ({
               <div
                 key={skill.id}
                 onClick={() => handleSelectSkill(skill)}
-                className="group flex flex-col justify-between rounded-xl border border-slate-800 bg-slate-950/70 p-3 hover:border-indigo-500/50 hover:bg-slate-900/90 transition cursor-pointer"
+                className={`group flex flex-col justify-between rounded-xl border p-3 transition cursor-pointer ${
+                  skill.isUserCreated
+                    ? 'border-amber-500/40 bg-amber-950/20 hover:border-amber-400'
+                    : 'border-slate-800 bg-slate-950/70 hover:border-indigo-500/50 hover:bg-slate-900/90'
+                }`}
               >
                 <div className="flex items-start justify-between gap-2">
                   <div>
-                    <div className="flex items-center gap-1.5 mb-1">
+                    <div className="flex items-center gap-1.5 mb-1 flex-wrap">
                       <span className="font-mono text-[11px] font-bold text-indigo-400 bg-indigo-950/80 border border-indigo-500/30 px-1.5 py-0.5 rounded">
                         {skill.name}
                       </span>
+                      {skill.isUserCreated && (
+                        <span className="text-[9px] font-bold text-amber-300 bg-amber-950/80 border border-amber-500/30 px-1.5 py-0.5 rounded-full flex items-center gap-0.5">
+                          <Sparkles className="w-2.5 h-2.5 text-amber-400" />
+                          Custom
+                        </span>
+                      )}
                       {skill.subSkills && skill.subSkills.length > 0 && (
                         <span className="text-[9px] font-semibold text-amber-300 bg-amber-950/60 border border-amber-500/20 px-1.5 py-0.5 rounded-full flex items-center gap-1">
                           <Layers className="w-2.5 h-2.5" />

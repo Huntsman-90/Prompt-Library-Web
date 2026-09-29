@@ -9,6 +9,7 @@ import type {
   PromptChain,
   HistoryEntry,
   FavoriteItem,
+  UserSkill,
 } from '../types';
 
 export interface SettingRecord {
@@ -28,6 +29,7 @@ export class PromptProDatabase extends Dexie {
   favorites!: Table<FavoriteItem, string>;
   settings!: Table<SettingRecord, string>;
   userComponents!: Table<ComponentBlock, string>;
+  userSkills!: Table<UserSkill, string>;
 
   constructor() {
     super('PromptLibraryProDB');
@@ -43,6 +45,20 @@ export class PromptProDatabase extends Dexie {
       favorites: 'id, itemType, itemId, createdAt',
       settings: 'key',
       userComponents: 'id, categoryId, name, *tags, createdAt',
+    });
+    this.version(2).stores({
+      prompts: 'id, title, category, folderId, isFavorite, usageCount, createdAt, updatedAt, *tags',
+      boards: 'id, title, createdAt, updatedAt',
+      folders: 'id, name, parentId, createdAt',
+      tags: 'id, name',
+      components: 'id, categoryId, name, *tags, usageCount',
+      frameworks: 'id, name, category, *tags',
+      chains: 'id, name, createdAt, updatedAt',
+      history: 'id, promptId, timestamp',
+      favorites: 'id, itemType, itemId, createdAt',
+      settings: 'key',
+      userComponents: 'id, categoryId, name, *tags, createdAt',
+      userSkills: 'id, categoryId, name, displayName, *tags, createdAt',
     });
   }
 }

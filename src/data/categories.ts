@@ -172,8 +172,15 @@ export const CATEGORIES: CategoryMeta[] = [
   {
     id: 'frameworks',
     name: 'Frameworks',
-    shortDesc: '55+ end-to-end prompt architectures (RTF, CREATE, SPAR, TRACE, CRISPE, CO-STAR, etc.)',
+    shortDesc: 'End-to-end composite architectures (RTF, CREATE, Incident Retro, Refactoring Suites)',
     iconName: 'Compass',
     color: 'from-indigo-600 via-purple-600 to-pink-600',
+  },
+  {
+    id: 'my_skills',
+    name: 'My Skills',
+    shortDesc: 'Custom user-created prompt abilities, domain constraints, and specialized directives',
+    iconName: 'Sparkles',
+    color: 'from-amber-500 via-orange-600 to-rose-600',
   },
 ];
