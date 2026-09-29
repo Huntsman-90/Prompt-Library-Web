@@ -284,20 +284,20 @@ export const BoardsView: React.FC = () => {
                     <button
                       type="button"
                       onClick={(e) => handleOpenEditBoard(b, e)}
-                      className="opacity-0 group-hover:opacity-100 p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition"
+                      className="p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
                       title="Edit Board"
                     >
-                      <Edit2 className="w-3 h-3" />
+                      <Edit2 className="w-3.5 h-3.5" />
                     </button>
 
                     {/* Delete board */}
                     <button
                       type="button"
                       onClick={(e) => handleDeleteBoard(b, e)}
-                      className="opacity-0 group-hover:opacity-100 p-1 rounded-lg text-slate-400 hover:text-rose-400 hover:bg-slate-800 transition"
+                      className="p-1 rounded-lg text-slate-400 hover:text-rose-400 hover:bg-slate-800 transition cursor-pointer"
                       title="Delete Board"
                     >
-                      <Trash2 className="w-3 h-3" />
+                      <Trash2 className="w-3.5 h-3.5" />
                     </button>
                   </div>
                 </div>

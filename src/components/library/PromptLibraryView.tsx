@@ -409,10 +409,10 @@ export const PromptLibraryView: React.FC = () => {
                     <button
                       type="button"
                       onClick={(e) => handleOpenEditFolder(folder, e)}
-                      className="opacity-0 group-hover:opacity-100 p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition"
+                      className="p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
                       title="Edit Folder"
                     >
-                      <Edit2 className="w-3 h-3" />
+                      <Edit2 className="w-3.5 h-3.5" />
                     </button>
 
                     {/* Delete folder */}
@@ -422,10 +422,10 @@ export const PromptLibraryView: React.FC = () => {
                         e.stopPropagation();
                         setFolderToDelete(folder);
                       }}
-                      className="opacity-0 group-hover:opacity-100 p-1 rounded-lg text-slate-400 hover:text-rose-400 hover:bg-slate-800 transition"
+                      className="p-1 rounded-lg text-slate-400 hover:text-rose-400 hover:bg-slate-800 transition cursor-pointer"
                       title="Delete Folder"
                     >
-                      <Trash2 className="w-3 h-3" />
+                      <Trash2 className="w-3.5 h-3.5" />
                     </button>
                   </div>
                 </div>
@@ -511,6 +511,31 @@ export const PromptLibraryView: React.FC = () => {
                   <Plus className="w-3.5 h-3.5" />
                   <span>Create Prompt</span>
                 </button>
+
+                {activeFolderId !== 'all' && activeFolderId !== 'favorites' && (
+                  <>
+                    <button
+                      onClick={() => {
+                        const targetFolder = folders.find((f) => f.id === activeFolderId);
+                        if (targetFolder) handleOpenEditFolder(targetFolder);
+                      }}
+                      className="rounded-xl border border-slate-700 bg-slate-800 p-2 text-slate-300 hover:text-white transition cursor-pointer"
+                      title="Edit Folder"
+                    >
+                      <Edit2 className="w-4 h-4" />
+                    </button>
+                    <button
+                      onClick={() => {
+                        const targetFolder = folders.find((f) => f.id === activeFolderId);
+                        if (targetFolder) setFolderToDelete(targetFolder);
+                      }}
+                      className="rounded-xl border border-slate-700 bg-slate-800 p-2 text-rose-400 hover:bg-rose-950/60 transition cursor-pointer"
+                      title="Delete Folder"
+                    >
+                      <Trash2 className="w-4 h-4" />
+                    </button>
+                  </>
+                )}
 
                 <button
                   onClick={() => setActiveFolderId(null)}
