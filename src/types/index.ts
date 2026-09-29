@@ -20,6 +20,7 @@ export interface PromptBoard {
   title: string;
   description: string;
   color: string; // hex or tailwind token
+  iconName?: string;
   promptIds: string[];
   createdAt: string;
   updatedAt: string;
@@ -28,8 +29,10 @@ export interface PromptBoard {
 export interface FolderItem {
   id: string;
   name: string;
+  description?: string;
   parentId?: string | null;
   color?: string;
+  iconName?: string;
   createdAt: string;
 }
 
