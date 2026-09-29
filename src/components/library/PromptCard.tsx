@@ -15,7 +15,9 @@ import {
   Trash2,
   Calendar,
   Variable,
+  Download,
 } from 'lucide-react';
+import { downloadPromptAsMarkdown } from '../../utils/markdownExporter';
 
 interface PromptCardProps {
   prompt: PromptItem;
@@ -202,6 +204,18 @@ export const PromptCard: React.FC<PromptCardProps> = ({ prompt, onRefresh, onAdd
                         <span>Add to Board</span>
                       </button>
                     )}
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setMenuOpen(false);
+                        downloadPromptAsMarkdown(prompt);
+                        addToast({ type: 'success', title: 'Exported as Markdown (.md)', description: prompt.title });
+                      }}
+                      className="flex w-full items-center gap-2 rounded-lg px-2.5 py-1.5 hover:bg-slate-800 text-left text-emerald-300"
+                    >
+                      <Download className="w-3.5 h-3.5" />
+                      <span>Export Markdown (.md)</span>
+                    </button>
                     <button
                       onClick={handleQuickOptimize}
                       className="flex w-full items-center gap-2 rounded-lg px-2.5 py-1.5 hover:bg-slate-800 text-left text-indigo-300"

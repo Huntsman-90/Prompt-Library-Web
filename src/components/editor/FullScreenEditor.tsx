@@ -31,7 +31,9 @@ import {
   Tag,
   Folder as FolderIcon,
   RotateCcw,
+  Download,
 } from 'lucide-react';
+import { downloadPromptAsMarkdown } from '../../utils/markdownExporter';
 
 export const FullScreenEditor: React.FC = () => {
   const { isEditorOpen, editingPrompt, closeEditor, addToast, setIsComponentPickerOpen } = useUIStore();
@@ -260,6 +262,34 @@ export const FullScreenEditor: React.FC = () => {
         </div>
 
         <div className="flex items-center gap-1.5 shrink-0">
+          <button
+            onClick={() => {
+              const currentFolder = folders.find((f) => f.id === folderId);
+              const tempPrompt: PromptItem = {
+                id: editingPrompt?.id || 'prompt-' + Math.random().toString(36).substring(2, 9),
+                title: title.trim() || 'Untitled Prompt',
+                description: description.trim(),
+                content,
+                category,
+                folderId,
+                tags,
+                variables: extractVariables(content),
+                isFavorite: editingPrompt?.isFavorite || false,
+                usageCount: editingPrompt?.usageCount || 0,
+                targetModel,
+                createdAt: editingPrompt?.createdAt || new Date().toISOString(),
+                updatedAt: new Date().toISOString(),
+              };
+              downloadPromptAsMarkdown(tempPrompt, currentFolder?.name);
+              addToast({ type: 'success', title: 'Exported as Markdown (.md)', description: tempPrompt.title });
+            }}
+            className="flex items-center gap-1 rounded-xl border border-slate-700 bg-slate-800/80 px-2.5 py-1.5 text-xs font-medium text-emerald-300 hover:bg-slate-700 active:scale-95 transition cursor-pointer"
+            title="Export Prompt as Markdown (.md)"
+          >
+            <Download className="w-3.5 h-3.5" />
+            <span className="hidden sm:inline">Export .md</span>
+          </button>
+
           <button
             onClick={() => handleCopy(false)}
             className="flex items-center gap-1 rounded-xl border border-slate-700 bg-slate-800/80 px-2.5 py-1.5 text-xs font-medium text-slate-200 hover:bg-slate-700 active:scale-95 transition"

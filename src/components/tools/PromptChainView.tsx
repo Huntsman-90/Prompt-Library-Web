@@ -5,6 +5,10 @@ import { useUIStore } from '../../store/useUIStore';
 import { substituteVariables } from '../../hooks/useVariables';
 import { SKILLS_REGISTRY, SkillDefinition } from '../../skills/skillsRegistry';
 import {
+  downloadChainAsMarkdown,
+  markdownToChain,
+} from '../../utils/markdownExporter';
+import {
   X,
   Link as LinkIcon,
   Plus,
@@ -400,49 +404,57 @@ export const PromptChainView: React.FC = () => {
     loadChains();
   };
 
-  // Export JSON
+  // Export Chain as Markdown (.chain.md)
   const handleExportChain = () => {
-    const exportData = {
+    const chainItem: PromptChain = {
+      id: activeChainId,
       name: chainName,
       description: chainDesc,
       steps,
       testInputs,
-      exportedAt: new Date().toISOString(),
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
     };
-    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `${chainName.toLowerCase().replace(/\s+/g, '-')}.chain.json`;
-    a.click();
-    URL.revokeObjectURL(url);
-    addToast({ type: 'success', title: 'Chain exported as JSON' });
+    downloadChainAsMarkdown(chainItem);
+    addToast({
+      type: 'success',
+      title: 'Chain exported as Markdown (.chain.md)',
+      description: chainName,
+    });
   };
 
-  // Import JSON
-  const handleImportChain = (e: React.ChangeEvent<HTMLInputElement>) => {
+  // Import Chain (Markdown .chain.md or JSON)
+  const handleImportChain = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
 
-    const reader = new FileReader();
-    reader.onload = (event) => {
-      try {
-        const parsed = JSON.parse(event.target?.result as string);
+    try {
+      const text = await file.text();
+      if (file.name.endsWith('.json')) {
+        const parsed = JSON.parse(text);
         if (parsed.steps && Array.isArray(parsed.steps)) {
           setChainName(parsed.name || 'Imported Chain');
           setChainDesc(parsed.description || '');
           setSteps(parsed.steps);
           if (parsed.testInputs) setTestInputs(parsed.testInputs);
           setActiveBoardChainId('chain-' + Math.random().toString(36).substring(2, 9));
-          addToast({ type: 'success', title: 'Chain imported successfully!' });
+          addToast({ type: 'success', title: 'Chain imported from JSON!' });
         } else {
-          addToast({ type: 'error', title: 'Invalid JSON chain structure' });
+          addToast({ type: 'error', title: 'Invalid JSON chain file' });
         }
-      } catch {
-        addToast({ type: 'error', title: 'Failed to parse JSON file' });
+      } else {
+        const chain = markdownToChain(text);
+        setChainName(chain.name || 'Imported Chain');
+        setChainDesc(chain.description || '');
+        setSteps(chain.steps);
+        if (chain.testInputs) setTestInputs(chain.testInputs);
+        setActiveBoardChainId(chain.id);
+        addToast({ type: 'success', title: 'Chain imported from Markdown (.md)!' });
       }
-    };
-    reader.readAsText(file);
+    } catch {
+      addToast({ type: 'error', title: 'Failed to import chain file' });
+    }
+
     e.target.value = '';
   };
 
@@ -583,18 +595,20 @@ export const PromptChainView: React.FC = () => {
 
             <button
               onClick={handleExportChain}
-              className="rounded-xl border border-slate-700 bg-slate-800 p-1.5 sm:p-2 text-slate-300 hover:text-white transition cursor-pointer"
-              title="Export Chain as JSON"
+              className="flex items-center gap-1 rounded-xl border border-slate-700 bg-slate-800 p-1.5 sm:px-2.5 sm:py-1.5 text-xs font-semibold text-emerald-300 hover:text-white hover:bg-slate-700 transition cursor-pointer"
+              title="Export Chain as Markdown (.chain.md)"
             >
               <Download className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+              <span className="hidden sm:inline">Export .md</span>
             </button>
 
             <label
-              className="rounded-xl border border-slate-700 bg-slate-800 p-1.5 sm:p-2 text-slate-300 hover:text-white transition cursor-pointer"
-              title="Import Chain JSON"
+              className="flex items-center gap-1 rounded-xl border border-slate-700 bg-slate-800 p-1.5 sm:px-2.5 sm:py-1.5 text-xs font-semibold text-indigo-300 hover:text-white hover:bg-slate-700 transition cursor-pointer"
+              title="Import Chain Markdown (.md) or JSON"
             >
               <Upload className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-              <input type="file" accept=".json" onChange={handleImportChain} className="hidden" />
+              <span className="hidden sm:inline">Import .md</span>
+              <input type="file" accept=".md,.chain.md,.markdown,.json" onChange={handleImportChain} className="hidden" />
             </label>
 
             <button

@@ -17,6 +17,12 @@ import {
   RotateCcw,
 } from 'lucide-react';
 
+import {
+  exportPromptsToZip,
+  importPromptsFromZip,
+  markdownToPrompt,
+} from '../../utils/markdownExporter';
+
 export const SettingsView: React.FC = () => {
   const {
     theme,
@@ -71,33 +77,17 @@ export const SettingsView: React.FC = () => {
 
   const handleExportPromptPack = async () => {
     const prompts = await db.prompts.toArray();
-    const pack = {
-      name: 'Curated Prompt Pack',
-      exportedAt: new Date().toISOString(),
-      prompts: prompts.map((p) => ({
-        title: p.title,
-        description: p.description,
-        content: p.content,
-        category: p.category,
-        tags: p.tags,
-        variables: p.variables,
-      })),
-    };
-
-    const blob = new Blob([JSON.stringify(pack, null, 2)], {
-      type: 'application/json',
-    });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `curated-prompt-pack.json`;
-    a.click();
-    URL.revokeObjectURL(url);
+    const folders = await db.folders.toArray();
+    if (prompts.length === 0) {
+      addToast({ type: 'error', title: 'No prompts in database to export' });
+      return;
+    }
+    await exportPromptsToZip(prompts, folders, 'prompts-markdown-pack.zip');
 
     addToast({
       type: 'success',
-      title: 'Prompt Pack generated & downloaded',
-      description: `${prompts.length} prompts included`,
+      title: 'Markdown Prompt Pack exported (.zip)',
+      description: `${prompts.length} prompts packaged with frontmatter metadata`,
     });
   };
 
@@ -106,48 +96,127 @@ export const SettingsView: React.FC = () => {
     if (!file) return;
 
     try {
-      const text = await file.text();
-      const parsed = JSON.parse(text);
-
       let importedPromptsCount = 0;
 
-      if (parsed.data?.prompts && Array.isArray(parsed.data.prompts)) {
-        await db.prompts.bulkPut(parsed.data.prompts);
-        importedPromptsCount = parsed.data.prompts.length;
-      } else if (parsed.prompts && Array.isArray(parsed.prompts)) {
-        // Prompt pack format
-        const items = parsed.prompts.map((p: any) => ({
-          ...p,
-          id: p.id || 'prompt-' + Math.random().toString(36).substring(2, 9),
-          createdAt: new Date().toISOString(),
-          updatedAt: new Date().toISOString(),
-          usageCount: 0,
-          isFavorite: false,
-        }));
-        await db.prompts.bulkPut(items);
-        importedPromptsCount = items.length;
-      }
+      if (file.name.endsWith('.zip')) {
+        const { prompts: parsedItems } = await importPromptsFromZip(file);
+        const existingFolders = await db.folders.toArray();
+        const folderMap = new Map(existingFolders.map((f) => [f.name.toLowerCase(), f.id]));
 
-      if (parsed.data?.boards && Array.isArray(parsed.data.boards)) {
-        await db.boards.bulkPut(parsed.data.boards);
-      }
-      if (parsed.data?.folders && Array.isArray(parsed.data.folders)) {
-        await db.folders.bulkPut(parsed.data.folders);
-      }
-      if (parsed.data?.chains && Array.isArray(parsed.data.chains)) {
-        await db.chains.bulkPut(parsed.data.chains);
+        for (const item of parsedItems) {
+          let folderId: string | undefined = undefined;
+          if (item.folderName) {
+            const folderKey = item.folderName.toLowerCase();
+            if (folderMap.has(folderKey)) {
+              folderId = folderMap.get(folderKey);
+            } else {
+              const newFolder = {
+                id: 'folder-' + Math.random().toString(36).substring(2, 9),
+                name: item.folderName,
+                createdAt: new Date().toISOString(),
+              };
+              await db.folders.add(newFolder);
+              folderMap.set(folderKey, newFolder.id);
+              folderId = newFolder.id;
+            }
+          }
+
+          await db.prompts.add({
+            id: 'prompt-' + Math.random().toString(36).substring(2, 9),
+            title: item.prompt.title || 'Imported Prompt',
+            description: item.prompt.description || '',
+            content: item.prompt.content || '',
+            category: item.prompt.category || 'general',
+            folderId,
+            tags: item.prompt.tags || [],
+            variables: item.prompt.variables || [],
+            isFavorite: item.prompt.isFavorite || false,
+            usageCount: item.prompt.usageCount || 0,
+            targetModel: item.prompt.targetModel,
+            createdAt: item.prompt.createdAt || new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
+          });
+          importedPromptsCount++;
+        }
+      } else if (file.name.endsWith('.md') || file.name.endsWith('.markdown')) {
+        const text = await file.text();
+        const { prompt: p, folderName } = markdownToPrompt(text);
+
+        let folderId: string | undefined = undefined;
+        if (folderName) {
+          const existingFolders = await db.folders.toArray();
+          const match = existingFolders.find((f) => f.name.toLowerCase() === folderName.toLowerCase());
+          if (match) {
+            folderId = match.id;
+          } else {
+            const newFolder = {
+              id: 'folder-' + Math.random().toString(36).substring(2, 9),
+              name: folderName,
+              createdAt: new Date().toISOString(),
+            };
+            await db.folders.add(newFolder);
+            folderId = newFolder.id;
+          }
+        }
+
+        await db.prompts.add({
+          id: 'prompt-' + Math.random().toString(36).substring(2, 9),
+          title: p.title || 'Imported Prompt',
+          description: p.description || '',
+          content: p.content || '',
+          category: p.category || 'general',
+          folderId,
+          tags: p.tags || [],
+          variables: p.variables || [],
+          isFavorite: p.isFavorite || false,
+          usageCount: p.usageCount || 0,
+          targetModel: p.targetModel,
+          createdAt: p.createdAt || new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
+        });
+        importedPromptsCount = 1;
+      } else {
+        // Fallback to JSON
+        const text = await file.text();
+        const parsed = JSON.parse(text);
+
+        if (parsed.data?.prompts && Array.isArray(parsed.data.prompts)) {
+          await db.prompts.bulkPut(parsed.data.prompts);
+          importedPromptsCount = parsed.data.prompts.length;
+        } else if (parsed.prompts && Array.isArray(parsed.prompts)) {
+          const items = parsed.prompts.map((p: any) => ({
+            ...p,
+            id: p.id || 'prompt-' + Math.random().toString(36).substring(2, 9),
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
+            usageCount: 0,
+            isFavorite: false,
+          }));
+          await db.prompts.bulkPut(items);
+          importedPromptsCount = items.length;
+        }
+
+        if (parsed.data?.boards && Array.isArray(parsed.data.boards)) {
+          await db.boards.bulkPut(parsed.data.boards);
+        }
+        if (parsed.data?.folders && Array.isArray(parsed.data.folders)) {
+          await db.folders.bulkPut(parsed.data.folders);
+        }
+        if (parsed.data?.chains && Array.isArray(parsed.data.chains)) {
+          await db.chains.bulkPut(parsed.data.chains);
+        }
       }
 
       addToast({
         type: 'success',
         title: 'Import completed successfully',
-        description: `Imported ${importedPromptsCount} prompts into local database`,
+        description: `Imported ${importedPromptsCount} prompt(s) into local database`,
       });
     } catch {
       addToast({
         type: 'error',
         title: 'Import failed',
-        description: 'Invalid JSON file structure',
+        description: 'Failed to process import file (.md, .zip, or .json)',
       });
     } finally {
       if (fileInputRef.current) {
@@ -291,19 +360,19 @@ export const SettingsView: React.FC = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
           <button
-            onClick={handleExportFullLibrary}
-            className="flex items-center justify-center gap-2 rounded-2xl border border-slate-700 bg-slate-800 p-3 text-xs font-semibold text-slate-200 hover:bg-slate-700 transition"
+            onClick={handleExportPromptPack}
+            className="flex items-center justify-center gap-2 rounded-2xl border border-emerald-500/40 bg-emerald-950/30 p-3 text-xs font-bold text-emerald-300 hover:bg-emerald-900/40 transition cursor-pointer"
           >
-            <HardDrive className="w-4 h-4 text-indigo-400" />
-            <span>Export Full Backup (JSON)</span>
+            <Package className="w-4 h-4 text-emerald-400" />
+            <span>Export Markdown Pack (.zip)</span>
           </button>
 
           <button
-            onClick={handleExportPromptPack}
-            className="flex items-center justify-center gap-2 rounded-2xl border border-slate-700 bg-slate-800 p-3 text-xs font-semibold text-slate-200 hover:bg-slate-700 transition"
+            onClick={handleExportFullLibrary}
+            className="flex items-center justify-center gap-2 rounded-2xl border border-slate-700 bg-slate-800 p-3 text-xs font-semibold text-slate-200 hover:bg-slate-700 transition cursor-pointer"
           >
-            <Package className="w-4 h-4 text-emerald-400" />
-            <span>Export Prompt Pack</span>
+            <HardDrive className="w-4 h-4 text-indigo-400" />
+            <span>Export Full Backup (JSON)</span>
           </button>
         </div>
 
@@ -312,15 +381,15 @@ export const SettingsView: React.FC = () => {
             type="file"
             ref={fileInputRef}
             onChange={handleImportFile}
-            accept=".json"
+            accept=".md,.markdown,.zip,.json"
             className="hidden"
           />
           <button
             onClick={() => fileInputRef.current?.click()}
-            className="w-full flex items-center justify-center gap-2 rounded-2xl border border-indigo-500/40 bg-indigo-950/40 p-3 text-xs font-semibold text-indigo-300 hover:bg-indigo-900/40 transition"
+            className="w-full flex items-center justify-center gap-2 rounded-2xl border border-indigo-500/40 bg-indigo-950/40 p-3 text-xs font-bold text-indigo-300 hover:bg-indigo-900/40 transition cursor-pointer"
           >
             <Upload className="w-4 h-4" />
-            <span>Import JSON / Prompt Pack</span>
+            <span>Import Markdown (.md, .zip) or JSON</span>
           </button>
         </div>
       </div>
