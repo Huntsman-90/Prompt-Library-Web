@@ -83,8 +83,7 @@ export const CategoryDetailModal: React.FC<CategoryDetailModalProps> = ({
 
   const handleCreateNewWithSkill = (skill: SkillDefinition) => {
     // Generate initial prompt starting directly with the skill's essence
-    const initialDomainPrompt = `Execute ${skill.displayName.toLowerCase()} with high domain rigor and complete production deliverables.`;
-    const transformed = skill.transform(initialDomainPrompt);
+    const transformed = skill.transform('');
 
     onClose();
     openEditor({
@@ -110,8 +109,7 @@ export const CategoryDetailModal: React.FC<CategoryDetailModalProps> = ({
 
   const handleCopySkillLogic = async (skill: SkillDefinition) => {
     try {
-      const sampleTask = `Execute ${skill.displayName.toLowerCase()} with production rigor.`;
-      const transformed = skill.transform(sampleTask);
+      const transformed = skill.transform('');
       await navigator.clipboard.writeText(transformed);
       setCopiedId(skill.id);
       addToast({
@@ -207,7 +205,7 @@ export const CategoryDetailModal: React.FC<CategoryDetailModalProps> = ({
           ) : (
             filteredSkills.map((skill) => {
               const isExpanded = expandedPreviewId === skill.id;
-              const samplePreview = skill.transform('Audit system architecture and ensure strict type contracts.');
+              const samplePreview = skill.transform('');
 
               return (
                 <div

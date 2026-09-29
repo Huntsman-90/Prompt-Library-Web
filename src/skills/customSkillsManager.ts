@@ -38,36 +38,81 @@ function notifyListeners(): void {
 
 /**
  * Creates an executable transform function for a user-defined custom skill.
+ * Supports flexible transformation modes: Section Injection, Template Wrapper, Prepend, Append, and Freeform.
  */
 export function createUserSkillTransform(userSkill: UserSkill): (prompt: string, context?: Record<string, any>) => string {
   return (prompt: string, _context?: Record<string, any>): string => {
     const isRu = isRussianText(prompt);
-    const cleanedInput = purgeGenericBoilerplate(prompt);
+    let cleanedInput = purgeGenericBoilerplate(prompt);
+
+    // Purge any synthetic mock sentences if present
+    cleanedInput = cleanedInput
+      .replace(/^Execute\s+.*with\s+(?:production\s+rigor|high\s+domain\s+rigor)[^\n]*\n*/gim, '')
+      .replace(/^###\s*(?:Goal & Task Context|Context)\s*\n*Execute[^\n]*\n*/gim, '')
+      .trim();
+
     const task = extractTaskFromGeneratedPrompt(cleanedInput) || (isRu ? 'Выполнить специализированную задачу' : 'Execute specialized task directive');
     
     // Parse directives from user input
     let directivesText = userSkill.transformationDirectives || '';
     
-    // Support template variables like {{task}} or {{input}}
+    // Interpolate template variables
     directivesText = directivesText
       .replace(/\{\{task\}\}/gi, task)
       .replace(/\{\{input\}\}/gi, cleanedInput)
+      .replace(/\{\{prompt\}\}/gi, cleanedInput)
       .replace(/\[\[task\]\]/gi, task)
+      .replace(/\[\[input\]\]/gi, cleanedInput)
       .replace(/\[\[target_issue\]\]/gi, task);
+
+    const mode = userSkill.transformationMode || 'section';
+
+    // Mode 1: Full Template Wrapper
+    if (mode === 'template') {
+      if (directivesText.includes('{{prompt}}') || directivesText.includes('{{input}}')) {
+        return directivesText;
+      }
+      if (!cleanedInput) {
+        return directivesText.trim();
+      }
+      return `${directivesText.trim()}\n\n${cleanedInput}`.trim();
+    }
+
+    // Mode 2: Prepend
+    if (mode === 'prepend') {
+      if (!cleanedInput) return directivesText.trim();
+      return `${directivesText.trim()}\n\n${cleanedInput}`.trim();
+    }
+
+    // Mode 3: Append
+    if (mode === 'append') {
+      if (!cleanedInput) return directivesText.trim();
+      return `${cleanedInput}\n\n${directivesText.trim()}`.trim();
+    }
+
+    // Mode 4 & 5: Structured Section / Freeform Section Injection
+    const title = userSkill.customSectionTitle?.trim() || userSkill.displayName.trim();
+    const cleanSectionTitle = title.replace(/^#{1,4}\s*/, '').trim();
 
     const directiveLines = directivesText
       .split('\n')
-      .map((l) => l.trim())
+      .map((l) => l.trimEnd())
       .filter((l) => l.length > 0);
 
+    // If input was empty, generate a pristine section directly
+    if (!cleanedInput) {
+      const header = cleanSectionTitle.startsWith('#') ? cleanSectionTitle : `### ${cleanSectionTitle}`;
+      return `${header}\n${directiveLines.join('\n')}`.trim();
+    }
+
     const { preamble, sections } = parsePromptSections(cleanedInput);
-    const targetSectionType = userSkill.targetSection || 'protocol';
+    const targetSectionType = (userSkill.targetSection as any) || 'protocol';
 
     ensureSection(
       sections,
       targetSectionType,
-      userSkill.displayName,
-      userSkill.displayName,
+      cleanSectionTitle,
+      cleanSectionTitle,
       directiveLines,
       directiveLines,
       isRu
@@ -155,10 +200,13 @@ export async function saveUserSkill(
     name: finalName,
     displayName: skillData.displayName.trim() || skillData.name,
     categoryId: skillData.categoryId || 'my_skills',
+    customCategoryName: skillData.customCategoryName?.trim(),
     description: skillData.description?.trim() || 'Custom user-defined skill',
     tags: Array.isArray(skillData.tags) ? skillData.tags : ['custom'],
     iconName: skillData.iconName || 'Zap',
     transformationDirectives: skillData.transformationDirectives.trim(),
+    transformationMode: skillData.transformationMode || 'section',
+    customSectionTitle: skillData.customSectionTitle?.trim(),
     targetSection: skillData.targetSection || 'protocol',
     isUserCreated: true,
     createdAt: skillData.createdAt || now,

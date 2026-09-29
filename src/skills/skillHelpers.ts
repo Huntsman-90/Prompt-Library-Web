@@ -22,13 +22,15 @@ export {
  */
 export function adaptDirectivesToTask(directives: string[], task: string, isRu: boolean): string[] {
   const t = task.trim();
-  if (!t || t.length < 3) return directives;
+  if (!t || t.length < 3 || /^Execute\s+/i.test(t) || /^Выполнить\s+/i.test(t)) {
+    return directives;
+  }
 
   return directives.map((d) => {
     return d
       .replace(/\[\[target_issue\]\]|\[\[target_system\]\]|\[\[task\]\]/gi, t)
-      .replace(/the target system/gi, t.length < 40 ? `"${t}"` : 'the target system')
-      .replace(/целевую систему/gi, t.length < 40 ? `«${t}»` : 'целевую систему');
+      .replace(/the target system/gi, t.length < 50 ? `"${t}"` : 'the target system')
+      .replace(/целевую систему/gi, t.length < 50 ? `«${t}»` : 'целевую систему');
   });
 }
 
@@ -78,16 +80,23 @@ export function createStandardSkillTransform(
 ) {
   return (prompt: string, _context?: Record<string, any>): string => {
     const isRu = isRussianText(prompt);
-    const cleanedPrompt = prompt
-      .replace(/###\s*(?:Goal & Task Context|Context)\s*\n*Execute domain directive with high technical fidelity\.?/gi, '')
+    let cleanedPrompt = (prompt || '')
+      .replace(/###\s*(?:Goal & Task Context|Context)\s*\n*Execute[^\n]*\n*/gi, '')
+      .replace(/^Execute\s+.*with\s+(?:production\s+rigor|high\s+domain\s+rigor|complete\s+production\s+deliverables)[^\n]*\n*/gim, '')
       .replace(/Execute domain directive with high technical fidelity\.?/gi, '')
       .trim();
 
-    const task = extractTaskFromGeneratedPrompt(cleanedPrompt) || (isRu ? 'Выполнить задачу' : 'Execute directive');
+    const task = extractTaskFromGeneratedPrompt(cleanedPrompt);
     const { preamble, sections } = parsePromptSections(cleanedPrompt);
 
-    // If the input was a raw sentence without headers, initialize a clean mandate header
-    if (sections.length === 0 && cleanedPrompt.length > 0) {
+    // Only add a task context section if the user genuinely supplied an unformatted task sentence
+    const hasRealTask =
+      Boolean(task) &&
+      task.length > 4 &&
+      !/^Execute\s+/i.test(task) &&
+      !/^Выполнить\s+(?:задачу|директиву)/i.test(task);
+
+    if (sections.length === 0 && preamble.trim().length > 0 && hasRealTask) {
       sections.push({
         rawHeader: isRu ? '### 1. Постановка Задачи' : '### 1. Operational Mandate',
         level: 3,
@@ -98,10 +107,10 @@ export function createStandardSkillTransform(
       });
     }
 
-    const adaptedRu = adaptDirectivesToTask(directivesRu, task, true);
-    const adaptedEn = adaptDirectivesToTask(directivesEn, task, false);
+    const adaptedRu = adaptDirectivesToTask(directivesRu, hasRealTask ? task : '', true);
+    const adaptedEn = adaptDirectivesToTask(directivesEn, hasRealTask ? task : '', false);
 
     ensureSection(sections, semanticType, titleRu, titleEn, adaptedRu, adaptedEn, isRu);
-    return reconstructPrompt(preamble, deduplicatePromptSections(sections, isRu));
+    return reconstructPrompt(sections.length > 0 && hasRealTask ? '' : preamble, deduplicatePromptSections(sections, isRu));
   };
 }

@@ -35,6 +35,8 @@ export function extractCoreGoalAndCleanMeta(input: string): string {
     /^(напиши системный промпт|создай системный промпт|нужен системный промпт)\s+(для|по|который|помогающий)?\s*/gi,
 
     // Synthetic generator wrappers (Russian & English)
+    /^(?:Execute\s+.+?\s+with\s+(?:production\s+rigor|high\s+domain\s+rigor|complete\s+production\s+deliverables)[^\n]*\n*)/gi,
+    /^(?:Execute domain directive with high technical fidelity\.?)/gi,
     /^(?:Разработать комплексное профессиональное решение с глубоким анализом предмета|Сформировать глубокий разбор инцидента, проанализировать хронологию и выработать план предотвращения рецидивов|Провести аудит представленного фрагмента кода, устранить архитектурные дефекты и обеспечить типобезопасность|Разработать комплексную стратегию развития, определить ключевые KPI и подготовить дорожную карту реализации|Подготовить емкий, убедительный материал с четкой структурой и ориентацией на целевую аудиторию)\s*:?\s*/gi,
     /^(?:Deliver an expert, structured solution focusing on the following domain|Conduct a thorough post-mortem analysis, reconstruct event timelines, and establish preventative measures|Audit and refactor the codebase to eliminate technical debt, enhance type safety, and optimize performance|Formulate a comprehensive growth strategy, map unit economics, and define execution milestones|Craft high-impact, persuasive copy tailored for maximum audience engagement and clarity)\s*:?\s*/gi,
   ];

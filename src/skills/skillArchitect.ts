@@ -265,16 +265,24 @@ export function derivePreciseRole(task: string, isRu: boolean, activeSkillIds: s
   }
 
   // 13. Dynamic Context-Driven Specific Role (Never "elite principal engineer" or "universal AI")
-  const sanitizedTask = task
-    .replace(/^(мне\s+нужен|напиши|создай|сделай|разработай|проанализируй|построй|подготовь|сгенерируй|i\s+need|create|write|build|generate|analyze)\s+/i, '')
+  let sanitizedTask = task
+    .replace(/^(мне\s+нужен|напиши|создай|сделай|разработай|проанализируй|построй|подготовь|сгенерируй|i\s+need|create|write|build|generate|analyze|execute|выполнить)\s+/i, '')
+    .replace(/^(?:directive|specialized task directive|target objective|задачу|директиву|специализированную задачу)\s*/i, '')
     .trim();
-  const titleCore = sanitizedTask.length > 3 ? sanitizedTask.slice(0, 42) : 'Domain Architecture';
+
+  const isGeneric = !sanitizedTask || sanitizedTask.length < 3;
+  const titleCoreRu = isGeneric ? 'Профильная системная архитектура' : (sanitizedTask.slice(0, 42));
+  const titleCoreEn = isGeneric ? 'Specialized Domain Architecture' : (sanitizedTask.slice(0, 42));
 
   return {
-    roleTitleRu: `Ведущий профильный специалист по направлению «${titleCore}»`,
-    roleTitleEn: `Staff Domain Authority & Technical Lead in ${titleCore}`,
-    focusRu: `глубокое системное моделирование, строгая отраслевая терминология и практическая реализация задачи: ${sanitizedTask}`,
-    focusEn: `canonical industry taxonomy, structural completeness, and battle-tested execution for: ${sanitizedTask}`,
+    roleTitleRu: `Ведущий эксперт и системный специалист по направлению «${titleCoreRu}»`,
+    roleTitleEn: `Staff Domain Authority & Technical Lead in ${titleCoreEn}`,
+    focusRu: isGeneric
+      ? 'глубокое системное моделирование, строгая отраслевая терминология и бескомпромиссная надежность инженерных решений'
+      : `глубокое системное моделирование, строгая отраслевая терминология и практическая реализация задачи: ${sanitizedTask}`,
+    focusEn: isGeneric
+      ? 'canonical industry taxonomy, structural completeness, and battle-tested production execution'
+      : `canonical industry taxonomy, structural completeness, and battle-tested execution for: ${sanitizedTask}`,
     mandateRu: 'Предоставить бескомпромиссное, структурированное инженерное решение без общих фраз и поверхностных допущений.',
     mandateEn: 'Deliver an authoritative, structurally rigorous domain deliverable with zero generic hand-waving.',
   };

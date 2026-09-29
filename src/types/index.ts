@@ -107,12 +107,15 @@ export interface UserSkill {
   id: string;
   name: string; // e.g. "ApiSecurityAuditSkill"
   displayName: string; // e.g. "API Security Audit"
-  categoryId: string; // matches CATEGORIES id or 'my_skills'
+  categoryId: string; // matches CATEGORIES id or 'my_skills' or arbitrary category id
+  customCategoryName?: string; // Display name if custom category
   description: string;
   tags: string[];
   iconName?: string;
-  transformationDirectives: string; // The user-defined directives / markdown protocol
-  targetSection?: 'role' | 'protocol' | 'constraints' | 'output_format' | 'context';
+  transformationDirectives: string; // Directives, full template, or markdown block
+  transformationMode?: 'section' | 'template' | 'prepend' | 'append' | 'freeform';
+  customSectionTitle?: string; // Arbitrary section title e.g. "### 2. Threat Modeling Protocol"
+  targetSection?: string; // Target section identifier (e.g. 'protocol', 'role', 'constraints', 'custom', etc.)
   isUserCreated: boolean;
   createdAt: string;
   updatedAt: string;
