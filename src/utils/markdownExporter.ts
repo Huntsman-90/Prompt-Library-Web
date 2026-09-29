@@ -132,31 +132,94 @@ export function markdownToPrompt(mdText: string): { prompt: Partial<PromptItem>;
 
 /**
  * Downloads a single prompt as a .md file.
+ * Uses native device file picker (showSaveFilePicker) if available.
  */
-export function downloadPromptAsMarkdown(prompt: PromptItem, folderName?: string) {
+export async function downloadPromptAsMarkdown(prompt: PromptItem, folderName?: string): Promise<boolean> {
   const md = promptToMarkdown(prompt, folderName);
   const safeFilename = (prompt.title || 'prompt').toLowerCase().replace(/[^a-z0-9_-]+/g, '-');
+  const filename = `${safeFilename}.md`;
+
+  if ('showSaveFilePicker' in window) {
+    try {
+      const fileHandle = await (window as any).showSaveFilePicker({
+        suggestedName: filename,
+        types: [
+          {
+            description: 'Markdown Document',
+            accept: { 'text/markdown': ['.md', '.markdown'] },
+          },
+        ],
+      });
+      const writable = await fileHandle.createWritable();
+      await writable.write(md);
+      await writable.close();
+      return true;
+    } catch (err: any) {
+      if (err?.name === 'AbortError') {
+        return false; // User cancelled saving
+      }
+    }
+  }
+
+  // Fallback download anchor
   const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `${safeFilename}.md`;
+  a.download = filename;
   a.click();
   URL.revokeObjectURL(url);
+  return true;
 }
 
 /**
- * Exports multiple prompts into a ZIP archive containing .md files.
+ * Exports multiple prompts into a user-selected folder on device (via showDirectoryPicker)
+ * or a user-selected file path (via showSaveFilePicker), falling back to blob download.
  */
 export async function exportPromptsToZip(
   prompts: PromptItem[],
   folders: FolderItem[],
   zipFilename: string = 'prompts-library.zip'
-) {
-  const zip = new JSZip();
+): Promise<boolean> {
   const folderMap = new Map<string, string>();
   folders.forEach((f) => folderMap.set(f.id, f.name));
 
+  // 1. Try showDirectoryPicker so user can choose a target folder on device
+  if ('showDirectoryPicker' in window) {
+    try {
+      const dirHandle = await (window as any).showDirectoryPicker({
+        mode: 'readwrite',
+      });
+
+      for (const p of prompts) {
+        const folderName = p.folderId ? folderMap.get(p.folderId) : undefined;
+        const mdContent = promptToMarkdown(p, folderName);
+        const safeTitle = (p.title || 'prompt').toLowerCase().replace(/[^a-z0-9_-]+/g, '-');
+        const filename = `${safeTitle}-${p.id.substring(0, 5)}.md`;
+
+        let targetDir = dirHandle;
+        if (folderName) {
+          const safeFolder = folderName.replace(/[^a-zA-Z0-9_-]+/g, '_');
+          targetDir = await dirHandle.getDirectoryHandle(safeFolder, { create: true });
+        }
+
+        const fileHandle = await targetDir.getFileHandle(filename, { create: true });
+        const writable = await fileHandle.createWritable();
+        await writable.write(mdContent);
+        await writable.close();
+      }
+
+      return true;
+    } catch (err: any) {
+      if (err?.name === 'AbortError') {
+        return false; // User cancelled directory selection
+      }
+      // Fall through to showSaveFilePicker / ZIP blob download
+    }
+  }
+
+  // 2. Build ZIP archive
+  const zip = new JSZip();
   prompts.forEach((p) => {
     const folderName = p.folderId ? folderMap.get(p.folderId) : undefined;
     const mdContent = promptToMarkdown(p, folderName);
@@ -172,12 +235,38 @@ export async function exportPromptsToZip(
   });
 
   const blob = await zip.generateAsync({ type: 'blob' });
+
+  // 3. Try showSaveFilePicker for ZIP save location
+  if ('showSaveFilePicker' in window) {
+    try {
+      const fileHandle = await (window as any).showSaveFilePicker({
+        suggestedName: zipFilename,
+        types: [
+          {
+            description: 'ZIP Archive containing Markdown prompts',
+            accept: { 'application/zip': ['.zip'] },
+          },
+        ],
+      });
+      const writable = await fileHandle.createWritable();
+      await writable.write(blob);
+      await writable.close();
+      return true;
+    } catch (err: any) {
+      if (err?.name === 'AbortError') {
+        return false; // User cancelled
+      }
+    }
+  }
+
+  // 4. Fallback anchor download
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
   a.download = zipFilename;
   a.click();
   URL.revokeObjectURL(url);
+  return true;
 }
 
 /**

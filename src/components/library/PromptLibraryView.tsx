@@ -181,12 +181,14 @@ export const PromptLibraryView: React.FC = () => {
       return;
     }
     const safeName = folder.name.toLowerCase().replace(/[^a-z0-9_-]+/g, '-');
-    await exportPromptsToZip(folderPrompts, folders, `${safeName}-markdown.zip`);
-    addToast({
-      type: 'success',
-      title: 'Folder exported',
-      description: `Exported "${folder.name}" (${folderPrompts.length} prompts) as Markdown ZIP archive.`,
-    });
+    const success = await exportPromptsToZip(folderPrompts, folders, `${safeName}-markdown.zip`);
+    if (success) {
+      addToast({
+        type: 'success',
+        title: 'Export completed',
+        description: `Exported "${folder.name}" (${folderPrompts.length} prompts) to device folder.`,
+      });
+    }
   };
 
   const handleExportActiveFolderToZip = async () => {

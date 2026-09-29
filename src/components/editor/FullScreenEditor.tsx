@@ -263,7 +263,7 @@ export const FullScreenEditor: React.FC = () => {
 
         <div className="flex items-center gap-1.5 shrink-0">
           <button
-            onClick={() => {
+            onClick={async () => {
               const currentFolder = folders.find((f) => f.id === folderId);
               const tempPrompt: PromptItem = {
                 id: editingPrompt?.id || 'prompt-' + Math.random().toString(36).substring(2, 9),
@@ -280,8 +280,10 @@ export const FullScreenEditor: React.FC = () => {
                 createdAt: editingPrompt?.createdAt || new Date().toISOString(),
                 updatedAt: new Date().toISOString(),
               };
-              downloadPromptAsMarkdown(tempPrompt, currentFolder?.name);
-              addToast({ type: 'success', title: 'Exported as Markdown (.md)', description: tempPrompt.title });
+              const success = await downloadPromptAsMarkdown(tempPrompt, currentFolder?.name);
+              if (success) {
+                addToast({ type: 'success', title: 'Exported as Markdown (.md)', description: tempPrompt.title });
+              }
             }}
             className="flex items-center gap-1 rounded-xl border border-slate-700 bg-slate-800/80 px-2.5 py-1.5 text-xs font-medium text-emerald-300 hover:bg-slate-700 active:scale-95 transition cursor-pointer"
             title="Export Prompt as Markdown (.md)"

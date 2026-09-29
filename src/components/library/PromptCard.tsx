@@ -205,11 +205,13 @@ export const PromptCard: React.FC<PromptCardProps> = ({ prompt, onRefresh, onAdd
                       </button>
                     )}
                     <button
-                      onClick={(e) => {
+                      onClick={async (e) => {
                         e.stopPropagation();
                         setMenuOpen(false);
-                        downloadPromptAsMarkdown(prompt);
-                        addToast({ type: 'success', title: 'Exported as Markdown (.md)', description: prompt.title });
+                        const success = await downloadPromptAsMarkdown(prompt);
+                        if (success) {
+                          addToast({ type: 'success', title: 'Exported as Markdown (.md)', description: prompt.title });
+                        }
                       }}
                       className="flex w-full items-center gap-2 rounded-lg px-2.5 py-1.5 hover:bg-slate-800 text-left text-emerald-300"
                     >
