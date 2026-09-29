@@ -33,6 +33,10 @@ export function extractCoreGoalAndCleanMeta(input: string): string {
     /^(ты\s*[-—]?\s*промпт[- ](инженер|инженерка|архитектор|эксперт)|действуй как промпт[- ]инженер)\s*(напиши|создай|составь)?\s*/gi,
     /^(вот промпт|улучши этот промпт|оптимизируй промпт):\s*/gi,
     /^(напиши системный промпт|создай системный промпт|нужен системный промпт)\s+(для|по|который|помогающий)?\s*/gi,
+
+    // Synthetic generator wrappers (Russian & English)
+    /^(?:Разработать комплексное профессиональное решение с глубоким анализом предмета|Сформировать глубокий разбор инцидента, проанализировать хронологию и выработать план предотвращения рецидивов|Провести аудит представленного фрагмента кода, устранить архитектурные дефекты и обеспечить типобезопасность|Разработать комплексную стратегию развития, определить ключевые KPI и подготовить дорожную карту реализации|Подготовить емкий, убедительный материал с четкой структурой и ориентацией на целевую аудиторию)\s*:?\s*/gi,
+    /^(?:Deliver an expert, structured solution focusing on the following domain|Conduct a thorough post-mortem analysis, reconstruct event timelines, and establish preventative measures|Audit and refactor the codebase to eliminate technical debt, enhance type safety, and optimize performance|Formulate a comprehensive growth strategy, map unit economics, and define execution milestones|Craft high-impact, persuasive copy tailored for maximum audience engagement and clarity)\s*:?\s*/gi,
   ];
 
   for (const rx of metaRegexes) {
@@ -45,9 +49,12 @@ export function extractCoreGoalAndCleanMeta(input: string): string {
   // Remove polite conversational preambles
   clean = clean
     .replace(/^(Hello|Hi|Hey|Dear AI|Привет|Здравствуйте),\s*/gi, '')
-    .replace(/\b(please|kindly|пожалуйста)\b/gi, '')
+    .replace(/\b(please|kindly)\b|пожалуйста/gi, '')
     .replace(/[ \t]+/g, ' ')
     .trim();
+
+  // Strip trailing periods if any
+  clean = clean.replace(/\.+$/, '');
 
   // Capitalize first letter
   if (clean.length > 0) {
@@ -74,6 +81,9 @@ function rephraseGoalToMandate(cleanGoal: string, isRu: boolean): string {
   let core = cleanGoal
     .replace(/^([А-Яа-яA-Za-z]+)\s+мне\s+/i, '')
     .replace(/^(мне\s+нужен|нужен|напиши|создай|сделай|разработай|проверить|написать|составить)\s+/i, '')
+    .replace(/^(?:Разработать комплексное профессиональное решение с глубоким анализом предмета|Сформировать глубокий разбор инцидента|Провести аудит представленного фрагмента кода|Разработать комплексную стратегию развития|Подготовить емкий, убедительный материал)\s*:?\s*/i, '')
+    .replace(/^(?:Deliver an expert, structured solution focusing on the following domain|Conduct a thorough post-mortem analysis|Audit and refactor the codebase|Formulate a comprehensive growth strategy|Craft high-impact, persuasive copy)\s*:?\s*/i, '')
+    .replace(/[.\s]+$/, '')
     .trim();
 
   if (isRu) {
@@ -90,7 +100,7 @@ function rephraseGoalToMandate(cleanGoal: string, isRu: boolean): string {
       return 'Подготовить емкий, убедительный материал с четкой структурой и ориентацией на целевую аудиторию.';
     }
     core = core.charAt(0).toUpperCase() + core.slice(1);
-    return `Разработать комплексное профессиональное решение с глубоким анализом предмета: ${core}.`;
+    return `Сформировать экспертное, структурированное решение и практические рекомендации по направлению: ${core}.`;
   } else {
     if (/retrospect|postmortem|incident|outage/i.test(core)) {
       return 'Conduct a thorough post-mortem analysis, reconstruct event timelines, and establish preventative measures.';
@@ -105,8 +115,884 @@ function rephraseGoalToMandate(cleanGoal: string, isRu: boolean): string {
       return 'Craft high-impact, persuasive copy tailored for maximum audience engagement and clarity.';
     }
     core = core.charAt(0).toUpperCase() + core.slice(1);
-    return `Deliver an expert, structured solution focusing on the following domain: ${core}.`;
+    return `Synthesize an authoritative, structured deliverable and strategic recommendations for: ${core}.`;
   }
+}
+
+export interface ParsedSection {
+  rawHeader: string;
+  level: number;
+  title: string;
+  cleanTitle: string;
+  lines: string[];
+  semanticType:
+    | 'role'
+    | 'context'
+    | 'protocol'
+    | 'constraints'
+    | 'output_format'
+    | 'variables'
+    | 'examples'
+    | 'domain_specific';
+}
+
+function classifySection(title: string, bodyText: string): ParsedSection['semanticType'] {
+  const t = title.toLowerCase().replace(/^\d+[\.\)]\s*/, '').trim();
+  const b = bodyText.toLowerCase();
+
+  // Forbidden headers check
+  if (/primary directive|core directive|main directive|operational directive|user goal|original request|основная директива|главная директива/i.test(t)) {
+    return 'context';
+  }
+
+  // Variables
+  if (/переменн|variable|parameters|параметр/i.test(t)) {
+    return 'variables';
+  }
+
+  // Role
+  if (/(?:роль|role|identity|persona|authority|полномочия|экспертиз|who you are|\bactor\b)/i.test(t) ||
+      /^(?:вы выступаете в роли|you are acting as|you are an expert|act as a)/i.test(b.trim())) {
+    return 'role';
+  }
+
+  // Constraints & Rules
+  if (/ограничени|constraint|правил|rule|guardrail|negative|запрет|требован|governance/i.test(t)) {
+    return 'constraints';
+  }
+
+  // Output Format / Deliverable
+  if (/формат вывод|output format|output spec|deliverable|спецификаци|структура ответ|matrix|матриц|action items|action item/i.test(t)) {
+    return 'output_format';
+  }
+
+  // Examples
+  if (/пример|example|few-shot|образец/i.test(t)) {
+    return 'examples';
+  }
+
+  // Context & Scope
+  if (/контекст|context|scope|область примен|постановка задач|брифинг|briefing|background/i.test(t)) {
+    return 'context';
+  }
+
+  // Protocol / Process / Reasoning / Domain Steps
+  if (/протокол|protocol|thinking|рассужден|мышлени|алгоритм|workflow|пошагов|step|хронологи|timeline|root cause|первопричин|5 почему|whys|аудит|audit|рефакторинг|refactor|директив|directive|позиционирован|юнит-эконом|road map|дорожная карт|hook|aida|pas arc|ущерб|масштаб инцидент|screening|execution|directives|safeguard|regression|тестирован|проверк/i.test(t)) {
+    return 'protocol';
+  }
+
+  return 'domain_specific';
+}
+
+function classifyXmlTag(tag: string): ParsedSection['semanticType'] {
+  const t = tag.toLowerCase();
+  if (/role/i.test(t)) return 'role';
+  if (/instruction|context|operational_prompt/i.test(t)) return 'context';
+  if (/thinking|process|protocol/i.test(t)) return 'protocol';
+  if (/constraint|rule/i.test(t)) return 'constraints';
+  if (/deliverable|output|format/i.test(t)) return 'output_format';
+  return 'domain_specific';
+}
+
+export function parsePromptSections(text: string): { preamble: string; sections: ParsedSection[] } {
+  const lines = text.split('\n');
+  const sections: ParsedSection[] = [];
+  const preambleLines: string[] = [];
+  let currentSection: ParsedSection | null = null;
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const headerMatch = line.match(/^(#{1,4})\s+(.+)$/);
+    const xmlMatch = line.match(/^<([a-zA-Z0-9_-]+)>$/);
+
+    if (headerMatch) {
+      if (currentSection) {
+        sections.push(currentSection);
+      }
+      const rawHeader = line.trim();
+      const level = headerMatch[1].length;
+      const title = headerMatch[2].trim();
+      const cleanTitle = title.toLowerCase().replace(/^\d+[\.\)]\s*/, '').trim();
+
+      currentSection = {
+        rawHeader,
+        level,
+        title,
+        cleanTitle,
+        lines: [],
+        semanticType: classifySection(cleanTitle, ''),
+      };
+    } else if (xmlMatch) {
+      if (currentSection) {
+        sections.push(currentSection);
+      }
+      const rawHeader = line.trim();
+      const tagName = xmlMatch[1];
+      currentSection = {
+        rawHeader,
+        level: 3,
+        title: tagName,
+        cleanTitle: tagName.toLowerCase(),
+        lines: [],
+        semanticType: classifyXmlTag(tagName),
+      };
+    } else {
+      if (currentSection) {
+        currentSection.lines.push(line);
+      } else {
+        preambleLines.push(line);
+      }
+    }
+  }
+
+  if (currentSection) {
+    sections.push(currentSection);
+  }
+
+  for (const sec of sections) {
+    if (sec.semanticType === 'domain_specific') {
+      const bodyText = sec.lines.join('\n');
+      sec.semanticType = classifySection(sec.cleanTitle, bodyText);
+    }
+  }
+
+  return {
+    preamble: preambleLines.join('\n').trim(),
+    sections,
+  };
+}
+
+export function extractTaskFromGeneratedPrompt(input: string): string {
+  if (!input || !input.trim()) return '';
+
+  const trimmed = input.trim();
+
+  // 1. XML <context_and_scope> (from AI Build expert)
+  const xmlContextMatch = trimmed.match(/<context_and_scope>([\s\S]*?)<\/context_and_scope>/i);
+  if (xmlContextMatch && xmlContextMatch[1].trim()) {
+    return extractCoreGoalAndCleanMeta(xmlContextMatch[1].trim());
+  }
+
+  // 2. XML <operational_prompt> (from model adapters)
+  const xmlOperationalMatch = trimmed.match(/<operational_prompt>([\s\S]*?)<\/operational_prompt>/i);
+  if (xmlOperationalMatch && xmlOperationalMatch[1].trim()) {
+    return extractTaskFromGeneratedPrompt(xmlOperationalMatch[1].trim());
+  }
+
+  // 3. Markdown ### Context & Scope or Refactoring Scope, Creative Scope, Task, etc.
+  const contextHeaderMatch = trimmed.match(
+    /###\s+(?:Context & Scope|Контекст и Область Применения|Контекст и Постановка Задачи|Context|Scope|Стратегический Контекст|Творческий Брифинг|Refactoring Scope|Creative Scope|Strategic Scope|Task|Задача|Цель|Область Рефакторинга)\s*\n([\s\S]*?)(?=\n###|\n<|$)/i
+  );
+  if (contextHeaderMatch && contextHeaderMatch[1].trim()) {
+    return extractCoreGoalAndCleanMeta(contextHeaderMatch[1].trim());
+  }
+
+  // 4. Check if there is a section containing task/scope via parsePromptSections
+  const { sections } = parsePromptSections(trimmed);
+  const contextSec = sections.find(s => s.semanticType === 'context' || /задач|task|цель|goal|scope|контекст/i.test(s.cleanTitle));
+  if (contextSec && contextSec.lines.length > 0) {
+    const rawLines = contextSec.lines.join('\n').trim();
+    if (rawLines) {
+      return extractCoreGoalAndCleanMeta(rawLines);
+    }
+  }
+
+  // 5. Default: clean meta-prompting from input
+  return extractCoreGoalAndCleanMeta(trimmed);
+}
+
+export function isGeneratedOrDraftPrompt(text: string): boolean {
+  if (!text || text.trim().length === 0) return true;
+
+  const trimmed = text.trim();
+
+  // 1. AI Build signature XML tags
+  if (/<system_role>|<context_and_scope>|<operational_constraints>|<deliverable_specification>/i.test(trimmed)) {
+    return true;
+  }
+
+  // 2. Model adapter XML or marker tags around prompts
+  if (/<operational_prompt>|\[SYSTEM DIRECTIVE\]|\[OPERATIONAL PROMPT\]|<\|start_header_id\|>/i.test(trimmed)) {
+    return true;
+  }
+
+  // 3. AI Build signature generic boilerplate phrasing (across all complexity levels)
+  if (
+    /You are a domain specialist/i.test(trimmed) ||
+    /experienced domain authority with comprehensive expertise in this subject matter/i.test(trimmed) ||
+    /elite principal engineer and strategist with deep specialized mastery/i.test(trimmed) ||
+    /Deliver a clear, direct answer addressing the request/i.test(trimmed) ||
+    /Step 1:\s*Clarify core mechanism or problem statement/i.test(trimmed) ||
+    /Step 2:\s*Provide complete, actionable deliverable/i.test(trimmed) ||
+    /Step 3:\s*Highlight caveats, edge cases, or trade-offs/i.test(trimmed) ||
+    /Deconstruct objective into core functional requirements/i.test(trimmed) ||
+    /Structure final response with:\s*\n-\s*Executive Summary/i.test(trimmed) ||
+    /Avoid buzzwords, fluff, and unnecessary preambles/i.test(trimmed)
+  ) {
+    return true;
+  }
+
+  // 4. Meta-prompting noise present in text
+  if (
+    /^(?:мне нужен|нужен|напиши|создай|сделай|разработай)\s+(?:системный|кастомный|детальный)?\s*промпт/i.test(trimmed) ||
+    /^(?:i need|i want|please write|write|create|generate)\s+(?:a|an)?\s*(?:system|custom)?\s*prompt/i.test(trimmed)
+  ) {
+    return true;
+  }
+
+  // 5. Minimal length or minimal headers (drafts)
+  // Fully optimized production prompts are comprehensive (at least 3 sections, length >= 420 chars)
+  const headers = trimmed.match(/^(?:###|##|#)\s+[^\n]+/gm) || [];
+  if (headers.length < 3 || trimmed.length < 420) {
+    return true;
+  }
+
+  // 7. Check if it lacks deep domain protocol (e.g. only has generic placeholders or empty body)
+  const { sections } = parsePromptSections(trimmed);
+  const protocolSecs = sections.filter(s => s.semanticType === 'protocol' || s.semanticType === 'domain_specific');
+  const hasConstraints = sections.some(s => s.semanticType === 'constraints');
+  const hasRole = sections.some(s => s.semanticType === 'role');
+
+  // If missing role, constraints, or substantive protocol sections -> it is still a draft!
+  if (!hasRole || !hasConstraints || protocolSecs.length === 0) {
+    return true;
+  }
+
+  // Total lines of protocol content
+  const protocolLines = protocolSecs.flatMap(s => s.lines).filter(l => l.trim().length > 0);
+  if (protocolLines.length < 3) {
+    return true;
+  }
+
+  // Passed all draft checks: It is an established, already structured & optimized prompt
+  return false;
+}
+
+export function isPromptAlreadyOptimized(text: string): boolean {
+  return !isGeneratedOrDraftPrompt(text);
+}
+
+function sanitizeSectionHeader(sec: ParsedSection, isRu: boolean): void {
+  const forbidden = /primary directive|core directive|main directive|operational directive|user goal|original request|основная директива|главная директива|исходный запрос/i;
+  if (forbidden.test(sec.title)) {
+    sec.title = isRu ? 'Контекст и Область Применения' : 'Context & Scope';
+    sec.rawHeader = `### ${sec.title}`;
+    sec.cleanTitle = sec.title.toLowerCase();
+    sec.semanticType = 'context';
+  }
+}
+
+export function deduplicateBullets(lines: string[]): string[] {
+  const result: string[] = [];
+  const seen = new Set<string>();
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    const isItem = /^[-*•]\s+/.test(trimmed) || /^\d+[\.\)]\s+/.test(trimmed);
+    if (isItem) {
+      const normalized = trimmed
+        .replace(/^[-*•]\s+/, '')
+        .replace(/^\d+[\.\)]\s+/, '')
+        .toLowerCase()
+        .replace(/[.,:;!?]+$/, '')
+        .trim();
+
+      if (seen.has(normalized)) {
+        continue;
+      }
+      seen.add(normalized);
+      result.push(line);
+    } else {
+      result.push(line);
+    }
+  }
+
+  return result;
+}
+
+export function deduplicatePromptSections(sections: ParsedSection[], isRu: boolean): ParsedSection[] {
+  const result: ParsedSection[] = [];
+  const seenCategories = new Set<string>();
+  const seenTitles = new Set<string>();
+  let mergedVariables: ParsedSection | null = null;
+  let mergedConstraints: ParsedSection | null = null;
+
+  for (const sec of sections) {
+    sanitizeSectionHeader(sec, isRu);
+
+    const normTitle = sec.cleanTitle;
+
+    // Check exact title duplicate
+    if (seenTitles.has(normTitle) && sec.semanticType !== 'variables' && sec.semanticType !== 'constraints') {
+      continue;
+    }
+
+    if (sec.semanticType === 'role') {
+      if (seenCategories.has('role')) {
+        continue;
+      }
+      seenCategories.add('role');
+      seenTitles.add(normTitle);
+      result.push(sec);
+    } else if (sec.semanticType === 'variables') {
+      if (!mergedVariables) {
+        mergedVariables = {
+          ...sec,
+          lines: [...sec.lines],
+        };
+        seenCategories.add('variables');
+        seenTitles.add(normTitle);
+        result.push(mergedVariables);
+      } else {
+        mergedVariables.lines.push(...sec.lines);
+      }
+    } else if (sec.semanticType === 'constraints') {
+      if (!mergedConstraints) {
+        mergedConstraints = {
+          ...sec,
+          lines: [...sec.lines],
+        };
+        seenCategories.add('constraints');
+        seenTitles.add(normTitle);
+        result.push(mergedConstraints);
+      } else {
+        mergedConstraints.lines.push(...sec.lines);
+      }
+    } else if (sec.semanticType === 'output_format') {
+      if (seenCategories.has('output_format')) {
+        continue;
+      }
+      seenCategories.add('output_format');
+      seenTitles.add(normTitle);
+      result.push(sec);
+    } else {
+      seenTitles.add(normTitle);
+      result.push(sec);
+    }
+  }
+
+  // Deduplicate variables inside mergedVariables
+  if (mergedVariables) {
+    const varSeen = new Set<string>();
+    const uniqueVarLines: string[] = [];
+    for (const l of mergedVariables.lines) {
+      const vMatch = l.match(/\[\[(.*?)\]\]/);
+      if (vMatch) {
+        const vName = vMatch[1].trim();
+        if (varSeen.has(vName)) continue;
+        varSeen.add(vName);
+      }
+      uniqueVarLines.push(l);
+    }
+    mergedVariables.lines = uniqueVarLines;
+  }
+
+  // Deduplicate bullets inside all sections
+  for (const s of result) {
+    s.lines = deduplicateBullets(s.lines);
+  }
+
+  return result;
+}
+
+export function reconstructPrompt(preamble: string, sections: ParsedSection[]): string {
+  const parts: string[] = [];
+  if (preamble.trim()) {
+    parts.push(preamble.trim());
+  }
+
+  for (const sec of sections) {
+    const header = sec.rawHeader.trim();
+    const cleanLines = deduplicateBullets(sec.lines)
+      .map(l => l.trimEnd())
+      .filter((l, idx, arr) => !(l === '' && arr[idx - 1] === ''));
+
+    const body = cleanLines.join('\n').trim();
+    if (body.length > 0) {
+      parts.push(`${header}\n${body}`);
+    } else {
+      parts.push(header);
+    }
+  }
+
+  return parts.join('\n\n').trim();
+}
+
+export function detectPromptDomain(text: string): 'retro' | 'coding' | 'business' | 'copywriting' | 'general' {
+  const lower = text.toLowerCase();
+
+  // 1. Role or title indicators (strongest signal for structured/semi-structured prompts)
+  if (/site reliability|blameless|постмортем|ретроспектив|хронологи|5 почему|timeline reconstruction|incident retrospective/i.test(lower)) {
+    return 'retro';
+  }
+  if (/software architect|архитектор по|code_snippet|фрагмент_кода|директивы по рефакторингу|refactoring directive|типобезопасност|vitest|jest|refactoring scope|область рефакторинга|чистой архитектуре/i.test(lower)) {
+    return 'coding';
+  }
+  if (/chief strategy|директор по стратеги|юнит-экономик|unit economic|gtm roadmap|дорожная карта выхода на рынок|позиционирование и целевой сегмент/i.test(lower)) {
+    return 'business';
+  }
+  if (/direct-response copywriter|элитный копирайтер|hooks & headlines|крючки и заголовки|арка убеждения|persuasion arc|creative scope/i.test(lower)) {
+    return 'copywriting';
+  }
+
+  // 2. Goal / scope keywords (strictly isolated words)
+  const taskGoal = extractTaskFromGeneratedPrompt(text).toLowerCase();
+  const searchScope = taskGoal.length > 5 ? taskGoal : lower;
+
+  if (/(?:^|[^а-яa-z0-9_])(?:retrospect|postmortem|incident|outage|ретроспектив|постмортем|инцидент|авари|сбой|скрам|спринт)(?:[^а-яa-z0-9_]|$)/i.test(searchScope)) {
+    return 'retro';
+  }
+  if (/(?:^|[^а-яa-z0-9_])(?:code|refactor|typescript|react|python|sql|debug|api|bug|github|docker|код|рефакторинг|исправь|ошибк|скрипт)(?:[^а-яa-z0-9_]|$)/i.test(searchScope)) {
+    return 'coding';
+  }
+  if (/(?:^|[^а-яa-z0-9_])(?:strategy|gtm|pricing|investor|saas|pitch|бизнес|стратеги|питч|продаж|маркетинг|ценообразовани)(?:[^а-яa-z0-9_]|$)/i.test(searchScope)) {
+    return 'business';
+  }
+  if (/(?:^|[^а-яa-z0-9_])(?:copywriting|copywriter|article|newsletter|копирайтинг|копирайтер|рассылк)(?:[^а-яa-z0-9_]|$)/i.test(searchScope)) {
+    return 'copywriting';
+  }
+
+  return 'general';
+}
+
+export function refineOptimizedPrompt(
+  inputPrompt: string,
+  aggressiveness: 'low' | 'medium' | 'high' = 'high',
+  options?: {
+    chainOfThought?: boolean;
+    riskAudit?: boolean;
+    constraints?: boolean;
+    examples?: boolean;
+  }
+): string {
+  const isRu = isRussianText(inputPrompt);
+  const { preamble, sections } = parsePromptSections(inputPrompt);
+
+  const cleanedSections = deduplicatePromptSections(sections, isRu);
+
+  // 1. LIGHT MODE (Idempotent cleanup & normalization)
+  if (aggressiveness === 'low') {
+    return reconstructPrompt(preamble, cleanedSections);
+  }
+
+  // Detect domain
+  const domain = detectPromptDomain(inputPrompt);
+  const isRetro = domain === 'retro';
+  const isCoding = domain === 'coding';
+  const isBusiness = domain === 'business';
+  const isCopywriting = domain === 'copywriting';
+
+  const hasCategory = (cat: ParsedSection['semanticType']) => cleanedSections.some(s => s.semanticType === cat);
+  const findCategory = (cat: ParsedSection['semanticType']) => cleanedSections.find(s => s.semanticType === cat);
+
+  // 2. MEDIUM MODE
+  if (aggressiveness === 'medium') {
+    if (!hasCategory('constraints') && options?.constraints !== false) {
+      const header = isRu ? '### Ограничения и Правила' : '### Constraints & Rules';
+      const lines = isRu
+        ? [
+            '- Исключить вводные фразы, вежливые клише и пространные рассуждения.',
+            '- Строго придерживаться проверенных фактов и технической точности.',
+          ]
+        : [
+            '- Zero conversational filler or introductory chatter.',
+            '- Ground all statements in verified facts and technical precision.',
+          ];
+      cleanedSections.push({
+        rawHeader: header,
+        level: 3,
+        title: isRu ? 'Ограничения и Правила' : 'Constraints & Rules',
+        cleanTitle: isRu ? 'ограничения и правила' : 'constraints & rules',
+        lines,
+        semanticType: 'constraints',
+      });
+    }
+
+    if (!hasCategory('output_format')) {
+      const header = isRu ? '### Формат Вывода' : '### Output Format';
+      const lines = isRu
+        ? ['Четкая структурированная форма вывода в формате Markdown.']
+        : ['Structured Markdown deliverable with clear section headers.'];
+      cleanedSections.push({
+        rawHeader: header,
+        level: 3,
+        title: isRu ? 'Формат Вывода' : 'Output Format',
+        cleanTitle: isRu ? 'формат вывода' : 'output format',
+        lines,
+        semanticType: 'output_format',
+      });
+    }
+
+    return reconstructPrompt(preamble, deduplicatePromptSections(cleanedSections, isRu));
+  }
+
+  // 3. DEEP MODE (High Aggressiveness)
+  const roleSec = findCategory('role');
+  if (roleSec) {
+    const isSenior = /principal|senior|lead|ведущ|главн|архитектор|директор|элитн/i.test(roleSec.lines.join(' '));
+    if (!isSenior) {
+      if (isRetro) {
+        roleSec.lines = [
+          isRu
+            ? 'Вы выступаете в роли опытного Site Reliability Lead и Фасилитатора, специализирующегося на проведении системных ретроспектив инцидентов и разборе сбоев в культуре без поиска виновных (Blameless Culture).'
+            : 'You are acting as a Senior Site Reliability Engineer and Systems Auditor specializing in blameless post-mortems and incident retrospectives.',
+        ];
+        roleSec.rawHeader = isRu ? '### Роль и Принципы (Blameless Culture)' : '### Role & Blameless Principles';
+        roleSec.title = isRu ? 'Роль и Принципы (Blameless Culture)' : 'Role & Blameless Principles';
+        roleSec.cleanTitle = roleSec.title.toLowerCase();
+      } else if (isCoding) {
+        roleSec.lines = [
+          isRu
+            ? 'Вы выступаете в роли Главного Архитектора ПО (Principal Software Architect), специализирующегося на чистой архитектуре, типобезопасности, оптимизации производительности и надёжности сложных распределённых систем.'
+            : 'You are acting as a Principal Software Architect specializing in clean code, type safety, low-latency performance, and resilient systems design.',
+        ];
+        roleSec.rawHeader = isRu ? '### Роль и Полномочия' : '### Role & Authority';
+        roleSec.title = isRu ? 'Роль и Полномочия' : 'Role & Authority';
+        roleSec.cleanTitle = roleSec.title.toLowerCase();
+      } else if (isBusiness) {
+        roleSec.lines = [
+          isRu
+            ? 'Вы выступаете в роли Директора по Стратегии (CSO) и бизнес-консультанта, специализирующегося на юнит-экономике, выходе на рынок (GTM), монетизации и конкурентных преимуществах.'
+            : 'You are acting as a Chief Strategy Officer and Enterprise Advisor specializing in unit economics, go-to-market execution, and defensible moats.',
+        ];
+        roleSec.rawHeader = isRu ? '### Роль и Экспертиза' : '### Role & Authority';
+        roleSec.title = isRu ? 'Роль и Экспертиза' : 'Role & Authority';
+        roleSec.cleanTitle = roleSec.title.toLowerCase();
+      } else if (isCopywriting) {
+        roleSec.lines = [
+          isRu
+            ? 'Вы выступаете в роли Элитного Копирайтера и Главного Редактора, специализирующегося на высокой конверсии, ясности изложения и убедительном сторителлинге.'
+            : 'You are acting as an Elite Direct-Response Copywriter and Marketing Communications Director.',
+        ];
+        roleSec.rawHeader = isRu ? '### Роль и Стиль' : '### Role & Authority';
+        roleSec.title = isRu ? 'Роль и Стиль' : 'Role & Authority';
+        roleSec.cleanTitle = roleSec.title.toLowerCase();
+      } else {
+        roleSec.lines = [
+          isRu
+            ? 'Вы выступаете в роли Ведущего Эксперта и Стратега в соответствующей предметной области.'
+            : 'You are acting as a Principal Domain Specialist and Enterprise Advisor.',
+        ];
+      }
+    }
+  }
+
+  // Elevate Domain Sections for Retro
+  if (isRetro) {
+    const hasTimeline = cleanedSections.some(s => /хронологи|timeline/i.test(s.cleanTitle));
+    const hasRootCause = cleanedSections.some(s => /root cause|первопричин|5 почему|5 whys/i.test(s.cleanTitle));
+    const hasActionItems = cleanedSections.some(s => /action items|матрица действий|матрица предотвращения/i.test(s.cleanTitle));
+
+    if (!hasTimeline) {
+      cleanedSections.push({
+        rawHeader: isRu ? '### 2. Реконструкция Хронологии (Timeline)' : '### 2. Timeline Reconstruction',
+        level: 3,
+        title: isRu ? 'Реконструкция Хронологии (Timeline)' : 'Timeline Reconstruction',
+        cleanTitle: 'timeline',
+        lines: isRu
+          ? [
+              '- **Обнаружение (Detection)**: Время и канал первого сигнала.',
+              '- **Локализация (Triage)**: Определение эпицентра сбоя.',
+              '- **Стабилизация (Mitigation)**: Временные меры восстановления.',
+              '- **Полное Решение (Resolution)**: Окончательное устранение дефекта.',
+            ]
+          : [
+              '- **Detection Phase**: Initial trigger, monitoring alert, or user escalation.',
+              '- **Triage Phase**: Failure isolation and diagnosis.',
+              '- **Mitigation Phase**: Workaround applied to restore service.',
+              '- **Resolution Phase**: Permanent fix deployment.',
+            ],
+        semanticType: 'protocol',
+      });
+    }
+
+    if (!hasRootCause) {
+      cleanedSections.push({
+        rawHeader: isRu ? '### 3. Анализ Первопричин (Протокол 5 Почему / Root Cause)' : '### 3. Root Cause Analysis (5 Whys Protocol)',
+        level: 3,
+        title: isRu ? 'Анализ Первопричин (Root Cause)' : 'Root Cause Analysis (5 Whys Protocol)',
+        cleanTitle: 'root cause',
+        lines: isRu
+          ? ['Примените цепочку «5 Почему» для перехода от поверхностных симптомов к глубиновым архитектурным и процессным уязвимостям.']
+          : ['Execute a 5-Whys diagnostic chain to transition from surface symptoms to deep architectural, policy, or testing deficits.'],
+        semanticType: 'protocol',
+      });
+    }
+
+    if (!hasActionItems) {
+      cleanedSections.push({
+        rawHeader: isRu ? '### 5. Матрица Предотвращения и Action Items' : '### 5. Preventative Action Items Matrix',
+        level: 3,
+        title: isRu ? 'Матрица Предотвращения и Action Items' : 'Preventative Action Items Matrix',
+        cleanTitle: 'action items',
+        lines: isRu
+          ? [
+              '| Действие / Таск | Ответственный | Приоритет (P0/P1/P2) | Срок |',
+              '|---|---|---|---|',
+              '| [[action_item_1]] | [[owner_1]] | P0 | [[deadline_1]] |',
+            ]
+          : [
+              '| Action Item | Owner | Priority (P0/P1/P2) | Target Date |',
+              '|---|---|---|---|',
+              '| [[action_item_1]] | [[owner_1]] | P0 | [[target_date_1]] |',
+            ],
+        semanticType: 'output_format',
+      });
+    }
+  }
+
+  // Elevate Domain Sections for Coding
+  if (isCoding) {
+    const hasAudit = cleanedSections.some(s => /аудит|audit|screening|vulnerability|дефект|типобезопасност/i.test(s.cleanTitle));
+    const hasDirectives = cleanedSections.some(s => /директив|directive|contract|контракт|оптимизаци|правила рефакторинга/i.test(s.cleanTitle));
+    const hasRegression = cleanedSections.some(s => /регресс|regression|test|тест|safeguard/i.test(s.cleanTitle));
+
+    if (!hasAudit) {
+      cleanedSections.push({
+        rawHeader: isRu ? '### 1. Аудит Кода и Выявление Проблем' : '### 1. Code Audit & Architecture Review',
+        level: 3,
+        title: isRu ? 'Аудит Кода и Выявление Проблем' : 'Code Audit & Architecture Review',
+        cleanTitle: 'code audit',
+        lines: isRu
+          ? [
+              '- **Типобезопасность**: Поиск неявных `any`, небезопасных приведений типов и отсутствующих интерфейсов.',
+              '- **Производительность**: Выявление лишних аллокаций памяти, неоптимальных циклов и утечек памяти.',
+              '- **Архитектурная Связность**: Извлечение сложной монолитной логики в чистые, тестируемые вспомогательные функции.',
+            ]
+          : [
+              '- **Type Safety**: Locate implicit `any` types, unsafe assertions, or missing contracts.',
+              '- **Performance**: Identify redundant re-renders, unindexed queries, or memory leaks.',
+              '- **Modularity**: Decouple monolithic structures into pure, easily testable functions.',
+            ],
+        semanticType: 'protocol',
+      });
+    }
+
+    if (!hasDirectives) {
+      cleanedSections.push({
+        rawHeader: isRu ? '### 2. Директивы по Рефакторингу' : '### 2. Refactoring Directives & Contracts',
+        level: 3,
+        title: isRu ? 'Директивы по Рефакторингу' : 'Refactoring Directives & Contracts',
+        cleanTitle: 'refactoring directives',
+        lines: isRu
+          ? [
+              '- Внедрить строгие интерфейсы и дискриминантные объединения (Discriminated Unions).',
+              '- Оптимизировать асинхронные вызовы и обработку ошибок через явную иерархию исключений.',
+              '- Ограничить вычислительную сложность алгоритмов верхним пределом O(N).',
+            ]
+          : [
+              '- Enforce strict TypeScript interfaces and discriminated unions.',
+              '- Optimize asynchronous operations and error boundaries.',
+              '- Adhere strictly to SOLID principles and DRY patterns.',
+            ],
+        semanticType: 'protocol',
+      });
+    }
+
+    if (!hasRegression) {
+      cleanedSections.push({
+        rawHeader: isRu ? '### 3. Гарантия Регрессионной Безопасности' : '### 3. Regression Safety & Test Specifications',
+        level: 3,
+        title: isRu ? 'Гарантия Регрессионной Безопасности' : 'Regression Safety & Test Specifications',
+        cleanTitle: 'regression safety',
+        lines: isRu
+          ? ['Предоставить модуль юнит-тестов (Vitest/Jest), покрывающий базовый сценарий (Happy Path), граничные условия (Edge Cases) и обработку ошибок.']
+          : ['Provide a Vitest/Jest unit test suite covering happy path execution, boundary values, and error states.'],
+        semanticType: 'protocol',
+      });
+    }
+  }
+
+  // Elevate Domain Sections for Business
+  if (isBusiness) {
+    const hasPositioning = cleanedSections.some(s => /позиционирован|positioning|icp|клиент/i.test(s.cleanTitle));
+    const hasEconomics = cleanedSections.some(s => /экономик|economic|монетизаци|pricing|цен/i.test(s.cleanTitle));
+    const hasRoadmap = cleanedSections.some(s => /дорожная карт|roadmap|gtm|план выход/i.test(s.cleanTitle));
+
+    if (!hasPositioning) {
+      cleanedSections.push({
+        rawHeader: isRu ? '### 1. Позиционирование и Целевой Сегмент' : '### 1. Positioning & ICP Mapping',
+        level: 3,
+        title: isRu ? 'Позиционирование и Целевой Сегмент' : 'Positioning & ICP Mapping',
+        cleanTitle: 'positioning',
+        lines: isRu
+          ? [
+              '- Профиль идеального клиента (ICP) и ключевые точки боли (Pain Points).',
+              '- Несимметричные конкурентные преимущества перед существующими игроками.',
+            ]
+          : [
+              '- Ideal Customer Profile (ICP) and visceral pain points.',
+              '- Asymmetric competitive advantages over incumbents.',
+            ],
+        semanticType: 'protocol',
+      });
+    }
+
+    if (!hasEconomics) {
+      cleanedSections.push({
+        rawHeader: isRu ? '### 2. Юнит-Экономика и Монетизация' : '### 2. Unit Economics & Monetization',
+        level: 3,
+        title: isRu ? 'Юнит-Экономика и Монетизация' : 'Unit Economics & Monetization',
+        cleanTitle: 'unit economics',
+        lines: isRu
+          ? [
+              '- Модель ценообразования (Packaging & Pricing Tiers).',
+              '- Расчет окупаемости CAC Payback Period и LTV:CAC целевых показателей.',
+            ]
+          : [
+              '- Pricing and packaging tier architecture.',
+              '- CAC Payback Period and LTV:CAC target models.',
+            ],
+        semanticType: 'protocol',
+      });
+    }
+
+    if (!hasRoadmap) {
+      cleanedSections.push({
+        rawHeader: isRu ? '### 3. План Выхода на Рынок (GTM Roadmap)' : '### 3. Execution & GTM Roadmap',
+        level: 3,
+        title: isRu ? 'План Выхода на Рынок (GTM Roadmap)' : 'Execution & GTM Roadmap',
+        cleanTitle: 'gtm roadmap',
+        lines: isRu
+          ? [
+              '- Фаза 1 (Beachhead): Захват первичного сегмента аудитории.',
+              '- Фаза 2 (Expansion): Масштабирование каналов привлечения.',
+              '- Фаза 3 (Defensibility): Построение долгосрочных сетевых эффектов.',
+            ]
+          : [
+              '- Phase 1 (Beachhead): Rapid validation in wedge segment.',
+              '- Phase 2 (Expansion): Scaling organic and paid acquisition flywheels.',
+              '- Phase 3 (Defensibility): Institutional moats and data network effects.',
+            ],
+        semanticType: 'protocol',
+      });
+    }
+  }
+
+  // Elevate Domain Sections for Copywriting
+  if (isCopywriting) {
+    const hasHooks = cleanedSections.some(s => /крюч|hook|заголов|headline/i.test(s.cleanTitle));
+    const hasArc = cleanedSections.some(s => /арка|arc|pas|aida|убежден/i.test(s.cleanTitle));
+    const hasCTA = cleanedSections.some(s => /cta|призыв|call to action/i.test(s.cleanTitle));
+
+    if (!hasHooks) {
+      cleanedSections.push({
+        rawHeader: isRu ? '### 1. Крючки и Заголовки (Hooks & Headlines)' : '### 1. Hooks & Headlines',
+        level: 3,
+        title: isRu ? 'Крючки и Заголовки' : 'Hooks & Headlines',
+        cleanTitle: 'hooks',
+        lines: isRu
+          ? ['Сгенерировать 3 варианта хуков (Контринтуитивный, Фактический/Data-Driven, Мост просветления) для максимального вовлечения.']
+          : ['Generate 3 hook variations (Contrarian, Data-Driven, Epiphany-Bridge) designed to capture immediate attention.'],
+        semanticType: 'protocol',
+      });
+    }
+
+    if (!hasArc) {
+      cleanedSections.push({
+        rawHeader: isRu ? '### 2. Арка Убеждения (PAS / AIDA)' : '### 2. Narrative Persuasion Arc (PAS / AIDA)',
+        level: 3,
+        title: isRu ? 'Арка Убеждения (PAS / AIDA)' : 'Narrative Persuasion Arc (PAS / AIDA)',
+        cleanTitle: 'persuasion arc',
+        lines: isRu
+          ? [
+              '- **Боль (Problem)**: Точечная демонстрация боли целевой аудитории.',
+              '- **Усиление (Agitation)**: Цена бездействия и сохранения статус-кво.',
+              '- **Решение (Solution)**: Логичное представление продукта как единственного выхода.',
+            ]
+          : [
+              '- **Pain Point**: Demonstrate visceral understanding of customer challenge.',
+              '- **Agitation**: Quantify the cost of inaction and status quo inertia.',
+              '- **Breakthrough**: Present the solution as the logical resolution.',
+            ],
+        semanticType: 'protocol',
+      });
+    }
+
+    if (!hasCTA) {
+      cleanedSections.push({
+        rawHeader: isRu ? '### 3. Призыв к Действию (Call to Action)' : '### 3. Call to Action (CTA)',
+        level: 3,
+        title: isRu ? 'Призыв к Действию' : 'Call to Action (CTA)',
+        cleanTitle: 'cta',
+        lines: isRu
+          ? ['Однозначный, сфокусированный CTA без размытия внимания.']
+          : ['Unambiguous, high-velocity CTA engineered to maximize conversion.'],
+        semanticType: 'output_format',
+      });
+    }
+  }
+
+  // Elevate General Domain Protocol
+  if (!isRetro && !isCoding && !isBusiness && !isCopywriting) {
+    const hasProtocol = cleanedSections.some(s => s.semanticType === 'protocol');
+    if (!hasProtocol) {
+      cleanedSections.push({
+        rawHeader: isRu ? '### 1. Пошаговый Протокол Выполнения' : '### 1. Execution & Reasoning Protocol',
+        level: 3,
+        title: isRu ? 'Пошаговый Протокол Выполнения' : 'Execution & Reasoning Protocol',
+        cleanTitle: 'execution protocol',
+        lines: isRu
+          ? [
+              '1. Проанализировать ключевые вводные параметры и выявить скрытые допущения.',
+              '2. Сформировать пошаговый план решения с приоритетом на наиболее результативные шаги.',
+              '3. Проверить полученные выводы на соответствие критериям качества и отсутствие ошибок.',
+            ]
+          : [
+              '1. Deconstruct request into functional sub-components.',
+              '2. Identify implicit constraints, edge cases, and dependencies.',
+              '3. Apply step-by-step reasoning to synthesize optimal deliverable.',
+            ],
+        semanticType: 'protocol',
+      });
+    }
+  }
+
+  // Elevate Constraints
+  const constraintsSec = findCategory('constraints');
+  const deepConstraints = isRu
+    ? [
+        '- Исключить вводную воду, вежливые клише («Конечно, вот ваш ответ») и мета-комментарии.',
+        '- Излагать материал кратко, емко и с высокой плотностью смысла.',
+        isRetro ? '- ФОКУС strictly на процессах, архитектуре и системных лазейках, а не на персоналиях.' : '',
+        isRetro ? '- Каждое рекомендательное действие должно иметь четкий критерий проверки (Definition of Done).' : '',
+      ].filter(Boolean)
+    : [
+        '- Zero conversational fluff or introductory chatter. Begin immediately with substantive content.',
+        '- Maintain maximum information density and rigorous technical precision.',
+        isRetro ? '- Maintain absolute focus on process, tooling, and architectural flaws rather than personal blame.' : '',
+        isRetro ? '- Every corrective action item must feature a verifiable Definition of Done.' : '',
+      ].filter(Boolean);
+
+  if (constraintsSec) {
+    constraintsSec.lines.push(...deepConstraints);
+    constraintsSec.lines = deduplicateBullets(constraintsSec.lines);
+  } else {
+    cleanedSections.push({
+      rawHeader: isRu ? '### Ограничения и Правила' : '### Governance & Negative Constraints',
+      level: 3,
+      title: isRu ? 'Ограничения и Правила' : 'Governance & Negative Constraints',
+      cleanTitle: isRu ? 'ограничения и правила' : 'governance & negative constraints',
+      lines: deepConstraints,
+      semanticType: 'constraints',
+    });
+  }
+
+  // Ensure Output Format exists
+  if (!hasCategory('output_format')) {
+    cleanedSections.push({
+      rawHeader: isRu ? '### Формат Вывода' : '### Output Specification',
+      level: 3,
+      title: isRu ? 'Формат Вывода' : 'Output Specification',
+      cleanTitle: isRu ? 'формат вывода' : 'output specification',
+      lines: isRu
+        ? ['Структурированный Markdown-отчет с резюме, ключевыми выводами и матрицей следующих шагов.']
+        : ['Structured Markdown report featuring an Executive Summary, substantive deliverable, and actionable next steps.'],
+      semanticType: 'output_format',
+    });
+  }
+
+  return reconstructPrompt(preamble, deduplicatePromptSections(cleanedSections, isRu));
 }
 
 /**
@@ -124,15 +1010,19 @@ export function buildDomainPrompt(
     examples?: boolean;
   }
 ): string {
-  const cleanGoal = extractCoreGoalAndCleanMeta(input);
-  const lower = cleanGoal.toLowerCase();
-  const isRu = isRussianText(input);
+  // If the input prompt is ALREADY a structured prompt, route to idempotent refinement!
+  if (isPromptAlreadyOptimized(input)) {
+    return refineOptimizedPrompt(input, aggressiveness, options);
+  }
+  const cleanGoal = extractTaskFromGeneratedPrompt(input);
+  const isRu = isRussianText(cleanGoal.length > 3 ? cleanGoal : input);
 
   // Detect domain
-  const isRetro = /retrospect|postmortem|incident|outage|ретроспектив|постмортем|инцидент|авари|сбой|скрам|спринт/.test(lower);
-  const isCoding = /code|refactor|typescript|react|python|sql|debug|api|bug|github|test|docker|код|рефакторинг|исправь|ошибк|скрипт/.test(lower);
-  const isBusiness = /strategy|gtm|pricing|investor|saas|pitch|бизнес|стратеги|питч|продаж|маркетинг|цена/.test(lower);
-  const isCopywriting = /copywriting|write|article|copy|email|post|newsletter|копирайтинг|текст|стать|письмо|пост|рассылк/.test(lower);
+  const domain = detectPromptDomain(input);
+  const isRetro = domain === 'retro';
+  const isCoding = domain === 'coding';
+  const isBusiness = domain === 'business';
+  const isCopywriting = domain === 'copywriting';
 
   // 1. RETROSPECTIVE & INCIDENT POST-MORTEM DOMAIN
   if (isRetro) {
@@ -177,7 +1067,9 @@ export function buildDomainPrompt(
 
 ### 6. Ограничения и Правила
 - ФОКУС strictly на процессах, архитектуре и системных лазейках, а не на персоналиях.
-- Каждое рекомендательное действие должно иметь четкий критерий проверки (Definition of Done).`;
+- Каждое рекомендательное действие должно иметь четкий критерий проверки (Definition of Done).
+- Исключить вводную воду, вежливые клише («Конечно, вот ваш ответ») и мета-комментарии.
+- Излагать материал кратко, емко и с высокой плотностью смысла.`;
     } else {
       // English
       if (aggressiveness === 'low') {
@@ -220,7 +1112,9 @@ Execute a 5-Whys diagnostic chain to transition from surface symptoms (human mis
 
 ### 6. Governance & Negative Constraints
 - Maintain absolute focus on process, tooling, and architectural flaws rather than personal blame.
-- Every corrective action item must feature a verifiable Definition of Done.`;
+- Every corrective action item must feature a verifiable Definition of Done.
+- Zero conversational fluff or introductory chatter. Begin immediately with substantive content.
+- Maintain maximum information density and rigorous technical precision.`;
     }
   }
 
@@ -255,7 +1149,11 @@ Execute a 5-Whys diagnostic chain to transition from surface symptoms (human mis
 
 ### 4. Формат Вывода
 - Четкий сфокусированный рефакторенный код в блоке кода.
-- Краткие архитектурные комментарии с пояснением изменений и дельты сложности.`;
+- Краткие архитектурные комментарии с пояснением изменений и дельты сложности.
+
+### 5. Ограничения и Правила
+- Исключить вводную воду, вежливые клише («Конечно, вот ваш ответ») и мета-комментарии.
+- Излагать материал кратко, емко и с высокой плотностью смысла.`;
     } else {
       if (aggressiveness === 'low') {
         return `### Role & Expertise\nYou are acting as a Senior Software Engineer.\n\n### Refactoring Scope\nRefactor the provided code snippet <code_snippet>[[code_snippet]]</code_snippet> to improve code readability, fix bugs, and enhance structure.\n\n### Execution Rules\n- Output clean, working code.\n- Provide a brief summary of refactored sections.`;
@@ -285,7 +1183,11 @@ Provide a Vitest/Jest unit test suite covering happy path execution, boundary va
 
 ### 4. Output Format
 - Refactored production-ready code block.
-- Concise architectural commentary detailing key trade-offs and complexity improvements.`;
+- Concise architectural commentary detailing key trade-offs and complexity improvements.
+
+### 5. Governance & Negative Constraints
+- Zero conversational fluff or introductory chatter. Begin immediately with substantive content.
+- Maintain maximum information density and rigorous technical precision.`;
     }
   }
 
@@ -293,7 +1195,7 @@ Provide a Vitest/Jest unit test suite covering happy path execution, boundary va
   if (isBusiness) {
     if (isRu) {
       if (aggressiveness === 'low') {
-        return `### Роль и Задачи\nВы выступаете в роли Бизнес-Консультанта.\n\n### Стратегический Контекст\nРазработать стратегический план по теме [[тема_бизнеса]] с акцентом на рост продаж и оптимизацию ресурсов.`;
+        return `### Роль и Задачи\nВы выступаете в роли Бизнес-Консультанта.\n\n### Стратегический Контекст\nРазработать стратегический план по теме [[тема_бизнеса]] с акцентом на рост продаж и оптимизацию ресурсов.\n\n### Правила Выполнения\n- Фокус на росте продаж и практической отдаче.\n- Излагать тезисно и без абстрактных рассуждений.`;
       }
       if (aggressiveness === 'medium') {
         return `### Роль и Экспертиза\nВы выступаете в роли Директора по Стратегии (CSO) и бизнес-консультанта.\n\n### Стратегический Контекст\nСформировать стратегию вывода на рынок [[название_продукта]] и оптимизации ценообразования.\n\n### 1. Конкурентный Анализ\nОпределить ICP и асимметричные преимущества перед конкурентами.\n\n### 2. Юнит-Экономика\nРассчитать показатели LTV, CAC Payback и структуру ценообразования.\n\n### 3. Дорожная Карта\nПошаговый план выхода на рынок по фазам.`;
@@ -322,7 +1224,7 @@ Provide a Vitest/Jest unit test suite covering happy path execution, boundary va
 Структурированный Markdown-документ с резюме (Executive Summary) и таблицей ключевых KPI.`;
     } else {
       if (aggressiveness === 'low') {
-        return `### Role & Expertise\nYou are acting as a Business Strategy Consultant.\n\n### Strategic Scope\nFormulate a strategic initiative regarding [[business_topic]] focused on ROI and operational efficiency.`;
+        return `### Role & Expertise\nYou are acting as a Business Strategy Consultant.\n\n### Strategic Scope\nFormulate a strategic initiative regarding [[business_topic]] focused on ROI and operational efficiency.\n\n### Execution Rules\n- Deliver clear ROI-focused strategic initiatives.\n- Maintain operational pragmatism without excessive buzzwords.`;
       }
       if (aggressiveness === 'medium') {
         return `### Role & Authority\nYou are acting as a Chief Strategy Officer specializing in go-to-market execution.\n\n### Strategic Scope\nDevelop a GTM strategy and pricing model for [[product_name]].\n\n### 1. Target Positioning\nIdentify ICP pain points and competitive advantages.\n\n### 2. Unit Economics\nDetail CAC payback, LTV targets, and pricing tiers.\n\n### 3. Execution Roadmap\nPhased rollout from beachhead launch to expansion.`;
@@ -473,6 +1375,7 @@ Structured Markdown report featuring an Executive Summary, substantive deliverab
  * 1. Completely purges meta-request noise (English/Russian).
  * 2. Replaces raw meta-request with a complete standalone domain prompt architecture.
  * 3. Applies user options (clarity, constraints, chainOfThought, etc.) and aggressiveness levels (Low / Medium / High).
+ * 4. Idempotent: Never duplicates sections, repeated strings, or variables on multiple executions.
  */
 export function optimizePrompt(
   inputPrompt: string,
@@ -489,16 +1392,26 @@ export function optimizePrompt(
 ): string {
   if (!inputPrompt.trim()) return '';
 
+  // If already structured/optimized, use idempotent refinement without blind appending
+  if (isPromptAlreadyOptimized(inputPrompt)) {
+    return refineOptimizedPrompt(inputPrompt, options.aggressiveness, options);
+  }
+
   // Transform raw prompt into clean standalone domain architecture
   const basePrompt = buildDomainPrompt(inputPrompt, options.aggressiveness, options);
 
-  // Extract variables if present in input
+  // Extract variables if present in input and not yet in basePrompt
   const detectedVars = extractVariables(inputPrompt);
-  const varSection = detectedVars.length > 0
-    ? `\n\n### Input Variables\n${detectedVars.map(v => `- [[${v}]]: Parameter value for ${v}`).join('\n')}`
-    : '';
+  const hasVarSection = /###\s+(?:Input Variables|Входные переменные|Variables)/i.test(basePrompt);
+  if (detectedVars.length > 0 && !hasVarSection) {
+    const isRu = isRussianText(inputPrompt);
+    const uniqueVars = Array.from(new Set(detectedVars));
+    const header = isRu ? '### Входные Переменные' : '### Input Variables';
+    const varSection = `\n\n${header}\n${uniqueVars.map(v => `- [[${v}]]: Parameter value for ${v}`).join('\n')}`;
+    return basePrompt + varSection;
+  }
 
-  return basePrompt + varSection;
+  return basePrompt;
 }
 
 export function simplifyPrompt(input: string, mode: 'light' | 'balanced' | 'aggressive'): string {
@@ -629,12 +1542,58 @@ export function translatePrompt(input: string, targetLanguage: string): string {
 /**
  * Model Adapter: Purges meta-request noise and restructures the operational domain core
  * according to the thinking & execution style of each major LLM family.
+ * Idempotent: Does not double-wrap or duplicate sections on multiple executions.
  */
 export function adaptPromptForModel(input: string, model: 'claude' | 'openai' | 'gemini' | 'grok' | 'llama'): string {
   if (!input.trim()) return '';
 
-  // 1. Transform raw prompt into clean domain prompt first (eradicates meta-text)
-  const domainPrompt = buildDomainPrompt(input, 'medium');
+  // 1. Check if already adapted for this exact model (idempotent!)
+  if (model === 'claude' && input.includes('<system_instructions>') && input.includes('<operational_prompt>')) {
+    return input;
+  }
+  if (model === 'openai' && input.includes('[SYSTEM DIRECTIVE]') && input.includes('[OPERATIONAL PROMPT]')) {
+    return input;
+  }
+  if (model === 'gemini' && input.includes('### System Instructions:') && input.includes('### Operational Prompt:')) {
+    return input;
+  }
+  if (model === 'grok' && input.includes('### Mode: Direct & High-Velocity Execution') && input.includes('### Operational Prompt:')) {
+    return input;
+  }
+  if (model === 'llama' && input.includes('<|start_header_id|>system<|end_header_id|>')) {
+    return input;
+  }
+
+  // 2. If input was adapted for a different model, extract the core operational prompt cleanly
+  let operationalCore = input;
+  const claudeMatch = input.match(/<operational_prompt>([\s\S]*?)<\/operational_prompt>/i);
+  if (claudeMatch) {
+    operationalCore = claudeMatch[1].trim();
+  }
+  const openaiMatch = input.match(/\[OPERATIONAL PROMPT\]([\s\S]*?)(?:\[EXECUTION PROTOCOL\]|\[NEGATIVE CONSTRAINTS\]|$)/i);
+  if (openaiMatch) {
+    operationalCore = openaiMatch[1].trim();
+  }
+  const geminiMatch = input.match(/### Operational Prompt:([\s\S]*?)(?:### Step-by-Step Reasoning Protocol:|$)/i);
+  if (geminiMatch) {
+    operationalCore = geminiMatch[1].trim();
+  }
+  const grokMatch = input.match(/### Operational Prompt:([\s\S]*?)(?:### Execution Rules:|$)/i);
+  if (grokMatch) {
+    operationalCore = grokMatch[1].trim();
+  }
+  const llamaMatch = input.match(/<\|start_header_id\|>user<\|end_header_id\|>\s*([\s\S]*?)\s*<\|eot_id\|>/i);
+  if (llamaMatch) {
+    operationalCore = llamaMatch[1].trim();
+  }
+
+  // 3. Obtain domain prompt (refine idempotently if already structured, or build new domain prompt if raw)
+  let domainPrompt = operationalCore;
+  if (!isPromptAlreadyOptimized(operationalCore)) {
+    domainPrompt = buildDomainPrompt(operationalCore, 'medium');
+  } else {
+    domainPrompt = refineOptimizedPrompt(operationalCore, 'medium');
+  }
 
   switch (model) {
     case 'claude':
