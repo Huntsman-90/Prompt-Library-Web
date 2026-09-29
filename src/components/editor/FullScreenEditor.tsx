@@ -10,6 +10,7 @@ import {
   translatePrompt,
   adaptPromptForModel,
 } from '../../utils/promptEngine';
+import { applySkill, detectSkillsInPrompt } from '../../skills/skillsRegistry';
 import { ComponentInserterModal } from './ComponentInserterModal';
 import {
   X,
@@ -23,6 +24,7 @@ import {
   Cpu,
   History,
   Boxes,
+  Zap,
   Eye,
   Sliders,
   Variable as VariableIcon,
@@ -298,14 +300,15 @@ export const FullScreenEditor: React.FC = () => {
       {/* Editor Tool & Action Ribbon */}
       <div className="flex items-center justify-between gap-1 border-b border-slate-800/80 bg-slate-900/60 px-3 py-1.5 text-xs overflow-x-auto no-scrollbar">
         {/* Quick Engineering Tools */}
-        <div className="flex items-center gap-1 shrink-0">
-          {/* Insert Component from Catalog */}
+        <div className="flex items-center gap-1.5 shrink-0">
+          {/* Apply Modular Skill from Catalog */}
           <button
             onClick={() => setIsComponentPickerOpen(true)}
-            className="flex items-center gap-1 rounded-lg bg-indigo-950/80 border border-indigo-500/30 px-2 py-1 text-indigo-300 hover:bg-indigo-900/80 transition"
+            className="flex items-center gap-1.5 rounded-lg bg-indigo-950/80 border border-indigo-500/30 px-2.5 py-1 text-indigo-300 hover:bg-indigo-900/80 transition"
+            title="Browse and apply modular prompt skills"
           >
-            <Boxes className="w-3.5 h-3.5 text-indigo-400" />
-            <span>+ Insert Component</span>
+            <Zap className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
+            <span>+ Apply Skill</span>
           </button>
 
           {/* Quick Optimize */}
@@ -676,8 +679,15 @@ export const FullScreenEditor: React.FC = () => {
         </div>
       </div>
 
-      {/* Component Inserter Modal */}
-      <ComponentInserterModal onInsert={(snip) => setContent((prev) => prev + snip)} />
+      {/* Modular Skill Inserter Modal */}
+      <ComponentInserterModal
+        currentContent={content}
+        onApplySkill={(skillId) => {
+          const { prompt: transformed } = applySkill(content, skillId);
+          setContent(transformed);
+        }}
+        onInsert={(snip) => setContent((prev) => prev + snip)}
+      />
     </div>
   );
 };

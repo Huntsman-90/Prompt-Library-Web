@@ -67,7 +67,7 @@ export function extractCoreGoalAndCleanMeta(input: string): string {
 /**
  * Detects whether the input text is primarily Russian.
  */
-function isRussianText(text: string): boolean {
+export function isRussianText(text: string): boolean {
   const cyrillicMatches = text.match(/[а-яА-ЯёЁ]/g);
   return (cyrillicMatches?.length || 0) > 3;
 }

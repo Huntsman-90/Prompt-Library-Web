@@ -2,10 +2,12 @@ import React, { useState, useEffect, useMemo } from 'react';
 import type { PromptItem, PromptBoard, PromptChain } from '../../types';
 import { db } from '../../db/database';
 import { CATEGORIES } from '../../data/categories';
+import { getAllSkills } from '../../skills/skillsRegistry';
 import {
   BarChart3,
   Layers,
   LayoutGrid,
+  Zap,
   Boxes,
   Link,
   Tag,
@@ -19,13 +21,12 @@ export const AnalyticsView: React.FC = () => {
   const [prompts, setPrompts] = useState<PromptItem[]>([]);
   const [boards, setBoards] = useState<PromptBoard[]>([]);
   const [chains, setChains] = useState<PromptChain[]>([]);
-  const [totalComponentsCount, setTotalComponentsCount] = useState(0);
+  const totalSkillsCount = getAllSkills().length;
 
   useEffect(() => {
     db.prompts.toArray().then(setPrompts);
     db.boards.toArray().then(setBoards);
     db.chains.toArray().then(setChains);
-    db.components.count().then(setTotalComponentsCount);
   }, []);
 
   // Tag frequency
@@ -106,11 +107,11 @@ export const AnalyticsView: React.FC = () => {
 
         <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-3.5 sm:p-4">
           <div className="flex items-center justify-between text-slate-400 text-xs mb-1">
-            <span>Catalog Blocks</span>
-            <Boxes className="w-4 h-4 text-purple-400" />
+            <span>Modular Skills</span>
+            <Zap className="w-4 h-4 text-purple-400" />
           </div>
-          <p className="text-xl sm:text-2xl font-bold text-white">{totalComponentsCount}+</p>
-          <span className="text-[10px] text-slate-400 mt-1 block">25 Categories</span>
+          <p className="text-xl sm:text-2xl font-bold text-white">{totalSkillsCount}</p>
+          <span className="text-[10px] text-slate-400 mt-1 block">25 Categories Active</span>
         </div>
 
         <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-3.5 sm:p-4">

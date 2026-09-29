@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { CATEGORIES } from '../../data/categories';
 import type { CategoryMeta } from '../../types';
-import { db } from '../../db/database';
+import { getSkillsByCategory } from '../../skills/skillsRegistry';
 import { CategoryDetailModal } from './CategoryDetailModal';
 import {
   Layers,
@@ -30,7 +30,7 @@ import {
   Grid,
   Compass,
   Boxes,
-  BookmarkCheck,
+  Zap,
 } from 'lucide-react';
 
 const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -63,23 +63,7 @@ const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
 
 export const ComponentCatalogView: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<CategoryMeta | null>(null);
-  const [categoryCounts, setCategoryCounts] = useState<Record<string, number>>({});
   const [searchFilter, setSearchFilter] = useState('');
-
-  useEffect(() => {
-    async function loadCounts() {
-      const counts: Record<string, number> = {};
-      for (const cat of CATEGORIES) {
-        if (cat.id === 'frameworks') {
-          counts[cat.id] = await db.frameworks.count();
-        } else {
-          counts[cat.id] = await db.components.where('categoryId').equals(cat.id).count();
-        }
-      }
-      setCategoryCounts(counts);
-    }
-    loadCounts();
-  }, []);
 
   const filteredCategories = CATEGORIES.filter((c) => {
     if (!searchFilter.trim()) return true;
@@ -97,17 +81,17 @@ export const ComponentCatalogView: React.FC = () => {
         <div className="relative z-10">
           <div className="flex items-center gap-2 mb-1">
             <span className="flex h-6 w-6 items-center justify-center rounded-lg bg-indigo-500/20 text-indigo-400">
-              <Boxes className="w-4 h-4" />
+              <Zap className="w-4 h-4" />
             </span>
             <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
-              Component Library
+              Modular Prompt Skills System
             </span>
           </div>
           <h2 className="text-lg sm:text-xl font-bold text-white tracking-tight">
-            25 Categories · 700+ Modular Prompt Blocks
+            25 Categories · 80+ Active Modular Skills
           </h2>
           <p className="mt-1 text-xs text-slate-300 max-w-xl leading-relaxed">
-            Production-tested building blocks: reasoning paths, guardrails, output schemas, personas, and 40+ complete prompt architectures.
+            Active abilities that dynamically transform and enrich prompts: reasoning architectures, domain authority, guardrails, agentic protocols, and composite suites.
           </p>
         </div>
       </div>
@@ -128,7 +112,8 @@ export const ComponentCatalogView: React.FC = () => {
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2.5 sm:gap-3">
         {filteredCategories.map((cat) => {
           const Icon = ICON_MAP[cat.iconName] || Boxes;
-          const count = categoryCounts[cat.id] || 0;
+          const skillsInCat = getSkillsByCategory(cat.id);
+          const count = skillsInCat.length;
 
           return (
             <div
@@ -143,8 +128,8 @@ export const ComponentCatalogView: React.FC = () => {
                   >
                     <Icon className="w-4 h-4" />
                   </div>
-                  <span className="rounded-full bg-slate-800/80 px-2 py-0.5 text-[10px] font-semibold text-slate-300">
-                    {count}
+                  <span className="rounded-full bg-indigo-950/80 border border-indigo-500/30 px-2 py-0.5 text-[10px] font-semibold text-indigo-300">
+                    {count} {count === 1 ? 'Skill' : 'Skills'}
                   </span>
                 </div>
 
@@ -157,7 +142,7 @@ export const ComponentCatalogView: React.FC = () => {
               </div>
 
               <div className="mt-3 pt-2 border-t border-slate-800/50 flex items-center justify-between text-[10px] text-indigo-400 font-medium group-hover:text-indigo-300">
-                <span>Browse blocks</span>
+                <span>Explore skills</span>
                 <span>→</span>
               </div>
             </div>
