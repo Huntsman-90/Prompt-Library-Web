@@ -19,6 +19,7 @@ import {
   FolderKanban,
   Sparkles,
   Layers,
+  ArrowLeft,
 } from 'lucide-react';
 
 export const BoardsView: React.FC = () => {
@@ -54,6 +55,16 @@ export const BoardsView: React.FC = () => {
   useEffect(() => {
     loadData();
   }, []);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && activeBoardId) {
+        setActiveBoardId(null);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [activeBoardId]);
 
   const activeBoard = useMemo(() => {
     if (!activeBoardId) return null;
@@ -333,64 +344,82 @@ export const BoardsView: React.FC = () => {
 
       {/* BOARD DETAIL WORKSPACE MODAL (Opens cleanly when user clicks any board card) */}
       {activeBoard && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-md p-2 sm:p-4 animate-in fade-in">
-          <div className="flex flex-col w-full max-w-4xl h-[90vh] rounded-3xl border border-slate-700 bg-slate-900 shadow-2xl text-slate-100 overflow-hidden">
+        <div
+          onClick={(e) => {
+            if (e.target === e.currentTarget) setActiveBoardId(null);
+          }}
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-md p-2 sm:p-4 animate-in fade-in"
+        >
+          <div className="flex flex-col w-full max-w-4xl h-[92vh] sm:h-[90vh] rounded-3xl border border-slate-700 bg-slate-900 shadow-2xl text-slate-100 overflow-hidden">
             {/* Modal Header */}
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 p-4 bg-slate-900/90">
-              <div className="flex items-center gap-3">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 p-3 sm:p-4 bg-slate-900/95 sticky top-0 z-20">
+              <div className="flex items-center gap-2.5 min-w-0">
+                <button
+                  onClick={() => setActiveBoardId(null)}
+                  className="flex items-center gap-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 px-3 py-1.5 text-xs font-bold text-slate-200 border border-slate-700 transition cursor-pointer shrink-0 active:scale-95"
+                  title="Back to Boards"
+                >
+                  <ArrowLeft className="w-4 h-4 text-indigo-400" />
+                  <span>Back to Boards</span>
+                </button>
+
                 <div
-                  className={`flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-tr ${getColorGradient(
+                  className={`flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-tr ${getColorGradient(
                     activeBoard.color
-                  )} text-white shadow-md`}
+                  )} text-white shadow-md shrink-0`}
                 >
                   {React.createElement(getIconComponent(activeBoard.iconName || 'FolderKanban'), {
-                    className: 'w-5 h-5',
+                    className: 'w-4.5 h-4.5',
                   })}
                 </div>
-                <div>
-                  <h2 className="text-base font-bold text-white flex items-center gap-2">
-                    {activeBoard.title}
-                    <span className="text-xs font-semibold text-indigo-300 bg-indigo-950/80 border border-indigo-500/30 px-2 py-0.5 rounded-full">
-                      {boardPrompts.length} {boardPrompts.length === 1 ? 'Prompt' : 'Prompts'}
+                <div className="min-w-0 flex-1">
+                  <h2 className="text-sm sm:text-base font-bold text-white flex items-center gap-1.5 truncate">
+                    <span className="truncate">{activeBoard.title}</span>
+                    <span className="text-[10px] sm:text-xs font-semibold text-indigo-300 bg-indigo-950/80 border border-indigo-500/30 px-2 py-0.5 rounded-full shrink-0">
+                      {boardPrompts.length}
                     </span>
                   </h2>
-                  <p className="text-xs text-slate-400 line-clamp-1">{activeBoard.description}</p>
+                  <p className="text-[11px] text-slate-400 truncate">{activeBoard.description}</p>
                 </div>
               </div>
 
               {/* Board Actions */}
-              <div className="flex items-center gap-2 self-end sm:self-auto">
-                <button
-                  onClick={() => setIsPinModalOpen(true)}
-                  className="flex items-center gap-1 rounded-xl bg-indigo-600 px-3 py-1.5 text-xs font-semibold text-white shadow hover:bg-indigo-500 transition cursor-pointer active:scale-95"
-                >
-                  <Pin className="w-3.5 h-3.5" />
-                  <span>Pin Prompt</span>
-                </button>
-                <button
-                  onClick={handleExportBoard}
-                  className="rounded-xl border border-slate-700 bg-slate-800 p-2 text-slate-300 hover:text-white transition cursor-pointer"
-                  title="Export Board as JSON"
-                >
-                  <Download className="w-4 h-4" />
-                </button>
-                <button
-                  onClick={() => handleOpenEditBoard(activeBoard)}
-                  className="rounded-xl border border-slate-700 bg-slate-800 p-2 text-slate-300 hover:text-white transition cursor-pointer"
-                  title="Edit Board"
-                >
-                  <Edit2 className="w-4 h-4" />
-                </button>
-                <button
-                  onClick={(e) => handleDeleteBoard(activeBoard, e)}
-                  className="rounded-xl border border-slate-700 bg-slate-800 p-2 text-rose-400 hover:bg-rose-950/60 transition cursor-pointer"
-                  title="Delete Board"
-                >
-                  <Trash2 className="w-4 h-4" />
-                </button>
+              <div className="flex items-center justify-between sm:justify-end gap-2 shrink-0 border-t sm:border-t-0 pt-2 sm:pt-0 border-slate-800/80">
+                <div className="flex items-center gap-1.5">
+                  <button
+                    onClick={() => setIsPinModalOpen(true)}
+                    className="flex items-center gap-1 rounded-xl bg-indigo-600 px-3 py-1.5 text-xs font-bold text-white shadow hover:bg-indigo-500 transition cursor-pointer active:scale-95"
+                  >
+                    <Pin className="w-3.5 h-3.5" />
+                    <span>Pin Prompt</span>
+                  </button>
+                  <button
+                    onClick={handleExportBoard}
+                    className="rounded-xl border border-slate-700 bg-slate-800 p-1.5 sm:p-2 text-slate-300 hover:text-white transition cursor-pointer"
+                    title="Export Board as JSON"
+                  >
+                    <Download className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                  </button>
+                  <button
+                    onClick={() => handleOpenEditBoard(activeBoard)}
+                    className="rounded-xl border border-slate-700 bg-slate-800 p-1.5 sm:p-2 text-slate-300 hover:text-white transition cursor-pointer"
+                    title="Edit Board"
+                  >
+                    <Edit2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                  </button>
+                  <button
+                    onClick={(e) => handleDeleteBoard(activeBoard, e)}
+                    className="rounded-xl border border-slate-700 bg-slate-800 p-1.5 sm:p-2 text-rose-400 hover:bg-rose-950/60 transition cursor-pointer"
+                    title="Delete Board"
+                  >
+                    <Trash2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                  </button>
+                </div>
+
                 <button
                   onClick={() => setActiveBoardId(null)}
-                  className="rounded-xl p-2 text-slate-400 hover:bg-slate-800 hover:text-white transition cursor-pointer"
+                  className="rounded-xl border border-slate-700 bg-slate-800 p-2 text-slate-300 hover:bg-slate-700 hover:text-white transition cursor-pointer shrink-0"
+                  title="Close & Return to Boards"
                 >
                   <X className="w-5 h-5" />
                 </button>
@@ -498,6 +527,20 @@ export const BoardsView: React.FC = () => {
                   ))}
                 </div>
               )}
+            </div>
+
+            {/* Modal Footer */}
+            <div className="border-t border-slate-800 p-3 bg-slate-900/90 flex items-center justify-between shrink-0">
+              <button
+                onClick={() => setActiveBoardId(null)}
+                className="flex items-center gap-2 text-xs font-bold text-slate-200 hover:text-white bg-slate-800 hover:bg-slate-700 border border-slate-700/80 rounded-xl px-3.5 py-2 transition cursor-pointer active:scale-95"
+              >
+                <ArrowLeft className="w-4 h-4 text-indigo-400" />
+                <span>Return to Board Workspaces</span>
+              </button>
+              <span className="text-[11px] text-slate-400 font-medium">
+                {boardPrompts.length} {boardPrompts.length === 1 ? 'prompt' : 'prompts'}
+              </span>
             </div>
           </div>
         </div>
