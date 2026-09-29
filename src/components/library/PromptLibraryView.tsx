@@ -174,41 +174,35 @@ export const PromptLibraryView: React.FC = () => {
     setPromptToAddToBoard(null);
   };
 
-  const handleExportAllToZip = async () => {
-    if (prompts.length === 0) {
-      addToast({ type: 'error', title: 'No prompts in library to export' });
+  const handleExportFolderToZip = async (folder: { id: string; name: string }) => {
+    const folderPrompts = prompts.filter((p) => p.folderId === folder.id);
+    if (folderPrompts.length === 0) {
+      addToast({ type: 'error', title: 'No prompts in this folder to export' });
       return;
     }
-    await exportPromptsToZip(prompts, folders, 'prompt-repository-markdown.zip');
+    const safeName = folder.name.toLowerCase().replace(/[^a-z0-9_-]+/g, '-');
+    await exportPromptsToZip(folderPrompts, folders, `${safeName}-markdown.zip`);
     addToast({
       type: 'success',
-      title: 'Repository exported',
-      description: `Exported ${prompts.length} prompts as Markdown ZIP archive.`,
+      title: 'Folder exported',
+      description: `Exported "${folder.name}" (${folderPrompts.length} prompts) as Markdown ZIP archive.`,
     });
   };
 
   const handleExportActiveFolderToZip = async () => {
     if (!activeFolderObj) return;
-    if (activeFolderPrompts.length === 0) {
-      addToast({ type: 'error', title: 'No prompts in this folder to export' });
-      return;
-    }
-    const safeName = activeFolderObj.name.toLowerCase().replace(/[^a-z0-9_-]+/g, '-');
-    await exportPromptsToZip(activeFolderPrompts, folders, `${safeName}-markdown.zip`);
-    addToast({
-      type: 'success',
-      title: 'Folder exported',
-      description: `Exported "${activeFolderObj.name}" as Markdown ZIP archive.`,
-    });
+    await handleExportFolderToZip(activeFolderObj);
   };
 
-  const handleImportMarkdownFiles = async (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleImportToSpecificFolder = async (
+    e: React.ChangeEvent<HTMLInputElement>,
+    targetFolderId: string | null,
+    targetFolderName?: string
+  ) => {
     const files = e.target.files;
     if (!files || files.length === 0) return;
 
     let importedCount = 0;
-    const existingFolders = await db.folders.toArray();
-    const folderMap = new Map(existingFolders.map((f) => [f.name.toLowerCase(), f.id]));
 
     for (let i = 0; i < files.length; i++) {
       const file = files[i];
@@ -216,30 +210,13 @@ export const PromptLibraryView: React.FC = () => {
       if (file.name.endsWith('.zip')) {
         const { prompts: parsedItems } = await importPromptsFromZip(file);
         for (const item of parsedItems) {
-          let folderId: string | undefined = undefined;
-          if (item.folderName) {
-            const folderKey = item.folderName.toLowerCase();
-            if (folderMap.has(folderKey)) {
-              folderId = folderMap.get(folderKey);
-            } else {
-              const newFolder: FolderItem = {
-                id: 'folder-' + Math.random().toString(36).substring(2, 9),
-                name: item.folderName,
-                createdAt: new Date().toISOString(),
-              };
-              await db.folders.add(newFolder);
-              folderMap.set(folderKey, newFolder.id);
-              folderId = newFolder.id;
-            }
-          }
-
           const fullPrompt: PromptItem = {
             id: 'prompt-' + Math.random().toString(36).substring(2, 9),
             title: item.prompt.title || 'Imported Prompt',
             description: item.prompt.description || '',
             content: item.prompt.content || '',
             category: item.prompt.category || 'general',
-            folderId,
+            folderId: targetFolderId || undefined,
             tags: item.prompt.tags || [],
             variables: item.prompt.variables || [],
             isFavorite: item.prompt.isFavorite || false,
@@ -253,24 +230,7 @@ export const PromptLibraryView: React.FC = () => {
         }
       } else if (file.name.endsWith('.md') || file.name.endsWith('.markdown')) {
         const text = await file.text();
-        const { prompt: p, folderName } = markdownToPrompt(text);
-
-        let folderId: string | undefined = undefined;
-        if (folderName) {
-          const folderKey = folderName.toLowerCase();
-          if (folderMap.has(folderKey)) {
-            folderId = folderMap.get(folderKey);
-          } else {
-            const newFolder: FolderItem = {
-              id: 'folder-' + Math.random().toString(36).substring(2, 9),
-              name: folderName,
-              createdAt: new Date().toISOString(),
-            };
-            await db.folders.add(newFolder);
-            folderMap.set(folderKey, newFolder.id);
-            folderId = newFolder.id;
-          }
-        }
+        const { prompt: p } = markdownToPrompt(text);
 
         const fullPrompt: PromptItem = {
           id: 'prompt-' + Math.random().toString(36).substring(2, 9),
@@ -278,7 +238,7 @@ export const PromptLibraryView: React.FC = () => {
           description: p.description || '',
           content: p.content || '',
           category: p.category || 'general',
-          folderId,
+          folderId: targetFolderId || undefined,
           tags: p.tags || [],
           variables: p.variables || [],
           isFavorite: p.isFavorite || false,
@@ -292,10 +252,11 @@ export const PromptLibraryView: React.FC = () => {
       }
     }
 
+    const destName = targetFolderName ? `"${targetFolderName}"` : 'selected collection';
     addToast({
       type: 'success',
       title: 'Import completed',
-      description: `Successfully imported ${importedCount} prompt(s) from Markdown/ZIP.`,
+      description: `Successfully imported ${importedCount} prompt(s) with tags & metadata into ${destName}.`,
     });
 
     loadData();
@@ -416,30 +377,6 @@ export const PromptLibraryView: React.FC = () => {
           </div>
 
           <div className="flex flex-wrap items-center gap-2 shrink-0">
-            <button
-              onClick={handleExportAllToZip}
-              className="flex items-center gap-1.5 rounded-2xl border border-slate-700 bg-slate-900/80 px-3.5 py-2.5 text-xs font-semibold text-emerald-300 hover:bg-slate-800 transition active:scale-95 cursor-pointer"
-              title="Export Repository as Markdown ZIP"
-            >
-              <Download className="w-4 h-4" />
-              <span className="hidden sm:inline">Export (.zip)</span>
-            </button>
-
-            <label
-              className="flex items-center gap-1.5 rounded-2xl border border-slate-700 bg-slate-900/80 px-3.5 py-2.5 text-xs font-semibold text-indigo-300 hover:bg-slate-800 transition active:scale-95 cursor-pointer"
-              title="Import .md files or ZIP archive"
-            >
-              <Upload className="w-4 h-4" />
-              <span>Import .md / ZIP</span>
-              <input
-                type="file"
-                multiple
-                accept=".md,.markdown,.zip"
-                onChange={handleImportMarkdownFiles}
-                className="hidden"
-              />
-            </label>
-
             <button
               onClick={handleOpenCreateFolder}
               className="flex items-center gap-1.5 rounded-2xl border border-indigo-500/30 bg-indigo-950/60 px-3.5 py-2.5 text-xs font-semibold text-indigo-300 hover:bg-indigo-900/60 hover:text-white transition active:scale-95 cursor-pointer"
@@ -575,6 +512,38 @@ export const PromptLibraryView: React.FC = () => {
                       {promptCount} {promptCount === 1 ? 'Prompt' : 'Prompts'}
                     </span>
 
+                    {/* Import .md files into this folder (Arrow DOWN - Green) */}
+                    <label
+                      onClick={(e) => e.stopPropagation()}
+                      className="p-1.5 rounded-lg text-emerald-400 hover:text-emerald-300 hover:bg-slate-800 transition cursor-pointer"
+                      title="Import .md file into folder"
+                    >
+                      <Download className="w-3.5 h-3.5" />
+                      <input
+                        type="file"
+                        multiple
+                        accept=".md,.markdown,.zip"
+                        onChange={(e) => {
+                          e.stopPropagation();
+                          handleImportToSpecificFolder(e, folder.id, folder.name);
+                        }}
+                        className="hidden"
+                      />
+                    </label>
+
+                    {/* Export folder as Markdown ZIP (Arrow UP - Indigo) */}
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleExportFolderToZip(folder);
+                      }}
+                      className="p-1.5 rounded-lg text-indigo-400 hover:text-indigo-300 hover:bg-slate-800 transition cursor-pointer"
+                      title="Export folder as Markdown (.zip)"
+                    >
+                      <Upload className="w-3.5 h-3.5" />
+                    </button>
+
                     {/* Edit folder */}
                     <button
                       type="button"
@@ -698,12 +667,33 @@ export const PromptLibraryView: React.FC = () => {
                     <span className="text-[11px] sm:text-xs">Create Prompt</span>
                   </button>
 
-                  <button
-                    onClick={handleExportActiveFolderToZip}
+                  <label
                     className="flex items-center gap-1 rounded-xl border border-slate-700 bg-slate-800 p-1.5 sm:px-2.5 sm:py-1.5 text-xs font-semibold text-emerald-300 hover:text-white hover:bg-slate-700 transition cursor-pointer"
-                    title="Export Folder as Markdown ZIP"
+                    title="Import .md file into folder"
                   >
                     <Download className="w-3.5 h-3.5" />
+                    <span className="hidden sm:inline">Import (.md)</span>
+                    <input
+                      type="file"
+                      multiple
+                      accept=".md,.markdown,.zip"
+                      onChange={(e) =>
+                        handleImportToSpecificFolder(
+                          e,
+                          activeFolderId !== 'all' && activeFolderId !== 'favorites' ? activeFolderId : null,
+                          activeFolderObj?.name
+                        )
+                      }
+                      className="hidden"
+                    />
+                  </label>
+
+                  <button
+                    onClick={handleExportActiveFolderToZip}
+                    className="flex items-center gap-1 rounded-xl border border-slate-700 bg-slate-800 p-1.5 sm:px-2.5 sm:py-1.5 text-xs font-semibold text-indigo-300 hover:text-white hover:bg-slate-700 transition cursor-pointer"
+                    title="Export folder as Markdown (.zip)"
+                  >
+                    <Upload className="w-3.5 h-3.5" />
                     <span className="hidden sm:inline">Export (.zip)</span>
                   </button>
 
