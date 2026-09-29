@@ -70,6 +70,7 @@ export interface ChainStep {
   description?: string;
   prompt: string;
   outputKey: string;
+  appliedSkillIds?: string[];
 }
 
 export interface PromptChain {
@@ -77,6 +78,7 @@ export interface PromptChain {
   name: string;
   description: string;
   steps: ChainStep[];
+  testInputs?: Record<string, string>;
   createdAt: string;
   updatedAt: string;
 }
