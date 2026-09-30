@@ -290,26 +290,6 @@ export const BoardsView: React.FC = () => {
                     <span className="rounded-full bg-slate-800/80 border border-slate-700/60 px-2 py-0.5 text-[10px] font-semibold text-slate-300">
                       {b.promptIds.length} {b.promptIds.length === 1 ? 'Prompt' : 'Prompts'}
                     </span>
-
-                    {/* Edit board */}
-                    <button
-                      type="button"
-                      onClick={(e) => handleOpenEditBoard(b, e)}
-                      className="p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
-                      title="Edit Board"
-                    >
-                      <Edit2 className="w-3.5 h-3.5" />
-                    </button>
-
-                    {/* Delete board */}
-                    <button
-                      type="button"
-                      onClick={(e) => handleDeleteBoard(b, e)}
-                      className="p-1 rounded-lg text-slate-400 hover:text-rose-400 hover:bg-slate-800 transition cursor-pointer"
-                      title="Delete Board"
-                    >
-                      <Trash2 className="w-3.5 h-3.5" />
-                    </button>
                   </div>
                 </div>
 

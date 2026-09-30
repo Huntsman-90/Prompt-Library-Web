@@ -546,28 +546,6 @@ export const PromptLibraryView: React.FC = () => {
                       <Upload className="w-3.5 h-3.5" />
                     </button>
 
-                    {/* Edit folder */}
-                    <button
-                      type="button"
-                      onClick={(e) => handleOpenEditFolder(folder, e)}
-                      className="p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
-                      title="Edit Folder"
-                    >
-                      <Edit2 className="w-3.5 h-3.5" />
-                    </button>
-
-                    {/* Delete folder */}
-                    <button
-                      type="button"
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setFolderToDelete(folder);
-                      }}
-                      className="p-1 rounded-lg text-slate-400 hover:text-rose-400 hover:bg-slate-800 transition cursor-pointer"
-                      title="Delete Folder"
-                    >
-                      <Trash2 className="w-3.5 h-3.5" />
-                    </button>
                   </div>
                 </div>
 
