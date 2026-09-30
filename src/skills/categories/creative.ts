@@ -826,4 +826,516 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
       ]
     ),
   },
+  "three-act-dramatic-structure": {
+    id: "three-act-dramatic-structure",
+    name: "ThreeActDramaticStructureSkill",
+    displayName: "Three-Act Dramatic Structure & Plot Pacing",
+    categoryId: "creative",
+    description: "Structures narrative fiction and screenplays along the classic Three-Act structure: Inciting Incident, Plot Point 1, Midpoint Crisis, Climax, and Resolution.",
+    tags: ["creative","storytelling","three-act-structure","plot-pacing","screenwriting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Three-Act Dramatic Structure Protocol",
+      ruSectionName: "Фреймворк трехактной драматической структуры (Three-Act Plot Structure)",
+      instructions: [
+        "Act 1 (Setup): Establish normal world, introduce core protagonist flaw, and trigger the Inciting Incident.",
+        "Act 2 (Confrontation): Escalate stakes through rising obstacles, culminating in the Midpoint reversal and All-Is-Lost moment.",
+        "Act 3 (Resolution): Drive the protagonist into the climactic crucible where internal flaw is conquered to resolve the external crisis.",
+        "Ensure every scene advances either plot momentum or character transformation."
+],
+      ruInstructions: [
+        "Акт 1 (Экспозиция): Покажите привычный мир героя, его внутренний изъян и запустите побуждающее происшествие.",
+        "Акт 2 (Конфронтация): Повышайте ставки через нарастающие препятствия, точку невозврата (Midpoint) и кризис \"Все потеряно\".",
+        "Акт 3 (Развязка): Подведите героя к кульминационной схватке, где победа над внутренним изъяном решает внешний конфликт.",
+        "Гарантируйте, что каждая сцена двигает вперед сюжет либо раскрывает трансформацию персонажа."
+],
+      semanticType: "writing_style",
+      tags: ["creative","storytelling","three-act-structure","plot-pacing","screenwriting"],
+    }),
+  },
+
+  "unreliable-narrator-voice-craft": {
+    id: "unreliable-narrator-voice-craft",
+    name: "UnreliableNarratorVoiceCraftSkill",
+    displayName: "Unreliable Narrator & Psychological Subtext Craft",
+    categoryId: "creative",
+    description: "Constructs psychological fiction featuring an unreliable narrator with subtle discrepancies between subjective narration and objective reality.",
+    tags: ["creative","unreliable-narrator","fiction","psychological-subtext","voice"],
+    transform: createStandardSkillTransform({
+      sectionName: "Unreliable Narrator Protocol",
+      ruSectionName: "Протокол ненадежного рассказчика и психологического подтекста (Unreliable Narrator)",
+      instructions: [
+        "Craft a distinctive, compelling subjective voice with idiosyncratic cognitive biases or self-deceptions.",
+        "Plant subtle, objective clues (unmatched timestamps, conflicting physical details) that alert the astute reader.",
+        "Maintain believable internal justification for the narrator omissions and selective memories.",
+        "Build toward a powerful, tragic or revelatory moment of cognitive dissonance."
+],
+      ruInstructions: [
+        "Создавайте убедительный авторский голос со специфическими искажениями восприятия и самообманом.",
+        "Оставляйте тонкие объективные подсказки (нестыковки во времени, детали обстановки), заметные внимательному читателю.",
+        "Выдерживайте органичную внутреннюю мотивацию персонажа, оправдывающую его умолчания и искажения.",
+        "Ведите сюжет к эмоциональному моменту осознания разрыва между иллюзией и реальностью."
+],
+      semanticType: "writing_style",
+      tags: ["creative","unreliable-narrator","fiction","psychological-subtext","voice"],
+    }),
+  },
+
+  "dialogue-banter-wit-screenplay": {
+    id: "dialogue-banter-wit-screenplay",
+    name: "DialogueBanterWitScreenplaySkill",
+    displayName: "Witty Screenplay Dialogue, Subtext & Banter",
+    categoryId: "creative",
+    description: "Writes snappy, fast-paced dialogue (Aaron Sorkin / Quentin Tarantino style) rich in unspoken subtext, overlapping rhythms, and intellectual wit.",
+    tags: ["creative","dialogue","screenplay","banter","subtext","wit"],
+    transform: createStandardSkillTransform({
+      sectionName: "Witty Dialogue & Subtext Protocol",
+      ruSectionName: "Протокол остроумного кинематографичного диалога и подтекста (Screenplay Banter)",
+      instructions: [
+        "Write dialogue where characters rarely say exactly what they mean; bury the true intention in subtext.",
+        "Use rhythmic cadence, interrupted thoughts, and conversational sparring to create dynamic momentum.",
+        "Give each character distinct verbal idiolects, pet phrases, and sentence structures.",
+        "Eliminate on-the-nose exposition: never have characters explain facts they both already know."
+],
+      ruInstructions: [
+        "Пишите диалоги, где персонажи редко говорят о своих чувствах прямо; прячьте истинные мотивы в подтексте.",
+        "Используйте быстрый ритм реплик, перебивания и словесный пинг-понг для создания динамики сцены.",
+        "Наделяйте каждого героя уникальным словарным запасом, характерными оборотами и длиной фраз.",
+        "Исключайте неестественную экспозицию: персонажи не должны пересказывать друг другу то, что им обоим известно."
+],
+      semanticType: "writing_style",
+      tags: ["creative","dialogue","screenplay","banter","subtext","wit"],
+    }),
+  },
+
+  "poetic-imagery-synesthesia-metaphor": {
+    id: "poetic-imagery-synesthesia-metaphor",
+    name: "PoeticImagerySynesthesiaMetaphorSkill",
+    displayName: "Poetic Synesthesia, Imagery & Lyrical Metaphor",
+    categoryId: "creative",
+    description: "Weaves rich poetic language using synesthesia (blending sensory modalities), original fresh metaphors, and musical phonetics (assonance, alliteration).",
+    tags: ["creative","poetry","synesthesia","metaphor","imagery","lyricism"],
+    transform: createStandardSkillTransform({
+      sectionName: "Poetic Imagery & Synesthesia Protocol",
+      ruSectionName: "Протокол поэтической образности и синестезии (Poetic Imagery & Metaphor)",
+      instructions: [
+        "Blend sensory modalities via synesthesia: describe sounds through color, textures through taste, scents through geometry.",
+        "Ban clichéd metaphors; synthesize completely novel analogical connections between nature, emotion, and technology.",
+        "Harness phonetic musicality: deploy internal rhymes, subtle assonance, and rhythmic alliteration.",
+        "Evoke profound emotional resonance through distilled, concentrated lyrical imagery."
+],
+      ruInstructions: [
+        "Объединяйте разные каналы восприятия через синестезию: описывайте звуки цветом, текстуры вкусом, запахи формой.",
+        "Категорически избегайте штампов; находите свежие поэтические связи между природой, эмоциями и предметным миром.",
+        "Используйте фонетическую выразительность: внутренние рифмы, аллитерации и мягкие ассонансы.",
+        "Передавайте глубокие эмоциональные переживания через концентрированные и емкие поэтические образы."
+],
+      semanticType: "writing_style",
+      tags: ["creative","poetry","synesthesia","metaphor","imagery","lyricism"],
+    }),
+  },
+
+  "gothic-horror-atmosphere-dread": {
+    id: "gothic-horror-atmosphere-dread",
+    name: "GothicHorrorAtmosphereDreadSkill",
+    displayName: "Gothic Horror, Atmospheric Dread & Psychological Terror",
+    categoryId: "creative",
+    description: "Builds slow-burning psychological dread and eerie gothic atmosphere (Lovecraft / Shirley Jackson style) using uncanny sensory details and architectural decay.",
+    tags: ["creative","horror","gothic","dread","atmosphere","psychological-terror"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gothic Horror & Atmospheric Dread Protocol",
+      ruSectionName: "Протокол атмосферы готического хоррора и психологического саспенса (Gothic Dread)",
+      instructions: [
+        "Build dread through anticipation and atmospheric decay rather than cheap jump scares.",
+        "Personify the environment: describe ancient architecture, claustrophobic fog, and rotting flora as active malevolent entities.",
+        "Deploy the Uncanny (Freud Unheimlich): make familiar domestic spaces feel subtly wrong and alien.",
+        "Escalate psychological disorientation until the boundary between sanity and the supernatural dissolves."
+],
+      ruInstructions: [
+        "Нагнетайте тревогу через медленное ожидание и гнетущую атмосферу вместо банальных скримеров.",
+        "Одушевляйте пространство: описывайте старинные особняки, туман и увядающую природу как враждебных свидетелей.",
+        "Используйте эффект \"жуткого\" (Uncanny): делайте привычные домашние вещи пугающе чуждыми и искаженными.",
+        "Усиливайте психологическую дезориентацию героя до стирания грани между безумием и мистикой."
+],
+      semanticType: "writing_style",
+      tags: ["creative","horror","gothic","dread","atmosphere","psychological-terror"],
+    }),
+  },
+
+  "cyberpunk-neon-noir-atmosphere": {
+    id: "cyberpunk-neon-noir-atmosphere",
+    name: "CyberpunkNeonNoirAtmosphereSkill",
+    displayName: "Cyberpunk Neon-Noir & High-Tech Low-Life Aesthetic",
+    categoryId: "creative",
+    description: "Immerses fiction in classic cyberpunk neon-noir (William Gibson / Blade Runner style): rain-slicked concrete, corporate hegemony, neural cyberware, and street slang.",
+    tags: ["creative","cyberpunk","sci-fi","neon-noir","worldbuilding"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cyberpunk Neon-Noir Protocol",
+      ruSectionName: "Протокол киберпанка и нео-нуара (High-Tech Low-Life Aesthetic)",
+      instructions: [
+        "Evoke the quintessential \"High-Tech, Low-Life\" contrast: hyper-advanced neural cyberware amidst rotting urban sprawl.",
+        "Layer sensory textures: buzzing neon reflections, rain-slicked alleyways, ozone smells, and synthetic noodle stalls.",
+        "Incorporate authentic subcultural street jargon, hacker slang, and megacorporation brand names.",
+        "Explore themes of transhumanist alienation, commodified memory, and anti-authoritarian rebellion."
+],
+      ruInstructions: [
+        "Передавайте контраст \"High-Tech, Low-Life\": передовые нейроинтерфейсы на фоне трущоб и нищеты мегаполиса.",
+        "Насыщайте сцену деталями: мерцающий неон в лужах, запах озона и синтетической уличной еды, гул серверов.",
+        "Используйте характерный уличный сленг хакеров, термины аугментаций и названия всемогущих мегакорпораций.",
+        "Исследуйте темы отчуждения человека в цифровом мире, торговли воспоминаниями и бунта против корпораций."
+],
+      semanticType: "writing_style",
+      tags: ["creative","cyberpunk","sci-fi","neon-noir","worldbuilding"],
+    }),
+  },
+
+  "flash-fiction-twist-ending-craft": {
+    id: "flash-fiction-twist-ending-craft",
+    name: "FlashFictionTwistEndingCraftSkill",
+    displayName: "Micro Flash Fiction & O. Henry Irony Twist",
+    categoryId: "creative",
+    description: "Crafts complete, punchy micro-stories under 500 words featuring rich characterization, tight pacing, and a shocking yet inevitable ironic twist ending.",
+    tags: ["creative","flash-fiction","twist-ending","irony","micro-fiction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Flash Fiction & Twist Ending Protocol",
+      ruSectionName: "Протокол микропрозы и неожиданной концовки (Flash Fiction & Twist)",
+      instructions: [
+        "Hook the reader in the opening sentence with an immediate, high-stakes dilemma.",
+        "Eliminate every word that does not simultaneously build character and propel plot toward the climax.",
+        "Deliver an ending twist that completely reframes the story context while feeling 100% fair and foreshadowed in retrospect.",
+        "Leave a lasting emotional resonance that echoes far beyond the final word."
+],
+      ruInstructions: [
+        "Захватывайте читателя с первой строки острым и необычным конфликтом.",
+        "Вырезайте каждое слово, которое не раскрывает характер героя и не двигает действие к кульминации.",
+        "Создавайте неожиданный финал, который полностью переворачивает смысл прочитанного, но выглядит неизбежным при повторном взгляде.",
+        "Оставляйте сильное эмоциональное послевкусие после последней точки."
+],
+      semanticType: "writing_style",
+      tags: ["creative","flash-fiction","twist-ending","irony","micro-fiction"],
+    }),
+  },
+
+  "character-flaw-crucible-arc": {
+    id: "character-flaw-crucible-arc",
+    name: "CharacterFlawCrucibleArcSkill",
+    displayName: "Internal Character Flaw & Crucible Arc Architecture",
+    categoryId: "creative",
+    description: "Architects multi-dimensional characters around an internal Lie they believe, an unacknowledged Want versus true Need, and a transformative crucible test.",
+    tags: ["creative","character-arc","characterization","crucible","psychology"],
+    transform: createStandardSkillTransform({
+      sectionName: "Character Arc & Crucible Protocol",
+      ruSectionName: "Архитектурный протокол арки персонажа и горнила испытаний (Character Arc)",
+      instructions: [
+        "Define the Lie the character believes about themselves or the world rooted in a past Ghost/Wound.",
+        "Contrast the external Want (conscious goal) with the internal Need (spiritual/moral truth required to heal).",
+        "Design the Crucible: a climactic trial where achieving the Want requires confronting and sacrificing the Lie.",
+        "Show unambiguous behavioral transformation through choices made under extreme stress."
+],
+      ruInstructions: [
+        "Определите \"Ложь\", в которую верит герой о себе или о мире из-за давней психологической травмы (Ghost).",
+        "Создайте конфликт между внешним Желанием (Want) и истинной внутренней Потребностью (Need).",
+        "Спроектируйте \"Горнило\" — кульминационную ситуацию, где победа требует отказа от старой лжи и эго.",
+        "Демонстрируйте необратимую трансформацию характера через поступки под максимальным давлением."
+],
+      semanticType: "process_directive",
+      tags: ["creative","character-arc","characterization","crucible","psychology"],
+    }),
+  },
+
+  "solarpunk-eco-utopia-worldbuilding": {
+    id: "solarpunk-eco-utopia-worldbuilding",
+    name: "SolarpunkEcoUtopiaWorldbuildingSkill",
+    displayName: "Solarpunk & Eco-Optimistic Science Fiction Worldbuilding",
+    categoryId: "creative",
+    description: "Constructs vibrant Solarpunk worlds: harmonious integration of clean tech, biomimetic architecture, decentralized governance, and communal resilience.",
+    tags: ["creative","solarpunk","worldbuilding","eco-fiction","sci-fi","optimism"],
+    transform: createStandardSkillTransform({
+      sectionName: "Solarpunk Worldbuilding Protocol",
+      ruSectionName: "Протокол построения миров соларпанка (Solarpunk Eco-Optimism)",
+      instructions: [
+        "Envision technological progress in symbiotic harmony with ecological ecosystems rather than extractive exploitation.",
+        "Incorporate biomimetic architecture: living algae facades, passive ventilation, vertical forest towers, solar stained-glass.",
+        "Explore decentralized communal governance, circular repair economies, and open-source hardware networks.",
+        "Ground conflicts in human collaboration, community restoration, and climate adaptation challenges."
+],
+      ruInstructions: [
+        "Описывайте технологический прогресс в симбиозе с живой природой вместо хищнической добычи ресурсов.",
+        "Внедряйте биомиметическую архитектуру: фасады из водорослей, пассивную вентиляцию, вертикальные сады и витражные солнечные панели.",
+        "Показывайте децентрализованные сообщества, экономику совместного ремонта и открытых технологий.",
+        "Стройте сюжетные конфликты вокруг совместного преодоления последствий климатических изменений и взаимопомощи."
+],
+      semanticType: "writing_style",
+      tags: ["creative","solarpunk","worldbuilding","eco-fiction","sci-fi","optimism"],
+    }),
+  },
+
+  "magical-realism-everyday-wonder": {
+    id: "magical-realism-everyday-wonder",
+    name: "MagicalRealismEverydayWonderSkill",
+    displayName: "Magical Realism & Everyday Marvels (Marquez Style)",
+    categoryId: "creative",
+    description: "Weaves magical realism (Gabriel Garcia Marquez style) where miraculous, impossible phenomena are accepted matter-of-factly by characters as ordinary daily occurrences.",
+    tags: ["creative","magical-realism","marquez","literature","fiction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Magical Realism Protocol",
+      ruSectionName: "Протокол магического реализма и обыденного чуда (Гарсиа Маркес)",
+      instructions: [
+        "Treat extraordinary magical events (raining yellow flowers, levitation, ghosts drinking tea) with total, deadpan domestic normalcy.",
+        "Conversely, describe mundane modern technology (magnets, ice, railways) with breathless wonder and mythic awe.",
+        "Root the narrative deeply in familial lineage, generational memory, and cultural folklore.",
+        "Blur the boundaries between dream, superstition, history, and reality."
+],
+      ruInstructions: [
+        "Описывайте невероятные чудеса (дождь из желтых цветов, призраки за столом) с полным бытовым спокойствием.",
+        "Наоборот, описывайте обычные технологии (лед, магниты, железную дорогу) с мистическим детским благоговением.",
+        "Вплетайте историю поколений семьи, память предков и местный фольклор в канву сюжета.",
+        "Стирайте границы между сном, поверьями, историческими событиями и повседневной реальностью."
+],
+      semanticType: "writing_style",
+      tags: ["creative","magical-realism","marquez","literature","fiction"],
+    }),
+  },
+
+  "dystopian-bureaucracy-kafkaesque": {
+    id: "dystopian-bureaucracy-kafkaesque",
+    name: "DystopianBureaucracyKafkaesqueSkill",
+    displayName: "Kafkaesque Dystopian Bureaucracy & Absurdism",
+    categoryId: "creative",
+    description: "Evokes nightmarish, labyrinthine bureaucratic absurdity (Franz Kafka / George Orwell style): faceless authorities, circular regulations, and inescapable administrative traps.",
+    tags: ["creative","kafkaesque","absurdism","dystopia","satire","bureaucracy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kafkaesque Absurdist Bureaucracy Protocol",
+      ruSectionName: "Протокол кафкианского абсурда и бюрократической антиутопии (Kafkaesque)",
+      instructions: [
+        "Construct endless bureaucratic mazes of contradictory, circular forms and anonymous administrative tiers.",
+        "Maintain an unsettlingly polite, matter-of-fact tone among officials executing absurd procedures.",
+        "Depict the protagonist struggle as an exhausting battle against invisible, shifting institutional rules.",
+        "Explore existential themes of alienation, arbitrary power, and loss of individual agency."
+],
+      ruInstructions: [
+        "Создавайте бесконечные лабиринты противоречивых формуляров, кабинетов и анонимных чиновников.",
+        "Выдерживайте пугающе вежливый и рутинный тон представителей системы, исполняющих абсурдные приказы.",
+        "Показывайте борьбу героя как изнурительную попытку доказать очевидное в условиях меняющихся невидимых правил.",
+        "Раскрывайте темы отчуждения, бессмысленности произвольной власти и утраты человеком субъектности."
+],
+      semanticType: "writing_style",
+      tags: ["creative","kafkaesque","absurdism","dystopia","satire","bureaucracy"],
+    }),
+  },
+
+  "steampunk-victorian-clockwork-fiction": {
+    id: "steampunk-victorian-clockwork-fiction",
+    name: "SteampunkVictorianClockworkFictionSkill",
+    displayName: "Steampunk Victorian Clockwork & Brass Adventure",
+    categoryId: "creative",
+    description: "Immerses fiction in rich Victorian Steampunk: brass clockwork automatons, steam-powered airships, coal soot London, and alchemical laboratories.",
+    tags: ["creative","steampunk","victorian","clockwork","adventure","sci-fi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Steampunk Clockwork Fiction Protocol",
+      ruSectionName: "Протокол викторианского стимпанка и часовых механизмов (Steampunk)",
+      instructions: [
+        "Infuse descriptions with tactile mechanical details: whirring brass cogs, hissing steam pistons, polished mahogany, and pressure gauges.",
+        "Blend 19th-century Victorian formal etiquette and gaslit streets with speculative retro-futuristic engineering.",
+        "Feature airship sky armadas, telegraphic networks, and alchemical power sources.",
+        "Evoke the romantic spirit of scientific discovery, grand expeditions, and inventor ingenuity."
+],
+      ruInstructions: [
+        "Насыщайте текст осязаемыми механическими деталями: латунные шестеренки, шипение пара в поршнях, манометры и полированное дерево.",
+        "Сочетайте викторианский светский этикет и туманные улицы Лондона с грандиозными ретрофутуристическими машинами.",
+        "Описывайте полеты бронированных дирижаблей, механических автоматонов и алхимические двигатели.",
+        "Передавайте дух романтики великих географических открытий и смелых инженерных экспериментов."
+],
+      semanticType: "writing_style",
+      tags: ["creative","steampunk","victorian","clockwork","adventure","sci-fi"],
+    }),
+  },
+
+  "mythic-hero-monomyth-campbell": {
+    id: "mythic-hero-monomyth-campbell",
+    name: "MythicHeroMonomythCampbellSkill",
+    displayName: "Joseph Campbell Hero's Journey Monomyth Structure",
+    categoryId: "creative",
+    description: "Maps epic narratives onto Joseph Campbell 12-stage Monomyth: Call to Adventure, Crossing the Threshold, Belly of the Whale, Atonement with the Father, and Return with the Elixir.",
+    tags: ["creative","hero-journey","monomyth","campbell","mythology","epic-storytelling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hero's Journey Monomyth Protocol",
+      ruSectionName: "Фреймворк путешествия героя по Джозефу Кэмпбеллу (Hero's Journey Monomyth)",
+      instructions: [
+        "Stage the Departure: Ordinary World, Call to Adventure, Refusal of the Call, Meeting the Mentor, Crossing the First Threshold.",
+        "Stage the Initiation: Road of Trials, Meeting with the Goddess, Temptation, Atonement with the Father, Apotheosis, The Ultimate Boon.",
+        "Stage the Return: Refusal of Return, Magic Flight, Crossing the Return Threshold, Master of Two Worlds, Freedom to Live.",
+        "Infuse archetypal characters: The Herald, The Threshold Guardian, The Shadow, The Shapeshifter, The Trickster."
+],
+      ruInstructions: [
+        "Фаза Исхода: Обычный мир, Зов странствий, Отвержение зова, Встреча с наставником, Переход первого порога.",
+        "Фаза Инициации: Дорога испытаний, Искушение, Примирение с Отцом, Апофеоз и Получение волшебного дара.",
+        "Фаза Возвращения: Бегство из иного мира, Переход порога возврата, Владыка двух миров и Свобода жить.",
+        "Используйте архетипических персонажей: Вестник, Страж порога, Тень, Оборотень, Трикстер."
+],
+      semanticType: "writing_style",
+      tags: ["creative","hero-journey","monomyth","campbell","mythology","epic-storytelling"],
+    }),
+  },
+
+  "noir-detective-cynical-metaphor": {
+    id: "noir-detective-cynical-metaphor",
+    name: "NoirDetectiveCynicalMetaphorSkill",
+    displayName: "Hardboiled Noir Detective Voice & Cynical Metaphors",
+    categoryId: "creative",
+    description: "Channels Raymond Chandler hardboiled detective voice: rain-soaked fedoras, cynical similes (\"as crooked as a corkscrew\"), neon reflections, and morally ambiguous antiheroes.",
+    tags: ["creative","noir","hardboiled","detective","raymond-chandler","voice"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hardboiled Noir Voice Protocol",
+      ruSectionName: "Протокол нуарного детектива и циничных метафор (Hardboiled Noir)",
+      instructions: [
+        "Adopt a weary, cynical first-person detective monologue observing urban corruption.",
+        "Deploy signature hardboiled similes: vivid, unexpected, and dripping with gritty urban weariness.",
+        "Paint visual contrast: shadows slicing through Venetian blinds, burning cigarettes in dark sedans.",
+        "Maintain an unyielding personal moral code in a world where everyone else has sold out."
+],
+      ruInstructions: [
+        "Ведите повествование от лица уставшего, циничного частного детектива, знающего изнанку города.",
+        "Используйте фирменные хлесткие нуарные сравнения, пропитанные иронией и горечью.",
+        "Создавайте визуальный контраст: свет сквозь жалюзи, тлеющая сигарета в темноте, мокрый асфальт ночных улиц.",
+        "Сохраняйте несгибаемый внутренний кодекс чести героя в насквозь коррумпированном мире."
+],
+      semanticType: "writing_style",
+      tags: ["creative","noir","hardboiled","detective","raymond-chandler","voice"],
+    }),
+  },
+
+  "cosmic-existential-wonder-sagan": {
+    id: "cosmic-existential-wonder-sagan",
+    name: "CosmicExistentialWonderSaganSkill",
+    displayName: "Cosmic Wonder & Astrobiological Prose (Carl Sagan Style)",
+    categoryId: "creative",
+    description: "Writes uplifting, scientifically grounded cosmic literature (Carl Sagan / Ted Chiang style), evoking profound awe for the universe, deep time, and humanity fragile existence.",
+    tags: ["creative","cosmic-wonder","carl-sagan","astronomy","lyrical-science"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cosmic Wonder & Existential Prose Protocol",
+      ruSectionName: "Протокол космического благоговения и научной лирики (Carl Sagan Style)",
+      instructions: [
+        "Bridge rigorous astrophysical facts with breathtaking poetic and philosophical grandeur.",
+        "Evoke the dizzying scale of deep time (billions of years) and vast interstellar distances.",
+        "Frame humanity fragile consciousness as the universe way of knowing itself.",
+        "Inspire humility, profound empathy, and cosmic stewardship for our pale blue dot."
+],
+      ruInstructions: [
+        "Соединяйте строгие астрофизические факты с захватывающим дух философским и поэтическим величием.",
+        "Передавайте головокружительный масштаб глубокого времени (миллиарды лет) и межзвездных расстояний.",
+        "Показывайте человеческий разум как удивительный способ Вселенной познать саму себя.",
+        "Вдохновляйте на бережное отношение к жизни на нашей хрупкой голубой планете."
+],
+      semanticType: "writing_style",
+      tags: ["creative","cosmic-wonder","carl-sagan","astronomy","lyrical-science"],
+    }),
+  },
+
+  "nonlinear-time-loop-narrative": {
+    id: "nonlinear-time-loop-narrative",
+    name: "NonlinearTimeLoopNarrativeSkill",
+    displayName: "Non-Linear Timeline & Causal Time-Loop Architecture",
+    categoryId: "creative",
+    description: "Architects mind-bending non-linear narratives (Memento / Dark style) with causal bootstrap paradoxes, fragmented timelines, and intersecting memory anchors.",
+    tags: ["creative","time-loop","non-linear","bootstrap-paradox","sci-fi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Non-Linear Time-Loop Narrative Protocol",
+      ruSectionName: "Архитектурный протокол нелинейного времени и временных петель (Time Loop & Paradoxes)",
+      instructions: [
+        "Map narrative across multiple chronological threads with explicit temporal anchor markers: [Timeline Alpha: 2054], [Timeline Beta: 1986].",
+        "Engineer airtight causal bootstrap paradoxes where future events cause their own past origins.",
+        "Use recurring symbolic objects (a pocket watch, a scar, a song) to ground the reader across timeline transitions.",
+        "Converge disparate temporal threads into a breathtaking, unified revelation at the climax."
+],
+      ruInstructions: [
+        "Размечайте повествование по нескольким временным линиям с четкими маркерами: [Линия А: 2054 год], [Линия Б: 1986 год].",
+        "Выстраивайте логически замкнутые причинно-следственные петли, где следствие порождает собственную причину.",
+        "Используйте сквозные материальные якоря (часы, шрам, мелодия) для ориентации читателя при смене эпох.",
+        "Сводите все временные потоки в единую ошеломляющую кульминационную развязку."
+],
+      semanticType: "writing_style",
+      tags: ["creative","time-loop","non-linear","bootstrap-paradox","sci-fi"],
+    }),
+  },
+
+  "fable-parable-allegorical-lore": {
+    id: "fable-parable-allegorical-lore",
+    name: "FableParableAllegoricalLoreSkill",
+    displayName: "Timeless Fable, Mythological Parable & Allegory",
+    categoryId: "creative",
+    description: "Crafts timeless parables and allegorical folklore (Aesop / Borges / Calvino style) exploring universal human truths through animal archetypes, enchanted labyrinths, and symbolic journeys.",
+    tags: ["creative","fables","parables","allegory","mythology","borges"],
+    transform: createStandardSkillTransform({
+      sectionName: "Allegorical Fable & Parable Protocol",
+      ruSectionName: "Протокол притчи, иносказания и философской басни (Allegorical Parable)",
+      instructions: [
+        "Adopt a simple, rhythmic, and timeless mythological cadence: \"In a kingdom where mirrors were forbidden...\".",
+        "Embody abstract human virtues, vices, and technological dilemmas in concrete allegorical symbols.",
+        "Avoid heavy-handed moralizing; allow the moral insight to bloom organically in the reader mind.",
+        "Leave an open, contemplative resonance that invites multiple layers of philosophical interpretation."
+],
+      ruInstructions: [
+        "Используйте лаконичный, напевный и вневременной былинный слог: \"В те времена, когда зеркала были под запретом...\".",
+        "Воплощайте человеческие добродетели, пороки и технологические дилеммы в осязаемых символах и аллегориях.",
+        "Избегайте прямолинейного морализаторства; позвольте смыслу притчи раскрыться в размышлениях читателя.",
+        "Оставляйте пространство для многоуровневого толкования философского подтекста истории."
+],
+      semanticType: "writing_style",
+      tags: ["creative","fables","parables","allegory","mythology","borges"],
+    }),
+  },
+
+  "satirical-black-comedy-voice": {
+    id: "satirical-black-comedy-voice",
+    name: "SatiricalBlackComedyVoiceSkill",
+    displayName: "Satirical Black Comedy & Absurdist Social Critique",
+    categoryId: "creative",
+    description: "Channels biting social satire and dark comedy (Dr. Strangelove / Catch-22 / Succession style), exposing corporate absurdity, institutional hypocrisy, and human hubris.",
+    tags: ["creative","satire","black-comedy","absurdism","social-critique"],
+    transform: createStandardSkillTransform({
+      sectionName: "Satirical Black Comedy Protocol",
+      ruSectionName: "Протокол едкой сатиры и черной комедии (Satirical Black Comedy)",
+      instructions: [
+        "Expose institutional hypocrisy by taking absurd organizational logic to its extreme, literal conclusion.",
+        "Juxtapose catastrophic stakes with petty, trivial bureaucratic squabbling.",
+        "Write sharp, acidic dialogue where characters mask selfish ambition behind pious corporate buzzwords.",
+        "Evoke dark, uncomfortable laughter that forces critical reflection on societal absurdities."
+],
+      ruInstructions: [
+        "Вскрывайте лицемерие институтов власти, доводя их абсурдную логику до буквального гротескного предела.",
+        "Сопоставляйте глобальные катастрофические события с мелкими эгоистичными склоками чиновников и менеджеров.",
+        "Пишите едкие диалоги, в которых герои прикрывают циничный карьеризм благочестивыми корпоративными лозунгами.",
+        "Вызывайте горький очищающий смех, побуждающий задуматься над реальными пороками общества."
+],
+      semanticType: "writing_style",
+      tags: ["creative","satire","black-comedy","absurdism","social-critique"],
+    }),
+  },
+
+  "intimate-epistolary-novel-letters": {
+    id: "intimate-epistolary-novel-letters",
+    name: "IntimateEpistolaryNovelLettersSkill",
+    displayName: "Epistolary Novel & Fragmented Journal Narrative",
+    categoryId: "creative",
+    description: "Structures fiction through intimate letters, diary entries, decrypted chat logs, and field reports, revealing gradual plot secrets through authentic personal documents.",
+    tags: ["creative","epistolary","letters","diary","found-documents","fiction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Epistolary Narrative Protocol",
+      ruSectionName: "Протокол эпистолярной прозы и найденных документов (Epistolary Novel)",
+      instructions: [
+        "Format story as a curated dossier of letters, journal pages, audio transcripts, and classified memos.",
+        "Capture intimate psychological evolution through the changing handwriting tone and urgency of the writer.",
+        "Reveal plot twists through dramatic irony: allow the reader to connect clues hidden across disparate letters.",
+        "Impart an authentic sense of historical discovery and intimate confession."
+],
+      ruInstructions: [
+        "Оформляйте повествование как подборку писем, страниц дневника, расшифровок аудиозаписей и служебных записок.",
+        "Передавайте психологическую эволюцию автора через постепенное изменение тональности и стиля писем.",
+        "Используйте драматическую иронию: позволяйте читателю сопоставлять факты из разных писем раньше героев.",
+        "Создавайте у читателя волнующее чувство погружения в подлинные исторические свидетельства и тайные признания."
+],
+      semanticType: "writing_style",
+      tags: ["creative","epistolary","letters","diary","found-documents","fiction"],
+    }),
+  },
 };

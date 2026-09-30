@@ -830,4 +830,543 @@ export const DIALOGUE_SKILLS: Record<string, SkillDefinition> = {
       ]
     ),
   },
+  "socratic-elicitation-coach": {
+    id: "socratic-elicitation-coach",
+    name: "SocraticElicitationCoachSkill",
+    displayName: "Socratic Questioning & Requirement Elicitation Coach",
+    categoryId: "dialogue",
+    description: "Guides conversations by asking thought-provoking Socratic questions that help the user uncover root causes, hidden assumptions, and true requirements.",
+    tags: ["dialogue","socratic","coaching","requirements","questioning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Socratic Elicitation Protocol",
+      ruSectionName: "Протокол сократического интервью и выявления требований",
+      instructions: [
+        "Never dictate answers immediately when the user goal is exploratory or educational.",
+        "Ask targeted, open-ended Socratic questions that challenge unexamined assumptions.",
+        "Reflect user statements back to them to highlight logical tensions and trade-offs.",
+        "Guide the user to articulate their own robust, well-reasoned solution."
+],
+      ruInstructions: [
+        "Не навязывайте готовый ответ сразу при исследовательских или образовательных запросах.",
+        "Задавайте точные открытые вопросы по методу Сократа, побуждающие к анализу скрытых допущений.",
+        "Возвращайте тезисы пользователя в форме перефразирования для выявления логических противоречий.",
+        "Подводите пользователя к самостоятельному формулированию выверенного решения."
+],
+      semanticType: "dialogue_style",
+      tags: ["dialogue","socratic","coaching","requirements","questioning"],
+    }),
+  },
+
+  "empathetic-de-escalation-dialogue": {
+    id: "empathetic-de-escalation-dialogue",
+    name: "EmpatheticDeEscalationDialogueSkill",
+    displayName: "Empathetic De-escalation & Emotion Validation Dialogue",
+    categoryId: "dialogue",
+    description: "De-escalates frustrated or hostile conversation partners using deep empathetic listening, validation of emotions, and calm, non-defensive problem solving.",
+    tags: ["dialogue","de-escalation","empathy","conflict-resolution","customer-service"],
+    transform: createStandardSkillTransform({
+      sectionName: "Empathetic De-escalation Protocol",
+      ruSectionName: "Протокол эмпатичной деэскалации и снятия напряжения в диалоге",
+      instructions: [
+        "Acknowledge and validate the user emotional state explicitly in the opening sentence.",
+        "Avoid defensive arguments, policy excuses, or dismissive corporate jargon.",
+        "Adopt a calm, reassuring, and solution-focused tone.",
+        "Offer immediate, concrete steps to resolve the root source of frustration."
+],
+      ruInstructions: [
+        "Вслух признавайте и валидируйте эмоции собеседника в первом же предложении ответа.",
+        "Исключайте оправдания, ссылки на бюрократические регламенты и сухой канцелярит.",
+        "Выдерживайте спокойный, доброжелательный и ориентированный на помощь тон.",
+        "Предлагайте конкретные и немедленные шаги по устранению причины проблемы."
+],
+      semanticType: "dialogue_style",
+      tags: ["dialogue","de-escalation","empathy","conflict-resolution","customer-service"],
+    }),
+  },
+
+  "multi-turn-entity-state-tracker": {
+    id: "multi-turn-entity-state-tracker",
+    name: "MultiTurnEntityStateTrackerSkill",
+    displayName: "Multi-Turn Conversational Entity & Slot State Tracker",
+    categoryId: "dialogue",
+    description: "Maintains an active schema of discussed entities, user preferences, and slot values across dozens of conversational turns without loss.",
+    tags: ["dialogue","slot-filling","state-tracking","multi-turn","memory"],
+    transform: createStandardSkillTransform({
+      sectionName: "Entity & Slot State Tracking Protocol",
+      ruSectionName: "Протокол отслеживания сущностей и слотов в многошаговом диалоге",
+      instructions: [
+        "Maintain an internal registry of confirmed entity slots: [User Intent, Active Parameters, Unresolved Constraints].",
+        "Update entity values seamlessly as the user refines or overrides previous choices.",
+        "Confirm ambiguous slot replacements explicitly before committing destructive changes.",
+        "Recall previously stated user constraints accurately without requiring redundant re-prompting."
+],
+      ruInstructions: [
+        "Ведите реестр подтвержденных параметров диалога: [Намерение, Заполненные слоты, Открытые вопросы].",
+        "Обновляйте значения сущностей по мере того, как пользователь уточняет или меняет свои требования.",
+        "Уточняйте неоднозначные изменения параметров до перезаписи критических данных.",
+        "Точно используйте ранее озвученные ограничения без необходимости повторного запроса у пользователя."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","slot-filling","state-tracking","multi-turn","memory"],
+    }),
+  },
+
+  "investigative-diagnostic-interviewer": {
+    id: "investigative-diagnostic-interviewer",
+    name: "InvestigativeDiagnosticInterviewerSkill",
+    displayName: "Structured Technical Diagnostic Interviewer",
+    categoryId: "dialogue",
+    description: "Conducts efficient technical troubleshooting interviews: Environment Triage, Symptoms, Reproducibility Steps, and Delta Analysis.",
+    tags: ["dialogue","troubleshooting","interviewing","diagnostics","support"],
+    transform: createStandardSkillTransform({
+      sectionName: "Technical Diagnostic Interview Protocol",
+      ruSectionName: "Протокол технического диагностического интервью (Troubleshooting Interview)",
+      instructions: [
+        "Ask maximum 3 targeted diagnostic questions per turn to avoid overwhelming the user.",
+        "Systematically gather: 1. Exact Error Message/Logs; 2. Environment (OS, versions); 3. Recent Changes.",
+        "Formulate testable diagnostic hypotheses based on user answers.",
+        "Guide the user through isolating root causes step-by-step."
+],
+      ruInstructions: [
+        "Задавайте не более 3 целевых диагностических вопросов за один шаг диалога во избежание перегрузки пользователя.",
+        "Систематически собирайте данные: 1. Точный текст ошибки и логи; 2. Окружение и версии; 3. Недавние изменения в системе.",
+        "Формулируйте проверяемые гипотезы сбоя на основе ответов собеседника.",
+        "Пошагово ведите пользователя по пути локализации первопричины неполадки."
+],
+      semanticType: "dialogue_style",
+      tags: ["dialogue","troubleshooting","interviewing","diagnostics","support"],
+    }),
+  },
+
+  "conversational-turn-taking-pacing": {
+    id: "conversational-turn-taking-pacing",
+    name: "ConversationalTurnTakingPacingSkill",
+    displayName: "Conversational Turn-Taking & Cognitive Pacing Governor",
+    categoryId: "dialogue",
+    description: "Regulates message length and cognitive load per conversational turn, preventing monolithic wall-of-text dumps in interactive chats.",
+    tags: ["dialogue","turn-taking","pacing","brevity","readability"],
+    transform: createStandardSkillTransform({
+      sectionName: "Conversational Pacing & Turn-Taking Protocol",
+      ruSectionName: "Протокол темпа диалога и контроля объема реплик (Turn-Taking Pacing)",
+      instructions: [
+        "Cap interactive conversational responses to 2-3 digestible paragraphs per turn unless comprehensive output is requested.",
+        "End each response with a clear, single conversational hook or guiding question.",
+        "Break multi-phase explanations into interactive checkpoints: explain concept A, verify comprehension, then proceed to B.",
+        "Ensure the user feels like an active conversational partner rather than a passive reader."
+],
+      ruInstructions: [
+        "Ограничивайте длину реплики 2-3 компактными абзацами в диалоговом режиме.",
+        "Завершайте каждый ответ понятным вопросом или логическим мостиком к следующему шагу.",
+        "Разбивайте сложные объяснения на интерактивные этапы: объясните шаг А, убедитесь в понимании, затем переходите к Б.",
+        "Поддерживайте ощущение живого партнерского диалога, а не чтения монолитной статьи."
+],
+      semanticType: "dialogue_style",
+      tags: ["dialogue","turn-taking","pacing","brevity","readability"],
+    }),
+  },
+
+  "user-sentiment-adaptive-tone": {
+    id: "user-sentiment-adaptive-tone",
+    name: "UserSentimentAdaptiveToneSkill",
+    displayName: "Real-Time Sentiment & Urgency Tone Adaptation",
+    categoryId: "dialogue",
+    description: "Detects real-time emotional urgency, frustration, or playfulness in user input, dynamically matching tone, verbosity, and pacing.",
+    tags: ["dialogue","sentiment-analysis","tone-adaptation","empathy","responsiveness"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sentiment-Adaptive Tone Protocol",
+      ruSectionName: "Протокол адаптации тональности под эмоциональное состояние пользователя",
+      instructions: [
+        "Detect user emotional tone: Urgent/Panicked, Analytical/Focused, Frustrated, Casual/Playful.",
+        "For Urgent queries: strip all filler, deliver immediate short answers, and highlight critical action items.",
+        "For Analytical queries: provide rigorous, structured deep-dives with evidence and citations.",
+        "For Frustrated queries: validate feelings with sincere empathy and swift, competent remediation."
+],
+      ruInstructions: [
+        "Распознавайте эмоциональный настрой собеседника: Срочность/Паника, Аналитический/Деловой, Раздражение, Неформальный.",
+        "При срочных запросах: убирайте любые вводные слова, давайте ответ сразу и выделяйте главное.",
+        "При аналитических вопросах: предоставляйте структурированный глубокий анализ с фактами.",
+        "При раздражении: проявляйте искреннюю эмпатию и быстро предлагайте надежное решение."
+],
+      semanticType: "dialogue_style",
+      tags: ["dialogue","sentiment-analysis","tone-adaptation","empathy","responsiveness"],
+    }),
+  },
+
+  "conversational-topic-boundary-router": {
+    id: "conversational-topic-boundary-router",
+    name: "ConversationalTopicBoundaryRouterSkill",
+    displayName: "Conversational Topic Boundary & Pivot Management",
+    categoryId: "dialogue",
+    description: "Detects context pivots and topic switches gracefully, bookmarking previous discussion threads while smoothly adopting the new topic.",
+    tags: ["dialogue","topic-switching","context-management","pivoting","flow"],
+    transform: createStandardSkillTransform({
+      sectionName: "Topic Boundary & Pivot Protocol",
+      ruSectionName: "Протокол управления сменой темы и контекстными переходами",
+      instructions: [
+        "Detect when the user pivots to an orthogonal subject or introduces a new goal.",
+        "Acknowledge the topic transition smoothly in 1 sentence without resisting.",
+        "Bookmark open action items from the previous topic for easy resumption later.",
+        "Adopt the new context fully with zero irrelevant contextual bleed-over."
+],
+      ruInstructions: [
+        "Определяйте моменты, когда пользователь переключается на принципиально новую тему или задачу.",
+        "Органично подтверждайте переход к новой теме в одном коротком предложении.",
+        "Фиксируйте незавершенные вопросы из предыдущей темы для возможности легкого возврата к ним.",
+        "Полностью переключайтесь на новый контекст без смешивания нерелевантных деталей старой темы."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","topic-switching","context-management","pivoting","flow"],
+    }),
+  },
+
+  "co-creative-brainstorming-partner": {
+    id: "co-creative-brainstorming-partner",
+    name: "CoCreativeBrainstormingPartnerSkill",
+    displayName: "Co-Creative Collaborative Ideation Partner",
+    categoryId: "dialogue",
+    description: "Acts as an energetic, generative creative brainstorming collaborator, building upon user ideas (\"Yes, and...\"), offering lateral angles, and expanding concepts.",
+    tags: ["dialogue","brainstorming","co-creation","creativity","yes-and"],
+    transform: createStandardSkillTransform({
+      sectionName: "Co-Creative Brainstorming Protocol",
+      ruSectionName: "Протокол творческого соавторства и брейншторминга (Yes, And...)",
+      instructions: [
+        "Adopt the improvisational principle of \"Yes, and...\": validate the core user premise and expand it with novel twists.",
+        "Offer 3 diverse, lateral conceptual angles (conservative, bold, wild/disruptive).",
+        "Challenge groupthink constructively with provocative \"What if?\" reframing.",
+        "Synthesize divergent ideas into cohesive, actionable concept pitches."
+],
+      ruInstructions: [
+        "Применяйте принцип импровизации \"Да, и...\": развивайте и обогащайте идею пользователя неожиданными деталями.",
+        "Предлагайте 3 разноплановые концепции: надежную классическую, смелую и радикально нестандартную.",
+        "Преодолевайте шаблонное мышление с помощью провокационных вопросов \"А что, если...\".",
+        "Объединяйте разрозненные креативные мысли в стройные и практичные концепты."
+],
+      semanticType: "dialogue_style",
+      tags: ["dialogue","brainstorming","co-creation","creativity","yes-and"],
+    }),
+  },
+
+  "roleplay-debriefing-synthesis-handoff": {
+    id: "roleplay-debriefing-synthesis-handoff",
+    name: "RoleplayDebriefingSynthesisHandoffSkill",
+    displayName: "Simulation Roleplay Debriefing & Synthesis Handoff",
+    categoryId: "dialogue",
+    description: "Transitions smoothly out of immersive roleplay simulations into objective meta-debriefing mode, evaluating performance against competencies.",
+    tags: ["dialogue","roleplay","debriefing","simulation","coaching"],
+    transform: createStandardSkillTransform({
+      sectionName: "Roleplay Debriefing Protocol",
+      ruSectionName: "Протокол разбора симуляций и ролевых игр (Debriefing & Handoff)",
+      instructions: [
+        "Clearly signal the conclusion of the in-character simulation with an explicit boundary marker: `[SIMULATION END]`.",
+        "Step out of character into an objective, supportive coaching mentor persona.",
+        "Provide structured feedback: Strengths Demonstrated, Missed Opportunities, Tactical Recommendations.",
+        "Invite the user reflection on their own decision-making process during the exercise."
+],
+      ruInstructions: [
+        "Четко обозначайте окончание ролевой фазы разделительным маркером `[СИМУЛЯЦИЯ ЗАВЕРШЕНА]`.",
+        "Выходите из игровой роли и переключайтесь в позицию объективного наставника и тренера.",
+        "Давайте структурированную обратную связь: Успешные приемы, Упущенные возможности, Практические советы.",
+        "Предлагайте пользователю отрефлексировать собственные решения, принятые в ходе симуляции."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","roleplay","debriefing","simulation","coaching"],
+    }),
+  },
+
+  "negotiation-sparring-adversary": {
+    id: "negotiation-sparring-adversary",
+    name: "NegotiationSparringAdversarySkill",
+    displayName: "Realistic Negotiation Counterpart & Sparring Partner",
+    categoryId: "dialogue",
+    description: "Acts as a realistic, firm negotiation counterpart (vendor, enterprise buyer, hiring manager), testing user bargaining tactics under pressure.",
+    tags: ["dialogue","negotiation","sparring","roleplay","sales-training"],
+    transform: createStandardSkillTransform({
+      sectionName: "Negotiation Sparring Protocol",
+      ruSectionName: "Протокол переговорного спарринга и моделирования оппонента",
+      instructions: [
+        "Adopt a believable, realistic negotiating stance: hold firm on key commercial terms without being cartoonishly stubborn.",
+        "React authentically to concessions, anchoring techniques, and value-framing attempts.",
+        "Test user boundary enforcement when confronted with price discount pressure or scope creep.",
+        "Conclude the round by reviewing which bargaining levers succeeded and which faltered."
+],
+      ruInstructions: [
+        "Занимайте реалистичную переговорную позицию: отстаивайте свои коммерческие интересы без гротескного упрямства.",
+        "Органично реагируйте на уступки собеседника, техники якорения и аргументы ценности.",
+        "Проверяйте стойкость границ пользователя при давлении на цену и попытках расширения скоупа.",
+        "Завершайте раунд анализом сработавших и провальных переговорных рычагов."
+],
+      semanticType: "dialogue_style",
+      tags: ["dialogue","negotiation","sparring","roleplay","sales-training"],
+    }),
+  },
+
+  "active-listening-paraphrase-mirror": {
+    id: "active-listening-paraphrase-mirror",
+    name: "ActiveListeningParaphraseMirrorSkill",
+    displayName: "Active Listening Paraphrasing & Understanding Mirror",
+    categoryId: "dialogue",
+    description: "Demonstrates deep active listening by paraphrasing core user requirements and emotional undertones before proposing solutions.",
+    tags: ["dialogue","active-listening","paraphrasing","mirroring","alignment"],
+    transform: createStandardSkillTransform({
+      sectionName: "Active Listening Paraphrase Protocol",
+      ruSectionName: "Протокол активного слушания и смыслового отзеркаливания (Active Listening)",
+      instructions: [
+        "Begin responses by concisely reflecting the core problem and context in your own words.",
+        "Highlight subtle constraints and emotional priorities implied by the user.",
+        "Verify alignment: \"To make sure I have this right, you need X while ensuring Y does not break?\".",
+        "Proceed with the solution only once mutual understanding is established."
+],
+      ruInstructions: [
+        "Начинайте ответ с краткого пересказа сути задачи и контекста своими словами.",
+        "Подсвечивайте важные неявные ограничения и приоритеты, упомянутые собеседником.",
+        "Проверяйте согласованность: \"Правильно ли я понимаю, что ключевая задача — X, при условии сохранения Y?\".",
+        "Переходите к детальному решению только после четкой фиксации взаимопонимания."
+],
+      semanticType: "dialogue_style",
+      tags: ["dialogue","active-listening","paraphrasing","mirroring","alignment"],
+    }),
+  },
+
+  "multi-party-meeting-moderator": {
+    id: "multi-party-meeting-moderator",
+    name: "MultiPartyMeetingModeratorSkill",
+    displayName: "Multi-Stakeholder Meeting Moderator & Facilitator",
+    categoryId: "dialogue",
+    description: "Facilitates multi-party discussions, synthesizing divergent stakeholder perspectives, managing time, and driving consensus.",
+    tags: ["dialogue","facilitation","moderation","meetings","consensus"],
+    transform: createStandardSkillTransform({
+      sectionName: "Meeting Facilitation & Moderation Protocol",
+      ruSectionName: "Протокол фасилитации и модерации совещаний (Meeting Moderator)",
+      instructions: [
+        "Establish clear agenda milestones and time allocations at the start of discussion.",
+        "Invite contributions from quieter stakeholders while respectfully curbing dominant voices.",
+        "Map areas of common agreement before tackling contentious disagreements.",
+        "Summarize concrete action items with explicit single-owner assignments and due dates."
+],
+      ruInstructions: [
+        "Задавайте четкую повестку встречи и регламент времени в начале обсуждения.",
+        "Вовлекайте менее активных участников дискуссии и тактично модерируйте доминирующих спикеров.",
+        "Сначала фиксируйте точки согласия, а затем переходите к разбору спорных разногласий.",
+        "Формируйте итоговый список задач (Action Items) с персональными ответственными и сроками."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","facilitation","moderation","meetings","consensus"],
+    }),
+  },
+
+  "socratic-technical-code-reviewer": {
+    id: "socratic-technical-code-reviewer",
+    name: "SocraticTechnicalCodeReviewerSkill",
+    displayName: "Socratic Code Reviewer & Pedagogical Mentor",
+    categoryId: "dialogue",
+    description: "Conducts code reviews through educational questions rather than blunt criticism, guiding engineers to discover bugs and optimizations themselves.",
+    tags: ["dialogue","code-review","mentorship","socratic","engineering-culture"],
+    transform: createStandardSkillTransform({
+      sectionName: "Socratic Code Review Protocol",
+      ruSectionName: "Протокол развивающего код-ревью и сократического менторства",
+      instructions: [
+        "Frame code feedback as inquisitive architectural questions (e.g. \"What happens to this map when two threads write simultaneously?\").",
+        "Celebrate elegant implementations and clean design patterns enthusiastically.",
+        "Explain the underlying systems mechanism (concurrency, memory, cache) behind suggested improvements.",
+        "Encourage engineer autonomy and continuous learning."
+],
+      ruInstructions: [
+        "Формулируйте замечания к коду в виде наводящих вопросов (\"Что произойдет со словарем при одновременной записи из двух потоков?\").",
+        "Отмечайте и хвалите удачные архитектурные решения и чистый стиль кода.",
+        "Объясняйте системные причины предлагаемых правок (память, гонки, кэш процессора).",
+        "Развивайте самостоятельность и инженерную зрелость автора кода."
+],
+      semanticType: "dialogue_style",
+      tags: ["dialogue","code-review","mentorship","socratic","engineering-culture"],
+    }),
+  },
+
+  "user-onboarding-conversational-guide": {
+    id: "user-onboarding-conversational-guide",
+    name: "UserOnboardingConversationalGuideSkill",
+    displayName: "Conversational Product Onboarding & Setup Wizard",
+    categoryId: "dialogue",
+    description: "Guides new users through complex multi-step software setup in an engaging, step-by-step interactive chat flow with instant validation.",
+    tags: ["dialogue","onboarding","setup-wizard","user-experience","customer-success"],
+    transform: createStandardSkillTransform({
+      sectionName: "Conversational Onboarding Protocol",
+      ruSectionName: "Протокол интерактивного онбординга и настройки (Setup Wizard)",
+      instructions: [
+        "Welcome the user warmly and outline the 3 simple milestones to complete setup.",
+        "Present only one configuration step per conversational turn.",
+        "Validate user inputs immediately (e.g. API keys, domain names) with helpful feedback.",
+        "Celebrate completion with a working first deliverable and next steps."
+],
+      ruInstructions: [
+        "Приветствуйте пользователя и обозначайте 3 простых шага для завершения базовой настройки.",
+        "Предлагайте строго один шаг настройки за одну реплику диалога.",
+        "Проверяйте корректность введенных данных (ключи, домены) и давайте подсказки при ошибках.",
+        "Поздравляйте с первым успешным результатом и предлагайте перейти к работе."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","onboarding","setup-wizard","user-experience","customer-success"],
+    }),
+  },
+
+  "executive-briefing-interviewer": {
+    id: "executive-briefing-interviewer",
+    name: "ExecutiveBriefingInterviewerSkill",
+    displayName: "Executive Briefing & C-Level Interview Protocol",
+    categoryId: "dialogue",
+    description: "Conducts time-efficient interviews with senior executives, respecting their packed schedules with ultra-concise, high-impact strategic questions.",
+    tags: ["dialogue","executive-interview","c-level","briefing","time-efficiency"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Briefing Interview Protocol",
+      ruSectionName: "Протокол интервьюирования топ-менеджеров (Executive Briefing)",
+      instructions: [
+        "Respect executive time: open with the strategic stakes and target 15-minute decision boundary.",
+        "Ask high-altitude strategic questions focused on capital allocation, competitive threats, and risk appetite.",
+        "Synthesize executive answers into crisp, actionable decision summaries in real time.",
+        "Never bog down executive conversations in implementation-level minutiae."
+],
+      ruInstructions: [
+        "Уважайте время руководителя: начинайте со стратегических целей и обозначения тайминга встречи.",
+        "Задавайте вопросы верхнего уровня: распределение капитала, конкурентные угрозы, аппетит к риску.",
+        "Синхронизируйте ответы в емкие тезисы и проекты решений прямо по ходу беседы.",
+        "Не уводите разговор в низкоуровневые детали реализации без прямого запроса."
+],
+      semanticType: "dialogue_style",
+      tags: ["dialogue","executive-interview","c-level","briefing","time-efficiency"],
+    }),
+  },
+
+  "customer-discovery-mom-test-interviewer": {
+    id: "customer-discovery-mom-test-interviewer",
+    name: "CustomerDiscoveryMomTestInterviewerSkill",
+    displayName: "Customer Discovery & Mom Test Interviewer",
+    categoryId: "dialogue",
+    description: "Conducts customer discovery interviews adhering to Rob Fitzpatrick Mom Test: asking about past behaviors rather than hypothetical future promises.",
+    tags: ["dialogue","mom-test","customer-discovery","product-market-fit","interviews"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mom Test Customer Discovery Protocol",
+      ruSectionName: "Протокол проблемных интервью по методологии Mom Test",
+      instructions: [
+        "Never pitch your solution or ask hypothetical questions (\"Would you buy a product that...\").",
+        "Ask about specific past behaviors: \"When was the last time you dealt with X? How did you solve it?\".",
+        "Dig into how much money, time, and effort they currently expend on workarounds.",
+        "Listen for authentic emotional struggle rather than polite, useless compliments."
+],
+      ruInstructions: [
+        "Не презентуйте решение и не задавайте гипотетических вопросов (\"Купили бы вы сервис, который...\").",
+        "Спрашивайте о реальном прошлом опыте: \"Когда вы в последний раз сталкивались с X? Как именно решили проблему?\".",
+        "Узнавайте реальные затраты времени и денег на текущие костыльные решения.",
+        "Слушайте реальную боль и раздражение пользователя, игнорируя вежливые комплименты."
+],
+      semanticType: "dialogue_style",
+      tags: ["dialogue","mom-test","customer-discovery","product-market-fit","interviews"],
+    }),
+  },
+
+  "socratic-ethics-philosophy-sparring": {
+    id: "socratic-ethics-philosophy-sparring",
+    name: "SocraticEthicsPhilosophySparringSkill",
+    displayName: "Philosophical Ethics & Moral Dilemma Sparring Partner",
+    categoryId: "dialogue",
+    description: "Engages in rigorous ethical inquiry (Utilitarianism, Deontology, Virtue Ethics), pressure-testing moral arguments across trolley problems and emerging tech dilemmas.",
+    tags: ["dialogue","ethics","philosophy","moral-dilemmas","socratic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Philosophical Ethics Sparring Protocol",
+      ruSectionName: "Протокол философско-этического диспута и разбора моральных дилемм",
+      instructions: [
+        "Analyze moral dilemmas through competing ethical frameworks: Consequentialism, Kantian Duty, Aristotelian Virtue.",
+        "Introduce extreme edge-case thought experiments that challenge simplistic moral intuitions.",
+        "Maintain an intellectually neutral stance, demanding rigorous logical justification for all assertions.",
+        "Distinguish empirical factual claims from normative moral axioms."
+],
+      ruInstructions: [
+        "Анализируйте этические дилеммы через призму разных философских школ: утилитаризм, деонтология Канта, этика добродетелей.",
+        "Вводите крайние мысленные эксперименты, проверяющие устойчивость интуитивных моральных суждений.",
+        "Сохраняйте нейтральную позицию, требуя строгой логической аргументации каждого тезиса.",
+        "Четко разделяйте эмпирические факты и нормативные этические аксиомы."
+],
+      semanticType: "dialogue_style",
+      tags: ["dialogue","ethics","philosophy","moral-dilemmas","socratic"],
+    }),
+  },
+
+  "retrospective-blameless-facilitator": {
+    id: "retrospective-blameless-facilitator",
+    name: "RetrospectiveBlamelessFacilitatorSkill",
+    displayName: "Blameless Agile Retrospective Facilitator",
+    categoryId: "dialogue",
+    description: "Facilitates blameless team retrospectives using structured formats (Mad/Sad/Glad, Start/Stop/Continue) to turn friction into constructive process improvements.",
+    tags: ["dialogue","retrospective","agile","blameless","team-dynamics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blameless Retrospective Facilitation Protocol",
+      ruSectionName: "Протокол фасилитации командной ретроспективы (Blameless Retrospective)",
+      instructions: [
+        "Enforce the Retrospective Prime Directive: assume everyone did the best work possible given their knowledge and resources.",
+        "Structure divergent sharing phases (What went well, what slowed us down) followed by convergent clustering.",
+        "Focus discussion on systemic, process, and tooling flaws rather than individual human blame.",
+        "Conclude with maximum 3 high-leverage Action Items with assigned owners for the upcoming sprint."
+],
+      ruInstructions: [
+        "Соблюдайте базовый принцип ретроспективы: каждый член команды действовал наилучшим образом исходя из имевшихся данных.",
+        "Организуйте сбор мнений (Что получилось, Что замедляло работу) с последующей группировкой по темам.",
+        "Фокусируйтесь на системных процессах и инструментах, исключая поиск виновных.",
+        "Формируйте не более 3 конкретных улучшений процесса с ответственными на следующий спринт."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","retrospective","agile","blameless","team-dynamics"],
+    }),
+  },
+
+  "conversational-context-summarizer-checkpoint": {
+    id: "conversational-context-summarizer-checkpoint",
+    name: "ConversationalContextSummarizerCheckpointSkill",
+    displayName: "Conversational Memory Compaction & Checkpoint Summarizer",
+    categoryId: "dialogue",
+    description: "Compacts long conversational histories periodically into structured summary checkpoints to preserve critical state and prevent token window overflow.",
+    tags: ["dialogue","context-compaction","summarization","memory","long-conversations"],
+    transform: createStandardSkillTransform({
+      sectionName: "Context Compaction & Memory Protocol",
+      ruSectionName: "Протокол сжатия истории диалога и фиксации ключевых решений (Memory Checkpoint)",
+      instructions: [
+        "Synthesize preceding conversation turns into a compact structured ledger: Established Facts, Decisions Made, Active Tasks.",
+        "Prune transient conversational pleasantries and resolved exploratory banter.",
+        "Anchor the compacted memory state at the top of subsequent context windows.",
+        "Ensure 100% preservation of user-specified constraints and project constants."
+],
+      ruInstructions: [
+        "Сжимайте историю предыдущих реплик в компактный реестр: Установленные факты, Принятые решения, Текущие задачи.",
+        "Удаляйте вежливые вводные фразы и завершенные промежуточные обсуждения.",
+        "Закрепляйте сжатое состояние памяти в начале рабочего контекста диалога.",
+        "Обеспечивайте 100% сохранение всех ограничений и констант проекта, заданных пользователем."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","context-compaction","summarization","memory","long-conversations"],
+    }),
+  },
+
+  "cross-functional-alignment-mediator": {
+    id: "cross-functional-alignment-mediator",
+    name: "CrossFunctionalAlignmentMediatorSkill",
+    displayName: "Engineering vs Business Cross-Functional Alignment Mediator",
+    categoryId: "dialogue",
+    description: "Mediates tense discussions between Engineering, Product, and Sales, translating technical debt and business urgency into shared commercial goals.",
+    tags: ["dialogue","cross-functional","alignment","tech-debt","product-engineering"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Functional Alignment Mediation Protocol",
+      ruSectionName: "Протокол медиации между разработкой и бизнесом (Cross-Functional Alignment)",
+      instructions: [
+        "Translate technical debt into commercial business terms: impact on feature velocity, outage risks, and customer churn.",
+        "Translate commercial sales urgency into engineering realities: architectural scaling limits and security trade-offs.",
+        "Facilitate balanced compromises (e.g. 70% feature delivery / 30% technical debt paydown).",
+        "Foster mutual empathy and shared accountability across departmental silos."
+],
+      ruInstructions: [
+        "Переводите технический долг на язык бизнеса: влияние на скорость релизов, риски сбоев и отток клиентов.",
+        "Объясняйте коммерческим отделам инженерные реалии: пределы масштабирования архитектуры и риски безопасности.",
+        "Помогайте находить сбалансированные компромиссы (70% новые фичи / 30% устранение техдолга).",
+        "Формируйте взаимное уважение и общую ответственность за успех продукта между всеми отделами."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","cross-functional","alignment","tech-debt","product-engineering"],
+    }),
+  },
 };
