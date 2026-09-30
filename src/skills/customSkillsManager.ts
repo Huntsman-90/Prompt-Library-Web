@@ -38,7 +38,7 @@ function notifyListeners(): void {
 
 /**
  * Creates an executable transform function for a user-defined custom skill.
- * Supports flexible transformation modes: Section Injection, Template Wrapper, Prepend, Append, and Freeform.
+ * Supports flexible transformation modes: Freeform (default), Section Injection, Template Wrapper, Prepend, and Append.
  */
 export function createUserSkillTransform(userSkill: UserSkill): (prompt: string, context?: Record<string, any>) => string {
   return (prompt: string, _context?: Record<string, any>): string => {
@@ -55,6 +55,7 @@ export function createUserSkillTransform(userSkill: UserSkill): (prompt: string,
     
     // Parse directives from user input
     let directivesText = userSkill.transformationDirectives || '';
+    const hasPromptToken = /\{\{prompt\}\}|\{\{input\}\}|\[\[prompt\]\]|\[\[input\]\]/i.test(directivesText);
     
     // Interpolate template variables
     directivesText = directivesText
@@ -65,32 +66,73 @@ export function createUserSkillTransform(userSkill: UserSkill): (prompt: string,
       .replace(/\[\[input\]\]/gi, cleanedInput)
       .replace(/\[\[target_issue\]\]/gi, task);
 
-    const mode = userSkill.transformationMode || 'section';
+    const mode = userSkill.transformationMode || 'freeform';
 
-    // Mode 1: Full Template Wrapper
+    // If text explicitly contained {{prompt}} or {{input}}, treat as natural template interpolation
+    if (hasPromptToken) {
+      return directivesText.trim();
+    }
+
+    // Mode: Full Template Wrapper
     if (mode === 'template') {
-      if (directivesText.includes('{{prompt}}') || directivesText.includes('{{input}}')) {
-        return directivesText;
-      }
       if (!cleanedInput) {
         return directivesText.trim();
       }
       return `${directivesText.trim()}\n\n${cleanedInput}`.trim();
     }
 
-    // Mode 2: Prepend
+    // Mode: Prepend
     if (mode === 'prepend') {
       if (!cleanedInput) return directivesText.trim();
       return `${directivesText.trim()}\n\n${cleanedInput}`.trim();
     }
 
-    // Mode 3: Append
+    // Mode: Append
     if (mode === 'append') {
       if (!cleanedInput) return directivesText.trim();
       return `${cleanedInput}\n\n${directivesText.trim()}`.trim();
     }
 
-    // Mode 4 & 5: Structured Section / Freeform Section Injection
+    // Mode: Freeform (Default natural behavior)
+    if (mode === 'freeform') {
+      if (!cleanedInput) {
+        return directivesText.trim();
+      }
+
+      // If user provided their own Markdown headers in directives
+      if (/^#{1,4}\s+/m.test(directivesText)) {
+        return `${cleanedInput}\n\n${directivesText.trim()}`.trim();
+      }
+
+      // If input already has structured sections, integrate cleanly under skill title
+      const { preamble, sections } = parsePromptSections(cleanedInput);
+      if (sections.length > 0) {
+        const title = userSkill.customSectionTitle?.trim() || userSkill.displayName.trim();
+        const cleanSectionTitle = title.replace(/^#{1,4}\s*/, '').trim();
+        const directiveLines = directivesText
+          .split('\n')
+          .map((l) => l.trimEnd())
+          .filter((l) => l.length > 0);
+
+        ensureSection(
+          sections,
+          (userSkill.targetSection as any) || 'process_directive',
+          cleanSectionTitle,
+          cleanSectionTitle,
+          directiveLines,
+          directiveLines,
+          isRu
+        );
+        return reconstructPrompt(preamble, deduplicatePromptSections(sections, isRu));
+      }
+
+      // Otherwise append naturally as a clear directive block
+      const title = userSkill.customSectionTitle?.trim() || userSkill.displayName.trim();
+      const cleanSectionTitle = title.replace(/^#{1,4}\s*/, '').trim();
+      return `${cleanedInput}\n\n### ${cleanSectionTitle}\n${directivesText.trim()}`.trim();
+    }
+
+    // Mode: Structured Section Injection
     const title = userSkill.customSectionTitle?.trim() || userSkill.displayName.trim();
     const cleanSectionTitle = title.replace(/^#{1,4}\s*/, '').trim();
 
@@ -205,7 +247,7 @@ export async function saveUserSkill(
     tags: Array.isArray(skillData.tags) ? skillData.tags : ['custom'],
     iconName: skillData.iconName || 'Zap',
     transformationDirectives: skillData.transformationDirectives.trim(),
-    transformationMode: skillData.transformationMode || 'section',
+    transformationMode: skillData.transformationMode || 'freeform',
     customSectionTitle: skillData.customSectionTitle?.trim(),
     targetSection: skillData.targetSection || 'protocol',
     isUserCreated: true,
