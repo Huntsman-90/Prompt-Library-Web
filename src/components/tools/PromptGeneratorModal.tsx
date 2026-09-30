@@ -245,14 +245,14 @@ export const PromptGeneratorModal: React.FC = () => {
 
               {/* Recommended Domain Skills Pills */}
               <div className="flex flex-wrap gap-1.5">
-                {['role-calibration', 'constraint-injection', ...domainSkills].map((id) => {
+                {['role-calibration', 'constraint-injection', ...domainSkills].map((id, idx) => {
                   const skill = SKILLS_REGISTRY[id];
                   if (!skill) return null;
                   const isSelected = selectedSkillIds.includes(id);
 
                   return (
                     <button
-                      key={id}
+                      key={`${id}-${idx}`}
                       type="button"
                       onClick={() => toggleSkill(id)}
                       className={`flex items-center gap-1 rounded-xl px-2.5 py-1 text-[11px] font-medium border transition ${
@@ -272,9 +272,9 @@ export const PromptGeneratorModal: React.FC = () => {
               {showAllCategories && (
                 <div className="rounded-2xl border border-slate-800 bg-slate-950 p-3 space-y-2 mt-2">
                   <div className="flex items-center gap-1 overflow-x-auto pb-1 text-xs no-scrollbar">
-                    {CATEGORIES.map((cat) => (
+                    {CATEGORIES.map((cat, idx) => (
                       <button
-                        key={cat.id}
+                        key={`${cat.id}-${idx}`}
                         type="button"
                         onClick={() => setActiveCategoryFilter(cat.id)}
                         className={`shrink-0 rounded-lg px-2 py-1 text-[11px] font-medium transition ${
@@ -289,11 +289,11 @@ export const PromptGeneratorModal: React.FC = () => {
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 pt-1 max-h-36 overflow-y-auto">
-                    {getSkillsByCategory(activeCategoryFilter).map((skill) => {
+                    {getSkillsByCategory(activeCategoryFilter).map((skill, idx) => {
                       const isSelected = selectedSkillIds.includes(skill.id);
                       return (
                         <div
-                          key={skill.id}
+                          key={`${skill.id}-${idx}`}
                           onClick={() => toggleSkill(skill.id)}
                           className={`flex items-center justify-between rounded-xl p-2 border cursor-pointer transition text-xs ${
                             isSelected
@@ -339,8 +339,8 @@ export const PromptGeneratorModal: React.FC = () => {
                   <span className="text-xs font-semibold text-slate-300">Generated Output:</span>
                   {appliedSkillNames.length > 0 && (
                     <div className="flex flex-wrap gap-1 mt-1">
-                      {appliedSkillNames.map((name) => (
-                        <span key={name} className="text-[10px] font-medium text-blue-300 bg-blue-950/70 border border-blue-500/30 px-1.5 py-0.2 rounded-md">
+                      {appliedSkillNames.map((name, idx) => (
+                        <span key={`${name}-${idx}`} className="text-[10px] font-medium text-blue-300 bg-blue-950/70 border border-blue-500/30 px-1.5 py-0.2 rounded-md">
                           ⚡ {name}
                         </span>
                       ))}

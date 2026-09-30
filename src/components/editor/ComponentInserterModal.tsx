@@ -96,18 +96,18 @@ export const ComponentInserterModal: React.FC<ComponentInserterModalProps> = ({
           </div>
         </div>
 
-        {/* Category Pills horizontal scroller */}
-        <div className="flex items-center gap-1.5 overflow-x-auto p-2.5 border-b border-slate-800/80 bg-slate-950 text-xs no-scrollbar">
-          {CATEGORIES.map((cat) => {
+        {/* Category Pills wrapper */}
+        <div className="flex flex-wrap items-center gap-1.5 p-2.5 border-b border-slate-800/80 bg-slate-950 text-xs max-w-full overflow-hidden max-h-32 overflow-y-auto">
+          {CATEGORIES.map((cat, idx) => {
             const count = getSkillsByCategory(cat.id).length;
             const isSelected = selectedCatId === cat.id;
             const isMySkills = cat.id === 'my_skills';
 
             return (
               <button
-                key={cat.id}
+                key={`${cat.id}-${idx}`}
                 onClick={() => setSelectedCatId(cat.id)}
-                className={`shrink-0 rounded-xl px-3 py-1.5 font-medium transition flex items-center gap-1.5 ${
+                className={`rounded-xl px-2.5 py-1 font-medium transition flex items-center gap-1 text-[11px] ${
                   isSelected
                     ? isMySkills
                       ? 'bg-amber-600 text-white shadow-sm'
@@ -117,8 +117,8 @@ export const ComponentInserterModal: React.FC<ComponentInserterModalProps> = ({
                     : 'bg-slate-900 text-slate-400 hover:text-white'
                 }`}
               >
-                <span>{cat.name}</span>
-                <span className="text-[10px] opacity-70 bg-black/30 px-1.5 py-0.2 rounded-full">
+                <span className="truncate max-w-[110px]">{cat.name}</span>
+                <span className="text-[9px] opacity-70 bg-black/30 px-1 py-0.2 rounded-full shrink-0">
                   {count}
                 </span>
               </button>
@@ -127,40 +127,43 @@ export const ComponentInserterModal: React.FC<ComponentInserterModalProps> = ({
         </div>
 
         {/* Skills list */}
-        <div className="flex-1 overflow-y-auto p-3 space-y-2.5">
+        <div className="flex-1 overflow-y-auto p-3 space-y-2.5 max-w-full overflow-x-hidden">
           {filteredSkills.length === 0 ? (
             <p className="text-center text-xs text-slate-500 py-10">No skills found in this category.</p>
           ) : (
-            filteredSkills.map((skill) => (
+            filteredSkills.map((skill, idx) => (
               <div
-                key={skill.id}
+                key={`${skill.id}-${idx}`}
                 onClick={() => handleSelectSkill(skill)}
-                className={`group flex flex-col justify-between rounded-xl border p-3 transition cursor-pointer ${
+                className={`group flex flex-col justify-between rounded-xl border p-3 transition cursor-pointer min-w-0 w-full max-w-full overflow-hidden ${
                   skill.isUserCreated
                     ? 'border-amber-500/40 bg-amber-950/20 hover:border-amber-400'
                     : 'border-slate-800 bg-slate-950/70 hover:border-indigo-500/50 hover:bg-slate-900/90'
                 }`}
               >
-                <div className="flex items-start justify-between gap-2">
-                  <div>
-                    <div className="flex items-center gap-1.5 mb-1 flex-wrap">
-                      <span className="font-mono text-[11px] font-bold text-indigo-400 bg-indigo-950/80 border border-indigo-500/30 px-1.5 py-0.5 rounded">
+                <div className="flex items-start justify-between gap-2 min-w-0">
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-1.5 mb-1 flex-wrap min-w-0 max-w-full">
+                      <span
+                        className="font-mono text-[10px] font-bold text-indigo-400 bg-indigo-950/80 border border-indigo-500/30 px-1.5 py-0.5 rounded truncate max-w-[130px] inline-block"
+                        title={skill.name}
+                      >
                         {skill.name}
                       </span>
                       {skill.isUserCreated && (
-                        <span className="text-[9px] font-bold text-amber-300 bg-amber-950/80 border border-amber-500/30 px-1.5 py-0.5 rounded-full flex items-center gap-0.5">
+                        <span className="text-[9px] font-bold text-amber-300 bg-amber-950/80 border border-amber-500/30 px-1.5 py-0.5 rounded-full flex items-center gap-0.5 shrink-0">
                           <Sparkles className="w-2.5 h-2.5 text-amber-400" />
                           Custom
                         </span>
                       )}
                       {skill.subSkills && skill.subSkills.length > 0 && (
-                        <span className="text-[9px] font-semibold text-amber-300 bg-amber-950/60 border border-amber-500/20 px-1.5 py-0.5 rounded-full flex items-center gap-1">
+                        <span className="text-[9px] font-semibold text-amber-300 bg-amber-950/60 border border-amber-500/20 px-1.5 py-0.5 rounded-full flex items-center gap-1 shrink-0">
                           <Layers className="w-2.5 h-2.5" />
                           Composite
                         </span>
                       )}
                     </div>
-                    <h4 className="text-xs font-semibold text-slate-100 group-hover:text-indigo-300">
+                    <h4 className="text-xs font-semibold text-slate-100 group-hover:text-indigo-300 line-clamp-2 break-words leading-snug">
                       {skill.displayName}
                     </h4>
                   </div>
@@ -171,14 +174,23 @@ export const ComponentInserterModal: React.FC<ComponentInserterModalProps> = ({
                   </button>
                 </div>
 
-                <p className="mt-1 text-[11px] text-slate-400 line-clamp-2">{skill.description}</p>
+                <p className="mt-1 text-[11px] text-slate-400 line-clamp-2 break-words">{skill.description}</p>
 
-                <div className="mt-2 flex flex-wrap gap-1">
-                  {skill.tags.map((t) => (
-                    <span key={t} className="rounded bg-slate-800 px-1.5 py-0.5 text-[9px] text-slate-400">
+                <div className="mt-2 flex flex-wrap gap-1 min-w-0 max-w-full">
+                  {skill.tags.slice(0, 3).map((t) => (
+                    <span
+                      key={t}
+                      className="rounded bg-slate-800 px-1.5 py-0.5 text-[9px] text-slate-400 truncate max-w-[85px] inline-block"
+                      title={t}
+                    >
                       #{t}
                     </span>
                   ))}
+                  {skill.tags.length > 3 && (
+                    <span className="rounded bg-slate-800/50 px-1 py-0.5 text-[9px] font-medium text-slate-500">
+                      +{skill.tags.length - 3}
+                    </span>
+                  )}
                 </div>
               </div>
             ))

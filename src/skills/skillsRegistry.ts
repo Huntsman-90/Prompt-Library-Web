@@ -286,5 +286,7 @@ export function detectSkillsInPrompt(prompt: string): SkillDefinition[] {
   addIfPresent('gtm-strategy-engine', /gtm strategy engine|вывода продукта на рынок/i);
   addIfPresent('agentic-task-solver', /agentic task solver|автономного агента/i);
 
-  return detected;
+  const uniqueMap = new Map<string, SkillDefinition>();
+  detected.forEach((s) => uniqueMap.set(s.id, s));
+  return Array.from(uniqueMap.values());
 }

@@ -140,8 +140,8 @@ export const ComponentCatalogView: React.FC = () => {
       </div>
 
       {/* Grid: 2 columns on mobile, 3-4 on desktop */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2.5 sm:gap-3">
-        {filteredCategories.map((cat) => {
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2.5 sm:gap-3 max-w-full overflow-hidden">
+        {filteredCategories.map((cat, idx) => {
           const Icon = ICON_MAP[cat.iconName] || Boxes;
           const skillsInCat = getSkillsByCategory(cat.id);
           const count = skillsInCat.length;
@@ -149,23 +149,23 @@ export const ComponentCatalogView: React.FC = () => {
 
           return (
             <div
-              key={cat.id}
+              key={`${cat.id}-${idx}`}
               onClick={() => setSelectedCategory(cat)}
-              className={`group relative flex flex-col justify-between rounded-2xl border p-3 sm:p-4 transition-all duration-200 cursor-pointer select-none active:scale-[0.98] ${
+              className={`group relative flex flex-col justify-between rounded-2xl border p-3 sm:p-4 transition-all duration-200 cursor-pointer select-none active:scale-[0.98] min-w-0 w-full max-w-full overflow-hidden ${
                 isMySkills
                   ? 'border-amber-500/40 bg-amber-950/20 hover:border-amber-400 hover:bg-amber-950/40'
                   : 'border-slate-800/80 bg-slate-900/60 hover:border-indigo-500/50 hover:bg-slate-900/90'
               }`}
             >
-              <div>
-                <div className="flex items-center justify-between gap-1 mb-2.5">
+              <div className="min-w-0">
+                <div className="flex items-center justify-between gap-1 mb-2.5 min-w-0">
                   <div
-                    className={`flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-tr ${cat.color} text-white shadow-md group-hover:scale-105 transition`}
+                    className={`flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-tr ${cat.color} text-white shadow-md group-hover:scale-105 transition shrink-0`}
                   >
                     <Icon className="w-4 h-4" />
                   </div>
                   <span
-                    className={`rounded-full px-2 py-0.5 text-[10px] font-semibold ${
+                    className={`rounded-full px-2 py-0.5 text-[10px] font-semibold shrink-0 truncate max-w-[85px] sm:max-w-none ${
                       isMySkills
                         ? 'bg-amber-950/80 border border-amber-500/30 text-amber-300'
                         : 'bg-indigo-950/80 border border-indigo-500/30 text-indigo-300'
@@ -176,26 +176,26 @@ export const ComponentCatalogView: React.FC = () => {
                 </div>
 
                 <h3
-                  className={`text-xs sm:text-sm font-bold transition line-clamp-1 ${
+                  className={`text-xs sm:text-sm font-bold transition line-clamp-1 break-words ${
                     isMySkills ? 'text-amber-200 group-hover:text-amber-100' : 'text-slate-100 group-hover:text-indigo-300'
                   }`}
                 >
                   {cat.name}
                 </h3>
-                <p className="mt-1 text-[11px] text-slate-400 line-clamp-2 leading-snug">
+                <p className="mt-1 text-[11px] text-slate-400 line-clamp-2 leading-snug break-words">
                   {cat.shortDesc}
                 </p>
               </div>
 
               <div
-                className={`mt-3 pt-2 border-t flex items-center justify-between text-[10px] font-medium ${
+                className={`mt-3 pt-2 border-t flex items-center justify-between text-[10px] font-medium min-w-0 ${
                   isMySkills
                     ? 'border-amber-900/40 text-amber-400 group-hover:text-amber-300'
                     : 'border-slate-800/50 text-indigo-400 group-hover:text-indigo-300'
                 }`}
               >
-                <span>{isMySkills ? 'Manage abilities' : 'Explore skills'}</span>
-                <span>→</span>
+                <span className="truncate">{isMySkills ? 'Manage abilities' : 'Explore skills'}</span>
+                <span className="shrink-0">→</span>
               </div>
             </div>
           );

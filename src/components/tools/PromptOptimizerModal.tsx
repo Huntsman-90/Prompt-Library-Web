@@ -180,9 +180,9 @@ export const PromptOptimizerModal: React.FC = () => {
               {detectedInputSkills.length > 0 && (
                 <div className="mt-1.5 flex items-center gap-1.5 flex-wrap">
                   <span className="text-[10px] text-slate-400 font-medium">Detected in Draft:</span>
-                  {detectedInputSkills.map((s) => (
+                  {detectedInputSkills.map((s, idx) => (
                     <span
-                      key={s.id}
+                      key={`${s.id}-${idx}`}
                       className="rounded-md bg-purple-950/70 border border-purple-500/30 px-1.5 py-0.5 text-[9px] font-medium text-purple-300 flex items-center gap-1"
                     >
                       <Zap className="w-2.5 h-2.5 text-amber-400 fill-amber-400" />
@@ -277,14 +277,14 @@ export const PromptOptimizerModal: React.FC = () => {
 
               {/* Quick toggle chips */}
               <div className="flex flex-wrap gap-1.5">
-                {SUGGESTED_ADDITIONAL_SKILLS.map((id) => {
+                {SUGGESTED_ADDITIONAL_SKILLS.map((id, idx) => {
                   const s = SKILLS_REGISTRY[id];
                   if (!s) return null;
                   const isSelected = extraSkills.includes(id);
 
                   return (
                     <button
-                      key={id}
+                      key={`${id}-${idx}`}
                       type="button"
                       onClick={() => toggleExtraSkill(id)}
                       className={`flex items-center gap-1 rounded-xl px-2.5 py-1 text-[11px] font-medium border transition ${
@@ -304,9 +304,9 @@ export const PromptOptimizerModal: React.FC = () => {
               {showSkillPicker && (
                 <div className="rounded-2xl border border-slate-800 bg-slate-950 p-3 space-y-2 mt-2">
                   <div className="flex items-center gap-1 overflow-x-auto pb-1 text-xs no-scrollbar">
-                    {CATEGORIES.map((cat) => (
+                    {CATEGORIES.map((cat, idx) => (
                       <button
-                        key={cat.id}
+                        key={`${cat.id}-${idx}`}
                         type="button"
                         onClick={() => setSkillCatFilter(cat.id)}
                         className={`shrink-0 rounded-lg px-2 py-1 text-[11px] font-medium transition ${
@@ -321,11 +321,11 @@ export const PromptOptimizerModal: React.FC = () => {
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 pt-1 max-h-36 overflow-y-auto">
-                    {getSkillsByCategory(skillCatFilter).map((skill) => {
+                    {getSkillsByCategory(skillCatFilter).map((skill, idx) => {
                       const isSelected = extraSkills.includes(skill.id);
                       return (
                         <div
-                          key={skill.id}
+                          key={`${skill.id}-${idx}`}
                           onClick={() => toggleExtraSkill(skill.id)}
                           className={`flex items-center justify-between rounded-xl p-2 border cursor-pointer transition text-xs ${
                             isSelected
@@ -398,9 +398,9 @@ export const PromptOptimizerModal: React.FC = () => {
                         <ShieldCheck className="w-3 h-3" />
                         Skills in Result ({detectedOutputSkills.length}):
                       </span>
-                      {detectedOutputSkills.map((s) => (
+                      {detectedOutputSkills.map((s, idx) => (
                         <span
-                          key={s.id}
+                          key={`${s.id}-${idx}`}
                           className="rounded-md bg-emerald-950/70 border border-emerald-500/30 px-1.5 py-0.5 text-[9px] font-medium text-emerald-300"
                         >
                           ✓ {s.displayName}

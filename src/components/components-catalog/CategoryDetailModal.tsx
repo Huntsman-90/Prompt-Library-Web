@@ -203,42 +203,49 @@ export const CategoryDetailModal: React.FC<CategoryDetailModalProps> = ({
               </button>
             </div>
           ) : (
-            filteredSkills.map((skill) => {
+            filteredSkills.map((skill, idx) => {
               const isExpanded = expandedPreviewId === skill.id;
               const samplePreview = skill.transform('');
 
               return (
                 <div
-                  key={skill.id}
-                  className={`rounded-2xl border p-4 transition ${
+                  key={`${skill.id}-${idx}`}
+                  className={`rounded-2xl border p-3.5 sm:p-4 transition w-full max-w-full overflow-hidden ${
                     skill.isUserCreated
                       ? 'border-amber-500/40 bg-amber-950/20 hover:border-amber-400'
                       : 'border-slate-800 bg-slate-950/70 hover:border-indigo-500/40'
                   }`}
                 >
-                  <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3 mb-2">
-                    <div>
-                      <div className="flex items-center gap-2 flex-wrap mb-1">
-                        <span className="font-mono text-xs font-bold text-indigo-400 bg-indigo-950/80 border border-indigo-500/30 px-2 py-0.5 rounded-lg">
+                  <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-2.5 mb-2 w-full min-w-0">
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-center gap-1.5 flex-wrap mb-1.5 max-w-full">
+                        <span
+                          className="font-mono text-[10px] sm:text-xs font-bold text-indigo-400 bg-indigo-950/80 border border-indigo-500/30 px-2 py-0.5 rounded-lg truncate max-w-[140px] sm:max-w-[220px] inline-block"
+                          title={skill.name}
+                        >
                           {skill.name}
                         </span>
 
                         {skill.isUserCreated && (
-                          <span className="text-[10px] font-bold text-amber-300 bg-amber-950/80 border border-amber-500/40 px-2 py-0.5 rounded-full flex items-center gap-1">
+                          <span className="text-[10px] font-bold text-amber-300 bg-amber-950/80 border border-amber-500/40 px-2 py-0.5 rounded-full flex items-center gap-1 shrink-0">
                             <Sparkles className="w-3 h-3 text-amber-400" />
-                            Custom User Skill
+                            Custom
                           </span>
                         )}
 
                         {skill.subSkills && skill.subSkills.length > 0 && (
-                          <span className="text-[10px] font-semibold text-amber-300 bg-amber-950/70 border border-amber-500/30 px-2 py-0.5 rounded-full flex items-center gap-1">
+                          <span className="text-[10px] font-semibold text-amber-300 bg-amber-950/70 border border-amber-500/30 px-2 py-0.5 rounded-full flex items-center gap-1 shrink-0">
                             <Layers className="w-3 h-3" />
-                            Composite ({skill.subSkills.length} Sub-skills)
+                            Composite ({skill.subSkills.length})
                           </span>
                         )}
                       </div>
-                      <h4 className="text-sm font-semibold text-slate-100">{skill.displayName}</h4>
-                      <p className="text-xs text-slate-400 mt-1 leading-relaxed">{skill.description}</p>
+                      <h4 className="text-xs sm:text-sm font-semibold text-slate-100 line-clamp-2 break-words leading-snug">
+                        {skill.displayName}
+                      </h4>
+                      <p className="text-xs text-slate-400 mt-1 leading-relaxed line-clamp-3 break-words">
+                        {skill.description}
+                      </p>
                     </div>
 
                     <div className="flex items-center gap-1.5 shrink-0 self-start">
@@ -292,38 +299,56 @@ export const CategoryDetailModal: React.FC<CategoryDetailModalProps> = ({
 
                   {/* Sub-skills list for composite */}
                   {skill.subSkills && skill.subSkills.length > 0 && (
-                    <div className="mt-2 text-[11px] text-slate-400 flex items-center gap-1.5 flex-wrap bg-slate-900/60 p-2 rounded-xl border border-slate-800/80">
-                      <span className="text-slate-500 font-medium">Orchestrates:</span>
-                      {skill.subSkills.map((sub) => (
-                        <span key={sub} className="font-mono text-[10px] text-indigo-300 bg-indigo-950/60 px-1.5 py-0.5 rounded border border-indigo-500/20">
+                    <div className="mt-2 text-[11px] text-slate-400 flex items-center gap-1.5 flex-wrap bg-slate-900/60 p-2 rounded-xl border border-slate-800/80 max-w-full overflow-hidden">
+                      <span className="text-slate-500 font-medium shrink-0">Orchestrates:</span>
+                      {skill.subSkills.slice(0, 4).map((sub) => (
+                        <span
+                          key={sub}
+                          className="font-mono text-[10px] text-indigo-300 bg-indigo-950/60 px-1.5 py-0.5 rounded border border-indigo-500/20 truncate max-w-[120px] inline-block"
+                          title={sub}
+                        >
                           {sub}
                         </span>
                       ))}
+                      {skill.subSkills.length > 4 && (
+                        <span className="text-[10px] text-slate-500 font-medium shrink-0">
+                          +{skill.subSkills.length - 4}
+                        </span>
+                      )}
                     </div>
                   )}
 
-                  {/* Preview toggle */}
-                  <div className="mt-2.5 flex items-center justify-between text-xs pt-2 border-t border-slate-800/60">
+                  {/* Preview toggle & Tags */}
+                  <div className="mt-2.5 flex flex-wrap items-center justify-between gap-2 text-xs pt-2 border-t border-slate-800/60 min-w-0 max-w-full">
                     <button
                       onClick={() => setExpandedPreviewId(isExpanded ? null : skill.id)}
-                      className="flex items-center gap-1 text-[11px] text-indigo-400 hover:text-indigo-300 transition font-medium"
+                      className="flex items-center gap-1 text-[11px] text-indigo-400 hover:text-indigo-300 transition font-medium shrink-0"
                     >
                       <Code2 className="w-3.5 h-3.5" />
                       <span>{isExpanded ? 'Hide transformation preview' : 'View transformation preview'}</span>
                     </button>
 
-                    <div className="flex flex-wrap gap-1">
-                      {skill.tags.map((t) => (
-                        <span key={t} className="rounded-md bg-slate-800/80 px-1.5 py-0.5 text-[9px] text-slate-400">
+                    <div className="flex flex-wrap gap-1 min-w-0 max-w-full">
+                      {skill.tags.slice(0, 3).map((t) => (
+                        <span
+                          key={t}
+                          className="rounded-md bg-slate-800/80 px-1.5 py-0.5 text-[9px] text-slate-400 truncate max-w-[90px] inline-block"
+                          title={t}
+                        >
                           #{t}
                         </span>
                       ))}
+                      {skill.tags.length > 3 && (
+                        <span className="rounded-md bg-slate-800/50 px-1 py-0.5 text-[9px] font-medium text-slate-500">
+                          +{skill.tags.length - 3}
+                        </span>
+                      )}
                     </div>
                   </div>
 
                   {/* Expandable Transformation Blueprint Preview */}
                   {isExpanded && (
-                    <div className="mt-2.5 rounded-xl border border-slate-800 bg-slate-900/90 p-3 font-mono text-[11px] text-slate-300 whitespace-pre-wrap max-h-48 overflow-y-auto leading-relaxed">
+                    <div className="mt-2.5 rounded-xl border border-slate-800 bg-slate-900/90 p-3 font-mono text-[11px] text-slate-300 whitespace-pre-wrap max-h-48 overflow-y-auto leading-relaxed max-w-full break-all">
                       {samplePreview}
                     </div>
                   )}
