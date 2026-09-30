@@ -745,8 +745,8 @@ export const PromptLibraryView: React.FC = () => {
                       className="bg-transparent text-slate-300 text-xs focus:outline-none cursor-pointer capitalize"
                     >
                       <option value="" className="bg-slate-900 text-slate-200">All Categories</option>
-                      {availableCategories.map((cat) => (
-                        <option key={cat} value={cat} className="bg-slate-900 text-slate-200 capitalize">
+                      {availableCategories.map((cat, idx) => (
+                        <option key={`${cat}-${idx}`} value={cat} className="bg-slate-900 text-slate-200 capitalize">
                           {cat}
                         </option>
                       ))}

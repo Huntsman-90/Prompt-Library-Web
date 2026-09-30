@@ -1019,8 +1019,8 @@ export const CORE_SKILLS: Record<string, SkillDefinition> = {
     }),
   },
 
-  "occams-razor-parsimony-pruning": {
-    id: "occams-razor-parsimony-pruning",
+  "core-occams-razor-parsimony-pruning": {
+    id: "core-occams-razor-parsimony-pruning",
     name: "OccamsRazorParsimonyPruningSkill",
     displayName: "Occam's Razor Parsimonious Pruning",
     categoryId: "core",
@@ -2143,8 +2143,8 @@ export const CORE_SKILLS: Record<string, SkillDefinition> = {
     }),
   },
 
-  "root-cause-ishikawa-fishbone": {
-    id: "root-cause-ishikawa-fishbone",
+  "core-root-cause-ishikawa-fishbone": {
+    id: "core-root-cause-ishikawa-fishbone",
     name: "RootCauseIshikawaFishboneSkill",
     displayName: "Ishikawa Fishbone Root-Cause Diagramming",
     categoryId: "core",

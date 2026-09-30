@@ -138,9 +138,9 @@ export const AnalyticsView: React.FC = () => {
             {topTags.length === 0 ? (
               <p className="text-xs text-slate-500">No tags used yet.</p>
             ) : (
-              topTags.map(([tag, count]) => (
+              topTags.map(([tag, count], idx) => (
                 <div
-                  key={tag}
+                  key={`${tag}-${idx}`}
                   className="flex items-center gap-1.5 rounded-xl border border-slate-800 bg-slate-950 px-2.5 py-1 text-xs text-slate-300"
                 >
                   <span className="font-medium">#{tag}</span>
@@ -165,10 +165,10 @@ export const AnalyticsView: React.FC = () => {
             {topCategories.length === 0 ? (
               <p className="text-xs text-slate-500">No categorized prompts yet.</p>
             ) : (
-              topCategories.map(([cat, count]) => {
+              topCategories.map(([cat, count], idx) => {
                 const pct = prompts.length > 0 ? Math.round((count / prompts.length) * 100) : 0;
                 return (
-                  <div key={cat} className="space-y-1">
+                  <div key={`${cat}-${idx}`} className="space-y-1">
                     <div className="flex justify-between text-xs text-slate-300 capitalize">
                       <span>{cat}</span>
                       <span className="text-slate-500">{count} prompts ({pct}%)</span>
