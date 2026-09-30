@@ -1369,4 +1369,628 @@ export const DIALOGUE_SKILLS: Record<string, SkillDefinition> = {
       tags: ["dialogue","cross-functional","alignment","tech-debt","product-engineering"],
     }),
   },
+  "dialogue-multi-turn-context-window-summarization": {
+    id: "dialogue-multi-turn-context-window-summarization",
+    name: "MultiTurnContextWindowSummarizationSkill",
+    displayName: "Multi-Turn Context Window Summarization",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Multi-Turn Context Window Summarization.",
+    tags: ["dialogue","multi","turn","context"],
+    transform: createStandardSkillTransform({
+      sectionName: "Context Window Summarization Protocol",
+      ruSectionName: "Стандарты и практические требования: Multi-Turn Context Window Summarization",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Multi-Turn Context Window Summarization.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Multi-Turn Context Window Summarization.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","multi","turn","context"],
+    }),
+  },
+
+  "dialogue-conversational-repair-clarification-prompt": {
+    id: "dialogue-conversational-repair-clarification-prompt",
+    name: "ConversationalRepairClarificationPromptSkill",
+    displayName: "Conversational Repair & Clarification Prompt",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Conversational Repair & Clarification Prompt.",
+    tags: ["dialogue","conversational","repair","clarification"],
+    transform: createStandardSkillTransform({
+      sectionName: "Conversational Repair Guidelines",
+      ruSectionName: "Стандарты и практические требования: Conversational Repair & Clarification Prompt",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Conversational Repair & Clarification Prompt.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Conversational Repair & Clarification Prompt.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","conversational","repair","clarification"],
+    }),
+  },
+
+  "dialogue-subtext-emotional-valence-tracking": {
+    id: "dialogue-subtext-emotional-valence-tracking",
+    name: "SubtextEmotionalValenceTrackingSkill",
+    displayName: "Subtext & Emotional Valence Tracking",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Subtext & Emotional Valence Tracking.",
+    tags: ["dialogue","subtext","emotional","valence"],
+    transform: createStandardSkillTransform({
+      sectionName: "Emotional Valence Tracking Standards",
+      ruSectionName: "Стандарты и практические требования: Subtext & Emotional Valence Tracking",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Subtext & Emotional Valence Tracking.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Subtext & Emotional Valence Tracking.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","subtext","emotional","valence"],
+    }),
+  },
+
+  "dialogue-non-violent-communication-nvc-framework": {
+    id: "dialogue-non-violent-communication-nvc-framework",
+    name: "NonViolentCommunicationNVCFrameworkSkill",
+    displayName: "Non-Violent Communication (NVC) Framework",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Non-Violent Communication (NVC) Framework.",
+    tags: ["dialogue","non","violent","communication"],
+    transform: createStandardSkillTransform({
+      sectionName: "NVC Communication Framework",
+      ruSectionName: "Стандарты и практические требования: Non-Violent Communication (NVC) Framework",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Non-Violent Communication (NVC) Framework.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Non-Violent Communication (NVC) Framework.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","non","violent","communication"],
+    }),
+  },
+
+  "dialogue-socratic-question-laddering-technique": {
+    id: "dialogue-socratic-question-laddering-technique",
+    name: "SocraticQuestionLadderingTechniqueSkill",
+    displayName: "Socratic Question Laddering Technique",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Socratic Question Laddering Technique.",
+    tags: ["dialogue","socratic","question","laddering"],
+    transform: createStandardSkillTransform({
+      sectionName: "Socratic Laddering Protocol",
+      ruSectionName: "Стандарты и практические требования: Socratic Question Laddering Technique",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Socratic Question Laddering Technique.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Socratic Question Laddering Technique.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","socratic","question","laddering"],
+    }),
+  },
+
+  "dialogue-cross-cultural-politeness-honorifics": {
+    id: "dialogue-cross-cultural-politeness-honorifics",
+    name: "CrossCulturalPolitenessHonorificsSkill",
+    displayName: "Cross-Cultural Politeness & Honorifics",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Cross-Cultural Politeness & Honorifics.",
+    tags: ["dialogue","cross","cultural","politeness"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Cultural Dialogue Standards",
+      ruSectionName: "Стандарты и практические требования: Cross-Cultural Politeness & Honorifics",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Cross-Cultural Politeness & Honorifics.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Cross-Cultural Politeness & Honorifics.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","cross","cultural","politeness"],
+    }),
+  },
+
+  "dialogue-de-escalation-of-angry-customer-dialogues": {
+    id: "dialogue-de-escalation-of-angry-customer-dialogues",
+    name: "DeescalationofAngryCustomerDialoguesSkill",
+    displayName: "De-escalation of Angry Customer Dialogues",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for De-escalation of Angry Customer Dialogues.",
+    tags: ["dialogue","de","escalation","of"],
+    transform: createStandardSkillTransform({
+      sectionName: "De-escalation Protocols",
+      ruSectionName: "Стандарты и практические требования: De-escalation of Angry Customer Dialogues",
+      instructions: [
+        "Apply core domain tenets and industry best practices for De-escalation of Angry Customer Dialogues.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для De-escalation of Angry Customer Dialogues.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","de","escalation","of"],
+    }),
+  },
+
+  "dialogue-empathetic-active-listening-mirroring": {
+    id: "dialogue-empathetic-active-listening-mirroring",
+    name: "EmpatheticActiveListeningMirroringSkill",
+    displayName: "Empathetic Active Listening Mirroring",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Empathetic Active Listening Mirroring.",
+    tags: ["dialogue","empathetic","active","listening"],
+    transform: createStandardSkillTransform({
+      sectionName: "Empathetic Listening Standards",
+      ruSectionName: "Стандарты и практические требования: Empathetic Active Listening Mirroring",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Empathetic Active Listening Mirroring.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Empathetic Active Listening Mirroring.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","empathetic","active","listening"],
+    }),
+  },
+
+  "dialogue-storytelling-conversational-pivot": {
+    id: "dialogue-storytelling-conversational-pivot",
+    name: "StorytellingConversationalPivotSkill",
+    displayName: "Storytelling Conversational Pivot",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Storytelling Conversational Pivot.",
+    tags: ["dialogue","storytelling","conversational","pivot"],
+    transform: createStandardSkillTransform({
+      sectionName: "Conversational Pivot Guidelines",
+      ruSectionName: "Стандарты и практические требования: Storytelling Conversational Pivot",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Storytelling Conversational Pivot.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Storytelling Conversational Pivot.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","storytelling","conversational","pivot"],
+    }),
+  },
+
+  "dialogue-executive-briefing-bottom-line-up-front": {
+    id: "dialogue-executive-briefing-bottom-line-up-front",
+    name: "ExecutiveBriefingBottomLineUpFrontSkill",
+    displayName: "Executive Briefing Bottom-Line Up Front",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Executive Briefing Bottom-Line Up Front.",
+    tags: ["dialogue","executive","briefing","bottom"],
+    transform: createStandardSkillTransform({
+      sectionName: "BLUF Briefing Architecture",
+      ruSectionName: "Стандарты и практические требования: Executive Briefing Bottom-Line Up Front",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Executive Briefing Bottom-Line Up Front.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Executive Briefing Bottom-Line Up Front.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","executive","briefing","bottom"],
+    }),
+  },
+
+  "dialogue-negotiation-calibrated-probing-questions": {
+    id: "dialogue-negotiation-calibrated-probing-questions",
+    name: "NegotiationCalibratedProbingQuestionsSkill",
+    displayName: "Negotiation Calibrated Probing Questions",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Negotiation Calibrated Probing Questions.",
+    tags: ["dialogue","negotiation","calibrated","probing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Calibrated Questions Protocol",
+      ruSectionName: "Стандарты и практические требования: Negotiation Calibrated Probing Questions",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Negotiation Calibrated Probing Questions.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Negotiation Calibrated Probing Questions.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","negotiation","calibrated","probing"],
+    }),
+  },
+
+  "dialogue-humor-playful-banter-calibration": {
+    id: "dialogue-humor-playful-banter-calibration",
+    name: "HumorPlayfulBanterCalibrationSkill",
+    displayName: "Humor & Playful Banter Calibration",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Humor & Playful Banter Calibration.",
+    tags: ["dialogue","humor","playful","banter"],
+    transform: createStandardSkillTransform({
+      sectionName: "Banter Calibration Standards",
+      ruSectionName: "Стандарты и практические требования: Humor & Playful Banter Calibration",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Humor & Playful Banter Calibration.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Humor & Playful Banter Calibration.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","humor","playful","banter"],
+    }),
+  },
+
+  "dialogue-consensus-building-multi-party-moderation": {
+    id: "dialogue-consensus-building-multi-party-moderation",
+    name: "ConsensusBuildingMultiPartyModerationSkill",
+    displayName: "Consensus Building Multi-Party Moderation",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Consensus Building Multi-Party Moderation.",
+    tags: ["dialogue","consensus","building","multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Consensus Moderation Protocol",
+      ruSectionName: "Стандарты и практические требования: Consensus Building Multi-Party Moderation",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Consensus Building Multi-Party Moderation.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Consensus Building Multi-Party Moderation.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","consensus","building","multi"],
+    }),
+  },
+
+  "dialogue-psychological-safety-meeting-opener": {
+    id: "dialogue-psychological-safety-meeting-opener",
+    name: "PsychologicalSafetyMeetingOpenerSkill",
+    displayName: "Psychological Safety Meeting Opener",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Psychological Safety Meeting Opener.",
+    tags: ["dialogue","psychological","safety","meeting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Psychological Safety Dialogue",
+      ruSectionName: "Стандарты и практические требования: Psychological Safety Meeting Opener",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Psychological Safety Meeting Opener.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Psychological Safety Meeting Opener.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","psychological","safety","meeting"],
+    }),
+  },
+
+  "dialogue-coaching-grow-model-dialogue-flow": {
+    id: "dialogue-coaching-grow-model-dialogue-flow",
+    name: "CoachingGROWModelDialogueFlowSkill",
+    displayName: "Coaching GROW Model Dialogue Flow",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Coaching GROW Model Dialogue Flow.",
+    tags: ["dialogue","coaching","grow","model"],
+    transform: createStandardSkillTransform({
+      sectionName: "GROW Model Coaching Flow",
+      ruSectionName: "Стандарты и практические требования: Coaching GROW Model Dialogue Flow",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Coaching GROW Model Dialogue Flow.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Coaching GROW Model Dialogue Flow.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","coaching","grow","model"],
+    }),
+  },
+
+  "dialogue-interview-behavioral-star-technique": {
+    id: "dialogue-interview-behavioral-star-technique",
+    name: "InterviewBehavioralSTARTechniqueSkill",
+    displayName: "Interview Behavioral STAR Technique",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Interview Behavioral STAR Technique.",
+    tags: ["dialogue","interview","behavioral","star"],
+    transform: createStandardSkillTransform({
+      sectionName: "STAR Interview Technique",
+      ruSectionName: "Стандарты и практические требования: Interview Behavioral STAR Technique",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Interview Behavioral STAR Technique.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Interview Behavioral STAR Technique.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","interview","behavioral","star"],
+    }),
+  },
+
+  "dialogue-therapeutic-validation-reflection": {
+    id: "dialogue-therapeutic-validation-reflection",
+    name: "TherapeuticValidationReflectionSkill",
+    displayName: "Therapeutic Validation & Reflection",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Therapeutic Validation & Reflection.",
+    tags: ["dialogue","therapeutic","validation","reflection"],
+    transform: createStandardSkillTransform({
+      sectionName: "Therapeutic Reflection Standards",
+      ruSectionName: "Стандарты и практические требования: Therapeutic Validation & Reflection",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Therapeutic Validation & Reflection.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Therapeutic Validation & Reflection.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","therapeutic","validation","reflection"],
+    }),
+  },
+
+  "dialogue-debate-rebuttal-steelmanning": {
+    id: "dialogue-debate-rebuttal-steelmanning",
+    name: "DebateRebuttalSteelmanningSkill",
+    displayName: "Debate Rebuttal & Steelmanning",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Debate Rebuttal & Steelmanning.",
+    tags: ["dialogue","debate","rebuttal","steelmanning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Steelmanning Debate Protocol",
+      ruSectionName: "Стандарты и практические требования: Debate Rebuttal & Steelmanning",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Debate Rebuttal & Steelmanning.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Debate Rebuttal & Steelmanning.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","debate","rebuttal","steelmanning"],
+    }),
+  },
+
+  "dialogue-crisp-one-line-boundary-setting": {
+    id: "dialogue-crisp-one-line-boundary-setting",
+    name: "CrispOneLineBoundarySettingSkill",
+    displayName: "Crisp One-Line Boundary Setting",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Crisp One-Line Boundary Setting.",
+    tags: ["dialogue","crisp","one","line"],
+    transform: createStandardSkillTransform({
+      sectionName: "Boundary Setting Guidelines",
+      ruSectionName: "Стандарты и практические требования: Crisp One-Line Boundary Setting",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Crisp One-Line Boundary Setting.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Crisp One-Line Boundary Setting.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","crisp","one","line"],
+    }),
+  },
+
+  "dialogue-diplomatic-disagreement-counter-proposal": {
+    id: "dialogue-diplomatic-disagreement-counter-proposal",
+    name: "DiplomaticDisagreementCounterProposalSkill",
+    displayName: "Diplomatic Disagreement & Counter-Proposal",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Diplomatic Disagreement & Counter-Proposal.",
+    tags: ["dialogue","diplomatic","disagreement","counter"],
+    transform: createStandardSkillTransform({
+      sectionName: "Diplomatic Disagreement Protocol",
+      ruSectionName: "Стандарты и практические требования: Diplomatic Disagreement & Counter-Proposal",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Diplomatic Disagreement & Counter-Proposal.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Diplomatic Disagreement & Counter-Proposal.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","diplomatic","disagreement","counter"],
+    }),
+  },
+
+  "dialogue-curiosity-driven-root-cause-inquiry": {
+    id: "dialogue-curiosity-driven-root-cause-inquiry",
+    name: "CuriosityDrivenRootCauseInquirySkill",
+    displayName: "Curiosity-Driven Root Cause Inquiry",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Curiosity-Driven Root Cause Inquiry.",
+    tags: ["dialogue","curiosity","driven","root"],
+    transform: createStandardSkillTransform({
+      sectionName: "Root Cause Inquiry Standards",
+      ruSectionName: "Стандарты и практические требования: Curiosity-Driven Root Cause Inquiry",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Curiosity-Driven Root Cause Inquiry.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Curiosity-Driven Root Cause Inquiry.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","curiosity","driven","root"],
+    }),
+  },
+
+  "dialogue-motivational-interviewing-ambivalence-bridge": {
+    id: "dialogue-motivational-interviewing-ambivalence-bridge",
+    name: "MotivationalInterviewingAmbivalenceBridgeSkill",
+    displayName: "Motivational Interviewing Ambivalence Bridge",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Motivational Interviewing Ambivalence Bridge.",
+    tags: ["dialogue","motivational","interviewing","ambivalence"],
+    transform: createStandardSkillTransform({
+      sectionName: "Motivational Interviewing Protocol",
+      ruSectionName: "Стандарты и практические требования: Motivational Interviewing Ambivalence Bridge",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Motivational Interviewing Ambivalence Bridge.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Motivational Interviewing Ambivalence Bridge.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","motivational","interviewing","ambivalence"],
+    }),
+  },
+
+  "dialogue-constructive-feedback-sbi-framework": {
+    id: "dialogue-constructive-feedback-sbi-framework",
+    name: "ConstructiveFeedbackSBIFrameworkSkill",
+    displayName: "Constructive Feedback SBI Framework",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Constructive Feedback SBI Framework.",
+    tags: ["dialogue","constructive","feedback","sbi"],
+    transform: createStandardSkillTransform({
+      sectionName: "SBI Feedback Standards",
+      ruSectionName: "Стандарты и практические требования: Constructive Feedback SBI Framework",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Constructive Feedback SBI Framework.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Constructive Feedback SBI Framework.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","constructive","feedback","sbi"],
+    }),
+  },
+
+  "dialogue-warm-rapport-building-cold-opener": {
+    id: "dialogue-warm-rapport-building-cold-opener",
+    name: "WarmRapportBuildingColdOpenerSkill",
+    displayName: "Warm Rapport Building Cold Opener",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Warm Rapport Building Cold Opener.",
+    tags: ["dialogue","warm","rapport","building"],
+    transform: createStandardSkillTransform({
+      sectionName: "Warm Rapport Opener Guidelines",
+      ruSectionName: "Стандарты и практические требования: Warm Rapport Building Cold Opener",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Warm Rapport Building Cold Opener.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Warm Rapport Building Cold Opener.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","warm","rapport","building"],
+    }),
+  },
+
+  "dialogue-meeting-closing-action-items-commitment": {
+    id: "dialogue-meeting-closing-action-items-commitment",
+    name: "MeetingClosingActionItemsCommitmentSkill",
+    displayName: "Meeting Closing Action Items Commitment",
+    categoryId: "dialogue",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Meeting Closing Action Items Commitment.",
+    tags: ["dialogue","meeting","closing","action"],
+    transform: createStandardSkillTransform({
+      sectionName: "Action Commitment Closing Protocol",
+      ruSectionName: "Стандарты и практические требования: Meeting Closing Action Items Commitment",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Meeting Closing Action Items Commitment.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Meeting Closing Action Items Commitment.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dialogue","meeting","closing","action"],
+    }),
+  },
 };

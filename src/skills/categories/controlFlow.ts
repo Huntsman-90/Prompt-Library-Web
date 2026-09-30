@@ -1340,4 +1340,652 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
       tags: ["control_flow","leader-election","failover","lease-lock","high-availability"],
     }),
   },
+  "control-flow-dag-topological-dependency-resolution": {
+    id: "control-flow-dag-topological-dependency-resolution",
+    name: "ControlFlowDagTopologicalDependencyResolutionSkill",
+    displayName: "DAG Topological Sort & Dependency Chain Execution",
+    categoryId: "controlFlow",
+    description: "Resolves execution sequence in Directed Acyclic Graphs (DAG) via Kahn's algorithm or DFS topological sort.",
+    tags: ["control-flow","dag","topological-sort","graph","dependencies"],
+    transform: createStandardSkillTransform({
+      sectionName: "DAG Dependency Execution Standards",
+      ruSectionName: "Топологическая сортировка графа зависимостей (DAG) и порядок выполнения",
+      instructions: [
+        "Detect cycles in task graphs before execution; abort with explicit cyclic dependency paths.",
+        "Execute independent zero-in-degree nodes concurrently across worker pools.",
+        "Trigger downstream dependent nodes immediately when all upstream parent tasks resolve successfully."
+],
+      ruInstructions: [
+        "Проверяйте граф на отсутствие циклов перед запуском задач; прерывайте выполнение при обнаружении замкнутых зависимостей.",
+        "Запускайте независимые узлы с нулевой степенью входа параллельно.",
+        "Активируйте дочерние задачи сразу после успешного завершения всех родительских зависимостей."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","dag","topological-sort","graph","dependencies"],
+    }),
+  },
+
+  "control-flow-saga-distributed-transaction-compensations": {
+    id: "control-flow-saga-distributed-transaction-compensations",
+    name: "ControlFlowSagaDistributedTransactionCompensationsSkill",
+    displayName: "Saga Pattern & Distributed Transaction Compensation Flow",
+    categoryId: "controlFlow",
+    description: "Orchestrates multi-service transactions with backward compensating transactions when a mid-flow step fails.",
+    tags: ["control-flow","saga","distributed-transactions","microservices","compensation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Saga Distributed Transaction Protocol",
+      ruSectionName: "Паттерн Saga: Оркестрация компенсирующих транзакций в распределенных системах",
+      instructions: [
+        "Pair every forward business action with an idempotent backward compensating action.",
+        "Execute compensating steps in exact reverse chronological order upon any fatal downstream failure.",
+        "Persist Saga state in durable storage to ensure recovery across system restarts."
+],
+      ruInstructions: [
+        "Снабжайте каждое прямое действие идемпотентной компенсирующей операцией отката.",
+        "Выполняйте компенсирующие действия в строго обратном порядке при ошибке на любом шаге цепочки.",
+        "Сохраняйте состояние саги в надежном хранилище для восстановления после перезагрузки сервисов."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","saga","distributed-transactions","microservices","compensation"],
+    }),
+  },
+
+  "control-flow-finite-state-machine-xstate-actor": {
+    id: "control-flow-finite-state-machine-xstate-actor",
+    name: "ControlFlowFiniteStateMachineXstateActorSkill",
+    displayName: "Finite State Machine (FSM) & Actor Model Orchestration",
+    categoryId: "controlFlow",
+    description: "Structures complex UI and server workflows into mathematically explicit states, deterministic transitions, and guards.",
+    tags: ["control-flow","fsm","state-machine","xstate","actor-model"],
+    transform: createStandardSkillTransform({
+      sectionName: "Finite State Machine (FSM) Architecture",
+      ruSectionName: "Конечные автоматы (FSM) и модель акторов: строгая типизация состояний и переходов",
+      instructions: [
+        "Define all possible states, events, and guarded transitions in a formal state chart.",
+        "Prevent impossible state combinations (e.g. `isLoading && isError && isSuccess`) by design.",
+        "Decouple state transition triggers from side-effect action runners."
+],
+      ruInstructions: [
+        "Описывайте состояния, события и условия переходов (Guards) в виде строгой диаграммы состояний.",
+        "Исключайте невозможные комбинации состояний (например, одновременные `isLoading` и `isSuccess`).",
+        "Разделяйте логику перехода между состояниями и выполнение побочных эффектов (Actions)."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","fsm","state-machine","xstate","actor-model"],
+    }),
+  },
+
+  "control-flow-exponential-backoff-full-jitter-retry": {
+    id: "control-flow-exponential-backoff-full-jitter-retry",
+    name: "ControlFlowExponentialBackoffFullJitterRetrySkill",
+    displayName: "Exponential Backoff with Full Jitter & Decorrelated Jitter",
+    categoryId: "controlFlow",
+    description: "Applies AWS-grade exponential backoff with randomized full jitter to prevent thundering herd spikes during downstream outages.",
+    tags: ["control-flow","retry","exponential-backoff","jitter","resilience"],
+    transform: createStandardSkillTransform({
+      sectionName: "Exponential Backoff with Full Jitter Protocol",
+      ruSectionName: "Экспоненциальная задержка с рандомизацией (Exponential Backoff with Full Jitter)",
+      instructions: [
+        "Calculate sleep interval: `sleep = random_between(0, min(max_sleep, base * 2^attempt))`.",
+        "Avoid deterministic retries that synchronize failing clients into damaging synchronized pulse waves.",
+        "Cap maximum retry attempts and bubble structured exceptions to the caller upon threshold exhaustion."
+],
+      ruInstructions: [
+        "Рассчитывайте интервал повтора со случайным разбросом (Full Jitter): `sleep = random(0, min(max, base * 2^attempt))`.",
+        "Исключайте детерминированные интервалы повторов во избежание эффекта набегающей толпы (Thundering Herd).",
+        "Ограничивайте максимальное число попыток и возвращайте структурированную ошибку при исчерпании лимита."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","retry","exponential-backoff","jitter","resilience"],
+    }),
+  },
+
+  "control-flow-circuit-breaker-hystrix-resilience": {
+    id: "control-flow-circuit-breaker-hystrix-resilience",
+    name: "ControlFlowCircuitBreakerHystrixResilienceSkill",
+    displayName: "Circuit Breaker Tri-State Automation (Closed, Open, Half-Open)",
+    categoryId: "controlFlow",
+    description: "Protects upstream systems from cascading failures by automatically opening circuits on consecutive error thresholds.",
+    tags: ["control-flow","circuit-breaker","resilience","fault-tolerance","microservices"],
+    transform: createStandardSkillTransform({
+      sectionName: "Circuit Breaker Fault Tolerance Standards",
+      ruSectionName: "Автоматический выключатель (Circuit Breaker: Closed, Open, Half-Open)",
+      instructions: [
+        "Closed State: Normal operation, counting failure percentage over a rolling 10-second sliding window.",
+        "Open State: Immediately fast-fail subsequent requests without hitting downstream failing servers.",
+        "Half-Open State: Allow single probe request through after cooldown period to test recovery."
+],
+      ruInstructions: [
+        "Состояние Closed: Обычный режим с подсчетом процента ошибок в скользящем 10-секундном окне.",
+        "Состояние Open: Мгновенный сброс входящих запросов с возвратом fallback без обращения к упавшему сервису.",
+        "Состояние Half-Open: Пропуск пробного запроса по истечении таймаута для проверки восстановления бэкенда."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","circuit-breaker","resilience","fault-tolerance","microservices"],
+    }),
+  },
+
+  "control-flow-leaky-bucket-token-bucket-rate-limiting": {
+    id: "control-flow-leaky-bucket-token-bucket-rate-limiting",
+    name: "ControlFlowLeakyBucketTokenBucketRateLimitingSkill",
+    displayName: "Token Bucket & Leaky Bucket Rate Limiting Algorithms",
+    categoryId: "controlFlow",
+    description: "Controls traffic bursts and sustains steady throughput using Redis-backed Token Bucket and Leaky Bucket algorithms.",
+    tags: ["control-flow","rate-limiting","token-bucket","traffic-shaping","redis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Token Bucket Traffic Shaping Standards",
+      ruSectionName: "Алгоритмы ограничения частоты запросов Token Bucket и Leaky Bucket",
+      instructions: [
+        "Replenish tokens at a constant fractional rate based on elapsed millisecond timestamps.",
+        "Permit short bursts up to max bucket capacity while strictly enforcing average egress rate limits.",
+        "Return standard HTTP headers: `X-RateLimit-Limit`, `X-RateLimit-Remaining`, and `Retry-After`."
+],
+      ruInstructions: [
+        "Пополняйте токены с постоянной скоростью на основе прошедшего времени в миллисекундах.",
+        "Разрешайте кратковременные всплески трафика в пределах емкости корзины при контроле средней скорости.",
+        "Возвращайте стандартные HTTP-заголовки: `X-RateLimit-Limit`, `X-RateLimit-Remaining` и `Retry-After`."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","rate-limiting","token-bucket","traffic-shaping","redis"],
+    }),
+  },
+
+  "control-flow-map-reduce-parallel-fan-out-fan-in": {
+    id: "control-flow-map-reduce-parallel-fan-out-fan-in",
+    name: "ControlFlowMapReduceParallelFanOutFanInSkill",
+    displayName: "Parallel Fan-Out / Fan-In MapReduce Aggregation Flow",
+    categoryId: "controlFlow",
+    description: "Splits monolithic workloads into parallel independent workers (Fan-Out) and aggregates results into a single payload (Fan-In).",
+    tags: ["control-flow","map-reduce","fan-out-fan-in","concurrency","parallelism"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fan-Out / Fan-In Concurrency Standards",
+      ruSectionName: "Параллельное ветвление и агрегация результатов (Fan-Out / Fan-In MapReduce)",
+      instructions: [
+        "Chunk input data into evenly balanced partitions across concurrent worker threads or async tasks.",
+        "Handle partial worker failures gracefully using `Promise.allSettled()` without failing entire batches.",
+        "Aggregate child outputs via a deterministic, associative reduction function."
+],
+      ruInstructions: [
+        "Разбивайте массив данных на сбалансированные части между параллельными воркерами или асинхронными задачами.",
+        "Обрабатывайте частичные сбои через `Promise.allSettled()` без падения всего батча.",
+        "Объединяйте результаты через детерминированную ассоциативную функцию редукции (Reduce)."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","map-reduce","fan-out-fan-in","concurrency","parallelism"],
+    }),
+  },
+
+  "control-flow-priority-queue-preemptive-scheduling": {
+    id: "control-flow-priority-queue-preemptive-scheduling",
+    name: "ControlFlowPriorityQueuePreemptiveSchedulingSkill",
+    displayName: "Binary Heap Priority Queue & Fair Preemptive Scheduling",
+    categoryId: "controlFlow",
+    description: "Prioritizes critical tasks using binary min/max heaps with anti-starvation aging mechanisms for low-priority jobs.",
+    tags: ["control-flow","priority-queue","binary-heap","scheduling","algorithms"],
+    transform: createStandardSkillTransform({
+      sectionName: "Priority Queue Scheduling Standards",
+      ruSectionName: "Очередь с приоритетами на двоичной куче и защита от голодания задач",
+      instructions: [
+        "Order task execution using an efficient $O(\\log N)$ binary min-heap data structure.",
+        "Increment priority rank of waiting low-priority tasks over time (Aging) to prevent starvation.",
+        "Support preemptive cancellation of inflight lower-priority tasks when emergency critical tasks arrive."
+],
+      ruInstructions: [
+        "Управляйте порядком задач через структуру двоичной кучи со сложностью $O(\\log N)$.",
+        "Повышайте приоритет долго ожидающих задач с течением времени (Aging) для защиты от голодания.",
+        "Поддерживайте безопасное прерывание фоновых задач при поступлении критически важных событий."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","priority-queue","binary-heap","scheduling","algorithms"],
+    }),
+  },
+
+  "control-flow-sliding-window-log-rate-limiter": {
+    id: "control-flow-sliding-window-log-rate-limiter",
+    name: "ControlFlowSlidingWindowLogRateLimiterSkill",
+    displayName: "Sliding Window Log & Sliding Window Counter Rate Limiter",
+    categoryId: "controlFlow",
+    description: "Eliminates boundary burst vulnerabilities of fixed-window counters using Redis sorted sets (ZSET) timestamp logs.",
+    tags: ["control-flow","sliding-window","rate-limiting","redis","security"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sliding Window Rate Limiter Architecture",
+      ruSectionName: "Ограничение скорости по скользящему окну (Sliding Window Log на Redis ZSET)",
+      instructions: [
+        "Remove timestamps older than `now - window_size` using Redis `ZREMRANGEBYSCORE`.",
+        "Count remaining items in the sorted set using `ZCARD`; reject requests if count exceeds limit.",
+        "Add current timestamp using `ZADD` inside an atomic Redis multi-exec transaction."
+],
+      ruInstructions: [
+        "Удаляйте временные метки старше границы окна с помощью команды Redis `ZREMRANGEBYSCORE`.",
+        "Считайте текущие запросы через `ZCARD` и отклоняйте вызов при превышении лимита.",
+        "Добавляйте текущую метку через `ZADD` в рамках единой атомарной транзакции Redis."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","sliding-window","rate-limiting","redis","security"],
+    }),
+  },
+
+  "control-flow-pub-sub-event-broker-fan-out": {
+    id: "control-flow-pub-sub-event-broker-fan-out",
+    name: "ControlFlowPubSubEventBrokerFanOutSkill",
+    displayName: "Publish-Subscribe Event Broker & Topic-Based Routing",
+    categoryId: "controlFlow",
+    description: "Decouples producers from consumers using asynchronous Pub/Sub event brokers, dead-letter queues, and wildcard topic matching.",
+    tags: ["control-flow","pub-sub","event-driven","messaging","architecture"],
+    transform: createStandardSkillTransform({
+      sectionName: "Publish-Subscribe Event Routing Standards",
+      ruSectionName: "Событийная шина Publish-Subscribe и маршрутизация сообщений по топикам",
+      instructions: [
+        "Publish events to semantic topic hierarchies (e.g. `order.created.v2`) without producer knowledge of subscribers.",
+        "Route messages to multiple independent subscriber queues with at-least-once delivery guarantees.",
+        "Route unparseable or poison-pill messages to a Dead-Letter Queue (DLQ) after 3 failed delivery attempts."
+],
+      ruInstructions: [
+        "Публикуйте события в иерархические топики (`order.created.v2`) без привязки к конкретным получателям.",
+        "Маршрутизируйте сообщения в независимые очереди подписчиков с гарантией доставки at-least-once.",
+        "Направляйте необрабатываемые сообщения в очередь недоставленных сообщений (Dead-Letter Queue / DLQ)."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","pub-sub","event-driven","messaging","architecture"],
+    }),
+  },
+
+  "control-flow-distributed-semaphore-lease-concurrency": {
+    id: "control-flow-distributed-semaphore-lease-concurrency",
+    name: "ControlFlowDistributedSemaphoreLeaseConcurrencySkill",
+    displayName: "Distributed Semaphore & Time-Bounded Lease Concurrency",
+    categoryId: "controlFlow",
+    description: "Controls bounded concurrency across multi-instance microservices using Redis/Consul distributed counting semaphores with TTL leases.",
+    tags: ["control-flow","distributed-semaphore","concurrency","locking","redis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Distributed Semaphore & Lease Protocol",
+      ruSectionName: "Распределенный семафор и управление параллелизмом через аренду с TTL",
+      instructions: [
+        "Acquire semaphore slot with an explicit Time-To-Live (TTL) expiration lease to prevent deadlocks from crashed holders.",
+        "Refresh lease heartbeat periodically during extended processing.",
+        "Release semaphore slot atomically via Lua script verifying token ownership."
+],
+      ruInstructions: [
+        "Занимайте слот семафора с обязательным временем жизни (TTL) для защиты от зависаний при падении процесса.",
+        "Продлевайте аренду (Heartbeat) в процессе выполнения долгих операций.",
+        "Освобождайте слот семафора атомарным Lua-скриптом с проверкой владения идентификатором блокировки."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","distributed-semaphore","concurrency","locking","redis"],
+    }),
+  },
+
+  "control-flow-human-in-the-loop-pause-resume-checkpoint": {
+    id: "control-flow-human-in-the-loop-pause-resume-checkpoint",
+    name: "ControlFlowHumanInTheLoopPauseResumeCheckpointSkill",
+    displayName: "Human-in-the-Loop (HITL) Workflow Pause & Resume Checkpoints",
+    categoryId: "controlFlow",
+    description: "Suspends automated agent execution state at high-risk action checkpoints, waiting for manual human approval or modification.",
+    tags: ["control-flow","hitl","human-in-the-loop","approval-workflow","safety"],
+    transform: createStandardSkillTransform({
+      sectionName: "Human-in-the-Loop Checkpoint Protocol",
+      ruSectionName: "Точки останова и возобновления Human-in-the-Loop (HITL) для утверждения человеком",
+      instructions: [
+        "Serialize entire workflow execution context and variable state into durable storage upon reaching a sensitive action threshold.",
+        "Send interactive notification (Slack, Email, UI modal) with clear diff summary and 1-click Approve / Reject buttons.",
+        "Resume execution seamlessly from the exact paused instruction point upon receiving human confirmation."
+],
+      ruInstructions: [
+        "Сериализуйте контекст и состояние переменных воркера в БД при достижении точки контроля чувствительных действий.",
+        "Отправляйте уведомление (Slack, UI) с наглядным diff изменений и кнопками «Утвердить / Отклонить».",
+        "Возобновляйте выполнение процесса с сохраненного шага после получения подтверждения от оператора."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","hitl","human-in-the-loop","approval-workflow","safety"],
+    }),
+  },
+
+  "control-flow-async-await-concurrency-limiter": {
+    id: "control-flow-async-await-concurrency-limiter",
+    name: "ControlFlowAsyncAwaitConcurrencyLimiterSkill",
+    displayName: "Async/Await Promise Concurrency Pool Limiter (p-limit)",
+    categoryId: "controlFlow",
+    description: "Limits parallel Promise execution concurrency (e.g. 5 concurrent HTTP calls) to prevent memory exhaustion and socket exhaustion.",
+    tags: ["control-flow","concurrency","async-await","promises","typescript"],
+    transform: createStandardSkillTransform({
+      sectionName: "Promise Concurrency Limiting Standards",
+      ruSectionName: "Ограничение параллелизма асинхронных вызовов (Promise Concurrency Pool)",
+      instructions: [
+        "Wrap asynchronous tasks in a bounded concurrency limiter (e.g. `p-limit(concurrency)`).",
+        "Queue excess tasks in memory without initiating external network sockets until an active slot frees up.",
+        "Capture and isolate individual task rejections so one failed promise does not crash the entire pool."
+],
+      ruInstructions: [
+        "Оборачивайте асинхронные задачи в пул с фиксированным параллелизмом (например, `p-limit(5)`).",
+        "Ставьте избыточные вызовы в очередь памяти без открытия лишних сокетов до освобождения слота.",
+        "Изолируйте ошибки отдельных задач, предотвращая аварийное завершение всего пула промисов."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","concurrency","async-await","promises","typescript"],
+    }),
+  },
+
+  "control-flow-optimistic-locking-version-cas": {
+    id: "control-flow-optimistic-locking-version-cas",
+    name: "ControlFlowOptimisticLockingVersionCasSkill",
+    displayName: "Optimistic Concurrency Control (OCC) & Compare-And-Swap (CAS)",
+    categoryId: "controlFlow",
+    description: "Guards against lost updates in concurrent databases using integer version columns and atomic Compare-And-Swap statements.",
+    tags: ["control-flow","optimistic-locking","concurrency","database","cas"],
+    transform: createStandardSkillTransform({
+      sectionName: "Optimistic Concurrency Control Standards",
+      ruSectionName: "Оптимистичные блокировки (OCC) и атомарный Compare-And-Swap (CAS) по версии",
+      instructions: [
+        "Include a monotonically increasing `version` integer column on all mutable database records.",
+        "Execute mutations with atomic conditions: `UPDATE table SET val = :val, version = version + 1 WHERE id = :id AND version = :current_version`.",
+        "Retry the read-modify-write cycle automatically upon detecting zero updated rows (version collision)."
+],
+      ruInstructions: [
+        "Добавляйте монотонно растущее целочисленное поле `version` во все изменяемые сущности БД.",
+        "Выполняйте запись с условием: `UPDATE table SET ..., version = version + 1 WHERE id = :id AND version = :version`.",
+        "Автоматически повторяйте чтение и запись при обнаружении конфликта версий (0 обновленных строк)."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","optimistic-locking","concurrency","database","cas"],
+    }),
+  },
+
+  "control-flow-actor-model-message-passing-mailbox": {
+    id: "control-flow-actor-model-message-passing-mailbox",
+    name: "ControlFlowActorModelMessagePassingMailboxSkill",
+    displayName: "Actor Model Concurrency & Isolated Mailbox Message Passing",
+    categoryId: "controlFlow",
+    description: "Eliminates shared mutable memory race conditions using isolated actors communicating strictly via asynchronous message mailboxes.",
+    tags: ["control-flow","actor-model","concurrency","message-passing","erlang-akka"],
+    transform: createStandardSkillTransform({
+      sectionName: "Actor Model Message Passing Standards",
+      ruSectionName: "Модель акторов: изолированное состояние и передача сообщений через Mailbox",
+      instructions: [
+        "Encapsulate all mutable actor state privately; strictly prohibit direct memory access from external actors.",
+        "Process incoming mailbox messages sequentially and deterministically in single-threaded event loops.",
+        "Handle actor lifecycle supervision with 'Let it crash' restart strategies (One-for-One / One-for-All)."
+],
+      ruInstructions: [
+        "Изолируйте состояние актора внутри экземпляра; исключайте прямой доступ к чужой памяти.",
+        "Обрабатывайте входящие сообщения из почтового ящика последовательно и детерминированно.",
+        "Реализуйте стратегию супервизии («Let it crash») с автоматическим перезапуском упавших акторов."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","actor-model","concurrency","message-passing","erlang-akka"],
+    }),
+  },
+
+  "control-flow-idempotency-key-deduplication": {
+    id: "control-flow-idempotency-key-deduplication",
+    name: "ControlFlowIdempotencyKeyDeduplicationSkill",
+    displayName: "Stripe-Style Idempotency Keys & Request Deduplication",
+    categoryId: "controlFlow",
+    description: "Prevents duplicate charges or side-effects by caching API response payloads against client-generated UUID idempotency keys.",
+    tags: ["control-flow","idempotency","api-design","deduplication","reliability"],
+    transform: createStandardSkillTransform({
+      sectionName: "Idempotency Key Deduplication Protocol",
+      ruSectionName: "Идемпотентные ключи запросов (Idempotency Keys) и дедупликация вызовов API",
+      instructions: [
+        "Require clients to pass a unique `Idempotency-Key: <UUID>` header on all mutating POST requests.",
+        "Store idempotency records atomically in Redis/PostgreSQL with `PROCESSING` state before executing logic.",
+        "Return the cached previous response body and status code immediately if the same key is received again."
+],
+      ruInstructions: [
+        "Принимайте уникальный заголовок `Idempotency-Key` от клиента для всех изменяющих POST-запросов.",
+        "Фиксируйте статус `PROCESSING` в Redis перед стартом выполнения операции для защиты от гонок.",
+        "Возвращайте сохраненный результат и статус-код при повторном поступлении того же ключа."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","idempotency","api-design","deduplication","reliability"],
+    }),
+  },
+  "control-flow-leader-election-raft-lease": {
+    id: "control-flow-leader-election-raft-lease",
+    name: "ControlFlowLeaderElectionRaftLeaseSkill",
+    displayName: "Raft Consensus Leader Election & Split-Brain Prevention",
+    categoryId: "controlFlow",
+    description: "Elects a single authoritative cluster leader using randomized heartbeats, term counters, and majority quorum voting.",
+    tags: ["control-flow","raft","leader-election","distributed-systems","consensus"],
+    transform: createStandardSkillTransform({
+      sectionName: "Raft Leader Election Protocol",
+      ruSectionName: "Выборы лидера в консенсусе Raft и защита от Split-Brain",
+      instructions: [
+        "Transition from Follower to Candidate if no heartbeat is received within randomized timeout (150-300ms).",
+        "Request votes across cluster nodes; claim Leader status only after securing strict majority quorum ($N/2 + 1$).",
+        "Step down to Follower immediately upon encountering a higher term number."
+],
+      ruInstructions: [
+        "Переходите в состояние кандидата при отсутствии heartbeat-сигнала в течение случайного таймаута (150–300 мс).",
+        "Запрашивайте голоса узлов и объявляйте себя лидером только при получении строгого большинства ($N/2 + 1$).",
+        "Немедленно слагайте полномочия лидера при получении сообщения с более высоким номером эпохи (Term)."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","raft","leader-election","distributed-systems","consensus"],
+    }),
+  },
+
+  "control-flow-bulkhead-thread-pool-isolation": {
+    id: "control-flow-bulkhead-thread-pool-isolation",
+    name: "ControlFlowBulkheadThreadPoolIsolationSkill",
+    displayName: "Bulkhead Pattern & Resource Pool Failure Isolation",
+    categoryId: "controlFlow",
+    description: "Isolates critical system resources into separate dedicated thread/connection pools so failure in one subsystem cannot exhaust others.",
+    tags: ["control-flow","bulkhead","isolation","resilience","architecture"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bulkhead Resource Isolation Standards",
+      ruSectionName: "Паттерн Bulkhead: Изоляция пулов ресурсов и защита от каскадных сбоев",
+      instructions: [
+        "Allocate dedicated connection pools for third-party external integrations (e.g. payment gateway vs analytics).",
+        "Enforce maximum queue depths for each bulkhead; fast-reject overflow requests before thread starvation.",
+        "Monitor saturation metrics per bulkhead pool independently."
+],
+      ruInstructions: [
+        "Выделяйте независимые пулы соединений для разных внешних сервисов (например, платежи vs аналитика).",
+        "Ограничивайте глубину очереди для каждого пула, сбрасывая избыточные запросы до исчерпания потоков.",
+        "Отслеживайте метрики загрузки и утилизации для каждого пула изолированно."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","bulkhead","isolation","resilience","architecture"],
+    }),
+  },
+
+  "control-flow-two-phase-commit-2pc-atomic-coordination": {
+    id: "control-flow-two-phase-commit-2pc-atomic-coordination",
+    name: "ControlFlowTwoPhaseCommit2pcAtomicCoordinationSkill",
+    displayName: "Two-Phase Commit (2PC) Distributed Atomic Coordination",
+    categoryId: "controlFlow",
+    description: "Guarantees atomic all-or-nothing transactions across multiple databases via Prepare and Commit phases.",
+    tags: ["control-flow","2pc","transactions","distributed-systems","coordination"],
+    transform: createStandardSkillTransform({
+      sectionName: "Two-Phase Commit (2PC) Protocol",
+      ruSectionName: "Двухфазный коммит (Two-Phase Commit / 2PC) в распределенных базах данных",
+      instructions: [
+        "Phase 1 (Prepare): Coordinator queries all cohort nodes; cohorts lock resources and vote YES/NO.",
+        "Phase 2 (Commit/Abort): Coordinator issues COMMIT only if 100% cohorts voted YES, otherwise issues ABORT.",
+        "Log transaction coordinator state durably to disk before sending Phase 2 decision messages."
+],
+      ruInstructions: [
+        "Фаза 1 (Prepare): Координатор опрашивает узлы; участники блокируют ресурсы и голосуют ЗА/ПРОТИВ.",
+        "Фаза 2 (Commit/Abort): Координатор рассылает COMMIT только при 100% согласии, иначе рассылает ABORT.",
+        "Записывайте решение координатора в журнал на диск перед отправкой команд второй фазы."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","2pc","transactions","distributed-systems","coordination"],
+    }),
+  },
+
+  "control-flow-backpressure-reactive-streams-flow-control": {
+    id: "control-flow-backpressure-reactive-streams-flow-control",
+    name: "ControlFlowBackpressureReactiveStreamsFlowControlSkill",
+    displayName: "Reactive Streams Backpressure & Demand-Driven Flow Control",
+    categoryId: "controlFlow",
+    description: "Prevents fast producers from overwhelming slow consumers using explicit demand signaling (`request(n)`).",
+    tags: ["control-flow","backpressure","reactive-streams","flow-control","async"],
+    transform: createStandardSkillTransform({
+      sectionName: "Reactive Streams Backpressure Protocol",
+      ruSectionName: "Управление противодавлением (Backpressure) и реактивные потоки (Reactive Streams)",
+      instructions: [
+        "Producers must never emit elements until downstream consumers explicitly request buffer capacity (`request(n)`).",
+        "Apply configurable overflow strategies (DROP_OLDEST, BUFFER_BOUNDED, ERROR) when consumer capacity is reached.",
+        "Propagate cancel signals upstream immediately when consumer terminates or unsubscribes."
+],
+      ruInstructions: [
+        "Источники данных не должны отправлять элементы без явного запроса емкости от получателя (`request(n)`).",
+        "Применяйте явные стратегии переполнения буфера (DROP_OLDEST, BUFFER, ERROR) при насыщении потребителя.",
+        "Передавайте сигнал отмены подписки вверх по цепочке при завершении обработки."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","backpressure","reactive-streams","flow-control","async"],
+    }),
+  },
+
+  "control-flow-debounce-throttle-ui-event-pacing": {
+    id: "control-flow-debounce-throttle-ui-event-pacing",
+    name: "ControlFlowDebounceThrottleUiEventPacingSkill",
+    displayName: "Debounce & Throttle High-Frequency Event Pacing",
+    categoryId: "controlFlow",
+    description: "Paces rapid keyboard, resize, and scroll events using trailing debouncing and leading/trailing throttling.",
+    tags: ["control-flow","debounce","throttle","ui-events","performance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Event Debouncing & Throttling Standards",
+      ruSectionName: "Оптимизация высокочастотных событий (Debounce и Throttle в UI)",
+      instructions: [
+        "Use Debounce (wait for $N$ ms of silence) for search auto-complete inputs and window resize recalculations.",
+        "Use Throttle (execute at most once per $N$ ms) for continuous scroll position tracking and canvas draws.",
+        "Cancel pending timers properly on React component unmount to prevent memory leaks."
+],
+      ruInstructions: [
+        "Применяйте Debounce (ожидание паузы в $N$ мс) для поисковых подсказок и перерасчета геометрии экрана.",
+        "Используйте Throttle (не чаще раза в $N$ мс) для отслеживания скролла и анимаций отрисовки.",
+        "Обязательно очищайте таймеры при размонтировании React-компонентов для защиты от утечек памяти."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","debounce","throttle","ui-events","performance"],
+    }),
+  },
+
+  "control-flow-pipeline-middleware-onion-architecture": {
+    id: "control-flow-pipeline-middleware-onion-architecture",
+    name: "ControlFlowPipelineMiddlewareOnionArchitectureSkill",
+    displayName: "Composable Middleware Pipeline & Onion Execution Flow",
+    categoryId: "controlFlow",
+    description: "Executes request/response pipelines through composable middleware layers with pre-processing, next() delegation, and post-processing.",
+    tags: ["control-flow","middleware","pipeline","onion-architecture","express-koa"],
+    transform: createStandardSkillTransform({
+      sectionName: "Composable Middleware Pipeline Standards",
+      ruSectionName: "Конвейер промежуточной обработки Middleware («Луковичная архитектура» Onion Flow)",
+      instructions: [
+        "Delegate to the next middleware in chain via `await next()`.",
+        "Execute pre-processing logic before `next()` and post-processing/error inspection after `next()` resolves.",
+        "Support early exit and response short-circuiting for authentication failures and validation errors."
+],
+      ruInstructions: [
+        "Передавайте управление следующему слою в цепочке через вызов `await next()`.",
+        "Выполняйте логику предварительной обработки до `next()` и пост-обработку результата после завершения.",
+        "Поддерживайте досрочное прерывание цепочки при ошибках авторизации и валидации."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","middleware","pipeline","onion-architecture","express-koa"],
+    }),
+  },
+
+  "control-flow-gossip-protocol-cluster-membership": {
+    id: "control-flow-gossip-protocol-cluster-membership",
+    name: "ControlFlowGossipProtocolClusterMembershipSkill",
+    displayName: "SWIM Gossip Protocol & Cluster Failure Detection",
+    categoryId: "controlFlow",
+    description: "Disseminates cluster state and detects node failures using weakly-consistent peer-to-peer Gossip message exchanges.",
+    tags: ["control-flow","gossip-protocol","swim","cluster","distributed-systems"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gossip Protocol Cluster Standards",
+      ruSectionName: "Протокол сплетен (Gossip Protocol / SWIM) для обнаружения сбоев в кластере",
+      instructions: [
+        "Periodically ping random peer nodes; if no ack is received, request indirect pings through $k$ auxiliary peers.",
+        "Declare node SUSPECT before DEAD to allow transient network partitions to recover gracefully.",
+        "Piggyback membership updates onto existing heartbeat messages to achieve $O(1)$ network overhead per node."
+],
+      ruInstructions: [
+        "Периодически опрашивайте случайные узлы кластера; при отсутствии ответа запрашивайте косвенный пинг через $k$ соседей.",
+        "Помечайте узел как SUSPECT перед окончательным объявлением DEAD для защиты от кратковременных задержек.",
+        "Добавляйте информацию об изменениях состава кластера к регулярным сообщениям без роста трафика."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","gossip-protocol","swim","cluster","distributed-systems"],
+    }),
+  },
+
+  "control-flow-cqrs-event-stream-subscription": {
+    id: "control-flow-cqrs-event-stream-subscription",
+    name: "ControlFlowCqrsEventStreamSubscriptionSkill",
+    displayName: "CQRS Asynchronous Event Stream Projection & Replay",
+    categoryId: "controlFlow",
+    description: "Subscribes to write-side event streams to build high-speed read projections with catch-up replay capabilities.",
+    tags: ["control-flow","cqrs","event-stream","projection","kafka"],
+    transform: createStandardSkillTransform({
+      sectionName: "CQRS Event Projection Protocol",
+      ruSectionName: "Асинхронные проекции событий CQRS и воспроизведение потоков (Replay)",
+      instructions: [
+        "Maintain a persistent consumer offset checkpoint for each read-model projection.",
+        "Ensure projection event handlers are idempotent: replaying duplicate events produces identical projection state.",
+        "Support background rebuilds of projections by replaying event logs from stream origin (`offset = 0`)."
+],
+      ruInstructions: [
+        "Сохраняйте позицию смещения (Offset Checkpoint) для каждой проекции модели чтения.",
+        "Обеспечивайте строгую идемпотентность обработчиков: повтор события не должен искажать данные.",
+        "Поддерживайте фоновое перестроение проекций путем полного перезапуска потока с нулевого смещения."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","cqrs","event-stream","projection","kafka"],
+    }),
+  },
+
+  "control-flow-fork-join-recursive-divide-conquer": {
+    id: "control-flow-fork-join-recursive-divide-conquer",
+    name: "ControlFlowForkJoinRecursiveDivideConquerSkill",
+    displayName: "Fork-Join Parallel Recursive Divide-and-Conquer",
+    categoryId: "controlFlow",
+    description: "Breaks massive computational trees into subtasks (Fork) executed on work-stealing thread pools, merging outputs (Join).",
+    tags: ["control-flow","fork-join","divide-and-conquer","parallelism","algorithms"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fork-Join Concurrency Standards",
+      ruSectionName: "Параллельная модель Fork-Join и рекурсивное разделение задач (Divide and Conquer)",
+      instructions: [
+        "Split tasks exceeding a predefined sequential threshold recursively into left and right subtasks (Fork).",
+        "Execute small subtasks sequentially at the base case to avoid fork overhead thrashing.",
+        "Join subtask results asynchronously using work-stealing queues to maximize CPU core utilization."
+],
+      ruInstructions: [
+        "Рекурсивно разделяйте крупные задачи на подзадачи (Fork) при превышении порогового размера.",
+        "Выполняйте базовые мелкие подзадачи последовательно без накладных расходов на создание потоков.",
+        "Объединяйте результаты (Join) с использованием очередей Work-Stealing для равномерной загрузки ядер CPU."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","fork-join","divide-and-conquer","parallelism","algorithms"],
+    }),
+  },
+
+  "control-flow-graceful-shutdown-drain-connections": {
+    id: "control-flow-graceful-shutdown-drain-connections",
+    name: "ControlFlowGracefulShutdownDrainConnectionsSkill",
+    displayName: "Graceful Process Shutdown & In-Flight Connection Draining",
+    categoryId: "controlFlow",
+    description: "Handles SIGTERM/SIGINT signals by refusing new requests, completing in-flight jobs, and closing database pools cleanly.",
+    tags: ["control-flow","graceful-shutdown","devops","lifecycle","reliability"],
+    transform: createStandardSkillTransform({
+      sectionName: "Graceful Process Termination Protocol",
+      ruSectionName: "Корректное завершение процессов (Graceful Shutdown) и сброс активных соединений",
+      instructions: [
+        "Intercept `SIGTERM` and `SIGINT` signals; immediately stop accepting new HTTP/gRPC requests.",
+        "Allow active in-flight requests a graceful grace period (e.g. 30 seconds) to complete processing.",
+        "Close database connection pools, flush log buffers, and exit process with status code 0."
+],
+      ruInstructions: [
+        "Перехватывайте системные сигналы `SIGTERM` и `SIGINT`, прекращая прием новых входящих запросов.",
+        "Предоставляйте активным фоновым операциям фиксированный таймаут (например, 30 секунд) на завершение.",
+        "Закрывайте пулы баз данных, сбрасывайте буферы логов на диск и завершайте процесс с кодом 0."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","graceful-shutdown","devops","lifecycle","reliability"],
+    }),
+  },
 };

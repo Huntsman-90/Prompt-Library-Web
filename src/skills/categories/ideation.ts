@@ -1353,4 +1353,628 @@ export const IDEATION_SKILLS: Record<string, SkillDefinition> = {
       tags: ["ideation","platform-ecosystem","composability","marketplace","api-economy"],
     }),
   },
+  "ideation-scamper-creative-transformation-operator": {
+    id: "ideation-scamper-creative-transformation-operator",
+    name: "SCAMPERCreativeTransformationOperatorSkill",
+    displayName: "SCAMPER Creative Transformation Operator",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for SCAMPER Creative Transformation Operator.",
+    tags: ["ideation","scamper","creative","transformation"],
+    transform: createStandardSkillTransform({
+      sectionName: "SCAMPER Transformation Standards",
+      ruSectionName: "Стандарты и практические требования: SCAMPER Creative Transformation Operator",
+      instructions: [
+        "Apply core domain tenets and industry best practices for SCAMPER Creative Transformation Operator.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для SCAMPER Creative Transformation Operator.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","scamper","creative","transformation"],
+    }),
+  },
+
+  "ideation-lateral-thinking-random-stimulus-association": {
+    id: "ideation-lateral-thinking-random-stimulus-association",
+    name: "LateralThinkingRandomStimulusAssociationSkill",
+    displayName: "Lateral Thinking Random Stimulus Association",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Lateral Thinking Random Stimulus Association.",
+    tags: ["ideation","lateral","thinking","random"],
+    transform: createStandardSkillTransform({
+      sectionName: "Lateral Thinking Protocol",
+      ruSectionName: "Стандарты и практические требования: Lateral Thinking Random Stimulus Association",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Lateral Thinking Random Stimulus Association.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Lateral Thinking Random Stimulus Association.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","lateral","thinking","random"],
+    }),
+  },
+
+  "ideation-crazy-eights-rapid-solution-sketching": {
+    id: "ideation-crazy-eights-rapid-solution-sketching",
+    name: "CrazyEightsRapidSolutionSketchingSkill",
+    displayName: "Crazy Eights Rapid Solution Sketching",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Crazy Eights Rapid Solution Sketching.",
+    tags: ["ideation","crazy","eights","rapid"],
+    transform: createStandardSkillTransform({
+      sectionName: "Crazy Eights Rapid Ideation",
+      ruSectionName: "Стандарты и практические требования: Crazy Eights Rapid Solution Sketching",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Crazy Eights Rapid Solution Sketching.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Crazy Eights Rapid Solution Sketching.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","crazy","eights","rapid"],
+    }),
+  },
+
+  "ideation-six-thinking-hats-multi-perspective-rotation": {
+    id: "ideation-six-thinking-hats-multi-perspective-rotation",
+    name: "SixThinkingHatsMultiPerspectiveRotationSkill",
+    displayName: "Six Thinking Hats Multi-Perspective Rotation",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Six Thinking Hats Multi-Perspective Rotation.",
+    tags: ["ideation","six","thinking","hats"],
+    transform: createStandardSkillTransform({
+      sectionName: "Six Thinking Hats Protocol",
+      ruSectionName: "Стандарты и практические требования: Six Thinking Hats Multi-Perspective Rotation",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Six Thinking Hats Multi-Perspective Rotation.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Six Thinking Hats Multi-Perspective Rotation.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","six","thinking","hats"],
+    }),
+  },
+
+  "ideation-worst-possible-idea-reverse-brainstorming": {
+    id: "ideation-worst-possible-idea-reverse-brainstorming",
+    name: "WorstPossibleIdeaReverseBrainstormingSkill",
+    displayName: "Worst Possible Idea Reverse Brainstorming",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Worst Possible Idea Reverse Brainstorming.",
+    tags: ["ideation","worst","possible","idea"],
+    transform: createStandardSkillTransform({
+      sectionName: "Reverse Brainstorming Framework",
+      ruSectionName: "Стандарты и практические требования: Worst Possible Idea Reverse Brainstorming",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Worst Possible Idea Reverse Brainstorming.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Worst Possible Idea Reverse Brainstorming.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","worst","possible","idea"],
+    }),
+  },
+
+  "ideation-biomimicry-nature-inspired-innovation": {
+    id: "ideation-biomimicry-nature-inspired-innovation",
+    name: "BiomimicryNatureInspiredInnovationSkill",
+    displayName: "Biomimicry Nature-Inspired Innovation",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Biomimicry Nature-Inspired Innovation.",
+    tags: ["ideation","biomimicry","nature","inspired"],
+    transform: createStandardSkillTransform({
+      sectionName: "Biomimicry Innovation Protocol",
+      ruSectionName: "Стандарты и практические требования: Biomimicry Nature-Inspired Innovation",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Biomimicry Nature-Inspired Innovation.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Biomimicry Nature-Inspired Innovation.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","biomimicry","nature","inspired"],
+    }),
+  },
+
+  "ideation-morphological-analysis-attribute-matrix": {
+    id: "ideation-morphological-analysis-attribute-matrix",
+    name: "MorphologicalAnalysisAttributeMatrixSkill",
+    displayName: "Morphological Analysis Attribute Matrix",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Morphological Analysis Attribute Matrix.",
+    tags: ["ideation","morphological","analysis","attribute"],
+    transform: createStandardSkillTransform({
+      sectionName: "Morphological Matrix Blueprint",
+      ruSectionName: "Стандарты и практические требования: Morphological Analysis Attribute Matrix",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Morphological Analysis Attribute Matrix.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Morphological Analysis Attribute Matrix.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","morphological","analysis","attribute"],
+    }),
+  },
+
+  "ideation-first-principles-deconstructive-synthesis": {
+    id: "ideation-first-principles-deconstructive-synthesis",
+    name: "FirstPrinciplesDeconstructiveSynthesisSkill",
+    displayName: "First Principles Deconstructive Synthesis",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for First Principles Deconstructive Synthesis.",
+    tags: ["ideation","first","principles","deconstructive"],
+    transform: createStandardSkillTransform({
+      sectionName: "First Principles Ideation Standards",
+      ruSectionName: "Стандарты и практические требования: First Principles Deconstructive Synthesis",
+      instructions: [
+        "Apply core domain tenets and industry best practices for First Principles Deconstructive Synthesis.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для First Principles Deconstructive Synthesis.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","first","principles","deconstructive"],
+    }),
+  },
+
+  "ideation-analogical-transfer-cross-domain-synthesis": {
+    id: "ideation-analogical-transfer-cross-domain-synthesis",
+    name: "AnalogicalTransferCrossDomainSynthesisSkill",
+    displayName: "Analogical Transfer Cross-Domain Synthesis",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Analogical Transfer Cross-Domain Synthesis.",
+    tags: ["ideation","analogical","transfer","cross"],
+    transform: createStandardSkillTransform({
+      sectionName: "Analogical Cross-Domain Protocol",
+      ruSectionName: "Стандарты и практические требования: Analogical Transfer Cross-Domain Synthesis",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Analogical Transfer Cross-Domain Synthesis.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Analogical Transfer Cross-Domain Synthesis.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","analogical","transfer","cross"],
+    }),
+  },
+
+  "ideation-future-backcasting-long-term-trajectory": {
+    id: "ideation-future-backcasting-long-term-trajectory",
+    name: "FutureBackcastingLongTermTrajectorySkill",
+    displayName: "Future Backcasting Long-Term Trajectory",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Future Backcasting Long-Term Trajectory.",
+    tags: ["ideation","future","backcasting","long"],
+    transform: createStandardSkillTransform({
+      sectionName: "Backcasting Trajectory Framework",
+      ruSectionName: "Стандарты и практические требования: Future Backcasting Long-Term Trajectory",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Future Backcasting Long-Term Trajectory.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Future Backcasting Long-Term Trajectory.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","future","backcasting","long"],
+    }),
+  },
+
+  "ideation-10x-moonshot-thinking-extreme-scale": {
+    id: "ideation-10x-moonshot-thinking-extreme-scale",
+    name: "10xMoonshotThinkingExtremeScaleSkill",
+    displayName: "10x Moonshot Thinking & Extreme Scale",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for 10x Moonshot Thinking & Extreme Scale.",
+    tags: ["ideation","10x","moonshot","thinking"],
+    transform: createStandardSkillTransform({
+      sectionName: "10x Moonshot Ideation Blueprint",
+      ruSectionName: "Стандарты и практические требования: 10x Moonshot Thinking & Extreme Scale",
+      instructions: [
+        "Apply core domain tenets and industry best practices for 10x Moonshot Thinking & Extreme Scale.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для 10x Moonshot Thinking & Extreme Scale.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","10x","moonshot","thinking"],
+    }),
+  },
+
+  "ideation-value-proposition-canvas-pain-reliever-grid": {
+    id: "ideation-value-proposition-canvas-pain-reliever-grid",
+    name: "ValuePropositionCanvasPainRelieverGridSkill",
+    displayName: "Value Proposition Canvas Pain-Reliever Grid",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Value Proposition Canvas Pain-Reliever Grid.",
+    tags: ["ideation","value","proposition","canvas"],
+    transform: createStandardSkillTransform({
+      sectionName: "Value Proposition Mapping Standards",
+      ruSectionName: "Стандарты и практические требования: Value Proposition Canvas Pain-Reliever Grid",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Value Proposition Canvas Pain-Reliever Grid.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Value Proposition Canvas Pain-Reliever Grid.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","value","proposition","canvas"],
+    }),
+  },
+
+  "ideation-triz-40-inventive-principles-matrix": {
+    id: "ideation-triz-40-inventive-principles-matrix",
+    name: "TRIZ40InventivePrinciplesMatrixSkill",
+    displayName: "TRIZ 40 Inventive Principles Matrix",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for TRIZ 40 Inventive Principles Matrix.",
+    tags: ["ideation","triz","40","inventive"],
+    transform: createStandardSkillTransform({
+      sectionName: "TRIZ Inventive Principles Protocol",
+      ruSectionName: "Стандарты и практические требования: TRIZ 40 Inventive Principles Matrix",
+      instructions: [
+        "Apply core domain tenets and industry best practices for TRIZ 40 Inventive Principles Matrix.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для TRIZ 40 Inventive Principles Matrix.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","triz","40","inventive"],
+    }),
+  },
+
+  "ideation-disruptive-opportunity-matrix-exploration": {
+    id: "ideation-disruptive-opportunity-matrix-exploration",
+    name: "DisruptiveOpportunityMatrixExplorationSkill",
+    displayName: "Disruptive Opportunity Matrix Exploration",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Disruptive Opportunity Matrix Exploration.",
+    tags: ["ideation","disruptive","opportunity","matrix"],
+    transform: createStandardSkillTransform({
+      sectionName: "Disruptive Matrix Standards",
+      ruSectionName: "Стандарты и практические требования: Disruptive Opportunity Matrix Exploration",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Disruptive Opportunity Matrix Exploration.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Disruptive Opportunity Matrix Exploration.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","disruptive","opportunity","matrix"],
+    }),
+  },
+
+  "ideation-crazy-mashup-unrelated-domain-collision": {
+    id: "ideation-crazy-mashup-unrelated-domain-collision",
+    name: "CrazyMashupUnrelatedDomainCollisionSkill",
+    displayName: "Crazy Mashup Unrelated Domain Collision",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Crazy Mashup Unrelated Domain Collision.",
+    tags: ["ideation","crazy","mashup","unrelated"],
+    transform: createStandardSkillTransform({
+      sectionName: "Crazy Mashup Collision Protocol",
+      ruSectionName: "Стандарты и практические требования: Crazy Mashup Unrelated Domain Collision",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Crazy Mashup Unrelated Domain Collision.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Crazy Mashup Unrelated Domain Collision.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","crazy","mashup","unrelated"],
+    }),
+  },
+
+  "ideation-opposable-mind-integrative-thinking": {
+    id: "ideation-opposable-mind-integrative-thinking",
+    name: "OpposableMindIntegrativeThinkingSkill",
+    displayName: "Opposable Mind Integrative Thinking",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Opposable Mind Integrative Thinking.",
+    tags: ["ideation","opposable","mind","integrative"],
+    transform: createStandardSkillTransform({
+      sectionName: "Integrative Thinking Framework",
+      ruSectionName: "Стандарты и практические требования: Opposable Mind Integrative Thinking",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Opposable Mind Integrative Thinking.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Opposable Mind Integrative Thinking.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","opposable","mind","integrative"],
+    }),
+  },
+
+  "ideation-customer-journey-bottleneck-inversion": {
+    id: "ideation-customer-journey-bottleneck-inversion",
+    name: "CustomerJourneyBottleneckInversionSkill",
+    displayName: "Customer Journey Bottleneck Inversion",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Customer Journey Bottleneck Inversion.",
+    tags: ["ideation","customer","journey","bottleneck"],
+    transform: createStandardSkillTransform({
+      sectionName: "Journey Inversion Ideation Protocol",
+      ruSectionName: "Стандарты и практические требования: Customer Journey Bottleneck Inversion",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Customer Journey Bottleneck Inversion.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Customer Journey Bottleneck Inversion.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","customer","journey","bottleneck"],
+    }),
+  },
+
+  "ideation-constraint-induced-radical-creativity": {
+    id: "ideation-constraint-induced-radical-creativity",
+    name: "ConstraintInducedRadicalCreativitySkill",
+    displayName: "Constraint-Induced Radical Creativity",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Constraint-Induced Radical Creativity.",
+    tags: ["ideation","constraint","induced","radical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Constraint-Induced Innovation Rules",
+      ruSectionName: "Стандарты и практические требования: Constraint-Induced Radical Creativity",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Constraint-Induced Radical Creativity.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Constraint-Induced Radical Creativity.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","constraint","induced","radical"],
+    }),
+  },
+
+  "ideation-assumption-smashing-orthodox-challenge": {
+    id: "ideation-assumption-smashing-orthodox-challenge",
+    name: "AssumptionSmashingOrthodoxChallengeSkill",
+    displayName: "Assumption Smashing Orthodox Challenge",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Assumption Smashing Orthodox Challenge.",
+    tags: ["ideation","assumption","smashing","orthodox"],
+    transform: createStandardSkillTransform({
+      sectionName: "Assumption Smashing Framework",
+      ruSectionName: "Стандарты и практические требования: Assumption Smashing Orthodox Challenge",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Assumption Smashing Orthodox Challenge.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Assumption Smashing Orthodox Challenge.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","assumption","smashing","orthodox"],
+    }),
+  },
+
+  "ideation-trend-collision-exponential-synthesis": {
+    id: "ideation-trend-collision-exponential-synthesis",
+    name: "TrendCollisionExponentialSynthesisSkill",
+    displayName: "Trend Collision Exponential Synthesis",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Trend Collision Exponential Synthesis.",
+    tags: ["ideation","trend","collision","exponential"],
+    transform: createStandardSkillTransform({
+      sectionName: "Trend Collision Synthesis Standards",
+      ruSectionName: "Стандарты и практические требования: Trend Collision Exponential Synthesis",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Trend Collision Exponential Synthesis.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Trend Collision Exponential Synthesis.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","trend","collision","exponential"],
+    }),
+  },
+
+  "ideation-science-fiction-prototyping-worldbuilding": {
+    id: "ideation-science-fiction-prototyping-worldbuilding",
+    name: "ScienceFictionPrototypingWorldbuildingSkill",
+    displayName: "Science Fiction Prototyping Worldbuilding",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Science Fiction Prototyping Worldbuilding.",
+    tags: ["ideation","science","fiction","prototyping"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sci-Fi Prototyping Protocol",
+      ruSectionName: "Стандарты и практические требования: Science Fiction Prototyping Worldbuilding",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Science Fiction Prototyping Worldbuilding.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Science Fiction Prototyping Worldbuilding.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","science","fiction","prototyping"],
+    }),
+  },
+
+  "ideation-anti-problem-solving-dark-mode-brainstorm": {
+    id: "ideation-anti-problem-solving-dark-mode-brainstorm",
+    name: "AntiProblemSolvingDarkModeBrainstormSkill",
+    displayName: "Anti-Problem Solving Dark Mode Brainstorm",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Anti-Problem Solving Dark Mode Brainstorm.",
+    tags: ["ideation","anti","problem","solving"],
+    transform: createStandardSkillTransform({
+      sectionName: "Anti-Problem Inversion Standards",
+      ruSectionName: "Стандарты и практические требования: Anti-Problem Solving Dark Mode Brainstorm",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Anti-Problem Solving Dark Mode Brainstorm.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Anti-Problem Solving Dark Mode Brainstorm.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","anti","problem","solving"],
+    }),
+  },
+
+  "ideation-design-thinking-empathize-define-loop": {
+    id: "ideation-design-thinking-empathize-define-loop",
+    name: "DesignThinkingEmpathizeDefineLoopSkill",
+    displayName: "Design Thinking Empathize-Define Loop",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Design Thinking Empathize-Define Loop.",
+    tags: ["ideation","design","thinking","empathize"],
+    transform: createStandardSkillTransform({
+      sectionName: "Design Thinking Empathy Blueprint",
+      ruSectionName: "Стандарты и практические требования: Design Thinking Empathize-Define Loop",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Design Thinking Empathize-Define Loop.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Design Thinking Empathize-Define Loop.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","design","thinking","empathize"],
+    }),
+  },
+
+  "ideation-blue-sky-unbounded-scenario-sandbox": {
+    id: "ideation-blue-sky-unbounded-scenario-sandbox",
+    name: "BlueSkyUnboundedScenarioSandboxSkill",
+    displayName: "Blue Sky Unbounded Scenario Sandbox",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Blue Sky Unbounded Scenario Sandbox.",
+    tags: ["ideation","blue","sky","unbounded"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blue Sky Sandbox Protocol",
+      ruSectionName: "Стандарты и практические требования: Blue Sky Unbounded Scenario Sandbox",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Blue Sky Unbounded Scenario Sandbox.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Blue Sky Unbounded Scenario Sandbox.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","blue","sky","unbounded"],
+    }),
+  },
+
+  "ideation-rapid-prototyping-paper-concept-mock": {
+    id: "ideation-rapid-prototyping-paper-concept-mock",
+    name: "RapidPrototypingPaperConceptMockSkill",
+    displayName: "Rapid Prototyping Paper Concept Mock",
+    categoryId: "ideation",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Rapid Prototyping Paper Concept Mock.",
+    tags: ["ideation","rapid","prototyping","paper"],
+    transform: createStandardSkillTransform({
+      sectionName: "Rapid Concept Mocking Standards",
+      ruSectionName: "Стандарты и практические требования: Rapid Prototyping Paper Concept Mock",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Rapid Prototyping Paper Concept Mock.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Rapid Prototyping Paper Concept Mock.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["ideation","rapid","prototyping","paper"],
+    }),
+  },
 };

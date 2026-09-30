@@ -1387,4 +1387,628 @@ sectionName: 'Reverse Mentorship & Apprenticeship Protocol',
       tags: ["miscellaneous","culinary","cooking","flavor-pairing","taste-balancing"],
     }),
   },
+  "misc-universal-metric-to-imperial-precise-conversion": {
+    id: "misc-universal-metric-to-imperial-precise-conversion",
+    name: "UniversalMetrictoImperialPreciseConversionSkill",
+    displayName: "Universal Metric-to-Imperial Precise Conversion",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Universal Metric-to-Imperial Precise Conversion.",
+    tags: ["miscellaneous","universal","metric","to"],
+    transform: createStandardSkillTransform({
+      sectionName: "Metric-Imperial Conversion Protocol",
+      ruSectionName: "Стандарты и практические требования: Universal Metric-to-Imperial Precise Conversion",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Universal Metric-to-Imperial Precise Conversion.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Universal Metric-to-Imperial Precise Conversion.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","universal","metric","to"],
+    }),
+  },
+
+  "misc-aviation-phonetic-alphabet-radio-callout": {
+    id: "misc-aviation-phonetic-alphabet-radio-callout",
+    name: "AviationPhoneticAlphabetRadioCalloutSkill",
+    displayName: "Aviation Phonetic Alphabet & Radio Callout",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Aviation Phonetic Alphabet & Radio Callout.",
+    tags: ["miscellaneous","aviation","phonetic","alphabet"],
+    transform: createStandardSkillTransform({
+      sectionName: "Aviation Radio Telephony Standards",
+      ruSectionName: "Стандарты и практические требования: Aviation Phonetic Alphabet & Radio Callout",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Aviation Phonetic Alphabet & Radio Callout.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Aviation Phonetic Alphabet & Radio Callout.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","aviation","phonetic","alphabet"],
+    }),
+  },
+
+  "misc-barbecue-low-and-slow-texas-brisket-smoke-science": {
+    id: "misc-barbecue-low-and-slow-texas-brisket-smoke-science",
+    name: "BarbecueLowandSlowTexasBrisketSmokeScienceSkill",
+    displayName: "Barbecue Low-and-Slow Texas Brisket Smoke Science",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Barbecue Low-and-Slow Texas Brisket Smoke Science.",
+    tags: ["miscellaneous","barbecue","low","and"],
+    transform: createStandardSkillTransform({
+      sectionName: "Texas Brisket Smoke Science Standards",
+      ruSectionName: "Стандарты и практические требования: Barbecue Low-and-Slow Texas Brisket Smoke Science",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Barbecue Low-and-Slow Texas Brisket Smoke Science.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Barbecue Low-and-Slow Texas Brisket Smoke Science.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","barbecue","low","and"],
+    }),
+  },
+
+  "misc-specialty-coffee-extraction-brix-tds-pour-over": {
+    id: "misc-specialty-coffee-extraction-brix-tds-pour-over",
+    name: "SpecialtyCoffeeExtractionBrixTDSPourOverSkill",
+    displayName: "Specialty Coffee Extraction (Brix/TDS & Pour-Over)",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Specialty Coffee Extraction (Brix/TDS & Pour-Over).",
+    tags: ["miscellaneous","specialty","coffee","extraction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Specialty Coffee Extraction Standards",
+      ruSectionName: "Стандарты и практические требования: Specialty Coffee Extraction (Brix/TDS & Pour-Over)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Specialty Coffee Extraction (Brix/TDS & Pour-Over).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Specialty Coffee Extraction (Brix/TDS & Pour-Over).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","specialty","coffee","extraction"],
+    }),
+  },
+
+  "misc-origami-geometric-crease-pattern-folding": {
+    id: "misc-origami-geometric-crease-pattern-folding",
+    name: "OrigamiGeometricCreasePatternFoldingSkill",
+    displayName: "Origami Geometric Crease Pattern Folding",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Origami Geometric Crease Pattern Folding.",
+    tags: ["miscellaneous","origami","geometric","crease"],
+    transform: createStandardSkillTransform({
+      sectionName: "Origami Crease Pattern Rules",
+      ruSectionName: "Стандарты и практические требования: Origami Geometric Crease Pattern Folding",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Origami Geometric Crease Pattern Folding.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Origami Geometric Crease Pattern Folding.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","origami","geometric","crease"],
+    }),
+  },
+
+  "misc-master-home-composting-c-n-ratio-balancer": {
+    id: "misc-master-home-composting-c-n-ratio-balancer",
+    name: "MasterHomeCompostingCNRatioBalancerSkill",
+    displayName: "Master Home Composting C:N Ratio Balancer",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Master Home Composting C:N Ratio Balancer.",
+    tags: ["miscellaneous","master","home","composting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Composting Nitrogen Balancer Protocol",
+      ruSectionName: "Стандарты и практические требования: Master Home Composting C:N Ratio Balancer",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Master Home Composting C:N Ratio Balancer.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Master Home Composting C:N Ratio Balancer.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","master","home","composting"],
+    }),
+  },
+
+  "misc-bonsai-tree-pruning-root-wiring-technique": {
+    id: "misc-bonsai-tree-pruning-root-wiring-technique",
+    name: "BonsaiTreePruningRootWiringTechniqueSkill",
+    displayName: "Bonsai Tree Pruning & Root Wiring Technique",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Bonsai Tree Pruning & Root Wiring Technique.",
+    tags: ["miscellaneous","bonsai","tree","pruning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bonsai Pruning Technique Standards",
+      ruSectionName: "Стандарты и практические требования: Bonsai Tree Pruning & Root Wiring Technique",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Bonsai Tree Pruning & Root Wiring Technique.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Bonsai Tree Pruning & Root Wiring Technique.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","bonsai","tree","pruning"],
+    }),
+  },
+
+  "misc-kintsugi-japanese-gold-lacquer-ceramic-repair": {
+    id: "misc-kintsugi-japanese-gold-lacquer-ceramic-repair",
+    name: "KintsugiJapaneseGoldLacquerCeramicRepairSkill",
+    displayName: "Kintsugi Japanese Gold Lacquer Ceramic Repair",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Kintsugi Japanese Gold Lacquer Ceramic Repair.",
+    tags: ["miscellaneous","kintsugi","japanese","gold"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kintsugi Ceramic Repair Standards",
+      ruSectionName: "Стандарты и практические требования: Kintsugi Japanese Gold Lacquer Ceramic Repair",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Kintsugi Japanese Gold Lacquer Ceramic Repair.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Kintsugi Japanese Gold Lacquer Ceramic Repair.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","kintsugi","japanese","gold"],
+    }),
+  },
+
+  "misc-fermentation-sourdough-hydration-microflora": {
+    id: "misc-fermentation-sourdough-hydration-microflora",
+    name: "FermentationSourdoughHydrationMicrofloraSkill",
+    displayName: "Fermentation Sourdough Hydration & Microflora",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Fermentation Sourdough Hydration & Microflora.",
+    tags: ["miscellaneous","fermentation","sourdough","hydration"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sourdough Fermentation Architecture",
+      ruSectionName: "Стандарты и практические требования: Fermentation Sourdough Hydration & Microflora",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Fermentation Sourdough Hydration & Microflora.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Fermentation Sourdough Hydration & Microflora.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","fermentation","sourdough","hydration"],
+    }),
+  },
+
+  "misc-minimalist-edc-everyday-carry-gear-optimization": {
+    id: "misc-minimalist-edc-everyday-carry-gear-optimization",
+    name: "MinimalistEDCEverydayCarryGearOptimizationSkill",
+    displayName: "Minimalist EDC (Everyday Carry) Gear Optimization",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Minimalist EDC (Everyday Carry) Gear Optimization.",
+    tags: ["miscellaneous","minimalist","edc","everyday"],
+    transform: createStandardSkillTransform({
+      sectionName: "Everyday Carry Gear Standards",
+      ruSectionName: "Стандарты и практические требования: Minimalist EDC (Everyday Carry) Gear Optimization",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Minimalist EDC (Everyday Carry) Gear Optimization.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Minimalist EDC (Everyday Carry) Gear Optimization.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","minimalist","edc","everyday"],
+    }),
+  },
+
+  "misc-horology-mechanical-watch-movement-escapement": {
+    id: "misc-horology-mechanical-watch-movement-escapement",
+    name: "HorologyMechanicalWatchMovementEscapementSkill",
+    displayName: "Horology Mechanical Watch Movement Escapement",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Horology Mechanical Watch Movement Escapement.",
+    tags: ["miscellaneous","horology","mechanical","watch"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mechanical Watch Escapement Standards",
+      ruSectionName: "Стандарты и практические требования: Horology Mechanical Watch Movement Escapement",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Horology Mechanical Watch Movement Escapement.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Horology Mechanical Watch Movement Escapement.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","horology","mechanical","watch"],
+    }),
+  },
+
+  "misc-scuba-diving-padi-decompression-table-planning": {
+    id: "misc-scuba-diving-padi-decompression-table-planning",
+    name: "ScubaDivingPADIDecompressionTablePlanningSkill",
+    displayName: "Scuba Diving PADI Decompression Table Planning",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Scuba Diving PADI Decompression Table Planning.",
+    tags: ["miscellaneous","scuba","diving","padi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Scuba Decompression Planning Protocol",
+      ruSectionName: "Стандарты и практические требования: Scuba Diving PADI Decompression Table Planning",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Scuba Diving PADI Decompression Table Planning.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Scuba Diving PADI Decompression Table Planning.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","scuba","diving","padi"],
+    }),
+  },
+
+  "misc-artisan-cheese-aging-affinage-rind-microbiology": {
+    id: "misc-artisan-cheese-aging-affinage-rind-microbiology",
+    name: "ArtisanCheeseAgingAffinageRindMicrobiologySkill",
+    displayName: "Artisan Cheese Aging Affinage & Rind Microbiology",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Artisan Cheese Aging Affinage & Rind Microbiology.",
+    tags: ["miscellaneous","artisan","cheese","aging"],
+    transform: createStandardSkillTransform({
+      sectionName: "Artisan Cheese Affinage Standards",
+      ruSectionName: "Стандарты и практические требования: Artisan Cheese Aging Affinage & Rind Microbiology",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Artisan Cheese Aging Affinage & Rind Microbiology.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Artisan Cheese Aging Affinage & Rind Microbiology.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","artisan","cheese","aging"],
+    }),
+  },
+
+  "misc-wilderness-bushcraft-fire-craft-tinder-selection": {
+    id: "misc-wilderness-bushcraft-fire-craft-tinder-selection",
+    name: "WildernessBushcraftFireCraftTinderSelectionSkill",
+    displayName: "Wilderness Bushcraft Fire Craft & Tinder Selection",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Wilderness Bushcraft Fire Craft & Tinder Selection.",
+    tags: ["miscellaneous","wilderness","bushcraft","fire"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bushcraft Wilderness Fire Protocol",
+      ruSectionName: "Стандарты и практические требования: Wilderness Bushcraft Fire Craft & Tinder Selection",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Wilderness Bushcraft Fire Craft & Tinder Selection.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Wilderness Bushcraft Fire Craft & Tinder Selection.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","wilderness","bushcraft","fire"],
+    }),
+  },
+
+  "misc-bicycle-derailleur-indexing-cable-tensioning": {
+    id: "misc-bicycle-derailleur-indexing-cable-tensioning",
+    name: "BicycleDerailleurIndexingCableTensioningSkill",
+    displayName: "Bicycle Derailleur Indexing & Cable Tensioning",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Bicycle Derailleur Indexing & Cable Tensioning.",
+    tags: ["miscellaneous","bicycle","derailleur","indexing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bicycle Derailleur Tuning Standards",
+      ruSectionName: "Стандарты и практические требования: Bicycle Derailleur Indexing & Cable Tensioning",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Bicycle Derailleur Indexing & Cable Tensioning.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Bicycle Derailleur Indexing & Cable Tensioning.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","bicycle","derailleur","indexing"],
+    }),
+  },
+
+  "misc-leathercraft-saddle-stitching-edge-burnishing": {
+    id: "misc-leathercraft-saddle-stitching-edge-burnishing",
+    name: "LeathercraftSaddleStitchingEdgeBurnishingSkill",
+    displayName: "Leathercraft Saddle Stitching & Edge Burnishing",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Leathercraft Saddle Stitching & Edge Burnishing.",
+    tags: ["miscellaneous","leathercraft","saddle","stitching"],
+    transform: createStandardSkillTransform({
+      sectionName: "Leathercraft Saddle Stitching Blueprint",
+      ruSectionName: "Стандарты и практические требования: Leathercraft Saddle Stitching & Edge Burnishing",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Leathercraft Saddle Stitching & Edge Burnishing.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Leathercraft Saddle Stitching & Edge Burnishing.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","leathercraft","saddle","stitching"],
+    }),
+  },
+
+  "misc-aquaponics-closed-loop-nitrogen-cycle-system": {
+    id: "misc-aquaponics-closed-loop-nitrogen-cycle-system",
+    name: "AquaponicsClosedLoopNitrogenCycleSystemSkill",
+    displayName: "Aquaponics Closed-Loop Nitrogen Cycle System",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Aquaponics Closed-Loop Nitrogen Cycle System.",
+    tags: ["miscellaneous","aquaponics","closed","loop"],
+    transform: createStandardSkillTransform({
+      sectionName: "Aquaponics Nitrogen Cycle Standards",
+      ruSectionName: "Стандарты и практические требования: Aquaponics Closed-Loop Nitrogen Cycle System",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Aquaponics Closed-Loop Nitrogen Cycle System.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Aquaponics Closed-Loop Nitrogen Cycle System.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","aquaponics","closed","loop"],
+    }),
+  },
+
+  "misc-lockpicking-pin-tumbler-spp-mechanics": {
+    id: "misc-lockpicking-pin-tumbler-spp-mechanics",
+    name: "LockpickingPinTumblerSPPMechanicsSkill",
+    displayName: "Lockpicking Pin-Tumbler SPP Mechanics",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Lockpicking Pin-Tumbler SPP Mechanics.",
+    tags: ["miscellaneous","lockpicking","pin","tumbler"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pin-Tumbler Lockpicking Mechanics",
+      ruSectionName: "Стандарты и практические требования: Lockpicking Pin-Tumbler SPP Mechanics",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Lockpicking Pin-Tumbler SPP Mechanics.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Lockpicking Pin-Tumbler SPP Mechanics.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","lockpicking","pin","tumbler"],
+    }),
+  },
+
+  "misc-knots-cordage-bowline-clove-hitch-rigging": {
+    id: "misc-knots-cordage-bowline-clove-hitch-rigging",
+    name: "KnotsCordageBowlineCloveHitchRiggingSkill",
+    displayName: "Knots & Cordage Bowline Clove Hitch Rigging",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Knots & Cordage Bowline Clove Hitch Rigging.",
+    tags: ["miscellaneous","knots","cordage","bowline"],
+    transform: createStandardSkillTransform({
+      sectionName: "Rigging Knots Standards",
+      ruSectionName: "Стандарты и практические требования: Knots & Cordage Bowline Clove Hitch Rigging",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Knots & Cordage Bowline Clove Hitch Rigging.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Knots & Cordage Bowline Clove Hitch Rigging.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","knots","cordage","bowline"],
+    }),
+  },
+
+  "misc-traditional-archery-form-instinctive-aiming": {
+    id: "misc-traditional-archery-form-instinctive-aiming",
+    name: "TraditionalArcheryFormInstinctiveAimingSkill",
+    displayName: "Traditional Archery Form & Instinctive Aiming",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Traditional Archery Form & Instinctive Aiming.",
+    tags: ["miscellaneous","traditional","archery","form"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Archery Form Protocol",
+      ruSectionName: "Стандарты и практические требования: Traditional Archery Form & Instinctive Aiming",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Traditional Archery Form & Instinctive Aiming.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Traditional Archery Form & Instinctive Aiming.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","traditional","archery","form"],
+    }),
+  },
+
+  "misc-amateur-ham-radio-repeater-protocols-callsigns": {
+    id: "misc-amateur-ham-radio-repeater-protocols-callsigns",
+    name: "AmateurHamRadioRepeaterProtocolsCallsignsSkill",
+    displayName: "Amateur Ham Radio Repeater Protocols & Callsigns",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Amateur Ham Radio Repeater Protocols & Callsigns.",
+    tags: ["miscellaneous","amateur","ham","radio"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ham Radio Operator Standards",
+      ruSectionName: "Стандарты и практические требования: Amateur Ham Radio Repeater Protocols & Callsigns",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Amateur Ham Radio Repeater Protocols & Callsigns.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Amateur Ham Radio Repeater Protocols & Callsigns.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","amateur","ham","radio"],
+    }),
+  },
+
+  "misc-beekeeping-langstroth-hive-inspection-brood-health": {
+    id: "misc-beekeeping-langstroth-hive-inspection-brood-health",
+    name: "BeekeepingLangstrothHiveInspectionBroodHealthSkill",
+    displayName: "Beekeeping Langstroth Hive Inspection & Brood Health",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Beekeeping Langstroth Hive Inspection & Brood Health.",
+    tags: ["miscellaneous","beekeeping","langstroth","hive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Beekeeping Hive Inspection Standards",
+      ruSectionName: "Стандарты и практические требования: Beekeeping Langstroth Hive Inspection & Brood Health",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Beekeeping Langstroth Hive Inspection & Brood Health.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Beekeeping Langstroth Hive Inspection & Brood Health.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","beekeeping","langstroth","hive"],
+    }),
+  },
+
+  "misc-darkroom-black-and-white-film-developing-chemistries": {
+    id: "misc-darkroom-black-and-white-film-developing-chemistries",
+    name: "DarkroomBlackandWhiteFilmDevelopingChemistriesSkill",
+    displayName: "Darkroom Black-and-White Film Developing Chemistries",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Darkroom Black-and-White Film Developing Chemistries.",
+    tags: ["miscellaneous","darkroom","black","and"],
+    transform: createStandardSkillTransform({
+      sectionName: "Film Developing Chemistry Protocol",
+      ruSectionName: "Стандарты и практические требования: Darkroom Black-and-White Film Developing Chemistries",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Darkroom Black-and-White Film Developing Chemistries.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Darkroom Black-and-White Film Developing Chemistries.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","darkroom","black","and"],
+    }),
+  },
+
+  "misc-blacksmithing-hammer-forging-steel-heat-treatment": {
+    id: "misc-blacksmithing-hammer-forging-steel-heat-treatment",
+    name: "BlacksmithingHammerForgingSteelHeatTreatmentSkill",
+    displayName: "Blacksmithing Hammer Forging & Steel Heat Treatment",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Blacksmithing Hammer Forging & Steel Heat Treatment.",
+    tags: ["miscellaneous","blacksmithing","hammer","forging"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blacksmithing Forging Standards",
+      ruSectionName: "Стандарты и практические требования: Blacksmithing Hammer Forging & Steel Heat Treatment",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Blacksmithing Hammer Forging & Steel Heat Treatment.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Blacksmithing Hammer Forging & Steel Heat Treatment.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","blacksmithing","hammer","forging"],
+    }),
+  },
+
+  "misc-indoor-houseplant-soil-aeration-photosynthetic-lighting": {
+    id: "misc-indoor-houseplant-soil-aeration-photosynthetic-lighting",
+    name: "IndoorHouseplantSoilAerationPhotosyntheticLightingSkill",
+    displayName: "Indoor Houseplant Soil Aeration & Photosynthetic Lighting",
+    categoryId: "miscellaneous",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Indoor Houseplant Soil Aeration & Photosynthetic Lighting.",
+    tags: ["miscellaneous","indoor","houseplant","soil"],
+    transform: createStandardSkillTransform({
+      sectionName: "Indoor Botanical Lighting Standards",
+      ruSectionName: "Стандарты и практические требования: Indoor Houseplant Soil Aeration & Photosynthetic Lighting",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Indoor Houseplant Soil Aeration & Photosynthetic Lighting.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Indoor Houseplant Soil Aeration & Photosynthetic Lighting.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["miscellaneous","indoor","houseplant","soil"],
+    }),
+  },
 };

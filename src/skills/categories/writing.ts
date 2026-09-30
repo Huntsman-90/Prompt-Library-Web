@@ -858,7 +858,7 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
         "Заменяйте пассивные обороты активными, выразительными глаголами прямого действия.",
         "Доверяйте читателю: передавайте глубину мысли через точные факты без пафоса и лишних украшательств."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["writing","hemingway","conciseness","active-voice","editing"],
     }),
   },
@@ -885,7 +885,7 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
         "Если слово можно без потери смысла вычеркнуть — непременно вычеркивайте его.",
         "Никогда не используйте пассивный залог вместо активного и избегайте заумных терминов при наличии понятных аналогов."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["writing","orwell","clarity","rules-of-writing","essays"],
     }),
   },
@@ -912,7 +912,7 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
         "Демонстрируйте скорость и надежность через точные замеры времени и сценарии вместо общих похвал.",
         "Создавайте у читателя яркую визуальную картину происходящего с первых строк."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["writing","show-dont-tell","storytelling","vividness","copywriting"],
     }),
   },
@@ -1074,7 +1074,7 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
         "Чередуйте длину предложений для создания живой ритмики речи (хлесткие фразы после развернутых мыслей).",
         "Ведите речь к эмоциональной кульминации, побуждающей слушателей к совместному действию."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["writing","speechwriting","rhetoric","keynotes","public-speaking"],
     }),
   },
@@ -1182,7 +1182,7 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
         "Опирайтесь на реальный опыт преодоления управленческих кризисов и практические данные.",
         "Формируйте экспертные выводы высокой ценности для аудитории без навязчивой саморекламы."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["writing","ghostwriting","thought-leadership","linkedin","personal-brand"],
     }),
   },
@@ -1427,7 +1427,7 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
         "Акт 3 (Революция): Раскройте влияние продукта на индустрию, объявите доступность и справедливую цену.",
         "Используйте прием \"One More Thing\" для неожиданного финального сюрприза на пике эмоций зала."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["writing","keynote","presentations","steve-jobs","storytelling","product-launch"],
     }),
   },
@@ -1616,7 +1616,7 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
         "Опишите будущее: Нарисуйте вдохновляющую картину мира, в котором эта миссия успешно реализована.",
         "Призыв к действию: Пригласите единомышленников, клиентов и партнеров присоединиться к движению."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["writing","manifesto","culture","branding","storytelling","inspiration"],
     }),
   },
@@ -1670,7 +1670,7 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
         "Трансформация: Покажите ключевое озарение и нестандартное решение, позволившее преодолеть трудность.",
         "Бесшовный переход: Свяжите вывод истории напрямую с главной темой сегодняшней презентации или статьи."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["writing","storytelling","anecdote","hooks","engagement"],
     }),
   },
@@ -1778,7 +1778,7 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
         "Открыто рассказывайте о неудавшихся экспериментах как о неизбежной цене прорывных инноваций.",
         "Подчеркивайте фокус на операционной эффективности, генерации свободного денежного потока и защитных рвах."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["writing","shareholder-letter","bezos","leadership","long-term-thinking"],
     }),
   },
@@ -1832,7 +1832,7 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
         "Покажите, как ценности и наследие ушедшего продолжают жить в сердцах близких и коллег.",
         "Дарите утешение, тепло и чувство светлой благодарности всем присутствующим."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["writing","eulogy","tribute","commemorative","emotional-depth"],
     }),
   },
@@ -1915,6 +1915,1131 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
 ],
       semanticType: "process_directive",
       tags: ["writing","whistleblower","compliance","investigation","legal-dossier"],
+    }),
+  },
+  "writing-pyramid-principle-barbara-minto": {
+    id: "writing-pyramid-principle-barbara-minto",
+    name: "WritingPyramidPrincipleBarbaraMintoSkill",
+    displayName: "Barbara Minto Pyramid Principle & Executive Framing",
+    categoryId: "writing",
+    description: "Structures business and technical writing with core conclusions at the top, supported by deductive logic clusters.",
+    tags: ["writing","minto-pyramid","executive-communication","clarity","structure"],
+    transform: createStandardSkillTransform({
+      sectionName: "Barbara Minto Pyramid Principle Structure",
+      ruSectionName: "Принцип пирамиды Минто: Структурирование деловых текстов от вывода к деталям",
+      instructions: [
+        "Place the single overarching governing thought (Core Conclusion) at the apex of the document.",
+        "Group supporting arguments into mutually exclusive, collectively exhaustive (MECE) horizontal tiers.",
+        "Ensure every grouping answers the logical question raised by the summary point above it."
+],
+      ruInstructions: [
+        "Сформулируйте главную управляющую мысль в самом начале документа.",
+        "Сгруппируйте аргументы в логические блоки по принципу MECE.",
+        "Обеспечьте строгую дедуктивную связь: каждый нижний уровень подтверждает тезис верхнего."
+],
+      semanticType: "process_directive",
+      tags: ["writing","minto-pyramid","executive-communication","clarity","structure"],
+    }),
+  },
+
+  "writing-scqa-business-storytelling-framework": {
+    id: "writing-scqa-business-storytelling-framework",
+    name: "WritingScqaBusinessStorytellingFrameworkSkill",
+    displayName: "McKinsey SCQA (Situation, Complication, Question, Answer)",
+    categoryId: "writing",
+    description: "Hooks stakeholders by establishing familiar Context, surfacing a critical Complication, raising the core Question, and Answering.",
+    tags: ["writing","scqa","mckinsey","storytelling","persuasion","proposals"],
+    transform: createStandardSkillTransform({
+      sectionName: "McKinsey SCQA Narrative Framework",
+      ruSectionName: "Фреймворк убеждающего повествования SCQA (Ситуация, Осложнение, Вопрос, Ответ)",
+      instructions: [
+        "Situation: State undisputed baseline background context that everyone agrees with.",
+        "Complication: Introduce the catalyst shift, emerging threat, or breakdown that disrupts the status quo.",
+        "Question: Frame the pivotal question that arises directly from the complication.",
+        "Answer: Deliver the decisive solution and action plan."
+],
+      ruInstructions: [
+        "Ситуация (Situation): Опишите общепризнанный контекст, не вызывающий споров.",
+        "Осложнение (Complication): Покажите возникшую проблему или угрозу, ломающую статус-кво.",
+        "Вопрос (Question): Сформулируйте главный вызов, требующий решения.",
+        "Ответ (Answer): Предложите убедительное решение и план действий."
+],
+      semanticType: "process_directive",
+      tags: ["writing","scqa","mckinsey","storytelling","persuasion","proposals"],
+    }),
+  },
+
+  "writing-plain-language-flesch-kincaid-grade-8": {
+    id: "writing-plain-language-flesch-kincaid-grade-8",
+    name: "WritingPlainLanguageFleschKincaidGrade8Skill",
+    displayName: "Plain Language & Flesch-Kincaid Grade 8 Readability",
+    categoryId: "writing",
+    description: "Simplifies complex technical prose to achieve a Flesch-Kincaid Grade 8 reading level without diluting accuracy.",
+    tags: ["writing","plain-language","readability","flesch-kincaid","clarity"],
+    transform: createStandardSkillTransform({
+      sectionName: "Plain Language & High-Readability Standards",
+      ruSectionName: "Стандарт ясного языка (Plain Language) и индекс удобочитаемости Флеша",
+      instructions: [
+        "Keep average sentence length under 18 words; use active voice for >90% of verbs.",
+        "Replace multi-syllable bureaucratic jargon with clear, everyday equivalents.",
+        "Use descriptive subheadings, bullet lists, and visual white space to enhance scannability."
+],
+      ruInstructions: [
+        "Ограничьте среднюю длину предложений до 15–18 слов; используйте активный залог.",
+        "Замените сложный канцелярит и бюрократические штампы на живой понятный язык.",
+        "Разбивайте текст на короткие абзацы со списками и акцентными подзаголовками."
+],
+      semanticType: "process_directive",
+      tags: ["writing","plain-language","readability","flesch-kincaid","clarity"],
+    }),
+  },
+
+  "writing-technical-whitepaper-ieee-standard": {
+    id: "writing-technical-whitepaper-ieee-standard",
+    name: "WritingTechnicalWhitepaperIeeeStandardSkill",
+    displayName: "IEEE Technical Whitepaper & Architectural Report Standard",
+    categoryId: "writing",
+    description: "Structures formal engineering whitepapers with Abstract, Problem Statement, Solution, Benchmarks, and References.",
+    tags: ["writing","whitepaper","ieee","technical-report","engineering-docs"],
+    transform: createStandardSkillTransform({
+      sectionName: "IEEE Technical Whitepaper Standards",
+      ruSectionName: "Стандарт инженерного технического отчета и Whitepaper (IEEE)",
+      instructions: [
+        "Structure document: Abstract -> Introduction -> System Architecture -> Empirical Evaluation -> Conclusion.",
+        "Include quantitative benchmark graphs and tables with statistical error bars.",
+        "Format academic references in standard IEEE bracketed citation format (`[1]`, `[2]`)."
+],
+      ruInstructions: [
+        "Оформляйте документ по структуре: Аннотация -> Введение -> Архитектура -> Эксперименты -> Выводы.",
+        "Сопровождайте выводы таблицами измерений и графиками сравнительных тестов.",
+        "Оформляйте список литературы и ссылок по академическому стандарту IEEE."
+],
+      semanticType: "process_directive",
+      tags: ["writing","whitepaper","ieee","technical-report","engineering-docs"],
+    }),
+  },
+
+  "writing-investor-pitch-deck-narrative-sequoia": {
+    id: "writing-investor-pitch-deck-narrative-sequoia",
+    name: "WritingInvestorPitchDeckNarrativeSequoiaSkill",
+    displayName: "Sequoia Capital 10-Slide Investor Narrative Framework",
+    categoryId: "writing",
+    description: "Structures venture capital pitch decks: Problem, Solution, Why Now, Market Size, Product, Traction, Team.",
+    tags: ["writing","pitch-deck","sequoia","venture-capital","fundraising","startups"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sequoia Capital 10-Slide Narrative Blueprint",
+      ruSectionName: "Фреймворк венчурной презентации Sequoia Capital (10 слайдов)",
+      instructions: [
+        "Slide 1-3: Company Purpose -> Problem (pain point) -> Solution (value proposition).",
+        "Slide 4-6: Why Now (market inflection) -> Market Potential (TAM/SAM/SOM) -> Competition (defensibility).",
+        "Slide 7-10: Product Architecture -> Business Model -> Team -> Financial Vision & Ask."
+],
+      ruInstructions: [
+        "Слайды 1–3: Миссия -> Острая боль клиента -> Наше решение и ценность.",
+        "Слайды 4–6: Почему именно сейчас -> Объем рынка (TAM/SAM) -> Конкурентные барьеры.",
+        "Слайды 7–10: Архитектура продукта -> Юнит-экономика -> Команда -> Запрашиваемый раунд."
+],
+      semanticType: "process_directive",
+      tags: ["writing","pitch-deck","sequoia","venture-capital","fundraising","startups"],
+    }),
+  },
+  "writing-ap-stylebook-journalistic-clarity": {
+    id: "writing-ap-stylebook-journalistic-clarity",
+    name: "WritingApStylebookJournalisticClaritySkill",
+    displayName: "Associated Press (AP) Stylebook & Journalistic Neutrality",
+    categoryId: "writing",
+    description: "Applies standard AP Stylebook conventions for capitalization, numbers, attribution, and neutral reporting tone.",
+    tags: ["writing","ap-style","journalism","news-writing","clarity"],
+    transform: createStandardSkillTransform({
+      sectionName: "Associated Press (AP) Stylebook & Neutrality Standards",
+      ruSectionName: "Стандарты новостной журналистики AP Stylebook и нейтральный тон",
+      instructions: [
+        "Spell out whole numbers under 10; use numerals for 10 and above.",
+        "Attribute controversial statements clearly to explicit named sources ('according to...').",
+        "Maintain neutral, balanced, third-person journalistic objectivity."
+],
+      ruInstructions: [
+        "Пишите числа прописью до 10, цифрами от 10 и выше по правилам AP Style.",
+        "Четко атрибутируйте факты источникам («согласно данным регулятора» вместо анонимных утверждений).",
+        "Сохраняйте нейтральный, взвешенный тон от третьего лица."
+],
+      semanticType: "process_directive",
+      tags: ["writing","ap-style","journalism","news-writing","clarity"],
+    }),
+  },
+
+  "writing-technical-release-notes-apple-style": {
+    id: "writing-technical-release-notes-apple-style",
+    name: "WritingTechnicalReleaseNotesAppleStyleSkill",
+    displayName: "Apple-Style High-Polish Release Notes & User Delight",
+    categoryId: "writing",
+    description: "Crafts engaging, user-centric product update notes that highlight benefits, workflows, and quality improvements.",
+    tags: ["writing","release-notes","product-marketing","copywriting","cx"],
+    transform: createStandardSkillTransform({
+      sectionName: "High-Polish Product Release Notes Standards",
+      ruSectionName: "Стандарт вдохновляющих продуктовых Release Notes (Apple Style)",
+      instructions: [
+        "Lead with the primary user superpower or workflow acceleration delivered by the release.",
+        "Explain technical improvements in terms of tangible customer experience (speed, battery, responsiveness).",
+        "Maintain an inspiring, conversational, and precise tone."
+],
+      ruInstructions: [
+        "Начинайте с описания новой суперсилы или удобства, которое получает пользователь.",
+        "Описывайте технические оптимизации через ощутимый пользовательский опыт (скорость, плавность, надежность).",
+        "Сохраняйте вдохновляющий, дружелюбный и аккуратный стиль повествования."
+],
+      semanticType: "process_directive",
+      tags: ["writing","release-notes","product-marketing","copywriting","cx"],
+    }),
+  },
+
+  "writing-amazon-six-page-narrative-memo": {
+    id: "writing-amazon-six-page-narrative-memo",
+    name: "WritingAmazonSixPageNarrativeMemoSkill",
+    displayName: "Jeff Bezos Amazon 6-Page Narrative Memo Framework",
+    categoryId: "writing",
+    description: "Structures deep strategic proposals into Amazon's 6-page format: Context, Tenets, Data, Strategic Decisions, FAQs.",
+    tags: ["writing","amazon-memo","bezos","strategic-proposal","narrative"],
+    transform: createStandardSkillTransform({
+      sectionName: "Amazon 6-Page Strategic Narrative Memo Blueprint",
+      ruSectionName: "Фреймворк 6-страничного меморандума Amazon (Джефф Безос: нарратив вместо слайдов)",
+      instructions: [
+        "Structure proposal as a continuous, rigorous written narrative (no bulleted PowerPoint decks).",
+        "Include: 1. Introduction & Goals, 2. Tenets, 3. State of the Business, 4. Strategic Proposals, 5. Appendices & FAQs.",
+        "Demand high-density factual arguments backed by unit metrics."
+],
+      ruInstructions: [
+        "Оформляйте предложение в виде связного глубокого текста вместо слайдов с тезисами.",
+        "Структура: Введение, Базовые принципы (Tenets), Анализ текущей ситуации, Стратегическое решение, FAQ.",
+        "Приводите жесткие факты и финансово-операционные расчеты в приложениях."
+],
+      semanticType: "process_directive",
+      tags: ["writing","amazon-memo","bezos","strategic-proposal","narrative"],
+    }),
+  },
+
+  "writing-crisis-communications-apology-pr": {
+    id: "writing-crisis-communications-apology-pr",
+    name: "WritingCrisisCommunicationsApologyPrSkill",
+    displayName: "Corporate Crisis Communications & Authentic Accountability",
+    categoryId: "writing",
+    description: "Drafts transparent, accountable crisis statements following the 5Rs: Recognition, Regret, Responsibility, Remedy, Restitution.",
+    tags: ["writing","crisis-comms","pr","accountability","incident-management"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Crisis Communication & Accountability Blueprint",
+      ruSectionName: "Антикризисные коммуникации и публичные заявления (Принцип 5R)",
+      instructions: [
+        "Apply the 5Rs framework: Recognition of impact, sincere Regret, taking clear Responsibility, immediate Remedy, long-term Restitution.",
+        "Eliminate corporate jargon, passive evasion ('mistakes were made'), and legal deflections.",
+        "Detail concrete preventive technical steps already taken to guarantee the issue never recurs."
+],
+      ruInstructions: [
+        "Используйте модель 5R: Признание масштаба проблемы, Сожаление, Ответственность, Меры исправления, Гарантии.",
+        "Исключите канцелярские отговорки и уклончивые формулировки в страдательном залоге.",
+        "Опишите конкретные технические меры, уже предпринятые для исключения повторения сбоя."
+],
+      semanticType: "process_directive",
+      tags: ["writing","crisis-comms","pr","accountability","incident-management"],
+    }),
+  },
+
+  "writing-high-converting-cold-email-b2b": {
+    id: "writing-high-converting-cold-email-b2b",
+    name: "WritingHighConvertingColdEmailB2bSkill",
+    displayName: "High-Converting B2B Outbound Email (Pattern Interrupt & Low-Friction CTA)",
+    categoryId: "writing",
+    description: "Crafts ultra-concise B2B cold emails (<75 words) with sharp pattern interrupts, specific social proof, and low-friction CTAs.",
+    tags: ["writing","cold-email","sales","b2b","copywriting","outbound"],
+    transform: createStandardSkillTransform({
+      sectionName: "High-Converting B2B Outbound Email Standard",
+      ruSectionName: "Стандарт результативных B2B холодных писем (до 75 слов, низкий порог действия)",
+      instructions: [
+        "Keep total email body under 75 words; maximize mobile screen readability.",
+        "Line 1 (Pattern Interrupt): Reference a specific recent trigger event or relevant pain point.",
+        "Line 2 (Proof & Value): Share a 1-sentence concrete metric achieved for a direct peer.",
+        "Line 3 (Low-Friction CTA): Ask for interest rather than booking time (e.g. 'Open to checking a 2-min video walkthrough?')."
+],
+      ruInstructions: [
+        "Ограничьте объем письма до 60–75 слов для мгновенного чтения с экрана смартфона.",
+        "Первая строка: персональный контекст или острая проблема без шаблонных приветствий.",
+        "Вторая строка: конкретный измеримый кейс решения для схожей компании.",
+        "Призыв к действию (CTA): вопрос на интерес без давления немедленно назначить звонок."
+],
+      semanticType: "process_directive",
+      tags: ["writing","cold-email","sales","b2b","copywriting","outbound"],
+    }),
+  },
+  "writing-y-combinator-application-memo": {
+    id: "writing-y-combinator-application-memo",
+    name: "WritingYCombinatorApplicationMemoSkill",
+    displayName: "Y Combinator (YC) Application & Pitch Deck Precision",
+    categoryId: "writing",
+    description: "Writes ultra-dense, jargon-free startup pitches and YC application answers focusing on traction, insight, and problem clarity.",
+    tags: ["writing","y-combinator","startup","pitch","clarity","investor"],
+    transform: createStandardSkillTransform({
+      sectionName: "Y Combinator High-Density Application Standard",
+      ruSectionName: "Стандарт ответов на заявку Y Combinator (YC) и питчинга без воды",
+      instructions: [
+        "Explain what the company makes in plain English in the very first sentence (no marketing jargon or buzzwords).",
+        "Highlight unfair advantages, concrete traction metrics, and unique founder domain insight.",
+        "Be radically concise and quantitatively specific."
+],
+      ruInstructions: [
+        "Объясняйте суть продукта простыми словами в первом же предложении без рекламного пафоса.",
+        "Указывайте конкретные цифры динамики (MoM growth), метрики удержания и ключевой инсайт основателей.",
+        "Пишите максимально лаконично и емко, избегая абстрактных обещаний."
+],
+      semanticType: "process_directive",
+      tags: ["writing","y-combinator","startup","pitch","clarity","investor"],
+    }),
+  },
+
+  "writing-sec-form-10k-md-and-a-financial-filing": {
+    id: "writing-sec-form-10k-md-and-a-financial-filing",
+    name: "WritingSecForm10kMdAndAFinancialFilingSkill",
+    displayName: "SEC Form 10-K Management's Discussion & Analysis (MD&A)",
+    categoryId: "writing",
+    description: "Structures public company financial commentary according to SEC MD&A disclosure guidelines and GAAP reconciliations.",
+    tags: ["writing","sec-filing","mda","finance","compliance","investor-relations"],
+    transform: createStandardSkillTransform({
+      sectionName: "SEC MD&A Financial Commentary Standards",
+      ruSectionName: "Стандарты финансового отчета SEC Form 10-K (Раздел MD&A)",
+      instructions: [
+        "Analyze year-over-year revenue, gross margin, and operating cash flow drivers with disaggregated volume/price breakdowns.",
+        "Detail liquidity requirements, debt covenants, and material known uncertainties.",
+        "Reconcile non-GAAP operational metrics (Adjusted EBITDA, Free Cash Flow) strictly back to GAAP line items."
+],
+      ruInstructions: [
+        "Анализируйте динамику выручки и маржинальности с разделением факторов цены и физического объема продаж.",
+        "Описывайте профиль ликвидности, долговые ковенанты и материальные риски бизнеса.",
+        "Сверяйте показатели Non-GAAP (Adjusted EBITDA) с официальной отчетностью GAAP в специальных таблицах сверки."
+],
+      semanticType: "process_directive",
+      tags: ["writing","sec-filing","mda","finance","compliance","investor-relations"],
+    }),
+  },
+
+  "writing-scientific-abstract-nature-format": {
+    id: "writing-scientific-abstract-nature-format",
+    name: "WritingScientificAbstractNatureFormatSkill",
+    displayName: "Nature/Science Peer-Reviewed Journal Abstract Structure",
+    categoryId: "writing",
+    description: "Composes high-impact scientific paper abstracts following Nature's strict 5-part structure: Background, Problem, Discovery, Mechanism, Significance.",
+    tags: ["writing","scientific-writing","academic","nature","abstract","research"],
+    transform: createStandardSkillTransform({
+      sectionName: "Nature Peer-Reviewed Journal Abstract Framework",
+      ruSectionName: "Структура научного абстракта по стандартам Nature / Science (5 предложений)",
+      instructions: [
+        "Sentence 1-2: Broad background accessible to general scientific audience, followed by specific gap in knowledge.",
+        "Sentence 3: The core experimental discovery or empirical finding introduced by this study.",
+        "Sentence 4-5: Underlying causal mechanism and broader paradigm-shifting implications for the field."
+],
+      ruInstructions: [
+        "Предложения 1–2: Широкий контекст проблемы, понятный любому ученому, и нерешенный вопрос.",
+        "Предложение 3: Главное экспериментальное открытие или доказанный результат данного исследования.",
+        "Предложения 4–5: Физический/биологический механизм явления и влияние на развитие научной дисциплины."
+],
+      semanticType: "process_directive",
+      tags: ["writing","scientific-writing","academic","nature","abstract","research"],
+    }),
+  },
+
+  "writing-stripe-press-editorial-craft": {
+    id: "writing-stripe-press-editorial-craft",
+    name: "WritingStripePressEditorialCraftSkill",
+    displayName: "Stripe Press Intellectual Long-Form Editorial Standards",
+    categoryId: "writing",
+    description: "Crafts elegant, high-intellect essays exploring technological progress, economic history, and scientific frontier ideas.",
+    tags: ["writing","essay","stripe-press","intellectual","editorial","prose"],
+    transform: createStandardSkillTransform({
+      sectionName: "Stripe Press Long-Form Editorial Prose Standards",
+      ruSectionName: "Интеллектуальная эссеистика высокого стиля (в традициях Stripe Press)",
+      instructions: [
+        "Blend rigorous economic history, engineering depth, and philosophical inquiry into compelling prose.",
+        "Use vivid historical anecdotes to ground abstract institutional or technological shifts.",
+        "Prioritize literary cadence, precision of metaphors, and optimistic technological progressivism."
+],
+      ruInstructions: [
+        "Сочетайте историко-экономическую строгость, инженерную глубину и литературную элегантность слога.",
+        "Используйте яркие исторические прецеденты для иллюстрации абстрактных технологических явлений.",
+        "Сохраняйте ритмичность прозы, точность метафор и дух созидательного оптимизма."
+],
+      semanticType: "process_directive",
+      tags: ["writing","essay","stripe-press","intellectual","editorial","prose"],
+    }),
+  },
+
+  "writing-executive-speechwriting-keynote-rhetoric": {
+    id: "writing-executive-speechwriting-keynote-rhetoric",
+    name: "WritingExecutiveSpeechwritingKeynoteRhetoricSkill",
+    displayName: "Executive Keynote Speechwriting & Rhetorical Cadence",
+    categoryId: "writing",
+    description: "Writes charismatic spoken-word keynotes and public speeches using anaphora, triadic phrasing, and emotional arcs.",
+    tags: ["writing","speechwriting","keynote","rhetoric","leadership","public-speaking"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Spoken-Word Speechwriting Architecture",
+      ruSectionName: "Мастерство спичрайтинга для первых лиц (Риторика, триады, паузы, драматургия)",
+      instructions: [
+        "Write for the ear, not the eye: short cadence sentences, clear breath markers, and conversational rhythm.",
+        "Employ classical rhetorical devices: rule of three (tricolon), anaphora, and contrasting antithesis.",
+        "Anchor the narrative arc in a shared tension resolved through an inspiring, unifying vision."
+],
+      ruInstructions: [
+        "Пишите текст для устного произнесения: короткие фразы, естественные паузы для дыхания и разговорный ритм.",
+        "Используйте риторические фигуры: правила трех элементов (триады), анафоры и антитезы.",
+        "Выстраивайте драматургию от признания общей проблемы к вдохновляющему видению будущего."
+],
+      semanticType: "process_directive",
+      tags: ["writing","speechwriting","keynote","rhetoric","leadership","public-speaking"],
+    }),
+  },
+
+  "writing-saas-onboarding-email-drip-sequence": {
+    id: "writing-saas-onboarding-email-drip-sequence",
+    name: "WritingSaasOnboardingEmailDripSequenceSkill",
+    displayName: "SaaS Behavioral Onboarding Drip Sequence (Aha-Moment Driven)",
+    categoryId: "writing",
+    description: "Designs automated email onboarding funnels triggered by user telemetry to guide users rapidly to product activation.",
+    tags: ["writing","email-marketing","saas","onboarding","retention","copywriting"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Behavioral Onboarding Email Standards",
+      ruSectionName: "Поведенческая цепочка onboarding-писем для SaaS (Фокус на Aha-Moment)",
+      instructions: [
+        "Tailor each email to specific user product milestones (e.g. invited first teammate vs created first dashboard).",
+        "Keep single focused call-to-action per email with a 60-second video or 3-click workflow guide.",
+        "Maintain a helpful, encouraging tone from a named customer success lead."
+],
+      ruInstructions: [
+        "Привязывайте отправку каждого письма к фактическим действиям пользователя в продукте.",
+        "Используйте ровно один целевой призыв к действию в каждом письме (быстрый шаг на 2 минуты).",
+        "Пишите от лица конкретного специалиста поддержки заботливым и живым языком."
+],
+      semanticType: "process_directive",
+      tags: ["writing","email-marketing","saas","onboarding","retention","copywriting"],
+    }),
+  },
+
+  "writing-post-mortem-blameless-incident-report": {
+    id: "writing-post-mortem-blameless-incident-report",
+    name: "WritingPostMortemBlamelessIncidentReportSkill",
+    displayName: "Blameless Engineering Post-Mortem & Root Cause Analysis (RCA)",
+    categoryId: "writing",
+    description: "Documents system outages objectively with precise incident timelines, root causes, contributing factors, and preventative action items.",
+    tags: ["writing","post-mortem","incident-report","engineering","devops","rca"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blameless Post-Mortem Documentation Standards",
+      ruSectionName: "Стандарт составления бескомпромиссного постмортема инцидентов (Blameless RCA)",
+      instructions: [
+        "Maintain absolute blameless culture: focus on systemic guardrail failures, not individual human error.",
+        "Construct minute-by-minute timeline from detection (`T0`) to mitigation and recovery.",
+        "Commit to concrete, prioritized Action Items (Jira IDs) with assigned owners and hard deadlines."
+],
+      ruInstructions: [
+        "Соблюдайте принцип ненаказуемости (Blameless): анализируйте сбои процессов и защит, а не ошибки людей.",
+        "Фиксируйте поминутный таймлайн от момента возникновения сбоя до полного восстановления.",
+        "Формируйте список превентивных задач с конкретными ответственными лицами и сроками исполнения."
+],
+      semanticType: "process_directive",
+      tags: ["writing","post-mortem","incident-report","engineering","devops","rca"],
+    }),
+  },
+
+  "writing-substack-viral-newsletter-craft": {
+    id: "writing-substack-viral-newsletter-craft",
+    name: "WritingSubstackViralNewsletterCraftSkill",
+    displayName: "Substack Long-Form Thought Leadership & Newsletter Architecture",
+    categoryId: "writing",
+    description: "Structures high-open-rate newsletters featuring magnetic subject lines, visual diagrams, and memorable conceptual frameworks.",
+    tags: ["writing","newsletter","substack","content-marketing","thought-leadership"],
+    transform: createStandardSkillTransform({
+      sectionName: "Thought Leadership Newsletter Architecture",
+      ruSectionName: "Архитектура экспертных рассылок и лонгридов для Substack",
+      instructions: [
+        "Craft dual-layer subject lines: curiosity hook + high-utility payoff.",
+        "Structure body with subheadings every 250 words and bespoke conceptual 2x2 matrix diagrams.",
+        "Conclude with actionable tactical takeaways and a question inviting community comments."
+],
+      ruInstructions: [
+        "Формулируйте темы писем из двух частей: интригующий крючок + практическая ценность материала.",
+        "Разбивайте текст подзаголовками каждые 250–300 слов и структурированными визуальными схемами.",
+        "Завершайте выпуск практическими выводами и вопросом для вовлечения подписчиков в комментарии."
+],
+      semanticType: "process_directive",
+      tags: ["writing","newsletter","substack","content-marketing","thought-leadership"],
+    }),
+  },
+
+  "writing-patent-application-claims-drafting": {
+    id: "writing-patent-application-claims-drafting",
+    name: "WritingPatentApplicationClaimsDraftingSkill",
+    displayName: "Patent Specification & Independent Claims Drafting",
+    categoryId: "writing",
+    description: "Drafts rigorous utility patent specifications, antecedent basis claims, and detailed embodiment descriptions for USPTO/EPO.",
+    tags: ["writing","patent","ip","legal","claims","inventions"],
+    transform: createStandardSkillTransform({
+      sectionName: "Patent Claims & Specification Drafting Standards",
+      ruSectionName: "Составление формулы изобретения и описания патента (USPTO / EPO стандарты)",
+      instructions: [
+        "Structure independent claims hierarchically with preamble, transitional phrase ('comprising'), and limiting elements.",
+        "Maintain strict antecedent basis ('a widget... the said widget') across all dependent claims.",
+        "Provide comprehensive alternative embodiments to prevent design-around infringements."
+],
+      ruInstructions: [
+        "Формулируйте независимые пункты формулы с преамбулой, связкой («включающий») и отличительными признаками.",
+        "Строго соблюдайте правила грамматической преемственности терминов во всех зависимых пунктах.",
+        "Описывайте альтернативные варианты реализации изобретения для защиты от обхода патента."
+],
+      semanticType: "process_directive",
+      tags: ["writing","patent","ip","legal","claims","inventions"],
+    }),
+  },
+
+  "writing-developer-documentation-api-reference": {
+    id: "writing-developer-documentation-api-reference",
+    name: "WritingDeveloperDocumentationApiReferenceSkill",
+    displayName: "Stripe-Grade Developer API Reference & Interactive Tutorials",
+    categoryId: "writing",
+    description: "Writes world-class developer documentation with curl/SDK copy-paste code snippets, payload schemas, and error codes.",
+    tags: ["writing","api-docs","developer-relations","technical-writing","documentation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Developer Documentation & API Reference Standards",
+      ruSectionName: "Стандарты первоклассной документации API для разработчиков (Stripe-Grade)",
+      instructions: [
+        "Provide working, copy-pasteable code examples in cURL, TypeScript, and Python for every single endpoint.",
+        "Document every possible HTTP status code, error envelope schema, and troubleshooting remedy.",
+        "Include realistic JSON response fixtures with populated, plausible field data."
+],
+      ruInstructions: [
+        "Предоставляйте готовые примеры кода для cURL, TypeScript и Python для каждого эндпоинта.",
+        "Документируйте все коды HTTP-ошибок, формат ответа об ошибке и конкретные способы их исправления.",
+        "Приводите реалистичные примеры JSON-ответов с правдоподобными данными без заглушек `foo/bar`."
+],
+      semanticType: "process_directive",
+      tags: ["writing","api-docs","developer-relations","technical-writing","documentation"],
+    }),
+  },
+
+  "writing-b2b-case-study-challenge-solution-impact": {
+    id: "writing-b2b-case-study-challenge-solution-impact",
+    name: "WritingB2bCaseStudyChallengeSolutionImpactSkill",
+    displayName: "High-Impact Enterprise B2B Case Study (Challenge-Solution-Metrics)",
+    categoryId: "writing",
+    description: "Transforms customer success stories into persuasive sales collateral featuring executive quotes and quantitative ROI proof.",
+    tags: ["writing","case-study","b2b","sales-enablement","marketing","roi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enterprise B2B Customer Case Study Blueprint",
+      ruSectionName: "Кейс-стади для корпоративных B2B продаж (Проблема — Решение — Результат в цифрах)",
+      instructions: [
+        "Lead with a bold executive metric summary banner (e.g., '42% cost reduction in 90 days').",
+        "Structure sections: 1. Customer Context, 2. The Bottleneck / Pain, 3. The Implementation Journey, 4. Hard Quantitative ROI.",
+        "Incorporate authentic direct quotes from customer VP/Director stakeholders."
+],
+      ruInstructions: [
+        "Размещайте в начале карточку с ключевыми измеримыми результатами (например, «Экономия 42% за 90 дней»).",
+        "Структура: 1. Профиль клиента, 2. Исходная проблема, 3. Процесс внедрения, 4. Доказанный ROI в цифрах.",
+        "Включайте прямые цитаты топ-менеджеров заказчика с акцентом на стратегическую ценность."
+],
+      semanticType: "process_directive",
+      tags: ["writing","case-study","b2b","sales-enablement","marketing","roi"],
+    }),
+  },
+
+  "writing-harvard-business-school-case-study": {
+    id: "writing-harvard-business-school-case-study",
+    name: "WritingHarvardBusinessSchoolCaseStudySkill",
+    displayName: "Harvard Business School (HBS) Case Study Dilemma Framework",
+    categoryId: "writing",
+    description: "Drafts immersive management case studies centered on a pivotal executive decision dilemma with rich exhibits and financial tables.",
+    tags: ["writing","hbs","case-study","business-education","management","strategy"],
+    transform: createStandardSkillTransform({
+      sectionName: "HBS Executive Case Study Structure",
+      ruSectionName: "Бизнес-кейс по стандартам Harvard Business School (Управленческая дилемма)",
+      instructions: [
+        "Open with the protagonist executive facing a critical impending deadline and conflicting strategic choices.",
+        "Provide objective historical background, competitive landscape dynamics, and internal corporate tensions without spoon-feeding the answer.",
+        "Include detailed financial exhibits and organizational charts in the appendix."
+],
+      ruInstructions: [
+        "Начинайте с момента принятия сложного решения топ-менеджером перед лицом жесткого дедлайна.",
+        "Давайте объективный контекст рынка и финансовые данные, оставляя студентам пространство для самостоятельного вывода.",
+        "Прилагайте таблицы финансовых показателей и схемы организационной структуры в приложениях."
+],
+      semanticType: "process_directive",
+      tags: ["writing","hbs","case-study","business-education","management","strategy"],
+    }),
+  },
+
+  "writing-app-store-listing-conversion-aso": {
+    id: "writing-app-store-listing-conversion-aso",
+    name: "WritingAppStoreListingConversionAsoSkill",
+    displayName: "App Store & Google Play Conversion-Optimized Listing (ASO)",
+    categoryId: "writing",
+    description: "Writes high-converting App Store and Google Play titles, subtitles, keyword fields, and promotional descriptions.",
+    tags: ["writing","aso","app-store","mobile-marketing","copywriting"],
+    transform: createStandardSkillTransform({
+      sectionName: "App Store Optimization (ASO) Listing Standards",
+      ruSectionName: "Оптимизация описания мобильных приложений для App Store и Google Play (ASO)",
+      instructions: [
+        "Optimize the first 3 lines of description before the 'Read More' fold with core value propositions.",
+        "Integrate high-intent search keywords naturally into subtitle and bulleted feature highlights.",
+        "Incorporate social proof, awards, and tier-1 press mentions in concise bulleted formatting."
+],
+      ruInstructions: [
+        "Фокусируйте первые три строки описания (до кнопки «Еще») на главной пользе для пользователя.",
+        "Органично внедряйте ключевые поисковые запросы в подзаголовок и список возможностей.",
+        "Добавляйте социальные доказательства: оценки, награды и отзывы авторитетных изданий."
+],
+      semanticType: "process_directive",
+      tags: ["writing","aso","app-store","mobile-marketing","copywriting"],
+    }),
+  },
+
+  "writing-microcopy-ux-error-messages-empty-states": {
+    id: "writing-microcopy-ux-error-messages-empty-states",
+    name: "WritingMicrocopyUxErrorMessagesEmptyStatesSkill",
+    displayName: "UX Microcopy, Friendly Error Messages & Empty States",
+    categoryId: "writing",
+    description: "Crafts empathetic, concise, and helpful user interface microcopy for error banners, empty states, and permission modals.",
+    tags: ["writing","ux-writing","microcopy","design","product-copy"],
+    transform: createStandardSkillTransform({
+      sectionName: "UX Microcopy & Interface Content Guidelines",
+      ruSectionName: "UX-микрокопирайтинг: тексты ошибок, пустые состояния и подсказки",
+      instructions: [
+        "Error messages must explain what happened in plain language and provide an immediate 1-click recovery action.",
+        "Empty states should inspire action by showing what the screen will look like and offering a primary creation button.",
+        "Eliminate blame words ('You entered an invalid password' -> 'Password must be at least 8 characters')."
+],
+      ruInstructions: [
+        "Сообщения об ошибках должны объяснять причину простым языком и давать кнопку мгновенного исправления.",
+        "Пустые экраны (Empty States) должны мотивировать на действие и показывать кнопку создания первого объекта.",
+        "Исключайте обвинительные формулировки в адрес пользователя."
+],
+      semanticType: "process_directive",
+      tags: ["writing","ux-writing","microcopy","design","product-copy"],
+    }),
+  },
+
+  "writing-investor-quarterly-shareholder-letter": {
+    id: "writing-investor-quarterly-shareholder-letter",
+    name: "WritingInvestorQuarterlyShareholderLetterSkill",
+    displayName: "Quarterly Shareholder Letter & Transparent Investor Update",
+    categoryId: "writing",
+    description: "Writes candid, data-driven investor updates covering ARR growth, burn rate, runway, strategic wins, and key asks.",
+    tags: ["writing","investor-update","shareholder-letter","startup","finance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Investor Shareholder Letter Standards",
+      ruSectionName: "Ежеквартальное письмо акционерам и инвесторам (Прозрачные метрики и запросы)",
+      instructions: [
+        "Structure: 1. Executive Summary & Runway, 2. Key Performance Metrics (ARR, CAC, LTV), 3. Product & Go-To-Market Highlights, 4. Lowlights & Roadblocks, 5. Asks.",
+        "Be radically candid about what is not working as well as what is accelerating.",
+        "Provide specific, actionable asks for intros to enterprise prospects or strategic hires."
+],
+      ruInstructions: [
+        "Структура: 1. Главные итоги и запас ликвидности, 2. Метрики (ARR, CAC, Churn), 3. Победы, 4. Проблемы и вызовы, 5. Запросы помощи.",
+        "Пишите честно о трудностях и способах их преодоления — прозрачность укрепляет доверие.",
+        "Формулируйте четкие запросы на интро к потенциальным клиентам или кандидатам."
+],
+      semanticType: "process_directive",
+      tags: ["writing","investor-update","shareholder-letter","startup","finance"],
+    }),
+  },
+
+  "writing-podcast-interview-scripting-host-notes": {
+    id: "writing-podcast-interview-scripting-host-notes",
+    name: "WritingPodcastInterviewScriptingHostNotesSkill",
+    displayName: "Long-Form Podcast Host Interview Script & Provocative Questions",
+    categoryId: "writing",
+    description: "Prepares deep interview arcs, unconventional questions, and conversational bridging techniques for long-form podcasts.",
+    tags: ["writing","podcast","interview","media","scripting","journalism"],
+    transform: createStandardSkillTransform({
+      sectionName: "Podcast Host Interview Architecture",
+      ruSectionName: "Сценарий глубокого подкаст-интервью (Небанальные вопросы и драматургия беседы)",
+      instructions: [
+        "Skip surface-level biographical questions; begin directly at the most controversial or transformative turning point.",
+        "Formulate questions that challenge public consensus or probe unexpected failure lessons.",
+        "Include conversational pivot bridges to steer the guest toward concrete anecdotes rather than generic theories."
+],
+      ruInstructions: [
+        "Пропускайте дежурные вопросы о биографии; начинайте с самого поворотного или спорного момента.",
+        "Задавайте вопросы, раскрывающие парадоксальные уроки и малоизвестные ошибки гостя.",
+        "Используйте мостики переходов для вывода собеседника на яркие живые истории вместо сухих рассуждений."
+],
+      semanticType: "process_directive",
+      tags: ["writing","podcast","interview","media","scripting","journalism"],
+    }),
+  },
+
+  "writing-white-paper-technical-market-authority": {
+    id: "writing-white-paper-technical-market-authority",
+    name: "WritingWhitePaperTechnicalMarketAuthoritySkill",
+    displayName: "Authoritative Technical White Paper & Industry Problem Statement",
+    categoryId: "writing",
+    description: "Authors comprehensive 10-page technical white papers establishing thought leadership and positioning architecture solutions.",
+    tags: ["writing","white-paper","technical-marketing","b2b","authority"],
+    transform: createStandardSkillTransform({
+      sectionName: "Technical White Paper Authority Blueprint",
+      ruSectionName: "Технический White Paper для подтверждения отраслевого лидерства",
+      instructions: [
+        "Open with an executive summary and macroeconomic/industry structural shift analysis.",
+        "Deep-dive into the architectural bottlenecks of legacy approaches with comparative benchmark diagrams.",
+        "Introduce the novel architectural paradigm objectively before demonstrating empirical advantages."
+],
+      ruInstructions: [
+        "Начинайте с резюме для руководства и анализа структурных сдвигов на рынке.",
+        "Детально разбирайте архитектурные ограничения старых подходов с графиками и бенчмарками.",
+        "Презентуйте новую технологическую парадигму объективно и аргументированно."
+],
+      semanticType: "process_directive",
+      tags: ["writing","white-paper","technical-marketing","b2b","authority"],
+    }),
+  },
+
+  "writing-manifesto-mission-driven-brand-declaration": {
+    id: "writing-manifesto-mission-driven-brand-declaration",
+    name: "WritingManifestoMissionDrivenBrandDeclarationSkill",
+    displayName: "Brand Manifesto & Cultural Declaration of Purpose",
+    categoryId: "writing",
+    description: "Crafts poetic, polarizing, and deeply inspiring brand manifestos that rally employees, creators, and early adopters.",
+    tags: ["writing","manifesto","branding","copywriting","culture","inspiration"],
+    transform: createStandardSkillTransform({
+      sectionName: "Brand Manifesto & Purpose Declaration",
+      ruSectionName: "Манифест бренда и вдохновляющая декларация миссии компании",
+      instructions: [
+        "Identify the reigning status quo orthodoxy that must be challenged.",
+        "Declare an uncompromising set of beliefs about what the world should look like.",
+        "Use rhythmic, evocative prose that gives goosebumps and creates immediate tribal belonging."
+],
+      ruInstructions: [
+        "Сформулируйте устаревший статус-кво, против которого выступает ваш продукт или движение.",
+        "Провозгласите бескомпромиссные ценности и образ желаемого будущего.",
+        "Используйте ритмичный, эмоциональный слог, формирующий чувство общности и вдохновения."
+],
+      semanticType: "process_directive",
+      tags: ["writing","manifesto","branding","copywriting","culture","inspiration"],
+    }),
+  },
+
+  "writing-faq-objection-handling-knowledge-base": {
+    id: "writing-faq-objection-handling-knowledge-base",
+    name: "WritingFaqObjectionHandlingKnowledgeBaseSkill",
+    displayName: "Comprehensive Product FAQ & Customer Objection Handling",
+    categoryId: "writing",
+    description: "Structures high-clarity FAQ hubs that anticipate customer anxieties, pricing doubts, security questions, and migration friction.",
+    tags: ["writing","faq","customer-support","knowledge-base","copywriting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comprehensive FAQ & Objection Resolution Standards",
+      ruSectionName: "База знаний и раздел FAQ с отработкой всех возражений клиентов",
+      instructions: [
+        "Directly address the hardest pricing, security, and cancellation questions without evasive corporate speak.",
+        "Give concise 2-sentence direct answers before providing step-by-step contextual detail.",
+        "Include direct links to documentation, trial signup, or support chat."
+],
+      ruInstructions: [
+        "Прямо отвечайте на сложные вопросы о ценах, безопасности и условиях отмены подписки без увиливаний.",
+        "Давайте четкий ответ в первых двух предложениях перед подробными пояснениями.",
+        "Добавляйте ссылки на базу знаний и контакты службы заботы о клиентах."
+],
+      semanticType: "process_directive",
+      tags: ["writing","faq","customer-support","knowledge-base","copywriting"],
+    }),
+  },
+
+  "writing-rfp-enterprise-bid-proposal-response": {
+    id: "writing-rfp-enterprise-bid-proposal-response",
+    name: "WritingRfpEnterpriseBidProposalResponseSkill",
+    displayName: "Enterprise RFP Bid Proposal & Government Procurement Response",
+    categoryId: "writing",
+    description: "Drafts compliant, winning responses to enterprise Request for Proposals (RFP) highlighting security, SLAs, and compliance.",
+    tags: ["writing","rfp","procurement","enterprise-sales","proposal"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enterprise RFP & Bid Proposal Response Standards",
+      ruSectionName: "Подготовка ответов на корпоративные тендеры и RFP (Request for Proposal)",
+      instructions: [
+        "Map answers rigorously to every numbered evaluation requirement in the client's RFP matrix.",
+        "Demonstrate proof of SOC2 Type II, ISO27001, GDPR, and enterprise SLA track records.",
+        "Highlight differentiated total cost of ownership (TCO) and rapid deployment timelines."
+],
+      ruInstructions: [
+        "Строго привязывайте ответы к каждому пункту требований тендерной спецификации заказчика.",
+        "Подтверждайте соответствие стандартам безопасности (SOC2, ISO27001, GDPR) и историю соблюдения SLA.",
+        "Демонстрируйте совокупную стоимость владения (TCO) и быстрые сроки внедрения решения."
+],
+      semanticType: "process_directive",
+      tags: ["writing","rfp","procurement","enterprise-sales","proposal"],
+    }),
+  },
+  "writing-investigative-journalism-documentary-expose": {
+    id: "writing-investigative-journalism-documentary-expose",
+    name: "WritingInvestigativeJournalismDocumentaryExposeSkill",
+    displayName: "Investigative Journalism & Deep In-Depth Expose",
+    categoryId: "writing",
+    description: "Constructs airtight investigative pieces linking verified evidentiary documents, whistle-blower testimony, and public records.",
+    tags: ["writing","journalism","investigative","reporting","ethics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Investigative Journalism Reporting Standards",
+      ruSectionName: "Стандарты журналистского расследования (Проверка источников и работа с уликами)",
+      instructions: [
+        "Corroborate every factual assertion with at least two independent primary documentary sources.",
+        "Detail timeline of inquiries and provide subjects ample formal right-of-reply before publication.",
+        "Distinguish hard verified evidence from unverified circumstantial speculation clearly."
+],
+      ruInstructions: [
+        "Подтверждайте каждое утверждение минимум двумя независимыми первичными документами.",
+        "Предоставляйте фигурантам расследования официальное право на ответ в установленный срок.",
+        "Четко разграничивайте доказанные факты и косвенные предположения."
+],
+      semanticType: "process_directive",
+      tags: ["writing","journalism","investigative","reporting","ethics"],
+    }),
+  },
+
+  "writing-github-readme-open-source-hero": {
+    id: "writing-github-readme-open-source-hero",
+    name: "WritingGithubReadmeOpenSourceHeroSkill",
+    displayName: "GitHub Repository README & Open-Source Showcase",
+    categoryId: "writing",
+    description: "Crafts engaging GitHub README files with animated demo GIFs, quickstart codeblocks, architecture diagrams, and badges.",
+    tags: ["writing","github","readme","open-source","developer-marketing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Open-Source GitHub README Showcase Standards",
+      ruSectionName: "Стандарт оформления README репозитория на GitHub (Open Source Showcase)",
+      instructions: [
+        "Show, don't tell: place high-resolution visual/GIF demo above the fold immediately after the title.",
+        "Include a 30-second quickstart guide (`npm install` / `docker run`) with zero prerequisites.",
+        "Provide clear visual architecture diagrams and explicit benchmark comparison tables."
+],
+      ruInstructions: [
+        "Показывайте продукт в действии: размещайте GIF-демонстрацию в первом экране под заголовком.",
+        "Добавляйте блок быстрого старта на 30 секунд без сложных предварительных настроек.",
+        "Включайте наглядную схему архитектуры и таблицу сравнения производительности."
+],
+      semanticType: "process_directive",
+      tags: ["writing","github","readme","open-source","developer-marketing"],
+    }),
+  },
+
+  "writing-sales-battlecard-competitive-positioning": {
+    id: "writing-sales-battlecard-competitive-positioning",
+    name: "WritingSalesBattlecardCompetitivePositioningSkill",
+    displayName: "B2B Sales Battlecard & Competitive FUD Defusal",
+    categoryId: "writing",
+    description: "Equips enterprise account executives with objection handling, landmines to lay, and competitor differentiation matrices.",
+    tags: ["writing","sales-enablement","battlecard","competitive-intelligence","b2b"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Sales Battlecard & Competitive Positioning Standard",
+      ruSectionName: "Боевая карточка продаж (Sales Battlecard) и отстройка от конкурентов",
+      instructions: [
+        "Highlight 'Where we win' vs 'Where they win' with radical honesty to preserve AE sales credibility.",
+        "Provide trap-setting discovery questions that steer buyers toward our proprietary strengths.",
+        "Arm sales reps with concise 'Quick Dismiss' scripts for common competitor FUD attacks."
+],
+      ruInstructions: [
+        "Честно сопоставляйте сильные и слабые стороны своего решения и конкурентов для реалистичной картины.",
+        "Формулируйте наводящие вопросы на этапе Discovery, подсвечивающие уникальные преимущества продукта.",
+        "Давайте менеджерам готовые реплики для нейтрализации типовых атак конкурентов."
+],
+      semanticType: "process_directive",
+      tags: ["writing","sales-enablement","battlecard","competitive-intelligence","b2b"],
+    }),
+  },
+
+  "writing-customer-advisory-board-executive-briefing": {
+    id: "writing-customer-advisory-board-executive-briefing",
+    name: "WritingCustomerAdvisoryBoardExecutiveBriefingSkill",
+    displayName: "Customer Advisory Board (CAB) Executive Strategic Briefing",
+    categoryId: "writing",
+    description: "Prepares C-suite agendas, strategic discussion prompts, and confidential product roadmap previews for enterprise advisory boards.",
+    tags: ["writing","cab","executive-briefing","customer-success","leadership"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Advisory Board Executive Briefing Standards",
+      ruSectionName: "Подготовка стратегических материалов для консультативного совета клиентов (CAB)",
+      instructions: [
+        "Design interactive executive discussion prompts rather than one-way promotional presentations.",
+        "Frame roadmap debates around macro industry trends and joint coinnovation opportunities.",
+        "Document feedback with assigned C-level champions and follow-up commitments."
+],
+      ruInstructions: [
+        "Формируйте повестку в виде открытых дискуссионных вопросов вместо односторонней презентации.",
+        "Привязывайте обсуждение дорожной карты к макротрендам индустрии и совместным инновациям.",
+        "Фиксируйте обратную связь с назначением ответственных топ-менеджеров за реализацию пожеланий."
+],
+      semanticType: "process_directive",
+      tags: ["writing","cab","executive-briefing","customer-success","leadership"],
+    }),
+  },
+
+  "writing-soc2-security-whitepaper-trust-center": {
+    id: "writing-soc2-security-whitepaper-trust-center",
+    name: "WritingSoc2SecurityWhitepaperTrustCenterSkill",
+    displayName: "Security & Compliance Trust Center Whitepaper (SOC2/GDPR/HIPAA)",
+    categoryId: "writing",
+    description: "Details enterprise encryption, key management (KMS), tenant isolation, and disaster recovery for enterprise security reviews.",
+    tags: ["writing","security-whitepaper","compliance","soc2","gdpr","trust-center"],
+    transform: createStandardSkillTransform({
+      sectionName: "Security & Trust Center Whitepaper Standards",
+      ruSectionName: "Стандарт документации безопасности и комплаенса (SOC2, GDPR, Trust Center)",
+      instructions: [
+        "Specify AES-256 encryption at rest, TLS 1.3 in transit, and customer-managed encryption key (CMEK) policies.",
+        "Detail multi-tenant logical database isolation, role-based access control (RBAC), and least-privilege IAM.",
+        "Outline business continuity (BCP) and disaster recovery (DR) RPO/RTO metrics."
+],
+      ruInstructions: [
+        "Описывайте протоколы шифрования (AES-256 в покое, TLS 1.3 при передаче) и политики управления ключами.",
+        "Детализируйте логическую изоляцию данных клиентов, модель RBAC и принцип наименьших привилегий.",
+        "Приводите целевые показатели восстановления после сбоев: RPO (допустимая потеря данных) и RTO (время восстановления)."
+],
+      semanticType: "process_directive",
+      tags: ["writing","security-whitepaper","compliance","soc2","gdpr","trust-center"],
+    }),
+  },
+
+  "writing-direct-response-sales-letter-halbert-style": {
+    id: "writing-direct-response-sales-letter-halbert-style",
+    name: "WritingDirectResponseSalesLetterHalbertStyleSkill",
+    displayName: "Classic Direct-Response Sales Letter (Gary Halbert / Dan Kennedy)",
+    categoryId: "writing",
+    description: "Structures high-converting classic long-form direct-response copy: Hook, Story, Irresistible Offer, Risk Reversal, Urgency.",
+    tags: ["writing","direct-response","copywriting","sales-letter","conversion"],
+    transform: createStandardSkillTransform({
+      sectionName: "Classic Direct-Response Copywriting Architecture",
+      ruSectionName: "Классический длинный продающий текст прямого отклика (Direct-Response Halbert)",
+      instructions: [
+        "Craft an emotionally charged, curiosity-driven headline that demands immediate continuation.",
+        "Tell a gripping personal transformation story illustrating the discovery of the breakthrough mechanism.",
+        "Stack bonuses, guarantee 100% unconditional risk reversal, and inject genuine ethical scarcity."
+],
+      ruInstructions: [
+        "Создавайте интригующий заголовок, заставляющий прочитать первую строчку текста.",
+        "Рассказывайте эмоциональную историю преодоления трудностей и открытия уникального механизма.",
+        "Формируйте неотразимое предложение (Offer Stack), давайте 100% гарантию возврата и указывайте дедлайн."
+],
+      semanticType: "process_directive",
+      tags: ["writing","direct-response","copywriting","sales-letter","conversion"],
+    }),
+  },
+
+  "writing-product-launch-hunt-showcase": {
+    id: "writing-product-launch-hunt-showcase",
+    name: "WritingProductLaunchHuntShowcaseSkill",
+    displayName: "Product Hunt Launch Kit & Maker Comment Architecture",
+    categoryId: "writing",
+    description: "Crafts high-engagement Product Hunt taglines, maker stories, animated thumbnail copy, and launch day Q&A replies.",
+    tags: ["writing","product-hunt","launch","marketing","startups"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product Hunt Launch Kit Blueprint",
+      ruSectionName: "Пакет материалов для запуска на Product Hunt (Maker Comment и визитка продукта)",
+      instructions: [
+        "Write an punchy 60-character tagline focusing on the magical superpower the tool gives users.",
+        "Craft an authentic First Maker Comment explaining why you spent months building this and the pain that sparked it.",
+        "Prepare friendly, value-adding responses to community questions within 5 minutes of posting."
+],
+      ruInstructions: [
+        "Формулируйте слоган до 60 символов, подчеркивающий уникальную возможность инструмента.",
+        "Пишите искренний комментарий создателя (Maker Comment) о личной боли и истории создания продукта.",
+        "Оперативно и дружелюбно отвечайте на комментарии сообщества в день релиза."
+],
+      semanticType: "process_directive",
+      tags: ["writing","product-hunt","launch","marketing","startups"],
+    }),
+  },
+
+  "writing-ted-talk-storytelling-mastery": {
+    id: "writing-ted-talk-storytelling-mastery",
+    name: "WritingTedTalkStorytellingMasterySkill",
+    displayName: "TED Talk Narrative Arc & 'Idea Worth Spreading' Synthesis",
+    categoryId: "writing",
+    description: "Structures captivating 15-minute TED talks using the Throughline, vulnerable personal anecdotes, and paradigm shifts.",
+    tags: ["writing","ted-talk","storytelling","public-speaking","presentation"],
+    transform: createStandardSkillTransform({
+      sectionName: "TED Talk Narrative Throughline Architecture",
+      ruSectionName: "Драматургия и сценарная структура выступления в стиле TED Talk",
+      instructions: [
+        "Establish a single unifying Throughline: one powerful, counterintuitive idea worth spreading.",
+        "Take the audience on a journey from what is known to what could be, alternating between data and emotion.",
+        "End with a tangible call to reimagining human potential or collective action."
+],
+      ruInstructions: [
+        "Выстраивайте выступление вокруг одной центральной сквозной идеи (Throughline).",
+        "Чередуйте научные факты с личными уязвимыми историями для удержания эмоционального контакта.",
+        "Завершайте вдохновляющим призывом к переосмыслению привычных взглядов."
+],
+      semanticType: "process_directive",
+      tags: ["writing","ted-talk","storytelling","public-speaking","presentation"],
+    }),
+  },
+
+  "writing-user-persona-jobs-to-be-done-profile": {
+    id: "writing-user-persona-jobs-to-be-done-profile",
+    name: "WritingUserPersonaJobsToBeDoneProfileSkill",
+    displayName: "Jobs-to-be-Done (JTBD) Customer Persona Profile",
+    categoryId: "writing",
+    description: "Creates rich customer profiles based on Clayton Christensen JTBD theory: Functional, Emotional, and Social jobs, pains, and gains.",
+    tags: ["writing","jtbd","personas","product-management","user-research"],
+    transform: createStandardSkillTransform({
+      sectionName: "Jobs-to-be-Done Customer Profile Standards",
+      ruSectionName: "Профиль персоны пользователя по методологии Jobs-to-be-Done (JTBD)",
+      instructions: [
+        "Frame customer motivations through the formula: 'When I [situation], I want to [motivation], so I can [outcome]'.",
+        "Differentiate functional jobs from deeper emotional anxieties and social status motivations.",
+        "Identify the 'hiring' and 'firing' triggers of competing solutions."
+],
+      ruInstructions: [
+        "Описывайте потребности через формулу JTBD: «Когда я [контекст], я хочу [действие], чтобы [результат]».",
+        "Разделяйте функциональные задачи, эмоциональные тревоги и социальный статус пользователя.",
+        "Анализируйте триггеры отказа от старого решения («увольнение») и перехода на новое («найм»)."
+],
+      semanticType: "process_directive",
+      tags: ["writing","jtbd","personas","product-management","user-research"],
+    }),
+  },
+
+  "writing-internal-engineering-rfc-design-doc": {
+    id: "writing-internal-engineering-rfc-design-doc",
+    name: "WritingInternalEngineeringRfcDesignDocSkill",
+    displayName: "Engineering Design Document & Request for Comments (RFC)",
+    categoryId: "writing",
+    description: "Structures rigorous technical RFCs covering context, non-goals, architecture diagrams, trade-offs, and rollback plans.",
+    tags: ["writing","rfc","design-doc","software-engineering","architecture"],
+    transform: createStandardSkillTransform({
+      sectionName: "Engineering Design Document (RFC) Standards",
+      ruSectionName: "Технический дизайн-документ и RFC для инженерных команд",
+      instructions: [
+        "Explicitly list Non-Goals in the first section to prevent scope creep during review.",
+        "Document at least two discarded alternative architectures with explicit reasons for rejection.",
+        "Include database schema changes, operational risk assessments, and zero-downtime rollback procedures."
+],
+      ruInstructions: [
+        "Явно фиксируйте раздел «Не-цели» (Non-Goals) в самом начале для защиты от раздувания скоупа.",
+        "Описывайте отклоненные альтернативные архитектурные решения с обоснованием причин отказа.",
+        "Включайте схему БД, оценку нагрузки, план тестирования и процедуру безопасного отката (Rollback)."
+],
+      semanticType: "process_directive",
+      tags: ["writing","rfc","design-doc","software-engineering","architecture"],
+    }),
+  },
+
+  "writing-crowdfunding-kickstarter-campaign-story": {
+    id: "writing-crowdfunding-kickstarter-campaign-story",
+    name: "WritingCrowdfundingKickstarterCampaignStorySkill",
+    displayName: "Kickstarter / Indiegogo Crowdfunding Campaign Story",
+    categoryId: "writing",
+    description: "Writes viral crowdfunding pages featuring maker prototypes, pledge tier reward matrices, and stretch goal roadmaps.",
+    tags: ["writing","crowdfunding","kickstarter","copywriting","product-launch"],
+    transform: createStandardSkillTransform({
+      sectionName: "Crowdfunding Campaign Story Architecture",
+      ruSectionName: "Структура страницы краудфандинговой кампании (Kickstarter / Indiegogo)",
+      instructions: [
+        "Hook backers in the first 10 seconds with working physical/software prototypes.",
+        "Structure pledge tiers with clear early-bird discounts and exclusive community perks.",
+        "Publish exciting stretch goals that unlock manufacturing upgrades upon reaching funding milestones."
+],
+      ruInstructions: [
+        "Захватывайте внимание бэкеров реальным работающим прототипом в первые секунды просмотра.",
+        "Оформляйте уровни вознаграждений с привлекательными скидками для первых спонсоров (Early Bird).",
+        "Публикуйте вдохновляющие сверхцели (Stretch Goals), открывающие новые функции при росте сборов."
+],
+      semanticType: "process_directive",
+      tags: ["writing","crowdfunding","kickstarter","copywriting","product-launch"],
+    }),
+  },
+
+  "writing-compensation-promotion-packet-brag-sheet": {
+    id: "writing-compensation-promotion-packet-brag-sheet",
+    name: "WritingCompensationPromotionPacketBragSheetSkill",
+    displayName: "Engineering Promotion Packet & Impact Brag Sheet",
+    categoryId: "writing",
+    description: "Compiles convincing promotion and compensation packets linking engineering achievements to company business revenue and team leverage.",
+    tags: ["writing","career","promotion","brag-sheet","engineering-management"],
+    transform: createStandardSkillTransform({
+      sectionName: "Engineering Promotion Packet & Impact Standards",
+      ruSectionName: "Пакет обоснования повышения и карьерного роста (Promotion & Impact Packet)",
+      instructions: [
+        "Map technical projects to next-level staff/principal competency rubrics.",
+        "Quantify business leverage: dollars saved, latency shaved, uptime preserved, and engineers mentored.",
+        "Include peer and cross-functional leadership testimonials supporting the elevation."
+],
+      ruInstructions: [
+        "Сопоставляйте достижения с формальными критериями следующего грейда в компании.",
+        "Оцифровывайте влияние на бизнес: сохраненная выручка, ускорение CI/CD, рост надежности и менторство.",
+        "Приводите отзывы коллег и смежных руководителей о лидерском вкладе кандидата."
+],
+      semanticType: "process_directive",
+      tags: ["writing","career","promotion","brag-sheet","engineering-management"],
+    }),
+  },
+
+  "writing-legal-terms-of-service-plain-english-summary": {
+    id: "writing-legal-terms-of-service-plain-english-summary",
+    name: "WritingLegalTermsOfServicePlainEnglishSummarySkill",
+    displayName: "Dual-Column Terms of Service (Legal + Plain-English Summary)",
+    categoryId: "writing",
+    description: "Presents binding Terms of Service and Privacy Policies alongside friendly, plain-English side-by-side explanations.",
+    tags: ["writing","tos","privacy-policy","legal-writing","transparency"],
+    transform: createStandardSkillTransform({
+      sectionName: "Transparent Terms of Service Dual-Column Standards",
+      ruSectionName: "Пользовательское соглашение с понятным переводом на человеческий язык (Side-by-Side)",
+      instructions: [
+        "Pair formal legal clauses with simple 1-sentence 'What this actually means for you' translations.",
+        "Clarify user data ownership, intellectual property rights, and billing cancellation terms without obfuscation.",
+        "Highlight privacy commitments regarding no selling of personal identifiable information."
+],
+      ruInstructions: [
+        "Сопровождайте юридические формулировки простыми пояснениями «Что это значит на человеческом языке».",
+        "Четко объясняйте права собственности на пользовательский контент и правила отмены подписки.",
+        "Выделяйте гарантии конфиденциальности и запрет на продажу персональных данных третьим лицам."
+],
+      semanticType: "process_directive",
+      tags: ["writing","tos","privacy-policy","legal-writing","transparency"],
+    }),
+  },
+
+  "writing-interactive-fiction-branching-dialogue-tree": {
+    id: "writing-interactive-fiction-branching-dialogue-tree",
+    name: "WritingInteractiveFictionBranchingDialogueTreeSkill",
+    displayName: "Branching Interactive Fiction & Narrative RPG Dialogue Tree",
+    categoryId: "writing",
+    description: "Authors rich interactive storylines, character state variables, and moral choice branching dialogue trees for game narratives.",
+    tags: ["writing","interactive-fiction","game-design","narrative","dialogue-tree"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Fiction Branching Dialogue Architecture",
+      ruSectionName: "Нелинейные диалоговые деревья и нарратив для интерактивных игр (RPG)",
+      instructions: [
+        "Design distinct player choice nodes reflecting personality archetypes (Pragmatist, Idealist, Rebel).",
+        "Track implicit state variables (reputation, loyalty) affecting downstream chapter consequences.",
+        "Avoid false choices: ensure every major branch delivers distinct emotional and tactical payoffs."
+],
+      ruInstructions: [
+        "Создавайте ветви диалогов для разных архетипов персонажей (Прагматик, Идеалист, Бунтарь).",
+        "Отслеживайте скрытые параметры отношений и репутации, влияющие на сюжетные повороты.",
+        "Избегайте иллюзии выбора: каждый ключевой выбор должен приводить к ощутимым последствиям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","interactive-fiction","game-design","narrative","dialogue-tree"],
+    }),
+  },
+
+  "writing-nonprofit-grant-proposal-foundation-pitch": {
+    id: "writing-nonprofit-grant-proposal-foundation-pitch",
+    name: "WritingNonprofitGrantProposalFoundationPitchSkill",
+    displayName: "Philanthropic Foundation Grant Proposal & Theory of Change",
+    categoryId: "writing",
+    description: "Constructs compelling grant proposals demonstrating measurable community impact, operational efficiency, and sustainable scale.",
+    tags: ["writing","grant-proposal","nonprofit","philanthropy","fundraising"],
+    transform: createStandardSkillTransform({
+      sectionName: "Nonprofit Foundation Grant Proposal Framework",
+      ruSectionName: "Заявка на грант для благотворительных фондов (Теория изменений и метрики влияния)",
+      instructions: [
+        "Articulate a rigorous Theory of Change: Inputs -> Activities -> Outputs -> Outcomes -> Systemic Impact.",
+        "Provide detailed line-item budgets with low overhead ratios and high direct-benefit delivery.",
+        "Detail qualitative beneficiary stories alongside third-party audited impact metrics."
+],
+      ruInstructions: [
+        "Описывайте логическую модель: Ресурсы -> Мероприятия -> Результаты -> Долгосрочные социальные изменения.",
+        "Предоставляйте прозрачную смету расходов с высоким процентом прямого финансирования программ.",
+        "Сочетайте живые истории благополучателей с независимой верифицированной статистикой влияния."
+],
+      semanticType: "process_directive",
+      tags: ["writing","grant-proposal","nonprofit","philanthropy","fundraising"],
     }),
   },
 };

@@ -1379,4 +1379,628 @@ sectionName: 'Peer Review Author Rebuttal Architecture',
       tags: ["research","preregistration","open-science","osf","reproducibility"],
     }),
   },
+  "research-systematic-literature-review-prisma-workflow": {
+    id: "research-systematic-literature-review-prisma-workflow",
+    name: "SystematicLiteratureReviewPRISMAWorkflowSkill",
+    displayName: "Systematic Literature Review PRISMA Workflow",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Systematic Literature Review PRISMA Workflow.",
+    tags: ["research","systematic","literature","review"],
+    transform: createStandardSkillTransform({
+      sectionName: "PRISMA Literature Review Architecture",
+      ruSectionName: "Стандарты и практические требования: Systematic Literature Review PRISMA Workflow",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Systematic Literature Review PRISMA Workflow.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Systematic Literature Review PRISMA Workflow.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","systematic","literature","review"],
+    }),
+  },
+
+  "research-empirical-grounded-theory-qualitative-coding": {
+    id: "research-empirical-grounded-theory-qualitative-coding",
+    name: "EmpiricalGroundedTheoryQualitativeCodingSkill",
+    displayName: "Empirical Grounded Theory Qualitative Coding",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Empirical Grounded Theory Qualitative Coding.",
+    tags: ["research","empirical","grounded","theory"],
+    transform: createStandardSkillTransform({
+      sectionName: "Grounded Theory Qualitative Protocol",
+      ruSectionName: "Стандарты и практические требования: Empirical Grounded Theory Qualitative Coding",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Empirical Grounded Theory Qualitative Coding.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Empirical Grounded Theory Qualitative Coding.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","empirical","grounded","theory"],
+    }),
+  },
+
+  "research-double-blind-randomized-controlled-trial-rct-design": {
+    id: "research-double-blind-randomized-controlled-trial-rct-design",
+    name: "DoubleBlindRandomizedControlledTrialRCTDesignSkill",
+    displayName: "Double-Blind Randomized Controlled Trial (RCT) Design",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Double-Blind Randomized Controlled Trial (RCT) Design.",
+    tags: ["research","double","blind","randomized"],
+    transform: createStandardSkillTransform({
+      sectionName: "RCT Experimental Design Standards",
+      ruSectionName: "Стандарты и практические требования: Double-Blind Randomized Controlled Trial (RCT) Design",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Double-Blind Randomized Controlled Trial (RCT) Design.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Double-Blind Randomized Controlled Trial (RCT) Design.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","double","blind","randomized"],
+    }),
+  },
+
+  "research-bibliometric-citation-co-occurrence-network-mapping": {
+    id: "research-bibliometric-citation-co-occurrence-network-mapping",
+    name: "BibliometricCitationCoOccurrenceNetworkMappingSkill",
+    displayName: "Bibliometric Citation Co-Occurrence Network Mapping",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Bibliometric Citation Co-Occurrence Network Mapping.",
+    tags: ["research","bibliometric","citation","co"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bibliometric Network Mapping Protocol",
+      ruSectionName: "Стандарты и практические требования: Bibliometric Citation Co-Occurrence Network Mapping",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Bibliometric Citation Co-Occurrence Network Mapping.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Bibliometric Citation Co-Occurrence Network Mapping.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","bibliometric","citation","co"],
+    }),
+  },
+
+  "research-likert-scale-survey-reliability-cronbach-alpha": {
+    id: "research-likert-scale-survey-reliability-cronbach-alpha",
+    name: "LikertScaleSurveyReliabilityCronbachAlphaSkill",
+    displayName: "Likert Scale Survey Reliability & Cronbach Alpha",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Likert Scale Survey Reliability & Cronbach Alpha.",
+    tags: ["research","likert","scale","survey"],
+    transform: createStandardSkillTransform({
+      sectionName: "Survey Psychometrics & Alpha Standards",
+      ruSectionName: "Стандарты и практические требования: Likert Scale Survey Reliability & Cronbach Alpha",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Likert Scale Survey Reliability & Cronbach Alpha.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Likert Scale Survey Reliability & Cronbach Alpha.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","likert","scale","survey"],
+    }),
+  },
+
+  "research-statistical-power-calculation-g-power-sample-sizing": {
+    id: "research-statistical-power-calculation-g-power-sample-sizing",
+    name: "StatisticalPowerCalculationGPowerSampleSizingSkill",
+    displayName: "Statistical Power Calculation (G*Power Sample Sizing)",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Statistical Power Calculation (G*Power Sample Sizing).",
+    tags: ["research","statistical","power","calculation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Statistical Power Sample Sizing Protocol",
+      ruSectionName: "Стандарты и практические требования: Statistical Power Calculation (G*Power Sample Sizing)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Statistical Power Calculation (G*Power Sample Sizing).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Statistical Power Calculation (G*Power Sample Sizing).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","statistical","power","calculation"],
+    }),
+  },
+
+  "research-meta-analysis-forest-plot-effect-size-estimation": {
+    id: "research-meta-analysis-forest-plot-effect-size-estimation",
+    name: "MetaAnalysisForestPlotEffectSizeEstimationSkill",
+    displayName: "Meta-Analysis Forest Plot Effect Size Estimation",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Meta-Analysis Forest Plot Effect Size Estimation.",
+    tags: ["research","meta","analysis","forest"],
+    transform: createStandardSkillTransform({
+      sectionName: "Meta-Analysis Forest Plot Standards",
+      ruSectionName: "Стандарты и практические требования: Meta-Analysis Forest Plot Effect Size Estimation",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Meta-Analysis Forest Plot Effect Size Estimation.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Meta-Analysis Forest Plot Effect Size Estimation.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","meta","analysis","forest"],
+    }),
+  },
+
+  "research-qualitative-thematic-analysis-braun-clarke-6-phase": {
+    id: "research-qualitative-thematic-analysis-braun-clarke-6-phase",
+    name: "QualitativeThematicAnalysisBraunClarke6PhaseSkill",
+    displayName: "Qualitative Thematic Analysis Braun-Clarke 6-Phase",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Qualitative Thematic Analysis Braun-Clarke 6-Phase.",
+    tags: ["research","qualitative","thematic","analysis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Thematic Analysis 6-Phase Framework",
+      ruSectionName: "Стандарты и практические требования: Qualitative Thematic Analysis Braun-Clarke 6-Phase",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Qualitative Thematic Analysis Braun-Clarke 6-Phase.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Qualitative Thematic Analysis Braun-Clarke 6-Phase.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","qualitative","thematic","analysis"],
+    }),
+  },
+
+  "research-institutional-review-board-irb-human-subject-ethics": {
+    id: "research-institutional-review-board-irb-human-subject-ethics",
+    name: "InstitutionalReviewBoardIRBHumanSubjectEthicsSkill",
+    displayName: "Institutional Review Board (IRB) Human Subject Ethics",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Institutional Review Board (IRB) Human Subject Ethics.",
+    tags: ["research","institutional","review","board"],
+    transform: createStandardSkillTransform({
+      sectionName: "IRB Human Subjects Ethics Protocol",
+      ruSectionName: "Стандарты и практические требования: Institutional Review Board (IRB) Human Subject Ethics",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Institutional Review Board (IRB) Human Subject Ethics.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Institutional Review Board (IRB) Human Subject Ethics.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","institutional","review","board"],
+    }),
+  },
+
+  "research-ethnographic-participant-observation-field-notes": {
+    id: "research-ethnographic-participant-observation-field-notes",
+    name: "EthnographicParticipantObservationFieldNotesSkill",
+    displayName: "Ethnographic Participant Observation Field Notes",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Ethnographic Participant Observation Field Notes.",
+    tags: ["research","ethnographic","participant","observation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ethnographic Field Notes Standards",
+      ruSectionName: "Стандарты и практические требования: Ethnographic Participant Observation Field Notes",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Ethnographic Participant Observation Field Notes.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Ethnographic Participant Observation Field Notes.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","ethnographic","participant","observation"],
+    }),
+  },
+
+  "research-bayesian-meta-regression-model-synthesis": {
+    id: "research-bayesian-meta-regression-model-synthesis",
+    name: "BayesianMetaRegressionModelSynthesisSkill",
+    displayName: "Bayesian Meta-Regression Model Synthesis",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Bayesian Meta-Regression Model Synthesis.",
+    tags: ["research","bayesian","meta","regression"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bayesian Meta-Regression Protocol",
+      ruSectionName: "Стандарты и практические требования: Bayesian Meta-Regression Model Synthesis",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Bayesian Meta-Regression Model Synthesis.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Bayesian Meta-Regression Model Synthesis.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","bayesian","meta","regression"],
+    }),
+  },
+
+  "research-inter-rater-reliability-cohen-kappa-verification": {
+    id: "research-inter-rater-reliability-cohen-kappa-verification",
+    name: "InterRaterReliabilityCohenKappaVerificationSkill",
+    displayName: "Inter-Rater Reliability Cohen Kappa Verification",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Inter-Rater Reliability Cohen Kappa Verification.",
+    tags: ["research","inter","rater","reliability"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cohen Kappa Reliability Standards",
+      ruSectionName: "Стандарты и практические требования: Inter-Rater Reliability Cohen Kappa Verification",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Inter-Rater Reliability Cohen Kappa Verification.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Inter-Rater Reliability Cohen Kappa Verification.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","inter","rater","reliability"],
+    }),
+  },
+
+  "research-historical-archival-primary-source-triangulation": {
+    id: "research-historical-archival-primary-source-triangulation",
+    name: "HistoricalArchivalPrimarySourceTriangulationSkill",
+    displayName: "Historical Archival Primary Source Triangulation",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Historical Archival Primary Source Triangulation.",
+    tags: ["research","historical","archival","primary"],
+    transform: createStandardSkillTransform({
+      sectionName: "Archival Source Triangulation Standards",
+      ruSectionName: "Стандарты и практические требования: Historical Archival Primary Source Triangulation",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Historical Archival Primary Source Triangulation.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Historical Archival Primary Source Triangulation.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","historical","archival","primary"],
+    }),
+  },
+
+  "research-econometric-instrumental-variables-iv-regression": {
+    id: "research-econometric-instrumental-variables-iv-regression",
+    name: "EconometricInstrumentalVariablesIVRegressionSkill",
+    displayName: "Econometric Instrumental Variables (IV) Regression",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Econometric Instrumental Variables (IV) Regression.",
+    tags: ["research","econometric","instrumental","variables"],
+    transform: createStandardSkillTransform({
+      sectionName: "Instrumental Variables Econometrics",
+      ruSectionName: "Стандарты и практические требования: Econometric Instrumental Variables (IV) Regression",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Econometric Instrumental Variables (IV) Regression.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Econometric Instrumental Variables (IV) Regression.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","econometric","instrumental","variables"],
+    }),
+  },
+
+  "research-seminal-paper-citation-tree-forward-backward-snowballing": {
+    id: "research-seminal-paper-citation-tree-forward-backward-snowballing",
+    name: "SeminalPaperCitationTreeForwardBackwardSnowballingSkill",
+    displayName: "Seminal Paper Citation Tree Forward/Backward Snowballing",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Seminal Paper Citation Tree Forward/Backward Snowballing.",
+    tags: ["research","seminal","paper","citation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Citation Snowballing Research Protocol",
+      ruSectionName: "Стандарты и практические требования: Seminal Paper Citation Tree Forward/Backward Snowballing",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Seminal Paper Citation Tree Forward/Backward Snowballing.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Seminal Paper Citation Tree Forward/Backward Snowballing.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","seminal","paper","citation"],
+    }),
+  },
+
+  "research-delphi-expert-panel-multi-round-consensus-study": {
+    id: "research-delphi-expert-panel-multi-round-consensus-study",
+    name: "DelphiExpertPanelMultiRoundConsensusStudySkill",
+    displayName: "Delphi Expert Panel Multi-Round Consensus Study",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Delphi Expert Panel Multi-Round Consensus Study.",
+    tags: ["research","delphi","expert","panel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Delphi Consensus Study Architecture",
+      ruSectionName: "Стандарты и практические требования: Delphi Expert Panel Multi-Round Consensus Study",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Delphi Expert Panel Multi-Round Consensus Study.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Delphi Expert Panel Multi-Round Consensus Study.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","delphi","expert","panel"],
+    }),
+  },
+
+  "research-cohort-longitudinal-follow-up-study-design": {
+    id: "research-cohort-longitudinal-follow-up-study-design",
+    name: "CohortLongitudinalFollowUpStudyDesignSkill",
+    displayName: "Cohort Longitudinal Follow-Up Study Design",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Cohort Longitudinal Follow-Up Study Design.",
+    tags: ["research","cohort","longitudinal","follow"],
+    transform: createStandardSkillTransform({
+      sectionName: "Longitudinal Cohort Study Protocol",
+      ruSectionName: "Стандарты и практические требования: Cohort Longitudinal Follow-Up Study Design",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Cohort Longitudinal Follow-Up Study Design.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Cohort Longitudinal Follow-Up Study Design.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","cohort","longitudinal","follow"],
+    }),
+  },
+
+  "research-focus-group-moderation-transcript-coding": {
+    id: "research-focus-group-moderation-transcript-coding",
+    name: "FocusGroupModerationTranscriptCodingSkill",
+    displayName: "Focus Group Moderation Transcript Coding",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Focus Group Moderation Transcript Coding.",
+    tags: ["research","focus","group","moderation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Focus Group Transcript Standards",
+      ruSectionName: "Стандарты и практические требования: Focus Group Moderation Transcript Coding",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Focus Group Moderation Transcript Coding.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Focus Group Moderation Transcript Coding.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","focus","group","moderation"],
+    }),
+  },
+
+  "research-experimental-factorial-anova-interaction-design": {
+    id: "research-experimental-factorial-anova-interaction-design",
+    name: "ExperimentalFactorialANOVAInteractionDesignSkill",
+    displayName: "Experimental Factorial ANOVA Interaction Design",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Experimental Factorial ANOVA Interaction Design.",
+    tags: ["research","experimental","factorial","anova"],
+    transform: createStandardSkillTransform({
+      sectionName: "Factorial ANOVA Design Blueprint",
+      ruSectionName: "Стандарты и практические требования: Experimental Factorial ANOVA Interaction Design",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Experimental Factorial ANOVA Interaction Design.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Experimental Factorial ANOVA Interaction Design.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","experimental","factorial","anova"],
+    }),
+  },
+
+  "research-pre-registration-osf-open-science-protocol": {
+    id: "research-pre-registration-osf-open-science-protocol",
+    name: "PreRegistrationOSFOpenScienceProtocolSkill",
+    displayName: "Pre-Registration OSF Open Science Protocol",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Pre-Registration OSF Open Science Protocol.",
+    tags: ["research","pre","registration","osf"],
+    transform: createStandardSkillTransform({
+      sectionName: "Open Science Pre-Registration Protocol",
+      ruSectionName: "Стандарты и практические требования: Pre-Registration OSF Open Science Protocol",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Pre-Registration OSF Open Science Protocol.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Pre-Registration OSF Open Science Protocol.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","pre","registration","osf"],
+    }),
+  },
+
+  "research-content-analysis-quantitative-text-frequencies": {
+    id: "research-content-analysis-quantitative-text-frequencies",
+    name: "ContentAnalysisQuantitativeTextFrequenciesSkill",
+    displayName: "Content Analysis Quantitative Text Frequencies",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Content Analysis Quantitative Text Frequencies.",
+    tags: ["research","content","analysis","quantitative"],
+    transform: createStandardSkillTransform({
+      sectionName: "Quantitative Content Analysis Protocol",
+      ruSectionName: "Стандарты и практические требования: Content Analysis Quantitative Text Frequencies",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Content Analysis Quantitative Text Frequencies.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Content Analysis Quantitative Text Frequencies.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","content","analysis","quantitative"],
+    }),
+  },
+
+  "research-cross-sectional-epidemiological-odds-ratio-study": {
+    id: "research-cross-sectional-epidemiological-odds-ratio-study",
+    name: "CrossSectionalEpidemiologicalOddsRatioStudySkill",
+    displayName: "Cross-Sectional Epidemiological Odds Ratio Study",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Cross-Sectional Epidemiological Odds Ratio Study.",
+    tags: ["research","cross","sectional","epidemiological"],
+    transform: createStandardSkillTransform({
+      sectionName: "Epidemiological Odds Ratio Standards",
+      ruSectionName: "Стандарты и практические требования: Cross-Sectional Epidemiological Odds Ratio Study",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Cross-Sectional Epidemiological Odds Ratio Study.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Cross-Sectional Epidemiological Odds Ratio Study.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","cross","sectional","epidemiological"],
+    }),
+  },
+
+  "research-quasi-experimental-difference-in-differences-did": {
+    id: "research-quasi-experimental-difference-in-differences-did",
+    name: "QuasiExperimentalDifferenceinDifferencesDiDSkill",
+    displayName: "Quasi-Experimental Difference-in-Differences (DiD)",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Quasi-Experimental Difference-in-Differences (DiD).",
+    tags: ["research","quasi","experimental","difference"],
+    transform: createStandardSkillTransform({
+      sectionName: "Difference-in-Differences Econometrics",
+      ruSectionName: "Стандарты и практические требования: Quasi-Experimental Difference-in-Differences (DiD)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Quasi-Experimental Difference-in-Differences (DiD).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Quasi-Experimental Difference-in-Differences (DiD).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","quasi","experimental","difference"],
+    }),
+  },
+
+  "research-replication-audit-reproducibility-code-verification": {
+    id: "research-replication-audit-reproducibility-code-verification",
+    name: "ReplicationAuditReproducibilityCodeVerificationSkill",
+    displayName: "Replication Audit Reproducibility Code Verification",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Replication Audit Reproducibility Code Verification.",
+    tags: ["research","replication","audit","reproducibility"],
+    transform: createStandardSkillTransform({
+      sectionName: "Reproducibility Verification Standards",
+      ruSectionName: "Стандарты и практические требования: Replication Audit Reproducibility Code Verification",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Replication Audit Reproducibility Code Verification.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Replication Audit Reproducibility Code Verification.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","replication","audit","reproducibility"],
+    }),
+  },
+
+  "research-peer-review-editorial-critique-rebuttal-memo": {
+    id: "research-peer-review-editorial-critique-rebuttal-memo",
+    name: "PeerReviewEditorialCritiqueRebuttalMemoSkill",
+    displayName: "Peer Review Editorial Critique & Rebuttal Memo",
+    categoryId: "research",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Peer Review Editorial Critique & Rebuttal Memo.",
+    tags: ["research","peer","review","editorial"],
+    transform: createStandardSkillTransform({
+      sectionName: "Peer Review Editorial Standards",
+      ruSectionName: "Стандарты и практические требования: Peer Review Editorial Critique & Rebuttal Memo",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Peer Review Editorial Critique & Rebuttal Memo.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Peer Review Editorial Critique & Rebuttal Memo.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["research","peer","review","editorial"],
+    }),
+  },
 };

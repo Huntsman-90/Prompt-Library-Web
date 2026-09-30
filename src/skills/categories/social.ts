@@ -681,7 +681,7 @@ sectionName: 'Executive Personal Brand Ghostwriting Protocol',
         'Используйте динамичный ритмичный текст: лаконичный сильный тезис в начале, короткие абзацы и выделение ключевых мыслей.',
         'Завершайте посты открытым дискуссионным вопросом, приглашающим к диалогу других предпринимателей и директоров.',
       ],
-      semanticType: 'role_directive',
+      semanticType: "role",
       tags: ['social', 'executive-branding', 'linkedin', 'ghostwriting', 'leadership', 'b2b'],
     }),
   },
@@ -789,7 +789,7 @@ sectionName: 'Decentralized Microblogging Voice & Pacing',
         'Оптимизируйте публикации под пользовательские тематические ленты и подборки без спама хештегами.',
         'Стимулируйте спонтанное общение: задавайте вопросы, делитесь черновиками проектов и поддерживайте интересных авторов.',
       ],
-      semanticType: 'role_directive',
+      semanticType: "role",
       tags: ['social', 'microblogging', 'threads', 'bluesky', 'mastodon', 'conversational'],
     }),
   },
@@ -1373,6 +1373,630 @@ sectionName: 'Superfan VIP Champions Council Framework',
 ],
       semanticType: "process_directive",
       tags: ["social","crowdfunding","kickstarter","backer-updates","transparency"],
+    }),
+  },
+  "social-viral-tiktok-shorts-3-second-hook-retention": {
+    id: "social-viral-tiktok-shorts-3-second-hook-retention",
+    name: "ViralTikTokShorts3SecondHookRetentionSkill",
+    displayName: "Viral TikTok/Shorts 3-Second Hook Retention",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Viral TikTok/Shorts 3-Second Hook Retention.",
+    tags: ["social","viral","tiktok","shorts"],
+    transform: createStandardSkillTransform({
+      sectionName: "TikTok Hook Retention Standards",
+      ruSectionName: "Стандарты и практические требования: Viral TikTok/Shorts 3-Second Hook Retention",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Viral TikTok/Shorts 3-Second Hook Retention.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Viral TikTok/Shorts 3-Second Hook Retention.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","viral","tiktok","shorts"],
+    }),
+  },
+
+  "social-linkedin-executive-personal-branding-algorithm": {
+    id: "social-linkedin-executive-personal-branding-algorithm",
+    name: "LinkedInExecutivePersonalBrandingAlgorithmSkill",
+    displayName: "LinkedIn Executive Personal Branding Algorithm",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for LinkedIn Executive Personal Branding Algorithm.",
+    tags: ["social","linkedin","executive","personal"],
+    transform: createStandardSkillTransform({
+      sectionName: "LinkedIn Algorithm Branding Standards",
+      ruSectionName: "Стандарты и практические требования: LinkedIn Executive Personal Branding Algorithm",
+      instructions: [
+        "Apply core domain tenets and industry best practices for LinkedIn Executive Personal Branding Algorithm.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для LinkedIn Executive Personal Branding Algorithm.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","linkedin","executive","personal"],
+    }),
+  },
+
+  "social-community-discord-server-onboarding-roles": {
+    id: "social-community-discord-server-onboarding-roles",
+    name: "CommunityDiscordServerOnboardingRolesSkill",
+    displayName: "Community Discord Server Onboarding & Roles",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Community Discord Server Onboarding & Roles.",
+    tags: ["social","community","discord","server"],
+    transform: createStandardSkillTransform({
+      sectionName: "Discord Server Community Blueprint",
+      ruSectionName: "Стандарты и практические требования: Community Discord Server Onboarding & Roles",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Community Discord Server Onboarding & Roles.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Community Discord Server Onboarding & Roles.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","community","discord","server"],
+    }),
+  },
+
+  "social-influencer-sponsorship-roi-utm-attribution": {
+    id: "social-influencer-sponsorship-roi-utm-attribution",
+    name: "InfluencerSponsorshipROIUTMAttributionSkill",
+    displayName: "Influencer Sponsorship ROI & UTM Attribution",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Influencer Sponsorship ROI & UTM Attribution.",
+    tags: ["social","influencer","sponsorship","roi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Influencer Sponsorship Tracking Protocol",
+      ruSectionName: "Стандарты и практические требования: Influencer Sponsorship ROI & UTM Attribution",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Influencer Sponsorship ROI & UTM Attribution.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Influencer Sponsorship ROI & UTM Attribution.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","influencer","sponsorship","roi"],
+    }),
+  },
+
+  "social-crisis-public-relations-twitter-storm-defusal": {
+    id: "social-crisis-public-relations-twitter-storm-defusal",
+    name: "CrisisPublicRelationsTwitterStormDefusalSkill",
+    displayName: "Crisis Public Relations Twitter Storm Defusal",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Crisis Public Relations Twitter Storm Defusal.",
+    tags: ["social","crisis","public","relations"],
+    transform: createStandardSkillTransform({
+      sectionName: "Crisis PR Defusal Architecture",
+      ruSectionName: "Стандарты и практические требования: Crisis Public Relations Twitter Storm Defusal",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Crisis Public Relations Twitter Storm Defusal.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Crisis Public Relations Twitter Storm Defusal.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","crisis","public","relations"],
+    }),
+  },
+
+  "social-reddit-authentic-community-engagement-no-self-promo": {
+    id: "social-reddit-authentic-community-engagement-no-self-promo",
+    name: "RedditAuthenticCommunityEngagementNoSelfPromoSkill",
+    displayName: "Reddit Authentic Community Engagement (No-Self-Promo)",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Reddit Authentic Community Engagement (No-Self-Promo).",
+    tags: ["social","reddit","authentic","community"],
+    transform: createStandardSkillTransform({
+      sectionName: "Reddit Community Engagement Standards",
+      ruSectionName: "Стандарты и практические требования: Reddit Authentic Community Engagement (No-Self-Promo)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Reddit Authentic Community Engagement (No-Self-Promo).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Reddit Authentic Community Engagement (No-Self-Promo).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","reddit","authentic","community"],
+    }),
+  },
+
+  "social-instagram-carousel-micro-learning-slide-deck": {
+    id: "social-instagram-carousel-micro-learning-slide-deck",
+    name: "InstagramCarouselMicroLearningSlideDeckSkill",
+    displayName: "Instagram Carousel Micro-Learning Slide Deck",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Instagram Carousel Micro-Learning Slide Deck.",
+    tags: ["social","instagram","carousel","micro"],
+    transform: createStandardSkillTransform({
+      sectionName: "Instagram Carousel Slide Blueprint",
+      ruSectionName: "Стандарты и практические требования: Instagram Carousel Micro-Learning Slide Deck",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Instagram Carousel Micro-Learning Slide Deck.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Instagram Carousel Micro-Learning Slide Deck.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","instagram","carousel","micro"],
+    }),
+  },
+
+  "social-podcast-guest-pitching-email-outreach-sequence": {
+    id: "social-podcast-guest-pitching-email-outreach-sequence",
+    name: "PodcastGuestPitchingEmailOutreachSequenceSkill",
+    displayName: "Podcast Guest Pitching Email Outreach Sequence",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Podcast Guest Pitching Email Outreach Sequence.",
+    tags: ["social","podcast","guest","pitching"],
+    transform: createStandardSkillTransform({
+      sectionName: "Podcast Guest Outreach Sequence",
+      ruSectionName: "Стандарты и практические требования: Podcast Guest Pitching Email Outreach Sequence",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Podcast Guest Pitching Email Outreach Sequence.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Podcast Guest Pitching Email Outreach Sequence.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","podcast","guest","pitching"],
+    }),
+  },
+
+  "social-youtube-thumbnail-title-click-through-optimization": {
+    id: "social-youtube-thumbnail-title-click-through-optimization",
+    name: "YouTubeThumbnailTitleClickThroughOptimizationSkill",
+    displayName: "YouTube Thumbnail & Title Click-Through Optimization",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for YouTube Thumbnail & Title Click-Through Optimization.",
+    tags: ["social","youtube","thumbnail","title"],
+    transform: createStandardSkillTransform({
+      sectionName: "YouTube CTR Optimization Standards",
+      ruSectionName: "Стандарты и практические требования: YouTube Thumbnail & Title Click-Through Optimization",
+      instructions: [
+        "Apply core domain tenets and industry best practices for YouTube Thumbnail & Title Click-Through Optimization.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для YouTube Thumbnail & Title Click-Through Optimization.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","youtube","thumbnail","title"],
+    }),
+  },
+
+  "social-social-proof-ugc-user-generated-content-campaign": {
+    id: "social-social-proof-ugc-user-generated-content-campaign",
+    name: "SocialProofUGCUserGeneratedContentCampaignSkill",
+    displayName: "Social Proof UGC (User-Generated Content) Campaign",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Social Proof UGC (User-Generated Content) Campaign.",
+    tags: ["social","social","proof","ugc"],
+    transform: createStandardSkillTransform({
+      sectionName: "UGC Campaign Social Proof Blueprint",
+      ruSectionName: "Стандарты и практические требования: Social Proof UGC (User-Generated Content) Campaign",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Social Proof UGC (User-Generated Content) Campaign.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Social Proof UGC (User-Generated Content) Campaign.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","social","proof","ugc"],
+    }),
+  },
+
+  "social-twitter-x-long-form-educational-thread-architecture": {
+    id: "social-twitter-x-long-form-educational-thread-architecture",
+    name: "TwitterXLongFormEducationalThreadArchitectureSkill",
+    displayName: "Twitter/X Long-Form Educational Thread Architecture",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Twitter/X Long-Form Educational Thread Architecture.",
+    tags: ["social","twitter","x","long"],
+    transform: createStandardSkillTransform({
+      sectionName: "Twitter Thread Narrative Architecture",
+      ruSectionName: "Стандарты и практические требования: Twitter/X Long-Form Educational Thread Architecture",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Twitter/X Long-Form Educational Thread Architecture.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Twitter/X Long-Form Educational Thread Architecture.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","twitter","x","long"],
+    }),
+  },
+
+  "social-online-community-ambassador-champion-program": {
+    id: "social-online-community-ambassador-champion-program",
+    name: "OnlineCommunityAmbassadorChampionProgramSkill",
+    displayName: "Online Community Ambassador Champion Program",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Online Community Ambassador Champion Program.",
+    tags: ["social","online","community","ambassador"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Ambassador Program Standards",
+      ruSectionName: "Стандарты и практические требования: Online Community Ambassador Champion Program",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Online Community Ambassador Champion Program.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Online Community Ambassador Champion Program.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","online","community","ambassador"],
+    }),
+  },
+
+  "social-brand-hashtag-challenge-gamification-campaign": {
+    id: "social-brand-hashtag-challenge-gamification-campaign",
+    name: "BrandHashtagChallengeGamificationCampaignSkill",
+    displayName: "Brand Hashtag Challenge Gamification Campaign",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Brand Hashtag Challenge Gamification Campaign.",
+    tags: ["social","brand","hashtag","challenge"],
+    transform: createStandardSkillTransform({
+      sectionName: "Brand Hashtag Gamification Protocol",
+      ruSectionName: "Стандарты и практические требования: Brand Hashtag Challenge Gamification Campaign",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Brand Hashtag Challenge Gamification Campaign.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Brand Hashtag Challenge Gamification Campaign.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","brand","hashtag","challenge"],
+    }),
+  },
+
+  "social-b2b-social-selling-linkedin-inmail-outreach": {
+    id: "social-b2b-social-selling-linkedin-inmail-outreach",
+    name: "B2BSocialSellingLinkedInInMailOutreachSkill",
+    displayName: "B2B Social Selling LinkedIn InMail Outreach",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for B2B Social Selling LinkedIn InMail Outreach.",
+    tags: ["social","b2b","social","selling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Selling InMail Standards",
+      ruSectionName: "Стандарты и практические требования: B2B Social Selling LinkedIn InMail Outreach",
+      instructions: [
+        "Apply core domain tenets and industry best practices for B2B Social Selling LinkedIn InMail Outreach.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для B2B Social Selling LinkedIn InMail Outreach.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","b2b","social","selling"],
+    }),
+  },
+
+  "social-community-moderation-anti-trolling-rule-enforcement": {
+    id: "social-community-moderation-anti-trolling-rule-enforcement",
+    name: "CommunityModerationAntiTrollingRuleEnforcementSkill",
+    displayName: "Community Moderation Anti-Trolling Rule Enforcement",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Community Moderation Anti-Trolling Rule Enforcement.",
+    tags: ["social","community","moderation","anti"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Anti-Trolling Rules",
+      ruSectionName: "Стандарты и практические требования: Community Moderation Anti-Trolling Rule Enforcement",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Community Moderation Anti-Trolling Rule Enforcement.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Community Moderation Anti-Trolling Rule Enforcement.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","community","moderation","anti"],
+    }),
+  },
+
+  "social-live-stream-engagement-q-a-chat-polling-protocol": {
+    id: "social-live-stream-engagement-q-a-chat-polling-protocol",
+    name: "LiveStreamEngagementQAChatPollingProtocolSkill",
+    displayName: "Live Stream Engagement Q&A Chat Polling Protocol",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Live Stream Engagement Q&A Chat Polling Protocol.",
+    tags: ["social","live","stream","engagement"],
+    transform: createStandardSkillTransform({
+      sectionName: "Live Stream Engagement Standards",
+      ruSectionName: "Стандарты и практические требования: Live Stream Engagement Q&A Chat Polling Protocol",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Live Stream Engagement Q&A Chat Polling Protocol.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Live Stream Engagement Q&A Chat Polling Protocol.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","live","stream","engagement"],
+    }),
+  },
+
+  "social-micro-influencer-seed-gifting-campaign-blueprint": {
+    id: "social-micro-influencer-seed-gifting-campaign-blueprint",
+    name: "MicroInfluencerSeedGiftingCampaignBlueprintSkill",
+    displayName: "Micro-Influencer Seed Gifting Campaign Blueprint",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Micro-Influencer Seed Gifting Campaign Blueprint.",
+    tags: ["social","micro","influencer","seed"],
+    transform: createStandardSkillTransform({
+      sectionName: "Micro-Influencer Gifting Blueprint",
+      ruSectionName: "Стандарты и практические требования: Micro-Influencer Seed Gifting Campaign Blueprint",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Micro-Influencer Seed Gifting Campaign Blueprint.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Micro-Influencer Seed Gifting Campaign Blueprint.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","micro","influencer","seed"],
+    }),
+  },
+
+  "social-social-media-analytics-engagement-rate-benchmark": {
+    id: "social-social-media-analytics-engagement-rate-benchmark",
+    name: "SocialMediaAnalyticsEngagementRateBenchmarkSkill",
+    displayName: "Social Media Analytics Engagement Rate Benchmark",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Social Media Analytics Engagement Rate Benchmark.",
+    tags: ["social","social","media","analytics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Analytics Benchmark Protocol",
+      ruSectionName: "Стандарты и практические требования: Social Media Analytics Engagement Rate Benchmark",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Social Media Analytics Engagement Rate Benchmark.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Social Media Analytics Engagement Rate Benchmark.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","social","media","analytics"],
+    }),
+  },
+
+  "social-viral-meme-format-subcultural-hijacking-ethical": {
+    id: "social-viral-meme-format-subcultural-hijacking-ethical",
+    name: "ViralMemeFormatSubculturalHijackingEthicalSkill",
+    displayName: "Viral Meme Format Subcultural Hijacking (Ethical)",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Viral Meme Format Subcultural Hijacking (Ethical).",
+    tags: ["social","viral","meme","format"],
+    transform: createStandardSkillTransform({
+      sectionName: "Meme Hijacking Ethical Standards",
+      ruSectionName: "Стандарты и практические требования: Viral Meme Format Subcultural Hijacking (Ethical)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Viral Meme Format Subcultural Hijacking (Ethical).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Viral Meme Format Subcultural Hijacking (Ethical).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","viral","meme","format"],
+    }),
+  },
+
+  "social-product-hunt-launch-day-community-mobilization": {
+    id: "social-product-hunt-launch-day-community-mobilization",
+    name: "ProductHuntLaunchDayCommunityMobilizationSkill",
+    displayName: "Product Hunt Launch Day Community Mobilization",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Product Hunt Launch Day Community Mobilization.",
+    tags: ["social","product","hunt","launch"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product Hunt Mobilization Protocol",
+      ruSectionName: "Стандарты и практические требования: Product Hunt Launch Day Community Mobilization",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Product Hunt Launch Day Community Mobilization.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Product Hunt Launch Day Community Mobilization.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","product","hunt","launch"],
+    }),
+  },
+
+  "social-newsletter-cross-promotion-swap-sponsorship": {
+    id: "social-newsletter-cross-promotion-swap-sponsorship",
+    name: "NewsletterCrossPromotionSwapSponsorshipSkill",
+    displayName: "Newsletter Cross-Promotion Swap Sponsorship",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Newsletter Cross-Promotion Swap Sponsorship.",
+    tags: ["social","newsletter","cross","promotion"],
+    transform: createStandardSkillTransform({
+      sectionName: "Newsletter Cross-Promo Protocol",
+      ruSectionName: "Стандарты и практические требования: Newsletter Cross-Promotion Swap Sponsorship",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Newsletter Cross-Promotion Swap Sponsorship.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Newsletter Cross-Promotion Swap Sponsorship.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","newsletter","cross","promotion"],
+    }),
+  },
+
+  "social-customer-story-video-testimonial-interview-blueprint": {
+    id: "social-customer-story-video-testimonial-interview-blueprint",
+    name: "CustomerStoryVideoTestimonialInterviewBlueprintSkill",
+    displayName: "Customer Story Video Testimonial Interview Blueprint",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Customer Story Video Testimonial Interview Blueprint.",
+    tags: ["social","customer","story","video"],
+    transform: createStandardSkillTransform({
+      sectionName: "Video Testimonial Interview Standards",
+      ruSectionName: "Стандарты и практические требования: Customer Story Video Testimonial Interview Blueprint",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Customer Story Video Testimonial Interview Blueprint.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Customer Story Video Testimonial Interview Blueprint.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","customer","story","video"],
+    }),
+  },
+
+  "social-pinterest-search-engine-keyword-pin-strategy": {
+    id: "social-pinterest-search-engine-keyword-pin-strategy",
+    name: "PinterestSearchEngineKeywordPinStrategySkill",
+    displayName: "Pinterest Search Engine Keyword Pin Strategy",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Pinterest Search Engine Keyword Pin Strategy.",
+    tags: ["social","pinterest","search","engine"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pinterest Search Strategy Blueprint",
+      ruSectionName: "Стандарты и практические требования: Pinterest Search Engine Keyword Pin Strategy",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Pinterest Search Engine Keyword Pin Strategy.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Pinterest Search Engine Keyword Pin Strategy.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","pinterest","search","engine"],
+    }),
+  },
+
+  "social-brand-tone-of-voice-multi-channel-social-matrix": {
+    id: "social-brand-tone-of-voice-multi-channel-social-matrix",
+    name: "BrandToneofVoiceMultiChannelSocialMatrixSkill",
+    displayName: "Brand Tone of Voice Multi-Channel Social Matrix",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Brand Tone of Voice Multi-Channel Social Matrix.",
+    tags: ["social","brand","tone","of"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Voice Tone Matrix Standards",
+      ruSectionName: "Стандарты и практические требования: Brand Tone of Voice Multi-Channel Social Matrix",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Brand Tone of Voice Multi-Channel Social Matrix.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Brand Tone of Voice Multi-Channel Social Matrix.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","brand","tone","of"],
+    }),
+  },
+
+  "social-social-listening-sentiment-spike-alert-protocol": {
+    id: "social-social-listening-sentiment-spike-alert-protocol",
+    name: "SocialListeningSentimentSpikeAlertProtocolSkill",
+    displayName: "Social Listening Sentiment Spike Alert Protocol",
+    categoryId: "social",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Social Listening Sentiment Spike Alert Protocol.",
+    tags: ["social","social","listening","sentiment"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Listening Sentiment Alert Rules",
+      ruSectionName: "Стандарты и практические требования: Social Listening Sentiment Spike Alert Protocol",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Social Listening Sentiment Spike Alert Protocol.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Social Listening Sentiment Spike Alert Protocol.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["social","social","listening","sentiment"],
     }),
   },
 };

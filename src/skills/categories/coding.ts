@@ -1907,5 +1907,1127 @@ export const CODING_SKILLS: Record<string, SkillDefinition> = {
       tags: ["coding","chaos-testing","resilience","latency-injection","network-simulation"],
     }),
   },
+  "coding-rust-memory-ownership-lifetimes": {
+    id: "coding-rust-memory-ownership-lifetimes",
+    name: "CodingRustMemoryOwnershipLifetimesSkill",
+    displayName: "Rust Memory Safety, Lifetimes, and Zero-Cost Abstractions",
+    categoryId: "coding",
+    description: "Enforces idiomatic Rust ownership, explicit lifetimes (`'a`), Send/Sync traits, and zero-cost abstractions.",
+    tags: ["coding","rust","memory-safety","concurrency","systems-programming"],
+    transform: createStandardSkillTransform({
+      sectionName: "Rust Memory Ownership & Lifetime Invariants",
+      ruSectionName: "Стандарт владения памятью и времен жизни Rust (Ownership & Lifetimes)",
+      instructions: [
+        "Structure types using strict ownership and borrowing semantics; eliminate unnecessary `.clone()` calls.",
+        "Annotate explicit lifetime parameters (`'a`, `'static`) where reference elision is ambiguous.",
+        "Implement `Error` and `From` traits for robust, idiomatic `Result<T, E>` error propagation."
+],
+      ruInstructions: [
+        "Используйте строгую модель владения и заимствования (Borrowing); исключите лишние вызовы `.clone()`.",
+        "Задавайте явные параметры времен жизни (`'a`) в сложных структурах данных с ссылками.",
+        "Реализуйте трейты `Error` и `From` для идиоматической обработки ошибок через `Result<T, E>`."
+],
+      semanticType: "protocol",
+      tags: ["coding","rust","memory-safety","concurrency","systems-programming"],
+    }),
+  },
+
+  "coding-typescript-type-level-generics-ast": {
+    id: "coding-typescript-type-level-generics-ast",
+    name: "CodingTypescriptTypeLevelGenericsAstSkill",
+    displayName: "Advanced TypeScript Type-Level Metaprogramming",
+    categoryId: "coding",
+    description: "Constructs conditional types, template literal types, distributive unions, and mapped AST type transformations.",
+    tags: ["coding","typescript","type-level","generics","advanced-ts"],
+    transform: createStandardSkillTransform({
+      sectionName: "Advanced TypeScript Type-Level Invariants",
+      ruSectionName: "Продвинутое программирование на уровне типов TypeScript (Conditional & Mapped Types)",
+      instructions: [
+        "Use conditional types (`T extends U ? X : Y`), `infer` keyword, and template literal types for compile-time validation.",
+        "Enforce immutable `as const` assertions and readonly utility wrappers.",
+        "Eliminate `any` and unvalidated type assertions (`as Type`) in favor of type guards and `unknown`."
+],
+      ruInstructions: [
+        "Используйте условные типы с ключевым словом `infer` и шаблонные строковые литералы типов.",
+        "Применяйте утверждения `as const` и модификаторы `readonly` для обеспечения неизменяемости.",
+        "Полностью исключите использование `any` в пользу безопасного `unknown` и пользовательских Type Guards."
+],
+      semanticType: "protocol",
+      tags: ["coding","typescript","type-level","generics","advanced-ts"],
+    }),
+  },
+
+  "coding-python-asyncio-structured-concurrency": {
+    id: "coding-python-asyncio-structured-concurrency",
+    name: "CodingPythonAsyncioStructuredConcurrencySkill",
+    displayName: "Python 3.12+ AsyncIO & Structured Concurrency (TaskGroup)",
+    categoryId: "coding",
+    description: "Implements modern Python structured concurrency using `asyncio.TaskGroup()`, ExceptionGroups, and clean cancellations.",
+    tags: ["coding","python","asyncio","structured-concurrency","taskgroup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Python AsyncIO Structured Concurrency Standards",
+      ruSectionName: "Структурированная асинхронность Python 3.12+ (AsyncIO TaskGroup)",
+      instructions: [
+        "Use `async with asyncio.TaskGroup() as tg:` to coordinate concurrent background tasks safely.",
+        "Handle composite failures gracefully via `except* (CustomError, TimeoutError):` ExceptionGroups.",
+        "Ensure proper cleanup of open network connections and file descriptors inside asynchronous context managers."
+],
+      ruInstructions: [
+        "Используйте `asyncio.TaskGroup()` для надежного управления жизненным циклом фоновых корутин.",
+        "Обрабатывайте параллельные исключения через конструкции `except*` (ExceptionGroups).",
+        "Гарантируйте закрытие сетевых сессий в асинхронных контекстных менеджерах (`async with`)."
+],
+      semanticType: "protocol",
+      tags: ["coding","python","asyncio","structured-concurrency","taskgroup"],
+    }),
+  },
+
+  "coding-golang-goroutine-leak-prevention": {
+    id: "coding-golang-goroutine-leak-prevention",
+    name: "CodingGolangGoroutineLeakPreventionSkill",
+    displayName: "Go Concurrency, Channel Idioms, and Goroutine Leak Defense",
+    categoryId: "coding",
+    description: "Prevents goroutine leaks using `context.Context` cancellation propagation, buffered channels, and sync.WaitGroup.",
+    tags: ["coding","golang","concurrency","goroutines","channels","context"],
+    transform: createStandardSkillTransform({
+      sectionName: "Go Concurrency & Goroutine Leak Defense Standards",
+      ruSectionName: "Идиомы конкурентности Go и предотвращение утечек горутин (Goroutine Leaks)",
+      instructions: [
+        "Always propagate `ctx context.Context` as the first parameter across all I/O function calls.",
+        "Ensure every spawned goroutine listens to `<-ctx.Done()` for deterministic cancellation exit.",
+        "Use `sync.WaitGroup` or `errgroup.Group` to wait for all child routines before function termination."
+],
+      ruInstructions: [
+        "Передавайте `ctx context.Context` первым параметром во все функции ввода-вывода.",
+        "Обязывайте каждую запускаемую горутину слушать канал `<-ctx.Done()` для безопасного завершения.",
+        "Используйте `errgroup.Group` для контроля завершения пула параллельных задач."
+],
+      semanticType: "protocol",
+      tags: ["coding","golang","concurrency","goroutines","channels","context"],
+    }),
+  },
+
+  "coding-react-compiler-memoization-zero-cost": {
+    id: "coding-react-compiler-memoization-zero-cost",
+    name: "CodingReactCompilerMemoizationZeroCostSkill",
+    displayName: "React 19 Server Components & Actions Architecture",
+    categoryId: "coding",
+    description: "Builds React 19 apps with Server Components, optimistic UI mutations (`useOptimistic`), and Server Actions.",
+    tags: ["coding","react","react19","rsc","server-actions","frontend"],
+    transform: createStandardSkillTransform({
+      sectionName: "React 19 Server Components & Action Standards",
+      ruSectionName: "Архитектура React 19 (Server Components, Server Actions, useOptimistic)",
+      instructions: [
+        "Default to React Server Components (RSC) for data-fetching; mark interactive leaves with `'use client'`.",
+        "Execute state mutations via Server Actions integrated with progressive enhancement `<form action={...}>`.",
+        "Implement `useOptimistic()` and `useTransition()` for instantaneous zero-latency UI responsiveness."
+],
+      ruInstructions: [
+        "Используйте React Server Components по умолчанию для загрузки данных; выносите интерактивность в `'use client'`.",
+        "Реализуйте мутации через Server Actions с поддержкой прогрессивного улучшения форм.",
+        "Внедряйте `useOptimistic()` для мгновенного обновления интерфейса до ответа сервера."
+],
+      semanticType: "protocol",
+      tags: ["coding","react","react19","rsc","server-actions","frontend"],
+    }),
+  },
+
+  "coding-database-index-btree-gin-optimization": {
+    id: "coding-database-index-btree-gin-optimization",
+    name: "CodingDatabaseIndexBtreeGinOptimizationSkill",
+    displayName: "PostgreSQL Advanced Index Tuning (B-Tree, GIN, GiST, BRIN)",
+    categoryId: "coding",
+    description: "Selects the mathematically optimal index type for query patterns: B-Tree, GIN (JSONB), GiST, or BRIN (Time-series).",
+    tags: ["coding","postgresql","indexes","gin","brin","performance","dba"],
+    transform: createStandardSkillTransform({
+      sectionName: "PostgreSQL Index Tuning & EXPLAIN ANALYZE Standards",
+      ruSectionName: "Оптимизация индексов PostgreSQL (B-Tree, GIN, BRIN, Partial Indexes)",
+      instructions: [
+        "Use GIN indexes with `jsonb_path_ops` for high-frequency JSONB attribute filtering.",
+        "Deploy BRIN indexes for append-only timestamp series tables to save 95% of index disk storage.",
+        "Create Partial Indexes (`WHERE is_deleted = false`) to dramatically shrink index size."
+],
+      ruInstructions: [
+        "Используйте индексы GIN (`jsonb_path_ops`) для быстрого поиска по вложенным структурам JSONB.",
+        "Применяйте индексы BRIN для огромных неизменяемых таблиц с логами и временными рядами.",
+        "Создавайте частичные индексы (Partial Indexes) для исключения неактуальных строк."
+],
+      semanticType: "protocol",
+      tags: ["coding","postgresql","indexes","gin","brin","performance","dba"],
+    }),
+  },
+
+  "coding-distributed-tracing-opentelemetry-sdk": {
+    id: "coding-distributed-tracing-opentelemetry-sdk",
+    name: "CodingDistributedTracingOpentelemetrySdkSkill",
+    displayName: "OpenTelemetry TypeScript SDK Manual Instrumentation",
+    categoryId: "coding",
+    description: "Instruments custom tracer spans, error status codes, baggage propagation, and span metrics.",
+    tags: ["coding","opentelemetry","tracing","observability","sdk"],
+    transform: createStandardSkillTransform({
+      sectionName: "OpenTelemetry SDK Manual Instrumentation Standards",
+      ruSectionName: "Ручная инструментация трейсов через OpenTelemetry SDK (TypeScript)",
+      instructions: [
+        "Obtain tracer instance and create explicit child spans: `tracer.startActiveSpan('operation_name', ...)`.",
+        "Record exceptions inside spans with `span.recordException(err)` and set `span.setStatus({ code: SpanStatusCode.ERROR })`.",
+        "Ensure spans are deterministically ended in `finally` blocks to prevent trace resource leaks."
+],
+      ruInstructions: [
+        "Создавайте вложенные спаны через `tracer.startActiveSpan('operation_name', ...)`.",
+        "Фиксируйте ошибки в теле спана через `span.recordException()` с установкой статуса ошибки.",
+        "Гарантируйте вызов `span.end()` в блоке `finally` для исключения утечек памяти."
+],
+      semanticType: "protocol",
+      tags: ["coding","opentelemetry","tracing","observability","sdk"],
+    }),
+  },
+
+  "coding-tailwind-css-fluid-typography-design": {
+    id: "coding-tailwind-css-fluid-typography-design",
+    name: "CodingTailwindCssFluidTypographyDesignSkill",
+    displayName: "Fluid Typography & Responsive Clamp Layouts (Tailwind CSS)",
+    categoryId: "coding",
+    description: "Applies fluid clamp typography and dynamic responsive layouts without jagged breakpoint jumps.",
+    tags: ["coding","tailwind","css","typography","responsive-design","ui"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fluid Responsive Typography & Layout Standards",
+      ruSectionName: "Плавная адаптивная типографика и сетки (Tailwind CSS Clamp)",
+      instructions: [
+        "Use CSS `clamp(min, preferred_vw, max)` for fluid font sizing scaling smoothly across viewports.",
+        "Implement container queries (`@container`) for modular components that adapt to parent container width.",
+        "Ensure strict WCAG AAA color contrast ratios (minimum 7:1 for normal text)."
+],
+      ruInstructions: [
+        "Используйте функцию `clamp()` для плавной масштабируемости шрифтов без скачков на брейкпоинтах.",
+        "Применяйте контейнерные запросы (`@container`) для создания независимых адаптивных компонентов.",
+        "Обеспечьте контрастность текста по стандарту WCAG AAA (не менее 7:1)."
+],
+      semanticType: "protocol",
+      tags: ["coding","tailwind","css","typography","responsive-design","ui"],
+    }),
+  },
+
+  "coding-cryptographic-jwt-ed25519-auth": {
+    id: "coding-cryptographic-jwt-ed25519-auth",
+    name: "CodingCryptographicJwtEd25519AuthSkill",
+    displayName: "Ed25519 / RS256 Asymmetric JWT Authentication Engine",
+    categoryId: "coding",
+    description: "Signs and verifies JSON Web Tokens using asymmetric Ed25519 / RS256 public-private key cryptography.",
+    tags: ["coding","jwt","ed25519","auth","security","cryptography"],
+    transform: createStandardSkillTransform({
+      sectionName: "Asymmetric JWT (Ed25519/RS256) Authentication Standards",
+      ruSectionName: "Асимметричная аутентификация по токенам JWT (Ed25519 / RS256)",
+      instructions: [
+        "Sign tokens using private Ed25519 / RSA keys; distribute only the public key to microservice verifiers.",
+        "Enforce short expiration limits (`exp: 15m`) paired with secure httpOnly refresh tokens.",
+        "Validate issuer (`iss`), audience (`aud`), and token signature algorithm strictly (ban `none` algorithm)."
+],
+      ruInstructions: [
+        "Подписывайте JWT приватным ключом Ed25519; проверяйте подпись на микросервисах публичным ключом.",
+        "Устанавливайте короткое время жизни access-токена (15 минут) в связке с защищенными refresh-токенами.",
+        "Строго проверяйте издателя (`iss`), получателя (`aud`) и запрещайте алгоритм `none`."
+],
+      semanticType: "protocol",
+      tags: ["coding","jwt","ed25519","auth","security","cryptography"],
+    }),
+  },
+
+  "coding-graphql-dataloader-n-plus-one-fix": {
+    id: "coding-graphql-dataloader-n-plus-one-fix",
+    name: "CodingGraphqlDataloaderNPlusOneFixSkill",
+    displayName: "GraphQL DataLoader Batching & N+1 Query Elimination",
+    categoryId: "coding",
+    description: "Batches and deduplicates database queries across GraphQL resolver fields to eliminate N+1 latency spikes.",
+    tags: ["coding","graphql","dataloader","n-plus-one","performance","batching"],
+    transform: createStandardSkillTransform({
+      sectionName: "DataLoader Batching & N+1 Elimination Invariants",
+      ruSectionName: "Устранение проблемы N+1 в GraphQL с помощью DataLoader (Батчинг и Кэширование)",
+      instructions: [
+        "Instantiate scoped DataLoader instances per HTTP request to batch entity lookups into a single `WHERE id IN (...)` query.",
+        "Deduplicate identical keys requested by multiple fields in the same GraphQL query document.",
+        "Prevent cross-request cache leaks by discarding DataLoader instances at the end of each request."
+],
+      ruInstructions: [
+        "Создавайте экземпляры DataLoader на каждый HTTP-запрос для объединения выборок в один запрос `WHERE id IN (...)`.",
+        "Дедуплицируйте одинаковые запросы сущностей внутри одного GraphQL-документа.",
+        "Изолируйте кэш лоадера внутри одного запроса, предотвращая утечку данных между пользователями."
+],
+      semanticType: "protocol",
+      tags: ["coding","graphql","dataloader","n-plus-one","performance","batching"],
+    }),
+  },
+  "coding-tailwind-css-custom-design-tokens": {
+    id: "coding-tailwind-css-custom-design-tokens",
+    name: "CodingTailwindCssCustomDesignTokensSkill",
+    displayName: "Tailwind CSS v4 Design Token & CSS Variable System",
+    categoryId: "coding",
+    description: "Configures custom CSS variables, design tokens, color scales, and theme extensions in Tailwind CSS v4.",
+    tags: ["coding","tailwind","design-tokens","css-variables","styling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Tailwind CSS Design Tokens & Variable System",
+      ruSectionName: "Система дизайн-токенов и CSS-переменных (Tailwind CSS v4)",
+      instructions: [
+        "Define semantic color tokens (`--primary`, `--surface-elevated`) using OKLCH color space for perceptual uniformity.",
+        "Integrate `@theme` blocks in global CSS without legacy JavaScript config files.",
+        "Ensure automatic dark mode transitions using CSS custom properties."
+],
+      ruInstructions: [
+        "Задавайте семантические токены в пространстве OKLCH для идеального цветового восприятия.",
+        "Используйте блок `@theme` в глобальном CSS без устаревших конфигурационных JS-файлов.",
+        "Настройте плавное автоматическое переключение темной темы через CSS-переменные."
+],
+      semanticType: "protocol",
+      tags: ["coding","tailwind","design-tokens","css-variables","styling"],
+    }),
+  },
+
+  "coding-node-worker-threads-parallel-cpu": {
+    id: "coding-node-worker-threads-parallel-cpu",
+    name: "CodingNodeWorkerThreadsParallelCpuSkill",
+    displayName: "Node.js Worker Threads & Parallel CPU Computation Pool",
+    categoryId: "coding",
+    description: "Offloads heavy CPU cryptographic or parsing tasks to a managed pool of Node.js `worker_threads`.",
+    tags: ["coding","nodejs","worker-threads","concurrency","performance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Node.js Worker Threads Pool Standards",
+      ruSectionName: "Пул рабочих потоков Node.js Worker Threads для тяжелых вычислений",
+      instructions: [
+        "Offload CPU-intensive operations (image processing, hashing, big JSON parsing) away from the main event loop.",
+        "Manage worker lifecycles with a bounded pool (e.g. `piscina`) matching CPU core count.",
+        "Transfer binary memory using `SharedArrayBuffer` or Transferable Objects with zero serialization copying."
+],
+      ruInstructions: [
+        "Выносите ресурсоемкие операции (хэширование, обработка графики) из основного Event Loop.",
+        "Управляйте жизненным циклом потоков через фиксированный пул по числу ядер CPU.",
+        "Передавайте бинарные данные через `SharedArrayBuffer` без накладных расходов на сериализацию."
+],
+      semanticType: "protocol",
+      tags: ["coding","nodejs","worker-threads","concurrency","performance"],
+    }),
+  },
+
+  "coding-sql-window-functions-analytics": {
+    id: "coding-sql-window-functions-analytics",
+    name: "CodingSqlWindowFunctionsAnalyticsSkill",
+    displayName: "SQL Window Functions & Analytical Partitioning (PostgreSQL)",
+    categoryId: "coding",
+    description: "Constructs complex analytical queries using `ROW_NUMBER()`, `RANK()`, `LAG()`, `LEAD()`, and rolling `OVER (PARTITION BY...)`.",
+    tags: ["coding","sql","window-functions","postgresql","analytics"],
+    transform: createStandardSkillTransform({
+      sectionName: "SQL Analytical Window Functions Standards",
+      ruSectionName: "Аналитические оконные функции SQL (ROW_NUMBER, LAG/LEAD, PARTITION BY)",
+      instructions: [
+        "Use `PARTITION BY` and `ORDER BY` inside `OVER (...)` to compute running totals and rankings.",
+        "Compute period-over-period differences using `LAG()` and `LEAD()` without self-joins.",
+        "Filter ranked results efficiently using Common Table Expressions (CTE) and `QUALIFY` / `WHERE row_num = 1`."
+],
+      ruInstructions: [
+        "Используйте `PARTITION BY` и `ORDER BY` внутри `OVER (...)` для расчета скользящих итогов и рангов.",
+        "Вычисляйте изменения между периодами с помощью функций `LAG()` и `LEAD()` без лишних JOIN.",
+        "Фильтруйте топ-N записей через CTE и предикаты по номеру строки `row_num = 1`."
+],
+      semanticType: "protocol",
+      tags: ["coding","sql","window-functions","postgresql","analytics"],
+    }),
+  },
+
+  "coding-react-virtualized-infinite-list": {
+    id: "coding-react-virtualized-infinite-list",
+    name: "CodingReactVirtualizedInfiniteListSkill",
+    displayName: "TanStack Virtual (Virtual List & Infinite Scrolling)",
+    categoryId: "coding",
+    description: "Renders 100,000+ DOM nodes with 60 FPS performance by virtualizing only visible viewport window rows.",
+    tags: ["coding","react","virtualization","tanstack-virtual","performance","dom"],
+    transform: createStandardSkillTransform({
+      sectionName: "TanStack Virtual DOM Windowing Standards",
+      ruSectionName: "Виртуализация длинных списков (TanStack Virtual, 60 FPS, Infinite Scroll)",
+      instructions: [
+        "Instantiate `useVirtualizer` with estimated row sizes and parent scroll container ref.",
+        "Render only elements intersecting the active viewport plus a small buffer window (e.g. `overscan: 5`).",
+        "Support dynamic row height measurement with zero layout shift."
+],
+      ruInstructions: [
+        "Инициализируйте хук `useVirtualizer` с примерной высотой строки и ссылкой на контейнер.",
+        "Рендерите только видимые элементы в окне просмотра с небольшим буфером (overscan).",
+        "Обеспечьте поддержку динамической высоты строк без сдвигов верстки."
+],
+      semanticType: "protocol",
+      tags: ["coding","react","virtualization","tanstack-virtual","performance","dom"],
+    }),
+  },
+
+  "coding-security-helmet-csp-headers": {
+    id: "coding-security-helmet-csp-headers",
+    name: "CodingSecurityHelmetCspHeadersSkill",
+    displayName: "Express / Fastify Helmet Security & Content Security Policy (CSP)",
+    categoryId: "coding",
+    description: "Configures strict HTTP security headers: Content-Security-Policy (CSP), HSTS, X-Content-Type-Options, Referrer-Policy.",
+    tags: ["coding","security","helmet","csp","headers","web-security"],
+    transform: createStandardSkillTransform({
+      sectionName: "HTTP Security Headers & Strict CSP Standards",
+      ruSectionName: "Настройка заголовков безопасности Helmet и строгой политики CSP",
+      instructions: [
+        "Configure strict CSP directives (`default-src 'self'`, `script-src 'self' 'nonce-...'`).",
+        "Enable HTTP Strict Transport Security (`HSTS: max-age=31536000; includeSubDomains; preload`).",
+        "Disable MIME-type sniffing (`X-Content-Type-Options: nosniff`) and frame embedding (`X-Frame-Options: DENY`)."
+],
+      ruInstructions: [
+        "Настройте строгую политику CSP (`default-src 'self'`) с защитой одноразовыми nonces.",
+        "Включите HSTS с предзагрузкой (Preload) на срок не менее 1 года.",
+        "Заблокируйте сниффинг MIME-типов и встраивание страниц во фреймы (Anti-Clickjacking)."
+],
+      semanticType: "protocol",
+      tags: ["coding","security","helmet","csp","headers","web-security"],
+    }),
+  },
+
+  "coding-pwa-service-worker-workbox-caching": {
+    id: "coding-pwa-service-worker-workbox-caching",
+    name: "CodingPwaServiceWorkerWorkboxCachingSkill",
+    displayName: "Workbox Service Worker Caching Strategies (PWA)",
+    categoryId: "coding",
+    description: "Implements CacheFirst, StaleWhileRevalidate, and NetworkFirst strategies for static assets, fonts, and API data.",
+    tags: ["coding","pwa","service-worker","workbox","offline","caching"],
+    transform: createStandardSkillTransform({
+      sectionName: "Workbox Service Worker Caching Blueprint",
+      ruSectionName: "Стратегии кэширования Workbox Service Worker (CacheFirst, NetworkFirst, StaleWhileRevalidate)",
+      instructions: [
+        "Use `CacheFirst` with 1-year expiration plugin for immutable hashed static assets and web fonts.",
+        "Use `StaleWhileRevalidate` for API metadata and frequent navigations.",
+        "Use `NetworkFirst` with a 3-second timeout for real-time user state data."
+],
+      ruInstructions: [
+        "Применяйте стратегию `CacheFirst` для неизменяемых бандлов и шрифтов.",
+        "Используйте `StaleWhileRevalidate` для кэширования карточек каталога и справочников.",
+        "Применяйте `NetworkFirst` с таймаутом 3 секунды для динамических данных пользователя."
+],
+      semanticType: "protocol",
+      tags: ["coding","pwa","service-worker","workbox","offline","caching"],
+    }),
+  },
+
+  "coding-graphql-dataloader-per-request-cache": {
+    id: "coding-graphql-dataloader-per-request-cache",
+    name: "CodingGraphqlDataloaderPerRequestCacheSkill",
+    displayName: "Per-Request Scoped DataLoader Dependency Injection",
+    categoryId: "coding",
+    description: "Binds DataLoader instances to individual request contexts, preventing cross-tenant data leaks in GraphQL servers.",
+    tags: ["coding","graphql","dataloader","context","security","nodejs"],
+    transform: createStandardSkillTransform({
+      sectionName: "Scoped DataLoader Request Context Standards",
+      ruSectionName: "Изоляция контекста DataLoader на каждый HTTP-запрос (GraphQL)",
+      instructions: [
+        "Instantiate all DataLoaders inside the request context factory function: `createContext({ req })`.",
+        "Ensure loaders are never shared across concurrent client requests to prevent tenant data leakage.",
+        "Clear loader cache on state-mutating GraphQL mutations."
+],
+      ruInstructions: [
+        "Создавайте экземпляры DataLoader внутри фабрики контекста запроса `createContext()`.",
+        "Исключите переиспользование экземпляров лоадеров между разными пользователями.",
+        "Очищайте кэш лоадера при выполнении мутаций для сохранения свежести данных."
+],
+      semanticType: "protocol",
+      tags: ["coding","graphql","dataloader","context","security","nodejs"],
+    }),
+  },
+
+  "coding-react-hook-form-zod-resolver": {
+    id: "coding-react-hook-form-zod-resolver",
+    name: "CodingReactHookFormZodResolverSkill",
+    displayName: "React Hook Form & Zod Schema Resolver Integration",
+    categoryId: "coding",
+    description: "Builds high-performance form state with React Hook Form, uncontrolled inputs, and Zod resolver schema validation.",
+    tags: ["coding","react","react-hook-form","zod","forms","validation"],
+    transform: createStandardSkillTransform({
+      sectionName: "React Hook Form & Zod Resolver Standards",
+      ruSectionName: "Интеграция форм React Hook Form и валидации схем Zod (Resolver)",
+      instructions: [
+        "Use `useForm<FormValues>({ resolver: zodResolver(schema), mode: 'onBlur' })`.",
+        "Rely on uncontrolled inputs to minimize re-renders on every keystroke.",
+        "Display field-level error messages with accessible ARIA invalid indicators (`aria-invalid={!!errors.field}`)."
+],
+      ruInstructions: [
+        "Подключайте валидацию через `zodResolver(schema)` с проверкой на событии `onBlur`.",
+        "Используйте неконтролируемые поля ввода для исключения лишних ререндеров при наборе текста.",
+        "Отображайте ошибки валидации с атрибутами доступности `aria-invalid`."
+],
+      semanticType: "protocol",
+      tags: ["coding","react","react-hook-form","zod","forms","validation"],
+    }),
+  },
+
+  "coding-git-atomic-conventional-commits": {
+    id: "coding-git-atomic-conventional-commits",
+    name: "CodingGitAtomicConventionalCommitsSkill",
+    displayName: "Conventional Commits 1.0.0 & Atomic Git History",
+    categoryId: "coding",
+    description: "Enforces structured Conventional Commit messages (`feat:`, `fix:`, `refactor:`, `chore:`) with breaking change markers (`!`).",
+    tags: ["coding","git","conventional-commits","version-control","ci-cd"],
+    transform: createStandardSkillTransform({
+      sectionName: "Conventional Commits 1.0.0 Standard",
+      ruSectionName: "Стандарт атомарных коммитов Conventional Commits (feat, fix, refactor)",
+      instructions: [
+        "Format commit messages: `<type>(<scope>): <short imperative summary>`.",
+        "Use standard types: `feat`, `fix`, `refactor`, `perf`, `test`, `docs`, `chore`, `ci`.",
+        "Mark breaking changes with `!` suffix (e.g. `feat!: rename public api`) and `BREAKING CHANGE:` footer."
+],
+      ruInstructions: [
+        "Форматируйте коммиты по схеме: `<тип>(<область>): <краткое описание в повелительном наклонении>`.",
+        "Используйте стандартные типы: `feat`, `fix`, `refactor`, `perf`, `test`, `chore`.",
+        "Обозначайте ломающие изменения восклицательным знаком `feat!:` и блоком `BREAKING CHANGE`."
+],
+      semanticType: "compliance_directive",
+      tags: ["coding","git","conventional-commits","version-control","ci-cd"],
+    }),
+  },
+
+  "coding-python-dataclasses-pydantic-validation": {
+    id: "coding-python-dataclasses-pydantic-validation",
+    name: "CodingPythonDataclassesPydanticValidationSkill",
+    displayName: "Python Pydantic v2 Immutable Settings & Config Parser",
+    categoryId: "coding",
+    description: "Parses environment configurations into type-safe, immutable Pydantic `BaseSettings` with strict validation.",
+    tags: ["coding","python","pydantic","configuration","settings","type-safety"],
+    transform: createStandardSkillTransform({
+      sectionName: "Python Pydantic v2 Settings & Configuration Standards",
+      ruSectionName: "Типизированные настройки приложения на базе Pydantic v2 BaseSettings",
+      instructions: [
+        "Inherit configuration models from `pydantic_settings.BaseSettings` with `frozen=True` immutability.",
+        "Validate connection strings, ports, and secret keys at startup; crash immediately if required configs are missing.",
+        "Provide clean default fallbacks for local development environments."
+],
+      ruInstructions: [
+        "Создавайте модели конфигурации на базе `pydantic_settings.BaseSettings` с флагом `frozen=True`.",
+        "Валидируйте порты, строки подключения к БД и секретные ключи на этапе старта приложения.",
+        "Задавайте безопасные значения по умолчанию для локальной разработки."
+],
+      semanticType: "protocol",
+      tags: ["coding","python","pydantic","configuration","settings","type-safety"],
+    }),
+  },
+
+  "coding-lucide-react-accessible-icon-buttons": {
+    id: "coding-lucide-react-accessible-icon-buttons",
+    name: "CodingLucideReactAccessibleIconButtonsSkill",
+    displayName: "Lucide React Accessible Icon Button Standard",
+    categoryId: "coding",
+    description: "Integrates Lucide React icons into interactive buttons with proper ARIA accessibility labels and touch target sizes.",
+    tags: ["coding","lucide-react","icons","accessibility","a11y","react"],
+    transform: createStandardSkillTransform({
+      sectionName: "Accessible Icon Button Standards",
+      ruSectionName: "Стандарт доступных кнопок с иконками Lucide React (A11y & Touch Targets)",
+      instructions: [
+        "Always attach explicit `aria-label` or `title` to standalone icon buttons without visible text.",
+        "Enforce minimum 44x44px touch target hit-boxes for mobile responsiveness (`p-2.5` or `h-11 w-11`).",
+        "Pass `aria-hidden=\"true\"` to decorative icon SVGs."
+],
+      ruInstructions: [
+        "Всегда добавляйте `aria-label` или `title` для кнопок, содержащих только иконку.",
+        "Обеспечьте минимальную область нажатия 44х44 пикселя для удобства на сенсорных экранах.",
+        "Указывайте `aria-hidden=\"true\"` для декоративных SVG-иконок."
+],
+      semanticType: "protocol",
+      tags: ["coding","lucide-react","icons","accessibility","a11y","react"],
+    }),
+  },
+
+  "coding-error-boundary-react-suspense-fallback": {
+    id: "coding-error-boundary-react-suspense-fallback",
+    name: "CodingErrorBoundaryReactSuspenseFallbackSkill",
+    displayName: "React Error Boundary & Suspense Fallback Hierarchy",
+    categoryId: "coding",
+    description: "Wraps granular component subtrees in Error Boundaries and Suspense skeletons to prevent full page crashes.",
+    tags: ["coding","react","error-boundary","suspense","skeletons","resilience"],
+    transform: createStandardSkillTransform({
+      sectionName: "React Granular Error Boundary & Suspense Standards",
+      ruSectionName: "Иерархия Error Boundary и скелетоны Suspense в React",
+      instructions: [
+        "Wrap isolated widget subtrees inside localized `ErrorBoundary` components with retry buttons.",
+        "Pair data-fetching components with clean `Suspense` fallback skeletons matching exact target layout dimensions.",
+        "Prevent an error in one secondary sidebar widget from unmounting the entire application."
+],
+      ruInstructions: [
+        "Оборачивайте независимые виджеты в локальные `ErrorBoundary` с кнопкой повтора.",
+        "Используйте `Suspense` со скелетонами загрузки, точно повторяющими форму контента.",
+        "Изолируйте сбои: падение второстепенного блока не должно ломать всю страницу."
+],
+      semanticType: "protocol",
+      tags: ["coding","react","error-boundary","suspense","skeletons","resilience"],
+    }),
+  },
+
+  "coding-database-connection-pool-pgpool": {
+    id: "coding-database-connection-pool-pgpool",
+    name: "CodingDatabaseConnectionPoolPgpoolSkill",
+    displayName: "PostgreSQL Database Connection Pooling (pgbouncer / pg.Pool)",
+    categoryId: "coding",
+    description: "Tunes database connection pool sizes, idle timeouts, and statement timeouts to maximize concurrent throughput.",
+    tags: ["coding","postgresql","connection-pool","pgbouncer","dba","performance"],
+    transform: createStandardSkillTransform({
+      sectionName: "PostgreSQL Connection Pool & Timeout Standards",
+      ruSectionName: "Тюнинг пула соединений PostgreSQL (pg.Pool, pgbouncer, таймауты)",
+      instructions: [
+        "Size connection pool according to Postgres formula: `Connections = ((CoreCount * 2) + EffectiveSpindleCount)`.",
+        "Set aggressive `statement_timeout = '5s'` to automatically abort runaway rogue queries.",
+        "Configure `idleTimeoutMillis: 30000` to close zombie connections cleanly."
+],
+      ruInstructions: [
+        "Рассчитывайте размер пула соединений по формуле: `Connections = (2 * CPU_Cores) + Spindles`.",
+        "Устанавливайте строгий `statement_timeout = '5s'` для автоотмены зависших запросов.",
+        "Настройте таймауты закрытия простаивающих соединений (Idle Timeout)."
+],
+      semanticType: "protocol",
+      tags: ["coding","postgresql","connection-pool","pgbouncer","dba","performance"],
+    }),
+  },
+
+  "coding-vitest-snapshot-testing-contracts": {
+    id: "coding-vitest-snapshot-testing-contracts",
+    name: "CodingVitestSnapshotTestingContractsSkill",
+    displayName: "Vitest Inline Snapshot & AST Contract Testing",
+    categoryId: "coding",
+    description: "Uses Vitest inline snapshots (`toMatchInlineSnapshot()`) to lock down serialization formats and UI trees.",
+    tags: ["coding","vitest","snapshots","testing","typescript","regression"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vitest Inline Snapshot Testing Standards",
+      ruSectionName: "Инлайн-снапшоты в Vitest (Inline Snapshots & Contract Verification)",
+      instructions: [
+        "Use `expect(output).toMatchInlineSnapshot()` for deterministic API payload and prompt output contracts.",
+        "Review snapshot diffs meticulously in code reviews before accepting updates.",
+        "Prevent unexpected structural regressions in generated prompt transforms."
+],
+      ruInstructions: [
+        "Используйте `toMatchInlineSnapshot()` для фиксации контрактов генерации промптов и API-ответов.",
+        "Внимательно анализируйте дифф снапшотов при код-ревью перед их обновлением.",
+        "Защищайте трансформации от непреднамеренных регрессионных изменений структуры."
+],
+      semanticType: "compliance_directive",
+      tags: ["coding","vitest","snapshots","testing","typescript","regression"],
+    }),
+  },
+
+  "coding-graphql-cursor-pagination-relay": {
+    id: "coding-graphql-cursor-pagination-relay",
+    name: "CodingGraphqlCursorPaginationRelaySkill",
+    displayName: "Relay Cursor-Based Connection Pagination (GraphQL)",
+    categoryId: "coding",
+    description: "Implements infinite scrolling cursor pagination with `first`, `after`, `pageInfo`, and opaque base64 cursors.",
+    tags: ["coding","graphql","relay","pagination","cursors","api"],
+    transform: createStandardSkillTransform({
+      sectionName: "Relay Cursor-Based Pagination Standards",
+      ruSectionName: "Курсорная пагинация GraphQL по спецификации Relay (first/after, PageInfo)",
+      instructions: [
+        "Use opaque base64 cursor strings encoding sort keys (e.g. `base64(created_at + id)`).",
+        "Return standard connection envelope: `{ edges: [{ cursor, node }], pageInfo: { hasNextPage, endCursor } }`.",
+        "Avoid slow SQL `OFFSET` queries; use efficient indexed keyset seeking (`WHERE (created_at, id) < ($1, $2)`)."
+],
+      ruInstructions: [
+        "Используйте непрозрачные base64-курсоры с закодированным ключом сортировки.",
+        "Возвращайте стандартную структуру Relay с массивом `edges` и объектом `pageInfo`.",
+        "Замените медленный SQL `OFFSET` на быстрый поиск по индексу (`Keyset Pagination`)."
+],
+      semanticType: "protocol",
+      tags: ["coding","graphql","relay","pagination","cursors","api"],
+    }),
+  },
+
+  "coding-openapi-typescript-fetch-client": {
+    id: "coding-openapi-typescript-fetch-client",
+    name: "CodingOpenapiTypescriptFetchClientSkill",
+    displayName: "Type-Safe Fetch Client (openapi-typescript & openapi-fetch)",
+    categoryId: "coding",
+    description: "Generates ultra-lightweight zero-bundle type-safe HTTP clients directly from OpenAPI schemas via openapi-fetch.",
+    tags: ["coding","openapi","openapi-fetch","typescript","type-safety","fetch"],
+    transform: createStandardSkillTransform({
+      sectionName: "Type-Safe OpenAPI Fetch Client Standards",
+      ruSectionName: "Типобезопасный HTTP-клиент на базе OpenAPI (openapi-fetch & TypeScript)",
+      instructions: [
+        "Compile OpenAPI YAML schemas into TypeScript schema types via `openapi-typescript`.",
+        "Create client: `const client = createClient<paths>({ baseUrl: '/api' })`.",
+        "Enjoy 100% compile-time autocomplete for all paths, query parameters, request bodies, and responses."
+],
+      ruInstructions: [
+        "Генерируйте типы путей `paths` из схемы OpenAPI через утилиту `openapi-typescript`.",
+        "Создавайте типизированный клиент с помощью `createClient<paths>()`.",
+        "Получите 100% автодополнение путей, параметров и типов ответов без раздувания бандла."
+],
+      semanticType: "protocol",
+      tags: ["coding","openapi","openapi-fetch","typescript","type-safety","fetch"],
+    }),
+  },
+
+  "coding-express-async-errors-handler": {
+    id: "coding-express-async-errors-handler",
+    name: "CodingExpressAsyncErrorsHandlerSkill",
+    displayName: "Express Async Error Handling & Structured JSON Exceptions",
+    categoryId: "coding",
+    description: "Implements centralized async error middleware in Express/Node.js, converting exceptions into RFC 7807 Problem Details.",
+    tags: ["coding","express","error-handling","rfc7807","nodejs","api"],
+    transform: createStandardSkillTransform({
+      sectionName: "Express Centralized Error Handling Standards",
+      ruSectionName: "Централизованная обработка асинхронных ошибок в Express (RFC 7807 Problem Details)",
+      instructions: [
+        "Catch all unhandled promise rejections using `express-async-errors` or async route wrappers.",
+        "Format error responses strictly to RFC 7807: `{ type, title, status, detail, instance }`.",
+        "Never leak raw stack traces to client responses in production mode (`process.env.NODE_ENV === 'production'`)."
+],
+      ruInstructions: [
+        "Перехватывайте все отклоненные промисы в централизованном middleware обработки ошибок.",
+        "Форматируйте ответы об ошибках по стандарту RFC 7807 Problem Details.",
+        "Никогда не отдавайте сырые стеки вызовов клиенту в продакшен-режиме."
+],
+      semanticType: "protocol",
+      tags: ["coding","express","error-handling","rfc7807","nodejs","api"],
+    }),
+  },
+
+  "coding-tailwindcss-dark-mode-color-contrast": {
+    id: "coding-tailwindcss-dark-mode-color-contrast",
+    name: "CodingTailwindcssDarkModeColorContrastSkill",
+    displayName: "High-Contrast Dark Mode & Surface Elevation (Tailwind CSS)",
+    categoryId: "coding",
+    description: "Designs rich dark mode UI with semantic slate surface elevations (`bg-slate-950`, `bg-slate-900`, `bg-slate-800`).",
+    tags: ["coding","tailwind","dark-mode","colors","ui-design","accessibility"],
+    transform: createStandardSkillTransform({
+      sectionName: "High-Contrast Dark Mode & Surface Elevation Standards",
+      ruSectionName: "Стандарт многослойных темных тем и контраста поверхностей (Tailwind CSS)",
+      instructions: [
+        "Use dark surface elevations: `bg-slate-950` (base canvas) -> `bg-slate-900` (cards) -> `bg-slate-800` (inputs/dropdowns).",
+        "Pair with crisp borders (`border-slate-800` or `border-slate-700/80`) and subtle backdrops (`backdrop-blur-md`).",
+        "Ensure high legibility for text: `text-slate-100` for headings, `text-slate-300` for body, `text-slate-400` for secondary captions."
+],
+      ruInstructions: [
+        "Используйте слои темных поверхностей: холст `bg-slate-950`, карточки `bg-slate-900`, поля ввода `bg-slate-800`.",
+        "Подчеркивайте границы тонкими полупрозрачными рамками `border-slate-800`.",
+        "Соблюдайте четкую цветовую иерархию текста (белый для заголовков, светло-серый для текста)."
+],
+      semanticType: "protocol",
+      tags: ["coding","tailwind","dark-mode","colors","ui-design","accessibility"],
+    }),
+  },
+
+  "coding-react-custom-hooks-lifecycle-cleanup": {
+    id: "coding-react-custom-hooks-lifecycle-cleanup",
+    name: "CodingReactCustomHooksLifecycleCleanupSkill",
+    displayName: "Robust React Custom Hooks & Event Listener Cleanup",
+    categoryId: "coding",
+    description: "Designs robust React custom hooks (`useEffect`, `useCallback`, `useRef`) with deterministic listener teardowns.",
+    tags: ["coding","react","hooks","custom-hooks","memory-leaks","clean-code"],
+    transform: createStandardSkillTransform({
+      sectionName: "React Custom Hook Lifecycle & Cleanup Standards",
+      ruSectionName: "Стандарты разработки кастомных хуков React (Очистка подписок и таймеров)",
+      instructions: [
+        "Always return explicit cleanup functions from `useEffect` to remove event listeners, abort fetches, and clear timers.",
+        "Use `AbortController` to cancel ongoing network requests when components unmount.",
+        "Stabilize callbacks with `useCallback` and keep dependency arrays exhaustive and accurate."
+],
+      ruInstructions: [
+        "Всегда возвращайте функцию очистки из `useEffect` для удаления слушателей и отмены таймеров.",
+        "Используйте `AbortController` для отмены сетевых запросов при размонтировании компонента.",
+        "Стабилизируйте ссылки на функции через `useCallback` и поддерживайте актуальность списка зависимостей."
+],
+      semanticType: "protocol",
+      tags: ["coding","react","hooks","custom-hooks","memory-leaks","clean-code"],
+    }),
+  },
+
+  "coding-zod-openapi-swagger-generator": {
+    id: "coding-zod-openapi-swagger-generator",
+    name: "CodingZodOpenapiSwaggerGeneratorSkill",
+    displayName: "Zod-to-OpenAPI Automated Swagger Doc Generator",
+    categoryId: "coding",
+    description: "Generates OpenAPI documentation directly from Zod schemas using `@asteasolutions/zod-to-openapi`.",
+    tags: ["coding","zod","openapi","swagger","documentation","typescript"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zod-to-OpenAPI Automated Documentation Standards",
+      ruSectionName: "Автоматическая генерация OpenAPI-документации из схем Zod (zod-to-openapi)",
+      instructions: [
+        "Extend Zod schemas with `.openapi({ description: \"...\", example: \"...\" })` annotations.",
+        "Register paths and query schemas in a centralized `OpenAPIRegistry` instance.",
+        "Generate valid OpenAPI 3.1 JSON automatically without duplicate schema maintenance."
+],
+      ruInstructions: [
+        "Расширяйте схемы Zod метаданными через метод `.openapi({ description, example })`.",
+        "Регистрируйте маршруты и параметры в едином реестре `OpenAPIRegistry`.",
+        "Генерируйте спецификацию OpenAPI автоматически из единого источника истины."
+],
+      semanticType: "protocol",
+      tags: ["coding","zod","openapi","swagger","documentation","typescript"],
+    }),
+  },
+  "coding-graphql-n-plus-one-dataloader-batching": {
+    id: "coding-graphql-n-plus-one-dataloader-batching",
+    name: "CodingGraphqlNPlusOneDataloaderBatchingSkill",
+    displayName: "GraphQL DataLoader Batching & N+1 Query Resolution",
+    categoryId: "coding",
+    description: "Eliminates N+1 database queries in GraphQL resolvers using Facebook DataLoader batching and memoization caches.",
+    tags: ["coding","graphql","dataloader","performance","database"],
+    transform: createStandardSkillTransform({
+      sectionName: "GraphQL DataLoader Batching Protocol",
+      ruSectionName: "Пакетная загрузка DataLoader и устранение проблемы N+1 в GraphQL",
+      instructions: [
+        "Wrap relationship field resolvers in per-request DataLoader instances to batch primary key lookups into single SQL `IN (...)` queries.",
+        "Scope DataLoader instances to HTTP request context to prevent cross-request cache leaks.",
+        "Order batch result arrays strictly matching the input key array sequence."
+],
+      ruInstructions: [
+        "Оборачивайте связанные резолверы в DataLoader для объединения запросов в единый SQL `WHERE id IN (...)`.",
+        "Инициализируйте DataLoader в контексте каждого HTTP-запроса во избежание утечки кэша между пользователями.",
+        "Сохраняйте точный порядок возвращаемого массива в соответствии с переданным массивом ключей."
+],
+      semanticType: "protocol",
+      tags: ["coding","graphql","dataloader","performance","database"],
+    }),
+  },
+
+  "coding-web-workers-offscreen-canvas-render": {
+    id: "coding-web-workers-offscreen-canvas-render",
+    name: "CodingWebWorkersOffscreenCanvasRenderSkill",
+    displayName: "OffscreenCanvas & Dedicated Web Worker Rendering Pipeline",
+    categoryId: "coding",
+    description: "Renders heavy 60fps animations, WebGL shaders, or chart visualizations on a background worker thread via OffscreenCanvas.",
+    tags: ["coding","web-workers","offscreen-canvas","canvas","performance"],
+    transform: createStandardSkillTransform({
+      sectionName: "OffscreenCanvas Background Rendering Standards",
+      ruSectionName: "Фоновый рендеринг графики через OffscreenCanvas и Web Workers",
+      instructions: [
+        "Transfer HTML Canvas control to worker thread using `canvas.transferControlToOffscreen()`.",
+        "Run requestAnimationFrame game loops and 2D/WebGL draws entirely off the main DOM thread.",
+        "Post resize and user interaction events to the worker using structured cloning or Transferable Objects."
+],
+      ruInstructions: [
+        "Передавайте управление элементом Canvas в поток воркера с помощью `transferControlToOffscreen()`.",
+        "Выполняйте циклы `requestAnimationFrame` и отрисовку 2D/WebGL полностью вне основного потока DOM.",
+        "Отправляйте события мыши и изменения размеров через `postMessage` без блокировки интерфейса."
+],
+      semanticType: "protocol",
+      tags: ["coding","web-workers","offscreen-canvas","canvas","performance"],
+    }),
+  },
+
+  "coding-distributed-tracing-opentelemetry-w3c": {
+    id: "coding-distributed-tracing-opentelemetry-w3c",
+    name: "CodingDistributedTracingOpentelemetryW3cSkill",
+    displayName: "OpenTelemetry Distributed Tracing & W3C TraceContext Propagation",
+    categoryId: "coding",
+    description: "Instruments microservices and HTTP/gRPC boundaries with OpenTelemetry spans, trace IDs, and W3C baggage headers.",
+    tags: ["coding","opentelemetry","observability","distributed-tracing","microservices"],
+    transform: createStandardSkillTransform({
+      sectionName: "OpenTelemetry Distributed Tracing Architecture",
+      ruSectionName: "Распределенная трассировка OpenTelemetry и W3C TraceContext",
+      instructions: [
+        "Propagate `traceparent` and `tracestate` headers across asynchronous HTTP, message bus, and queue boundaries.",
+        "Record exceptions, span status (`ERROR`), and high-cardinality semantic attributes on active spans.",
+        "Configure deterministic head/tail sampling strategies to optimize observability backend storage."
+],
+      ruInstructions: [
+        "Передавайте заголовки `traceparent` и `tracestate` через границы HTTP-запросов и очередей сообщений.",
+        "Логируйте ошибки, статусы и семантические атрибуты в контексте текущего активного спана.",
+        "Настраивайте стратегии сэмплирования для баланса детализации и нагрузки на хранилище трейсов."
+],
+      semanticType: "protocol",
+      tags: ["coding","opentelemetry","observability","distributed-tracing","microservices"],
+    }),
+  },
+
+  "coding-zod-runtime-schema-coercion-validation": {
+    id: "coding-zod-runtime-schema-coercion-validation",
+    name: "CodingZodRuntimeSchemaCoercionValidationSkill",
+    displayName: "Zod v3 Deep Schema Validation, Coercion & Safe Parsing",
+    categoryId: "coding",
+    description: "Validates and transforms untrusted user inputs, query strings, and API payloads with type-inferred Zod schemas.",
+    tags: ["coding","zod","typescript","validation","schemas"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zod Type-Safe Schema Validation Protocol",
+      ruSectionName: "Строгая валидация и трансформация данных схемой Zod (TypeScript)",
+      instructions: [
+        "Use `safeParse()` to capture structured error issues (`zodError.format()`) without throwing runtime exceptions.",
+        "Leverage `z.coerce.number()` or `z.preprocess()` for query parameter casting and normalization.",
+        "Export inferred static TypeScript types using `z.infer<typeof Schema>` as the single source of truth."
+],
+      ruInstructions: [
+        "Используйте `safeParse()` для безопасной обработки ошибок валидации без падения процесса.",
+        "Применяйте `z.coerce` и `z.preprocess()` для автоматического приведения типов в строках запроса.",
+        "Экспортируйте типы TypeScript через `z.infer<typeof Schema>` как единый источник правды."
+],
+      semanticType: "protocol",
+      tags: ["coding","zod","typescript","validation","schemas"],
+    }),
+  },
+
+  "coding-postgresql-full-text-search-tsvector-gin": {
+    id: "coding-postgresql-full-text-search-tsvector-gin",
+    name: "CodingPostgresqlFullTextSearchTsvectorGinSkill",
+    displayName: "PostgreSQL Full-Text Search (tsvector, tsquery & GIN Indexes)",
+    categoryId: "coding",
+    description: "Implements high-speed natural language search in PostgreSQL using tsvector columns, GIN index acceleration, and ts_rank.",
+    tags: ["coding","postgresql","full-text-search","database","sql"],
+    transform: createStandardSkillTransform({
+      sectionName: "PostgreSQL Native Full-Text Search Architecture",
+      ruSectionName: "Полнотекстовый поиск PostgreSQL (tsvector, tsquery, индексы GIN)",
+      instructions: [
+        "Maintain a generated `tsvector` column updated via `GENERATED ALWAYS AS (to_tsvector(...)) STORED`.",
+        "Create a Generalized Inverted Index (`GIN(search_vector)`) for sub-millisecond multi-word lookups.",
+        "Rank relevance using `ts_rank_cd(search_vector, websearch_to_tsquery('english', query))`."
+],
+      ruInstructions: [
+        "Создавайте генерируемую колонку `tsvector` с автоматическим обновлением через `STORED`.",
+        "Стройте GIN-индекс по полю поиска для мгновенной выборки среди миллионов документов.",
+        "Ранжируйте релевантность результатов с помощью функции `ts_rank_cd` и `websearch_to_tsquery`."
+],
+      semanticType: "protocol",
+      tags: ["coding","postgresql","full-text-search","database","sql"],
+    }),
+  },
+
+  "coding-rust-wasm-simd-web-crypto": {
+    id: "coding-rust-wasm-simd-web-crypto",
+    name: "CodingRustWasmSimdWebCryptoSkill",
+    displayName: "Rust WebAssembly (Wasm) & SIMD High-Performance Pipeline",
+    categoryId: "coding",
+    description: "Compiles performance-critical Rust algorithms to WebAssembly with 128-bit SIMD vectorization and wasm-bindgen glue.",
+    tags: ["coding","rust","wasm","webassembly","simd","performance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Rust WebAssembly & SIMD Acceleration Protocol",
+      ruSectionName: "Компиляция высокопроизводительных алгоритмов на Rust в WebAssembly с SIMD",
+      instructions: [
+        "Expose clean zero-copy memory interfaces using `wasm-bindgen` and typed array views (`js_sys::Uint8Array`).",
+        "Enable target CPU features (`+simd128`) for vectorized 4x float/integer parallel arithmetic.",
+        "Manage Wasm linear memory deallocation strictly without memory leaks."
+],
+      ruInstructions: [
+        "Проектируйте zero-copy интерфейсы передачи памяти между JavaScript и Wasm через `wasm-bindgen`.",
+        "Включайте флаг SIMD128 для 4-кратного векторного ускорения вычислительных циклов.",
+        "Контролируйте освобождение памяти линейной кучи Wasm для предотвращения утечек."
+],
+      semanticType: "protocol",
+      tags: ["coding","rust","wasm","webassembly","simd","performance"],
+    }),
+  },
+
+  "coding-prisma-drizzle-migration-safety-zero-downtime": {
+    id: "coding-prisma-drizzle-migration-safety-zero-downtime",
+    name: "CodingPrismaDrizzleMigrationSafetyZeroDowntimeSkill",
+    displayName: "Zero-Downtime Database Migrations & Safe Schema Evolution",
+    categoryId: "coding",
+    description: "Executes expand-and-contract zero-downtime database schema migrations for PostgreSQL/MySQL without locking tables.",
+    tags: ["coding","database-migration","drizzle","postgresql","zero-downtime"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zero-Downtime Database Migration Protocol",
+      ruSectionName: "Бесшовные миграции баз данных без простоя (Expand and Contract)",
+      instructions: [
+        "Execute migrations in three distinct phases: Expand (add new nullable column), Migrate Data, Contract (drop old column).",
+        "Add indexes concurrently (`CREATE INDEX CONCURRENTLY`) to prevent write table locks on production databases.",
+        "Avoid destructive column renames in a single deployment step."
+],
+      ruInstructions: [
+        "Разделяйте миграции на 3 фазы: Расширение (новые nullable поля), Миграция данных, Удаление старых полей.",
+        "Создавайте индексы исключительно с флагом `CONCURRENTLY` во избежание блокировки записи.",
+        "Никогда не переименовывайте колонки «на лету» в одном релизе без периода обратной совместимости."
+],
+      semanticType: "protocol",
+      tags: ["coding","database-migration","drizzle","postgresql","zero-downtime"],
+    }),
+  },
+
+  "coding-nextjs-server-actions-optimistic-updates": {
+    id: "coding-nextjs-server-actions-optimistic-updates",
+    name: "CodingNextjsServerActionsOptimisticUpdatesSkill",
+    displayName: "Next.js Server Actions & React 19 `useOptimistic` Mutation Flow",
+    categoryId: "coding",
+    description: "Builds instant-feedback UI mutations with React 19 `useOptimistic`, `useActionState`, and Next.js Server Actions.",
+    tags: ["coding","nextjs","react19","server-actions","optimistic-ui"],
+    transform: createStandardSkillTransform({
+      sectionName: "React 19 Server Actions & Optimistic UI Standards",
+      ruSectionName: "Next.js Server Actions и оптимистичные обновления интерфейса (React 19 useOptimistic)",
+      instructions: [
+        "Apply UI state changes immediately using React 19 `useOptimistic()` before the network roundtrip completes.",
+        "Validate authorization and input payload securely inside the Server Action boundary (`'use server'`).",
+        "Roll back optimistic state and display localized error toast notifications if server mutation fails."
+],
+      ruInstructions: [
+        "Применяйте визуальное обновление интерфейса мгновенно через хук `useOptimistic` до ответа сервера.",
+        "Проверяйте права доступа и валидируйте входные данные внутри серверного действия (`'use server'`).",
+        "Откатывайте оптимистичное состояние и показывайте уведомление об ошибке при сбое на сервере."
+],
+      semanticType: "protocol",
+      tags: ["coding","nextjs","react19","server-actions","optimistic-ui"],
+    }),
+  },
+
+  "coding-css-container-queries-subgrid-responsive": {
+    id: "coding-css-container-queries-subgrid-responsive",
+    name: "CodingCssContainerQueriesSubgridResponsiveSkill",
+    displayName: "CSS Container Queries (@container) & CSS Subgrid Architecture",
+    categoryId: "coding",
+    description: "Constructs modular, component-driven responsive layouts adapting to parent container width and nested CSS grid alignments.",
+    tags: ["coding","css","container-queries","subgrid","responsive-design"],
+    transform: createStandardSkillTransform({
+      sectionName: "CSS Container Queries & Modern Layout Standards",
+      ruSectionName: "Адаптивные компоненты на CSS Container Queries (@container) и Subgrid",
+      instructions: [
+        "Declare `container-type: inline-size` on reusable component parent wrappers.",
+        "Write `@container (min-width: ...)` rules so cards adapt independently of the global browser viewport.",
+        "Use `grid-template-rows: subgrid` to align card headers, bodies, and footers across adjacent columns."
+],
+      ruInstructions: [
+        "Объявляйте `container-type: inline-size` на родительских контейнерах виджетов.",
+        "Используйте медиа-запросы контейнера `@container` для адаптации компонента к его фактической ширине.",
+        "Применяйте `subgrid` для идеального выравнивания шапок и кнопок карточек в сетке."
+],
+      semanticType: "protocol",
+      tags: ["coding","css","container-queries","subgrid","responsive-design"],
+    }),
+  },
+
+  "coding-event-sourcing-cqrs-event-store": {
+    id: "coding-event-sourcing-cqrs-event-store",
+    name: "CodingEventSourcingCqrsEventStoreSkill",
+    displayName: "Event Sourcing & CQRS Domain State Reconstitution",
+    categoryId: "coding",
+    description: "Models domain state as an immutable append-only ledger of domain events with separate read-model projections.",
+    tags: ["coding","event-sourcing","cqrs","domain-driven-design","architecture"],
+    transform: createStandardSkillTransform({
+      sectionName: "Event Sourcing & CQRS Architectural Standards",
+      ruSectionName: "Архитектура Event Sourcing и CQRS: неизменяемый журнал событий и проекции",
+      instructions: [
+        "Append domain events to an immutable event store with monotonic sequence versioning to guard against concurrency conflicts.",
+        "Reconstitute aggregate entity state by replaying past events in chronological sequence.",
+        "Project asynchronous read models into fast read-optimized views (e.g. PostgreSQL JSONB / Elasticsearch)."
+],
+      ruInstructions: [
+        "Записывайте события домена в неизменяемый журнал (Event Store) с версионированием для защиты от конфликтов.",
+        "Восстанавливайте состояние агрегата последовательным применением истории событий.",
+        "Формируйте асинхронные проекции (Read Models) для быстрого чтения без нагружения основного журнала."
+],
+      semanticType: "protocol",
+      tags: ["coding","event-sourcing","cqrs","domain-driven-design","architecture"],
+    }),
+  },
+
+  "coding-temporal-io-durable-execution-workflows": {
+    id: "coding-temporal-io-durable-execution-workflows",
+    name: "CodingTemporalIoDurableExecutionWorkflowsSkill",
+    displayName: "Temporal.io Durable Execution & Long-Running Workflow Engine",
+    categoryId: "coding",
+    description: "Orchestrates multi-step distributed business workflows with automatic retry, sleep timers, and compensation logic.",
+    tags: ["coding","temporal","durable-execution","distributed-systems","workflow"],
+    transform: createStandardSkillTransform({
+      sectionName: "Temporal.io Durable Workflow Protocol",
+      ruSectionName: "Надежные распределенные рабочие процессы Temporal.io (Durable Execution)",
+      instructions: [
+        "Ensure workflow code is strictly deterministic (no direct non-deterministic system calls or random math inside workflows).",
+        "Encapsulate all side-effects, API calls, and database operations inside discrete Temporal Activities.",
+        "Implement Saga compensation workflows to rollback distributed transactions upon unrecoverable activity failures."
+],
+      ruInstructions: [
+        "Обеспечивайте строгую детерминированность логики воркфлоу (никаких прямых генераций случайных чисел и сетевых вызовов).",
+        "Выносите все побочные эффекты и внешние API-запросы в отдельные Temporal Activities с автоповторами.",
+        "Реализуйте компенсирующие транзакции (паттерн Saga) для отката при критических сбоях шагов."
+],
+      semanticType: "protocol",
+      tags: ["coding","temporal","durable-execution","distributed-systems","workflow"],
+    }),
+  },
+
+  "coding-vitest-playwright-end-to-end-testing": {
+    id: "coding-vitest-playwright-end-to-end-testing",
+    name: "CodingVitestPlaywrightEndToEndTestingSkill",
+    displayName: "Vitest Unit & Playwright End-to-End Test Automation Suite",
+    categoryId: "coding",
+    description: "Designs deterministic unit, component, and full browser E2E test suites with mock networks and accessibility assertions.",
+    tags: ["coding","testing","vitest","playwright","e2e","quality"],
+    transform: createStandardSkillTransform({
+      sectionName: "Deterministic Automated Testing Standards",
+      ruSectionName: "Стандарты автоматизированного тестирования (Vitest, Playwright E2E)",
+      instructions: [
+        "Test component accessibility and user interactions using `@testing-library` user-event semantics.",
+        "Intercept and mock external third-party API dependencies using MSW (Mock Service Worker) for deterministic CI runs.",
+        "Write resilient Playwright E2E tests relying on user-facing role locators (`getByRole`) rather than brittle CSS selectors."
+],
+      ruInstructions: [
+        "Тестируйте компоненты через взаимодействие с пользователем (Testing Library `getByRole`, `userEvent`).",
+        "Перехватывайте внешние API-вызовы с помощью MSW для 100% повторяемости тестов в CI/CD.",
+        "Используйте устойчивые селекторы доступности в Playwright вместо хрупких путей к CSS-классам."
+],
+      semanticType: "protocol",
+      tags: ["coding","testing","vitest","playwright","e2e","quality"],
+    }),
+  },
+
+  "coding-webrtc-peer-to-peer-data-channels": {
+    id: "coding-webrtc-peer-to-peer-data-channels",
+    name: "CodingWebrtcPeerToPeerDataChannelsSkill",
+    displayName: "WebRTC Peer-to-Peer DataChannels & Low-Latency Mesh Networking",
+    categoryId: "coding",
+    description: "Establishes ultra-low latency browser-to-browser P2P audio/video and binary data streams via ICE/STUN/TURN signaling.",
+    tags: ["coding","webrtc","p2p","realtime","networking"],
+    transform: createStandardSkillTransform({
+      sectionName: "WebRTC Peer-to-Peer Communication Protocol",
+      ruSectionName: "P2P соединения и низколатентные каналы данных WebRTC (DataChannels, STUN/TURN)",
+      instructions: [
+        "Manage ICE candidate gathering, SDP offer/answer exchanges through a lightweight WebSocket signaling channel.",
+        "Configure TURN relay fallbacks for clients trapped behind restrictive symmetric NATs.",
+        "Transmit real-time telemetry or binary gaming state over unordered, unreliable RTCDataChannels for zero head-of-line blocking."
+],
+      ruInstructions: [
+        "Организуйте обмен SDP offer/answer и сбор кандидатов ICE через легкий сигнальный сервер WebSocket.",
+        "Настраивайте резервные TURN-серверы для клиентов за симметричными NAT-шлюзами.",
+        "Передавайте игровой и телеметрический поток через ненадежные (unreliable) RTCDataChannels для минимальной задержки."
+],
+      semanticType: "protocol",
+      tags: ["coding","webrtc","p2p","realtime","networking"],
+    }),
+  },
+
+  "coding-solid-principles-clean-architecture-ts": {
+    id: "coding-solid-principles-clean-architecture-ts",
+    name: "CodingSolidPrinciplesCleanArchitectureTsSkill",
+    displayName: "SOLID Principles & Hexagonal Ports/Adapters in TypeScript",
+    categoryId: "coding",
+    description: "Decouples domain business rules from external frameworks, databases, and UI layers using Hexagonal Architecture.",
+    tags: ["coding","solid","clean-architecture","typescript","software-design"],
+    transform: createStandardSkillTransform({
+      sectionName: "Clean Hexagonal Architecture Standards",
+      ruSectionName: "Принципы SOLID и гексагональная архитектура (Ports and Adapters) на TypeScript",
+      instructions: [
+        "Define pure domain entity interfaces and use-case interactors completely isolated from database/ORM models.",
+        "Implement inbound/outbound ports as TypeScript interfaces, injecting concrete adapter implementations at the application composition root.",
+        "Adhere strictly to Dependency Inversion: high-level business policy must never depend on low-level I/O details."
+],
+      ruInstructions: [
+        "Изолируйте чистую бизнес-логику домена от внешних баз данных, ORM и сторонних библиотек.",
+        "Определяйте порты в виде интерфейсов TypeScript и внедряйте адаптеры на этапе сборки приложения (Composition Root).",
+        "Соблюдайте принцип инверсии зависимостей (DIP): ядро системы не должно зависеть от деталей ввода-вывода."
+],
+      semanticType: "protocol",
+      tags: ["coding","solid","clean-architecture","typescript","software-design"],
+    }),
+  },
+
+  "coding-service-worker-cache-storage-offline-first": {
+    id: "coding-service-worker-cache-storage-offline-first",
+    name: "CodingServiceWorkerCacheStorageOfflineFirstSkill",
+    displayName: "Progressive Web App (PWA) Service Worker & Offline Cache Storage",
+    categoryId: "coding",
+    description: "Implements stale-while-revalidate, cache-first, and network-first caching strategies with CacheStorage API and Service Workers.",
+    tags: ["coding","service-worker","pwa","offline-first","cache-storage"],
+    transform: createStandardSkillTransform({
+      sectionName: "PWA Service Worker Caching Strategies",
+      ruSectionName: "Service Worker и стратегии кэширования для Offline-First PWA (CacheStorage API)",
+      instructions: [
+        "Cache critical application shell assets (HTML, CSS, JS bundles) during the Service Worker `install` event.",
+        "Apply `stale-while-revalidate` caching strategy for frequently updated dynamic JSON feeds.",
+        "Clean up outdated cache namespaces systematically during the Service Worker `activate` lifecycle event."
+],
+      ruInstructions: [
+        "Кэшируйте ядро приложения (App Shell) на этапе события `install` сервис-воркера.",
+        "Применяйте стратегию `stale-while-revalidate` для динамических данных, отдавая кэш мгновенно и обновляя в фоне.",
+        "Удаляйте устаревшие версии кэша в обработчике события `activate` при релизе новых версий."
+],
+      semanticType: "protocol",
+      tags: ["coding","service-worker","pwa","offline-first","cache-storage"],
+    }),
+  },
 };
 

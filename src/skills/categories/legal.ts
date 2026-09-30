@@ -1375,4 +1375,628 @@ sectionName: 'Enforceable Liquidated Damages Calibration',
       tags: ["legal","securities","reg-d","accredited-investor","private-placements"],
     }),
   },
+  "legal-irac-legal-reasoning-issue-rule-analysis-conclusion": {
+    id: "legal-irac-legal-reasoning-issue-rule-analysis-conclusion",
+    name: "IRACLegalReasoningIssueRuleAnalysisConclusionSkill",
+    displayName: "IRAC Legal Reasoning (Issue Rule Analysis Conclusion)",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for IRAC Legal Reasoning (Issue Rule Analysis Conclusion).",
+    tags: ["legal","irac","legal","reasoning"],
+    transform: createStandardSkillTransform({
+      sectionName: "IRAC Legal Analysis Standards",
+      ruSectionName: "Стандарты и практические требования: IRAC Legal Reasoning (Issue Rule Analysis Conclusion)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for IRAC Legal Reasoning (Issue Rule Analysis Conclusion).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для IRAC Legal Reasoning (Issue Rule Analysis Conclusion).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","irac","legal","reasoning"],
+    }),
+  },
+
+  "legal-mutual-non-disclosure-agreement-nda-drafting": {
+    id: "legal-mutual-non-disclosure-agreement-nda-drafting",
+    name: "MutualNonDisclosureAgreementNDADraftingSkill",
+    displayName: "Mutual Non-Disclosure Agreement (NDA) Drafting",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Mutual Non-Disclosure Agreement (NDA) Drafting.",
+    tags: ["legal","mutual","non","disclosure"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mutual NDA Drafting Protocols",
+      ruSectionName: "Стандарты и практические требования: Mutual Non-Disclosure Agreement (NDA) Drafting",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Mutual Non-Disclosure Agreement (NDA) Drafting.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Mutual Non-Disclosure Agreement (NDA) Drafting.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","mutual","non","disclosure"],
+    }),
+  },
+
+  "legal-software-license-agreement-sla-eula-provisions": {
+    id: "legal-software-license-agreement-sla-eula-provisions",
+    name: "SoftwareLicenseAgreementSLAEULAProvisionsSkill",
+    displayName: "Software License Agreement (SLA/EULA) Provisions",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Software License Agreement (SLA/EULA) Provisions.",
+    tags: ["legal","software","license","agreement"],
+    transform: createStandardSkillTransform({
+      sectionName: "Software License Agreement Standards",
+      ruSectionName: "Стандарты и практические требования: Software License Agreement (SLA/EULA) Provisions",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Software License Agreement (SLA/EULA) Provisions.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Software License Agreement (SLA/EULA) Provisions.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","software","license","agreement"],
+    }),
+  },
+
+  "legal-gdpr-data-protection-impact-assessment-dpia": {
+    id: "legal-gdpr-data-protection-impact-assessment-dpia",
+    name: "GDPRDataProtectionImpactAssessmentDPIASkill",
+    displayName: "GDPR Data Protection Impact Assessment (DPIA)",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for GDPR Data Protection Impact Assessment (DPIA).",
+    tags: ["legal","gdpr","data","protection"],
+    transform: createStandardSkillTransform({
+      sectionName: "GDPR DPIA Assessment Protocol",
+      ruSectionName: "Стандарты и практические требования: GDPR Data Protection Impact Assessment (DPIA)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for GDPR Data Protection Impact Assessment (DPIA).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для GDPR Data Protection Impact Assessment (DPIA).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","gdpr","data","protection"],
+    }),
+  },
+
+  "legal-intellectual-property-assignment-work-for-hire": {
+    id: "legal-intellectual-property-assignment-work-for-hire",
+    name: "IntellectualPropertyAssignmentWorkforHireSkill",
+    displayName: "Intellectual Property Assignment & Work-for-Hire",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Intellectual Property Assignment & Work-for-Hire.",
+    tags: ["legal","intellectual","property","assignment"],
+    transform: createStandardSkillTransform({
+      sectionName: "IP Assignment Work-for-Hire Rules",
+      ruSectionName: "Стандарты и практические требования: Intellectual Property Assignment & Work-for-Hire",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Intellectual Property Assignment & Work-for-Hire.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Intellectual Property Assignment & Work-for-Hire.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","intellectual","property","assignment"],
+    }),
+  },
+
+  "legal-indemnification-limitation-of-liability-clauses": {
+    id: "legal-indemnification-limitation-of-liability-clauses",
+    name: "IndemnificationLimitationofLiabilityClausesSkill",
+    displayName: "Indemnification & Limitation of Liability Clauses",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Indemnification & Limitation of Liability Clauses.",
+    tags: ["legal","indemnification","limitation","of"],
+    transform: createStandardSkillTransform({
+      sectionName: "Indemnity & Liability Drafting Guidelines",
+      ruSectionName: "Стандарты и практические требования: Indemnification & Limitation of Liability Clauses",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Indemnification & Limitation of Liability Clauses.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Indemnification & Limitation of Liability Clauses.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","indemnification","limitation","of"],
+    }),
+  },
+
+  "legal-employment-non-compete-severance-agreement": {
+    id: "legal-employment-non-compete-severance-agreement",
+    name: "EmploymentNonCompeteSeveranceAgreementSkill",
+    displayName: "Employment Non-Compete & Severance Agreement",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Employment Non-Compete & Severance Agreement.",
+    tags: ["legal","employment","non","compete"],
+    transform: createStandardSkillTransform({
+      sectionName: "Employment Agreement Standards",
+      ruSectionName: "Стандарты и практические требования: Employment Non-Compete & Severance Agreement",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Employment Non-Compete & Severance Agreement.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Employment Non-Compete & Severance Agreement.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","employment","non","compete"],
+    }),
+  },
+
+  "legal-convertible-note-safe-financing-instrument": {
+    id: "legal-convertible-note-safe-financing-instrument",
+    name: "ConvertibleNoteSAFEFinancingInstrumentSkill",
+    displayName: "Convertible Note & SAFE Financing Instrument",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Convertible Note & SAFE Financing Instrument.",
+    tags: ["legal","convertible","note","safe"],
+    transform: createStandardSkillTransform({
+      sectionName: "SAFE Financing Term Protocols",
+      ruSectionName: "Стандарты и практические требования: Convertible Note & SAFE Financing Instrument",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Convertible Note & SAFE Financing Instrument.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Convertible Note & SAFE Financing Instrument.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","convertible","note","safe"],
+    }),
+  },
+
+  "legal-antitrust-hart-scott-rodino-merger-clearance": {
+    id: "legal-antitrust-hart-scott-rodino-merger-clearance",
+    name: "AntitrustHartScottRodinoMergerClearanceSkill",
+    displayName: "Antitrust & Hart-Scott-Rodino Merger Clearance",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Antitrust & Hart-Scott-Rodino Merger Clearance.",
+    tags: ["legal","antitrust","hart","scott"],
+    transform: createStandardSkillTransform({
+      sectionName: "Antitrust Clearance Analysis",
+      ruSectionName: "Стандарты и практические требования: Antitrust & Hart-Scott-Rodino Merger Clearance",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Antitrust & Hart-Scott-Rodino Merger Clearance.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Antitrust & Hart-Scott-Rodino Merger Clearance.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","antitrust","hart","scott"],
+    }),
+  },
+
+  "legal-cross-border-data-transfer-standard-contractual-clauses": {
+    id: "legal-cross-border-data-transfer-standard-contractual-clauses",
+    name: "CrossBorderDataTransferStandardContractualClausesSkill",
+    displayName: "Cross-Border Data Transfer Standard Contractual Clauses",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Cross-Border Data Transfer Standard Contractual Clauses.",
+    tags: ["legal","cross","border","data"],
+    transform: createStandardSkillTransform({
+      sectionName: "SCC Cross-Border Data Standards",
+      ruSectionName: "Стандарты и практические требования: Cross-Border Data Transfer Standard Contractual Clauses",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Cross-Border Data Transfer Standard Contractual Clauses.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Cross-Border Data Transfer Standard Contractual Clauses.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","cross","border","data"],
+    }),
+  },
+
+  "legal-commercial-real-estate-triple-net-nnn-lease": {
+    id: "legal-commercial-real-estate-triple-net-nnn-lease",
+    name: "CommercialRealEstateTripleNetNNNLeaseSkill",
+    displayName: "Commercial Real Estate Triple Net (NNN) Lease",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Commercial Real Estate Triple Net (NNN) Lease.",
+    tags: ["legal","commercial","real","estate"],
+    transform: createStandardSkillTransform({
+      sectionName: "Triple Net Commercial Lease Rules",
+      ruSectionName: "Стандарты и практические требования: Commercial Real Estate Triple Net (NNN) Lease",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Commercial Real Estate Triple Net (NNN) Lease.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Commercial Real Estate Triple Net (NNN) Lease.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","commercial","real","estate"],
+    }),
+  },
+
+  "legal-hipaa-business-associate-agreement-baa": {
+    id: "legal-hipaa-business-associate-agreement-baa",
+    name: "HIPAABusinessAssociateAgreementBAASkill",
+    displayName: "HIPAA Business Associate Agreement (BAA)",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for HIPAA Business Associate Agreement (BAA).",
+    tags: ["legal","hipaa","business","associate"],
+    transform: createStandardSkillTransform({
+      sectionName: "HIPAA BAA Agreement Standards",
+      ruSectionName: "Стандарты и практические требования: HIPAA Business Associate Agreement (BAA)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for HIPAA Business Associate Agreement (BAA).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для HIPAA Business Associate Agreement (BAA).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","hipaa","business","associate"],
+    }),
+  },
+
+  "legal-whistleblower-protection-internal-compliance-policy": {
+    id: "legal-whistleblower-protection-internal-compliance-policy",
+    name: "WhistleblowerProtectionInternalCompliancePolicySkill",
+    displayName: "Whistleblower Protection & Internal Compliance Policy",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Whistleblower Protection & Internal Compliance Policy.",
+    tags: ["legal","whistleblower","protection","internal"],
+    transform: createStandardSkillTransform({
+      sectionName: "Whistleblower Compliance Standards",
+      ruSectionName: "Стандарты и практические требования: Whistleblower Protection & Internal Compliance Policy",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Whistleblower Protection & Internal Compliance Policy.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Whistleblower Protection & Internal Compliance Policy.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","whistleblower","protection","internal"],
+    }),
+  },
+
+  "legal-patent-non-infringement-freedom-to-operate-fto": {
+    id: "legal-patent-non-infringement-freedom-to-operate-fto",
+    name: "PatentNonInfringementFreedomtoOperateFTOSkill",
+    displayName: "Patent Non-Infringement & Freedom-to-Operate (FTO)",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Patent Non-Infringement & Freedom-to-Operate (FTO).",
+    tags: ["legal","patent","non","infringement"],
+    transform: createStandardSkillTransform({
+      sectionName: "Patent FTO Analysis Protocol",
+      ruSectionName: "Стандарты и практические требования: Patent Non-Infringement & Freedom-to-Operate (FTO)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Patent Non-Infringement & Freedom-to-Operate (FTO).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Patent Non-Infringement & Freedom-to-Operate (FTO).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","patent","non","infringement"],
+    }),
+  },
+
+  "legal-trademark-opposition-ttab-proceedings": {
+    id: "legal-trademark-opposition-ttab-proceedings",
+    name: "TrademarkOppositionTTABProceedingsSkill",
+    displayName: "Trademark Opposition & TTAB Proceedings",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Trademark Opposition & TTAB Proceedings.",
+    tags: ["legal","trademark","opposition","ttab"],
+    transform: createStandardSkillTransform({
+      sectionName: "Trademark Opposition Standards",
+      ruSectionName: "Стандарты и практические требования: Trademark Opposition & TTAB Proceedings",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Trademark Opposition & TTAB Proceedings.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Trademark Opposition & TTAB Proceedings.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","trademark","opposition","ttab"],
+    }),
+  },
+
+  "legal-corporate-governance-board-resolutions-minutes": {
+    id: "legal-corporate-governance-board-resolutions-minutes",
+    name: "CorporateGovernanceBoardResolutionsMinutesSkill",
+    displayName: "Corporate Governance Board Resolutions & Minutes",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Corporate Governance Board Resolutions & Minutes.",
+    tags: ["legal","corporate","governance","board"],
+    transform: createStandardSkillTransform({
+      sectionName: "Board Resolution Governance Blueprint",
+      ruSectionName: "Стандарты и практические требования: Corporate Governance Board Resolutions & Minutes",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Corporate Governance Board Resolutions & Minutes.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Corporate Governance Board Resolutions & Minutes.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","corporate","governance","board"],
+    }),
+  },
+
+  "legal-force-majeure-frustration-of-purpose-defense": {
+    id: "legal-force-majeure-frustration-of-purpose-defense",
+    name: "ForceMajeureFrustrationofPurposeDefenseSkill",
+    displayName: "Force Majeure & Frustration of Purpose Defense",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Force Majeure & Frustration of Purpose Defense.",
+    tags: ["legal","force","majeure","frustration"],
+    transform: createStandardSkillTransform({
+      sectionName: "Force Majeure Commercial Rules",
+      ruSectionName: "Стандарты и практические требования: Force Majeure & Frustration of Purpose Defense",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Force Majeure & Frustration of Purpose Defense.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Force Majeure & Frustration of Purpose Defense.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","force","majeure","frustration"],
+    }),
+  },
+
+  "legal-securities-regulation-d-private-placement-exemption": {
+    id: "legal-securities-regulation-d-private-placement-exemption",
+    name: "SecuritiesRegulationDPrivatePlacementExemptionSkill",
+    displayName: "Securities Regulation D Private Placement Exemption",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Securities Regulation D Private Placement Exemption.",
+    tags: ["legal","securities","regulation","d"],
+    transform: createStandardSkillTransform({
+      sectionName: "Regulation D Exemption Standards",
+      ruSectionName: "Стандарты и практические требования: Securities Regulation D Private Placement Exemption",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Securities Regulation D Private Placement Exemption.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Securities Regulation D Private Placement Exemption.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","securities","regulation","d"],
+    }),
+  },
+
+  "legal-consumer-arbitration-class-action-waiver-clause": {
+    id: "legal-consumer-arbitration-class-action-waiver-clause",
+    name: "ConsumerArbitrationClassActionWaiverClauseSkill",
+    displayName: "Consumer Arbitration & Class Action Waiver Clause",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Consumer Arbitration & Class Action Waiver Clause.",
+    tags: ["legal","consumer","arbitration","class"],
+    transform: createStandardSkillTransform({
+      sectionName: "Arbitration Waiver Drafting Standards",
+      ruSectionName: "Стандарты и практические требования: Consumer Arbitration & Class Action Waiver Clause",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Consumer Arbitration & Class Action Waiver Clause.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Consumer Arbitration & Class Action Waiver Clause.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","consumer","arbitration","class"],
+    }),
+  },
+
+  "legal-vendor-master-services-agreement-msa-playbook": {
+    id: "legal-vendor-master-services-agreement-msa-playbook",
+    name: "VendorMasterServicesAgreementMSAPlaybookSkill",
+    displayName: "Vendor Master Services Agreement (MSA) Playbook",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Vendor Master Services Agreement (MSA) Playbook.",
+    tags: ["legal","vendor","master","services"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Services Agreement Protocol",
+      ruSectionName: "Стандарты и практические требования: Vendor Master Services Agreement (MSA) Playbook",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Vendor Master Services Agreement (MSA) Playbook.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Vendor Master Services Agreement (MSA) Playbook.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","vendor","master","services"],
+    }),
+  },
+
+  "legal-export-control-ear-itar-regulatory-compliance": {
+    id: "legal-export-control-ear-itar-regulatory-compliance",
+    name: "ExportControlEARITARRegulatoryComplianceSkill",
+    displayName: "Export Control EAR / ITAR Regulatory Compliance",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Export Control EAR / ITAR Regulatory Compliance.",
+    tags: ["legal","export","control","ear"],
+    transform: createStandardSkillTransform({
+      sectionName: "Export Control Compliance Protocol",
+      ruSectionName: "Стандарты и практические требования: Export Control EAR / ITAR Regulatory Compliance",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Export Control EAR / ITAR Regulatory Compliance.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Export Control EAR / ITAR Regulatory Compliance.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","export","control","ear"],
+    }),
+  },
+
+  "legal-california-privacy-rights-act-cpra-opt-out-audit": {
+    id: "legal-california-privacy-rights-act-cpra-opt-out-audit",
+    name: "CaliforniaPrivacyRightsActCPRAOptOutAuditSkill",
+    displayName: "California Privacy Rights Act (CPRA) Opt-Out Audit",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for California Privacy Rights Act (CPRA) Opt-Out Audit.",
+    tags: ["legal","california","privacy","rights"],
+    transform: createStandardSkillTransform({
+      sectionName: "CPRA Privacy Compliance Standards",
+      ruSectionName: "Стандарты и практические требования: California Privacy Rights Act (CPRA) Opt-Out Audit",
+      instructions: [
+        "Apply core domain tenets and industry best practices for California Privacy Rights Act (CPRA) Opt-Out Audit.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для California Privacy Rights Act (CPRA) Opt-Out Audit.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","california","privacy","rights"],
+    }),
+  },
+
+  "legal-asset-purchase-agreement-apa-representation-warranties": {
+    id: "legal-asset-purchase-agreement-apa-representation-warranties",
+    name: "AssetPurchaseAgreementAPARepresentationWarrantiesSkill",
+    displayName: "Asset Purchase Agreement (APA) Representation & Warranties",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Asset Purchase Agreement (APA) Representation & Warranties.",
+    tags: ["legal","asset","purchase","agreement"],
+    transform: createStandardSkillTransform({
+      sectionName: "Asset Purchase Agreement Protocol",
+      ruSectionName: "Стандарты и практические требования: Asset Purchase Agreement (APA) Representation & Warranties",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Asset Purchase Agreement (APA) Representation & Warranties.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Asset Purchase Agreement (APA) Representation & Warranties.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","asset","purchase","agreement"],
+    }),
+  },
+
+  "legal-open-source-software-copyleft-gpl-audit": {
+    id: "legal-open-source-software-copyleft-gpl-audit",
+    name: "OpenSourceSoftwareCopyleftGPLAuditSkill",
+    displayName: "Open-Source Software Copyleft (GPL) Audit",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Open-Source Software Copyleft (GPL) Audit.",
+    tags: ["legal","open","source","software"],
+    transform: createStandardSkillTransform({
+      sectionName: "GPL Copyleft Audit Standards",
+      ruSectionName: "Стандарты и практические требования: Open-Source Software Copyleft (GPL) Audit",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Open-Source Software Copyleft (GPL) Audit.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Open-Source Software Copyleft (GPL) Audit.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","open","source","software"],
+    }),
+  },
+
+  "legal-civil-litigation-deposition-preparation-outline": {
+    id: "legal-civil-litigation-deposition-preparation-outline",
+    name: "CivilLitigationDepositionPreparationOutlineSkill",
+    displayName: "Civil Litigation Deposition Preparation Outline",
+    categoryId: "legal",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Civil Litigation Deposition Preparation Outline.",
+    tags: ["legal","civil","litigation","deposition"],
+    transform: createStandardSkillTransform({
+      sectionName: "Deposition Outline Preparation Protocol",
+      ruSectionName: "Стандарты и практические требования: Civil Litigation Deposition Preparation Outline",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Civil Litigation Deposition Preparation Outline.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Civil Litigation Deposition Preparation Outline.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["legal","civil","litigation","deposition"],
+    }),
+  },
 };

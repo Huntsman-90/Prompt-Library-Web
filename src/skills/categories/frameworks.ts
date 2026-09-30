@@ -2010,5 +2010,1128 @@ export const FRAMEWORKS_SKILLS: Record<string, SkillDefinition> = {
       tags: ["frameworks","double-diamond","design-thinking","ux-research","innovation"],
     }),
   },
+  "framework-cqrs-event-sourcing": {
+    id: "framework-cqrs-event-sourcing",
+    name: "FrameworkCqrsEventSourcingSkill",
+    displayName: "CQRS & Event Sourcing Architecture Blueprint",
+    categoryId: "frameworks",
+    description: "End-to-end framework decoupling Command state mutations from Query read projections with immutable event streams.",
+    tags: ["frameworks","cqrs","event-sourcing","architecture","distributed-systems"],
+    transform: createStandardSkillTransform({
+      sectionName: "CQRS & Event Sourcing Architectural Blueprint",
+      ruSectionName: "Архитектурный фреймворк CQRS и Event Sourcing (Команды, События, Проекции)",
+      instructions: [
+        "Separate Command Model (handling write invariants) from Query Model (optimized read projections).",
+        "Store domain state as an immutable append-only sequence of domain events.",
+        "Replay events deterministically to rebuild read-side materializations and audit logs."
+],
+      ruInstructions: [
+        "Разделите модель команд (запись и валидация) и модель запросов (денормализованные витрины чтения).",
+        "Храните состояние как неизменяемую последовательность бизнес-событий (Append-Only Event Store).",
+        "Используйте воспроизведение событий для построения материализованных представлений."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","cqrs","event-sourcing","architecture","distributed-systems"],
+    }),
+  },
+
+  "framework-strangler-fig-migration": {
+    id: "framework-strangler-fig-migration",
+    name: "FrameworkStranglerFigMigrationSkill",
+    displayName: "Martin Fowler Strangler Fig Legacy Migration Framework",
+    categoryId: "frameworks",
+    description: "Sequentially replaces legacy systems by routing micro-capabilities to modern microservices via facade routing.",
+    tags: ["frameworks","strangler-fig","legacy-migration","refactoring","microservices"],
+    transform: createStandardSkillTransform({
+      sectionName: "Martin Fowler Strangler Fig Migration Framework",
+      ruSectionName: "Фреймворк миграции устаревших систем Strangler Fig (Мартин Фаулер)",
+      instructions: [
+        "Deploy an API Gateway/Routing Facade in front of the monolithic legacy application.",
+        "Intercept discrete bounded contexts and route traffic to new independent microservices.",
+        "Gradually strangle the legacy codebase until the old system can be safely decommissioned."
+],
+      ruInstructions: [
+        "Разверните маршрутизирующий фасад (API Gateway) перед монолитной устаревшей системой.",
+        "Постепенно перенаправляйте трафик отдельных сценариев на новые современные микросервисы.",
+        "Шаг за шагом выводите из эксплуатации старые компоненты без остановки бизнес-процессов."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","strangler-fig","legacy-migration","refactoring","microservices"],
+    }),
+  },
+
+  "framework-honeycomb-distributed-observability": {
+    id: "framework-honeycomb-distributed-observability",
+    name: "FrameworkHoneycombDistributedObservabilitySkill",
+    displayName: "High-Cardinality Structured Observability Framework",
+    categoryId: "frameworks",
+    description: "Implements high-cardinality, wide structured event telemetry (Honeycomb/Charity Majors model) for distributed systems.",
+    tags: ["frameworks","observability","honeycomb","telemetry","distributed-systems"],
+    transform: createStandardSkillTransform({
+      sectionName: "High-Cardinality Wide Event Telemetry Blueprint",
+      ruSectionName: "Фреймворк глубокой наблюдаемости и высококардинальных событий (Honeycomb)",
+      instructions: [
+        "Emit wide structured JSON events containing 50-100 contextual fields per request (User ID, Tenant, Version, Latency).",
+        "Enable instant arbitrary-dimensional slicing and correlation analysis across billions of events.",
+        "Replace coarse sampling with intelligent tail-sampling on error and latency spikes."
+],
+      ruInstructions: [
+        "Формируйте широкие структурированные JSON-события с десятками контекстных полей (ID пользователя, тенант, версия).",
+        "Обеспечьте возможность мгновенной аналитики и поиска аномалий по любым сочетаниям параметров.",
+        "Используйте выборочное сэмплирование с сохранением 100% подозрительных и медленных запросов."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","observability","honeycomb","telemetry","distributed-systems"],
+    }),
+  },
+
+  "framework-gitops-declarative-argocd": {
+    id: "framework-gitops-declarative-argocd",
+    name: "FrameworkGitopsDeclarativeArgocdSkill",
+    displayName: "GitOps Declarative Continuous Delivery Framework (ArgoCD/Flux)",
+    categoryId: "frameworks",
+    description: "Implements Git as single source of truth with automated reconciliation loops detecting and repairing cluster drift.",
+    tags: ["frameworks","gitops","argocd","kubernetes","ci-cd","devops"],
+    transform: createStandardSkillTransform({
+      sectionName: "GitOps Declarative Delivery & Reconciliation Framework",
+      ruSectionName: "Декларативный GitOps-фреймворк непрерывной доставки (ArgoCD / Kubernetes)",
+      instructions: [
+        "Store 100% of infrastructure, environment configs, and Kubernetes manifests in declarative Git repositories.",
+        "Run continuous reconciliation controllers that automatically sync cluster state with Git HEAD.",
+        "Enforce immutable audit trails where every production change corresponds to an approved Git commit."
+],
+      ruInstructions: [
+        "Храните все манифесты инфраструктуры и конфигурации в Git-репозиториях.",
+        "Используйте контроллеры сверки (ArgoCD), автоматически устраняющие дрейф состояния кластера.",
+        "Обеспечьте прозрачный аудит: любые изменения в продакшене происходят только через коммиты в Git."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","gitops","argocd","kubernetes","ci-cd","devops"],
+    }),
+  },
+
+  "framework-chaos-engineering-netflix-simian": {
+    id: "framework-chaos-engineering-netflix-simian",
+    name: "FrameworkChaosEngineeringNetflixSimianSkill",
+    displayName: "Netflix Chaos Engineering & Resiliency Fault Injection",
+    categoryId: "frameworks",
+    description: "Injects controlled network latency, node crashes, and packet loss in production to verify systemic resilience.",
+    tags: ["frameworks","chaos-engineering","netflix","resilience","fault-injection","sre"],
+    transform: createStandardSkillTransform({
+      sectionName: "Chaos Engineering & Fault Injection Framework",
+      ruSectionName: "Фреймворк хаос-инжиниринга и внедрения сбоев (Netflix Simian Army / SRE)",
+      instructions: [
+        "Define steady-state normal baseline metrics (e.g. successful transactions per second).",
+        "Hypothesize that steady state will continue during controlled faults (e.g. killing 20% of database replicas).",
+        "Inject automated chaos perturbations and automatically abort if steady-state metrics drop >5%."
+],
+      ruInstructions: [
+        "Зафиксируйте базовые метрики нормального состояния системы (Steady State).",
+        "Сформулируйте гипотезу устойчивости при искусственном отключении узлов или деградации сети.",
+        "Внедрите контролируемые сбои с автоматической отменой эксперимента при падении ключевых метрик."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","chaos-engineering","netflix","resilience","fault-injection","sre"],
+    }),
+  },
+
+  "framework-domain-storytelling-collaborative": {
+    id: "framework-domain-storytelling-collaborative",
+    name: "FrameworkDomainStorytellingCollaborativeSkill",
+    displayName: "Domain Storytelling Visual Knowledge Extraction Framework",
+    categoryId: "frameworks",
+    description: "Transforms business workflows into visual pictographic stories showing Actors, Work Objects, and Activities.",
+    tags: ["frameworks","domain-storytelling","ddd","requirements","modeling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Domain Storytelling Visual Workflow Blueprint",
+      ruSectionName: "Фреймворк Domain Storytelling: визуальное моделирование бизнес-процессов",
+      instructions: [
+        "Model domain processes with 3 core visual primitives: Actors (Who), Work Objects (What), and Activities (How).",
+        "Number chronological interaction steps sequentially from left to right.",
+        "Highlight bounded context handoffs and digital-to-manual interface boundaries."
+],
+      ruInstructions: [
+        "Моделируйте процессы через 3 базовых элемента: Акторы (Кто), Объекты (Что), Действия (Как).",
+        "Последовательно пронумеруйте хронологические шаги взаимодействия слева направо.",
+        "Четко обозначьте границы систем и точки перехода между ручными и автоматическими операциями."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","domain-storytelling","ddd","requirements","modeling"],
+    }),
+  },
+
+  "framework-zero-trust-architecture-nist-800-207": {
+    id: "framework-zero-trust-architecture-nist-800-207",
+    name: "FrameworkZeroTrustArchitectureNist800207Skill",
+    displayName: "NIST SP 800-207 Zero-Trust Architecture Framework",
+    categoryId: "frameworks",
+    description: "Enforces continuous verification across Policy Engine, Policy Administrator, and Policy Enforcement Points.",
+    tags: ["frameworks","zero-trust","nist","security-architecture","compliance"],
+    transform: createStandardSkillTransform({
+      sectionName: "NIST SP 800-207 Zero-Trust Architecture Blueprint",
+      ruSectionName: "Архитектурный фреймворк Zero-Trust по стандарту NIST SP 800-207",
+      instructions: [
+        "Implement Policy Enforcement Points (PEP) gating every discrete resource access.",
+        "Evaluate dynamic context signals (device health, geolocation, user behavior) at the Policy Engine (PE).",
+        "Grant short-lived, least-privilege cryptographic access tokens per transaction."
+],
+      ruInstructions: [
+        "Разверните точки применения политик (PEP) перед каждым изолированным ресурсом.",
+        "Оценивайте динамические сигналы контекста (состояние устройства, IP, поведение) в Policy Engine.",
+        "Выдавайте временные токены с минимально необходимыми правами на каждую транзакцию."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","zero-trust","nist","security-architecture","compliance"],
+    }),
+  },
+
+  "framework-data-mesh-domain-ownership": {
+    id: "framework-data-mesh-domain-ownership",
+    name: "FrameworkDataMeshDomainOwnershipSkill",
+    displayName: "Zhamak Dehghani Data Mesh & Data-as-a-Product Framework",
+    categoryId: "frameworks",
+    description: "Decentralizes data analytics into autonomous domain teams treating data as a product with self-serve infrastructure.",
+    tags: ["frameworks","data-mesh","data-as-a-product","analytics","architecture"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zhamak Dehghani Data Mesh Architectural Blueprint",
+      ruSectionName: "Архитектурный фреймворк Data Mesh: Данные как продукт и федеративное управление",
+      instructions: [
+        "Organize data around 4 core principles: Domain Ownership, Data as a Product, Self-Serve Platform, Federated Governance.",
+        "Package data products with strict schema contracts, lineage metadata, and programmatic SLA guarantees.",
+        "Enable federated cross-domain data discovery via decentralized semantic registries."
+],
+      ruInstructions: [
+        "Внедрите 4 принципа: Доменное владение, Данные как продукт, Платформа самообслуживания, Федеративное управление.",
+        "Упаковывайте наборы данных в продукты с четкими контрактами схем, метаданными и гарантиями качества.",
+        "Обеспечьте удобный поиск и использование данных между командами через федеративный каталог."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","data-mesh","data-as-a-product","analytics","architecture"],
+    }),
+  },
+
+  "framework-clean-architecture-uncle-bob": {
+    id: "framework-clean-architecture-uncle-bob",
+    name: "FrameworkCleanArchitectureUncleBobSkill",
+    displayName: "Robert C. Martin (Uncle Bob) Clean Architecture Blueprint",
+    categoryId: "frameworks",
+    description: "Structures applications into concentric circles: Entities -> Use Cases -> Interface Adapters -> Frameworks.",
+    tags: ["frameworks","clean-architecture","uncle-bob","solid","software-engineering"],
+    transform: createStandardSkillTransform({
+      sectionName: "Uncle Bob Clean Architecture & Dependency Rule",
+      ruSectionName: "Чистая архитектура Роберта Мартина (Clean Architecture / Dependency Rule)",
+      instructions: [
+        "Enforce the Dependency Rule: source code dependencies must point strictly inward toward higher-level policies.",
+        "Isolate Enterprise Business Rules (Entities) and Application Business Rules (Use Cases) from UI and Database drivers.",
+        "Use Interface Adapters and DTOs to cross architectural boundary rings safely."
+],
+      ruInstructions: [
+        "Соблюдайте правило зависимостей: зависимости в коде направлены строго внутрь к ядру бизнес-правил.",
+        "Изолируйте сущности и сценарии использования (Use Cases) от деталей веб-фреймворков и баз данных.",
+        "Используйте адаптеры интерфейсов и DTO для безопасного пересечения границ архитектурных слоев."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","clean-architecture","uncle-bob","solid","software-engineering"],
+    }),
+  },
+
+  "framework-event-driven-architecture-eda": {
+    id: "framework-event-driven-architecture-eda",
+    name: "FrameworkEventDrivenArchitectureEdaSkill",
+    displayName: "Asynchronous Event-Driven Architecture (EDA & Choreography)",
+    categoryId: "frameworks",
+    description: "Coordinates microservices asynchronously via Publish/Subscribe message brokers (Kafka/RabbitMQ) with dead-letter queues.",
+    tags: ["frameworks","eda","event-driven","kafka","rabbitmq","async"],
+    transform: createStandardSkillTransform({
+      sectionName: "Asynchronous Event-Driven Architecture (EDA) Blueprint",
+      ruSectionName: "Событийно-ориентированная архитектура (EDA, Pub/Sub, Kafka, DLQ)",
+      instructions: [
+        "Design loosely coupled event producers and consumers communicating via durable topic partitions.",
+        "Implement the Transactional Outbox Pattern to guarantee atomic database write + message publish.",
+        "Route unprocessable poison messages to Dead Letter Queues (DLQ) with automated alert triage."
+],
+      ruInstructions: [
+        "Спроектируйте слабосвязанные сервисы, обменивающиеся событиями через отказоустойчивые топики сообщений.",
+        "Внедрите паттерн Transactional Outbox для атомарной записи в БД и отправки события.",
+        "Настройте очереди недоставленных сообщений (Dead Letter Queue) для изоляции сбойных пакетов."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","eda","event-driven","kafka","rabbitmq","async"],
+    }),
+  },
+  "framework-twelve-factor-app-modern": {
+    id: "framework-twelve-factor-app-modern",
+    name: "FrameworkTwelveFactorAppModernSkill",
+    displayName: "Modern 12-Factor Cloud-Native Architecture Blueprint",
+    categoryId: "frameworks",
+    description: "Implements the 12-Factor App methodology (Codebase, Config in env, Backing services, Stateless processes, Port binding).",
+    tags: ["frameworks","12-factor","cloud-native","devops","microservices"],
+    transform: createStandardSkillTransform({
+      sectionName: "12-Factor Cloud-Native Architecture Blueprint",
+      ruSectionName: "Архитектурный фреймворк 12-Factor App для облачных сервисов",
+      instructions: [
+        "Strictly separate config from code: store all environment variables in runtime injection environments.",
+        "Execute app processes as stateless and share-nothing; persist state exclusively in stateful backing services.",
+        "Maximize robustness with fast startup and graceful shutdown on SIGTERM signals."
+],
+      ruInstructions: [
+        "Строго разделяйте конфигурацию и код: передавайте переменные через окружение.",
+        "Проектируйте процессы как stateless (без сохранения состояния на диске).",
+        "Обеспечьте быстрый запуск и корректное завершение работы по сигналу SIGTERM."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","12-factor","cloud-native","devops","microservices"],
+    }),
+  },
+
+  "framework-hexagonal-ports-and-adapters": {
+    id: "framework-hexagonal-ports-and-adapters",
+    name: "FrameworkHexagonalPortsAndAdaptersSkill",
+    displayName: "Alistair Cockburn Hexagonal (Ports & Adapters) Architecture",
+    categoryId: "frameworks",
+    description: "Isolates core business logic inside a hexagon, communicating with drivers and databases via Ports and Adapters.",
+    tags: ["frameworks","hexagonal","ports-adapters","architecture","cockburn"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hexagonal Ports & Adapters Architecture Blueprint",
+      ruSectionName: "Гексагональная архитектура (Порты и Адаптеры по Алистеру Кокберну)",
+      instructions: [
+        "Place pure domain entities and business logic in the central Hexagon.",
+        "Define Driver Ports (API, CLI, GUI) and Driven Ports (DB, Messaging, 3rd-party services) as abstract interfaces.",
+        "Implement pluggable concrete Adapters outside the hexagon with zero domain leakage."
+],
+      ruInstructions: [
+        "Поместите чистую бизнес-логику в центр гексагона.",
+        "Определите входящие и исходящие порты в виде абстрактных интерфейсов.",
+        "Реализуйте сменные адаптеры на внешнем периметре без влияния на доменное ядро."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","hexagonal","ports-adapters","architecture","cockburn"],
+    }),
+  },
+
+  "framework-onion-architecture-jeffrey-palermo": {
+    id: "framework-onion-architecture-jeffrey-palermo",
+    name: "FrameworkOnionArchitectureJeffreyPalermoSkill",
+    displayName: "Jeffrey Palermo Onion Architecture Framework",
+    categoryId: "frameworks",
+    description: "Structures applications into concentric layers around a domain core with inverted external infrastructure dependencies.",
+    tags: ["frameworks","onion-architecture","domain-core","palermo","clean-code"],
+    transform: createStandardSkillTransform({
+      sectionName: "Jeffrey Palermo Onion Architecture Blueprint",
+      ruSectionName: "Луковая архитектура Джеффри Палермо (Onion Architecture)",
+      instructions: [
+        "Core Layer: Domain Model Entities.",
+        "Middle Layer: Domain Services & Repository Interfaces.",
+        "Outer Layer: Infrastructure, UI, and Database Adapters.",
+        "All code points inward; inner layers know nothing of outer layers."
+],
+      ruInstructions: [
+        "Внутренний слой: Доменные сущности.",
+        "Средний слой: Доменные сервисы и интерфейсы репозиториев.",
+        "Внешний слой: Инфраструктура, UI и драйверы баз данных.",
+        "Все зависимости направлены строго к центру."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","onion-architecture","domain-core","palermo","clean-code"],
+    }),
+  },
+
+  "framework-serverless-event-pipeline-aws": {
+    id: "framework-serverless-event-pipeline-aws",
+    name: "FrameworkServerlessEventPipelineAwsSkill",
+    displayName: "AWS Serverless Event-Driven Pipeline (Lambda, SQS, EventBridge)",
+    categoryId: "frameworks",
+    description: "Designs auto-scaling serverless workflows connecting EventBridge routers, SQS queues, and Lambda compute.",
+    tags: ["frameworks","serverless","aws","lambda","eventbridge","cloud"],
+    transform: createStandardSkillTransform({
+      sectionName: "AWS Serverless Event Pipeline Architecture",
+      ruSectionName: "Серверлесс-архитектура на базе AWS EventBridge, SQS и Lambda",
+      instructions: [
+        "Publish events to central EventBridge bus with schema discovery.",
+        "Buffer asynchronous consumer workloads through Amazon SQS queues with Dead Letter Queues.",
+        "Execute granular Lambda functions with sub-second scaling and minimal IAM permission policies."
+],
+      ruInstructions: [
+        "Публикуйте события в шину AWS EventBridge с валидацией схем.",
+        "Буферизуйте нагрузку через очереди SQS с обработкой ошибок в DLQ.",
+        "Используйте изолированные Lambda-функции с гранулярными правами IAM."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","serverless","aws","lambda","eventbridge","cloud"],
+    }),
+  },
+
+  "framework-outbox-pattern-debezium-cdc": {
+    id: "framework-outbox-pattern-debezium-cdc",
+    name: "FrameworkOutboxPatternDebeziumCdcSkill",
+    displayName: "Transactional Outbox Pattern & Debezium CDC Streaming",
+    categoryId: "frameworks",
+    description: "Solves dual-write problems by writing outbox records to relational tables and streaming them via Debezium CDC.",
+    tags: ["frameworks","outbox-pattern","cdc","debezium","kafka","distributed-systems"],
+    transform: createStandardSkillTransform({
+      sectionName: "Transactional Outbox & CDC Streaming Architecture",
+      ruSectionName: "Паттерн Transactional Outbox и сбор изменений данных (Debezium CDC)",
+      instructions: [
+        "Write domain mutations and corresponding event payloads atomically into the same database transaction.",
+        "Use Debezium Change Data Capture (CDC) to tail database transaction logs (WAL) in real-time.",
+        "Stream outbox events to Apache Kafka with guaranteed at-least-once delivery."
+],
+      ruInstructions: [
+        "Записывайте изменения бизнес-сущностей и события в таблицу Outbox в единой транзакции БД.",
+        "Используйте Debezium для чтения журналов транзакций (WAL) в реальном времени.",
+        "Отправляйте события в Apache Kafka с гарантией доставки At-Least-Once."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","outbox-pattern","cdc","debezium","kafka","distributed-systems"],
+    }),
+  },
+
+  "framework-rag-retrieval-augmented-generation-deep": {
+    id: "framework-rag-retrieval-augmented-generation-deep",
+    name: "FrameworkRagRetrievalAugmentedGenerationDeepSkill",
+    displayName: "Production RAG Architecture (Chunking, Hybrid Search, Reranking)",
+    categoryId: "frameworks",
+    description: "Designs production RAG pipelines with semantic chunking, BM25+Vector hybrid search, and cross-encoder reranking.",
+    tags: ["frameworks","rag","vector-search","reranking","hybrid-search","llm-architecture"],
+    transform: createStandardSkillTransform({
+      sectionName: "Production RAG Hybrid Search & Reranking Blueprint",
+      ruSectionName: "Производственный фреймворк RAG: гибридный поиск, чанкинг и реранкинг",
+      instructions: [
+        "Apply semantic chunking with overlapping sliding windows to preserve sentence context.",
+        "Execute Hybrid Search combining sparse lexical BM25 and dense vector cosine similarity (Reciprocal Rank Fusion).",
+        "Pass top-50 candidates through a cross-encoder Reranker to select the top-5 most relevant context chunks."
+],
+      ruInstructions: [
+        "Используйте семантическое разбиение на чанки с перекрытием для сохранения контекста.",
+        "Применяйте гибридный поиск: плотные векторные эмбеддинги + разреженный поиск BM25 (RRF).",
+        "Выполняйте реранкинг кандидатов через Cross-Encoder перед передачей в промпт."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","rag","vector-search","reranking","hybrid-search","llm-architecture"],
+    }),
+  },
+
+  "framework-feature-store-feast-mlops": {
+    id: "framework-feature-store-feast-mlops",
+    name: "FrameworkFeatureStoreFeastMlopsSkill",
+    displayName: "MLOps Feature Store Architecture (Feast / Hopsworks)",
+    categoryId: "frameworks",
+    description: "Standardizes feature engineering with dual offline historical storage (Parquet/Snowflake) and online low-latency serving (Redis).",
+    tags: ["frameworks","feature-store","mlops","feast","machine-learning"],
+    transform: createStandardSkillTransform({
+      sectionName: "MLOps Dual Feature Store Architectural Blueprint",
+      ruSectionName: "Архитектура Feature Store для MLOps (Feast, онлайн/офлайн хранилища)",
+      instructions: [
+        "Define versioned feature definitions as code with standardized data transformations.",
+        "Sync features to Offline Store (Parquet/Warehouse) for training and Online Store (Redis) for <10ms inference lookup.",
+        "Eliminate train-serve data skew via automated point-in-time correctness joins."
+],
+      ruInstructions: [
+        "Описывайте признаки (Features) как код с контролем версий.",
+        "Синхронизируйте данные в офлайн-хранилище для обучения и Redis для онлайн-инференса (<10 мс).",
+        "Исключите утечку данных из будущего через корректные временные срезы (Point-in-Time Joins)."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","feature-store","mlops","feast","machine-learning"],
+    }),
+  },
+
+  "framework-zero-downtime-blue-green-deployment": {
+    id: "framework-zero-downtime-blue-green-deployment",
+    name: "FrameworkZeroDowntimeBlueGreenDeploymentSkill",
+    displayName: "Zero-Downtime Blue/Green Deployment Architecture",
+    categoryId: "frameworks",
+    description: "Maintains two identical production environments (Blue and Green), switching load balancer traffic instantaneously.",
+    tags: ["frameworks","blue-green","zero-downtime","deployment","devops"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blue/Green Zero-Downtime Deployment Protocol",
+      ruSectionName: "Фреймворк развертывания Blue/Green с нулевым временем простоя",
+      instructions: [
+        "Maintain active production environment (Blue) while deploying and testing new releases on idle environment (Green).",
+        "Execute smoke and health tests on Green before initiating traffic cutover.",
+        "Switch router/load balancer traffic instantly; keep Blue on standby for 1-hour instant rollback if needed."
+],
+      ruInstructions: [
+        "Поддерживайте две идентичные среды: рабочую (Blue) и развертываемую (Green).",
+        "Проводите полное тестирование среды Green до переключения трафика.",
+        "Мгновенно переключайте балансировщик нагрузки с сохранением Blue для быстрого отката."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","blue-green","zero-downtime","deployment","devops"],
+    }),
+  },
+
+  "framework-api-first-governance-stoplight": {
+    id: "framework-api-first-governance-stoplight",
+    name: "FrameworkApiFirstGovernanceStoplightSkill",
+    displayName: "API-First Design & Spectral Linting Governance Framework",
+    categoryId: "frameworks",
+    description: "Mandates OpenAPI specification design, review, and automated Spectral linting before writing backend code.",
+    tags: ["frameworks","api-first","governance","openapi","spectral","developer-experience"],
+    transform: createStandardSkillTransform({
+      sectionName: "API-First Governance & Spectral Linting Framework",
+      ruSectionName: "Фреймворк управления разработкой API-First и автоматический линтинг (Spectral)",
+      instructions: [
+        "Design OpenAPI 3.1 YAML specifications collaboratively with frontend and consumer teams before backend coding.",
+        "Enforce automated Spectral linter rules in CI: standard naming conventions, mandatory auth schemas, error formats.",
+        "Generate typed client SDKs and mock servers automatically from validated contracts."
+],
+      ruInstructions: [
+        "Проектируйте спецификацию OpenAPI до написания бэкенд-кода совместно с клиентами API.",
+        "Запускайте автоматический линтинг Spectral в CI для проверки стандартов именования и безопасности.",
+        "Генерируйте клиентские SDK и мок-серверы автоматически на основе контракта."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","api-first","governance","openapi","spectral","developer-experience"],
+    }),
+  },
+
+  "framework-micro-frontends-module-federation": {
+    id: "framework-micro-frontends-module-federation",
+    name: "FrameworkMicroFrontendsModuleFederationSkill",
+    displayName: "Webpack 5 Module Federation Micro-Frontend Architecture",
+    categoryId: "frameworks",
+    description: "Decomposes monolithic web apps into independent micro-apps sharing shared dependencies at runtime via Module Federation.",
+    tags: ["frameworks","micro-frontends","module-federation","webpack","react","frontend"],
+    transform: createStandardSkillTransform({
+      sectionName: "Module Federation Micro-Frontend Architecture",
+      ruSectionName: "Архитектура микрофронтендов на базе Webpack Module Federation",
+      instructions: [
+        "Configure Host shell and independent Remote micro-applications with dynamic container remotes.",
+        "Share core runtime singleton libraries (React, React-DOM, UI-Kit) without duplicate bundling.",
+        "Implement resilient error boundaries and fallbacks for failed remote micro-frontend loads."
+],
+      ruInstructions: [
+        "Настройте хост-приложение (Shell) и независимые удаленные микрофронтенды (Remotes).",
+        "Настройте совместное использование синглтонов (React, UI Kit) без дублирования в бандле.",
+        "Используйте Error Boundaries для изоляции сбоев отдельных микрофронтендов."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","micro-frontends","module-federation","webpack","react","frontend"],
+    }),
+  },
+  "framework-branch-by-abstraction-trunk": {
+    id: "framework-branch-by-abstraction-trunk",
+    name: "FrameworkBranchByAbstractionTrunkSkill",
+    displayName: "Paul Hammant Branch by Abstraction Framework",
+    categoryId: "frameworks",
+    description: "Replaces large long-lived feature branches by introducing an abstraction layer in trunk, swapping implementations incrementally.",
+    tags: ["frameworks","branch-by-abstraction","trunk-based-development","continuous-delivery"],
+    transform: createStandardSkillTransform({
+      sectionName: "Branch by Abstraction & Trunk-Based Delivery Protocol",
+      ruSectionName: "Фреймворк Branch by Abstraction и Trunk-Based Development",
+      instructions: [
+        "Introduce an abstraction layer over the legacy subsystem directly in the main branch (Trunk).",
+        "Develop the replacement subsystem behind the abstraction alongside the existing implementation.",
+        "Flip the abstraction to call the new implementation, then delete the legacy implementation and abstraction."
+],
+      ruInstructions: [
+        "Создайте слой абстракции над заменяемым модулем прямо в основной ветке (Trunk).",
+        "Реализуйте новый модуль параллельно со старым за этим слоем абстракции.",
+        "Переключите вызовы на новую реализацию, затем удалите старый код и временный слой абстракции."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","branch-by-abstraction","trunk-based-development","continuous-delivery"],
+    }),
+  },
+
+  "framework-canary-analysis-kayenta": {
+    id: "framework-canary-analysis-kayenta",
+    name: "FrameworkCanaryAnalysisKayentaSkill",
+    displayName: "Automated Canary Analysis & Statistical Judge (Kayenta / Spinnaker)",
+    categoryId: "frameworks",
+    description: "Compares baseline vs canary metric distributions (Mann-Whitney U-test) to automate release promotion/rollback.",
+    tags: ["frameworks","canary-analysis","kayenta","sre","deployment","statistics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Automated Canary Analysis (ACA) Protocol",
+      ruSectionName: "Автоматический анализ канареечных релизов (Kayenta / Mann-Whitney U-test)",
+      instructions: [
+        "Deploy Baseline (current release) and Canary (new release) simultaneously under identical live traffic load.",
+        "Perform automated statistical hypothesis testing (Mann-Whitney U-test) across latency, error rate, and memory usage.",
+        "Calculate an overall Canary Score (0-100); automatically promote if Score >= 90 or roll back if Score < 75."
+],
+      ruInstructions: [
+        "Разверните базовую (Baseline) и канареечную (Canary) версии под одинаковой рабочей нагрузкой.",
+        "Проведите статистический тест Манна-Уитни по задержкам, ошибкам и потреблению памяти.",
+        "Рассчитайте итоговый балл (Canary Score) и выполните автоматический промоушн или откат."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","canary-analysis","kayenta","sre","deployment","statistics"],
+    }),
+  },
+
+  "framework-data-vault-enterprise-modeling": {
+    id: "framework-data-vault-enterprise-modeling",
+    name: "FrameworkDataVaultEnterpriseModelingSkill",
+    displayName: "Dan Linstedt Data Vault 2.0 Enterprise Modeling Framework",
+    categoryId: "frameworks",
+    description: "Structures enterprise data warehouses into immutable Hubs (keys), Links (relationships), and Satellites (attributes).",
+    tags: ["frameworks","data-vault","data-warehouse","etl","data-modeling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Data Vault 2.0 Architecture & Entity Mapping",
+      ruSectionName: "Архитектура корпоративного хранилища Data Vault 2.0 (Hubs, Links, Satellites)",
+      instructions: [
+        "Model core business keys as immutable Hub tables with cryptographic Hash Keys.",
+        "Model many-to-many associations as Link tables.",
+        "Capture temporal descriptive attributes and audit metadata in append-only Satellite tables."
+],
+      ruInstructions: [
+        "Выделите бизнес-ключи в таблицы Hubs с суррогатными хэш-ключами.",
+        "Опишите связи между сущностями в таблицах Links.",
+        "Храните исторические атрибуты с контролем версий в таблицах Satellites."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","data-vault","data-warehouse","etl","data-modeling"],
+    }),
+  },
+
+  "framework-saga-orchestration-temporal-io": {
+    id: "framework-saga-orchestration-temporal-io",
+    name: "FrameworkSagaOrchestrationTemporalIoSkill",
+    displayName: "Temporal.io Durable Execution & Workflow Orchestration Framework",
+    categoryId: "frameworks",
+    description: "Implements resilient, fault-tolerant distributed workflows that survive server crashes and network partitions seamlessly.",
+    tags: ["frameworks","temporal","durable-execution","workflows","distributed-systems"],
+    transform: createStandardSkillTransform({
+      sectionName: "Temporal.io Durable Execution Workflow Blueprint",
+      ruSectionName: "Фреймворк отказоустойчивых рабочих процессов Temporal.io (Durable Workflows)",
+      instructions: [
+        "Structure workflows as deterministic, re-entrant functions.",
+        "Delegate all non-deterministic side-effects (HTTP, DB queries, clock, random) to Temporal Activities.",
+        "Configure automated Activity retries with exponential backoff and timeout envelopes."
+],
+      ruInstructions: [
+        "Пишите функции рабочих процессов как детерминированные и идемпотентные.",
+        "Выносите все недетерминированные вызовы (сеть, время, БД) в отдельные Activities.",
+        "Настройте политики повторов и таймаутов для каждой активности."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","temporal","durable-execution","workflows","distributed-systems"],
+    }),
+  },
+
+  "framework-service-mesh-istio-envoy": {
+    id: "framework-service-mesh-istio-envoy",
+    name: "FrameworkServiceMeshIstioEnvoySkill",
+    displayName: "Istio & Envoy Cloud-Native Service Mesh Architecture",
+    categoryId: "frameworks",
+    description: "Manages inter-service communication with mutual TLS (mTLS), traffic shifting, distributed tracing, and rate limiting.",
+    tags: ["frameworks","service-mesh","istio","envoy","kubernetes","mtls"],
+    transform: createStandardSkillTransform({
+      sectionName: "Istio Service Mesh & mTLS Invariants",
+      ruSectionName: "Архитектура Service Mesh на базе Istio и Envoy (mTLS, трассировка, трафик)",
+      instructions: [
+        "Enforce strict mutual TLS (`STRICT` PeerAuthentication) across all pod-to-pod network transit.",
+        "Define `VirtualService` and `DestinationRule` objects for weighted canary traffic routing.",
+        "Inject Envoy sidecars to capture telemetry and propagate W3C distributed trace headers."
+],
+      ruInstructions: [
+        "Включите обязательное взаимное шифрование mTLS между всеми сервисами кластера.",
+        "Настройте объекты `VirtualService` для процентного разделения трафика между версиями.",
+        "Используйте сайдкары Envoy для сбора метрик и сквозной передачи заголовков трассировки."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","service-mesh","istio","envoy","kubernetes","mtls"],
+    }),
+  },
+
+  "framework-event-driven-cqrs-axon": {
+    id: "framework-event-driven-cqrs-axon",
+    name: "FrameworkEventDrivenCqrsAxonSkill",
+    displayName: "Axon Framework Domain-Driven CQRS Architecture",
+    categoryId: "frameworks",
+    description: "Implements Aggregate roots, Command Handlers, Event Sourcing Handlers, and Query Projections.",
+    tags: ["frameworks","axon","cqrs","event-sourcing","ddd","java"],
+    transform: createStandardSkillTransform({
+      sectionName: "Domain-Driven CQRS & Aggregate Root Blueprint",
+      ruSectionName: "Доменно-ориентированный CQRS и агрегаты (Axon Pattern)",
+      instructions: [
+        "Define clean Aggregate Roots encapsulating business invariants and state mutation rules.",
+        "Process commands in dedicated `@CommandHandler` methods, emitting domain events.",
+        "Apply state mutations exclusively inside `@EventSourcingHandler` methods."
+],
+      ruInstructions: [
+        "Создайте агрегаты (Aggregates), инкапсулирующие бизнес-инварианты и проверку правил.",
+        "Обрабатывайте команды в обработчиках `@CommandHandler`, генерируя события.",
+        "Мутируйте внутреннее состояние агрегата исключительно в обработчиках событий."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","axon","cqrs","event-sourcing","ddd","java"],
+    }),
+  },
+
+  "framework-progressive-web-app-offline-first": {
+    id: "framework-progressive-web-app-offline-first",
+    name: "FrameworkProgressiveWebAppOfflineFirstSkill",
+    displayName: "Offline-First Progressive Web App (PWA) Framework",
+    categoryId: "frameworks",
+    description: "Builds offline-first web apps with Service Workers (Workbox), CacheStorage, IndexedDB sync, and Web App Manifest.",
+    tags: ["frameworks","pwa","service-worker","offline-first","indexeddb","workbox"],
+    transform: createStandardSkillTransform({
+      sectionName: "Offline-First PWA Architecture & Sync Blueprint",
+      ruSectionName: "Архитектурный фреймворк Offline-First PWA (Service Workers, IndexedDB, Workbox)",
+      instructions: [
+        "Configure Service Worker runtime caching using Workbox: StaleWhileRevalidate for assets, NetworkFirst for APIs.",
+        "Store local changes in client-side IndexedDB (Dexie) with background sync queueing.",
+        "Deliver 100% full offline read and write capability with seamless background reconnection sync."
+],
+      ruInstructions: [
+        "Настройте Service Worker (Workbox) со стратегиями кэширования StaleWhileRevalidate и NetworkFirst.",
+        "Сохраняйте локальные изменения в IndexedDB с очередью фоновой синхронизации.",
+        "Обеспечьте полноценную автономную работу приложения без доступа к интернету."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","pwa","service-worker","offline-first","indexeddb","workbox"],
+    }),
+  },
+
+  "framework-graphql-federation-apollo-subgraphs": {
+    id: "framework-graphql-federation-apollo-subgraphs",
+    name: "FrameworkGraphqlFederationApolloSubgraphsSkill",
+    displayName: "Apollo GraphQL Federation 2.0 Subgraph Architecture",
+    categoryId: "frameworks",
+    description: "Unifies distributed microservice schemas into a single federated supergraph with `@key` and `@shareable` directives.",
+    tags: ["frameworks","graphql-federation","apollo","subgraphs","api-gateway"],
+    transform: createStandardSkillTransform({
+      sectionName: "Apollo GraphQL Federation 2.0 Supergraph Blueprint",
+      ruSectionName: "Архитектура федеративных сабграфов Apollo GraphQL Federation 2.0",
+      instructions: [
+        "Define entity `@key(fields: \"id\")` directives to enable cross-subgraph entity extension.",
+        "Compose multiple domain subgraphs into a unified Supergraph via Apollo Router / Rover CLI.",
+        "Resolve entity fields across microservices in parallel query execution plans."
+],
+      ruInstructions: [
+        "Задайте директивы `@key` для расширения сущностей между независимыми сервисами.",
+        "Объедините схемы сабграфов в единый суперграф через Apollo Router.",
+        "Обеспечьте параллельное разрешение полей сущностей из разных микросервисов."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","graphql-federation","apollo","subgraphs","api-gateway"],
+    }),
+  },
+
+  "framework-event-driven-microservices-choreography-vs-orchestration": {
+    id: "framework-event-driven-microservices-choreography-vs-orchestration",
+    name: "FrameworkEventDrivenMicroservicesChoreographyVsOrchestrationSkill",
+    displayName: "Event Choreography vs Orchestration Architecture Pattern",
+    categoryId: "frameworks",
+    description: "Evaluates trade-offs between decentralized event choreography and centralized workflow orchestrators.",
+    tags: ["frameworks","choreography","orchestration","microservices","event-driven"],
+    transform: createStandardSkillTransform({
+      sectionName: "Event Choreography vs Orchestration Trade-Off Matrix",
+      ruSectionName: "Матрица выбора: хореография событий vs централизованная оркестрация",
+      instructions: [
+        "Use Event Choreography for simple, high-throughput notification streams with loose coupling.",
+        "Use Workflow Orchestration (Temporal / Camunda) for complex, multi-step business transactions with compensation logic.",
+        "Document the chosen trade-off rationale explicitly."
+],
+      ruInstructions: [
+        "Применяйте хореографию для простых слабосвязанных потоков оповещения.",
+        "Используйте оркестрацию для сложных многошаговых транзакций с компенсирующими откатами.",
+        "Обоснуйте выбор архитектурного стиля под конкретные требования надежности."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","choreography","orchestration","microservices","event-driven"],
+    }),
+  },
+
+  "framework-continuous-verification-sre-sli-slo": {
+    id: "framework-continuous-verification-sre-sli-slo",
+    name: "FrameworkContinuousVerificationSreSliSloSkill",
+    displayName: "SRE Error Budget & SLI / SLO Governance Framework",
+    categoryId: "frameworks",
+    description: "Defines Service Level Indicators (SLIs), Service Level Objectives (SLOs), and Error Budget burn-rate policies.",
+    tags: ["frameworks","sre","slo","sli","error-budgets","reliability"],
+    transform: createStandardSkillTransform({
+      sectionName: "SRE SLI/SLO & Error Budget Governance Framework",
+      ruSectionName: "Фреймворк управления надежностью SRE: SLI, SLO и бюджеты ошибок (Error Budgets)",
+      instructions: [
+        "Define quantitative SLIs: `Good Requests / Total Valid Requests` over 30-day rolling window.",
+        "Establish target SLOs (e.g. 99.95% availability, p95 latency < 200ms).",
+        "Enforce Error Budget burn-rate policies: halt non-critical deployments when 20% of budget is burned in 1 hour."
+],
+      ruInstructions: [
+        "Определите метрики SLI (процент успешных запросов) на скользящем 30-дневном окне.",
+        "Зафиксируйте целевые значения SLO (доступность 99.95%, задержка p95 < 200 мс).",
+        "Внедрите правила расхода бюджета ошибок: блокировка релизов при резком выгорании бюджета."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","sre","slo","sli","error-budgets","reliability"],
+    }),
+  },
+
+  "framework-threat-modeling-pasta-risk": {
+    id: "framework-threat-modeling-pasta-risk",
+    name: "FrameworkThreatModelingPastaRiskSkill",
+    displayName: "PASTA (Process for Attack Structure and Simulation) Framework",
+    categoryId: "frameworks",
+    description: "7-step risk-centric threat modeling framework aligning technical vulnerability analysis with business asset impact.",
+    tags: ["frameworks","pasta","threat-modeling","cybersecurity","risk-management"],
+    transform: createStandardSkillTransform({
+      sectionName: "PASTA Risk-Centric Threat Modeling Framework",
+      ruSectionName: "Фреймворк риск-ориентированного моделирования угроз PASTA (7 шагов)",
+      instructions: [
+        "Stage 1-2: Define business objectives, technical scope, and asset criticality.",
+        "Stage 3-5: Decompose application architecture, identify threat vectors, and map vulnerability trees.",
+        "Stage 6-7: Simulate attack exploitability and formulate business-aligned countermeasures."
+],
+      ruInstructions: [
+        "Этапы 1–2: Определите бизнес-цели, границы системы и ценность активов.",
+        "Этапы 3–5: Декомпозируйте архитектуру, выделите векторы атак и постройте деревья уязвимостей.",
+        "Этапы 6–7: Смоделируйте реализацию атак и сформируйте экономически обоснованные контрмеры."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","pasta","threat-modeling","cybersecurity","risk-management"],
+    }),
+  },
+
+  "framework-observability-dora-metrics-engine": {
+    id: "framework-observability-dora-metrics-engine",
+    name: "FrameworkObservabilityDoraMetricsEngineSkill",
+    displayName: "DORA Four Key Metrics Engineering Framework",
+    categoryId: "frameworks",
+    description: "Measures DevOps performance: Deployment Frequency, Lead Time for Changes, Change Failure Rate, Time to Restore.",
+    tags: ["frameworks","dora-metrics","devops","engineering-management","continuous-delivery"],
+    transform: createStandardSkillTransform({
+      sectionName: "DORA 4 Key Metrics Engineering Framework",
+      ruSectionName: "Фреймворк оценки инженерной эффективности DORA (4 ключевые метрики)",
+      instructions: [
+        "Track Deployment Frequency (daily vs weekly production deployments).",
+        "Measure Lead Time for Changes (commit to production rollout).",
+        "Monitor Change Failure Rate (% of releases requiring hotfixes/rollbacks) and Time to Restore Service (MTTR)."
+],
+      ruInstructions: [
+        "Отслеживайте частоту развертываний в продакшен (Deployment Frequency).",
+        "Измеряйте время доставки изменений от коммита до релиза (Lead Time for Changes).",
+        "Контролируйте процент сбойных релизов (Change Failure Rate) и среднее время восстановления (MTTR)."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","dora-metrics","devops","engineering-management","continuous-delivery"],
+    }),
+  },
+
+  "framework-secure-software-development-lifecycle-ssdlc": {
+    id: "framework-secure-software-development-lifecycle-ssdlc",
+    name: "FrameworkSecureSoftwareDevelopmentLifecycleSsdlcSkill",
+    displayName: "NIST SSDF & OWASP OpenSAMM Secure SDLC Framework",
+    categoryId: "frameworks",
+    description: "Integrates automated security checkpoints across all phases of the software development lifecycle.",
+    tags: ["frameworks","ssdlc","security","devsecops","opensamm","nist"],
+    transform: createStandardSkillTransform({
+      sectionName: "Secure SDLC (SSDLC) Governance & Guardrail Framework",
+      ruSectionName: "Фреймворк безопасного жизненного цикла разработки ПО (SSDLC / DevSecOps)",
+      instructions: [
+        "Phase 1 (Design): Automated STRIDE threat modeling and security architecture review.",
+        "Phase 2 (Code): Pre-commit SAST scanning, secret detection, and dependency SCA audits.",
+        "Phase 3 (Deploy): Container image vulnerability signing (Cosign), DAST scans, and IAM validation."
+],
+      ruInstructions: [
+        "Фаза проектирования: Моделирование угроз STRIDE и ревью архитектуры безопасности.",
+        "Фаза разработки: Автоматический статический анализ (SAST), поиск секретов и аудит зависимостей (SCA).",
+        "Фаза релиза: Проверка уязвимостей контейнеров, динамическое сканирование (DAST) и подпись образов."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","ssdlc","security","devsecops","opensamm","nist"],
+    }),
+  },
+
+  "framework-continuous-integration-trunk-based-gates": {
+    id: "framework-continuous-integration-trunk-based-gates",
+    name: "FrameworkContinuousIntegrationTrunkBasedGatesSkill",
+    displayName: "Trunk-Based CI Quality Gate & Fast-Feedback Pipeline",
+    categoryId: "frameworks",
+    description: "Maintains rapid trunk-based integration with sub-10-minute CI build, lint, and test validation gates.",
+    tags: ["frameworks","ci","trunk-based","quality-gates","continuous-integration"],
+    transform: createStandardSkillTransform({
+      sectionName: "Trunk-Based CI Quality Gate & Fast Feedback Framework",
+      ruSectionName: "Фреймворк быстрого CI и строгих гейтов качества (Trunk-Based Development)",
+      instructions: [
+        "Enforce maximum 10-minute automated CI pipeline execution budget.",
+        "Require green status across Lint, TypeScript Compile, Unit Tests, and E2E Smoke Tests before merging PRs.",
+        "Reject long-lived feature branches; encourage small daily commits directly into Trunk behind feature flags."
+],
+      ruInstructions: [
+        "Установите жесткий лимит времени выполнения пайплайна CI: не более 10 минут.",
+        "Требуйте успешного прохождения линтинга, компиляции типов и тестов до слияния пулл-реквеста.",
+        "Используйте короткоживущие ветки и регулярную интеграцию в Trunk под прикрытием фича-флагов."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","ci","trunk-based","quality-gates","continuous-integration"],
+    }),
+  },
+
+  "framework-enterprise-integration-patterns-camel": {
+    id: "framework-enterprise-integration-patterns-camel",
+    name: "FrameworkEnterpriseIntegrationPatternsCamelSkill",
+    displayName: "Gregor Hohpe Enterprise Integration Patterns (EIP / Apache Camel)",
+    categoryId: "frameworks",
+    description: "Solves enterprise integration using standard EIP primitives: Content-Based Router, Splitter, Aggregator, Message Filter.",
+    tags: ["frameworks","eip","enterprise-integration","camel","messaging"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enterprise Integration Patterns (EIP) Blueprint",
+      ruSectionName: "Шаблоны интеграции корпоративных приложений (EIP Грегора Хопа / Apache Camel)",
+      instructions: [
+        "Implement Content-Based Routing to dispatch messages based on payload header inspection.",
+        "Use Splitter and Aggregator patterns to decompose batch payloads, process in parallel, and recombine results.",
+        "Deploy Idempotent Receivers to eliminate duplicate message processing side-effects."
+],
+      ruInstructions: [
+        "Внедрите контентно-зависимую маршрутизацию (Content-Based Router) по заголовкам сообщений.",
+        "Используйте паттерны Splitter и Aggregator для параллельной обработки частей составных пакетов.",
+        "Применяйте идемпотентные приемники (Idempotent Consumer) для защиты от дублирования сообщений."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","eip","enterprise-integration","camel","messaging"],
+    }),
+  },
+  "framework-event-sourcing-snapshot-compression": {
+    id: "framework-event-sourcing-snapshot-compression",
+    name: "FrameworkEventSourcingSnapshotCompressionSkill",
+    displayName: "Event Store Aggregate Snapshot & Compaction Strategy",
+    categoryId: "frameworks",
+    description: "Periodically serializes aggregate root snapshots every N events to accelerate rehydration latency.",
+    tags: ["frameworks","event-sourcing","snapshots","compaction","performance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Event Store Snapshot & Compaction Strategy",
+      ruSectionName: "Стратегия снапшотов и сжатия истории событий (Event Sourcing)",
+      instructions: [
+        "Generate an atomic snapshot of the aggregate root state every 100 events.",
+        "When loading an aggregate, fetch the latest snapshot and replay only events occurring after the snapshot version.",
+        "Achieve sub-5ms aggregate rehydration regardless of total historical event volume."
+],
+      ruInstructions: [
+        "Формируйте снимок состояния (Snapshot) агрегата каждые 100 событий.",
+        "При загрузке агрегата читайте последний снимок и воспроизводите только последующие события.",
+        "Обеспечьте восстановление состояния менее чем за 5 мс независимо от глубины истории."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","event-sourcing","snapshots","compaction","performance"],
+    }),
+  },
+
+  "framework-graphql-persisted-queries-relay": {
+    id: "framework-graphql-persisted-queries-relay",
+    name: "FrameworkGraphqlPersistedQueriesRelaySkill",
+    displayName: "Automated Persisted Queries (APQ) & CDN Caching Framework",
+    categoryId: "frameworks",
+    description: "Replaces large GraphQL POST bodies with SHA256 query hashes for Edge CDN caching and DDoS protection.",
+    tags: ["frameworks","graphql","persisted-queries","cdn","caching"],
+    transform: createStandardSkillTransform({
+      sectionName: "Automated Persisted Queries (APQ) & Edge CDN Caching",
+      ruSectionName: "Автоматические персистентные запросы GraphQL (APQ) и кэширование на CDN",
+      instructions: [
+        "Register client GraphQL query strings as SHA256 hashes during build compilation.",
+        "Send lightweight GET requests containing only the query hash (`/graphql?hash=7f3...`).",
+        "Cache query responses at the Cloudflare/CloudFront edge with fine-grained cache-control headers."
+],
+      ruInstructions: [
+        "Регистрируйте запросы GraphQL в виде SHA256-хэшей на этапе сборки клиента.",
+        "Отправляйте легковесные GET-запросы с хэшем вместо передачи длинного тела запроса.",
+        "Кэшируйте ответы на узлах Edge CDN с точными заголовками инвалидации."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","graphql","persisted-queries","cdn","caching"],
+    }),
+  },
+
+  "framework-database-sharding-vitess-citus": {
+    id: "framework-database-sharding-vitess-citus",
+    name: "FrameworkDatabaseShardingVitessCitusSkill",
+    displayName: "Distributed Relational Database Sharding Framework (Vitess/Citus)",
+    categoryId: "frameworks",
+    description: "Horizontally partitions relational databases across tenant and entity shard keys with transparent SQL proxying.",
+    tags: ["frameworks","sharding","vitess","citus","postgresql","scaling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Distributed Relational Sharding Architecture",
+      ruSectionName: "Фреймворк шардирования реляционных баз данных (Vitess / Citus / PostgreSQL)",
+      instructions: [
+        "Select high-cardinality, evenly distributed Shard Keys (e.g. `tenant_id` or `user_id`).",
+        "Route single-shard queries directly to designated database nodes; minimize costly distributed multi-shard joins.",
+        "Automate online, zero-downtime shard splitting as storage volume expands."
+],
+      ruInstructions: [
+        "Выберите ключ шардирования (Shard Key) с равномерным распределением данных.",
+        "Маршрутизируйте запросы напрямую к целевым шардам, минимизируя межшардовые объединения (Joins).",
+        "Обеспечьте возможность онлайн-расщепления шардов без остановки сервиса."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","sharding","vitess","citus","postgresql","scaling"],
+    }),
+  },
+
+  "framework-distributed-cache-redis-cluster": {
+    id: "framework-distributed-cache-redis-cluster",
+    name: "FrameworkDistributedCacheRedisClusterSkill",
+    displayName: "Redis Cluster Multi-Slot Caching & Cache-Aside Architecture",
+    categoryId: "frameworks",
+    description: "Implements Cache-Aside, Write-Through, and Cache Stampede protection (XFetch probabilistic early expiration).",
+    tags: ["frameworks","redis","caching","cache-stampede","distributed-systems"],
+    transform: createStandardSkillTransform({
+      sectionName: "Redis Cluster & Cache Stampede Defense Architecture",
+      ruSectionName: "Архитектура кэширования Redis Cluster и защита от лавины запросов (Cache Stampede)",
+      instructions: [
+        "Implement Cache-Aside with probabilistic early expiration (XFetch algorithm) to prevent cache stampedes.",
+        "Distribute keys evenly across 16,384 Redis Cluster hash slots using explicit `{hash_tag}` routing.",
+        "Enforce maximum TTL on all keys to prevent unbounded memory leaks."
+],
+      ruInstructions: [
+        "Внедрите алгоритм вероятностного раннего обновления (XFetch) для защиты от лавинообразных запросов.",
+        "Используйте хэш-теги `{tag}` для группировки связанных ключей в один слот Redis.",
+        "Устанавливайте обязательный TTL для всех кэшируемых сущностей."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","redis","caching","cache-stampede","distributed-systems"],
+    }),
+  },
+
+  "framework-zero-trust-identity-aware-proxy": {
+    id: "framework-zero-trust-identity-aware-proxy",
+    name: "FrameworkZeroTrustIdentityAwareProxySkill",
+    displayName: "Identity-Aware Proxy (IAP) & BeyondCorp Perimeter Framework",
+    categoryId: "frameworks",
+    description: "Replaces traditional corporate VPNs with context-aware HTTPS proxying and identity federation (BeyondCorp model).",
+    tags: ["frameworks","iap","beyondcorp","zero-trust","google-cloud","security"],
+    transform: createStandardSkillTransform({
+      sectionName: "Google BeyondCorp & Identity-Aware Proxy (IAP) Blueprint",
+      ruSectionName: "Фреймворк Identity-Aware Proxy (IAP) и концепция BeyondCorp",
+      instructions: [
+        "Expose internal applications exclusively behind an Identity-Aware Reverse Proxy (Google Cloud IAP / Cloudflare Access).",
+        "Verify user identity, multi-factor authentication, and device posture on every individual request.",
+        "Eliminate open VPN access to entire internal subnetworks."
+],
+      ruInstructions: [
+        "Публикуйте внутренние сервисы только через прокси с проверкой личности (IAP).",
+        "Проверяйте личность, второй фактор (MFA) и статус доверия устройства при каждом запросе.",
+        "Откажитесь от сквозного доступа через классические корпоративные VPN."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","iap","beyondcorp","zero-trust","google-cloud","security"],
+    }),
+  },
+
+  "framework-reactive-streams-backpressure-flow": {
+    id: "framework-reactive-streams-backpressure-flow",
+    name: "FrameworkReactiveStreamsBackpressureFlowSkill",
+    displayName: "Reactive Streams (Project Reactor / RxJava) Flow Framework",
+    categoryId: "frameworks",
+    description: "Processes asynchronous data streams with non-blocking backpressure signals (Subscriber-driven flow control).",
+    tags: ["frameworks","reactive-streams","rxjava","project-reactor","concurrency"],
+    transform: createStandardSkillTransform({
+      sectionName: "Reactive Streams & Non-Blocking Backpressure Architecture",
+      ruSectionName: "Реактивные потоки (Reactive Streams) и неблокирующее противодавление",
+      instructions: [
+        "Enforce Reactive Streams specification: Publisher, Subscriber, Subscription, Processor.",
+        "Signal downstream demand explicitly via `Subscription.request(n)` before producer emits items.",
+        "Handle buffer overflow strategies: `DROP`, `LATEST`, or `BUFFER` with bounded capacities."
+],
+      ruInstructions: [
+        "Соблюдайте спецификацию Reactive Streams (Publisher, Subscriber, Subscription).",
+        "Передавайте сигнал готовности потребителя через `request(n)` до отправки порции данных.",
+        "Настройте стратегии при переполнении буфера (Drop, Latest, Bounded Buffer)."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","reactive-streams","rxjava","project-reactor","concurrency"],
+    }),
+  },
+
+  "framework-event-driven-saga-camunda-bpm": {
+    id: "framework-event-driven-saga-camunda-bpm",
+    name: "FrameworkEventDrivenSagaCamundaBpmSkill",
+    displayName: "Camunda BPMN 2.0 & Orchestrated Saga Engine Framework",
+    categoryId: "frameworks",
+    description: "Executes visual ISO BPMN 2.0 executable workflow models with automated compensation boundary events.",
+    tags: ["frameworks","camunda","bpmn","saga","orchestration","workflow-engine"],
+    transform: createStandardSkillTransform({
+      sectionName: "Camunda BPMN 2.0 Executable Saga Architecture",
+      ruSectionName: "Исполняемые саги на базе стандарта BPMN 2.0 (Camunda / Zeebe)",
+      instructions: [
+        "Define business processes in standard executable BPMN 2.0 XML diagrams.",
+        "Attach Compensation Boundary Events to all transactional service tasks.",
+        "Automate distributed task worker dispatch via Zeebe gRPC job workers."
+],
+      ruInstructions: [
+        "Описывайте рабочие процессы в виде исполняемых схем стандарта BPMN 2.0.",
+        "Привязывайте компенсирующие события (Compensation Events) к каждой транзакционной задаче.",
+        "Используйте распределенные воркеры Zeebe с опросом задач через gRPC."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","camunda","bpmn","saga","orchestration","workflow-engine"],
+    }),
+  },
+
+  "framework-multi-region-active-active-cockroachdb": {
+    id: "framework-multi-region-active-active-cockroachdb",
+    name: "FrameworkMultiRegionActiveActiveCockroachdbSkill",
+    displayName: "CockroachDB Multi-Region Distributed SQL Framework",
+    categoryId: "frameworks",
+    description: "Designs global multi-region databases with Regional by Row, Regional by Table, and Global Table data placement.",
+    tags: ["frameworks","cockroachdb","distributed-sql","multi-region","active-active"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Region Distributed SQL Data Placement Framework",
+      ruSectionName: "Распределенная многорегиональная СУБД (CockroachDB Multi-Region SQL)",
+      instructions: [
+        "Classify tables by geography: `REGIONAL BY ROW` (local latency), `GLOBAL` (fast reads everywhere).",
+        "Keep transaction read and write latencies under 10ms by anchoring partition ranges near users.",
+        "Survive total AWS/GCP region outages with zero manual failover intervention."
+],
+      ruInstructions: [
+        "Разделяйте таблицы по гео-политике: `REGIONAL BY ROW` для локализации данных пользователей.",
+        "Обеспечьте задержку чтения и записи менее 10 мс за счет приближения данных к клиенту.",
+        "Гарантируйте работу системы при падении целого дата-центра или региона облака."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","cockroachdb","distributed-sql","multi-region","active-active"],
+    }),
+  },
+
+  "framework-feature-management-launchdarkly-flags": {
+    id: "framework-feature-management-launchdarkly-flags",
+    name: "FrameworkFeatureManagementLaunchdarklyFlagsSkill",
+    displayName: "Enterprise Feature Management & Targeted Rollouts (LaunchDarkly)",
+    categoryId: "frameworks",
+    description: "Implements multivariate feature flags, percentage-based user targeting, and automated kill-switches.",
+    tags: ["frameworks","launchdarkly","feature-flags","experimentation","devops"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enterprise Feature Management & Flag Governance",
+      ruSectionName: "Управление функционалом и целевые релизы (LaunchDarkly Feature Management)",
+      instructions: [
+        "Implement multivariate flags targeting users by attributes (Beta group, Company, Region).",
+        "Use percentage rollouts with deterministic hashing to ensure consistent user experience across sessions.",
+        "Enforce flag lifecycle governance: archive and delete temporary migration flags after 60 days."
+],
+      ruInstructions: [
+        "Настройте многовариантные флаги с таргетингом по атрибутам пользователя (бета-тестеры, тариф).",
+        "Используйте процентные раскатки с детерминированным хэшированием для стабильного опыта пользователя.",
+        "Проводите регулярный аудит и удаление временных флагов после завершения миграции."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","launchdarkly","feature-flags","experimentation","devops"],
+    }),
+  },
+
+  "framework-infrastructure-cost-finops-cloud-governance": {
+    id: "framework-infrastructure-cost-finops-cloud-governance",
+    name: "FrameworkInfrastructureCostFinopsCloudGovernanceSkill",
+    displayName: "FinOps Cloud Cost Optimization & Tagging Governance Framework",
+    categoryId: "frameworks",
+    description: "Implements FinOps principles (Inform, Optimize, Operate), mandatory resource cost allocation tags, and right-sizing.",
+    tags: ["frameworks","finops","cloud-cost","aws","governance","optimization"],
+    transform: createStandardSkillTransform({
+      sectionName: "FinOps Cloud Governance & Cost Optimization Framework",
+      ruSectionName: "Фреймворк оптимизации облачных затрат FinOps и аллокации расходов",
+      instructions: [
+        "Enforce mandatory cost allocation tags on all cloud resources: `Owner`, `Environment`, `Service`, `CostCenter`.",
+        "Automate idle resource shutdown and compute right-sizing via automated policies.",
+        "Track unit economics metrics (e.g. Cloud Cost per Active User) on weekly engineering dashboards."
+],
+      ruInstructions: [
+        "Внедрите обязательные теги аллокации затрат на всех облачных ресурсах (Owner, Environment, Service).",
+        "Автоматизируйте отключение неиспользуемых тестовых сред и оптимизацию размеров инстансов.",
+        "Отслеживайте юнит-метрику затрат на одного активного пользователя на еженедельных дашбордах."
+],
+      semanticType: "protocol",
+      tags: ["frameworks","finops","cloud-cost","aws","governance","optimization"],
+    }),
+  },
 };
 

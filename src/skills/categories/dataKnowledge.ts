@@ -1325,4 +1325,628 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
       tags: ["data","reverse-etl","operational-analytics","census","hightouch"],
     }),
   },
+  "data-knowledge-apache-iceberg-parquet-table-format": {
+    id: "data-knowledge-apache-iceberg-parquet-table-format",
+    name: "ApacheIcebergParquetTableFormatSkill",
+    displayName: "Apache Iceberg Parquet Table Format",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Apache Iceberg Parquet Table Format.",
+    tags: ["dataKnowledge","knowledge","apache","iceberg"],
+    transform: createStandardSkillTransform({
+      sectionName: "Apache Iceberg Table Format Standards",
+      ruSectionName: "Стандарты и практические требования: Apache Iceberg Parquet Table Format",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Apache Iceberg Parquet Table Format.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Apache Iceberg Parquet Table Format.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","apache","iceberg"],
+    }),
+  },
+
+  "data-knowledge-vector-database-hnsw-index-tuning": {
+    id: "data-knowledge-vector-database-hnsw-index-tuning",
+    name: "VectorDatabaseHNSWIndexTuningSkill",
+    displayName: "Vector Database HNSW Index Tuning",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Vector Database HNSW Index Tuning.",
+    tags: ["dataKnowledge","knowledge","vector","database"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vector Database HNSW Indexing Protocol",
+      ruSectionName: "Стандарты и практические требования: Vector Database HNSW Index Tuning",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Vector Database HNSW Index Tuning.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Vector Database HNSW Index Tuning.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","vector","database"],
+    }),
+  },
+
+  "data-knowledge-change-data-capture-debezium-streaming": {
+    id: "data-knowledge-change-data-capture-debezium-streaming",
+    name: "ChangeDataCaptureDebeziumStreamingSkill",
+    displayName: "Change Data Capture Debezium Streaming",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Change Data Capture Debezium Streaming.",
+    tags: ["dataKnowledge","knowledge","change","data"],
+    transform: createStandardSkillTransform({
+      sectionName: "CDC Debezium Stream Standards",
+      ruSectionName: "Стандарты и практические требования: Change Data Capture Debezium Streaming",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Change Data Capture Debezium Streaming.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Change Data Capture Debezium Streaming.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","change","data"],
+    }),
+  },
+
+  "data-knowledge-data-mesh-federated-governance-model": {
+    id: "data-knowledge-data-mesh-federated-governance-model",
+    name: "DataMeshFederatedGovernanceModelSkill",
+    displayName: "Data Mesh Federated Governance Model",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Data Mesh Federated Governance Model.",
+    tags: ["dataKnowledge","knowledge","data","mesh"],
+    transform: createStandardSkillTransform({
+      sectionName: "Data Mesh Governance Architecture",
+      ruSectionName: "Стандарты и практические требования: Data Mesh Federated Governance Model",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Data Mesh Federated Governance Model.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Data Mesh Federated Governance Model.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","data","mesh"],
+    }),
+  },
+
+  "data-knowledge-dbt-data-build-tool-semantic-layer": {
+    id: "data-knowledge-dbt-data-build-tool-semantic-layer",
+    name: "dbtDataBuildToolSemanticLayerSkill",
+    displayName: "dbt Data Build Tool Semantic Layer",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for dbt Data Build Tool Semantic Layer.",
+    tags: ["dataKnowledge","knowledge","dbt","data"],
+    transform: createStandardSkillTransform({
+      sectionName: "dbt Semantic Layer Standards",
+      ruSectionName: "Стандарты и практические требования: dbt Data Build Tool Semantic Layer",
+      instructions: [
+        "Apply core domain tenets and industry best practices for dbt Data Build Tool Semantic Layer.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для dbt Data Build Tool Semantic Layer.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","dbt","data"],
+    }),
+  },
+
+  "data-knowledge-duckdb-in-memory-olap-query-engine": {
+    id: "data-knowledge-duckdb-in-memory-olap-query-engine",
+    name: "DuckDBInMemoryOLAPQueryEngineSkill",
+    displayName: "DuckDB In-Memory OLAP Query Engine",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for DuckDB In-Memory OLAP Query Engine.",
+    tags: ["dataKnowledge","knowledge","duckdb","in"],
+    transform: createStandardSkillTransform({
+      sectionName: "DuckDB In-Memory Analytics Protocol",
+      ruSectionName: "Стандарты и практические требования: DuckDB In-Memory OLAP Query Engine",
+      instructions: [
+        "Apply core domain tenets and industry best practices for DuckDB In-Memory OLAP Query Engine.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для DuckDB In-Memory OLAP Query Engine.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","duckdb","in"],
+    }),
+  },
+
+  "data-knowledge-knowledge-graph-rdf-triple-sparql-store": {
+    id: "data-knowledge-knowledge-graph-rdf-triple-sparql-store",
+    name: "KnowledgeGraphRDFTripleSparqlStoreSkill",
+    displayName: "Knowledge Graph RDF Triple Sparql Store",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Knowledge Graph RDF Triple Sparql Store.",
+    tags: ["dataKnowledge","knowledge","knowledge","graph"],
+    transform: createStandardSkillTransform({
+      sectionName: "Knowledge Graph RDF SPARQL Standards",
+      ruSectionName: "Стандарты и практические требования: Knowledge Graph RDF Triple Sparql Store",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Knowledge Graph RDF Triple Sparql Store.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Knowledge Graph RDF Triple Sparql Store.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","knowledge","graph"],
+    }),
+  },
+
+  "data-knowledge-data-lineage-openlineage-metadata": {
+    id: "data-knowledge-data-lineage-openlineage-metadata",
+    name: "DataLineageOpenLineageMetadataSkill",
+    displayName: "Data Lineage OpenLineage Metadata",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Data Lineage OpenLineage Metadata.",
+    tags: ["dataKnowledge","knowledge","data","lineage"],
+    transform: createStandardSkillTransform({
+      sectionName: "Data Lineage & Metadata Standards",
+      ruSectionName: "Стандарты и практические требования: Data Lineage OpenLineage Metadata",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Data Lineage OpenLineage Metadata.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Data Lineage OpenLineage Metadata.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","data","lineage"],
+    }),
+  },
+
+  "data-knowledge-snowflake-micro-partition-pruning": {
+    id: "data-knowledge-snowflake-micro-partition-pruning",
+    name: "SnowflakeMicroPartitionPruningSkill",
+    displayName: "Snowflake Micro-Partition Pruning",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Snowflake Micro-Partition Pruning.",
+    tags: ["dataKnowledge","knowledge","snowflake","micro"],
+    transform: createStandardSkillTransform({
+      sectionName: "Snowflake Partition Pruning Guidelines",
+      ruSectionName: "Стандарты и практические требования: Snowflake Micro-Partition Pruning",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Snowflake Micro-Partition Pruning.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Snowflake Micro-Partition Pruning.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","snowflake","micro"],
+    }),
+  },
+
+  "data-knowledge-delta-lake-acid-transaction-log": {
+    id: "data-knowledge-delta-lake-acid-transaction-log",
+    name: "DeltaLakeACIDTransactionLogSkill",
+    displayName: "Delta Lake ACID Transaction Log",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Delta Lake ACID Transaction Log.",
+    tags: ["dataKnowledge","knowledge","delta","lake"],
+    transform: createStandardSkillTransform({
+      sectionName: "Delta Lake ACID Standards",
+      ruSectionName: "Стандарты и практические требования: Delta Lake ACID Transaction Log",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Delta Lake ACID Transaction Log.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Delta Lake ACID Transaction Log.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","delta","lake"],
+    }),
+  },
+
+  "data-knowledge-redis-hyperloglog-cardinality-estimation": {
+    id: "data-knowledge-redis-hyperloglog-cardinality-estimation",
+    name: "RedisHyperLogLogCardinalityEstimationSkill",
+    displayName: "Redis HyperLogLog Cardinality Estimation",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Redis HyperLogLog Cardinality Estimation.",
+    tags: ["dataKnowledge","knowledge","redis","hyperloglog"],
+    transform: createStandardSkillTransform({
+      sectionName: "HyperLogLog Cardinality Protocol",
+      ruSectionName: "Стандарты и практические требования: Redis HyperLogLog Cardinality Estimation",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Redis HyperLogLog Cardinality Estimation.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Redis HyperLogLog Cardinality Estimation.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","redis","hyperloglog"],
+    }),
+  },
+
+  "data-knowledge-clickhouse-mergetree-columnar-partitioning": {
+    id: "data-knowledge-clickhouse-mergetree-columnar-partitioning",
+    name: "ClickHouseMergeTreeColumnarPartitioningSkill",
+    displayName: "ClickHouse MergeTree Columnar Partitioning",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for ClickHouse MergeTree Columnar Partitioning.",
+    tags: ["dataKnowledge","knowledge","clickhouse","mergetree"],
+    transform: createStandardSkillTransform({
+      sectionName: "ClickHouse MergeTree Architecture",
+      ruSectionName: "Стандарты и практические требования: ClickHouse MergeTree Columnar Partitioning",
+      instructions: [
+        "Apply core domain tenets and industry best practices for ClickHouse MergeTree Columnar Partitioning.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для ClickHouse MergeTree Columnar Partitioning.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","clickhouse","mergetree"],
+    }),
+  },
+
+  "data-knowledge-kafka-schema-registry-avro-serialization": {
+    id: "data-knowledge-kafka-schema-registry-avro-serialization",
+    name: "KafkaSchemaRegistryAvroSerializationSkill",
+    displayName: "Kafka Schema Registry Avro Serialization",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Kafka Schema Registry Avro Serialization.",
+    tags: ["dataKnowledge","knowledge","kafka","schema"],
+    transform: createStandardSkillTransform({
+      sectionName: "Schema Registry Avro Standards",
+      ruSectionName: "Стандарты и практические требования: Kafka Schema Registry Avro Serialization",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Kafka Schema Registry Avro Serialization.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Kafka Schema Registry Avro Serialization.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","kafka","schema"],
+    }),
+  },
+
+  "data-knowledge-data-quality-great-expectations-assertion": {
+    id: "data-knowledge-data-quality-great-expectations-assertion",
+    name: "DataQualityGreatExpectationsAssertionSkill",
+    displayName: "Data Quality Great Expectations Assertion",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Data Quality Great Expectations Assertion.",
+    tags: ["dataKnowledge","knowledge","data","quality"],
+    transform: createStandardSkillTransform({
+      sectionName: "Great Expectations Data Quality Rules",
+      ruSectionName: "Стандарты и практические требования: Data Quality Great Expectations Assertion",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Data Quality Great Expectations Assertion.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Data Quality Great Expectations Assertion.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","data","quality"],
+    }),
+  },
+
+  "data-knowledge-star-schema-kimbal-dimensional-modeling": {
+    id: "data-knowledge-star-schema-kimbal-dimensional-modeling",
+    name: "StarSchemaKimbalDimensionalModelingSkill",
+    displayName: "Star Schema Kimbal Dimensional Modeling",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Star Schema Kimbal Dimensional Modeling.",
+    tags: ["dataKnowledge","knowledge","star","schema"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kimball Dimensional Modeling Standards",
+      ruSectionName: "Стандарты и практические требования: Star Schema Kimbal Dimensional Modeling",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Star Schema Kimbal Dimensional Modeling.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Star Schema Kimbal Dimensional Modeling.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","star","schema"],
+    }),
+  },
+
+  "data-knowledge-vector-embedding-cosine-similarity-search": {
+    id: "data-knowledge-vector-embedding-cosine-similarity-search",
+    name: "VectorEmbeddingCosineSimilaritySearchSkill",
+    displayName: "Vector Embedding Cosine Similarity Search",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Vector Embedding Cosine Similarity Search.",
+    tags: ["dataKnowledge","knowledge","vector","embedding"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vector Embedding Similarity Protocol",
+      ruSectionName: "Стандарты и практические требования: Vector Embedding Cosine Similarity Search",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Vector Embedding Cosine Similarity Search.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Vector Embedding Cosine Similarity Search.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","vector","embedding"],
+    }),
+  },
+
+  "data-knowledge-feature-store-feast-machine-learning-pipeline": {
+    id: "data-knowledge-feature-store-feast-machine-learning-pipeline",
+    name: "FeatureStoreFeastMachineLearningPipelineSkill",
+    displayName: "Feature Store Feast Machine Learning Pipeline",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Feature Store Feast Machine Learning Pipeline.",
+    tags: ["dataKnowledge","knowledge","feature","store"],
+    transform: createStandardSkillTransform({
+      sectionName: "Feature Store Feast Protocol",
+      ruSectionName: "Стандарты и практические требования: Feature Store Feast Machine Learning Pipeline",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Feature Store Feast Machine Learning Pipeline.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Feature Store Feast Machine Learning Pipeline.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","feature","store"],
+    }),
+  },
+
+  "data-knowledge-graphql-mesh-unified-subgraph-federation": {
+    id: "data-knowledge-graphql-mesh-unified-subgraph-federation",
+    name: "GraphQLMeshUnifiedSubgraphFederationSkill",
+    displayName: "GraphQL Mesh Unified Subgraph Federation",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for GraphQL Mesh Unified Subgraph Federation.",
+    tags: ["dataKnowledge","knowledge","graphql","mesh"],
+    transform: createStandardSkillTransform({
+      sectionName: "GraphQL Mesh Federation Standards",
+      ruSectionName: "Стандарты и практические требования: GraphQL Mesh Unified Subgraph Federation",
+      instructions: [
+        "Apply core domain tenets and industry best practices for GraphQL Mesh Unified Subgraph Federation.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для GraphQL Mesh Unified Subgraph Federation.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","graphql","mesh"],
+    }),
+  },
+
+  "data-knowledge-apache-flink-stateful-stream-processing": {
+    id: "data-knowledge-apache-flink-stateful-stream-processing",
+    name: "ApacheFlinkStatefulStreamProcessingSkill",
+    displayName: "Apache Flink Stateful Stream Processing",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Apache Flink Stateful Stream Processing.",
+    tags: ["dataKnowledge","knowledge","apache","flink"],
+    transform: createStandardSkillTransform({
+      sectionName: "Flink Stream Processing Protocol",
+      ruSectionName: "Стандарты и практические требования: Apache Flink Stateful Stream Processing",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Apache Flink Stateful Stream Processing.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Apache Flink Stateful Stream Processing.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","apache","flink"],
+    }),
+  },
+
+  "data-knowledge-postgres-foreign-data-wrapper-fdw": {
+    id: "data-knowledge-postgres-foreign-data-wrapper-fdw",
+    name: "PostgresForeignDataWrapperFDWSkill",
+    displayName: "Postgres Foreign Data Wrapper (FDW)",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Postgres Foreign Data Wrapper (FDW).",
+    tags: ["dataKnowledge","knowledge","postgres","foreign"],
+    transform: createStandardSkillTransform({
+      sectionName: "Postgres FDW Integration Standards",
+      ruSectionName: "Стандарты и практические требования: Postgres Foreign Data Wrapper (FDW)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Postgres Foreign Data Wrapper (FDW).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Postgres Foreign Data Wrapper (FDW).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","postgres","foreign"],
+    }),
+  },
+
+  "data-knowledge-data-privacy-differential-privacy-anonymization": {
+    id: "data-knowledge-data-privacy-differential-privacy-anonymization",
+    name: "DataPrivacyDifferentialPrivacyAnonymizationSkill",
+    displayName: "Data Privacy Differential Privacy Anonymization",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Data Privacy Differential Privacy Anonymization.",
+    tags: ["dataKnowledge","knowledge","data","privacy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Differential Privacy Anonymization Protocol",
+      ruSectionName: "Стандарты и практические требования: Data Privacy Differential Privacy Anonymization",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Data Privacy Differential Privacy Anonymization.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Data Privacy Differential Privacy Anonymization.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","data","privacy"],
+    }),
+  },
+
+  "data-knowledge-master-data-management-mdm-golden-record": {
+    id: "data-knowledge-master-data-management-mdm-golden-record",
+    name: "MasterDataManagementMDMGoldenRecordSkill",
+    displayName: "Master Data Management MDM Golden Record",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Master Data Management MDM Golden Record.",
+    tags: ["dataKnowledge","knowledge","master","data"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Data Golden Record Rules",
+      ruSectionName: "Стандарты и практические требования: Master Data Management MDM Golden Record",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Master Data Management MDM Golden Record.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Master Data Management MDM Golden Record.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","master","data"],
+    }),
+  },
+
+  "data-knowledge-apache-arrow-zero-copy-memory-format": {
+    id: "data-knowledge-apache-arrow-zero-copy-memory-format",
+    name: "ApacheArrowZeroCopyMemoryFormatSkill",
+    displayName: "Apache Arrow Zero-Copy Memory Format",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Apache Arrow Zero-Copy Memory Format.",
+    tags: ["dataKnowledge","knowledge","apache","arrow"],
+    transform: createStandardSkillTransform({
+      sectionName: "Apache Arrow Memory Standards",
+      ruSectionName: "Стандарты и практические требования: Apache Arrow Zero-Copy Memory Format",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Apache Arrow Zero-Copy Memory Format.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Apache Arrow Zero-Copy Memory Format.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","apache","arrow"],
+    }),
+  },
+
+  "data-knowledge-elasticsearch-bm25-relevance-scoring": {
+    id: "data-knowledge-elasticsearch-bm25-relevance-scoring",
+    name: "ElasticsearchBM25RelevanceScoringSkill",
+    displayName: "Elasticsearch BM25 Relevance Scoring",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Elasticsearch BM25 Relevance Scoring.",
+    tags: ["dataKnowledge","knowledge","elasticsearch","bm25"],
+    transform: createStandardSkillTransform({
+      sectionName: "Elasticsearch BM25 Search Standards",
+      ruSectionName: "Стандарты и практические требования: Elasticsearch BM25 Relevance Scoring",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Elasticsearch BM25 Relevance Scoring.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Elasticsearch BM25 Relevance Scoring.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","elasticsearch","bm25"],
+    }),
+  },
+
+  "data-knowledge-time-series-timescaledb-continuous-aggregation": {
+    id: "data-knowledge-time-series-timescaledb-continuous-aggregation",
+    name: "TimeSeriesTimescaleDBContinuousAggregationSkill",
+    displayName: "Time-Series TimescaleDB Continuous Aggregation",
+    categoryId: "dataKnowledge",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Time-Series TimescaleDB Continuous Aggregation.",
+    tags: ["dataKnowledge","knowledge","time","series"],
+    transform: createStandardSkillTransform({
+      sectionName: "TimescaleDB Continuous Aggregates",
+      ruSectionName: "Стандарты и практические требования: Time-Series TimescaleDB Continuous Aggregation",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Time-Series TimescaleDB Continuous Aggregation.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Time-Series TimescaleDB Continuous Aggregation.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["dataKnowledge","knowledge","time","series"],
+    }),
+  },
 };

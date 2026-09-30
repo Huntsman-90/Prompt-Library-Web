@@ -1312,4 +1312,654 @@ export const BUSINESS_SKILLS: Record<string, SkillDefinition> = {
       tags: ["business","bcp","disaster-recovery","crisis-management","contingency-planning"],
     }),
   },
+  "business-b2b-saas-magic-number-efficiency": {
+    id: "business-b2b-saas-magic-number-efficiency",
+    name: "BusinessB2bSaasMagicNumberEfficiencySkill",
+    displayName: "B2B SaaS Sales Efficiency & Magic Number Benchmarking",
+    categoryId: "business",
+    description: "Calculates SaaS Magic Number, CAC Payback, Rule of 40, and Net New ARR per sales dollar deployed.",
+    tags: ["business","saas","sales-efficiency","metrics","finance"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Sales Efficiency & Magic Number Standards",
+      ruSectionName: "Метрики эффективности продаж SaaS (Magic Number, CAC Payback, Rule of 40)",
+      instructions: [
+        "Calculate Magic Number: `(Quarterly Net New ARR * 4) / Prior Quarter Sales & Marketing Expense`.",
+        "Target Magic Number > 1.0 before ramping aggressive paid customer acquisition spend.",
+        "Evaluate Rule of 40: `Annual ARR Growth Rate (%) + Free Cash Flow Margin (%) >= 40%`."
+],
+      ruInstructions: [
+        "Рассчитывайте Magic Number: соотношение прироста годовой выручки (ARR) к затратам на продажи и маркетинг.",
+        "Масштабируйте маркетинговый бюджет только при значении Magic Number выше 0.75–1.0.",
+        "Контролируйте Rule of 40: сумма темпа роста выручки и маржи свободного денежного потока должна превышать 40%."
+],
+      semanticType: "structural_directive",
+      tags: ["business","saas","sales-efficiency","metrics","finance"],
+    }),
+  },
+
+  "business-blue-ocean-strategy-canvas-four-actions": {
+    id: "business-blue-ocean-strategy-canvas-four-actions",
+    name: "BusinessBlueOceanStrategyCanvasFourActionsSkill",
+    displayName: "Blue Ocean Strategy Canvas & Four Actions Framework (ERRC)",
+    categoryId: "business",
+    description: "Identifies uncontested market space using the Eliminate-Reduce-Raise-Create (ERRC) grid to break the cost-value trade-off.",
+    tags: ["business","strategy","blue-ocean","errc","innovation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blue Ocean Strategy Canvas Standards",
+      ruSectionName: "Стратегия голубого океана: Сетка четырех действий (ERRC) и кривая ценности",
+      instructions: [
+        "Eliminate factors the industry has long competed on that deliver zero true customer value.",
+        "Reduce factors well below the industry standard to slash structural operating expenses.",
+        "Raise factors well above industry compromises and Create entirely novel sources of utility."
+],
+      ruInstructions: [
+        "Устраняйте (Eliminate) факторы, ставшие общепринятой традицией отрасли, но не ценные клиенту.",
+        "Снижайте (Reduce) параметры, раздувающие себестоимость, ниже среднерыночного уровня.",
+        "Повышайте (Raise) ключевые параметры и Создавайте (Create) абсолютно новые источники ценности."
+],
+      semanticType: "structural_directive",
+      tags: ["business","strategy","blue-ocean","errc","innovation"],
+    }),
+  },
+
+  "business-flywheel-effect-jim-collins": {
+    id: "business-flywheel-effect-jim-collins",
+    name: "BusinessFlywheelEffectJimCollinsSkill",
+    displayName: "Jim Collins Compounding Business Flywheel Architecture",
+    categoryId: "business",
+    description: "Maps interconnected business virtuous cycles where every turning of the wheel compounds momentum and lowers unit friction.",
+    tags: ["business","strategy","flywheel","jim-collins","growth"],
+    transform: createStandardSkillTransform({
+      sectionName: "Compounding Business Flywheel Framework",
+      ruSectionName: "Эффект маховика бизнеса Джима Коллинза (Самоусиливающийся цикл роста)",
+      instructions: [
+        "Identify 4-6 sequential steps where success in step A directly accelerates and powers step B.",
+        "Ensure the loop feeds back into step 1, generating compounding momentum without proportional marketing spend.",
+        "Identify the single biggest friction drag slowing down the flywheel rotation."
+],
+      ruInstructions: [
+        "Связывайте 4–6 последовательных этапов, где успех шага А неизбежно ускоряет шаг Б.",
+        "Замыкайте цикл: финальный шаг должен напрямую усиливать первый этап маховика.",
+        "Находите и устраняйте узкое место, создающее наибольшее трение и тормозящее вращение."
+],
+      semanticType: "structural_directive",
+      tags: ["business","strategy","flywheel","jim-collins","growth"],
+    }),
+  },
+
+  "business-cohort-retention-triangle-analysis": {
+    id: "business-cohort-retention-triangle-analysis",
+    name: "BusinessCohortRetentionTriangleAnalysisSkill",
+    displayName: "Cohort Retention Triangular Heatmap & Decay Curve Analysis",
+    categoryId: "business",
+    description: "Analyzes monthly customer cohort retention decay curves, asymptotic flattening, and smile-curve resurrection dynamics.",
+    tags: ["business","cohort-analysis","retention","analytics","saas"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cohort Retention Analysis Standards",
+      ruSectionName: "Когортный анализ удержания клиентов (Кривые оттока и стабилизации когорт)",
+      instructions: [
+        "Plot user retention decay over months 1 to 24 to verify if cohorts flatten into a horizontal asymptote.",
+        "Identify product-market fit when retention curves stabilize parallel to the x-axis above 20-30%.",
+        "Look for 'Smile Curves' where expansion revenue and re-activations push net revenue retention above 100%."
+],
+      ruInstructions: [
+        "Стройте кривые удержания когорт по месяцам для проверки выхода на стабильное плато.",
+        "Подтверждайте Product-Market Fit стабилизацией когорты параллельно оси X выше 20–30%.",
+        "Отслеживайте «U-образные улыбки» когорт, когда возврат пользователей и допродажи превышают отток."
+],
+      semanticType: "structural_directive",
+      tags: ["business","cohort-analysis","retention","analytics","saas"],
+    }),
+  },
+
+  "business-three-horizons-mckinsey-growth": {
+    id: "business-three-horizons-mckinsey-growth",
+    name: "BusinessThreeHorizonsMckinseyGrowthSkill",
+    displayName: "McKinsey Three Horizons of Growth Portfolio Framework",
+    categoryId: "business",
+    description: "Allocates corporate capital and talent across Horizon 1 (core cash cows), Horizon 2 (emerging scaling bets), and Horizon 3 (frontier options).",
+    tags: ["business","strategy","growth","mckinsey","capital-allocation"],
+    transform: createStandardSkillTransform({
+      sectionName: "McKinsey Three Horizons Growth Framework",
+      ruSectionName: "Три горизонта роста McKinsey: Баланс текущего бизнеса и венчурных ставок",
+      instructions: [
+        "Horizon 1: Defend, optimize, and harvest cash flow from mature existing core businesses (70% budget).",
+        "Horizon 2: Scale fast-growing validated ventures with proven business models (20% budget).",
+        "Horizon 3: Seed disruptive, experimental bets on future paradigm shifts (10% budget)."
+],
+      ruInstructions: [
+        "Горизонт 1: Оптимизация и генерация денежного потока от зрелого базового бизнеса (70% ресурсов).",
+        "Горизонт 2: Быстрое масштабирование подтвержденных быстрорастущих направлений (20% ресурсов).",
+        "Горизонт 3: Экспериментальные ставки на прорывные технологии будущего (10% ресурсов)."
+],
+      semanticType: "structural_directive",
+      tags: ["business","strategy","growth","mckinsey","capital-allocation"],
+    }),
+  },
+
+  "business-land-and-expand-enterprise-strategy": {
+    id: "business-land-and-expand-enterprise-strategy",
+    name: "BusinessLandAndExpandEnterpriseStrategySkill",
+    displayName: "Land and Expand Enterprise Sales Expansion Framework",
+    categoryId: "business",
+    description: "Enters enterprise accounts with low-friction departmental beachheads and systematically expands into org-wide site licenses.",
+    tags: ["business","sales","enterprise","expansion","saas"],
+    transform: createStandardSkillTransform({
+      sectionName: "Land and Expand Enterprise Sales Blueprint",
+      ruSectionName: "Стратегия корпоративных продаж Land and Expand (Захват плацдарма и масштабирование)",
+      instructions: [
+        "Land: Secure a frictionless entry point with a single engineering or design pod under manager credit card limit.",
+        "Deliver immediate outsized ROI within 30 days to create internal executive champions.",
+        "Expand: Leverage organic adoption telemetry to pitch C-level security, SSO, and enterprise-wide volume discounts."
+],
+      ruInstructions: [
+        "Land: Входите в компанию через отдельную команду в рамках бюджета менеджера без тендеров.",
+        "Обеспечивайте быстрый измеримый результат за 30 дней для появления внутренних сторонников.",
+        "Expand: Используйте данные о росте использования внутри компании для продажи Enterprise-лицензии на уровне вице-президентов."
+],
+      semanticType: "structural_directive",
+      tags: ["business","sales","enterprise","expansion","saas"],
+    }),
+  },
+
+  "business-zero-based-budgeting-operational-rigor": {
+    id: "business-zero-based-budgeting-operational-rigor",
+    name: "BusinessZeroBasedBudgetingOperationalRigorSkill",
+    displayName: "Zero-Based Budgeting (ZBB) & Operating Cost Optimization",
+    categoryId: "business",
+    description: "Rebuilds department budgets from zero every planning cycle, requiring explicit operational justification for every cost item.",
+    tags: ["business","finance","budgeting","cost-optimization","operations"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zero-Based Budgeting Operational Framework",
+      ruSectionName: "Бюджетирование с нуля (Zero-Based Budgeting / ZBB) и оптимизация затрат",
+      instructions: [
+        "Assume baseline budget is zero; reject legacy 'prior year plus 5%' automatic expenditure increases.",
+        "Tie every single line-item expense directly to strategic revenue generation or compliance requirements.",
+        "Eliminate duplicate software tooling, dormant cloud instances, and unused consulting retainers."
+],
+      ruInstructions: [
+        "Принимайте базовый бюджет равным нулю; откажитесь от автоматической индексации прошлых расходов.",
+        "Обосновывайте каждую статью затрат прямой связью с выручкой или регуляторными требованиями.",
+        "Устраняйте дублирующиеся SaaS-сервисы, неиспользуемые мощности и неэффективные подписки."
+],
+      semanticType: "structural_directive",
+      tags: ["business","finance","budgeting","cost-optimization","operations"],
+    }),
+  },
+
+  "business-van-westendorp-price-sensitivity-meter": {
+    id: "business-van-westendorp-price-sensitivity-meter",
+    name: "BusinessVanWestendorpPriceSensitivityMeterSkill",
+    displayName: "Van Westendorp Price Sensitivity Meter (PSM) Optimization",
+    categoryId: "business",
+    description: "Determines acceptable price ranges and point of marginal cheapness/expensiveness using the 4-question PSM survey methodology.",
+    tags: ["business","pricing","market-research","monetization","strategy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Van Westendorp Price Sensitivity Standards",
+      ruSectionName: "Методика анализа ценовой чувствительности Ван Вестендорпа (PSM)",
+      instructions: [
+        "Survey target buyers with the 4 standard questions: Too Cheap, Bargain, Expensive, Too Expensive.",
+        "Plot cumulative response intersections to find the Point of Marginal Cheapness and Point of Marginal Expensiveness.",
+        "Identify the Optimal Price Point (OPP) where customer resistance is minimized."
+],
+      ruInstructions: [
+        "Опрашивайте целевую аудиторию по 4 вопросам: Слишком дешево, Выгодно, Дорого, Слишком дорого.",
+        "Находите точки пересечения кривых: диапазон приемлемых цен и границы ценового коридора.",
+        "Определяйте оптимальную точку цены (OPP), при которой сопротивление покупателей минимально."
+],
+      semanticType: "structural_directive",
+      tags: ["business","pricing","market-research","monetization","strategy"],
+    }),
+  },
+
+  "business-clayton-christensen-disruptive-innovation": {
+    id: "business-clayton-christensen-disruptive-innovation",
+    name: "BusinessClaytonChristensenDisruptiveInnovationSkill",
+    displayName: "Clayton Christensen Low-End & New-Market Disruptive Innovation",
+    categoryId: "business",
+    description: "Analyzes how simpler, cheaper, and more accessible technologies enter underserved market bottoms and unseat incumbents.",
+    tags: ["business","innovation","disruption","christensen","strategy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Christensen Disruptive Innovation Framework",
+      ruSectionName: "Теория подрывных инноваций Клейтона Кристенсена (Захват рынка снизу)",
+      instructions: [
+        "Identify overserved enterprise customers paying for features they never use from incumbent market leaders.",
+        "Build a simpler, lower-cost alternative targeting non-consumers or the neglected low-end market.",
+        "Improve product quality continuously along the trajectory of customer performance demand until unseating incumbents."
+],
+      ruInstructions: [
+        "Находите сегменты переобслуженных клиентов, переплачивающих за избыточный функционал лидеров.",
+        "Создавайте более простое и дешевое решение для не-потребителей или нижнего ценового сегмента.",
+        "Постепенно наращивайте качество, двигаясь вверх по рынку и вытесняя традиционных игроков."
+],
+      semanticType: "structural_directive",
+      tags: ["business","innovation","disruption","christensen","strategy"],
+    }),
+  },
+
+  "business-burn-multiple-capital-efficiency": {
+    id: "business-burn-multiple-capital-efficiency",
+    name: "BusinessBurnMultipleCapitalEfficiencySkill",
+    displayName: "David Sacks Burn Multiple & Capital Efficiency Matrix",
+    categoryId: "business",
+    description: "Evaluates venture startup capital efficiency: `Net Burn / Net New ARR`, categorizing capital discipline from Amazing to Toxic.",
+    tags: ["business","burn-multiple","capital-efficiency","venture-capital","startups"],
+    transform: createStandardSkillTransform({
+      sectionName: "Burn Multiple Capital Efficiency Standard",
+      ruSectionName: "Метрика Burn Multiple Дэвида Сакса (Оценка эффективности сжигания венчурного капитала)",
+      instructions: [
+        "Calculate Burn Multiple: `Net Cash Burn / Net New ARR generated in the period`.",
+        "Benchmark: < 1.0x (Amazing), 1.0x - 1.5x (Good), 1.5x - 2.0x (Concerning), > 2.0x (High Risk/Toxic).",
+        "Identify if capital is leaking into bloated headcount, paid acquisition churn, or long enterprise sales cycles."
+],
+      ruInstructions: [
+        "Рассчитывайте Burn Multiple: отношение чистого сжигания денег (Net Burn) к новому приросту ARR.",
+        "Ориентиры: меньше 1.0x (Отлично), 1.0–1.5x (Хорошо), выше 2.0x (Опасное сжигание капитала).",
+        "Анализируйте утечки бюджета: раздутый штат, неэффективный маркетинг или высокий отток клиентов."
+],
+      semanticType: "structural_directive",
+      tags: ["business","burn-multiple","capital-efficiency","venture-capital","startups"],
+    }),
+  },
+
+  "business-bcg-growth-share-matrix": {
+    id: "business-bcg-growth-share-matrix",
+    name: "BusinessBcgGrowthShareMatrixSkill",
+    displayName: "BCG Growth-Share Matrix (Stars, Cash Cows, Question Marks, Dogs)",
+    categoryId: "business",
+    description: "Evaluates multi-product corporate portfolios by relative market share and market growth rates to allocate cash effectively.",
+    tags: ["business","bcg-matrix","portfolio-strategy","strategy","growth"],
+    transform: createStandardSkillTransform({
+      sectionName: "BCG Growth-Share Matrix Framework",
+      ruSectionName: "Матрица BCG (Звезды, Дойные коровы, Трудные дети, Собаки)",
+      instructions: [
+        "Cash Cows (High share, low growth): Harvest steady cash flow without heavy reinvestment.",
+        "Stars (High share, high growth): Invest aggressively to defend category leadership.",
+        "Question Marks (Low share, high growth): Decide whether to fund into Stars or divest.",
+        "Dogs (Low share, low growth): Liquidate, sell, or restructure to stop capital bleeding."
+],
+      ruInstructions: [
+        "Дойные коровы (Высокая доля, низкий рост): Извлекайте прибыль для финансирования других направлений.",
+        "Звезды (Высокая доля, высокий рост): Инвестируйте в удержание и укрепление лидерства на рынке.",
+        "Трудные дети (Низкая доля, высокий рост): Выбирайте ключевые продукты для прорыва в «Звезды».",
+        "Собаки (Низкая доля, низкий рост): Закрывайте или продавайте активы, отвлекающие ресурсы компании."
+],
+      semanticType: "structural_directive",
+      tags: ["business","bcg-matrix","portfolio-strategy","strategy","growth"],
+    }),
+  },
+
+  "business-product-led-growth-plg-flywheel": {
+    id: "business-product-led-growth-plg-flywheel",
+    name: "BusinessProductLedGrowthPlgFlywheelSkill",
+    displayName: "Product-Led Growth (PLG) Acquisition, Activation & Expansion",
+    categoryId: "business",
+    description: "Drives software distribution through self-serve product experience, viral collaboration loops, and usage-based expansion.",
+    tags: ["business","plg","product-led-growth","self-serve","virality"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product-Led Growth (PLG) Architecture",
+      ruSectionName: "Фреймворк Product-Led Growth (PLG: Продукт как главный двигатель роста)",
+      instructions: [
+        "Eliminate upfront sales friction: provide instantaneous self-serve signup with zero credit card required.",
+        "Shorten Time-to-Value (TTV) to under 2 minutes with interactive guided templates.",
+        "Embed organic viral sharing loops (e.g., 'Powered by', invite teammates to collaborate) directly into daily workflows."
+],
+      ruInstructions: [
+        "Убирайте барьеры на входе: давайте мгновенный self-serve доступ к продукту без звонков в отдел продаж.",
+        "Сокращайте время до первого ценного результата (Time-to-Value) до менее 2 минут.",
+        "Встраивайте виральные механики совместной работы («Пригласить коллегу», «Сделано в...») в основной сценарий."
+],
+      semanticType: "structural_directive",
+      tags: ["business","plg","product-led-growth","self-serve","virality"],
+    }),
+  },
+
+  "business-gross-margin-profile-unit-economics": {
+    id: "business-gross-margin-profile-unit-economics",
+    name: "BusinessGrossMarginProfileUnitEconomicsSkill",
+    displayName: "Gross Margin Profile & Cost of Goods Sold (COGS) Structuring",
+    categoryId: "business",
+    description: "Structures COGS (cloud hosting, third-party LLM API tokens, customer support) to target healthy 75%+ software gross margins.",
+    tags: ["business","gross-margin","cogs","finance","unit-economics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gross Margin & COGS Structuring Standards",
+      ruSectionName: "Структурирование себестоимости (COGS) и валовой маржи в IT-бизнесе",
+      instructions: [
+        "Separate direct COGS (cloud infrastructure, AI inference tokens, payment gateway fees) from operating R&D expenses.",
+        "Optimize per-query LLM token costs and vector database hosting to protect target 75%+ SaaS gross margins.",
+        "Monitor gross margin trajectory as volume scales to detect negative unit economics early."
+],
+      ruInstructions: [
+        "Четко разделяйте прямую себестоимость (COGS: сервера, API токенов, эквайринг) и общие расходы на R&D.",
+        "Оптимизируйте расход токенов LLM и векторных баз данных для удержания маржи выше 75%.",
+        "Отслеживайте динамику валовой маржинальности при росте клиентской базы для исключения убыточности на масштабе."
+],
+      semanticType: "structural_directive",
+      tags: ["business","gross-margin","cogs","finance","unit-economics"],
+    }),
+  },
+
+  "business-crossing-the-chasm-moore": {
+    id: "business-crossing-the-chasm-moore",
+    name: "BusinessCrossingTheChasmMooreSkill",
+    displayName: "Geoffrey Moore 'Crossing the Chasm' Technology Adoption Curve",
+    categoryId: "business",
+    description: "Guides tech startups transitioning from enthusiastic Early Adopters to risk-averse Pragmatists using the Whole Product solution.",
+    tags: ["business","crossing-the-chasm","go-to-market","marketing","strategy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Crossing the Chasm Technology Adoption Framework",
+      ruSectionName: "Преодоление пропасти по Джеффри Муру (От ранних адептов к прагматикам)",
+      instructions: [
+        "Recognize the Chasm: Early Adopters buy revolutionary potential; Pragmatists buy referenceable reliability.",
+        "Target a single niche beachhead segment and dominate it completely with 100% Whole Product delivery.",
+        "Secure peer reference case studies in the beachhead to ignite word-of-mouth among pragmatist buyers."
+],
+      ruInstructions: [
+        "Учитывайте пропасть: Визионеры покупают инновации, а Прагматики требуют проверенной надежности.",
+        "Сфокусируйтесь на узком плацдарме (Beachhead Market) и закройте 100% потребностей сегмента готовым решением.",
+        "Формируйте отзывы и рекомендации внутри целевой ниши для завоевания доверия прагматичных клиентов."
+],
+      semanticType: "structural_directive",
+      tags: ["business","crossing-the-chasm","go-to-market","marketing","strategy"],
+    }),
+  },
+
+  "business-dunbar-number-organizational-scaling": {
+    id: "business-dunbar-number-organizational-scaling",
+    name: "BusinessDunbarNumberOrganizationalScalingSkill",
+    displayName: "Dunbar's Number & Organizational Scaling Inflection Points",
+    categoryId: "business",
+    description: "Restructures communication, management hierarchy, and cultural rituals at key team size thresholds: 15, 50, 150, 500.",
+    tags: ["business","organizational-design","scaling","management","culture"],
+    transform: createStandardSkillTransform({
+      sectionName: "Organizational Scaling Inflection Points Framework",
+      ruSectionName: "Точки перелома масштабирования организации по числу Данбара (15, 50, 150 человек)",
+      instructions: [
+        "At 15 people: Transition from implicit telepathy to explicit documented engineering and product specs.",
+        "At 50 people: Introduce middle management layer and structured functional departments.",
+        "At 150 people (Dunbar threshold): Replace personal social familiarity with formal company OKRs and written cultural tenets."
+],
+      ruInstructions: [
+        "При 15 сотрудниках: Переходите от устных договоренностей к обязательной фиксации спецификаций и задач.",
+        "При 50 сотрудниках: Внедряйте уровень линейных руководителей (Middle Management) и четкие зоны ответственности.",
+        "При 150 сотрудниках (порог Данбара): Заменяйте личные связи формализованными целями (OKR) и ценностями компании."
+],
+      semanticType: "structural_directive",
+      tags: ["business","organizational-design","scaling","management","culture"],
+    }),
+  },
+
+  "business-dynamic-pricing-yield-management": {
+    id: "business-dynamic-pricing-yield-management",
+    name: "BusinessDynamicPricingYieldManagementSkill",
+    displayName: "Dynamic Pricing & Perishable Inventory Yield Management",
+    categoryId: "business",
+    description: "Maximizes revenue for time-sensitive, perishable capacity (compute spot instances, hotel rooms, airline seats) via elasticity models.",
+    tags: ["business","pricing","yield-management","revenue-management","analytics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dynamic Pricing & Yield Management Standards",
+      ruSectionName: "Динамическое ценообразование и управление доходностью (Yield Management)",
+      instructions: [
+        "Segment demand into time-sensitive business users vs price-sensitive leisure users with distinct price elasticity curves.",
+        "Adjust pricing dynamically based on capacity utilization, real-time demand signals, and days-to-expiration.",
+        "Protect against brand erosion with opaque discounting or value-add bundles during off-peak windows."
+],
+      ruInstructions: [
+        "Сегментируйте клиентов по эластичности спроса (срочные корпоративные задачи vs экономные пользователи).",
+        "Автоматически корректируйте цены в зависимости от загрузки мощностей и времени до истечения срока услуги.",
+        "Используйте закрытые скидки или пакетные предложения в периоды спада спроса для защиты базовых цен."
+],
+      semanticType: "structural_directive",
+      tags: ["business","pricing","yield-management","revenue-management","analytics"],
+    }),
+  },
+  "business-b2b-procurement-vendor-vetting": {
+    id: "business-b2b-procurement-vendor-vetting",
+    name: "BusinessB2bProcurementVendorVettingSkill",
+    displayName: "Enterprise Procurement & Vendor Risk Assessment",
+    categoryId: "business",
+    description: "Evaluates third-party vendor financial solvency, concentration risk, SLA penalty structures, and business continuity readiness.",
+    tags: ["business","procurement","vendor-management","risk","operations"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enterprise Vendor Procurement Standards",
+      ruSectionName: "Оценка надежности поставщиков и аудит вендорских рисков (Procurement)",
+      instructions: [
+        "Assess vendor balance sheet liquidity, insurance liability limits, and single-point-of-failure exposure.",
+        "Incorporate financial clawbacks and penalty credits tied to uptime SLA breaches.",
+        "Mandate quarterly disaster recovery simulation proof and escrow of source code/data."
+],
+      ruInstructions: [
+        "Оценивайте финансовую устойчивость поставщика, лимиты страхования и риски зависимости от единственного вендора.",
+        "Включайте в договор штрафные санкции и финансовые компенсации за нарушение SLA доступности.",
+        "Требуйте регулярных отчетов об учениях по аварийному восстановлению и депонирование исходного кода (Escrow)."
+],
+      semanticType: "structural_directive",
+      tags: ["business","procurement","vendor-management","risk","operations"],
+    }),
+  },
+
+  "business-freemium-conversion-paywall-optimization": {
+    id: "business-freemium-conversion-paywall-optimization",
+    name: "BusinessFreemiumConversionPaywallOptimizationSkill",
+    displayName: "Freemium-to-Paid Conversion & Paywall Placement Optimization",
+    categoryId: "business",
+    description: "Structures feature gating, usage limits, reverse trials, and contextual upgrade triggers to maximize conversion without alienating free users.",
+    tags: ["business","freemium","monetization","paywall","conversion"],
+    transform: createStandardSkillTransform({
+      sectionName: "Freemium Conversion & Paywall Standards",
+      ruSectionName: "Оптимизация конверсии Freemium-to-Paid и дизайн пейволлов",
+      instructions: [
+        "Gate features at the moment of highest perceived value, not at random onboarding steps.",
+        "Implement 14-day Reverse Trials (all pro features unlocked initially) to drive habituation.",
+        "Provide transparent soft-cap notifications before locking user workflows."
+],
+      ruInstructions: [
+        "Показывайте пейволл в момент максимальной ощущаемой ценности функции, а не на первых шагах регистрации.",
+        "Используйте реверсивные триалы (Reverse Trials: полный Pro-доступ на 14 дней) для формирования привычки.",
+        "Предупреждайте о приближении к лимиту использования заранее, исключая внезапные блокировки."
+],
+      semanticType: "structural_directive",
+      tags: ["business","freemium","monetization","paywall","conversion"],
+    }),
+  },
+
+  "business-net-promoter-score-nps-closed-loop": {
+    id: "business-net-promoter-score-nps-closed-loop",
+    name: "BusinessNetPromoterScoreNpsClosedLoopSkill",
+    displayName: "Net Promoter Score (NPS) Closed-Loop Operational System",
+    categoryId: "business",
+    description: "Segments customer feedback into Promoters (9-10), Passives (7-8), and Detractors (0-6), triggering immediate executive follow-ups.",
+    tags: ["business","nps","customer-success","feedback","retention"],
+    transform: createStandardSkillTransform({
+      sectionName: "Closed-Loop NPS Operational Standards",
+      ruSectionName: "Операционная система работы с NPS (Закрытие цикла обратной связи)",
+      instructions: [
+        "Trigger automated 24-hour escalation workflows for Detractor scores (<7) with personal executive outreach.",
+        "Convert Promoters (9-10) directly into G2/Capterra reviews, case study candidates, and referral advocates.",
+        "Categorize qualitative feedback themes systematically into product bug vs feature request backlogs."
+],
+      ruInstructions: [
+        "Автоматически эскалируйте оценки критиков (Detractors) руководству с личным звонком в течение 24 часов.",
+        "Направляйте промоутеров (Promoters) на платформы отзывов (G2, Trustpilot) и в реферальную программу.",
+        "Систематизируйте текстовые комментарии по категориям: баги, пробелы функционала, ценовые барьеры."
+],
+      semanticType: "structural_directive",
+      tags: ["business","nps","customer-success","feedback","retention"],
+    }),
+  },
+
+  "business-franchise-model-unit-economics-replication": {
+    id: "business-franchise-model-unit-economics-replication",
+    name: "BusinessFranchiseModelUnitEconomicsReplicationSkill",
+    displayName: "Franchise Playbook & Unit Economics Replication Standards",
+    categoryId: "business",
+    description: "Standardizes four-wall EBITDA, royalty fee structures, territory exclusivity, and operational SOPs for scalable franchising.",
+    tags: ["business","franchising","operations","scaling","retail"],
+    transform: createStandardSkillTransform({
+      sectionName: "Franchise Model & Replication Blueprint",
+      ruSectionName: "Стандарты тиражирования бизнеса по франшизе (Four-Wall EBITDA, SOP)",
+      instructions: [
+        "Prove 4-wall EBITDA profitability and payback under 24 months across 3 distinct corporate-owned locations before franchising.",
+        "Document every operational standard operating procedure (SOP) into a step-by-step digital manual.",
+        "Establish royalty and marketing fund fee structures aligned with franchisee long-term unit margins."
+],
+      ruInstructions: [
+        "Докажите окупаемость до 24 месяцев на 3 собственных точках перед запуском франчайзинговой программы.",
+        "Опишите все операционные стандарты (SOP) в виде пошаговых регламентов и чек-листов.",
+        "Устанавливайте процент роялти и маркетинговых сборов так, чтобы сохранять высокую рентабельность франчайзи."
+],
+      semanticType: "structural_directive",
+      tags: ["business","franchising","operations","scaling","retail"],
+    }),
+  },
+
+  "business-mergers-acquisitions-m-and-a-integration": {
+    id: "business-mergers-acquisitions-m-and-a-integration",
+    name: "BusinessMergersAcquisitionsMAndAIntegrationSkill",
+    displayName: "Post-Merger Integration (PMI) & Synergy Realization Plan",
+    categoryId: "business",
+    description: "Executes 100-day post-acquisition integration covering IT consolidation, culture alignment, talent retention, and cost synergies.",
+    tags: ["business","m-and-a","integration","corporate-development","strategy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Post-Merger Integration (PMI) Framework",
+      ruSectionName: "План интеграции после слияний и поглощений (PMI 100 Days & Synergies)",
+      instructions: [
+        "Establish a centralized Integration Management Office (IMO) with workstream leads for HR, Tech, and Sales.",
+        "Execute Day 1 readiness checklists: payroll continuity, email systems, and unified customer communication.",
+        "Track hard revenue and cost synergy milestones against the acquisition investment thesis."
+],
+      ruInstructions: [
+        "Создавайте проектный офис интеграции (IMO) с лидерами по направлениям IT, HR, продажам и финансам.",
+        "Обеспечивайте бесперебойность процессов в День 1: непрерывность выплат, доступ к системам и коммуникация с клиентами.",
+        "Контролируйте достижение плановых синергий по выручке и сокращению издержек по сравнению с исходным инвест-мемо."
+],
+      semanticType: "structural_directive",
+      tags: ["business","m-and-a","integration","corporate-development","strategy"],
+    }),
+  },
+
+  "business-channel-partner-reseller-program": {
+    id: "business-channel-partner-reseller-program",
+    name: "BusinessChannelPartnerResellerProgramSkill",
+    displayName: "B2B Indirect Channel Partner & Value-Added Reseller (VAR) Program",
+    categoryId: "business",
+    description: "Designs multi-tier reseller programs, deal registration protection, co-op marketing funds, and partner enablement academies.",
+    tags: ["business","channel-sales","partnerships","reseller","b2b"],
+    transform: createStandardSkillTransform({
+      sectionName: "Channel Partner & VAR Program Architecture",
+      ruSectionName: "Архитектура партнерских и дистрибьюторских программ продаж (VAR, Channel Sales)",
+      instructions: [
+        "Enforce ironclad deal registration policies to prevent channel conflict between direct sales and partners.",
+        "Tier partner margins based on technical certification levels, active pipeline generation, and co-selling activity.",
+        "Provide ready-to-use co-branded collateral and dedicated partner sales engineering support."
+],
+      ruInstructions: [
+        "Внедряйте строгую регистрацию сделок (Deal Registration) для исключения конфликта между прямыми и партнерскими продажами.",
+        "Дифференцируйте маржу партнеров в зависимости от уровня технической сертификации и объемов продаж.",
+        "Предоставляйте совместные маркетинговые материалы и выделенных инженеров поддержки партнерских сделок."
+],
+      semanticType: "structural_directive",
+      tags: ["business","channel-sales","partnerships","reseller","b2b"],
+    }),
+  },
+
+  "business-esg-sustainability-reporting-csrd": {
+    id: "business-esg-sustainability-reporting-csrd",
+    name: "BusinessEsgSustainabilityReportingCsrdSkill",
+    displayName: "Corporate Sustainability & ESG Reporting (CSRD/GRI Standards)",
+    categoryId: "business",
+    description: "Measures Scope 1, 2, and 3 carbon emissions, supply chain labor ethics, and board governance transparency under EU CSRD.",
+    tags: ["business","esg","sustainability","compliance","csrd","reporting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate ESG & CSRD Sustainability Standards",
+      ruSectionName: "Корпоративная отчетность ESG и устойчивое развитие (CSRD, GRI, Scope 1-3)",
+      instructions: [
+        "Calculate Scope 1 (direct), Scope 2 (purchased electricity), and Scope 3 (upstream/downstream value chain) emissions.",
+        "Perform double materiality assessments: evaluate climate impact on the business and business impact on society.",
+        "Ensure third-party auditable audit trails for all sustainability data points."
+],
+      ruInstructions: [
+        "Рассчитывайте выбросы парниковых газов по трем охватам: Scope 1 (прямые), Scope 2 (энергия), Scope 3 (цепочка поставок).",
+        "Проводите оценку двойной существенности (Double Materiality): влияние климата на бизнес и бизнеса на экологию.",
+        "Обеспечивайте аудируемость всех данных об устойчивом развитии для внешних проверяющих органов."
+],
+      semanticType: "structural_directive",
+      tags: ["business","esg","sustainability","compliance","csrd","reporting"],
+    }),
+  },
+
+  "business-voice-of-the-customer-voc-analytics": {
+    id: "business-voice-of-the-customer-voc-analytics",
+    name: "BusinessVoiceOfTheCustomerVocAnalyticsSkill",
+    displayName: "Enterprise Voice-of-the-Customer (VoC) Multi-Channel Listening Engine",
+    categoryId: "business",
+    description: "Synthesizes customer call recordings, support tickets, app store reviews, and sales notes into unified prioritization vectors.",
+    tags: ["business","voc","customer-feedback","product-management","insights"],
+    transform: createStandardSkillTransform({
+      sectionName: "Voice of the Customer (VoC) Architecture",
+      ruSectionName: "Система сбора и синтеза голоса клиента (Voice of the Customer / VoC)",
+      instructions: [
+        "Ingest unstructured customer feedback across support chats, Gong call transcripts, and survey open fields.",
+        "Cluster complaints into root-cause problem statements tagged by revenue impact and customer tier.",
+        "Present a monthly VoC executive summary connecting top customer pain points to product engineering sprints."
+],
+      ruInstructions: [
+        "Агрегируйте неструктурированную обратную связь из тикетов поддержки, записей звонков и опросов.",
+        "Кластеризуйте боли пользователей с привязкой к объему выручки затронутых клиентов.",
+        "Формируйте ежемесячный дайджест для руководства, связывающий ключевые жалобы с планами разработки."
+],
+      semanticType: "structural_directive",
+      tags: ["business","voc","customer-feedback","product-management","insights"],
+    }),
+  },
+
+  "business-working-capital-cash-conversion-cycle": {
+    id: "business-working-capital-cash-conversion-cycle",
+    name: "BusinessWorkingCapitalCashConversionCycleSkill",
+    displayName: "Working Capital & Cash Conversion Cycle (CCC) Compression",
+    categoryId: "business",
+    description: "Compresses Days Sales Outstanding (DSO) + Days Sales of Inventory (DSI) - Days Payable Outstanding (DPO) to liberate operating cash.",
+    tags: ["business","working-capital","finance","cash-flow","treasury"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cash Conversion Cycle (CCC) Optimization",
+      ruSectionName: "Оптимизация рабочего капитала и цикла обращения денежных средств (CCC: DSO, DSI, DPO)",
+      instructions: [
+        "Calculate CCC: `Days Sales of Inventory (DSI) + Days Sales Outstanding (DSO) - Days Payable Outstanding (DPO)`.",
+        "Incentivize early customer invoice settlement via dynamic discounting (e.g. 2/10 Net 30).",
+        "Negotiate extended vendor payment terms while optimizing just-in-time inventory turnover."
+],
+      ruInstructions: [
+        "Рассчитывайте финансовый цикл (CCC): время оборота запасов + срок сбора дебиторской задолженности - срок оплаты поставщикам.",
+        "Ускоряйте сбор дебиторки с помощью скидок за досрочную оплату счетов (Dynamic Discounting).",
+        "Договаривайтесь об отсрочках платежей с поставщиками для высвобождения свободного операционного кэша."
+],
+      semanticType: "structural_directive",
+      tags: ["business","working-capital","finance","cash-flow","treasury"],
+    }),
+  },
+
+  "business-key-account-management-kam-growth": {
+    id: "business-key-account-management-kam-growth",
+    name: "BusinessKeyAccountManagementKamGrowthSkill",
+    displayName: "Strategic Key Account Management (KAM) & Multi-Year Joint Business Plans",
+    categoryId: "business",
+    description: "Aligns executive sponsorship, joint business plans (JBP), and quarterly value reviews to protect and grow top 20% revenue accounts.",
+    tags: ["business","kam","account-management","enterprise-sales","growth"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strategic Key Account Management (KAM) Standards",
+      ruSectionName: "Стратегическое управление ключевыми клиентами (Key Account Management / KAM)",
+      instructions: [
+        "Build a multi-threaded relationship map across customer executive sponsors, economic buyers, and champions.",
+        "Co-create a mutual Joint Business Plan (JBP) with shared 12-month business milestones and quantifiable ROI targets.",
+        "Conduct quarterly strategic executive business reviews (EBR) focused on strategic outcomes rather than support tickets."
+],
+      ruInstructions: [
+        "Формируйте многоуровневую карту контактов: от технических специалистов до топ-менеджеров клиента.",
+        "Разрабатывайте совместный бизнес-план (JBP) с согласованными целями и критериями окупаемости на год.",
+        "Проводите ежеквартальные стратегические встречи (EBR), обсуждая влияние на бизнес клиента, а не статус тикетов."
+],
+      semanticType: "structural_directive",
+      tags: ["business","kam","account-management","enterprise-sales","growth"],
+    }),
+  },
 };

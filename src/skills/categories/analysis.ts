@@ -1908,4 +1908,1126 @@ export const ANALYSIS_SKILLS: Record<string, SkillDefinition> = {
       tags: ["analysis","git","merge-conflicts","ast","version-control"],
     }),
   },
+  "structural-decomposition-spectral-matrix": {
+    id: "structural-decomposition-spectral-matrix",
+    name: "StructuralDecompositionSpectralMatrixSkill",
+    displayName: "Spectral Graph & Structural Matrix Decomposition",
+    categoryId: "analysis",
+    description: "Analyzes system architecture as an adjacency matrix and evaluates eigen-centrality and spectral bottlenecks.",
+    tags: ["analysis","spectral","graph-theory","matrices","topology"],
+    transform: createStandardSkillTransform({
+      sectionName: "Spectral Topology & Structural Dependency Matrix",
+      ruSectionName: "Спектральная топология и матрица структурных зависимостей",
+      instructions: [
+        "Represent all subsystems and their coupling interactions as a weighted adjacency matrix.",
+        "Calculate node centrality to pinpoint hidden structural single points of failure (chokepoints).",
+        "Identify decoupled sub-graphs suitable for independent asynchronous scaling."
+],
+      ruInstructions: [
+        "Представьте компоненты системы и связи между ними в виде взвешенной матрицы смежности.",
+        "Рассчитайте центральность узлов для выявления скрытых критических узких мест архитектуры.",
+        "Выделите слабосвязанные подграфы, пригодные для полностью автономного масштабирования."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","spectral","graph-theory","matrices","topology"],
+    }),
+  },
+
+  "failure-mode-effects-criticality-analysis-fmeca": {
+    id: "failure-mode-effects-criticality-analysis-fmeca",
+    name: "FailureModeEffectsCriticalityAnalysisFmecaSkill",
+    displayName: "Formal FMECA Risk Priority Number (RPN) Matrix",
+    categoryId: "analysis",
+    description: "Calculates Risk Priority Number (RPN = Severity × Occurrence × Detection) for all potential component failures.",
+    tags: ["analysis","fmeca","rpn","reliability","risk-assessment"],
+    transform: createStandardSkillTransform({
+      sectionName: "FMECA Failure Mode Criticality & RPN Matrix",
+      ruSectionName: "Анализ видов, последствий и критичности отказов (FMECA / RPN)",
+      instructions: [
+        "Score Severity (S 1-10), Probability of Occurrence (O 1-10), and Undetectability (D 1-10) for every failure mode.",
+        "Compute the composite Risk Priority Number (RPN = S × O × D) and sort failure vectors in descending order.",
+        "Mandate immediate architectural mitigations for all failure modes with RPN > 100 or Severity ≥ 9."
+],
+      ruInstructions: [
+        "Оцените тяжесть последствий (S), вероятность возникновения (O) и необнаруживаемость (D) по 10-балльной шкале.",
+        "Рассчитайте совокупный индекс риска (RPN = S × O × D) и отсортируйте угрозы по убыванию.",
+        "Внедрите первоочередные меры для всех сценариев с RPN > 100 или критичностью Severity ≥ 9."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","fmeca","rpn","reliability","risk-assessment"],
+    }),
+  },
+
+  "sensitivity-elasticity-variance-analysis": {
+    id: "sensitivity-elasticity-variance-analysis",
+    name: "SensitivityElasticityVarianceAnalysisSkill",
+    displayName: "Parameter Sensitivity & Elasticity Gradient Analysis",
+    categoryId: "analysis",
+    description: "Computes partial derivatives to measure elasticity and output volatility relative to input changes.",
+    tags: ["analysis","sensitivity","elasticity","derivatives","modeling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Parameter Sensitivity & Elasticity Gradient Matrix",
+      ruSectionName: "Анализ чувствительности параметров и градиентов эластичности",
+      instructions: [
+        "Compute the elasticity coefficient for all key variables.",
+        "Highlight hyper-sensitive parameters where a 1% input perturbation triggers >5% output variance.",
+        "Introduce dampening controls or circuit breakers to bound hyper-sensitive gradient spikes."
+],
+      ruInstructions: [
+        "Рассчитайте коэффициенты эластичности параметров.",
+        "Выделите гиперчувствительные параметры с резким откликом.",
+        "Внедрите стабилизирующие демпферы для сглаживания всплесков."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","sensitivity","elasticity","derivatives","modeling"],
+    }),
+  },
+
+  "gap-analysis-delta-roadmap": {
+    id: "gap-analysis-delta-roadmap",
+    name: "GapAnalysisDeltaRoadmapSkill",
+    displayName: "Current State vs Target State Gap & Delta Roadmap",
+    categoryId: "analysis",
+    description: "Maps Current (As-Is) vs Future (To-Be) state, isolating technical and capability gaps into actionable workstreams.",
+    tags: ["analysis","gap-analysis","as-is-to-be","roadmap","architecture"],
+    transform: createStandardSkillTransform({
+      sectionName: "As-Is vs To-Be Gap Analysis & Transition Roadmap",
+      ruSectionName: "GAP-анализ (As-Is vs To-Be) и дорожная карта ликвидации разрывов",
+      instructions: [
+        "Document the baseline Current State (As-Is) across Architecture, Data, Process, and Team.",
+        "Define the target Future State (To-Be) with concrete, measurable KPIs and SLA benchmarks.",
+        "Formulate a sequenced phased migration bridge to close every identified capability gap."
+],
+      ruInstructions: [
+        "Зафиксируйте текущее состояние (As-Is) в разрезе архитектуры и процессов.",
+        "Опишите целевое состояние (To-Be) с четкими метриками.",
+        "Сформируйте дорожную карту перехода."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","gap-analysis","as-is-to-be","roadmap","architecture"],
+    }),
+  },
+
+  "comparative-benchmark-radar-chart": {
+    id: "comparative-benchmark-radar-chart",
+    name: "ComparativeBenchmarkRadarChartSkill",
+    displayName: "Multi-Dimensional Competitive Benchmark Radar",
+    categoryId: "analysis",
+    description: "Ranks competing architectural or commercial alternatives across 6-8 normalized quantitative dimensions.",
+    tags: ["analysis","benchmarking","radar-chart","evaluation","tradeoffs"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Dimensional Benchmark & Radar Matrix",
+      ruSectionName: "Многомерный сравнительный бенчмарк и лепестковая диаграмма",
+      instructions: [
+        "Define 6-8 standardized evaluation criteria.",
+        "Score each competing architecture on a normalized 1-10 scale with clear empirical evidence justifications.",
+        "Highlight competitive moats and fatal structural deficits for each evaluated candidate."
+],
+      ruInstructions: [
+        "Определите критерии оценки (производительность, масштабируемость, безопасность).",
+        "Оцените варианты по 10-балльной шкале.",
+        "Выделите преимущества и дефициты каждого решения."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","benchmarking","radar-chart","evaluation","tradeoffs"],
+    }),
+  },
+
+  "cost-benefit-npv-roi-modeling": {
+    id: "cost-benefit-npv-roi-modeling",
+    name: "CostBenefitNpvRoiModelingSkill",
+    displayName: "Capital Cost-Benefit (NPV / IRR / ROI / TCO) Modeling",
+    categoryId: "analysis",
+    description: "Calculates Net Present Value, Internal Rate of Return, Payback Period, and 3-Year Total Cost of Ownership.",
+    tags: ["analysis","finance","roi","npv","tco","business-case"],
+    transform: createStandardSkillTransform({
+      sectionName: "Financial Cost-Benefit (NPV/IRR/TCO) Model",
+      ruSectionName: "Финансовый анализ затрат и выгод (NPV, IRR, ROI, TCO на 3 года)",
+      instructions: [
+        "Model Capital Expenditures (CapEx) vs Operational Expenditures (OpEx) across a 36-month horizon.",
+        "Calculate Discounted Cash Flows (DCF) using standard corporate Weighted Average Cost of Capital (WACC).",
+        "State the Breakeven Payback Month and projected Return on Investment (ROI %)."
+],
+      ruInstructions: [
+        "Смоделируйте CapEx и OpEx на 36 месяцев.",
+        "Рассчитайте дисконтированные денежные потоки (DCF).",
+        "Укажите срок окупаемости и ROI."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","finance","roi","npv","tco","business-case"],
+    }),
+  },
+
+  "swot-tows-strategic-cross-matrix": {
+    id: "swot-tows-strategic-cross-matrix",
+    name: "SwotTowsStrategicCrossMatrixSkill",
+    displayName: "TOWS Strategic Action Matrix (SO / ST / WO / WT)",
+    categoryId: "analysis",
+    description: "Transforms standard SWOT into actionable TOWS strategies (Strengths-Opportunities, Weaknesses-Threats).",
+    tags: ["analysis","swot","tows","strategy","planning"],
+    transform: createStandardSkillTransform({
+      sectionName: "TOWS Actionable Cross-Strategy Matrix",
+      ruSectionName: "Матрица стратегических действий TOWS (SO, ST, WO, WT)",
+      instructions: [
+        "Formulate SO, ST, WO, and WT actionable strategic vectors.",
+        "Pair internal capabilities with external market shifts.",
+        "Eliminate vague qualitative statements in favor of concrete initiatives."
+],
+      ruInstructions: [
+        "Сформулируйте векторы действий SO, ST, WO, WT.",
+        "Сопоставьте внутренние силы с рыночными возможностями.",
+        "Преобразуйте анализ в конкретный план инициатив."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","swot","tows","strategy","planning"],
+    }),
+  },
+
+  "bottleneck-theory-of-constraints-goldratt": {
+    id: "bottleneck-theory-of-constraints-goldratt",
+    name: "BottleneckTheoryOfConstraintsGoldrattSkill",
+    displayName: "Goldratt Theory of Constraints (TOC) & Drum-Buffer-Rope",
+    categoryId: "analysis",
+    description: "Identifies the single binding constraint that limits total system throughput and builds a Drum-Buffer-Rope plan.",
+    tags: ["analysis","toc","goldratt","bottleneck","throughput","capacity"],
+    transform: createStandardSkillTransform({
+      sectionName: "Goldratt Theory of Constraints & Throughput Optimization",
+      ruSectionName: "Теория ограничений Голдратта (TOC): Поиск и расшивка ключевого узкого места",
+      instructions: [
+        "Identify the single binding constraint limiting throughput.",
+        "Exploit and subordinate all subsystems to the bottleneck pace.",
+        "Elevate the constraint and prevent inertia."
+],
+      ruInstructions: [
+        "Определите главное узкое место системы.",
+        "Подчините ритм всех модулей скорости ограничения.",
+        "Инвестируйте в расширение узкого места."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","toc","goldratt","bottleneck","throughput","capacity"],
+    }),
+  },
+
+  "data-lineage-provenance-audit": {
+    id: "data-lineage-provenance-audit",
+    name: "DataLineageProvenanceAuditSkill",
+    displayName: "End-to-End Data Lineage & Cryptographic Provenance",
+    categoryId: "analysis",
+    description: "Traces data origins, transformations, schema mutations, and custody chains from ingestion to consumption.",
+    tags: ["analysis","data-lineage","provenance","compliance","governance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Data Lineage & Cryptographic Provenance Audit",
+      ruSectionName: "Аудит происхождения и цепочки движения данных (Data Lineage)",
+      instructions: [
+        "Map data flows from upstream ingestion sources through ETL transformations down to destination marts.",
+        "Record every transformation stage and schema mutation.",
+        "Ensure immutable cryptographic provenance hashes."
+],
+      ruInstructions: [
+        "Постройте карту движения данных от сбора до витрин.",
+        "Зафиксируйте трансформации схем.",
+        "Обеспечьте неизменяемый аудит."
+],
+      semanticType: "compliance_directive",
+      tags: ["analysis","data-lineage","provenance","compliance","governance"],
+    }),
+  },
+
+  "pestle-macro-environmental-scan": {
+    id: "pestle-macro-environmental-scan",
+    name: "PestleMacroEnvironmentalScanSkill",
+    displayName: "PESTLE Macro-Environmental Risk Scan",
+    categoryId: "analysis",
+    description: "Evaluates Political, Economic, Social, Technological, Legal, and Environmental headwinds and tailwinds.",
+    tags: ["analysis","pestle","macro-environment","strategy","geopolitics"],
+    transform: createStandardSkillTransform({
+      sectionName: "PESTLE Macro-Environmental Risk Scan",
+      ruSectionName: "Макроэкономический анализ внешней среды (PESTLE)",
+      instructions: [
+        "Analyze systemic vectors across all 6 PESTLE pillars.",
+        "Identify high-impact regulatory or macroeconomic shifts with probability >30%.",
+        "Formulate operational hedging strategies."
+],
+      ruInstructions: [
+        "Проанализируйте макро-факторы по 6 направлениям PESTLE.",
+        "Выделите регуляторные и технологические сдвиги.",
+        "Разработайте меры хеджирования."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","pestle","macro-environment","strategy","geopolitics"],
+    }),
+  },
+
+  "cohort-retention-churn-decay-model": {
+    id: "cohort-retention-churn-decay-model",
+    name: "CohortRetentionChurnDecayModelSkill",
+    displayName: "Cohort Retention & Non-Linear Churn Decay Curve",
+    categoryId: "analysis",
+    description: "Models user or system retention cohorts over time using Weibull / Pareto survival decay functions.",
+    tags: ["analysis","retention","churn","cohorts","survival-analysis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cohort Retention & Survival Analysis Model",
+      ruSectionName: "Когортный анализ удержания и кривые оттока (Survival Analysis)",
+      instructions: [
+        "Stratify data into distinct time-based and behavior-based acquisition cohorts.",
+        "Fit observed retention against asymptotic power-law decay functions.",
+        "Pinpoint critical drop-off thresholds."
+],
+      ruInstructions: [
+        "Разделите данные на когорты.",
+        "Постройте кривые удержания (Retention).",
+        "Выявите критические точки оттока."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","retention","churn","cohorts","survival-analysis"],
+    }),
+  },
+
+  "threat-model-stride-matrix": {
+    id: "threat-model-stride-matrix",
+    name: "ThreatModelStrideMatrixSkill",
+    displayName: "Microsoft STRIDE Threat Modeling & DREAD Scoring",
+    categoryId: "analysis",
+    description: "Identifies threats across Spoofing, Tampering, Repudiation, Info Disclosure, Denial of Service, Elevation of Privilege.",
+    tags: ["analysis","stride","dread","threat-modeling","cybersecurity"],
+    transform: createStandardSkillTransform({
+      sectionName: "Microsoft STRIDE Threat Model & DREAD Risk Score",
+      ruSectionName: "Моделирование угроз по методологии STRIDE и скоринг DREAD",
+      instructions: [
+        "Evaluate threats across all 6 STRIDE vectors.",
+        "Score vulnerabilities via DREAD framework.",
+        "Prescribe mandatory cryptographic mitigations."
+],
+      ruInstructions: [
+        "Проведите аудит по 6 векторам STRIDE.",
+        "Оцените уязвимости по шкале DREAD.",
+        "Сформируйте обязательные меры защиты."
+],
+      semanticType: "guardrail_directive",
+      tags: ["analysis","stride","dread","threat-modeling","cybersecurity"],
+    }),
+  },
+
+  "value-stream-waste-muda-mapping": {
+    id: "value-stream-waste-muda-mapping",
+    name: "ValueStreamWasteMudaMappingSkill",
+    displayName: "Lean Value Stream Mapping & 7 Wastes (Muda) Audit",
+    categoryId: "analysis",
+    description: "Maps end-to-end Value Stream and eliminates the 7 Lean wastes.",
+    tags: ["analysis","lean","value-stream","muda","toyota","efficiency"],
+    transform: createStandardSkillTransform({
+      sectionName: "Lean Value Stream & 7 Wastes (Muda) Elimination",
+      ruSectionName: "Картирование потока создания ценности (VSM) и устранение 7 потерь (Muda)",
+      instructions: [
+        "Calculate Process Cycle Efficiency (PCE).",
+        "Audit workflow for the 7 classic Toyota wastes.",
+        "Eliminate non-value-add handoffs."
+],
+      ruInstructions: [
+        "Рассчитайте эффективность цикла (PCE).",
+        "Устраните 7 классических потерь Toyota.",
+        "Сократите время ожидания в очередях."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","lean","value-stream","muda","toyota","efficiency"],
+    }),
+  },
+
+  "unit-economics-cac-ltv-cohort": {
+    id: "unit-economics-cac-ltv-cohort",
+    name: "UnitEconomicsCacLtvCohortSkill",
+    displayName: "SaaS Unit Economics (LTV:CAC / Payback / Net Retention)",
+    categoryId: "analysis",
+    description: "Analyzes Customer Lifetime Value, Customer Acquisition Cost, Payback Period, and Net Revenue Retention (NRR).",
+    tags: ["analysis","unit-economics","cac","ltv","nrr","saas-metrics"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Unit Economics & Cohort Contribution Margin",
+      ruSectionName: "Юнит-экономика: LTV/CAC, Payback, Net Revenue Retention (NRR)",
+      instructions: [
+        "Compute fully loaded CAC.",
+        "Calculate LTV and LTV:CAC ratio (target ≥ 3:1).",
+        "Track Net Revenue Retention (NRR)."
+],
+      ruInstructions: [
+        "Рассчитайте полную стоимость привлечения (CAC).",
+        "Оцените LTV и коэффициент LTV:CAC.",
+        "Проанализируйте NRR."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","unit-economics","cac","ltv","nrr","saas-metrics"],
+    }),
+  },
+
+  "anomaly-statistical-outlier-iqr": {
+    id: "anomaly-statistical-outlier-iqr",
+    name: "AnomalyStatisticalOutlierIqrSkill",
+    displayName: "Robust Statistical Outlier Detection (Tukey IQR / Z-Score)",
+    categoryId: "analysis",
+    description: "Detects anomalous telemetry and fraudulent transactions using Tukey Interquartile Range and MAD.",
+    tags: ["analysis","anomaly-detection","outliers","iqr","statistics","mad"],
+    transform: createStandardSkillTransform({
+      sectionName: "Robust Outlier Detection & Anomaly Screening",
+      ruSectionName: "Статистическое выявление аномалий и выбросов (Tukey IQR, MAD, Z-Score)",
+      instructions: [
+        "Compute Tukey Fences and Median Absolute Deviation.",
+        "Filter out transient noise without suppressing true outliers.",
+        "Generate automated incident alerts."
+],
+      ruInstructions: [
+        "Рассчитайте границы IQR и MAD.",
+        "Отфильтруйте случайный шум от критических аномалий.",
+        "Сформируйте правила алертинга."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","anomaly-detection","outliers","iqr","statistics","mad"],
+    }),
+  },
+
+  "conjoint-choice-based-partworth": {
+    id: "conjoint-choice-based-partworth",
+    name: "ConjointChoiceBasedPartworthSkill",
+    displayName: "Choice-Based Conjoint (CBC) Part-Worth Utility Analysis",
+    categoryId: "analysis",
+    description: "Measures customer willingness-to-pay and feature preference trade-offs via discrete choice modeling.",
+    tags: ["analysis","conjoint","pricing","willingness-to-pay","preferences"],
+    transform: createStandardSkillTransform({
+      sectionName: "Choice-Based Conjoint Part-Worth Utility Model",
+      ruSectionName: "Конджойнт-анализ потребительских предпочтений и полезности функций (CBC)",
+      instructions: [
+        "Decompose products into discrete feature attributes and price levels.",
+        "Estimate multinomial logit part-worth utilities for each attribute level.",
+        "Simulate market share sensitivity under varied packaging and pricing configurations."
+],
+      ruInstructions: [
+        "Разложите продукт на атрибуты и ценовые уровни.",
+        "Оцените полезность каждой функции методом логистической регрессии.",
+        "Смоделируйте рыночную долю при разных конфигурациях тарифов."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","conjoint","pricing","willingness-to-pay","preferences"],
+    }),
+  },
+
+  "bostongrowthsharematrix-bcg": {
+    id: "bostongrowthsharematrix-bcg",
+    name: "BostonGrowthShareMatrixBcgSkill",
+    displayName: "BCG Growth-Share Matrix (Stars, Cash Cows, Dogs, Question Marks)",
+    categoryId: "analysis",
+    description: "Allocates portfolio resources by plotting market growth rate against relative market share.",
+    tags: ["analysis","bcg-matrix","portfolio","growth-share","strategy"],
+    transform: createStandardSkillTransform({
+      sectionName: "BCG Portfolio Growth-Share Matrix",
+      ruSectionName: "Матрица БКГ: Звезды, Дойные коровы, Собаки, Трудные дети",
+      instructions: [
+        "Plot business units / features across Market Growth Rate vs Relative Market Share.",
+        "Milking Cash Cows to fund high-growth Stars and selective Question Marks.",
+        "Divest or sunset low-growth, low-share Dogs with zero strategic synergies."
+],
+      ruInstructions: [
+        "Разместите продукты на матрице Темп роста / Доля рынка.",
+        "Направляйте поток от «Дойных коров» на развитие «Звезд».",
+        "Выводите из эксплуатации нерентабельные «Собаки»."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","bcg-matrix","portfolio","growth-share","strategy"],
+    }),
+  },
+
+  "heijunka-leveling-takt-time": {
+    id: "heijunka-leveling-takt-time",
+    name: "HeijunkaLevelingTaktTimeSkill",
+    displayName: "Toyota Heijunka Production Leveling & Takt Time",
+    categoryId: "analysis",
+    description: "Levels workflow volume and mix to prevent bullwhip effect and match pace to exact Takt Time demand.",
+    tags: ["analysis","heijunka","takt-time","lean","operations","leveling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Heijunka Production Leveling & Takt Time Alignment",
+      ruSectionName: "Выравнивание потока Хейдзунка и синхронизация по времени такта (Takt Time)",
+      instructions: [
+        "Calculate Takt Time: Net Available Operating Time / Customer Demand Rate.",
+        "Level production batches into mixed-model pacing to eliminate sudden demand spikes.",
+        "Maintain minimal buffer inventory to absorb micro-stoppages."
+],
+      ruInstructions: [
+        "Рассчитайте время такта (Takt Time).",
+        "Выровняйте объемы и номенклатуру задач для сглаживания пиков.",
+        "Используйте буферные запасы для компенсации микро-сбоев."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","heijunka","takt-time","lean","operations","leveling"],
+    }),
+  },
+
+  "monte-carlo-financial-var-cvar": {
+    id: "monte-carlo-financial-var-cvar",
+    name: "MonteCarloFinancialVarCvarSkill",
+    displayName: "Value at Risk (VaR 99%) & Conditional Tail Risk (CVaR)",
+    categoryId: "analysis",
+    description: "Quantifies maximum potential financial or latency loss under extreme tail stress scenarios.",
+    tags: ["analysis","var","cvar","tail-risk","financial-risk","stress-test"],
+    transform: createStandardSkillTransform({
+      sectionName: "Value at Risk (VaR) & Expected Shortfall (CVaR) Matrix",
+      ruSectionName: "Оценка хвостовых рисков VaR (99%) и ожидаемого дефицита CVaR",
+      instructions: [
+        "Calculate Parametric and Historical Value at Risk (VaR at 95% and 99% confidence).",
+        "Compute Conditional VaR (Expected Shortfall) measuring average loss when the VaR threshold is breached.",
+        "Design capital and compute headroom buffers exceeding the 99% CVaR boundary."
+],
+      ruInstructions: [
+        "Рассчитайте Value at Risk (VaR) для доверительных уровней 95% и 99%.",
+        "Оцените средний размер убытка при пробитии порога риска (CVaR / Expected Shortfall).",
+        "Заложите резерв ресурсов, покрывающий наихудший 1% сценариев."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","var","cvar","tail-risk","financial-risk","stress-test"],
+    }),
+  },
+
+  "semantic-sentiment-aspect-polarity": {
+    id: "semantic-sentiment-aspect-polarity",
+    name: "SemanticSentimentAspectPolaritySkill",
+    displayName: "Aspect-Based Sentiment & Granular Polarity Extraction",
+    categoryId: "analysis",
+    description: "Extracts fine-grained sentiment polarity (+1 to -1) mapped directly to specific product features and entities.",
+    tags: ["analysis","sentiment","absa","nlp","aspect-based","feedback"],
+    transform: createStandardSkillTransform({
+      sectionName: "Aspect-Based Sentiment & Entity Polarity Analysis",
+      ruSectionName: "Аспектно-ориентированный анализ тональности (ABSA)",
+      instructions: [
+        "Extract discrete entities and features mentioned in unstructured feedback.",
+        "Score sentiment polarity [-1.0, +1.0] and emotional intensity for each isolated aspect.",
+        "Aggregate aspect scores into a prioritized satisfaction deficit radar."
+],
+      ruInstructions: [
+        "Выделите отдельные сущности и функции продукта из текста отзывов.",
+        "Оцените тональность каждого аспекта по шкале от -1.0 до +1.0.",
+        "Сформируйте радар ключевых зон недовольства пользователей."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","sentiment","absa","nlp","aspect-based","feedback"],
+    }),
+  },
+
+  "rfm-customer-segmentation-matrix": {
+    id: "rfm-customer-segmentation-matrix",
+    name: "RfmCustomerSegmentationMatrixSkill",
+    displayName: "RFM (Recency, Frequency, Monetary) Customer Segmentation",
+    categoryId: "analysis",
+    description: "Segments customer bases into Champions, Loyalists, Potential Churn, and Hibernating via quintile scoring.",
+    tags: ["analysis","rfm","segmentation","marketing","customer-lifecycle"],
+    transform: createStandardSkillTransform({
+      sectionName: "RFM Quintile Customer Segmentation Matrix",
+      ruSectionName: "RFM-сегментация клиентской базы (Recency, Frequency, Monetary)",
+      instructions: [
+        "Score users on Recency (1-5), Frequency (1-5), and Monetary value (1-5).",
+        "Group scores into actionable behavioral segments (Champions, At-Risk, Hibernating, New Leads).",
+        "Assign targeted lifecycle retention and reactivation playbooks to each cohort."
+],
+      ruInstructions: [
+        "Оцените пользователей по шкале 1–5 по давности, частоте и чеку (RFM).",
+        "Сгруппируйте клиентов в когорты: Чемпионы, Лояльные, Зона риска, Спящие.",
+        "Назначьте индивидуальные сценарии удержания для каждого сегмента."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","rfm","segmentation","marketing","customer-lifecycle"],
+    }),
+  },
+
+  "kano-model-customer-delight": {
+    id: "kano-model-customer-delight",
+    name: "KanoModelCustomerDelightSkill",
+    displayName: "Noriaki Kano Feature Delight vs Necessity Model",
+    categoryId: "analysis",
+    description: "Classifies features into Must-Be, Performance, Attractive (Delighters), and Indifferent categories.",
+    tags: ["analysis","kano-model","product-management","customer-satisfaction","features"],
+    transform: createStandardSkillTransform({
+      sectionName: "Noriaki Kano Feature Classification Matrix",
+      ruSectionName: "Модель Кано: базовые требования, линейные функции и восторг (Delighters)",
+      instructions: [
+        "Administer functional vs dysfunctional paired question evaluation.",
+        "Categorize features into: Must-Have (dissatisfiers if missing), Performance (linear satisfaction), Delighters (high satisfaction with no downside).",
+        "Prioritize roadmap: 100% Must-Haves -> Competitive Performance -> Signature Delighters."
+],
+      ruInstructions: [
+        "Классифицируйте функции по категориям: Обязательные, Линейные, Привлекательные (Delighters).",
+        "Убедитесь в 100% реализации базовых требований, предотвращающих негатив.",
+        "Сфокусируйте инновации на уникальных функциях восторга."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","kano-model","product-management","customer-satisfaction","features"],
+    }),
+  },
+
+  "critical-path-pert-cpm-schedule": {
+    id: "critical-path-pert-cpm-schedule",
+    name: "CriticalPathPertCpmScheduleSkill",
+    displayName: "PERT / CPM Critical Path & Schedule Float Analysis",
+    categoryId: "analysis",
+    description: "Calculates the Critical Path, Total Float, Free Float, and probabilistic completion dates via PERT three-point estimates.",
+    tags: ["analysis","pert","cpm","critical-path","project-management","scheduling"],
+    transform: createStandardSkillTransform({
+      sectionName: "PERT / CPM Critical Path & Float Analysis",
+      ruSectionName: "Анализ критического пути (CPM) и оценка сроков по методике PERT",
+      instructions: [
+        "Calculate PERT Expected Duration: Te = (Optimistic + 4×Realistic + Pessimistic) / 6.",
+        "Perform Forward Pass (Early Start/Early Finish) and Backward Pass (Late Start/Late Finish).",
+        "Identify the Critical Path (Zero Total Float) and focus all management variance control on critical tasks."
+],
+      ruInstructions: [
+        "Рассчитайте средневзвешенную длительность по PERT: Te = (O + 4M + P) / 6.",
+        "Выполните прямой и обратный проход для определения ранних и поздних сроков.",
+        "Выделите задачи критического пути с нулевым резервом времени (Zero Float)."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","pert","cpm","critical-path","project-management","scheduling"],
+    }),
+  },
+
+  "funnel-conversion-dropoff-leakage": {
+    id: "funnel-conversion-dropoff-leakage",
+    name: "FunnelConversionDropoffLeakageSkill",
+    displayName: "Micro-Funnel Conversion & Leakage Attribution",
+    categoryId: "analysis",
+    description: "Identifies exact micro-step conversion drop-offs, isolating friction points across user and telemetry pipelines.",
+    tags: ["analysis","funnel","conversion","drop-off","analytics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Micro-Funnel Conversion & Drop-off Attribution",
+      ruSectionName: "Пошаговый анализ воронки конверсии и точек оттока",
+      instructions: [
+        "Instrument each discrete step in the user conversion journey with precise completion telemetry.",
+        "Calculate step-over-step dropoff percentages and overall end-to-end completion rate.",
+        "Diagnose technical, usability, and cognitive friction causing major step dropoffs."
+],
+      ruInstructions: [
+        "Зафиксируйте процент прохождения каждого шага воронки.",
+        "Рассчитайте сквозную конверсию и локальные коэффициенты оттока.",
+        "Сформулируйте гипотезы по устранению трения на проблемных шагах."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","funnel","conversion","drop-off","analytics"],
+    }),
+  },
+
+  "mckinsey-seven-s-alignment": {
+    id: "mckinsey-seven-s-alignment",
+    name: "MckinseySevenSAlignmentSkill",
+    displayName: "McKinsey 7-S Organizational & Architectural Alignment",
+    categoryId: "analysis",
+    description: "Audits alignment across Strategy, Structure, Systems, Shared Values, Style, Staff, and Skills.",
+    tags: ["analysis","mckinsey-7s","alignment","transformation","strategy"],
+    transform: createStandardSkillTransform({
+      sectionName: "McKinsey 7-S Systemic Alignment Matrix",
+      ruSectionName: "Модель 7-S McKinsey: системная согласованность архитектуры и организации",
+      instructions: [
+        "Evaluate Hard elements: Strategy, Structure, Systems.",
+        "Evaluate Soft elements: Shared Values, Style, Staff, Skills.",
+        "Identify misalignments where technology systems contradict strategy or team capabilities."
+],
+      ruInstructions: [
+        "Оцените жесткие элементы: Стратегия, Структура, Системы.",
+        "Оцените мягкие элементы: Общие ценности, Стиль, Персонал, Навыки.",
+        "Устраните расхождения между целями стратегии и реальными возможностями систем."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","mckinsey-7s","alignment","transformation","strategy"],
+    }),
+  },
+  "ansoff-matrix-growth-strategy": {
+    id: "ansoff-matrix-growth-strategy",
+    name: "AnsoffMatrixGrowthStrategySkill",
+    displayName: "Igor Ansoff Product-Market Growth Matrix",
+    categoryId: "analysis",
+    description: "Evaluates growth vectors: Market Penetration, Market Development, Product Development, and Diversification.",
+    tags: ["analysis","ansoff","growth-strategy","product-market","risk"],
+    transform: createStandardSkillTransform({
+      sectionName: "Igor Ansoff Product-Market Growth Matrix",
+      ruSectionName: "Матрица Ансоффа: Проникновение, Развитие рынка, Развитие продукта, Диверсификация",
+      instructions: [
+        "Categorize growth initiatives into the 4 Ansoff quadrants with associated risk ratings.",
+        "Quantify capital requirements and failure probabilities for high-risk Diversification moves.",
+        "Align core competencies with targeted product-market expansion."
+],
+      ruInstructions: [
+        "Разделите инициативы по 4 квадрантам Ансоффа с оценкой рисков.",
+        "Оцените ресурсы и вероятность успеха стратегий развития продукта и рынка.",
+        "Сопоставьте компетенции команды с выбранным вектором экспансии."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","ansoff","growth-strategy","product-market","risk"],
+    }),
+  },
+
+  "service-blueprint-frontstage-backstage": {
+    id: "service-blueprint-frontstage-backstage",
+    name: "ServiceBlueprintFrontstageBackstageSkill",
+    displayName: "Service Blueprinting (Frontstage, Backstage, Support Systems)",
+    categoryId: "analysis",
+    description: "Maps customer touchpoints across Line of Interaction, Line of Visibility, Line of Internal Interaction.",
+    tags: ["analysis","service-blueprint","frontstage","backstage","cx","operations"],
+    transform: createStandardSkillTransform({
+      sectionName: "Service Blueprint & Operational Interaction Matrix",
+      ruSectionName: "Сервисный блюпринт: Frontstage, Backstage и процессы поддержки",
+      instructions: [
+        "Map customer journey actions along the Line of Interaction.",
+        "Document visible employee/system actions above the Line of Visibility (Frontstage).",
+        "Detail invisible processing, databases, and third-party APIs below the Line of Internal Interaction (Backstage)."
+],
+      ruInstructions: [
+        "Опишите действия пользователя на линии взаимодействия (Line of Interaction).",
+        "Зафиксируйте видимые фронт-системы на линии видимости (Frontstage).",
+        "Опишите внутренние базы данных, брокеры сообщений и API на уровне Backstage."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","service-blueprint","frontstage","backstage","cx","operations"],
+    }),
+  },
+
+  "monte-carlo-project-schedule-risk": {
+    id: "monte-carlo-project-schedule-risk",
+    name: "MonteCarloProjectScheduleRiskSkill",
+    displayName: "Monte Carlo Critical Schedule & Milestone Risk Envelope",
+    categoryId: "analysis",
+    description: "Simulates probabilistic task durations across dependency graphs to predict P50/P80/P95 ship dates.",
+    tags: ["analysis","monte-carlo","schedule-risk","project-management","forecasting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Monte Carlo Schedule Risk & Ship Date Distribution",
+      ruSectionName: "Стохастическое моделирование сроков релиза по Монте-Карло (P50/P80/P95)",
+      instructions: [
+        "Assign triangular duration distributions (Min, Most Likely, Max) to all WBS work packages.",
+        "Run 10,000 simulations over the task dependency network.",
+        "Report commitment dates at the 80% and 95% confidence intervals."
+],
+      ruInstructions: [
+        "Задайте трехточечные оценки длительности для всех задач в графе зависимостей.",
+        "Проведите симуляцию методом Монте-Карло на 10 000 прогонов.",
+        "Зафиксируйте дату релиза с вероятностью выполнения 80% и 95%."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","monte-carlo","schedule-risk","project-management","forecasting"],
+    }),
+  },
+
+  "customer-journey-empathy-friction-map": {
+    id: "customer-journey-empathy-friction-map",
+    name: "CustomerJourneyEmpathyFrictionMapSkill",
+    displayName: "Customer Journey Empathy & Cognitive Friction Map",
+    categoryId: "analysis",
+    description: "Charts user emotional highs, lows, mental models, and drop-off risks across lifecycle stages.",
+    tags: ["analysis","customer-journey","empathy-map","cx","ux-research"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Journey & Emotional Friction Mapping",
+      ruSectionName: "Карта пути клиента (CJM) и аудит эмоционального трения",
+      instructions: [
+        "Chart user touchpoints across Awareness, Consideration, Onboarding, Value Realization, and Retention.",
+        "Plot the user emotional curve (Frustration vs Delight) at each touchpoint.",
+        "Prescribe direct design and architectural interventions to eliminate friction valleys."
+],
+      ruInstructions: [
+        "Постройте карту этапов: от первого знакомства до регулярного использования.",
+        "Отобразите эмоциональную кривую пользователя и точки максимального раздражения.",
+        "Сформируйте решения для сглаживания проблемных зон."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","customer-journey","empathy-map","cx","ux-research"],
+    }),
+  },
+
+  "contingency-table-chi-square-independence": {
+    id: "contingency-table-chi-square-independence",
+    name: "ContingencyTableChiSquareIndependenceSkill",
+    displayName: "Pearson Chi-Square Contingency & Independence Test",
+    categoryId: "analysis",
+    description: "Tests statistical independence between categorical variables with expected vs observed cell frequencies.",
+    tags: ["analysis","chi-square","statistics","contingency-table","hypothesis-testing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pearson Chi-Square Independence & Contingency Analysis",
+      ruSectionName: "Критерий независимости Хи-квадрат Пирсона (Таблицы сопряженности)",
+      instructions: [
+        "Construct a contingency table cross-tabulating observed categorical frequencies.",
+        "Calculate expected cell counts under the null hypothesis of statistical independence.",
+        "Compute the χ² test statistic, degrees of freedom, and p-value against α = 0.01 threshold."
+],
+      ruInstructions: [
+        "Постройте таблицу сопряженности для категориальных признаков.",
+        "Рассчитайте ожидаемые частоты при условии независимости переменных.",
+        "Вычислите статистику Хи-квадрат (χ²) и уровень значимости p-value."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","chi-square","statistics","contingency-table","hypothesis-testing"],
+    }),
+  },
+
+  "five-whys-deep-causal-chain": {
+    id: "five-whys-deep-causal-chain",
+    name: "FiveWhysDeepCausalChainSkill",
+    displayName: "Taiichi Ohno 5-Whys Root Cause Chain",
+    categoryId: "analysis",
+    description: "Drills down through 5 consecutive levels of causality to bypass symptoms and isolate systemic policy failure.",
+    tags: ["analysis","5-whys","root-cause","toyota","postmortem"],
+    transform: createStandardSkillTransform({
+      sectionName: "Taiichi Ohno 5-Whys Deep Causal Chain",
+      ruSectionName: "Метод 5 «Почему» Тайити Оно: Глубокая цепочка первопричин",
+      instructions: [
+        "Ask 'Why did this failure occur?' five consecutive times, validating each link with empirical evidence.",
+        "Transition from immediate technical symptom to process defect to systemic policy breakdown.",
+        "Deploy permanent structural poka-yoke error-proofing at the root level."
+],
+      ruInstructions: [
+        "Последовательно задайте вопрос «Почему это произошло?» 5 раз, проверяя каждый шаг фактами.",
+        "Перейдите от поверхностного технического симптома к организационному дефекту процесса.",
+        "Внедрите защиту от ошибок (Пока-ёкэ) на уровне коренной причины."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","5-whys","root-cause","toyota","postmortem"],
+    }),
+  },
+
+  "system-resilience-redundancy-factor": {
+    id: "system-resilience-redundancy-factor",
+    name: "SystemResilienceRedundancyFactorSkill",
+    displayName: "N+1 and Active-Active Redundancy Availability Model",
+    categoryId: "analysis",
+    description: "Calculates system MTBF, MTTR, and composite availability (99.9% vs 99.999%) under component failover.",
+    tags: ["analysis","availability","redundancy","sla","mtbf","resilience"],
+    transform: createStandardSkillTransform({
+      sectionName: "System Redundancy & High-Availability SLA Model",
+      ruSectionName: "Моделирование отказоустойчивости (N+1, Active-Active, MTBF, MTTR)",
+      instructions: [
+        "Model component Mean Time Between Failures (MTBF) and Mean Time To Recovery (MTTR).",
+        "Calculate composite serial vs parallel availability (e.g. 99.99% = 52.6 min annual downtime).",
+        "Design active-active failover with sub-second health-check heartbeats."
+],
+      ruInstructions: [
+        "Рассчитайте показатели MTBF (наработка на отказ) и MTTR (время восстановления).",
+        "Вычислите совокупную доступность системы (SLA 99.99% = не более 52 минут простоя в год).",
+        "Спроектируйте архитектуру Active-Active с автоматическим переключением нагрузки."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","availability","redundancy","sla","mtbf","resilience"],
+    }),
+  },
+
+  "value-proposition-canvas-osterwalder": {
+    id: "value-proposition-canvas-osterwalder",
+    name: "ValuePropositionCanvasOsterwalderSkill",
+    displayName: "Strategyzer Value Proposition Canvas (Jobs, Pains, Gains)",
+    categoryId: "analysis",
+    description: "Aligns Product Pain Relievers and Gain Creators directly with Customer Jobs-to-be-Done, Pains, and Gains.",
+    tags: ["analysis","value-proposition","osterwalder","jtbd","product-market-fit"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strategyzer Value Proposition Fit Matrix",
+      ruSectionName: "Value Proposition Canvas (Остервальдер): Профиль клиента и карта ценности",
+      instructions: [
+        "Customer Profile: Document functional, social, and emotional Jobs-to-be-Done, major Pains, and desired Gains.",
+        "Value Map: Outline Products/Services, explicit Pain Relievers, and Gain Creators.",
+        "Verify Problem-Solution Fit: ensure every major customer pain has an active pain reliever."
+],
+      ruInstructions: [
+        "Профиль клиента: Опишите задачи (JTBD), боли (Pains) и выгоды (Gains).",
+        "Карта ценности: Перечислите факторы снятия боли и создания пользы.",
+        "Проверьте соответствие Problem-Solution Fit без пустых деклараций."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","value-proposition","osterwalder","jtbd","product-market-fit"],
+    }),
+  },
+
+  "feature-flags-canary-rollout-matrix": {
+    id: "feature-flags-canary-rollout-matrix",
+    name: "FeatureFlagsCanaryRolloutMatrixSkill",
+    displayName: "Progressive Canary Rollout & Feature Flag Guardrail Matrix",
+    categoryId: "analysis",
+    description: "Evaluates blast radius and automated rollback triggers across 1% -> 5% -> 25% -> 100% rollout stages.",
+    tags: ["analysis","canary","feature-flags","deployment","blast-radius"],
+    transform: createStandardSkillTransform({
+      sectionName: "Progressive Canary Rollout & Health Gate Matrix",
+      ruSectionName: "Прогрессивный канареечный релиз (Canary 1% -> 10% -> 100%) и гейты здоровья",
+      instructions: [
+        "Define canary rollout phases: 1% internal -> 5% probe -> 25% baseline -> 100% general availability.",
+        "Set strict automated rollback metrics: p99 latency degradation >15% or error rate >0.1%.",
+        "Ensure instantaneous feature-flag kill switches for zero-deployment emergency shutoff."
+],
+      ruInstructions: [
+        "Определите этапы канареечного выката: 1% -> 5% -> 25% -> 100%.",
+        "Задайте жесткие критерии авто-отката: рост p99 задержки >15% или ошибок >0.1%.",
+        "Внедрите рубильники мгновенного отключения (Kill Switches) через фича-флаги."
+],
+      semanticType: "protocol",
+      tags: ["analysis","canary","feature-flags","deployment","blast-radius"],
+    }),
+  },
+
+  "decision-matrix-pugh-concept-selection": {
+    id: "decision-matrix-pugh-concept-selection",
+    name: "DecisionMatrixPughConceptSelectionSkill",
+    displayName: "Stuart Pugh Controlled Convergence Concept Selection Matrix",
+    categoryId: "analysis",
+    description: "Evaluates competing design concepts against an established Datum baseline using (+, -, S) scoring.",
+    tags: ["analysis","pugh-matrix","concept-selection","engineering","evaluation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pugh Controlled Convergence Concept Selection Matrix",
+      ruSectionName: "Матрица выбора концепций Стюарта Пью (Pugh Matrix: +, -, S)",
+      instructions: [
+        "Select a reference baseline concept as the Datum.",
+        "Score competing alternatives across criteria as + (Better), - (Worse), or S (Same) relative to Datum.",
+        "Synthesize hybrid concepts by combining high-scoring elements from disparate alternatives."
+],
+      ruInstructions: [
+        "Выберите базовый эталонный вариант (Datum).",
+        "Оцените альтернативы по критериям (+ лучше, - хуже, S так же относительно эталона).",
+        "Создайте гибридную концепцию, объединив лучшие черты лидеров сравнения."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","pugh-matrix","concept-selection","engineering","evaluation"],
+    }),
+  },
+
+  "risk-heat-map-probability-impact": {
+    id: "risk-heat-map-probability-impact",
+    name: "RiskHeatMapProbabilityImpactSkill",
+    displayName: "5x5 Qualitative Risk Heat Map (Likelihood × Impact)",
+    categoryId: "analysis",
+    description: "Plots operational risks onto a color-coded 5x5 matrix with explicit mitigation ownership.",
+    tags: ["analysis","risk-heat-map","risk-management","probability-impact","governance"],
+    transform: createStandardSkillTransform({
+      sectionName: "5x5 Risk Likelihood & Impact Matrix",
+      ruSectionName: "Тепловая карта рисков 5х5 (Вероятность х Влияние)",
+      instructions: [
+        "Plot all identified project risks on the 5x5 grid (Likelihood 1-5 × Impact 1-5).",
+        "Flag all Red Zone risks (Score 15-25) as requiring immediate executive escalation and active mitigation plans.",
+        "Assign explicit single-threaded owners and review frequencies to all medium/high risks."
+],
+      ruInstructions: [
+        "Разместите проектные риски на сетке 5х5 (Вероятность 1–5, Влияние 1–5).",
+        "Выделите риски красной зоны (балл 15–25) для немедленной эскалации и защиты.",
+        "Назначьте ответственных владельцев для каждого критического риска."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","risk-heat-map","risk-management","probability-impact","governance"],
+    }),
+  },
+
+  "benchmarking-competitive-gap-spider": {
+    id: "benchmarking-competitive-gap-spider",
+    name: "BenchmarkingCompetitiveGapSpiderSkill",
+    displayName: "Competitive Parity vs Differentiation Spider Chart",
+    categoryId: "analysis",
+    description: "Identifies areas of table-stakes Parity vs proprietary Competitive Moats across key capabilities.",
+    tags: ["analysis","benchmarking","differentiation","competitive-moat","spider-chart"],
+    transform: createStandardSkillTransform({
+      sectionName: "Competitive Parity & Moat Differentiation Spider Chart",
+      ruSectionName: "Сравнительный анализ паритета и конкурентных преимуществ (Moats)",
+      instructions: [
+        "Differentiate Table-Stakes Parity capabilities (must match competitors) from True Differentiators (must beat competitors).",
+        "Plot capability scores against the market-leading benchmark.",
+        "Direct capital and innovation resources exclusively toward protecting and expanding the competitive moat."
+],
+      ruInstructions: [
+        "Разделите функции на базовый рыночный паритет и ключевые дифференциаторы.",
+        "Сопоставьте возможности продукта с лидерами индустрии.",
+        "Сфокусируйте ресурсы на укреплении уникального конкурентного преимущества."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","benchmarking","differentiation","competitive-moat","spider-chart"],
+    }),
+  },
+
+  "critical-success-factors-csf-kpi": {
+    id: "critical-success-factors-csf-kpi",
+    name: "CriticalSuccessFactorsCsfKpiSkill",
+    displayName: "Rockart Critical Success Factors (CSF) & KPI Hierarchy",
+    categoryId: "analysis",
+    description: "Identifies the 3-5 vital areas where satisfactory results ensure successful competitive performance.",
+    tags: ["analysis","csf","kpi","strategy","rockart","performance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Critical Success Factors (CSF) & KPI Alignment",
+      ruSectionName: "Критические факторы успеха (CSF) и дерево ключевых показателей (KPI)",
+      instructions: [
+        "Isolate 3-5 non-negotiable Critical Success Factors for {{task}}.",
+        "Map 2-3 leading and lagging operational KPIs directly to each CSF.",
+        "Define clear green/yellow/red trigger thresholds for executive intervention."
+],
+      ruInstructions: [
+        "Выделите 3–5 критических факторов успеха (CSF), определяющих результат.",
+        "Привяжите к каждому фактору опережающие и запаздывающие метрики (KPI).",
+        "Задайте пороги для оперативного реагирования руководства."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","csf","kpi","strategy","rockart","performance"],
+    }),
+  },
+
+  "system-capacity-headroom-forecasting": {
+    id: "system-capacity-headroom-forecasting",
+    name: "SystemCapacityHeadroomForecastingSkill",
+    displayName: "System Capacity Headroom & Saturation Run-Rate Forecasting",
+    categoryId: "analysis",
+    description: "Calculates time-to-exhaustion for compute, storage, and database IOPS based on historical growth rates.",
+    tags: ["analysis","capacity-planning","headroom","infrastructure","scaling"],
+    transform: createStandardSkillTransform({
+      sectionName: "System Capacity Headroom & Saturation Forecasting",
+      ruSectionName: "Прогнозирование запаса емкости (Capacity Headroom) и утилизации ресурсов",
+      instructions: [
+        "Measure current utilization rates across CPU, Memory, Disk IOPS, Network, and DB Connections.",
+        "Calculate Time-to-Saturation (Days to 80% capacity) based on 30-day linear/exponential growth trends.",
+        "Schedule proactive hardware or architectural scaling at least 60 days before reaching the 80% saturation threshold."
+],
+      ruInstructions: [
+        "Зафиксируйте текущий процент утилизации CPU, RAM, IOPS диска и сети.",
+        "Рассчитайте время до достижения 80% емкости (Time-to-Saturation) по тренду роста нагрузки.",
+        "Запланируйте масштабирование минимум за 60 дней до критического порога."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","capacity-planning","headroom","infrastructure","scaling"],
+    }),
+  },
+
+  "root-cause-timeline-retro-postmortem": {
+    id: "root-cause-timeline-retro-postmortem",
+    name: "RootCauseTimelineRetroPostmortemSkill",
+    displayName: "Blameless Incident Postmortem & Chronological Timeline",
+    categoryId: "analysis",
+    description: "Reconstructs exact minute-by-minute timeline of production incidents with blameless systemic action items.",
+    tags: ["analysis","postmortem","incident-timeline","blameless","sre","reliability"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blameless Incident Postmortem & Timeline",
+      ruSectionName: "Безобвинительный постмортем инцидента и поминутная хронология (SRE)",
+      instructions: [
+        "Reconstruct exact chronological timeline: Trigger -> Detection -> Escalation -> Mitigation -> Full Resolution.",
+        "Identify contributing systemic factors (monitoring blindspots, deployment gaps, missing circuit breakers).",
+        "Formulate actionable preventive engineering tickets with assigned owners and 30-day completion SLAs."
+],
+      ruInstructions: [
+        "Восстановите хронологию: Триггер -> Обнаружение -> Эскалация -> Локализация -> Полное устранение.",
+        "Выявите системные факторы (слепые зоны мониторинга, отсутствие защиты от сбоев).",
+        "Сформируйте конкретные задачи на доработку с дедлайном до 30 дней."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","postmortem","incident-timeline","blameless","sre","reliability"],
+    }),
+  },
+  "cohort-matrix-cross-sectional-regression": {
+    id: "cohort-matrix-cross-sectional-regression",
+    name: "CohortMatrixCrossSectionalRegressionSkill",
+    displayName: "Cross-Sectional Multivariate Cohort Regression",
+    categoryId: "analysis",
+    description: "Performs multi-variable regression analysis to isolate the true independent drivers of cohort performance.",
+    tags: ["analysis","regression","statistics","multivariate","cohorts"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multivariate Cohort Regression Analysis",
+      ruSectionName: "Многофакторный регрессионный анализ когортных показателей",
+      instructions: [
+        "Fit ordinary least squares (OLS) or logistic regression models across cohort telemetry.",
+        "Calculate R² goodness-of-fit, t-statistics, and p-values for every independent variable.",
+        "Identify confounding collinearity using Variance Inflation Factor (VIF < 5.0)."
+],
+      ruInstructions: [
+        "Постройте многофакторную регрессионную модель для ключевых метрик когорт.",
+        "Рассчитайте коэффициент детерминации R², t-статистики и p-value для каждого фактора.",
+        "Исключите мультиколлинеарность с помощью коэффициента инфляции дисперсии (VIF < 5.0)."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","regression","statistics","multivariate","cohorts"],
+    }),
+  },
+
+  "contingency-planning-black-swan-hedging": {
+    id: "contingency-planning-black-swan-hedging",
+    name: "ContingencyPlanningBlackSwanHedgingSkill",
+    displayName: "Taleb Black Swan Contingency & Asymmetric Convex Hedging",
+    categoryId: "analysis",
+    description: "Designs asymmetric contingency protocols that provide massive protection against rare extreme tail events.",
+    tags: ["analysis","black-swan","taleb","hedging","contingency","risk"],
+    transform: createStandardSkillTransform({
+      sectionName: "Black Swan Contingency & Convex Hedging Protocol",
+      ruSectionName: "Протокол защиты от событий «Черного лебедя» (Асимметричное выпуклое хеджирование)",
+      instructions: [
+        "Identify low-probability, extreme-impact tail risk events (Black Swans) in the operational environment.",
+        "Design cheap, continuous insurance mechanisms that cap maximum catastrophic downside.",
+        "Create convex optionality that extracts massive upside if a market or technological rupture occurs."
+],
+      ruInstructions: [
+        "Выявите маловероятные события с колоссальным разрушительным эффектом (Черные лебеди).",
+        "Спроектируйте недорогие регулярные механизмы защиты, жестко ограничивающие максимальный убыток.",
+        "Создайте выпуклую структуру опционов (Convexity), извлекающую пользу при резких сдвигах рынка."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","black-swan","taleb","hedging","contingency","risk"],
+    }),
+  },
+
+  "system-resilience-blast-radius-mitigation": {
+    id: "system-resilience-blast-radius-mitigation",
+    name: "SystemResilienceBlastRadiusMitigationSkill",
+    displayName: "Blast Radius Containment & Compartmentalization",
+    categoryId: "analysis",
+    description: "Quantifies and minimizes the maximum blast radius of failures across tenants, regions, and data partitions.",
+    tags: ["analysis","blast-radius","resilience","compartmentalization","cloud"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blast Radius Containment & Partitioning Architecture",
+      ruSectionName: "Локализация радиуса поражения сбоя (Blast Radius Containment)",
+      instructions: [
+        "Partition multi-tenant systems into independent cells/shards servicing maximum 5-10% of users each.",
+        "Ensure a total cluster crash within one cell cannot propagate across cell boundaries.",
+        "Automate instantaneous traffic rerouting away from unhealthy cells."
+],
+      ruInstructions: [
+        "Разделите инфраструктуру на изолированные ячейки (Cells), обслуживающие не более 5–10% клиентов каждая.",
+        "Гарантируйте, что падение одной ячейки не может вызвать каскадный сбой в соседних кластерах.",
+        "Автоматизируйте мгновенный отвод трафика от деградировавших сегментов."
+],
+      semanticType: "protocol",
+      tags: ["analysis","blast-radius","resilience","compartmentalization","cloud"],
+    }),
+  },
+
+  "pricing-tier-van-westendorp-sensitivity": {
+    id: "pricing-tier-van-westendorp-sensitivity",
+    name: "PricingTierVanWestendorpSensitivitySkill",
+    displayName: "Van Westendorp Price Sensitivity Meter (PSM)",
+    categoryId: "analysis",
+    description: "Determines optimal price points (Point of Marginal Cheapness, Optimum Price, Point of Marginal Expensiveness).",
+    tags: ["analysis","pricing","van-westendorp","psm","market-research"],
+    transform: createStandardSkillTransform({
+      sectionName: "Van Westendorp Price Sensitivity Meter (PSM) Model",
+      ruSectionName: "Ценовой анализ чувствительности Ван Вестендорпа (PSM: Оптимальная цена)",
+      instructions: [
+        "Analyze the 4 Van Westendorp pricing curves: Too Cheap, Cheap, Expensive, Too Expensive.",
+        "Plot cumulative response intersections to find the Optimal Price Point (OPP) and Indifference Price Point (IPP).",
+        "Define the Acceptable Price Range bounded by Point of Marginal Cheapness and Point of Marginal Expensiveness."
+],
+      ruInstructions: [
+        "Постройте 4 кривые восприятия цены: Слишком дешево, Выгодно, Дорого, Слишком дорого.",
+        "Найдите точку оптимальной цены (OPP) и точку безразличия (IPP) на пересечении кривых.",
+        "Зафиксируйте диапазон приемлемых цен для тарифных планов продукта."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","pricing","van-westendorp","psm","market-research"],
+    }),
+  },
+
+  "system-bottleneck-little-law-queuing": {
+    id: "system-bottleneck-little-law-queuing",
+    name: "SystemBottleneckLittleLawQueuingSkill",
+    displayName: "Little's Law & Queuing Theory (L = λW) Analyzer",
+    categoryId: "analysis",
+    description: "Calculates relationship between average concurrent items (L), arrival rate (λ), and average wait time (W).",
+    tags: ["analysis","littles-law","queuing-theory","concurrency","performance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Little's Law Queuing & Concurrency Capacity Analysis",
+      ruSectionName: "Теория очередей и закон Литтла (L = λW): расчет пропускной способности",
+      instructions: [
+        "Apply Little's Law formula: `L = λ × W` (Concurrency = Arrival Rate × Residence Time).",
+        "Model queue latency spikes when system utilization exceeds the critical 80% knee-of-the-curve.",
+        "Size thread pools, database connection pools, and worker counts to bound maximum wait times."
+],
+      ruInstructions: [
+        "Примените закон Литтла: `L = λ × W` (Число параллельных задач = Скорость поступления × Время обработки).",
+        "Смоделируйте экспоненциальный рост очереди при загрузке системы свыше 80%.",
+        "Рассчитайте оптимальный размер пулов потоков и соединений для гарантии заданного SLA по задержке."
+],
+      semanticType: "domain_specific",
+      tags: ["analysis","littles-law","queuing-theory","concurrency","performance"],
+    }),
+  },
 };

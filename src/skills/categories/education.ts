@@ -878,7 +878,7 @@ sectionName: 'Andragogical Adult Learning Principles',
         'Ориентируйте обучение на решение практических проблем и кейсов, а не на пассивное заучивание теории.',
         'Предоставляйте возможность немедленного применения инструментов в личной практике ученика с адаптацией под его стек.',
       ],
-      semanticType: 'role_directive',
+      semanticType: "role",
       tags: ['education', 'andragogy', 'adult-learning', 'relevance', 'professional-development'],
     }),
   },
@@ -1379,6 +1379,630 @@ sectionName: 'Andragogical Adult Learning Principles',
 ],
       semanticType: "process_directive",
       tags: ["education","adaptive-learning","knowledge-graph","personalized-path","prerequisites"],
+    }),
+  },
+  "education-bloom-taxonomy-cognitive-depth-scaffolding": {
+    id: "education-bloom-taxonomy-cognitive-depth-scaffolding",
+    name: "BloomTaxonomyCognitiveDepthScaffoldingSkill",
+    displayName: "Bloom Taxonomy Cognitive Depth Scaffolding",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Bloom Taxonomy Cognitive Depth Scaffolding.",
+    tags: ["education","bloom","taxonomy","cognitive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bloom Taxonomy Scaffolding Standards",
+      ruSectionName: "Стандарты и практические требования: Bloom Taxonomy Cognitive Depth Scaffolding",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Bloom Taxonomy Cognitive Depth Scaffolding.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Bloom Taxonomy Cognitive Depth Scaffolding.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","bloom","taxonomy","cognitive"],
+    }),
+  },
+
+  "education-feynman-technique-radical-concept-simplification": {
+    id: "education-feynman-technique-radical-concept-simplification",
+    name: "FeynmanTechniqueRadicalConceptSimplificationSkill",
+    displayName: "Feynman Technique Radical Concept Simplification",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Feynman Technique Radical Concept Simplification.",
+    tags: ["education","feynman","technique","radical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Feynman Simplification Protocol",
+      ruSectionName: "Стандарты и практические требования: Feynman Technique Radical Concept Simplification",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Feynman Technique Radical Concept Simplification.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Feynman Technique Radical Concept Simplification.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","feynman","technique","radical"],
+    }),
+  },
+
+  "education-spaced-repetition-leitner-system-schedule": {
+    id: "education-spaced-repetition-leitner-system-schedule",
+    name: "SpacedRepetitionLeitnerSystemScheduleSkill",
+    displayName: "Spaced Repetition & Leitner System Schedule",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Spaced Repetition & Leitner System Schedule.",
+    tags: ["education","spaced","repetition","leitner"],
+    transform: createStandardSkillTransform({
+      sectionName: "Spaced Repetition Scheduling Protocol",
+      ruSectionName: "Стандарты и практические требования: Spaced Repetition & Leitner System Schedule",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Spaced Repetition & Leitner System Schedule.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Spaced Repetition & Leitner System Schedule.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","spaced","repetition","leitner"],
+    }),
+  },
+
+  "education-cognitive-load-theory-working-memory-limits": {
+    id: "education-cognitive-load-theory-working-memory-limits",
+    name: "CognitiveLoadTheoryWorkingMemoryLimitsSkill",
+    displayName: "Cognitive Load Theory Working Memory Limits",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Cognitive Load Theory Working Memory Limits.",
+    tags: ["education","cognitive","load","theory"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cognitive Load Management Standards",
+      ruSectionName: "Стандарты и практические требования: Cognitive Load Theory Working Memory Limits",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Cognitive Load Theory Working Memory Limits.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Cognitive Load Theory Working Memory Limits.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","cognitive","load","theory"],
+    }),
+  },
+
+  "education-inquiry-based-learning-scientific-method": {
+    id: "education-inquiry-based-learning-scientific-method",
+    name: "InquiryBasedLearningScientificMethodSkill",
+    displayName: "Inquiry-Based Learning Scientific Method",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Inquiry-Based Learning Scientific Method.",
+    tags: ["education","inquiry","based","learning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Inquiry-Based Learning Blueprint",
+      ruSectionName: "Стандарты и практические требования: Inquiry-Based Learning Scientific Method",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Inquiry-Based Learning Scientific Method.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Inquiry-Based Learning Scientific Method.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","inquiry","based","learning"],
+    }),
+  },
+
+  "education-gamified-formative-assessment-quizzes": {
+    id: "education-gamified-formative-assessment-quizzes",
+    name: "GamifiedFormativeAssessmentQuizzesSkill",
+    displayName: "Gamified Formative Assessment Quizzes",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Gamified Formative Assessment Quizzes.",
+    tags: ["education","gamified","formative","assessment"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gamified Assessment Standards",
+      ruSectionName: "Стандарты и практические требования: Gamified Formative Assessment Quizzes",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Gamified Formative Assessment Quizzes.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Gamified Formative Assessment Quizzes.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","gamified","formative","assessment"],
+    }),
+  },
+
+  "education-universal-design-for-learning-udl-accessibility": {
+    id: "education-universal-design-for-learning-udl-accessibility",
+    name: "UniversalDesignforLearningUDLAccessibilitySkill",
+    displayName: "Universal Design for Learning (UDL) Accessibility",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Universal Design for Learning (UDL) Accessibility.",
+    tags: ["education","universal","design","for"],
+    transform: createStandardSkillTransform({
+      sectionName: "UDL Educational Accessibility Protocol",
+      ruSectionName: "Стандарты и практические требования: Universal Design for Learning (UDL) Accessibility",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Universal Design for Learning (UDL) Accessibility.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Universal Design for Learning (UDL) Accessibility.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","universal","design","for"],
+    }),
+  },
+
+  "education-socratic-seminar-critical-inquiry-circles": {
+    id: "education-socratic-seminar-critical-inquiry-circles",
+    name: "SocraticSeminarCriticalInquiryCirclesSkill",
+    displayName: "Socratic Seminar Critical Inquiry Circles",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Socratic Seminar Critical Inquiry Circles.",
+    tags: ["education","socratic","seminar","critical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Socratic Seminar Circles Standards",
+      ruSectionName: "Стандарты и практические требования: Socratic Seminar Critical Inquiry Circles",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Socratic Seminar Critical Inquiry Circles.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Socratic Seminar Critical Inquiry Circles.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","socratic","seminar","critical"],
+    }),
+  },
+
+  "education-problem-based-learning-case-challenges": {
+    id: "education-problem-based-learning-case-challenges",
+    name: "ProblemBasedLearningCaseChallengesSkill",
+    displayName: "Problem-Based Learning Case Challenges",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Problem-Based Learning Case Challenges.",
+    tags: ["education","problem","based","learning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Problem-Based Learning Protocol",
+      ruSectionName: "Стандарты и практические требования: Problem-Based Learning Case Challenges",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Problem-Based Learning Case Challenges.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Problem-Based Learning Case Challenges.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","problem","based","learning"],
+    }),
+  },
+
+  "education-scaffolded-worked-examples-step-by-step": {
+    id: "education-scaffolded-worked-examples-step-by-step",
+    name: "ScaffoldedWorkedExamplesStepbyStepSkill",
+    displayName: "Scaffolded Worked Examples Step-by-Step",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Scaffolded Worked Examples Step-by-Step.",
+    tags: ["education","scaffolded","worked","examples"],
+    transform: createStandardSkillTransform({
+      sectionName: "Worked Examples Scaffolding Blueprint",
+      ruSectionName: "Стандарты и практические требования: Scaffolded Worked Examples Step-by-Step",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Scaffolded Worked Examples Step-by-Step.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Scaffolded Worked Examples Step-by-Step.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","scaffolded","worked","examples"],
+    }),
+  },
+
+  "education-metacognitive-self-reflection-prompting": {
+    id: "education-metacognitive-self-reflection-prompting",
+    name: "MetacognitiveSelfReflectionPromptingSkill",
+    displayName: "Metacognitive Self-Reflection Prompting",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Metacognitive Self-Reflection Prompting.",
+    tags: ["education","metacognitive","self","reflection"],
+    transform: createStandardSkillTransform({
+      sectionName: "Metacognitive Reflection Standards",
+      ruSectionName: "Стандарты и практические требования: Metacognitive Self-Reflection Prompting",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Metacognitive Self-Reflection Prompting.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Metacognitive Self-Reflection Prompting.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","metacognitive","self","reflection"],
+    }),
+  },
+
+  "education-flipped-classroom-interactive-exploration": {
+    id: "education-flipped-classroom-interactive-exploration",
+    name: "FlippedClassroomInteractiveExplorationSkill",
+    displayName: "Flipped Classroom Interactive Exploration",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Flipped Classroom Interactive Exploration.",
+    tags: ["education","flipped","classroom","interactive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Flipped Classroom Architecture",
+      ruSectionName: "Стандарты и практические требования: Flipped Classroom Interactive Exploration",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Flipped Classroom Interactive Exploration.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Flipped Classroom Interactive Exploration.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","flipped","classroom","interactive"],
+    }),
+  },
+
+  "education-differentiated-instruction-tiered-lessons": {
+    id: "education-differentiated-instruction-tiered-lessons",
+    name: "DifferentiatedInstructionTieredLessonsSkill",
+    displayName: "Differentiated Instruction Tiered Lessons",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Differentiated Instruction Tiered Lessons.",
+    tags: ["education","differentiated","instruction","tiered"],
+    transform: createStandardSkillTransform({
+      sectionName: "Differentiated Instruction Protocol",
+      ruSectionName: "Стандарты и практические требования: Differentiated Instruction Tiered Lessons",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Differentiated Instruction Tiered Lessons.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Differentiated Instruction Tiered Lessons.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","differentiated","instruction","tiered"],
+    }),
+  },
+
+  "education-peer-instruction-mazur-concept-tests": {
+    id: "education-peer-instruction-mazur-concept-tests",
+    name: "PeerInstructionMazurConceptTestsSkill",
+    displayName: "Peer Instruction & Mazur Concept Tests",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Peer Instruction & Mazur Concept Tests.",
+    tags: ["education","peer","instruction","mazur"],
+    transform: createStandardSkillTransform({
+      sectionName: "Peer Instruction Mazur Standards",
+      ruSectionName: "Стандарты и практические требования: Peer Instruction & Mazur Concept Tests",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Peer Instruction & Mazur Concept Tests.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Peer Instruction & Mazur Concept Tests.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","peer","instruction","mazur"],
+    }),
+  },
+
+  "education-direct-instruction-mastery-learning": {
+    id: "education-direct-instruction-mastery-learning",
+    name: "DirectInstructionMasteryLearningSkill",
+    displayName: "Direct Instruction Mastery Learning",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Direct Instruction Mastery Learning.",
+    tags: ["education","direct","instruction","mastery"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mastery Learning Protocols",
+      ruSectionName: "Стандарты и практические требования: Direct Instruction Mastery Learning",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Direct Instruction Mastery Learning.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Direct Instruction Mastery Learning.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","direct","instruction","mastery"],
+    }),
+  },
+
+  "education-experiential-learning-kolb-cycle": {
+    id: "education-experiential-learning-kolb-cycle",
+    name: "ExperientialLearningKolbCycleSkill",
+    displayName: "Experiential Learning Kolb Cycle",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Experiential Learning Kolb Cycle.",
+    tags: ["education","experiential","learning","kolb"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kolb Experiential Cycle Blueprint",
+      ruSectionName: "Стандарты и практические требования: Experiential Learning Kolb Cycle",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Experiential Learning Kolb Cycle.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Experiential Learning Kolb Cycle.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","experiential","learning","kolb"],
+    }),
+  },
+
+  "education-story-driven-mnemonic-memory-palaces": {
+    id: "education-story-driven-mnemonic-memory-palaces",
+    name: "StoryDrivenMnemonicMemoryPalacesSkill",
+    displayName: "Story-Driven Mnemonic Memory Palaces",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Story-Driven Mnemonic Memory Palaces.",
+    tags: ["education","story","driven","mnemonic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mnemonic Memory Palace Standards",
+      ruSectionName: "Стандарты и практические требования: Story-Driven Mnemonic Memory Palaces",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Story-Driven Mnemonic Memory Palaces.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Story-Driven Mnemonic Memory Palaces.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","story","driven","mnemonic"],
+    }),
+  },
+
+  "education-zone-of-proximal-development-zpd-calibrator": {
+    id: "education-zone-of-proximal-development-zpd-calibrator",
+    name: "ZoneofProximalDevelopmentZPDCalibratorSkill",
+    displayName: "Zone of Proximal Development (ZPD) Calibrator",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Zone of Proximal Development (ZPD) Calibrator.",
+    tags: ["education","zone","of","proximal"],
+    transform: createStandardSkillTransform({
+      sectionName: "ZPD Calibration Protocol",
+      ruSectionName: "Стандарты и практические требования: Zone of Proximal Development (ZPD) Calibrator",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Zone of Proximal Development (ZPD) Calibrator.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Zone of Proximal Development (ZPD) Calibrator.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","zone","of","proximal"],
+    }),
+  },
+
+  "education-formative-rubric-scoring-actionable-feedback": {
+    id: "education-formative-rubric-scoring-actionable-feedback",
+    name: "FormativeRubricScoringActionableFeedbackSkill",
+    displayName: "Formative Rubric Scoring & Actionable Feedback",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Formative Rubric Scoring & Actionable Feedback.",
+    tags: ["education","formative","rubric","scoring"],
+    transform: createStandardSkillTransform({
+      sectionName: "Formative Rubric Feedback Standards",
+      ruSectionName: "Стандарты и практические требования: Formative Rubric Scoring & Actionable Feedback",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Formative Rubric Scoring & Actionable Feedback.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Formative Rubric Scoring & Actionable Feedback.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","formative","rubric","scoring"],
+    }),
+  },
+
+  "education-interleaved-practice-problem-sets": {
+    id: "education-interleaved-practice-problem-sets",
+    name: "InterleavedPracticeProblemSetsSkill",
+    displayName: "Interleaved Practice Problem Sets",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Interleaved Practice Problem Sets.",
+    tags: ["education","interleaved","practice","problem"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interleaved Practice Standards",
+      ruSectionName: "Стандарты и практические требования: Interleaved Practice Problem Sets",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Interleaved Practice Problem Sets.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Interleaved Practice Problem Sets.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","interleaved","practice","problem"],
+    }),
+  },
+
+  "education-project-based-learning-showcase-milestones": {
+    id: "education-project-based-learning-showcase-milestones",
+    name: "ProjectBasedLearningShowcaseMilestonesSkill",
+    displayName: "Project-Based Learning Showcase Milestones",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Project-Based Learning Showcase Milestones.",
+    tags: ["education","project","based","learning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Project-Based Learning Framework",
+      ruSectionName: "Стандарты и практические требования: Project-Based Learning Showcase Milestones",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Project-Based Learning Showcase Milestones.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Project-Based Learning Showcase Milestones.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","project","based","learning"],
+    }),
+  },
+
+  "education-dual-coding-theory-visual-verbal-harmony": {
+    id: "education-dual-coding-theory-visual-verbal-harmony",
+    name: "DualCodingTheoryVisualVerbalHarmonySkill",
+    displayName: "Dual Coding Theory Visual-Verbal Harmony",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Dual Coding Theory Visual-Verbal Harmony.",
+    tags: ["education","dual","coding","theory"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dual Coding Visual-Verbal Protocol",
+      ruSectionName: "Стандарты и практические требования: Dual Coding Theory Visual-Verbal Harmony",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Dual Coding Theory Visual-Verbal Harmony.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Dual Coding Theory Visual-Verbal Harmony.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","dual","coding","theory"],
+    }),
+  },
+
+  "education-concept-mapping-hierarchical-schemas": {
+    id: "education-concept-mapping-hierarchical-schemas",
+    name: "ConceptMappingHierarchicalSchemasSkill",
+    displayName: "Concept Mapping Hierarchical Schemas",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Concept Mapping Hierarchical Schemas.",
+    tags: ["education","concept","mapping","hierarchical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Concept Mapping Hierarchy Standards",
+      ruSectionName: "Стандарты и практические требования: Concept Mapping Hierarchical Schemas",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Concept Mapping Hierarchical Schemas.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Concept Mapping Hierarchical Schemas.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","concept","mapping","hierarchical"],
+    }),
+  },
+
+  "education-growth-mindset-productive-struggle-cues": {
+    id: "education-growth-mindset-productive-struggle-cues",
+    name: "GrowthMindsetProductiveStruggleCuesSkill",
+    displayName: "Growth Mindset Productive Struggle Cues",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Growth Mindset Productive Struggle Cues.",
+    tags: ["education","growth","mindset","productive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Productive Struggle Coaching Protocol",
+      ruSectionName: "Стандарты и практические требования: Growth Mindset Productive Struggle Cues",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Growth Mindset Productive Struggle Cues.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Growth Mindset Productive Struggle Cues.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","growth","mindset","productive"],
+    }),
+  },
+
+  "education-real-world-scenario-roleplay-simulation": {
+    id: "education-real-world-scenario-roleplay-simulation",
+    name: "RealWorldScenarioRoleplaySimulationSkill",
+    displayName: "Real-World Scenario Roleplay Simulation",
+    categoryId: "education",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Real-World Scenario Roleplay Simulation.",
+    tags: ["education","real","world","scenario"],
+    transform: createStandardSkillTransform({
+      sectionName: "Scenario Simulation Learning Blueprint",
+      ruSectionName: "Стандарты и практические требования: Real-World Scenario Roleplay Simulation",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Real-World Scenario Roleplay Simulation.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Real-World Scenario Roleplay Simulation.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["education","real","world","scenario"],
     }),
   },
 };

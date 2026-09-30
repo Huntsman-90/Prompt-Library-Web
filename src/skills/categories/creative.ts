@@ -848,7 +848,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Акт 3 (Развязка): Подведите героя к кульминационной схватке, где победа над внутренним изъяном решает внешний конфликт.",
         "Гарантируйте, что каждая сцена двигает вперед сюжет либо раскрывает трансформацию персонажа."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","storytelling","three-act-structure","plot-pacing","screenwriting"],
     }),
   },
@@ -875,7 +875,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Выдерживайте органичную внутреннюю мотивацию персонажа, оправдывающую его умолчания и искажения.",
         "Ведите сюжет к эмоциональному моменту осознания разрыва между иллюзией и реальностью."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","unreliable-narrator","fiction","psychological-subtext","voice"],
     }),
   },
@@ -902,7 +902,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Наделяйте каждого героя уникальным словарным запасом, характерными оборотами и длиной фраз.",
         "Исключайте неестественную экспозицию: персонажи не должны пересказывать друг другу то, что им обоим известно."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","dialogue","screenplay","banter","subtext","wit"],
     }),
   },
@@ -929,7 +929,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Используйте фонетическую выразительность: внутренние рифмы, аллитерации и мягкие ассонансы.",
         "Передавайте глубокие эмоциональные переживания через концентрированные и емкие поэтические образы."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","poetry","synesthesia","metaphor","imagery","lyricism"],
     }),
   },
@@ -956,7 +956,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Используйте эффект \"жуткого\" (Uncanny): делайте привычные домашние вещи пугающе чуждыми и искаженными.",
         "Усиливайте психологическую дезориентацию героя до стирания грани между безумием и мистикой."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","horror","gothic","dread","atmosphere","psychological-terror"],
     }),
   },
@@ -983,7 +983,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Используйте характерный уличный сленг хакеров, термины аугментаций и названия всемогущих мегакорпораций.",
         "Исследуйте темы отчуждения человека в цифровом мире, торговли воспоминаниями и бунта против корпораций."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","cyberpunk","sci-fi","neon-noir","worldbuilding"],
     }),
   },
@@ -1010,7 +1010,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Создавайте неожиданный финал, который полностью переворачивает смысл прочитанного, но выглядит неизбежным при повторном взгляде.",
         "Оставляйте сильное эмоциональное послевкусие после последней точки."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","flash-fiction","twist-ending","irony","micro-fiction"],
     }),
   },
@@ -1064,7 +1064,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Показывайте децентрализованные сообщества, экономику совместного ремонта и открытых технологий.",
         "Стройте сюжетные конфликты вокруг совместного преодоления последствий климатических изменений и взаимопомощи."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","solarpunk","worldbuilding","eco-fiction","sci-fi","optimism"],
     }),
   },
@@ -1091,7 +1091,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Вплетайте историю поколений семьи, память предков и местный фольклор в канву сюжета.",
         "Стирайте границы между сном, поверьями, историческими событиями и повседневной реальностью."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","magical-realism","marquez","literature","fiction"],
     }),
   },
@@ -1118,7 +1118,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Показывайте борьбу героя как изнурительную попытку доказать очевидное в условиях меняющихся невидимых правил.",
         "Раскрывайте темы отчуждения, бессмысленности произвольной власти и утраты человеком субъектности."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","kafkaesque","absurdism","dystopia","satire","bureaucracy"],
     }),
   },
@@ -1145,7 +1145,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Описывайте полеты бронированных дирижаблей, механических автоматонов и алхимические двигатели.",
         "Передавайте дух романтики великих географических открытий и смелых инженерных экспериментов."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","steampunk","victorian","clockwork","adventure","sci-fi"],
     }),
   },
@@ -1172,7 +1172,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Фаза Возвращения: Бегство из иного мира, Переход порога возврата, Владыка двух миров и Свобода жить.",
         "Используйте архетипических персонажей: Вестник, Страж порога, Тень, Оборотень, Трикстер."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","hero-journey","monomyth","campbell","mythology","epic-storytelling"],
     }),
   },
@@ -1199,7 +1199,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Создавайте визуальный контраст: свет сквозь жалюзи, тлеющая сигарета в темноте, мокрый асфальт ночных улиц.",
         "Сохраняйте несгибаемый внутренний кодекс чести героя в насквозь коррумпированном мире."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","noir","hardboiled","detective","raymond-chandler","voice"],
     }),
   },
@@ -1226,7 +1226,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Показывайте человеческий разум как удивительный способ Вселенной познать саму себя.",
         "Вдохновляйте на бережное отношение к жизни на нашей хрупкой голубой планете."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","cosmic-wonder","carl-sagan","astronomy","lyrical-science"],
     }),
   },
@@ -1253,7 +1253,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Используйте сквозные материальные якоря (часы, шрам, мелодия) для ориентации читателя при смене эпох.",
         "Сводите все временные потоки в единую ошеломляющую кульминационную развязку."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","time-loop","non-linear","bootstrap-paradox","sci-fi"],
     }),
   },
@@ -1280,7 +1280,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Избегайте прямолинейного морализаторства; позвольте смыслу притчи раскрыться в размышлениях читателя.",
         "Оставляйте пространство для многоуровневого толкования философского подтекста истории."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","fables","parables","allegory","mythology","borges"],
     }),
   },
@@ -1307,7 +1307,7 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Пишите едкие диалоги, в которых герои прикрывают циничный карьеризм благочестивыми корпоративными лозунгами.",
         "Вызывайте горький очищающий смех, побуждающий задуматься над реальными пороками общества."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","satire","black-comedy","absurdism","social-critique"],
     }),
   },
@@ -1334,8 +1334,655 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
         "Используйте драматическую иронию: позволяйте читателю сопоставлять факты из разных писем раньше героев.",
         "Создавайте у читателя волнующее чувство погружения в подлинные исторические свидетельства и тайные признания."
 ],
-      semanticType: "writing_style",
+      semanticType: "process_directive",
       tags: ["creative","epistolary","letters","diary","found-documents","fiction"],
+    }),
+  },
+  "creative-worldbuilding-magic-system-sanderson": {
+    id: "creative-worldbuilding-magic-system-sanderson",
+    name: "CreativeWorldbuildingMagicSystemSandersonSkill",
+    displayName: "Brandon Sanderson Laws of Magic & Hard Magic Systems",
+    categoryId: "creative",
+    description: "Designs consistent fantasy magic systems governed by Sanderson's First, Second, and Third Laws of Magic.",
+    tags: ["creative","worldbuilding","magic-systems","sanderson","fantasy","writing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hard Magic System Design Framework",
+      ruSectionName: "Законы магии Брэндона Сандерсона и проектирование строгих магических систем",
+      instructions: [
+        "Law 1: An author's ability to solve problems with magic is directly proportional to how well the reader understands said magic.",
+        "Law 2: Limitations and costs are vastly more interesting than raw magical powers.",
+        "Law 3: Expand on existing magical rules before adding brand-new elements."
+],
+      ruInstructions: [
+        "Закон 1: Способность автора решать проблемы с помощью магии прямо пропорциональна пониманию правил читателем.",
+        "Закон 2: Ограничения, слабости и цена применения магии интереснее самих способностей.",
+        "Закон 3: Развивайте и углубляйте уже заданные правила мира перед добавлением новых элементов."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","worldbuilding","magic-systems","sanderson","fantasy","writing"],
+    }),
+  },
+
+  "creative-pixar-storytelling-22-rules": {
+    id: "creative-pixar-storytelling-22-rules",
+    name: "CreativePixarStorytelling22RulesSkill",
+    displayName: "Pixar 22 Rules of Storytelling & Emotional Resonance",
+    categoryId: "creative",
+    description: "Applies Pixar narrative principles: admire characters for trying rather than success, simplify storylines, and embrace vulnerability.",
+    tags: ["creative","storytelling","pixar","narrative","screenwriting","animation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pixar Storytelling Rules Blueprint",
+      ruSectionName: "22 правила сторителлинга студии Pixar (Эмоциональная глубина и путь героя)",
+      instructions: [
+        "You admire a character for trying more than for their successes.",
+        "Putting it on paper lets you start fixing it; get the messy first draft out immediately.",
+        "What is the essence of your story? Strip away everything that does not serve the core emotional spine."
+],
+      ruInstructions: [
+        "Зрители восхищаются персонажем за упорные попытки и преодоление трудностей, а не за легкие победы.",
+        "Переносите идеи на бумагу без самоцензуры: редактировать можно только то, что уже написано.",
+        "Выделяйте эмоциональный стержень истории и безжалостно убирайте все сцены, которые ему не служат."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","storytelling","pixar","narrative","screenwriting","animation"],
+    }),
+  },
+
+  "creative-metaphor-poetic-synesthesia-imagery": {
+    id: "creative-metaphor-poetic-synesthesia-imagery",
+    name: "CreativeMetaphorPoeticSynesthesiaImagerySkill",
+    displayName: "Poetic Synesthesia & Multi-Sensory Metaphor Generation",
+    categoryId: "creative",
+    description: "Constructs evocative figurative language blending cross-modal sensory perceptions (tactile sound, luminous taste, weighted color).",
+    tags: ["creative","poetry","synesthesia","metaphor","imagery","literary-craft"],
+    transform: createStandardSkillTransform({
+      sectionName: "Poetic Synesthesia & Imagery Standards",
+      ruSectionName: "Синестезия и мультисенсорные метафоры в поэтическом тексте",
+      instructions: [
+        "Cross sensory domains boldly: describe sounds through tactile textures, lights through physical temperatures.",
+        "Avoid clichéd metaphors ('eyes like stars'); find unexpected structural affinities between disparate objects.",
+        "Ground abstract philosophical emotions in concrete physical sensory anchors."
+],
+      ruInstructions: [
+        "Смешивайте сенсорные регистры: описывайте звук через осязаемую текстуру, а свет — через температуру.",
+        "Избегайте затертых штампов; находите неочевидные глубинные аналогии между разнородными явлениями.",
+        "Заземляйте абстрактные переживания в конкретных физических и тактильных деталях."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","poetry","synesthesia","metaphor","imagery","literary-craft"],
+    }),
+  },
+
+  "creative-noir-detective-cynical-subtext": {
+    id: "creative-noir-detective-cynical-subtext",
+    name: "CreativeNoirDetectiveCynicalSubtextSkill",
+    displayName: "Hardboiled Noir Detective Fiction & Cynical Atmosphere",
+    categoryId: "creative",
+    description: "Emulates classic Raymond Chandler / Dashiell Hammett noir: rain-slicked neon streets, moral compromise, and sardonic similes.",
+    tags: ["creative","noir","hardboiled","fiction","chandler","mystery"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hardboiled Noir Narrative Atmosphere",
+      ruSectionName: "Атмосфера крутого нуарного детектива (Рэймонд Чандлер / Дашил Хэммет)",
+      instructions: [
+        "Use sharp, unexpected sardonic similes ('as honest as a three-dollar bill').",
+        "Create morally ambiguous protagonists operating in corrupt institutional systems.",
+        "Paint vivid sensory environments of smoke, neon reflections, rain, and quiet urban loneliness."
+],
+      ruInstructions: [
+        "Используйте едкие, хлесткие сравнения и ироничный внутренний монолог героя.",
+        "Создавайте неоднозначных персонажей, балансирующих на грани закона в продажном мире.",
+        "Передавайте густую атмосферу ночного города: блики неона на мокром асфальте, дым и одиночество."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","noir","hardboiled","fiction","chandler","mystery"],
+    }),
+  },
+
+  "creative-cyberpunk-dystopian-worldbuilding": {
+    id: "creative-cyberpunk-dystopian-worldbuilding",
+    name: "CreativeCyberpunkDystopianWorldbuildingSkill",
+    displayName: "Cyberpunk Worldbuilding (High Tech, Low Life Aesthetic)",
+    categoryId: "creative",
+    description: "Constructs dense cyberpunk settings: megacorporation sovereignty, black-market neural wetware, and street-level counterculture.",
+    tags: ["creative","cyberpunk","worldbuilding","sci-fi","dystopia","aesthetic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cyberpunk Dystopian Worldbuilding Blueprint",
+      ruSectionName: "Миростроение в жанре киберпанк (High Tech, Low Life / Уильям Гибсон)",
+      instructions: [
+        "Intertwine cutting-edge neurotechnology with decaying, chaotic street-level urban reality.",
+        "Establish sovereign megacorporations whose economic power completely eclipses nation-states.",
+        "Incorporate authentic street slang, neural cyberware trade-offs, and subterranean underground economies."
+],
+      ruInstructions: [
+        "Соединяйте прорывные нейротехнологии с разрухой и выживанием на уровне трущоб мегаполиса.",
+        "Показывайте всесилие корпораций-дзайбацу, подменивших собой государственные институты.",
+        "Внедряйте аутентичный уличный сленг, побочные эффекты аугментаций и теневой рынок данных."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","cyberpunk","worldbuilding","sci-fi","dystopia","aesthetic"],
+    }),
+  },
+
+  "creative-surrealist-automatisme-dream-logic": {
+    id: "creative-surrealist-automatisme-dream-logic",
+    name: "CreativeSurrealistAutomatismeDreamLogicSkill",
+    displayName: "Surrealist Dream Logic & André Breton Automatism",
+    categoryId: "creative",
+    description: "Explores subconscious associations, non-Euclidean spatial transitions, and poetic juxtaposition of contradictory objects.",
+    tags: ["creative","surrealism","dream-logic","avant-garde","subconscious","art"],
+    transform: createStandardSkillTransform({
+      sectionName: "Surrealist Dream Logic Architecture",
+      ruSectionName: "Сюрреалистическая логика сновидений и автоматическое письмо (Андре Бретон)",
+      instructions: [
+        "Subvert linear causal logic in favor of emotional and symbolic dream associations.",
+        "Juxtapose radically unrelated objects to unlock startling unconscious poetic resonance.",
+        "Treat impossible spatial and temporal shifts with matter-of-fact narrative calmness."
+],
+      ruInstructions: [
+        "Заменяйте прямолинейную логику причин и следствий символическими связями сновидений.",
+        "Сопоставляйте контрастные образы для пробуждения глубинных ассоциаций подсознания.",
+        "Описывайте метаморфозы пространства и времени как естественные и не вызывающие удивления события."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","surrealism","dream-logic","avant-garde","subconscious","art"],
+    }),
+  },
+  "creative-haiku-kireji-seasonal-cutting-word": {
+    id: "creative-haiku-kireji-seasonal-cutting-word",
+    name: "CreativeHaikuKirejiSeasonalCuttingWordSkill",
+    displayName: "Classical Japanese Haiku (Kigo & Kireji Cutting Words)",
+    categoryId: "creative",
+    description: "Composes 5-7-5 syllable haiku rooted in seasonal kigo references and a dramatic conceptual cutting pause (kireji).",
+    tags: ["creative","poetry","haiku","kigo","japanese-literature"],
+    transform: createStandardSkillTransform({
+      sectionName: "Classical Japanese Haiku Architecture",
+      ruSectionName: "Классическое японское хокку (Сезонное слово киго и пауза кирэдзи)",
+      instructions: [
+        "Follow strict 5-7-5 morae rhythm with a vivid natural kigo seasonal marker.",
+        "Incorporate an evocative cutting pause (kireji) juxtaposing two distinct imagery moments.",
+        "Capture fleeting impermanence (mono no aware) without overt moralizing."
+],
+      ruInstructions: [
+        "Соблюдайте ритмическую структуру 5-7-5 с указанием на время года (киго).",
+        "Используйте смысловой перелом (кирэдзи), сопоставляющий два визуальных образа.",
+        "Передавайте мимолетность момента (моно-но аварэ) без назидательности."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","poetry","haiku","kigo","japanese-literature"],
+    }),
+  },
+
+  "creative-epic-poetry-dactylic-hexameter-homer": {
+    id: "creative-epic-poetry-dactylic-hexameter-homer",
+    name: "CreativeEpicPoetryDactylicHexameterHomerSkill",
+    displayName: "Homeric Epic Poetry & Dactylic Hexameter Invocation",
+    categoryId: "creative",
+    description: "Crafts epic heroic poetry featuring Muse invocations, epithets (rosy-fingered Dawn), and extended Homeric similes.",
+    tags: ["creative","poetry","epic","homer","mythology","classics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Homeric Epic Poetry Architecture",
+      ruSectionName: "Гомеровский героический эпос (Гекзаметр, постоянные эпитеты, призыв Музы)",
+      instructions: [
+        "Begin with a solemn invocation to the Muse asking for inspiration to tell of grand struggles.",
+        "Use repeating character epithets ('swift-footed Achilles', 'grey-eyed Athena').",
+        "Deploy sprawling extended similes drawn from animal hunts, ocean tempests, and roaring fires."
+],
+      ruInstructions: [
+        "Начинайте с торжественного призыва к Музе для воспевания подвигов и гнева героев.",
+        "Используйте устойчивые эпитеты («быстроногий Ахилл», «совоокая Афина»).",
+        "Разворачивайте масштабные гомеровские сравнения из жизни дикой природы и морских бурь."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","poetry","epic","homer","mythology","classics"],
+    }),
+  },
+
+  "creative-magical-realism-marquez-macondo": {
+    id: "creative-magical-realism-marquez-macondo",
+    name: "CreativeMagicalRealismMarquezMacondoSkill",
+    displayName: "Gabriel García Márquez Magical Realism & Mythic Matter-of-Factness",
+    categoryId: "creative",
+    description: "Blends fantastical occurrences (yellow butterflies, ascending levitations) with calm, journalistic realism in Latin American tradition.",
+    tags: ["creative","magical-realism","marquez","literature","fiction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Magical Realism Narrative Standards",
+      ruSectionName: "Магический реализм Габриэля Гарсиа Маркеса (Будничные чудеса Макондо)",
+      instructions: [
+        "Narrate impossible supernatural phenomena with complete deadpan journalistic sobriety.",
+        "Intertwine multi-generational family curses, tropical humidity, and historical cycles of solitude.",
+        "Treat magical events as ordinary town gossip and ordinary modern technology as terrifying sorcery."
+],
+      ruInstructions: [
+        "Описывайте невероятные чудеса спокойным репортерским тоном без тени сомнения.",
+        "Переплетайте родовые проклятия, тропические ливни и циклы исторического одиночества.",
+        "Относитесь к магии как к повседневности, а к плодам прогресса — как к непостижимому волшебству."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","magical-realism","marquez","literature","fiction"],
+    }),
+  },
+
+  "creative-steampunk-victorian-clockwork-aesthetics": {
+    id: "creative-steampunk-victorian-clockwork-aesthetics",
+    name: "CreativeSteampunkVictorianClockworkAestheticsSkill",
+    displayName: "Steampunk Victorian Brass & Pneumatic Clockwork Aesthetics",
+    categoryId: "creative",
+    description: "Designs alternative 19th-century worlds powered by brass gears, pressurized steam pistons, airships, and gaslight romance.",
+    tags: ["creative","steampunk","sci-fi","worldbuilding","victorian"],
+    transform: createStandardSkillTransform({
+      sectionName: "Steampunk Aesthetic Worldbuilding Standards",
+      ruSectionName: "Стимпанк-миростроение (Викторианская эстетика, шестеренки, дирижабли и пар)",
+      instructions: [
+        "Describe mechanical systems with tactile detail: polished brass valves, escaping steam pressure, and ticking escapements.",
+        "Juxtapose rigid Victorian social etiquette with madcap pneumatic aerial inventions.",
+        "Ground technology in analog physical mechanisms rather than magical microchips."
+],
+      ruInstructions: [
+        "Детализируйте механические узлы: латунные манометры, свист паровых клапанов и шум шестеренок.",
+        "Сочетайте чопорные викторианские манеры с безумными изобретениями воздухоплавателей.",
+        "Опирайтесь на аналоговую механику и термодинамику пара, исключая цифровую электронику."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","steampunk","sci-fi","worldbuilding","victorian"],
+    }),
+  },
+
+  "creative-horror-lovecraftian-cosmic-dread": {
+    id: "creative-horror-lovecraftian-cosmic-dread",
+    name: "CreativeHorrorLovecraftianCosmicDreadSkill",
+    displayName: "Lovecraftian Cosmic Horror & Existential Insignificance",
+    categoryId: "creative",
+    description: "Evokes atmospheric dread through ancient non-Euclidean architectures, sanity-shattering cosmic entities, and forbidden grimoires.",
+    tags: ["creative","horror","lovecraft","cosmic-dread","fiction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cosmic Horror & Dread Architecture",
+      ruSectionName: "Лавкрафтовский космический ужас (Безумие, Древние боги, неевклидова геометрия)",
+      instructions: [
+        "Emphasize the utter cosmic insignificance of humanity before incomprehensible primordial entities.",
+        "Describe architectural geometries that defy Euclidean mathematics and break the narrator's senses.",
+        "Build creeping paranoia through scholarly research in dust-covered occult libraries."
+],
+      ruInstructions: [
+        "Подчеркивайте ничтожность человечества перед лицом древних непостижимых сущностей космоса.",
+        "Описывайте искаженные циклопические строения с невозможной неевклидовой геометрией.",
+        "Нагнетайте паранойю через архивные изыскания в старинных трактатах и запретных манускриптах."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","horror","lovecraft","cosmic-dread","fiction"],
+    }),
+  },
+
+  "creative-lyric-songwriting-verse-chorus-bridge": {
+    id: "creative-lyric-songwriting-verse-chorus-bridge",
+    name: "CreativeLyricSongwritingVerseChorusBridgeSkill",
+    displayName: "Commercial Lyric Songwriting & Prosody Harmonization",
+    categoryId: "creative",
+    description: "Structures radio-ready song lyrics: storytelling verses, explosive anthemic choruses, and transformative bridge twists.",
+    tags: ["creative","songwriting","lyrics","music","composition"],
+    transform: createStandardSkillTransform({
+      sectionName: "Commercial Lyric Songwriting Standards",
+      ruSectionName: "Написание текстов песен (Куплет, взрывной припев, бридж и ритмика)",
+      instructions: [
+        "Ensure perfect prosody: lyrical syllable stresses must match musical beat downbeats naturally.",
+        "Contrast sensory details in Verses with high-level universal emotional release in the Chorus.",
+        "Deliver an unexpected emotional realization or sonic dynamic shift in the Bridge."
+],
+      ruInstructions: [
+        "Соблюдайте просодию: ударения в словах должны точно попадать в сильные доли музыкального такта.",
+        "Контрастируйте сюжетные детали в куплетах с обобщающим эмоциональным выплеском в припеве.",
+        "Создавайте поворотный смысловой и гармонический сдвиг в бридже (Bridge)."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","songwriting","lyrics","music","composition"],
+    }),
+  },
+
+  "creative-space-opera-intergalactic-geopolitics": {
+    id: "creative-space-opera-intergalactic-geopolitics",
+    name: "CreativeSpaceOperaIntergalacticGeopoliticsSkill",
+    displayName: "Epic Space Opera & Interstellar Dynastic Geopolitics",
+    categoryId: "creative",
+    description: "Builds massive sci-fi sagas (Dune / Foundation style): dynastic royal houses, faster-than-light trade monopolies, and planet-spanning cultures.",
+    tags: ["creative","space-opera","sci-fi","dune","worldbuilding"],
+    transform: createStandardSkillTransform({
+      sectionName: "Space Opera Dynastic Worldbuilding Standards",
+      ruSectionName: "Космическая опера (Межзвездные династии, монополии на прыжки и геополитика)",
+      instructions: [
+        "Establish deep economic and technological dependencies governing faster-than-light transit corridors.",
+        "Model feudal dynastic bloodlines, religious orders, and planetary resource monopolies.",
+        "Weave intimate personal betrayals into sweeping galaxy-shattering military campaigns."
+],
+      ruInstructions: [
+        "Проектируйте экономическую зависимость империй от редких ресурсов для сверхсветовых перелетов.",
+        "Создавайте феодальные Дома, тайные религиозные ордены и планетарные ресурсные монополии.",
+        "Переплетайте личные драмы героев с масштабными межзвездными баталиями."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","space-opera","sci-fi","dune","worldbuilding"],
+    }),
+  },
+
+  "creative-childrens-picture-book-rhythm-rhyme": {
+    id: "creative-childrens-picture-book-rhythm-rhyme",
+    name: "CreativeChildrensPictureBookRhythmRhymeSkill",
+    displayName: "Children's Picture Book Rhythmic Storytelling & Visual Cues",
+    categoryId: "creative",
+    description: "Crafts playful, read-aloud early childhood picture books featuring onomatopoeia, refrains, and dynamic page-turn anticipation.",
+    tags: ["creative","childrens-books","picture-book","storytelling","rhyme"],
+    transform: createStandardSkillTransform({
+      sectionName: "Children's Picture Book Narrative Standards",
+      ruSectionName: "Ритмические детские сказки и иллюстрированные книги (Onomatopoeia, Page-turns)",
+      instructions: [
+        "Use joyful onomatopoeia, alliteration, and musical cadence designed for reading aloud.",
+        "Structure satisfying predictable refrains that toddlers can chant along with.",
+        "Place cliffhangers and visual mystery prompts at the end of each spread to drive page turns."
+],
+      ruInstructions: [
+        "Используйте звукоподражание (бум-трах), аллитерацию и певучий ритм для чтения вслух родителями.",
+        "Создавайте повторяющиеся запоминающиеся рефрены, которые дети могут подпевать хором.",
+        "Заканчивайте каждый разворот визуальной загадкой, мотивирующей перевернуть страницу."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","childrens-books","picture-book","storytelling","rhyme"],
+    }),
+  },
+
+  "creative-flash-fiction-500-words-twist": {
+    id: "creative-flash-fiction-500-words-twist",
+    name: "CreativeFlashFiction500WordsTwistSkill",
+    displayName: "Micro & Flash Fiction (<500 Words) Punchline Twists",
+    categoryId: "creative",
+    description: "Distills powerful short narratives under 500 words with immediate character stakes, compressed timeframes, and unforgettable endings.",
+    tags: ["creative","flash-fiction","micro-story","writing-craft","short-story"],
+    transform: createStandardSkillTransform({
+      sectionName: "Flash Fiction Architecture (<500 Words)",
+      ruSectionName: "Мастерство микропрозы и флеш-фикшн (До 500 слов, неожиданный финал)",
+      instructions: [
+        "Start in media res on the critical turning second of the protagonist's life.",
+        "Every single adjective and verb must pull double duty conveying plot and theme.",
+        "Deliver a closing sentence that completely reframes the reader's understanding of the opening line."
+],
+      ruInstructions: [
+        "Начинайте прямо в эпицентре ключевого события (in media res) без долгих вступлений.",
+        "Каждое слово и глагол должны нести двойную смысловую нагрузку для сюжета и раскрытия темы.",
+        "Завершайте текст финальной фразой, переворачивающей восприятие всей истории с ног на голову."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","flash-fiction","micro-story","writing-craft","short-story"],
+    }),
+  },
+
+  "creative-gothic-romance-haunted-manor-atmosphere": {
+    id: "creative-gothic-romance-haunted-manor-atmosphere",
+    name: "CreativeGothicRomanceHauntedManorAtmosphereSkill",
+    displayName: "Gothic Romance & Decaying Haunted Manor Atmosphere",
+    categoryId: "creative",
+    description: "Constructs atmospheric Victorian gothic fiction: windswept moors, ancestral curses, architectural labyrinths, and brooding aristocrats.",
+    tags: ["creative","gothic","romance","horror","victorian","atmosphere"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gothic Romance Narrative Standards",
+      ruSectionName: "Готический роман (Мрачные поместья, родовые тайны, вересковые пустоши)",
+      instructions: [
+        "Treat the decaying architectural estate as a living, menacing character with secrets.",
+        "Evoke windswept foggy moors, flickering candlelight, and unexplainable nighttime footsteps.",
+        "Balance intense psychological attraction with deep dread and hidden ancestral crimes."
+],
+      ruInstructions: [
+        "Превращайте старинный разрушающийся особняк в отдельного одушевленного персонажа с тайнами.",
+        "Создавайте атмосферу туманных пустошей, колеблющегося пламени свечей и шагов в темных коридорах.",
+        "Балансируйте между романтическим влечением и леденящим страхом перед темным прошлым рода."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","gothic","romance","horror","victorian","atmosphere"],
+    }),
+  },
+
+  "creative-comedic-satire-onion-parody-craft": {
+    id: "creative-comedic-satire-onion-parody-craft",
+    name: "CreativeComedicSatireOnionParodyCraftSkill",
+    displayName: "Sharp Satirical News Parody & Irony (The Onion Style)",
+    categoryId: "creative",
+    description: "Writes razor-sharp journalistic satire using deadpan headlines, absurd premises treated with grave institutional seriousness.",
+    tags: ["creative","satire","comedy","parody","the-onion","humor"],
+    transform: createStandardSkillTransform({
+      sectionName: "Satirical News Parody Blueprint",
+      ruSectionName: "Острая социальная сатира и новостная пародия (В традициях The Onion)",
+      instructions: [
+        "Craft headlines that embody the entire joke premise cleanly with zero wasted words.",
+        "Report absurd, bizarre premises with bone-dry, solemn Associated Press journalistic sobriety.",
+        "Include fabricated quotes from self-deluded citizens and pompous corporate PR spokespeople."
+],
+      ruInstructions: [
+        "Формулируйте заголовок так, чтобы в нем содержалась вся соль комической идеи без лишних слов.",
+        "Подавайте абсурдный инфоповод с невозмутимой серьезностью официального репортажа новостных агентств.",
+        "Добавляйте вымышленные цитаты самодовольных экспертов и шаблонных пресс-секретарей."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","satire","comedy","parody","the-onion","humor"],
+    }),
+  },
+
+  "creative-solarpunk-optimistic-ecological-utopia": {
+    id: "creative-solarpunk-optimistic-ecological-utopia",
+    name: "CreativeSolarpunkOptimisticEcologicalUtopiaSkill",
+    displayName: "Solarpunk Optimistic Eco-Utopian Worldbuilding",
+    categoryId: "creative",
+    description: "Builds hopeful, high-tech sustainable futures: solar stained-glass, urban permaculture towers, community co-ops, and biomimicry.",
+    tags: ["creative","solarpunk","sci-fi","sustainability","utopia","ecology"],
+    transform: createStandardSkillTransform({
+      sectionName: "Solarpunk Worldbuilding Standards",
+      ruSectionName: "Миростроение в стиле соларпанк (Solarpunk: Эко-утопия, возобновляемая энергия, надежда)",
+      instructions: [
+        "Envision high-technology coexisting symbiotically with lush biodiversity and indigenous flora.",
+        "Highlight grassroots cooperative governance, decentralized microgrids, and circular zero-waste economies.",
+        "Focus conflict on ecological restoration, communal consensus building, and healing past industrial scars."
+],
+      ruInstructions: [
+        "Проектируйте гармоничный союз высоких технологий и пышной природы (пермакультура, солнечные витражи).",
+        "Показывайте децентрализованную зеленую энергетику и циркулярную безотходную экономику.",
+        "Стройте сюжет вокруг восстановления экосистем и преодоления последствий индустриального кризиса."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","solarpunk","sci-fi","sustainability","utopia","ecology"],
+    }),
+  },
+
+  "creative-standup-comedy-premise-punchline-callback": {
+    id: "creative-standup-comedy-premise-punchline-callback",
+    name: "CreativeStandupComedyPremisePunchlineCallbackSkill",
+    displayName: "Stand-Up Comedy Bit Writing & Setup-Punch-Tag Mechanics",
+    categoryId: "creative",
+    description: "Structures stand-up comedy sets: relatable premises, misdirection punchlines, rapid-fire tags, and closing callbacks.",
+    tags: ["creative","comedy","standup","humor","joke-writing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Stand-Up Comedy Set Writing Standards",
+      ruSectionName: "Написание стендап-комедии (Сетап, панчлайн, тэги и колбэки)",
+      instructions: [
+        "Setup: Establish a recognizable shared human truth or embarrassing observation.",
+        "Punchline: Shatter expectation with an unexpected lateral association or reverse exaggeration.",
+        "Tags & Callbacks: Stack 2-3 quick follow-up jokes and weave earlier punchlines into later bits."
+],
+      ruInstructions: [
+        "Сетап (Setup): Задавайте понятную жизненную ситуацию или парадоксальное наблюдение.",
+        "Панчлайн (Punchline): Ломайте ожидания слушателя неожиданным ракурсом или контрастным сравнением.",
+        "Тэги и колбэки: Добивайте шутку дополнительными репликами (Tags) и связывайте финал с началом сета."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","comedy","standup","humor","joke-writing"],
+    }),
+  },
+
+  "creative-interactive-murder-mystery-clue-matrix": {
+    id: "creative-interactive-murder-mystery-clue-matrix",
+    name: "CreativeInteractiveMurderMysteryClueMatrixSkill",
+    displayName: "Agatha Christie Murder Mystery & Whodunit Clue Matrix",
+    categoryId: "creative",
+    description: "Designs fair-play whodunits: locked-room crime scenes, distinct suspect alibis, hidden physical clues, and clever red herrings.",
+    tags: ["creative","mystery","whodunit","agatha-christie","detective"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fair-Play Murder Mystery Architecture",
+      ruSectionName: "Классический детектив-головоломка (Whodunit: Улики, ложные следы, алиби подозреваемых)",
+      instructions: [
+        "Ensure Fair-Play rule: every single clue needed to identify the killer must be presented to the reader beforehand.",
+        "Give every suspect a distinct motive, a viable opportunity, and a plausible lie in their alibi.",
+        "Disguise the true murder weapon or clue in plain sight through clever psychological misdirection."
+],
+      ruInstructions: [
+        "Соблюдайте правило честной игры: все улики для раскрытия убийцы должны быть открыты читателю до финала.",
+        "Давайте каждому подозреваемому скрытый мотив, возможность совершения преступления и ложное алиби.",
+        "Маскируйте ключевую улику на самом видном месте через психологическое отвлечение внимания."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","mystery","whodunit","agatha-christie","detective"],
+    }),
+  },
+  "creative-folk-fairy-tale-propp-morphology": {
+    id: "creative-folk-fairy-tale-propp-morphology",
+    name: "CreativeFolkFairyTaleProppMorphologySkill",
+    displayName: "Vladimir Propp Folk Tale Morphology & Archetypal Functions",
+    categoryId: "creative",
+    description: "Structures authentic folktales using Vladimir Propp's 31 narrative functions (Interdiction, Violation, Departure, Donor Test).",
+    tags: ["creative","folklore","propp","fairy-tale","mythology"],
+    transform: createStandardSkillTransform({
+      sectionName: "Folk Tale Morphology Framework",
+      ruSectionName: "Морфология волшебной сказки Владимира Проппа (31 функция сюжета)",
+      instructions: [
+        "Sequence narrative via classical functions: Absentation -> Interdiction -> Violation -> Donor Encounter -> Magical Aid.",
+        "Include traditional folk motifs: threefold repetitions, talking beasts, and liminal forest crossroads.",
+        "Reward moral virtue and resourcefulness while punishing greed through poetic karmic justice."
+],
+      ruInstructions: [
+        "Выстраивайте сюжет по функциям Проппа: Запрет -> Нарушение -> Встреча с дарителем -> Испытание -> Награда.",
+        "Используйте традиционные сказочные мотивы: троекратные повторы, говорящих зверей и дремучий лес.",
+        "Награждайте доброту и смекалку, наказывая алчность закономерным сказочным возмездием."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","folklore","propp","fairy-tale","mythology"],
+    }),
+  },
+
+  "creative-stream-of-consciousness-joyce-woolf": {
+    id: "creative-stream-of-consciousness-joyce-woolf",
+    name: "CreativeStreamOfConsciousnessJoyceWoolfSkill",
+    displayName: "Modernist Stream of Consciousness (James Joyce / Virginia Woolf)",
+    categoryId: "creative",
+    description: "Captures unedited sensory flow, internal monologues, and involuntary memory associations (Proustian epiphanies).",
+    tags: ["creative","modernism","stream-of-consciousness","joyce","woolf","literature"],
+    transform: createStandardSkillTransform({
+      sectionName: "Stream of Consciousness Prose Standards",
+      ruSectionName: "Поток сознания модернистской прозы (Джеймс Джойс / Вирджиния Вулф)",
+      instructions: [
+        "Weave continuous internal thought streams with immediate sensory sights, sounds, and physical sensations.",
+        "Transition seamlessly between present moments and deep involuntary childhood memories.",
+        "Embrace rhythmic, fluid sentence structures reflecting the authentic ebb and flow of human thought."
+],
+      ruInstructions: [
+        "Переплетайте внутренний диалог персонажа с непосредственными звуками и запахами окружающего мира.",
+        "Совершайте плавные ассоциативные переходы от текущего момента к глубоким пластам памяти.",
+        "Используйте текучий, музыкальный синтаксис, отражающий непрерывное биение мысли."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","modernism","stream-of-consciousness","joyce","woolf","literature"],
+    }),
+  },
+
+  "creative-cyber-noir-augmented-detective": {
+    id: "creative-cyber-noir-augmented-detective",
+    name: "CreativeCyberNoirAugmentedDetectiveSkill",
+    displayName: "Cyber-Noir Augmented Reality Investigation & Digital Grit",
+    categoryId: "creative",
+    description: "Merges rain-drenched hardboiled detective tropes with ocular HUD overlays, memory implant forensic extractions, and neon haze.",
+    tags: ["creative","cyber-noir","sci-fi","detective","cyberpunk"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cyber-Noir Narrative Standards",
+      ruSectionName: "Кибер-нуар: дополненная реальность, оцифрованные воспоминания и неоновый туман",
+      instructions: [
+        "Interleave cynical detective inner monologues with flickering HUD augmented-reality biometric feeds.",
+        "Investigate crimes involving stolen neural memories, deepfake alibis, and rogue synthetic clones.",
+        "Maintain moody atmosphere: neon reflections in dirty puddle water, cigarette smoke, and synthetic rain."
+],
+      ruInstructions: [
+        "Сочетайте циничный монолог сыщика с мерцающими данными оптического HUD-интерфейса.",
+        "Расследуйте преступления, связанные с кражей нейронных воспоминаний и синтетическими клонами.",
+        "Передавайте фактуру города: неоновые блики в грязных лужах, сигаретный дым и кислотный дождь."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","cyber-noir","sci-fi","detective","cyberpunk"],
+    }),
+  },
+
+  "creative-mythological-pantheon-creation": {
+    id: "creative-mythological-pantheon-creation",
+    name: "CreativeMythologicalPantheonCreationSkill",
+    displayName: "Mythological Pantheon & Cosmogony Creation Engine",
+    categoryId: "creative",
+    description: "Generates coherent polytheistic pantheons: creation cosmogonies, sibling rivalries, divine domains, and mortal prayer rituals.",
+    tags: ["creative","mythology","worldbuilding","pantheon","gods"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mythological Pantheon Architecture",
+      ruSectionName: "Проектирование мифологического пантеона и космогонических мифов",
+      instructions: [
+        "Establish a foundational Creation Cosmogony explaining how order arose from primordial chaos.",
+        "Design distinct divine portfolios (sun, storm, craft, underworld) with complex sibling jealousies.",
+        "Detail tangible mortal worship practices, taboos, sacrificial rites, and temple architecture."
+],
+      ruInstructions: [
+        "Формулируйте миф о сотворении мира: как из первобытного хаоса возник мировой порядок.",
+        "Распределяйте сферы влияния богов (солнце, гроза, ремесло) с учетом их сложных родственных интриг.",
+        "Описывайте священные обряды смертных, храмовые праздники и табу."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","mythology","worldbuilding","pantheon","gods"],
+    }),
+  },
+
+  "creative-epic-fantasy-conlang-phonotactics": {
+    id: "creative-epic-fantasy-conlang-phonotactics",
+    name: "CreativeEpicFantasyConlangPhonotacticsSkill",
+    displayName: "Fantasy Conlang Naming & Phonotactic Consistency",
+    categoryId: "creative",
+    description: "Develops believable fictional languages (Tolkien style) with strict phonetic inventories, consonant clusters, and naming conventions.",
+    tags: ["creative","conlang","fantasy","worldbuilding","linguistics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fantasy Conlang Naming Standards",
+      ruSectionName: "Лингвистическое конструирование языков (Конланги и фонетика имен по Толкину)",
+      instructions: [
+        "Define an explicit consonant and vowel phonetic inventory per culture (e.g. guttural vs flowing liquid sounds).",
+        "Enforce strict phonotactic rules for syllable structure (CV, CVC) to ensure consistent name aesthetics.",
+        "Derive place names and family surnames from shared linguistic root words with historical etymology."
+],
+      ruInstructions: [
+        "Задавайте фонетический профиль языка расы (например, гортанные резкие звуки или певучие гласные).",
+        "Соблюдайте правила построения слогов для гармоничного и узнаваемого звучания имен.",
+        "Образуйте географические названия от общих базовых корней с прозрачной исторической этимологией."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","conlang","fantasy","worldbuilding","linguistics"],
+    }),
+  },
+
+  "creative-screenplay-scene-beat-sheet-snyder": {
+    id: "creative-screenplay-scene-beat-sheet-snyder",
+    name: "CreativeScreenplaySceneBeatSheetSnyderSkill",
+    displayName: "Blake Snyder 'Save the Cat' 15-Beat Screenplay Structure",
+    categoryId: "creative",
+    description: "Structures cinematic screenplays according to the proven 15-beat timeline: Catalyst, Break into Two, Midpoint, All is Lost, Climax.",
+    tags: ["creative","screenwriting","save-the-cat","blake-snyder","cinema"],
+    transform: createStandardSkillTransform({
+      sectionName: "Save the Cat 15-Beat Screenplay Framework",
+      ruSectionName: "15 сценарных ударов структуры «Спасите котика» (Blake Snyder Beat Sheet)",
+      instructions: [
+        "Place Opening Image and Catalyst cleanly within the first 10-12% of narrative runtime.",
+        "Deliver a false victory/defeat at the Midpoint (50%) that raises stakes irreversibly.",
+        "Plunge protagonist into the 'All is Lost' dark night of the soul before synthesizing the thematic lesson in the Climax."
+],
+      ruInstructions: [
+        "Размещайте экспозицию и катализатор событий в первых 10–12 минутах экранного времени.",
+        "Создавайте ложную победу или поражение в мидпоинте (50%), кардинально повышая ставки.",
+        "Проводите героя через «темную ночь души» (All is Lost), подводя к перерождению в финале."
+],
+      semanticType: "structural_directive",
+      tags: ["creative","screenwriting","save-the-cat","blake-snyder","cinema"],
     }),
   },
 };

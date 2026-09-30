@@ -1365,4 +1365,628 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
       tags: ["ux_design","personas","empathy-map","user-research","scenarios"],
     }),
   },
+  "ux-design-fitts-law-hick-law-interactive-target-optimization": {
+    id: "ux-design-fitts-law-hick-law-interactive-target-optimization",
+    name: "FittsLawHickLawInteractiveTargetOptimizationSkill",
+    displayName: "Fitts Law & Hick Law Interactive Target Optimization",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Fitts Law & Hick Law Interactive Target Optimization.",
+    tags: ["uxDesign","design","fitts","law"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fitts & Hicks Law Usability Standards",
+      ruSectionName: "Стандарты и практические требования: Fitts Law & Hick Law Interactive Target Optimization",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Fitts Law & Hick Law Interactive Target Optimization.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Fitts Law & Hick Law Interactive Target Optimization.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","fitts","law"],
+    }),
+  },
+
+  "ux-design-wcag-2-2-aaa-accessible-color-contrast-screen-reader": {
+    id: "ux-design-wcag-2-2-aaa-accessible-color-contrast-screen-reader",
+    name: "WCAG22AAAAccessibleColorContrastScreenReaderSkill",
+    displayName: "WCAG 2.2 AAA Accessible Color Contrast & Screen Reader",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for WCAG 2.2 AAA Accessible Color Contrast & Screen Reader.",
+    tags: ["uxDesign","design","wcag","2"],
+    transform: createStandardSkillTransform({
+      sectionName: "WCAG AAA Accessibility Standards",
+      ruSectionName: "Стандарты и практические требования: WCAG 2.2 AAA Accessible Color Contrast & Screen Reader",
+      instructions: [
+        "Apply core domain tenets and industry best practices for WCAG 2.2 AAA Accessible Color Contrast & Screen Reader.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для WCAG 2.2 AAA Accessible Color Contrast & Screen Reader.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","wcag","2"],
+    }),
+  },
+
+  "ux-design-design-system-atomic-design-tokens-figma-to-code": {
+    id: "ux-design-design-system-atomic-design-tokens-figma-to-code",
+    name: "DesignSystemAtomicDesignTokensFigmatoCodeSkill",
+    displayName: "Design System Atomic Design Tokens (Figma-to-Code)",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Design System Atomic Design Tokens (Figma-to-Code).",
+    tags: ["uxDesign","design","design","system"],
+    transform: createStandardSkillTransform({
+      sectionName: "Atomic Design Tokens Architecture",
+      ruSectionName: "Стандарты и практические требования: Design System Atomic Design Tokens (Figma-to-Code)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Design System Atomic Design Tokens (Figma-to-Code).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Design System Atomic Design Tokens (Figma-to-Code).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","design","system"],
+    }),
+  },
+
+  "ux-design-mobile-touch-target-48px-minimum-hit-area": {
+    id: "ux-design-mobile-touch-target-48px-minimum-hit-area",
+    name: "MobileTouchTarget48pxMinimumHitAreaSkill",
+    displayName: "Mobile Touch Target 48px Minimum Hit Area",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Mobile Touch Target 48px Minimum Hit Area.",
+    tags: ["uxDesign","design","mobile","touch"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mobile Touch Hit Area Standards",
+      ruSectionName: "Стандарты и практические требования: Mobile Touch Target 48px Minimum Hit Area",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Mobile Touch Target 48px Minimum Hit Area.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Mobile Touch Target 48px Minimum Hit Area.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","mobile","touch"],
+    }),
+  },
+
+  "ux-design-card-sorting-information-architecture-sitemap": {
+    id: "ux-design-card-sorting-information-architecture-sitemap",
+    name: "CardSortingInformationArchitectureSitemapSkill",
+    displayName: "Card Sorting Information Architecture Sitemap",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Card Sorting Information Architecture Sitemap.",
+    tags: ["uxDesign","design","card","sorting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Card Sorting Information Architecture",
+      ruSectionName: "Стандарты и практические требования: Card Sorting Information Architecture Sitemap",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Card Sorting Information Architecture Sitemap.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Card Sorting Information Architecture Sitemap.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","card","sorting"],
+    }),
+  },
+
+  "ux-design-progressive-disclosure-multi-step-wizard-ux": {
+    id: "ux-design-progressive-disclosure-multi-step-wizard-ux",
+    name: "ProgressiveDisclosureMultiStepWizardUXSkill",
+    displayName: "Progressive Disclosure Multi-Step Wizard UX",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Progressive Disclosure Multi-Step Wizard UX.",
+    tags: ["uxDesign","design","progressive","disclosure"],
+    transform: createStandardSkillTransform({
+      sectionName: "Progressive Disclosure Wizard Standards",
+      ruSectionName: "Стандарты и практические требования: Progressive Disclosure Multi-Step Wizard UX",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Progressive Disclosure Multi-Step Wizard UX.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Progressive Disclosure Multi-Step Wizard UX.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","progressive","disclosure"],
+    }),
+  },
+
+  "ux-design-dark-mode-visual-hierarchy-oled-contrast-rules": {
+    id: "ux-design-dark-mode-visual-hierarchy-oled-contrast-rules",
+    name: "DarkModeVisualHierarchyOledContrastRulesSkill",
+    displayName: "Dark Mode Visual Hierarchy & Oled Contrast Rules",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Dark Mode Visual Hierarchy & Oled Contrast Rules.",
+    tags: ["uxDesign","design","dark","mode"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dark Mode Hierarchy & Contrast Rules",
+      ruSectionName: "Стандарты и практические требования: Dark Mode Visual Hierarchy & Oled Contrast Rules",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Dark Mode Visual Hierarchy & Oled Contrast Rules.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Dark Mode Visual Hierarchy & Oled Contrast Rules.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","dark","mode"],
+    }),
+  },
+
+  "ux-design-skeleton-loader-ui-perceived-performance": {
+    id: "ux-design-skeleton-loader-ui-perceived-performance",
+    name: "SkeletonLoaderUIPerceivedPerformanceSkill",
+    displayName: "Skeleton Loader UI Perceived Performance",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Skeleton Loader UI Perceived Performance.",
+    tags: ["uxDesign","design","skeleton","loader"],
+    transform: createStandardSkillTransform({
+      sectionName: "Skeleton Loader UX Standards",
+      ruSectionName: "Стандарты и практические требования: Skeleton Loader UI Perceived Performance",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Skeleton Loader UI Perceived Performance.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Skeleton Loader UI Perceived Performance.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","skeleton","loader"],
+    }),
+  },
+
+  "ux-design-responsive-typography-fluid-clamp-scale": {
+    id: "ux-design-responsive-typography-fluid-clamp-scale",
+    name: "ResponsiveTypographyFluidClampScaleSkill",
+    displayName: "Responsive Typography Fluid Clamp() Scale",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Responsive Typography Fluid Clamp() Scale.",
+    tags: ["uxDesign","design","responsive","typography"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fluid Typography Clamp Standards",
+      ruSectionName: "Стандарты и практические требования: Responsive Typography Fluid Clamp() Scale",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Responsive Typography Fluid Clamp() Scale.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Responsive Typography Fluid Clamp() Scale.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","responsive","typography"],
+    }),
+  },
+
+  "ux-design-interactive-micro-animations-200ms-spring-physics": {
+    id: "ux-design-interactive-micro-animations-200ms-spring-physics",
+    name: "InteractiveMicroAnimations200msSpringPhysicsSkill",
+    displayName: "Interactive Micro-Animations 200ms Spring Physics",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Interactive Micro-Animations 200ms Spring Physics.",
+    tags: ["uxDesign","design","interactive","micro"],
+    transform: createStandardSkillTransform({
+      sectionName: "Micro-Animation Physics Standards",
+      ruSectionName: "Стандарты и практические требования: Interactive Micro-Animations 200ms Spring Physics",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Interactive Micro-Animations 200ms Spring Physics.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Interactive Micro-Animations 200ms Spring Physics.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","interactive","micro"],
+    }),
+  },
+
+  "ux-design-user-onboarding-checklist-progress-gamification": {
+    id: "ux-design-user-onboarding-checklist-progress-gamification",
+    name: "UserOnboardingChecklistProgressGamificationSkill",
+    displayName: "User Onboarding Checklist Progress Gamification",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for User Onboarding Checklist Progress Gamification.",
+    tags: ["uxDesign","design","user","onboarding"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gamified Onboarding Checklist UX",
+      ruSectionName: "Стандарты и практические требования: User Onboarding Checklist Progress Gamification",
+      instructions: [
+        "Apply core domain tenets and industry best practices for User Onboarding Checklist Progress Gamification.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для User Onboarding Checklist Progress Gamification.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","user","onboarding"],
+    }),
+  },
+
+  "ux-design-zero-state-empty-state-cta-activation": {
+    id: "ux-design-zero-state-empty-state-cta-activation",
+    name: "ZeroStateEmptyStateCTAActivationSkill",
+    displayName: "Zero-State Empty State CTA Activation",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Zero-State Empty State CTA Activation.",
+    tags: ["uxDesign","design","zero","state"],
+    transform: createStandardSkillTransform({
+      sectionName: "Empty State CTA Standards",
+      ruSectionName: "Стандарты и практические требования: Zero-State Empty State CTA Activation",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Zero-State Empty State CTA Activation.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Zero-State Empty State CTA Activation.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","zero","state"],
+    }),
+  },
+
+  "ux-design-form-validation-inline-instant-feedback-error-assist": {
+    id: "ux-design-form-validation-inline-instant-feedback-error-assist",
+    name: "FormValidationInlineInstantFeedbackErrorAssistSkill",
+    displayName: "Form Validation Inline Instant Feedback & Error Assist",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Form Validation Inline Instant Feedback & Error Assist.",
+    tags: ["uxDesign","design","form","validation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Inline Form Validation Standards",
+      ruSectionName: "Стандарты и практические требования: Form Validation Inline Instant Feedback & Error Assist",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Form Validation Inline Instant Feedback & Error Assist.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Form Validation Inline Instant Feedback & Error Assist.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","form","validation"],
+    }),
+  },
+
+  "ux-design-breadcrumb-navigation-nested-category-wayfinding": {
+    id: "ux-design-breadcrumb-navigation-nested-category-wayfinding",
+    name: "BreadcrumbNavigationNestedCategoryWayfindingSkill",
+    displayName: "Breadcrumb Navigation & Nested Category Wayfinding",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Breadcrumb Navigation & Nested Category Wayfinding.",
+    tags: ["uxDesign","design","breadcrumb","navigation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Breadcrumb Wayfinding Standards",
+      ruSectionName: "Стандарты и практические требования: Breadcrumb Navigation & Nested Category Wayfinding",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Breadcrumb Navigation & Nested Category Wayfinding.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Breadcrumb Navigation & Nested Category Wayfinding.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","breadcrumb","navigation"],
+    }),
+  },
+
+  "ux-design-infinite-scroll-vs-pagination-virtualized-list": {
+    id: "ux-design-infinite-scroll-vs-pagination-virtualized-list",
+    name: "InfiniteScrollvsPaginationVirtualizedListSkill",
+    displayName: "Infinite Scroll vs Pagination Virtualized List",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Infinite Scroll vs Pagination Virtualized List.",
+    tags: ["uxDesign","design","infinite","scroll"],
+    transform: createStandardSkillTransform({
+      sectionName: "Virtualized List UX Standards",
+      ruSectionName: "Стандарты и практические требования: Infinite Scroll vs Pagination Virtualized List",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Infinite Scroll vs Pagination Virtualized List.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Infinite Scroll vs Pagination Virtualized List.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","infinite","scroll"],
+    }),
+  },
+
+  "ux-design-bottom-navigation-bar-thumb-zone-usability": {
+    id: "ux-design-bottom-navigation-bar-thumb-zone-usability",
+    name: "BottomNavigationBarThumbZoneUsabilitySkill",
+    displayName: "Bottom Navigation Bar Thumb-Zone Usability",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Bottom Navigation Bar Thumb-Zone Usability.",
+    tags: ["uxDesign","design","bottom","navigation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Thumb-Zone Mobile Usability Standards",
+      ruSectionName: "Стандарты и практические требования: Bottom Navigation Bar Thumb-Zone Usability",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Bottom Navigation Bar Thumb-Zone Usability.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Bottom Navigation Bar Thumb-Zone Usability.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","bottom","navigation"],
+    }),
+  },
+
+  "ux-design-drag-and-drop-kanban-board-reorder-affordance": {
+    id: "ux-design-drag-and-drop-kanban-board-reorder-affordance",
+    name: "DragandDropKanbanBoardReorderAffordanceSkill",
+    displayName: "Drag-and-Drop Kanban Board Reorder Affordance",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Drag-and-Drop Kanban Board Reorder Affordance.",
+    tags: ["uxDesign","design","drag","and"],
+    transform: createStandardSkillTransform({
+      sectionName: "Drag-and-Drop Affordance Standards",
+      ruSectionName: "Стандарты и практические требования: Drag-and-Drop Kanban Board Reorder Affordance",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Drag-and-Drop Kanban Board Reorder Affordance.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Drag-and-Drop Kanban Board Reorder Affordance.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","drag","and"],
+    }),
+  },
+
+  "ux-design-modal-dialog-vs-drawer-vs-toast-placement-matrix": {
+    id: "ux-design-modal-dialog-vs-drawer-vs-toast-placement-matrix",
+    name: "ModalDialogvsDrawervsToastPlacementMatrixSkill",
+    displayName: "Modal Dialog vs Drawer vs Toast Placement Matrix",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Modal Dialog vs Drawer vs Toast Placement Matrix.",
+    tags: ["uxDesign","design","modal","dialog"],
+    transform: createStandardSkillTransform({
+      sectionName: "Overlay & Toast UX Matrix Standards",
+      ruSectionName: "Стандарты и практические требования: Modal Dialog vs Drawer vs Toast Placement Matrix",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Modal Dialog vs Drawer vs Toast Placement Matrix.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Modal Dialog vs Drawer vs Toast Placement Matrix.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","modal","dialog"],
+    }),
+  },
+
+  "ux-design-search-auto-complete-fast-fuzzy-match-dropdown": {
+    id: "ux-design-search-auto-complete-fast-fuzzy-match-dropdown",
+    name: "SearchAutoCompleteFastFuzzyMatchDropdownSkill",
+    displayName: "Search Auto-Complete Fast Fuzzy Match Dropdown",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Search Auto-Complete Fast Fuzzy Match Dropdown.",
+    tags: ["uxDesign","design","search","auto"],
+    transform: createStandardSkillTransform({
+      sectionName: "Search Auto-Complete Dropdown Standards",
+      ruSectionName: "Стандарты и практические требования: Search Auto-Complete Fast Fuzzy Match Dropdown",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Search Auto-Complete Fast Fuzzy Match Dropdown.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Search Auto-Complete Fast Fuzzy Match Dropdown.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","search","auto"],
+    }),
+  },
+
+  "ux-design-checkout-funnel-1-click-frictionless-payment-ux": {
+    id: "ux-design-checkout-funnel-1-click-frictionless-payment-ux",
+    name: "CheckoutFunnel1ClickFrictionlessPaymentUXSkill",
+    displayName: "Checkout Funnel 1-Click Frictionless Payment UX",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Checkout Funnel 1-Click Frictionless Payment UX.",
+    tags: ["uxDesign","design","checkout","funnel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Frictionless Checkout UX Blueprint",
+      ruSectionName: "Стандарты и практические требования: Checkout Funnel 1-Click Frictionless Payment UX",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Checkout Funnel 1-Click Frictionless Payment UX.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Checkout Funnel 1-Click Frictionless Payment UX.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","checkout","funnel"],
+    }),
+  },
+
+  "ux-design-user-persona-journey-empathy-mapping-canvas": {
+    id: "ux-design-user-persona-journey-empathy-mapping-canvas",
+    name: "UserPersonaJourneyEmpathyMappingCanvasSkill",
+    displayName: "User Persona Journey Empathy Mapping Canvas",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for User Persona Journey Empathy Mapping Canvas.",
+    tags: ["uxDesign","design","user","persona"],
+    transform: createStandardSkillTransform({
+      sectionName: "Journey Empathy Mapping Framework",
+      ruSectionName: "Стандарты и практические требования: User Persona Journey Empathy Mapping Canvas",
+      instructions: [
+        "Apply core domain tenets and industry best practices for User Persona Journey Empathy Mapping Canvas.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для User Persona Journey Empathy Mapping Canvas.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","user","persona"],
+    }),
+  },
+
+  "ux-design-usability-testing-rite-rapid-iterative-protocol": {
+    id: "ux-design-usability-testing-rite-rapid-iterative-protocol",
+    name: "UsabilityTestingRITERapidIterativeProtocolSkill",
+    displayName: "Usability Testing RITE Rapid Iterative Protocol",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Usability Testing RITE Rapid Iterative Protocol.",
+    tags: ["uxDesign","design","usability","testing"],
+    transform: createStandardSkillTransform({
+      sectionName: "RITE Usability Testing Protocol",
+      ruSectionName: "Стандарты и практические требования: Usability Testing RITE Rapid Iterative Protocol",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Usability Testing RITE Rapid Iterative Protocol.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Usability Testing RITE Rapid Iterative Protocol.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","usability","testing"],
+    }),
+  },
+
+  "ux-design-heatmap-eye-tracking-f-shaped-reading-pattern": {
+    id: "ux-design-heatmap-eye-tracking-f-shaped-reading-pattern",
+    name: "HeatmapEyeTrackingFShapedReadingPatternSkill",
+    displayName: "Heatmap & Eye-Tracking F-Shaped Reading Pattern",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Heatmap & Eye-Tracking F-Shaped Reading Pattern.",
+    tags: ["uxDesign","design","heatmap","eye"],
+    transform: createStandardSkillTransform({
+      sectionName: "Heatmap F-Pattern Visual Hierarchy",
+      ruSectionName: "Стандарты и практические требования: Heatmap & Eye-Tracking F-Shaped Reading Pattern",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Heatmap & Eye-Tracking F-Shaped Reading Pattern.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Heatmap & Eye-Tracking F-Shaped Reading Pattern.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","heatmap","eye"],
+    }),
+  },
+
+  "ux-design-heuristic-evaluation-nielsen-10-usability-principles": {
+    id: "ux-design-heuristic-evaluation-nielsen-10-usability-principles",
+    name: "HeuristicEvaluationNielsen10UsabilityPrinciplesSkill",
+    displayName: "Heuristic Evaluation Nielsen 10 Usability Principles",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Heuristic Evaluation Nielsen 10 Usability Principles.",
+    tags: ["uxDesign","design","heuristic","evaluation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Nielsen 10 Heuristics Evaluation",
+      ruSectionName: "Стандарты и практические требования: Heuristic Evaluation Nielsen 10 Usability Principles",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Heuristic Evaluation Nielsen 10 Usability Principles.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Heuristic Evaluation Nielsen 10 Usability Principles.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","heuristic","evaluation"],
+    }),
+  },
+
+  "ux-design-sticky-header-smooth-scrollspy-table-of-contents": {
+    id: "ux-design-sticky-header-smooth-scrollspy-table-of-contents",
+    name: "StickyHeaderSmoothScrollspyTableofContentsSkill",
+    displayName: "Sticky Header Smooth Scrollspy Table of Contents",
+    categoryId: "uxDesign",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Sticky Header Smooth Scrollspy Table of Contents.",
+    tags: ["uxDesign","design","sticky","header"],
+    transform: createStandardSkillTransform({
+      sectionName: "Scrollspy Navigation UX Standards",
+      ruSectionName: "Стандарты и практические требования: Sticky Header Smooth Scrollspy Table of Contents",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Sticky Header Smooth Scrollspy Table of Contents.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Sticky Header Smooth Scrollspy Table of Contents.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["uxDesign","design","sticky","header"],
+    }),
+  },
 };

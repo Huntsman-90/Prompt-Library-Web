@@ -1905,5 +1905,1129 @@ export const OUTPUT_SKILLS: Record<string, SkillDefinition> = {
       tags: ["output","json-patch","rfc6902","mutations","api-standards"],
     }),
   },
+  "output-json-schema-strict-draft-07": {
+    id: "output-json-schema-strict-draft-07",
+    name: "OutputJsonSchemaStrictDraft07Skill",
+    displayName: "Strict JSON Schema (Draft-07) Formatted Output",
+    categoryId: "output",
+    description: "Enforces 100% compliant JSON Schema Draft-07 syntax with typed definitions, required fields, and no additional properties.",
+    tags: ["output","json-schema","draft-07","type-safety","api"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strict JSON Schema (Draft-07) Specification",
+      ruSectionName: "Форматирование вывода по схеме JSON Schema Draft-07",
+      instructions: [
+        "Output strictly valid JSON Schema Draft-07 format: `{ \"$schema\": \"http://json-schema.org/draft-07/schema#\", ... }`.",
+        "Explicitly enumerate `required` array and set `additionalProperties: false`.",
+        "Include semantic `description` and `type` for every declared property."
+],
+      ruInstructions: [
+        "Форматируйте вывод строго по стандарту JSON Schema Draft-07.",
+        "Указывайте список обязательных полей `required` и `additionalProperties: false`.",
+        "Добавляйте понятные описания и типы для каждого свойства схемы."
+],
+      semanticType: "domain_specific",
+      tags: ["output","json-schema","draft-07","type-safety","api"],
+    }),
+  },
+
+  "output-k8s-manifest-yaml-production": {
+    id: "output-k8s-manifest-yaml-production",
+    name: "OutputK8sManifestYamlProductionSkill",
+    displayName: "Production Kubernetes YAML Manifest Standard",
+    categoryId: "output",
+    description: "Outputs complete, copy-pasteable Kubernetes manifests with resource requests/limits, probes, and securityContext.",
+    tags: ["output","kubernetes","yaml","devops","manifests"],
+    transform: createStandardSkillTransform({
+      sectionName: "Production Kubernetes YAML Manifest Standards",
+      ruSectionName: "Стандарт производственных манифестов Kubernetes (YAML)",
+      instructions: [
+        "Output valid Kubernetes YAML containing `apiVersion`, `kind`, `metadata`, and `spec`.",
+        "Include explicit `resources.requests` and `resources.limits` (CPU and Memory).",
+        "Embed `livenessProbe`, `readinessProbe`, and hardened `securityContext` (`readOnlyRootFilesystem: true`)."
+],
+      ruInstructions: [
+        "Генерируйте полностью готовые YAML-манифесты Kubernetes со всеми стандартными полями.",
+        "Обязательно задавайте лимиты и запросы ресурсов по CPU и оперативной памяти.",
+        "Включайте проверки жизнеспособности (Probes) и строгие настройки безопасности (securityContext)."
+],
+      semanticType: "domain_specific",
+      tags: ["output","kubernetes","yaml","devops","manifests"],
+    }),
+  },
+
+  "output-markdown-executive-memo": {
+    id: "output-markdown-executive-memo",
+    name: "OutputMarkdownExecutiveMemoSkill",
+    displayName: "Standard Executive Memorandum Format (To/From/Date/Subject)",
+    categoryId: "output",
+    description: "Structures high-stakes executive memos with header metadata, BLUF statement, financial impact, and sign-off.",
+    tags: ["output","executive-memo","memo","business-writing","management"],
+    transform: createStandardSkillTransform({
+      sectionName: "Standard Executive Memorandum Format",
+      ruSectionName: "Формат официального исполнительного меморандума (Executive Memo)",
+      instructions: [
+        "Header block: `MEMORANDUM | TO: [Executive] | FROM: [Author] | DATE: [ISO Date] | SUBJECT: [Topic]`.",
+        "Section 1: Executive Summary & Recommendation (BLUF).",
+        "Section 2: Strategic Context & Rationale.",
+        "Section 3: Financial & Operational Impact Matrix.",
+        "Section 4: Next Steps & Immediate Decision Required."
+],
+      ruInstructions: [
+        "Шапка: `МЕМОРАНДУМ | КОМУ | ОТ КОГО | ДАТА | ТЕМА`.",
+        "Раздел 1: Краткое резюме и ключевая рекомендация (BLUF).",
+        "Раздел 2: Стратегический контекст и обоснование.",
+        "Раздел 3: Таблица финансово-операционного эффекта.",
+        "Раздел 4: Требуемое решение руководства и следующие шаги."
+],
+      semanticType: "domain_specific",
+      tags: ["output","executive-memo","memo","business-writing","management"],
+    }),
+  },
+
+  "output-csv-rfc-4180-strict": {
+    id: "output-csv-rfc-4180-strict",
+    name: "OutputCsvRfc4180StrictSkill",
+    displayName: "Strict RFC 4180 CSV Export with Quoting and Escaping",
+    categoryId: "output",
+    description: "Outputs tabular data formatted strictly to RFC 4180 CSV standard with escaped quotes and standard CRLF endings.",
+    tags: ["output","csv","rfc4180","tabular","data-export"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strict RFC 4180 CSV Formatting Invariants",
+      ruSectionName: "Экспорт данных в строгом соответствии со стандартом RFC 4180 CSV",
+      instructions: [
+        "Format output as clean comma-separated values adhering strictly to RFC 4180.",
+        "Wrap fields containing commas, line breaks, or double quotes inside double quotes (`\"...\")`.",
+        "Escape internal double quotes with double-quotes (`\"\"`)."
+],
+      ruInstructions: [
+        "Форматируйте данные строго по стандарту RFC 4180 CSV.",
+        "Оборачивайте в кавычки поля, содержащие запятые, переносы строк или кавычки.",
+        "Экранируйте внутренние кавычки их удвоением (`\"\"`)."
+],
+      semanticType: "domain_specific",
+      tags: ["output","csv","rfc4180","tabular","data-export"],
+    }),
+  },
+
+  "output-mermaid-sequence-flowchart": {
+    id: "output-mermaid-sequence-flowchart",
+    name: "OutputMermaidSequenceFlowchartSkill",
+    displayName: "Mermaid.js Sequence Diagram & Architecture Flowchart",
+    categoryId: "output",
+    description: "Generates syntactically pristine Mermaid.js diagram codeblocks for sequence diagrams, ER diagrams, and state charts.",
+    tags: ["output","mermaid","diagrams","sequence-diagram","visualization"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mermaid.js Diagram Specification Standards",
+      ruSectionName: "Генерация синтаксически выверенных диаграмм Mermaid.js",
+      instructions: [
+        "Enclose diagram code inside ````mermaid ... ```` markdown codeblocks.",
+        "Use descriptive participant aliases and clear arrow semantics (`->>`, `-->>`, `-.->`).",
+        "Verify syntax against standard Mermaid parser rules to prevent frontend rendering crashes."
+],
+      ruInstructions: [
+        "Оборачивайте диаграммы в блоки кода с тегом ````mermaid````.",
+        "Используйте понятные имена участников и правильный синтаксис стрелок взаимодействия.",
+        "Проверяйте валидность синтаксиса для исключения ошибок рендеринга на клиенте."
+],
+      semanticType: "domain_specific",
+      tags: ["output","mermaid","diagrams","sequence-diagram","visualization"],
+    }),
+  },
+
+  "output-graphql-schema-sdl-production": {
+    id: "output-graphql-schema-sdl-production",
+    name: "OutputGraphqlSchemaSdlProductionSkill",
+    displayName: "GraphQL Schema Definition Language (SDL) Specification",
+    categoryId: "output",
+    description: "Outputs production-grade GraphQL SDL schemas with explicit types, inputs, queries, mutations, and docstrings.",
+    tags: ["output","graphql","sdl","api","schema-design"],
+    transform: createStandardSkillTransform({
+      sectionName: "GraphQL Schema Definition Language (SDL) Standard",
+      ruSectionName: "Спецификация схемы GraphQL Schema Definition Language (SDL)",
+      instructions: [
+        "Define clean GraphQL SDL types with non-null modifiers (`!`) and descriptive markdown docstrings `\"\"\"...\"\"\"`.",
+        "Segregate read `Query` types from state-mutating `Mutation` and real-time `Subscription` types.",
+        "Implement Relay-compliant connection pagination types (`Connection`, `Edge`, `PageInfo`)."
+],
+      ruInstructions: [
+        "Описывайте типы GraphQL SDL с модификаторами обязательности (`!`) и документацией `\"\"\"...\"\"\"`.",
+        "Разделяйте типы запросов чтения (Query) и изменения состояния (Mutation).",
+        "Используйте стандарт пагинации Relay (Connection, Edge, PageInfo)."
+],
+      semanticType: "domain_specific",
+      tags: ["output","graphql","sdl","api","schema-design"],
+    }),
+  },
+
+  "output-sql-ddl-postgresql-production": {
+    id: "output-sql-ddl-postgresql-production",
+    name: "OutputSqlDdlPostgresqlProductionSkill",
+    displayName: "Production PostgreSQL 16 DDL with Indexes and Constraints",
+    categoryId: "output",
+    description: "Outputs complete PostgreSQL DDL with UUID primary keys, foreign keys, CHECK constraints, and btree/gin indexes.",
+    tags: ["output","sql","postgresql","ddl","database-design"],
+    transform: createStandardSkillTransform({
+      sectionName: "Production PostgreSQL DDL Specification",
+      ruSectionName: "Промышленный стандарт SQL DDL для PostgreSQL 16",
+      instructions: [
+        "Use `UUID PRIMARY KEY DEFAULT gen_random_uuid()` and `TIMESTAMPTZ` for all temporal fields.",
+        "Define explicit foreign key `ON DELETE CASCADE / SET NULL` constraints.",
+        "Create optimized indexes (`CREATE INDEX idx_... ON ... (column);`) for high-cardinality search predicates."
+],
+      ruInstructions: [
+        "Используйте UUID в качестве первичных ключей и TIMESTAMPTZ для временных меток.",
+        "Задавайте явные внешние ключи с правилами каскадного удаления.",
+        "Создавайте оптимальные B-Tree и GIN индексы для фильтруемых полей."
+],
+      semanticType: "domain_specific",
+      tags: ["output","sql","postgresql","ddl","database-design"],
+    }),
+  },
+
+  "output-ndjson-json-lines-streaming": {
+    id: "output-ndjson-json-lines-streaming",
+    name: "OutputNdjsonJsonLinesStreamingSkill",
+    displayName: "Newline Delimited JSON (NDJSON / JSONLines) Stream",
+    categoryId: "output",
+    description: "Outputs high-throughput streaming data formatted as single-line JSON objects separated strictly by newlines.",
+    tags: ["output","ndjson","jsonl","streaming","big-data"],
+    transform: createStandardSkillTransform({
+      sectionName: "Newline Delimited JSON (NDJSON) Stream Standard",
+      ruSectionName: "Потоковый формат Newline Delimited JSON (NDJSON / JSONLines)",
+      instructions: [
+        "Emit each discrete record as a single-line, self-contained JSON object terminated by `\\n`.",
+        "Never wrap records inside an outer JSON array or add trailing commas.",
+        "Enable instant streaming chunk processing without buffering entire multi-megabyte payloads."
+],
+      ruInstructions: [
+        "Выводите каждую запись в виде отдельного валидного JSON-объекта в одну строку с переносом `\\n`.",
+        "Не оборачивайте записи во внешний массив и не ставьте запятые в конце строк.",
+        "Обеспечьте возможность потокового построчного чтения без загрузки всего файла в память."
+],
+      semanticType: "domain_specific",
+      tags: ["output","ndjson","jsonl","streaming","big-data"],
+    }),
+  },
+
+  "output-github-actions-ci-yaml": {
+    id: "output-github-actions-ci-yaml",
+    name: "OutputGithubActionsCiYamlSkill",
+    displayName: "Production GitHub Actions Workflow (.github/workflows)",
+    categoryId: "output",
+    description: "Outputs battle-hardened GitHub Actions CI/CD YAML workflows with caching, matrix builds, and security scans.",
+    tags: ["output","github-actions","ci-cd","yaml","devops","automation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Production GitHub Actions CI/CD Workflow Standards",
+      ruSectionName: "Производственный стандарт пайплайнов GitHub Actions CI/CD",
+      instructions: [
+        "Generate complete YAML with triggers (`on: [push, pull_request]`), job matrices, and pinned action versions (`actions/checkout@v4`).",
+        "Include dependency caching steps (`actions/cache`) to accelerate build execution times.",
+        "Integrate automated linting, unit testing, and vulnerability scanning (Trivy/CodeQL)."
+],
+      ruInstructions: [
+        "Создавайте полные YAML-пайплайны с триггерами, матрицами сборки и версионированными экшенами.",
+        "Включайте кэширование зависимостей (npm, pip) для ускорения сборки.",
+        "Интегрируйте шаги статического анализа, тестирования и сканирования уязвимостей."
+],
+      semanticType: "domain_specific",
+      tags: ["output","github-actions","ci-cd","yaml","devops","automation"],
+    }),
+  },
+
+  "output-semantic-release-changelog-keepachangelog": {
+    id: "output-semantic-release-changelog-keepachangelog",
+    name: "OutputSemanticReleaseChangelogKeepachangelogSkill",
+    displayName: "Keep a Changelog & Semantic Release Markdown Standard",
+    categoryId: "output",
+    description: "Outputs changelog entries categorized by Added, Changed, Deprecated, Removed, Fixed, Security adhering to Keep a Changelog.",
+    tags: ["output","changelog","keepachangelog","release-notes","documentation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Keep a Changelog & Semantic Release Standard",
+      ruSectionName: "Стандарт ведения истории изменений (Keep a Changelog v1.1.0)",
+      instructions: [
+        "Categorize release notes under standard H3 headers: `### Added`, `### Changed`, `### Fixed`, `### Security`, `### Deprecated`.",
+        "Include version numbers, release dates in ISO format (`[1.4.0] - 2026-09-30`), and comparison diff links.",
+        "Write concise, user-focused descriptions in active voice."
+],
+      ruInstructions: [
+        "Группируйте изменения по стандартным разделам: Добавлено, Изменено, Исправлено, Безопасность.",
+        "Указывайте версию и дату релиза в формате ISO-8601 со ссылками на коммиты.",
+        "Пишите краткие и понятные описания с точки зрения пользователя."
+],
+      semanticType: "domain_specific",
+      tags: ["output","changelog","keepachangelog","release-notes","documentation"],
+    }),
+  },
+  "output-proto3-protocol-buffers-spec": {
+    id: "output-proto3-protocol-buffers-spec",
+    name: "OutputProto3ProtocolBuffersSpecSkill",
+    displayName: "Google Protocol Buffers (Proto3) Service & Message Standard",
+    categoryId: "output",
+    description: "Outputs syntax-compliant Proto3 definitions with field tags, service RPC definitions, and option annotations.",
+    tags: ["output","protobuf","proto3","grpc","serialization"],
+    transform: createStandardSkillTransform({
+      sectionName: "Google Protocol Buffers (Proto3) Specification",
+      ruSectionName: "Стандарт спецификации Google Protocol Buffers (Proto3 / gRPC)",
+      instructions: [
+        "Output valid `syntax = \"proto3\";` files with package, imports, and options.",
+        "Number all message fields sequentially (`string user_id = 1;`).",
+        "Define standard gRPC `service` definitions with unary and streaming RPC methods."
+],
+      ruInstructions: [
+        "Форматируйте файл с заголовком `syntax = \"proto3\";` и описанием пакета.",
+        "Последовательно нумеруйте теги всех полей структуры данных.",
+        "Описывайте gRPC-сервисы с унарными и потоковыми RPC-методами."
+],
+      semanticType: "domain_specific",
+      tags: ["output","protobuf","proto3","grpc","serialization"],
+    }),
+  },
+
+  "output-dockerfile-multi-stage-hardened": {
+    id: "output-dockerfile-multi-stage-hardened",
+    name: "OutputDockerfileMultiStageHardenedSkill",
+    displayName: "Hardened Multi-Stage Dockerfile Standard",
+    categoryId: "output",
+    description: "Outputs secure, optimized multi-stage Dockerfiles with non-root users, minimal scratch images, and cache mounts.",
+    tags: ["output","dockerfile","containers","multi-stage","devops","security"],
+    transform: createStandardSkillTransform({
+      sectionName: "Production Hardened Multi-Stage Dockerfile Standards",
+      ruSectionName: "Стандарт многоэтапных защищенных Dockerfile (Multi-Stage Build)",
+      instructions: [
+        "Use Builder stage for dependency compilation (`FROM node:22-alpine AS builder`).",
+        "Copy compiled artifacts into a minimal runtime distroless/alpine image.",
+        "Create and switch to a non-root unprivileged system user (`USER appuser`)."
+],
+      ruInstructions: [
+        "Используйте этап сборки (Builder) для компиляции и установки зависимостей.",
+        "Копируйте только готовые артефакты в минимальный финальный образ (Distroless/Alpine).",
+        "Запускайте приложение от имени выделенного непривилегированного пользователя."
+],
+      semanticType: "domain_specific",
+      tags: ["output","dockerfile","containers","multi-stage","devops","security"],
+    }),
+  },
+
+  "output-terraform-hcl-iac-module": {
+    id: "output-terraform-hcl-iac-module",
+    name: "OutputTerraformHclIacModuleSkill",
+    displayName: "Production Terraform (HCL) Infrastructure-as-Code Module",
+    categoryId: "output",
+    description: "Outputs clean, modular Terraform HCL code with variables, locals, outputs, and provider version pins.",
+    tags: ["output","terraform","hcl","iac","cloud","devops"],
+    transform: createStandardSkillTransform({
+      sectionName: "Production Terraform (HCL) Module Standard",
+      ruSectionName: "Стандарт модулей инфраструктуры как кода Terraform (HCL)",
+      instructions: [
+        "Structure Terraform code into `main.tf`, `variables.tf`, and `outputs.tf`.",
+        "Pin required provider versions (`required_providers { aws = { version = \"~> 5.0\" } }`).",
+        "Add explicit types, descriptions, and validation rules to all input variables."
+],
+      ruInstructions: [
+        "Структурируйте код на файлы `main.tf`, `variables.tf`, `outputs.tf`.",
+        "Фиксируйте версии провайдеров в блоке `required_providers`.",
+        "Задавайте типы, описания и правила валидации для всех входных переменных."
+],
+      semanticType: "domain_specific",
+      tags: ["output","terraform","hcl","iac","cloud","devops"],
+    }),
+  },
+
+  "output-typescript-zod-schema-validator": {
+    id: "output-typescript-zod-schema-validator",
+    name: "OutputTypescriptZodSchemaValidatorSkill",
+    displayName: "TypeScript & Zod Runtime Schema Validation Standard",
+    categoryId: "output",
+    description: "Outputs paired Zod schemas (`z.object({...})`) and inferred TypeScript types (`z.infer<typeof schema>`).",
+    tags: ["output","zod","typescript","validation","type-safety"],
+    transform: createStandardSkillTransform({
+      sectionName: "TypeScript Zod Runtime Schema & Type Standards",
+      ruSectionName: "Стандарт валидации Zod и генерации типов TypeScript",
+      instructions: [
+        "Define comprehensive Zod runtime schemas with detailed error messages and string constraints.",
+        "Export inferred TypeScript static types using `export type User = z.infer<typeof UserSchema>`.",
+        "Include custom refinements and transformations for dates, emails, and UUIDs."
+],
+      ruInstructions: [
+        "Описывайте схемы валидации Zod с проверкой форматов и понятными сообщениями об ошибках.",
+        "Экспортируйте статические типы через `z.infer<typeof Schema>`.",
+        "Используйте кастомные трансформации для дат и нормализации данных."
+],
+      semanticType: "domain_specific",
+      tags: ["output","zod","typescript","validation","type-safety"],
+    }),
+  },
+
+  "output-junit-xml-test-reporter": {
+    id: "output-junit-xml-test-reporter",
+    name: "OutputJunitXmlTestReporterSkill",
+    displayName: "JUnit XML Test Results Schema Specification",
+    categoryId: "output",
+    description: "Outputs automated test execution reports formatted strictly as standard JUnit XML for CI/CD test dashboards.",
+    tags: ["output","junit","xml","testing","ci-cd","reports"],
+    transform: createStandardSkillTransform({
+      sectionName: "JUnit XML Test Results Schema Standard",
+      ruSectionName: "Формат отчетов о тестировании JUnit XML для CI/CD",
+      instructions: [
+        "Output valid XML structure: `<testsuites><testsuite name=\"...\" tests=\"10\" failures=\"0\" time=\"1.2\">`.",
+        "Enclose individual tests in `<testcase name=\"...\" classname=\"...\" time=\"...\">`.",
+        "Include `<failure message=\"...\">` with stack traces for failed test scenarios."
+],
+      ruInstructions: [
+        "Форматируйте отчет в виде валидного XML-дерева `<testsuites>` и `<testsuite>`.",
+        "Описывайте каждый тест тегом `<testcase>` с длительностью выполнения.",
+        "Включайте подробный стек ошибки в блок `<failure>` при падении теста."
+],
+      semanticType: "domain_specific",
+      tags: ["output","junit","xml","testing","ci-cd","reports"],
+    }),
+  },
+
+  "output-asciidoc-technical-documentation": {
+    id: "output-asciidoc-technical-documentation",
+    name: "OutputAsciidocTechnicalDocumentationSkill",
+    displayName: "AsciiDoc (ADOC) Enterprise Technical Manual Standard",
+    categoryId: "output",
+    description: "Outputs enterprise technical documentation formatted in AsciiDoc with callouts, admonitions, and tables.",
+    tags: ["output","asciidoc","adoc","documentation","technical-writing"],
+    transform: createStandardSkillTransform({
+      sectionName: "AsciiDoc (ADOC) Enterprise Technical Manual Standard",
+      ruSectionName: "Стандарт технической документации в формате AsciiDoc (ADOC)",
+      instructions: [
+        "Use standard AsciiDoc section markers (`= Title`, `== Section`, `=== Subsection`).",
+        "Embed standardized Admonition blocks (`NOTE:`, `WARNING:`, `IMPORTANT:`).",
+        "Format code callouts (`<1>`, `<2>`) matching numbered annotations below the snippet."
+],
+      ruInstructions: [
+        "Используйте разметку AsciiDoc для заголовков (`=`, `==`, `===`).",
+        "Вставляйте блоки предупреждений (`NOTE:`, `WARNING:`, `IMPORTANT:`).",
+        "Используйте нумерованные сноски-коллауты (`<1>`, `<2>`) для пояснения строк кода."
+],
+      semanticType: "domain_specific",
+      tags: ["output","asciidoc","adoc","documentation","technical-writing"],
+    }),
+  },
+
+  "output-plantuml-architecture-diagram": {
+    id: "output-plantuml-architecture-diagram",
+    name: "OutputPlantumlArchitectureDiagramSkill",
+    displayName: "PlantUML C4 Architecture Diagram Standard",
+    categoryId: "output",
+    description: "Outputs clean PlantUML code enclosed in `@startuml` ... `@enduml` adhering to the C4 Model.",
+    tags: ["output","plantuml","c4-model","diagrams","architecture"],
+    transform: createStandardSkillTransform({
+      sectionName: "PlantUML C4 Architecture Diagram Standard",
+      ruSectionName: "Спецификация архитектурных диаграмм PlantUML (C4 Model)",
+      instructions: [
+        "Enclose diagram code inside `@startuml` and `@enduml` tags.",
+        "Use C4 model macros (`Person`, `System`, `Container`, `Component`, `Rel`).",
+        "Provide clean layouts and relationship labels with protocols (`Rel(web, api, \"Uses\", \"HTTPS/JSON\")`)."
+],
+      ruInstructions: [
+        "Оборачивайте диаграмму в блок `@startuml` ... `@enduml`.",
+        "Используйте макросы стандарта C4 (Person, Container, Component, Rel).",
+        "Указывайте протоколы и характер взаимодействия на связях между узлами."
+],
+      semanticType: "domain_specific",
+      tags: ["output","plantuml","c4-model","diagrams","architecture"],
+    }),
+  },
+
+  "output-sarif-static-analysis-json": {
+    id: "output-sarif-static-analysis-json",
+    name: "OutputSarifStaticAnalysisJsonSkill",
+    displayName: "OASIS SARIF 2.1.0 Static Analysis Results Format",
+    categoryId: "output",
+    description: "Outputs vulnerability and lint findings in standard Static Analysis Results Interchange Format (SARIF 2.1.0).",
+    tags: ["output","sarif","security","static-analysis","github-code-scanning"],
+    transform: createStandardSkillTransform({
+      sectionName: "OASIS SARIF 2.1.0 Static Analysis Standard",
+      ruSectionName: "Стандарт отчетов статического анализа SARIF 2.1.0 (GitHub Code Scanning)",
+      instructions: [
+        "Output valid SARIF 2.1.0 JSON: `{ \"$schema\": \"...\", \"version\": \"2.1.0\", \"runs\": [...] }`.",
+        "Populate `tool.driver.rules` with rule IDs, descriptions, and CWE taxonomy classifications.",
+        "Map findings to exact file paths and line/column coordinate ranges."
+],
+      ruInstructions: [
+        "Форматируйте вывод строго по стандарту OASIS SARIF 2.1.0 JSON.",
+        "Описывайте правила анализа с указанием идентификаторов уязвимостей (CWE).",
+        "Указывайте точные координаты файлов, строк и колонок для каждой находки."
+],
+      semanticType: "domain_specific",
+      tags: ["output","sarif","security","static-analysis","github-code-scanning"],
+    }),
+  },
+
+  "output-helm-values-yaml-chart": {
+    id: "output-helm-values-yaml-chart",
+    name: "OutputHelmValuesYamlChartSkill",
+    displayName: "Kubernetes Helm Chart values.yaml Production Standard",
+    categoryId: "output",
+    description: "Outputs structured, self-documenting Helm values.yaml configurations with comments, defaults, and override slots.",
+    tags: ["output","helm","kubernetes","values-yaml","devops","charts"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kubernetes Helm values.yaml Configuration Standard",
+      ruSectionName: "Стандарт конфигураций Kubernetes Helm values.yaml",
+      instructions: [
+        "Organize values hierarchically: `image`, `service`, `ingress`, `resources`, `autoscaling`, `nodeSelector`.",
+        "Add descriptive inline comments explaining each configuration toggle and its default.",
+        "Include production-ready replicas, resource limits, and TLS ingress annotations."
+],
+      ruInstructions: [
+        "Группируйте параметры по блокам: `image`, `service`, `ingress`, `resources`.",
+        "Добавляйте подробные комментарии к каждой опции с пояснением значений.",
+        "Включайте готовые настройки автомасштабирования (HPA) и TLS сертификатов."
+],
+      semanticType: "domain_specific",
+      tags: ["output","helm","kubernetes","values-yaml","devops","charts"],
+    }),
+  },
+
+  "output-curl-bash-api-recipes": {
+    id: "output-curl-bash-api-recipes",
+    name: "OutputCurlBashApiRecipesSkill",
+    displayName: "Production cURL & Bash API Command Recipe Standard",
+    categoryId: "output",
+    description: "Outputs copy-pasteable, robust multi-line cURL commands with HTTP headers, JSON payloads, and silent error handling.",
+    tags: ["output","curl","bash","api-testing","cli","rest"],
+    transform: createStandardSkillTransform({
+      sectionName: "Production cURL & Bash API Recipe Standards",
+      ruSectionName: "Стандарт готовых исполняемых команд cURL и Bash для тестирования API",
+      instructions: [
+        "Format cURL commands with escaped backslashes for clean multi-line readability.",
+        "Include explicit `-H \"Content-Type: application/json\"` and `-H \"Authorization: Bearer $TOKEN\"` headers.",
+        "Use `--fail-with-body` and `--silent` flags for reliable scripting and debugging."
+],
+      ruInstructions: [
+        "Оформляйте многострочные команды cURL с переносами строк через обратный слеш `\\`.",
+        "Указывайте все необходимые заголовки авторизации и типа контента.",
+        "Используйте флаги `--fail-with-body` и `-sS` для надежной работы в скриптах."
+],
+      semanticType: "domain_specific",
+      tags: ["output","curl","bash","api-testing","cli","rest"],
+    }),
+  },
+  "output-openapi-3-1-yaml-production": {
+    id: "output-openapi-3-1-yaml-production",
+    name: "OutputOpenapi31YamlProductionSkill",
+    displayName: "OpenAPI 3.1.0 Strict YAML Specification Standard",
+    categoryId: "output",
+    description: "Outputs fully compliant OpenAPI 3.1.0 YAML specs with components/schemas, responses, and security schemes.",
+    tags: ["output","openapi","yaml","api-spec","swagger"],
+    transform: createStandardSkillTransform({
+      sectionName: "OpenAPI 3.1.0 Strict YAML Specification Standard",
+      ruSectionName: "Стандарт спецификации REST API по стандарту OpenAPI 3.1.0 (YAML)",
+      instructions: [
+        "Output valid OpenAPI 3.1.0 YAML with `openapi: 3.1.0` declaration.",
+        "Declare reusable schemas under `components.schemas` with exact data types.",
+        "Define standard bearer authentication under `components.securitySchemes`."
+],
+      ruInstructions: [
+        "Форматируйте спецификацию в формате YAML по стандарту OpenAPI 3.1.0.",
+        "Выносите переиспользуемые структуры в раздел `components.schemas`.",
+        "Описывайте схемы авторизации (Bearer / OAuth2) в `components.securitySchemes`."
+],
+      semanticType: "domain_specific",
+      tags: ["output","openapi","yaml","api-spec","swagger"],
+    }),
+  },
+
+  "output-json-ld-schema-org-structured-data": {
+    id: "output-json-ld-schema-org-structured-data",
+    name: "OutputJsonLdSchemaOrgStructuredDataSkill",
+    displayName: "Schema.org JSON-LD SEO Structured Data Standard",
+    categoryId: "output",
+    description: "Outputs Google-compliant JSON-LD structured data scripts (`SoftwareApplication`, `TechArticle`, `Product`).",
+    tags: ["output","json-ld","schema-org","seo","structured-data"],
+    transform: createStandardSkillTransform({
+      sectionName: "Schema.org JSON-LD Structured Data Standard",
+      ruSectionName: "Стандарт микроразметки Schema.org в формате JSON-LD для SEO",
+      instructions: [
+        "Output valid `<script type=\"application/ld+json\">` blocks containing Schema.org entities.",
+        "Populate `@context: \"https://schema.org\"`, `@type`, and mandatory Google Rich Snippet properties.",
+        "Validate syntax against Google Rich Results Test standards."
+],
+      ruInstructions: [
+        "Генерируйте структурированные данные внутри тега `<script type=\"application/ld+json\">`.",
+        "Задавайте контекст `@context: \"https://schema.org\"` и обязательные свойства для Google Rich Snippets.",
+        "Проверяйте корректность разметки по стандартам поисковых систем."
+],
+      semanticType: "domain_specific",
+      tags: ["output","json-ld","schema-org","seo","structured-data"],
+    }),
+  },
+
+  "output-apache-avro-schema-json": {
+    id: "output-apache-avro-schema-json",
+    name: "OutputApacheAvroSchemaJsonSkill",
+    displayName: "Apache Avro (AVSC) Binary Serialization Schema Standard",
+    categoryId: "output",
+    description: "Outputs Apache Avro JSON schema specifications for Kafka event streaming with doc annotations.",
+    tags: ["output","avro","avsc","kafka","serialization","schemas"],
+    transform: createStandardSkillTransform({
+      sectionName: "Apache Avro Schema (AVSC) Standard",
+      ruSectionName: "Стандарт схем сериализации Apache Avro (AVSC / Kafka)",
+      instructions: [
+        "Output valid Avro JSON schema: `{ \"type\": \"record\", \"name\": \"...\", \"namespace\": \"...\", \"fields\": [...] }`.",
+        "Specify explicit default values for every optional field to maintain schema evolution compatibility.",
+        "Add detailed `doc` strings for every field."
+],
+      ruInstructions: [
+        "Форматируйте схему в формате Avro JSON со всеми обязательными полями (name, namespace, fields).",
+        "Задавайте значения по умолчанию (`default`) для обеспечения обратной совместимости эволюции схем.",
+        "Добавляйте поясняющие описания (`doc`) к каждому атрибуту."
+],
+      semanticType: "domain_specific",
+      tags: ["output","avro","avsc","kafka","serialization","schemas"],
+    }),
+  },
+
+  "output-postman-collection-v2-1-json": {
+    id: "output-postman-collection-v2-1-json",
+    name: "OutputPostmanCollectionV21JsonSkill",
+    displayName: "Postman Collection v2.1.0 Export Specification",
+    categoryId: "output",
+    description: "Outputs import-ready Postman Collection v2.1.0 JSON files with pre-request scripts and test assertions.",
+    tags: ["output","postman","api-testing","collection","rest"],
+    transform: createStandardSkillTransform({
+      sectionName: "Postman Collection v2.1.0 Schema Standard",
+      ruSectionName: "Стандарт экспорта коллекций запросов Postman v2.1.0 (JSON)",
+      instructions: [
+        "Output valid Postman Collection schema: `{ \"info\": { \"schema\": \"https://schema.getpostman.com/json/collection/v2.1.0/collection.json\" }, \"item\": [...] }`.",
+        "Include realistic request URLs, query params, headers, and sample JSON bodies.",
+        "Embed automated JavaScript test assertions (`pm.test(...)`) verifying HTTP 200 and schema validity."
+],
+      ruInstructions: [
+        "Генерируйте коллекцию по официальной схеме Postman Collection v2.1.0.",
+        "Включайте реальные примеры заголовков, параметров и тел запросов.",
+        "Добавляйте автоматические тесты на JavaScript (`pm.test`) для проверки статусов ответов."
+],
+      semanticType: "domain_specific",
+      tags: ["output","postman","api-testing","collection","rest"],
+    }),
+  },
+
+  "output-jest-vitest-test-suite-typescript": {
+    id: "output-jest-vitest-test-suite-typescript",
+    name: "OutputJestVitestTestSuiteTypescriptSkill",
+    displayName: "Jest / Vitest Production TypeScript Test Suite Standard",
+    categoryId: "output",
+    description: "Outputs complete, runnable Vitest/Jest test files with `describe`, `it`, `beforeEach`, mocks, and type safety.",
+    tags: ["output","vitest","jest","typescript","testing","unit-tests"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vitest / Jest TypeScript Test Suite Standards",
+      ruSectionName: "Стандарт модульных тестов на TypeScript (Vitest / Jest)",
+      instructions: [
+        "Output complete test files importing `{ describe, it, expect, beforeEach, vi }` from `vitest`.",
+        "Structure tests with clear AAA pattern: Arrange, Act, Assert.",
+        "Mock external modules with type-safe `vi.mock()` definitions."
+],
+      ruInstructions: [
+        "Создавайте готовые файлы тестов с импортами из `vitest` или `@jest/globals`.",
+        "Организуйте тесты по шаблону AAA: Arrange (Подготовка), Act (Действие), Assert (Проверка).",
+        "Используйте типизированные моки для изоляции внешних модулей."
+],
+      semanticType: "domain_specific",
+      tags: ["output","vitest","jest","typescript","testing","unit-tests"],
+    }),
+  },
+
+  "output-tailwind-css-shadcn-component-tsx": {
+    id: "output-tailwind-css-shadcn-component-tsx",
+    name: "OutputTailwindCssShadcnComponentTsxSkill",
+    displayName: "Modern React 19 & Tailwind CSS UI Component Standard",
+    categoryId: "output",
+    description: "Outputs accessible, responsive React components styled with Tailwind CSS utility classes and Lucide icons.",
+    tags: ["output","react","tailwind","tsx","ui-components","frontend"],
+    transform: createStandardSkillTransform({
+      sectionName: "Modern React 19 & Tailwind CSS Component Standard",
+      ruSectionName: "Стандарт UI-компонентов на React 19 и Tailwind CSS",
+      instructions: [
+        "Output pure TypeScript React component (`.tsx`) with explicit props interface.",
+        "Use responsive Tailwind utility classes (`sm:`, `md:`, `lg:`) and smooth micro-transitions.",
+        "Ensure accessible ARIA labels, semantic HTML tags, and keyboard focus states."
+],
+      ruInstructions: [
+        "Генерируйте чистый компонент React на TypeScript с интерфейсом свойств Props.",
+        "Используйте адаптивные классы Tailwind CSS и плавные анимации переходов.",
+        "Обеспечьте доступность: семантические HTML-теги, ARIA-атрибуты и фокус с клавиатуры."
+],
+      semanticType: "domain_specific",
+      tags: ["output","react","tailwind","tsx","ui-components","frontend"],
+    }),
+  },
+
+  "output-env-example-template-dotenv": {
+    id: "output-env-example-template-dotenv",
+    name: "OutputEnvExampleTemplateDotenvSkill",
+    displayName: "Production .env.example Configuration Template",
+    categoryId: "output",
+    description: "Outputs clean, documented `.env.example` templates with variable descriptions, types, and dummy defaults.",
+    tags: ["output","dotenv","env-example","configuration","devops"],
+    transform: createStandardSkillTransform({
+      sectionName: "Production .env.example Template Standard",
+      ruSectionName: "Стандарт шаблона переменных окружения .env.example",
+      instructions: [
+        "Group variables into logical sections: `# Database`, `# Authentication`, `# API Keys`, `# Feature Flags`.",
+        "Add descriptive comments explaining what each variable configures.",
+        "Provide safe placeholder dummy values (e.g. `DATABASE_URL=postgresql://user:password@localhost:5432/dbname`)."
+],
+      ruInstructions: [
+        "Группируйте переменные по смысловым блокам: База данных, Авторизация, Внешние API.",
+        "Добавляйте комментарии с описанием назначения и формата каждого параметра.",
+        "Используйте безопасные фиктивные значения по умолчанию."
+],
+      semanticType: "domain_specific",
+      tags: ["output","dotenv","env-example","configuration","devops"],
+    }),
+  },
+
+  "output-latex-mathematical-formula-matrix": {
+    id: "output-latex-mathematical-formula-matrix",
+    name: "OutputLatexMathematicalFormulaMatrixSkill",
+    displayName: "LaTeX Mathematical Proof & Equation Matrix Standard",
+    categoryId: "output",
+    description: "Outputs academic-grade LaTeX equations and formal mathematical proofs enclosed in `$$` display math blocks.",
+    tags: ["output","latex","math","equations","formal-methods"],
+    transform: createStandardSkillTransform({
+      sectionName: "LaTeX Mathematical Formula & Proof Standards",
+      ruSectionName: "Стандарт математической верстки формул и доказательств в LaTeX",
+      instructions: [
+        "Format mathematical equations in standard LaTeX syntax enclosed in `$$ ... $$` for display and `$ ... $` for inline.",
+        "Use proper matrix environments (`\\begin{pmatrix} ... \\end{pmatrix}`) and aligned equations (`\\begin{aligned}`).",
+        "Ensure all Greek symbols, superscripts, and integrals are rendered with standard notation."
+],
+      ruInstructions: [
+        "Оформляйте формулы в стандартном синтаксисе LaTeX с тегами `$$ ... $$`.",
+        "Используйте окружения для матриц и многострочных выравниваний (`aligned`).",
+        "Применяйте общепринятые обозначения для греческих символов, индексов и операторов."
+],
+      semanticType: "domain_specific",
+      tags: ["output","latex","math","equations","formal-methods"],
+    }),
+  },
+
+  "output-nginx-virtual-host-reverse-proxy": {
+    id: "output-nginx-virtual-host-reverse-proxy",
+    name: "OutputNginxVirtualHostReverseProxySkill",
+    displayName: "Hardened Nginx Reverse Proxy & Virtual Host Configuration",
+    categoryId: "output",
+    description: "Outputs battle-tested Nginx configuration files with SSL/TLS termination, Gzip, proxy headers, and rate limits.",
+    tags: ["output","nginx","reverse-proxy","ssl","devops","web-server"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hardened Nginx Reverse Proxy Configuration Standard",
+      ruSectionName: "Стандарт конфигурации защищенного реверс-прокси Nginx",
+      instructions: [
+        "Output valid `nginx.conf` server blocks with `listen 443 ssl http2;`.",
+        "Include standard security headers (`X-Frame-Options`, `X-Content-Type-Options`, `Content-Security-Policy`).",
+        "Set proper `proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;` and proxy buffer limits."
+],
+      ruInstructions: [
+        "Форматируйте конфигурацию Nginx с поддержкой SSL/TLS и HTTP/2.",
+        "Включайте стандартные заголовки безопасности браузера.",
+        "Настройте корректную передачу IP-адресов клиентов и буферизацию прокси."
+],
+      semanticType: "domain_specific",
+      tags: ["output","nginx","reverse-proxy","ssl","devops","web-server"],
+    }),
+  },
+
+  "output-sqlite-schema-migration-script": {
+    id: "output-sqlite-schema-migration-script",
+    name: "OutputSqliteSchemaMigrationScriptSkill",
+    displayName: "SQLite 3 Schema & WAL Mode Migration Script",
+    categoryId: "output",
+    description: "Outputs clean SQLite 3 schema creation scripts with WAL mode pragma, foreign keys, and indexes.",
+    tags: ["output","sqlite","sql","embedded-db","migrations"],
+    transform: createStandardSkillTransform({
+      sectionName: "SQLite 3 Schema & Pragmas Specification",
+      ruSectionName: "Спецификация схемы базы данных SQLite 3 (WAL Mode)",
+      instructions: [
+        "Enable performance and integrity pragmas: `PRAGMA journal_mode = WAL; PRAGMA foreign_keys = ON;`.",
+        "Define clean tables with `INTEGER PRIMARY KEY AUTOINCREMENT` or `TEXT PRIMARY KEY`.",
+        "Include explicit unique constraints and covering indexes."
+],
+      ruInstructions: [
+        "Включайте оптимизирующие прагмы: режим журнала WAL и проверку внешних ключей.",
+        "Описывайте таблицы с явными первичными ключами и ограничениями целостности.",
+        "Создавайте покрывающие индексы для ускорения выборок."
+],
+      semanticType: "domain_specific",
+      tags: ["output","sqlite","sql","embedded-db","migrations"],
+    }),
+  },
+  "output-protobuf-grpcurl-cli-command": {
+    id: "output-protobuf-grpcurl-cli-command",
+    name: "OutputProtobufGrpcurlCliCommandSkill",
+    displayName: "gRPCurl CLI Interactive Request & Payload Recipe",
+    categoryId: "output",
+    description: "Outputs runnable gRPCurl commands with plaintext reflection flags, JSON data payloads, and service endpoints.",
+    tags: ["output","grpcurl","grpc","cli","api-testing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Production gRPCurl CLI Invocation Standards",
+      ruSectionName: "Стандарт вызовов gRPCurl для тестирования gRPC-эндпоинтов",
+      instructions: [
+        "Output valid `grpcurl` commands with `-plaintext` or TLS certificate flags.",
+        "Include structured `-d '{\"user_id\": \"123\"}'` JSON input payloads.",
+        "Specify exact fully-qualified service methods (`package.Service/Method`)."
+],
+      ruInstructions: [
+        "Форматируйте команду `grpcurl` с флагами шифрования или `-plaintext`.",
+        "Передавайте аргументы в виде структурированного JSON через флаг `-d`.",
+        "Указывайте полное имя метода gRPC: `package.ServiceName/MethodName`."
+],
+      semanticType: "domain_specific",
+      tags: ["output","grpcurl","grpc","cli","api-testing"],
+    }),
+  },
+
+  "output-ansible-playbook-yaml-hardened": {
+    id: "output-ansible-playbook-yaml-hardened",
+    name: "OutputAnsiblePlaybookYamlHardenedSkill",
+    displayName: "Hardened Ansible Automation Playbook (YAML)",
+    categoryId: "output",
+    description: "Outputs production-grade Ansible playbooks with tasks, handlers, become privilege escalation, and idempotency.",
+    tags: ["output","ansible","yaml","automation","devops","sysadmin"],
+    transform: createStandardSkillTransform({
+      sectionName: "Production Ansible Playbook (YAML) Standard",
+      ruSectionName: "Стандарт сценариев автоматизации Ansible Playbook (YAML)",
+      instructions: [
+        "Output valid Ansible YAML containing `hosts`, `become: true`, `vars`, `tasks`, and `handlers`.",
+        "Ensure all tasks are idempotent and have human-readable descriptive `name` fields.",
+        "Use native Ansible modules (`ansible.builtin.template`, `systemd`) rather than raw shell commands."
+],
+      ruInstructions: [
+        "Генерируйте валидный YAML-сценарий Ansible со структурой `hosts`, `vars`, `tasks`, `handlers`.",
+        "Обеспечьте идемпотентность всех задач и понятные имена шагов.",
+        "Используйте встроенные модули Ansible вместо сырых команд bash."
+],
+      semanticType: "domain_specific",
+      tags: ["output","ansible","yaml","automation","devops","sysadmin"],
+    }),
+  },
+
+  "output-cypress-playwright-e2e-spec-ts": {
+    id: "output-cypress-playwright-e2e-spec-ts",
+    name: "OutputCypressPlaywrightE2eSpecTsSkill",
+    displayName: "Playwright / Cypress E2E End-to-End Test Suite (TypeScript)",
+    categoryId: "output",
+    description: "Outputs resilient Playwright end-to-end browser automation tests using semantic role selectors and auto-waiting.",
+    tags: ["output","playwright","cypress","e2e-testing","typescript","qa"],
+    transform: createStandardSkillTransform({
+      sectionName: "Playwright E2E Browser Test Suite Standard",
+      ruSectionName: "Стандарт сквозных E2E-тестов браузера на Playwright (TypeScript)",
+      instructions: [
+        "Output complete Playwright test file importing `{ test, expect }` from `@playwright/test`.",
+        "Use user-facing accessibility locators (`page.getByRole('button', { name: 'Submit' })`).",
+        "Rely on Playwright auto-waiting; strictly forbid hardcoded `page.waitForTimeout()` sleep calls."
+],
+      ruInstructions: [
+        "Создавайте файлы тестов Playwright с импортами из `@playwright/test`.",
+        "Используйте селекторы доступности (getByRole, getByLabel) вместо хрупких CSS-путей.",
+        "Полагайтесь на автоматическое ожидание элементов, запретив `sleep` и фиксированные паузы."
+],
+      semanticType: "domain_specific",
+      tags: ["output","playwright","cypress","e2e-testing","typescript","qa"],
+    }),
+  },
+
+  "output-prometheus-alerting-rules-yaml": {
+    id: "output-prometheus-alerting-rules-yaml",
+    name: "OutputPrometheusAlertingRulesYamlSkill",
+    displayName: "Prometheus Alertmanager Rule Specification (YAML)",
+    categoryId: "output",
+    description: "Outputs PromQL alerting rules with `expr`, `for` duration, severity labels, and actionable runbook annotations.",
+    tags: ["output","prometheus","promql","alertmanager","monitoring","sre"],
+    transform: createStandardSkillTransform({
+      sectionName: "Prometheus Alertmanager Rule Standards",
+      ruSectionName: "Стандарт правил алертинга Prometheus и Alertmanager (YAML / PromQL)",
+      instructions: [
+        "Output valid Prometheus rule group YAML with `alert: AlertName` and optimized `expr: PromQL`.",
+        "Set `for: 5m` duration to filter out transient metric spikes.",
+        "Include mandatory `labels.severity` (critical/warning) and `annotations.runbook_url`."
+],
+      ruInstructions: [
+        "Генерируйте группы правил Prometheus с понятными именами и выверенными PromQL-выражениями.",
+        "Задавайте задержку `for: 5m` для фильтрации кратковременных всплесков метрик.",
+        "Обязательно добавляйте лейблы критичности и ссылки на регламенты реагирования (Runbook)."
+],
+      semanticType: "domain_specific",
+      tags: ["output","prometheus","promql","alertmanager","monitoring","sre"],
+    }),
+  },
+
+  "output-apache-kafka-connect-config-json": {
+    id: "output-apache-kafka-connect-config-json",
+    name: "OutputApacheKafkaConnectConfigJsonSkill",
+    displayName: "Kafka Connect Connector Configuration (JSON)",
+    categoryId: "output",
+    description: "Outputs production Kafka Connect source/sink JSON configs with converter settings, transforms, and error policies.",
+    tags: ["output","kafka-connect","json","streaming","data-engineering"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kafka Connect Connector JSON Standard",
+      ruSectionName: "Стандарт конфигурации коннекторов Kafka Connect (JSON)",
+      instructions: [
+        "Output valid Kafka Connect configuration JSON with `connector.class` and connection parameters.",
+        "Configure Schema Registry Avro/JSON converters for key and value.",
+        "Set `errors.tolerance = \"all\"` and `errors.deadletterqueue.topic.name` for robust poison message handling."
+],
+      ruInstructions: [
+        "Форматируйте конфигурацию в виде валидного JSON-объекта с классом коннектора.",
+        "Настройте конвертеры Avro со ссылкой на Schema Registry.",
+        "Укажите топик для сбойных сообщений (Dead Letter Queue)."
+],
+      semanticType: "domain_specific",
+      tags: ["output","kafka-connect","json","streaming","data-engineering"],
+    }),
+  },
+  "output-graphql-mutation-response-envelope": {
+    id: "output-graphql-mutation-response-envelope",
+    name: "OutputGraphqlMutationResponseEnvelopeSkill",
+    displayName: "GraphQL Mutation Payload & UserErrors Envelope Standard",
+    categoryId: "output",
+    description: "Outputs Shopify-style mutation payloads with `userErrors: [{ field, message, code }]` and updated entity.",
+    tags: ["output","graphql","mutations","error-handling","api"],
+    transform: createStandardSkillTransform({
+      sectionName: "GraphQL Mutation Result & UserErrors Standard",
+      ruSectionName: "Стандарт ответов мутаций GraphQL с массивом UserErrors (Shopify pattern)",
+      instructions: [
+        "Format mutation results as `{ data: { mutateEntity: { entity: {...}, userErrors: [...] } } }`.",
+        "Populate `userErrors` with array of `{ field: [\"path\"], message: \"...\", code: \"INVALID_FORMAT\" }`.",
+        "Never throw unhandled top-level GraphQL errors for expected business validation failures."
+],
+      ruInstructions: [
+        "Форматируйте результат мутации в виде объекта с возвращаемой сущностью и массивом `userErrors`.",
+        "Заполняйте `userErrors` понятными полями с путями ошибок и машинно-читаемыми кодами.",
+        "Не выбрасывайте системные исключения верхнего уровня для штатных ошибок валидации бизнес-логики."
+],
+      semanticType: "domain_specific",
+      tags: ["output","graphql","mutations","error-handling","api"],
+    }),
+  },
+
+  "output-markdown-architecture-decision-record-adr": {
+    id: "output-markdown-architecture-decision-record-adr",
+    name: "OutputMarkdownArchitectureDecisionRecordAdrSkill",
+    displayName: "Standard Architectural Decision Record (ADR) Document Format",
+    categoryId: "output",
+    description: "Outputs clean, standardized Architectural Decision Records in GitHub-flavored Markdown.",
+    tags: ["output","adr","architecture","markdown","documentation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Architectural Decision Record (ADR) Document Standard",
+      ruSectionName: "Формат документа Архитектурного решения (ADR Markdown)",
+      instructions: [
+        "Format document with `# [ADR-001] Short Descriptive Title`.",
+        "Sections: `## Status`, `## Context and Problem Statement`, `## Decision Drivers`, `## Considered Options`, `## Decision Outcome`, `## Pros and Cons of the Options`.",
+        "Provide clean, unambiguous technical justification."
+],
+      ruInstructions: [
+        "Оформляйте документ с заголовком `# [ADR-001] Название решения`.",
+        "Разделы: Статус, Контекст и проблема, Факторы принятия решений, Рассмотренные альтернативы, Итоговое решение, Плюсы и минусы.",
+        "Приводите ясное техническое обоснование без воды."
+],
+      semanticType: "domain_specific",
+      tags: ["output","adr","architecture","markdown","documentation"],
+    }),
+  },
+
+  "output-json-api-spec-v1-1": {
+    id: "output-json-api-spec-v1-1",
+    name: "OutputJsonApiSpecV11Skill",
+    displayName: "JSON:API Specification (v1.1) Formatted Response",
+    categoryId: "output",
+    description: "Outputs responses adhering to the JSON:API v1.1 standard (`data.type`, `data.id`, `attributes`, `relationships`, `included`).",
+    tags: ["output","json-api","rest","api-standards","serialization"],
+    transform: createStandardSkillTransform({
+      sectionName: "JSON:API (v1.1) Specification Standards",
+      ruSectionName: "Стандарт формирования ответов по спецификации JSON:API (v1.1)",
+      instructions: [
+        "Format top-level payload with `data: { type: \"users\", id: \"1\", attributes: {...}, relationships: {...} }`.",
+        "Sideload related resources in the `included: [...]` top-level array with compound documents.",
+        "Include self-referential hypermedia links (`links.self`, `links.related`)."
+],
+      ruInstructions: [
+        "Форматируйте объект с полями `data.type`, `data.id`, `attributes` и `relationships`.",
+        "Передавайте связанные сущности в массиве `included` верхнего уровня.",
+        "Добавляйте гипермедиа-ссылки для навигации (`links.self`)."
+],
+      semanticType: "domain_specific",
+      tags: ["output","json-api","rest","api-standards","serialization"],
+    }),
+  },
+
+  "output-docker-compose-v2-production": {
+    id: "output-docker-compose-v2-production",
+    name: "OutputDockerComposeV2ProductionSkill",
+    displayName: "Production Docker Compose (Compose v2) Specification",
+    categoryId: "output",
+    description: "Outputs multi-container Docker Compose v2 YAML with healthchecks, networks, named volumes, and resource limits.",
+    tags: ["output","docker-compose","yaml","devops","containers"],
+    transform: createStandardSkillTransform({
+      sectionName: "Production Docker Compose v2 YAML Standards",
+      ruSectionName: "Производственный стандарт конфигураций Docker Compose (v2)",
+      instructions: [
+        "Output valid `docker-compose.yml` with top-level `services`, `networks`, and `volumes`.",
+        "Configure explicit `healthcheck` testing service availability before dependent services start.",
+        "Enforce container resource constraints (`deploy.resources.limits.memory: 512M`)."
+],
+      ruInstructions: [
+        "Генерируйте файл `docker-compose.yml` со всеми сервисами, сетями и именованными томами.",
+        "Настраивайте `healthcheck` для контроля готовности зависимых баз данных и брокеров.",
+        "Задавайте жесткие лимиты оперативной памяти и ядер процессора для контейнеров."
+],
+      semanticType: "domain_specific",
+      tags: ["output","docker-compose","yaml","devops","containers"],
+    }),
+  },
+
+  "output-fastapi-pydantic-v2-schema": {
+    id: "output-fastapi-pydantic-v2-schema",
+    name: "OutputFastapiPydanticV2SchemaSkill",
+    displayName: "Python FastAPI & Pydantic v2 Model Specification",
+    categoryId: "output",
+    description: "Outputs clean Python 3.12 FastAPI endpoint route handlers with Pydantic v2 `BaseModel`, `Field`, and docstrings.",
+    tags: ["output","fastapi","pydantic","python","api-design"],
+    transform: createStandardSkillTransform({
+      sectionName: "Python FastAPI & Pydantic v2 Standards",
+      ruSectionName: "Стандарт моделей Pydantic v2 и маршрутов FastAPI (Python 3.12)",
+      instructions: [
+        "Define Pydantic v2 models using `BaseModel`, `Field(description=\"...\", ge=0)`, and type annotations.",
+        "Use FastAPI path operations with explicit `response_model`, `status_code`, and dependency injection.",
+        "Include complete type hints and Google-style docstrings."
+],
+      ruInstructions: [
+        "Описывайте модели Pydantic v2 с аннотациями типов и валидацией `Field`.",
+        "Оформляйте эндпоинты FastAPI с указанием `response_model` и кодов ответов.",
+        "Используйте строгие подсказки типов Python 3.12 и понятные докстринги."
+],
+      semanticType: "domain_specific",
+      tags: ["output","fastapi","pydantic","python","api-design"],
+    }),
+  },
+
+  "output-mermaid-c4-component-diagram": {
+    id: "output-mermaid-c4-component-diagram",
+    name: "OutputMermaidC4ComponentDiagramSkill",
+    displayName: "Mermaid.js C4 Component Diagram Standard",
+    categoryId: "output",
+    description: "Outputs Mermaid.js C4Component architecture diagrams detailing controllers, services, repositories, and databases.",
+    tags: ["output","mermaid","c4-model","component-diagram","visualization"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mermaid.js C4 Component Diagram Standard",
+      ruSectionName: "Стандарт компонентных диаграмм Mermaid C4Component",
+      instructions: [
+        "Enclose diagram inside ````mermaid C4Component ... ```` block.",
+        "Declare `Container_Boundary`, `Component(name, desc, tech)`, and `ComponentDb` nodes.",
+        "Define directed relationships with labels and protocols (`Rel(api, db, \"Queries\", \"SQL/TCP\")`)."
+],
+      ruInstructions: [
+        "Оборачивайте диаграмму в блок ````mermaid C4Component ... ````.",
+        "Объявляйте границы контейнеров и компоненты с указанием используемых технологий.",
+        "Соединяйте компоненты направленными связями с протоколами взаимодействия."
+],
+      semanticType: "domain_specific",
+      tags: ["output","mermaid","c4-model","component-diagram","visualization"],
+    }),
+  },
+
+  "output-swagger-ui-html-bundle": {
+    id: "output-swagger-ui-html-bundle",
+    name: "OutputSwaggerUiHtmlBundleSkill",
+    displayName: "Standalone Swagger UI Interactive HTML Documentation Bundle",
+    categoryId: "output",
+    description: "Outputs a self-contained, offline-compatible HTML file rendering interactive Swagger UI documentation.",
+    tags: ["output","swagger-ui","html","documentation","api"],
+    transform: createStandardSkillTransform({
+      sectionName: "Standalone Swagger UI HTML Bundle Standard",
+      ruSectionName: "Автономный HTML-бандл с интерактивной документацией Swagger UI",
+      instructions: [
+        "Output complete HTML5 file with embedded Swagger UI CSS/JS bundles.",
+        "Inline the OpenAPI 3.1 JSON specification directly into the `SwaggerUIBundle({ spec: {...} })` initializer.",
+        "Deliver 100% interactive 'Try It Out' API testing in a single portable file."
+],
+      ruInstructions: [
+        "Создайте полноценный автономный HTML5-файл с подключением стилей и скриптов Swagger UI.",
+        "Встройте полную спецификацию OpenAPI JSON внутрь скрипта инициализации.",
+        "Обеспечьте возможность тестирования API прямо из одного портативного файла."
+],
+      semanticType: "domain_specific",
+      tags: ["output","swagger-ui","html","documentation","api"],
+    }),
+  },
+
+  "output-github-issue-template-yaml": {
+    id: "output-github-issue-template-yaml",
+    name: "OutputGithubIssueTemplateYamlSkill",
+    displayName: "GitHub Issue Form (YAML) Bug & Feature Template",
+    categoryId: "output",
+    description: "Outputs structured GitHub Issue Forms (.github/ISSUE_TEMPLATE/*.yml) with dropdowns, textareas, and validations.",
+    tags: ["output","github-issue","yaml","open-source","templates"],
+    transform: createStandardSkillTransform({
+      sectionName: "GitHub Issue Form (YAML) Standard",
+      ruSectionName: "Стандарт шаблонов тикетов GitHub Issue Forms (YAML)",
+      instructions: [
+        "Output valid YAML adhering to GitHub Issue Forms schema: `name`, `description`, `body: [...]`.",
+        "Include `type: textarea` with validation requirements and `type: dropdown` for component selection.",
+        "Embed a pre-filled checklist for reproduction steps and environment details."
+],
+      ruInstructions: [
+        "Генерируйте валидный YAML-файл для каталога `.github/ISSUE_TEMPLATE`.",
+        "Используйте поля ввода, выпадающие списки выбора компонентов и обязательные чек-боксы.",
+        "Включайте разделы для шагов воспроизведения ошибки и логов окружения."
+],
+      semanticType: "domain_specific",
+      tags: ["output","github-issue","yaml","open-source","templates"],
+    }),
+  },
+
+  "output-markdown-user-story-acceptance-criteria": {
+    id: "output-markdown-user-story-acceptance-criteria",
+    name: "OutputMarkdownUserStoryAcceptanceCriteriaSkill",
+    displayName: "Agile User Story & Gherkin Acceptance Criteria (Given/When/Then)",
+    categoryId: "output",
+    description: "Structures user stories with Persona, Goal, Value, and Cucumber/Gherkin acceptance criteria scenarios.",
+    tags: ["output","user-story","agile","gherkin","acceptance-criteria","scrum"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agile User Story & Gherkin Acceptance Criteria Standard",
+      ruSectionName: "Стандарт пользовательских историй (User Stories) и критериев приемки Gherkin",
+      instructions: [
+        "Format User Story: `As a [Persona], I want [Goal], so that [Business Benefit]`.",
+        "Define 3-5 distinct acceptance criteria scenarios using Gherkin syntax: `Scenario: ... | Given ... | When ... | Then ...`.",
+        "Include explicit edge-case negative test scenarios."
+],
+      ruInstructions: [
+        "Форматируйте историю: `Как [Роль], я хочу [Действие], чтобы [Ценность]`.",
+        "Опишите критерии приемки на синтаксисе Gherkin: `Сценарий | Дано | Когда | Тогда`.",
+        "Включайте сценарии обработки некорректных данных и сбоев."
+],
+      semanticType: "domain_specific",
+      tags: ["output","user-story","agile","gherkin","acceptance-criteria","scrum"],
+    }),
+  },
+
+  "output-prometheus-grafana-dashboard-json": {
+    id: "output-prometheus-grafana-dashboard-json",
+    name: "OutputPrometheusGrafanaDashboardJsonSkill",
+    displayName: "Grafana 10 Dashboard Model (JSON) Specification",
+    categoryId: "output",
+    description: "Outputs import-ready Grafana 10 dashboard JSON with panels, time-series graphs, thresholds, and PromQL targets.",
+    tags: ["output","grafana","prometheus","json","dashboards","observability"],
+    transform: createStandardSkillTransform({
+      sectionName: "Grafana 10 Dashboard Model (JSON) Standards",
+      ruSectionName: "Стандарт дашбордов Grafana 10 (JSON)",
+      instructions: [
+        "Output valid Grafana 10 dashboard schema: `{ \"title\": \"...\", \"panels\": [...], \"templating\": {...} }`.",
+        "Configure time-series panels with optimized PromQL queries (`rate(http_requests_total[5m])`).",
+        "Set standardized color thresholds (Green: Normal, Yellow: Warning, Red: Critical)."
+],
+      ruInstructions: [
+        "Генерируйте валидную схему дашборда Grafana с панелями и переменными шаблонов.",
+        "Настраивайте панели графиков временных рядов с PromQL-запросами.",
+        "Задавайте стандартные цветовые пороги (зеленый / желтый / красный)."
+],
+      semanticType: "domain_specific",
+      tags: ["output","grafana","prometheus","json","dashboards","observability"],
+    }),
+  },
 };
 

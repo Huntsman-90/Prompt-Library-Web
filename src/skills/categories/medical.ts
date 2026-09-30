@@ -1381,4 +1381,628 @@ sectionName: 'HPO Rare Disease Phenotypic Mapping',
       tags: ["medical","palliative","hospice","symptom-control","end-of-life"],
     }),
   },
+  "medical-differential-diagnosis-soap-clinical-note": {
+    id: "medical-differential-diagnosis-soap-clinical-note",
+    name: "DifferentialDiagnosisSOAPClinicalNoteSkill",
+    displayName: "Differential Diagnosis SOAP Clinical Note",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Differential Diagnosis SOAP Clinical Note.",
+    tags: ["medical","differential","diagnosis","soap"],
+    transform: createStandardSkillTransform({
+      sectionName: "SOAP Clinical Note Architecture",
+      ruSectionName: "Стандарты и практические требования: Differential Diagnosis SOAP Clinical Note",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Differential Diagnosis SOAP Clinical Note.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Differential Diagnosis SOAP Clinical Note.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","differential","diagnosis","soap"],
+    }),
+  },
+
+  "medical-evidence-based-medicine-grade-quality-scoring": {
+    id: "medical-evidence-based-medicine-grade-quality-scoring",
+    name: "EvidenceBasedMedicineGRADEQualityScoringSkill",
+    displayName: "Evidence-Based Medicine GRADE Quality Scoring",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Evidence-Based Medicine GRADE Quality Scoring.",
+    tags: ["medical","evidence","based","medicine"],
+    transform: createStandardSkillTransform({
+      sectionName: "GRADE Evidence Assessment Protocol",
+      ruSectionName: "Стандарты и практические требования: Evidence-Based Medicine GRADE Quality Scoring",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Evidence-Based Medicine GRADE Quality Scoring.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Evidence-Based Medicine GRADE Quality Scoring.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","evidence","based","medicine"],
+    }),
+  },
+
+  "medical-clinical-pharmacokinetics-dosing-calculation": {
+    id: "medical-clinical-pharmacokinetics-dosing-calculation",
+    name: "ClinicalPharmacokineticsDosingCalculationSkill",
+    displayName: "Clinical Pharmacokinetics Dosing Calculation",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Clinical Pharmacokinetics Dosing Calculation.",
+    tags: ["medical","clinical","pharmacokinetics","dosing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pharmacokinetics Dosing Standards",
+      ruSectionName: "Стандарты и практические требования: Clinical Pharmacokinetics Dosing Calculation",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Clinical Pharmacokinetics Dosing Calculation.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Clinical Pharmacokinetics Dosing Calculation.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","clinical","pharmacokinetics","dosing"],
+    }),
+  },
+
+  "medical-sepsis-qsofa-screening-early-warning-protocol": {
+    id: "medical-sepsis-qsofa-screening-early-warning-protocol",
+    name: "SepsisqSOFAScreeningEarlyWarningProtocolSkill",
+    displayName: "Sepsis qSOFA Screening & Early Warning Protocol",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Sepsis qSOFA Screening & Early Warning Protocol.",
+    tags: ["medical","sepsis","qsofa","screening"],
+    transform: createStandardSkillTransform({
+      sectionName: "qSOFA Sepsis Screening Protocol",
+      ruSectionName: "Стандарты и практические требования: Sepsis qSOFA Screening & Early Warning Protocol",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Sepsis qSOFA Screening & Early Warning Protocol.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Sepsis qSOFA Screening & Early Warning Protocol.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","sepsis","qsofa","screening"],
+    }),
+  },
+
+  "medical-electrocardiogram-ecg-ekg-12-lead-systematic-interpretation": {
+    id: "medical-electrocardiogram-ecg-ekg-12-lead-systematic-interpretation",
+    name: "ElectrocardiogramECGEKG12LeadSystematicInterpretationSkill",
+    displayName: "Electrocardiogram (ECG/EKG) 12-Lead Systematic Interpretation",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Electrocardiogram (ECG/EKG) 12-Lead Systematic Interpretation.",
+    tags: ["medical","electrocardiogram","ecg","ekg"],
+    transform: createStandardSkillTransform({
+      sectionName: "12-Lead ECG Interpretation Blueprint",
+      ruSectionName: "Стандарты и практические требования: Electrocardiogram (ECG/EKG) 12-Lead Systematic Interpretation",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Electrocardiogram (ECG/EKG) 12-Lead Systematic Interpretation.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Electrocardiogram (ECG/EKG) 12-Lead Systematic Interpretation.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","electrocardiogram","ecg","ekg"],
+    }),
+  },
+
+  "medical-palliative-care-serious-illness-conversation": {
+    id: "medical-palliative-care-serious-illness-conversation",
+    name: "PalliativeCareSeriousIllnessConversationSkill",
+    displayName: "Palliative Care Serious Illness Conversation",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Palliative Care Serious Illness Conversation.",
+    tags: ["medical","palliative","care","serious"],
+    transform: createStandardSkillTransform({
+      sectionName: "Serious Illness Communication Standards",
+      ruSectionName: "Стандарты и практические требования: Palliative Care Serious Illness Conversation",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Palliative Care Serious Illness Conversation.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Palliative Care Serious Illness Conversation.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","palliative","care","serious"],
+    }),
+  },
+
+  "medical-antibiotic-stewardship-antibiogram-guidance": {
+    id: "medical-antibiotic-stewardship-antibiogram-guidance",
+    name: "AntibioticStewardshipAntibiogramGuidanceSkill",
+    displayName: "Antibiotic Stewardship Antibiogram Guidance",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Antibiotic Stewardship Antibiogram Guidance.",
+    tags: ["medical","antibiotic","stewardship","antibiogram"],
+    transform: createStandardSkillTransform({
+      sectionName: "Antibiotic Stewardship Protocol",
+      ruSectionName: "Стандарты и практические требования: Antibiotic Stewardship Antibiogram Guidance",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Antibiotic Stewardship Antibiogram Guidance.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Antibiotic Stewardship Antibiogram Guidance.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","antibiotic","stewardship","antibiogram"],
+    }),
+  },
+
+  "medical-tnm-cancer-staging-oncology-multidisciplinary-tumor-board": {
+    id: "medical-tnm-cancer-staging-oncology-multidisciplinary-tumor-board",
+    name: "TNMCancerStagingOncologyMultidisciplinaryTumorBoardSkill",
+    displayName: "TNM Cancer Staging & Oncology Multidisciplinary Tumor Board",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for TNM Cancer Staging & Oncology Multidisciplinary Tumor Board.",
+    tags: ["medical","tnm","cancer","staging"],
+    transform: createStandardSkillTransform({
+      sectionName: "TNM Oncology Staging Standards",
+      ruSectionName: "Стандарты и практические требования: TNM Cancer Staging & Oncology Multidisciplinary Tumor Board",
+      instructions: [
+        "Apply core domain tenets and industry best practices for TNM Cancer Staging & Oncology Multidisciplinary Tumor Board.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для TNM Cancer Staging & Oncology Multidisciplinary Tumor Board.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","tnm","cancer","staging"],
+    }),
+  },
+
+  "medical-pediatric-weight-based-emergency-resuscitation-broselow": {
+    id: "medical-pediatric-weight-based-emergency-resuscitation-broselow",
+    name: "PediatricWeightBasedEmergencyResuscitationBroselowSkill",
+    displayName: "Pediatric Weight-Based Emergency Resuscitation (Broselow)",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Pediatric Weight-Based Emergency Resuscitation (Broselow).",
+    tags: ["medical","pediatric","weight","based"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pediatric Resuscitation Guidelines",
+      ruSectionName: "Стандарты и практические требования: Pediatric Weight-Based Emergency Resuscitation (Broselow)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Pediatric Weight-Based Emergency Resuscitation (Broselow).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Pediatric Weight-Based Emergency Resuscitation (Broselow).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","pediatric","weight","based"],
+    }),
+  },
+
+  "medical-trauma-atls-primary-secondary-survey": {
+    id: "medical-trauma-atls-primary-secondary-survey",
+    name: "TraumaATLSPrimarySecondarySurveySkill",
+    displayName: "Trauma ATLS Primary & Secondary Survey",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Trauma ATLS Primary & Secondary Survey.",
+    tags: ["medical","trauma","atls","primary"],
+    transform: createStandardSkillTransform({
+      sectionName: "ATLS Trauma Survey Standards",
+      ruSectionName: "Стандарты и практические требования: Trauma ATLS Primary & Secondary Survey",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Trauma ATLS Primary & Secondary Survey.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Trauma ATLS Primary & Secondary Survey.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","trauma","atls","primary"],
+    }),
+  },
+
+  "medical-hypertension-acc-aha-treatment-algorithm": {
+    id: "medical-hypertension-acc-aha-treatment-algorithm",
+    name: "HypertensionACCAHATreatmentAlgorithmSkill",
+    displayName: "Hypertension ACC/AHA Treatment Algorithm",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Hypertension ACC/AHA Treatment Algorithm.",
+    tags: ["medical","hypertension","acc","aha"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hypertension Treatment Algorithm",
+      ruSectionName: "Стандарты и практические требования: Hypertension ACC/AHA Treatment Algorithm",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Hypertension ACC/AHA Treatment Algorithm.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Hypertension ACC/AHA Treatment Algorithm.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","hypertension","acc","aha"],
+    }),
+  },
+
+  "medical-type-2-diabetes-ada-glycemic-control-sglt2-glp1": {
+    id: "medical-type-2-diabetes-ada-glycemic-control-sglt2-glp1",
+    name: "Type2DiabetesADAGlycemicControlSGLT2GLP1Skill",
+    displayName: "Type 2 Diabetes ADA Glycemic Control & SGLT2/GLP1",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Type 2 Diabetes ADA Glycemic Control & SGLT2/GLP1.",
+    tags: ["medical","type","2","diabetes"],
+    transform: createStandardSkillTransform({
+      sectionName: "ADA Diabetes Care Protocols",
+      ruSectionName: "Стандарты и практические требования: Type 2 Diabetes ADA Glycemic Control & SGLT2/GLP1",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Type 2 Diabetes ADA Glycemic Control & SGLT2/GLP1.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Type 2 Diabetes ADA Glycemic Control & SGLT2/GLP1.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","type","2","diabetes"],
+    }),
+  },
+
+  "medical-mental-health-dsm-5-diagnostic-criteria-workup": {
+    id: "medical-mental-health-dsm-5-diagnostic-criteria-workup",
+    name: "MentalHealthDSM5DiagnosticCriteriaWorkupSkill",
+    displayName: "Mental Health DSM-5 Diagnostic Criteria Workup",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Mental Health DSM-5 Diagnostic Criteria Workup.",
+    tags: ["medical","mental","health","dsm"],
+    transform: createStandardSkillTransform({
+      sectionName: "DSM-5 Diagnostic Standards",
+      ruSectionName: "Стандарты и практические требования: Mental Health DSM-5 Diagnostic Criteria Workup",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Mental Health DSM-5 Diagnostic Criteria Workup.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Mental Health DSM-5 Diagnostic Criteria Workup.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","mental","health","dsm"],
+    }),
+  },
+
+  "medical-radiology-chest-x-ray-abcde-systematic-reading": {
+    id: "medical-radiology-chest-x-ray-abcde-systematic-reading",
+    name: "RadiologyChestXRayABCDESystematicReadingSkill",
+    displayName: "Radiology Chest X-Ray ABCDE Systematic Reading",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Radiology Chest X-Ray ABCDE Systematic Reading.",
+    tags: ["medical","radiology","chest","x"],
+    transform: createStandardSkillTransform({
+      sectionName: "Chest X-Ray ABCDE Standards",
+      ruSectionName: "Стандарты и практические требования: Radiology Chest X-Ray ABCDE Systematic Reading",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Radiology Chest X-Ray ABCDE Systematic Reading.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Radiology Chest X-Ray ABCDE Systematic Reading.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","radiology","chest","x"],
+    }),
+  },
+
+  "medical-preoperative-cardiac-risk-assessment-rcri-score": {
+    id: "medical-preoperative-cardiac-risk-assessment-rcri-score",
+    name: "PreoperativeCardiacRiskAssessmentRCRIScoreSkill",
+    displayName: "Preoperative Cardiac Risk Assessment (RCRI Score)",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Preoperative Cardiac Risk Assessment (RCRI Score).",
+    tags: ["medical","preoperative","cardiac","risk"],
+    transform: createStandardSkillTransform({
+      sectionName: "Preoperative Risk Protocol",
+      ruSectionName: "Стандарты и практические требования: Preoperative Cardiac Risk Assessment (RCRI Score)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Preoperative Cardiac Risk Assessment (RCRI Score).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Preoperative Cardiac Risk Assessment (RCRI Score).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","preoperative","cardiac","risk"],
+    }),
+  },
+
+  "medical-stroke-nihss-rapid-assessment-tpa-eligibility": {
+    id: "medical-stroke-nihss-rapid-assessment-tpa-eligibility",
+    name: "StrokeNIHSSRapidAssessmenttPAEligibilitySkill",
+    displayName: "Stroke NIHSS Rapid Assessment & tPA Eligibility",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Stroke NIHSS Rapid Assessment & tPA Eligibility.",
+    tags: ["medical","stroke","nihss","rapid"],
+    transform: createStandardSkillTransform({
+      sectionName: "NIHSS Stroke Assessment Protocol",
+      ruSectionName: "Стандарты и практические требования: Stroke NIHSS Rapid Assessment & tPA Eligibility",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Stroke NIHSS Rapid Assessment & tPA Eligibility.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Stroke NIHSS Rapid Assessment & tPA Eligibility.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","stroke","nihss","rapid"],
+    }),
+  },
+
+  "medical-obstetric-emergency-postpartum-hemorrhage-protocol": {
+    id: "medical-obstetric-emergency-postpartum-hemorrhage-protocol",
+    name: "ObstetricEmergencyPostpartumHemorrhageProtocolSkill",
+    displayName: "Obstetric Emergency Postpartum Hemorrhage Protocol",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Obstetric Emergency Postpartum Hemorrhage Protocol.",
+    tags: ["medical","obstetric","emergency","postpartum"],
+    transform: createStandardSkillTransform({
+      sectionName: "Postpartum Hemorrhage Blueprint",
+      ruSectionName: "Стандарты и практические требования: Obstetric Emergency Postpartum Hemorrhage Protocol",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Obstetric Emergency Postpartum Hemorrhage Protocol.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Obstetric Emergency Postpartum Hemorrhage Protocol.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","obstetric","emergency","postpartum"],
+    }),
+  },
+
+  "medical-infectious-disease-isolation-ppe-biohazard-protocols": {
+    id: "medical-infectious-disease-isolation-ppe-biohazard-protocols",
+    name: "InfectiousDiseaseIsolationPPEBiohazardProtocolsSkill",
+    displayName: "Infectious Disease Isolation & PPE Biohazard Protocols",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Infectious Disease Isolation & PPE Biohazard Protocols.",
+    tags: ["medical","infectious","disease","isolation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Infection Control PPE Protocol",
+      ruSectionName: "Стандарты и практические требования: Infectious Disease Isolation & PPE Biohazard Protocols",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Infectious Disease Isolation & PPE Biohazard Protocols.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Infectious Disease Isolation & PPE Biohazard Protocols.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","infectious","disease","isolation"],
+    }),
+  },
+
+  "medical-chronic-kidney-disease-kdigo-staging-renoprotection": {
+    id: "medical-chronic-kidney-disease-kdigo-staging-renoprotection",
+    name: "ChronicKidneyDiseaseKDIGOStagingRenoprotectionSkill",
+    displayName: "Chronic Kidney Disease KDIGO Staging & Renoprotection",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Chronic Kidney Disease KDIGO Staging & Renoprotection.",
+    tags: ["medical","chronic","kidney","disease"],
+    transform: createStandardSkillTransform({
+      sectionName: "KDIGO Renal Management Standards",
+      ruSectionName: "Стандарты и практические требования: Chronic Kidney Disease KDIGO Staging & Renoprotection",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Chronic Kidney Disease KDIGO Staging & Renoprotection.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Chronic Kidney Disease KDIGO Staging & Renoprotection.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","chronic","kidney","disease"],
+    }),
+  },
+
+  "medical-asthma-gina-stepwise-management-inhaler-technique": {
+    id: "medical-asthma-gina-stepwise-management-inhaler-technique",
+    name: "AsthmaGINAStepwiseManagementInhalerTechniqueSkill",
+    displayName: "Asthma GINA Stepwise Management & Inhaler Technique",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Asthma GINA Stepwise Management & Inhaler Technique.",
+    tags: ["medical","asthma","gina","stepwise"],
+    transform: createStandardSkillTransform({
+      sectionName: "GINA Asthma Care Protocol",
+      ruSectionName: "Стандарты и практические требования: Asthma GINA Stepwise Management & Inhaler Technique",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Asthma GINA Stepwise Management & Inhaler Technique.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Asthma GINA Stepwise Management & Inhaler Technique.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","asthma","gina","stepwise"],
+    }),
+  },
+
+  "medical-emergency-airway-intubation-rapid-sequence-induction-rsi": {
+    id: "medical-emergency-airway-intubation-rapid-sequence-induction-rsi",
+    name: "EmergencyAirwayIntubationRapidSequenceInductionRSISkill",
+    displayName: "Emergency Airway Intubation Rapid Sequence Induction (RSI)",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Emergency Airway Intubation Rapid Sequence Induction (RSI).",
+    tags: ["medical","emergency","airway","intubation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Emergency RSI Airway Standards",
+      ruSectionName: "Стандарты и практические требования: Emergency Airway Intubation Rapid Sequence Induction (RSI)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Emergency Airway Intubation Rapid Sequence Induction (RSI).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Emergency Airway Intubation Rapid Sequence Induction (RSI).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","emergency","airway","intubation"],
+    }),
+  },
+
+  "medical-dermatology-abcde-melanoma-lesion-assessment": {
+    id: "medical-dermatology-abcde-melanoma-lesion-assessment",
+    name: "DermatologyABCDEMelanomaLesionAssessmentSkill",
+    displayName: "Dermatology ABCDE Melanoma Lesion Assessment",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Dermatology ABCDE Melanoma Lesion Assessment.",
+    tags: ["medical","dermatology","abcde","melanoma"],
+    transform: createStandardSkillTransform({
+      sectionName: "Melanoma ABCDE Assessment Protocol",
+      ruSectionName: "Стандарты и практические требования: Dermatology ABCDE Melanoma Lesion Assessment",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Dermatology ABCDE Melanoma Lesion Assessment.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Dermatology ABCDE Melanoma Lesion Assessment.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","dermatology","abcde","melanoma"],
+    }),
+  },
+
+  "medical-post-op-surgical-wound-infection-surveillance": {
+    id: "medical-post-op-surgical-wound-infection-surveillance",
+    name: "PostOpSurgicalWoundInfectionSurveillanceSkill",
+    displayName: "Post-Op Surgical Wound Infection Surveillance",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Post-Op Surgical Wound Infection Surveillance.",
+    tags: ["medical","post","op","surgical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Surgical Infection Surveillance",
+      ruSectionName: "Стандарты и практические требования: Post-Op Surgical Wound Infection Surveillance",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Post-Op Surgical Wound Infection Surveillance.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Post-Op Surgical Wound Infection Surveillance.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","post","op","surgical"],
+    }),
+  },
+
+  "medical-cardiopulmonary-resuscitation-acls-megacode-algorithms": {
+    id: "medical-cardiopulmonary-resuscitation-acls-megacode-algorithms",
+    name: "CardiopulmonaryResuscitationACLSMegacodeAlgorithmsSkill",
+    displayName: "Cardiopulmonary Resuscitation (ACLS) Megacode Algorithms",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Cardiopulmonary Resuscitation (ACLS) Megacode Algorithms.",
+    tags: ["medical","cardiopulmonary","resuscitation","acls"],
+    transform: createStandardSkillTransform({
+      sectionName: "ACLS Megacode Protocol",
+      ruSectionName: "Стандарты и практические требования: Cardiopulmonary Resuscitation (ACLS) Megacode Algorithms",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Cardiopulmonary Resuscitation (ACLS) Megacode Algorithms.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Cardiopulmonary Resuscitation (ACLS) Megacode Algorithms.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","cardiopulmonary","resuscitation","acls"],
+    }),
+  },
+
+  "medical-medical-ethics-four-principles-autonomy-beneficence-justice-non-maleficence": {
+    id: "medical-medical-ethics-four-principles-autonomy-beneficence-justice-non-maleficence",
+    name: "MedicalEthicsFourPrinciplesAutonomyBeneficenceJusticeNonMaleficenceSkill",
+    displayName: "Medical Ethics Four Principles (Autonomy Beneficence Justice Non-Maleficence)",
+    categoryId: "medical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Medical Ethics Four Principles (Autonomy Beneficence Justice Non-Maleficence).",
+    tags: ["medical","medical","ethics","four"],
+    transform: createStandardSkillTransform({
+      sectionName: "Medical Ethics Principles Standards",
+      ruSectionName: "Стандарты и практические требования: Medical Ethics Four Principles (Autonomy Beneficence Justice Non-Maleficence)",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Medical Ethics Four Principles (Autonomy Beneficence Justice Non-Maleficence).",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Medical Ethics Four Principles (Autonomy Beneficence Justice Non-Maleficence).",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["medical","medical","ethics","four"],
+    }),
+  },
 };

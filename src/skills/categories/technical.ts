@@ -1373,4 +1373,628 @@ sectionName: 'PostgreSQL WAL & Logical Replication Architecture',
       tags: ["technical","profiling","flamegraph","pyroscope","performance-engineering"],
     }),
   },
+  "technical-kubernetes-cluster-helm-chart-deployment": {
+    id: "technical-kubernetes-cluster-helm-chart-deployment",
+    name: "KubernetesClusterHelmChartDeploymentSkill",
+    displayName: "Kubernetes Cluster Helm Chart Deployment",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Kubernetes Cluster Helm Chart Deployment.",
+    tags: ["technical","kubernetes","cluster","helm"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kubernetes Helm Deployment Protocol",
+      ruSectionName: "Стандарты и практические требования: Kubernetes Cluster Helm Chart Deployment",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Kubernetes Cluster Helm Chart Deployment.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Kubernetes Cluster Helm Chart Deployment.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","kubernetes","cluster","helm"],
+    }),
+  },
+
+  "technical-terraform-infrastructure-as-code-iac-state-lock": {
+    id: "technical-terraform-infrastructure-as-code-iac-state-lock",
+    name: "TerraformInfrastructureasCodeIaCStateLockSkill",
+    displayName: "Terraform Infrastructure as Code (IaC) State Lock",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Terraform Infrastructure as Code (IaC) State Lock.",
+    tags: ["technical","terraform","infrastructure","as"],
+    transform: createStandardSkillTransform({
+      sectionName: "Terraform IaC State Standards",
+      ruSectionName: "Стандарты и практические требования: Terraform Infrastructure as Code (IaC) State Lock",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Terraform Infrastructure as Code (IaC) State Lock.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Terraform Infrastructure as Code (IaC) State Lock.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","terraform","infrastructure","as"],
+    }),
+  },
+
+  "technical-prometheus-grafana-alertmanager-sli-slo-alerts": {
+    id: "technical-prometheus-grafana-alertmanager-sli-slo-alerts",
+    name: "PrometheusGrafanaAlertmanagerSLISLOAlertsSkill",
+    displayName: "Prometheus & Grafana Alertmanager SLI/SLO Alerts",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Prometheus & Grafana Alertmanager SLI/SLO Alerts.",
+    tags: ["technical","prometheus","grafana","alertmanager"],
+    transform: createStandardSkillTransform({
+      sectionName: "Prometheus SLI/SLO Alerting Standards",
+      ruSectionName: "Стандарты и практические требования: Prometheus & Grafana Alertmanager SLI/SLO Alerts",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Prometheus & Grafana Alertmanager SLI/SLO Alerts.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Prometheus & Grafana Alertmanager SLI/SLO Alerts.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","prometheus","grafana","alertmanager"],
+    }),
+  },
+
+  "technical-nginx-reverse-proxy-rate-limiting-ssl-termination": {
+    id: "technical-nginx-reverse-proxy-rate-limiting-ssl-termination",
+    name: "NginxReverseProxyRateLimitingSSLTerminationSkill",
+    displayName: "Nginx Reverse Proxy Rate-Limiting & SSL Termination",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Nginx Reverse Proxy Rate-Limiting & SSL Termination.",
+    tags: ["technical","nginx","reverse","proxy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Nginx Reverse Proxy Security Standards",
+      ruSectionName: "Стандарты и практические требования: Nginx Reverse Proxy Rate-Limiting & SSL Termination",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Nginx Reverse Proxy Rate-Limiting & SSL Termination.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Nginx Reverse Proxy Rate-Limiting & SSL Termination.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","nginx","reverse","proxy"],
+    }),
+  },
+
+  "technical-docker-multi-stage-build-minimal-container-image": {
+    id: "technical-docker-multi-stage-build-minimal-container-image",
+    name: "DockerMultiStageBuildMinimalContainerImageSkill",
+    displayName: "Docker Multi-Stage Build Minimal Container Image",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Docker Multi-Stage Build Minimal Container Image.",
+    tags: ["technical","docker","multi","stage"],
+    transform: createStandardSkillTransform({
+      sectionName: "Docker Multi-Stage Build Standards",
+      ruSectionName: "Стандарты и практические требования: Docker Multi-Stage Build Minimal Container Image",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Docker Multi-Stage Build Minimal Container Image.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Docker Multi-Stage Build Minimal Container Image.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","docker","multi","stage"],
+    }),
+  },
+
+  "technical-bgp-autonomous-system-routing-anycast-dns": {
+    id: "technical-bgp-autonomous-system-routing-anycast-dns",
+    name: "BGPAutonomousSystemRoutingAnycastDNSSkill",
+    displayName: "BGP Autonomous System Routing & Anycast DNS",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for BGP Autonomous System Routing & Anycast DNS.",
+    tags: ["technical","bgp","autonomous","system"],
+    transform: createStandardSkillTransform({
+      sectionName: "BGP Anycast Routing Architecture",
+      ruSectionName: "Стандарты и практические требования: BGP Autonomous System Routing & Anycast DNS",
+      instructions: [
+        "Apply core domain tenets and industry best practices for BGP Autonomous System Routing & Anycast DNS.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для BGP Autonomous System Routing & Anycast DNS.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","bgp","autonomous","system"],
+    }),
+  },
+
+  "technical-linux-kernel-sysctl-epoll-network-performance": {
+    id: "technical-linux-kernel-sysctl-epoll-network-performance",
+    name: "LinuxKernelSysctlEpollNetworkPerformanceSkill",
+    displayName: "Linux Kernel Sysctl Epoll Network Performance",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Linux Kernel Sysctl Epoll Network Performance.",
+    tags: ["technical","linux","kernel","sysctl"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux Sysctl Tuning Standards",
+      ruSectionName: "Стандарты и практические требования: Linux Kernel Sysctl Epoll Network Performance",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Linux Kernel Sysctl Epoll Network Performance.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Linux Kernel Sysctl Epoll Network Performance.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","linux","kernel","sysctl"],
+    }),
+  },
+
+  "technical-zero-trust-wireguard-mesh-vpn-infrastructure": {
+    id: "technical-zero-trust-wireguard-mesh-vpn-infrastructure",
+    name: "ZeroTrustWireGuardMeshVPNInfrastructureSkill",
+    displayName: "Zero Trust WireGuard Mesh VPN Infrastructure",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Zero Trust WireGuard Mesh VPN Infrastructure.",
+    tags: ["technical","zero","trust","wireguard"],
+    transform: createStandardSkillTransform({
+      sectionName: "WireGuard Zero-Trust Mesh Standards",
+      ruSectionName: "Стандарты и практические требования: Zero Trust WireGuard Mesh VPN Infrastructure",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Zero Trust WireGuard Mesh VPN Infrastructure.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Zero Trust WireGuard Mesh VPN Infrastructure.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","zero","trust","wireguard"],
+    }),
+  },
+
+  "technical-ci-cd-github-actions-matrix-pipeline-cache": {
+    id: "technical-ci-cd-github-actions-matrix-pipeline-cache",
+    name: "CICDGitHubActionsMatrixPipelineCacheSkill",
+    displayName: "CI/CD GitHub Actions Matrix Pipeline Cache",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for CI/CD GitHub Actions Matrix Pipeline Cache.",
+    tags: ["technical","ci","cd","github"],
+    transform: createStandardSkillTransform({
+      sectionName: "GitHub Actions Pipeline Protocol",
+      ruSectionName: "Стандарты и практические требования: CI/CD GitHub Actions Matrix Pipeline Cache",
+      instructions: [
+        "Apply core domain tenets and industry best practices for CI/CD GitHub Actions Matrix Pipeline Cache.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для CI/CD GitHub Actions Matrix Pipeline Cache.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","ci","cd","github"],
+    }),
+  },
+
+  "technical-aws-iam-principle-of-least-privilege-scp-governance": {
+    id: "technical-aws-iam-principle-of-least-privilege-scp-governance",
+    name: "AWSIAMPrincipleofLeastPrivilegeSCPGovernanceSkill",
+    displayName: "AWS IAM Principle of Least Privilege SCP Governance",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for AWS IAM Principle of Least Privilege SCP Governance.",
+    tags: ["technical","aws","iam","principle"],
+    transform: createStandardSkillTransform({
+      sectionName: "AWS IAM Least Privilege Standards",
+      ruSectionName: "Стандарты и практические требования: AWS IAM Principle of Least Privilege SCP Governance",
+      instructions: [
+        "Apply core domain tenets and industry best practices for AWS IAM Principle of Least Privilege SCP Governance.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для AWS IAM Principle of Least Privilege SCP Governance.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","aws","iam","principle"],
+    }),
+  },
+
+  "technical-grpc-protocol-buffers-high-speed-rpc-microservices": {
+    id: "technical-grpc-protocol-buffers-high-speed-rpc-microservices",
+    name: "gRPCProtocolBuffersHighSpeedRPCMicroservicesSkill",
+    displayName: "gRPC Protocol Buffers High-Speed RPC Microservices",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for gRPC Protocol Buffers High-Speed RPC Microservices.",
+    tags: ["technical","grpc","protocol","buffers"],
+    transform: createStandardSkillTransform({
+      sectionName: "gRPC Protocol Buffers Architecture",
+      ruSectionName: "Стандарты и практические требования: gRPC Protocol Buffers High-Speed RPC Microservices",
+      instructions: [
+        "Apply core domain tenets and industry best practices for gRPC Protocol Buffers High-Speed RPC Microservices.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для gRPC Protocol Buffers High-Speed RPC Microservices.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","grpc","protocol","buffers"],
+    }),
+  },
+
+  "technical-kafka-partition-leader-rebalance-consumer-lag": {
+    id: "technical-kafka-partition-leader-rebalance-consumer-lag",
+    name: "KafkaPartitionLeaderRebalanceConsumerLagSkill",
+    displayName: "Kafka Partition Leader Rebalance & Consumer Lag",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Kafka Partition Leader Rebalance & Consumer Lag.",
+    tags: ["technical","kafka","partition","leader"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kafka Partition Lag Management",
+      ruSectionName: "Стандарты и практические требования: Kafka Partition Leader Rebalance & Consumer Lag",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Kafka Partition Leader Rebalance & Consumer Lag.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Kafka Partition Leader Rebalance & Consumer Lag.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","kafka","partition","leader"],
+    }),
+  },
+
+  "technical-postgresql-wal-streaming-replication-failover": {
+    id: "technical-postgresql-wal-streaming-replication-failover",
+    name: "PostgreSQLWALStreamingReplicationFailoverSkill",
+    displayName: "PostgreSQL WAL Streaming Replication & Failover",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for PostgreSQL WAL Streaming Replication & Failover.",
+    tags: ["technical","postgresql","wal","streaming"],
+    transform: createStandardSkillTransform({
+      sectionName: "Postgres WAL Replication Standards",
+      ruSectionName: "Стандарты и практические требования: PostgreSQL WAL Streaming Replication & Failover",
+      instructions: [
+        "Apply core domain tenets and industry best practices for PostgreSQL WAL Streaming Replication & Failover.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для PostgreSQL WAL Streaming Replication & Failover.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","postgresql","wal","streaming"],
+    }),
+  },
+
+  "technical-vault-secrets-management-dynamic-database-credential": {
+    id: "technical-vault-secrets-management-dynamic-database-credential",
+    name: "VaultSecretsManagementDynamicDatabaseCredentialSkill",
+    displayName: "Vault Secrets Management Dynamic Database Credential",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Vault Secrets Management Dynamic Database Credential.",
+    tags: ["technical","vault","secrets","management"],
+    transform: createStandardSkillTransform({
+      sectionName: "HashiCorp Vault Secrets Protocol",
+      ruSectionName: "Стандарты и практические требования: Vault Secrets Management Dynamic Database Credential",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Vault Secrets Management Dynamic Database Credential.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Vault Secrets Management Dynamic Database Credential.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","vault","secrets","management"],
+    }),
+  },
+
+  "technical-envoy-service-mesh-sidecar-proxy-routing": {
+    id: "technical-envoy-service-mesh-sidecar-proxy-routing",
+    name: "EnvoyServiceMeshSidecarProxyRoutingSkill",
+    displayName: "Envoy Service Mesh Sidecar Proxy Routing",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Envoy Service Mesh Sidecar Proxy Routing.",
+    tags: ["technical","envoy","service","mesh"],
+    transform: createStandardSkillTransform({
+      sectionName: "Envoy Service Mesh Standards",
+      ruSectionName: "Стандарты и практические требования: Envoy Service Mesh Sidecar Proxy Routing",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Envoy Service Mesh Sidecar Proxy Routing.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Envoy Service Mesh Sidecar Proxy Routing.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","envoy","service","mesh"],
+    }),
+  },
+
+  "technical-redis-sentinel-high-availability-auto-failover": {
+    id: "technical-redis-sentinel-high-availability-auto-failover",
+    name: "RedisSentinelHighAvailabilityAutoFailoverSkill",
+    displayName: "Redis Sentinel High Availability Auto-Failover",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Redis Sentinel High Availability Auto-Failover.",
+    tags: ["technical","redis","sentinel","high"],
+    transform: createStandardSkillTransform({
+      sectionName: "Redis Sentinel High Availability Protocol",
+      ruSectionName: "Стандарты и практические требования: Redis Sentinel High Availability Auto-Failover",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Redis Sentinel High Availability Auto-Failover.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Redis Sentinel High Availability Auto-Failover.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","redis","sentinel","high"],
+    }),
+  },
+
+  "technical-linux-systemd-unit-service-lifecycle-management": {
+    id: "technical-linux-systemd-unit-service-lifecycle-management",
+    name: "LinuxSystemdUnitServiceLifecycleManagementSkill",
+    displayName: "Linux Systemd Unit Service Lifecycle Management",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Linux Systemd Unit Service Lifecycle Management.",
+    tags: ["technical","linux","systemd","unit"],
+    transform: createStandardSkillTransform({
+      sectionName: "Systemd Service Lifecycle Standards",
+      ruSectionName: "Стандарты и практические требования: Linux Systemd Unit Service Lifecycle Management",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Linux Systemd Unit Service Lifecycle Management.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Linux Systemd Unit Service Lifecycle Management.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","linux","systemd","unit"],
+    }),
+  },
+
+  "technical-ansible-idempotent-server-configuration-playbook": {
+    id: "technical-ansible-idempotent-server-configuration-playbook",
+    name: "AnsibleIdempotentServerConfigurationPlaybookSkill",
+    displayName: "Ansible Idempotent Server Configuration Playbook",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Ansible Idempotent Server Configuration Playbook.",
+    tags: ["technical","ansible","idempotent","server"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ansible Configuration Standards",
+      ruSectionName: "Стандарты и практические требования: Ansible Idempotent Server Configuration Playbook",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Ansible Idempotent Server Configuration Playbook.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Ansible Idempotent Server Configuration Playbook.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","ansible","idempotent","server"],
+    }),
+  },
+
+  "technical-elasticsearch-hot-warm-cold-storage-tier-sharding": {
+    id: "technical-elasticsearch-hot-warm-cold-storage-tier-sharding",
+    name: "ElasticsearchHotWarmColdStorageTierShardingSkill",
+    displayName: "Elasticsearch Hot-Warm-Cold Storage Tier Sharding",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Elasticsearch Hot-Warm-Cold Storage Tier Sharding.",
+    tags: ["technical","elasticsearch","hot","warm"],
+    transform: createStandardSkillTransform({
+      sectionName: "Elasticsearch Tiering Architecture",
+      ruSectionName: "Стандарты и практические требования: Elasticsearch Hot-Warm-Cold Storage Tier Sharding",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Elasticsearch Hot-Warm-Cold Storage Tier Sharding.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Elasticsearch Hot-Warm-Cold Storage Tier Sharding.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","elasticsearch","hot","warm"],
+    }),
+  },
+
+  "technical-cisco-bgp-route-reflector-mpls-network-fabric": {
+    id: "technical-cisco-bgp-route-reflector-mpls-network-fabric",
+    name: "CiscoBGPRouteReflectorMPLSNetworkFabricSkill",
+    displayName: "Cisco BGP Route Reflector & MPLS Network Fabric",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Cisco BGP Route Reflector & MPLS Network Fabric.",
+    tags: ["technical","cisco","bgp","route"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enterprise Network Fabric Standards",
+      ruSectionName: "Стандарты и практические требования: Cisco BGP Route Reflector & MPLS Network Fabric",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Cisco BGP Route Reflector & MPLS Network Fabric.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Cisco BGP Route Reflector & MPLS Network Fabric.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","cisco","bgp","route"],
+    }),
+  },
+
+  "technical-ebpf-kernel-tracing-network-packet-filtering": {
+    id: "technical-ebpf-kernel-tracing-network-packet-filtering",
+    name: "eBPFKernelTracingNetworkPacketFilteringSkill",
+    displayName: "eBPF Kernel Tracing & Network Packet Filtering",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for eBPF Kernel Tracing & Network Packet Filtering.",
+    tags: ["technical","ebpf","kernel","tracing"],
+    transform: createStandardSkillTransform({
+      sectionName: "eBPF Kernel Tracing Standards",
+      ruSectionName: "Стандарты и практические требования: eBPF Kernel Tracing & Network Packet Filtering",
+      instructions: [
+        "Apply core domain tenets and industry best practices for eBPF Kernel Tracing & Network Packet Filtering.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для eBPF Kernel Tracing & Network Packet Filtering.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","ebpf","kernel","tracing"],
+    }),
+  },
+
+  "technical-cloudflare-workers-edge-serverless-compute-flow": {
+    id: "technical-cloudflare-workers-edge-serverless-compute-flow",
+    name: "CloudflareWorkersEdgeServerlessComputeFlowSkill",
+    displayName: "Cloudflare Workers Edge Serverless Compute Flow",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Cloudflare Workers Edge Serverless Compute Flow.",
+    tags: ["technical","cloudflare","workers","edge"],
+    transform: createStandardSkillTransform({
+      sectionName: "Edge Serverless Compute Standards",
+      ruSectionName: "Стандарты и практические требования: Cloudflare Workers Edge Serverless Compute Flow",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Cloudflare Workers Edge Serverless Compute Flow.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Cloudflare Workers Edge Serverless Compute Flow.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","cloudflare","workers","edge"],
+    }),
+  },
+
+  "technical-rabbitmq-quorum-queues-distributed-messaging": {
+    id: "technical-rabbitmq-quorum-queues-distributed-messaging",
+    name: "RabbitMQQuorumQueuesDistributedMessagingSkill",
+    displayName: "RabbitMQ Quorum Queues Distributed Messaging",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for RabbitMQ Quorum Queues Distributed Messaging.",
+    tags: ["technical","rabbitmq","quorum","queues"],
+    transform: createStandardSkillTransform({
+      sectionName: "RabbitMQ Distributed Queue Protocol",
+      ruSectionName: "Стандарты и практические требования: RabbitMQ Quorum Queues Distributed Messaging",
+      instructions: [
+        "Apply core domain tenets and industry best practices for RabbitMQ Quorum Queues Distributed Messaging.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для RabbitMQ Quorum Queues Distributed Messaging.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","rabbitmq","quorum","queues"],
+    }),
+  },
+
+  "technical-ceph-distributed-object-storage-pool-balancing": {
+    id: "technical-ceph-distributed-object-storage-pool-balancing",
+    name: "CephDistributedObjectStoragePoolBalancingSkill",
+    displayName: "Ceph Distributed Object Storage Pool Balancing",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Ceph Distributed Object Storage Pool Balancing.",
+    tags: ["technical","ceph","distributed","object"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ceph Storage Pool Architecture",
+      ruSectionName: "Стандарты и практические требования: Ceph Distributed Object Storage Pool Balancing",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Ceph Distributed Object Storage Pool Balancing.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Ceph Distributed Object Storage Pool Balancing.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","ceph","distributed","object"],
+    }),
+  },
+
+  "technical-chaos-engineering-chaos-mesh-resilience-injection": {
+    id: "technical-chaos-engineering-chaos-mesh-resilience-injection",
+    name: "ChaosEngineeringChaosMeshResilienceInjectionSkill",
+    displayName: "Chaos Engineering Chaos Mesh Resilience Injection",
+    categoryId: "technical",
+    description: "Applies advanced industry standards, verified protocols, and domain best practices for Chaos Engineering Chaos Mesh Resilience Injection.",
+    tags: ["technical","chaos","engineering","chaos"],
+    transform: createStandardSkillTransform({
+      sectionName: "Chaos Engineering Injection Protocol",
+      ruSectionName: "Стандарты и практические требования: Chaos Engineering Chaos Mesh Resilience Injection",
+      instructions: [
+        "Apply core domain tenets and industry best practices for Chaos Engineering Chaos Mesh Resilience Injection.",
+        "Structure workflows rigorously, minimizing friction and maximizing reliability.",
+        "Validate outputs against standardized compliance and quality benchmarks."
+],
+      ruInstructions: [
+        "Применяйте ключевые отраслевые стандарты и проверенные методы для Chaos Engineering Chaos Mesh Resilience Injection.",
+        "Структурируйте процесс с упором на надежность, измеримый результат и воспроизводимость.",
+        "Проверяйте результаты на соответствие эталонным критериям качества."
+],
+      semanticType: "structural_directive",
+      tags: ["technical","chaos","engineering","chaos"],
+    }),
+  },
 };

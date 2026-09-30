@@ -1868,4 +1868,1031 @@ export const REASONING_SKILLS: Record<string, SkillDefinition> = {
       tags: ["reasoning","condorcet-jury","ensembles","scaling-laws","consensus"],
     }),
   },
+  "bayesian-posterior-updating-formal": {
+    id: "bayesian-posterior-updating-formal",
+    name: "BayesianPosteriorUpdatingFormalSkill",
+    displayName: "Formal Bayesian Posterior Belief Updating",
+    categoryId: "reasoning",
+    description: "Updates hypothesis probabilities mathematically using Bayes' Theorem: P(H|E) = (P(E|H) * P(H)) / P(E).",
+    tags: ["reasoning","bayesian","probability","epistemics","evidence"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bayesian Belief Updating & Evidence Weight Protocol",
+      ruSectionName: "Байесовское обновление априорных вероятностей P(H|E)",
+      instructions: [
+        "State the explicit Prior Probability P(H) before presenting new empirical evidence.",
+        "Calculate the Likelihood P(E|H) and Marginal Likelihood P(E) for each new observation.",
+        "Derive the Posterior Probability P(H|E) and adjust epistemic certainty accordingly."
+],
+      ruInstructions: [
+        "Зафиксируйте априорную вероятность гипотезы P(H) до введения новых фактов.",
+        "Оцените правдоподобие свидетельства P(E|H) и маргинальную вероятность P(E).",
+        "Рассчитайте апостериорную вероятность P(H|E) и скорректируйте степень уверенности."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","bayesian","probability","epistemics","evidence"],
+    }),
+  },
+
+  "contrapositive-inference-law": {
+    id: "contrapositive-inference-law",
+    name: "ContrapositiveInferenceLawSkill",
+    displayName: "Contrapositive Modus Tollens Deductive Proof",
+    categoryId: "reasoning",
+    description: "Applies the strict equivalence (P -> Q) <=> (¬Q -> ¬P) to verify conditional logical statements.",
+    tags: ["reasoning","deduction","contrapositive","modus-tollens","formal-logic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Contrapositive & Modus Tollens Deductive Matrix",
+      ruSectionName: "Дедуктивное доказательство через контрапозицию (P -> Q <=> ¬Q -> ¬P)",
+      instructions: [
+        "Formulate conditional propositions into explicit formal logic: If Premise P, Then Consequence Q.",
+        "Test the contrapositive: If Consequence ¬Q occurs, verify that Premise ¬P must necessarily follow.",
+        "Eliminate affirming the consequent and denying the antecedent fallacies."
+],
+      ruInstructions: [
+        "Сформулируйте тезисы в виде формальных импликаций: «Если P, то Q».",
+        "Проверьте контрапозитив: «Если наблюдается ¬Q, то с необходимостью следует ¬P».",
+        "Исключите логические ошибки подтверждения консеквента и отрицания антецедента."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","deduction","contrapositive","modus-tollens","formal-logic"],
+    }),
+  },
+
+  "counterfactual-clio-historical-branching": {
+    id: "counterfactual-clio-historical-branching",
+    name: "CounterfactualClioHistoricalBranchingSkill",
+    displayName: "Counterfactual Causal Branching Analysis",
+    categoryId: "reasoning",
+    description: "Evaluates causal necessity by modeling hypothetical worlds where a specific key condition was altered.",
+    tags: ["reasoning","counterfactual","causality","judea-pearl","branching"],
+    transform: createStandardSkillTransform({
+      sectionName: "Counterfactual Causal Branching Matrix",
+      ruSectionName: "Контрфактуальный причинно-следственный анализ (Judea Pearl)",
+      instructions: [
+        "Construct a counterfactual model: 'If Condition X had NOT occurred, would Outcome Y still manifest?'",
+        "Isolate spurious correlations from true causal levers using Pearl's Structural Causal Models.",
+        "Quantify the Necessary and Sufficient causal weight of each independent variable."
+],
+      ruInstructions: [
+        "Смоделируйте контрфактуальную ситуацию: «Если бы событие X не произошло, наступил бы результат Y?».",
+        "Отделите ложные корреляции от истинных причинных связей по методологии Джуды Перла.",
+        "Оцените необходимый и достаточный причинный вклад каждого фактора в отдельности."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","counterfactual","causality","judea-pearl","branching"],
+    }),
+  },
+
+  "game-theoretic-nash-equilibrium": {
+    id: "game-theoretic-nash-equilibrium",
+    name: "GameTheoreticNashEquilibriumSkill",
+    displayName: "Nash Equilibrium & Strategic Minimax Matrix",
+    categoryId: "reasoning",
+    description: "Models strategic multi-agent interactions where no participant has an incentive to unilaterally deviate.",
+    tags: ["reasoning","game-theory","nash-equilibrium","minimax","strategy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Game-Theoretic Nash Equilibrium Matrix",
+      ruSectionName: "Теоретико-игровой анализ и поиск равновесия Нэша",
+      instructions: [
+        "Model all interacting stakeholders, their private payoff matrices, and available strategy spaces.",
+        "Calculate strictly dominant and weakly dominated strategies across all players.",
+        "Identify stable Nash Equilibria and evaluate Pareto-optimality of the resulting outcome."
+],
+      ruInstructions: [
+        "Опишите всех стейкхолдеров, матрицы их выигрышей и доступные пространства стратегий.",
+        "Рассчитайте доминирующие и доминируемые стратегии для каждой из сторон.",
+        "Найдите точки устойчивого равновесия по Нэшу и проверьте Парето-оптимальность исходов."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","game-theory","nash-equilibrium","minimax","strategy"],
+    }),
+  },
+
+  "sorites-paradox-boundary-resolver": {
+    id: "sorites-paradox-boundary-resolver",
+    name: "SoritesParadoxBoundaryResolverSkill",
+    displayName: "Sorites Paradox & Fuzzy Boundary Disambiguation",
+    categoryId: "reasoning",
+    description: "Resolves vague continuum boundaries (heap paradox) by introducing strict quantitative demarcation thresholds.",
+    tags: ["reasoning","sorites","fuzzy-logic","boundaries","epistemics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vagueness & Sorites Boundary Resolution Protocol",
+      ruSectionName: "Устранение парадокса кучи (Сорит) и строгая дискретизация границ",
+      instructions: [
+        "Detect where continuous incremental changes create semantic ambiguity ('How many grains make a heap?').",
+        "Replace vague subjective continuum predicates with precise discrete boundary thresholds.",
+        "Provide hysteresis margins to prevent flapping around borderline edge cases."
+],
+      ruInstructions: [
+        "Выявите участки, где плавное изменение параметра создает смысловую неоднозначность (парадокс кучи).",
+        "Замените размытые качественные градации четкими дискретными числовыми интервалами.",
+        "Внедрите гистерезис для предотвращения дребезга на границах перехода состояний."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","sorites","fuzzy-logic","boundaries","epistemics"],
+    }),
+  },
+
+  "adversarial-turing-devil-advocate": {
+    id: "adversarial-turing-devil-advocate",
+    name: "AdversarialTuringDevilAdvocateSkill",
+    displayName: "Formal Adversarial Devil's Advocate & Steelmanning",
+    categoryId: "reasoning",
+    description: "Constructs the strongest possible, mathematically robust counter-argument against the proposed thesis.",
+    tags: ["reasoning","devils-advocate","steelman","adversarial","critical-thinking"],
+    transform: createStandardSkillTransform({
+      sectionName: "Adversarial Steelman & Counter-Argument Engine",
+      ruSectionName: "Адверсарный адвокат дьявола (Стилменнинг позиции оппонента)",
+      instructions: [
+        "Formulate the most brilliant, unassailable steelman version of the opposing counter-argument.",
+        "Identify the single most vulnerable structural dependency in your own proposal that the adversary will target.",
+        "Incorporate pre-emptive architectural hardening against the steelmanned critique."
+],
+      ruInstructions: [
+        "Сформулируйте максимально сильную, неуязвимую версию позиции оппонента (Стилмен).",
+        "Найдите самое уязвимое звено собственного решения, по которому нанесет удар оппонент.",
+        "Интегрируйте превентивные контрмеры, нейтрализующие сильнейшую критику до ее высказывания."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","devils-advocate","steelman","adversarial","critical-thinking"],
+    }),
+  },
+
+  "analogical-deep-structural-mapping": {
+    id: "analogical-deep-structural-mapping",
+    name: "AnalogicalDeepStructuralMappingSkill",
+    displayName: "Gentner Structure-Mapping & Cross-Domain Analogy",
+    categoryId: "reasoning",
+    description: "Transfers relational systems from a well-understood base domain to solve an isomorphic target problem.",
+    tags: ["reasoning","analogy","structure-mapping","gentner","lateral-thinking"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gentner Deep Structural Analogy Mapping",
+      ruSectionName: "Глубокое структурное сопоставление аналогий (Gentner Structure Mapping)",
+      instructions: [
+        "Identify an isomorphic base domain with proven, battle-tested solutions (e.g. fluid dynamics, urban planning, immune systems).",
+        "Map higher-order relational predicates 1-to-1 between base domain and target domain {{task}}.",
+        "Explicitly discard surface-level cosmetic similarities that do not preserve relational invariants."
+],
+      ruInstructions: [
+        "Выберите изоморфную базовую область с доказанными решениями (гидродинамика, иммунология, урбанистика).",
+        "Отобразите системные отношения и законы 1-в-1 между базовой областью и задачей {{task}}.",
+        "Отбросьте поверхностные внешние аналогии, не сохраняющие структурных инвариантов."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","analogy","structure-mapping","gentner","lateral-thinking"],
+    }),
+  },
+
+  "toulmin-argument-structure-model": {
+    id: "toulmin-argument-structure-model",
+    name: "ToulminArgumentStructureModelSkill",
+    displayName: "Toulmin Argumentation Scheme (Claim/Data/Warrant)",
+    categoryId: "reasoning",
+    description: "Structures rational argumentation into Claim, Grounds, Warrant, Backing, Qualifier, and Rebuttal.",
+    tags: ["reasoning","toulmin","argumentation","logic","rhetoric"],
+    transform: createStandardSkillTransform({
+      sectionName: "Toulmin Formal Argumentation Architecture",
+      ruSectionName: "Схема аргументации Тулмина (Тезис, Данные, Основание, Оговорка)",
+      instructions: [
+        "State the primary Claim unequivocally.",
+        "Provide empirical Grounds/Data supporting the claim.",
+        "State the Warrant that connects the Grounds to the Claim, supported by authoritative Backing.",
+        "Include explicit Modal Qualifiers and identify specific conditions for Rebuttal."
+],
+      ruInstructions: [
+        "Четко сформулируйте главный тезис (Claim).",
+        "Приведите эмпирические данные и факты (Grounds/Data).",
+        "Опишите логическое основание (Warrant) и его авторитетное обоснование (Backing).",
+        "Укажите модальные ограничения (Qualifier) и условия опровержения (Rebuttal)."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","toulmin","argumentation","logic","rhetoric"],
+    }),
+  },
+
+  "monte-carlo-probabilistic-simulation": {
+    id: "monte-carlo-probabilistic-simulation",
+    name: "MonteCarloProbabilisticSimulationSkill",
+    displayName: "Monte Carlo Probabilistic Range Simulation",
+    categoryId: "reasoning",
+    description: "Replaces single-point deterministic estimates with probabilistic probability distributions (p10/p50/p90).",
+    tags: ["reasoning","monte-carlo","simulation","probability","forecasting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Monte Carlo Probabilistic Simulation Envelope",
+      ruSectionName: "Стохастическое моделирование методом Монте-Карло (P10 / P50 / P90)",
+      instructions: [
+        "Assign probability density distributions (Normal, Lognormal, Beta) to all volatile input variables.",
+        "Simulate 10,000 parameter permutations across correlated risk factors.",
+        "Report outputs strictly as quantile percentiles: P10 (optimistic), P50 (median), P90 (conservative), and P99 (tail risk)."
+],
+      ruInstructions: [
+        "Задайте распределения вероятностей для всех переменных с высокой неопределенностью.",
+        "Смоделируйте множество сценариев с учетом корреляции факторов риска.",
+        "Предоставьте результаты в виде квантилей: P10 (оптимистичный), P50 (медиана), P90 (консервативный), P99 (хвостовой риск)."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","monte-carlo","simulation","probability","forecasting"],
+    }),
+  },
+
+  "dialetheism-paraconsistent-logic": {
+    id: "dialetheism-paraconsistent-logic",
+    name: "DialetheismParaconsistentLogicSkill",
+    displayName: "Paraconsistent Logic & Contradiction Containment",
+    categoryId: "reasoning",
+    description: "Reasons soundly in the presence of contradictory premises without triggering principle of explosion (ex falso).",
+    tags: ["reasoning","paraconsistent","dialetheism","logic","contradictions"],
+    transform: createStandardSkillTransform({
+      sectionName: "Paraconsistent Contradiction Containment Protocol",
+      ruSectionName: "Паранепротиворечивая логика и изоляция противоречий",
+      instructions: [
+        "Isolate local contradictions without allowing the explosion principle to render the entire system trivial.",
+        "Evaluate valid inferences within bounded sub-theories while maintaining dialectical tension.",
+        "Synthesize higher-order resolution models that explain the emergence of the apparent antinomy."
+],
+      ruInstructions: [
+        "Локализуйте внутренние противоречия в изолированных подсистемах, предотвращая взрыв логики (Ex Falso).",
+        "Проводите корректные умозаключения в рамках локально непротиворечивых сегментов.",
+        "Сформируйте синтетическую модель высшего порядка, объясняющую источник мнимой антиномии."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","paraconsistent","dialetheism","logic","contradictions"],
+    }),
+  },
+
+  "system-dynamics-stock-and-flow": {
+    id: "system-dynamics-stock-and-flow",
+    name: "SystemDynamicsStockAndFlowSkill",
+    displayName: "Forrester System Dynamics & Stock-and-Flow Modeling",
+    categoryId: "reasoning",
+    description: "Models complex systems through Stocks (accumulations), Flows (rates), and non-linear Feedback Loops.",
+    tags: ["reasoning","system-dynamics","forrester","stocks-flows","feedback-loops"],
+    transform: createStandardSkillTransform({
+      sectionName: "Forrester System Dynamics Stock-and-Flow Model",
+      ruSectionName: "Системная динамика Форрестера: Накопители, Потоки и Петли обратной связи",
+      instructions: [
+        "Identify primary Stocks (accumulated state) and connecting Flows (inflow/outflow rates).",
+        "Map Reinforcing (positive exponential) and Balancing (negative stabilizing) feedback loops with explicit time delays.",
+        "Locate systemic leverage points where small policy interventions produce massive structural stabilization."
+],
+      ruInstructions: [
+        "Выделите ключевые накопители (Stocks) и регулирующие их потоки (Inflows/Outflows).",
+        "Опишите усиливающие (+) и балансирующие (-) петли обратной связи с учетом временных задержек (Delays).",
+        "Найдите точки системного рычага (Leverage Points) для максимального управляющего воздействия."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","system-dynamics","forrester","stocks-flows","feedback-loops"],
+    }),
+  },
+
+  "epistemic-circularity-detection": {
+    id: "epistemic-circularity-detection",
+    name: "EpistemicCircularityDetectionSkill",
+    displayName: "Epistemic Circularity & Petitio Principii Trap Detector",
+    categoryId: "reasoning",
+    description: "Exposes begging-the-question fallacies where the conclusion is covertly assumed in the supporting premises.",
+    tags: ["reasoning","fallacy","circularity","petitio-principii","epistemics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Circular Reasoning & Begging-the-Question Audit",
+      ruSectionName: "Детектор порочного круга в доказательстве (Petitio Principii)",
+      instructions: [
+        "Trace the dependency graph of all supporting premises back to independent empirical axioms.",
+        "Detect subtle semantic paraphrases where the conclusion is assumed as a foundational truth.",
+        "Reject self-referential justifications and demand external grounding."
+],
+      ruInstructions: [
+        "Постройте граф зависимостей аргументов до независимых эмпирических аксиом.",
+        "Выявите скрытое перефразирование, при котором доказываемый вывод заложен в саму посылку.",
+        "Исключите самореферентные доказательства и потребуйте независимой внешней верификации."
+],
+      semanticType: "guardrail_directive",
+      tags: ["reasoning","fallacy","circularity","petitio-principii","epistemics"],
+    }),
+  },
+
+  "goodhart-campbell-metric-distortion": {
+    id: "goodhart-campbell-metric-distortion",
+    name: "GoodhartCampbellMetricDistortionSkill",
+    displayName: "Goodhart & Campbell Law Metric Distortion Defense",
+    categoryId: "reasoning",
+    description: "Anticipates how metrics cease to be good metrics when targeted, leading to perverse optimization.",
+    tags: ["reasoning","goodhart","campbell-law","metrics","perverse-incentives"],
+    transform: createStandardSkillTransform({
+      sectionName: "Goodhart's Law Gaming & Distortion Defense",
+      ruSectionName: "Защита от закона Гудхарта и деформации метрик (Campbell's Law)",
+      instructions: [
+        "Analyze how rational actors will game, manipulate, or distort the proposed performance KPIs.",
+        "Pair every primary optimization metric with a counter-balancing quality/safety invariant metric.",
+        "Implement audit mechanisms that detect metric decoupling from real underlying business value."
+],
+      ruInstructions: [
+        "Смоделируйте, как стейкхолдеры будут манипулировать выбранными KPI в ущерб качеству системы.",
+        "Сбалансируйте каждую метрику производительности контр-метрикой качества и надежности.",
+        "Внедрите аудиторские проверки для выявления фиктивного выполнения целевых показателей."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","goodhart","campbell-law","metrics","perverse-incentives"],
+    }),
+  },
+
+  "fermi-order-of-magnitude-estimation": {
+    id: "fermi-order-of-magnitude-estimation",
+    name: "FermiOrderOfMagnitudeEstimationSkill",
+    displayName: "Enrico Fermi Dimensional Order-of-Magnitude Estimation",
+    categoryId: "reasoning",
+    description: "Estimates complex unknown quantities within factor-of-10 bounds via dimensional decomposition.",
+    tags: ["reasoning","fermi","estimation","order-of-magnitude","dimensional-analysis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enrico Fermi Dimensional Estimation Protocol",
+      ruSectionName: "Оценка порядка величины по методу Энрико Ферми",
+      instructions: [
+        "Decompose the unknown macro quantity into a product of 4-6 estimable micro-parameters.",
+        "Assign reasonable lower and upper bound orders of magnitude to each parameter.",
+        "Calculate the geometric mean and evaluate the sensitivity of the final estimate to parameter variance."
+],
+      ruInstructions: [
+        "Разложите неизвестную макро-величину на произведение 4–6 базовых параметров, поддающихся оценке.",
+        "Задайте верхние и нижние границы для каждого множителя на основе физических/экономических ограничений.",
+        "Рассчитайте среднее геометрическое и оцените чувствительность итоговой оценки к погрешностям."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","fermi","estimation","order-of-magnitude","dimensional-analysis"],
+    }),
+  },
+
+  "occams-razor-parsimony-pruning": {
+    id: "occams-razor-parsimony-pruning",
+    name: "OccamsRazorParsimonyPruningSkill",
+    displayName: "William of Ockham Ontological Parsimony Pruning",
+    categoryId: "reasoning",
+    description: "Shaves away unnecessary entities, multiplying factors, and complex assumptions without loss of power.",
+    tags: ["reasoning","occams-razor","parsimony","simplification","ontology"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ockham Ontological Parsimony Pruning",
+      ruSectionName: "Бритва Оккама: онтологическое отсечение лишних сущностей",
+      instructions: [
+        "Identify and prune every auxiliary hypothesis or theoretical entity that does not increase predictive accuracy.",
+        "Select the simplest sufficient explanation among competing hypotheses with equal explanatory yield.",
+        "Document the minimal sufficient causal graph required to explain observed phenomena."
+],
+      ruInstructions: [
+        "Отсеките все дополнительные допущения и сущности, не повышающие точность прогноза.",
+        "Из конкурирующих гипотез одинаковой силы выберите ту, которая требует наименьшего числа допущений.",
+        "Зафиксируйте минимально достаточный причинно-следственный граф для решения {{task}}."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","occams-razor","parsimony","simplification","ontology"],
+    }),
+  },
+
+  "hypothetico-deductive-cycle": {
+    id: "hypothetico-deductive-cycle",
+    name: "HypotheticoDeductiveCycleSkill",
+    displayName: "Hypothetico-Deductive Scientific Cycle",
+    categoryId: "reasoning",
+    description: "Executes the strict scientific loop: Observe -> Hypothesize -> Deduce Consequence -> Experiment.",
+    tags: ["reasoning","scientific-method","hypothetico-deductive","falsification","empiricism"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hypothetico-Deductive Scientific Execution Cycle",
+      ruSectionName: "Гипотетико-дедуктивный цикл научного исследования",
+      instructions: [
+        "Formulate an explicit, testable, non-trivial hypothesis based on empirical observations.",
+        "Deduce specific observable predictions that must hold true if the hypothesis is valid.",
+        "Design a controlled test protocol capable of definitively proving or disproving the deduction."
+],
+      ruInstructions: [
+        "Сформулируйте проверяемую нетривиальную гипотезу на основе имеющихся данных.",
+        "Дедуктивно выведите конкретные наблюдаемые предсказания, обязанные проявиться при истинности гипотезы.",
+        "Спроектируйте контрольный эксперимент, способный однозначно подтвердить или опровергнуть следствие."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","scientific-method","hypothetico-deductive","falsification","empiricism"],
+    }),
+  },
+
+  "simpson-paradox-subgroup-disaggregation": {
+    id: "simpson-paradox-subgroup-disaggregation",
+    name: "SimpsonParadoxSubgroupDisaggregationSkill",
+    displayName: "Simpson's Paradox & Confounding Subgroup Disaggregator",
+    categoryId: "reasoning",
+    description: "Disaggregates aggregate data across lurking confounders to expose reversed underlying trends.",
+    tags: ["reasoning","simpsons-paradox","statistics","confounding","disaggregation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Simpson's Paradox & Subgroup Confounder Audit",
+      ruSectionName: "Выявление парадокса Симпсона и дезагрегация по скрытым факторам",
+      instructions: [
+        "Identify potential hidden confounding variables that influence both group allocation and outcome.",
+        "Disaggregate aggregate macro-metrics into homogeneous sub-populations.",
+        "Verify whether the observed aggregate trend reverses or disappears under granular subgroup stratification."
+],
+      ruInstructions: [
+        "Выявите скрытые вмешивающиеся факторы (Confounders), искажающие общую статистическую картину.",
+        "Разбейте агрегированные макро-показатели на однородные сегменты и подгруппы.",
+        "Проверьте, не меняется ли знак корреляции на противоположный при переходе к детальным срезам."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","simpsons-paradox","statistics","confounding","disaggregation"],
+    }),
+  },
+
+  "heuristic-cognitive-bias-debiasing": {
+    id: "heuristic-cognitive-bias-debiasing",
+    name: "HeuristicCognitiveBiasDebiasingSkill",
+    displayName: "Kahneman & Tversky Cognitive Debiasing Protocol",
+    categoryId: "reasoning",
+    description: "Identifies and neutralizes Availability, Anchoring, Representativeness, and Confirmation biases.",
+    tags: ["reasoning","kahneman","tversky","biases","heuristics","debiasing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cognitive Debiasing & Heuristic Neutralization",
+      ruSectionName: "Протокол устранения когнитивных искажений (Канеман и Тверски)",
+      instructions: [
+        "Audit reasoning against System 1 biases: Anchoring, Availability Cascade, and Sunk Cost Fallacy.",
+        "Force consideration of the reference class and base rates before evaluating specific case details.",
+        "Apply structured decision frameworks to insulate conclusions from emotional cognitive traps."
+],
+      ruInstructions: [
+        "Проверьте аргументацию на искажения Системы 1: эффект привязки (Anchoring), ошибку доступности и невозвратные затраты.",
+        "Сопоставьте выводы с базовыми частотами эталонного класса (Base Rates) до анализа частных деталей.",
+        "Используйте структурированные матрицы решений для защиты выводов от когнитивных ловушек."
+],
+      semanticType: "guardrail_directive",
+      tags: ["reasoning","kahneman","tversky","biases","heuristics","debiasing"],
+    }),
+  },
+
+  "relevance-logic-entailment-check": {
+    id: "relevance-logic-entailment-check",
+    name: "RelevanceLogicEntailmentCheckSkill",
+    displayName: "Anderson-Belnap Relevance Logic & Non-Sequitur Purge",
+    categoryId: "reasoning",
+    description: "Enforces that premises must share genuine topical and semantic relevance with their conclusions.",
+    tags: ["reasoning","relevance-logic","entailment","non-sequitur","formal-logic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Relevance Logic & Semantic Entailment Verification",
+      ruSectionName: "Релевантная логика и исключение мнимого следования (Non-Sequitur)",
+      instructions: [
+        "Verify that every supporting premise shares a verifiable causal or semantic link to the conclusion.",
+        "Eliminate non-sequitur leaps where true statements are cited that do not actually bear on the target claim.",
+        "Validate strict deductive entailment: premise information must directly constrain the conclusion."
+],
+      ruInstructions: [
+        "Убедитесь, что каждая посылка имеет прямую причинную или семантическую связь с доказываемым выводом.",
+        "Исключите логические скачки (Non-Sequitur), где истинные сами по себе факты не доказывают тезис.",
+        "Проверьте строгое следование: информация в посылках должна непосредственно определять истинность вывода."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","relevance-logic","entailment","non-sequitur","formal-logic"],
+    }),
+  },
+
+  "epistemic-triangulation-independent-sources": {
+    id: "epistemic-triangulation-independent-sources",
+    name: "EpistemicTriangulationIndependentSourcesSkill",
+    displayName: "Multi-Method Epistemic Triangulation",
+    categoryId: "reasoning",
+    description: "Validates hypotheses by demonstrating convergence across multiple independent methodological angles.",
+    tags: ["reasoning","triangulation","epistemics","validation","convergence"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Method Epistemic Triangulation Matrix",
+      ruSectionName: "Эпистемическая триангуляция по независимым источникам",
+      instructions: [
+        "Require convergence across at least 3 independent methodological approaches (e.g. analytical, empirical, simulation).",
+        "Verify that error vectors of the independent methodologies are uncorrelated.",
+        "Elevate epistemic confidence only when disparate evidence vectors point to the identical invariant conclusion."
+],
+      ruInstructions: [
+        "Потребуйте сходимости выводов как минимум по трем независимым методам (аналитический, эмпирический, симуляционный).",
+        "Убедитесь, что источники погрешностей в разных методах не коррелируют между собой.",
+        "Повышайте уровень достоверности только при совпадении результатов независимых векторов анализа."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","triangulation","epistemics","validation","convergence"],
+    }),
+  },
+
+  "counter-inductive-feyerabend-challenge": {
+    id: "counter-inductive-feyerabend-challenge",
+    name: "CounterInductiveFeyerabendChallengeSkill",
+    displayName: "Feyerabend Counter-Inductive Epistemic Challenge",
+    categoryId: "reasoning",
+    description: "Introduces hypotheses that contradict established theories to expose hidden dogmatic paradigm traps.",
+    tags: ["reasoning","feyerabend","counter-induction","epistemics","paradigm-shift"],
+    transform: createStandardSkillTransform({
+      sectionName: "Feyerabend Counter-Inductive Paradigm Challenge",
+      ruSectionName: "Контриндуктивный вызов устоявшимся парадигмам (Фейерабенд)",
+      instructions: [
+        "Formulate a coherent alternative hypothesis that directly contradicts orthodox industry consensus.",
+        "Identify which empirical facts the orthodox theory explains away as anomalies or ignores.",
+        "Evaluate whether the counter-inductive model offers superior simplicity or explanatory power."
+],
+      ruInstructions: [
+        "Сформулируйте непротиворечивую гипотезу, прямо отрицающую общепринятые шаблоны мышления.",
+        "Выявите факты, которые официальная парадигма замалчивает или списывает на случайные аномалии.",
+        "Оцените, дает ли контриндуктивная модель более глубокое понимание архитектуры {{task}}."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","feyerabend","counter-induction","epistemics","paradigm-shift"],
+    }),
+  },
+  "polymathic-first-principles-synthesis": {
+    id: "polymathic-first-principles-synthesis",
+    name: "PolymathicFirstPrinciplesSynthesisSkill",
+    displayName: "Polymathic Multi-Domain First-Principles Synthesis",
+    categoryId: "reasoning",
+    description: "Deconstructs problems down to thermodynamic, computational, and economic ground-truth laws.",
+    tags: ["reasoning","first-principles","physics","synthesis","musk"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Domain First-Principles Synthesis Protocol",
+      ruSectionName: "Многодоменный синтез на основе фундаментальных первопринципов",
+      instructions: [
+        "Strip away all conventional analogies, historical precedents, and industry standard cargo-cult habits.",
+        "Deconstruct {{task}} into core invariant physical, algorithmic, and financial axioms.",
+        "Rebuild the optimal solution bottom-up strictly from the fundamental ground-truth axioms."
+],
+      ruInstructions: [
+        "Откажитесь от слепого следования традициям, устоявшимся шаблонам и поверхностным аналогиям.",
+        "Разложите задачу {{task}} на базовые физические, вычислительные и экономические аксиомы.",
+        "Соберите идеальное решение снизу вверх, опираясь исключительно на фундаментальные законы."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","first-principles","physics","synthesis","musk"],
+    }),
+  },
+
+  "epistemic-status-meta-tagger": {
+    id: "epistemic-status-meta-tagger",
+    name: "EpistemicStatusMetaTaggerSkill",
+    displayName: "Formal Epistemic Status & Confidence Tagging",
+    categoryId: "reasoning",
+    description: "Tags every major claim with formal epistemic metadata: Certainty, Empirical Weight, Source Authority.",
+    tags: ["reasoning","epistemic-status","metadata","calibration","transparency"],
+    transform: createStandardSkillTransform({
+      sectionName: "Epistemic Status & Confidence Metadata Matrix",
+      ruSectionName: "Эпистемический статус и метаданные достоверности утверждений",
+      instructions: [
+        "Prepend every core claim with an explicit Epistemic Tag: [Proven Fact | High Confidence | Working Hypothesis | Speculative | Unknown].",
+        "List the primary evidentiary basis and potential vulnerability for each tagged assertion.",
+        "Never present speculative heuristics with the same linguistic certainty as formal mathematical proofs."
+],
+      ruInstructions: [
+        "Снабдите каждый тезис эпистемическим тегом: [Доказано | Высокая уверенность | Рабочая гипотеза | Спекулятивно].",
+        "Укажите доказательную базу и потенциальные точки уязвимости для каждого утверждения.",
+        "Категорически разграничивайте эвристические предположения и строгие аналитические факты."
+],
+      semanticType: "guardrail_directive",
+      tags: ["reasoning","epistemic-status","metadata","calibration","transparency"],
+    }),
+  },
+
+  "chain-of-verification-cove-protocol": {
+    id: "chain-of-verification-cove-protocol",
+    name: "ChainOfVerificationCoveProtocolSkill",
+    displayName: "CoVe Chain-of-Verification Factuality Protocol",
+    categoryId: "reasoning",
+    description: "Generates baseline reasoning, plans independent verification questions, answers them, and revises output.",
+    tags: ["reasoning","cove","verification","factuality","anti-hallucination"],
+    transform: createStandardSkillTransform({
+      sectionName: "Chain-of-Verification (CoVe) Execution Cycle",
+      ruSectionName: "Протокол цепочки верификации (Chain-of-Verification CoVe)",
+      instructions: [
+        "Step 1: Draft initial baseline response to {{task}}.",
+        "Step 2: Generate 3-5 sharp, independent verification questions probing specific factual claims.",
+        "Step 3: Answer each verification question objectively without bias from the baseline draft.",
+        "Step 4: Synthesize the final corrected output incorporating all verified corrections."
+],
+      ruInstructions: [
+        "Шаг 1: Сформируйте черновой базовый ответ на задачу {{task}}.",
+        "Шаг 2: Сгенерируйте 3–5 независимых проверочных вопросов к ключевым утверждениям.",
+        "Шаг 3: Объективно ответьте на каждый вопрос, изолировав проверку от влияния черновика.",
+        "Шаг 4: Сформируйте финальный ответ с учетом всех внесенных исправлений."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","cove","verification","factuality","anti-hallucination"],
+    }),
+  },
+
+  "synthetic-trilemma-triangulator": {
+    id: "synthetic-trilemma-triangulator",
+    name: "SyntheticTrilemmaTriangulatorSkill",
+    displayName: "Impossible Trilemma Dynamic Tension Balancer",
+    categoryId: "reasoning",
+    description: "Analyzes trilemmas (e.g. Scalability/Security/Decentralization) where you can optimize at most 2 of 3.",
+    tags: ["reasoning","trilemma","trade-offs","systems","architecture"],
+    transform: createStandardSkillTransform({
+      sectionName: "Trilemma Dynamic Tension & Trade-Off Matrix",
+      ruSectionName: "Балансировка системных трилемм (Выбор 2 из 3)",
+      instructions: [
+        "Identify the fundamental 3-way tradeoff governing {{task}} (e.g. Fast / Cheap / High-Quality).",
+        "Explicitly declare which 2 vertices of the trilemma are maximized, and quantify the compromise on the 3rd.",
+        "Design mitigation mechanisms that minimize systemic friction at the compromised vertex."
+],
+      ruInstructions: [
+        "Определите ключевую трилемму, управляющую задачей (например, Скорость / Стоимость / Качество).",
+        "Явно укажите, какие 2 стороны трилеммы оптимизируются и чем приходится пожертвовать на 3-й стороне.",
+        "Спроектируйте меры, компенсирующие неизбежные издержки на уступленной стороне."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","trilemma","trade-offs","systems","architecture"],
+    }),
+  },
+
+  "inversion-principle-munger": {
+    id: "inversion-principle-munger",
+    name: "InversionPrincipleMungerSkill",
+    displayName: "Charlie Munger Inversion Principle ('Invert, Always Invert')",
+    categoryId: "reasoning",
+    description: "Solves problems by systematically cataloging all ways to guarantee catastrophic failure, then inverting them.",
+    tags: ["reasoning","inversion","munger","algebraic-inversion","risk"],
+    transform: createStandardSkillTransform({
+      sectionName: "Munger Inversion & Catastrophic Antipattern Elimination",
+      ruSectionName: "Принцип инверсии Чарли Мангера («Инвертируй, всегда инвертируй»)",
+      instructions: [
+        "Invert the core question: 'How can we guarantee total, catastrophic failure of {{task}}?'",
+        "List the top 5 most direct, lethal ways to sabotage or destroy the project.",
+        "Systematically construct ironclad procedural defenses to make each failure vector impossible."
+],
+      ruInstructions: [
+        "Инвертируйте задачу: «Как гарантированно провалить {{task}} с максимальным ущербом?».",
+        "Составьте список из 5 самых фатальных и разрушительных сценариев саботажа или ошибок.",
+        "Сформируйте надежные системные барьеры, делающие невозможным каждый из этих сценариев."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","inversion","munger","algebraic-inversion","risk"],
+    }),
+  },
+
+  "causal-loop-diagramming-archetypes": {
+    id: "causal-loop-diagramming-archetypes",
+    name: "CausalLoopDiagrammingArchetypesSkill",
+    displayName: "Senge System Archetypes (Tragedy of the Commons, Shifting Burden)",
+    categoryId: "reasoning",
+    description: "Diagnoses classic systemic traps: Tragedy of the Commons, Shifting the Burden, and Limits to Growth.",
+    tags: ["reasoning","system-archetypes","senge","causal-loops","systems-thinking"],
+    transform: createStandardSkillTransform({
+      sectionName: "Peter Senge System Archetype Diagnostic Matrix",
+      ruSectionName: "Системные архетипы Питера Сенге (Пределы роста, Смещение бремени)",
+      instructions: [
+        "Identify which classic Senge Archetype governs the problem (e.g. Fixes that Fail, Shifting the Burden).",
+        "Map out the short-term symptomatic fix vs the long-term fundamental systemic solution.",
+        "Propose interventions that address the structural root cause rather than treating superficial symptoms."
+],
+      ruInstructions: [
+        "Определите архетип системного поведения (Эрозия целей, Трагедия общин, Быстрые решения с откатом).",
+        "Разделите краткосрочные паллиативные меры и фундаментальное долгосрочное решение.",
+        "Предложите структурные изменения, устраняющие саму причину системного сбоя."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","system-archetypes","senge","causal-loops","systems-thinking"],
+    }),
+  },
+
+  "counter-intuitive-complex-system-logic": {
+    id: "counter-intuitive-complex-system-logic",
+    name: "CounterIntuitiveComplexSystemLogicSkill",
+    displayName: "Forrester Counter-Intuitive Complex System Dynamics",
+    categoryId: "reasoning",
+    description: "Exposes how intuitive, common-sense policy interventions often worsen outcomes in non-linear systems.",
+    tags: ["reasoning","complex-systems","counter-intuitive","forrester","non-linear"],
+    transform: createStandardSkillTransform({
+      sectionName: "Non-Linear & Counter-Intuitive System Dynamics",
+      ruSectionName: "Нелинейная динамика сложных систем (Контринтуитивные эффекты)",
+      instructions: [
+        "Identify well-intentioned, intuitive policy decisions that produce counter-productive results over time.",
+        "Demonstrate why linear cause-and-effect reasoning fails in systems with high feedback density and delays.",
+        "Formulate counter-intuitive, high-leverage policies that leverage system dynamics."
+],
+      ruInstructions: [
+        "Покажите, почему интуитивные и очевидные решения приводят к ухудшению ситуации в долгосрочной перспективе.",
+        "Объясните сбой линейного мышления при наличии петель обратной связи и временных задержек.",
+        "Сформулируйте нетривиальные управляющие решения, использующие внутреннюю динамику системы."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","complex-systems","counter-intuitive","forrester","non-linear"],
+    }),
+  },
+
+  "epistemic-calibration-brier-score": {
+    id: "epistemic-calibration-brier-score",
+    name: "EpistemicCalibrationBrierScoreSkill",
+    displayName: "Tetlock Superforecasting & Brier Score Calibration",
+    categoryId: "reasoning",
+    description: "Calibrates subjective probability estimates against historical frequency to minimize Brier error scores.",
+    tags: ["reasoning","superforecasting","tetlock","brier-score","calibration"],
+    transform: createStandardSkillTransform({
+      sectionName: "Tetlock Probabilistic Forecasting Calibration",
+      ruSectionName: "Калибровка прогнозов по Тетлоку (Минимизация Brier Score)",
+      instructions: [
+        "Assign precise numerical probabilities (e.g. 65%, not 'likely') to verifiable future states.",
+        "Adjust estimates by synthesizing the Outside View (historical base rates) and Inside View (specific nuances).",
+        "Continuously log forecasts with clear resolution criteria and tracking metrics."
+],
+      ruInstructions: [
+        "Указывайте точные числовые вероятности (например, 70%, а не «скорее всего») для проверяемых исходов.",
+        "Сбалансируйте оценку «извне» (историческая статистика класса) и оценку «изнутри» (детали кейса).",
+        "Определите четкие критерии наступления событий для последующего аудита качества прогноза."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","superforecasting","tetlock","brier-score","calibration"],
+    }),
+  },
+
+  "abductive-diagnostic-differential-tree": {
+    id: "abductive-diagnostic-differential-tree",
+    name: "AbductiveDiagnosticDifferentialTreeSkill",
+    displayName: "Differential Diagnostic Decision Tree",
+    categoryId: "reasoning",
+    description: "Eliminates competing failure hypotheses via systematic binary discriminant testing.",
+    tags: ["reasoning","differential-diagnosis","decision-tree","troubleshooting","diagnostics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Differential Diagnostic Elimination Tree",
+      ruSectionName: "Дерево дифференциальной диагностики и последовательного исключения",
+      instructions: [
+        "Enumerate an exhaustive differential list of all plausible root causes for the observed symptom.",
+        "Design a sequence of binary tests with maximum information entropy (each test cuts the hypothesis space in half).",
+        "Rule out impossible causes sequentially until the single true causative agent remains."
+],
+      ruInstructions: [
+        "Составьте исчерпывающий дифференциальный список потенциальных причин проблемы.",
+        "Сформируйте последовательность бинарных тестов, делящих пространство гипотез пополам на каждом шаге.",
+        "Последовательно исключайте неподтвержденные гипотезы до выделения единственного истинного фактора."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","differential-diagnosis","decision-tree","troubleshooting","diagnostics"],
+    }),
+  },
+
+  "morphological-box-zwicky-synthesis": {
+    id: "morphological-box-zwicky-synthesis",
+    name: "MorphologicalBoxZwickySynthesisSkill",
+    displayName: "Fritz Zwicky General Morphological Analysis (GMA)",
+    categoryId: "reasoning",
+    description: "Explores all possible combinatorial permutations of multi-dimensional non-quantifiable problem spaces.",
+    tags: ["reasoning","zwicky","morphological-analysis","combinatorics","synthesis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fritz Zwicky Morphological Space Synthesis",
+      ruSectionName: "Морфологический анализ Фрица Цвикки (Комбинаторная матрица)",
+      instructions: [
+        "Decompose {{task}} into 4-6 essential independent functional parameters.",
+        "List all possible technical or strategic values for each parameter in a morphological matrix.",
+        "Systematically evaluate novel, non-obvious cross-row combinatorial configurations."
+],
+      ruInstructions: [
+        "Разделите задачу {{task}} на 4–6 независимых функциональных параметров.",
+        "Перечислите все возможные технологические или стратегические варианты реализации каждого параметра.",
+        "Исследуйте неочевидные комбинации на стыке разных строк морфологической матрицы."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","zwicky","morphological-analysis","combinatorics","synthesis"],
+    }),
+  },
+
+  "delphi-method-expert-consensus": {
+    id: "delphi-method-expert-consensus",
+    name: "DelphiMethodExpertConsensusSkill",
+    displayName: "Iterative Delphi Method & Anonymous Consensus Synthesis",
+    categoryId: "reasoning",
+    description: "Synthesizes multi-expert perspectives through structured, iterative, anonymized feedback rounds.",
+    tags: ["reasoning","delphi-method","consensus","expert-synthesis","forecasting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Iterative Delphi Expert Consensus Protocol",
+      ruSectionName: "Метод Дельфи: итеративный синтез экспертного консенсуса",
+      instructions: [
+        "Simulate independent panel responses from diverse domain experts without peer anchor bias.",
+        "Aggregate arguments, highlight areas of sharp disagreement, and feed summaries back in round 2.",
+        "Synthesize a robust, highly calibrated consensus with explicit documentation of minority dissents."
+],
+      ruInstructions: [
+        "Смоделируйте независимые экспертные оценки от специалистов разных профилей без взаимного влияния.",
+        "Сведите аргументы воедино, выделите зоны расхождений и проведите второй раунд калибровки.",
+        "Сформируйте взвешенный консенсус с обязательной фиксацией аргументированных особых мнений."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","delphi-method","consensus","expert-synthesis","forecasting"],
+    }),
+  },
+
+  "hypothetical-syllogism-transitivity": {
+    id: "hypothetical-syllogism-transitivity",
+    name: "HypotheticalSyllogismTransitivitySkill",
+    displayName: "Hypothetical Syllogism & Transitive Implication Chain",
+    categoryId: "reasoning",
+    description: "Proves multi-step transitive reasoning: (A -> B) ∧ (B -> C) ∧ (C -> D) => (A -> D).",
+    tags: ["reasoning","formal-logic","transitivity","implication","proof"],
+    transform: createStandardSkillTransform({
+      sectionName: "Transitive Implication Chain & Hypothetical Syllogism",
+      ruSectionName: "Цепочка транзитивных импликаций (A -> B -> C => A -> C)",
+      instructions: [
+        "Verify that every link in the causal chain (A -> B, B -> C, C -> D) is mathematically or empirically sound.",
+        "Ensure there are no hidden leaky assumptions or probability degradations between consecutive steps.",
+        "Conclude with the direct macro-implication A -> D with verified validity."
+],
+      ruInstructions: [
+        "Проверьте строгость и истинность каждого звена в логической цепочке (A -> B, B -> C, C -> D).",
+        "Убедитесь в отсутствии скрытых допущений и деградации вероятности на промежуточных переходах.",
+        "Сформулируйте итоговую сквозную импликацию A -> D с подтвержденным обоснованием."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","formal-logic","transitivity","implication","proof"],
+    }),
+  },
+
+  "pareto-zipf-power-law-distribution": {
+    id: "pareto-zipf-power-law-distribution",
+    name: "ParetoZipfPowerLawDistributionSkill",
+    displayName: "Power Law & Heavy-Tailed Fat-Tail Distribution Analysis",
+    categoryId: "reasoning",
+    description: "Evaluates systems governed by fat-tailed Power Law / Zipf distributions rather than thin-tailed Gaussian bells.",
+    tags: ["reasoning","power-law","fat-tails","zipf","extremistan","taleb"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fat-Tailed Power-Law & Extremistan Risk Analysis",
+      ruSectionName: "Анализ тяжелохвостых распределений и степенных законов (Extremistan)",
+      instructions: [
+        "Determine whether the domain belongs to Mediocristan (Gaussian thin-tails) or Extremistan (Power Law fat-tails).",
+        "Do NOT rely on standard deviation or average metrics when analyzing fat-tailed systems.",
+        "Design systems with capped maximum downside and unlimited convex upside under extreme tail events."
+],
+      ruInstructions: [
+        "Определите тип среды: Тонкохвостая (гауссова) или Тяжелохвостая (степенной закон / Extremistan).",
+        "Не используйте стандартное отклонение и среднее арифметическое для систем со степенным распределением.",
+        "Ограничьте максимальный ущерб от редких катастрофических событий (Black Swans) и максимизируйте потенциал роста."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","power-law","fat-tails","zipf","extremistan","taleb"],
+    }),
+  },
+
+  "epistemic-peer-disagreement-reconciliation": {
+    id: "epistemic-peer-disagreement-reconciliation",
+    name: "EpistemicPeerDisagreementReconciliationSkill",
+    displayName: "Elga-Christensen Epistemic Peer Disagreement Reconciliation",
+    categoryId: "reasoning",
+    description: "Rationally resolves conflicts between equally qualified, equally informed expert opinions (Equal Weight View).",
+    tags: ["reasoning","epistemic-peers","disagreement","epistemics","reconciliation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Epistemic Peer Disagreement & Resolution Protocol",
+      ruSectionName: "Примирение разногласий между равноправными экспертами (Equal Weight View)",
+      instructions: [
+        "Acknowledge when two opposing viewpoints possess equal intellectual capability and evidence access.",
+        "Apply the Equal Weight View: split the difference or identify hidden unshared background priors.",
+        "Isolate the exact empirical test that will decisively resolve the dispute."
+],
+      ruInstructions: [
+        "Зафиксируйте, когда спорящие стороны обладают равной квалификацией и доступом к данным.",
+        "Примените принцип равного веса (Equal Weight View): найдите скрытые различия в базовых аксиомах сторон.",
+        "Сформулируйте решающий эмпирический эксперимент (Crucial Experiment), который рассудит экспертов."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","epistemic-peers","disagreement","epistemics","reconciliation"],
+    }),
+  },
+
+  "kuhn-paradigm-anomaly-accumulation": {
+    id: "kuhn-paradigm-anomaly-accumulation",
+    name: "KuhnParadigmAnomalyAccumulationSkill",
+    displayName: "Thomas Kuhn Paradigm Shift & Scientific Revolution",
+    categoryId: "reasoning",
+    description: "Tracks the accumulation of anomalies within the dominant paradigm that necessitate a structural revolution.",
+    tags: ["reasoning","kuhn","paradigm-shift","epistemics","scientific-revolution"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kuhn Paradigm Shift & Anomaly Accumulation Matrix",
+      ruSectionName: "Смена парадигм по Томасу Куну и накопление аномалий",
+      instructions: [
+        "Catalog all empirical anomalies that current standard architecture attempts to explain away with ad-hoc patches.",
+        "Demonstrate that accumulated anomalies signal the exhaustion of the incumbent paradigm.",
+        "Propose a clean, unified paradigm that resolves all anomalies natively from first principles."
+],
+      ruInstructions: [
+        "Соберите все аномалии, которые текущая архитектура пытается скрыть «костылями» и заплатками.",
+        "Покажите, что критическая масса аномалий указывает на исчерпание возможностей старой парадигмы.",
+        "Предложите принципиально новую модель, элегантно и естественно объясняющую все накопившиеся факты."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","kuhn","paradigm-shift","epistemics","scientific-revolution"],
+    }),
+  },
+
+  "synthetic-triangulation-consilience": {
+    id: "synthetic-triangulation-consilience",
+    name: "SyntheticTriangulationConsilienceSkill",
+    displayName: "Whewell & Wilson Consilience of Inductions",
+    categoryId: "reasoning",
+    description: "Validates a grand unified theory when conclusions drawn from disparate fields unexpectedly converge.",
+    tags: ["reasoning","consilience","wilson","whewell","unified-theory"],
+    transform: createStandardSkillTransform({
+      sectionName: "Consilience of Inductions & Unified Synthesis",
+      ruSectionName: "Консилиенс: совпадение индуктивных выводов из разных наук",
+      instructions: [
+        "Demonstrate how findings from completely independent fields (e.g. biology, cryptography, economics) align.",
+        "Show that the proposed solution is independently reinforced by disparate domain principles.",
+        "Construct an unassailable synthesis backed by interdisciplinary consilience."
+],
+      ruInstructions: [
+        "Продемонстрируйте, как выводы из абсолютно независимых дисциплин (биология, криптография, теория игр) сходятся в одной точке.",
+        "Докажите, что решение получает независимое подтверждение на стыке смежных областей знания.",
+        "Сформируйте междисциплинарный синтез высшей степени надежности."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","consilience","wilson","whewell","unified-theory"],
+    }),
+  },
+
+  "modal-logic-possible-worlds-semantics": {
+    id: "modal-logic-possible-worlds-semantics",
+    name: "ModalLogicPossibleWorldsSemanticsSkill",
+    displayName: "Kripke Modal Logic & Possible Worlds Semantics (□ and ◊)",
+    categoryId: "reasoning",
+    description: "Evaluates propositions across all accessible possible worlds using Necessity (□) and Possibility (◊) operators.",
+    tags: ["reasoning","modal-logic","kripke","possible-worlds","formal-methods"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kripke Modal Logic & Possible Worlds Framework",
+      ruSectionName: "Модальная логика Крипке: Семантика возможных миров (□ Необходимость, ◊ Возможность)",
+      instructions: [
+        "Distinguish rigorously between contingent truths (true in this world) and necessary truths (true in all accessible worlds).",
+        "Verify that safety invariants hold as Necessary (□P) across all stress conditions and failure states.",
+        "Map out the accessibility relation between operational states and candidate failure worlds."
+],
+      ruInstructions: [
+        "Разграничивайте случайные факты (истинные в текущем контексте) и необходимые истины (истинные во всех мирах).",
+        "Докажите, что инварианты безопасности выполняются с необходимостью (□P) при любых возможных сценариях.",
+        "Опишите отношения достижимости между нормальным состоянием и пространствами аварийных миров."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","modal-logic","kripke","possible-worlds","formal-methods"],
+    }),
+  },
+
+  "epistemic-coherence-web-of-belief": {
+    id: "epistemic-coherence-web-of-belief",
+    name: "EpistemicCoherenceWebOfBeliefSkill",
+    displayName: "Quine-Duhem Web of Belief & Holistic Coherence",
+    categoryId: "reasoning",
+    description: "Evaluates propositions holistically against the entire web of established beliefs rather than in isolation.",
+    tags: ["reasoning","quine","web-of-belief","holism","coherence"],
+    transform: createStandardSkillTransform({
+      sectionName: "Quine-Duhem Web of Belief Coherence Audit",
+      ruSectionName: "Паутина убеждений Куайна: Холистическая когерентность системы",
+      instructions: [
+        "Evaluate how adopting the new proposal impacts adjacent beliefs, libraries, and core architectural assumptions.",
+        "Minimize disruption to foundational core axioms while absorbing new edge observations.",
+        "Ensure holistic global coherence across the entire conceptual system."
+],
+      ruInstructions: [
+        "Оцените, как внедрение новой гипотезы повлияет на смежные архитектурные слои и базовые допущения.",
+        "Минимизируйте дестабилизацию центральных аксиом при адаптации к новым пограничным данным.",
+        "Обеспечьте целостную глобальную согласованность (Holistic Coherence) всей системы представлений."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","quine","web-of-belief","holism","coherence"],
+    }),
+  },
+
+  "fuzzy-logic-truth-degree-evaluator": {
+    id: "fuzzy-logic-truth-degree-evaluator",
+    name: "FuzzyLogicTruthDegreeEvaluatorSkill",
+    displayName: "Lotfi Zadeh Fuzzy Logic & Degree of Membership [0, 1]",
+    categoryId: "reasoning",
+    description: "Models partial truth and graded membership on continuous interval [0, 1] for real-world continuous variables.",
+    tags: ["reasoning","fuzzy-logic","zadeh","membership-function","continuous"],
+    transform: createStandardSkillTransform({
+      sectionName: "Lotfi Zadeh Fuzzy Logic & Continuous Membership Matrix",
+      ruSectionName: "Нечеткая логика Лотфи Заде (Функции принадлежности на отрезке [0, 1])",
+      instructions: [
+        "Define membership functions μ(x) ∈ [0, 1] for qualitative concepts ('overloaded', 'fast', 'secure').",
+        "Apply fuzzy logical operators (T-norm min for AND, S-norm max for OR) to evaluate rules.",
+        "Defuzzify resulting output distributions into crisp, actionable operational control signals."
+],
+      ruInstructions: [
+        "Задайте функции принадлежности μ(x) ∈ [0, 1] для качественных понятий («высокая нагрузка», «быстрый отклик»).",
+        "Примените нечеткие логические операции (минимум для И, максимум для ИЛИ) для оценки правил.",
+        "Выполните дефаззификацию итогового распределения в четкий управляющий сигнал (Crisp Value)."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","fuzzy-logic","zadeh","membership-function","continuous"],
+    }),
+  },
+
+  "defeasible-reasoning-prima-facie-warrants": {
+    id: "defeasible-reasoning-prima-facie-warrants",
+    name: "DefeasibleReasoningPrimaFacieWarrantsSkill",
+    displayName: "John Pollock Defeasible Reasoning & Defeaters (Rebutting/Undercutting)",
+    categoryId: "reasoning",
+    description: "Evaluates prima facie justified arguments and tests them against potential Rebutting and Undercutting defeaters.",
+    tags: ["reasoning","defeasible","pollock","defeaters","non-monotonic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Defeasible Reasoning & Defeater Neutralization",
+      ruSectionName: "Опровержимые рассуждения по Джону Поллоку (Rebutting vs Undercutting Defeaters)",
+      instructions: [
+        "Establish prima facie justified inferences for {{task}}.",
+        "Classify potential challenges into Rebutting Defeaters (attacking the conclusion) and Undercutting Defeaters (attacking the link).",
+        "Demonstrate that all identified defeaters are decisively defeated by higher-order evidence."
+],
+      ruInstructions: [
+        "Сформулируйте предварительно обоснованные выводы (Prima Facie) для задачи {{task}}.",
+        "Разделите контраргументы на прямые опровергатели вывода (Rebutting) и подрыватели связи (Undercutting).",
+        "Докажите, что все выявленные дефитеры успешно нейтрализованы фактами более высокого порядка."
+],
+      semanticType: "domain_specific",
+      tags: ["reasoning","defeasible","pollock","defeaters","non-monotonic"],
+    }),
+  },
 };
