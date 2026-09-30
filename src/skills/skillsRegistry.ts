@@ -132,6 +132,8 @@ export const SKILLS_REGISTRY: Record<string, SkillDefinition> = new Proxy(BUILTI
   },
 });
 
+const normalizeCat = (cat?: string) => (cat || '').replace(/_/g, '').toLowerCase();
+
 /**
  * Get all skills that belong to a specific category (including user-created skills)
  */
@@ -142,8 +144,9 @@ export function getSkillsByCategory(categoryId: string): SkillDefinition[] {
     return userSkillDefs;
   }
 
-  const builtinInCat = Object.values(BUILTIN_SKILLS_REGISTRY).filter((s) => s.categoryId === categoryId);
-  const userInCat = userSkillDefs.filter((s) => s.categoryId === categoryId);
+  const targetNorm = normalizeCat(categoryId);
+  const builtinInCat = Object.values(BUILTIN_SKILLS_REGISTRY).filter((s) => normalizeCat(s.categoryId) === targetNorm);
+  const userInCat = userSkillDefs.filter((s) => normalizeCat(s.categoryId) === targetNorm);
 
   return [...builtinInCat, ...userInCat];
 }

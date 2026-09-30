@@ -1329,7 +1329,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-apache-iceberg-parquet-table-format",
     name: "ApacheIcebergParquetTableFormatSkill",
     displayName: "Apache Iceberg Parquet Table Format",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Apache Iceberg Parquet Table Format.",
     tags: ["dataKnowledge","knowledge","apache","iceberg"],
     transform: createStandardSkillTransform({
@@ -1354,7 +1354,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-vector-database-hnsw-index-tuning",
     name: "VectorDatabaseHNSWIndexTuningSkill",
     displayName: "Vector Database HNSW Index Tuning",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Vector Database HNSW Index Tuning.",
     tags: ["dataKnowledge","knowledge","vector","database"],
     transform: createStandardSkillTransform({
@@ -1379,7 +1379,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-change-data-capture-debezium-streaming",
     name: "ChangeDataCaptureDebeziumStreamingSkill",
     displayName: "Change Data Capture Debezium Streaming",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Change Data Capture Debezium Streaming.",
     tags: ["dataKnowledge","knowledge","change","data"],
     transform: createStandardSkillTransform({
@@ -1404,7 +1404,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-data-mesh-federated-governance-model",
     name: "DataMeshFederatedGovernanceModelSkill",
     displayName: "Data Mesh Federated Governance Model",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Data Mesh Federated Governance Model.",
     tags: ["dataKnowledge","knowledge","data","mesh"],
     transform: createStandardSkillTransform({
@@ -1429,7 +1429,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-dbt-data-build-tool-semantic-layer",
     name: "dbtDataBuildToolSemanticLayerSkill",
     displayName: "dbt Data Build Tool Semantic Layer",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for dbt Data Build Tool Semantic Layer.",
     tags: ["dataKnowledge","knowledge","dbt","data"],
     transform: createStandardSkillTransform({
@@ -1454,7 +1454,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-duckdb-in-memory-olap-query-engine",
     name: "DuckDBInMemoryOLAPQueryEngineSkill",
     displayName: "DuckDB In-Memory OLAP Query Engine",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for DuckDB In-Memory OLAP Query Engine.",
     tags: ["dataKnowledge","knowledge","duckdb","in"],
     transform: createStandardSkillTransform({
@@ -1479,7 +1479,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-knowledge-graph-rdf-triple-sparql-store",
     name: "KnowledgeGraphRDFTripleSparqlStoreSkill",
     displayName: "Knowledge Graph RDF Triple Sparql Store",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Knowledge Graph RDF Triple Sparql Store.",
     tags: ["dataKnowledge","knowledge","knowledge","graph"],
     transform: createStandardSkillTransform({
@@ -1504,7 +1504,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-data-lineage-openlineage-metadata",
     name: "DataLineageOpenLineageMetadataSkill",
     displayName: "Data Lineage OpenLineage Metadata",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Data Lineage OpenLineage Metadata.",
     tags: ["dataKnowledge","knowledge","data","lineage"],
     transform: createStandardSkillTransform({
@@ -1529,7 +1529,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-snowflake-micro-partition-pruning",
     name: "SnowflakeMicroPartitionPruningSkill",
     displayName: "Snowflake Micro-Partition Pruning",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Snowflake Micro-Partition Pruning.",
     tags: ["dataKnowledge","knowledge","snowflake","micro"],
     transform: createStandardSkillTransform({
@@ -1554,7 +1554,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-delta-lake-acid-transaction-log",
     name: "DeltaLakeACIDTransactionLogSkill",
     displayName: "Delta Lake ACID Transaction Log",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Delta Lake ACID Transaction Log.",
     tags: ["dataKnowledge","knowledge","delta","lake"],
     transform: createStandardSkillTransform({
@@ -1579,7 +1579,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-redis-hyperloglog-cardinality-estimation",
     name: "RedisHyperLogLogCardinalityEstimationSkill",
     displayName: "Redis HyperLogLog Cardinality Estimation",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Redis HyperLogLog Cardinality Estimation.",
     tags: ["dataKnowledge","knowledge","redis","hyperloglog"],
     transform: createStandardSkillTransform({
@@ -1604,7 +1604,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-clickhouse-mergetree-columnar-partitioning",
     name: "ClickHouseMergeTreeColumnarPartitioningSkill",
     displayName: "ClickHouse MergeTree Columnar Partitioning",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for ClickHouse MergeTree Columnar Partitioning.",
     tags: ["dataKnowledge","knowledge","clickhouse","mergetree"],
     transform: createStandardSkillTransform({
@@ -1629,7 +1629,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-kafka-schema-registry-avro-serialization",
     name: "KafkaSchemaRegistryAvroSerializationSkill",
     displayName: "Kafka Schema Registry Avro Serialization",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Kafka Schema Registry Avro Serialization.",
     tags: ["dataKnowledge","knowledge","kafka","schema"],
     transform: createStandardSkillTransform({
@@ -1654,7 +1654,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-data-quality-great-expectations-assertion",
     name: "DataQualityGreatExpectationsAssertionSkill",
     displayName: "Data Quality Great Expectations Assertion",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Data Quality Great Expectations Assertion.",
     tags: ["dataKnowledge","knowledge","data","quality"],
     transform: createStandardSkillTransform({
@@ -1679,7 +1679,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-star-schema-kimbal-dimensional-modeling",
     name: "StarSchemaKimbalDimensionalModelingSkill",
     displayName: "Star Schema Kimbal Dimensional Modeling",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Star Schema Kimbal Dimensional Modeling.",
     tags: ["dataKnowledge","knowledge","star","schema"],
     transform: createStandardSkillTransform({
@@ -1704,7 +1704,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-vector-embedding-cosine-similarity-search",
     name: "VectorEmbeddingCosineSimilaritySearchSkill",
     displayName: "Vector Embedding Cosine Similarity Search",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Vector Embedding Cosine Similarity Search.",
     tags: ["dataKnowledge","knowledge","vector","embedding"],
     transform: createStandardSkillTransform({
@@ -1729,7 +1729,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-feature-store-feast-machine-learning-pipeline",
     name: "FeatureStoreFeastMachineLearningPipelineSkill",
     displayName: "Feature Store Feast Machine Learning Pipeline",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Feature Store Feast Machine Learning Pipeline.",
     tags: ["dataKnowledge","knowledge","feature","store"],
     transform: createStandardSkillTransform({
@@ -1754,7 +1754,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-graphql-mesh-unified-subgraph-federation",
     name: "GraphQLMeshUnifiedSubgraphFederationSkill",
     displayName: "GraphQL Mesh Unified Subgraph Federation",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for GraphQL Mesh Unified Subgraph Federation.",
     tags: ["dataKnowledge","knowledge","graphql","mesh"],
     transform: createStandardSkillTransform({
@@ -1779,7 +1779,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-apache-flink-stateful-stream-processing",
     name: "ApacheFlinkStatefulStreamProcessingSkill",
     displayName: "Apache Flink Stateful Stream Processing",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Apache Flink Stateful Stream Processing.",
     tags: ["dataKnowledge","knowledge","apache","flink"],
     transform: createStandardSkillTransform({
@@ -1804,7 +1804,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-postgres-foreign-data-wrapper-fdw",
     name: "PostgresForeignDataWrapperFDWSkill",
     displayName: "Postgres Foreign Data Wrapper (FDW)",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Postgres Foreign Data Wrapper (FDW).",
     tags: ["dataKnowledge","knowledge","postgres","foreign"],
     transform: createStandardSkillTransform({
@@ -1829,7 +1829,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-data-privacy-differential-privacy-anonymization",
     name: "DataPrivacyDifferentialPrivacyAnonymizationSkill",
     displayName: "Data Privacy Differential Privacy Anonymization",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Data Privacy Differential Privacy Anonymization.",
     tags: ["dataKnowledge","knowledge","data","privacy"],
     transform: createStandardSkillTransform({
@@ -1854,7 +1854,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-master-data-management-mdm-golden-record",
     name: "MasterDataManagementMDMGoldenRecordSkill",
     displayName: "Master Data Management MDM Golden Record",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Master Data Management MDM Golden Record.",
     tags: ["dataKnowledge","knowledge","master","data"],
     transform: createStandardSkillTransform({
@@ -1879,7 +1879,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-apache-arrow-zero-copy-memory-format",
     name: "ApacheArrowZeroCopyMemoryFormatSkill",
     displayName: "Apache Arrow Zero-Copy Memory Format",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Apache Arrow Zero-Copy Memory Format.",
     tags: ["dataKnowledge","knowledge","apache","arrow"],
     transform: createStandardSkillTransform({
@@ -1904,7 +1904,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-elasticsearch-bm25-relevance-scoring",
     name: "ElasticsearchBM25RelevanceScoringSkill",
     displayName: "Elasticsearch BM25 Relevance Scoring",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Elasticsearch BM25 Relevance Scoring.",
     tags: ["dataKnowledge","knowledge","elasticsearch","bm25"],
     transform: createStandardSkillTransform({
@@ -1929,7 +1929,7 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
     id: "data-knowledge-time-series-timescaledb-continuous-aggregation",
     name: "TimeSeriesTimescaleDBContinuousAggregationSkill",
     displayName: "Time-Series TimescaleDB Continuous Aggregation",
-    categoryId: "dataKnowledge",
+    categoryId: 'data_knowledge',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Time-Series TimescaleDB Continuous Aggregation.",
     tags: ["dataKnowledge","knowledge","time","series"],
     transform: createStandardSkillTransform({
@@ -1947,6 +1947,1002 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
 ],
       semanticType: "structural_directive",
       tags: ["dataKnowledge","knowledge","time","series"],
+    }),
+  },
+  "data-knowledge-hybrid-search-bm25-dense-fusion": {
+    id: "data-knowledge-hybrid-search-bm25-dense-fusion",
+    name: "DataKnowledgeHybridSearchBm25DenseFusionSkill",
+    displayName: "Hybrid Search Fusion: Sparse Lexical (BM25) + Dense Vector Embeddings",
+    categoryId: 'data_knowledge',
+    description: "Combines exact keyword keyword matching (BM25) and semantic vector similarity using Reciprocal Rank Fusion (RRF).",
+    tags: ["data-knowledge","hybrid-search","bm25","vector-search","rrf","rag"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hybrid Search & Reciprocal Rank Fusion Protocol",
+      ruSectionName: "Гибридный поиск: объединение лексического BM25 и векторных эмбеддингов (RRF)",
+      instructions: [
+        "Execute parallel searches across BM25 inverted keyword index and dense HNSW vector index.",
+        "Normalize and merge rank positions via Reciprocal Rank Fusion: $RRFScore(d) = \\sum \\frac{1}{k + rank(d)}$.",
+        "Return unified top-K documents balancing precise keyword exactness with semantic conceptual recall."
+],
+      ruInstructions: [
+        "Выполняйте параллельный запрос по лексическому индексу BM25 и векторному индексу HNSW.",
+        "Объединяйте результаты по формуле Reciprocal Rank Fusion (RRF) с константой сглаживания $k=60$.",
+        "Возвращайте итоговый топ-K документов, сочетающий точные совпадения терминов и семантическую релевантность."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","hybrid-search","bm25","vector-search","rrf","rag"],
+    }),
+  },
+
+  "data-knowledge-graphrag-knowledge-graph-synthesis": {
+    id: "data-knowledge-graphrag-knowledge-graph-synthesis",
+    name: "DataKnowledgeGraphragKnowledgeGraphSynthesisSkill",
+    displayName: "GraphRAG: Knowledge Graph Entity Extraction & Community Summaries",
+    categoryId: 'data_knowledge',
+    description: "Extracts entity nodes, relationship edges, and hierarchical community clusters from unstructured text for deep global RAG reasoning.",
+    tags: ["data-knowledge","graphrag","knowledge-graph","rag","entity-extraction"],
+    transform: createStandardSkillTransform({
+      sectionName: "GraphRAG Knowledge Graph Synthesis Architecture",
+      ruSectionName: "GraphRAG: Извлечение графа сущностей и кластеризация сообществ для глубокого RAG",
+      instructions: [
+        "Extract structured Entity nodes and Relationship edges with supporting source text citations.",
+        "Partition the entity graph into hierarchical communities using the Leiden community detection algorithm.",
+        "Pre-generate comprehensive community summaries to answer high-level holistic dataset queries."
+],
+      ruInstructions: [
+        "Извлекайте сущности (Entity) и типы связей (Relationships) с цитатами из исходного текста.",
+        "Кластеризуйте граф знаний на сообщества с помощью алгоритма Лейдена (Leiden Detection).",
+        "Генерируйте сводные описания сообществ для ответов на глобальные вопросы по всему корпусу документов."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","graphrag","knowledge-graph","rag","entity-extraction"],
+    }),
+  },
+
+  "data-knowledge-hierarchical-parent-child-chunking": {
+    id: "data-knowledge-hierarchical-parent-child-chunking",
+    name: "DataKnowledgeHierarchicalParentChildChunkingSkill",
+    displayName: "Hierarchical Document Indexing: Small Chunk Search, Large Parent Retrieval",
+    categoryId: 'data_knowledge',
+    description: "Indexes granular 200-token child chunks for precision vector retrieval while passing rich 1500-token parent context to the LLM.",
+    tags: ["data-knowledge","chunking","parent-document-retriever","rag","vector-search"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hierarchical Parent-Child Chunking Standards",
+      ruSectionName: "Иерархический чанкинг: поиск по мелким фрагментам, передача полного родительского контекста",
+      instructions: [
+        "Split source documents into 1500-token Parent Chunks and subdivide each into 200-token Child Chunks.",
+        "Generate embeddings exclusively for the fine-grained child chunks to maximize semantic query similarity.",
+        "Retrieve and pass the full parent document chunk to the LLM prompt to preserve complete surrounding context."
+],
+      ruInstructions: [
+        "Разбивайте документы на крупные родительские блоки (1500 токенов) и вложенные дочерние чанки (200 токенов).",
+        "Стройте векторные эмбеддинги по мелким чанкам для точного попадания поискового запроса.",
+        "Передавайте в промпт модели полный родительский блок для сохранения целостного контекста."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","chunking","parent-document-retriever","rag","vector-search"],
+    }),
+  },
+
+  "data-knowledge-scd-slowly-changing-dimensions": {
+    id: "data-knowledge-scd-slowly-changing-dimensions",
+    name: "DataKnowledgeScdSlowlyChangingDimensionsSkill",
+    displayName: "Slowly Changing Dimensions (SCD Type 1, 2, 4) Data Warehouse Modeling",
+    categoryId: 'data_knowledge',
+    description: "Tracks historical changes in dimensional tables using Type 1 (overwrite), Type 2 (validity date ranges), and Type 4 (history tables).",
+    tags: ["data-knowledge","scd","data-warehouse","kimball","sql"],
+    transform: createStandardSkillTransform({
+      sectionName: "Slowly Changing Dimensions (SCD) Standards",
+      ruSectionName: "Медленно меняющиеся измерения (SCD Type 1, Type 2, Type 4) в DWH",
+      instructions: [
+        "SCD Type 1: Overwrite existing row attributes for error corrections without preserving history.",
+        "SCD Type 2: Insert new row version with `valid_from`, `valid_to`, and `is_current = TRUE` flags.",
+        "SCD Type 4: Maintain clean current dimension table and log historical changes to a separate audit table."
+],
+      ruInstructions: [
+        "SCD Type 1: Перезапись значений для исправления опечаток без сохранения истории изменений.",
+        "SCD Type 2: Добавление новой строки с полями `valid_from`, `valid_to` и флагом текущей версии `is_current`.",
+        "SCD Type 4: Хранение актуального среза в основной таблице и логирование изменений в отдельную историю."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","scd","data-warehouse","kimball","sql"],
+    }),
+  },
+
+  "data-knowledge-apache-arrow-zero-copy-ipc": {
+    id: "data-knowledge-apache-arrow-zero-copy-ipc",
+    name: "DataKnowledgeApacheArrowZeroCopyIpcSkill",
+    displayName: "Apache Arrow Columnar In-Memory Format & Zero-Copy IPC Sharing",
+    categoryId: 'data_knowledge',
+    description: "Transfers multi-gigabyte data frames across Python, Rust, and Node.js processes with zero serialization overhead via Arrow IPC.",
+    tags: ["data-knowledge","apache-arrow","zero-copy","columnar","performance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Apache Arrow Zero-Copy Memory Standards",
+      ruSectionName: "Колоночный формат Apache Arrow и передача данных в памяти без сериализации (Zero-Copy)",
+      instructions: [
+        "Align in-memory record batches strictly with Apache Arrow 64-byte aligned SIMD memory specifications.",
+        "Share data across microservices via Arrow Flight RPC or memory-mapped files without JSON/Protobuf decoding.",
+        "Execute vectorized analytical expressions directly on raw Arrow memory buffers."
+],
+      ruInstructions: [
+        "Выравнивайте массивы данных по 64-байтной границе спецификации Apache Arrow для SIMD-векторизации.",
+        "Передавайте данные между процессами через Arrow Flight RPC без накладных расходов на сериализацию.",
+        "Выполняйте аналитические вычисления прямо по бинарным буферам памяти без распаковки в объекты."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","apache-arrow","zero-copy","columnar","performance"],
+    }),
+  },
+
+  "data-knowledge-vector-quantization-hnsw-tuning": {
+    id: "data-knowledge-vector-quantization-hnsw-tuning",
+    name: "DataKnowledgeVectorQuantizationHnswTuningSkill",
+    displayName: "Vector Quantization (Product Quantization PQ / Scalar SQ) & HNSW Memory Optimization",
+    categoryId: 'data_knowledge',
+    description: "Reduces vector database RAM footprint by 75-95% using 8-bit Scalar Quantization (SQ8) and Product Quantization (PQ) centroids.",
+    tags: ["data-knowledge","vector-quantization","hnsw","product-quantization","vector-db"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vector Index Quantization Standards",
+      ruSectionName: "Квантование векторов (Scalar SQ8, Product Quantization PQ) и оптимизация памяти HNSW",
+      instructions: [
+        "Apply Scalar Quantization (SQ8) to compress 32-bit float vectors to 8-bit integers with <1% recall degradation.",
+        "Use Product Quantization (PQ) to decompose 1536-dimensional vectors into compact sub-vector byte codes.",
+        "Tune HNSW index parameters: `M=16` (bi-directional links) and `efConstruction=200` for optimal build/search balance."
+],
+      ruInstructions: [
+        "Применяйте скалярное квантование (SQ8) для сжатия 32-битных векторов до 8 бит с сохранением 99% точности.",
+        "Используйте Product Quantization (PQ) для разбиения многомерных векторов на компактные байтовые коды.",
+        "Калибруйте параметры графа HNSW (`M=16`, `efSearch=64`) для баланса скорости поиска и расхода памяти."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","vector-quantization","hnsw","product-quantization","vector-db"],
+    }),
+  },
+
+  "data-knowledge-dbt-semantic-layer-metrics": {
+    id: "data-knowledge-dbt-semantic-layer-metrics",
+    name: "DataKnowledgeDbtSemanticLayerMetricsSkill",
+    displayName: "dbt Semantic Layer, MetricFlow & Centralized Metric Governance",
+    categoryId: 'data_knowledge',
+    description: "Defines single-source-of-truth business metrics (MRR, Churn, CAC) in YAML, querying dynamically across BI tools via MetricFlow.",
+    tags: ["data-knowledge","dbt","semantic-layer","metricflow","analytics-engineering"],
+    transform: createStandardSkillTransform({
+      sectionName: "dbt Semantic Layer Metrics Standards",
+      ruSectionName: "Семантический слой dbt (Semantic Layer & MetricFlow: единый источник бизнес-метрик)",
+      instructions: [
+        "Define dimensions, entities, and semantic metrics in modular dbt YAML configuration files.",
+        "Enforce consistent calculation logic: preventing conflicting definitions of Revenue across sales vs finance dashboards.",
+        "Expose semantic metrics via standard SQL / GraphQL APIs to downstream BI and AI querying agents."
+],
+      ruInstructions: [
+        "Описывайте измерения, сущности и метрики в декларативных YAML-файлах проекта dbt.",
+        "Обеспечивайте единый алгоритм расчета ключевых показателей (MRR, Churn) для всех отделов компании.",
+        "Предоставляйте доступ к метрикам через единый интерфейс SQL/GraphQL для BI-систем и AI-агентов."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","dbt","semantic-layer","metricflow","analytics-engineering"],
+    }),
+  },
+
+  "data-knowledge-parquet-compression-row-group-sizing": {
+    id: "data-knowledge-parquet-compression-row-group-sizing",
+    name: "DataKnowledgeParquetCompressionRowGroupSizingSkill",
+    displayName: "Apache Parquet Row Group Sizing, Dictionary Encoding & ZSTD Compression",
+    categoryId: 'data_knowledge',
+    description: "Optimizes analytical data lake storage by tuning Parquet row group sizes (128MB-512MB), dictionary encoding, and ZSTD compression levels.",
+    tags: ["data-knowledge","parquet","compression","data-lake","zstd"],
+    transform: createStandardSkillTransform({
+      sectionName: "Parquet Columnar Storage Optimization Standards",
+      ruSectionName: "Оптимизация файлов Apache Parquet (Размер Row Group, Dictionary Encoding, ZSTD)",
+      instructions: [
+        "Size Parquet Row Groups between 128MB and 512MB to balance parallel reader threads with column chunk scanning.",
+        "Enable Dictionary Encoding on low-cardinality string columns for 10x storage compression and instant filter pruning.",
+        "Apply Zstandard (ZSTD level 3) compression for the optimal Pareto trade-off between write speed and compression ratio."
+],
+      ruInstructions: [
+        "Устанавливайте размер Row Group от 128 МБ до 512 МБ для баланса параллельного чтения и пропускной способности.",
+        "Включайте словарное сжатие (Dictionary Encoding) для строковых полей с низкой кардинальностью.",
+        "Используйте алгоритм сжатия ZSTD (уровень 3) для достижения лучшего баланса скорости и размера файлов."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","parquet","compression","data-lake","zstd"],
+    }),
+  },
+
+  "data-knowledge-master-data-management-record-linkage": {
+    id: "data-knowledge-master-data-management-record-linkage",
+    name: "DataKnowledgeMasterDataManagementRecordLinkageSkill",
+    displayName: "Master Data Management (MDM) & Probabilistic Record Linkage (Fellegi-Sunter)",
+    categoryId: 'data_knowledge',
+    description: "Merges duplicate customer records across disparate enterprise databases using Jaro-Winkler fuzzy matching and Fellegi-Sunter weights.",
+    tags: ["data-knowledge","mdm","record-linkage","fuzzy-matching","data-quality"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Data Record Linkage Standards",
+      ruSectionName: "Управление мастер-данными (MDM) и вероятностное объединение дубликатов (Fellegi-Sunter)",
+      instructions: [
+        "Calculate string similarity distance using Jaro-Winkler, Levenshtein, and Double Metaphone phonetic algorithms.",
+        "Assign probabilistic match weights to field pairs (name, address, email, phone) to classify matches (Auto-Merge, Manual Review, Non-Match).",
+        "Construct an immutable Golden Record maintaining explicit lineage pointers back to source database IDs."
+],
+      ruInstructions: [
+        "Рассчитывайте сходство записей с помощью алгоритмов Яро-Винклера, Левенштейна и фонетического Double Metaphone.",
+        "Применяйте вероятностные веса совпадения полей для автоматического объединения или ручной модерации.",
+        "Формируйте эталонную запись (Golden Record) с сохранением ссылок на первичные идентификаторы источников."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","mdm","record-linkage","fuzzy-matching","data-quality"],
+    }),
+  },
+
+  "data-knowledge-automated-pii-data-masking-compliance": {
+    id: "data-knowledge-automated-pii-data-masking-compliance",
+    name: "DataKnowledgeAutomatedPiiDataMaskingComplianceSkill",
+    displayName: "Automated PII Entity Detection, Pseudonymization & Dynamic Data Masking",
+    categoryId: 'data_knowledge',
+    description: "Detects personally identifiable information (emails, SSNs, credit cards) via regex and NER models, applying irreversible SHA-256 salting or masking.",
+    tags: ["data-knowledge","pii","data-masking","compliance","gdpr","security"],
+    transform: createStandardSkillTransform({
+      sectionName: "PII Detection & Data Masking Standards",
+      ruSectionName: "Автоматическое обнаружение и маскирование персональных данных (PII / GDPR)",
+      instructions: [
+        "Scan incoming data streams with high-precision Regex and Named Entity Recognition (NER) models for PII patterns.",
+        "Replace sensitive identifiers with cryptographically salted HMAC hashes or format-preserving tokenized placeholders.",
+        "Enforce dynamic role-based data masking (e.g. `****-****-****-1234`) on analytical SQL query results."
+],
+      ruInstructions: [
+        "Сканируйте входящие данные с помощью регулярных выражений и моделей NER для поиска персональных данных.",
+        "Заменяйте чувствительные поля на криптографические HMAC-хэши с солью или псевдонимы с сохранением формата.",
+        "Внедряйте динамическое маскирование данных в зависимости от роли аналитика (например, `****-****-1234`)."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","pii","data-masking","compliance","gdpr","security"],
+    }),
+  },
+  "data-knowledge-clickhouse-mergetree-partition-pruning": {
+    id: "data-knowledge-clickhouse-mergetree-partition-pruning",
+    name: "DataKnowledgeClickhouseMergetreePartitionPruningSkill",
+    displayName: "ClickHouse MergeTree Primary Key Indexing & Granule Skipping",
+    categoryId: 'data_knowledge',
+    description: "Accelerates billion-row real-time analytical queries by optimizing ClickHouse Primary Keys and 8192-row sparse index granules.",
+    tags: ["data-knowledge","clickhouse","olap","sparse-index","analytics"],
+    transform: createStandardSkillTransform({
+      sectionName: "ClickHouse MergeTree Optimization Standards",
+      ruSectionName: "Оптимизация ClickHouse MergeTree: разреженные индексы и пропуск гранул (8192 строки)",
+      instructions: [
+        "Order Primary Key columns by ascending cardinality (e.g. `tenant_id, event_type, timestamp`).",
+        "Align partition keys (e.g. `toYYYYMM(event_date)`) to avoid creating millions of tiny part files.",
+        "Leverage sparse index granule skipping to evaluate queries scanning <1% of physical table storage."
+],
+      ruInstructions: [
+        "Сортируйте колонки первичного ключа по возрастанию кардинальности для максимального сжатия.",
+        "Задавайте ключ партиционирования по месяцам для исключения создания миллионов мелких файлов.",
+        "Используйте разреженный индекс для пропуска нерелевантных гранул и сканирования менее 1% данных."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","clickhouse","olap","sparse-index","analytics"],
+    }),
+  },
+
+  "data-knowledge-duckdb-spatial-parquet-analytics": {
+    id: "data-knowledge-duckdb-spatial-parquet-analytics",
+    name: "DataKnowledgeDuckdbSpatialParquetAnalyticsSkill",
+    displayName: "DuckDB Embedded OLAP: In-Memory SQL & Geospatial Parquet Analytics",
+    categoryId: 'data_knowledge',
+    description: "Executes ultra-fast vectorized SQL queries directly against local and remote S3 Parquet files without external database servers.",
+    tags: ["data-knowledge","duckdb","olap","parquet","spatial-sql","embedded"],
+    transform: createStandardSkillTransform({
+      sectionName: "DuckDB Embedded Analytical Engine Standards",
+      ruSectionName: "Встраиваемый аналитический движок DuckDB: прямые SQL-запросы по файлам Parquet в S3",
+      instructions: [
+        "Query Parquet files directly via `read_parquet('s3://bucket/*.parquet')` with automatic filter pushdown.",
+        "Use spatial geometry functions (`ST_Intersects`, `ST_Point`) for high-speed local GIS queries.",
+        "Export aggregated query results straight to Apache Arrow memory or compressed Parquet datasets."
+],
+      ruInstructions: [
+        "Выполняйте SQL-запросы напрямую по файлам Parquet в S3 с автоматическим пробросом фильтров (Pushdown).",
+        "Применяйте пространственные функции для быстрой обработки геоданных без развертывания PostGIS.",
+        "Экспортируйте результаты вычислений напрямую в память Apache Arrow или компактные файлы Parquet."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","duckdb","olap","parquet","spatial-sql","embedded"],
+    }),
+  },
+
+  "data-knowledge-great-expectations-data-quality-suite": {
+    id: "data-knowledge-great-expectations-data-quality-suite",
+    name: "DataKnowledgeGreatExpectationsDataQualitySuiteSkill",
+    displayName: "Great Expectations Automated Data Quality & Schema Assertions",
+    categoryId: 'data_knowledge',
+    description: "Enforces data quality contracts on analytical pipelines with automated assertions: null bounds, value ranges, and regex matches.",
+    tags: ["data-knowledge","data-quality","great-expectations","data-contracts","testing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Great Expectations Data Quality Standards",
+      ruSectionName: "Автоматизированный контроль качества данных (Great Expectations & Data Contracts)",
+      instructions: [
+        "Define explicit expectation suites: `expect_column_values_to_not_be_null`, `expect_column_values_to_be_between`.",
+        "Halt downstream ETL pipeline ingestion automatically upon failing critical severity expectation tests.",
+        "Generate automated HTML Data Docs visual test reports for stakeholders and data audits."
+],
+      ruInstructions: [
+        "Задавайте строгие наборы правил (Expectation Suites) для валидации типов, диапазонов и отсутствия null.",
+        "Останавливайте пайплайн загрузки данных при нарушении критических правил качества данных.",
+        "Формируйте визуальные HTML-отчеты (Data Docs) для аудита надежности источников."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","data-quality","great-expectations","data-contracts","testing"],
+    }),
+  },
+
+  "data-knowledge-openlineage-metadata-provenance": {
+    id: "data-knowledge-openlineage-metadata-provenance",
+    name: "DataKnowledgeOpenlineageMetadataProvenanceSkill",
+    displayName: "OpenLineage Data Provenance & Column-Level Dependency Graph",
+    categoryId: 'data_knowledge',
+    description: "Tracks end-to-end data lineage from raw Kafka events through Airflow DAGs and dbt models to final executive dashboards.",
+    tags: ["data-knowledge","openlineage","data-lineage","metadata","governance"],
+    transform: createStandardSkillTransform({
+      sectionName: "OpenLineage Data Provenance Standards",
+      ruSectionName: "Сквозная трассировка происхождения данных (OpenLineage и граф зависимостей на уровне колонок)",
+      instructions: [
+        "Emit OpenLineage run events (START, COMPLETE, FAIL) capturing input/output dataset schemas.",
+        "Construct directed column-level dependency graphs to assess upstream breaking change impact.",
+        "Integrate lineage telemetry with Marquez or DataHub metadata catalogs."
+],
+      ruInstructions: [
+        "Отправляйте события выполнения OpenLineage со схемами входных и выходных датасетов.",
+        "Стройте направленный граф зависимостей на уровне отдельных колонок для анализа влияния изменений.",
+        "Интегрируйте телеметрию происхождения данных с каталогами метаданных (DataHub, Marquez)."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","openlineage","data-lineage","metadata","governance"],
+    }),
+  },
+
+  "data-knowledge-timeseries-continuous-aggregates": {
+    id: "data-knowledge-timeseries-continuous-aggregates",
+    name: "DataKnowledgeTimeseriesContinuousAggregatesSkill",
+    displayName: "TimescaleDB Continuous Aggregates & Tiered Data Retention",
+    categoryId: 'data_knowledge',
+    description: "Maintains real-time rollups (hourly/daily metrics) over billions of time-series records with automated retention downsampling.",
+    tags: ["data-knowledge","timeseries","timescaledb","continuous-aggregates","iot"],
+    transform: createStandardSkillTransform({
+      sectionName: "TimescaleDB Continuous Aggregate Standards",
+      ruSectionName: "Непрерывные агрегаты временных рядов (TimescaleDB Continuous Aggregates и Downsampling)",
+      instructions: [
+        "Create materialized continuous aggregate views computing `time_bucket('1 hour', time)` rollups in background.",
+        "Combine pre-aggregated historical chunks with live real-time delta data seamlessly in query results.",
+        "Apply automated data retention policies dropping raw 1-second metrics after 30 days while retaining 1-hour rollups."
+],
+      ruInstructions: [
+        "Создавайте материализованные представления для фонового расчета почасовых и суточных агрегатов.",
+        "Бесшовно объединяйте исторические агрегаты с сырыми данными реального времени в одном запросе.",
+        "Настраивайте политики автоматического удаления сырых секундных данных через 30 дней с сохранением почасовых срезов."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","timeseries","timescaledb","continuous-aggregates","iot"],
+    }),
+  },
+
+  "data-knowledge-redis-hyperloglog-cardinality": {
+    id: "data-knowledge-redis-hyperloglog-cardinality",
+    name: "DataKnowledgeRedisHyperloglogCardinalitySkill",
+    displayName: "Redis HyperLogLog (HLL) Probabilistic Unique Count Estimation",
+    categoryId: 'data_knowledge',
+    description: "Counts hundreds of millions of unique daily active users (DAU) in constant 12KB memory with <0.81% standard error via HyperLogLog.",
+    tags: ["data-knowledge","hyperloglog","redis","probabilistic","cardinality"],
+    transform: createStandardSkillTransform({
+      sectionName: "HyperLogLog Cardinality Estimation Standards",
+      ruSectionName: "Вероятностный подсчет уникальных пользователей (HyperLogLog на Redis: 12 КБ памяти)",
+      instructions: [
+        "Use `PFADD key element` to register unique user identifiers in the HyperLogLog structure.",
+        "Retrieve estimated unique count via `PFCOUNT key` with standard statistical error under 0.81%.",
+        "Merge multiple daily keys into weekly/monthly unique counts instantly via `PFMERGE`."
+],
+      ruInstructions: [
+        "Добавляйте идентификаторы пользователей командой `PFADD` в структуру HyperLogLog.",
+        "Получайте оценку количества уникальных посетителей через `PFCOUNT` с погрешностью менее 0.81%.",
+        "Объединяйте дневные счетчики в недельные и месячные без дублирования с помощью `PFMERGE`."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","hyperloglog","redis","probabilistic","cardinality"],
+    }),
+  },
+
+  "data-knowledge-debezium-cdc-streaming-lakehouse": {
+    id: "data-knowledge-debezium-cdc-streaming-lakehouse",
+    name: "DataKnowledgeDebeziumCdcStreamingLakehouseSkill",
+    displayName: "Change Data Capture (CDC) Real-Time Lakehouse Streaming (Debezium + Apache Iceberg)",
+    categoryId: 'data_knowledge',
+    description: "Streams PostgreSQL/MySQL row mutations directly into Iceberg/Delta Lake tables with sub-minute query latency.",
+    tags: ["data-knowledge","cdc","debezium","iceberg","lakehouse","real-time"],
+    transform: createStandardSkillTransform({
+      sectionName: "CDC Lakehouse Ingestion Standards",
+      ruSectionName: "Потоковая репликация Change Data Capture (Debezium CDC в Apache Iceberg Lakehouse)",
+      instructions: [
+        "Capture database write-ahead log mutations (INSERT, UPDATE, DELETE) with Debezium Kafka connectors.",
+        "Apply UPSERT compaction logic in Apache Iceberg using equality delete files.",
+        "Ensure end-to-end exactly-once stream processing using Kafka transactional offsets."
+],
+      ruInstructions: [
+        "Считывайте события WAL-журнала СУБД с помощью коннекторов Debezium в топики Kafka.",
+        "Выполняйте операцию UPSERT в таблицы Apache Iceberg с использованием механизма Equality Deletes.",
+        "Обеспечивайте семантику обработки Exactly-Once с фиксацией транзакционных смещений Kafka."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","cdc","debezium","iceberg","lakehouse","real-time"],
+    }),
+  },
+
+  "data-knowledge-star-schema-snowflake-dimension": {
+    id: "data-knowledge-star-schema-snowflake-dimension",
+    name: "DataKnowledgeStarSchemaSnowflakeDimensionSkill",
+    displayName: "Star Schema vs Snowflake Dimensional Modeling (Facts & Conformed Dimensions)",
+    categoryId: 'data_knowledge',
+    description: "Designs denormalized dimensional data models balancing query join performance, storage redundancy, and BI navigation ease.",
+    tags: ["data-knowledge","star-schema","data-modeling","dimensional","bi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dimensional Modeling Standards",
+      ruSectionName: "Размерное моделирование: схема «Звезда» и «Снежинка» (Таблицы фактов и измерений)",
+      instructions: [
+        "Prefer Star Schema (denormalized dimensions) to minimize expensive multi-table SQL joins in columnar engines.",
+        "Establish Conformed Dimensions (e.g. shared `dim_customer`, `dim_date`) across all business fact tables.",
+        "Define Granularity explicitly at the lowest atomic transaction level in fact table specifications."
+],
+      ruInstructions: [
+        "Отдавайте предпочтение схеме «Звезда» (денормализованные измерения) для исключения лишних Join в аналитических СУБД.",
+        "Используйте согласованные измерения (Conformed Dimensions: клиент, дата) между всеми таблицами фактов.",
+        "Четко определяйте гранулярность таблицы фактов на самом детальном атомарном уровне транзакции."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","star-schema","data-modeling","dimensional","bi"],
+    }),
+  },
+
+  "data-knowledge-differential-privacy-epsilon-laplace": {
+    id: "data-knowledge-differential-privacy-epsilon-laplace",
+    name: "DataKnowledgeDifferentialPrivacyEpsilonLaplaceSkill",
+    displayName: "Differential Privacy: Epsilon Privacy Budgets & Laplace Noise Injection",
+    categoryId: 'data_knowledge',
+    description: "Protects individual user privacy in analytical aggregates by injecting calibrated mathematical Laplace noise within an epsilon ($epsilon$) privacy budget.",
+    tags: ["data-knowledge","differential-privacy","privacy","laplace-noise","compliance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Differential Privacy Standards",
+      ruSectionName: "Дифференциальная приватность (Differential Privacy: добавление шума Лапласа и бюджет $epsilon$)",
+      instructions: [
+        "Calculate global sensitivity ($Delta f$) for the target aggregate function (count, sum, mean).",
+        "Inject calibrated random noise drawn from Laplace distribution: $Lap(\\Delta f / \\epsilon)$.",
+        "Track and enforce cumulative privacy budget ($epsilon$) per user session, denying queries upon budget exhaustion."
+],
+      ruInstructions: [
+        "Рассчитывайте чувствительность функции ($Delta f$) для агрегатных запросов (количество, сумма, среднее).",
+        "Добавляйте калиброванный случайный шум из распределения Лапласа $Lap(\\Delta f / \\epsilon)$.",
+        "Ведите учет суммарного бюджета приватности ($epsilon$) на пользователя, блокируя запросы при его исчерпании."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","differential-privacy","privacy","laplace-noise","compliance"],
+    }),
+  },
+
+  "data-knowledge-graph-database-cypher-query-optimization": {
+    id: "data-knowledge-graph-database-cypher-query-optimization",
+    name: "DataKnowledgeGraphDatabaseCypherQueryOptimizationSkill",
+    displayName: "Neo4j Cypher Graph Query Optimization & Variable-Length Path Traversal",
+    categoryId: 'data_knowledge',
+    description: "Tunes Cypher path queries, index lookups, and relationship directionality to traverse multi-hop graphs in sub-millisecond time.",
+    tags: ["data-knowledge","graph-database","neo4j","cypher","knowledge-graph"],
+    transform: createStandardSkillTransform({
+      sectionName: "Graph Cypher Query Standards",
+      ruSectionName: "Оптимизация графовых запросов Cypher (Neo4j: обход путей переменной длины и индексы связей)",
+      instructions: [
+        "Specify relationship directionality (`(a)-[:ACTED_IN]->(m)`) to prune 50% of candidate search paths during traversal.",
+        "Cap variable-length pattern matching paths explicitly: `MATCH p=(a)-[:FRIEND*1..3]->(b)` to prevent combinatorial explosions.",
+        "Profile queries via `EXPLAIN` and `PROFILE` to eliminate full node scans and enforce schema index hints."
+],
+      ruInstructions: [
+        "Явно указывайте направление связей в графе для сокращения пространства поиска вдвое.",
+        "Ограничивайте глубину обхода путей переменной длины (`[:FRIEND*1..3]`) для защиты от комбинаторного взрыва.",
+        "Анализируйте планы запросов через `PROFILE` для проверки использования индексов узлов и связей."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","graph-database","neo4j","cypher","knowledge-graph"],
+    }),
+  },
+  "data-knowledge-iceberg-schema-evolution-partition-spec": {
+    id: "data-knowledge-iceberg-schema-evolution-partition-spec",
+    name: "DataKnowledgeIcebergSchemaEvolutionPartitionSpecSkill",
+    displayName: "Apache Iceberg In-Place Schema Evolution & Hidden Partitioning",
+    categoryId: 'data_knowledge',
+    description: "Evolves data lake schemas (add/rename/drop columns) and updates partition specs with zero table rewrites via Iceberg metadata.",
+    tags: ["data-knowledge","iceberg","schema-evolution","hidden-partitioning","data-lakehouse"],
+    transform: createStandardSkillTransform({
+      sectionName: "Apache Iceberg Schema Evolution Standards",
+      ruSectionName: "Эволюция схем в Apache Iceberg (Переименование колонок и скрытое партиционирование)",
+      instructions: [
+        "Assign unique permanent integer IDs to columns, enabling column renames without data rewriting.",
+        "Apply Hidden Partitioning transforms (e.g. `days(ts)`, `bucket(16, id)`) transparent to user SQL queries.",
+        "Perform time-travel queries across historical snapshot IDs: `SELECT * FROM table VERSION AS OF 12345`."
+],
+      ruInstructions: [
+        "Присваивайте колонкам постоянные уникальные ID для переименования полей без перезаписи данных.",
+        "Используйте скрытое партиционирование (`days(ts)`), избавляя аналитиков от ручных фильтров по папкам.",
+        "Выполняйте запросы Time-Travel к историческим снимкам данных: `VERSION AS OF <snapshot_id>`."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","iceberg","schema-evolution","hidden-partitioning","data-lakehouse"],
+    }),
+  },
+
+  "data-knowledge-reciprocal-rank-fusion-rrf-k60": {
+    id: "data-knowledge-reciprocal-rank-fusion-rrf-k60",
+    name: "DataKnowledgeReciprocalRankFusionRrfK60Skill",
+    displayName: "Reciprocal Rank Fusion (RRF k=60) Multi-Retriever Ensemble",
+    categoryId: 'data_knowledge',
+    description: "Ensembles search results from multiple disparate retrievers (dense, sparse, knowledge graph) using rank reciprocal scoring.",
+    tags: ["data-knowledge","rrf","search-ensemble","rag","retrieval"],
+    transform: createStandardSkillTransform({
+      sectionName: "Reciprocal Rank Fusion Ensemble Protocol",
+      ruSectionName: "Ансамбль поисковых систем Reciprocal Rank Fusion (RRF с константой k=60)",
+      instructions: [
+        "Extract integer rank positions ($r_i$) for each document across individual search engine result lists.",
+        "Calculate score: $RRF(d) = \\sum_{m \\in models} \\frac{1}{60 + r_m(d)}$.",
+        "Sort merged candidate pool descending by RRF score to select final top-K documents."
+],
+      ruInstructions: [
+        "Определяйте порядковый номер ранга ($r_i$) для каждого документа в каждом поисковом источнике.",
+        "Суммируйте скоры по формуле: $RRF(d) = \\sum \\frac{1}{60 + rank(d)}$.",
+        "Сортируйте объединенный список по убыванию RRF для отбора финального топ-K контекста."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","rrf","search-ensemble","rag","retrieval"],
+    }),
+  },
+
+  "data-knowledge-semantic-chunking-embedding-distance": {
+    id: "data-knowledge-semantic-chunking-embedding-distance",
+    name: "DataKnowledgeSemanticChunkingEmbeddingDistanceSkill",
+    displayName: "Semantic Distance Chunking & Embedding Split Points",
+    categoryId: 'data_knowledge',
+    description: "Splits documents at natural semantic boundary transitions where consecutive sentence embedding cosine distance exceeds threshold.",
+    tags: ["data-knowledge","semantic-chunking","embeddings","rag","nlp"],
+    transform: createStandardSkillTransform({
+      sectionName: "Semantic Embedding Distance Chunking Standards",
+      ruSectionName: "Семантический чанкинг по косинусному расстоянию соседних предложений",
+      instructions: [
+        "Compute embedding vectors for sliding consecutive sentence pairs across the document.",
+        "Calculate cosine distance deltas; place chunk split points at local distance spike peaks exceeding percentile threshold (95th percentile).",
+        "Keep semantically coherent paragraphs intact while separating distinct conceptual topic shifts."
+],
+      ruInstructions: [
+        "Вычисляйте эмбеддинги для последовательных пар предложений по всему тексту документа.",
+        "Находите локальные пики косинусного расстояния, сигнализирующие о смене темы повествования.",
+        "Разделяйте текст в точках смысловых переходов, сохраняя логически связанные абзацы едиными."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","semantic-chunking","embeddings","rag","nlp"],
+    }),
+  },
+
+  "data-knowledge-colbert-late-interaction-token-multivector": {
+    id: "data-knowledge-colbert-late-interaction-token-multivector",
+    name: "DataKnowledgeColbertLateInteractionTokenMultivectorSkill",
+    displayName: "ColBERTv2 Late Interaction Token-Level Multi-Vector Retrieval",
+    categoryId: 'data_knowledge',
+    description: "Performs fine-grained retrieval by computing all-pairs MaxSim similarity between individual query and document token embedding matrices.",
+    tags: ["data-knowledge","colbert","late-interaction","multivector","information-retrieval"],
+    transform: createStandardSkillTransform({
+      sectionName: "ColBERT Late Interaction Standards",
+      ruSectionName: "Поиск с поздним взаимодействием ColBERTv2 (Потокеновые мультивекторы и MaxSim)",
+      instructions: [
+        "Generate independent token vector matrices for queries ($Q$) and document passages ($D$).",
+        "Calculate late interaction relevance via MaxSim operator: $\\sum_{q \\in Q} \\max_{d \\in D} (q \\cdot d)$.",
+        "Compress token vectors using residual centroid quantization to achieve millisecond search speed."
+],
+      ruInstructions: [
+        "Формируйте матрицы потокеновых векторов для запроса и каждого фрагмента документа.",
+        "Рассчитывайте релевантность через оператор MaxSim: сумма максимальных скалярных произведений токенов.",
+        "Сжимайте векторы токенов через остаточное квантование (Residual Quantization) для экономии RAM."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","colbert","late-interaction","multivector","information-retrieval"],
+    }),
+  },
+
+  "data-knowledge-zstandard-dictionary-compression-json": {
+    id: "data-knowledge-zstandard-dictionary-compression-json",
+    name: "DataKnowledgeZstandardDictionaryCompressionJsonSkill",
+    displayName: "Zstandard (zstd) Pre-Trained Dictionary Compression for JSON Feeds",
+    categoryId: 'data_knowledge',
+    description: "Trains domain-specific 110KB ZSTD dictionaries over representative JSON payloads, achieving 5x higher compression ratios on small records.",
+    tags: ["data-knowledge","zstd","compression","json","dictionary-training"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zstandard Dictionary Compression Standards",
+      ruSectionName: "Сжатие мелких JSON-записей через обученные словари Zstandard (ZSTD Dictionary)",
+      instructions: [
+        "Train a shared 110KB ZSTD dictionary over a sample corpus of 10,000 representative JSON payloads.",
+        "Compress and decompress small records referencing the pre-shared dictionary ID.",
+        "Achieve 80% size reduction on small 500-byte JSON records where standard gzip fails."
+],
+      ruInstructions: [
+        "Обучайте общий словарь ZSTD размером 110 КБ на выборке из 10 000 типичных JSON-сообщений.",
+        "Сжимайте и распаковывайте мелкие записи с указанием идентификатора обученного словаря.",
+        "Достигайте 80% сжатия даже на коротких JSON-записях (до 500 байт), где gzip малоэффективен."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","zstd","compression","json","dictionary-training"],
+    }),
+  },
+
+  "data-knowledge-sparql-knowledge-graph-ontology-w3c": {
+    id: "data-knowledge-sparql-knowledge-graph-ontology-w3c",
+    name: "DataKnowledgeSparqlKnowledgeGraphOntologyW3cSkill",
+    displayName: "W3C RDF/OWL Knowledge Graph Ontologies & SPARQL 1.1 Query Engine",
+    categoryId: 'data_knowledge',
+    description: "Models enterprise domains in W3C OWL ontologies, executing expressive SPARQL pattern queries and RDFS inferencing.",
+    tags: ["data-knowledge","sparql","rdf","owl","ontology","semantic-web"],
+    transform: createStandardSkillTransform({
+      sectionName: "W3C Semantic Graph Standards",
+      ruSectionName: "Онтологии W3C RDF/OWL и графовые запросы SPARQL 1.1",
+      instructions: [
+        "Define formal Class hierarchies and Object/Datatype properties using W3C OWL2 vocabulary.",
+        "Query relationship patterns using SPARQL 1.1 `SELECT`, `CONSTRUCT`, and `ASK` graph operators.",
+        "Enable RDFS rule-based reasoning engines to materialize implicit domain relationships automatically."
+],
+      ruInstructions: [
+        "Описывайте иерархии классов и свойства связей на формальном языке W3C OWL2.",
+        "Составляйте графовые запросы на языке SPARQL 1.1 (`SELECT`, `CONSTRUCT`, `OPTIONAL`).",
+        "Используйте движки логического вывода RDFS для автоматического раскрытия неявных связей."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","sparql","rdf","owl","ontology","semantic-web"],
+    }),
+  },
+
+  "data-knowledge-feature-store-feast-online-offline": {
+    id: "data-knowledge-feature-store-feast-online-offline",
+    name: "DataKnowledgeFeatureStoreFeastOnlineOfflineSkill",
+    displayName: "Feast Feature Store: Low-Latency Redis Online & BigQuery Offline Sync",
+    categoryId: 'data_knowledge',
+    description: "Maintains ML feature parity across offline batch training datasets (BigQuery/Snowflake) and sub-10ms online inference caches (Redis).",
+    tags: ["data-knowledge","feature-store","feast","machine-learning","redis"],
+    transform: createStandardSkillTransform({
+      sectionName: "ML Feature Store Architecture",
+      ruSectionName: "Хранилище фичей для ML (Feast Feature Store: Redis Online и BigQuery Offline)",
+      instructions: [
+        "Define feature views and entity keys in declarative Feast Python / YAML specifications.",
+        "Materialize scheduled batch features incrementally to Redis for sub-10ms real-time model inference.",
+        "Generate point-in-time correct historical feature matrices for offline training to prevent data leakage."
+],
+      ruInstructions: [
+        "Определяйте фичи и ключи сущностей в декларативных конфигурациях Feast.",
+        "Инкрементально материализуйте фичи в Redis для доступа модели в реальном времени (<10 мс).",
+        "Формируйте исторические обучающие выборки с учетом временных меток (Point-in-Time) для защиты от утечки данных."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","feature-store","feast","machine-learning","redis"],
+    }),
+  },
+
+  "data-knowledge-data-diff-automated-regression-testing": {
+    id: "data-knowledge-data-diff-automated-regression-testing",
+    name: "DataKnowledgeDataDiffAutomatedRegressionTestingSkill",
+    displayName: "Automated Data-Diff Regression Testing & SQL Schema Migration Auditing",
+    categoryId: 'data_knowledge',
+    description: "Compares billion-row source and target tables row-by-row and column-by-column (Datafold / data-diff) to catch silent data corruption in CI/CD.",
+    tags: ["data-knowledge","data-diff","testing","ci-cd","regression","dbt"],
+    transform: createStandardSkillTransform({
+      sectionName: "Data-Diff Regression Testing Standards",
+      ruSectionName: "Автоматизированное сравнение датасетов (Data-Diff в CI/CD для выявления расхождений)",
+      instructions: [
+        "Hash row primary keys and column values into algorithmic checksum buckets to detect exact discrepancies.",
+        "Run automated data-diff comparisons between production and staging tables during pull request CI runs.",
+        "Block deployment if value discrepancies or unexplained row-count shifts exceed 0.00% tolerance."
+],
+      ruInstructions: [
+        "Хэшируйте строки и значения полей в контрольные суммы для мгновенного поиска расхождений.",
+        "Запускайте автоматическое сравнение таблиц продакшена и стейджинга при каждом пулл-реквесте в CI/CD.",
+        "Блокируйте выкатку изменений при обнаружении несанкционированных искажений данных."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","data-diff","testing","ci-cd","regression","dbt"],
+    }),
+  },
+
+  "data-knowledge-anomalous-data-drift-ks-test": {
+    id: "data-knowledge-anomalous-data-drift-ks-test",
+    name: "DataKnowledgeAnomalousDataDriftKsTestSkill",
+    displayName: "Statistical Data Drift Detection: Kolmogorov-Smirnov & Population Stability Index (PSI)",
+    categoryId: 'data_knowledge',
+    description: "Monitors numerical distribution shift and categorical concept drift between baseline training distributions and live production feeds.",
+    tags: ["data-knowledge","data-drift","ks-test","psi","monitoring","mlops"],
+    transform: createStandardSkillTransform({
+      sectionName: "Data Drift Detection Standards",
+      ruSectionName: "Обнаружение дрейфа данных (Тест Колмогорова-Смирнова и индекс PSI)",
+      instructions: [
+        "Run two-sample Kolmogorov-Smirnov (KS) tests on continuous numerical features to detect statistical drift ($p < 0.05$).",
+        "Calculate Population Stability Index (PSI) on binned features: alert when $PSI > 0.2$ indicates significant distribution change.",
+        "Trigger automated retraining pipelines when feature drift crosses warning thresholds."
+],
+      ruInstructions: [
+        "Применяйте двухвыборочный критерий Колмогорова-Смирнова для непрерывных числовых признаков ($p < 0.05$).",
+        "Рассчитывайте индекс стабильности популяции (PSI): поднимайте тревогу при $PSI > 0.2$.",
+        "Инициируйте автоматический пересчет статистик или переобучение моделей при фиксации дрейфа."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","data-drift","ks-test","psi","monitoring","mlops"],
+    }),
+  },
+
+  "data-knowledge-geospatial-h3-hexagonal-indexing": {
+    id: "data-knowledge-geospatial-h3-hexagonal-indexing",
+    name: "DataKnowledgeGeospatialH3HexagonalIndexingSkill",
+    displayName: "Uber H3 Spatial Hexagonal Hierarchical Spatial Indexing",
+    categoryId: 'data_knowledge',
+    description: "Indexes geographic coordinates into hierarchical hexagonal grid cells (resolutions 0-15) for $O(1)$ spatial aggregations and k-ring lookups.",
+    tags: ["data-knowledge","h3","geospatial","hexagons","spatial-indexing","gis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Uber H3 Spatial Indexing Standards",
+      ruSectionName: "Геопространственная индексация Uber H3 (Иерархические шестиугольники и k-ring соседи)",
+      instructions: [
+        "Convert latitude/longitude coordinate pairs to 64-bit H3 integer cell indexes at resolution 8-9 (neighborhood level).",
+        "Perform spatial radius searches using `H3.gridDisk(cell, k)` for constant $O(1)$ neighbor cell retrieval.",
+        "Aggregate metrics across hexagonal hierarchies without boundary distortion common in square grids."
+],
+      ruInstructions: [
+        "Преобразуйте координаты широты и долготы в 64-битные целочисленные индексы H3 (разрешение 8–9).",
+        "Выполняйте поиск в радиусе через `gridDisk(cell, k)`, находя соседние соты за $O(1)$ без тригонометрии.",
+        "Агрегируйте пространственные данные по гексагонам без искажений на границах, свойственных прямоугольным сеткам."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","h3","geospatial","hexagons","spatial-indexing","gis"],
+    }),
+  },
+
+  "data-knowledge-bloom-filter-probabilistic-indexing": {
+    id: "data-knowledge-bloom-filter-probabilistic-indexing",
+    name: "DataKnowledgeBloomFilterProbabilisticIndexingSkill",
+    displayName: "Probabilistic LSM-Tree Bloom Filters & Key Non-Existence Checks",
+    categoryId: 'data_knowledge',
+    description: "Tunes Bloom filter bit arrays and hash functions in RocksDB/Cassandra LSM storage to avoid expensive disk lookups for missing keys.",
+    tags: ["data-knowledge","bloom-filter","lsm-tree","storage-engines","database-tuning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Probabilistic Storage Indexing Standards",
+      ruSectionName: "Фильтры Блума в LSM-деревьях (RocksDB / Cassandra: исключение лишних чтений с диска)",
+      instructions: [
+        "Size Bloom filter bit allocation to target 1% false positive probability: $m = -\\frac{n \\ln p}{(\\ln 2)^2}$ (approx 10 bits/key).",
+        "Compute optimal number of Murmur3 hash functions: $k = \\frac{m}{n} \\ln 2$ (approx 7 hashes).",
+        "Eliminate 99% of unnecessary SSTable disk reads for non-existent key lookups."
+],
+      ruInstructions: [
+        "Рассчитывайте размер битового массива фильтра Блума для 1% вероятности ложных срабатываний (~10 бит на ключ).",
+        "Используйте оптимальное число хэш-функций Murmur3 ($k = 7$) для равномерного распределения бит.",
+        "Исключайте 99% ненужных обращений к диску при поиске отсутствующих ключей в таблицах SSTable."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","bloom-filter","lsm-tree","storage-engines","database-tuning"],
+    }),
+  },
+  "data-knowledge-lakefs-git-for-data-branching": {
+    id: "data-knowledge-lakefs-git-for-data-branching",
+    name: "DataKnowledgeLakefsGitForDataBranchingSkill",
+    displayName: "lakeFS: Git-Style Branching, Commits & Rollbacks for Object Storage Lakes",
+    categoryId: 'data_knowledge',
+    description: "Enables zero-copy Git workflows (branch, commit, merge, revert) over S3/GCS data lakes with ACID isolation guarantees.",
+    tags: ["data-knowledge","lakefs","git-for-data","data-versioning","lakehouse"],
+    transform: createStandardSkillTransform({
+      sectionName: "lakeFS Data Versioning Standards",
+      ruSectionName: "Версионирование данных в стиле Git (lakeFS: ветки, коммиты и атомарные слияния в S3)",
+      instructions: [
+        "Create zero-copy isolated branch (`lakefs branch create my-experiment`) for experimental data pipeline runs.",
+        "Execute automated data quality validation hooks on the isolated branch before merging.",
+        "Atomically merge verified data branch to main with instantaneous zero-downtime pointer update."
+],
+      ruInstructions: [
+        "Создавайте изолированные ветки данных без копирования файлов для тестирования ETL-пайплайнов.",
+        "Запускайте автоматические проверки качества данных на тестовой ветке перед слиянием.",
+        "Атомарно вливайте проверенную ветку в основную (main) мгновенным переключением указателей метаданных."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","lakefs","git-for-data","data-versioning","lakehouse"],
+    }),
+  },
+
+  "data-knowledge-snowflake-search-optimization-service": {
+    id: "data-knowledge-snowflake-search-optimization-service",
+    name: "DataKnowledgeSnowflakeSearchOptimizationServiceSkill",
+    displayName: "Snowflake Search Optimization Service (SOS) & Point-Lookup Indexing",
+    categoryId: 'data_knowledge',
+    description: "Accelerates high-cardinality point-lookup queries on massive multi-terabyte Snowflake tables using persistent search access paths.",
+    tags: ["data-knowledge","snowflake","search-optimization","point-lookups","cloud-data-warehouse"],
+    transform: createStandardSkillTransform({
+      sectionName: "Snowflake Search Optimization Standards",
+      ruSectionName: "Сервис оптимизации поиска Snowflake (Search Optimization Service для точечных выборок)",
+      instructions: [
+        "Enable Search Optimization on high-cardinality predicate columns (e.g. `customer_uuid`, `ip_address`).",
+        "Monitor Search Access Path build progress and compute maintenance credit consumption.",
+        "Drastically cut query execution time from 45 seconds to sub-second on multi-billion row tables."
+],
+      ruInstructions: [
+        "Включайте Search Optimization Service для колонок с высокой кардинальностью (UUID, IP-адреса).",
+        "Отслеживайте статус построения поисковых структур и расход кредитов хранилища.",
+        "Сокращайте время выполнения точечных запросов с десятков секунд до долей секунды на миллиардных таблицах."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","snowflake","search-optimization","point-lookups","cloud-data-warehouse"],
+    }),
+  },
+
+  "data-knowledge-data-contracts-json-schema-protobuf": {
+    id: "data-knowledge-data-contracts-json-schema-protobuf",
+    name: "DataKnowledgeDataContractsJsonSchemaProtobufSkill",
+    displayName: "Enterprise Data Contracts: Protobuf / JSON Schema Producers-Consumers SLA",
+    categoryId: 'data_knowledge',
+    description: "Establishes formal schema and freshness contracts between software engineering producers and data analytics consumers.",
+    tags: ["data-knowledge","data-contracts","protobuf","schema-registry","sla"],
+    transform: createStandardSkillTransform({
+      sectionName: "Data Contracts Governance Standards",
+      ruSectionName: "Контракты данных (Data Contracts: строгие спецификации схем и SLA между командами)",
+      instructions: [
+        "Define explicit event schemas using Protocol Buffers (Protobuf) or JSON Schema in versioned Git repos.",
+        "Enforce backward compatibility rules in CI/CD before allowing producer schema modifications.",
+        "Specify explicit Service Level Agreements (SLA) for event arrival freshness, completeness, and nullability limits."
+],
+      ruInstructions: [
+        "Фиксируйте структуры событий в схемах Protobuf или JSON Schema в версионируемых репозиториях.",
+        "Проверяйте обратную совместимость схем в CI/CD для защиты аналитиков от ломающих изменений.",
+        "Определяйте формальные SLA по свежести данных, допустимому проценту null и задержке доставки."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","data-contracts","protobuf","schema-registry","sla"],
+    }),
+  },
+
+  "data-knowledge-semantic-caching-gptcache-similarity": {
+    id: "data-knowledge-semantic-caching-gptcache-similarity",
+    name: "DataKnowledgeSemanticCachingGptcacheSimilaritySkill",
+    displayName: "Semantic Query Caching: Embedding Distance Vector Hit Ratio",
+    categoryId: 'data_knowledge',
+    description: "Caches and serves expensive LLM / SQL responses for semantically equivalent queries within a tight cosine distance threshold (e.g. >0.96).",
+    tags: ["data-knowledge","semantic-caching","vector-cache","cost-reduction","llmops"],
+    transform: createStandardSkillTransform({
+      sectionName: "Semantic Query Caching Standards",
+      ruSectionName: "Семантическое кэширование запросов (Векторный поиск похожих ответов с порогом >0.96)",
+      instructions: [
+        "Embed incoming user query and perform fast similarity search against vector cache storage.",
+        "If nearest neighbor cosine similarity exceeds 0.96, return the cached answer with zero inference cost.",
+        "Expire cached semantic entries on a sliding TTL basis to prevent stale business data delivery."
+],
+      ruInstructions: [
+        "Вычисляйте эмбеддинг входящего запроса и ищите ближайших соседей в векторном кэше.",
+        "Если косинусное сходство превышает порог 0.96, мгновенно отдавайте сохраненный ответ с нулевыми затратами токенов.",
+        "Устанавливайте скользящий TTL для кэшированных ответов во избежание отдачи устаревших данных."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","semantic-caching","vector-cache","cost-reduction","llmops"],
+    }),
+  },
+
+  "data-knowledge-delta-lake-liquid-clustering": {
+    id: "data-knowledge-delta-lake-liquid-clustering",
+    name: "DataKnowledgeDeltaLakeLiquidClusteringSkill",
+    displayName: "Delta Lake Liquid Clustering & Multi-Dimensional Data Skipping",
+    categoryId: 'data_knowledge',
+    description: "Replaces rigid hive-style table partitioning with Delta Lake Liquid Clustering for flexible multi-column incremental sorting.",
+    tags: ["data-knowledge","delta-lake","liquid-clustering","lakehouse","data-skipping"],
+    transform: createStandardSkillTransform({
+      sectionName: "Delta Lake Liquid Clustering Standards",
+      ruSectionName: "Delta Lake Liquid Clustering: гибкая кластеризация данных без жесткого партиционирования",
+      instructions: [
+        "Define clustering columns: `CLUSTER BY (date, customer_id, region)` on Delta Lake tables.",
+        "Run incremental `OPTIMIZE table` jobs to cluster newly ingested data without rewriting entire tables.",
+        "Achieve balanced file sizes and multi-dimensional min/max data skipping across diverse query patterns."
+],
+      ruInstructions: [
+        "Задавайте колонки кластеризации командой `CLUSTER BY (date, customer_id, region)`.",
+        "Запускайте инкрементальную оптимизацию `OPTIMIZE` для кластеризации новых файлов без перезаписи всей таблицы.",
+        "Обеспечивайте пропуск нерелевантных данных (Data Skipping) сразу по нескольким измерениям запроса."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","delta-lake","liquid-clustering","lakehouse","data-skipping"],
+    }),
+  },
+
+  "data-knowledge-entity-resolution-dedupe-py": {
+    id: "data-knowledge-entity-resolution-dedupe-py",
+    name: "DataKnowledgeEntityResolutionDedupePySkill",
+    displayName: "Machine Learning Entity Resolution & Record Deduplication (Dedupe)",
+    categoryId: 'data_knowledge',
+    description: "Trains active-learning classification models over messy text records to deduplicate entities with ambiguous variations.",
+    tags: ["data-knowledge","entity-resolution","deduplication","active-learning","data-cleaning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Entity Resolution Machine Learning Standards",
+      ruSectionName: "Машинное обучение для разрешения сущностей (Entity Resolution и дедупликация записей)",
+      instructions: [
+        "Train active learning distance models on pairs of ambiguous customer records with human feedback.",
+        "Cluster connected matching record pairs into single canonical entity clusters.",
+        "Score precision and recall curves against ground-truth validation datasets."
+],
+      ruInstructions: [
+        "Обучайте классификатор сходства на спорных парах записей с помощью активного дообучения с человеком.",
+        "Кластеризуйте связанные дублирующиеся записи в единые канонические сущности.",
+        "Оценивайте метрики точности (Precision) и полноты (Recall) на проверочном датасете."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","entity-resolution","deduplication","active-learning","data-cleaning"],
+    }),
+  },
+
+  "data-knowledge-columnar-encoding-rle-delta-bitpacking": {
+    id: "data-knowledge-columnar-encoding-rle-delta-bitpacking",
+    name: "DataKnowledgeColumnarEncodingRleDeltaBitpackingSkill",
+    displayName: "Low-Level Columnar Encodings: RLE, Delta Encoding & Bit-Packing",
+    categoryId: 'data_knowledge',
+    description: "Maximizes numerical data compression using Run-Length Encoding (RLE) on repeated values, Delta on timestamps, and Bit-Packing on integers.",
+    tags: ["data-knowledge","columnar-encoding","rle","delta-encoding","bit-packing","storage"],
+    transform: createStandardSkillTransform({
+      sectionName: "Low-Level Columnar Encoding Standards",
+      ruSectionName: "Низкоуровневые колоночные кодировки: RLE, Delta Encoding и Bit-Packing",
+      instructions: [
+        "Apply Run-Length Encoding (RLE) to sorted columns with repeated runs of identical values.",
+        "Use Delta Encoding for monotonically increasing timestamp integer series to store only small delta differences.",
+        "Pack small integers into exact bit-width bounds (Bit-Packing) rather than standard 32/64-bit word boundaries."
+],
+      ruInstructions: [
+        "Применяйте кодирование серий (RLE) для отсортированных колонок с повторяющимися значениями.",
+        "Используйте Delta Encoding для временных рядов, сохраняя только разницу между соседними метками.",
+        "Упаковывайте целые числа в точную битовую ширину (Bit-Packing) без заполнения до 64 бит."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","columnar-encoding","rle","delta-encoding","bit-packing","storage"],
+    }),
+  },
+
+  "data-knowledge-rag-reranking-cross-encoder": {
+    id: "data-knowledge-rag-reranking-cross-encoder",
+    name: "DataKnowledgeRagRerankingCrossEncoderSkill",
+    displayName: "RAG Two-Stage Retrieval: Fast Bi-Encoder + Deep Cross-Encoder Reranker",
+    categoryId: 'data_knowledge',
+    description: "Re-scores top-50 candidate documents with a computationally deep Cross-Encoder model (Cohere Rerank / BGE-Reranker) before prompt injection.",
+    tags: ["data-knowledge","reranking","cross-encoder","rag","information-retrieval"],
+    transform: createStandardSkillTransform({
+      sectionName: "Two-Stage Retrieval & Cross-Encoder Standards",
+      ruSectionName: "Двухэтапный поиск в RAG: быстрый векторный отбор + глубокий Cross-Encoder реранкер",
+      instructions: [
+        "Stage 1 (Bi-Encoder): Retrieve top-50 candidates via fast vector/hybrid search under 10ms.",
+        "Stage 2 (Cross-Encoder): Re-score the 50 candidate pairs jointly through full cross-attention transformer layers.",
+        "Select top-5 highest-scoring reranked passages to inject into final LLM context window, boosting answer relevance by 35%."
+],
+      ruInstructions: [
+        "Этап 1 (Bi-Encoder): Быстрый отбор топ-50 кандидатов через векторный/гибридный поиск до 10 мс.",
+        "Этап 2 (Cross-Encoder): Совместная оценка запроса и текста через глубокий реранкер с полным вниманием.",
+        "Передавайте в контекст модели топ-5 лучших фрагментов после реранкинга, повышая точность ответов на 35%."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","reranking","cross-encoder","rag","information-retrieval"],
+    }),
+  },
+
+  "data-knowledge-knowledge-distillation-compact-indexes": {
+    id: "data-knowledge-knowledge-distillation-compact-indexes",
+    name: "DataKnowledgeKnowledgeDistillationCompactIndexesSkill",
+    displayName: "Domain Taxonomy Pruning & Ontological Depth Normalization",
+    categoryId: 'data_knowledge',
+    description: "Prunes redundant hierarchy branches in sprawling corporate knowledge taxonomies, establishing balanced 4-level classification schemas.",
+    tags: ["data-knowledge","taxonomy","ontology","classification","knowledge-management"],
+    transform: createStandardSkillTransform({
+      sectionName: "Domain Taxonomy Governance Standards",
+      ruSectionName: "Нормализация и оптимизация глубины корпоративных таксономий и онтологий",
+      instructions: [
+        "Cap taxonomy tree depth to a balanced 4-level hierarchy (Domain -> Category -> Subcategory -> Concept).",
+        "Eliminate orphaned or single-child intermediary taxonomy nodes.",
+        "Ensure mutually exclusive and collectively exhaustive (MECE) classification across sibling categories."
+],
+      ruInstructions: [
+        "Ограничивайте глубину дерева таксономии 4 сбалансированными уровнями (Домен -> Категория -> Подкатегория -> Понятие).",
+        "Устраняйте пустые узлы и промежуточные ветви с единственным потомком.",
+        "Соблюдайте принцип взаимного исключения и совокупной исчерпанности (MECE) для соседних категорий."
+],
+      semanticType: "structural_directive",
+      tags: ["data-knowledge","taxonomy","ontology","classification","knowledge-management"],
     }),
   },
 };

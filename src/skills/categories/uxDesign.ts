@@ -1369,7 +1369,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-fitts-law-hick-law-interactive-target-optimization",
     name: "FittsLawHickLawInteractiveTargetOptimizationSkill",
     displayName: "Fitts Law & Hick Law Interactive Target Optimization",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Fitts Law & Hick Law Interactive Target Optimization.",
     tags: ["uxDesign","design","fitts","law"],
     transform: createStandardSkillTransform({
@@ -1394,7 +1394,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-wcag-2-2-aaa-accessible-color-contrast-screen-reader",
     name: "WCAG22AAAAccessibleColorContrastScreenReaderSkill",
     displayName: "WCAG 2.2 AAA Accessible Color Contrast & Screen Reader",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for WCAG 2.2 AAA Accessible Color Contrast & Screen Reader.",
     tags: ["uxDesign","design","wcag","2"],
     transform: createStandardSkillTransform({
@@ -1419,7 +1419,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-design-system-atomic-design-tokens-figma-to-code",
     name: "DesignSystemAtomicDesignTokensFigmatoCodeSkill",
     displayName: "Design System Atomic Design Tokens (Figma-to-Code)",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Design System Atomic Design Tokens (Figma-to-Code).",
     tags: ["uxDesign","design","design","system"],
     transform: createStandardSkillTransform({
@@ -1444,7 +1444,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-mobile-touch-target-48px-minimum-hit-area",
     name: "MobileTouchTarget48pxMinimumHitAreaSkill",
     displayName: "Mobile Touch Target 48px Minimum Hit Area",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Mobile Touch Target 48px Minimum Hit Area.",
     tags: ["uxDesign","design","mobile","touch"],
     transform: createStandardSkillTransform({
@@ -1469,7 +1469,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-card-sorting-information-architecture-sitemap",
     name: "CardSortingInformationArchitectureSitemapSkill",
     displayName: "Card Sorting Information Architecture Sitemap",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Card Sorting Information Architecture Sitemap.",
     tags: ["uxDesign","design","card","sorting"],
     transform: createStandardSkillTransform({
@@ -1494,7 +1494,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-progressive-disclosure-multi-step-wizard-ux",
     name: "ProgressiveDisclosureMultiStepWizardUXSkill",
     displayName: "Progressive Disclosure Multi-Step Wizard UX",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Progressive Disclosure Multi-Step Wizard UX.",
     tags: ["uxDesign","design","progressive","disclosure"],
     transform: createStandardSkillTransform({
@@ -1519,7 +1519,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-dark-mode-visual-hierarchy-oled-contrast-rules",
     name: "DarkModeVisualHierarchyOledContrastRulesSkill",
     displayName: "Dark Mode Visual Hierarchy & Oled Contrast Rules",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Dark Mode Visual Hierarchy & Oled Contrast Rules.",
     tags: ["uxDesign","design","dark","mode"],
     transform: createStandardSkillTransform({
@@ -1544,7 +1544,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-skeleton-loader-ui-perceived-performance",
     name: "SkeletonLoaderUIPerceivedPerformanceSkill",
     displayName: "Skeleton Loader UI Perceived Performance",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Skeleton Loader UI Perceived Performance.",
     tags: ["uxDesign","design","skeleton","loader"],
     transform: createStandardSkillTransform({
@@ -1569,7 +1569,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-responsive-typography-fluid-clamp-scale",
     name: "ResponsiveTypographyFluidClampScaleSkill",
     displayName: "Responsive Typography Fluid Clamp() Scale",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Responsive Typography Fluid Clamp() Scale.",
     tags: ["uxDesign","design","responsive","typography"],
     transform: createStandardSkillTransform({
@@ -1594,7 +1594,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-interactive-micro-animations-200ms-spring-physics",
     name: "InteractiveMicroAnimations200msSpringPhysicsSkill",
     displayName: "Interactive Micro-Animations 200ms Spring Physics",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Interactive Micro-Animations 200ms Spring Physics.",
     tags: ["uxDesign","design","interactive","micro"],
     transform: createStandardSkillTransform({
@@ -1619,7 +1619,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-user-onboarding-checklist-progress-gamification",
     name: "UserOnboardingChecklistProgressGamificationSkill",
     displayName: "User Onboarding Checklist Progress Gamification",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for User Onboarding Checklist Progress Gamification.",
     tags: ["uxDesign","design","user","onboarding"],
     transform: createStandardSkillTransform({
@@ -1644,7 +1644,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-zero-state-empty-state-cta-activation",
     name: "ZeroStateEmptyStateCTAActivationSkill",
     displayName: "Zero-State Empty State CTA Activation",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Zero-State Empty State CTA Activation.",
     tags: ["uxDesign","design","zero","state"],
     transform: createStandardSkillTransform({
@@ -1669,7 +1669,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-form-validation-inline-instant-feedback-error-assist",
     name: "FormValidationInlineInstantFeedbackErrorAssistSkill",
     displayName: "Form Validation Inline Instant Feedback & Error Assist",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Form Validation Inline Instant Feedback & Error Assist.",
     tags: ["uxDesign","design","form","validation"],
     transform: createStandardSkillTransform({
@@ -1694,7 +1694,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-breadcrumb-navigation-nested-category-wayfinding",
     name: "BreadcrumbNavigationNestedCategoryWayfindingSkill",
     displayName: "Breadcrumb Navigation & Nested Category Wayfinding",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Breadcrumb Navigation & Nested Category Wayfinding.",
     tags: ["uxDesign","design","breadcrumb","navigation"],
     transform: createStandardSkillTransform({
@@ -1719,7 +1719,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-infinite-scroll-vs-pagination-virtualized-list",
     name: "InfiniteScrollvsPaginationVirtualizedListSkill",
     displayName: "Infinite Scroll vs Pagination Virtualized List",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Infinite Scroll vs Pagination Virtualized List.",
     tags: ["uxDesign","design","infinite","scroll"],
     transform: createStandardSkillTransform({
@@ -1744,7 +1744,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-bottom-navigation-bar-thumb-zone-usability",
     name: "BottomNavigationBarThumbZoneUsabilitySkill",
     displayName: "Bottom Navigation Bar Thumb-Zone Usability",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Bottom Navigation Bar Thumb-Zone Usability.",
     tags: ["uxDesign","design","bottom","navigation"],
     transform: createStandardSkillTransform({
@@ -1769,7 +1769,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-drag-and-drop-kanban-board-reorder-affordance",
     name: "DragandDropKanbanBoardReorderAffordanceSkill",
     displayName: "Drag-and-Drop Kanban Board Reorder Affordance",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Drag-and-Drop Kanban Board Reorder Affordance.",
     tags: ["uxDesign","design","drag","and"],
     transform: createStandardSkillTransform({
@@ -1794,7 +1794,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-modal-dialog-vs-drawer-vs-toast-placement-matrix",
     name: "ModalDialogvsDrawervsToastPlacementMatrixSkill",
     displayName: "Modal Dialog vs Drawer vs Toast Placement Matrix",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Modal Dialog vs Drawer vs Toast Placement Matrix.",
     tags: ["uxDesign","design","modal","dialog"],
     transform: createStandardSkillTransform({
@@ -1819,7 +1819,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-search-auto-complete-fast-fuzzy-match-dropdown",
     name: "SearchAutoCompleteFastFuzzyMatchDropdownSkill",
     displayName: "Search Auto-Complete Fast Fuzzy Match Dropdown",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Search Auto-Complete Fast Fuzzy Match Dropdown.",
     tags: ["uxDesign","design","search","auto"],
     transform: createStandardSkillTransform({
@@ -1844,7 +1844,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-checkout-funnel-1-click-frictionless-payment-ux",
     name: "CheckoutFunnel1ClickFrictionlessPaymentUXSkill",
     displayName: "Checkout Funnel 1-Click Frictionless Payment UX",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Checkout Funnel 1-Click Frictionless Payment UX.",
     tags: ["uxDesign","design","checkout","funnel"],
     transform: createStandardSkillTransform({
@@ -1869,7 +1869,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-user-persona-journey-empathy-mapping-canvas",
     name: "UserPersonaJourneyEmpathyMappingCanvasSkill",
     displayName: "User Persona Journey Empathy Mapping Canvas",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for User Persona Journey Empathy Mapping Canvas.",
     tags: ["uxDesign","design","user","persona"],
     transform: createStandardSkillTransform({
@@ -1894,7 +1894,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-usability-testing-rite-rapid-iterative-protocol",
     name: "UsabilityTestingRITERapidIterativeProtocolSkill",
     displayName: "Usability Testing RITE Rapid Iterative Protocol",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Usability Testing RITE Rapid Iterative Protocol.",
     tags: ["uxDesign","design","usability","testing"],
     transform: createStandardSkillTransform({
@@ -1919,7 +1919,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-heatmap-eye-tracking-f-shaped-reading-pattern",
     name: "HeatmapEyeTrackingFShapedReadingPatternSkill",
     displayName: "Heatmap & Eye-Tracking F-Shaped Reading Pattern",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Heatmap & Eye-Tracking F-Shaped Reading Pattern.",
     tags: ["uxDesign","design","heatmap","eye"],
     transform: createStandardSkillTransform({
@@ -1944,7 +1944,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-heuristic-evaluation-nielsen-10-usability-principles",
     name: "HeuristicEvaluationNielsen10UsabilityPrinciplesSkill",
     displayName: "Heuristic Evaluation Nielsen 10 Usability Principles",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Heuristic Evaluation Nielsen 10 Usability Principles.",
     tags: ["uxDesign","design","heuristic","evaluation"],
     transform: createStandardSkillTransform({
@@ -1969,7 +1969,7 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
     id: "ux-design-sticky-header-smooth-scrollspy-table-of-contents",
     name: "StickyHeaderSmoothScrollspyTableofContentsSkill",
     displayName: "Sticky Header Smooth Scrollspy Table of Contents",
-    categoryId: "uxDesign",
+    categoryId: 'ux_design',
     description: "Applies advanced industry standards, verified protocols, and domain best practices for Sticky Header Smooth Scrollspy Table of Contents.",
     tags: ["uxDesign","design","sticky","header"],
     transform: createStandardSkillTransform({
@@ -1987,6 +1987,1003 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
 ],
       semanticType: "structural_directive",
       tags: ["uxDesign","design","sticky","header"],
+    }),
+  },
+  "ux-design-command-palette-fuzzy-search-hotkey": {
+    id: "ux-design-command-palette-fuzzy-search-hotkey",
+    name: "UxDesignCommandPaletteFuzzySearchHotkeySkill",
+    displayName: "Global Command Palette (Cmd+K / Ctrl+K) & Fuzzy Search Action Center",
+    categoryId: 'ux_design',
+    description: "Designs keyboard-first navigation with global Cmd+K command palettes, fuzzy scoring, recent history, and grouped action categories.",
+    tags: ["ux-design","command-palette","keyboard-navigation","fuzzy-search","accessibility"],
+    transform: createStandardSkillTransform({
+      sectionName: "Command Palette (Cmd+K) UX Architecture",
+      ruSectionName: "Командная палитра быстрого доступа (Cmd+K / Ctrl+K) с нечетким поиском",
+      instructions: [
+        "Bind global `Cmd+K` / `Ctrl+K` hotkey listener with automatic input focus and backdrop blur overlay.",
+        "Group results dynamically: Recent Actions, Navigation Pages, Settings, and Entity Quick Creation.",
+        "Support full keyboard navigation (Up/Down arrows, Enter to execute, Escape to dismiss) without mouse dependency."
+],
+      ruInstructions: [
+        "Привязывайте глобальное сочетание `Cmd+K` / `Ctrl+K` с мгновенным фокусом в поле поиска и размытием фона.",
+        "Группируйте результаты по блокам: Недавние действия, Навигация, Настройки и Быстрое создание.",
+        "Обеспечивайте полное управление с клавиатуры (стрелки, Enter для выбора, Esc для закрытия)."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","command-palette","keyboard-navigation","fuzzy-search","accessibility"],
+    }),
+  },
+
+  "ux-design-micro-interaction-spring-physics-haptics": {
+    id: "ux-design-micro-interaction-spring-physics-haptics",
+    name: "UxDesignMicroInteractionSpringPhysicsHapticsSkill",
+    displayName: "Micro-Interactions with Spring Physics & Tactile Haptic Feedback",
+    categoryId: 'ux_design',
+    description: "Crafts tactile button clicks, pull-to-refresh snaps, and toggle switches using physical spring damping and subtle mobile haptics.",
+    tags: ["ux-design","micro-interactions","spring-physics","haptics","animation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Spring Physics Micro-Interactions Standards",
+      ruSectionName: "Микроанимации на физике пружин (Spring Physics) и тактильный отклик (Haptics)",
+      instructions: [
+        "Use physically modeled spring curves (stiffness: 300, damping: 25) instead of linear CSS easing.",
+        "Trigger subtle 10ms haptic pulses (`navigator.vibrate(10)`) on mobile toggle switches and state confirmations.",
+        "Ensure all animations complete within 150-250ms to maintain crisp interface responsiveness."
+],
+      ruInstructions: [
+        "Используйте физические пружинные анимации (Spring) вместо линейных CSS-переходов.",
+        "Добавляйте легкий 10 мс виброотклик (`navigator.vibrate`) при переключении тумблеров на мобильных устройствах.",
+        "Ограничивайте длительность микроанимаций в пределах 150–250 мс для ощущения мгновенной отзывчивости."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","micro-interactions","spring-physics","haptics","animation"],
+    }),
+  },
+
+  "ux-design-accessible-focus-trap-modal-dialog": {
+    id: "ux-design-accessible-focus-trap-modal-dialog",
+    name: "UxDesignAccessibleFocusTrapModalDialogSkill",
+    displayName: "WCAG 2.2 Accessible Focus-Trap & Keyboard Modal Navigation",
+    categoryId: 'ux_design',
+    description: "Implements accessible modal dialogs with strict DOM focus trapping, Escape key listener, and focus restoration to trigger element.",
+    tags: ["ux-design","accessibility","focus-trap","wcag","keyboard"],
+    transform: createStandardSkillTransform({
+      sectionName: "Accessible Focus-Trap Standards",
+      ruSectionName: "Доступные модальные окна (WCAG 2.2: захват фокуса и возврат на триггер)",
+      instructions: [
+        "Trap Tab / Shift+Tab keyboard focus strictly inside the modal container when open.",
+        "Attach `aria-modal='true'`, `role='dialog'`, and `aria-labelledby` referencing modal header title.",
+        "Restore focus automatically to the originating button trigger upon modal closing."
+],
+      ruInstructions: [
+        "Удерживайте фокус клавиши Tab внутри модального окна, исключая переход к элементам подложки.",
+        "Задавайте атрибуты `aria-modal='true'`, `role='dialog'` и связывайте заголовок через `aria-labelledby`.",
+        "Возвращайте фокус на вызвавший модальное окно элемент интерфейса после его закрытия."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","accessibility","focus-trap","wcag","keyboard"],
+    }),
+  },
+
+  "ux-design-frictionless-passwordless-magic-link": {
+    id: "ux-design-frictionless-passwordless-magic-link",
+    name: "UxDesignFrictionlessPasswordlessMagicLinkSkill",
+    displayName: "Frictionless Passwordless Login (Magic Links & WebAuthn Passkeys)",
+    categoryId: 'ux_design',
+    description: "Eliminates password fatigue with single-tap Passkey biometric authentication (FaceID/TouchID) and 1-click email magic links.",
+    tags: ["ux-design","passkeys","webauthn","magic-link","authentication","onboarding"],
+    transform: createStandardSkillTransform({
+      sectionName: "Passwordless Authentication UX Standards",
+      ruSectionName: "Беспарольная авторизация (Passkeys / FaceID, TouchID и Magic Links)",
+      instructions: [
+        "Prioritize native WebAuthn passkey biometric prompt as the primary 1-click login method.",
+        "Provide fallback email magic links with clear 6-digit numeric verification code fallback.",
+        "Remember user device trust status to eliminate unnecessary authentication friction on repeat visits."
+],
+      ruInstructions: [
+        "Предлагайте биометрический вход по Passkeys (FaceID / TouchID) как основной сценарий в 1 клик.",
+        "Предоставляйте альтернативный вход по Magic Link в письме с дублированием 6-значным числовым кодом.",
+        "Запоминайте доверенные устройства пользователя для исключения повторных входов на персональных девайсах."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","passkeys","webauthn","magic-link","authentication","onboarding"],
+    }),
+  },
+
+  "ux-design-empty-state-first-time-activation": {
+    id: "ux-design-empty-state-first-time-activation",
+    name: "UxDesignEmptyStateFirstTimeActivationSkill",
+    displayName: "Delightful Empty States & First-Time User Activation Funnels",
+    categoryId: 'ux_design',
+    description: "Transforms blank screens into engaging launchpads with illustration, clear value proposition, and prominent 1-click creation CTA.",
+    tags: ["ux-design","empty-state","activation","onboarding","cta"],
+    transform: createStandardSkillTransform({
+      sectionName: "Empty State Activation Standards",
+      ruSectionName: "Дизайн пустых состояний (Empty States) и быстрая активация новичков",
+      instructions: [
+        "Never present a completely blank screen; display a friendly thematic icon or minimal illustration.",
+        "Explain the exact purpose of the screen in 1 concise sentence followed by the primary creation button.",
+        "Offer 2-3 pre-built starter templates for instant 1-click exploration."
+],
+      ruInstructions: [
+        "Никогда не оставляйте экран пустым; размещайте лаконичную тематическую иллюстрацию или иконку.",
+        "Объясняйте назначение экрана в одном предложении и размещайте крупную кнопку создания первого объекта.",
+        "Предлагайте 2–3 готовых шаблона для быстрого заполнения данных в один клик."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","empty-state","activation","onboarding","cta"],
+    }),
+  },
+
+  "ux-design-destructive-action-safeguard-friction": {
+    id: "ux-design-destructive-action-safeguard-friction",
+    name: "UxDesignDestructiveActionSafeguardFrictionSkill",
+    displayName: "Destructive Action Safeguards & Intentional Friction Friction Gates",
+    categoryId: 'ux_design',
+    description: "Prevents accidental data loss by requiring explicit resource name typing, countdown delay timers, and undo snackbars.",
+    tags: ["ux-design","safety","destructive-actions","confirmation","error-prevention"],
+    transform: createStandardSkillTransform({
+      sectionName: "Destructive Action Safety Standards",
+      ruSectionName: "Защита от случайного удаления (Ввод имени ресурса, таймеры задержки и Undo)",
+      instructions: [
+        "For irreversible high-risk actions (delete database/project), mandate typing the exact resource name into an input field.",
+        "Disable the confirmation button until the typed string matches 100%.",
+        "Pair non-critical deletions with a 5-second 'Undo' snackbar notification before permanent purge."
+],
+      ruInstructions: [
+        "Для необратимых действий (удаление проекта) требуйте точного ввода названия объекта в поле подтверждения.",
+        "Блокируйте кнопку удаления до полного посимвольного совпадения введенного названия.",
+        "Сопровождайте стандартные удаления всплывающим уведомлением с кнопкой «Отменить» (Undo) на 5–10 секунд."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","safety","destructive-actions","confirmation","error-prevention"],
+    }),
+  },
+
+  "ux-design-mobile-bottom-sheet-gesture-ergonomics": {
+    id: "ux-design-mobile-bottom-sheet-gesture-ergonomics",
+    name: "UxDesignMobileBottomSheetGestureErgonomicsSkill",
+    displayName: "Mobile Bottom Sheet Gesture Ergonomics & Thumb-Zone Reach",
+    categoryId: 'ux_design',
+    description: "Positions complex mobile forms and filters in swipeable bottom sheets with snap points (collapsed, half, expanded) in the thumb zone.",
+    tags: ["ux-design","mobile","bottom-sheet","gestures","thumb-zone"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mobile Bottom Sheet Gesture Standards",
+      ruSectionName: "Мобильные шторки (Bottom Sheets) с поддержкой жестов в зоне досягаемости пальца",
+      instructions: [
+        "Anchor interactive sheets to the bottom of mobile viewports for effortless single-hand thumb reach.",
+        "Implement fluid drag gestures with magnetic snap points at 25%, 50%, and 90% screen height.",
+        "Dismiss sheet smoothly on downward velocity flick or backdrop tap."
+],
+      ruInstructions: [
+        "Размещайте интерактивные панели в нижней части экрана для комфортного управления одной рукой.",
+        "Поддерживайте плавное перетаскивание с магнитными точками фиксации на 25%, 50% и 90% высоты экрана.",
+        "Закрывайте шторку быстрым свайпом вниз или тапом по затемненной подложке."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","mobile","bottom-sheet","gestures","thumb-zone"],
+    }),
+  },
+
+  "ux-design-infinite-scroll-virtualized-list-windowing": {
+    id: "ux-design-infinite-scroll-virtualized-list-windowing",
+    name: "UxDesignInfiniteScrollVirtualizedListWindowingSkill",
+    displayName: "Virtualized List Windowing (react-window) & Infinite Scroll UX",
+    categoryId: 'ux_design',
+    description: "Renders 100,000+ item lists at 60fps by rendering only visible DOM nodes, preserving scroll positions across page navigations.",
+    tags: ["ux-design","virtualization","infinite-scroll","performance","dom-windowing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Virtualized Windowing List Standards",
+      ruSectionName: "Виртуализация длинных списков (DOM Windowing) и бесконечный скролл без тормозов",
+      instructions: [
+        "Render only elements within the current viewport plus a 5-item overscan buffer using DOM virtualization.",
+        "Maintain scroll position and restore exact pixel offset when users navigate back from detail pages.",
+        "Display subtle bottom loading skeletons when fetching subsequent pagination batches."
+],
+      ruInstructions: [
+        "Рендерите в DOM только видимые на экране элементы плюс небольшой буфер запаса (5 элементов).",
+        "Сохраняйте и точно восстанавливайте позицию скролла при возврате со страницы детального просмотра.",
+        "Показывайте ненавязчивые скелетоны загрузки внизу списка при подгрузке новых страниц."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","virtualization","infinite-scroll","performance","dom-windowing"],
+    }),
+  },
+
+  "ux-design-faceted-search-filter-instant-refinement": {
+    id: "ux-design-faceted-search-filter-instant-refinement",
+    name: "UxDesignFacetedSearchFilterInstantRefinementSkill",
+    displayName: "Faceted Search, Multi-Select Tag Filters & Live Count Badges",
+    categoryId: 'ux_design',
+    description: "Structures enterprise search with multi-select facet filters, live matching item count badges, and 1-click active tag clearing.",
+    tags: ["ux-design","faceted-search","filters","e-commerce","search-ux"],
+    transform: createStandardSkillTransform({
+      sectionName: "Faceted Search & Filtering Standards",
+      ruSectionName: "Фасетный поиск с динамическими счетчиками и быстрой очисткой фильтров",
+      instructions: [
+        "Display dynamic item count badges next to each checkbox filter reflecting remaining matching results.",
+        "Show all actively applied filters as removable chips above the result grid for immediate visibility.",
+        "Provide a global 'Clear All Filters' button and update URL search parameters for shareable query links."
+],
+      ruInstructions: [
+        "Отображайте динамические бейджи с числом подходящих товаров рядом с каждым чекбоксом фильтра.",
+        "Выносите все активные фильтры в виде закрываемых плашек (Chips) над результатами поиска.",
+        "Добавляйте кнопку «Сбросить все» и синхронизируйте состояние фильтров с параметрами URL."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","faceted-search","filters","e-commerce","search-ux"],
+    }),
+  },
+
+  "ux-design-dark-mode-apca-contrast-oled-black": {
+    id: "ux-design-dark-mode-apca-contrast-oled-black",
+    name: "UxDesignDarkModeApcaContrastOledBlackSkill",
+    displayName: "Accessible Dark Mode & APCA Perceptual Contrast Scale",
+    categoryId: 'ux_design',
+    description: "Tunes dark mode surfaces with elevated neutral grays (#121212 / #1E1E1E), muted accent tones, and zero eye-straining pure white text.",
+    tags: ["ux-design","dark-mode","contrast","apca","color-theory"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dark Mode Contrast Standards",
+      ruSectionName: "Дизайн темной темы: шкала контраста APCA, нейтральные серые фоны и защита глаз",
+      instructions: [
+        "Avoid pure black (#000000) for large surfaces; use deep elevated grays (`#121212`, `#18181B`) for card depth.",
+        "Tone down high-contrast pure white text (#FFFFFF) to soft neutral off-white (`#E4E4E7` / `#F4F4F5`) to prevent eye fatigue.",
+        "Desaturate vibrant primary accent colors slightly in dark mode to preserve perceptual legibility."
+],
+      ruInstructions: [
+        "Избегайте глухого черного (#000000) для поверхностей; используйте глубокие темно-серые тона для передачи слоев интерфейса.",
+        "Смягчайте ярко-белый текст до мягких оттенков (`#E4E4E7`), предотвращая эффект ореола и усталость глаз.",
+        "Снижайте насыщенность ярких акцентных цветов в темной теме для сохранения читаемости."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","dark-mode","contrast","apca","color-theory"],
+    }),
+  },
+
+  "ux-design-multi-step-wizard-progress-gamification": {
+    id: "ux-design-multi-step-wizard-progress-gamification",
+    name: "UxDesignMultiStepWizardProgressGamificationSkill",
+    displayName: "Multi-Step Onboarding Wizard & Completion Progress Bar",
+    categoryId: 'ux_design',
+    description: "Guides users through complex setup flows with segmented progress bars, auto-saving drafts, and optional skip steps.",
+    tags: ["ux-design","onboarding","wizard","progress-bar","form-ux"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Step Wizard Standards",
+      ruSectionName: "Пошаговый мастер настройки (Multi-Step Wizard) с автосохранением и прогресс-баром",
+      instructions: [
+        "Display clear segmented progress steps: 'Step 2 of 4: Team Configuration'.",
+        "Persist form state in localStorage automatically so users never lose progress on accidental tab closure.",
+        "Allow skipping non-essential steps ('Skip for now') to reach the product core value faster."
+],
+      ruInstructions: [
+        "Отображайте понятный пошаговый индикатор прогресса («Шаг 2 из 4: Настройка команды»).",
+        "Автоматически сохраняйте черновик формы в локальное хранилище при переходе между шагами.",
+        "Предоставляйте возможность пропустить второстепенные шаги для быстрого старта в продукте."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","onboarding","wizard","progress-bar","form-ux"],
+    }),
+  },
+
+  "ux-design-contextual-inline-tooltips-hotkeys": {
+    id: "ux-design-contextual-inline-tooltips-hotkeys",
+    name: "UxDesignContextualInlineTooltipsHotkeysSkill",
+    displayName: "Contextual Inline Tooltips & Keyboard Hotkey Badges",
+    categoryId: 'ux_design',
+    description: "Enhances icon-only buttons with delayed contextual tooltips displaying action descriptions and keyboard shortcut badges (e.g. ⌘S).",
+    tags: ["ux-design","tooltips","hotkeys","microcopy","ui-affordance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Contextual Tooltips & Hotkey Standards",
+      ruSectionName: "Контекстные всплывающие подсказки (Tooltips) с бейджами горячих клавиш (⌘S)",
+      instructions: [
+        "Add a 300ms hover delay before opening tooltips to avoid visual clutter during rapid mouse scanning.",
+        "Include keyboard shortcut keys in a formatted badge `<kbd>⌘K</kbd>` next to the action label.",
+        "Position tooltips automatically using Popper / Floating-UI with collision boundary flips."
+],
+      ruInstructions: [
+        "Задавайте задержку появления подсказки в 300 мс для защиты от визуального шума при движении мыши.",
+        "Отображайте сочетание горячих клавиш в стилизованном бейдже `<kbd>⌘S</kbd>` рядом с описанием.",
+        "Автоматически корректируйте позицию подсказки при приближении к границам экрана (Floating UI)."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","tooltips","hotkeys","microcopy","ui-affordance"],
+    }),
+  },
+
+  "ux-design-fluid-typography-clamp-responsive-scale": {
+    id: "ux-design-fluid-typography-clamp-responsive-scale",
+    name: "UxDesignFluidTypographyClampResponsiveScaleSkill",
+    displayName: "Fluid Typography & CSS `clamp()` Viewport Scaling",
+    categoryId: 'ux_design',
+    description: "Calculates seamless fluid font sizes scaling proportionally from mobile (320px) to ultra-wide desktop (1920px) via CSS clamp().",
+    tags: ["ux-design","typography","css-clamp","responsive","design-tokens"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fluid Typography Standards",
+      ruSectionName: "Плавная адаптивная типографика (CSS clamp() без дискретных медиа-запросов)",
+      instructions: [
+        "Use `clamp(minSize, preferredFormula, maxSize)` (e.g. `clamp(1rem, 0.8rem + 1vw, 1.75rem)`).",
+        "Maintain a consistent modular scale ratio (1.25 Major Third or 1.333 Perfect Fourth).",
+        "Ensure line-heights scale inversely with font size to preserve paragraph readability."
+],
+      ruInstructions: [
+        "Применяйте функцию `clamp(min, formula, max)` для плавной адаптации заголовков под размер экрана.",
+        "Соблюдайте гармоничные пропорции модульной шкалы шрифтов (например, 1.25 Major Third).",
+        "Уменьшайте относительный интерлиньяж (line-height) для крупных заголовков для компактности."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","typography","css-clamp","responsive","design-tokens"],
+    }),
+  },
+
+  "ux-design-inline-form-validation-instant-assist": {
+    id: "ux-design-inline-form-validation-instant-assist",
+    name: "UxDesignInlineFormValidationInstantAssistSkill",
+    displayName: "Proactive Inline Form Validation & Smart Input Masking",
+    categoryId: 'ux_design',
+    description: "Validates inputs on blur with positive checkmark confirmations, contextual error remedies, and automatic credit card / phone masking.",
+    tags: ["ux-design","forms","validation","input-masking","conversion"],
+    transform: createStandardSkillTransform({
+      sectionName: "Inline Form Validation Standards",
+      ruSectionName: "Умная валидация форм (Inline Validation, маски ввода и позитивные чекмарки)",
+      instructions: [
+        "Validate on field blur (focus exit) rather than on every keystroke to avoid premature error scolding.",
+        "Show a subtle green checkmark icon when input requirements are successfully satisfied.",
+        "Format phone numbers and currency inputs dynamically with smart input masks as user types."
+],
+      ruInstructions: [
+        "Проверяйте корректность поля при потере фокуса (onBlur), а не при первом же нажатии клавиши.",
+        "Показывайте зеленую иконку подтверждения при успешном заполнении сложных полей.",
+        "Применяйте автоматические маски для форматирования телефонов, дат и сумм по мере ввода."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","forms","validation","input-masking","conversion"],
+    }),
+  },
+
+  "ux-design-live-collaborative-presence-cursors": {
+    id: "ux-design-live-collaborative-presence-cursors",
+    name: "UxDesignLiveCollaborativePresenceCursorsSkill",
+    displayName: "Figma-Style Multiplayer Collaborative Cursors & Presence Avatars",
+    categoryId: 'ux_design',
+    description: "Renders real-time peer user cursors with smooth spring interpolation, colored name tags, and active selection bounding boxes.",
+    tags: ["ux-design","multiplayer","presence","collaboration","realtime-ux"],
+    transform: createStandardSkillTransform({
+      sectionName: "Collaborative Presence UX Standards",
+      ruSectionName: "Многопользовательские живые курсоры (Figma-Style Presence) и аватары участников",
+      instructions: [
+        "Interpolate cursor X/Y coordinates using linear interpolation (LERP) or spring physics to smooth network jitter.",
+        "Assign each active participant a unique high-contrast color token and name pill badge.",
+        "Fade out inactive peer cursors after 5 seconds of idle mouse stillness."
+],
+      ruInstructions: [
+        "Интерполируйте координаты движения курсоров (LERP) для сглаживания сетевых задержек.",
+        "Присваивайте каждому участнику уникальный цветовой бейдж с именем.",
+        "Плавно скрывайте неактивные курсоры через 5 секунд отсутствия движения мыши."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","multiplayer","presence","collaboration","realtime-ux"],
+    }),
+  },
+
+  "ux-design-dual-axis-sticky-spreadsheet-table": {
+    id: "ux-design-dual-axis-sticky-spreadsheet-table",
+    name: "UxDesignDualAxisStickySpreadsheetTableSkill",
+    displayName: "Dual-Axis Sticky Headers & High-Density Spreadsheet Tables",
+    categoryId: 'ux_design',
+    description: "Builds large analytical data grids with sticky column headers, frozen leading ID columns, and smooth horizontal scrolling.",
+    tags: ["ux-design","data-grid","spreadsheet","sticky-headers","tables"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dual-Axis Sticky Table Standards",
+      ruSectionName: "Аналитические таблицы с фиксацией строк и колонок (Sticky Dual-Axis Tables)",
+      instructions: [
+        "Pin table headers (`thead th { position: sticky; top: 0; }`) with background fills and subtle bottom border shadow.",
+        "Freeze first 1-2 identifier columns (`position: sticky; left: 0;`) with right shadow dividers during horizontal scroll.",
+        "Provide column resizing drag handles and column show/hide toggle dropdowns."
+],
+      ruInstructions: [
+        "Фиксируйте шапку таблицы сверху (`position: sticky; top: 0`) с непрозрачным фоном и тенью снизу.",
+        "Закрепляйте первые колонки с ID и названием (`position: sticky; left: 0`) при горизонтальной прокрутке.",
+        "Добавляйте возможность изменения ширины колонок и меню настройки видимости столбцов."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","data-grid","spreadsheet","sticky-headers","tables"],
+    }),
+  },
+
+  "ux-design-drag-and-drop-kanban-board-affordance": {
+    id: "ux-design-drag-and-drop-kanban-board-affordance",
+    name: "UxDesignDragAndDropKanbanBoardAffordanceSkill",
+    displayName: "Drag-and-Drop Kanban Board Interaction & Drop Indicator Shadows",
+    categoryId: 'ux_design',
+    description: "Implements accessible drag-and-drop task boards with elevated card shadows during drag, placeholder drop zones, and keyboard reordering.",
+    tags: ["ux-design","drag-and-drop","kanban","board","interactions"],
+    transform: createStandardSkillTransform({
+      sectionName: "Drag-and-Drop Interaction Standards",
+      ruSectionName: "Интерактивные Kanban-доски (Drag-and-Drop с тенями и placeholder-зонами)",
+      instructions: [
+        "Elevate dragged card with increased z-index, slight rotation (2deg), and prominent drop shadow.",
+        "Render an animated dashed placeholder box indicating exact landing insert position.",
+        "Provide accessible keyboard shortcut controls (Space to pick up, Up/Down/Left/Right arrows, Space to drop)."
+],
+      ruInstructions: [
+        "Приподнимайте перетаскиваемую карточку с легким наклоном (2°) и выразительной тенью.",
+        "Отображайте пунктирную рамку-заполнитель в месте предполагаемого сброса карточки.",
+        "Поддерживайте доступное управление с клавиатуры (Пробел для захвата, стрелки для перемещения)."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","drag-and-drop","kanban","board","interactions"],
+    }),
+  },
+
+  "ux-design-toast-notification-stacking-priority": {
+    id: "ux-design-toast-notification-stacking-priority",
+    name: "UxDesignToastNotificationStackingPrioritySkill",
+    displayName: "Toast Notification Stacking, Auto-Dismiss & Priority Queues",
+    categoryId: 'ux_design',
+    description: "Manages non-intrusive bottom-right toast alerts with countdown progress bars, swipe dismissal, and max 3-item stacking.",
+    tags: ["ux-design","toasts","notifications","alerts","feedback"],
+    transform: createStandardSkillTransform({
+      sectionName: "Toast Notification Stack Standards",
+      ruSectionName: "Стек всплывающих уведомлений (Toasts: автозакрытие, свайп и лимит очереди)",
+      instructions: [
+        "Limit concurrent visible toasts to maximum 3 stacked items; queue excess messages.",
+        "Provide a visual progress bar indicating remaining duration before auto-dismissal (default 4 seconds).",
+        "Pause countdown timer while user hovers mouse over the toast to prevent reading frustration."
+],
+      ruInstructions: [
+        "Ограничивайте число одновременно отображаемых тостов до 3; ставьте остальные в очередь.",
+        "Показывайте визуальную полосу обратного отсчета времени до автоматического закрытия (4 секунды).",
+        "Приостанавливайте таймер автозакрытия при наведении курсора мыши на текст уведомления."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","toasts","notifications","alerts","feedback"],
+    }),
+  },
+
+  "ux-design-progressive-disclosure-expandable-drawers": {
+    id: "ux-design-progressive-disclosure-expandable-drawers",
+    name: "UxDesignProgressiveDisclosureExpandableDrawersSkill",
+    displayName: "Progressive Disclosure & Expandable Advanced Settings Drawers",
+    categoryId: 'ux_design',
+    description: "Keeps primary user interfaces clean by concealing advanced configurations inside accordion drawers and expandable disclosure panels.",
+    tags: ["ux-design","progressive-disclosure","drawers","clean-ui","cognitive-load"],
+    transform: createStandardSkillTransform({
+      sectionName: "Progressive Disclosure UX Standards",
+      ruSectionName: "Прогрессивное раскрытие (Progressive Disclosure) и скрытие сложных настроек",
+      instructions: [
+        "Present 80% most common use-cases directly on the primary viewport without nesting.",
+        "Group power-user dials and edge-case settings under an 'Advanced Settings' expandable toggle.",
+        "Animate disclosure height smoothly without causing jarring sudden layout shifts."
+],
+      ruInstructions: [
+        "Выносите 80% типовых сценариев на главный экран без лишних вложенных меню.",
+        "Прячьте расширенные параметры для профи в раскрывающийся блок «Дополнительные настройки».",
+        "Анимируйте раскрытие плавно, исключая резкие скачки высоты контента."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","progressive-disclosure","drawers","clean-ui","cognitive-load"],
+    }),
+  },
+
+  "ux-design-skeleton-loader-content-placeholders": {
+    id: "ux-design-skeleton-loader-content-placeholders",
+    name: "UxDesignSkeletonLoaderContentPlaceholdersSkill",
+    displayName: "Perceived Performance: Shimmering Skeleton Content Placeholders",
+    categoryId: 'ux_design',
+    description: "Replaces jarring spinner wheels with shimmering gray wireframe placeholders matching exact typography and image aspect ratios.",
+    tags: ["ux-design","skeleton-loaders","perceived-performance","loading-ux","shimmer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Skeleton Loader Placeholder Standards",
+      ruSectionName: "Скелетоны загрузки (Shimmering Skeleton Loaders) для восприятия мгновенной скорости",
+      instructions: [
+        "Match skeleton placeholder dimensions precisely to incoming avatar circles, headline bars, and card boxes.",
+        "Apply a gentle linear gradient shimmer animation sweeping from left to right every 1.5 seconds.",
+        "Cross-fade smoothly from skeleton to populated content to prevent visual blinking."
+],
+      ruInstructions: [
+        "Формируйте скелетоны точно по геометрии будущих карточек, аватаров и текстовых блоков.",
+        "Используйте мягкую анимацию градиентного перелива (Shimmer), движущуюся слева направо.",
+        "Переключайте скелетон на готовый контент через плавный Cross-fade без мигания экрана."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","skeleton-loaders","perceived-performance","loading-ux","shimmer"],
+    }),
+  },
+  "ux-design-accessible-aria-live-announcements": {
+    id: "ux-design-accessible-aria-live-announcements",
+    name: "UxDesignAccessibleAriaLiveAnnouncementsSkill",
+    displayName: "Screen Reader Live Regions (aria-live='polite') & Audio Accessibility",
+    categoryId: 'ux_design',
+    description: "Announces dynamic search result counts, async save confirmations, and error alerts to visually impaired screen reader users via ARIA live regions.",
+    tags: ["ux-design","accessibility","screen-readers","aria-live","wcag"],
+    transform: createStandardSkillTransform({
+      sectionName: "ARIA Live Region Standards",
+      ruSectionName: "Оповещение скринридеров об обновлениях экрана (aria-live='polite')",
+      instructions: [
+        "Use `aria-live='polite'` for non-urgent background state updates (e.g. '3 results found').",
+        "Use `aria-live='assertive'` sparingly only for critical immediate errors that demand instant attention.",
+        "Clear live region text content after 1 second to prevent stale buffer re-announcements."
+],
+      ruInstructions: [
+        "Используйте `aria-live='polite'` для фоновых обновлений (например, «Найдено 3 результата»).",
+        "Применяйте `aria-live='assertive'` только для критических ошибок, требующих немедленной реакции.",
+        "Очищайте текст живого региона через 1 секунду во избежание повторного озвучивания."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","accessibility","screen-readers","aria-live","wcag"],
+    }),
+  },
+
+  "ux-design-infinite-canvas-pan-zoom-controls": {
+    id: "ux-design-infinite-canvas-pan-zoom-controls",
+    name: "UxDesignInfiniteCanvasPanZoomControlsSkill",
+    displayName: "Miro/Figma Infinite Canvas Navigation, Mini-Map & Zoom Pacing",
+    categoryId: 'ux_design',
+    description: "Implements infinite workspace navigation: pinch-to-zoom, middle-mouse panning, floating mini-map navigation, and zoom-to-fit hotkeys.",
+    tags: ["ux-design","infinite-canvas","pan-zoom","mini-map","visual-workspace"],
+    transform: createStandardSkillTransform({
+      sectionName: "Infinite Canvas Navigation Standards",
+      ruSectionName: "Навигация по бесконечному холсту (Pan & Zoom, интерактивная миникарта, центрирование)",
+      instructions: [
+        "Support smooth pinch-to-zoom centered precisely on the user's cursor position.",
+        "Provide a floating interactive Mini-Map in the bottom-right corner displaying active viewport rectangle.",
+        "Bind `Shift+1` or `Cmd+0` hotkey for instant Zoom-to-Fit all canvas items."
+],
+      ruInstructions: [
+        "Реализуйте плавное масштабирование (Zoom) с фокусом в текущую точку курсора мыши.",
+        "Отображайте интерактивную миникарту в правом нижнем углу с рамкой текущей области видимости.",
+        "Привязывайте горячую клавишу `Shift+1` / `Cmd+0` для быстрого показа всех объектов на экране."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","infinite-canvas","pan-zoom","mini-map","visual-workspace"],
+    }),
+  },
+
+  "ux-design-microcopy-voice-and-tone-matrix": {
+    id: "ux-design-microcopy-voice-and-tone-matrix",
+    name: "UxDesignMicrocopyVoiceAndToneMatrixSkill",
+    displayName: "UX Microcopy Voice & Tone Matrix (State-Specific Empathy)",
+    categoryId: 'ux_design',
+    description: "Calibrates interface copywriting tone across emotional user states: celebratory on success, clear & humble during billing or outage errors.",
+    tags: ["ux-design","microcopy","ux-writing","tone-of-voice","empathy"],
+    transform: createStandardSkillTransform({
+      sectionName: "UX Microcopy Tone Standards",
+      ruSectionName: "Матрица тональности UX-текстов (Tone of Voice в зависимости от контекста)",
+      instructions: [
+        "During critical errors or billing issues: Use clear, unambiguous, empathetic language without joking.",
+        "During onboarding success milestones: Use encouraging, confident, and celebratory copy.",
+        "Eliminate technical jargon: replace 'Database connection pool timeout' with 'We could not save your changes. Please try again in a moment.'."
+],
+      ruInstructions: [
+        "При сбоях и платежных ошибках: используйте предельно ясный, уважительный и спокойный тон без шуток.",
+        "При успешных действиях и онбординге: используйте дружелюбный и вдохновляющий стиль.",
+        "Исключайте технический жаргон: заменяйте системные ошибки понятными инструкциями, что делать дальше."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","microcopy","ux-writing","tone-of-voice","empathy"],
+    }),
+  },
+
+  "ux-design-split-screen-side-by-side-diff-viewer": {
+    id: "ux-design-split-screen-side-by-side-diff-viewer",
+    name: "UxDesignSplitScreenSideBySideDiffViewerSkill",
+    displayName: "Side-by-Side Unified Diff Viewer & Visual Version Comparison",
+    categoryId: 'ux_design',
+    description: "Presents document and code revisions using unified and split-screen diff views with red/green inline character-level highlighting.",
+    tags: ["ux-design","diff-viewer","version-control","comparison","data-visualization"],
+    transform: createStandardSkillTransform({
+      sectionName: "Diff Viewer UX Standards",
+      ruSectionName: "Интерфейс сравнения версий (Side-by-Side Diff с посимвольной подсветкой изменений)",
+      instructions: [
+        "Support both Split-View (side-by-side columns) and Unified-View (stacked inline) comparison modes.",
+        "Highlight character-level diffs within modified lines using high-contrast red/green tint backgrounds.",
+        "Synchronize vertical scrolling across both left and right panes automatically in split mode."
+],
+      ruInstructions: [
+        "Поддерживайте два режима: раздельный вид в две колонки (Split) и единый строчный список (Unified).",
+        "Выделяйте посимвольные изменения внутри строк контрастным зеленым и красным фоном.",
+        "Синхронизируйте вертикальную прокрутку левой и правой колонок в режиме раздельного экрана."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","diff-viewer","version-control","comparison","data-visualization"],
+    }),
+  },
+
+  "ux-design-tree-testing-information-architecture": {
+    id: "ux-design-tree-testing-information-architecture",
+    name: "UxDesignTreeTestingInformationArchitectureSkill",
+    displayName: "Information Architecture Tree Testing & Mental Model Mapping",
+    categoryId: 'ux_design',
+    description: "Evaluates menu hierarchies, category nesting depth (max 3 levels), and navigation findability via quantitative tree testing.",
+    tags: ["ux-design","information-architecture","tree-testing","navigation","mental-models"],
+    transform: createStandardSkillTransform({
+      sectionName: "Information Architecture Standards",
+      ruSectionName: "Информационная архитектура: древовидное тестирование и глубина вложенности меню",
+      instructions: [
+        "Limit navigation hierarchy nesting to maximum 3 levels to prevent user cognitive disorientation.",
+        "Group categories according to user task mental models rather than internal corporate department charts.",
+        "Conduct quantitative tree testing targeting >80% direct success path findability."
+],
+      ruInstructions: [
+        "Ограничивайте глубину вложенности меню максимум 3 уровнями для простоты ориентации.",
+        "Группируйте разделы по задачам пользователей, а не по внутренней структуре отделов компании.",
+        "Проводите количественные тесты дерева навигации с целевым показателем находимости выше 80%."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","information-architecture","tree-testing","navigation","mental-models"],
+    }),
+  },
+
+  "ux-design-interactive-stepper-number-input": {
+    id: "ux-design-interactive-stepper-number-input",
+    name: "UxDesignInteractiveStepperNumberInputSkill",
+    displayName: "Accessible Number Stepper & Direct Typing Frictionless Input",
+    categoryId: 'ux_design',
+    description: "Combines large increment/decrement click buttons (+ / -) with direct keyboard editing and arrow key step acceleration.",
+    tags: ["ux-design","inputs","stepper","form-controls","accessibility"],
+    transform: createStandardSkillTransform({
+      sectionName: "Number Stepper Input Standards",
+      ruSectionName: "Удобный числовой шаговый ввод (Stepper: кнопки +/-, стрелки и прямой ввод)",
+      instructions: [
+        "Allow direct typing in the input field alongside +/- button clicks.",
+        "Accelerate step increments when user holds down Up/Down arrow keys.",
+        "Enforce min/max boundaries gracefully without clearing valid typed intermediate values."
+],
+      ruInstructions: [
+        "Предоставляйте возможность как клика по кнопкам +/-, так и прямого ручного ввода числа в поле.",
+        "Ускоряйте шаг изменения при длительном зажатии стрелок на клавиатуре.",
+        "Контролируйте границы min/max без стирания промежуточного ввода пользователя."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","inputs","stepper","form-controls","accessibility"],
+    }),
+  },
+
+  "ux-design-contextual-menu-radial-pie-selector": {
+    id: "ux-design-contextual-menu-radial-pie-selector",
+    name: "UxDesignContextualMenuRadialPieSelectorSkill",
+    displayName: "Right-Click Contextual Menus & Radial Pie Action Selectors",
+    categoryId: 'ux_design',
+    description: "Positions right-click context menus at exact cursor coordinates with automatic viewport boundary auto-flipping.",
+    tags: ["ux-design","context-menu","right-click","radial-menu","desktop-ux"],
+    transform: createStandardSkillTransform({
+      sectionName: "Contextual Action Menu Standards",
+      ruSectionName: "Контекстные меню по правому клику (Позиционирование и авторазворот у краев экрана)",
+      instructions: [
+        "Open context menu exactly at cursor position, preventing default browser context menu.",
+        "Flip menu alignment automatically if menu bounds would extend beyond the right or bottom screen edges.",
+        "Close context menu immediately upon clicking outside, scrolling, or pressing Escape."
+],
+      ruInstructions: [
+        "Открывайте контекстное меню в точке курсора с отменой стандартного меню браузера.",
+        "Автоматически разворачивайте меню влево или вверх при приближении к границам экрана.",
+        "Закрывайте меню при клике в любое место, начале скролла или нажатии клавиши Escape."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","context-menu","right-click","radial-menu","desktop-ux"],
+    }),
+  },
+
+  "ux-design-search-highlighting-instant-jump": {
+    id: "ux-design-search-highlighting-instant-jump",
+    name: "UxDesignSearchHighlightingInstantJumpSkill",
+    displayName: "In-Page Keyword Search Highlighting & Match Cycling",
+    categoryId: 'ux_design',
+    description: "Highlights all matching search terms across document text with distinct yellow/orange active match pills and smooth scrolling.",
+    tags: ["ux-design","search-highlight","find-in-page","reading-ux","navigation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Search Keyword Highlighting Standards",
+      ruSectionName: "Подсветка поисковых фраз в тексте и циклическая навигация по совпадениям",
+      instructions: [
+        "Wrap matching text in `<mark>` elements with high-visibility background tints.",
+        "Distinguish active match with prominent focus ring and display current match index (e.g. '3 of 12').",
+        "Scroll active match into view smoothly with vertical centering."
+],
+      ruInstructions: [
+        "Оборачивайте найденные слова в теги `<mark>` с контрастным желтым или оранжевым фоном.",
+        "Выделяйте активный текущий результат рамкой и показывайте счетчик («3 из 12»).",
+        "Плавно скролльте экран к активному совпадению с центрированием по вертикали."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","search-highlight","find-in-page","reading-ux","navigation"],
+    }),
+  },
+
+  "ux-design-tab-navigation-animated-underline-pill": {
+    id: "ux-design-tab-navigation-animated-underline-pill",
+    name: "UxDesignTabNavigationAnimatedUnderlinePillSkill",
+    displayName: "Animated Sliding Pill Tabs & Fluid Underline Indicator",
+    categoryId: 'ux_design',
+    description: "Animates active tab selection with a sliding background pill or underline indicator using CSS layout transition transforms.",
+    tags: ["ux-design","tabs","navigation","animation","layout"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sliding Tab Navigation Standards",
+      ruSectionName: "Анимированное переключение вкладок с плавающим индикатором (Sliding Pill Tabs)",
+      instructions: [
+        "Animate position and width of active tab indicator using CSS transform `translateX()` and `scaleX()`.",
+        "Support Left/Right arrow key navigation across tab lists following WAI-ARIA tablist standards.",
+        "Preserve active tab URL query parameter for deep linking and sharing."
+],
+      ruInstructions: [
+        "Анимируйте перемещение индикатора активной вкладки через CSS `transform` для 60fps плавности.",
+        "Поддерживайте переключение вкладок стрелками влево/вправо по стандартам WAI-ARIA.",
+        "Сохраняйте активную вкладку в URL-параметрах для прямых ссылок и обновления страницы."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","tabs","navigation","animation","layout"],
+    }),
+  },
+
+  "ux-design-password-strength-meter-zxcvbn": {
+    id: "ux-design-password-strength-meter-zxcvbn",
+    name: "UxDesignPasswordStrengthMeterZxcvbnSkill",
+    displayName: "Real-Time Password Entropy Meter & Concrete Crack-Time Guidance",
+    categoryId: 'ux_design',
+    description: "Evaluates password strength in real time via zxcvbn entropy estimation, showing estimated crack time and actionable hardening hints.",
+    tags: ["ux-design","password-strength","security-ux","forms","zxcvbn"],
+    transform: createStandardSkillTransform({
+      sectionName: "Password Entropy & Strength Standards",
+      ruSectionName: "Индикатор стойкости пароля в реальном времени (Оценка энтропии и подсказки)",
+      instructions: [
+        "Display a 4-tier colored strength bar (Red -> Orange -> Yellow -> Green) updating live on input.",
+        "Show concrete crack time estimates (e.g. 'Crack time: 400 centuries') to motivate strong passphrases.",
+        "Provide specific hints for common patterns ('Avoid common names or predictable sequences')."
+],
+      ruInstructions: [
+        "Отображайте 4-уровневую цветовую шкалу надежности, обновляющуюся при каждом вводе символа.",
+        "Показывайте понятную оценку времени взлома («Время взлома: более 100 лет») для мотивации надежных фраз.",
+        "Давайте конкретные подсказки при использовании словарных слов и простых последовательностей."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","password-strength","security-ux","forms","zxcvbn"],
+    }),
+  },
+  "ux-design-undo-redo-stack-history-manager": {
+    id: "ux-design-undo-redo-stack-history-manager",
+    name: "UxDesignUndoRedoStackHistoryManagerSkill",
+    displayName: "Universal Undo/Redo Action Stack & Reversible State History",
+    categoryId: 'ux_design',
+    description: "Implements command pattern undo/redo history stacks with ⌘Z / ⇧⌘Z shortcuts, visual snapshot previews, and max stack limits.",
+    tags: ["ux-design","undo-redo","history-manager","shortcuts","state-management"],
+    transform: createStandardSkillTransform({
+      sectionName: "Undo/Redo History Stack Standards",
+      ruSectionName: "Универсальный стек отмены и возврата действий (Undo/Redo, ⌘Z / ⇧⌘Z)",
+      instructions: [
+        "Record state mutations as reversible Command objects (`execute()` and `undo()` pairs).",
+        "Bind standard keyboard shortcuts (`Cmd+Z` for undo, `Cmd+Shift+Z` / `Cmd+Y` for redo).",
+        "Cap history stack at 50 snapshots to prevent browser memory leaks."
+],
+      ruInstructions: [
+        "Фиксируйте действия пользователя в виде обратимых команд с методами `execute()` и `undo()`.",
+        "Привязывайте стандартные сочетания клавиш (`Cmd+Z` для отмены, `Cmd+Shift+Z` для повтора).",
+        "Ограничивайте глубину стека истории 50 состояниями для защиты от утечек памяти."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","undo-redo","history-manager","shortcuts","state-management"],
+    }),
+  },
+
+  "ux-design-color-blindness-deuteranopia-protanopia": {
+    id: "ux-design-color-blindness-deuteranopia-protanopia",
+    name: "UxDesignColorBlindnessDeuteranopiaProtanopiaSkill",
+    displayName: "Color Vision Deficiency (CVD) Accessible Palettes & Dual Coding",
+    categoryId: 'ux_design',
+    description: "Designs interfaces accessible to red-green color-blind users (Deuteranopia/Protanopia) using dual encoding (color + shape/icon).",
+    tags: ["ux-design","color-blindness","cvd","accessibility","visual-design"],
+    transform: createStandardSkillTransform({
+      sectionName: "Color Vision Deficiency Accessibility Standards",
+      ruSectionName: "Доступность для пользователей с дальтонизмом (CVD: сочетание цвета, формы и иконок)",
+      instructions: [
+        "Never rely exclusively on color to convey status; always pair red/green states with icons (e.g. checkmark vs warning triangle).",
+        "Test palettes using CVD simulation filters (Protanopia, Deuteranopia, Tritanopia, Monochromacy).",
+        "Select color pairs with sufficient luminance contrast differences in grayscale."
+],
+      ruInstructions: [
+        "Никогда не передавайте статус исключительно цветом; дублируйте статус формой и иконками (галочка / треугольник).",
+        "Проверяйте палитры в симуляторах дальтонизма (протанопия, дейтеранопия, тританопия).",
+        "Подбирайте цвета с выразительным контрастом по яркости даже в черно-белом режиме."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","color-blindness","cvd","accessibility","visual-design"],
+    }),
+  },
+
+  "ux-design-micro-survey-in-app-nps-ces": {
+    id: "ux-design-micro-survey-in-app-nps-ces",
+    name: "UxDesignMicroSurveyInAppNpsCesSkill",
+    displayName: "In-App Micro-Surveys & Customer Effort Score (CES) Widgets",
+    categoryId: 'ux_design',
+    description: "Embeds 1-question lightweight micro-surveys triggered after key workflow completions to measure Customer Effort Score (CES).",
+    tags: ["ux-design","micro-survey","ces","feedback","user-research"],
+    transform: createStandardSkillTransform({
+      sectionName: "In-App Micro-Survey Standards",
+      ruSectionName: "Легкие микроопросы в интерфейсе (Customer Effort Score / CES после ключевых действий)",
+      instructions: [
+        "Trigger micro-surveys immediately after a user completes a major milestone (e.g. created first campaign).",
+        "Keep questionnaire to exactly 1 single-click question: 'How easy was it to complete this task?' (1-5 scale).",
+        "Allow effortless 1-click dismissal without interrupting user flow."
+],
+      ruInstructions: [
+        "Показывайте микроопрос сразу после успешного завершения ключевого сценария (например, первая оплата).",
+        "Ограничивайте опрос ровно 1 вопросом в 1 клик: «Насколько легко было выполнить это действие?» (шкала 1–5).",
+        "Давайте возможность мгновенно закрыть виджет одним кликом без блокировки работы."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","micro-survey","ces","feedback","user-research"],
+    }),
+  },
+
+  "ux-design-drag-handle-reorderable-list": {
+    id: "ux-design-drag-handle-reorderable-list",
+    name: "UxDesignDragHandleReorderableListSkill",
+    displayName: "Drag-Handle Grip Affordance & Accessible List Reordering",
+    categoryId: 'ux_design',
+    description: "Equips draggable list items with visible grip handles (six-dot icon), keyboard move controls (Alt+Up/Down), and live position announcements.",
+    tags: ["ux-design","drag-handle","reorderable-list","accessibility","interactions"],
+    transform: createStandardSkillTransform({
+      sectionName: "Reorderable List Drag-Handle Standards",
+      ruSectionName: "Эргономика перетаскивания списков (Иконка хэндла из 6 точек и сочетания Alt+Up/Down)",
+      instructions: [
+        "Display a visible six-dot grip handle (`cursor: grab;`) on draggable elements.",
+        "Support accessible keyboard reordering using `Alt+Up` and `Alt+Down` arrow keys.",
+        "Announce new item position to screen readers via aria-live upon movement."
+],
+      ruInstructions: [
+        "Отображайте визуальную иконку ручки захвата (6 точек) с курсором `grab`.",
+        "Поддерживайте доступное перемещение с клавиатуры с помощью сочетаний `Alt+Стрелка вверх/вниз`.",
+        "Озвучивайте новую позицию элемента для экранных дикторов через `aria-live`."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","drag-handle","reorderable-list","accessibility","interactions"],
+    }),
+  },
+
+  "ux-design-rich-text-floating-bubble-menu": {
+    id: "ux-design-rich-text-floating-bubble-menu",
+    name: "UxDesignRichTextFloatingBubbleMenuSkill",
+    displayName: "Medium/Notion-Style Floating Rich Text Selection Bubble Menu",
+    categoryId: 'ux_design',
+    description: "Displays a floating formatting toolbar directly above user text selections (Bold, Italic, Link, Code, Heading) with instant positioning.",
+    tags: ["ux-design","rich-text","floating-menu","editor","notion-style"],
+    transform: createStandardSkillTransform({
+      sectionName: "Floating Text Selection Menu Standards",
+      ruSectionName: "Плавающая панель форматирования текста (Bubble Menu в стиле Notion / Medium)",
+      instructions: [
+        "Position floating bubble menu centered 8px above the user's active text selection bounding box.",
+        "Provide 1-click toggles for Bold, Italic, Hyperlink, Inline Code, and Blockquote.",
+        "Hide menu instantly upon clicking outside or deselecting text."
+],
+      ruInstructions: [
+        "Позиционируйте всплывающую панель форматирования по центру на 8px выше выделенного текста.",
+        "Предоставляйте быстрые кнопки форматирования: полужирный, курсив, ссылка, инлайн-код и цитата.",
+        "Скрывайте панель мгновенно при снятии выделения или клике в другую область экрана."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","rich-text","floating-menu","editor","notion-style"],
+    }),
+  },
+
+  "ux-design-qr-code-handoff-desktop-to-mobile": {
+    id: "ux-design-qr-code-handoff-desktop-to-mobile",
+    name: "UxDesignQrCodeHandoffDesktopToMobileSkill",
+    displayName: "Seamless Desktop-to-Mobile QR Code Session Handoff",
+    categoryId: 'ux_design',
+    description: "Facilitates frictionless device switching (e.g. ID photo verification) by generating instant pre-authenticated mobile QR codes.",
+    tags: ["ux-design","qr-code","device-handoff","mobile-onboarding","cross-platform"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Device QR Code Handoff Standards",
+      ruSectionName: "Бесшовный переход с десктопа на смартфон по QR-коду (Device Handoff)",
+      instructions: [
+        "Generate an encrypted single-use QR code linking to the exact active step on mobile web.",
+        "Listen for real-time mobile completion events via WebSocket to advance the desktop screen automatically.",
+        "Expire QR code tokens after 3 minutes for enterprise security."
+],
+      ruInstructions: [
+        "Генерируйте одноразовый зашифрованный QR-код для мгновенного открытия нужного шага на смартфоне.",
+        "Слушайте завершение действия на смартфоне через WebSocket для автоматического перехода на десктопе.",
+        "Устанавливайте время жизни токена QR-кода не более 3 минут в целях безопасности."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","qr-code","device-handoff","mobile-onboarding","cross-platform"],
+    }),
+  },
+
+  "ux-design-smart-default-pre-population": {
+    id: "ux-design-smart-default-pre-population",
+    name: "UxDesignSmartDefaultPrePopulationSkill",
+    displayName: "Smart Defaults & Context-Aware Form Pre-Population",
+    categoryId: 'ux_design',
+    description: "Pre-fills form fields intelligently based on user geolocation (country, currency, timezone, language) to minimize typing fatigue.",
+    tags: ["ux-design","smart-defaults","forms","conversion","geolocation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Smart Defaults Pre-Population Standards",
+      ruSectionName: "Умные значения по умолчанию (Smart Defaults: автоподстановка валюты, языка и таймзоны)",
+      instructions: [
+        "Auto-detect user country, currency symbol, and timezone from browser headers and IP signals.",
+        "Pre-select the most common recommended plan option with a clear 'Most Popular' badge.",
+        "Allow users to easily override pre-populated values with a single click."
+],
+      ruInstructions: [
+        "Автоматически определяйте страну, валюту и часовой пояс на основе настроек браузера.",
+        "Выделяйте наиболее подходящий рекомендуемый тариф с бейджем «Самый популярный».",
+        "Оставляйте пользователю возможность легко изменить предзаполненные значения в 1 клик."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","smart-defaults","forms","conversion","geolocation"],
+    }),
+  },
+
+  "ux-design-data-visualization-tooltip-crosshair": {
+    id: "ux-design-data-visualization-tooltip-crosshair",
+    name: "UxDesignDataVisualizationTooltipCrosshairSkill",
+    displayName: "Interactive Chart Tooltips & Synchronized Crosshair Tracking",
+    categoryId: 'ux_design',
+    description: "Enhances timeseries charts with synchronized vertical crosshair guide lines, interpolated data hover points, and multi-metric tooltip cards.",
+    tags: ["ux-design","data-visualization","charts","tooltips","crosshair"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Chart Crosshair Standards",
+      ruSectionName: "Интерактивные графики: синхронный визир (Crosshair) и информативные карточки значений",
+      instructions: [
+        "Render a vertical crosshair guide line snapping to the nearest X-axis time point.",
+        "Display all series metrics formatted cleanly in a unified floating tooltip card.",
+        "Synchronize crosshair position across multiple stacked charts on the same dashboard."
+],
+      ruInstructions: [
+        "Отображайте вертикальную направляющую линию (Crosshair), привязывающуюся к ближайшей точке времени.",
+        "Показывайте значения всех графиков в единой компактной всплывающей карточке.",
+        "Синхронизируйте положение визира между несколькими графиками на дашборде одновременно."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","data-visualization","charts","tooltips","crosshair"],
+    }),
+  },
+
+  "ux-design-filter-chip-overflow-horizontal-scroll": {
+    id: "ux-design-filter-chip-overflow-horizontal-scroll",
+    name: "UxDesignFilterChipOverflowHorizontalScrollSkill",
+    displayName: "Horizontal Scroll Filter Chips & Gradient Edge Fade Affordance",
+    categoryId: 'ux_design',
+    description: "Presents categories as a horizontal row of filter chips on mobile with subtle gradient edge masks indicating off-screen scrollability.",
+    tags: ["ux-design","chips","mobile-filters","horizontal-scroll","affordance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Horizontal Filter Chip Standards",
+      ruSectionName: "Горизонтальная лента фильтров-чипсов (Filter Chips с градиентным намеком на скролл)",
+      instructions: [
+        "Apply semi-transparent gradient mask on right edge to visually signal additional scrollable chips.",
+        "Scroll selected chip smoothly into central view when tapped.",
+        "Support touch momentum scrolling and hide native ugly scrollbars via CSS."
+],
+      ruInstructions: [
+        "Добавляйте мягкий полупрозрачный градиент справа, подсказывающий наличие скрытых чипсов за экраном.",
+        "Плавно центрируйте выбранный чипс при тапе на него.",
+        "Включайте плавный инерционный скролл и скрывайте стандартные полосы прокрутки через CSS."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","chips","mobile-filters","horizontal-scroll","affordance"],
+    }),
+  },
+
+  "ux-design-in-app-keyboard-shortcut-cheat-sheet": {
+    id: "ux-design-in-app-keyboard-shortcut-cheat-sheet",
+    name: "UxDesignInAppKeyboardShortcutCheatSheetSkill",
+    displayName: "Interactive In-App Keyboard Shortcut Cheat Sheet Modal (?)",
+    categoryId: 'ux_design',
+    description: "Displays a beautifully organized keyboard shortcut cheat sheet dialog triggered by the universal Shift+? / ? hotkey.",
+    tags: ["ux-design","shortcuts","cheat-sheet","power-users","keyboard-navigation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Keyboard Shortcut Cheat Sheet Standards",
+      ruSectionName: "Интерактивная шпаргалка горячих клавиш (Вызов по нажатию клавиши ? / Shift+?)",
+      instructions: [
+        "Bind Shift+? (`?`) to toggle the keyboard shortcuts modal from anywhere in the application.",
+        "Categorize shortcuts into logical sections: Navigation, Editing, Actions, and Global Tools.",
+        "Render keys as physical keyboard keycap badges (`<kbd>G</kbd> then <kbd>I</kbd>`)."
+],
+      ruInstructions: [
+        "Привязывайте клавишу `?` (Shift+?) для вызова шпаргалки горячих клавиш из любого места приложения.",
+        "Структурируйте сочетания по разделам: Навигация, Редактирование, Действия и Глобальные функции.",
+        "Стилизуйте клавиши в виде физических кнопок клавиатуры (`<kbd>⌘</kbd> + <kbd>K</kbd>`)."
+],
+      semanticType: "structural_directive",
+      tags: ["ux-design","shortcuts","cheat-sheet","power-users","keyboard-navigation"],
     }),
   },
 };

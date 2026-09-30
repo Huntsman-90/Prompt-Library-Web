@@ -1344,7 +1344,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-dag-topological-dependency-resolution",
     name: "ControlFlowDagTopologicalDependencyResolutionSkill",
     displayName: "DAG Topological Sort & Dependency Chain Execution",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Resolves execution sequence in Directed Acyclic Graphs (DAG) via Kahn's algorithm or DFS topological sort.",
     tags: ["control-flow","dag","topological-sort","graph","dependencies"],
     transform: createStandardSkillTransform({
@@ -1369,7 +1369,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-saga-distributed-transaction-compensations",
     name: "ControlFlowSagaDistributedTransactionCompensationsSkill",
     displayName: "Saga Pattern & Distributed Transaction Compensation Flow",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Orchestrates multi-service transactions with backward compensating transactions when a mid-flow step fails.",
     tags: ["control-flow","saga","distributed-transactions","microservices","compensation"],
     transform: createStandardSkillTransform({
@@ -1394,7 +1394,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-finite-state-machine-xstate-actor",
     name: "ControlFlowFiniteStateMachineXstateActorSkill",
     displayName: "Finite State Machine (FSM) & Actor Model Orchestration",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Structures complex UI and server workflows into mathematically explicit states, deterministic transitions, and guards.",
     tags: ["control-flow","fsm","state-machine","xstate","actor-model"],
     transform: createStandardSkillTransform({
@@ -1419,7 +1419,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-exponential-backoff-full-jitter-retry",
     name: "ControlFlowExponentialBackoffFullJitterRetrySkill",
     displayName: "Exponential Backoff with Full Jitter & Decorrelated Jitter",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Applies AWS-grade exponential backoff with randomized full jitter to prevent thundering herd spikes during downstream outages.",
     tags: ["control-flow","retry","exponential-backoff","jitter","resilience"],
     transform: createStandardSkillTransform({
@@ -1444,7 +1444,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-circuit-breaker-hystrix-resilience",
     name: "ControlFlowCircuitBreakerHystrixResilienceSkill",
     displayName: "Circuit Breaker Tri-State Automation (Closed, Open, Half-Open)",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Protects upstream systems from cascading failures by automatically opening circuits on consecutive error thresholds.",
     tags: ["control-flow","circuit-breaker","resilience","fault-tolerance","microservices"],
     transform: createStandardSkillTransform({
@@ -1469,7 +1469,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-leaky-bucket-token-bucket-rate-limiting",
     name: "ControlFlowLeakyBucketTokenBucketRateLimitingSkill",
     displayName: "Token Bucket & Leaky Bucket Rate Limiting Algorithms",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Controls traffic bursts and sustains steady throughput using Redis-backed Token Bucket and Leaky Bucket algorithms.",
     tags: ["control-flow","rate-limiting","token-bucket","traffic-shaping","redis"],
     transform: createStandardSkillTransform({
@@ -1494,7 +1494,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-map-reduce-parallel-fan-out-fan-in",
     name: "ControlFlowMapReduceParallelFanOutFanInSkill",
     displayName: "Parallel Fan-Out / Fan-In MapReduce Aggregation Flow",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Splits monolithic workloads into parallel independent workers (Fan-Out) and aggregates results into a single payload (Fan-In).",
     tags: ["control-flow","map-reduce","fan-out-fan-in","concurrency","parallelism"],
     transform: createStandardSkillTransform({
@@ -1519,7 +1519,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-priority-queue-preemptive-scheduling",
     name: "ControlFlowPriorityQueuePreemptiveSchedulingSkill",
     displayName: "Binary Heap Priority Queue & Fair Preemptive Scheduling",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Prioritizes critical tasks using binary min/max heaps with anti-starvation aging mechanisms for low-priority jobs.",
     tags: ["control-flow","priority-queue","binary-heap","scheduling","algorithms"],
     transform: createStandardSkillTransform({
@@ -1544,7 +1544,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-sliding-window-log-rate-limiter",
     name: "ControlFlowSlidingWindowLogRateLimiterSkill",
     displayName: "Sliding Window Log & Sliding Window Counter Rate Limiter",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Eliminates boundary burst vulnerabilities of fixed-window counters using Redis sorted sets (ZSET) timestamp logs.",
     tags: ["control-flow","sliding-window","rate-limiting","redis","security"],
     transform: createStandardSkillTransform({
@@ -1569,7 +1569,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-pub-sub-event-broker-fan-out",
     name: "ControlFlowPubSubEventBrokerFanOutSkill",
     displayName: "Publish-Subscribe Event Broker & Topic-Based Routing",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Decouples producers from consumers using asynchronous Pub/Sub event brokers, dead-letter queues, and wildcard topic matching.",
     tags: ["control-flow","pub-sub","event-driven","messaging","architecture"],
     transform: createStandardSkillTransform({
@@ -1594,7 +1594,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-distributed-semaphore-lease-concurrency",
     name: "ControlFlowDistributedSemaphoreLeaseConcurrencySkill",
     displayName: "Distributed Semaphore & Time-Bounded Lease Concurrency",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Controls bounded concurrency across multi-instance microservices using Redis/Consul distributed counting semaphores with TTL leases.",
     tags: ["control-flow","distributed-semaphore","concurrency","locking","redis"],
     transform: createStandardSkillTransform({
@@ -1619,7 +1619,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-human-in-the-loop-pause-resume-checkpoint",
     name: "ControlFlowHumanInTheLoopPauseResumeCheckpointSkill",
     displayName: "Human-in-the-Loop (HITL) Workflow Pause & Resume Checkpoints",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Suspends automated agent execution state at high-risk action checkpoints, waiting for manual human approval or modification.",
     tags: ["control-flow","hitl","human-in-the-loop","approval-workflow","safety"],
     transform: createStandardSkillTransform({
@@ -1644,7 +1644,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-async-await-concurrency-limiter",
     name: "ControlFlowAsyncAwaitConcurrencyLimiterSkill",
     displayName: "Async/Await Promise Concurrency Pool Limiter (p-limit)",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Limits parallel Promise execution concurrency (e.g. 5 concurrent HTTP calls) to prevent memory exhaustion and socket exhaustion.",
     tags: ["control-flow","concurrency","async-await","promises","typescript"],
     transform: createStandardSkillTransform({
@@ -1669,7 +1669,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-optimistic-locking-version-cas",
     name: "ControlFlowOptimisticLockingVersionCasSkill",
     displayName: "Optimistic Concurrency Control (OCC) & Compare-And-Swap (CAS)",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Guards against lost updates in concurrent databases using integer version columns and atomic Compare-And-Swap statements.",
     tags: ["control-flow","optimistic-locking","concurrency","database","cas"],
     transform: createStandardSkillTransform({
@@ -1694,7 +1694,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-actor-model-message-passing-mailbox",
     name: "ControlFlowActorModelMessagePassingMailboxSkill",
     displayName: "Actor Model Concurrency & Isolated Mailbox Message Passing",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Eliminates shared mutable memory race conditions using isolated actors communicating strictly via asynchronous message mailboxes.",
     tags: ["control-flow","actor-model","concurrency","message-passing","erlang-akka"],
     transform: createStandardSkillTransform({
@@ -1719,7 +1719,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-idempotency-key-deduplication",
     name: "ControlFlowIdempotencyKeyDeduplicationSkill",
     displayName: "Stripe-Style Idempotency Keys & Request Deduplication",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Prevents duplicate charges or side-effects by caching API response payloads against client-generated UUID idempotency keys.",
     tags: ["control-flow","idempotency","api-design","deduplication","reliability"],
     transform: createStandardSkillTransform({
@@ -1743,7 +1743,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-leader-election-raft-lease",
     name: "ControlFlowLeaderElectionRaftLeaseSkill",
     displayName: "Raft Consensus Leader Election & Split-Brain Prevention",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Elects a single authoritative cluster leader using randomized heartbeats, term counters, and majority quorum voting.",
     tags: ["control-flow","raft","leader-election","distributed-systems","consensus"],
     transform: createStandardSkillTransform({
@@ -1768,7 +1768,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-bulkhead-thread-pool-isolation",
     name: "ControlFlowBulkheadThreadPoolIsolationSkill",
     displayName: "Bulkhead Pattern & Resource Pool Failure Isolation",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Isolates critical system resources into separate dedicated thread/connection pools so failure in one subsystem cannot exhaust others.",
     tags: ["control-flow","bulkhead","isolation","resilience","architecture"],
     transform: createStandardSkillTransform({
@@ -1793,7 +1793,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-two-phase-commit-2pc-atomic-coordination",
     name: "ControlFlowTwoPhaseCommit2pcAtomicCoordinationSkill",
     displayName: "Two-Phase Commit (2PC) Distributed Atomic Coordination",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Guarantees atomic all-or-nothing transactions across multiple databases via Prepare and Commit phases.",
     tags: ["control-flow","2pc","transactions","distributed-systems","coordination"],
     transform: createStandardSkillTransform({
@@ -1818,7 +1818,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-backpressure-reactive-streams-flow-control",
     name: "ControlFlowBackpressureReactiveStreamsFlowControlSkill",
     displayName: "Reactive Streams Backpressure & Demand-Driven Flow Control",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Prevents fast producers from overwhelming slow consumers using explicit demand signaling (`request(n)`).",
     tags: ["control-flow","backpressure","reactive-streams","flow-control","async"],
     transform: createStandardSkillTransform({
@@ -1843,7 +1843,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-debounce-throttle-ui-event-pacing",
     name: "ControlFlowDebounceThrottleUiEventPacingSkill",
     displayName: "Debounce & Throttle High-Frequency Event Pacing",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Paces rapid keyboard, resize, and scroll events using trailing debouncing and leading/trailing throttling.",
     tags: ["control-flow","debounce","throttle","ui-events","performance"],
     transform: createStandardSkillTransform({
@@ -1868,7 +1868,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-pipeline-middleware-onion-architecture",
     name: "ControlFlowPipelineMiddlewareOnionArchitectureSkill",
     displayName: "Composable Middleware Pipeline & Onion Execution Flow",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Executes request/response pipelines through composable middleware layers with pre-processing, next() delegation, and post-processing.",
     tags: ["control-flow","middleware","pipeline","onion-architecture","express-koa"],
     transform: createStandardSkillTransform({
@@ -1893,7 +1893,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-gossip-protocol-cluster-membership",
     name: "ControlFlowGossipProtocolClusterMembershipSkill",
     displayName: "SWIM Gossip Protocol & Cluster Failure Detection",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Disseminates cluster state and detects node failures using weakly-consistent peer-to-peer Gossip message exchanges.",
     tags: ["control-flow","gossip-protocol","swim","cluster","distributed-systems"],
     transform: createStandardSkillTransform({
@@ -1918,7 +1918,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-cqrs-event-stream-subscription",
     name: "ControlFlowCqrsEventStreamSubscriptionSkill",
     displayName: "CQRS Asynchronous Event Stream Projection & Replay",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Subscribes to write-side event streams to build high-speed read projections with catch-up replay capabilities.",
     tags: ["control-flow","cqrs","event-stream","projection","kafka"],
     transform: createStandardSkillTransform({
@@ -1943,7 +1943,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-fork-join-recursive-divide-conquer",
     name: "ControlFlowForkJoinRecursiveDivideConquerSkill",
     displayName: "Fork-Join Parallel Recursive Divide-and-Conquer",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Breaks massive computational trees into subtasks (Fork) executed on work-stealing thread pools, merging outputs (Join).",
     tags: ["control-flow","fork-join","divide-and-conquer","parallelism","algorithms"],
     transform: createStandardSkillTransform({
@@ -1968,7 +1968,7 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
     id: "control-flow-graceful-shutdown-drain-connections",
     name: "ControlFlowGracefulShutdownDrainConnectionsSkill",
     displayName: "Graceful Process Shutdown & In-Flight Connection Draining",
-    categoryId: "controlFlow",
+    categoryId: 'control_flow',
     description: "Handles SIGTERM/SIGINT signals by refusing new requests, completing in-flight jobs, and closing database pools cleanly.",
     tags: ["control-flow","graceful-shutdown","devops","lifecycle","reliability"],
     transform: createStandardSkillTransform({
@@ -1986,6 +1986,1006 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
 ],
       semanticType: "protocol",
       tags: ["control-flow","graceful-shutdown","devops","lifecycle","reliability"],
+    }),
+  },
+  "control-flow-singleflight-request-deduplication": {
+    id: "control-flow-singleflight-request-deduplication",
+    name: "ControlFlowSingleflightRequestDeduplicationSkill",
+    displayName: "Singleflight In-Flight Request Deduplication & Thundering Herd Defense",
+    categoryId: 'control_flow',
+    description: "Suppresses duplicate concurrent calls to expensive backends by sharing a single in-flight promise across identical simultaneous requests.",
+    tags: ["control-flow","singleflight","concurrency","caching","performance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Singleflight In-Flight Request Deduplication Protocol",
+      ruSectionName: "Дедупликация одновременных запросов Singleflight и защита от Thundering Herd",
+      instructions: [
+        "Track active in-flight promises by cache key in an internal mutex-guarded map.",
+        "Attach subsequent identical concurrent callers to the existing unresolved promise rather than spawning new backend calls.",
+        "Clean up the key from the in-flight map immediately upon promise resolution or rejection."
+],
+      ruInstructions: [
+        "Регистрируйте активные промисы по ключу в потокобезопасной карте текущих запросов.",
+        "Перенаправляйте параллельные идентичные вызовы к уже выполняющемуся промису без повторного обращения к бэкенду.",
+        "Удаляйте ключ из реестра сразу после завершения или ошибки запроса."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","singleflight","concurrency","caching","performance"],
+    }),
+  },
+
+  "control-flow-hedged-requests-tail-latency": {
+    id: "control-flow-hedged-requests-tail-latency",
+    name: "ControlFlowHedgedRequestsTailLatencySkill",
+    displayName: "Hedged Requests & Tail Latency p99 Elimination (Jeff Dean Pattern)",
+    categoryId: 'control_flow',
+    description: "Issues redundant duplicate requests to backup servers when p95 latency threshold expires, taking whichever response arrives first.",
+    tags: ["control-flow","hedged-requests","tail-latency","distributed-systems","p99"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hedged Requests Speculative Execution Protocol",
+      ruSectionName: "Спекулятивные параллельные запросы (Hedged Requests) для снижения p99 задержки",
+      instructions: [
+        "Send the primary request and start an aggressive timer set to historical p95 latency (e.g. 25ms).",
+        "If no response arrives before timer expiration, dispatch a duplicate hedged request to a secondary replica node.",
+        "Accept the first successful response to arrive and immediately cancel/abort the outstanding slower request via AbortController."
+],
+      ruInstructions: [
+        "Отправляйте основной запрос и запускайте таймер, равный исторической p95 задержке (например, 25 мс).",
+        "При отсутствии ответа до истечения таймера отправляйте параллельный дублирующий запрос на резервную реплику.",
+        "Принимайте первый пришедший успешный ответ и отменяйте второй запрос через AbortController."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","hedged-requests","tail-latency","distributed-systems","p99"],
+    }),
+  },
+
+  "control-flow-transactional-outbox-cdc-pattern": {
+    id: "control-flow-transactional-outbox-cdc-pattern",
+    name: "ControlFlowTransactionalOutboxCdcPatternSkill",
+    displayName: "Transactional Outbox Pattern & CDC Broker Guarantees",
+    categoryId: 'control_flow',
+    description: "Guarantees dual-write consistency by persisting domain events to an outbox table in the same database transaction, polled via CDC.",
+    tags: ["control-flow","outbox-pattern","cdc","event-driven","consistency"],
+    transform: createStandardSkillTransform({
+      sectionName: "Transactional Outbox & Event Publishing Architecture",
+      ruSectionName: "Паттерн Transactional Outbox: атомарная запись событий домена и шины сообщений",
+      instructions: [
+        "Write business state mutations and event payloads into the database within the same atomic SQL transaction.",
+        "Tail the database WAL log via Debezium CDC or an asynchronous outbox poller with deterministic message sequence numbers.",
+        "Publish events to message broker with at-least-once delivery guarantees and mark outbox records as dispatched."
+],
+      ruInstructions: [
+        "Записывайте изменения бизнес-сущностей и события в таблицу `outbox` в рамках единой ACID-транзакции.",
+        "Считывайте события из журнала WAL через Debezium CDC или фоновый поллер с сохранением порядка сообщений.",
+        "Публикуйте события в очередь с гарантией at-least-once и помечайте записи outbox как отправленные."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","outbox-pattern","cdc","event-driven","consistency"],
+    }),
+  },
+
+  "control-flow-fencing-tokens-distributed-lock": {
+    id: "control-flow-fencing-tokens-distributed-lock",
+    name: "ControlFlowFencingTokensDistributedLockSkill",
+    displayName: "Distributed Locks with Monotonic Fencing Tokens (Martin Kleppmann)",
+    categoryId: 'control_flow',
+    description: "Prevents split-brain race conditions from GC pauses by issuing monotonically increasing fencing tokens validated by storage.",
+    tags: ["control-flow","distributed-lock","fencing-tokens","concurrency","consistency"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fencing Token Distributed Locking Protocol",
+      ruSectionName: "Распределенные блокировки с монотонными Fencing Tokens (Защита от GC-пауз)",
+      instructions: [
+        "Every distributed lock acquisition must return a strictly monotonic incrementing integer fencing token.",
+        "Clients must pass the fencing token alongside every write payload to the storage layer.",
+        "Storage engines must reject any write bearing a token lower than the highest token processed so far."
+],
+      ruInstructions: [
+        "Каждая успешная блокировка должна возвращать строго возрастающий целочисленный номер (Fencing Token).",
+        "Клиент обязан передавать полученный токен во всех операциях записи в целевое хранилище.",
+        "Хранилище обязано отвергать операции, номер токена которых меньше ранее зафиксированного максимума."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","distributed-lock","fencing-tokens","concurrency","consistency"],
+    }),
+  },
+
+  "control-flow-scatter-gather-dynamic-quorum": {
+    id: "control-flow-scatter-gather-dynamic-quorum",
+    name: "ControlFlowScatterGatherDynamicQuorumSkill",
+    displayName: "Scatter-Gather Fan-Out with Dynamic Quorum Thresholds",
+    categoryId: 'control_flow',
+    description: "Broadcasts requests to N independent service nodes, resolving early as soon as a configurable quorum threshold (M of N) responds.",
+    tags: ["control-flow","scatter-gather","quorum","concurrency","aggregation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Scatter-Gather Quorum Protocol",
+      ruSectionName: "Шаблон Scatter-Gather с динамическим кворумом (M из N ответов)",
+      instructions: [
+        "Fan-out queries simultaneously across all candidate provider nodes with a global timeout deadline.",
+        "Collect responses into an atomic accumulator; trigger resolution callback as soon as quorum threshold is met.",
+        "Short-circuit and abort remaining uncompleted node queries once quorum is satisfied."
+],
+      ruInstructions: [
+        "Рассылайте запросы параллельно по всем узлам-исполнителям с установкой единого жесткого дедлайна.",
+        "Собирайте ответы в накопитель и завершайте этап, как только достигнут порог кворума (например, 3 из 5).",
+        "Прерывайте оставшиеся медленные вызовы сразу после сбора необходимого кворума ответов."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","scatter-gather","quorum","concurrency","aggregation"],
+    }),
+  },
+
+  "control-flow-abort-controller-cascade-cancellation": {
+    id: "control-flow-abort-controller-cascade-cancellation",
+    name: "ControlFlowAbortControllerCascadeCancellationSkill",
+    displayName: "Hierarchical AbortController & Tree Cancellation Cascades",
+    categoryId: 'control_flow',
+    description: "Propagates cancellation signals down deep nested asynchronous call trees using linked AbortController signal hierarchies.",
+    tags: ["control-flow","abort-controller","cancellation","async","typescript"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hierarchical Cancellation Cascade Protocol",
+      ruSectionName: "Иерархическая отмена асинхронных операций (Каскадный AbortController)",
+      instructions: [
+        "Link child `AbortSignal` instances to parent controller signals using `AbortSignal.any()` or event listeners.",
+        "Check `signal.aborted` eagerly before executing heavy CPU parsing or outbound network requests.",
+        "Pass the signal through to all `fetch()`, database queries, and timer promises to immediately free sockets."
+],
+      ruInstructions: [
+        "Связывайте дочерние `AbortSignal` с родительскими сигналами через `AbortSignal.any()` или подписку на событие.",
+        "Проверяйте флаг `signal.aborted` перед стартом ресурсоемких операций и парсинга.",
+        "Передавайте сигнал во все вызовы `fetch()`, запросы к БД и таймеры для мгновенного освобождения сокетов."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","abort-controller","cancellation","async","typescript"],
+    }),
+  },
+
+  "control-flow-statechart-history-states-harel": {
+    id: "control-flow-statechart-history-states-harel",
+    name: "ControlFlowStatechartHistoryStatesHarelSkill",
+    displayName: "Harel Statecharts: Shallow & Deep History State Transitions",
+    categoryId: 'control_flow',
+    description: "Preserves nested sub-state configurations during temporary interrupt transitions using Statechart History states ($H$ / $H^*$).",
+    tags: ["control-flow","statecharts","fsm","history-states","xstate"],
+    transform: createStandardSkillTransform({
+      sectionName: "Statechart History State Transition Standards",
+      ruSectionName: "Иерархические конечные автоматы (Statecharts): сохранение истории состояний",
+      instructions: [
+        "Define History pseudo-states within compound parent states to memorize active child sub-states.",
+        "Target history state upon returning from temporary interrupt states (e.g. paused modal / auth re-prompt).",
+        "Distinguish Shallow History (immediate child layer) from Deep History (all recursive sub-states)."
+],
+      ruInstructions: [
+        "Задавайте псевдосостояния History ($H$) внутри составных состояний для запоминания активных подсостояний.",
+        "Выполняйте возврат в состояние History после завершения временных прерываний (модальные окна, повторная авторизация).",
+        "Разграничивайте поверхностную историю (Shallow History) и полную рекурсивную историю (Deep History)."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","statecharts","fsm","history-states","xstate"],
+    }),
+  },
+
+  "control-flow-poison-pill-dead-letter-triage": {
+    id: "control-flow-poison-pill-dead-letter-triage",
+    name: "ControlFlowPoisonPillDeadLetterTriageSkill",
+    displayName: "Poison Pill Isolation & Dead-Letter Queue (DLQ) Auto-Triage",
+    categoryId: 'control_flow',
+    description: "Detects corrupted unprocessable messages (poison pills) in worker queues, isolating them to DLQ with diagnostic error traces.",
+    tags: ["control-flow","dlq","poison-pill","queue","reliability"],
+    transform: createStandardSkillTransform({
+      sectionName: "Poison Pill & Dead-Letter Queue Triage Protocol",
+      ruSectionName: "Изоляция ядовитых сообщений (Poison Pill) и авто-триаж Dead-Letter Queue",
+      instructions: [
+        "Track per-message failure delivery count in message metadata headers.",
+        "Route message to DLQ immediately when retry count exceeds max threshold (e.g. 3 attempts) to unblock consumer workers.",
+        "Append stack traces, host ID, and timestamp headers to the DLQ message envelope for rapid debugging."
+],
+      ruInstructions: [
+        "Ведите счетчик неудачных попыток обработки в метаданных заголовков каждого сообщения.",
+        "Перемещайте сообщение в очередь DLQ при превышении лимита попыток, предотвращая блокировку воркеров.",
+        "Прикрепляйте трассировку ошибки, имя хоста и временную метку к телу сообщения в DLQ для диагностики."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","dlq","poison-pill","queue","reliability"],
+    }),
+  },
+
+  "control-flow-sse-fallback-long-polling-transport": {
+    id: "control-flow-sse-fallback-long-polling-transport",
+    name: "ControlFlowSseFallbackLongPollingTransportSkill",
+    displayName: "Server-Sent Events (SSE) Graceful Downgrade to Long-Polling",
+    categoryId: 'control_flow',
+    description: "Maintains real-time streaming connections by falling back from HTTP/2 SSE to adaptive HTTP long-polling behind restrictive proxies.",
+    tags: ["control-flow","sse","long-polling","realtime","transport-fallback"],
+    transform: createStandardSkillTransform({
+      sectionName: "Real-Time Transport Fallback Protocol",
+      ruSectionName: "Автоматический переход с Server-Sent Events (SSE) на Long-Polling при сбоях прокси",
+      instructions: [
+        "Attempt primary connection via HTTP/2 streaming Server-Sent Events (SSE) with auto-reconnect heartbeat.",
+        "Detect proxy buffer stalling or repeated premature connection termination within 15 seconds.",
+        "Gracefully downgrade client transport to adaptive HTTP long-polling while preserving identical event interfaces."
+],
+      ruInstructions: [
+        "Инициализируйте соединение через стриминг Server-Sent Events (SSE) с контролем heartbeat-сигналов.",
+        "Фиксируйте блокировку буферизации прокси или частые обрывы соединения в течение первых 15 секунд.",
+        "Бесшовно переключайте транспорт клиента на адаптивный Long-Polling с сохранением единого API событий."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","sse","long-polling","realtime","transport-fallback"],
+    }),
+  },
+
+  "control-flow-bloom-filter-idempotent-window": {
+    id: "control-flow-bloom-filter-idempotent-window",
+    name: "ControlFlowBloomFilterIdempotentWindowSkill",
+    displayName: "Scalable Bloom Filter Sliding-Window Idempotency Filter",
+    categoryId: 'control_flow',
+    description: "Performs ultra-fast $O(1)$ pre-filtering of duplicate webhook payloads using tiered in-memory Counting Bloom Filters.",
+    tags: ["control-flow","bloom-filter","idempotency","webhooks","high-throughput"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bloom Filter Idempotency Verification Protocol",
+      ruSectionName: "Фильтр Блума для высокоскоростной дедупликации входящих вебхуков ($O(1)$)",
+      instructions: [
+        "Query a rotating pair of Counting Bloom Filters representing current and prior 10-minute time windows.",
+        "If the Bloom filter returns FALSE, process the request immediately with zero database lookup latency.",
+        "If the Bloom filter returns TRUE (possible duplicate), verify key presence in durable primary database store."
+],
+      ruInstructions: [
+        "Проверяйте ключ по паре вращающихся фильтров Блума для текущего и предыдущего временных интервалов.",
+        "Если фильтр возвращает FALSE (ключа точно нет), немедленно передавайте запрос в обработку без чтения БД.",
+        "Если фильтр возвращает TRUE (возможный дубликат), выполняйте точную проверку по первичной базе данных."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","bloom-filter","idempotency","webhooks","high-throughput"],
+    }),
+  },
+
+  "control-flow-choreography-vs-orchestration-saga": {
+    id: "control-flow-choreography-vs-orchestration-saga",
+    name: "ControlFlowChoreographyVsOrchestrationSagaSkill",
+    displayName: "Event-Driven Choreography vs Centralized Orchestrator Decision Engine",
+    categoryId: 'control_flow',
+    description: "Selects and implements event choreography for decoupled 2-3 step flows, or centralized state machine orchestrators for complex sagas.",
+    tags: ["control-flow","choreography","orchestration","microservices","saga"],
+    transform: createStandardSkillTransform({
+      sectionName: "Saga Architecture Selection & Execution Standards",
+      ruSectionName: "Выбор и реализация: хореография событий vs централизованный оркестратор Saga",
+      instructions: [
+        "Use Event Choreography for loose, 2-3 step asynchronous workflows with independent domain boundaries.",
+        "Use Centralized State Orchestrators (Temporal / Step Functions) when workflows require complex compensation, timers, or auditability.",
+        "Avoid distributed cyclic dependency loops in choreographed topologies by enforcing acyclic domain event flows."
+],
+      ruInstructions: [
+        "Применяйте хореографию событий для простых 2–3 шаговых асинхронных процессов без единого координатора.",
+        "Используйте централизованный оркестратор для сложных процессов с ветвлениями, таймерами и компенсациями.",
+        "Исключайте циклические зависимости в хореографии, контролируя направленность потока событий домена."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","choreography","orchestration","microservices","saga"],
+    }),
+  },
+
+  "control-flow-adaptive-load-shedding-queue-delay": {
+    id: "control-flow-adaptive-load-shedding-queue-delay",
+    name: "ControlFlowAdaptiveLoadSheddingQueueDelaySkill",
+    displayName: "Adaptive Load Shedding based on CoDel Queue Sojourn Time",
+    categoryId: 'control_flow',
+    description: "Sheds incoming excess load dynamically when queue waiting time (sojourn time) exceeds target SLO thresholds (e.g. 50ms).",
+    tags: ["control-flow","load-shedding","codel","overload-protection","resilience"],
+    transform: createStandardSkillTransform({
+      sectionName: "Queue Sojourn Time Load Shedding Protocol",
+      ruSectionName: "Адаптивный сброс нагрузки (Load Shedding) по времени ожидания в очереди (CoDel)",
+      instructions: [
+        "Stamp incoming requests with entry timestamps upon entering the internal processing queue.",
+        "Measure actual waiting time (sojourn delay) at the moment a worker pulls the task from the queue.",
+        "Fast-drop non-critical background requests immediately with HTTP 503 if queue delay exceeds 50ms."
+],
+      ruInstructions: [
+        "Фиксируйте точную временную метку поступления запроса в очередь обработки воркеров.",
+        "Измеряйте фактическое время нахождения в очереди (Sojourn Delay) в момент взятия задачи в работу.",
+        "Мгновенно сбрасывайте некритичные фоновые запросы с кодом 503, если задержка в очереди превышает лимит (50 мс)."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","load-shedding","codel","overload-protection","resilience"],
+    }),
+  },
+
+  "control-flow-worker-pool-work-stealing-deque": {
+    id: "control-flow-worker-pool-work-stealing-deque",
+    name: "ControlFlowWorkerPoolWorkStealingDequeSkill",
+    displayName: "Work-Stealing Thread Pool with Lock-Free Double-Ended Queues",
+    categoryId: 'control_flow',
+    description: "Balances uneven multi-threaded CPU workloads by allowing idle threads to steal tasks from the tail of busy worker deques.",
+    tags: ["control-flow","work-stealing","concurrency","thread-pool","performance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Work-Stealing Worker Pool Architecture",
+      ruSectionName: "Пул воркеров с алгоритмом Work-Stealing и двусторонними очередями (Deque)",
+      instructions: [
+        "Assign each worker thread a dedicated double-ended queue (deque); workers push and pop tasks from their own head.",
+        "When a worker becomes idle, attempt to steal tasks from the tail of a randomly chosen peer worker's deque.",
+        "Minimize lock contention using atomic lock-free CAS operations on deque heads and tails."
+],
+      ruInstructions: [
+        "Выделяйте каждому потоку-воркеру собственную двустороннюю очередь (Deque) для локальных задач.",
+        "При опустошении очереди воркер переходит в режим кражи задач с конца очереди случайного соседа.",
+        "Минимизируйте блокировки с помощью атомарных неблокирующих операций Compare-And-Swap (CAS)."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","work-stealing","concurrency","thread-pool","performance"],
+    }),
+  },
+
+  "control-flow-dynamic-route-intent-classifier": {
+    id: "control-flow-dynamic-route-intent-classifier",
+    name: "ControlFlowDynamicRouteIntentClassifierSkill",
+    displayName: "LLM Semantic Intent Classifier & Dynamic Route Dispatcher",
+    categoryId: 'control_flow',
+    description: "Routes user prompts to specialized downstream agents, tools, or fast-path regex handlers using semantic intent classification.",
+    tags: ["control-flow","intent-classifier","routing","agentic","dispatch"],
+    transform: createStandardSkillTransform({
+      sectionName: "Semantic Intent Dynamic Routing Protocol",
+      ruSectionName: "Семантический классификатор намерений и динамическая маршрутизация запросов",
+      instructions: [
+        "Evaluate incoming prompt against predefined route confidence scores and structured schema categories.",
+        "Route high-confidence deterministic queries directly to zero-latency rule-based or SQL handlers.",
+        "Dispatch ambiguous or multi-faceted queries to the primary conversational reasoning agent."
+],
+      ruInstructions: [
+        "Классифицируйте входящий запрос по семантическим категориям и вероятностным оценкам намерений.",
+        "Направляйте детерминированные типовые запросы напрямую в быстрые обработчики без вызова тяжелых моделей.",
+        "Передавайте сложные составные запросы в основной агент рассуждений с сохранением контекста."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","intent-classifier","routing","agentic","dispatch"],
+    }),
+  },
+
+  "control-flow-multi-tier-fallback-ladder": {
+    id: "control-flow-multi-tier-fallback-ladder",
+    name: "ControlFlowMultiTierFallbackLadderSkill",
+    displayName: "Multi-Tier Degrading Fallback Ladder Architecture",
+    categoryId: 'control_flow',
+    description: "Executes cascading degradation steps (Primary API -> Cache Replica -> Compressed Heuristic -> Static Safe Defaults) on outages.",
+    tags: ["control-flow","fallback","graceful-degradation","resilience","high-availability"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Tier Fallback Degradation Standards",
+      ruSectionName: "Многоуровневая лестница резервных сценариев (Multi-Tier Fallback Ladder)",
+      instructions: [
+        "Tier 1: Live Primary Service execution with strict timeout.",
+        "Tier 2: Stale Cache replica retrieval with soft warning headers.",
+        "Tier 3: Algorithmic heuristic local approximation.",
+        "Tier 4: Guaranteed static fallback response ensuring zero broken user UI states."
+],
+      ruInstructions: [
+        "Уровень 1: Вызов основного сервиса в реальном времени с жестким таймаутом.",
+        "Уровень 2: Чтение данных из кэша с пометкой об устаревании (Stale Cache).",
+        "Уровень 3: Локальный эвристический расчет приближенного значения.",
+        "Уровень 4: Гарантированный статический ответ по умолчанию, сохраняющий работоспособность интерфейса."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","fallback","graceful-degradation","resilience","high-availability"],
+    }),
+  },
+
+  "control-flow-two-phase-locking-deadlock-prevention": {
+    id: "control-flow-two-phase-locking-deadlock-prevention",
+    name: "ControlFlowTwoPhaseLockingDeadlockPreventionSkill",
+    displayName: "Strict Two-Phase Locking (2PL) & Deadlock Prevention Ordering",
+    categoryId: 'control_flow',
+    description: "Prevents transactional deadlocks in multi-resource mutations by enforcing deterministic global resource acquisition ordering.",
+    tags: ["control-flow","2pl","locking","deadlock-prevention","database"],
+    transform: createStandardSkillTransform({
+      sectionName: "2PL Deadlock Prevention Standards",
+      ruSectionName: "Строгая двухфазная блокировка (2PL) и упорядочивание ресурсов против дедлоков",
+      instructions: [
+        "Acquire all locks during the expanding Growing Phase; release locks only during the Shrinking Phase after commit.",
+        "Sort resource IDs in strictly ascending alphanumeric order before acquiring multiple simultaneous locks.",
+        "Enforce lock acquisition timeouts (e.g. 5 seconds) with immediate rollback to break potential cycles."
+],
+      ruInstructions: [
+        "Захватывайте все блокировки на растущей фазе (Growing Phase) и освобождайте только после завершения транзакции.",
+        "Сортируйте идентификаторы блокируемых ресурсов в строго возрастающем порядке перед захватом.",
+        "Устанавливайте предельный таймаут ожидания блокировки с немедленным откатом для предотвращения клинчей."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","2pl","locking","deadlock-prevention","database"],
+    }),
+  },
+
+  "control-flow-conditional-feature-flag-rollout": {
+    id: "control-flow-conditional-feature-flag-rollout",
+    name: "ControlFlowConditionalFeatureFlagRolloutSkill",
+    displayName: "Multi-Variant Feature Flags & Dynamic Percentage Rollouts",
+    categoryId: 'control_flow',
+    description: "Evaluates user targeting rules, deterministic consistent-hash percentage bucketing, and emergency kill-switches.",
+    tags: ["control-flow","feature-flags","rollout","ab-testing","devops"],
+    transform: createStandardSkillTransform({
+      sectionName: "Feature Flag Evaluation Protocol",
+      ruSectionName: "Условные флаги фичей (Feature Flags) и процентный релиз по хэшу пользователя",
+      instructions: [
+        "Compute deterministic bucket allocation: `hash(userId + flagKey) % 100 < rolloutPercentage`.",
+        "Evaluate targeted override rules (internal employees, beta cohorts) before global percentage bucketing.",
+        "Support instantaneous client and server kill-switches that disable features without requiring code redeployments."
+],
+      ruInstructions: [
+        "Вычисляйте детерминированное попадание в когорту: `hash(userId + flagKey) % 100 < процент_раскатки`.",
+        "Проверяйте точечные правила переопределения (сотрудники, бета-тестеры) до применения общего процента.",
+        "Обеспечивайте работу аварийных рубильников (Kill-Switches) для мгновенного отключения фичи без перезапуска."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","feature-flags","rollout","ab-testing","devops"],
+    }),
+  },
+
+  "control-flow-event-loop-microtask-macrotask-coordination": {
+    id: "control-flow-event-loop-microtask-macrotask-coordination",
+    name: "ControlFlowEventLoopMicrotaskMacrotaskCoordinationSkill",
+    displayName: "V8 Event Loop Scheduling: Microtasks vs Macrotasks vs requestAnimationFrame",
+    categoryId: 'control_flow',
+    description: "Schedules browser and Node.js tasks precisely across `queueMicrotask`, `Promise.then`, `setImmediate`, and `requestAnimationFrame`.",
+    tags: ["control-flow","event-loop","microtasks","macrotasks","javascript-runtime"],
+    transform: createStandardSkillTransform({
+      sectionName: "Event Loop Task Scheduling Standards",
+      ruSectionName: "Планирование задач Event Loop: Microtasks, Macrotasks и requestAnimationFrame",
+      instructions: [
+        "Use `queueMicrotask()` for high-priority state mutations that must resolve before the next DOM render cycle.",
+        "Use `requestAnimationFrame()` for visual layout recalculations and animation updates synced to display refresh.",
+        "Use `setTimeout(..., 0)` or `setImmediate()` to yield the main thread and break up long-running CPU loops."
+],
+      ruInstructions: [
+        "Используйте `queueMicrotask()` для синхронных изменений состояния, которые должны завершиться до перерисовки DOM.",
+        "Применяйте `requestAnimationFrame()` для анимаций и перерасчета стилей, привязанных к кадровой частоте дисплея.",
+        "Используйте `setTimeout(0)` или `setImmediate()` для уступки главного потока и предотвращения зависания UI."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","event-loop","microtasks","macrotasks","javascript-runtime"],
+    }),
+  },
+
+  "control-flow-stream-chunking-windowed-aggregation": {
+    id: "control-flow-stream-chunking-windowed-aggregation",
+    name: "ControlFlowStreamChunkingWindowedAggregationSkill",
+    displayName: "Streaming Chunk Aggregation & Sliding-Window Time Buffers",
+    categoryId: 'control_flow',
+    description: "Groups high-frequency real-time stream chunks into time-windowed batches (e.g. every 100ms or 50 items) for bulk database ingestion.",
+    tags: ["control-flow","streaming","batching","aggregation","buffers"],
+    transform: createStandardSkillTransform({
+      sectionName: "Streaming Chunk Aggregation Standards",
+      ruSectionName: "Пакетная агрегация потоковых данных по временным окнам (Time-Windowed Buffers)",
+      instructions: [
+        "Buffer incoming items until either batch size limit (e.g. 100 items) or maximum buffer time (e.g. 100ms) is reached.",
+        "Flush buffers immediately upon receiving upstream stream end (`EOF`) or process termination signals.",
+        "Execute bulk insertion queries (`INSERT INTO ... VALUES (...)`) to maximize database write IOPS efficiency."
+],
+      ruInstructions: [
+        "Накапливайте элементы в буфере до достижения лимита размера (100 шт) или таймаута (100 мс).",
+        "Принудительно сбрасывайте буфер при получении сигнала завершения потока (`EOF`) или остановке сервиса.",
+        "Выполняйте пакетную запись единым запросом для оптимизации операций ввода-вывода (IOPS)."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","streaming","batching","aggregation","buffers"],
+    }),
+  },
+
+  "control-flow-retry-after-http-429-respect": {
+    id: "control-flow-retry-after-http-429-respect",
+    name: "ControlFlowRetryAfterHttp429RespectSkill",
+    displayName: "HTTP 429 Rate-Limit & Server `Retry-After` Header Adherence",
+    categoryId: 'control_flow',
+    description: "Parses and strictly respects server `Retry-After` (seconds / HTTP date) headers, pausing client execution queues dynamically.",
+    tags: ["control-flow","retry-after","http-429","rate-limiting","resilience"],
+    transform: createStandardSkillTransform({
+      sectionName: "HTTP 429 Retry-After Adherence Standards",
+      ruSectionName: "Корректная обработка HTTP 429 и соблюдение серверного заголовка Retry-After",
+      instructions: [
+        "Extract and parse `Retry-After` header value (handling both integer seconds and RFC 7231 HTTP date formats).",
+        "Pause all outbound client requests sharing the same rate-limit domain bucket until the deadline passes.",
+        "Add a small randomized delta (100-500ms jitter) to the wait duration to prevent synchronized wave rebounds."
+],
+      ruInstructions: [
+        "Извлекайте значение заголовка `Retry-After` с поддержкой формата секунд и даты RFC 7231.",
+        "Приостанавливайте отправку новых запросов к данному домену до истечения указанного времени ожидания.",
+        "Добавляйте случайный джиттер (100–500 мс) к интервалу ожидания для защиты от одновременных повторов."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","retry-after","http-429","rate-limiting","resilience"],
+    }),
+  },
+  "control-flow-priority-inversion-inheritance": {
+    id: "control-flow-priority-inversion-inheritance",
+    name: "ControlFlowPriorityInversionInheritanceSkill",
+    displayName: "Priority Inheritance Protocol & Real-Time Lock Inversion Defense",
+    categoryId: 'control_flow',
+    description: "Eliminates priority inversion in real-time execution by elevating the priority of a low-priority task holding a critical mutex.",
+    tags: ["control-flow","priority-inversion","concurrency","mutex","real-time"],
+    transform: createStandardSkillTransform({
+      sectionName: "Priority Inheritance Locking Protocol",
+      ruSectionName: "Протокол наследования приоритетов (Защита от инверсии приоритетов при блокировках)",
+      instructions: [
+        "Temporarily boost the scheduling priority of any worker holding a shared lock to match the highest-priority waiting task.",
+        "Revert the worker's priority immediately upon releasing the contended lock.",
+        "Enforce maximum lock hold durations to prevent unbounded latency in high-priority threads."
+],
+      ruInstructions: [
+        "Временно повышайте приоритет потока, удерживающего блокировку, до уровня наивысшего ожидающего потока.",
+        "Возвращайте исходный приоритет потока сразу после освобождения разделяемого ресурса.",
+        "Ограничивайте максимальное время удержания блокировки для гарантии предсказуемой задержки."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","priority-inversion","concurrency","mutex","real-time"],
+    }),
+  },
+
+  "control-flow-branch-prediction-hinting-hot-path": {
+    id: "control-flow-branch-prediction-hinting-hot-path",
+    name: "ControlFlowBranchPredictionHintingHotPathSkill",
+    displayName: "Hot-Path Branch Prediction & CPU Pipeline Optimization",
+    categoryId: 'control_flow',
+    description: "Structures high-frequency conditional evaluation using `likely()` / `unlikely()` branch hinting to minimize CPU pipeline flush stalls.",
+    tags: ["control-flow","branch-prediction","cpu-optimization","performance","low-level"],
+    transform: createStandardSkillTransform({
+      sectionName: "Branch Prediction & Hot Path Standards",
+      ruSectionName: "Оптимизация ветвлений в горячем коде (Branch Prediction и исключение сброса конвейера CPU)",
+      instructions: [
+        "Arrange conditional branches so the most common execution path fall-through is sequential without jumps.",
+        "Isolate rare error checking branches out of the hot instruction cache loop.",
+        "Avoid data-dependent branches in tight inner loops; prefer branchless ternary or bitwise operations."
+],
+      ruInstructions: [
+        "Размещайте наиболее вероятную ветвь выполнения последовательно для непрерывной выборки инструкций.",
+        "Выносите редкие проверки ошибок за пределы горячего цикла кэша инструкций.",
+        "Заменяйте ветвления в критических циклах на безветвенные (branchless) битовые операции."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","branch-prediction","cpu-optimization","performance","low-level"],
+    }),
+  },
+
+  "control-flow-idempotent-replay-token-window": {
+    id: "control-flow-idempotent-replay-token-window",
+    name: "ControlFlowIdempotentReplayTokenWindowSkill",
+    displayName: "Idempotent Replay Window & Cryptographic Nonce Validation",
+    categoryId: 'control_flow',
+    description: "Validates incoming state mutation requests using timestamp-bounded nonces, rejecting replays outside a sliding 5-minute clock window.",
+    tags: ["control-flow","idempotency","nonce","security","distributed-systems"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cryptographic Nonce Replay Defense Standards",
+      ruSectionName: "Защита от повторных атак (Replay Defense) через криптографические Nonce и временные окна",
+      instructions: [
+        "Reject any request bearing a creation timestamp skewed more than 300 seconds from server clock.",
+        "Record observed nonces in an in-memory TTL set; reject duplicate nonces within the valid time window.",
+        "Synchronize host clocks via NTP / PTP to avoid spurious timestamp rejections."
+],
+      ruInstructions: [
+        "Отклоняйте запросы с временной меткой, отклоняющейся от системных часов сервера более чем на 300 секунд.",
+        "Сохраняйте использованные одноразовые номера (Nonce) в быстром кэше с автоудалением по TTL.",
+        "Синхронизируйте системное время серверов по протоколу NTP для исключения ложных срабатываний."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","idempotency","nonce","security","distributed-systems"],
+    }),
+  },
+
+  "control-flow-hierarchical-timeout-propagation": {
+    id: "control-flow-hierarchical-timeout-propagation",
+    name: "ControlFlowHierarchicalTimeoutPropagationSkill",
+    displayName: "Hierarchical Deadline & gRPC Context Timeout Propagation",
+    categoryId: 'control_flow',
+    description: "Passes monotonically shrinking absolute deadlines across distributed microservice RPC calls, preventing dead computation.",
+    tags: ["control-flow","deadline-propagation","grpc","timeout","microservices"],
+    transform: createStandardSkillTransform({
+      sectionName: "Deadline & Context Timeout Standards",
+      ruSectionName: "Сквозная передача дедлайнов и таймаутов в распределенных вызовах (gRPC Deadlines)",
+      instructions: [
+        "Propagate absolute unix timestamp deadlines (`grpc-timeout`) across all downstream network hops.",
+        "Subtract processing elapsed time before initiating secondary sub-queries.",
+        "Short-circuit and abort downstream calls immediately if the remaining time budget is less than round-trip network latency."
+],
+      ruInstructions: [
+        "Передавайте абсолютное время дедлайна через заголовок `grpc-timeout` во все вложенные микросервисы.",
+        "Вычитайте уже затраченное время перед вызовом последующих зависимостей.",
+        "Мгновенно прерывайте цепочку, если оставшийся бюджет времени меньше базовой задержки сети."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","deadline-propagation","grpc","timeout","microservices"],
+    }),
+  },
+
+  "control-flow-event-sourcing-checkpoint-snapshot": {
+    id: "control-flow-event-sourcing-checkpoint-snapshot",
+    name: "ControlFlowEventSourcingCheckpointSnapshotSkill",
+    displayName: "Event Sourcing Periodic Snapshots & Monotonic Checkpoints",
+    categoryId: 'control_flow',
+    description: "Accelerates entity aggregate state reconstitution by saving periodic checkpoint snapshots every N events (e.g. every 100 events).",
+    tags: ["control-flow","event-sourcing","snapshots","checkpoints","cqrs"],
+    transform: createStandardSkillTransform({
+      sectionName: "Event Sourcing Snapshotting Standards",
+      ruSectionName: "Периодические снапшоты состояния и контрольные точки в Event Sourcing",
+      instructions: [
+        "Save serialized aggregate state snapshot every 100 applied domain events.",
+        "Load the latest snapshot and replay only subsequent delta events (`version > snapshot.version`) for fast hydration.",
+        "Verify state hash parity during background reconciliation jobs to ensure zero event corruption."
+],
+      ruInstructions: [
+        "Сохраняйте сериализованный снапшот состояния агрегата каждые 100 зафиксированных событий.",
+        "Восстанавливайте состояние загрузкой последнего снапшота и применением только оставшихся новых событий.",
+        "Периодически сверяйте хэш вычисленного состояния для исключения расхождений в проекциях."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","event-sourcing","snapshots","checkpoints","cqrs"],
+    }),
+  },
+
+  "control-flow-concurrency-pipeline-stage-buffering": {
+    id: "control-flow-concurrency-pipeline-stage-buffering",
+    name: "ControlFlowConcurrencyPipelineStageBufferingSkill",
+    displayName: "Staged Pipeline Architecture & Bounded Channel Buffers (Go Channels / CSP)",
+    categoryId: 'control_flow',
+    description: "Organizes concurrent data pipelines into discrete processing stages connected by bounded FIFO channels with explicit backpressure.",
+    tags: ["control-flow","csp","pipeline","channels","concurrency"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bounded Pipeline Channel Standards",
+      ruSectionName: "Конвейерная обработка данных через буферизованные каналы (CSP / Go Channels)",
+      instructions: [
+        "Decouple pipeline stages (Ingest -> Parse -> Transform -> Persist) using bounded FIFO channel queues.",
+        "Block upstream stages automatically when downstream channel buffers reach full capacity.",
+        "Close downstream channels explicitly when upstream producer finishes emitting data."
+],
+      ruInstructions: [
+        "Разделяйте этапы конвейера (чтение, парсинг, обогащение, запись) очередями с фиксированной емкостью.",
+        "Приостанавливайте работу предыдущего этапа при заполнении входного буфера следующего шага.",
+        "Корректно закрывайте каналы передачи данных при завершении генерации потока источником."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","csp","pipeline","channels","concurrency"],
+    }),
+  },
+
+  "control-flow-circuit-breaker-exponential-probe": {
+    id: "control-flow-circuit-breaker-exponential-probe",
+    name: "ControlFlowCircuitBreakerExponentialProbeSkill",
+    displayName: "Circuit Breaker Exponential Half-Open Probe Backoff",
+    categoryId: 'control_flow',
+    description: "Applies exponential cool-down backoff to half-open probe requests when downstream services suffer prolonged intermittent flapping.",
+    tags: ["control-flow","circuit-breaker","half-open","flapping","resilience"],
+    transform: createStandardSkillTransform({
+      sectionName: "Circuit Breaker Half-Open Probe Standards",
+      ruSectionName: "Экспоненциальная адаптация полуоткрытого состояния Circuit Breaker при нестабильности сервиса",
+      instructions: [
+        "Double the cooldown period before opening Half-Open state if the previous recovery probe failed.",
+        "Require a consecutive streak of $K$ successful probes (e.g. 5 consecutive 200 OKs) before transitioning fully to Closed state.",
+        "Protect recovering backend servers from instant thundering-herd overload upon state closing."
+],
+      ruInstructions: [
+        "Удваивайте интервал ожидания перед отправкой пробного запроса, если предыдущая попытка завершилась неудачей.",
+        "Требуйте серию из $K$ успешных пробных ответов подряд для полного закрытия контура (перехода в Closed).",
+        "Защищайте восстанавливающийся сервис от лавинообразного наплыва запросов при включении."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","circuit-breaker","half-open","flapping","resilience"],
+    }),
+  },
+
+  "control-flow-multi-region-failover-dns-healthcheck": {
+    id: "control-flow-multi-region-failover-dns-healthcheck",
+    name: "ControlFlowMultiRegionFailoverDnsHealthcheckSkill",
+    displayName: "Active-Passive Multi-Region DNS Failover & Health Checks",
+    categoryId: 'control_flow',
+    description: "Reroutes global user traffic automatically across multi-cloud regions upon persistent edge health check failures.",
+    tags: ["control-flow","dns-failover","multi-region","disaster-recovery","high-availability"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Region DNS Failover Protocol",
+      ruSectionName: "Автоматический переключатель регионов по DNS Health Checks (Active-Passive Failover)",
+      instructions: [
+        "Configure edge health probes pinging synthetic application endpoints every 5 seconds across 3 global vantage points.",
+        "Trigger automatic DNS route update (Route53 / Cloudflare) when 2 of 3 probes fail consecutively for 15 seconds.",
+        "Set DNS TTL to 30-60 seconds on critical service records to accelerate global propagation during emergencies."
+],
+      ruInstructions: [
+        "Настраивайте синтетические проверки доступности каждые 5 секунд из нескольких независимых точек мира.",
+        "Инициируйте автоматическое переключение DNS-записей при фиксации сбоя большинством зон проверки.",
+        "Устанавливайте низкий TTL (30–60 секунд) для критических DNS-записей для быстрого применения маршрутов."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","dns-failover","multi-region","disaster-recovery","high-availability"],
+    }),
+  },
+
+  "control-flow-bounded-retry-budget-token-leaky": {
+    id: "control-flow-bounded-retry-budget-token-leaky",
+    name: "ControlFlowBoundedRetryBudgetTokenLeakySkill",
+    displayName: "Client-Side Retry Budgets (Finagle / Envoy Token Bucket)",
+    categoryId: 'control_flow',
+    description: "Limits client retry volume to a strict percentage (e.g. max 10% of total outbound requests) to prevent retry storm amplification.",
+    tags: ["control-flow","retry-budget","envoy","resilience","traffic-management"],
+    transform: createStandardSkillTransform({
+      sectionName: "Client Retry Budget Standards",
+      ruSectionName: "Бюджет повторных попыток клиента (Retry Budget: не более 10% повторов от общего трафика)",
+      instructions: [
+        "Track successful requests and retry attempts in a sliding 10-second window.",
+        "Allow retries only if the ratio of retries to initial requests is below the 10% budget threshold.",
+        "Fast-fail subsequent failed requests without retrying when the retry budget is exhausted."
+],
+      ruInstructions: [
+        "Учитывайте общее количество успешных запросов и число повторов в скользящем 10-секундном окне.",
+        "Разрешайте повторную попытку только при условии, что доля повторов не превышает 10% от общего числа запросов.",
+        "Мгновенно возвращайте ошибку без повтора при исчерпании бюджета повторных запросов."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","retry-budget","envoy","resilience","traffic-management"],
+    }),
+  },
+
+  "control-flow-request-hedging-cost-aware": {
+    id: "control-flow-request-hedging-cost-aware",
+    name: "ControlFlowRequestHedgingCostAwareSkill",
+    displayName: "Cost-Aware Speculative Request Hedging & Quota Conservation",
+    categoryId: 'control_flow',
+    description: "Issues hedged requests conditionally only for high-value priority customers or latency-critical interactive user sessions.",
+    tags: ["control-flow","request-hedging","cost-aware","quota","optimization"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cost-Aware Request Hedging Standards",
+      ruSectionName: "Экономически оптимизированные спекулятивные запросы с учетом квот и затрат",
+      instructions: [
+        "Evaluate session priority tier (e.g. Enterprise Tier vs Free Tier) before enabling speculative hedged requests.",
+        "Disable hedging automatically during cloud API billing rate-limit pressure or high background system load.",
+        "Enforce maximum 1 duplicate request per parent workflow."
+],
+      ruInstructions: [
+        "Включайте спекулятивные параллельные запросы только для премиальных тарифов и интерактивных сессий.",
+        "Автоматически отключайте дублирование запросов при росте нагрузки или риске исчерпания API-лимитов.",
+        "Ограничивайте число спекулятивных запросов максимум одним дубликатом на операцию."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","request-hedging","cost-aware","quota","optimization"],
+    }),
+  },
+
+  "control-flow-linearizable-read-lease-raft": {
+    id: "control-flow-linearizable-read-lease-raft",
+    name: "ControlFlowLinearizableReadLeaseRaftSkill",
+    displayName: "Linearizable Read Leases & ReadIndex Optimization in Raft",
+    categoryId: 'control_flow',
+    description: "Serves linearizable, stale-free read queries directly from the Raft leader without logging full consensus log entries.",
+    tags: ["control-flow","raft","linearizability","read-index","consensus"],
+    transform: createStandardSkillTransform({
+      sectionName: "Raft Linearizable Read Standards",
+      ruSectionName: "Линеаризуемое чтение в Raft без записи в лог (ReadIndex и аренда лидера)",
+      instructions: [
+        "Verify the leader holds a valid lease confirmed by majority heartbeat acks within clock drift bounds.",
+        "Record current `commitIndex` as `readIndex` and wait for local state machine to apply up to `readIndex` before returning data.",
+        "Guarantee strict serializable consistency while achieving 10x higher read query throughput."
+],
+      ruInstructions: [
+        "Проверяйте валидность аренды лидера, подтвержденной большинством узлов в рамках допустимого дрейфа часов.",
+        "Фиксируйте текущий `commitIndex` как `readIndex` и отдавайте ответ только после применения стейт-машины до этой точки.",
+        "Обеспечивайте строгую согласованность чтения с 10-кратным ростом пропускной способности."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","raft","linearizability","read-index","consensus"],
+    }),
+  },
+
+  "control-flow-declarative-rule-engine-rete": {
+    id: "control-flow-declarative-rule-engine-rete",
+    name: "ControlFlowDeclarativeRuleEngineReteSkill",
+    displayName: "Declarative Rule Engine & Rete Algorithm Pattern Matching",
+    categoryId: 'control_flow',
+    description: "Evaluates thousands of conditional business rules against incoming event facts in sub-millisecond time via Rete network compilation.",
+    tags: ["control-flow","rule-engine","rete","business-logic","declarative"],
+    transform: createStandardSkillTransform({
+      sectionName: "Declarative Business Rule Engine Standards",
+      ruSectionName: "Декларативный движок бизнес-правил на основе алгоритма Rete",
+      instructions: [
+        "Compile conditional rules into an acyclic Directed Acyclic Graph (Alpha and Beta memory nodes).",
+        "Propagate incoming fact mutations incrementally through the Rete network rather than re-evaluating all rules from scratch.",
+        "Fire conflict resolution agenda rules in strict priority order upon activation."
+],
+      ruInstructions: [
+        "Компилируйте правила условий в направленный граф узлов памяти (Alpha и Beta узлы алгоритма Rete).",
+        "Передавайте изменения фактов по графу инкрементально без повторного полного прохода по всем правилам.",
+        "Выполняйте сработавшие правила в соответствии с установленными приоритетами разрешения конфликтов."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","rule-engine","rete","business-logic","declarative"],
+    }),
+  },
+
+  "control-flow-two-way-data-binding-dirty-checking": {
+    id: "control-flow-two-way-data-binding-dirty-checking",
+    name: "ControlFlowTwoWayDataBindingDirtyCheckingSkill",
+    displayName: "Fine-Grained Reactive Signal Graphs & Dependency Tracking",
+    categoryId: 'control_flow',
+    description: "Propagates state mutations automatically across fine-grained reactive dependency graphs (SolidJS / Preact Signals) with zero VDOM diffing.",
+    tags: ["control-flow","signals","reactivity","fine-grained","ui-runtime"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fine-Grained Signal Reactivity Standards",
+      ruSectionName: "Мелкогранулярная реактивность сигналов (Signals: распространение изменений без VDOM)",
+      instructions: [
+        "Track variable read accesses dynamically inside `createEffect` or `computed` closures during execution.",
+        "Subscribe observers to dependency signals automatically and invalidate computed caches monotonically.",
+        "Batch downstream subscriber notifications inside an atomic `batch(() => ...)` transaction to prevent glitching."
+],
+      ruInstructions: [
+        "Автоматически регистрируйте зависимости при чтении сигналов внутри вычисляемых функций.",
+        "Подписывайте наблюдателей на сигналы и сбрасывайте кэш зависимых значений монотонно.",
+        "Объединяйте оповещения подписчиков внутри транзакции `batch(...)` для предотвращения промежуточных глитчей."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","signals","reactivity","fine-grained","ui-runtime"],
+    }),
+  },
+
+  "control-flow-event-throttling-leading-edge": {
+    id: "control-flow-event-throttling-leading-edge",
+    name: "ControlFlowEventThrottlingLeadingEdgeSkill",
+    displayName: "Leading-Edge & Trailing-Edge Configurable Event Throttling",
+    categoryId: 'control_flow',
+    description: "Configures event rate pacing with options for immediate leading execution, delayed trailing execution, or synchronized dual invocation.",
+    tags: ["control-flow","throttle","leading-edge","trailing-edge","ui-events"],
+    transform: createStandardSkillTransform({
+      sectionName: "Configurable Event Throttling Architecture",
+      ruSectionName: "Конфигурируемый троттлинг событий с поддержкой Leading и Trailing фаз",
+      instructions: [
+        "Leading Mode: Execute callback immediately on first trigger; suppress subsequent calls during cooldown.",
+        "Trailing Mode: Execute callback after cooldown window with the most recent arguments passed during the window.",
+        "Dual Mode: Execute immediately on first event and once more at the end of cooldown if updates occurred."
+],
+      ruInstructions: [
+        "Leading режим: Мгновенное выполнение при первом клике и блокировка повторов на время кулдауна.",
+        "Trailing режим: Выполнение по завершении окна задержки с последними переданными аргументами.",
+        "Dual режим: Выполнение на старте и повторный вызов в конце интервала при наличии новых данных."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","throttle","leading-edge","trailing-edge","ui-events"],
+    }),
+  },
+
+  "control-flow-task-orchestrator-dependency-injection": {
+    id: "control-flow-task-orchestrator-dependency-injection",
+    name: "ControlFlowTaskOrchestratorDependencyInjectionSkill",
+    displayName: "Task Workflow Composition Root & Dependency Injection",
+    categoryId: 'control_flow',
+    description: "Decouples execution control flow from concrete storage, network, and cryptography drivers using IoC container inversion.",
+    tags: ["control-flow","dependency-injection","ioc","architecture","clean-code"],
+    transform: createStandardSkillTransform({
+      sectionName: "Workflow Dependency Injection Standards",
+      ruSectionName: "Внедрение зависимостей и Composition Root в оркестраторах задач",
+      instructions: [
+        "Inject interface-based service abstractions into task runner constructors rather than instantiating singletons directly.",
+        "Assemble concrete adapters and workflow graphs exclusively at the composition root entrypoint.",
+        "Enable instant in-memory unit testing of complex workflows by injecting mock service adapters."
+],
+      ruInstructions: [
+        "Внедряйте интерфейсы сервисов в конструкторы обработчиков вместо создания глобальных синглтонов.",
+        "Собирайте граф зависимостей и адаптеры исключительно в точке входа приложения (Composition Root).",
+        "Обеспечивайте мгновенное модульное тестирование логики воркфлоу путем подмены адаптеров на моки."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","dependency-injection","ioc","architecture","clean-code"],
+    }),
+  },
+
+  "control-flow-graceful-fallback-stale-while-revalidate": {
+    id: "control-flow-graceful-fallback-stale-while-revalidate",
+    name: "ControlFlowGracefulFallbackStaleWhileRevalidateSkill",
+    displayName: "Stale-While-Revalidate (SWR) Asynchronous Cache Regeneration",
+    categoryId: 'control_flow',
+    description: "Returns instantly from cache while revalidating fresh data in the background, serving stale data gracefully if upstream fails.",
+    tags: ["control-flow","swr","caching","stale-while-revalidate","performance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Stale-While-Revalidate Caching Standards",
+      ruSectionName: "Асинхронная фоновая ревалидация кэша (Stale-While-Revalidate / SWR)",
+      instructions: [
+        "Serve cached content immediately to the caller with zero perceived latency.",
+        "Spawn background asynchronous fetch to revalidate and update cache storage.",
+        "Retain stale cache item indefinitely as emergency fallback if background revalidation throws network errors."
+],
+      ruInstructions: [
+        "Отдавайте кэшированные данные мгновенно пользователю с нулевой задержкой ожидания.",
+        "Запускайте фоновое асинхронное обновление данных в кэше без блокировки ответа.",
+        "Сохраняйте устаревший кэш как надежный аварийный fallback при сбоях сетевого источника."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","swr","caching","stale-while-revalidate","performance"],
+    }),
+  },
+
+  "control-flow-async-resource-disposal-explicit": {
+    id: "control-flow-async-resource-disposal-explicit",
+    name: "ControlFlowAsyncResourceDisposalExplicitSkill",
+    displayName: "Deterministic Async Resource Disposal (TypeScript `using` & `Symbol.asyncDispose`)",
+    categoryId: 'control_flow',
+    description: "Guarantees deterministic cleanup of file handles, database connections, and locks using ECMAScript Explicit Resource Management.",
+    tags: ["control-flow","async-dispose","resource-cleanup","typescript","raii"],
+    transform: createStandardSkillTransform({
+      sectionName: "Explicit Resource Disposal Protocol",
+      ruSectionName: "Детерминированное освобождение ресурсов (TypeScript using и Symbol.asyncDispose)",
+      instructions: [
+        "Declare scoped resources using `await using resource = acquireResource()`.",
+        "Implement `[Symbol.asyncDispose]()` on client wrappers to close connections and release mutexes.",
+        "Guarantee automatic cleanup upon scope exit regardless of whether functions return normally or throw exceptions."
+],
+      ruInstructions: [
+        "Объявляйте временные ресурсы с ключевым словом `await using resource = acquire()`.",
+        "Реализуйте метод `[Symbol.asyncDispose]()` для закрытия сокетов и освобождения дескрипторов.",
+        "Гарантируйте автоматический вызов очистки при выходе из блока кода даже при возникновении исключений."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","async-dispose","resource-cleanup","typescript","raii"],
+    }),
+  },
+
+  "control-flow-adaptive-concurrency-aimd-tcp": {
+    id: "control-flow-adaptive-concurrency-aimd-tcp",
+    name: "ControlFlowAdaptiveConcurrencyAimdTcpSkill",
+    displayName: "Additive Increase / Multiplicative Decrease (AIMD) Dynamic Concurrency Limits",
+    categoryId: 'control_flow',
+    description: "Adjusts outbound concurrency limits dynamically (Vegas / AIMD) based on observed round-trip response time degradation.",
+    tags: ["control-flow","aimd","concurrency-limits","congestion-control","resilience"],
+    transform: createStandardSkillTransform({
+      sectionName: "AIMD Dynamic Concurrency Standards",
+      ruSectionName: "Динамическое управление параллелизмом AIMD (Additive Increase, Multiplicative Decrease)",
+      instructions: [
+        "Additive Increase: Increment concurrency limit by +1 when observed latency is at baseline RTT.",
+        "Multiplicative Decrease: Cut concurrency limit in half ($limit \\times 0.5$) immediately upon detecting latency spikes or drops.",
+        "Prevent self-induced queue collapse on overloaded downstream microservices."
+],
+      ruInstructions: [
+        "Аддитивное увеличение: Увеличивайте лимит одновременных задач на +1 при стабильной фоновой задержке RTT.",
+        "Мультипликативное уменьшение: Снижайте лимит вдвое при резком росте задержки или появлении ошибок.",
+        "Предотвращайте лавинообразную перегрузку нижележащих сервисов при исчерпании их ресурсов."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","aimd","concurrency-limits","congestion-control","resilience"],
+    }),
+  },
+
+  "control-flow-safe-state-reset-circuit-breaker": {
+    id: "control-flow-safe-state-reset-circuit-breaker",
+    name: "ControlFlowSafeStateResetCircuitBreakerSkill",
+    displayName: "Automated Ephemeral State Purge & Self-Healing Circuit Recovery",
+    categoryId: 'control_flow',
+    description: "Executes automated cache invalidation, memory compaction, and connection recycling when subsystems experience persistent memory leaks.",
+    tags: ["control-flow","self-healing","state-purge","recovery","resilience"],
+    transform: createStandardSkillTransform({
+      sectionName: "Self-Healing State Purge Standards",
+      ruSectionName: "Автоматическая очистка эфемерного состояния и самовосстановление подсистем",
+      instructions: [
+        "Detect persistent subsystem degradation metrics (high memory watermark, heap fragmentation).",
+        "Drain active work, purge transient in-memory caches, and reset connection pools gracefully.",
+        "Re-initialize subsystem cleanly without dropping active user HTTP connections."
+],
+      ruInstructions: [
+        "Фиксируйте маркеры деградации подсистемы (рост фрагментации памяти, утечки ссылок).",
+        "Завершайте активные задачи, сбрасывайте эфемерный кэш и перезапускайте пулы соединений.",
+        "Выполняйте чистую реинициализацию сервиса без разрыва внешних клиентских сессий."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","self-healing","state-purge","recovery","resilience"],
+    }),
+  },
+
+  "control-flow-multi-tenant-fair-share-scheduling": {
+    id: "control-flow-multi-tenant-fair-share-scheduling",
+    name: "ControlFlowMultiTenantFairShareSchedulingSkill",
+    displayName: "Deficit Weighted Round-Robin (DWRR) Multi-Tenant Fair Scheduling",
+    categoryId: 'control_flow',
+    description: "Allocates worker compute fairly across multiple competing tenants, preventing noisy-neighbor starvation.",
+    tags: ["control-flow","multi-tenant","fair-share","dwrr","scheduling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Tenant Fair Scheduling Standards",
+      ruSectionName: "Справедливое распределение очередей между арендаторами (DWRR Multi-Tenant Scheduling)",
+      instructions: [
+        "Assign each tenant a dedicated FIFO sub-queue with a configured quantum byte/task budget.",
+        "Rotate through tenant queues using Deficit Weighted Round-Robin, consuming deficit credits per task.",
+        "Prevent noisy-neighbor tenants with massive job backlogs from starving smaller active tenants."
+],
+      ruInstructions: [
+        "Выделяйте каждому клиенту отдельную субочередь с фиксированным квантом вычислительного бюджета.",
+        "Опрашивайте очереди по кругу алгоритмом DWRR, списывая баланс кванта за каждую выполненную задачу.",
+        "Исключайте монополизацию воркеров крупными клиентами с миллионными пакетами задач."
+],
+      semanticType: "protocol",
+      tags: ["control-flow","multi-tenant","fair-share","dwrr","scheduling"],
     }),
   },
 };
