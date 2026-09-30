@@ -4194,4 +4194,1503 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
       tags: ["data_knowledge","data-knowledge","knowledge","master"],
     }),
   },
+  "dataknowledge-multi-multi-source-knowledge-graph-triplet-extraction-engine": {
+    id: "dataknowledge-multi-multi-source-knowledge-graph-triplet-extraction-engine",
+    name: "MultiSourceKnowledgeGraphTripletExtractionEngineSkill",
+    displayName: "Multi Source Knowledge Graph Triplet Extraction Engine",
+    categoryId: "dataKnowledge",
+    description: "Extracts subject-predicate-object triples from unstructured texts for GraphDB ingestion.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Knowledge Graph Triplet Extraction Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Knowledge Graph Triplet Extraction Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Source Knowledge Graph Triplet Extraction Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Source Knowledge Graph Triplet Extraction Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-modal-vector-embedding-hybrid-search-engine": {
+    id: "dataknowledge-multi-multi-modal-vector-embedding-hybrid-search-engine",
+    name: "MultiModalVectorEmbeddingHybridSearchEngineSkill",
+    displayName: "Multi Modal Vector Embedding Hybrid Search Engine",
+    categoryId: "dataKnowledge",
+    description: "Combines dense vector embeddings with sparse BM25 keyword search for high-accuracy retrieval.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Modal Vector Embedding Hybrid Search Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Modal Vector Embedding Hybrid Search Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Modal Vector Embedding Hybrid Search Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Modal Vector Embedding Hybrid Search Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-enterprise-ontology-taxonomy-builder": {
+    id: "dataknowledge-multi-multi-layer-enterprise-ontology-taxonomy-builder",
+    name: "MultiLayerEnterpriseOntologyTaxonomyBuilderSkill",
+    displayName: "Multi Layer Enterprise Ontology Taxonomy Builder",
+    categoryId: "dataKnowledge",
+    description: "Constructs hierarchical domain taxonomies and OWL ontologies for enterprise data unification.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Enterprise Ontology Taxonomy Builder",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Enterprise Ontology Taxonomy Builder",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Enterprise Ontology Taxonomy Builder.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Enterprise Ontology Taxonomy Builder.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-data-deduplication-record-linkage-engine": {
+    id: "dataknowledge-multi-multi-stage-data-deduplication-record-linkage-engine",
+    name: "MultiStageDataDeduplicationRecordLinkageEngineSkill",
+    displayName: "Multi Stage Data Deduplication Record Linkage Engine",
+    categoryId: "dataKnowledge",
+    description: "Identifies duplicate customer records using fuzzy string matching, blocking keys, and machine learning.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Data Deduplication Record Linkage Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Data Deduplication Record Linkage Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Data Deduplication Record Linkage Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Data Deduplication Record Linkage Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-tenant-database-schema-row-level-security-rls": {
+    id: "dataknowledge-multi-multi-tenant-database-schema-row-level-security-rls",
+    name: "MultiTenantDatabaseSchemaRowLevelSecurityRLSSkill",
+    displayName: "Multi Tenant Database Schema Row Level Security RLS",
+    categoryId: "dataKnowledge",
+    description: "Configures PostgreSQL RLS policies ensuring strict tenant data isolation in shared databases.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tenant Database Schema Row Level Security RLS",
+      ruSectionName: "Композитный Multi-Skill: Multi Tenant Database Schema Row Level Security RLS",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Tenant Database Schema Row Level Security RLS.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Tenant Database Schema Row Level Security RLS.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-provider-data-ingestion-pipeline-etl-elt-engine": {
+    id: "dataknowledge-multi-multi-provider-data-ingestion-pipeline-etl-elt-engine",
+    name: "MultiProviderDataIngestionPipelineETLELTEngineSkill",
+    displayName: "Multi Provider Data Ingestion Pipeline ETL ELT Engine",
+    categoryId: "dataKnowledge",
+    description: "Extracts data from REST APIs, Kafka, and SQL DBs into Snowflake/BigQuery data warehouses.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider Data Ingestion Pipeline ETL ELT Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider Data Ingestion Pipeline ETL ELT Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Provider Data Ingestion Pipeline ETL ELT Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Provider Data Ingestion Pipeline ETL ELT Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-level-data-governance-lineage-compliance-audit": {
+    id: "dataknowledge-multi-multi-level-data-governance-lineage-compliance-audit",
+    name: "MultiLevelDataGovernanceLineageComplianceAuditSkill",
+    displayName: "Multi Level Data Governance Lineage Compliance Audit",
+    categoryId: "dataKnowledge",
+    description: "Tracks data origin, transformation lineage, and PII exposure across corporate pipelines.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Data Governance Lineage Compliance Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Data Governance Lineage Compliance Audit",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Level Data Governance Lineage Compliance Audit.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Level Data Governance Lineage Compliance Audit.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-format-document-ocr-structured-extraction-engine": {
+    id: "dataknowledge-multi-multi-format-document-ocr-structured-extraction-engine",
+    name: "MultiFormatDocumentOCRStructuredExtractionEngineSkill",
+    displayName: "Multi Format Document OCR Structured Extraction Engine",
+    categoryId: "dataKnowledge",
+    description: "Extracts tabular data from scanned PDFs, receipts, and invoices into structured JSON.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Document OCR Structured Extraction Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Document OCR Structured Extraction Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Format Document OCR Structured Extraction Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Format Document OCR Structured Extraction Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-semantic-cache-vector-query-optimization": {
+    id: "dataknowledge-multi-multi-layer-semantic-cache-vector-query-optimization",
+    name: "MultiLayerSemanticCacheVectorQueryOptimizationSkill",
+    displayName: "Multi Layer Semantic Cache Vector Query Optimization",
+    categoryId: "dataKnowledge",
+    description: "Caches LLM vector responses to dramatically reduce API costs and latency on similar queries.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Semantic Cache Vector Query Optimization",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Semantic Cache Vector Query Optimization",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Semantic Cache Vector Query Optimization.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Semantic Cache Vector Query Optimization.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-source-master-data-management-mdm-consensus": {
+    id: "dataknowledge-multi-multi-source-master-data-management-mdm-consensus",
+    name: "MultiSourceMasterDataManagementMDMConsensusSkill",
+    displayName: "Multi Source Master Data Management MDM Consensus",
+    categoryId: "dataKnowledge",
+    description: "Resolves conflicting data fields across CRM, ERP, and billing systems into a single source of truth.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Master Data Management MDM Consensus",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Master Data Management MDM Consensus",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Source Master Data Management MDM Consensus.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Source Master Data Management MDM Consensus.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-time-series-anomaly-detection-pipeline": {
+    id: "dataknowledge-multi-multi-stage-time-series-anomaly-detection-pipeline",
+    name: "MultiStageTimeSeriesAnomalyDetectionPipelineSkill",
+    displayName: "Multi Stage Time Series Anomaly Detection Pipeline",
+    categoryId: "dataKnowledge",
+    description: "Identifies trend spikes, seasonal outliers, and sensor drops in IoT time-series streams.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Time Series Anomaly Detection Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Time Series Anomaly Detection Pipeline",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Time Series Anomaly Detection Pipeline.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Time Series Anomaly Detection Pipeline.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-relational-data-normalization-3nf-audit": {
+    id: "dataknowledge-multi-multi-layer-relational-data-normalization-3nf-audit",
+    name: "MultiLayerRelationalDataNormalization3NFAuditSkill",
+    displayName: "Multi Layer Relational Data Normalization 3NF Audit",
+    categoryId: "dataKnowledge",
+    description: "Audits SQL schemas ensuring 1NF, 2NF, and 3NF normalization eliminating redudancy.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Relational Data Normalization 3NF Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Relational Data Normalization 3NF Audit",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Relational Data Normalization 3NF Audit.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Relational Data Normalization 3NF Audit.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-provider-vector-database-benchmark-evaluation": {
+    id: "dataknowledge-multi-multi-provider-vector-database-benchmark-evaluation",
+    name: "MultiProviderVectorDatabaseBenchmarkEvaluationSkill",
+    displayName: "Multi Provider Vector Database Benchmark Evaluation",
+    categoryId: "dataKnowledge",
+    description: "Benchmarks Pinecone, Qdrant, Milvus, and Weaviate on latency, recall, and indexing throughput.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider Vector Database Benchmark Evaluation",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider Vector Database Benchmark Evaluation",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Provider Vector Database Benchmark Evaluation.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Provider Vector Database Benchmark Evaluation.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-automated-data-profiling-statistics-engine": {
+    id: "dataknowledge-multi-multi-stage-automated-data-profiling-statistics-engine",
+    name: "MultiStageAutomatedDataProfilingStatisticsEngineSkill",
+    displayName: "Multi Stage Automated Data Profiling Statistics Engine",
+    categoryId: "dataKnowledge",
+    description: "Calculates null percentages, distributions, cardinality, and skewness across database columns.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Automated Data Profiling Statistics Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Automated Data Profiling Statistics Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Automated Data Profiling Statistics Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Automated Data Profiling Statistics Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-source-api-web-scraping-resilient-harvester": {
+    id: "dataknowledge-multi-multi-source-api-web-scraping-resilient-harvester",
+    name: "MultiSourceAPIWebScrapingResilientHarvesterSkill",
+    displayName: "Multi Source API Web Scraping Resilient Harvester",
+    categoryId: "dataKnowledge",
+    description: "Scrapes web pages handling IP rotation, CAPTCHAs, headless browser rendering, and parsing.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source API Web Scraping Resilient Harvester",
+      ruSectionName: "Композитный Multi-Skill: Multi Source API Web Scraping Resilient Harvester",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Source API Web Scraping Resilient Harvester.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Source API Web Scraping Resilient Harvester.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-data-warehouse-dimensional-star-schema": {
+    id: "dataknowledge-multi-multi-layer-data-warehouse-dimensional-star-schema",
+    name: "MultiLayerDataWarehouseDimensionalStarSchemaSkill",
+    displayName: "Multi Layer Data Warehouse Dimensional Star Schema",
+    categoryId: "dataKnowledge",
+    description: "Designs Kimball star schemas with fact tables and slowly changing dimensions (SCD Type 2).",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Data Warehouse Dimensional Star Schema",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Data Warehouse Dimensional Star Schema",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Data Warehouse Dimensional Star Schema.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Data Warehouse Dimensional Star Schema.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-document-chunking-rag-optimization": {
+    id: "dataknowledge-multi-multi-stage-document-chunking-rag-optimization",
+    name: "MultiStageDocumentChunkingRAGOptimizationSkill",
+    displayName: "Multi Stage Document Chunking RAG Optimization",
+    categoryId: "dataKnowledge",
+    description: "Optimizes document chunking strategies (semantic, sliding window, parent-child) for RAG.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Document Chunking RAG Optimization",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Document Chunking RAG Optimization",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Document Chunking RAG Optimization.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Document Chunking RAG Optimization.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-data-encryption-at-rest-in-transit-architecture": {
+    id: "dataknowledge-multi-multi-layer-data-encryption-at-rest-in-transit-architecture",
+    name: "MultiLayerDataEncryptionatRestInTransitArchitectureSkill",
+    displayName: "Multi Layer Data Encryption at Rest In Transit Architecture",
+    categoryId: "dataKnowledge",
+    description: "Configures AES-256 database encryption, TLS 1.3 transit encryption, and KMS key rotation.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Data Encryption at Rest In Transit Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Data Encryption at Rest In Transit Architecture",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Data Encryption at Rest In Transit Architecture.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Data Encryption at Rest In Transit Architecture.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-method-missing-data-imputation-pipeline": {
+    id: "dataknowledge-multi-multi-method-missing-data-imputation-pipeline",
+    name: "MultiMethodMissingDataImputationPipelineSkill",
+    displayName: "Multi Method Missing Data Imputation Pipeline",
+    categoryId: "dataKnowledge",
+    description: "Imputes missing dataset values using mean, median, k-NN, or MICE statistical methods.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Missing Data Imputation Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Missing Data Imputation Pipeline",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Method Missing Data Imputation Pipeline.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Method Missing Data Imputation Pipeline.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-provider-geospatial-spatial-query-engine": {
+    id: "dataknowledge-multi-multi-provider-geospatial-spatial-query-engine",
+    name: "MultiProviderGeospatialSpatialQueryEngineSkill",
+    displayName: "Multi Provider Geospatial Spatial Query Engine",
+    categoryId: "dataKnowledge",
+    description: "Performs PostGIS spatial joins, buffer calculations, and distance queries on GeoJSON data.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider Geospatial Spatial Query Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider Geospatial Spatial Query Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Provider Geospatial Spatial Query Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Provider Geospatial Spatial Query Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-data-pipeline-quality-validation-expectations": {
+    id: "dataknowledge-multi-multi-stage-data-pipeline-quality-validation-expectations",
+    name: "MultiStageDataPipelineQualityValidationExpectationsSkill",
+    displayName: "Multi Stage Data Pipeline Quality Validation Expectations",
+    categoryId: "dataKnowledge",
+    description: "Validates data pipeline outputs against Great Expectations rules (non-null, value ranges).",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Data Pipeline Quality Validation Expectations",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Data Pipeline Quality Validation Expectations",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Data Pipeline Quality Validation Expectations.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Data Pipeline Quality Validation Expectations.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-source-social-listening-aggregator-pipeline": {
+    id: "dataknowledge-multi-multi-source-social-listening-aggregator-pipeline",
+    name: "MultiSourceSocialListeningAggregatorPipelineSkill",
+    displayName: "Multi Source Social Listening Aggregator Pipeline",
+    categoryId: "dataKnowledge",
+    description: "Aggregates social posts, filters spam, extracts hashtags, and computes brand sentiment.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Social Listening Aggregator Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Social Listening Aggregator Pipeline",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Source Social Listening Aggregator Pipeline.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Source Social Listening Aggregator Pipeline.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-database-indexing-query-tuning-blueprint": {
+    id: "dataknowledge-multi-multi-layer-database-indexing-query-tuning-blueprint",
+    name: "MultiLayerDatabaseIndexingQueryTuningBlueprintSkill",
+    displayName: "Multi Layer Database Indexing Query Tuning Blueprint",
+    categoryId: "dataKnowledge",
+    description: "Tunes slow SQL queries adding B-Tree, GIN, GiST, and partial indexes for high IOPS.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Database Indexing Query Tuning Blueprint",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Database Indexing Query Tuning Blueprint",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Database Indexing Query Tuning Blueprint.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Database Indexing Query Tuning Blueprint.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-format-log-parser-regex-structuring-engine": {
+    id: "dataknowledge-multi-multi-format-log-parser-regex-structuring-engine",
+    name: "MultiFormatLogParserRegexStructuringEngineSkill",
+    displayName: "Multi Format Log Parser Regex Structuring Engine",
+    categoryId: "dataKnowledge",
+    description: "Parses unformatted syslog, Nginx, and application logs into structured JSON event logs.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Log Parser Regex Structuring Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Log Parser Regex Structuring Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Format Log Parser Regex Structuring Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Format Log Parser Regex Structuring Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-machine-learning-feature-store-architecture": {
+    id: "dataknowledge-multi-multi-stage-machine-learning-feature-store-architecture",
+    name: "MultiStageMachineLearningFeatureStoreArchitectureSkill",
+    displayName: "Multi Stage Machine Learning Feature Store Architecture",
+    categoryId: "dataKnowledge",
+    description: "Stores, versions, and serves online and offline ML features using Feast/Hopsworks.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Machine Learning Feature Store Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Machine Learning Feature Store Architecture",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Machine Learning Feature Store Architecture.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Machine Learning Feature Store Architecture.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-provider-distributed-database-sharding-partitioning": {
+    id: "dataknowledge-multi-multi-provider-distributed-database-sharding-partitioning",
+    name: "MultiProviderDistributedDatabaseShardingPartitioningSkill",
+    displayName: "Multi Provider Distributed Database Sharding Partitioning",
+    categoryId: "dataKnowledge",
+    description: "Partitions high-volume database tables across database shards using hash keys.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider Distributed Database Sharding Partitioning",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider Distributed Database Sharding Partitioning",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Provider Distributed Database Sharding Partitioning.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Provider Distributed Database Sharding Partitioning.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-natural-language-entity-disambiguation-engine": {
+    id: "dataknowledge-multi-multi-stage-natural-language-entity-disambiguation-engine",
+    name: "MultiStageNaturalLanguageEntityDisambiguationEngineSkill",
+    displayName: "Multi Stage Natural Language Entity Disambiguation Engine",
+    categoryId: "dataKnowledge",
+    description: "Disambiguates named entities (e.g. 'Apple' company vs fruit) linking to Wikidata IDs.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Natural Language Entity Disambiguation Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Natural Language Entity Disambiguation Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Natural Language Entity Disambiguation Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Natural Language Entity Disambiguation Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-real-time-data-stream-processing-flink": {
+    id: "dataknowledge-multi-multi-layer-real-time-data-stream-processing-flink",
+    name: "MultiLayerRealTimeDataStreamProcessingFlinkSkill",
+    displayName: "Multi Layer Real Time Data Stream Processing Flink",
+    categoryId: "dataKnowledge",
+    description: "Processes low-latency event streams using Apache Flink sliding time windows.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Real Time Data Stream Processing Flink",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Real Time Data Stream Processing Flink",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Real Time Data Stream Processing Flink.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Real Time Data Stream Processing Flink.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-format-graph-database-query-cypher-gremlin-engine": {
+    id: "dataknowledge-multi-multi-format-graph-database-query-cypher-gremlin-engine",
+    name: "MultiFormatGraphDatabaseQueryCypherGremlinEngineSkill",
+    displayName: "Multi Format Graph Database Query Cypher Gremlin Engine",
+    categoryId: "dataKnowledge",
+    description: "Writes complex graph traversal queries in Cypher (Neo4j) and Gremlin (AWS Neptune).",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Graph Database Query Cypher Gremlin Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Graph Database Query Cypher Gremlin Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Format Graph Database Query Cypher Gremlin Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Format Graph Database Query Cypher Gremlin Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-source-financial-market-data-feed-handler": {
+    id: "dataknowledge-multi-multi-source-financial-market-data-feed-handler",
+    name: "MultiSourceFinancialMarketDataFeedHandlerSkill",
+    displayName: "Multi Source Financial Market Data Feed Handler",
+    categoryId: "dataKnowledge",
+    description: "Parses FIX protocol and WebSocket stock/crypto market depth orderbook feeds.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Financial Market Data Feed Handler",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Financial Market Data Feed Handler",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Source Financial Market Data Feed Handler.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Source Financial Market Data Feed Handler.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-automated-data-classification-tagging": {
+    id: "dataknowledge-multi-multi-stage-automated-data-classification-tagging",
+    name: "MultiStageAutomatedDataClassificationTaggingSkill",
+    displayName: "Multi Stage Automated Data Classification Tagging",
+    categoryId: "dataKnowledge",
+    description: "Classifies dataset columns by sensitivity level (Public, Internal, Confidential, Restricted).",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Automated Data Classification Tagging",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Automated Data Classification Tagging",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Automated Data Classification Tagging.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Automated Data Classification Tagging.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-data-archival-cold-storage-lifecycle-rule": {
+    id: "dataknowledge-multi-multi-layer-data-archival-cold-storage-lifecycle-rule",
+    name: "MultiLayerDataArchivalColdStorageLifecycleRuleSkill",
+    displayName: "Multi Layer Data Archival Cold Storage Lifecycle Rule",
+    categoryId: "dataKnowledge",
+    description: "Configures S3 Glacier lifecycle policies auto-archiving inactive data to low-cost storage.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Data Archival Cold Storage Lifecycle Rule",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Data Archival Cold Storage Lifecycle Rule",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Data Archival Cold Storage Lifecycle Rule.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Data Archival Cold Storage Lifecycle Rule.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-method-text-summarization-abstractive-extractive": {
+    id: "dataknowledge-multi-multi-method-text-summarization-abstractive-extractive",
+    name: "MultiMethodTextSummarizationAbstractiveExtractiveSkill",
+    displayName: "Multi Method Text Summarization Abstractive Extractive",
+    categoryId: "dataKnowledge",
+    description: "Combines extractive key sentence scoring with abstractive transformer summarization.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Text Summarization Abstractive Extractive",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Text Summarization Abstractive Extractive",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Method Text Summarization Abstractive Extractive.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Method Text Summarization Abstractive Extractive.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-source-e-commerce-product-catalog-standardization": {
+    id: "dataknowledge-multi-multi-source-e-commerce-product-catalog-standardization",
+    name: "MultiSourceECommerceProductCatalogStandardizationSkill",
+    displayName: "Multi Source E-Commerce Product Catalog Standardization",
+    categoryId: "dataKnowledge",
+    description: "Standardizes product titles, categories, and attributes across vendor supplier feeds.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source E-Commerce Product Catalog Standardization",
+      ruSectionName: "Композитный Multi-Skill: Multi Source E-Commerce Product Catalog Standardization",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Source E-Commerce Product Catalog Standardization.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Source E-Commerce Product Catalog Standardization.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-image-feature-vector-extraction-engine": {
+    id: "dataknowledge-multi-multi-stage-image-feature-vector-extraction-engine",
+    name: "MultiStageImageFeatureVectorExtractionEngineSkill",
+    displayName: "Multi Stage Image Feature Vector Extraction Engine",
+    categoryId: "dataKnowledge",
+    description: "Extracts image feature vectors using ResNet/CLIP for visual similarity search.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Image Feature Vector Extraction Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Image Feature Vector Extraction Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Image Feature Vector Extraction Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Image Feature Vector Extraction Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-database-connection-proxy-pooling-pgbouncer": {
+    id: "dataknowledge-multi-multi-layer-database-connection-proxy-pooling-pgbouncer",
+    name: "MultiLayerDatabaseConnectionProxyPoolingPgBouncerSkill",
+    displayName: "Multi Layer Database Connection Proxy Pooling PgBouncer",
+    categoryId: "dataKnowledge",
+    description: "Configures PgBouncer transaction pooling reducing memory overhead on database servers.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Database Connection Proxy Pooling PgBouncer",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Database Connection Proxy Pooling PgBouncer",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Database Connection Proxy Pooling PgBouncer.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Database Connection Proxy Pooling PgBouncer.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-audio-transcript-diarization-speaker-labeling": {
+    id: "dataknowledge-multi-multi-stage-audio-transcript-diarization-speaker-labeling",
+    name: "MultiStageAudioTranscriptDiarizationSpeakerLabelingSkill",
+    displayName: "Multi Stage Audio Transcript Diarization Speaker Labeling",
+    categoryId: "dataKnowledge",
+    description: "Labels who spoke when in multi-speaker meeting audio transcripts using Whisper/PyAnnote.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Audio Transcript Diarization Speaker Labeling",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Audio Transcript Diarization Speaker Labeling",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Audio Transcript Diarization Speaker Labeling.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Audio Transcript Diarization Speaker Labeling.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-source-customer-data-platform-cdp-identity-resolution": {
+    id: "dataknowledge-multi-multi-source-customer-data-platform-cdp-identity-resolution",
+    name: "MultiSourceCustomerDataPlatformCDPIdentityResolutionSkill",
+    displayName: "Multi Source Customer Data Platform CDP Identity Resolution",
+    categoryId: "dataKnowledge",
+    description: "Stitches anonymous web cookies, email leads, and mobile app IDs into unified user profiles.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Customer Data Platform CDP Identity Resolution",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Customer Data Platform CDP Identity Resolution",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Source Customer Data Platform CDP Identity Resolution.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Source Customer Data Platform CDP Identity Resolution.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-data-lakehouse-delta-lake-apache-iceberg": {
+    id: "dataknowledge-multi-multi-layer-data-lakehouse-delta-lake-apache-iceberg",
+    name: "MultiLayerDataLakehouseDeltaLakeApacheIcebergSkill",
+    displayName: "Multi Layer Data Lakehouse Delta Lake Apache Iceberg",
+    categoryId: "dataKnowledge",
+    description: "Configures Apache Iceberg/Delta Lake ACID transaction layers over object storage.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Data Lakehouse Delta Lake Apache Iceberg",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Data Lakehouse Delta Lake Apache Iceberg",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Data Lakehouse Delta Lake Apache Iceberg.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Data Lakehouse Delta Lake Apache Iceberg.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-method-outlier-detection-statistical-pipeline": {
+    id: "dataknowledge-multi-multi-method-outlier-detection-statistical-pipeline",
+    name: "MultiMethodOutlierDetectionStatisticalPipelineSkill",
+    displayName: "Multi Method Outlier Detection Statistical Pipeline",
+    categoryId: "dataKnowledge",
+    description: "Identifies dataset anomalies using Z-score, Isolation Forests, and DBSCAN clustering.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Outlier Detection Statistical Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Outlier Detection Statistical Pipeline",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Method Outlier Detection Statistical Pipeline.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Method Outlier Detection Statistical Pipeline.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-source-real-estate-mls-property-feed-aggregator": {
+    id: "dataknowledge-multi-multi-source-real-estate-mls-property-feed-aggregator",
+    name: "MultiSourceRealEstateMLSPropertyFeedAggregatorSkill",
+    displayName: "Multi Source Real Estate MLS Property Feed Aggregator",
+    categoryId: "dataKnowledge",
+    description: "Aggregates and normalizes RETS/RESO MLS property listings into unified search index.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Real Estate MLS Property Feed Aggregator",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Real Estate MLS Property Feed Aggregator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Source Real Estate MLS Property Feed Aggregator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Source Real Estate MLS Property Feed Aggregator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-database-backup-point-in-time-recovery-pitr": {
+    id: "dataknowledge-multi-multi-layer-database-backup-point-in-time-recovery-pitr",
+    name: "MultiLayerDatabaseBackupPointinTimeRecoveryPITRSkill",
+    displayName: "Multi Layer Database Backup Point in Time Recovery PITR",
+    categoryId: "dataKnowledge",
+    description: "Configures WAL streaming archiving enabling point-in-time database restoration to exact second.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Database Backup Point in Time Recovery PITR",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Database Backup Point in Time Recovery PITR",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Database Backup Point in Time Recovery PITR.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Database Backup Point in Time Recovery PITR.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-natural-language-keyword-tf-idf-rake-extractor": {
+    id: "dataknowledge-multi-multi-stage-natural-language-keyword-tf-idf-rake-extractor",
+    name: "MultiStageNaturalLanguageKeywordTFIDFRAKEExtractorSkill",
+    displayName: "Multi Stage Natural Language Keyword TF-IDF RAKE Extractor",
+    categoryId: "dataKnowledge",
+    description: "Extracts domain keyphrases using TF-IDF, RAKE, and TextRank algorithms.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Natural Language Keyword TF-IDF RAKE Extractor",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Natural Language Keyword TF-IDF RAKE Extractor",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Natural Language Keyword TF-IDF RAKE Extractor.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Natural Language Keyword TF-IDF RAKE Extractor.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-source-healthcare-hl7-fhir-interoperability-engine": {
+    id: "dataknowledge-multi-multi-source-healthcare-hl7-fhir-interoperability-engine",
+    name: "MultiSourceHealthcareHL7FHIRInteroperabilityEngineSkill",
+    displayName: "Multi Source Healthcare HL7 FHIR Interoperability Engine",
+    categoryId: "dataKnowledge",
+    description: "Parses and transforms legacy HL7 v2 messages into modern FHIR JSON resources.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Healthcare HL7 FHIR Interoperability Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Healthcare HL7 FHIR Interoperability Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Source Healthcare HL7 FHIR Interoperability Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Source Healthcare HL7 FHIR Interoperability Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-columnar-database-clickhouse-query-optimization": {
+    id: "dataknowledge-multi-multi-layer-columnar-database-clickhouse-query-optimization",
+    name: "MultiLayerColumnarDatabaseClickHouseQueryOptimizationSkill",
+    displayName: "Multi Layer Columnar Database ClickHouse Query Optimization",
+    categoryId: "dataKnowledge",
+    description: "Optimizes ClickHouse MergeTree primary keys, compression codecs, and materialized views.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Columnar Database ClickHouse Query Optimization",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Columnar Database ClickHouse Query Optimization",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Columnar Database ClickHouse Query Optimization.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Columnar Database ClickHouse Query Optimization.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-video-metadata-extraction-scene-segmentation": {
+    id: "dataknowledge-multi-multi-stage-video-metadata-extraction-scene-segmentation",
+    name: "MultiStageVideoMetadataExtractionSceneSegmentationSkill",
+    displayName: "Multi Stage Video Metadata Extraction Scene Segmentation",
+    categoryId: "dataKnowledge",
+    description: "Segments video files into scenes extracting keyframes, OCR text, and speech transcripts.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Video Metadata Extraction Scene Segmentation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Video Metadata Extraction Scene Segmentation",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Video Metadata Extraction Scene Segmentation.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Video Metadata Extraction Scene Segmentation.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-source-supply-chain-shipment-tracking-aggregator": {
+    id: "dataknowledge-multi-multi-source-supply-chain-shipment-tracking-aggregator",
+    name: "MultiSourceSupplyChainShipmentTrackingAggregatorSkill",
+    displayName: "Multi Source Supply Chain Shipment Tracking Aggregator",
+    categoryId: "dataKnowledge",
+    description: "Aggregates container tracking APIs across carriers into unified ETA status pipeline.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Supply Chain Shipment Tracking Aggregator",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Supply Chain Shipment Tracking Aggregator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Source Supply Chain Shipment Tracking Aggregator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Source Supply Chain Shipment Tracking Aggregator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-graph-retrieval-augmented-generation-graphrag": {
+    id: "dataknowledge-multi-multi-layer-graph-retrieval-augmented-generation-graphrag",
+    name: "MultiLayerGraphRetrievalAugmentedGenerationGraphRAGSkill",
+    displayName: "Multi Layer Graph Retrieval Augmented Generation GraphRAG",
+    categoryId: "dataKnowledge",
+    description: "Combines Knowledge Graph node traversal with vector RAG for complex multi-hop QA.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Graph Retrieval Augmented Generation GraphRAG",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Graph Retrieval Augmented Generation GraphRAG",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Graph Retrieval Augmented Generation GraphRAG.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Graph Retrieval Augmented Generation GraphRAG.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-survey-response-text-mining-topic-modeling": {
+    id: "dataknowledge-multi-multi-stage-survey-response-text-mining-topic-modeling",
+    name: "MultiStageSurveyResponseTextMiningTopicModelingSkill",
+    displayName: "Multi Stage Survey Response Text Mining Topic Modeling",
+    categoryId: "dataKnowledge",
+    description: "Extracts latent topics from open-ended survey comments using BERTopic/LDA.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Survey Response Text Mining Topic Modeling",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Survey Response Text Mining Topic Modeling",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Survey Response Text Mining Topic Modeling.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Survey Response Text Mining Topic Modeling.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-source-patent-document-citation-graph-builder": {
+    id: "dataknowledge-multi-multi-source-patent-document-citation-graph-builder",
+    name: "MultiSourcePatentDocumentCitationGraphBuilderSkill",
+    displayName: "Multi Source Patent Document Citation Graph Builder",
+    categoryId: "dataKnowledge",
+    description: "Builds patent citation trees mapping technology lineages and competitor IP portfolios.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Patent Document Citation Graph Builder",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Patent Document Citation Graph Builder",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Source Patent Document Citation Graph Builder.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Source Patent Document Citation Graph Builder.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-web-application-firewall-waf-log-inspector": {
+    id: "dataknowledge-multi-multi-layer-web-application-firewall-waf-log-inspector",
+    name: "MultiLayerWebApplicationFirewallWAFLogInspectorSkill",
+    displayName: "Multi Layer Web Application Firewall WAF Log Inspector",
+    categoryId: "dataKnowledge",
+    description: "Parses WAF alert logs identifying SQL injection and XSS attack patterns.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Web Application Firewall WAF Log Inspector",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Web Application Firewall WAF Log Inspector",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Web Application Firewall WAF Log Inspector.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Web Application Firewall WAF Log Inspector.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-genetic-sequence-fasta-vcf-file-parser": {
+    id: "dataknowledge-multi-multi-stage-genetic-sequence-fasta-vcf-file-parser",
+    name: "MultiStageGeneticSequenceFASTAVCFFileParserSkill",
+    displayName: "Multi Stage Genetic Sequence FASTA VCF File Parser",
+    categoryId: "dataKnowledge",
+    description: "Parses genomic variant call format (VCF) files extracting gene mutation annotations.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Genetic Sequence FASTA VCF File Parser",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Genetic Sequence FASTA VCF File Parser",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Genetic Sequence FASTA VCF File Parser.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Genetic Sequence FASTA VCF File Parser.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-source-news-article-event-extraction-pipeline": {
+    id: "dataknowledge-multi-multi-source-news-article-event-extraction-pipeline",
+    name: "MultiSourceNewsArticleEventExtractionPipelineSkill",
+    displayName: "Multi Source News Article Event Extraction Pipeline",
+    categoryId: "dataKnowledge",
+    description: "Extracts who, what, where, when event facts from worldwide news RSS feeds.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source News Article Event Extraction Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Source News Article Event Extraction Pipeline",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Source News Article Event Extraction Pipeline.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Source News Article Event Extraction Pipeline.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-high-velocity-key-value-store-redis-cluster": {
+    id: "dataknowledge-multi-multi-layer-high-velocity-key-value-store-redis-cluster",
+    name: "MultiLayerHighVelocityKeyValueStoreRedisClusterSkill",
+    displayName: "Multi Layer High Velocity Key Value Store Redis Cluster",
+    categoryId: "dataKnowledge",
+    description: "Configures Redis cluster hash slot sharding and sentinel automatic failover.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer High Velocity Key Value Store Redis Cluster",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer High Velocity Key Value Store Redis Cluster",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer High Velocity Key Value Store Redis Cluster.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer High Velocity Key Value Store Redis Cluster.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-pdf-form-field-interactive-coordinate-extractor": {
+    id: "dataknowledge-multi-multi-stage-pdf-form-field-interactive-coordinate-extractor",
+    name: "MultiStagePDFFormFieldInteractiveCoordinateExtractorSkill",
+    displayName: "Multi Stage PDF Form Field Interactive Coordinate Extractor",
+    categoryId: "dataKnowledge",
+    description: "Extracts form field coordinates and checkbox states from fillable PDF forms.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage PDF Form Field Interactive Coordinate Extractor",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage PDF Form Field Interactive Coordinate Extractor",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage PDF Form Field Interactive Coordinate Extractor.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage PDF Form Field Interactive Coordinate Extractor.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-source-cryptocurrency-blockchain-ledger-indexer": {
+    id: "dataknowledge-multi-multi-source-cryptocurrency-blockchain-ledger-indexer",
+    name: "MultiSourceCryptocurrencyBlockchainLedgerIndexerSkill",
+    displayName: "Multi Source Cryptocurrency Blockchain Ledger Indexer",
+    categoryId: "dataKnowledge",
+    description: "Indexes EVM transaction logs, ERC-20 token transfers, and smart contract events.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Cryptocurrency Blockchain Ledger Indexer",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Cryptocurrency Blockchain Ledger Indexer",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Source Cryptocurrency Blockchain Ledger Indexer.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Source Cryptocurrency Blockchain Ledger Indexer.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-layer-open-data-ckan-api-harvesting-engine": {
+    id: "dataknowledge-multi-multi-layer-open-data-ckan-api-harvesting-engine",
+    name: "MultiLayerOpenDataCKANAPIHarvestingEngineSkill",
+    displayName: "Multi Layer Open Data CKAN API Harvesting Engine",
+    categoryId: "dataKnowledge",
+    description: "Harvests open government datasets from CKAN platforms into centralized portal.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Open Data CKAN API Harvesting Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Open Data CKAN API Harvesting Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Open Data CKAN API Harvesting Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Open Data CKAN API Harvesting Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-stage-speech-recognition-phoneme-alignment-pipeline": {
+    id: "dataknowledge-multi-multi-stage-speech-recognition-phoneme-alignment-pipeline",
+    name: "MultiStageSpeechRecognitionPhonemeAlignmentPipelineSkill",
+    displayName: "Multi Stage Speech Recognition Phoneme Alignment Pipeline",
+    categoryId: "dataKnowledge",
+    description: "Aligns spoken audio timestamps with word-level phonetic transcripts.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Speech Recognition Phoneme Alignment Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Speech Recognition Phoneme Alignment Pipeline",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Speech Recognition Phoneme Alignment Pipeline.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Speech Recognition Phoneme Alignment Pipeline.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-source-meteorological-weather-forecast-aggregator": {
+    id: "dataknowledge-multi-multi-source-meteorological-weather-forecast-aggregator",
+    name: "MultiSourceMeteorologicalWeatherForecastAggregatorSkill",
+    displayName: "Multi Source Meteorological Weather Forecast Aggregator",
+    categoryId: "dataKnowledge",
+    description: "Aggregates NOAA, ECMWF, and local weather station data into unified weather API.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Meteorological Weather Forecast Aggregator",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Meteorological Weather Forecast Aggregator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Source Meteorological Weather Forecast Aggregator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Source Meteorological Weather Forecast Aggregator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
+
+  "dataknowledge-multi-multi-horizon-master-data-engineering-knowledge-engine": {
+    id: "dataknowledge-multi-multi-horizon-master-data-engineering-knowledge-engine",
+    name: "MultiHorizonMasterDataEngineeringKnowledgeEngineSkill",
+    displayName: "Multi Horizon Master Data Engineering Knowledge Engine",
+    categoryId: "dataKnowledge",
+    description: "Enforces master data modeling, pipeline scalability, vector storage, and analytics architecture.",
+    tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Data Engineering Knowledge Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Data Engineering Knowledge Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Horizon Master Data Engineering Knowledge Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Horizon Master Data Engineering Knowledge Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dataKnowledge","multi-skill","dataknowledge-multi"],
+    }),
+  },
 };

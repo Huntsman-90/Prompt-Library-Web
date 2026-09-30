@@ -4309,4 +4309,1503 @@ sectionName: 'Reverse Mentorship & Apprenticeship Protocol',
       tags: ["miscellaneous","misc-final","final","master"],
     }),
   },
+  "misc-multi-multi-layer-precision-horology-mechanical-watch-restoration": {
+    id: "misc-multi-multi-layer-precision-horology-mechanical-watch-restoration",
+    name: "MultiLayerPrecisionHorologyMechanicalWatchRestorationSkill",
+    displayName: "Multi Layer Precision Horology Mechanical Watch Restoration",
+    categoryId: "miscellaneous",
+    description: "Restores mechanical watch movements, cleaning balance springs, oiling jewels, and regulating timing.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Precision Horology Mechanical Watch Restoration",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Precision Horology Mechanical Watch Restoration",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Precision Horology Mechanical Watch Restoration.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Precision Horology Mechanical Watch Restoration.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-custom-stained-glass-crafting-lead-came": {
+    id: "misc-multi-multi-stage-custom-stained-glass-crafting-lead-came",
+    name: "MultiStageCustomStainedGlassCraftingLeadCameSkill",
+    displayName: "Multi Stage Custom Stained Glass Crafting Lead Came",
+    categoryId: "miscellaneous",
+    description: "Builds lead came stained glass windows with pattern cutting, soldering, and cementing.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Custom Stained Glass Crafting Lead Came",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Custom Stained Glass Crafting Lead Came",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Custom Stained Glass Crafting Lead Came.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Custom Stained Glass Crafting Lead Came.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-bespoke-footwear-goodyear-welt-leather-shoemaking": {
+    id: "misc-multi-multi-layer-bespoke-footwear-goodyear-welt-leather-shoemaking",
+    name: "MultiLayerBespokeFootwearGoodyearWeltLeatherShoemakingSkill",
+    displayName: "Multi Layer Bespoke Footwear Goodyear Welt Leather Shoemaking",
+    categoryId: "miscellaneous",
+    description: "Constructs welted leather shoes with cork footbed fillers, hand lasting, and outsole stitching.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Bespoke Footwear Goodyear Welt Leather Shoemaking",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Bespoke Footwear Goodyear Welt Leather Shoemaking",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Bespoke Footwear Goodyear Welt Leather Shoemaking.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Bespoke Footwear Goodyear Welt Leather Shoemaking.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-artisan-craft-micro-distilling-mash-fermentation": {
+    id: "misc-multi-multi-stage-artisan-craft-micro-distilling-mash-fermentation",
+    name: "MultiStageArtisanCraftMicroDistillingMashFermentationSkill",
+    displayName: "Multi Stage Artisan Craft Micro Distilling Mash Fermentation",
+    categoryId: "miscellaneous",
+    description: "Monitors grain mashing, sour mash fermentation, hydrometer proofing, and sensory spirit cuts.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Artisan Craft Micro Distilling Mash Fermentation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Artisan Craft Micro Distilling Mash Fermentation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Artisan Craft Micro Distilling Mash Fermentation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Artisan Craft Micro Distilling Mash Fermentation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-traditional-lime-plaster-heritage-restoration": {
+    id: "misc-multi-multi-layer-traditional-lime-plaster-heritage-restoration",
+    name: "MultiLayerTraditionalLimePlasterHeritageRestorationSkill",
+    displayName: "Multi Layer Traditional Lime Plaster Heritage Restoration",
+    categoryId: "miscellaneous",
+    description: "Applies three-coat breathable lime plaster over wood lath on heritage building restorations.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Traditional Lime Plaster Heritage Restoration",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Traditional Lime Plaster Heritage Restoration",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Traditional Lime Plaster Heritage Restoration.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Traditional Lime Plaster Heritage Restoration.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-fine-antique-furniture-french-polish-shellac": {
+    id: "misc-multi-multi-stage-fine-antique-furniture-french-polish-shellac",
+    name: "MultiStageFineAntiqueFurnitureFrenchPolishShellacSkill",
+    displayName: "Multi Stage Fine Antique Furniture French Polish Shellac",
+    categoryId: "miscellaneous",
+    description: "Builds high-gloss mirror finishes on antique timber using shellac and friction rubber pads.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Fine Antique Furniture French Polish Shellac",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Fine Antique Furniture French Polish Shellac",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Fine Antique Furniture French Polish Shellac.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Fine Antique Furniture French Polish Shellac.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-urban-aquaponics-nitrogen-cycle-balancing": {
+    id: "misc-multi-multi-layer-urban-aquaponics-nitrogen-cycle-balancing",
+    name: "MultiLayerUrbanAquaponicsNitrogenCycleBalancingSkill",
+    displayName: "Multi Layer Urban Aquaponics Nitrogen Cycle Balancing",
+    categoryId: "miscellaneous",
+    description: "Balances nitrifying bacteria, fish stocking density, and plant nutrient uptake in closed loops.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Urban Aquaponics Nitrogen Cycle Balancing",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Urban Aquaponics Nitrogen Cycle Balancing",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Urban Aquaponics Nitrogen Cycle Balancing.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Urban Aquaponics Nitrogen Cycle Balancing.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-traditional-bowyer-wooden-longbow-tillering": {
+    id: "misc-multi-multi-stage-traditional-bowyer-wooden-longbow-tillering",
+    name: "MultiStageTraditionalBowyerWoodenLongbowTilleringSkill",
+    displayName: "Multi Stage Traditional Bowyer Wooden Longbow Tillering",
+    categoryId: "miscellaneous",
+    description: "Tillers wooden self-bow staves to even limb curvature and precise draw weight.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Traditional Bowyer Wooden Longbow Tillering",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Traditional Bowyer Wooden Longbow Tillering",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Traditional Bowyer Wooden Longbow Tillering.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Traditional Bowyer Wooden Longbow Tillering.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-hot-glassblowing-furnace-gathering-pipe-shaping": {
+    id: "misc-multi-multi-layer-hot-glassblowing-furnace-gathering-pipe-shaping",
+    name: "MultiLayerHotGlassblowingFurnaceGatheringPipeShapingSkill",
+    displayName: "Multi Layer Hot Glassblowing Furnace Gathering Pipe Shaping",
+    categoryId: "miscellaneous",
+    description: "Gathers molten glass at 2100°F, marvering, blowing, and shaping vessel forms.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Hot Glassblowing Furnace Gathering Pipe Shaping",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Hot Glassblowing Furnace Gathering Pipe Shaping",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Hot Glassblowing Furnace Gathering Pipe Shaping.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Hot Glassblowing Furnace Gathering Pipe Shaping.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-leathercraft-saddle-stitching-edge-burnishing": {
+    id: "misc-multi-multi-stage-leathercraft-saddle-stitching-edge-burnishing",
+    name: "MultiStageLeathercraftSaddleStitchingEdgeBurnishingSkill",
+    displayName: "Multi Stage Leathercraft Saddle Stitching Edge Burnishing",
+    categoryId: "miscellaneous",
+    description: "Hand stitches heavy leather goods using two needles, beeswaxed thread, and edge gum burnishing.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Leathercraft Saddle Stitching Edge Burnishing",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Leathercraft Saddle Stitching Edge Burnishing",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Leathercraft Saddle Stitching Edge Burnishing.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Leathercraft Saddle Stitching Edge Burnishing.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-bonsai-tree-branch-wiring-pruning-maintenance": {
+    id: "misc-multi-multi-layer-bonsai-tree-branch-wiring-pruning-maintenance",
+    name: "MultiLayerBonsaiTreeBranchWiringPruningMaintenanceSkill",
+    displayName: "Multi Layer Bonsai Tree Branch Wiring Pruning Maintenance",
+    categoryId: "miscellaneous",
+    description: "Wires branch structures, prunes root balls, and manages soil drainage for specimen bonsai trees.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Bonsai Tree Branch Wiring Pruning Maintenance",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Bonsai Tree Branch Wiring Pruning Maintenance",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Bonsai Tree Branch Wiring Pruning Maintenance.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Bonsai Tree Branch Wiring Pruning Maintenance.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-kintsugi-japanese-gold-lacquer-ceramic-repair": {
+    id: "misc-multi-multi-stage-kintsugi-japanese-gold-lacquer-ceramic-repair",
+    name: "MultiStageKintsugiJapaneseGoldLacquerCeramicRepairSkill",
+    displayName: "Multi Stage Kintsugi Japanese Gold Lacquer Ceramic Repair",
+    categoryId: "miscellaneous",
+    description: "Repairs broken ceramics using natural urushi lacquer and powdered 24k gold seams.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Kintsugi Japanese Gold Lacquer Ceramic Repair",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Kintsugi Japanese Gold Lacquer Ceramic Repair",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Kintsugi Japanese Gold Lacquer Ceramic Repair.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Kintsugi Japanese Gold Lacquer Ceramic Repair.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-wilderness-bushcraft-fire-making-tinder-selection": {
+    id: "misc-multi-multi-layer-wilderness-bushcraft-fire-making-tinder-selection",
+    name: "MultiLayerWildernessBushcraftFireMakingTinderSelectionSkill",
+    displayName: "Multi Layer Wilderness Bushcraft Fire Making Tinder Selection",
+    categoryId: "miscellaneous",
+    description: "Prepares bow drill friction fire kits, char cloth tinder, and Dakota fire pit shelters.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Wilderness Bushcraft Fire Making Tinder Selection",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Wilderness Bushcraft Fire Making Tinder Selection",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Wilderness Bushcraft Fire Making Tinder Selection.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Wilderness Bushcraft Fire Making Tinder Selection.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-traditional-archery-form-instinctive-shooting": {
+    id: "misc-multi-multi-stage-traditional-archery-form-instinctive-shooting",
+    name: "MultiStageTraditionalArcheryFormInstinctiveShootingSkill",
+    displayName: "Multi Stage Traditional Archery Form Instinctive Shooting",
+    categoryId: "miscellaneous",
+    description: "Teaches stance, anchor point consistency, back tension release, and instinctive aiming.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Traditional Archery Form Instinctive Shooting",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Traditional Archery Form Instinctive Shooting",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Traditional Archery Form Instinctive Shooting.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Traditional Archery Form Instinctive Shooting.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-amateur-ham-radio-antenna-swr-tuning": {
+    id: "misc-multi-multi-layer-amateur-ham-radio-antenna-swr-tuning",
+    name: "MultiLayerAmateurHamRadioAntennaSWRTuningSkill",
+    displayName: "Multi Layer Amateur Ham Radio Antenna SWR Tuning",
+    categoryId: "miscellaneous",
+    description: "Tunes dipole/Yagi ham radio antennas, measures standing wave ratio (SWR), and operates HF bands.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Amateur Ham Radio Antenna SWR Tuning",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Amateur Ham Radio Antenna SWR Tuning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Amateur Ham Radio Antenna SWR Tuning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Amateur Ham Radio Antenna SWR Tuning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-artisan-coffee-roasting-profile-cupping": {
+    id: "misc-multi-multi-stage-artisan-coffee-roasting-profile-cupping",
+    name: "MultiStageArtisanCoffeeRoastingProfileCuppingSkill",
+    displayName: "Multi Stage Artisan Coffee Roasting Profile Cupping",
+    categoryId: "miscellaneous",
+    description: "Monitors charge temp, crack timings, airflow, and conducts sensory cupping evaluations.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Artisan Coffee Roasting Profile Cupping",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Artisan Coffee Roasting Profile Cupping",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Artisan Coffee Roasting Profile Cupping.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Artisan Coffee Roasting Profile Cupping.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-beekeeping-hive-inspection-honey-extraction": {
+    id: "misc-multi-multi-layer-beekeeping-hive-inspection-honey-extraction",
+    name: "MultiLayerBeekeepingHiveInspectionHoneyExtractionSkill",
+    displayName: "Multi Layer Beekeeping Hive Inspection Honey Extraction",
+    categoryId: "miscellaneous",
+    description: "Inspects brood patterns, manages Varroa mites, supering hives, and uncapping honey frames.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Beekeeping Hive Inspection Honey Extraction",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Beekeeping Hive Inspection Honey Extraction",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Beekeeping Hive Inspection Honey Extraction.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Beekeeping Hive Inspection Honey Extraction.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-blacksmithing-hand-forging-anvil-technique": {
+    id: "misc-multi-multi-stage-blacksmithing-hand-forging-anvil-technique",
+    name: "MultiStageBlacksmithingHandForgingAnvilTechniqueSkill",
+    displayName: "Multi Stage Blacksmithing Hand Forging Anvil Technique",
+    categoryId: "miscellaneous",
+    description: "Forges steel tool bits, heat treats carbon steel, and performs hammer draws on the anvil.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Blacksmithing Hand Forging Anvil Technique",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Blacksmithing Hand Forging Anvil Technique",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Blacksmithing Hand Forging Anvil Technique.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Blacksmithing Hand Forging Anvil Technique.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-organic-permaculture-swale-garden-design": {
+    id: "misc-multi-multi-layer-organic-permaculture-swale-garden-design",
+    name: "MultiLayerOrganicPermacultureSwaleGardenDesignSkill",
+    displayName: "Multi Layer Organic Permaculture Swale Garden Design",
+    categoryId: "miscellaneous",
+    description: "Designs contour swales, nitrogen-fixing guilds, and food forest layers for water harvesting.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Organic Permaculture Swale Garden Design",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Organic Permaculture Swale Garden Design",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Organic Permaculture Swale Garden Design.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Organic Permaculture Swale Garden Design.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-fine-bookbinding-leather-spine-coptic-stitching": {
+    id: "misc-multi-multi-stage-fine-bookbinding-leather-spine-coptic-stitching",
+    name: "MultiStageFineBookbindingLeatherSpineCopticStitchingSkill",
+    displayName: "Multi Stage Fine Bookbinding Leather Spine Coptic Stitching",
+    categoryId: "miscellaneous",
+    description: "Binds hardbound books using hand-sewn signatures, leather covers, and marbled endpapers.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Fine Bookbinding Leather Spine Coptic Stitching",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Fine Bookbinding Leather Spine Coptic Stitching",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Fine Bookbinding Leather Spine Coptic Stitching.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Fine Bookbinding Leather Spine Coptic Stitching.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-mushroom-cultivation-spore-syringe-inoculation": {
+    id: "misc-multi-multi-layer-mushroom-cultivation-spore-syringe-inoculation",
+    name: "MultiLayerMushroomCultivationSporeSyringeInoculationSkill",
+    displayName: "Multi Layer Mushroom Cultivation Spore Syringe Inoculation",
+    categoryId: "miscellaneous",
+    description: "Sterilizes grain substrates, inoculates spore syringes, and manages fruiting humidity chambers.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Mushroom Cultivation Spore Syringe Inoculation",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Mushroom Cultivation Spore Syringe Inoculation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Mushroom Cultivation Spore Syringe Inoculation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Mushroom Cultivation Spore Syringe Inoculation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-artisan-cheesemaking-rennet-curd-aging": {
+    id: "misc-multi-multi-stage-artisan-cheesemaking-rennet-curd-aging",
+    name: "MultiStageArtisanCheesemakingRennetCurdAgingSkill",
+    displayName: "Multi Stage Artisan Cheesemaking Rennet Curd Aging",
+    categoryId: "miscellaneous",
+    description: "Coagulates milk with rennet, cuts curds, presses wheels, and ages artisan cheeses in caves.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Artisan Cheesemaking Rennet Curd Aging",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Artisan Cheesemaking Rennet Curd Aging",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Artisan Cheesemaking Rennet Curd Aging.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Artisan Cheesemaking Rennet Curd Aging.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-stone-masonry-dry-stack-wall-construction": {
+    id: "misc-multi-multi-layer-stone-masonry-dry-stack-wall-construction",
+    name: "MultiLayerStoneMasonryDryStackWallConstructionSkill",
+    displayName: "Multi Layer Stone Masonry Dry Stack Wall Construction",
+    categoryId: "miscellaneous",
+    description: "Builds load-bearing dry stack stone retaining walls without mortar using batter frames.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Stone Masonry Dry Stack Wall Construction",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Stone Masonry Dry Stack Wall Construction",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Stone Masonry Dry Stack Wall Construction.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Stone Masonry Dry Stack Wall Construction.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-sailboat-navigation-rigging-seamanship": {
+    id: "misc-multi-multi-stage-sailboat-navigation-rigging-seamanship",
+    name: "MultiStageSailboatNavigationRiggingSeamanshipSkill",
+    displayName: "Multi Stage Sailboat Navigation Rigging Seamanship",
+    categoryId: "miscellaneous",
+    description: "Trims mainsails, calculates dead reckoning GPS coordinates, and ties marlinspike knots.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Sailboat Navigation Rigging Seamanship",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Sailboat Navigation Rigging Seamanship",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Sailboat Navigation Rigging Seamanship.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Sailboat Navigation Rigging Seamanship.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-taxidermy-specimen-preservation-mounting": {
+    id: "misc-multi-multi-layer-taxidermy-specimen-preservation-mounting",
+    name: "MultiLayerTaxidermySpecimenPreservationMountingSkill",
+    displayName: "Multi Layer Taxidermy Specimen Preservation Mounting",
+    categoryId: "miscellaneous",
+    description: "Preserves animal hides, casts anatomical foam forms, and sets glass eyes for mounts.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Taxidermy Specimen Preservation Mounting",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Taxidermy Specimen Preservation Mounting",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Taxidermy Specimen Preservation Mounting.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Taxidermy Specimen Preservation Mounting.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-traditional-sourdough-bread-fermentation-baking": {
+    id: "misc-multi-multi-stage-traditional-sourdough-bread-fermentation-baking",
+    name: "MultiStageTraditionalSourdoughBreadFermentationBakingSkill",
+    displayName: "Multi Stage Traditional Sourdough Bread Fermentation Baking",
+    categoryId: "miscellaneous",
+    description: "Maintains wild yeast sourdough starter, manages autolyse, stretch-and-fold, and Dutch oven baking.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Traditional Sourdough Bread Fermentation Baking",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Traditional Sourdough Bread Fermentation Baking",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Traditional Sourdough Bread Fermentation Baking.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Traditional Sourdough Bread Fermentation Baking.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-vintage-automobile-carburetor-rebuild-tuning": {
+    id: "misc-multi-multi-layer-vintage-automobile-carburetor-rebuild-tuning",
+    name: "MultiLayerVintageAutomobileCarburetorRebuildTuningSkill",
+    displayName: "Multi Layer Vintage Automobile Carburetor Rebuild Tuning",
+    categoryId: "miscellaneous",
+    description: "Disassembles, ultrasonic cleans, jet calibrates, and synchronizes multi-barrel carburetors.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Vintage Automobile Carburetor Rebuild Tuning",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Vintage Automobile Carburetor Rebuild Tuning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Vintage Automobile Carburetor Rebuild Tuning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Vintage Automobile Carburetor Rebuild Tuning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-loom-hand-weaving-pattern-draft-creation": {
+    id: "misc-multi-multi-stage-loom-hand-weaving-pattern-draft-creation",
+    name: "MultiStageLoomHandWeavingPatternDraftCreationSkill",
+    displayName: "Multi Stage Loom Hand Weaving Pattern Draft Creation",
+    categoryId: "miscellaneous",
+    description: "Sets up floor loom warp threads, drafts weaving patterns, and operates foot treadles.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Loom Hand Weaving Pattern Draft Creation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Loom Hand Weaving Pattern Draft Creation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Loom Hand Weaving Pattern Draft Creation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Loom Hand Weaving Pattern Draft Creation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-urban-beekeeping-swarm-trapping-management": {
+    id: "misc-multi-multi-layer-urban-beekeeping-swarm-trapping-management",
+    name: "MultiLayerUrbanBeekeepingSwarmTrappingManagementSkill",
+    displayName: "Multi Layer Urban Beekeeping Swarm Trapping Management",
+    categoryId: "miscellaneous",
+    description: "Traps wild honeybee swarms, relocates hives safely, and prevents urban colony swarming.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Urban Beekeeping Swarm Trapping Management",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Urban Beekeeping Swarm Trapping Management",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Urban Beekeeping Swarm Trapping Management.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Urban Beekeeping Swarm Trapping Management.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-fine-woodworking-hand-dovetail-joint-cutting": {
+    id: "misc-multi-multi-stage-fine-woodworking-hand-dovetail-joint-cutting",
+    name: "MultiStageFineWoodworkingHandDovetailJointCuttingSkill",
+    displayName: "Multi Stage Fine Woodworking Hand Dovetail Joint Cutting",
+    categoryId: "miscellaneous",
+    description: "Marks, saws, and chisels tight hand-cut dovetail joints for hardwood furniture drawers.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Fine Woodworking Hand Dovetail Joint Cutting",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Fine Woodworking Hand Dovetail Joint Cutting",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Fine Woodworking Hand Dovetail Joint Cutting.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Fine Woodworking Hand Dovetail Joint Cutting.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-bicycle-wheel-building-spoke-tensioning": {
+    id: "misc-multi-multi-layer-bicycle-wheel-building-spoke-tensioning",
+    name: "MultiLayerBicycleWheelBuildingSpokeTensioningSkill",
+    displayName: "Multi Layer Bicycle Wheel Building Spoke Tensioning",
+    categoryId: "miscellaneous",
+    description: "Laces bicycle wheel rims, tensions spokes using tensiometer, and trues lateral/radial wobble.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Bicycle Wheel Building Spoke Tensioning",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Bicycle Wheel Building Spoke Tensioning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Bicycle Wheel Building Spoke Tensioning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Bicycle Wheel Building Spoke Tensioning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-natural-plant-dyeing-mordant-fabric-extraction": {
+    id: "misc-multi-multi-stage-natural-plant-dyeing-mordant-fabric-extraction",
+    name: "MultiStageNaturalPlantDyeingMordantFabricExtractionSkill",
+    displayName: "Multi Stage Natural Plant Dyeing Mordant Fabric Extraction",
+    categoryId: "miscellaneous",
+    description: "Extracts natural dyes from madder root/indigo, prepares alum mordants, and dyes natural fibers.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Natural Plant Dyeing Mordant Fabric Extraction",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Natural Plant Dyeing Mordant Fabric Extraction",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Natural Plant Dyeing Mordant Fabric Extraction.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Natural Plant Dyeing Mordant Fabric Extraction.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-falconry-raptor-training-mew-management": {
+    id: "misc-multi-multi-layer-falconry-raptor-training-mew-management",
+    name: "MultiLayerFalconryRaptorTrainingMewManagementSkill",
+    displayName: "Multi Layer Falconry Raptor Training Mew Management",
+    categoryId: "miscellaneous",
+    description: "Manages raptor weight, jess equipment, lure training, and field hunting protocols.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Falconry Raptor Training Mew Management",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Falconry Raptor Training Mew Management",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Falconry Raptor Training Mew Management.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Falconry Raptor Training Mew Management.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-ceramic-pottery-wheel-throwing-glazing": {
+    id: "misc-multi-multi-stage-ceramic-pottery-wheel-throwing-glazing",
+    name: "MultiStageCeramicPotteryWheelThrowingGlazingSkill",
+    displayName: "Multi Stage Ceramic Pottery Wheel Throwing Glazing",
+    categoryId: "miscellaneous",
+    description: "Centers clay on pottery wheel, pulls cylinder walls, trims foot rings, and applies cone 6 glazes.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Ceramic Pottery Wheel Throwing Glazing",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Ceramic Pottery Wheel Throwing Glazing",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Ceramic Pottery Wheel Throwing Glazing.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Ceramic Pottery Wheel Throwing Glazing.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-fly-fishing-stream-entomology-fly-tying": {
+    id: "misc-multi-multi-layer-fly-fishing-stream-entomology-fly-tying",
+    name: "MultiLayerFlyFishingStreamEntomologyFlyTyingSkill",
+    displayName: "Multi Layer Fly Fishing Stream Entomology Fly Tying",
+    categoryId: "miscellaneous",
+    description: "Ties realistic Mayfly/Caddis artificial flies matching seasonal stream insect hatches.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Fly Fishing Stream Entomology Fly Tying",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Fly Fishing Stream Entomology Fly Tying",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Fly Fishing Stream Entomology Fly Tying.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Fly Fishing Stream Entomology Fly Tying.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-home-charcuterie-salumi-curing-chamber": {
+    id: "misc-multi-multi-stage-home-charcuterie-salumi-curing-chamber",
+    name: "MultiStageHomeCharcuterieSalumiCuringChamberSkill",
+    displayName: "Multi Stage Home Charcuterie Salumi Curing Chamber",
+    categoryId: "miscellaneous",
+    description: "Cures salami, prosciutto, and pancetta with salt, culture, and temperature/humidity control.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Home Charcuterie Salumi Curing Chamber",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Home Charcuterie Salumi Curing Chamber",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Home Charcuterie Salumi Curing Chamber.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Home Charcuterie Salumi Curing Chamber.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-custom-audio-vacuum-tube-amplifier-wiring": {
+    id: "misc-multi-multi-layer-custom-audio-vacuum-tube-amplifier-wiring",
+    name: "MultiLayerCustomAudioVacuumTubeAmplifierWiringSkill",
+    displayName: "Multi Layer Custom Audio Vacuum Tube Amplifier Wiring",
+    categoryId: "miscellaneous",
+    description: "Point-to-point hand wires audiophile vacuum tube amplifiers with high-voltage transformers.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Custom Audio Vacuum Tube Amplifier Wiring",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Custom Audio Vacuum Tube Amplifier Wiring",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Custom Audio Vacuum Tube Amplifier Wiring.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Custom Audio Vacuum Tube Amplifier Wiring.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-stained-glass-copper-foil-tiffany-method": {
+    id: "misc-multi-multi-stage-stained-glass-copper-foil-tiffany-method",
+    name: "MultiStageStainedGlassCopperFoilTiffanyMethodSkill",
+    displayName: "Multi Stage Stained Glass Copper Foil Tiffany Method",
+    categoryId: "miscellaneous",
+    description: "Wraps cut glass pieces in copper foil, solders seams, and applies patina finishes.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Stained Glass Copper Foil Tiffany Method",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Stained Glass Copper Foil Tiffany Method",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Stained Glass Copper Foil Tiffany Method.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Stained Glass Copper Foil Tiffany Method.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-herbalism-tincture-extraction-formulation": {
+    id: "misc-multi-multi-layer-herbalism-tincture-extraction-formulation",
+    name: "MultiLayerHerbalismTinctureExtractionFormulationSkill",
+    displayName: "Multi Layer Herbalism Tincture Extraction Formulation",
+    categoryId: "miscellaneous",
+    description: "Macerates medicinal herbs in alcohol menstruum, strains tinctures, and formulates blends.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Herbalism Tincture Extraction Formulation",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Herbalism Tincture Extraction Formulation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Herbalism Tincture Extraction Formulation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Herbalism Tincture Extraction Formulation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-leather-shoe-resoling-stitching-repair": {
+    id: "misc-multi-multi-stage-leather-shoe-resoling-stitching-repair",
+    name: "MultiStageLeatherShoeResolingStitchingRepairSkill",
+    displayName: "Multi Stage Leather Shoe Resoling Stitching Repair",
+    categoryId: "miscellaneous",
+    description: "Removes worn outsoles, replaces cork footbeds, and hand stitches new leather soles.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Leather Shoe Resoling Stitching Repair",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Leather Shoe Resoling Stitching Repair",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Leather Shoe Resoling Stitching Repair.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Leather Shoe Resoling Stitching Repair.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-soapmaking-cold-process-lye-oils-saponification": {
+    id: "misc-multi-multi-layer-soapmaking-cold-process-lye-oils-saponification",
+    name: "MultiLayerSoapmakingColdProcessLyeOilsSaponificationSkill",
+    displayName: "Multi Layer Soapmaking Cold Process Lye Oils Saponification",
+    categoryId: "miscellaneous",
+    description: "Calculates lye calculator ratios, mixes plant oils, cures soap bars, and swirls natural clays.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Soapmaking Cold Process Lye Oils Saponification",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Soapmaking Cold Process Lye Oils Saponification",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Soapmaking Cold Process Lye Oils Saponification.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Soapmaking Cold Process Lye Oils Saponification.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-timber-frame-joinery-mortise-tenon-pegging": {
+    id: "misc-multi-multi-stage-timber-frame-joinery-mortise-tenon-pegging",
+    name: "MultiStageTimberFrameJoineryMortiseTenonPeggingSkill",
+    displayName: "Multi Stage Timber Frame Joinery Mortise Tenon Pegging",
+    categoryId: "miscellaneous",
+    description: "Lays out heavy timber frame bents, chisels mortise-and-tenon joints, and drives wooden pegs.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Timber Frame Joinery Mortise Tenon Pegging",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Timber Frame Joinery Mortise Tenon Pegging",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Timber Frame Joinery Mortise Tenon Pegging.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Timber Frame Joinery Mortise Tenon Pegging.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-pipe-organ-reed-tuning-voicing-maintenance": {
+    id: "misc-multi-multi-layer-pipe-organ-reed-tuning-voicing-maintenance",
+    name: "MultiLayerPipeOrganReedTuningVoicingMaintenanceSkill",
+    displayName: "Multi Layer Pipe Organ Reed Tuning Voicing Maintenance",
+    categoryId: "miscellaneous",
+    description: "Tunes pipe organ ranks, adjusts reed tongue curvatures, and regulates wind chest pressures.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Pipe Organ Reed Tuning Voicing Maintenance",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Pipe Organ Reed Tuning Voicing Maintenance",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Pipe Organ Reed Tuning Voicing Maintenance.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Pipe Organ Reed Tuning Voicing Maintenance.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-hydroponic-nutrient-solution-ph-balancing": {
+    id: "misc-multi-multi-stage-hydroponic-nutrient-solution-ph-balancing",
+    name: "MultiStageHydroponicNutrientSolutionpHBalancingSkill",
+    displayName: "Multi Stage Hydroponic Nutrient Solution pH Balancing",
+    categoryId: "miscellaneous",
+    description: "Formulates NPK hydroponic fertilizer solutions, measures EC/PPM, and adjusts pH.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Hydroponic Nutrient Solution pH Balancing",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Hydroponic Nutrient Solution pH Balancing",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Hydroponic Nutrient Solution pH Balancing.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Hydroponic Nutrient Solution pH Balancing.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-lapidary-gemstone-cabochon-cutting-polishing": {
+    id: "misc-multi-multi-layer-lapidary-gemstone-cabochon-cutting-polishing",
+    name: "MultiLayerLapidaryGemstoneCabochonCuttingPolishingSkill",
+    displayName: "Multi Layer Lapidary Gemstone Cabochon Cutting Polishing",
+    categoryId: "miscellaneous",
+    description: "Saws raw mineral slabs, grinds gemstone cabochons on diamond wheels, and polishes.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Lapidary Gemstone Cabochon Cutting Polishing",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Lapidary Gemstone Cabochon Cutting Polishing",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Lapidary Gemstone Cabochon Cutting Polishing.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Lapidary Gemstone Cabochon Cutting Polishing.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-acoustic-guitar-luthier-voicing-bracing": {
+    id: "misc-multi-multi-stage-acoustic-guitar-luthier-voicing-bracing",
+    name: "MultiStageAcousticGuitarLuthierVoicingBracingSkill",
+    displayName: "Multi Stage Acoustic Guitar Luthier Voicing Bracing",
+    categoryId: "miscellaneous",
+    description: "Carves spruce soundboard bracing, voices acoustic guitar tops, and sets neck angles.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Acoustic Guitar Luthier Voicing Bracing",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Acoustic Guitar Luthier Voicing Bracing",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Acoustic Guitar Luthier Voicing Bracing.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Acoustic Guitar Luthier Voicing Bracing.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-metal-metalworking-lathe-turning-milling": {
+    id: "misc-multi-multi-layer-metal-metalworking-lathe-turning-milling",
+    name: "MultiLayerMetalMetalworkingLatheTurningMillingSkill",
+    displayName: "Multi Layer Metal Metalworking Lathe Turning Milling",
+    categoryId: "miscellaneous",
+    description: "Operates manual metal lathe and milling machine to precision thousandths of an inch.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Metal Metalworking Lathe Turning Milling",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Metal Metalworking Lathe Turning Milling",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Metal Metalworking Lathe Turning Milling.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Metal Metalworking Lathe Turning Milling.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-pyrotechnics-fireworks-aerial-shell-composition": {
+    id: "misc-multi-multi-stage-pyrotechnics-fireworks-aerial-shell-composition",
+    name: "MultiStagePyrotechnicsFireworksAerialShellCompositionSkill",
+    displayName: "Multi Stage Pyrotechnics Fireworks Aerial Shell Composition",
+    categoryId: "miscellaneous",
+    description: "Formulates pyrotechnic star compositions, rolls aerial firework display shells, and fuses.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Pyrotechnics Fireworks Aerial Shell Composition",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Pyrotechnics Fireworks Aerial Shell Composition",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Pyrotechnics Fireworks Aerial Shell Composition.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Pyrotechnics Fireworks Aerial Shell Composition.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-taxidermy-fish-mounting-airbrush-painting": {
+    id: "misc-multi-multi-layer-taxidermy-fish-mounting-airbrush-painting",
+    name: "MultiLayerTaxidermyFishMountingAirbrushPaintingSkill",
+    displayName: "Multi Layer Taxidermy Fish Mounting Airbrush Painting",
+    categoryId: "miscellaneous",
+    description: "Casts fiberglass fish molds, sets fins, and airbrushes realistic iridescent scale colors.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Taxidermy Fish Mounting Airbrush Painting",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Taxidermy Fish Mounting Airbrush Painting",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Taxidermy Fish Mounting Airbrush Painting.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Taxidermy Fish Mounting Airbrush Painting.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-paper-making-hand-mold-deckle-recycling": {
+    id: "misc-multi-multi-stage-paper-making-hand-mold-deckle-recycling",
+    name: "MultiStagePaperMakingHandMoldDeckleRecyclingSkill",
+    displayName: "Multi Stage Paper Making Hand Mold Deckle Recycling",
+    categoryId: "miscellaneous",
+    description: "Pulps cotton rags, pulls handmade paper sheets using molds and deckles, and presses.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Paper Making Hand Mold Deckle Recycling",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Paper Making Hand Mold Deckle Recycling",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Paper Making Hand Mold Deckle Recycling.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Paper Making Hand Mold Deckle Recycling.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-model-steam-engine-miniature-boiler-machining": {
+    id: "misc-multi-multi-layer-model-steam-engine-miniature-boiler-machining",
+    name: "MultiLayerModelSteamEngineMiniatureBoilerMachiningSkill",
+    displayName: "Multi Layer Model Steam Engine Miniature Boiler Machining",
+    categoryId: "miscellaneous",
+    description: "Machines brass cylinders, silver solders miniature copper steam boilers, and tests pressure.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Model Steam Engine Miniature Boiler Machining",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Model Steam Engine Miniature Boiler Machining",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Model Steam Engine Miniature Boiler Machining.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Model Steam Engine Miniature Boiler Machining.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-candle-making-soy-wax-essential-oil-scenting": {
+    id: "misc-multi-multi-stage-candle-making-soy-wax-essential-oil-scenting",
+    name: "MultiStageCandleMakingSoyWaxEssentialOilScentingSkill",
+    displayName: "Multi Stage Candle Making Soy Wax Essential Oil Scenting",
+    categoryId: "miscellaneous",
+    description: "Calculates fragrance load percentages, sets cotton wicks, and pours soy wax candles.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Candle Making Soy Wax Essential Oil Scenting",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Candle Making Soy Wax Essential Oil Scenting",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Candle Making Soy Wax Essential Oil Scenting.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Candle Making Soy Wax Essential Oil Scenting.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-traditional-stone-carving-relief-sculpting": {
+    id: "misc-multi-multi-layer-traditional-stone-carving-relief-sculpting",
+    name: "MultiLayerTraditionalStoneCarvingReliefSculptingSkill",
+    displayName: "Multi Layer Traditional Stone Carving Relief Sculpting",
+    categoryId: "miscellaneous",
+    description: "Carves limestone or marble reliefs using pneumatic chisels, rasps, and rifflers.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Traditional Stone Carving Relief Sculpting",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Traditional Stone Carving Relief Sculpting",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Traditional Stone Carving Relief Sculpting.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Traditional Stone Carving Relief Sculpting.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-perfumery-essential-oil-note-pyramid-blending": {
+    id: "misc-multi-multi-stage-perfumery-essential-oil-note-pyramid-blending",
+    name: "MultiStagePerfumeryEssentialOilNotePyramidBlendingSkill",
+    displayName: "Multi Stage Perfumery Essential Oil Note Pyramid Blending",
+    categoryId: "miscellaneous",
+    description: "Blends top, middle, and base essential oil fragrance notes into harmonious perfumes.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Perfumery Essential Oil Note Pyramid Blending",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Perfumery Essential Oil Note Pyramid Blending",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Perfumery Essential Oil Note Pyramid Blending.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Perfumery Essential Oil Note Pyramid Blending.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-vintage-sewing-machine-mechanical-overhaul": {
+    id: "misc-multi-multi-layer-vintage-sewing-machine-mechanical-overhaul",
+    name: "MultiLayerVintageSewingMachineMechanicalOverhaulSkill",
+    displayName: "Multi Layer Vintage Sewing Machine Mechanical Overhaul",
+    categoryId: "miscellaneous",
+    description: "Cleans, times shuttle hooks, replaces motor belts, and tunes tension on vintage Singer machines.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Vintage Sewing Machine Mechanical Overhaul",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Vintage Sewing Machine Mechanical Overhaul",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Vintage Sewing Machine Mechanical Overhaul.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Vintage Sewing Machine Mechanical Overhaul.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-taxidermy-antler-velvet-preservation-mounting": {
+    id: "misc-multi-multi-stage-taxidermy-antler-velvet-preservation-mounting",
+    name: "MultiStageTaxidermyAntlerVelvetPreservationMountingSkill",
+    displayName: "Multi Stage Taxidermy Antler Velvet Preservation Mounting",
+    categoryId: "miscellaneous",
+    description: "Preserves velvet deer antlers, freeze-dries tissues, and mounts skull caps.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Taxidermy Antler Velvet Preservation Mounting",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Taxidermy Antler Velvet Preservation Mounting",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Taxidermy Antler Velvet Preservation Mounting.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Taxidermy Antler Velvet Preservation Mounting.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-stained-glass-fusing-kiln-slumping-glass": {
+    id: "misc-multi-multi-layer-stained-glass-fusing-kiln-slumping-glass",
+    name: "MultiLayerStainedGlassFusingKilnSlumpingGlassSkill",
+    displayName: "Multi Layer Stained Glass Fusing Kiln Slumping Glass",
+    categoryId: "miscellaneous",
+    description: "Programs glass kiln firing schedules for fusing, tacking, and slumping glass bowls.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Stained Glass Fusing Kiln Slumping Glass",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Stained Glass Fusing Kiln Slumping Glass",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Stained Glass Fusing Kiln Slumping Glass.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Stained Glass Fusing Kiln Slumping Glass.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-stage-traditional-basketry-willow-cane-weaving": {
+    id: "misc-multi-multi-stage-traditional-basketry-willow-cane-weaving",
+    name: "MultiStageTraditionalBasketryWillowCaneWeavingSkill",
+    displayName: "Multi Stage Traditional Basketry Willow Cane Weaving",
+    categoryId: "miscellaneous",
+    description: "Soaks willow rods, weaves basket bases, side stakes, borders, and handles.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Traditional Basketry Willow Cane Weaving",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Traditional Basketry Willow Cane Weaving",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Traditional Basketry Willow Cane Weaving.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Traditional Basketry Willow Cane Weaving.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-layer-metal-etching-acid-resist-design-transfer": {
+    id: "misc-multi-multi-layer-metal-etching-acid-resist-design-transfer",
+    name: "MultiLayerMetalEtchingAcidResistDesignTransferSkill",
+    displayName: "Multi Layer Metal Etching Acid Resist Design Transfer",
+    categoryId: "miscellaneous",
+    description: "Transfers designs to copper/brass plates, etches in ferric chloride, and polishes.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Metal Etching Acid Resist Design Transfer",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Metal Etching Acid Resist Design Transfer",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Metal Etching Acid Resist Design Transfer.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Metal Etching Acid Resist Design Transfer.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
+
+  "misc-multi-multi-horizon-master-everyday-craft-artisan-mastery-engine": {
+    id: "misc-multi-multi-horizon-master-everyday-craft-artisan-mastery-engine",
+    name: "MultiHorizonMasterEverydayCraftArtisanMasteryEngineSkill",
+    displayName: "Multi Horizon Master Everyday Craft Artisan Mastery Engine",
+    categoryId: "miscellaneous",
+    description: "Enforces master physical craftsmanship, hand-tool precision, heritage restoration, and artisan skill.",
+    tags: ["miscellaneous","multi-skill","misc-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Everyday Craft Artisan Mastery Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Everyday Craft Artisan Mastery Engine",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Horizon Master Everyday Craft Artisan Mastery Engine.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Horizon Master Everyday Craft Artisan Mastery Engine.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","multi-skill","misc-multi"],
+    }),
+  },
 };

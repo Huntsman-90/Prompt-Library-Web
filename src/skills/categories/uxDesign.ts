@@ -4235,4 +4235,1503 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
       tags: ["ux_design","ux-design","design","comprehensive"],
     }),
   },
+  "uxdesign-multi-multi-screen-adaptive-responsive-layout-grid": {
+    id: "uxdesign-multi-multi-screen-adaptive-responsive-layout-grid",
+    name: "MultiScreenAdaptiveResponsiveLayoutGridSkill",
+    displayName: "Multi Screen Adaptive Responsive Layout Grid",
+    categoryId: "uxDesign",
+    description: "Designs fluid responsive layouts adapting across mobile, tablet, desktop, and ultrawide displays.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Screen Adaptive Responsive Layout Grid",
+      ruSectionName: "Композитный Multi-Skill: Multi Screen Adaptive Responsive Layout Grid",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Screen Adaptive Responsive Layout Grid.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Screen Adaptive Responsive Layout Grid.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-layer-design-system-token-component-architecture": {
+    id: "uxdesign-multi-multi-layer-design-system-token-component-architecture",
+    name: "MultiLayerDesignSystemTokenComponentArchitectureSkill",
+    displayName: "Multi Layer Design System Token Component Architecture",
+    categoryId: "uxDesign",
+    description: "Constructs Figma design tokens (color, typography, spacing) mapped to Tailwind CSS components.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Design System Token Component Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Design System Token Component Architecture",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Design System Token Component Architecture.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Design System Token Component Architecture.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-method-usability-testing-task-success-protocol": {
+    id: "uxdesign-multi-multi-method-usability-testing-task-success-protocol",
+    name: "MultiMethodUsabilityTestingTaskSuccessProtocolSkill",
+    displayName: "Multi Method Usability Testing Task Success Protocol",
+    categoryId: "uxDesign",
+    description: "Conducts moderated usability sessions measuring task completion time, SUS scores, and errors.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Usability Testing Task Success Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Usability Testing Task Success Protocol",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Method Usability Testing Task Success Protocol.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Method Usability Testing Task Success Protocol.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-step-user-onboarding-frictionless-flow-design": {
+    id: "uxdesign-multi-multi-step-user-onboarding-frictionless-flow-design",
+    name: "MultiStepUserOnboardingFrictionlessFlowDesignSkill",
+    displayName: "Multi Step User Onboarding Frictionless Flow Design",
+    categoryId: "uxDesign",
+    description: "Designs progressive onboarding steps reducing cognitive load and driving early time-to-value.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step User Onboarding Frictionless Flow Design",
+      ruSectionName: "Композитный Multi-Skill: Multi Step User Onboarding Frictionless Flow Design",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Step User Onboarding Frictionless Flow Design.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Step User Onboarding Frictionless Flow Design.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-level-accessibility-wcag-2-1-aaa-compliance": {
+    id: "uxdesign-multi-multi-level-accessibility-wcag-2-1-aaa-compliance",
+    name: "MultiLevelAccessibilityWCAG21AAAComplianceSkill",
+    displayName: "Multi Level Accessibility WCAG 2 1 AAA Compliance",
+    categoryId: "uxDesign",
+    description: "Ensures screen reader ARIA labels, focus state indicators, and AAA contrast ratios.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Accessibility WCAG 2 1 AAA Compliance",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Accessibility WCAG 2 1 AAA Compliance",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Level Accessibility WCAG 2 1 AAA Compliance.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Level Accessibility WCAG 2 1 AAA Compliance.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-state-micro-interaction-ui-animation-system": {
+    id: "uxdesign-multi-multi-state-micro-interaction-ui-animation-system",
+    name: "MultiStateMicroInteractionUIAnimationSystemSkill",
+    displayName: "Multi State Micro Interaction UI Animation System",
+    categoryId: "uxDesign",
+    description: "Designs hover, active, loading, success, and error UI micro-animations.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi State Micro Interaction UI Animation System",
+      ruSectionName: "Композитный Multi-Skill: Multi State Micro Interaction UI Animation System",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi State Micro Interaction UI Animation System.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi State Micro Interaction UI Animation System.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-channel-omnichannel-design-touchpoint-consistency": {
+    id: "uxdesign-multi-multi-channel-omnichannel-design-touchpoint-consistency",
+    name: "MultiChannelOmnichannelDesignTouchpointConsistencySkill",
+    displayName: "Multi Channel Omnichannel Design Touchpoint Consistency",
+    categoryId: "uxDesign",
+    description: "Maintains visual identity and interaction consistency across web, iOS, Android, and kiosk.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Omnichannel Design Touchpoint Consistency",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Omnichannel Design Touchpoint Consistency",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Channel Omnichannel Design Touchpoint Consistency.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Channel Omnichannel Design Touchpoint Consistency.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-persona-customer-journey-information-architecture": {
+    id: "uxdesign-multi-multi-persona-customer-journey-information-architecture",
+    name: "MultiPersonaCustomerJourneyInformationArchitectureSkill",
+    displayName: "Multi Persona Customer Journey Information Architecture",
+    categoryId: "uxDesign",
+    description: "Constructs sitemaps and navigation trees optimized for distinct user intent pathways.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Customer Journey Information Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Customer Journey Information Architecture",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Persona Customer Journey Information Architecture.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Persona Customer Journey Information Architecture.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-option-e-commerce-checkout-friction-reduction": {
+    id: "uxdesign-multi-multi-option-e-commerce-checkout-friction-reduction",
+    name: "MultiOptionECommerceCheckoutFrictionReductionSkill",
+    displayName: "Multi Option E-Commerce Checkout Friction Reduction",
+    categoryId: "uxDesign",
+    description: "Reduces checkout friction using guest checkout, express wallet payments, and inline validation.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Option E-Commerce Checkout Friction Reduction",
+      ruSectionName: "Композитный Multi-Skill: Multi Option E-Commerce Checkout Friction Reduction",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Option E-Commerce Checkout Friction Reduction.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Option E-Commerce Checkout Friction Reduction.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-level-dark-mode-color-palette-system": {
+    id: "uxdesign-multi-multi-level-dark-mode-color-palette-system",
+    name: "MultiLevelDarkModeColorPaletteSystemSkill",
+    displayName: "Multi Level Dark Mode Color Palette System",
+    categoryId: "uxDesign",
+    description: "Designs dark mode color palettes preventing eye strain and maintaining visual hierarchy.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Dark Mode Color Palette System",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Dark Mode Color Palette System",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Level Dark Mode Color Palette System.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Level Dark Mode Color Palette System.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-step-complex-data-table-filtering-sorting-ui": {
+    id: "uxdesign-multi-multi-step-complex-data-table-filtering-sorting-ui",
+    name: "MultiStepComplexDataTableFilteringSortingUISkill",
+    displayName: "Multi Step Complex Data Table Filtering Sorting UI",
+    categoryId: "uxDesign",
+    description: "Designs enterprise data tables with column resizing, sticky headers, bulk actions, and filters.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Complex Data Table Filtering Sorting UI",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Complex Data Table Filtering Sorting UI",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Step Complex Data Table Filtering Sorting UI.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Step Complex Data Table Filtering Sorting UI.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-state-form-field-inline-validation-ux": {
+    id: "uxdesign-multi-multi-state-form-field-inline-validation-ux",
+    name: "MultiStateFormFieldInlineValidationUXSkill",
+    displayName: "Multi State Form Field Inline Validation UX",
+    categoryId: "uxDesign",
+    description: "Designs real-time form validation showing helpful error messages and success checks.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi State Form Field Inline Validation UX",
+      ruSectionName: "Композитный Multi-Skill: Multi State Form Field Inline Validation UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi State Form Field Inline Validation UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi State Form Field Inline Validation UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-view-dashboard-analytics-data-visualization-design": {
+    id: "uxdesign-multi-multi-view-dashboard-analytics-data-visualization-design",
+    name: "MultiViewDashboardAnalyticsDataVisualizationDesignSkill",
+    displayName: "Multi View Dashboard Analytics Data Visualization Design",
+    categoryId: "uxDesign",
+    description: "Designs executive dashboards with clear chart choices (bar, line, donut) and drill-downs.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi View Dashboard Analytics Data Visualization Design",
+      ruSectionName: "Композитный Multi-Skill: Multi View Dashboard Analytics Data Visualization Design",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi View Dashboard Analytics Data Visualization Design.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi View Dashboard Analytics Data Visualization Design.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-device-touch-gesture-navigation-interface": {
+    id: "uxdesign-multi-multi-device-touch-gesture-navigation-interface",
+    name: "MultiDeviceTouchGestureNavigationInterfaceSkill",
+    displayName: "Multi Device Touch Gesture Navigation Interface",
+    categoryId: "uxDesign",
+    description: "Designs intuitive touch gestures (swipe to dismiss, pinch zoom, pull to refresh) for mobile.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Device Touch Gesture Navigation Interface",
+      ruSectionName: "Композитный Multi-Skill: Multi Device Touch Gesture Navigation Interface",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Device Touch Gesture Navigation Interface.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Device Touch Gesture Navigation Interface.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-step-wizard-checkout-form-progress-indicator": {
+    id: "uxdesign-multi-multi-step-wizard-checkout-form-progress-indicator",
+    name: "MultiStepWizardCheckoutFormProgressIndicatorSkill",
+    displayName: "Multi Step Wizard Checkout Form Progress Indicator",
+    categoryId: "uxDesign",
+    description: "Designs multi-step form wizards with clear step indicators and autosave state.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Wizard Checkout Form Progress Indicator",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Wizard Checkout Form Progress Indicator",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Step Wizard Checkout Form Progress Indicator.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Step Wizard Checkout Form Progress Indicator.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-layer-search-bar-auto-complete-suggestion-ux": {
+    id: "uxdesign-multi-multi-layer-search-bar-auto-complete-suggestion-ux",
+    name: "MultiLayerSearchBarAutoCompleteSuggestionUXSkill",
+    displayName: "Multi Layer Search Bar Auto Complete Suggestion UX",
+    categoryId: "uxDesign",
+    description: "Designs instant search inputs displaying recent searches, trending items, and category filters.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Search Bar Auto Complete Suggestion UX",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Search Bar Auto Complete Suggestion UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Search Bar Auto Complete Suggestion UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Search Bar Auto Complete Suggestion UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-state-empty-state-zero-data-onboarding-ui": {
+    id: "uxdesign-multi-multi-state-empty-state-zero-data-onboarding-ui",
+    name: "MultiStateEmptyStateZeroDataOnboardingUISkill",
+    displayName: "Multi State Empty State Zero Data Onboarding UI",
+    categoryId: "uxDesign",
+    description: "Designs encouraging empty states with clear calls-to-action guiding users to create content.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi State Empty State Zero Data Onboarding UI",
+      ruSectionName: "Композитный Multi-Skill: Multi State Empty State Zero Data Onboarding UI",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi State Empty State Zero Data Onboarding UI.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi State Empty State Zero Data Onboarding UI.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-level-typography-hierarchy-font-scale-system": {
+    id: "uxdesign-multi-multi-level-typography-hierarchy-font-scale-system",
+    name: "MultiLevelTypographyHierarchyFontScaleSystemSkill",
+    displayName: "Multi Level Typography Hierarchy Font Scale System",
+    categoryId: "uxDesign",
+    description: "Establishes modular font scales ensuring readable line lengths, line heights, and hierarchy.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Typography Hierarchy Font Scale System",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Typography Hierarchy Font Scale System",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Level Typography Hierarchy Font Scale System.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Level Typography Hierarchy Font Scale System.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-option-modal-dialog-sheet-drawer-pattern": {
+    id: "uxdesign-multi-multi-option-modal-dialog-sheet-drawer-pattern",
+    name: "MultiOptionModalDialogSheetDrawerPatternSkill",
+    displayName: "Multi Option Modal Dialog Sheet Drawer Pattern",
+    categoryId: "uxDesign",
+    description: "Designs contextual slide-over drawers and modal dialogs with backdrop blur and escape keys.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Option Modal Dialog Sheet Drawer Pattern",
+      ruSectionName: "Композитный Multi-Skill: Multi Option Modal Dialog Sheet Drawer Pattern",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Option Modal Dialog Sheet Drawer Pattern.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Option Modal Dialog Sheet Drawer Pattern.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-layer-skeleton-loading-screen-state-ux": {
+    id: "uxdesign-multi-multi-layer-skeleton-loading-screen-state-ux",
+    name: "MultiLayerSkeletonLoadingScreenStateUXSkill",
+    displayName: "Multi Layer Skeleton Loading Screen State UX",
+    categoryId: "uxDesign",
+    description: "Designs skeleton screen shimmer loaders reducing perceived waiting time during API fetches.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Skeleton Loading Screen State UX",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Skeleton Loading Screen State UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Skeleton Loading Screen State UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Skeleton Loading Screen State UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-step-passwordless-magic-link-login-ux": {
+    id: "uxdesign-multi-multi-step-passwordless-magic-link-login-ux",
+    name: "MultiStepPasswordlessMagicLinkLoginUXSkill",
+    displayName: "Multi Step Passwordless Magic Link Login UX",
+    categoryId: "uxDesign",
+    description: "Designs seamless authentication flows featuring biometric FaceID, magic links, and OTP codes.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Passwordless Magic Link Login UX",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Passwordless Magic Link Login UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Step Passwordless Magic Link Login UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Step Passwordless Magic Link Login UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-layer-notification-system-bell-toast-banner": {
+    id: "uxdesign-multi-multi-layer-notification-system-bell-toast-banner",
+    name: "MultiLayerNotificationSystemBellToastBannerSkill",
+    displayName: "Multi Layer Notification System Bell Toast Banner",
+    categoryId: "uxDesign",
+    description: "Designs in-app notification centers, toast alerts, and banner badges with priority colors.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Notification System Bell Toast Banner",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Notification System Bell Toast Banner",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Notification System Bell Toast Banner.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Notification System Bell Toast Banner.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-device-mobile-navigation-bottom-sheet-bar": {
+    id: "uxdesign-multi-multi-device-mobile-navigation-bottom-sheet-bar",
+    name: "MultiDeviceMobileNavigationBottomSheetBarSkill",
+    displayName: "Multi Device Mobile Navigation Bottom Sheet Bar",
+    categoryId: "uxDesign",
+    description: "Designs thumb-friendly mobile bottom navigation bars and expandable action sheets.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Device Mobile Navigation Bottom Sheet Bar",
+      ruSectionName: "Композитный Multi-Skill: Multi Device Mobile Navigation Bottom Sheet Bar",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Device Mobile Navigation Bottom Sheet Bar.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Device Mobile Navigation Bottom Sheet Bar.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-option-filter-drawer-faceted-search-ux": {
+    id: "uxdesign-multi-multi-option-filter-drawer-faceted-search-ux",
+    name: "MultiOptionFilterDrawerFacetedSearchUXSkill",
+    displayName: "Multi Option Filter Drawer Faceted Search UX",
+    categoryId: "uxDesign",
+    description: "Designs faceted search sidebar filters with checkbox counts and instant clear buttons.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Option Filter Drawer Faceted Search UX",
+      ruSectionName: "Композитный Multi-Skill: Multi Option Filter Drawer Faceted Search UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Option Filter Drawer Faceted Search UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Option Filter Drawer Faceted Search UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-state-drag-and-drop-kanban-board-interface": {
+    id: "uxdesign-multi-multi-state-drag-and-drop-kanban-board-interface",
+    name: "MultiStateDragandDropKanbanBoardInterfaceSkill",
+    displayName: "Multi State Drag and Drop Kanban Board Interface",
+    categoryId: "uxDesign",
+    description: "Designs interactive drag-and-drop board columns with visual drop zones and animations.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi State Drag and Drop Kanban Board Interface",
+      ruSectionName: "Композитный Multi-Skill: Multi State Drag and Drop Kanban Board Interface",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi State Drag and Drop Kanban Board Interface.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi State Drag and Drop Kanban Board Interface.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-view-media-gallery-carousel-lightbox-ux": {
+    id: "uxdesign-multi-multi-view-media-gallery-carousel-lightbox-ux",
+    name: "MultiViewMediaGalleryCarouselLightboxUXSkill",
+    displayName: "Multi View Media Gallery Carousel Lightbox UX",
+    categoryId: "uxDesign",
+    description: "Designs full-screen image lightboxes with zoom, thumbnail strip, and keyboard controls.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi View Media Gallery Carousel Lightbox UX",
+      ruSectionName: "Композитный Multi-Skill: Multi View Media Gallery Carousel Lightbox UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi View Media Gallery Carousel Lightbox UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi View Media Gallery Carousel Lightbox UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-layer-tooltip-contextual-help-onboarding-ui": {
+    id: "uxdesign-multi-multi-layer-tooltip-contextual-help-onboarding-ui",
+    name: "MultiLayerTooltipContextualHelpOnboardingUISkill",
+    displayName: "Multi Layer Tooltip Contextual Help Onboarding UI",
+    categoryId: "uxDesign",
+    description: "Designs subtle feature discovery tooltips and interactive product walkthrough tours.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Tooltip Contextual Help Onboarding UI",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Tooltip Contextual Help Onboarding UI",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Tooltip Contextual Help Onboarding UI.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Tooltip Contextual Help Onboarding UI.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-step-file-drag-drop-multi-upload-progress-ux": {
+    id: "uxdesign-multi-multi-step-file-drag-drop-multi-upload-progress-ux",
+    name: "MultiStepFileDragDropMultiUploadProgressUXSkill",
+    displayName: "Multi Step File Drag Drop Multi Upload Progress UX",
+    categoryId: "uxDesign",
+    description: "Designs drag-and-drop file upload zones displaying file previews, progress bars, and cancel buttons.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step File Drag Drop Multi Upload Progress UX",
+      ruSectionName: "Композитный Multi-Skill: Multi Step File Drag Drop Multi Upload Progress UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Step File Drag Drop Multi Upload Progress UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Step File Drag Drop Multi Upload Progress UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-option-multi-select-pill-tag-input-component": {
+    id: "uxdesign-multi-multi-option-multi-select-pill-tag-input-component",
+    name: "MultiOptionMultiSelectPillTagInputComponentSkill",
+    displayName: "Multi Option Multi Select Pill Tag Input Component",
+    categoryId: "uxDesign",
+    description: "Designs intuitive multi-select dropdowns displaying removable tag pills inside inputs.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Option Multi Select Pill Tag Input Component",
+      ruSectionName: "Композитный Multi-Skill: Multi Option Multi Select Pill Tag Input Component",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Option Multi Select Pill Tag Input Component.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Option Multi Select Pill Tag Input Component.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-state-button-micro-copy-feedback-ux": {
+    id: "uxdesign-multi-multi-state-button-micro-copy-feedback-ux",
+    name: "MultiStateButtonMicroCopyFeedbackUXSkill",
+    displayName: "Multi State Button Micro Copy Feedback UX",
+    categoryId: "uxDesign",
+    description: "Designs interactive button states (idle, hover, loading spinner, success checkmark, disabled).",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi State Button Micro Copy Feedback UX",
+      ruSectionName: "Композитный Multi-Skill: Multi State Button Micro Copy Feedback UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi State Button Micro Copy Feedback UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi State Button Micro Copy Feedback UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-layer-card-container-layout-visual-spacing": {
+    id: "uxdesign-multi-multi-layer-card-container-layout-visual-spacing",
+    name: "MultiLayerCardContainerLayoutVisualSpacingSkill",
+    displayName: "Multi Layer Card Container Layout Visual Spacing",
+    categoryId: "uxDesign",
+    description: "Designs modular card UI containers using consistent 8pt grid padding and soft drop shadows.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Card Container Layout Visual Spacing",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Card Container Layout Visual Spacing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Card Container Layout Visual Spacing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Card Container Layout Visual Spacing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-step-subscription-plan-upgrade-pricing-table": {
+    id: "uxdesign-multi-multi-step-subscription-plan-upgrade-pricing-table",
+    name: "MultiStepSubscriptionPlanUpgradePricingTableSkill",
+    displayName: "Multi Step Subscription Plan Upgrade Pricing Table",
+    categoryId: "uxDesign",
+    description: "Designs high-converting pricing tables with feature toggles and 'Most Popular' badges.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Subscription Plan Upgrade Pricing Table",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Subscription Plan Upgrade Pricing Table",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Step Subscription Plan Upgrade Pricing Table.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Step Subscription Plan Upgrade Pricing Table.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-view-calendar-scheduling-availability-interface": {
+    id: "uxdesign-multi-multi-view-calendar-scheduling-availability-interface",
+    name: "MultiViewCalendarSchedulingAvailabilityInterfaceSkill",
+    displayName: "Multi View Calendar Scheduling Availability Interface",
+    categoryId: "uxDesign",
+    description: "Designs intuitive event calendar views (day, week, month) with drag-to-schedule time slots.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi View Calendar Scheduling Availability Interface",
+      ruSectionName: "Композитный Multi-Skill: Multi View Calendar Scheduling Availability Interface",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi View Calendar Scheduling Availability Interface.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi View Calendar Scheduling Availability Interface.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-layer-audio-video-player-media-control-ui": {
+    id: "uxdesign-multi-multi-layer-audio-video-player-media-control-ui",
+    name: "MultiLayerAudioVideoPlayerMediaControlUISkill",
+    displayName: "Multi Layer Audio Video Player Media Control UI",
+    categoryId: "uxDesign",
+    description: "Designs custom audio/video player controls featuring scrubber bars, playback speed, and volume.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Audio Video Player Media Control UI",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Audio Video Player Media Control UI",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Audio Video Player Media Control UI.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Audio Video Player Media Control UI.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-step-user-profile-settings-account-management": {
+    id: "uxdesign-multi-multi-step-user-profile-settings-account-management",
+    name: "MultiStepUserProfileSettingsAccountManagementSkill",
+    displayName: "Multi Step User Profile Settings Account Management",
+    categoryId: "uxDesign",
+    description: "Designs clean tabbed profile settings for personal info, security, billing, and preferences.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step User Profile Settings Account Management",
+      ruSectionName: "Композитный Multi-Skill: Multi Step User Profile Settings Account Management",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Step User Profile Settings Account Management.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Step User Profile Settings Account Management.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-option-multi-currency-language-region-selector": {
+    id: "uxdesign-multi-multi-option-multi-currency-language-region-selector",
+    name: "MultiOptionMultiCurrencyLanguageRegionSelectorSkill",
+    displayName: "Multi Option Multi Currency Language Region Selector",
+    categoryId: "uxDesign",
+    description: "Designs global locale selector modals displaying country flags, languages, and currencies.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Option Multi Currency Language Region Selector",
+      ruSectionName: "Композитный Multi-Skill: Multi Option Multi Currency Language Region Selector",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Option Multi Currency Language Region Selector.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Option Multi Currency Language Region Selector.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-state-toggle-switch-radio-segmented-control": {
+    id: "uxdesign-multi-multi-state-toggle-switch-radio-segmented-control",
+    name: "MultiStateToggleSwitchRadioSegmentedControlSkill",
+    displayName: "Multi State Toggle Switch Radio Segmented Control",
+    categoryId: "uxDesign",
+    description: "Designs tactile segmented controls and toggle switches for instant setting adjustments.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi State Toggle Switch Radio Segmented Control",
+      ruSectionName: "Композитный Multi-Skill: Multi State Toggle Switch Radio Segmented Control",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi State Toggle Switch Radio Segmented Control.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi State Toggle Switch Radio Segmented Control.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-layer-rich-text-editor-wysiwyg-formatting-toolbar": {
+    id: "uxdesign-multi-multi-layer-rich-text-editor-wysiwyg-formatting-toolbar",
+    name: "MultiLayerRichTextEditorWYSIWYGFormattingToolbarSkill",
+    displayName: "Multi Layer Rich Text Editor WYSIWYG Formatting Toolbar",
+    categoryId: "uxDesign",
+    description: "Designs floating WYSIWYG toolbars for bold, italic, heading levels, links, and code blocks.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Rich Text Editor WYSIWYG Formatting Toolbar",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Rich Text Editor WYSIWYG Formatting Toolbar",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Rich Text Editor WYSIWYG Formatting Toolbar.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Rich Text Editor WYSIWYG Formatting Toolbar.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-step-shopping-cart-drawer-summary-ux": {
+    id: "uxdesign-multi-multi-step-shopping-cart-drawer-summary-ux",
+    name: "MultiStepShoppingCartDrawerSummaryUXSkill",
+    displayName: "Multi Step Shopping Cart Drawer Summary UX",
+    categoryId: "uxDesign",
+    description: "Designs slide-out shopping cart drawers displaying item thumbnails, quantities, promo codes, and checkout.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Shopping Cart Drawer Summary UX",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Shopping Cart Drawer Summary UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Step Shopping Cart Drawer Summary UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Step Shopping Cart Drawer Summary UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-option-rating-review-feedback-star-widget": {
+    id: "uxdesign-multi-multi-option-rating-review-feedback-star-widget",
+    name: "MultiOptionRatingReviewFeedbackStarWidgetSkill",
+    displayName: "Multi Option Rating Review Feedback Star Widget",
+    categoryId: "uxDesign",
+    description: "Designs interactive star rating inputs with photo upload attachments and filter reviews.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Option Rating Review Feedback Star Widget",
+      ruSectionName: "Композитный Multi-Skill: Multi Option Rating Review Feedback Star Widget",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Option Rating Review Feedback Star Widget.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Option Rating Review Feedback Star Widget.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-layer-status-badge-tag-pill-system-design": {
+    id: "uxdesign-multi-multi-layer-status-badge-tag-pill-system-design",
+    name: "MultiLayerStatusBadgeTagPillSystemDesignSkill",
+    displayName: "Multi Layer Status Badge Tag Pill System Design",
+    categoryId: "uxDesign",
+    description: "Establishes status badge color conventions (green=active, yellow=pending, red=failed, gray=draft).",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Status Badge Tag Pill System Design",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Status Badge Tag Pill System Design",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Status Badge Tag Pill System Design.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Status Badge Tag Pill System Design.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-step-address-auto-complete-verification-ux": {
+    id: "uxdesign-multi-multi-step-address-auto-complete-verification-ux",
+    name: "MultiStepAddressAutoCompleteVerificationUXSkill",
+    displayName: "Multi Step Address Auto Complete Verification UX",
+    categoryId: "uxDesign",
+    description: "Integrates Google Places address autocomplete with postal verification and unit number fields.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Address Auto Complete Verification UX",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Address Auto Complete Verification UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Step Address Auto Complete Verification UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Step Address Auto Complete Verification UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-view-timeline-event-activity-log-feed": {
+    id: "uxdesign-multi-multi-view-timeline-event-activity-log-feed",
+    name: "MultiViewTimelineEventActivityLogFeedSkill",
+    displayName: "Multi View Timeline Event Activity Log Feed",
+    categoryId: "uxDesign",
+    description: "Designs chronological activity feeds with user avatars, timestamped actions, and filter tabs.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi View Timeline Event Activity Log Feed",
+      ruSectionName: "Композитный Multi-Skill: Multi View Timeline Event Activity Log Feed",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi View Timeline Event Activity Log Feed.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi View Timeline Event Activity Log Feed.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-option-multi-tab-navigation-interface-bar": {
+    id: "uxdesign-multi-multi-option-multi-tab-navigation-interface-bar",
+    name: "MultiOptionMultiTabNavigationInterfaceBarSkill",
+    displayName: "Multi Option Multi Tab Navigation Interface Bar",
+    categoryId: "uxDesign",
+    description: "Designs scrollable tab bars with active underline indicators and count badges.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Option Multi Tab Navigation Interface Bar",
+      ruSectionName: "Композитный Multi-Skill: Multi Option Multi Tab Navigation Interface Bar",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Option Multi Tab Navigation Interface Bar.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Option Multi Tab Navigation Interface Bar.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-layer-infinite-scroll-pagination-load-more-ux": {
+    id: "uxdesign-multi-multi-layer-infinite-scroll-pagination-load-more-ux",
+    name: "MultiLayerInfiniteScrollPaginationLoadMoreUXSkill",
+    displayName: "Multi Layer Infinite Scroll Pagination Load More UX",
+    categoryId: "uxDesign",
+    description: "Balances infinite scrolling with 'Load More' buttons preserving footer accessibility.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Infinite Scroll Pagination Load More UX",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Infinite Scroll Pagination Load More UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Infinite Scroll Pagination Load More UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Infinite Scroll Pagination Load More UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-step-cookie-consent-gdpr-preference-banner": {
+    id: "uxdesign-multi-multi-step-cookie-consent-gdpr-preference-banner",
+    name: "MultiStepCookieConsentGDPRPreferenceBannerSkill",
+    displayName: "Multi Step Cookie Consent GDPR Preference Banner",
+    categoryId: "uxDesign",
+    description: "Designs non-intrusive cookie banner modals with granular category toggles (analytics, ads).",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Cookie Consent GDPR Preference Banner",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Cookie Consent GDPR Preference Banner",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Step Cookie Consent GDPR Preference Banner.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Step Cookie Consent GDPR Preference Banner.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-state-error-boundary-fallback-screen-ux": {
+    id: "uxdesign-multi-multi-state-error-boundary-fallback-screen-ux",
+    name: "MultiStateErrorBoundaryFallbackScreenUXSkill",
+    displayName: "Multi State Error Boundary Fallback Screen UX",
+    categoryId: "uxDesign",
+    description: "Designs friendly 404 and 500 error screens offering search inputs and home buttons.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi State Error Boundary Fallback Screen UX",
+      ruSectionName: "Композитный Multi-Skill: Multi State Error Boundary Fallback Screen UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi State Error Boundary Fallback Screen UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi State Error Boundary Fallback Screen UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-option-color-picker-swatch-input-component": {
+    id: "uxdesign-multi-multi-option-color-picker-swatch-input-component",
+    name: "MultiOptionColorPickerSwatchInputComponentSkill",
+    displayName: "Multi Option Color Picker Swatch Input Component",
+    categoryId: "uxDesign",
+    description: "Designs intuitive color pickers with hex inputs, RGB sliders, and preset palette swatches.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Option Color Picker Swatch Input Component",
+      ruSectionName: "Композитный Multi-Skill: Multi Option Color Picker Swatch Input Component",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Option Color Picker Swatch Input Component.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Option Color Picker Swatch Input Component.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-layer-tree-view-folder-file-hierarchy-interface": {
+    id: "uxdesign-multi-multi-layer-tree-view-folder-file-hierarchy-interface",
+    name: "MultiLayerTreeViewFolderFileHierarchyInterfaceSkill",
+    displayName: "Multi Layer Tree View Folder File Hierarchy Interface",
+    categoryId: "uxDesign",
+    description: "Designs collapsible tree view file navigators with drag-and-drop reordering.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Tree View Folder File Hierarchy Interface",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Tree View Folder File Hierarchy Interface",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Tree View Folder File Hierarchy Interface.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Tree View Folder File Hierarchy Interface.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-step-survey-nps-feedback-rating-widget": {
+    id: "uxdesign-multi-multi-step-survey-nps-feedback-rating-widget",
+    name: "MultiStepSurveyNPSFeedbackRatingWidgetSkill",
+    displayName: "Multi Step Survey NPS Feedback Rating Widget",
+    categoryId: "uxDesign",
+    description: "Designs 0-10 Net Promoter Score widgets with optional open-ended comment boxes.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Survey NPS Feedback Rating Widget",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Survey NPS Feedback Rating Widget",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Step Survey NPS Feedback Rating Widget.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Step Survey NPS Feedback Rating Widget.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-option-accordion-collapsible-faq-component": {
+    id: "uxdesign-multi-multi-option-accordion-collapsible-faq-component",
+    name: "MultiOptionAccordionCollapsibleFAQComponentSkill",
+    displayName: "Multi Option Accordion Collapsible FAQ Component",
+    categoryId: "uxDesign",
+    description: "Designs accessible accordion components with smooth expand/collapse animations and aria-expanded.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Option Accordion Collapsible FAQ Component",
+      ruSectionName: "Композитный Multi-Skill: Multi Option Accordion Collapsible FAQ Component",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Option Accordion Collapsible FAQ Component.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Option Accordion Collapsible FAQ Component.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-layer-breadcrumb-navigation-path-ux": {
+    id: "uxdesign-multi-multi-layer-breadcrumb-navigation-path-ux",
+    name: "MultiLayerBreadcrumbNavigationPathUXSkill",
+    displayName: "Multi Layer Breadcrumb Navigation Path UX",
+    categoryId: "uxDesign",
+    description: "Designs clean breadcrumb trails displaying hierarchical site location with click links.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Breadcrumb Navigation Path UX",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Breadcrumb Navigation Path UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Breadcrumb Navigation Path UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Breadcrumb Navigation Path UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-step-order-tracking-delivery-map-interface": {
+    id: "uxdesign-multi-multi-step-order-tracking-delivery-map-interface",
+    name: "MultiStepOrderTrackingDeliveryMapInterfaceSkill",
+    displayName: "Multi Step Order Tracking Delivery Map Interface",
+    categoryId: "uxDesign",
+    description: "Designs real-time order tracking screens with live map driver location and ETA countdown.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Order Tracking Delivery Map Interface",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Order Tracking Delivery Map Interface",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Step Order Tracking Delivery Map Interface.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Step Order Tracking Delivery Map Interface.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-option-split-screen-comparison-slider-component": {
+    id: "uxdesign-multi-multi-option-split-screen-comparison-slider-component",
+    name: "MultiOptionSplitScreenComparisonSliderComponentSkill",
+    displayName: "Multi Option Split Screen Comparison Slider Component",
+    categoryId: "uxDesign",
+    description: "Designs interactive before/after image slider handles comparing visual transformations.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Option Split Screen Comparison Slider Component",
+      ruSectionName: "Композитный Multi-Skill: Multi Option Split Screen Comparison Slider Component",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Option Split Screen Comparison Slider Component.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Option Split Screen Comparison Slider Component.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-layer-command-palette-kbar-search-shortcut": {
+    id: "uxdesign-multi-multi-layer-command-palette-kbar-search-shortcut",
+    name: "MultiLayerCommandPaletteKbarSearchShortcutSkill",
+    displayName: "Multi Layer Command Palette Kbar Search Shortcut",
+    categoryId: "uxDesign",
+    description: "Designs Cmd+K command palettes enabling fast keyboard-driven app navigation.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Command Palette Kbar Search Shortcut",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Command Palette Kbar Search Shortcut",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Command Palette Kbar Search Shortcut.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Command Palette Kbar Search Shortcut.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-step-coupon-promo-code-application-ux": {
+    id: "uxdesign-multi-multi-step-coupon-promo-code-application-ux",
+    name: "MultiStepCouponPromoCodeApplicationUXSkill",
+    displayName: "Multi Step Coupon Promo Code Application UX",
+    categoryId: "uxDesign",
+    description: "Designs discount code input fields with instant balance calculation and applied tag chips.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Coupon Promo Code Application UX",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Coupon Promo Code Application UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Step Coupon Promo Code Application UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Step Coupon Promo Code Application UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-option-multi-column-footer-site-index-design": {
+    id: "uxdesign-multi-multi-option-multi-column-footer-site-index-design",
+    name: "MultiOptionMultiColumnFooterSiteIndexDesignSkill",
+    displayName: "Multi Option Multi Column Footer Site Index Design",
+    categoryId: "uxDesign",
+    description: "Designs comprehensive site footers featuring newsletter signups, social icons, and link columns.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Option Multi Column Footer Site Index Design",
+      ruSectionName: "Композитный Multi-Skill: Multi Option Multi Column Footer Site Index Design",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Option Multi Column Footer Site Index Design.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Option Multi Column Footer Site Index Design.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-layer-floating-action-button-fab-menu-ux": {
+    id: "uxdesign-multi-multi-layer-floating-action-button-fab-menu-ux",
+    name: "MultiLayerFloatingActionButtonFABMenuUXSkill",
+    displayName: "Multi Layer Floating Action Button FAB Menu UX",
+    categoryId: "uxDesign",
+    description: "Designs material design floating action buttons expanding into quick action speed dials.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Floating Action Button FAB Menu UX",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Floating Action Button FAB Menu UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Floating Action Button FAB Menu UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Floating Action Button FAB Menu UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-step-identity-document-photo-verification-ux": {
+    id: "uxdesign-multi-multi-step-identity-document-photo-verification-ux",
+    name: "MultiStepIdentityDocumentPhotoVerificationUXSkill",
+    displayName: "Multi Step Identity Document Photo Verification UX",
+    categoryId: "uxDesign",
+    description: "Guides users taking clear photos of driver's licenses with real-time frame alignment.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Identity Document Photo Verification UX",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Identity Document Photo Verification UX",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Step Identity Document Photo Verification UX.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Step Identity Document Photo Verification UX.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
+
+  "uxdesign-multi-multi-horizon-master-user-experience-interface-design-engine": {
+    id: "uxdesign-multi-multi-horizon-master-user-experience-interface-design-engine",
+    name: "MultiHorizonMasterUserExperienceInterfaceDesignEngineSkill",
+    displayName: "Multi Horizon Master User Experience Interface Design Engine",
+    categoryId: "uxDesign",
+    description: "Enforces master UX design, accessibility, visual hierarchy, micro-interactions, and design systems.",
+    tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master User Experience Interface Design Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master User Experience Interface Design Engine",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Horizon Master User Experience Interface Design Engine.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Horizon Master User Experience Interface Design Engine.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["uxDesign","multi-skill","uxdesign-multi"],
+    }),
+  },
 };

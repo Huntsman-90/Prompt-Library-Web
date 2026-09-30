@@ -4283,5 +4283,1504 @@ export const METAPROMPTING_SKILLS: Record<string, SkillDefinition> = {
       tags: ["metaprompting","metaprompting","master","metaprompting"],
     }),
   },
+  "metaprompting-multi-multi-layer-self-refinement-metaprompting-architecture": {
+    id: "metaprompting-multi-multi-layer-self-refinement-metaprompting-architecture",
+    name: "MultiLayerSelfRefinementMetapromptingArchitectureSkill",
+    displayName: "Multi Layer Self Refinement Metaprompting Architecture",
+    categoryId: "metaprompting",
+    description: "Generates candidate system prompts, evaluates output quality against rubrics, and iteratively rewrites prompts.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Self Refinement Metaprompting Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Self Refinement Metaprompting Architecture",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Self Refinement Metaprompting Architecture.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Self Refinement Metaprompting Architecture.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-agent-metaprompt-optimization-generator": {
+    id: "metaprompting-multi-multi-agent-metaprompt-optimization-generator",
+    name: "MultiAgentMetapromptOptimizationGeneratorSkill",
+    displayName: "Multi Agent Metaprompt Optimization Generator",
+    categoryId: "metaprompting",
+    description: "Employs an Optimizer Agent that analyzes failures in user prompts and generates calibrated system prompts.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Metaprompt Optimization Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Metaprompt Optimization Generator",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Agent Metaprompt Optimization Generator.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Agent Metaprompt Optimization Generator.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-prompt-decomposition-synthesis-pipeline": {
+    id: "metaprompting-multi-multi-stage-prompt-decomposition-synthesis-pipeline",
+    name: "MultiStagePromptDecompositionSynthesisPipelineSkill",
+    displayName: "Multi Stage Prompt Decomposition Synthesis Pipeline",
+    categoryId: "metaprompting",
+    description: "Deconstructs complex user briefs into modular sub-prompts, executing each and synthesizing final result.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Prompt Decomposition Synthesis Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Prompt Decomposition Synthesis Pipeline",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Prompt Decomposition Synthesis Pipeline.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Prompt Decomposition Synthesis Pipeline.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-perspective-few-shot-example-selection-engine": {
+    id: "metaprompting-multi-multi-perspective-few-shot-example-selection-engine",
+    name: "MultiPerspectiveFewShotExampleSelectionEngineSkill",
+    displayName: "Multi Perspective Few Shot Example Selection Engine",
+    categoryId: "metaprompting",
+    description: "Selects optimal dynamic few-shot prompt examples based on semantic similarity to current user input.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Few Shot Example Selection Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Few Shot Example Selection Engine",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Few Shot Example Selection Engine.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Few Shot Example Selection Engine.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-constraint-system-prompt-boundary-calculator": {
+    id: "metaprompting-multi-multi-constraint-system-prompt-boundary-calculator",
+    name: "MultiConstraintSystemPromptBoundaryCalculatorSkill",
+    displayName: "Multi Constraint System Prompt Boundary Calculator",
+    categoryId: "metaprompting",
+    description: "Automatically calculates necessary negative constraints and boundary rules for a given domain.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Constraint System Prompt Boundary Calculator",
+      ruSectionName: "Композитный Multi-Skill: Multi Constraint System Prompt Boundary Calculator",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Constraint System Prompt Boundary Calculator.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Constraint System Prompt Boundary Calculator.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-target-model-specific-metaprompt-translator": {
+    id: "metaprompting-multi-multi-target-model-specific-metaprompt-translator",
+    name: "MultiTargetModelSpecificMetapromptTranslatorSkill",
+    displayName: "Multi Target Model Specific Metaprompt Translator",
+    categoryId: "metaprompting",
+    description: "Translates system prompts between GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, and Llama 3 architectures.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Target Model Specific Metaprompt Translator",
+      ruSectionName: "Композитный Multi-Skill: Multi Target Model Specific Metaprompt Translator",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Target Model Specific Metaprompt Translator.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Target Model Specific Metaprompt Translator.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-level-variable-injection-prompt-template-compiler": {
+    id: "metaprompting-multi-multi-level-variable-injection-prompt-template-compiler",
+    name: "MultiLevelVariableInjectionPromptTemplateCompilerSkill",
+    displayName: "Multi Level Variable Injection Prompt Template Compiler",
+    categoryId: "metaprompting",
+    description: "Compiles raw prompt templates with variable validation, type-checking, and escaping rules.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Variable Injection Prompt Template Compiler",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Variable Injection Prompt Template Compiler",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Level Variable Injection Prompt Template Compiler.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Level Variable Injection Prompt Template Compiler.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-layer-anti-hallucination-metaprompt-injector": {
+    id: "metaprompting-multi-multi-layer-anti-hallucination-metaprompt-injector",
+    name: "MultiLayerAntiHallucinationMetapromptInjectorSkill",
+    displayName: "Multi Layer Anti Hallucination Metaprompt Injector",
+    categoryId: "metaprompting",
+    description: "Injects strict citation rules, confidence self-assessment steps, and unknown fallbacks into any prompt.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Anti Hallucination Metaprompt Injector",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Anti Hallucination Metaprompt Injector",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Anti Hallucination Metaprompt Injector.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Anti Hallucination Metaprompt Injector.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-format-output-schema-metaprompt-enforcer": {
+    id: "metaprompting-multi-multi-format-output-schema-metaprompt-enforcer",
+    name: "MultiFormatOutputSchemaMetapromptEnforcerSkill",
+    displayName: "Multi Format Output Schema Metaprompt Enforcer",
+    categoryId: "metaprompting",
+    description: "Embeds strict JSON Schema validation and markdown output structure rules into prompt templates.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Output Schema Metaprompt Enforcer",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Output Schema Metaprompt Enforcer",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format Output Schema Metaprompt Enforcer.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format Output Schema Metaprompt Enforcer.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-perspective-persona-system-metaprompt-architect": {
+    id: "metaprompting-multi-multi-perspective-persona-system-metaprompt-architect",
+    name: "MultiPerspectivePersonaSystemMetapromptArchitectSkill",
+    displayName: "Multi Perspective Persona System Metaprompt Architect",
+    categoryId: "metaprompting",
+    description: "Generates hyper-detailed expert persona descriptions with behavioral guidelines, tone, and domain jargon.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Persona System Metaprompt Architect",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Persona System Metaprompt Architect",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Persona System Metaprompt Architect.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Persona System Metaprompt Architect.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-chain-of-thought-cot-metaprompt-transformer": {
+    id: "metaprompting-multi-multi-stage-chain-of-thought-cot-metaprompt-transformer",
+    name: "MultiStageChainofThoughtCoTMetapromptTransformerSkill",
+    displayName: "Multi Stage Chain of Thought CoT Metaprompt Transformer",
+    categoryId: "metaprompting",
+    description: "Transforms standard prompts into step-by-step explicitly reasoned CoT execution pipelines.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Chain of Thought CoT Metaprompt Transformer",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Chain of Thought CoT Metaprompt Transformer",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Chain of Thought CoT Metaprompt Transformer.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Chain of Thought CoT Metaprompt Transformer.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-level-context-compression-summary-metaprompt": {
+    id: "metaprompting-multi-multi-level-context-compression-summary-metaprompt",
+    name: "MultiLevelContextCompressionSummaryMetapromptSkill",
+    displayName: "Multi Level Context Compression Summary Metaprompt",
+    categoryId: "metaprompting",
+    description: "Compresses massive conversation histories into condensed context blocks optimized for LLM attention.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Context Compression Summary Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Context Compression Summary Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Level Context Compression Summary Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Level Context Compression Summary Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-category-safety-guardrail-metaprompt-wrapper": {
+    id: "metaprompting-multi-multi-category-safety-guardrail-metaprompt-wrapper",
+    name: "MultiCategorySafetyGuardrailMetapromptWrapperSkill",
+    displayName: "Multi Category Safety Guardrail Metaprompt Wrapper",
+    categoryId: "metaprompting",
+    description: "Wraps raw user prompts in safety validation layers checking for toxicity, PII, and jailbreaks.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Category Safety Guardrail Metaprompt Wrapper",
+      ruSectionName: "Композитный Multi-Skill: Multi Category Safety Guardrail Metaprompt Wrapper",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Category Safety Guardrail Metaprompt Wrapper.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Category Safety Guardrail Metaprompt Wrapper.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-layer-socratic-questioning-metaprompt-generator": {
+    id: "metaprompting-multi-multi-layer-socratic-questioning-metaprompt-generator",
+    name: "MultiLayerSocraticQuestioningMetapromptGeneratorSkill",
+    displayName: "Multi Layer Socratic Questioning Metaprompt Generator",
+    categoryId: "metaprompting",
+    description: "Transforms informational prompts into engaging Socratic guiding dialogue prompts.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Socratic Questioning Metaprompt Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Socratic Questioning Metaprompt Generator",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Socratic Questioning Metaprompt Generator.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Socratic Questioning Metaprompt Generator.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-prompt-a-b-testing-evaluator-metaprompt": {
+    id: "metaprompting-multi-multi-stage-prompt-a-b-testing-evaluator-metaprompt",
+    name: "MultiStagePromptABTestingEvaluatorMetapromptSkill",
+    displayName: "Multi Stage Prompt A B Testing Evaluator Metaprompt",
+    categoryId: "metaprompting",
+    description: "Runs parallel evaluation of two prompt variants against test suites, outputting win-rate metrics.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Prompt A B Testing Evaluator Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Prompt A B Testing Evaluator Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Prompt A B Testing Evaluator Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Prompt A B Testing Evaluator Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-perspective-stakeholder-debate-metaprompt-generator": {
+    id: "metaprompting-multi-multi-perspective-stakeholder-debate-metaprompt-generator",
+    name: "MultiPerspectiveStakeholderDebateMetapromptGeneratorSkill",
+    displayName: "Multi Perspective Stakeholder Debate Metaprompt Generator",
+    categoryId: "metaprompting",
+    description: "Generates multi-persona debate prompts setting up realistic conflicting expert perspectives.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Stakeholder Debate Metaprompt Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Stakeholder Debate Metaprompt Generator",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Stakeholder Debate Metaprompt Generator.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Stakeholder Debate Metaprompt Generator.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-level-domain-jargon-glossarizer-metaprompt": {
+    id: "metaprompting-multi-multi-level-domain-jargon-glossarizer-metaprompt",
+    name: "MultiLevelDomainJargonGlossarizerMetapromptSkill",
+    displayName: "Multi Level Domain Jargon Glossarizer Metaprompt",
+    categoryId: "metaprompting",
+    description: "Appends specialized domain glossaries and terminology definitions to complex system prompts.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Domain Jargon Glossarizer Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Domain Jargon Glossarizer Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Level Domain Jargon Glossarizer Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Level Domain Jargon Glossarizer Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-error-correction-feedback-metaprompt": {
+    id: "metaprompting-multi-multi-stage-error-correction-feedback-metaprompt",
+    name: "MultiStageErrorCorrectionFeedbackMetapromptSkill",
+    displayName: "Multi Stage Error Correction Feedback Metaprompt",
+    categoryId: "metaprompting",
+    description: "Captures model execution error logs and formats self-correction re-prompts for instant debugging.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Error Correction Feedback Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Error Correction Feedback Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Error Correction Feedback Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Error Correction Feedback Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-format-structural-markdown-metaprompt-builder": {
+    id: "metaprompting-multi-multi-format-structural-markdown-metaprompt-builder",
+    name: "MultiFormatStructuralMarkdownMetapromptBuilderSkill",
+    displayName: "Multi Format Structural Markdown Metaprompt Builder",
+    categoryId: "metaprompting",
+    description: "Structures prompts forcing outputs into executive summary memos, tables, and bulleted action items.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Structural Markdown Metaprompt Builder",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Structural Markdown Metaprompt Builder",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format Structural Markdown Metaprompt Builder.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format Structural Markdown Metaprompt Builder.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-horizon-long-context-document-metaprompting": {
+    id: "metaprompting-multi-multi-horizon-long-context-document-metaprompting",
+    name: "MultiHorizonLongContextDocumentMetapromptingSkill",
+    displayName: "Multi Horizon Long Context Document Metaprompting",
+    categoryId: "metaprompting",
+    description: "Structures system prompts optimized for 1M+ token context windows avoiding middle-loss retrieval errors.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Long Context Document Metaprompting",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Long Context Document Metaprompting",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Horizon Long Context Document Metaprompting.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Horizon Long Context Document Metaprompting.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-tree-of-thoughts-tot-metaprompt-generator": {
+    id: "metaprompting-multi-multi-stage-tree-of-thoughts-tot-metaprompt-generator",
+    name: "MultiStageTreeofThoughtsToTMetapromptGeneratorSkill",
+    displayName: "Multi Stage Tree of Thoughts ToT Metaprompt Generator",
+    categoryId: "metaprompting",
+    description: "Structures prompts that explore multiple reasoning branches, scoring each path before committing.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Tree of Thoughts ToT Metaprompt Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Tree of Thoughts ToT Metaprompt Generator",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Tree of Thoughts ToT Metaprompt Generator.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Tree of Thoughts ToT Metaprompt Generator.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-layer-role-play-scenario-metaprompt-creator": {
+    id: "metaprompting-multi-multi-layer-role-play-scenario-metaprompt-creator",
+    name: "MultiLayerRolePlayScenarioMetapromptCreatorSkill",
+    displayName: "Multi Layer Role Play Scenario Metaprompt Creator",
+    categoryId: "metaprompting",
+    description: "Creates immersive interactive roleplay scenario prompts with branching choice triggers.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Role Play Scenario Metaprompt Creator",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Role Play Scenario Metaprompt Creator",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Role Play Scenario Metaprompt Creator.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Role Play Scenario Metaprompt Creator.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-perspective-oxford-style-debate-metaprompt": {
+    id: "metaprompting-multi-multi-perspective-oxford-style-debate-metaprompt",
+    name: "MultiPerspectiveOxfordStyleDebateMetapromptSkill",
+    displayName: "Multi Perspective Oxford Style Debate Metaprompt",
+    categoryId: "metaprompting",
+    description: "Generates structured debate prompts for Proposition, Opposition, and Moderator personas.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Oxford Style Debate Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Oxford Style Debate Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Oxford Style Debate Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Oxford Style Debate Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-level-tone-voice-adaptation-metaprompt": {
+    id: "metaprompting-multi-multi-level-tone-voice-adaptation-metaprompt",
+    name: "MultiLevelToneVoiceAdaptationMetapromptSkill",
+    displayName: "Multi Level Tone Voice Adaptation Metaprompt",
+    categoryId: "metaprompting",
+    description: "Generates system prompt modifiers adjusting output voice dynamically (e.g. empathetic, clinical, humorous).",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Tone Voice Adaptation Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Tone Voice Adaptation Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Level Tone Voice Adaptation Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Level Tone Voice Adaptation Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-code-generation-test-driven-metaprompt": {
+    id: "metaprompting-multi-multi-stage-code-generation-test-driven-metaprompt",
+    name: "MultiStageCodeGenerationTestDrivenMetapromptSkill",
+    displayName: "Multi Stage Code Generation Test Driven Metaprompt",
+    categoryId: "metaprompting",
+    description: "Structures prompts forcing the model to write unit tests first before writing implementation code.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Code Generation Test Driven Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Code Generation Test Driven Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Code Generation Test Driven Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Code Generation Test Driven Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-layer-rag-grounded-retrieval-metaprompt": {
+    id: "metaprompting-multi-multi-layer-rag-grounded-retrieval-metaprompt",
+    name: "MultiLayerRAGGroundedRetrievalMetapromptSkill",
+    displayName: "Multi Layer RAG Grounded Retrieval Metaprompt",
+    categoryId: "metaprompting",
+    description: "Embeds strict 'Answer ONLY based on retrieved context blocks' instructions into system prompts.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer RAG Grounded Retrieval Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer RAG Grounded Retrieval Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer RAG Grounded Retrieval Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer RAG Grounded Retrieval Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-perspective-board-of-directors-metaprompt": {
+    id: "metaprompting-multi-multi-perspective-board-of-directors-metaprompt",
+    name: "MultiPerspectiveBoardofDirectorsMetapromptSkill",
+    displayName: "Multi Perspective Board of Directors Metaprompt",
+    categoryId: "metaprompting",
+    description: "Generates prompts simulating a board meeting with CEO, CFO, CTO, and Legal Counsel personas.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Board of Directors Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Board of Directors Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Board of Directors Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Board of Directors Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-problem-deconstruction-task-decomposition-metaprompt": {
+    id: "metaprompting-multi-multi-stage-problem-deconstruction-task-decomposition-metaprompt",
+    name: "MultiStageProblemDeconstructionTaskDecompositionMetapromptSkill",
+    displayName: "Multi Stage Problem Deconstruction Task Decomposition Metaprompt",
+    categoryId: "metaprompting",
+    description: "Forces model to break complex goals into numbered sub-tasks with estimated completion steps.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Problem Deconstruction Task Decomposition Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Problem Deconstruction Task Decomposition Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Problem Deconstruction Task Decomposition Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Problem Deconstruction Task Decomposition Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-level-readability-grade-level-metaprompt": {
+    id: "metaprompting-multi-multi-level-readability-grade-level-metaprompt",
+    name: "MultiLevelReadabilityGradeLevelMetapromptSkill",
+    displayName: "Multi Level Readability Grade Level Metaprompt",
+    categoryId: "metaprompting",
+    description: "Adjusts system prompts to enforce specific Flesch-Kincaid reading grade levels in generated text.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Readability Grade Level Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Readability Grade Level Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Level Readability Grade Level Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Level Readability Grade Level Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-format-code-translation-syntax-metaprompt": {
+    id: "metaprompting-multi-multi-format-code-translation-syntax-metaprompt",
+    name: "MultiFormatCodeTranslationSyntaxMetapromptSkill",
+    displayName: "Multi Format Code Translation Syntax Metaprompt",
+    categoryId: "metaprompting",
+    description: "Structures system prompts for converting code from one programming language to another cleanly.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Code Translation Syntax Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Code Translation Syntax Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format Code Translation Syntax Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format Code Translation Syntax Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-layer-prompt-injection-adversarial-stress-tester": {
+    id: "metaprompting-multi-multi-layer-prompt-injection-adversarial-stress-tester",
+    name: "MultiLayerPromptInjectionAdversarialStressTesterSkill",
+    displayName: "Multi Layer Prompt Injection Adversarial Stress Tester",
+    categoryId: "metaprompting",
+    description: "Generates adversarial attack prompts to test the robustness of candidate system guardrails.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Prompt Injection Adversarial Stress Tester",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Prompt Injection Adversarial Stress Tester",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Prompt Injection Adversarial Stress Tester.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Prompt Injection Adversarial Stress Tester.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-recursive-summarization-metaprompt": {
+    id: "metaprompting-multi-multi-stage-recursive-summarization-metaprompt",
+    name: "MultiStageRecursiveSummarizationMetapromptSkill",
+    displayName: "Multi Stage Recursive Summarization Metaprompt",
+    categoryId: "metaprompting",
+    description: "Structures prompts that summarize text iteratively chunk-by-chunk into unified meta-summaries.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Recursive Summarization Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Recursive Summarization Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Recursive Summarization Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Recursive Summarization Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-perspective-red-team-blue-team-metaprompt": {
+    id: "metaprompting-multi-multi-perspective-red-team-blue-team-metaprompt",
+    name: "MultiPerspectiveRedTeamBlueTeamMetapromptSkill",
+    displayName: "Multi Perspective Red Team Blue Team Metaprompt",
+    categoryId: "metaprompting",
+    description: "Creates cybersecurity simulation prompts pairing offensive hacker and defensive SecOps personas.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Red Team Blue Team Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Red Team Blue Team Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Red Team Blue Team Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Red Team Blue Team Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-level-multi-turn-conversation-memory-metaprompt": {
+    id: "metaprompting-multi-multi-level-multi-turn-conversation-memory-metaprompt",
+    name: "MultiLevelMultiTurnConversationMemoryMetapromptSkill",
+    displayName: "Multi Level Multi-Turn Conversation Memory Metaprompt",
+    categoryId: "metaprompting",
+    description: "Structures context update prompts that maintain slot-filling state across long chat sessions.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Multi-Turn Conversation Memory Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Multi-Turn Conversation Memory Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Level Multi-Turn Conversation Memory Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Level Multi-Turn Conversation Memory Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-synthetic-data-generation-metaprompt": {
+    id: "metaprompting-multi-multi-stage-synthetic-data-generation-metaprompt",
+    name: "MultiStageSyntheticDataGenerationMetapromptSkill",
+    displayName: "Multi Stage Synthetic Data Generation Metaprompt",
+    categoryId: "metaprompting",
+    description: "Generates high-quality synthetic training dataset prompts with controlled diversity and distributions.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Synthetic Data Generation Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Synthetic Data Generation Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Synthetic Data Generation Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Synthetic Data Generation Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-layer-zero-shot-reasoning-calibration-metaprompt": {
+    id: "metaprompting-multi-multi-layer-zero-shot-reasoning-calibration-metaprompt",
+    name: "MultiLayerZeroShotReasoningCalibrationMetapromptSkill",
+    displayName: "Multi Layer Zero-Shot Reasoning Calibration Metaprompt",
+    categoryId: "metaprompting",
+    description: "Injects 'Let's think step by step and double-check all assumptions' directives into prompts.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Zero-Shot Reasoning Calibration Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Zero-Shot Reasoning Calibration Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Zero-Shot Reasoning Calibration Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Zero-Shot Reasoning Calibration Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-perspective-medical-tumor-board-metaprompt": {
+    id: "metaprompting-multi-multi-perspective-medical-tumor-board-metaprompt",
+    name: "MultiPerspectiveMedicalTumorBoardMetapromptSkill",
+    displayName: "Multi Perspective Medical Tumor Board Metaprompt",
+    categoryId: "metaprompting",
+    description: "Creates multi-specialty clinical case discussion prompts for oncology, radiology, and pathology.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Medical Tumor Board Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Medical Tumor Board Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Medical Tumor Board Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Medical Tumor Board Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-e-commerce-conversion-copywriting-metaprompt": {
+    id: "metaprompting-multi-multi-stage-e-commerce-conversion-copywriting-metaprompt",
+    name: "MultiStageECommerceConversionCopywritingMetapromptSkill",
+    displayName: "Multi Stage E-Commerce Conversion Copywriting Metaprompt",
+    categoryId: "metaprompting",
+    description: "Generates product description prompts applying AIDA (Attention, Interest, Desire, Action) frameworks.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage E-Commerce Conversion Copywriting Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage E-Commerce Conversion Copywriting Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage E-Commerce Conversion Copywriting Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage E-Commerce Conversion Copywriting Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-level-negative-constraint-list-metaprompt-builder": {
+    id: "metaprompting-multi-multi-level-negative-constraint-list-metaprompt-builder",
+    name: "MultiLevelNegativeConstraintListMetapromptBuilderSkill",
+    displayName: "Multi Level Negative Constraint List Metaprompt Builder",
+    categoryId: "metaprompting",
+    description: "Generates exhaustive lists of forbidden buzzwords, clichés, and formatting artifacts.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Negative Constraint List Metaprompt Builder",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Negative Constraint List Metaprompt Builder",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Level Negative Constraint List Metaprompt Builder.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Level Negative Constraint List Metaprompt Builder.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-format-diagramming-mermaid-plantuml-metaprompt": {
+    id: "metaprompting-multi-multi-format-diagramming-mermaid-plantuml-metaprompt",
+    name: "MultiFormatDiagrammingMermaidPlantUMLMetapromptSkill",
+    displayName: "Multi Format Diagramming Mermaid PlantUML Metaprompt",
+    categoryId: "metaprompting",
+    description: "Forces models to generate valid Mermaid.js or PlantUML code blocks for visual architecture diagrams.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Diagramming Mermaid PlantUML Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Diagramming Mermaid PlantUML Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format Diagramming Mermaid PlantUML Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format Diagramming Mermaid PlantUML Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-layer-ai-agent-tool-calling-schema-metaprompt": {
+    id: "metaprompting-multi-multi-layer-ai-agent-tool-calling-schema-metaprompt",
+    name: "MultiLayerAIAgentToolCallingSchemaMetapromptSkill",
+    displayName: "Multi Layer AI Agent Tool Calling Schema Metaprompt",
+    categoryId: "metaprompting",
+    description: "Formats JSON function signatures and tool choice constraints inside system prompts.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer AI Agent Tool Calling Schema Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer AI Agent Tool Calling Schema Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer AI Agent Tool Calling Schema Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer AI Agent Tool Calling Schema Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-academic-peer-reviewer-metaprompt": {
+    id: "metaprompting-multi-multi-stage-academic-peer-reviewer-metaprompt",
+    name: "MultiStageAcademicPeerReviewerMetapromptSkill",
+    displayName: "Multi Stage Academic Peer Reviewer Metaprompt",
+    categoryId: "metaprompting",
+    description: "Creates peer reviewer prompts evaluating methodology, novelty, statistical power, and clarity.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Academic Peer Reviewer Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Academic Peer Reviewer Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Academic Peer Reviewer Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Academic Peer Reviewer Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-perspective-socratic-mentorship-metaprompt": {
+    id: "metaprompting-multi-multi-perspective-socratic-mentorship-metaprompt",
+    name: "MultiPerspectiveSocraticMentorshipMetapromptSkill",
+    displayName: "Multi Perspective Socratic Mentorship Metaprompt",
+    categoryId: "metaprompting",
+    description: "Generates tutoring system prompts that ask guiding questions rather than revealing direct answers.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Socratic Mentorship Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Socratic Mentorship Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Socratic Mentorship Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Socratic Mentorship Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-level-multilingual-translation-quality-metaprompt": {
+    id: "metaprompting-multi-multi-level-multilingual-translation-quality-metaprompt",
+    name: "MultiLevelMultilingualTranslationQualityMetapromptSkill",
+    displayName: "Multi Level Multilingual Translation Quality Metaprompt",
+    categoryId: "metaprompting",
+    description: "Structures translation prompts preserving cultural nuances, idioms, and industry terminology.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Multilingual Translation Quality Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Multilingual Translation Quality Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Level Multilingual Translation Quality Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Level Multilingual Translation Quality Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-customer-support-de-escalation-metaprompt": {
+    id: "metaprompting-multi-multi-stage-customer-support-de-escalation-metaprompt",
+    name: "MultiStageCustomerSupportDeEscalationMetapromptSkill",
+    displayName: "Multi Stage Customer Support De-Escalation Metaprompt",
+    categoryId: "metaprompting",
+    description: "Generates support bot prompts trained in empathetic listening and policy conflict resolution.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Customer Support De-Escalation Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Customer Support De-Escalation Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Customer Support De-Escalation Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Customer Support De-Escalation Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-layer-legal-contract-audit-risk-metaprompt": {
+    id: "metaprompting-multi-multi-layer-legal-contract-audit-risk-metaprompt",
+    name: "MultiLayerLegalContractAuditRiskMetapromptSkill",
+    displayName: "Multi Layer Legal Contract Audit Risk Metaprompt",
+    categoryId: "metaprompting",
+    description: "Creates contract screening prompts highlighting indemnities, liability caps, and termination risks.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Legal Contract Audit Risk Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Legal Contract Audit Risk Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Legal Contract Audit Risk Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Legal Contract Audit Risk Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-perspective-game-dungeon-master-metaprompt": {
+    id: "metaprompting-multi-multi-perspective-game-dungeon-master-metaprompt",
+    name: "MultiPerspectiveGameDungeonMasterMetapromptSkill",
+    displayName: "Multi Perspective Game Dungeon Master Metaprompt",
+    categoryId: "metaprompting",
+    description: "Generates TTRPG Dungeon Master prompts managing world rules, NPC voices, and player choices.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Game Dungeon Master Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Game Dungeon Master Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Game Dungeon Master Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Game Dungeon Master Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-pitch-deck-storyboard-metaprompt": {
+    id: "metaprompting-multi-multi-stage-pitch-deck-storyboard-metaprompt",
+    name: "MultiStagePitchDeckStoryboardMetapromptSkill",
+    displayName: "Multi Stage Pitch Deck Storyboard Metaprompt",
+    categoryId: "metaprompting",
+    description: "Creates startup pitch deck generation prompts following investor-approved 10-slide structures.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Pitch Deck Storyboard Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Pitch Deck Storyboard Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Pitch Deck Storyboard Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Pitch Deck Storyboard Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-level-creative-writing-worldbuilding-metaprompt": {
+    id: "metaprompting-multi-multi-level-creative-writing-worldbuilding-metaprompt",
+    name: "MultiLevelCreativeWritingWorldbuildingMetapromptSkill",
+    displayName: "Multi Level Creative Writing Worldbuilding Metaprompt",
+    categoryId: "metaprompting",
+    description: "Structures fiction prompt generators establishing magic rules, geography, and history.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Creative Writing Worldbuilding Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Creative Writing Worldbuilding Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Level Creative Writing Worldbuilding Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Level Creative Writing Worldbuilding Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-format-api-specification-openapi-metaprompt": {
+    id: "metaprompting-multi-multi-format-api-specification-openapi-metaprompt",
+    name: "MultiFormatAPISpecificationOpenAPIMetapromptSkill",
+    displayName: "Multi Format API Specification OpenAPI Metaprompt",
+    categoryId: "metaprompting",
+    description: "Forces models to output valid OpenAPI 3.0 YAML or JSON specs with request/response schemas.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format API Specification OpenAPI Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Format API Specification OpenAPI Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format API Specification OpenAPI Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format API Specification OpenAPI Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-layer-reflection-self-critique-metaprompt": {
+    id: "metaprompting-multi-multi-layer-reflection-self-critique-metaprompt",
+    name: "MultiLayerReflectionSelfCritiqueMetapromptSkill",
+    displayName: "Multi Layer Reflection Self Critique Metaprompt",
+    categoryId: "metaprompting",
+    description: "Structures prompts where the model generates output, critiques it, and returns the revised version.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Reflection Self Critique Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Reflection Self Critique Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Reflection Self Critique Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Reflection Self Critique Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-job-description-ats-keyword-metaprompt": {
+    id: "metaprompting-multi-multi-stage-job-description-ats-keyword-metaprompt",
+    name: "MultiStageJobDescriptionATSKeywordMetapromptSkill",
+    displayName: "Multi Stage Job Description ATS Keyword Metaprompt",
+    categoryId: "metaprompting",
+    description: "Generates resume optimization prompts tailored to target job descriptions and ATS filters.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Job Description ATS Keyword Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Job Description ATS Keyword Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Job Description ATS Keyword Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Job Description ATS Keyword Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-perspective-tripartite-negotiation-metaprompt": {
+    id: "metaprompting-multi-multi-perspective-tripartite-negotiation-metaprompt",
+    name: "MultiPerspectiveTripartiteNegotiationMetapromptSkill",
+    displayName: "Multi Perspective Tripartite Negotiation Metaprompt",
+    categoryId: "metaprompting",
+    description: "Creates 3-party negotiation simulation prompts setting distinct reservation prices and BATNAs.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Tripartite Negotiation Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Tripartite Negotiation Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Tripartite Negotiation Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Tripartite Negotiation Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-level-executive-memo-summary-metaprompt": {
+    id: "metaprompting-multi-multi-level-executive-memo-summary-metaprompt",
+    name: "MultiLevelExecutiveMemoSummaryMetapromptSkill",
+    displayName: "Multi Level Executive Memo Summary Metaprompt",
+    categoryId: "metaprompting",
+    description: "Structures executive briefing prompts outputting key takeaways, financial impact, and decisions.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Executive Memo Summary Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Executive Memo Summary Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Level Executive Memo Summary Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Level Executive Memo Summary Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-scientific-hypothesis-formulation-metaprompt": {
+    id: "metaprompting-multi-multi-stage-scientific-hypothesis-formulation-metaprompt",
+    name: "MultiStageScientificHypothesisFormulationMetapromptSkill",
+    displayName: "Multi Stage Scientific Hypothesis Formulation Metaprompt",
+    categoryId: "metaprompting",
+    description: "Creates research prompts formulating testable hypotheses, variables, and experiment controls.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Scientific Hypothesis Formulation Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Scientific Hypothesis Formulation Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Scientific Hypothesis Formulation Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Scientific Hypothesis Formulation Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-layer-prompt-version-control-metadata-compiler": {
+    id: "metaprompting-multi-multi-layer-prompt-version-control-metadata-compiler",
+    name: "MultiLayerPromptVersionControlMetadataCompilerSkill",
+    displayName: "Multi Layer Prompt Version Control Metadata Compiler",
+    categoryId: "metaprompting",
+    description: "Injects author, version tag, creation timestamp, and evaluation hash metadata into prompts.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Prompt Version Control Metadata Compiler",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Prompt Version Control Metadata Compiler",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Prompt Version Control Metadata Compiler.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Prompt Version Control Metadata Compiler.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-perspective-financial-earnings-call-parser-metaprompt": {
+    id: "metaprompting-multi-multi-perspective-financial-earnings-call-parser-metaprompt",
+    name: "MultiPerspectiveFinancialEarningsCallParserMetapromptSkill",
+    displayName: "Multi Perspective Financial Earnings Call Parser Metaprompt",
+    categoryId: "metaprompting",
+    description: "Creates financial analysis prompts extracting revenue guidance, margin trends, and risk factors.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Financial Earnings Call Parser Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Financial Earnings Call Parser Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Financial Earnings Call Parser Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Financial Earnings Call Parser Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-stage-interactive-quiz-question-generator-metaprompt": {
+    id: "metaprompting-multi-multi-stage-interactive-quiz-question-generator-metaprompt",
+    name: "MultiStageInteractiveQuizQuestionGeneratorMetapromptSkill",
+    displayName: "Multi Stage Interactive Quiz Question Generator Metaprompt",
+    categoryId: "metaprompting",
+    description: "Structures prompts that generate multiple-choice quiz items with distractor rationale explanations.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Interactive Quiz Question Generator Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Interactive Quiz Question Generator Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Interactive Quiz Question Generator Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Interactive Quiz Question Generator Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-level-accessibility-alt-text-description-metaprompt": {
+    id: "metaprompting-multi-multi-level-accessibility-alt-text-description-metaprompt",
+    name: "MultiLevelAccessibilityAltTextDescriptionMetapromptSkill",
+    displayName: "Multi Level Accessibility Alt Text Description Metaprompt",
+    categoryId: "metaprompting",
+    description: "Generates accessibility prompts forcing detailed, screen-reader friendly image descriptions.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Accessibility Alt Text Description Metaprompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Accessibility Alt Text Description Metaprompt",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Level Accessibility Alt Text Description Metaprompt.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Level Accessibility Alt Text Description Metaprompt.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
+
+  "metaprompting-multi-multi-horizon-master-metaprompting-architecture-engine": {
+    id: "metaprompting-multi-multi-horizon-master-metaprompting-architecture-engine",
+    name: "MultiHorizonMasterMetapromptingArchitectureEngineSkill",
+    displayName: "Multi Horizon Master Metaprompting Architecture Engine",
+    categoryId: "metaprompting",
+    description: "Enforces master metaprompt compilation, prompt optimization, self-reflection, and LLM orchestration.",
+    tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Metaprompting Architecture Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Metaprompting Architecture Engine",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Horizon Master Metaprompting Architecture Engine.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Horizon Master Metaprompting Architecture Engine.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","multi-skill","metaprompting-multi"],
+    }),
+  },
 };
 

@@ -4276,4 +4276,1503 @@ sectionName: 'Peer Review Author Rebuttal Architecture',
       tags: ["research","research-final","final","master"],
     }),
   },
+  "research-multi-multi-method-systematic-literature-review-prisma-workflow": {
+    id: "research-multi-multi-method-systematic-literature-review-prisma-workflow",
+    name: "MultiMethodSystematicLiteratureReviewPRISMAWorkflowSkill",
+    displayName: "Multi Method Systematic Literature Review PRISMA Workflow",
+    categoryId: "research",
+    description: "Executes systematic literature searching, PRISMA screening, bias risk scoring, and synthesis.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Systematic Literature Review PRISMA Workflow",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Systematic Literature Review PRISMA Workflow",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Method Systematic Literature Review PRISMA Workflow.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Method Systematic Literature Review PRISMA Workflow.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-perspective-qualitative-grounded-theory-coding": {
+    id: "research-multi-multi-perspective-qualitative-grounded-theory-coding",
+    name: "MultiPerspectiveQualitativeGroundedTheoryCodingSkill",
+    displayName: "Multi Perspective Qualitative Grounded Theory Coding",
+    categoryId: "research",
+    description: "Applies open, axial, and selective coding to qualitative interview transcripts.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Qualitative Grounded Theory Coding",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Qualitative Grounded Theory Coding",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Qualitative Grounded Theory Coding.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Qualitative Grounded Theory Coding.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-factor-statistical-power-calculation-g-power-sizing": {
+    id: "research-multi-multi-factor-statistical-power-calculation-g-power-sizing",
+    name: "MultiFactorStatisticalPowerCalculationGPowerSizingSkill",
+    displayName: "Multi Factor Statistical Power Calculation G Power Sizing",
+    categoryId: "research",
+    description: "Calculates statistical power, effect sizes (Cohen's d/f), and required sample sizes.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Statistical Power Calculation G Power Sizing",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Statistical Power Calculation G Power Sizing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Factor Statistical Power Calculation G Power Sizing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Factor Statistical Power Calculation G Power Sizing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-meta-analysis-forest-plot-effect-size-estimation": {
+    id: "research-multi-multi-layer-meta-analysis-forest-plot-effect-size-estimation",
+    name: "MultiLayerMetaAnalysisForestPlotEffectSizeEstimationSkill",
+    displayName: "Multi Layer Meta Analysis Forest Plot Effect Size Estimation",
+    categoryId: "research",
+    description: "Synthesizes effect sizes across study cohorts using random-effects meta-analysis models.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Meta Analysis Forest Plot Effect Size Estimation",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Meta Analysis Forest Plot Effect Size Estimation",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Meta Analysis Forest Plot Effect Size Estimation.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Meta Analysis Forest Plot Effect Size Estimation.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-phase-institutional-review-board-irb-ethics-protocol": {
+    id: "research-multi-multi-phase-institutional-review-board-irb-ethics-protocol",
+    name: "MultiPhaseInstitutionalReviewBoardIRBEthicsProtocolSkill",
+    displayName: "Multi Phase Institutional Review Board IRB Ethics Protocol",
+    categoryId: "research",
+    description: "Drafts human subject IRB ethics applications, informed consent forms, and risk mitigations.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Phase Institutional Review Board IRB Ethics Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Phase Institutional Review Board IRB Ethics Protocol",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Phase Institutional Review Board IRB Ethics Protocol.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Phase Institutional Review Board IRB Ethics Protocol.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-method-ethnographic-participant-observation-field-notes": {
+    id: "research-multi-multi-method-ethnographic-participant-observation-field-notes",
+    name: "MultiMethodEthnographicParticipantObservationFieldNotesSkill",
+    displayName: "Multi Method Ethnographic Participant Observation Field Notes",
+    categoryId: "research",
+    description: "Conducts multi-site ethnographic observation, thick description field logging, and triangulations.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Ethnographic Participant Observation Field Notes",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Ethnographic Participant Observation Field Notes",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Method Ethnographic Participant Observation Field Notes.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Method Ethnographic Participant Observation Field Notes.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-bayesian-meta-regression-model-synthesis": {
+    id: "research-multi-multi-layer-bayesian-meta-regression-model-synthesis",
+    name: "MultiLayerBayesianMetaRegressionModelSynthesisSkill",
+    displayName: "Multi Layer Bayesian Meta Regression Model Synthesis",
+    categoryId: "research",
+    description: "Runs Bayesian meta-regression modeling study heterogeneity and moderating variables.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Bayesian Meta Regression Model Synthesis",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Bayesian Meta Regression Model Synthesis",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Bayesian Meta Regression Model Synthesis.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Bayesian Meta Regression Model Synthesis.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-factor-inter-rater-reliability-cohen-kappa-verification": {
+    id: "research-multi-multi-factor-inter-rater-reliability-cohen-kappa-verification",
+    name: "MultiFactorInterRaterReliabilityCohenKappaVerificationSkill",
+    displayName: "Multi Factor Inter Rater Reliability Cohen Kappa Verification",
+    categoryId: "research",
+    description: "Calculates Cohen's Kappa and Fleiss' Kappa measuring inter-coder reliability agreements.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Inter Rater Reliability Cohen Kappa Verification",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Inter Rater Reliability Cohen Kappa Verification",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Factor Inter Rater Reliability Cohen Kappa Verification.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Factor Inter Rater Reliability Cohen Kappa Verification.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-source-historical-archival-primary-source-triangulation": {
+    id: "research-multi-multi-source-historical-archival-primary-source-triangulation",
+    name: "MultiSourceHistoricalArchivalPrimarySourceTriangulationSkill",
+    displayName: "Multi Source Historical Archival Primary Source Triangulation",
+    categoryId: "research",
+    description: "Triangulates archival manuscripts, government records, and diary entries for historical research.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Historical Archival Primary Source Triangulation",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Historical Archival Primary Source Triangulation",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Source Historical Archival Primary Source Triangulation.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Source Historical Archival Primary Source Triangulation.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-econometric-instrumental-variables-iv-regression": {
+    id: "research-multi-multi-stage-econometric-instrumental-variables-iv-regression",
+    name: "MultiStageEconometricInstrumentalVariablesIVRegressionSkill",
+    displayName: "Multi Stage Econometric Instrumental Variables IV Regression",
+    categoryId: "research",
+    description: "Addresses endogeneity using two-stage least squares (2SLS) instrumental variable regression.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Econometric Instrumental Variables IV Regression",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Econometric Instrumental Variables IV Regression",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Econometric Instrumental Variables IV Regression.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Econometric Instrumental Variables IV Regression.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-horizon-longitudinal-cohort-follow-up-study-design": {
+    id: "research-multi-multi-horizon-longitudinal-cohort-follow-up-study-design",
+    name: "MultiHorizonLongitudinalCohortFollowUpStudyDesignSkill",
+    displayName: "Multi Horizon Longitudinal Cohort Follow Up Study Design",
+    categoryId: "research",
+    description: "Designs prospective cohort studies tracking exposure variables and disease incidence over time.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Longitudinal Cohort Follow Up Study Design",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Longitudinal Cohort Follow Up Study Design",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Horizon Longitudinal Cohort Follow Up Study Design.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Horizon Longitudinal Cohort Follow Up Study Design.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-perspective-focus-group-moderation-transcript-coding": {
+    id: "research-multi-multi-perspective-focus-group-moderation-transcript-coding",
+    name: "MultiPerspectiveFocusGroupModerationTranscriptCodingSkill",
+    displayName: "Multi Perspective Focus Group Moderation Transcript Coding",
+    categoryId: "research",
+    description: "Moderates group focus discussions, analyzing non-verbal cues and consensus dynamics.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Focus Group Moderation Transcript Coding",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Focus Group Moderation Transcript Coding",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Focus Group Moderation Transcript Coding.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Focus Group Moderation Transcript Coding.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-factor-experimental-factorial-anova-interaction-design": {
+    id: "research-multi-multi-factor-experimental-factorial-anova-interaction-design",
+    name: "MultiFactorExperimentalFactorialANOVAInteractionDesignSkill",
+    displayName: "Multi Factor Experimental Factorial ANOVA Interaction Design",
+    categoryId: "research",
+    description: "Designs multi-factor experimental trials evaluating main effects and interaction terms.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Experimental Factorial ANOVA Interaction Design",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Experimental Factorial ANOVA Interaction Design",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Factor Experimental Factorial ANOVA Interaction Design.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Factor Experimental Factorial ANOVA Interaction Design.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-pre-registration-osf-open-science-protocol": {
+    id: "research-multi-multi-stage-pre-registration-osf-open-science-protocol",
+    name: "MultiStagePreRegistrationOSFOpenScienceProtocolSkill",
+    displayName: "Multi Stage Pre Registration OSF Open Science Protocol",
+    categoryId: "research",
+    description: "Drafts pre-registered study protocols detailing hypotheses, power analyses, and statistical plans.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Pre Registration OSF Open Science Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Pre Registration OSF Open Science Protocol",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Pre Registration OSF Open Science Protocol.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Pre Registration OSF Open Science Protocol.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-method-quantitative-content-analysis-frequency-mapping": {
+    id: "research-multi-multi-method-quantitative-content-analysis-frequency-mapping",
+    name: "MultiMethodQuantitativeContentAnalysisFrequencyMappingSkill",
+    displayName: "Multi Method Quantitative Content Analysis Frequency Mapping",
+    categoryId: "research",
+    description: "Codes textual corpora measuring word frequencies, co-occurrences, and frame emphasis.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Quantitative Content Analysis Frequency Mapping",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Quantitative Content Analysis Frequency Mapping",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Method Quantitative Content Analysis Frequency Mapping.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Method Quantitative Content Analysis Frequency Mapping.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-quasi-experimental-difference-in-differences-did": {
+    id: "research-multi-multi-stage-quasi-experimental-difference-in-differences-did",
+    name: "MultiStageQuasiExperimentalDifferenceinDifferencesDiDSkill",
+    displayName: "Multi Stage Quasi Experimental Difference in Differences DiD",
+    categoryId: "research",
+    description: "Evaluates policy interventions using difference-in-differences parallel trend assumptions.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Quasi Experimental Difference in Differences DiD",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Quasi Experimental Difference in Differences DiD",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Quasi Experimental Difference in Differences DiD.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Quasi Experimental Difference in Differences DiD.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-perspective-academic-peer-review-editorial-critique-memo": {
+    id: "research-multi-multi-perspective-academic-peer-review-editorial-critique-memo",
+    name: "MultiPerspectiveAcademicPeerReviewEditorialCritiqueMemoSkill",
+    displayName: "Multi Perspective Academic Peer Review Editorial Critique Memo",
+    categoryId: "research",
+    description: "Drafts thorough peer review reports evaluating methodology, novelty, and statistical rigor.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Academic Peer Review Editorial Critique Memo",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Academic Peer Review Editorial Critique Memo",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Academic Peer Review Editorial Critique Memo.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Academic Peer Review Editorial Critique Memo.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-computational-linguistics-dependency-tree-parsing": {
+    id: "research-multi-multi-stage-computational-linguistics-dependency-tree-parsing",
+    name: "MultiStageComputationalLinguisticsDependencyTreeParsingSkill",
+    displayName: "Multi Stage Computational Linguistics Dependency Tree Parsing",
+    categoryId: "research",
+    description: "Annotates syntactic dependency relationships and Universal Dependencies POS tags.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Computational Linguistics Dependency Tree Parsing",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Computational Linguistics Dependency Tree Parsing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Computational Linguistics Dependency Tree Parsing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Computational Linguistics Dependency Tree Parsing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-quantum-chemistry-density-functional-theory-dft": {
+    id: "research-multi-multi-layer-quantum-chemistry-density-functional-theory-dft",
+    name: "MultiLayerQuantumChemistryDensityFunctionalTheoryDFTSkill",
+    displayName: "Multi Layer Quantum Chemistry Density Functional Theory DFT",
+    categoryId: "research",
+    description: "Models molecular electronic structures, bond lengths, and reaction barriers using DFT.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Quantum Chemistry Density Functional Theory DFT",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Quantum Chemistry Density Functional Theory DFT",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Quantum Chemistry Density Functional Theory DFT.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Quantum Chemistry Density Functional Theory DFT.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-ecological-niche-modeling-species-distribution": {
+    id: "research-multi-multi-stage-ecological-niche-modeling-species-distribution",
+    name: "MultiStageEcologicalNicheModelingSpeciesDistributionSkill",
+    displayName: "Multi Stage Ecological Niche Modeling Species Distribution",
+    categoryId: "research",
+    description: "Predicts climate-driven biodiversity distribution shifts using Maxent niche models.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Ecological Niche Modeling Species Distribution",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Ecological Niche Modeling Species Distribution",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Ecological Niche Modeling Species Distribution.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Ecological Niche Modeling Species Distribution.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-single-cell-rna-sequencing-trajectory-pseudotime": {
+    id: "research-multi-multi-layer-single-cell-rna-sequencing-trajectory-pseudotime",
+    name: "MultiLayerSingleCellRNASequencingTrajectoryPseudotimeSkill",
+    displayName: "Multi Layer Single Cell RNA Sequencing Trajectory Pseudotime",
+    categoryId: "research",
+    description: "Infers cell differentiation lineages and developmental pseudotime from scRNA-seq counts.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Single Cell RNA Sequencing Trajectory Pseudotime",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Single Cell RNA Sequencing Trajectory Pseudotime",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Single Cell RNA Sequencing Trajectory Pseudotime.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Single Cell RNA Sequencing Trajectory Pseudotime.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-source-historical-epigraphy-paleography-transcription": {
+    id: "research-multi-multi-source-historical-epigraphy-paleography-transcription",
+    name: "MultiSourceHistoricalEpigraphyPaleographyTranscriptionSkill",
+    displayName: "Multi Source Historical Epigraphy Paleography Transcription",
+    categoryId: "research",
+    description: "Transcribes, translates, and dates ancient epigraphic inscriptions on stone/manuscripts.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Historical Epigraphy Paleography Transcription",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Historical Epigraphy Paleography Transcription",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Source Historical Epigraphy Paleography Transcription.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Source Historical Epigraphy Paleography Transcription.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-behavioral-economics-randomized-field-experiment": {
+    id: "research-multi-multi-stage-behavioral-economics-randomized-field-experiment",
+    name: "MultiStageBehavioralEconomicsRandomizedFieldExperimentSkill",
+    displayName: "Multi Stage Behavioral Economics Randomized Field Experiment",
+    categoryId: "research",
+    description: "Designs natural field experiments testing behavioral nudges and financial incentives.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Behavioral Economics Randomized Field Experiment",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Behavioral Economics Randomized Field Experiment",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Behavioral Economics Randomized Field Experiment.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Behavioral Economics Randomized Field Experiment.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-spatial-econometrics-geographically-weighted-regression": {
+    id: "research-multi-multi-layer-spatial-econometrics-geographically-weighted-regression",
+    name: "MultiLayerSpatialEconometricsGeographicallyWeightedRegressionSkill",
+    displayName: "Multi Layer Spatial Econometrics Geographically Weighted Regression",
+    categoryId: "research",
+    description: "Models spatial autocorrelation and regional heterogeneity in economic spatial data.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Spatial Econometrics Geographically Weighted Regression",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Spatial Econometrics Geographically Weighted Regression",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Spatial Econometrics Geographically Weighted Regression.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Spatial Econometrics Geographically Weighted Regression.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-climate-model-intercomparison-cmip-downscaling": {
+    id: "research-multi-multi-stage-climate-model-intercomparison-cmip-downscaling",
+    name: "MultiStageClimateModelIntercomparisonCMIPDownscalingSkill",
+    displayName: "Multi Stage Climate Model Intercomparison CMIP Downscaling",
+    categoryId: "research",
+    description: "Downscales global CMIP6 climate model projections to local hydrological catchments.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Climate Model Intercomparison CMIP Downscaling",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Climate Model Intercomparison CMIP Downscaling",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Climate Model Intercomparison CMIP Downscaling.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Climate Model Intercomparison CMIP Downscaling.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-neuroimaging-fmri-event-related-bold-analysis": {
+    id: "research-multi-multi-layer-neuroimaging-fmri-event-related-bold-analysis",
+    name: "MultiLayerNeuroimagingfMRIEventRelatedBOLDAnalysisSkill",
+    displayName: "Multi Layer Neuroimaging fMRI Event Related BOLD Analysis",
+    categoryId: "research",
+    description: "Processes functional MRI BOLD signals using general linear models and spatial smoothing.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Neuroimaging fMRI Event Related BOLD Analysis",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Neuroimaging fMRI Event Related BOLD Analysis",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Neuroimaging fMRI Event Related BOLD Analysis.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Neuroimaging fMRI Event Related BOLD Analysis.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-high-energy-physics-particle-collider-monte-carlo": {
+    id: "research-multi-multi-stage-high-energy-physics-particle-collider-monte-carlo",
+    name: "MultiStageHighEnergyPhysicsParticleColliderMonteCarloSkill",
+    displayName: "Multi Stage High Energy Physics Particle Collider Monte Carlo",
+    categoryId: "research",
+    description: "Simulates particle collision events and detector responses for LHC experimental data.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage High Energy Physics Particle Collider Monte Carlo",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage High Energy Physics Particle Collider Monte Carlo",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage High Energy Physics Particle Collider Monte Carlo.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage High Energy Physics Particle Collider Monte Carlo.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-structural-equation-modeling-sem-confirmatory-factor": {
+    id: "research-multi-multi-layer-structural-equation-modeling-sem-confirmatory-factor",
+    name: "MultiLayerStructuralEquationModelingSEMConfirmatoryFactorSkill",
+    displayName: "Multi Layer Structural Equation Modeling SEM Confirmatory Factor",
+    categoryId: "research",
+    description: "Validates latent variable measurement models using covariance structure analysis.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Structural Equation Modeling SEM Confirmatory Factor",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Structural Equation Modeling SEM Confirmatory Factor",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Structural Equation Modeling SEM Confirmatory Factor.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Structural Equation Modeling SEM Confirmatory Factor.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-source-materials-science-high-throughput-crystal-screening": {
+    id: "research-multi-multi-source-materials-science-high-throughput-crystal-screening",
+    name: "MultiSourceMaterialsScienceHighThroughputCrystalScreeningSkill",
+    displayName: "Multi Source Materials Science High Throughput Crystal Screening",
+    categoryId: "research",
+    description: "Screens inorganic crystal structures for thermoelectric/superconducting properties.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Materials Science High Throughput Crystal Screening",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Materials Science High Throughput Crystal Screening",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Source Materials Science High Throughput Crystal Screening.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Source Materials Science High Throughput Crystal Screening.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-urban-spatial-morphology-network-accessibility": {
+    id: "research-multi-multi-layer-urban-spatial-morphology-network-accessibility",
+    name: "MultiLayerUrbanSpatialMorphologyNetworkAccessibilitySkill",
+    displayName: "Multi Layer Urban Spatial Morphology Network Accessibility",
+    categoryId: "research",
+    description: "Calculates spatial graph centrality, walkability, and pedestrian movement catchments.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Urban Spatial Morphology Network Accessibility",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Urban Spatial Morphology Network Accessibility",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Urban Spatial Morphology Network Accessibility.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Urban Spatial Morphology Network Accessibility.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-demography-life-table-mortality-rate-projection": {
+    id: "research-multi-multi-stage-demography-life-table-mortality-rate-projection",
+    name: "MultiStageDemographyLifeTableMortalityRateProjectionSkill",
+    displayName: "Multi Stage Demography Life Table Mortality Rate Projection",
+    categoryId: "research",
+    description: "Models population cohort mortality dynamics using Lee-Carter demographic forecasting.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Demography Life Table Mortality Rate Projection",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Demography Life Table Mortality Rate Projection",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Demography Life Table Mortality Rate Projection.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Demography Life Table Mortality Rate Projection.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-perspective-comparative-historical-sociology-process-tracing": {
+    id: "research-multi-multi-perspective-comparative-historical-sociology-process-tracing",
+    name: "MultiPerspectiveComparativeHistoricalSociologyProcessTracingSkill",
+    displayName: "Multi Perspective Comparative Historical Sociology Process Tracing",
+    categoryId: "research",
+    description: "Tests causal mechanisms in historical state-building using rigorous process tracing.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Comparative Historical Sociology Process Tracing",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Comparative Historical Sociology Process Tracing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Comparative Historical Sociology Process Tracing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Comparative Historical Sociology Process Tracing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-genomics-wide-association-study-gwas-polygenic-risk": {
+    id: "research-multi-multi-stage-genomics-wide-association-study-gwas-polygenic-risk",
+    name: "MultiStageGenomicsWideAssociationStudyGWASPolygenicRiskSkill",
+    displayName: "Multi Stage Genomics Wide Association Study GWAS Polygenic Risk",
+    categoryId: "research",
+    description: "Calculates polygenic risk scores from population-scale GWAS summary statistics.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Genomics Wide Association Study GWAS Polygenic Risk",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Genomics Wide Association Study GWAS Polygenic Risk",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Genomics Wide Association Study GWAS Polygenic Risk.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Genomics Wide Association Study GWAS Polygenic Risk.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-cognitive-psychology-eye-tracking-fixation-analysis": {
+    id: "research-multi-multi-layer-cognitive-psychology-eye-tracking-fixation-analysis",
+    name: "MultiLayerCognitivePsychologyEyeTrackingFixationAnalysisSkill",
+    displayName: "Multi Layer Cognitive Psychology Eye Tracking Fixation Analysis",
+    categoryId: "research",
+    description: "Analyzes visual fixation duration, saccade trajectories, and pupillometry during tasks.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Cognitive Psychology Eye Tracking Fixation Analysis",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Cognitive Psychology Eye Tracking Fixation Analysis",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Cognitive Psychology Eye Tracking Fixation Analysis.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Cognitive Psychology Eye Tracking Fixation Analysis.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-source-archaeological-radiometric-carbon-dating-calibration": {
+    id: "research-multi-multi-source-archaeological-radiometric-carbon-dating-calibration",
+    name: "MultiSourceArchaeologicalRadiometricCarbonDatingCalibrationSkill",
+    displayName: "Multi Source Archaeological Radiometric Carbon Dating Calibration",
+    categoryId: "research",
+    description: "Calibrates C14 isotope ratios against tree-ring dendrochronology calibration curves.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Archaeological Radiometric Carbon Dating Calibration",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Archaeological Radiometric Carbon Dating Calibration",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Source Archaeological Radiometric Carbon Dating Calibration.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Source Archaeological Radiometric Carbon Dating Calibration.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-nanotechnology-scanning-tunneling-microscopy-analysis": {
+    id: "research-multi-multi-stage-nanotechnology-scanning-tunneling-microscopy-analysis",
+    name: "MultiStageNanotechnologyScanningTunnelingMicroscopyAnalysisSkill",
+    displayName: "Multi Stage Nanotechnology Scanning Tunneling Microscopy Analysis",
+    categoryId: "research",
+    description: "Processes STM/AFM atomic surface topography images measuring step heights.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Nanotechnology Scanning Tunneling Microscopy Analysis",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Nanotechnology Scanning Tunneling Microscopy Analysis",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Nanotechnology Scanning Tunneling Microscopy Analysis.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Nanotechnology Scanning Tunneling Microscopy Analysis.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-marine-benthic-ecosystem-biodiversity-sampling": {
+    id: "research-multi-multi-layer-marine-benthic-ecosystem-biodiversity-sampling",
+    name: "MultiLayerMarineBenthicEcosystemBiodiversitySamplingSkill",
+    displayName: "Multi Layer Marine Benthic Ecosystem Biodiversity Sampling",
+    categoryId: "research",
+    description: "Calculates Shannon-Wiener diversity indices and species richness in marine benthos.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Marine Benthic Ecosystem Biodiversity Sampling",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Marine Benthic Ecosystem Biodiversity Sampling",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Marine Benthic Ecosystem Biodiversity Sampling.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Marine Benthic Ecosystem Biodiversity Sampling.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-source-paleoclimatology-ice-core-isotope-temperature-reconstruction": {
+    id: "research-multi-multi-source-paleoclimatology-ice-core-isotope-temperature-reconstruction",
+    name: "MultiSourcePaleoclimatologyIceCoreIsotopeTemperatureReconstructionSkill",
+    displayName: "Multi Source Paleoclimatology Ice Core Isotope Temperature Reconstruction",
+    categoryId: "research",
+    description: "Reconstructs paleoclimate temperatures from oxygen-18 isotope ratios in ice cores.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Paleoclimatology Ice Core Isotope Temperature Reconstruction",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Paleoclimatology Ice Core Isotope Temperature Reconstruction",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Source Paleoclimatology Ice Core Isotope Temperature Reconstruction.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Source Paleoclimatology Ice Core Isotope Temperature Reconstruction.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-astrophysics-exoplanet-transit-lightcurve-photometry": {
+    id: "research-multi-multi-stage-astrophysics-exoplanet-transit-lightcurve-photometry",
+    name: "MultiStageAstrophysicsExoplanetTransitLightcurvePhotometrySkill",
+    displayName: "Multi Stage Astrophysics Exoplanet Transit Lightcurve Photometry",
+    categoryId: "research",
+    description: "Models exoplanet radius and orbital inclination from Kepler/TESS starlight dimming.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Astrophysics Exoplanet Transit Lightcurve Photometry",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Astrophysics Exoplanet Transit Lightcurve Photometry",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Astrophysics Exoplanet Transit Lightcurve Photometry.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Astrophysics Exoplanet Transit Lightcurve Photometry.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-behavioral-pharmacology-conditioned-place-preference": {
+    id: "research-multi-multi-layer-behavioral-pharmacology-conditioned-place-preference",
+    name: "MultiLayerBehavioralPharmacologyConditionedPlacePreferenceSkill",
+    displayName: "Multi Layer Behavioral Pharmacology Conditioned Place Preference",
+    categoryId: "research",
+    description: "Evaluates drug reward properties and addiction susceptibility in animal model trials.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Behavioral Pharmacology Conditioned Place Preference",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Behavioral Pharmacology Conditioned Place Preference",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Behavioral Pharmacology Conditioned Place Preference.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Behavioral Pharmacology Conditioned Place Preference.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-source-agricultural-crop-phenotyping-drone-hyperspectral": {
+    id: "research-multi-multi-source-agricultural-crop-phenotyping-drone-hyperspectral",
+    name: "MultiSourceAgriculturalCropPhenotypingDroneHyperspectralSkill",
+    displayName: "Multi Source Agricultural Crop Phenotyping Drone Hyperspectral",
+    categoryId: "research",
+    description: "Extracts NDVI vegetation indices and canopy water stress from multispectral drone imagery.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Agricultural Crop Phenotyping Drone Hyperspectral",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Agricultural Crop Phenotyping Drone Hyperspectral",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Source Agricultural Crop Phenotyping Drone Hyperspectral.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Source Agricultural Crop Phenotyping Drone Hyperspectral.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-volcanology-seismic-tremor-eruption-forecasting": {
+    id: "research-multi-multi-stage-volcanology-seismic-tremor-eruption-forecasting",
+    name: "MultiStageVolcanologySeismicTremorEruptionForecastingSkill",
+    displayName: "Multi Stage Volcanology Seismic Tremor Eruption Forecasting",
+    categoryId: "research",
+    description: "Analyzes volcanic harmonic tremors, gas emissions, and ground deformation.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Volcanology Seismic Tremor Eruption Forecasting",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Volcanology Seismic Tremor Eruption Forecasting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Volcanology Seismic Tremor Eruption Forecasting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Volcanology Seismic Tremor Eruption Forecasting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-cognitive-neuroscience-eeg-event-related-potential-erp": {
+    id: "research-multi-multi-layer-cognitive-neuroscience-eeg-event-related-potential-erp",
+    name: "MultiLayerCognitiveNeuroscienceEEGEventRelatedPotentialERPSkill",
+    displayName: "Multi Layer Cognitive Neuroscience EEG Event Related Potential ERP",
+    categoryId: "research",
+    description: "Extracts P300 and N400 ERP brainwave components during cognitive stimulus tasks.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Cognitive Neuroscience EEG Event Related Potential ERP",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Cognitive Neuroscience EEG Event Related Potential ERP",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Cognitive Neuroscience EEG Event Related Potential ERP.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Cognitive Neuroscience EEG Event Related Potential ERP.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-source-cell-biology-immunofluorescence-microscopy-colocalization": {
+    id: "research-multi-multi-source-cell-biology-immunofluorescence-microscopy-colocalization",
+    name: "MultiSourceCellBiologyImmunofluorescenceMicroscopyColocalizationSkill",
+    displayName: "Multi Source Cell Biology Immunofluorescence Microscopy Colocalization",
+    categoryId: "research",
+    description: "Quantifies protein-protein colocalization using Manders and Pearson correlation coefficients.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Cell Biology Immunofluorescence Microscopy Colocalization",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Cell Biology Immunofluorescence Microscopy Colocalization",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Source Cell Biology Immunofluorescence Microscopy Colocalization.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Source Cell Biology Immunofluorescence Microscopy Colocalization.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-social-network-analysis-exponential-random-graph-ergm": {
+    id: "research-multi-multi-stage-social-network-analysis-exponential-random-graph-ergm",
+    name: "MultiStageSocialNetworkAnalysisExponentialRandomGraphERGMSkill",
+    displayName: "Multi Stage Social Network Analysis Exponential Random Graph ERGM",
+    categoryId: "research",
+    description: "Models social network tie formation using exponential random graph statistical models.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Social Network Analysis Exponential Random Graph ERGM",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Social Network Analysis Exponential Random Graph ERGM",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Social Network Analysis Exponential Random Graph ERGM.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Social Network Analysis Exponential Random Graph ERGM.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-organic-chemistry-nmr-structure-elucidation": {
+    id: "research-multi-multi-layer-organic-chemistry-nmr-structure-elucidation",
+    name: "MultiLayerOrganicChemistryNMRStructureElucidationSkill",
+    displayName: "Multi Layer Organic Chemistry NMR Structure Elucidation",
+    categoryId: "research",
+    description: "Elucidates complex organic molecule structures combining 1H, 13C, and 2D COSY NMR.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Organic Chemistry NMR Structure Elucidation",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Organic Chemistry NMR Structure Elucidation",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Organic Chemistry NMR Structure Elucidation.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Organic Chemistry NMR Structure Elucidation.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-source-glaciology-glacier-ice-velocity-radar-interferometry": {
+    id: "research-multi-multi-source-glaciology-glacier-ice-velocity-radar-interferometry",
+    name: "MultiSourceGlaciologyGlacierIceVelocityRadarInterferometrySkill",
+    displayName: "Multi Source Glaciology Glacier Ice Velocity Radar Interferometry",
+    categoryId: "research",
+    description: "Measures Antarctic glacier flow velocity using Sentinel-1 synthetic aperture radar.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Glaciology Glacier Ice Velocity Radar Interferometry",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Glaciology Glacier Ice Velocity Radar Interferometry",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Source Glaciology Glacier Ice Velocity Radar Interferometry.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Source Glaciology Glacier Ice Velocity Radar Interferometry.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-toxicology-dose-response-benchmark-dose-bmd": {
+    id: "research-multi-multi-stage-toxicology-dose-response-benchmark-dose-bmd",
+    name: "MultiStageToxicologyDoseResponseBenchmarkDoseBMDSkill",
+    displayName: "Multi Stage Toxicology Dose Response Benchmark Dose BMD",
+    categoryId: "research",
+    description: "Calculates benchmark dose (BMD10) lower confidence limits for chemical risk assessment.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Toxicology Dose Response Benchmark Dose BMD",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Toxicology Dose Response Benchmark Dose BMD",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Toxicology Dose Response Benchmark Dose BMD.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Toxicology Dose Response Benchmark Dose BMD.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-evolutionary-biology-phylogenetic-tree-maximum-likelihood": {
+    id: "research-multi-multi-layer-evolutionary-biology-phylogenetic-tree-maximum-likelihood",
+    name: "MultiLayerEvolutionaryBiologyPhylogeneticTreeMaximumLikelihoodSkill",
+    displayName: "Multi Layer Evolutionary Biology Phylogenetic Tree Maximum Likelihood",
+    categoryId: "research",
+    description: "Constructs phylogenetic species trees from DNA sequences using maximum likelihood.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Evolutionary Biology Phylogenetic Tree Maximum Likelihood",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Evolutionary Biology Phylogenetic Tree Maximum Likelihood",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Evolutionary Biology Phylogenetic Tree Maximum Likelihood.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Evolutionary Biology Phylogenetic Tree Maximum Likelihood.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-source-urban-microclimate-heat-island-temperature-mapping": {
+    id: "research-multi-multi-source-urban-microclimate-heat-island-temperature-mapping",
+    name: "MultiSourceUrbanMicroclimateHeatIslandTemperatureMappingSkill",
+    displayName: "Multi Source Urban Microclimate Heat Island Temperature Mapping",
+    categoryId: "research",
+    description: "Maps urban heat islands correlating land surface temp with tree canopy cover.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Urban Microclimate Heat Island Temperature Mapping",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Urban Microclimate Heat Island Temperature Mapping",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Source Urban Microclimate Heat Island Temperature Mapping.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Source Urban Microclimate Heat Island Temperature Mapping.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-physical-oceanography-ctd-salinity-density-profiling": {
+    id: "research-multi-multi-stage-physical-oceanography-ctd-salinity-density-profiling",
+    name: "MultiStagePhysicalOceanographyCTDSalinityDensityProfilingSkill",
+    displayName: "Multi Stage Physical Oceanography CTD Salinity Density Profiling",
+    categoryId: "research",
+    description: "Parses ocean CTD sensor profiles measuring thermocline and halocline water masses.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Physical Oceanography CTD Salinity Density Profiling",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Physical Oceanography CTD Salinity Density Profiling",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Physical Oceanography CTD Salinity Density Profiling.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Physical Oceanography CTD Salinity Density Profiling.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-geomorphology-landslide-susceptibility-hazard-mapping": {
+    id: "research-multi-multi-layer-geomorphology-landslide-susceptibility-hazard-mapping",
+    name: "MultiLayerGeomorphologyLandslideSusceptibilityHazardMappingSkill",
+    displayName: "Multi Layer Geomorphology Landslide Susceptibility Hazard Mapping",
+    categoryId: "research",
+    description: "Models landslide slope stability using digital elevation models and rainfall intensity.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Geomorphology Landslide Susceptibility Hazard Mapping",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Geomorphology Landslide Susceptibility Hazard Mapping",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Geomorphology Landslide Susceptibility Hazard Mapping.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Geomorphology Landslide Susceptibility Hazard Mapping.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-source-soil-science-carbon-sequestration-humus-analysis": {
+    id: "research-multi-multi-source-soil-science-carbon-sequestration-humus-analysis",
+    name: "MultiSourceSoilScienceCarbonSequestrationHumusAnalysisSkill",
+    displayName: "Multi Source Soil Science Carbon Sequestration Humus Analysis",
+    categoryId: "research",
+    description: "Measures soil organic carbon fractions and microbial biomass nitrogen under tillage.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Soil Science Carbon Sequestration Humus Analysis",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Soil Science Carbon Sequestration Humus Analysis",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Source Soil Science Carbon Sequestration Humus Analysis.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Source Soil Science Carbon Sequestration Humus Analysis.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-industrial-organization-empirical-market-power-estimation": {
+    id: "research-multi-multi-stage-industrial-organization-empirical-market-power-estimation",
+    name: "MultiStageIndustrialOrganizationEmpiricalMarketPowerEstimationSkill",
+    displayName: "Multi Stage Industrial Organization Empirical Market Power Estimation",
+    categoryId: "research",
+    description: "Estimates price-cost margins and demand elasticity in concentrated oligopoly markets.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Industrial Organization Empirical Market Power Estimation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Industrial Organization Empirical Market Power Estimation",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Industrial Organization Empirical Market Power Estimation.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Industrial Organization Empirical Market Power Estimation.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-particle-physics-neutrino-oscillation-detector-calibration": {
+    id: "research-multi-multi-layer-particle-physics-neutrino-oscillation-detector-calibration",
+    name: "MultiLayerParticlePhysicsNeutrinoOscillationDetectorCalibrationSkill",
+    displayName: "Multi Layer Particle Physics Neutrino Oscillation Detector Calibration",
+    categoryId: "research",
+    description: "Calculates neutrino mass squared differences from underground detector flux.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Particle Physics Neutrino Oscillation Detector Calibration",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Particle Physics Neutrino Oscillation Detector Calibration",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Particle Physics Neutrino Oscillation Detector Calibration.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Particle Physics Neutrino Oscillation Detector Calibration.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-source-atmospheric-chemistry-ozone-layer-photolysis-rate": {
+    id: "research-multi-multi-source-atmospheric-chemistry-ozone-layer-photolysis-rate",
+    name: "MultiSourceAtmosphericChemistryOzoneLayerPhotolysisRateSkill",
+    displayName: "Multi Source Atmospheric Chemistry Ozone Layer Photolysis Rate",
+    categoryId: "research",
+    description: "Models stratospheric ozone depletion kinetics under ultraviolet solar irradiance.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Atmospheric Chemistry Ozone Layer Photolysis Rate",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Atmospheric Chemistry Ozone Layer Photolysis Rate",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Source Atmospheric Chemistry Ozone Layer Photolysis Rate.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Source Atmospheric Chemistry Ozone Layer Photolysis Rate.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-stage-developmental-psychology-attachment-strange-situation": {
+    id: "research-multi-multi-stage-developmental-psychology-attachment-strange-situation",
+    name: "MultiStageDevelopmentalPsychologyAttachmentStrangeSituationSkill",
+    displayName: "Multi Stage Developmental Psychology Attachment Strange Situation",
+    categoryId: "research",
+    description: "Codes infant attachment security classifications (Secure, Avoidant, Resistant).",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Developmental Psychology Attachment Strange Situation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Developmental Psychology Attachment Strange Situation",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Developmental Psychology Attachment Strange Situation.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Developmental Psychology Attachment Strange Situation.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-layer-structural-geology-fault-line-stress-tensor-calculation": {
+    id: "research-multi-multi-layer-structural-geology-fault-line-stress-tensor-calculation",
+    name: "MultiLayerStructuralGeologyFaultLineStressTensorCalculationSkill",
+    displayName: "Multi Layer Structural Geology Fault Line Stress Tensor Calculation",
+    categoryId: "research",
+    description: "Calculates tectonic stress tensors from earthquake focal mechanism fault plane solutions.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Structural Geology Fault Line Stress Tensor Calculation",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Structural Geology Fault Line Stress Tensor Calculation",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Structural Geology Fault Line Stress Tensor Calculation.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Structural Geology Fault Line Stress Tensor Calculation.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-source-conservation-biology-population-viability-analysis-pva": {
+    id: "research-multi-multi-source-conservation-biology-population-viability-analysis-pva",
+    name: "MultiSourceConservationBiologyPopulationViabilityAnalysisPVASkill",
+    displayName: "Multi Source Conservation Biology Population Viability Analysis PVA",
+    categoryId: "research",
+    description: "Simulates endangered species extinction risks under habitat fragmentation.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Source Conservation Biology Population Viability Analysis PVA",
+      ruSectionName: "Композитный Multi-Skill: Multi Source Conservation Biology Population Viability Analysis PVA",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Source Conservation Biology Population Viability Analysis PVA.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Source Conservation Biology Population Viability Analysis PVA.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
+
+  "research-multi-multi-horizon-master-scientific-research-methodology-engine": {
+    id: "research-multi-multi-horizon-master-scientific-research-methodology-engine",
+    name: "MultiHorizonMasterScientificResearchMethodologyEngineSkill",
+    displayName: "Multi Horizon Master Scientific Research Methodology Engine",
+    categoryId: "research",
+    description: "Enforces master empirical research design, statistical rigor, publication standards, and discovery.",
+    tags: ["research","multi-skill","research-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Scientific Research Methodology Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Scientific Research Methodology Engine",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Horizon Master Scientific Research Methodology Engine.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Horizon Master Scientific Research Methodology Engine.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["research","multi-skill","research-multi"],
+    }),
+  },
 };

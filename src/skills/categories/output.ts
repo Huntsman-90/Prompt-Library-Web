@@ -4278,5 +4278,1504 @@ export const OUTPUT_SKILLS: Record<string, SkillDefinition> = {
       tags: ["output","output","rfc","8259"],
     }),
   },
+  "output-multi-multi-format-schema-enforcement-json-markdown-xml": {
+    id: "output-multi-multi-format-schema-enforcement-json-markdown-xml",
+    name: "MultiFormatSchemaEnforcementJSONMarkdownXMLSkill",
+    displayName: "Multi Format Schema Enforcement JSON Markdown XML",
+    categoryId: "output",
+    description: "Forces exact output formatting adhering to JSON Schema, Markdown tables, or XML tags.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Schema Enforcement JSON Markdown XML",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Schema Enforcement JSON Markdown XML",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format Schema Enforcement JSON Markdown XML.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format Schema Enforcement JSON Markdown XML.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-level-executive-briefing-document-formatting": {
+    id: "output-multi-multi-level-executive-briefing-document-formatting",
+    name: "MultiLevelExecutiveBriefingDocumentFormattingSkill",
+    displayName: "Multi Level Executive Briefing Document Formatting",
+    categoryId: "output",
+    description: "Renders outputs as TL;DR summary, Key Metrics table, Strategic Recommendations, and Next Steps.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Executive Briefing Document Formatting",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Executive Briefing Document Formatting",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Level Executive Briefing Document Formatting.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Level Executive Briefing Document Formatting.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-column-comparison-matrix-generator": {
+    id: "output-multi-multi-column-comparison-matrix-generator",
+    name: "MultiColumnComparisonMatrixGeneratorSkill",
+    displayName: "Multi Column Comparison Matrix Generator",
+    categoryId: "output",
+    description: "Structures complex multi-option comparisons into clear, aligned Markdown comparison tables.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Column Comparison Matrix Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Column Comparison Matrix Generator",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Column Comparison Matrix Generator.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Column Comparison Matrix Generator.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-layer-code-snippet-annotation-formatter": {
+    id: "output-multi-multi-layer-code-snippet-annotation-formatter",
+    name: "MultiLayerCodeSnippetAnnotationFormatterSkill",
+    displayName: "Multi Layer Code Snippet Annotation Formatter",
+    categoryId: "output",
+    description: "Formats code blocks with inline comments, line highlights, syntax language tags, and usage examples.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Code Snippet Annotation Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Code Snippet Annotation Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Code Snippet Annotation Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Code Snippet Annotation Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-stage-technical-spec-requirement-document": {
+    id: "output-multi-multi-stage-technical-spec-requirement-document",
+    name: "MultiStageTechnicalSpecRequirementDocumentSkill",
+    displayName: "Multi Stage Technical Spec Requirement Document",
+    categoryId: "output",
+    description: "Formats software technical specs with Architecture, API Contracts, Data Schemas, and Risks.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Technical Spec Requirement Document",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Technical Spec Requirement Document",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Technical Spec Requirement Document.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Technical Spec Requirement Document.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-research-paper-digest-formatter": {
+    id: "output-multi-multi-section-research-paper-digest-formatter",
+    name: "MultiSectionResearchPaperDigestFormatterSkill",
+    displayName: "Multi Section Research Paper Digest Formatter",
+    categoryId: "output",
+    description: "Formats academic papers into Abstract, Methodology, Findings, Limitations, and Citations.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Research Paper Digest Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Research Paper Digest Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Research Paper Digest Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Research Paper Digest Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-tier-hierarchical-outlining-bullet-engine": {
+    id: "output-multi-multi-tier-hierarchical-outlining-bullet-engine",
+    name: "MultiTierHierarchicalOutliningBulletEngineSkill",
+    displayName: "Multi Tier Hierarchical Outlining Bullet Engine",
+    categoryId: "output",
+    description: "Formats complex ideas into multi-level indented outlines with consistent numbering.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Hierarchical Outlining Bullet Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Hierarchical Outlining Bullet Engine",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Tier Hierarchical Outlining Bullet Engine.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Tier Hierarchical Outlining Bullet Engine.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-diagram-visual-architecture-notation-formatter": {
+    id: "output-multi-multi-diagram-visual-architecture-notation-formatter",
+    name: "MultiDiagramVisualArchitectureNotationFormatterSkill",
+    displayName: "Multi Diagram Visual Architecture Notation Formatter",
+    categoryId: "output",
+    description: "Generates valid Mermaid.js flowcharts, sequence diagrams, and ERD diagrams in outputs.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Diagram Visual Architecture Notation Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Diagram Visual Architecture Notation Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Diagram Visual Architecture Notation Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Diagram Visual Architecture Notation Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-format-api-contract-openapi-spec-formatter": {
+    id: "output-multi-multi-format-api-contract-openapi-spec-formatter",
+    name: "MultiFormatAPIContractOpenAPISpecFormatterSkill",
+    displayName: "Multi Format API Contract OpenAPI Spec Formatter",
+    categoryId: "output",
+    description: "Formats REST API endpoints into valid OpenAPI 3.0 YAML with request/response schemas.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format API Contract OpenAPI Spec Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Format API Contract OpenAPI Spec Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format API Contract OpenAPI Spec Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format API Contract OpenAPI Spec Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-legal-contract-clause-formatter": {
+    id: "output-multi-multi-section-legal-contract-clause-formatter",
+    name: "MultiSectionLegalContractClauseFormatterSkill",
+    displayName: "Multi Section Legal Contract Clause Formatter",
+    categoryId: "output",
+    description: "Formats legal agreements with numbered sections, defined terms, boilerplate, and signature blocks.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Legal Contract Clause Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Legal Contract Clause Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Legal Contract Clause Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Legal Contract Clause Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-level-financial-statement-spreadsheet-formatter": {
+    id: "output-multi-multi-level-financial-statement-spreadsheet-formatter",
+    name: "MultiLevelFinancialStatementSpreadsheetFormatterSkill",
+    displayName: "Multi Level Financial Statement Spreadsheet Formatter",
+    categoryId: "output",
+    description: "Formats P&L income statements, balance sheets, and cash flow tables with aligned totals.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Financial Statement Spreadsheet Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Financial Statement Spreadsheet Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Level Financial Statement Spreadsheet Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Level Financial Statement Spreadsheet Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-medical-patient-case-summary-formatter": {
+    id: "output-multi-multi-section-medical-patient-case-summary-formatter",
+    name: "MultiSectionMedicalPatientCaseSummaryFormatterSkill",
+    displayName: "Multi Section Medical Patient Case Summary Formatter",
+    categoryId: "output",
+    description: "Formats clinical cases using SOAP note structure (Subjective, Objective, Assessment, Plan).",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Medical Patient Case Summary Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Medical Patient Case Summary Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Medical Patient Case Summary Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Medical Patient Case Summary Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-format-e-commerce-product-catalog-feed-formatter": {
+    id: "output-multi-multi-format-e-commerce-product-catalog-feed-formatter",
+    name: "MultiFormatECommerceProductCatalogFeedFormatterSkill",
+    displayName: "Multi Format E-Commerce Product Catalog Feed Formatter",
+    categoryId: "output",
+    description: "Formats product catalogs into Google Shopping XML or Shopify CSV feed structures.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format E-Commerce Product Catalog Feed Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Format E-Commerce Product Catalog Feed Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format E-Commerce Product Catalog Feed Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format E-Commerce Product Catalog Feed Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-agile-user-story-acceptance-criteria-formatter": {
+    id: "output-multi-multi-section-agile-user-story-acceptance-criteria-formatter",
+    name: "MultiSectionAgileUserStoryAcceptanceCriteriaFormatterSkill",
+    displayName: "Multi Section Agile User Story Acceptance Criteria Formatter",
+    categoryId: "output",
+    description: "Formats user stories with Given-When-Then BDD acceptance criteria bullet lists.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Agile User Story Acceptance Criteria Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Agile User Story Acceptance Criteria Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Agile User Story Acceptance Criteria Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Agile User Story Acceptance Criteria Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-layer-presentation-pitch-deck-slide-storyboard": {
+    id: "output-multi-multi-layer-presentation-pitch-deck-slide-storyboard",
+    name: "MultiLayerPresentationPitchDeckSlideStoryboardSkill",
+    displayName: "Multi Layer Presentation Pitch Deck Slide Storyboard",
+    categoryId: "output",
+    description: "Formats 10-slide pitch deck content specifying Slide Title, Visual Asset, and Speaker Notes.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Presentation Pitch Deck Slide Storyboard",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Presentation Pitch Deck Slide Storyboard",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Presentation Pitch Deck Slide Storyboard.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Presentation Pitch Deck Slide Storyboard.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-customer-support-ticket-response-formatter": {
+    id: "output-multi-multi-section-customer-support-ticket-response-formatter",
+    name: "MultiSectionCustomerSupportTicketResponseFormatterSkill",
+    displayName: "Multi Section Customer Support Ticket Response Formatter",
+    categoryId: "output",
+    description: "Formats customer replies with empathetic greeting, step-by-step resolution, and helpful links.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Customer Support Ticket Response Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Customer Support Ticket Response Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Customer Support Ticket Response Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Customer Support Ticket Response Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-format-data-dictionary-database-schema-formatter": {
+    id: "output-multi-multi-format-data-dictionary-database-schema-formatter",
+    name: "MultiFormatDataDictionaryDatabaseSchemaFormatterSkill",
+    displayName: "Multi Format Data Dictionary Database Schema Formatter",
+    categoryId: "output",
+    description: "Formats database data dictionaries listing Column Name, Type, Constraints, and Description.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Data Dictionary Database Schema Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Data Dictionary Database Schema Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format Data Dictionary Database Schema Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format Data Dictionary Database Schema Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-meeting-minutes-action-item-formatter": {
+    id: "output-multi-multi-section-meeting-minutes-action-item-formatter",
+    name: "MultiSectionMeetingMinutesActionItemFormatterSkill",
+    displayName: "Multi Section Meeting Minutes Action Item Formatter",
+    categoryId: "output",
+    description: "Formats meeting transcripts into Attendees, Key Decisions, Action Items table, and Next Meeting.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Meeting Minutes Action Item Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Meeting Minutes Action Item Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Meeting Minutes Action Item Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Meeting Minutes Action Item Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-layer-resume-cv-ats-friendly-formatter": {
+    id: "output-multi-multi-layer-resume-cv-ats-friendly-formatter",
+    name: "MultiLayerResumeCVATSFriendlyFormatterSkill",
+    displayName: "Multi Layer Resume CV ATS Friendly Formatter",
+    categoryId: "output",
+    description: "Formats resumes into ATS-optimized clean sections (Summary, Experience, Skills, Education).",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Resume CV ATS Friendly Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Resume CV ATS Friendly Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Resume CV ATS Friendly Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Resume CV ATS Friendly Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-project-post-mortem-incident-report-formatter": {
+    id: "output-multi-multi-section-project-post-mortem-incident-report-formatter",
+    name: "MultiSectionProjectPostMortemIncidentReportFormatterSkill",
+    displayName: "Multi Section Project Post Mortem Incident Report Formatter",
+    categoryId: "output",
+    description: "Formats post-mortems into Incident Summary, Timeline, Root Cause, Action Items, and Prevention.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Project Post Mortem Incident Report Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Project Post Mortem Incident Report Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Project Post Mortem Incident Report Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Project Post Mortem Incident Report Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-format-csv-tsv-delimited-export-formatter": {
+    id: "output-multi-multi-format-csv-tsv-delimited-export-formatter",
+    name: "MultiFormatCSVTSVDelimitedExportFormatterSkill",
+    displayName: "Multi Format CSV TSV Delimited Export Formatter",
+    categoryId: "output",
+    description: "Renders clean CSV data exports with properly escaped quotes, commas, and header rows.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format CSV TSV Delimited Export Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Format CSV TSV Delimited Export Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format CSV TSV Delimited Export Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format CSV TSV Delimited Export Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-marketing-campaign-brief-formatter": {
+    id: "output-multi-multi-section-marketing-campaign-brief-formatter",
+    name: "MultiSectionMarketingCampaignBriefFormatterSkill",
+    displayName: "Multi Section Marketing Campaign Brief Formatter",
+    categoryId: "output",
+    description: "Formats marketing briefs specifying Target Audience, Key Message, Channels, Budget, and KPIs.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Marketing Campaign Brief Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Marketing Campaign Brief Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Marketing Campaign Brief Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Marketing Campaign Brief Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-level-instructional-lesson-plan-formatter": {
+    id: "output-multi-multi-level-instructional-lesson-plan-formatter",
+    name: "MultiLevelInstructionalLessonPlanFormatterSkill",
+    displayName: "Multi Level Instructional Lesson Plan Formatter",
+    categoryId: "output",
+    description: "Formats lesson plans with Learning Objectives, Materials, Timed Activities, and Homework.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Instructional Lesson Plan Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Instructional Lesson Plan Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Level Instructional Lesson Plan Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Level Instructional Lesson Plan Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-software-release-notes-changelog-formatter": {
+    id: "output-multi-multi-section-software-release-notes-changelog-formatter",
+    name: "MultiSectionSoftwareReleaseNotesChangelogFormatterSkill",
+    displayName: "Multi Section Software Release Notes Changelog Formatter",
+    categoryId: "output",
+    description: "Formats software changelogs categorizing Added, Changed, Deprecated, Removed, Fixed, Security.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Software Release Notes Changelog Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Software Release Notes Changelog Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Software Release Notes Changelog Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Software Release Notes Changelog Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-format-latex-math-academic-equation-formatter": {
+    id: "output-multi-multi-format-latex-math-academic-equation-formatter",
+    name: "MultiFormatLaTeXMathAcademicEquationFormatterSkill",
+    displayName: "Multi Format LaTeX Math Academic Equation Formatter",
+    categoryId: "output",
+    description: "Renders complex mathematical derivations formatted in clean LaTeX code blocks.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format LaTeX Math Academic Equation Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Format LaTeX Math Academic Equation Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format LaTeX Math Academic Equation Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format LaTeX Math Academic Equation Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-grant-proposal-executive-summary-formatter": {
+    id: "output-multi-multi-section-grant-proposal-executive-summary-formatter",
+    name: "MultiSectionGrantProposalExecutiveSummaryFormatterSkill",
+    displayName: "Multi Section Grant Proposal Executive Summary Formatter",
+    categoryId: "output",
+    description: "Formats grant requests into Need Statement, Project Goals, Budget Table, and Evaluation Plan.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Grant Proposal Executive Summary Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Grant Proposal Executive Summary Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Grant Proposal Executive Summary Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Grant Proposal Executive Summary Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-layer-customer-persona-profile-card-formatter": {
+    id: "output-multi-multi-layer-customer-persona-profile-card-formatter",
+    name: "MultiLayerCustomerPersonaProfileCardFormatterSkill",
+    displayName: "Multi Layer Customer Persona Profile Card Formatter",
+    categoryId: "output",
+    description: "Formats buyer personas into Demographics, Pain Points, Goals, Buying Objections, and Quote.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Customer Persona Profile Card Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Customer Persona Profile Card Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Customer Persona Profile Card Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Customer Persona Profile Card Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-recipe-cooking-step-formatter": {
+    id: "output-multi-multi-section-recipe-cooking-step-formatter",
+    name: "MultiSectionRecipeCookingStepFormatterSkill",
+    displayName: "Multi Section Recipe Cooking Step Formatter",
+    categoryId: "output",
+    description: "Formats culinary recipes with Prep Time, Ingredients List, Step-by-step Instructions, and Nutrition.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Recipe Cooking Step Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Recipe Cooking Step Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Recipe Cooking Step Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Recipe Cooking Step Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-format-rss-atom-xml-feed-formatter": {
+    id: "output-multi-multi-format-rss-atom-xml-feed-formatter",
+    name: "MultiFormatRSSAtomXMLFeedFormatterSkill",
+    displayName: "Multi Format RSS Atom XML Feed Formatter",
+    categoryId: "output",
+    description: "Formats blog posts into valid RSS 2.0 or Atom XML feed structures.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format RSS Atom XML Feed Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Format RSS Atom XML Feed Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format RSS Atom XML Feed Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format RSS Atom XML Feed Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-bug-report-issue-template-formatter": {
+    id: "output-multi-multi-section-bug-report-issue-template-formatter",
+    name: "MultiSectionBugReportIssueTemplateFormatterSkill",
+    displayName: "Multi Section Bug Report Issue Template Formatter",
+    categoryId: "output",
+    description: "Formats GitHub bug reports into Expected Behavior, Actual Behavior, Steps to Reproduce, Logs.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Bug Report Issue Template Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Bug Report Issue Template Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Bug Report Issue Template Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Bug Report Issue Template Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-layer-real-estate-property-listing-formatter": {
+    id: "output-multi-multi-layer-real-estate-property-listing-formatter",
+    name: "MultiLayerRealEstatePropertyListingFormatterSkill",
+    displayName: "Multi Layer Real Estate Property Listing Formatter",
+    categoryId: "output",
+    description: "Formats home listings into Property Highlights, Specs Table, Neighborhood, and Contact Info.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Real Estate Property Listing Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Real Estate Property Listing Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Real Estate Property Listing Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Real Estate Property Listing Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-podcast-episode-show-notes-formatter": {
+    id: "output-multi-multi-section-podcast-episode-show-notes-formatter",
+    name: "MultiSectionPodcastEpisodeShowNotesFormatterSkill",
+    displayName: "Multi Section Podcast Episode Show Notes Formatter",
+    categoryId: "output",
+    description: "Formats podcast notes into Summary, Timestamped Chapters, Guest Bio, and Resource Links.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Podcast Episode Show Notes Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Podcast Episode Show Notes Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Podcast Episode Show Notes Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Podcast Episode Show Notes Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-format-graphql-schema-definition-formatter": {
+    id: "output-multi-multi-format-graphql-schema-definition-formatter",
+    name: "MultiFormatGraphQLSchemaDefinitionFormatterSkill",
+    displayName: "Multi Format GraphQL Schema Definition Formatter",
+    categoryId: "output",
+    description: "Formats GraphQL APIs into valid SDL type definitions, queries, mutations, and inputs.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format GraphQL Schema Definition Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Format GraphQL Schema Definition Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format GraphQL Schema Definition Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format GraphQL Schema Definition Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-audit-compliance-checklist-formatter": {
+    id: "output-multi-multi-section-audit-compliance-checklist-formatter",
+    name: "MultiSectionAuditComplianceChecklistFormatterSkill",
+    displayName: "Multi Section Audit Compliance Checklist Formatter",
+    categoryId: "output",
+    description: "Formats compliance audits into Item ID, Control Requirement, Pass/Fail Status, and Evidence.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Audit Compliance Checklist Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Audit Compliance Checklist Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Audit Compliance Checklist Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Audit Compliance Checklist Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-layer-course-curriculum-syllabus-formatter": {
+    id: "output-multi-multi-layer-course-curriculum-syllabus-formatter",
+    name: "MultiLayerCourseCurriculumSyllabusFormatterSkill",
+    displayName: "Multi Layer Course Curriculum Syllabus Formatter",
+    categoryId: "output",
+    description: "Formats online courses into Module Titles, Video Descriptions, Quizzes, and Assignments.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Course Curriculum Syllabus Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Course Curriculum Syllabus Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Course Curriculum Syllabus Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Course Curriculum Syllabus Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-job-opening-description-formatter": {
+    id: "output-multi-multi-section-job-opening-description-formatter",
+    name: "MultiSectionJobOpeningDescriptionFormatterSkill",
+    displayName: "Multi Section Job Opening Description Formatter",
+    categoryId: "output",
+    description: "Formats job posts into Role Overview, Key Responsibilities, Requirements, and Benefits.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Job Opening Description Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Job Opening Description Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Job Opening Description Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Job Opening Description Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-format-geojson-feature-collection-formatter": {
+    id: "output-multi-multi-format-geojson-feature-collection-formatter",
+    name: "MultiFormatGeoJSONFeatureCollectionFormatterSkill",
+    displayName: "Multi Format GeoJSON Feature Collection Formatter",
+    categoryId: "output",
+    description: "Formats spatial point, line, and polygon data into valid GeoJSON FeatureCollection structures.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format GeoJSON Feature Collection Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Format GeoJSON Feature Collection Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format GeoJSON Feature Collection Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format GeoJSON Feature Collection Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-book-chapter-outline-formatter": {
+    id: "output-multi-multi-section-book-chapter-outline-formatter",
+    name: "MultiSectionBookChapterOutlineFormatterSkill",
+    displayName: "Multi Section Book Chapter Outline Formatter",
+    categoryId: "output",
+    description: "Formats book chapters into Chapter Title, Scene Beats, Character POV, and Thematic Focus.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Book Chapter Outline Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Book Chapter Outline Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Book Chapter Outline Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Book Chapter Outline Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-layer-fitness-workout-program-formatter": {
+    id: "output-multi-multi-layer-fitness-workout-program-formatter",
+    name: "MultiLayerFitnessWorkoutProgramFormatterSkill",
+    displayName: "Multi Layer Fitness Workout Program Formatter",
+    categoryId: "output",
+    description: "Formats gym workout routines into Exercise Name, Sets, Reps, Rest Interval, and Form Notes.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Fitness Workout Program Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Fitness Workout Program Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Fitness Workout Program Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Fitness Workout Program Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-press-release-media-kit-formatter": {
+    id: "output-multi-multi-section-press-release-media-kit-formatter",
+    name: "MultiSectionPressReleaseMediaKitFormatterSkill",
+    displayName: "Multi Section Press Release Media Kit Formatter",
+    categoryId: "output",
+    description: "Formats PR releases into FOR IMMEDIATE RELEASE, City, Dateline, Headline, Body, and Boilerplate.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Press Release Media Kit Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Press Release Media Kit Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Press Release Media Kit Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Press Release Media Kit Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-format-docker-compose-yaml-formatter": {
+    id: "output-multi-multi-format-docker-compose-yaml-formatter",
+    name: "MultiFormatDockerComposeYAMLFormatterSkill",
+    displayName: "Multi Format Docker Compose YAML Formatter",
+    categoryId: "output",
+    description: "Formats multi-container container setups into valid Docker Compose YAML files.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Docker Compose YAML Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Docker Compose YAML Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format Docker Compose YAML Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format Docker Compose YAML Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-product-feature-prd-specification-formatter": {
+    id: "output-multi-multi-section-product-feature-prd-specification-formatter",
+    name: "MultiSectionProductFeaturePRDSpecificationFormatterSkill",
+    displayName: "Multi Section Product Feature PRD Specification Formatter",
+    categoryId: "output",
+    description: "Formats PRDs into Problem Statement, User Stories, Out-of-Scope, Technical Architecture, Milestones.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Product Feature PRD Specification Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Product Feature PRD Specification Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Product Feature PRD Specification Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Product Feature PRD Specification Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-layer-travel-itinerary-daily-guide-formatter": {
+    id: "output-multi-multi-layer-travel-itinerary-daily-guide-formatter",
+    name: "MultiLayerTravelItineraryDailyGuideFormatterSkill",
+    displayName: "Multi Layer Travel Itinerary Daily Guide Formatter",
+    categoryId: "output",
+    description: "Formats travel trips into Morning, Afternoon, Evening activities, Transit advice, and Costs.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Travel Itinerary Daily Guide Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Travel Itinerary Daily Guide Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Travel Itinerary Daily Guide Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Travel Itinerary Daily Guide Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-rfp-vendor-proposal-formatter": {
+    id: "output-multi-multi-section-rfp-vendor-proposal-formatter",
+    name: "MultiSectionRFPVendorProposalFormatterSkill",
+    displayName: "Multi Section RFP Vendor Proposal Formatter",
+    categoryId: "output",
+    description: "Formats vendor RFP bids into Company Overview, Proposed Solution, Pricing Schedule, Case Studies.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section RFP Vendor Proposal Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section RFP Vendor Proposal Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section RFP Vendor Proposal Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section RFP Vendor Proposal Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-format-kubernetes-manifest-deployment-formatter": {
+    id: "output-multi-multi-format-kubernetes-manifest-deployment-formatter",
+    name: "MultiFormatKubernetesManifestDeploymentFormatterSkill",
+    displayName: "Multi Format Kubernetes Manifest Deployment Formatter",
+    categoryId: "output",
+    description: "Formats K8s workloads into valid Deployment, Service, and Ingress YAML manifests.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Kubernetes Manifest Deployment Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Kubernetes Manifest Deployment Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format Kubernetes Manifest Deployment Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format Kubernetes Manifest Deployment Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-social-media-content-calendar-formatter": {
+    id: "output-multi-multi-section-social-media-content-calendar-formatter",
+    name: "MultiSectionSocialMediaContentCalendarFormatterSkill",
+    displayName: "Multi Section Social Media Content Calendar Formatter",
+    categoryId: "output",
+    description: "Formats monthly social media schedules into Date, Platform, Visual Asset, Copy, Hashtags.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Social Media Content Calendar Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Social Media Content Calendar Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Social Media Content Calendar Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Social Media Content Calendar Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-layer-event-planning-schedule-formatter": {
+    id: "output-multi-multi-layer-event-planning-schedule-formatter",
+    name: "MultiLayerEventPlanningScheduleFormatterSkill",
+    displayName: "Multi Layer Event Planning Schedule Formatter",
+    categoryId: "output",
+    description: "Formats event schedules into Time Slot, Speaker/Session Title, Room Location, and Track.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Event Planning Schedule Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Event Planning Schedule Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Event Planning Schedule Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Event Planning Schedule Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-whitepaper-executive-summary-formatter": {
+    id: "output-multi-multi-section-whitepaper-executive-summary-formatter",
+    name: "MultiSectionWhitepaperExecutiveSummaryFormatterSkill",
+    displayName: "Multi Section Whitepaper Executive Summary Formatter",
+    categoryId: "output",
+    description: "Formats B2B whitepapers into Industry Problem, Market Shift, Technical Solution, and Case Study.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Whitepaper Executive Summary Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Whitepaper Executive Summary Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Whitepaper Executive Summary Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Whitepaper Executive Summary Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-format-sql-ddl-table-creation-script-formatter": {
+    id: "output-multi-multi-format-sql-ddl-table-creation-script-formatter",
+    name: "MultiFormatSQLDDLTableCreationScriptFormatterSkill",
+    displayName: "Multi Format SQL DDL Table Creation Script Formatter",
+    categoryId: "output",
+    description: "Formats database DDL scripts into clean `CREATE TABLE` scripts with constraints and indexes.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format SQL DDL Table Creation Script Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Format SQL DDL Table Creation Script Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format SQL DDL Table Creation Script Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format SQL DDL Table Creation Script Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-policy-document-rulebook-formatter": {
+    id: "output-multi-multi-section-policy-document-rulebook-formatter",
+    name: "MultiSectionPolicyDocumentRulebookFormatterSkill",
+    displayName: "Multi Section Policy Document Rulebook Formatter",
+    categoryId: "output",
+    description: "Formats corporate policies into Purpose, Scope, Policy Guidelines, Enforcement, and Definitions.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Policy Document Rulebook Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Policy Document Rulebook Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Policy Document Rulebook Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Policy Document Rulebook Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-layer-quiz-flashcard-q-a-dataset-formatter": {
+    id: "output-multi-multi-layer-quiz-flashcard-q-a-dataset-formatter",
+    name: "MultiLayerQuizFlashcardQADatasetFormatterSkill",
+    displayName: "Multi Layer Quiz Flashcard Q A Dataset Formatter",
+    categoryId: "output",
+    description: "Formats educational study flashcards into Question, Answer, Explanation, and Difficulty Tag.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Quiz Flashcard Q A Dataset Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Quiz Flashcard Q A Dataset Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Quiz Flashcard Q A Dataset Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Quiz Flashcard Q A Dataset Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-employee-performance-review-formatter": {
+    id: "output-multi-multi-section-employee-performance-review-formatter",
+    name: "MultiSectionEmployeePerformanceReviewFormatterSkill",
+    displayName: "Multi Section Employee Performance Review Formatter",
+    categoryId: "output",
+    description: "Formats manager reviews into Key Accomplishments, Areas for Growth, Competency Ratings, Goals.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Employee Performance Review Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Employee Performance Review Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Employee Performance Review Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Employee Performance Review Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-format-protocol-buffers-protobuf-spec-formatter": {
+    id: "output-multi-multi-format-protocol-buffers-protobuf-spec-formatter",
+    name: "MultiFormatProtocolBuffersProtobufSpecFormatterSkill",
+    displayName: "Multi Format Protocol Buffers Protobuf Spec Formatter",
+    categoryId: "output",
+    description: "Formats gRPC microservice APIs into valid proto3 definition syntax.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Protocol Buffers Protobuf Spec Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Protocol Buffers Protobuf Spec Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format Protocol Buffers Protobuf Spec Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format Protocol Buffers Protobuf Spec Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-non-profit-impact-report-formatter": {
+    id: "output-multi-multi-section-non-profit-impact-report-formatter",
+    name: "MultiSectionNonProfitImpactReportFormatterSkill",
+    displayName: "Multi Section Non-Profit Impact Report Formatter",
+    categoryId: "output",
+    description: "Formats charity impact reports into Mission Statement, Key Impact Metrics, Beneficiary Stories, Financials.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Non-Profit Impact Report Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Non-Profit Impact Report Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Non-Profit Impact Report Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Non-Profit Impact Report Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-layer-survey-questionnaire-formatter": {
+    id: "output-multi-multi-layer-survey-questionnaire-formatter",
+    name: "MultiLayerSurveyQuestionnaireFormatterSkill",
+    displayName: "Multi Layer Survey Questionnaire Formatter",
+    categoryId: "output",
+    description: "Formats surveys into Question Text, Response Type (Likert, MCQ), and Logic Skip Rules.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Survey Questionnaire Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Survey Questionnaire Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Survey Questionnaire Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Survey Questionnaire Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-video-production-shot-list-formatter": {
+    id: "output-multi-multi-section-video-production-shot-list-formatter",
+    name: "MultiSectionVideoProductionShotListFormatterSkill",
+    displayName: "Multi Section Video Production Shot List Formatter",
+    categoryId: "output",
+    description: "Formats film shot lists into Shot Number, Framing Type, Movement, Subject, and Audio Note.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Video Production Shot List Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Video Production Shot List Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Video Production Shot List Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Video Production Shot List Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-format-terraform-hcl-infrastructure-formatter": {
+    id: "output-multi-multi-format-terraform-hcl-infrastructure-formatter",
+    name: "MultiFormatTerraformHCLInfrastructureFormatterSkill",
+    displayName: "Multi Format Terraform HCL Infrastructure Formatter",
+    categoryId: "output",
+    description: "Formats Infrastructure-as-Code modules into valid Terraform HCL syntax.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Terraform HCL Infrastructure Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Terraform HCL Infrastructure Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Format Terraform HCL Infrastructure Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Format Terraform HCL Infrastructure Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-section-construction-cost-estimate-formatter": {
+    id: "output-multi-multi-section-construction-cost-estimate-formatter",
+    name: "MultiSectionConstructionCostEstimateFormatterSkill",
+    displayName: "Multi Section Construction Cost Estimate Formatter",
+    categoryId: "output",
+    description: "Formats construction bids into Materials, Labor, Equipment, Overhead, and Total Cost.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Section Construction Cost Estimate Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Section Construction Cost Estimate Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Section Construction Cost Estimate Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Section Construction Cost Estimate Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-layer-software-api-error-response-formatter": {
+    id: "output-multi-multi-layer-software-api-error-response-formatter",
+    name: "MultiLayerSoftwareAPIErrorResponseFormatterSkill",
+    displayName: "Multi Layer Software API Error Response Formatter",
+    categoryId: "output",
+    description: "Formats standard API error payloads into error code, human message, and timestamp.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Software API Error Response Formatter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Software API Error Response Formatter",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Software API Error Response Formatter.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Software API Error Response Formatter.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
+
+  "output-multi-multi-horizon-master-output-structuring-formatting-engine": {
+    id: "output-multi-multi-horizon-master-output-structuring-formatting-engine",
+    name: "MultiHorizonMasterOutputStructuringFormattingEngineSkill",
+    displayName: "Multi Horizon Master Output Structuring Formatting Engine",
+    categoryId: "output",
+    description: "Enforces master output formatting, flawless schema validation, visual typography, and structural precision.",
+    tags: ["output","multi-skill","output-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Output Structuring Formatting Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Output Structuring Formatting Engine",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Horizon Master Output Structuring Formatting Engine.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Horizon Master Output Structuring Formatting Engine.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["output","multi-skill","output-multi"],
+    }),
+  },
 };
 

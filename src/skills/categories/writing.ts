@@ -4340,5 +4340,1504 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
       tags: ["writing","writing-final","final","master"],
     }),
   },
+  "writing-multi-multi-perspective-prose-polish-style-register-calibration": {
+    id: "writing-multi-multi-perspective-prose-polish-style-register-calibration",
+    name: "MultiPerspectiveProsePolishStyleRegisterCalibrationSkill",
+    displayName: "Multi Perspective Prose Polish Style Register Calibration",
+    categoryId: "writing",
+    description: "Calibrates prose register seamlessly between academic, executive, literary, and conversational styles.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Prose Polish Style Register Calibration",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Prose Polish Style Register Calibration",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Prose Polish Style Register Calibration.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Prose Polish Style Register Calibration.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-copy-editing-line-editing-structural-audit": {
+    id: "writing-multi-multi-stage-copy-editing-line-editing-structural-audit",
+    name: "MultiStageCopyEditingLineEditingStructuralAuditSkill",
+    displayName: "Multi Stage Copy Editing Line Editing Structural Audit",
+    categoryId: "writing",
+    description: "Executes 3-pass editing: Structural flow, Line-by-line clarity, and Proofreading grammar polishing.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Copy Editing Line Editing Structural Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Copy Editing Line Editing Structural Audit",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Copy Editing Line Editing Structural Audit.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Copy Editing Line Editing Structural Audit.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-seo-copywriting-keyword-density-optimization": {
+    id: "writing-multi-multi-format-seo-copywriting-keyword-density-optimization",
+    name: "MultiFormatSEOCopywritingKeywordDensityOptimizationSkill",
+    displayName: "Multi Format SEO Copywriting Keyword Density Optimization",
+    categoryId: "writing",
+    description: "Crafts engaging copy optimizing primary/secondary keywords, header tags, and search intent.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format SEO Copywriting Keyword Density Optimization",
+      ruSectionName: "Композитный Multi-Skill: Multi Format SEO Copywriting Keyword Density Optimization",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format SEO Copywriting Keyword Density Optimization.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format SEO Copywriting Keyword Density Optimization.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-layer-technical-whitepaper-executive-briefing": {
+    id: "writing-multi-multi-layer-technical-whitepaper-executive-briefing",
+    name: "MultiLayerTechnicalWhitepaperExecutiveBriefingSkill",
+    displayName: "Multi Layer Technical Whitepaper Executive Briefing",
+    categoryId: "writing",
+    description: "Condenses complex enterprise technology innovations into persuasive executive whitepapers.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Technical Whitepaper Executive Briefing",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Technical Whitepaper Executive Briefing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Technical Whitepaper Executive Briefing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Technical Whitepaper Executive Briefing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-hook-high-converting-headline-copywriting-suite": {
+    id: "writing-multi-multi-hook-high-converting-headline-copywriting-suite",
+    name: "MultiHookHighConvertingHeadlineCopywritingSuiteSkill",
+    displayName: "Multi Hook High Converting Headline Copywriting Suite",
+    categoryId: "writing",
+    description: "Drafts 10 high-converting headlines testing curiosity, benefit, urgency, and social proof hooks.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Hook High Converting Headline Copywriting Suite",
+      ruSectionName: "Композитный Multi-Skill: Multi Hook High Converting Headline Copywriting Suite",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Hook High Converting Headline Copywriting Suite.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Hook High Converting Headline Copywriting Suite.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-persuasive-copywriting-aida-framework": {
+    id: "writing-multi-multi-stage-persuasive-copywriting-aida-framework",
+    name: "MultiStagePersuasiveCopywritingAIDAFrameworkSkill",
+    displayName: "Multi Stage Persuasive Copywriting AIDA Framework",
+    categoryId: "writing",
+    description: "Structures sales copy following Attention, Interest, Desire, and Action persuasion steps.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Persuasive Copywriting AIDA Framework",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Persuasive Copywriting AIDA Framework",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Persuasive Copywriting AIDA Framework.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Persuasive Copywriting AIDA Framework.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-perspective-high-stakes-keynote-speechwriting": {
+    id: "writing-multi-multi-perspective-high-stakes-keynote-speechwriting",
+    name: "MultiPerspectiveHighStakesKeynoteSpeechwritingSkill",
+    displayName: "Multi Perspective High-Stakes Keynote Speechwriting",
+    categoryId: "writing",
+    description: "Crafts keynote speeches using tricolons, anaphora, vivid metaphors, and memorable calls-to-action.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective High-Stakes Keynote Speechwriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective High-Stakes Keynote Speechwriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective High-Stakes Keynote Speechwriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective High-Stakes Keynote Speechwriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-layer-passive-voice-elimination-active-clarity": {
+    id: "writing-multi-multi-layer-passive-voice-elimination-active-clarity",
+    name: "MultiLayerPassiveVoiceEliminationActiveClaritySkill",
+    displayName: "Multi Layer Passive Voice Elimination Active Clarity",
+    categoryId: "writing",
+    description: "Identifies and rewrites passive voice sentences into punchy, active-voice prose.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Passive Voice Elimination Active Clarity",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Passive Voice Elimination Active Clarity",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Passive Voice Elimination Active Clarity.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Passive Voice Elimination Active Clarity.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-brand-storytelling-origin-narrative-blueprint": {
+    id: "writing-multi-multi-format-brand-storytelling-origin-narrative-blueprint",
+    name: "MultiFormatBrandStorytellingOriginNarrativeBlueprintSkill",
+    displayName: "Multi Format Brand Storytelling Origin Narrative Blueprint",
+    categoryId: "writing",
+    description: "Crafts compelling brand origin stories highlighting founder struggle, breakthrough, and mission.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Brand Storytelling Origin Narrative Blueprint",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Brand Storytelling Origin Narrative Blueprint",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Brand Storytelling Origin Narrative Blueprint.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Brand Storytelling Origin Narrative Blueprint.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-creative-non-fiction-essay-narrative-arc": {
+    id: "writing-multi-multi-stage-creative-non-fiction-essay-narrative-arc",
+    name: "MultiStageCreativeNonFictionEssayNarrativeArcSkill",
+    displayName: "Multi Stage Creative Non Fiction Essay Narrative Arc",
+    categoryId: "writing",
+    description: "Structures personal essays balancing reflective introspection with vivid scene descriptions.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Creative Non Fiction Essay Narrative Arc",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Creative Non Fiction Essay Narrative Arc",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Creative Non Fiction Essay Narrative Arc.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Creative Non Fiction Essay Narrative Arc.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-perspective-rhetorical-metaphor-analogy-engineering": {
+    id: "writing-multi-multi-perspective-rhetorical-metaphor-analogy-engineering",
+    name: "MultiPerspectiveRhetoricalMetaphorAnalogyEngineeringSkill",
+    displayName: "Multi Perspective Rhetorical Metaphor Analogy Engineering",
+    categoryId: "writing",
+    description: "Crafts memorable metaphors and real-world analogies explaining abstract concepts.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Rhetorical Metaphor Analogy Engineering",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Rhetorical Metaphor Analogy Engineering",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Rhetorical Metaphor Analogy Engineering.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Rhetorical Metaphor Analogy Engineering.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-cold-email-outreach-sequence-copywriting": {
+    id: "writing-multi-multi-format-cold-email-outreach-sequence-copywriting",
+    name: "MultiFormatColdEmailOutreachSequenceCopywritingSkill",
+    displayName: "Multi Format Cold Email Outreach Sequence Copywriting",
+    categoryId: "writing",
+    description: "Drafts 4-step cold email sequences with high open-rate subject lines and low-friction CTAs.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Cold Email Outreach Sequence Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Cold Email Outreach Sequence Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Cold Email Outreach Sequence Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Cold Email Outreach Sequence Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-layer-jargon-simplification-plain-language-editing": {
+    id: "writing-multi-multi-layer-jargon-simplification-plain-language-editing",
+    name: "MultiLayerJargonSimplificationPlainLanguageEditingSkill",
+    displayName: "Multi Layer Jargon Simplification Plain Language Editing",
+    categoryId: "writing",
+    description: "Translates dense legal or medical jargon into clear, accessible plain language.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Jargon Simplification Plain Language Editing",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Jargon Simplification Plain Language Editing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Jargon Simplification Plain Language Editing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Jargon Simplification Plain Language Editing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-b2b-enterprise-case-study-storyboard": {
+    id: "writing-multi-multi-stage-b2b-enterprise-case-study-storyboard",
+    name: "MultiStageB2BEnterpriseCaseStudyStoryboardSkill",
+    displayName: "Multi Stage B2B Enterprise Case Study Storyboard",
+    categoryId: "writing",
+    description: "Structures customer case studies following Challenge, Solution, Implementation, and Results metrics.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage B2B Enterprise Case Study Storyboard",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage B2B Enterprise Case Study Storyboard",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage B2B Enterprise Case Study Storyboard.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage B2B Enterprise Case Study Storyboard.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-perspective-editorial-opinion-op-ed-column-writing": {
+    id: "writing-multi-multi-perspective-editorial-opinion-op-ed-column-writing",
+    name: "MultiPerspectiveEditorialOpinionOpEdColumnWritingSkill",
+    displayName: "Multi Perspective Editorial Opinion Op-Ed Column Writing",
+    categoryId: "writing",
+    description: "Crafts persuasive newspaper Op-Eds with strong hook, counterargument address, and sharp thesis.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Editorial Opinion Op-Ed Column Writing",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Editorial Opinion Op-Ed Column Writing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Editorial Opinion Op-Ed Column Writing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Editorial Opinion Op-Ed Column Writing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-newsletter-issue-editorial-layout": {
+    id: "writing-multi-multi-format-newsletter-issue-editorial-layout",
+    name: "MultiFormatNewsletterIssueEditorialLayoutSkill",
+    displayName: "Multi Format Newsletter Issue Editorial Layout",
+    categoryId: "writing",
+    description: "Formats engaging email newsletters with intro banter, core article, curated links, and sign-off.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Newsletter Issue Editorial Layout",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Newsletter Issue Editorial Layout",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Newsletter Issue Editorial Layout.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Newsletter Issue Editorial Layout.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-press-release-media-kit-copywriting": {
+    id: "writing-multi-multi-stage-press-release-media-kit-copywriting",
+    name: "MultiStagePressReleaseMediaKitCopywritingSkill",
+    displayName: "Multi Stage Press Release Media Kit Copywriting",
+    categoryId: "writing",
+    description: "Drafts AP-style press releases with attention headline, dateline, executive quotes, and boilerplate.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Press Release Media Kit Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Press Release Media Kit Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Press Release Media Kit Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Press Release Media Kit Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-layer-clich-buzzword-redundancy-elimination": {
+    id: "writing-multi-multi-layer-clich-buzzword-redundancy-elimination",
+    name: "MultiLayerClichBuzzwordRedundancyEliminationSkill",
+    displayName: "Multi Layer Cliché Buzzword Redundancy Elimination",
+    categoryId: "writing",
+    description: "Prunes corporate buzzwords ('synergy', 'leverage') and tautologies from written copy.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Cliché Buzzword Redundancy Elimination",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Cliché Buzzword Redundancy Elimination",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Cliché Buzzword Redundancy Elimination.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Cliché Buzzword Redundancy Elimination.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-perspective-debating-rebuttal-argument-drafting": {
+    id: "writing-multi-multi-perspective-debating-rebuttal-argument-drafting",
+    name: "MultiPerspectiveDebatingRebuttalArgumentDraftingSkill",
+    displayName: "Multi Perspective Debating Rebuttal Argument Drafting",
+    categoryId: "writing",
+    description: "Drafts sharp rebuttal responses anticipating and dismantling opposing arguments point-by-point.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Debating Rebuttal Argument Drafting",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Debating Rebuttal Argument Drafting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Debating Rebuttal Argument Drafting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Debating Rebuttal Argument Drafting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-e-commerce-product-description-copywriting": {
+    id: "writing-multi-multi-format-e-commerce-product-description-copywriting",
+    name: "MultiFormatECommerceProductDescriptionCopywritingSkill",
+    displayName: "Multi Format E-Commerce Product Description Copywriting",
+    categoryId: "writing",
+    description: "Writes SEO product descriptions balancing technical specs with emotional lifestyle benefits.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format E-Commerce Product Description Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Format E-Commerce Product Description Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format E-Commerce Product Description Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format E-Commerce Product Description Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-book-proposal-manuscript-sample-drafting": {
+    id: "writing-multi-multi-stage-book-proposal-manuscript-sample-drafting",
+    name: "MultiStageBookProposalManuscriptSampleDraftingSkill",
+    displayName: "Multi Stage Book Proposal Manuscript Sample Drafting",
+    categoryId: "writing",
+    description: "Drafts non-fiction book proposals including target market analysis, chapter outlines, and sample chapter.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Book Proposal Manuscript Sample Drafting",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Book Proposal Manuscript Sample Drafting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Book Proposal Manuscript Sample Drafting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Book Proposal Manuscript Sample Drafting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-layer-readability-flesch-kincaid-grade-optimization": {
+    id: "writing-multi-multi-layer-readability-flesch-kincaid-grade-optimization",
+    name: "MultiLayerReadabilityFleschKincaidGradeOptimizationSkill",
+    displayName: "Multi Layer Readability Flesch Kincaid Grade Optimization",
+    categoryId: "writing",
+    description: "Rewrites text adjusting reading grade level for maximum audience comprehension.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Readability Flesch Kincaid Grade Optimization",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Readability Flesch Kincaid Grade Optimization",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Readability Flesch Kincaid Grade Optimization.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Readability Flesch Kincaid Grade Optimization.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-social-media-micro-copy-captions": {
+    id: "writing-multi-multi-format-social-media-micro-copy-captions",
+    name: "MultiFormatSocialMediaMicroCopyCaptionsSkill",
+    displayName: "Multi Format Social Media Micro-Copy Captions",
+    categoryId: "writing",
+    description: "Crafts platform-native social captions for Instagram, LinkedIn, X, and Facebook.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Social Media Micro-Copy Captions",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Social Media Micro-Copy Captions",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Social Media Micro-Copy Captions.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Social Media Micro-Copy Captions.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-speech-ghostwriting-executive-voice-matching": {
+    id: "writing-multi-multi-stage-speech-ghostwriting-executive-voice-matching",
+    name: "MultiStageSpeechGhostwritingExecutiveVoiceMatchingSkill",
+    displayName: "Multi Stage Speech Ghostwriting Executive Voice Matching",
+    categoryId: "writing",
+    description: "Ghostwrites speeches matching an executive's unique vocal cadence, humor, and vocabulary.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Speech Ghostwriting Executive Voice Matching",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Speech Ghostwriting Executive Voice Matching",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Speech Ghostwriting Executive Voice Matching.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Speech Ghostwriting Executive Voice Matching.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-perspective-crisis-pr-communication-statement": {
+    id: "writing-multi-multi-perspective-crisis-pr-communication-statement",
+    name: "MultiPerspectiveCrisisPRCommunicationStatementSkill",
+    displayName: "Multi Perspective Crisis PR Communication Statement",
+    categoryId: "writing",
+    description: "Drafts empathetic crisis PR statements taking accountability and detailing corrective actions.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Crisis PR Communication Statement",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Crisis PR Communication Statement",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Crisis PR Communication Statement.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Crisis PR Communication Statement.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-layer-subheading-structural-rhythm-formatting": {
+    id: "writing-multi-multi-layer-subheading-structural-rhythm-formatting",
+    name: "MultiLayerSubheadingStructuralRhythmFormattingSkill",
+    displayName: "Multi Layer Subheading Structural Rhythm Formatting",
+    categoryId: "writing",
+    description: "Formats long articles with engaging subheadings breaking text into digestible chunks.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Subheading Structural Rhythm Formatting",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Subheading Structural Rhythm Formatting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Subheading Structural Rhythm Formatting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Subheading Structural Rhythm Formatting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-faq-knowledge-base-article-copywriting": {
+    id: "writing-multi-multi-format-faq-knowledge-base-article-copywriting",
+    name: "MultiFormatFAQKnowledgeBaseArticleCopywritingSkill",
+    displayName: "Multi Format FAQ Knowledge Base Article Copywriting",
+    categoryId: "writing",
+    description: "Writes clear FAQ articles answering customer questions with step-by-step instructions.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format FAQ Knowledge Base Article Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Format FAQ Knowledge Base Article Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format FAQ Knowledge Base Article Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format FAQ Knowledge Base Article Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-high-concept-fiction-worldbuilding-lore": {
+    id: "writing-multi-multi-stage-high-concept-fiction-worldbuilding-lore",
+    name: "MultiStageHighConceptFictionWorldbuildingLoreSkill",
+    displayName: "Multi Stage High Concept Fiction Worldbuilding Lore",
+    categoryId: "writing",
+    description: "Drafts rich lore documents describing fictional religions, historical conflicts, and magic rules.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage High Concept Fiction Worldbuilding Lore",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage High Concept Fiction Worldbuilding Lore",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage High Concept Fiction Worldbuilding Lore.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage High Concept Fiction Worldbuilding Lore.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-perspective-grant-proposal-narrative-copywriting": {
+    id: "writing-multi-multi-perspective-grant-proposal-narrative-copywriting",
+    name: "MultiPerspectiveGrantProposalNarrativeCopywritingSkill",
+    displayName: "Multi Perspective Grant Proposal Narrative Copywriting",
+    categoryId: "writing",
+    description: "Drafts persuasive grant proposals aligning project goals with funder priorities.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Grant Proposal Narrative Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Grant Proposal Narrative Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Grant Proposal Narrative Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Grant Proposal Narrative Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-layer-concise-copywriting-word-count-pruning": {
+    id: "writing-multi-multi-layer-concise-copywriting-word-count-pruning",
+    name: "MultiLayerConciseCopywritingWordCountPruningSkill",
+    displayName: "Multi Layer Concise Copywriting Word Count Pruning",
+    categoryId: "writing",
+    description: "Trims verbose prose by 30% without losing core meaning or emotional impact.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Concise Copywriting Word Count Pruning",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Concise Copywriting Word Count Pruning",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Concise Copywriting Word Count Pruning.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Concise Copywriting Word Count Pruning.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-video-script-voiceover-timing-copywriting": {
+    id: "writing-multi-multi-format-video-script-voiceover-timing-copywriting",
+    name: "MultiFormatVideoScriptVoiceoverTimingCopywritingSkill",
+    displayName: "Multi Format Video Script Voiceover Timing Copywriting",
+    categoryId: "writing",
+    description: "Writes video scripts with side-by-side visual scene cues and timed voiceover narration.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Video Script Voiceover Timing Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Video Script Voiceover Timing Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Video Script Voiceover Timing Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Video Script Voiceover Timing Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-saas-product-announcement-landing-page-copy": {
+    id: "writing-multi-multi-stage-saas-product-announcement-landing-page-copy",
+    name: "MultiStageSaaSProductAnnouncementLandingPageCopySkill",
+    displayName: "Multi Stage SaaS Product Announcement Landing Page Copy",
+    categoryId: "writing",
+    description: "Writes high-converting landing page copy highlighting hero headline, social proof, and pricing.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage SaaS Product Announcement Landing Page Copy",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage SaaS Product Announcement Landing Page Copy",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage SaaS Product Announcement Landing Page Copy.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage SaaS Product Announcement Landing Page Copy.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-perspective-academic-abstract-executive-summary": {
+    id: "writing-multi-multi-perspective-academic-abstract-executive-summary",
+    name: "MultiPerspectiveAcademicAbstractExecutiveSummarySkill",
+    displayName: "Multi Perspective Academic Abstract Executive Summary",
+    categoryId: "writing",
+    description: "Summarizes 30-page research papers into 250-word structured academic abstracts.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Academic Abstract Executive Summary",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Academic Abstract Executive Summary",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Academic Abstract Executive Summary.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Academic Abstract Executive Summary.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-layer-microcopy-ui-button-tooltip-copywriting": {
+    id: "writing-multi-multi-layer-microcopy-ui-button-tooltip-copywriting",
+    name: "MultiLayerMicrocopyUIButtonTooltipCopywritingSkill",
+    displayName: "Multi Layer Microcopy UI Button Tooltip Copywriting",
+    categoryId: "writing",
+    description: "Drafts intuitive UI microcopy for buttons, empty states, error messages, and onboarding.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Microcopy UI Button Tooltip Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Microcopy UI Button Tooltip Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Microcopy UI Button Tooltip Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Microcopy UI Button Tooltip Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-crowdfunding-video-pitch-scriptwriting": {
+    id: "writing-multi-multi-format-crowdfunding-video-pitch-scriptwriting",
+    name: "MultiFormatCrowdfundingVideoPitchScriptwritingSkill",
+    displayName: "Multi Format Crowdfunding Video Pitch Scriptwriting",
+    categoryId: "writing",
+    description: "Writes emotional Kickstarter pitch scripts introducing product creators, problem, and backer rewards.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Crowdfunding Video Pitch Scriptwriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Crowdfunding Video Pitch Scriptwriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Crowdfunding Video Pitch Scriptwriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Crowdfunding Video Pitch Scriptwriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-annual-corporate-impact-report-copywriting": {
+    id: "writing-multi-multi-stage-annual-corporate-impact-report-copywriting",
+    name: "MultiStageAnnualCorporateImpactReportCopywritingSkill",
+    displayName: "Multi Stage Annual Corporate Impact Report Copywriting",
+    categoryId: "writing",
+    description: "Writes corporate sustainability and annual report narratives showcasing ESG milestones.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Annual Corporate Impact Report Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Annual Corporate Impact Report Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Annual Corporate Impact Report Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Annual Corporate Impact Report Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-perspective-socratic-dialogue-prose-composition": {
+    id: "writing-multi-multi-perspective-socratic-dialogue-prose-composition",
+    name: "MultiPerspectiveSocraticDialogueProseCompositionSkill",
+    displayName: "Multi Perspective Socratic Dialogue Prose Composition",
+    categoryId: "writing",
+    description: "Drafts engaging Socratic dialogue essays exploring philosophical topics through two conversants.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Socratic Dialogue Prose Composition",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Socratic Dialogue Prose Composition",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Socratic Dialogue Prose Composition.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Socratic Dialogue Prose Composition.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-layer-sentence-variety-cadence-rhythm-editing": {
+    id: "writing-multi-multi-layer-sentence-variety-cadence-rhythm-editing",
+    name: "MultiLayerSentenceVarietyCadenceRhythmEditingSkill",
+    displayName: "Multi Layer Sentence Variety Cadence Rhythm Editing",
+    categoryId: "writing",
+    description: "Varies sentence lengths (short punchy vs long sweeping) creating engaging prose rhythm.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Sentence Variety Cadence Rhythm Editing",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Sentence Variety Cadence Rhythm Editing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Sentence Variety Cadence Rhythm Editing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Sentence Variety Cadence Rhythm Editing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-real-estate-luxury-property-copywriting": {
+    id: "writing-multi-multi-format-real-estate-luxury-property-copywriting",
+    name: "MultiFormatRealEstateLuxuryPropertyCopywritingSkill",
+    displayName: "Multi Format Real Estate Luxury Property Copywriting",
+    categoryId: "writing",
+    description: "Drafts evocative property descriptions highlighting architectural style and luxury finishes.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Real Estate Luxury Property Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Real Estate Luxury Property Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Real Estate Luxury Property Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Real Estate Luxury Property Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-historical-fiction-period-authentic-prose": {
+    id: "writing-multi-multi-stage-historical-fiction-period-authentic-prose",
+    name: "MultiStageHistoricalFictionPeriodAuthenticProseSkill",
+    displayName: "Multi Stage Historical Fiction Period Authentic Prose",
+    categoryId: "writing",
+    description: "Writes historical fiction dialogue using period-authentic vocabulary and sentence structures.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Historical Fiction Period Authentic Prose",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Historical Fiction Period Authentic Prose",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Historical Fiction Period Authentic Prose.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Historical Fiction Period Authentic Prose.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-perspective-anti-plagiarism-originality-rewriting": {
+    id: "writing-multi-multi-perspective-anti-plagiarism-originality-rewriting",
+    name: "MultiPerspectiveAntiPlagiarismOriginalityRewritingSkill",
+    displayName: "Multi Perspective Anti-Plagiarism Originality Rewriting",
+    categoryId: "writing",
+    description: "Rewrites research notes in original voice guaranteeing 100% unique prose.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Anti-Plagiarism Originality Rewriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Anti-Plagiarism Originality Rewriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Anti-Plagiarism Originality Rewriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Anti-Plagiarism Originality Rewriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-podcast-interview-intro-outro-scriptwriting": {
+    id: "writing-multi-multi-format-podcast-interview-intro-outro-scriptwriting",
+    name: "MultiFormatPodcastInterviewIntroOutroScriptwritingSkill",
+    displayName: "Multi Format Podcast Interview Intro Outro Scriptwriting",
+    categoryId: "writing",
+    description: "Writes punchy podcast episode intro hooks, sponsor reads, and guest introductions.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Podcast Interview Intro Outro Scriptwriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Podcast Interview Intro Outro Scriptwriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Podcast Interview Intro Outro Scriptwriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Podcast Interview Intro Outro Scriptwriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-layer-inclusive-language-accessibility-editing": {
+    id: "writing-multi-multi-layer-inclusive-language-accessibility-editing",
+    name: "MultiLayerInclusiveLanguageAccessibilityEditingSkill",
+    displayName: "Multi Layer Inclusive Language Accessibility Editing",
+    categoryId: "writing",
+    description: "Edits copy ensuring gender-neutral, accessible, and non-discriminatory language.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Inclusive Language Accessibility Editing",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Inclusive Language Accessibility Editing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Inclusive Language Accessibility Editing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Inclusive Language Accessibility Editing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-e-book-lead-magnet-chapter-copywriting": {
+    id: "writing-multi-multi-stage-e-book-lead-magnet-chapter-copywriting",
+    name: "MultiStageEBookLeadMagnetChapterCopywritingSkill",
+    displayName: "Multi Stage E-Book Lead Magnet Chapter Copywriting",
+    categoryId: "writing",
+    description: "Drafts actionable 20-page lead magnet e-books establishing authority and driving lead gen.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage E-Book Lead Magnet Chapter Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage E-Book Lead Magnet Chapter Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage E-Book Lead Magnet Chapter Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage E-Book Lead Magnet Chapter Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-perspective-satirical-humor-irony-copywriting": {
+    id: "writing-multi-multi-perspective-satirical-humor-irony-copywriting",
+    name: "MultiPerspectiveSatiricalHumorIronyCopywritingSkill",
+    displayName: "Multi Perspective Satirical Humor Irony Copywriting",
+    categoryId: "writing",
+    description: "Drafts sharp satirical articles using deadpan irony and exaggerated cultural satire.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Satirical Humor Irony Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Satirical Humor Irony Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Satirical Humor Irony Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Satirical Humor Irony Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-job-description-employer-value-proposition-copy": {
+    id: "writing-multi-multi-format-job-description-employer-value-proposition-copy",
+    name: "MultiFormatJobDescriptionEmployerValuePropositionCopySkill",
+    displayName: "Multi Format Job Description Employer Value Proposition Copy",
+    categoryId: "writing",
+    description: "Writes attractive job postings showcasing company culture, mission, and benefits.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Job Description Employer Value Proposition Copy",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Job Description Employer Value Proposition Copy",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Job Description Employer Value Proposition Copy.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Job Description Employer Value Proposition Copy.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-layer-transition-word-flow-cohesion-editing": {
+    id: "writing-multi-multi-layer-transition-word-flow-cohesion-editing",
+    name: "MultiLayerTransitionWordFlowCohesionEditingSkill",
+    displayName: "Multi Layer Transition Word Flow Cohesion Editing",
+    categoryId: "writing",
+    description: "Improves paragraph transitions using cohesive connecting words ('furthermore', 'conversely').",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Transition Word Flow Cohesion Editing",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Transition Word Flow Cohesion Editing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Transition Word Flow Cohesion Editing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Transition Word Flow Cohesion Editing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-non-profit-fundraising-appeal-letter-copywriting": {
+    id: "writing-multi-multi-stage-non-profit-fundraising-appeal-letter-copywriting",
+    name: "MultiStageNonProfitFundraisingAppealLetterCopywritingSkill",
+    displayName: "Multi Stage Non-Profit Fundraising Appeal Letter Copywriting",
+    categoryId: "writing",
+    description: "Writes emotional donor appeal letters driving recurring monthly donations.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Non-Profit Fundraising Appeal Letter Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Non-Profit Fundraising Appeal Letter Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Non-Profit Fundraising Appeal Letter Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Non-Profit Fundraising Appeal Letter Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-perspective-manifesto-visionary-statement-copywriting": {
+    id: "writing-multi-multi-perspective-manifesto-visionary-statement-copywriting",
+    name: "MultiPerspectiveManifestoVisionaryStatementCopywritingSkill",
+    displayName: "Multi Perspective Manifesto Visionary Statement Copywriting",
+    categoryId: "writing",
+    description: "Drafts inspiring company manifestos rallying employees and customers around a shared cause.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Manifesto Visionary Statement Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Manifesto Visionary Statement Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Manifesto Visionary Statement Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Manifesto Visionary Statement Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-testimonial-customer-review-polish-copywriting": {
+    id: "writing-multi-multi-format-testimonial-customer-review-polish-copywriting",
+    name: "MultiFormatTestimonialCustomerReviewPolishCopywritingSkill",
+    displayName: "Multi Format Testimonial Customer Review Polish Copywriting",
+    categoryId: "writing",
+    description: "Edits raw customer feedback into punchy, high-impact marketing quotes.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Testimonial Customer Review Polish Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Testimonial Customer Review Polish Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Testimonial Customer Review Polish Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Testimonial Customer Review Polish Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-cookbook-recipe-story-intro-copywriting": {
+    id: "writing-multi-multi-stage-cookbook-recipe-story-intro-copywriting",
+    name: "MultiStageCookbookRecipeStoryIntroCopywritingSkill",
+    displayName: "Multi Stage Cookbook Recipe Story Intro Copywriting",
+    categoryId: "writing",
+    description: "Writes engaging personal narrative intros for cookbook recipes celebrating family traditions.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Cookbook Recipe Story Intro Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Cookbook Recipe Story Intro Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Cookbook Recipe Story Intro Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Cookbook Recipe Story Intro Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-layer-punctuation-precision-grammar-editing": {
+    id: "writing-multi-multi-layer-punctuation-precision-grammar-editing",
+    name: "MultiLayerPunctuationPrecisionGrammarEditingSkill",
+    displayName: "Multi Layer Punctuation Precision Grammar Editing",
+    categoryId: "writing",
+    description: "Edits punctuation misuse (em-dashes, semicolons, Oxford commas) for publication readiness.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Punctuation Precision Grammar Editing",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Punctuation Precision Grammar Editing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Punctuation Precision Grammar Editing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Punctuation Precision Grammar Editing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-event-keynote-program-speaker-bio-copywriting": {
+    id: "writing-multi-multi-format-event-keynote-program-speaker-bio-copywriting",
+    name: "MultiFormatEventKeynoteProgramSpeakerBioCopywritingSkill",
+    displayName: "Multi Format Event Keynote Program Speaker Bio Copywriting",
+    categoryId: "writing",
+    description: "Drafts 50-word, 100-word, and 250-word professional speaker biographies.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Event Keynote Program Speaker Bio Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Event Keynote Program Speaker Bio Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Event Keynote Program Speaker Bio Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Event Keynote Program Speaker Bio Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-travel-guide-cultural-etiquette-copywriting": {
+    id: "writing-multi-multi-stage-travel-guide-cultural-etiquette-copywriting",
+    name: "MultiStageTravelGuideCulturalEtiquetteCopywritingSkill",
+    displayName: "Multi Stage Travel Guide Cultural Etiquette Copywriting",
+    categoryId: "writing",
+    description: "Drafts evocative travel destination guides highlighting hidden gems and cultural tips.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Travel Guide Cultural Etiquette Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Travel Guide Cultural Etiquette Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Travel Guide Cultural Etiquette Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Travel Guide Cultural Etiquette Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-perspective-moral-dilemma-story-scenario-copywriting": {
+    id: "writing-multi-multi-perspective-moral-dilemma-story-scenario-copywriting",
+    name: "MultiPerspectiveMoralDilemmaStoryScenarioCopywritingSkill",
+    displayName: "Multi Perspective Moral Dilemma Story Scenario Copywriting",
+    categoryId: "writing",
+    description: "Drafts ethics training case scenarios highlighting complex moral choices.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Moral Dilemma Story Scenario Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Moral Dilemma Story Scenario Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Perspective Moral Dilemma Story Scenario Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Perspective Moral Dilemma Story Scenario Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-kickstarter-reward-tier-description-copy": {
+    id: "writing-multi-multi-format-kickstarter-reward-tier-description-copy",
+    name: "MultiFormatKickstarterRewardTierDescriptionCopySkill",
+    displayName: "Multi Format Kickstarter Reward Tier Description Copy",
+    categoryId: "writing",
+    description: "Writes enticing crowdfunding backer reward tier descriptions driving higher pledges.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Kickstarter Reward Tier Description Copy",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Kickstarter Reward Tier Description Copy",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Kickstarter Reward Tier Description Copy.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Kickstarter Reward Tier Description Copy.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-layer-headline-subheadline-paragraph-harmony": {
+    id: "writing-multi-multi-layer-headline-subheadline-paragraph-harmony",
+    name: "MultiLayerHeadlineSubheadlineParagraphHarmonySkill",
+    displayName: "Multi Layer Headline Subheadline Paragraph Harmony",
+    categoryId: "writing",
+    description: "Harmonizes headline promises with subheadline context and body paragraph payoff.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Headline Subheadline Paragraph Harmony",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Headline Subheadline Paragraph Harmony",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Headline Subheadline Paragraph Harmony.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Headline Subheadline Paragraph Harmony.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-stage-technical-manual-troubleshooting-step-guide": {
+    id: "writing-multi-multi-stage-technical-manual-troubleshooting-step-guide",
+    name: "MultiStageTechnicalManualTroubleshootingStepGuideSkill",
+    displayName: "Multi Stage Technical Manual Troubleshooting Step Guide",
+    categoryId: "writing",
+    description: "Writes clear user manual guides with numbered steps, warnings, and troubleshooting tips.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Technical Manual Troubleshooting Step Guide",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Technical Manual Troubleshooting Step Guide",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Technical Manual Troubleshooting Step Guide.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Technical Manual Troubleshooting Step Guide.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-format-museum-exhibition-wall-text-copywriting": {
+    id: "writing-multi-multi-format-museum-exhibition-wall-text-copywriting",
+    name: "MultiFormatMuseumExhibitionWallTextCopywritingSkill",
+    displayName: "Multi Format Museum Exhibition Wall Text Copywriting",
+    categoryId: "writing",
+    description: "Drafts engaging 150-word museum wall placard descriptions for artwork exhibits.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Museum Exhibition Wall Text Copywriting",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Museum Exhibition Wall Text Copywriting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Museum Exhibition Wall Text Copywriting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Museum Exhibition Wall Text Copywriting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
+
+  "writing-multi-multi-horizon-master-prose-copywriting-editing-engine": {
+    id: "writing-multi-multi-horizon-master-prose-copywriting-editing-engine",
+    name: "MultiHorizonMasterProseCopywritingEditingEngineSkill",
+    displayName: "Multi Horizon Master Prose Copywriting Editing Engine",
+    categoryId: "writing",
+    description: "Enforces master literary style, persuasive copywriting, flawless grammar, and editorial mastery.",
+    tags: ["writing","multi-skill","writing-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Prose Copywriting Editing Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Prose Copywriting Editing Engine",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Horizon Master Prose Copywriting Editing Engine.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Horizon Master Prose Copywriting Editing Engine.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["writing","multi-skill","writing-multi"],
+    }),
+  },
 };
 

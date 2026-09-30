@@ -4278,5 +4278,1504 @@ export const CODING_SKILLS: Record<string, SkillDefinition> = {
       tags: ["coding","coding","master","software"],
     }),
   },
+  "coding-multi-multi-tier-full-stack-architecture-blueprint": {
+    id: "coding-multi-multi-tier-full-stack-architecture-blueprint",
+    name: "MultiTierFullStackArchitectureBlueprintSkill",
+    displayName: "Multi Tier Full Stack Architecture Blueprint",
+    categoryId: "coding",
+    description: "Designs client layer, API gateway, microservices, event bus, and database persistence layers.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Full Stack Architecture Blueprint",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Full Stack Architecture Blueprint",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Tier Full Stack Architecture Blueprint.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Tier Full Stack Architecture Blueprint.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-language-microservices-code-conversion": {
+    id: "coding-multi-multi-language-microservices-code-conversion",
+    name: "MultiLanguageMicroservicesCodeConversionSkill",
+    displayName: "Multi Language Microservices Code Conversion",
+    categoryId: "coding",
+    description: "Translates monolithic codebases (e.g. Java/Python) into polyglot microservices (Go/Rust/TypeScript).",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Language Microservices Code Conversion",
+      ruSectionName: "Композитный Multi-Skill: Multi Language Microservices Code Conversion",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Language Microservices Code Conversion.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Language Microservices Code Conversion.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-framework-web-ui-migration-pipeline": {
+    id: "coding-multi-multi-framework-web-ui-migration-pipeline",
+    name: "MultiFrameworkWebUIMigrationPipelineSkill",
+    displayName: "Multi Framework Web UI Migration Pipeline",
+    categoryId: "coding",
+    description: "Guides step-by-step migration from legacy frameworks (AngularJS/jQuery) to React/Next.js.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Framework Web UI Migration Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Framework Web UI Migration Pipeline",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Framework Web UI Migration Pipeline.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Framework Web UI Migration Pipeline.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-stage-test-driven-tdd-refactoring-suite": {
+    id: "coding-multi-multi-stage-test-driven-tdd-refactoring-suite",
+    name: "MultiStageTestDrivenTDDRefactoringSuiteSkill",
+    displayName: "Multi Stage Test Driven TDD Refactoring Suite",
+    categoryId: "coding",
+    description: "Enforces red-green-refactor TDD cycles with unit, integration, and end-to-end Playwright tests.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Test Driven TDD Refactoring Suite",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Test Driven TDD Refactoring Suite",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Test Driven TDD Refactoring Suite.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Test Driven TDD Refactoring Suite.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-layer-database-schema-migration-pipeline": {
+    id: "coding-multi-multi-layer-database-schema-migration-pipeline",
+    name: "MultiLayerDatabaseSchemaMigrationPipelineSkill",
+    displayName: "Multi Layer Database Schema Migration Pipeline",
+    categoryId: "coding",
+    description: "Executes zero-downtime database migrations with dual-writing, backward compatibility, and rollbacks.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Database Schema Migration Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Database Schema Migration Pipeline",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Database Schema Migration Pipeline.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Database Schema Migration Pipeline.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-api-integration-webhook-handler-pipeline": {
+    id: "coding-multi-multi-api-integration-webhook-handler-pipeline",
+    name: "MultiAPIIntegrationWebhookHandlerPipelineSkill",
+    displayName: "Multi API Integration Webhook Handler Pipeline",
+    categoryId: "coding",
+    description: "Builds resilient API integration handlers with exponential backoff retries, rate-limiting, and idempotency.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi API Integration Webhook Handler Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi API Integration Webhook Handler Pipeline",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi API Integration Webhook Handler Pipeline.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi API Integration Webhook Handler Pipeline.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-tenant-software-architecture-tenant-isolation": {
+    id: "coding-multi-multi-tenant-software-architecture-tenant-isolation",
+    name: "MultiTenantSoftwareArchitectureTenantIsolationSkill",
+    displayName: "Multi Tenant Software Architecture Tenant Isolation",
+    categoryId: "coding",
+    description: "Implements schema-per-tenant, row-level security (RLS), and dedicated database tenant isolation.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tenant Software Architecture Tenant Isolation",
+      ruSectionName: "Композитный Multi-Skill: Multi Tenant Software Architecture Tenant Isolation",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Tenant Software Architecture Tenant Isolation.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Tenant Software Architecture Tenant Isolation.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-threaded-concurrent-performance-optimization": {
+    id: "coding-multi-multi-threaded-concurrent-performance-optimization",
+    name: "MultiThreadedConcurrentPerformanceOptimizationSkill",
+    displayName: "Multi Threaded Concurrent Performance Optimization",
+    categoryId: "coding",
+    description: "Eliminates race conditions, deadlocks, and thread contention in high-concurrency systems.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Threaded Concurrent Performance Optimization",
+      ruSectionName: "Композитный Multi-Skill: Multi Threaded Concurrent Performance Optimization",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Threaded Concurrent Performance Optimization.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Threaded Concurrent Performance Optimization.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-cloud-infrastructure-as-code-terraform-pipeline": {
+    id: "coding-multi-multi-cloud-infrastructure-as-code-terraform-pipeline",
+    name: "MultiCloudInfrastructureasCodeTerraformPipelineSkill",
+    displayName: "Multi Cloud Infrastructure as Code Terraform Pipeline",
+    categoryId: "coding",
+    description: "Drafts modular Terraform and OpenTofu configurations for multi-region AWS/GCP/Azure deployments.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Cloud Infrastructure as Code Terraform Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Cloud Infrastructure as Code Terraform Pipeline",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Cloud Infrastructure as Code Terraform Pipeline.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Cloud Infrastructure as Code Terraform Pipeline.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-layer-application-security-ast-audit": {
+    id: "coding-multi-multi-layer-application-security-ast-audit",
+    name: "MultiLayerApplicationSecurityASTAuditSkill",
+    displayName: "Multi Layer Application Security AST Audit",
+    categoryId: "coding",
+    description: "Combines Static (SAST), Dynamic (DAST), and Software Bill of Materials (SBOM) vulnerability scans.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Application Security AST Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Application Security AST Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Application Security AST Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Application Security AST Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-model-ai-sdk-integration-pipeline": {
+    id: "coding-multi-multi-model-ai-sdk-integration-pipeline",
+    name: "MultiModelAISDKIntegrationPipelineSkill",
+    displayName: "Multi Model AI SDK Integration Pipeline",
+    categoryId: "coding",
+    description: "Integrates OpenAI, Anthropic, Gemini, and local Ollama models with unified fallback router.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Model AI SDK Integration Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Model AI SDK Integration Pipeline",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Model AI SDK Integration Pipeline.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Model AI SDK Integration Pipeline.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-format-data-serialization-parser-engine": {
+    id: "coding-multi-multi-format-data-serialization-parser-engine",
+    name: "MultiFormatDataSerializationParserEngineSkill",
+    displayName: "Multi Format Data Serialization Parser Engine",
+    categoryId: "coding",
+    description: "Parses, validates, and transforms JSON, XML, Protocol Buffers, Avro, and YAML streams.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Data Serialization Parser Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Data Serialization Parser Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Format Data Serialization Parser Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Format Data Serialization Parser Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-platform-cross-platform-mobile-codebase": {
+    id: "coding-multi-multi-platform-cross-platform-mobile-codebase",
+    name: "MultiPlatformCrossPlatformMobileCodebaseSkill",
+    displayName: "Multi Platform Cross Platform Mobile Codebase",
+    categoryId: "coding",
+    description: "Builds React Native or Flutter applications with native device bridge modules.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Cross Platform Mobile Codebase",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Cross Platform Mobile Codebase",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Platform Cross Platform Mobile Codebase.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Platform Cross Platform Mobile Codebase.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-service-graphql-federation-schema-weaver": {
+    id: "coding-multi-multi-service-graphql-federation-schema-weaver",
+    name: "MultiServiceGraphQLFederationSchemaWeaverSkill",
+    displayName: "Multi Service GraphQL Federation Schema Weaver",
+    categoryId: "coding",
+    description: "Weaves distributed subgraph schemas into a unified Apollo/Rover GraphQL gateway.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Service GraphQL Federation Schema Weaver",
+      ruSectionName: "Композитный Multi-Skill: Multi Service GraphQL Federation Schema Weaver",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Service GraphQL Federation Schema Weaver.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Service GraphQL Federation Schema Weaver.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-stage-ci-cd-pipeline-optimization": {
+    id: "coding-multi-multi-stage-ci-cd-pipeline-optimization",
+    name: "MultiStageCICDPipelineOptimizationSkill",
+    displayName: "Multi Stage CI CD Pipeline Optimization",
+    categoryId: "coding",
+    description: "Optimizes GitHub Actions/GitLab CI jobs with parallel matrix builds, caching, and artifact reuse.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage CI CD Pipeline Optimization",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage CI CD Pipeline Optimization",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage CI CD Pipeline Optimization.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage CI CD Pipeline Optimization.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-layer-caching-redis-cdn-cache-invalidation": {
+    id: "coding-multi-multi-layer-caching-redis-cdn-cache-invalidation",
+    name: "MultiLayerCachingRedisCDNCacheInvalidationSkill",
+    displayName: "Multi Layer Caching Redis CDN Cache Invalidation",
+    categoryId: "coding",
+    description: "Implements cache-aside, write-through, and stale-while-revalidate caching strategies.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Caching Redis CDN Cache Invalidation",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Caching Redis CDN Cache Invalidation",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Caching Redis CDN Cache Invalidation.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Caching Redis CDN Cache Invalidation.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-provider-oauth2-oidc-auth-architecture": {
+    id: "coding-multi-multi-provider-oauth2-oidc-auth-architecture",
+    name: "MultiProviderOAuth2OIDCAuthArchitectureSkill",
+    displayName: "Multi Provider OAuth2 OIDC Auth Architecture",
+    categoryId: "coding",
+    description: "Implements social logins, SAML single sign-on (SSO), JWT refresh tokens, and RBAC authorization.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider OAuth2 OIDC Auth Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider OAuth2 OIDC Auth Architecture",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Provider OAuth2 OIDC Auth Architecture.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Provider OAuth2 OIDC Auth Architecture.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-stage-docker-container-security-optimization": {
+    id: "coding-multi-multi-stage-docker-container-security-optimization",
+    name: "MultiStageDockerContainerSecurityOptimizationSkill",
+    displayName: "Multi Stage Docker Container Security Optimization",
+    categoryId: "coding",
+    description: "Builds multi-stage minimal Distroless Docker containers with non-root execution and vulnerability scanning.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Docker Container Security Optimization",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Docker Container Security Optimization",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Docker Container Security Optimization.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Docker Container Security Optimization.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-protocol-network-communication-engine": {
+    id: "coding-multi-multi-protocol-network-communication-engine",
+    name: "MultiProtocolNetworkCommunicationEngineSkill",
+    displayName: "Multi Protocol Network Communication Engine",
+    categoryId: "coding",
+    description: "Implements HTTP/2, gRPC, WebSockets, and WebRTC protocols in high-performance servers.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Protocol Network Communication Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Protocol Network Communication Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Protocol Network Communication Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Protocol Network Communication Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-engine-search-vector-database-pipeline": {
+    id: "coding-multi-multi-engine-search-vector-database-pipeline",
+    name: "MultiEngineSearchVectorDatabasePipelineSkill",
+    displayName: "Multi Engine Search Vector Database Pipeline",
+    categoryId: "coding",
+    description: "Integrates Elasticsearch, Pinecone, and Pgvector for hybrid keyword and semantic vector search.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Engine Search Vector Database Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Engine Search Vector Database Pipeline",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Engine Search Vector Database Pipeline.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Engine Search Vector Database Pipeline.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-version-rest-api-backward-compatibility-router": {
+    id: "coding-multi-multi-version-rest-api-backward-compatibility-router",
+    name: "MultiVersionRESTAPIBackwardCompatibilityRouterSkill",
+    displayName: "Multi Version REST API Backward Compatibility Router",
+    categoryId: "coding",
+    description: "Manages API version deprecation, header-based routing, and request/response transformation middleware.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Version REST API Backward Compatibility Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Version REST API Backward Compatibility Router",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Version REST API Backward Compatibility Router.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Version REST API Backward Compatibility Router.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-region-high-availability-database-replication": {
+    id: "coding-multi-multi-region-high-availability-database-replication",
+    name: "MultiRegionHighAvailabilityDatabaseReplicationSkill",
+    displayName: "Multi Region High Availability Database Replication",
+    categoryId: "coding",
+    description: "Configures active-passive and active-active multi-region PostgreSQL/MySQL streaming replication.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Region High Availability Database Replication",
+      ruSectionName: "Композитный Multi-Skill: Multi Region High Availability Database Replication",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Region High Availability Database Replication.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Region High Availability Database Replication.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-engine-front-end-state-management-architecture": {
+    id: "coding-multi-multi-engine-front-end-state-management-architecture",
+    name: "MultiEngineFrontEndStateManagementArchitectureSkill",
+    displayName: "Multi Engine Front End State Management Architecture",
+    categoryId: "coding",
+    description: "Combines Zustand, Redux Toolkit, React Query, and Jotai for client and server state management.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Engine Front End State Management Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Engine Front End State Management Architecture",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Engine Front End State Management Architecture.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Engine Front End State Management Architecture.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-layer-error-handling-fault-tolerance-circuit-breaker": {
+    id: "coding-multi-multi-layer-error-handling-fault-tolerance-circuit-breaker",
+    name: "MultiLayerErrorHandlingFaultToleranceCircuitBreakerSkill",
+    displayName: "Multi Layer Error Handling Fault Tolerance Circuit Breaker",
+    categoryId: "coding",
+    description: "Implements resilience4j/hystrix circuit breakers, fallback responses, and error boundary components.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Error Handling Fault Tolerance Circuit Breaker",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Error Handling Fault Tolerance Circuit Breaker",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Error Handling Fault Tolerance Circuit Breaker.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Error Handling Fault Tolerance Circuit Breaker.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-format-document-generator-engine-pdf-html-xlsx": {
+    id: "coding-multi-multi-format-document-generator-engine-pdf-html-xlsx",
+    name: "MultiFormatDocumentGeneratorEnginePDFHTMLXLSXSkill",
+    displayName: "Multi Format Document Generator Engine PDF HTML XLSX",
+    categoryId: "coding",
+    description: "Generates dynamic PDFs, Excel workbooks, CSV exports, and HTML reports programmatically.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Document Generator Engine PDF HTML XLSX",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Document Generator Engine PDF HTML XLSX",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Format Document Generator Engine PDF HTML XLSX.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Format Document Generator Engine PDF HTML XLSX.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-engine-automated-ui-component-library-storybook": {
+    id: "coding-multi-multi-engine-automated-ui-component-library-storybook",
+    name: "MultiEngineAutomatedUIComponentLibraryStorybookSkill",
+    displayName: "Multi Engine Automated UI Component Library Storybook",
+    categoryId: "coding",
+    description: "Builds atomic design component libraries in React/Tailwind documented in Storybook with visual regression.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Engine Automated UI Component Library Storybook",
+      ruSectionName: "Композитный Multi-Skill: Multi Engine Automated UI Component Library Storybook",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Engine Automated UI Component Library Storybook.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Engine Automated UI Component Library Storybook.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-stage-memory-leak-heap-allocation-diagnostics": {
+    id: "coding-multi-multi-stage-memory-leak-heap-allocation-diagnostics",
+    name: "MultiStageMemoryLeakHeapAllocationDiagnosticsSkill",
+    displayName: "Multi Stage Memory Leak Heap Allocation Diagnostics",
+    categoryId: "coding",
+    description: "Diagnoses garbage collection pauses, retainers, and memory leaks using Chrome DevTools/Valgrind.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Memory Leak Heap Allocation Diagnostics",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Memory Leak Heap Allocation Diagnostics",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Memory Leak Heap Allocation Diagnostics.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Memory Leak Heap Allocation Diagnostics.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-engine-edge-computing-cloudflare-workers-deployment": {
+    id: "coding-multi-multi-engine-edge-computing-cloudflare-workers-deployment",
+    name: "MultiEngineEdgeComputingCloudflareWorkersDeploymentSkill",
+    displayName: "Multi Engine Edge Computing Cloudflare Workers Deployment",
+    categoryId: "coding",
+    description: "Deploys low-latency TypeScript functions to Edge runtimes (Cloudflare Workers, Vercel Edge, Fastly).",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Engine Edge Computing Cloudflare Workers Deployment",
+      ruSectionName: "Композитный Multi-Skill: Multi Engine Edge Computing Cloudflare Workers Deployment",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Engine Edge Computing Cloudflare Workers Deployment.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Engine Edge Computing Cloudflare Workers Deployment.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-layer-webassembly-wasm-high-performance-module": {
+    id: "coding-multi-multi-layer-webassembly-wasm-high-performance-module",
+    name: "MultiLayerWebAssemblyWasmHighPerformanceModuleSkill",
+    displayName: "Multi Layer WebAssembly Wasm High Performance Module",
+    categoryId: "coding",
+    description: "Compiles Rust/C++ modules to WASM for browser-side video processing, crypto, and heavy calculations.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer WebAssembly Wasm High Performance Module",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer WebAssembly Wasm High Performance Module",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer WebAssembly Wasm High Performance Module.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer WebAssembly Wasm High Performance Module.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-engine-distributed-event-stream-kafka-pipeline": {
+    id: "coding-multi-multi-engine-distributed-event-stream-kafka-pipeline",
+    name: "MultiEngineDistributedEventStreamKafkaPipelineSkill",
+    displayName: "Multi Engine Distributed Event Stream Kafka Pipeline",
+    categoryId: "coding",
+    description: "Builds Apache Kafka/RabbitMQ consumer groups, dead-letter queues, and event sourcing log streams.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Engine Distributed Event Stream Kafka Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Engine Distributed Event Stream Kafka Pipeline",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Engine Distributed Event Stream Kafka Pipeline.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Engine Distributed Event Stream Kafka Pipeline.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-platform-desktop-electron-tauri-app-engineering": {
+    id: "coding-multi-multi-platform-desktop-electron-tauri-app-engineering",
+    name: "MultiPlatformDesktopElectronTauriAppEngineeringSkill",
+    displayName: "Multi Platform Desktop Electron Tauri App Engineering",
+    categoryId: "coding",
+    description: "Builds cross-platform desktop applications using Tauri/Rust or Electron with native OS bindings.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Desktop Electron Tauri App Engineering",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Desktop Electron Tauri App Engineering",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Platform Desktop Electron Tauri App Engineering.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Platform Desktop Electron Tauri App Engineering.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-layer-real-time-websockets-collaboration-canvas": {
+    id: "coding-multi-multi-layer-real-time-websockets-collaboration-canvas",
+    name: "MultiLayerRealTimeWebSocketsCollaborationCanvasSkill",
+    displayName: "Multi Layer Real Time WebSockets Collaboration Canvas",
+    categoryId: "coding",
+    description: "Builds collaborative canvas engines using Yjs, WebSockets, and CRDT conflict resolution.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Real Time WebSockets Collaboration Canvas",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Real Time WebSockets Collaboration Canvas",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Real Time WebSockets Collaboration Canvas.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Real Time WebSockets Collaboration Canvas.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-engine-automated-ast-code-refactoring-codemod": {
+    id: "coding-multi-multi-engine-automated-ast-code-refactoring-codemod",
+    name: "MultiEngineAutomatedASTCodeRefactoringCodemodSkill",
+    displayName: "Multi Engine Automated AST Code Refactoring Codemod",
+    categoryId: "coding",
+    description: "Writes jscodeshift and Babel AST codemods to refactor thousands of source files automatically.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Engine Automated AST Code Refactoring Codemod",
+      ruSectionName: "Композитный Multi-Skill: Multi Engine Automated AST Code Refactoring Codemod",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Engine Automated AST Code Refactoring Codemod.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Engine Automated AST Code Refactoring Codemod.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-provider-cloud-storage-s3-blob-architecture": {
+    id: "coding-multi-multi-provider-cloud-storage-s3-blob-architecture",
+    name: "MultiProviderCloudStorageS3BlobArchitectureSkill",
+    displayName: "Multi Provider Cloud Storage S3 Blob Architecture",
+    categoryId: "coding",
+    description: "Builds abstracted file storage backends interfacing with AWS S3, Google Cloud Storage, and Azure Blobs.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider Cloud Storage S3 Blob Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider Cloud Storage S3 Blob Architecture",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Provider Cloud Storage S3 Blob Architecture.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Provider Cloud Storage S3 Blob Architecture.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-stage-web-performance-core-web-vitals-optimization": {
+    id: "coding-multi-multi-stage-web-performance-core-web-vitals-optimization",
+    name: "MultiStageWebPerformanceCoreWebVitalsOptimizationSkill",
+    displayName: "Multi Stage Web Performance Core Web Vitals Optimization",
+    categoryId: "coding",
+    description: "Optimizes LCP, FID/INP, and CLS scores through code-splitting, image compression, and font subsetting.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Web Performance Core Web Vitals Optimization",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Web Performance Core Web Vitals Optimization",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Web Performance Core Web Vitals Optimization.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Web Performance Core Web Vitals Optimization.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-engine-distributed-task-queue-celery-bullmq": {
+    id: "coding-multi-multi-engine-distributed-task-queue-celery-bullmq",
+    name: "MultiEngineDistributedTaskQueueCeleryBullMQSkill",
+    displayName: "Multi Engine Distributed Task Queue Celery BullMQ",
+    categoryId: "coding",
+    description: "Builds distributed background job processing with BullMQ/Celery, Redis locks, and progress tracking.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Engine Distributed Task Queue Celery BullMQ",
+      ruSectionName: "Композитный Multi-Skill: Multi Engine Distributed Task Queue Celery BullMQ",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Engine Distributed Task Queue Celery BullMQ.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Engine Distributed Task Queue Celery BullMQ.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-engine-headless-cms-content-integration": {
+    id: "coding-multi-multi-engine-headless-cms-content-integration",
+    name: "MultiEngineHeadlessCMSContentIntegrationSkill",
+    displayName: "Multi Engine Headless CMS Content Integration",
+    categoryId: "coding",
+    description: "Integrates Strapi, Sanity, and Contentful with Next.js Incremental Static Regeneration (ISR).",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Engine Headless CMS Content Integration",
+      ruSectionName: "Композитный Multi-Skill: Multi Engine Headless CMS Content Integration",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Engine Headless CMS Content Integration.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Engine Headless CMS Content Integration.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-layer-linux-kernel-ebpf-monitoring-engine": {
+    id: "coding-multi-multi-layer-linux-kernel-ebpf-monitoring-engine",
+    name: "MultiLayerLinuxKerneleBPFMonitoringEngineSkill",
+    displayName: "Multi Layer Linux Kernel eBPF Monitoring Engine",
+    categoryId: "coding",
+    description: "Writes C eBPF probes for low-overhead kernel event tracing, network packet filtering, and profiling.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Linux Kernel eBPF Monitoring Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Linux Kernel eBPF Monitoring Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Linux Kernel eBPF Monitoring Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Linux Kernel eBPF Monitoring Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-framework-e-commerce-cart-checkout-engine": {
+    id: "coding-multi-multi-framework-e-commerce-cart-checkout-engine",
+    name: "MultiFrameworkECommerceCartCheckoutEngineSkill",
+    displayName: "Multi Framework E Commerce Cart Checkout Engine",
+    categoryId: "coding",
+    description: "Builds custom checkout engines interfacing with Stripe, PayPal, Adyen, and Apple Pay.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Framework E Commerce Cart Checkout Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Framework E Commerce Cart Checkout Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Framework E Commerce Cart Checkout Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Framework E Commerce Cart Checkout Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-stage-automated-code-review-bot-github-app": {
+    id: "coding-multi-multi-stage-automated-code-review-bot-github-app",
+    name: "MultiStageAutomatedCodeReviewBotGithubAppSkill",
+    displayName: "Multi Stage Automated Code Review Bot Github App",
+    categoryId: "coding",
+    description: "Builds custom GitHub Action bot checking PR diffs against team style guides and security rules.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Automated Code Review Bot Github App",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Automated Code Review Bot Github App",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Automated Code Review Bot Github App.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Automated Code Review Bot Github App.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-engine-web-gl-3d-spatial-rendering-canvas": {
+    id: "coding-multi-multi-engine-web-gl-3d-spatial-rendering-canvas",
+    name: "MultiEngineWebGL3DSpatialRenderingCanvasSkill",
+    displayName: "Multi Engine Web GL 3D Spatial Rendering Canvas",
+    categoryId: "coding",
+    description: "Builds Three.js/WebGL 3D product configurators with shader materials and lighting effects.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Engine Web GL 3D Spatial Rendering Canvas",
+      ruSectionName: "Композитный Multi-Skill: Multi Engine Web GL 3D Spatial Rendering Canvas",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Engine Web GL 3D Spatial Rendering Canvas.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Engine Web GL 3D Spatial Rendering Canvas.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-provider-push-notification-fcm-apns-engine": {
+    id: "coding-multi-multi-provider-push-notification-fcm-apns-engine",
+    name: "MultiProviderPushNotificationFCMAPNSEngineSkill",
+    displayName: "Multi Provider Push Notification FCM APNS Engine",
+    categoryId: "coding",
+    description: "Sends push notifications across Apple APNs, Google FCM, and Web Push with delivery tracking.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider Push Notification FCM APNS Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider Push Notification FCM APNS Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Provider Push Notification FCM APNS Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Provider Push Notification FCM APNS Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-engine-micro-frontends-module-federation-setup": {
+    id: "coding-multi-multi-engine-micro-frontends-module-federation-setup",
+    name: "MultiEngineMicroFrontendsModuleFederationSetupSkill",
+    displayName: "Multi Engine Micro Frontends Module Federation Setup",
+    categoryId: "coding",
+    description: "Configures Webpack Module Federation / Vite federation loading independent micro frontend apps.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Engine Micro Frontends Module Federation Setup",
+      ruSectionName: "Композитный Multi-Skill: Multi Engine Micro Frontends Module Federation Setup",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Engine Micro Frontends Module Federation Setup.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Engine Micro Frontends Module Federation Setup.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-stage-compiler-parser-lexer-abstract-syntax-tree": {
+    id: "coding-multi-multi-stage-compiler-parser-lexer-abstract-syntax-tree",
+    name: "MultiStageCompilerParserLexerAbstractSyntaxTreeSkill",
+    displayName: "Multi Stage Compiler Parser Lexer Abstract Syntax Tree",
+    categoryId: "coding",
+    description: "Builds custom domain-specific language (DSL) compilers with lexers, parsers, and code generators.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Compiler Parser Lexer Abstract Syntax Tree",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Compiler Parser Lexer Abstract Syntax Tree",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Compiler Parser Lexer Abstract Syntax Tree.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Compiler Parser Lexer Abstract Syntax Tree.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-layer-embedded-iot-c-firmware-architecture": {
+    id: "coding-multi-multi-layer-embedded-iot-c-firmware-architecture",
+    name: "MultiLayerEmbeddedIoTCFirmwareArchitectureSkill",
+    displayName: "Multi Layer Embedded IoT C Firmware Architecture",
+    categoryId: "coding",
+    description: "Writes RTOS memory-constrained C/C++ firmware for ESP32/ARM Cortex with OTA updates.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Embedded IoT C Firmware Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Embedded IoT C Firmware Architecture",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Embedded IoT C Firmware Architecture.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Embedded IoT C Firmware Architecture.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-engine-audio-processing-web-audio-api-engine": {
+    id: "coding-multi-multi-engine-audio-processing-web-audio-api-engine",
+    name: "MultiEngineAudioProcessingWebAudioAPIEngineSkill",
+    displayName: "Multi Engine Audio Processing Web Audio API Engine",
+    categoryId: "coding",
+    description: "Builds browser-side audio visualizers, synthesizers, and real-time effects using Web Audio API.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Engine Audio Processing Web Audio API Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Engine Audio Processing Web Audio API Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Engine Audio Processing Web Audio API Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Engine Audio Processing Web Audio API Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-provider-payment-gateway-subscription-engine": {
+    id: "coding-multi-multi-provider-payment-gateway-subscription-engine",
+    name: "MultiProviderPaymentGatewaySubscriptionEngineSkill",
+    displayName: "Multi Provider Payment Gateway Subscription Engine",
+    categoryId: "coding",
+    description: "Handles dunning management, tax calculation (Avalara/TaxJar), and invoice generation.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider Payment Gateway Subscription Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider Payment Gateway Subscription Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Provider Payment Gateway Subscription Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Provider Payment Gateway Subscription Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-stage-automated-accessibility-wcag-2-1-aa-audit": {
+    id: "coding-multi-multi-stage-automated-accessibility-wcag-2-1-aa-audit",
+    name: "MultiStageAutomatedAccessibilityWCAG21AAAuditSkill",
+    displayName: "Multi Stage Automated Accessibility WCAG 2 1 AA Audit",
+    categoryId: "coding",
+    description: "Scans UI components with axe-core, ARIA attributes, keyboard focus trap management, and screen readers.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Automated Accessibility WCAG 2 1 AA Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Automated Accessibility WCAG 2 1 AA Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Automated Accessibility WCAG 2 1 AA Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Automated Accessibility WCAG 2 1 AA Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-engine-geospatial-mapping-gis-leaflet-mapbox": {
+    id: "coding-multi-multi-engine-geospatial-mapping-gis-leaflet-mapbox",
+    name: "MultiEngineGeospatialMappingGISLeafletMapboxSkill",
+    displayName: "Multi Engine Geospatial Mapping GIS Leaflet Mapbox",
+    categoryId: "coding",
+    description: "Renders vector map tiles, spatial GeoJSON polygons, and marker clustering with Mapbox/Leaflet.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Engine Geospatial Mapping GIS Leaflet Mapbox",
+      ruSectionName: "Композитный Multi-Skill: Multi Engine Geospatial Mapping GIS Leaflet Mapbox",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Engine Geospatial Mapping GIS Leaflet Mapbox.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Engine Geospatial Mapping GIS Leaflet Mapbox.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-provider-sms-communications-twitch-stream-bot": {
+    id: "coding-multi-multi-provider-sms-communications-twitch-stream-bot",
+    name: "MultiProviderSMSCommunicationsTwitchStreamBotSkill",
+    displayName: "Multi Provider SMS Communications Twitch Stream Bot",
+    categoryId: "coding",
+    description: "Integrates Twilio, MessageBird, and Discord API bots for automated alert dispatches.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider SMS Communications Twitch Stream Bot",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider SMS Communications Twitch Stream Bot",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Provider SMS Communications Twitch Stream Bot.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Provider SMS Communications Twitch Stream Bot.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-layer-distributed-lock-redlock-concurrency": {
+    id: "coding-multi-multi-layer-distributed-lock-redlock-concurrency",
+    name: "MultiLayerDistributedLockRedlockConcurrencySkill",
+    displayName: "Multi Layer Distributed Lock Redlock Concurrency",
+    categoryId: "coding",
+    description: "Implements distributed locking algorithms across Redis clusters preventing double-execution.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Distributed Lock Redlock Concurrency",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Distributed Lock Redlock Concurrency",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Distributed Lock Redlock Concurrency.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Distributed Lock Redlock Concurrency.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-engine-automated-api-documentation-openapi-swagger": {
+    id: "coding-multi-multi-engine-automated-api-documentation-openapi-swagger",
+    name: "MultiEngineAutomatedAPIDocumentationOpenAPISwaggerSkill",
+    displayName: "Multi Engine Automated API Documentation OpenAPI Swagger",
+    categoryId: "coding",
+    description: "Generates interactive Swagger UI, Scalar, and Redoc documentation from inline code annotations.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Engine Automated API Documentation OpenAPI Swagger",
+      ruSectionName: "Композитный Multi-Skill: Multi Engine Automated API Documentation OpenAPI Swagger",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Engine Automated API Documentation OpenAPI Swagger.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Engine Automated API Documentation OpenAPI Swagger.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-stage-full-text-indexing-elasticsearch-solr": {
+    id: "coding-multi-multi-stage-full-text-indexing-elasticsearch-solr",
+    name: "MultiStageFullTextIndexingElasticsearchSolrSkill",
+    displayName: "Multi Stage Full Text Indexing Elasticsearch Solr",
+    categoryId: "coding",
+    description: "Configures custom tokenizers, n-grams, stemming, and fuzzy matching for enterprise search.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Full Text Indexing Elasticsearch Solr",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Full Text Indexing Elasticsearch Solr",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Full Text Indexing Elasticsearch Solr.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Full Text Indexing Elasticsearch Solr.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-platform-mobile-pwa-progressive-web-app": {
+    id: "coding-multi-multi-platform-mobile-pwa-progressive-web-app",
+    name: "MultiPlatformMobilePWAProgressiveWebAppSkill",
+    displayName: "Multi Platform Mobile PWA Progressive Web App",
+    categoryId: "coding",
+    description: "Converts web apps into PWAs with service worker offline caching, manifest files, and install prompts.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Mobile PWA Progressive Web App",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Mobile PWA Progressive Web App",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Platform Mobile PWA Progressive Web App.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Platform Mobile PWA Progressive Web App.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-layer-cryptography-zero-knowledge-proof-zkp-module": {
+    id: "coding-multi-multi-layer-cryptography-zero-knowledge-proof-zkp-module",
+    name: "MultiLayerCryptographyZeroKnowledgeProofZKPModuleSkill",
+    displayName: "Multi Layer Cryptography Zero Knowledge Proof ZKP Module",
+    categoryId: "coding",
+    description: "Implements zk-SNARKs and elliptic curve cryptography for privacy-preserving verification.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Cryptography Zero Knowledge Proof ZKP Module",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Cryptography Zero Knowledge Proof ZKP Module",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Cryptography Zero Knowledge Proof ZKP Module.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Cryptography Zero Knowledge Proof ZKP Module.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-engine-game-engine-unity-c-webgl-pipeline": {
+    id: "coding-multi-multi-engine-game-engine-unity-c-webgl-pipeline",
+    name: "MultiEngineGameEngineUnityCWebGLPipelineSkill",
+    displayName: "Multi Engine Game Engine Unity C WebGL Pipeline",
+    categoryId: "coding",
+    description: "Optimizes C# scripts, draw calls, and texture atlases for WebGL browser deployment.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Engine Game Engine Unity C WebGL Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Engine Game Engine Unity C WebGL Pipeline",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Engine Game Engine Unity C WebGL Pipeline.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Engine Game Engine Unity C WebGL Pipeline.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-provider-llm-rag-vector-search-embedding-pipeline": {
+    id: "coding-multi-multi-provider-llm-rag-vector-search-embedding-pipeline",
+    name: "MultiProviderLLMRAGVectorSearchEmbeddingPipelineSkill",
+    displayName: "Multi Provider LLM RAG Vector Search Embedding Pipeline",
+    categoryId: "coding",
+    description: "Builds chunking, embedding generation, reranking (Cohere), and vector DB retrieval.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider LLM RAG Vector Search Embedding Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider LLM RAG Vector Search Embedding Pipeline",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Provider LLM RAG Vector Search Embedding Pipeline.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Provider LLM RAG Vector Search Embedding Pipeline.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-stage-automated-database-seeding-factory": {
+    id: "coding-multi-multi-stage-automated-database-seeding-factory",
+    name: "MultiStageAutomatedDatabaseSeedingFactorySkill",
+    displayName: "Multi Stage Automated Database Seeding Factory",
+    categoryId: "coding",
+    description: "Generates realistic, schema-compliant synthetic test data with foreign key relationships.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Automated Database Seeding Factory",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Automated Database Seeding Factory",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Automated Database Seeding Factory.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Automated Database Seeding Factory.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-layer-high-availability-dns-load-balancing-engine": {
+    id: "coding-multi-multi-layer-high-availability-dns-load-balancing-engine",
+    name: "MultiLayerHighAvailabilityDNSLoadBalancingEngineSkill",
+    displayName: "Multi Layer High Availability DNS Load Balancing Engine",
+    categoryId: "coding",
+    description: "Configures GeoDNS routing, health check failover, and Anycast IP routing.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer High Availability DNS Load Balancing Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer High Availability DNS Load Balancing Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer High Availability DNS Load Balancing Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer High Availability DNS Load Balancing Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
+
+  "coding-multi-multi-perspective-master-software-engineering-blueprint": {
+    id: "coding-multi-multi-perspective-master-software-engineering-blueprint",
+    name: "MultiPerspectiveMasterSoftwareEngineeringBlueprintSkill",
+    displayName: "Multi Perspective Master Software Engineering Blueprint",
+    categoryId: "coding",
+    description: "Enforces master full-stack software architecture, clean code standards, and production readiness.",
+    tags: ["coding","multi-skill","coding-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Master Software Engineering Blueprint",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Master Software Engineering Blueprint",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Perspective Master Software Engineering Blueprint.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Perspective Master Software Engineering Blueprint.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["coding","multi-skill","coding-multi"],
+    }),
+  },
 };
 

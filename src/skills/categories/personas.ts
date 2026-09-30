@@ -4322,4 +4322,1503 @@ sectionName: 'Lead Game Designer & Mechanics Persona',
       tags: ["personas","personas","master","systems"],
     }),
   },
+  "persona-multi-multi-persona-board-of-directors-executive-council": {
+    id: "persona-multi-multi-persona-board-of-directors-executive-council",
+    name: "MultiPersonaBoardofDirectorsExecutiveCouncilSkill",
+    displayName: "Multi Persona Board of Directors Executive Council",
+    categoryId: "personas",
+    description: "Simulates a board meeting with CEO, CFO, CTO, CMO, and Legal Counsel resolving strategic tradeoffs.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","council","board"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Board of Directors Executive Council",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Board of Directors Executive Council",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Board of Directors Executive Council.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Board of Directors Executive Council.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","council","board"],
+    }),
+  },
+
+  "persona-multi-multi-persona-venture-capital-investment-committee": {
+    id: "persona-multi-multi-persona-venture-capital-investment-committee",
+    name: "MultiPersonaVentureCapitalInvestmentCommitteeSkill",
+    displayName: "Multi Persona Venture Capital Investment Committee",
+    categoryId: "personas",
+    description: "Simulates a VC committee with Lead Partner, Risk Officer, Technical Auditor, and Market Analyst evaluating startup deals.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","vc","investment"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Venture Capital Investment Committee",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Venture Capital Investment Committee",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Venture Capital Investment Committee.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Venture Capital Investment Committee.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","vc","investment"],
+    }),
+  },
+
+  "persona-multi-multi-persona-socratic-panel-of-philosophers": {
+    id: "persona-multi-multi-persona-socratic-panel-of-philosophers",
+    name: "MultiPersonaSocraticPanelofPhilosophersSkill",
+    displayName: "Multi Persona Socratic Panel of Philosophers",
+    categoryId: "personas",
+    description: "Engages Rationalist, Empiricist, Existentialist, and Stoic personas in Socratic dialogue on ethical dilemmas.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","socratic","philosophy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Socratic Panel of Philosophers",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Socratic Panel of Philosophers",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Socratic Panel of Philosophers.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Socratic Panel of Philosophers.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","socratic","philosophy"],
+    }),
+  },
+
+  "persona-multi-multi-persona-red-team-vs-blue-team-security-clash": {
+    id: "persona-multi-multi-persona-red-team-vs-blue-team-security-clash",
+    name: "MultiPersonaRedTeamvsBlueTeamSecurityClashSkill",
+    displayName: "Multi Persona Red Team vs Blue Team Security Clash",
+    categoryId: "personas",
+    description: "Simulates an offensive Red Team hacker persona vs defensive Blue Team SecOps persona in live cyber debate.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","red-team","cybersecurity"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Red Team vs Blue Team Security Clash",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Red Team vs Blue Team Security Clash",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Red Team vs Blue Team Security Clash.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Red Team vs Blue Team Security Clash.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","red-team","cybersecurity"],
+    }),
+  },
+
+  "persona-multi-multi-persona-stakeholder-alignment-council": {
+    id: "persona-multi-multi-persona-stakeholder-alignment-council",
+    name: "MultiPersonaStakeholderAlignmentCouncilSkill",
+    displayName: "Multi Persona Stakeholder Alignment Council",
+    categoryId: "personas",
+    description: "Simulates Product Manager, Engineering Lead, UX Designer, and Sales Director negotiating sprint priorities.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","agile","stakeholders"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Stakeholder Alignment Council",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Stakeholder Alignment Council",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Stakeholder Alignment Council.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Stakeholder Alignment Council.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","agile","stakeholders"],
+    }),
+  },
+
+  "persona-multi-multi-persona-medical-cross-specialty-tumor-board": {
+    id: "persona-multi-multi-persona-medical-cross-specialty-tumor-board",
+    name: "MultiPersonaMedicalCrossSpecialtyTumorBoardSkill",
+    displayName: "Multi Persona Medical Cross Specialty Tumor Board",
+    categoryId: "personas",
+    description: "Simulates Oncologist, Radiologist, Pathologist, and Surgeon discussing complex patient oncology cases.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","medical","oncology"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Medical Cross Specialty Tumor Board",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Medical Cross Specialty Tumor Board",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Medical Cross Specialty Tumor Board.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Medical Cross Specialty Tumor Board.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","medical","oncology"],
+    }),
+  },
+
+  "persona-multi-multi-persona-legal-moot-court-bench-debate": {
+    id: "persona-multi-multi-persona-legal-moot-court-bench-debate",
+    name: "MultiPersonaLegalMootCourtBenchDebateSkill",
+    displayName: "Multi Persona Legal Moot Court Bench Debate",
+    categoryId: "personas",
+    description: "Simulates 3 Appellate Judges with Conservative, Progressive, and Textualist jurisprudence debating constitutional law.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","legal","judiciary"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Legal Moot Court Bench Debate",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Legal Moot Court Bench Debate",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Legal Moot Court Bench Debate.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Legal Moot Court Bench Debate.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","legal","judiciary"],
+    }),
+  },
+
+  "persona-multi-multi-persona-ai-safety-ethics-review-board": {
+    id: "persona-multi-multi-persona-ai-safety-ethics-review-board",
+    name: "MultiPersonaAISafetyEthicsReviewBoardSkill",
+    displayName: "Multi Persona AI Safety Ethics Review Board",
+    categoryId: "personas",
+    description: "Simulates Alignment Researcher, AI Ethicist, Commercial Product VP, and Regulatory Auditor examining AI models.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","ai-ethics","governance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona AI Safety Ethics Review Board",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona AI Safety Ethics Review Board",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona AI Safety Ethics Review Board.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona AI Safety Ethics Review Board.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","ai-ethics","governance"],
+    }),
+  },
+
+  "persona-multi-multi-persona-tripartite-debating-tournament": {
+    id: "persona-multi-multi-persona-tripartite-debating-tournament",
+    name: "MultiPersonaTripartiteDebatingTournamentSkill",
+    displayName: "Multi Persona Tripartite Debating Tournament",
+    categoryId: "personas",
+    description: "Simulates Proponent, Opponent, and Neutral Adjudicator conducting structured Oxford-style debate rounds.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","debate","oxford"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Tripartite Debating Tournament",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Tripartite Debating Tournament",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Tripartite Debating Tournament.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Tripartite Debating Tournament.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","debate","oxford"],
+    }),
+  },
+
+  "persona-multi-multi-persona-customer-advisory-board-review": {
+    id: "persona-multi-multi-persona-customer-advisory-board-review",
+    name: "MultiPersonaCustomerAdvisoryBoardReviewSkill",
+    displayName: "Multi Persona Customer Advisory Board Review",
+    categoryId: "personas",
+    description: "Simulates Enterprise Client, SMB User, Power User, and Churned Customer reviewing SaaS product roadmap.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","cab","feedback"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Customer Advisory Board Review",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Customer Advisory Board Review",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Customer Advisory Board Review.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Customer Advisory Board Review.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","cab","feedback"],
+    }),
+  },
+
+  "persona-multi-multi-persona-crisis-response-war-room-strategy": {
+    id: "persona-multi-multi-persona-crisis-response-war-room-strategy",
+    name: "MultiPersonaCrisisResponseWarRoomStrategySkill",
+    displayName: "Multi Persona Crisis Response War Room Strategy",
+    categoryId: "personas",
+    description: "Simulates PR Crisis Manager, Chief Legal Officer, Head of Ops, and Spokesperson responding to corporate outages.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","crisis","war-room"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Crisis Response War Room Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Crisis Response War Room Strategy",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Crisis Response War Room Strategy.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Crisis Response War Room Strategy.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","crisis","war-room"],
+    }),
+  },
+
+  "persona-multi-multi-persona-scientific-peer-review-symposium": {
+    id: "persona-multi-multi-persona-scientific-peer-review-symposium",
+    name: "MultiPersonaScientificPeerReviewSymposiumSkill",
+    displayName: "Multi Persona Scientific Peer Review Symposium",
+    categoryId: "personas",
+    description: "Simulates Lead Reviewer, Methods Auditor, Domain Specialist, and Journal Editor evaluating research papers.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","peer-review","science"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Scientific Peer Review Symposium",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Scientific Peer Review Symposium",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Scientific Peer Review Symposium.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Scientific Peer Review Symposium.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","peer-review","science"],
+    }),
+  },
+
+  "persona-multi-multi-persona-architectural-design-review-panel": {
+    id: "persona-multi-multi-persona-architectural-design-review-panel",
+    name: "MultiPersonaArchitecturalDesignReviewPanelSkill",
+    displayName: "Multi Persona Architectural Design Review Panel",
+    categoryId: "personas",
+    description: "Simulates Principal Architect, Structural Engineer, Environmental Auditor, and Client Representative reviewing blueprints.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","architecture","design"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Architectural Design Review Panel",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Architectural Design Review Panel",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Architectural Design Review Panel.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Architectural Design Review Panel.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","architecture","design"],
+    }),
+  },
+
+  "persona-multi-multi-persona-game-mechanics-balancing-committee": {
+    id: "persona-multi-multi-persona-game-mechanics-balancing-committee",
+    name: "MultiPersonaGameMechanicsBalancingCommitteeSkill",
+    displayName: "Multi Persona Game Mechanics Balancing Committee",
+    categoryId: "personas",
+    description: "Simulates Lead Systems Designer, Hardcore Gamer, Casual Player, and Monetization Specialist balancing gameplay.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","gamedev","balancing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Game Mechanics Balancing Committee",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Game Mechanics Balancing Committee",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Game Mechanics Balancing Committee.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Game Mechanics Balancing Committee.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","gamedev","balancing"],
+    }),
+  },
+
+  "persona-multi-multi-persona-policy-legislative-drafting-panel": {
+    id: "persona-multi-multi-persona-policy-legislative-drafting-panel",
+    name: "MultiPersonaPolicyLegislativeDraftingPanelSkill",
+    displayName: "Multi Persona Policy Legislative Drafting Panel",
+    categoryId: "personas",
+    description: "Simulates Policy Advisor, Economic Analyst, Civil Rights Advocate, and Industry Lobbyist drafting legislation.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","policy","legislation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Policy Legislative Drafting Panel",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Policy Legislative Drafting Panel",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Policy Legislative Drafting Panel.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Policy Legislative Drafting Panel.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","policy","legislation"],
+    }),
+  },
+
+  "persona-multi-multi-persona-film-screenplay-writer-room": {
+    id: "persona-multi-multi-persona-film-screenplay-writer-room",
+    name: "MultiPersonaFilmScreenplayWriterRoomSkill",
+    displayName: "Multi Persona Film Screenplay Writer Room",
+    categoryId: "personas",
+    description: "Simulates Showrunner, Dialogue Specialist, Pacing Editor, and Character Arc Consultant refining scripts.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","film","screenwriting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Film Screenplay Writer Room",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Film Screenplay Writer Room",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Film Screenplay Writer Room.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Film Screenplay Writer Room.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","film","screenwriting"],
+    }),
+  },
+
+  "persona-multi-multi-persona-supply-chain-resiliency-council": {
+    id: "persona-multi-multi-persona-supply-chain-resiliency-council",
+    name: "MultiPersonaSupplyChainResiliencyCouncilSkill",
+    displayName: "Multi Persona Supply Chain Resiliency Council",
+    categoryId: "personas",
+    description: "Simulates Logistics Director, Procurement Officer, Factory Manager, and Customs Broker mitigating disruptions.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","supply-chain","logistics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Supply Chain Resiliency Council",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Supply Chain Resiliency Council",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Supply Chain Resiliency Council.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Supply Chain Resiliency Council.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","supply-chain","logistics"],
+    }),
+  },
+
+  "persona-multi-multi-persona-brand-identity-strategy-summit": {
+    id: "persona-multi-multi-persona-brand-identity-strategy-summit",
+    name: "MultiPersonaBrandIdentityStrategySummitSkill",
+    displayName: "Multi Persona Brand Identity Strategy Summit",
+    categoryId: "personas",
+    description: "Simulates Creative Director, Brand Strategist, Target Persona Representative, and Copywriter crafting brand guidelines.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","branding","marketing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Brand Identity Strategy Summit",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Brand Identity Strategy Summit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Brand Identity Strategy Summit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Brand Identity Strategy Summit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","branding","marketing"],
+    }),
+  },
+
+  "persona-multi-multi-persona-educational-curriculum-taskforce": {
+    id: "persona-multi-multi-persona-educational-curriculum-taskforce",
+    name: "MultiPersonaEducationalCurriculumTaskforceSkill",
+    displayName: "Multi Persona Educational Curriculum Taskforce",
+    categoryId: "personas",
+    description: "Simulates Instructional Designer, Subject Matter Expert, Student Representative, and Accessibility Auditor.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","education","curriculum"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Educational Curriculum Taskforce",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Educational Curriculum Taskforce",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Educational Curriculum Taskforce.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Educational Curriculum Taskforce.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","education","curriculum"],
+    }),
+  },
+
+  "persona-multi-multi-persona-m-a-due-diligence-negotiation": {
+    id: "persona-multi-multi-persona-m-a-due-diligence-negotiation",
+    name: "MultiPersonaMADueDiligenceNegotiationSkill",
+    displayName: "Multi Persona M A Due Diligence Negotiation",
+    categoryId: "personas",
+    description: "Simulates Acquiring CEO, Target Founder, M&A Lawyer, and Investment Banker negotiating deal terms.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","ma","negotiation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona M A Due Diligence Negotiation",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona M A Due Diligence Negotiation",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona M A Due Diligence Negotiation.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona M A Due Diligence Negotiation.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","ma","negotiation"],
+    }),
+  },
+
+  "persona-multi-multi-persona-quantum-physics-thought-experiment-panel": {
+    id: "persona-multi-multi-persona-quantum-physics-thought-experiment-panel",
+    name: "MultiPersonaQuantumPhysicsThoughtExperimentPanelSkill",
+    displayName: "Multi Persona Quantum Physics Thought Experiment Panel",
+    categoryId: "personas",
+    description: "Simulates Einstein, Bohr, Feynman, and Hawking discussing quantum interpretation paradoxes.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","physics","science"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Quantum Physics Thought Experiment Panel",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Quantum Physics Thought Experiment Panel",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Quantum Physics Thought Experiment Panel.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Quantum Physics Thought Experiment Panel.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","physics","science"],
+    }),
+  },
+
+  "persona-multi-multi-persona-e-commerce-conversion-optimization-team": {
+    id: "persona-multi-multi-persona-e-commerce-conversion-optimization-team",
+    name: "MultiPersonaECommerceConversionOptimizationTeamSkill",
+    displayName: "Multi Persona E Commerce Conversion Optimization Team",
+    categoryId: "personas",
+    description: "Simulates Conversion Copywriter, CRO Strategist, UI Designer, and Analytics Engineer auditing funnels.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","cro","ecommerce"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona E Commerce Conversion Optimization Team",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona E Commerce Conversion Optimization Team",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona E Commerce Conversion Optimization Team.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona E Commerce Conversion Optimization Team.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","cro","ecommerce"],
+    }),
+  },
+
+  "persona-multi-multi-persona-hr-compensation-benefits-committee": {
+    id: "persona-multi-multi-persona-hr-compensation-benefits-committee",
+    name: "MultiPersonaHRCompensationBenefitsCommitteeSkill",
+    displayName: "Multi Persona HR Compensation Benefits Committee",
+    categoryId: "personas",
+    description: "Simulates Chief People Officer, Compensation Analyst, Talent Acquisition Lead, and Union Representative.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","hr","compensation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona HR Compensation Benefits Committee",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona HR Compensation Benefits Committee",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona HR Compensation Benefits Committee.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona HR Compensation Benefits Committee.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","hr","compensation"],
+    }),
+  },
+
+  "persona-multi-multi-persona-urban-smart-city-planning-committee": {
+    id: "persona-multi-multi-persona-urban-smart-city-planning-committee",
+    name: "MultiPersonaUrbanSmartCityPlanningCommitteeSkill",
+    displayName: "Multi Persona Urban Smart City Planning Committee",
+    categoryId: "personas",
+    description: "Simulates Transport Planner, Ecological Scientist, Housing Advocate, and Smart City IoT Engineer.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","urban","planning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Urban Smart City Planning Committee",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Urban Smart City Planning Committee",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Urban Smart City Planning Committee.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Urban Smart City Planning Committee.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","urban","planning"],
+    }),
+  },
+
+  "persona-multi-multi-persona-novelist-narrative-crafting-circle": {
+    id: "persona-multi-multi-persona-novelist-narrative-crafting-circle",
+    name: "MultiPersonaNovelistNarrativeCraftingCircleSkill",
+    displayName: "Multi Persona Novelist Narrative Crafting Circle",
+    categoryId: "personas",
+    description: "Simulates Plot Architect, Worldbuilder, Character Stylist, and Editor evaluating fantasy manuscripts.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","fiction","novel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Novelist Narrative Crafting Circle",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Novelist Narrative Crafting Circle",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Novelist Narrative Crafting Circle.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Novelist Narrative Crafting Circle.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","fiction","novel"],
+    }),
+  },
+
+  "persona-multi-multi-persona-fintech-regulatory-sandbox-panel": {
+    id: "persona-multi-multi-persona-fintech-regulatory-sandbox-panel",
+    name: "MultiPersonaFinTechRegulatorySandboxPanelSkill",
+    displayName: "Multi Persona FinTech Regulatory Sandbox Panel",
+    categoryId: "personas",
+    description: "Simulates Central Bank Officer, FinTech Founder, Compliance Auditor, and Consumer Protection Lead.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","fintech","regulation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona FinTech Regulatory Sandbox Panel",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona FinTech Regulatory Sandbox Panel",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona FinTech Regulatory Sandbox Panel.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona FinTech Regulatory Sandbox Panel.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","fintech","regulation"],
+    }),
+  },
+
+  "persona-multi-multi-persona-saas-pricing-strategy-council": {
+    id: "persona-multi-multi-persona-saas-pricing-strategy-council",
+    name: "MultiPersonaSaaSPricingStrategyCouncilSkill",
+    displayName: "Multi Persona SaaS Pricing Strategy Council",
+    categoryId: "personas",
+    description: "Simulates Pricing Consultant, Chief Revenue Officer, Customer Success Lead, and Product Manager.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","saas","pricing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona SaaS Pricing Strategy Council",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona SaaS Pricing Strategy Council",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona SaaS Pricing Strategy Council.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona SaaS Pricing Strategy Council.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","saas","pricing"],
+    }),
+  },
+
+  "persona-multi-multi-persona-public-health-epidemic-action-group": {
+    id: "persona-multi-multi-persona-public-health-epidemic-action-group",
+    name: "MultiPersonaPublicHealthEpidemicActionGroupSkill",
+    displayName: "Multi Persona Public Health Epidemic Action Group",
+    categoryId: "personas",
+    description: "Simulates Epidemiologist, Virologist, Public Health Official, and Behavioral Psychologist planning outbreak response.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","health","epidemiology"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Public Health Epidemic Action Group",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Public Health Epidemic Action Group",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Public Health Epidemic Action Group.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Public Health Epidemic Action Group.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","health","epidemiology"],
+    }),
+  },
+
+  "persona-multi-multi-persona-cloud-migration-governance-board": {
+    id: "persona-multi-multi-persona-cloud-migration-governance-board",
+    name: "MultiPersonaCloudMigrationGovernanceBoardSkill",
+    displayName: "Multi Persona Cloud Migration Governance Board",
+    categoryId: "personas",
+    description: "Simulates Cloud Architect, FinOps Analyst, Security Officer, and Database Administrator planning migration.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","cloud","finops"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Cloud Migration Governance Board",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Cloud Migration Governance Board",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Cloud Migration Governance Board.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Cloud Migration Governance Board.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","cloud","finops"],
+    }),
+  },
+
+  "persona-multi-multi-persona-hospitality-guest-experience-council": {
+    id: "persona-multi-multi-persona-hospitality-guest-experience-council",
+    name: "MultiPersonaHospitalityGuestExperienceCouncilSkill",
+    displayName: "Multi Persona Hospitality Guest Experience Council",
+    categoryId: "personas",
+    description: "Simulates General Manager, Head Chef, Front Desk Supervisor, and Hotel Critic auditing guest journeys.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","hospitality","experience"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Hospitality Guest Experience Council",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Hospitality Guest Experience Council",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Hospitality Guest Experience Council.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Hospitality Guest Experience Council.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","hospitality","experience"],
+    }),
+  },
+
+  "persona-multi-multi-persona-aerospace-space-mission-flight-readiness": {
+    id: "persona-multi-multi-persona-aerospace-space-mission-flight-readiness",
+    name: "MultiPersonaAerospaceSpaceMissionFlightReadinessSkill",
+    displayName: "Multi Persona Aerospace Space Mission Flight Readiness",
+    categoryId: "personas",
+    description: "Simulates Flight Director, Payload Scientist, Systems Engineer, and Astronaut evaluating launch clearance.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","aerospace","space"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Aerospace Space Mission Flight Readiness",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Aerospace Space Mission Flight Readiness",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Aerospace Space Mission Flight Readiness.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Aerospace Space Mission Flight Readiness.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","aerospace","space"],
+    }),
+  },
+
+  "persona-multi-multi-persona-sustainable-energy-transition-panel": {
+    id: "persona-multi-multi-persona-sustainable-energy-transition-panel",
+    name: "MultiPersonaSustainableEnergyTransitionPanelSkill",
+    displayName: "Multi Persona Sustainable Energy Transition Panel",
+    categoryId: "personas",
+    description: "Simulates Grid Operator, Renewable Developer, Environmental NGO, and Energy Economist.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","energy","sustainability"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Sustainable Energy Transition Panel",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Sustainable Energy Transition Panel",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Sustainable Energy Transition Panel.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Sustainable Energy Transition Panel.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","energy","sustainability"],
+    }),
+  },
+
+  "persona-multi-multi-persona-automotive-autonomous-vehicle-ethics": {
+    id: "persona-multi-multi-persona-automotive-autonomous-vehicle-ethics",
+    name: "MultiPersonaAutomotiveAutonomousVehicleEthicsSkill",
+    displayName: "Multi Persona Automotive Autonomous Vehicle Ethics",
+    categoryId: "personas",
+    description: "Simulates Robotics Engineer, Traffic Safety Official, Philosophy Professor, and Insurance Actuary.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","automotive","ethics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Automotive Autonomous Vehicle Ethics",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Automotive Autonomous Vehicle Ethics",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Automotive Autonomous Vehicle Ethics.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Automotive Autonomous Vehicle Ethics.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","automotive","ethics"],
+    }),
+  },
+
+  "persona-multi-multi-persona-culinary-recipe-innovation-kitchen": {
+    id: "persona-multi-multi-persona-culinary-recipe-innovation-kitchen",
+    name: "MultiPersonaCulinaryRecipeInnovationKitchenSkill",
+    displayName: "Multi Persona Culinary Recipe Innovation Kitchen",
+    categoryId: "personas",
+    description: "Simulates Executive Chef, Food Scientist, Nutritionist, and Restaurant Critic crafting new tasting menus.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","culinary","food"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Culinary Recipe Innovation Kitchen",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Culinary Recipe Innovation Kitchen",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Culinary Recipe Innovation Kitchen.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Culinary Recipe Innovation Kitchen.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","culinary","food"],
+    }),
+  },
+
+  "persona-multi-multi-persona-real-estate-commercial-development-board": {
+    id: "persona-multi-multi-persona-real-estate-commercial-development-board",
+    name: "MultiPersonaRealEstateCommercialDevelopmentBoardSkill",
+    displayName: "Multi Persona Real Estate Commercial Development Board",
+    categoryId: "personas",
+    description: "Simulates Developer, Zoning Commissioner, General Contractor, and Real Estate Broker evaluating sites.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","real-estate","development"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Real Estate Commercial Development Board",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Real Estate Commercial Development Board",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Real Estate Commercial Development Board.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Real Estate Commercial Development Board.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","real-estate","development"],
+    }),
+  },
+
+  "persona-multi-multi-persona-e-sports-tournament-rules-committee": {
+    id: "persona-multi-multi-persona-e-sports-tournament-rules-committee",
+    name: "MultiPersonaESportsTournamentRulesCommitteeSkill",
+    displayName: "Multi Persona E Sports Tournament Rules Committee",
+    categoryId: "personas",
+    description: "Simulates Pro Player, Tournament Director, Game Developer, and Anti-Cheat Engineer updating rulebooks.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","esports","gaming"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona E Sports Tournament Rules Committee",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona E Sports Tournament Rules Committee",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona E Sports Tournament Rules Committee.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona E Sports Tournament Rules Committee.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","esports","gaming"],
+    }),
+  },
+
+  "persona-multi-multi-persona-fashion-collection-creative-direction": {
+    id: "persona-multi-multi-persona-fashion-collection-creative-direction",
+    name: "MultiPersonaFashionCollectionCreativeDirectionSkill",
+    displayName: "Multi Persona Fashion Collection Creative Direction",
+    categoryId: "personas",
+    description: "Simulates Creative Director, Textile Engineer, Sustainability Auditor, and Fashion Retail Buyer.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","fashion","design"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Fashion Collection Creative Direction",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Fashion Collection Creative Direction",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Fashion Collection Creative Direction.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Fashion Collection Creative Direction.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","fashion","design"],
+    }),
+  },
+
+  "persona-multi-multi-persona-journalism-investigative-story-desk": {
+    id: "persona-multi-multi-persona-journalism-investigative-story-desk",
+    name: "MultiPersonaJournalismInvestigativeStoryDeskSkill",
+    displayName: "Multi Persona Journalism Investigative Story Desk",
+    categoryId: "personas",
+    description: "Simulates Investigative Reporter, Fact Checker, Legal Counsel, and Managing Editor reviewing leak documents.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","journalism","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Journalism Investigative Story Desk",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Journalism Investigative Story Desk",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Journalism Investigative Story Desk.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Journalism Investigative Story Desk.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","journalism","media"],
+    }),
+  },
+
+  "persona-multi-multi-persona-philanthropic-grant-evaluation-board": {
+    id: "persona-multi-multi-persona-philanthropic-grant-evaluation-board",
+    name: "MultiPersonaPhilanthropicGrantEvaluationBoardSkill",
+    displayName: "Multi Persona Philanthropic Grant Evaluation Board",
+    categoryId: "personas",
+    description: "Simulates Foundation Director, Community Organizer, Impact Measurement Auditor, and Financial Trustee.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","nonprofit","grants"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Philanthropic Grant Evaluation Board",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Philanthropic Grant Evaluation Board",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Philanthropic Grant Evaluation Board.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Philanthropic Grant Evaluation Board.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","nonprofit","grants"],
+    }),
+  },
+
+  "persona-multi-multi-persona-pharmaceutical-drug-discovery-steering": {
+    id: "persona-multi-multi-persona-pharmaceutical-drug-discovery-steering",
+    name: "MultiPersonaPharmaceuticalDrugDiscoverySteeringSkill",
+    displayName: "Multi Persona Pharmaceutical Drug Discovery Steering",
+    categoryId: "personas",
+    description: "Simulates Medicinal Chemist, Toxicologist, Clinical Trial Director, and Patent Attorney evaluating compounds.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","pharma","discovery"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Pharmaceutical Drug Discovery Steering",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Pharmaceutical Drug Discovery Steering",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Pharmaceutical Drug Discovery Steering.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Pharmaceutical Drug Discovery Steering.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","pharma","discovery"],
+    }),
+  },
+
+  "persona-multi-multi-persona-industrial-automation-robotics-taskforce": {
+    id: "persona-multi-multi-persona-industrial-automation-robotics-taskforce",
+    name: "MultiPersonaIndustrialAutomationRoboticsTaskforceSkill",
+    displayName: "Multi Persona Industrial Automation Robotics Taskforce",
+    categoryId: "personas",
+    description: "Simulates Mechatronics Engineer, Safety Inspector, Plant Operator, and Operations Manager.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","robotics","automation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Industrial Automation Robotics Taskforce",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Industrial Automation Robotics Taskforce",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Industrial Automation Robotics Taskforce.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Industrial Automation Robotics Taskforce.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","robotics","automation"],
+    }),
+  },
+
+  "persona-multi-multi-persona-semiconductor-microchip-architecture-board": {
+    id: "persona-multi-multi-persona-semiconductor-microchip-architecture-board",
+    name: "MultiPersonaSemiconductorMicrochipArchitectureBoardSkill",
+    displayName: "Multi Persona Semiconductor Microchip Architecture Board",
+    categoryId: "personas",
+    description: "Simulates Silicon Architect, Physical Design Lead, Verification Engineer, and Foundry Liaison.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","semiconductor","hardware"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Semiconductor Microchip Architecture Board",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Semiconductor Microchip Architecture Board",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Semiconductor Microchip Architecture Board.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Semiconductor Microchip Architecture Board.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","semiconductor","hardware"],
+    }),
+  },
+
+  "persona-multi-multi-persona-fine-art-auction-valuation-committee": {
+    id: "persona-multi-multi-persona-fine-art-auction-valuation-committee",
+    name: "MultiPersonaFineArtAuctionValuationCommitteeSkill",
+    displayName: "Multi Persona Fine Art Auction Valuation Committee",
+    categoryId: "personas",
+    description: "Simulates Art Historian, Auction House Specialist, Provenance Researcher, and Art Restorer.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","art","valuation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Fine Art Auction Valuation Committee",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Fine Art Auction Valuation Committee",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Fine Art Auction Valuation Committee.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Fine Art Auction Valuation Committee.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","art","valuation"],
+    }),
+  },
+
+  "persona-multi-multi-persona-podcast-production-storytelling-desk": {
+    id: "persona-multi-multi-persona-podcast-production-storytelling-desk",
+    name: "MultiPersonaPodcastProductionStorytellingDeskSkill",
+    displayName: "Multi Persona Podcast Production Storytelling Desk",
+    categoryId: "personas",
+    description: "Simulates Executive Producer, Audio Engineer, Host Persona, and Investigative Researcher.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","podcast","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Podcast Production Storytelling Desk",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Podcast Production Storytelling Desk",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Podcast Production Storytelling Desk.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Podcast Production Storytelling Desk.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","podcast","media"],
+    }),
+  },
+
+  "persona-multi-multi-persona-commercial-aviation-safety-investigation": {
+    id: "persona-multi-multi-persona-commercial-aviation-safety-investigation",
+    name: "MultiPersonaCommercialAviationSafetyInvestigationSkill",
+    displayName: "Multi Persona Commercial Aviation Safety Investigation",
+    categoryId: "personas",
+    description: "Simulates NTSB Lead Investigator, Flight Data Analyst, Avionics Engineer, and Airline Captain.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","aviation","safety"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Commercial Aviation Safety Investigation",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Commercial Aviation Safety Investigation",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Commercial Aviation Safety Investigation.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Commercial Aviation Safety Investigation.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","aviation","safety"],
+    }),
+  },
+
+  "persona-multi-multi-persona-enterprise-erp-implementation-steering": {
+    id: "persona-multi-multi-persona-enterprise-erp-implementation-steering",
+    name: "MultiPersonaEnterpriseERPImplementationSteeringSkill",
+    displayName: "Multi Persona Enterprise ERP Implementation Steering",
+    categoryId: "personas",
+    description: "Simulates CIO, Lead ERP Consultant, Business Process Owner, and Change Management Lead.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","erp","enterprise"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Enterprise ERP Implementation Steering",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Enterprise ERP Implementation Steering",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Enterprise ERP Implementation Steering.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Enterprise ERP Implementation Steering.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","erp","enterprise"],
+    }),
+  },
+
+  "persona-multi-multi-persona-museum-exhibition-curatorial-council": {
+    id: "persona-multi-multi-persona-museum-exhibition-curatorial-council",
+    name: "MultiPersonaMuseumExhibitionCuratorialCouncilSkill",
+    displayName: "Multi Persona Museum Exhibition Curatorial Council",
+    categoryId: "personas",
+    description: "Simulates Chief Curator, Archival Researcher, Exhibition Designer, and Accessibility Specialist.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","museum","curation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Museum Exhibition Curatorial Council",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Museum Exhibition Curatorial Council",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Museum Exhibition Curatorial Council.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Museum Exhibition Curatorial Council.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","museum","curation"],
+    }),
+  },
+
+  "persona-multi-multi-persona-commercial-fisheries-sustainability-council": {
+    id: "persona-multi-multi-persona-commercial-fisheries-sustainability-council",
+    name: "MultiPersonaCommercialFisheriesSustainabilityCouncilSkill",
+    displayName: "Multi Persona Commercial Fisheries Sustainability Council",
+    categoryId: "personas",
+    description: "Simulates Marine Biologist, Commercial Fleet Owner, Indigenous Rights Leader, and Fisheries Regulator.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","maritime","ecology"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Commercial Fisheries Sustainability Council",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Commercial Fisheries Sustainability Council",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Commercial Fisheries Sustainability Council.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Commercial Fisheries Sustainability Council.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","maritime","ecology"],
+    }),
+  },
+
+  "persona-multi-multi-persona-venture-studio-startup-ideation-factory": {
+    id: "persona-multi-multi-persona-venture-studio-startup-ideation-factory",
+    name: "MultiPersonaVentureStudioStartupIdeationFactorySkill",
+    displayName: "Multi Persona Venture Studio Startup Ideation Factory",
+    categoryId: "personas",
+    description: "Simulates Serial Entrepreneur, Tech Co-Founder, Growth Hacker, and Angel Investor brainstorming MVPs.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","venture","startup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Venture Studio Startup Ideation Factory",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Venture Studio Startup Ideation Factory",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Venture Studio Startup Ideation Factory.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Venture Studio Startup Ideation Factory.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","venture","startup"],
+    }),
+  },
+
+  "persona-multi-multi-persona-global-logistics-port-operations-board": {
+    id: "persona-multi-multi-persona-global-logistics-port-operations-board",
+    name: "MultiPersonaGlobalLogisticsPortOperationsBoardSkill",
+    displayName: "Multi Persona Global Logistics Port Operations Board",
+    categoryId: "personas",
+    description: "Simulates Port Authority Director, Shipping Line Executive, Longshore Union Rep, and Customs Official.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","logistics","shipping"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Global Logistics Port Operations Board",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Global Logistics Port Operations Board",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Global Logistics Port Operations Board.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Global Logistics Port Operations Board.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","logistics","shipping"],
+    }),
+  },
+
+  "persona-multi-multi-persona-cybersecurity-ransomware-incident-command": {
+    id: "persona-multi-multi-persona-cybersecurity-ransomware-incident-command",
+    name: "MultiPersonaCybersecurityRansomwareIncidentCommandSkill",
+    displayName: "Multi Persona Cybersecurity Ransomware Incident Command",
+    categoryId: "personas",
+    description: "Simulates Negotiator, Legal Privacy Counsel, Forensic Investigator, and Communications Lead.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","ransomware","cybersecurity"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Cybersecurity Ransomware Incident Command",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Cybersecurity Ransomware Incident Command",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Cybersecurity Ransomware Incident Command.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Cybersecurity Ransomware Incident Command.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","ransomware","cybersecurity"],
+    }),
+  },
+
+  "persona-multi-multi-persona-artificial-intelligence-superintelligence-policy": {
+    id: "persona-multi-multi-persona-artificial-intelligence-superintelligence-policy",
+    name: "MultiPersonaArtificialIntelligenceSuperintelligencePolicySkill",
+    displayName: "Multi Persona Artificial Intelligence Superintelligence Policy",
+    categoryId: "personas",
+    description: "Simulates Existential Risk Researcher, Global Diplomat, Tech CEO, and Computer Science Pioneer.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","agi","policy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Artificial Intelligence Superintelligence Policy",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Artificial Intelligence Superintelligence Policy",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Artificial Intelligence Superintelligence Policy.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Artificial Intelligence Superintelligence Policy.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","agi","policy"],
+    }),
+  },
+
+  "persona-multi-multi-persona-commercial-insurance-underwriting-panel": {
+    id: "persona-multi-multi-persona-commercial-insurance-underwriting-panel",
+    name: "MultiPersonaCommercialInsuranceUnderwritingPanelSkill",
+    displayName: "Multi Persona Commercial Insurance Underwriting Panel",
+    categoryId: "personas",
+    description: "Simulates Senior Actuary, Risk Engineer, Reinsurance Broker, and Chief Claims Officer.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","insurance","underwriting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Commercial Insurance Underwriting Panel",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Commercial Insurance Underwriting Panel",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Commercial Insurance Underwriting Panel.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Commercial Insurance Underwriting Panel.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","insurance","underwriting"],
+    }),
+  },
+
+  "persona-multi-multi-persona-music-festival-production-committee": {
+    id: "persona-multi-multi-persona-music-festival-production-committee",
+    name: "MultiPersonaMusicFestivalProductionCommitteeSkill",
+    displayName: "Multi Persona Music Festival Production Committee",
+    categoryId: "personas",
+    description: "Simulates Festival Director, Sound Engineer, Safety Director, and Artist Relations Manager.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","music","events"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Music Festival Production Committee",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Music Festival Production Committee",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Music Festival Production Committee.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Music Festival Production Committee.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","music","events"],
+    }),
+  },
+
+  "persona-multi-multi-persona-higher-education-accreditation-board": {
+    id: "persona-multi-multi-persona-higher-education-accreditation-board",
+    name: "MultiPersonaHigherEducationAccreditationBoardSkill",
+    displayName: "Multi Persona Higher Education Accreditation Board",
+    categoryId: "personas",
+    description: "Simulates Accreditation Inspector, University Dean, Faculty Representative, and Student Leader.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","accreditation","education"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Higher Education Accreditation Board",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Higher Education Accreditation Board",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Higher Education Accreditation Board.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Higher Education Accreditation Board.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","accreditation","education"],
+    }),
+  },
+
+  "persona-multi-multi-persona-agriculture-precision-farming-advisory": {
+    id: "persona-multi-multi-persona-agriculture-precision-farming-advisory",
+    name: "MultiPersonaAgriculturePrecisionFarmingAdvisorySkill",
+    displayName: "Multi Persona Agriculture Precision Farming Advisory",
+    categoryId: "personas",
+    description: "Simulates Agronomist, IoT Sensor Specialist, Farm Operations Manager, and Agricultural Economist.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","agriculture","farming"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Agriculture Precision Farming Advisory",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Agriculture Precision Farming Advisory",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Agriculture Precision Farming Advisory.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Agriculture Precision Farming Advisory.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","agriculture","farming"],
+    }),
+  },
+
+  "persona-multi-multi-persona-deep-tech-quantum-computing-advisory": {
+    id: "persona-multi-multi-persona-deep-tech-quantum-computing-advisory",
+    name: "MultiPersonaDeepTechQuantumComputingAdvisorySkill",
+    displayName: "Multi Persona Deep Tech Quantum Computing Advisory",
+    categoryId: "personas",
+    description: "Simulates Quantum Algorithmist, Cryogenics Engineer, Venture Capitalist, and Enterprise End-User.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","quantum","deeptech"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Deep Tech Quantum Computing Advisory",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Deep Tech Quantum Computing Advisory",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Deep Tech Quantum Computing Advisory.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Deep Tech Quantum Computing Advisory.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","quantum","deeptech"],
+    }),
+  },
+
+  "persona-multi-multi-persona-gaming-community-moderation-council": {
+    id: "persona-multi-multi-persona-gaming-community-moderation-council",
+    name: "MultiPersonaGamingCommunityModerationCouncilSkill",
+    displayName: "Multi Persona Gaming Community Moderation Council",
+    categoryId: "personas",
+    description: "Simulates Community Manager, Trust Safety Lead, Pro Player, and Toxicity Research Psychologist.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","trust-safety","community"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Gaming Community Moderation Council",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Gaming Community Moderation Council",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Gaming Community Moderation Council.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Gaming Community Moderation Council.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","trust-safety","community"],
+    }),
+  },
+
+  "persona-multi-multi-persona-renewable-microgrid-engineering-board": {
+    id: "persona-multi-multi-persona-renewable-microgrid-engineering-board",
+    name: "MultiPersonaRenewableMicrogridEngineeringBoardSkill",
+    displayName: "Multi Persona Renewable Microgrid Engineering Board",
+    categoryId: "personas",
+    description: "Simulates Solar Systems Engineer, Battery Storage Specialist, Microgrid Controller Architect, and Tariff Analyst.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","microgrid","energy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Renewable Microgrid Engineering Board",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Renewable Microgrid Engineering Board",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Renewable Microgrid Engineering Board.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Renewable Microgrid Engineering Board.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","microgrid","energy"],
+    }),
+  },
+
+  "persona-multi-multi-persona-master-executive-leadership-consensus-council": {
+    id: "persona-multi-multi-persona-master-executive-leadership-consensus-council",
+    name: "MultiPersonaMasterExecutiveLeadershipConsensusCouncilSkill",
+    displayName: "Multi Persona Master Executive Leadership Consensus Council",
+    categoryId: "personas",
+    description: "Enforces a master 7-persona deliberation council delivering unanimous strategic decisions.",
+    tags: ["personas","multi-skill","persona-multi","multi-persona","master","consensus"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Master Executive Leadership Consensus Council",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Master Executive Leadership Consensus Council",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Persona Master Executive Leadership Consensus Council.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Persona Master Executive Leadership Consensus Council.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["personas","multi-skill","persona-multi","multi-persona","master","consensus"],
+    }),
+  },
 };

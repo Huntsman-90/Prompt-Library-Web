@@ -4297,4 +4297,1502 @@ sectionName: 'Superfan VIP Champions Council Framework',
       tags: ["social","social-final","final","master"],
     }),
   },
+  "social-multi-multi-channel-social-media-viral-content-growth-strategy": {
+    id: "social-multi-multi-channel-social-media-viral-content-growth-strategy",
+    name: "MultiChannelSocialMediaViralContentGrowthStrategySkill",
+    displayName: "Multi Channel Social Media Viral Content Growth Strategy",
+    categoryId: "social",
+    description: "Coordinates cross-platform content repurposing across TikTok, YouTube Shorts, Instagram Reels, and LinkedIn.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Social Media Viral Content Growth Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Social Media Viral Content Growth Strategy",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Channel Social Media Viral Content Growth Strategy.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Channel Social Media Viral Content Growth Strategy.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-format-tiktok-viral-short-form-video-scripting": {
+    id: "social-multi-multi-format-tiktok-viral-short-form-video-scripting",
+    name: "MultiFormatTikTokViralShortFormVideoScriptingSkill",
+    displayName: "Multi Format TikTok Viral Short Form Video Scripting",
+    categoryId: "social",
+    description: "Engineers first 3-second retention hooks, trending audio pairing, and looping call-to-actions.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format TikTok Viral Short Form Video Scripting",
+      ruSectionName: "Композитный Multi-Skill: Multi Format TikTok Viral Short Form Video Scripting",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format TikTok Viral Short Form Video Scripting.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format TikTok Viral Short Form Video Scripting.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-tier-influencer-outreach-seed-gifting-campaign": {
+    id: "social-multi-multi-tier-influencer-outreach-seed-gifting-campaign",
+    name: "MultiTierInfluencerOutreachSeedGiftingCampaignSkill",
+    displayName: "Multi Tier Influencer Outreach Seed Gifting Campaign",
+    categoryId: "social",
+    description: "Manages micro/macro-influencer outreach, PR gifting boxes, usage rights, and affiliate tracking.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Influencer Outreach Seed Gifting Campaign",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Influencer Outreach Seed Gifting Campaign",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Tier Influencer Outreach Seed Gifting Campaign.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Tier Influencer Outreach Seed Gifting Campaign.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-platform-community-discord-server-moderation-architecture": {
+    id: "social-multi-multi-platform-community-discord-server-moderation-architecture",
+    name: "MultiPlatformCommunityDiscordServerModerationArchitectureSkill",
+    displayName: "Multi Platform Community Discord Server Moderation Architecture",
+    categoryId: "social",
+    description: "Configures onboarding bots, role hierarchies, token-gated channels, and engagement events.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Community Discord Server Moderation Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Community Discord Server Moderation Architecture",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Platform Community Discord Server Moderation Architecture.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Platform Community Discord Server Moderation Architecture.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-channel-substack-paid-subscriber-conversion-funnel": {
+    id: "social-multi-multi-channel-substack-paid-subscriber-conversion-funnel",
+    name: "MultiChannelSubstackPaidSubscriberConversionFunnelSkill",
+    displayName: "Multi Channel Substack Paid Subscriber Conversion Funnel",
+    categoryId: "social",
+    description: "Optimizes newsletter paywalls, lead magnet free previews, and automated welcome sequences.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Substack Paid Subscriber Conversion Funnel",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Substack Paid Subscriber Conversion Funnel",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Channel Substack Paid Subscriber Conversion Funnel.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Channel Substack Paid Subscriber Conversion Funnel.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-format-linkedin-thought-leadership-carousel-playbook": {
+    id: "social-multi-multi-format-linkedin-thought-leadership-carousel-playbook",
+    name: "MultiFormatLinkedInThoughtLeadershipCarouselPlaybookSkill",
+    displayName: "Multi Format LinkedIn Thought Leadership Carousel Playbook",
+    categoryId: "social",
+    description: "Formats high-converting PDF visual carousel decks optimized for algorithm reach.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format LinkedIn Thought Leadership Carousel Playbook",
+      ruSectionName: "Композитный Multi-Skill: Multi Format LinkedIn Thought Leadership Carousel Playbook",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format LinkedIn Thought Leadership Carousel Playbook.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format LinkedIn Thought Leadership Carousel Playbook.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-stage-youtube-channel-ctr-thumbnail-title-engineering": {
+    id: "social-multi-multi-stage-youtube-channel-ctr-thumbnail-title-engineering",
+    name: "MultiStageYouTubeChannelCTRThumbnailTitleEngineeringSkill",
+    displayName: "Multi Stage YouTube Channel CTR Thumbnail Title Engineering",
+    categoryId: "social",
+    description: "A/B tests eye-catching thumbnail visual psychology, curiosity titles, and pinned comments.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage YouTube Channel CTR Thumbnail Title Engineering",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage YouTube Channel CTR Thumbnail Title Engineering",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage YouTube Channel CTR Thumbnail Title Engineering.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage YouTube Channel CTR Thumbnail Title Engineering.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-platform-social-listening-sentiment-spike-crisis-monitor": {
+    id: "social-multi-multi-platform-social-listening-sentiment-spike-crisis-monitor",
+    name: "MultiPlatformSocialListeningSentimentSpikeCrisisMonitorSkill",
+    displayName: "Multi Platform Social Listening Sentiment Spike Crisis Monitor",
+    categoryId: "social",
+    description: "Monitors brand sentiment spikes across X/Twitter, Reddit, and forums triggering response playbooks.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Social Listening Sentiment Spike Crisis Monitor",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Social Listening Sentiment Spike Crisis Monitor",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Platform Social Listening Sentiment Spike Crisis Monitor.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Platform Social Listening Sentiment Spike Crisis Monitor.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-format-x-twitter-viral-thread-storytelling-blueprint": {
+    id: "social-multi-multi-format-x-twitter-viral-thread-storytelling-blueprint",
+    name: "MultiFormatXTwitterViralThreadStorytellingBlueprintSkill",
+    displayName: "Multi Format X Twitter Viral Thread Storytelling Blueprint",
+    categoryId: "social",
+    description: "Structures 10-tweet viral hook threads with strong opening hooks, value bullet points, and retweets.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format X Twitter Viral Thread Storytelling Blueprint",
+      ruSectionName: "Композитный Multi-Skill: Multi Format X Twitter Viral Thread Storytelling Blueprint",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format X Twitter Viral Thread Storytelling Blueprint.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format X Twitter Viral Thread Storytelling Blueprint.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-stage-product-hunt-launch-day-community-mobilization": {
+    id: "social-multi-multi-stage-product-hunt-launch-day-community-mobilization",
+    name: "MultiStageProductHuntLaunchDayCommunityMobilizationSkill",
+    displayName: "Multi Stage Product Hunt Launch Day Community Mobilization",
+    categoryId: "social",
+    description: "Coordinates hunter outreach, maker comment prep, community upvote push, and social PR.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Product Hunt Launch Day Community Mobilization",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Product Hunt Launch Day Community Mobilization",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Product Hunt Launch Day Community Mobilization.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Product Hunt Launch Day Community Mobilization.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-channel-podcast-guest-pitching-booking-sequence": {
+    id: "social-multi-multi-channel-podcast-guest-pitching-booking-sequence",
+    name: "MultiChannelPodcastGuestPitchingBookingSequenceSkill",
+    displayName: "Multi Channel Podcast Guest Pitching Booking Sequence",
+    categoryId: "social",
+    description: "Crafts personalized guest pitches, media kits, and follow-ups securing top-tier podcast interviews.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Podcast Guest Pitching Booking Sequence",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Podcast Guest Pitching Booking Sequence",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Channel Podcast Guest Pitching Booking Sequence.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Channel Podcast Guest Pitching Booking Sequence.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-platform-live-stream-shopping-broadcast-production": {
+    id: "social-multi-multi-platform-live-stream-shopping-broadcast-production",
+    name: "MultiPlatformLiveStreamShoppingBroadcastProductionSkill",
+    displayName: "Multi Platform Live Stream Shopping Broadcast Production",
+    categoryId: "social",
+    description: "Hosts live e-commerce streams on TikTok/Instagram with flash discounts and real-time Q&A.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Live Stream Shopping Broadcast Production",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Live Stream Shopping Broadcast Production",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Platform Live Stream Shopping Broadcast Production.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Platform Live Stream Shopping Broadcast Production.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-format-meta-facebook-ad-creative-copywriting-suite": {
+    id: "social-multi-multi-format-meta-facebook-ad-creative-copywriting-suite",
+    name: "MultiFormatMetaFacebookAdCreativeCopywritingSuiteSkill",
+    displayName: "Multi Format Meta Facebook Ad Creative Copywriting Suite",
+    categoryId: "social",
+    description: "Generates primary text, headline hooks, and UGC script variants for Meta ad campaigns.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Meta Facebook Ad Creative Copywriting Suite",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Meta Facebook Ad Creative Copywriting Suite",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Meta Facebook Ad Creative Copywriting Suite.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Meta Facebook Ad Creative Copywriting Suite.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-community-reddit-organic-brand-advocacy-campaign": {
+    id: "social-multi-multi-community-reddit-organic-brand-advocacy-campaign",
+    name: "MultiCommunityRedditOrganicBrandAdvocacyCampaignSkill",
+    displayName: "Multi Community Reddit Organic Brand Advocacy Campaign",
+    categoryId: "social",
+    description: "Builds authentic Reddit presence through value-first AMA hosting and helpful subreddit comments.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Community Reddit Organic Brand Advocacy Campaign",
+      ruSectionName: "Композитный Multi-Skill: Multi Community Reddit Organic Brand Advocacy Campaign",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Community Reddit Organic Brand Advocacy Campaign.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Community Reddit Organic Brand Advocacy Campaign.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-format-pinterest-visual-discovery-traffic-funnel": {
+    id: "social-multi-multi-format-pinterest-visual-discovery-traffic-funnel",
+    name: "MultiFormatPinterestVisualDiscoveryTrafficFunnelSkill",
+    displayName: "Multi Format Pinterest Visual Discovery Traffic Funnel",
+    categoryId: "social",
+    description: "Creates SEO-optimized Pinterest idea pins driving organic traffic to e-commerce blogs.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Pinterest Visual Discovery Traffic Funnel",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Pinterest Visual Discovery Traffic Funnel",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Pinterest Visual Discovery Traffic Funnel.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Pinterest Visual Discovery Traffic Funnel.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-channel-vip-whatsapp-community-broadcast-calendar": {
+    id: "social-multi-multi-channel-vip-whatsapp-community-broadcast-calendar",
+    name: "MultiChannelVIPWhatsAppCommunityBroadcastCalendarSkill",
+    displayName: "Multi Channel VIP WhatsApp Community Broadcast Calendar",
+    categoryId: "social",
+    description: "Manages exclusive VIP customer WhatsApp broadcast groups with secret drop announcements.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel VIP WhatsApp Community Broadcast Calendar",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel VIP WhatsApp Community Broadcast Calendar",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Channel VIP WhatsApp Community Broadcast Calendar.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Channel VIP WhatsApp Community Broadcast Calendar.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-platform-brand-mascot-meme-persona-strategy": {
+    id: "social-multi-multi-platform-brand-mascot-meme-persona-strategy",
+    name: "MultiPlatformBrandMascotMemePersonaStrategySkill",
+    displayName: "Multi Platform Brand Mascot Meme Persona Strategy",
+    categoryId: "social",
+    description: "Crafts witty brand mascot social personas (e.g. Duolingo/Wendy's style) for viral banter.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Brand Mascot Meme Persona Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Brand Mascot Meme Persona Strategy",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Platform Brand Mascot Meme Persona Strategy.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Platform Brand Mascot Meme Persona Strategy.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-format-ugc-user-generated-content-brief-creator": {
+    id: "social-multi-multi-format-ugc-user-generated-content-brief-creator",
+    name: "MultiFormatUGCUserGeneratedContentBriefCreatorSkill",
+    displayName: "Multi Format UGC User Generated Content Brief Creator",
+    categoryId: "social",
+    description: "Drafts detailed creative briefs for UGC creators specifying hook, problem, product demo, and CTA.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format UGC User Generated Content Brief Creator",
+      ruSectionName: "Композитный Multi-Skill: Multi Format UGC User Generated Content Brief Creator",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format UGC User Generated Content Brief Creator.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format UGC User Generated Content Brief Creator.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-channel-youtube-shorts-monetization-channel-growth": {
+    id: "social-multi-multi-channel-youtube-shorts-monetization-channel-growth",
+    name: "MultiChannelYouTubeShortsMonetizationChannelGrowthSkill",
+    displayName: "Multi Channel YouTube Shorts Monetization Channel Growth",
+    categoryId: "social",
+    description: "Paces daily Shorts publishing schedules, playlist grouping, and community post teasers.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel YouTube Shorts Monetization Channel Growth",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel YouTube Shorts Monetization Channel Growth",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Channel YouTube Shorts Monetization Channel Growth.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Channel YouTube Shorts Monetization Channel Growth.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-platform-social-commerce-shop-integration-playbook": {
+    id: "social-multi-multi-platform-social-commerce-shop-integration-playbook",
+    name: "MultiPlatformSocialCommerceShopIntegrationPlaybookSkill",
+    displayName: "Multi Platform Social Commerce Shop Integration Playbook",
+    categoryId: "social",
+    description: "Configures TikTok Shop and Instagram Shopping product tagging, checkout, and affiliate commissions.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Social Commerce Shop Integration Playbook",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Social Commerce Shop Integration Playbook",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Platform Social Commerce Shop Integration Playbook.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Platform Social Commerce Shop Integration Playbook.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-format-newsletter-cross-promotion-sponsorship-swap": {
+    id: "social-multi-multi-format-newsletter-cross-promotion-sponsorship-swap",
+    name: "MultiFormatNewsletterCrossPromotionSponsorshipSwapSkill",
+    displayName: "Multi Format Newsletter Cross Promotion Sponsorship Swap",
+    categoryId: "social",
+    description: "Negotiates newsletter sponsorship swaps, co-written editions, and dedicated blast emails.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Newsletter Cross Promotion Sponsorship Swap",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Newsletter Cross Promotion Sponsorship Swap",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Newsletter Cross Promotion Sponsorship Swap.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Newsletter Cross Promotion Sponsorship Swap.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-stage-viral-social-challenge-contest-execution": {
+    id: "social-multi-multi-stage-viral-social-challenge-contest-execution",
+    name: "MultiStageViralSocialChallengeContestExecutionSkill",
+    displayName: "Multi Stage Viral Social Challenge Contest Execution",
+    categoryId: "social",
+    description: "Designs branded user hashtag challenges, prize incentives, and winner selection rules.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Viral Social Challenge Contest Execution",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Viral Social Challenge Contest Execution",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Viral Social Challenge Contest Execution.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Viral Social Challenge Contest Execution.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-channel-twitch-channel-point-engagement-gamification": {
+    id: "social-multi-multi-channel-twitch-channel-point-engagement-gamification",
+    name: "MultiChannelTwitchChannelPointEngagementGamificationSkill",
+    displayName: "Multi Channel Twitch Channel Point Engagement Gamification",
+    categoryId: "social",
+    description: "Configures custom channel point rewards, overlay widgets, and interactive chat games.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Twitch Channel Point Engagement Gamification",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Twitch Channel Point Engagement Gamification",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Channel Twitch Channel Point Engagement Gamification.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Channel Twitch Channel Point Engagement Gamification.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-platform-meta-threads-real-time-trend-hijacking": {
+    id: "social-multi-multi-platform-meta-threads-real-time-trend-hijacking",
+    name: "MultiPlatformMetaThreadsRealTimeTrendHijackingSkill",
+    displayName: "Multi Platform Meta Threads Real Time Trend Hijacking",
+    categoryId: "social",
+    description: "Crafts fast, witty replies to breaking news and trending threads on Meta Threads.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Meta Threads Real Time Trend Hijacking",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Meta Threads Real Time Trend Hijacking",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Platform Meta Threads Real Time Trend Hijacking.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Platform Meta Threads Real Time Trend Hijacking.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-format-b2b-founder-personal-brand-positioning": {
+    id: "social-multi-multi-format-b2b-founder-personal-brand-positioning",
+    name: "MultiFormatB2BFounderPersonalBrandPositioningSkill",
+    displayName: "Multi Format B2B Founder Personal Brand Positioning",
+    categoryId: "social",
+    description: "Ghostwrites daily founder posts on LinkedIn and X establishing industry thought leadership.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format B2B Founder Personal Brand Positioning",
+      ruSectionName: "Композитный Multi-Skill: Multi Format B2B Founder Personal Brand Positioning",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format B2B Founder Personal Brand Positioning.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format B2B Founder Personal Brand Positioning.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-channel-social-media-content-calendar-automation": {
+    id: "social-multi-multi-channel-social-media-content-calendar-automation",
+    name: "MultiChannelSocialMediaContentCalendarAutomationSkill",
+    displayName: "Multi Channel Social Media Content Calendar Automation",
+    categoryId: "social",
+    description: "Automates multi-platform posting schedules using Buffer, Hootsuite, or Sprout Social APIs.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Social Media Content Calendar Automation",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Social Media Content Calendar Automation",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Channel Social Media Content Calendar Automation.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Channel Social Media Content Calendar Automation.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-stage-influencer-co-branded-product-capsule-launch": {
+    id: "social-multi-multi-stage-influencer-co-branded-product-capsule-launch",
+    name: "MultiStageInfluencerCoBrandedProductCapsuleLaunchSkill",
+    displayName: "Multi Stage Influencer Co Branded Product Capsule Launch",
+    categoryId: "social",
+    description: "Coordinates influencer co-designed product drops, limited edition packaging, and launch events.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Influencer Co Branded Product Capsule Launch",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Influencer Co Branded Product Capsule Launch",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Influencer Co Branded Product Capsule Launch.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Influencer Co Branded Product Capsule Launch.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-platform-crowdfunding-community-backer-activation": {
+    id: "social-multi-multi-platform-crowdfunding-community-backer-activation",
+    name: "MultiPlatformCrowdfundingCommunityBackerActivationSkill",
+    displayName: "Multi Platform Crowdfunding Community Backer Activation",
+    categoryId: "social",
+    description: "Mobilizes Kickstarter/Indiegogo backer communities through updates, stretch goals, and PR.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Crowdfunding Community Backer Activation",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Crowdfunding Community Backer Activation",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Platform Crowdfunding Community Backer Activation.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Platform Crowdfunding Community Backer Activation.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-format-audio-space-podcast-host-live-discussion": {
+    id: "social-multi-multi-format-audio-space-podcast-host-live-discussion",
+    name: "MultiFormatAudioSpacePodcastHostLiveDiscussionSkill",
+    displayName: "Multi Format Audio Space Podcast Host Live Discussion",
+    categoryId: "social",
+    description: "Hosts X Spaces and LinkedIn Audio Events engaging live audiences with guest speakers.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Audio Space Podcast Host Live Discussion",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Audio Space Podcast Host Live Discussion",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Audio Space Podcast Host Live Discussion.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Audio Space Podcast Host Live Discussion.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-channel-micro-community-telegram-broadcast-channel": {
+    id: "social-multi-multi-channel-micro-community-telegram-broadcast-channel",
+    name: "MultiChannelMicroCommunityTelegramBroadcastChannelSkill",
+    displayName: "Multi Channel Micro Community Telegram Broadcast Channel",
+    categoryId: "social",
+    description: "Grows crypto/fintech Telegram channels with daily market signals, pin posts, and polls.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Micro Community Telegram Broadcast Channel",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Micro Community Telegram Broadcast Channel",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Channel Micro Community Telegram Broadcast Channel.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Channel Micro Community Telegram Broadcast Channel.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-stage-e-commerce-customer-review-video-amplification": {
+    id: "social-multi-multi-stage-e-commerce-customer-review-video-amplification",
+    name: "MultiStageECommerceCustomerReviewVideoAmplificationSkill",
+    displayName: "Multi Stage E-Commerce Customer Review Video Amplification",
+    categoryId: "social",
+    description: "Turns video customer reviews into paid social ad ads and website landing page widgets.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage E-Commerce Customer Review Video Amplification",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage E-Commerce Customer Review Video Amplification",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage E-Commerce Customer Review Video Amplification.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage E-Commerce Customer Review Video Amplification.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-platform-brand-collaboration-giveaway-sweepstakes": {
+    id: "social-multi-multi-platform-brand-collaboration-giveaway-sweepstakes",
+    name: "MultiPlatformBrandCollaborationGiveawaySweepstakesSkill",
+    displayName: "Multi Platform Brand Collaboration Giveaway Sweepstakes",
+    categoryId: "social",
+    description: "Partners non-competing brands for joint social media giveaway contests boosting follower count.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Brand Collaboration Giveaway Sweepstakes",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Brand Collaboration Giveaway Sweepstakes",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Platform Brand Collaboration Giveaway Sweepstakes.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Platform Brand Collaboration Giveaway Sweepstakes.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-format-short-film-documentary-social-teaser-cuts": {
+    id: "social-multi-multi-format-short-film-documentary-social-teaser-cuts",
+    name: "MultiFormatShortFilmDocumentarySocialTeaserCutsSkill",
+    displayName: "Multi Format Short Film Documentary Social Teaser Cuts",
+    categoryId: "social",
+    description: "Cuts trailer teasers optimized for 9:16 vertical video mobile screens.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Short Film Documentary Social Teaser Cuts",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Short Film Documentary Social Teaser Cuts",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Short Film Documentary Social Teaser Cuts.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Short Film Documentary Social Teaser Cuts.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-channel-crisis-social-media-apology-communication": {
+    id: "social-multi-multi-channel-crisis-social-media-apology-communication",
+    name: "MultiChannelCrisisSocialMediaApologyCommunicationSkill",
+    displayName: "Multi Channel Crisis Social Media Apology Communication",
+    categoryId: "social",
+    description: "Drafts authentic, transparent brand apology posts mitigating public backlash.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Crisis Social Media Apology Communication",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Crisis Social Media Apology Communication",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Channel Crisis Social Media Apology Communication.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Channel Crisis Social Media Apology Communication.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-platform-social-media-analytics-engagement-benchmark": {
+    id: "social-multi-multi-platform-social-media-analytics-engagement-benchmark",
+    name: "MultiPlatformSocialMediaAnalyticsEngagementBenchmarkSkill",
+    displayName: "Multi Platform Social Media Analytics Engagement Benchmark",
+    categoryId: "social",
+    description: "Audits engagement rates, reach per post, follower growth velocity against industry benchmarks.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Social Media Analytics Engagement Benchmark",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Social Media Analytics Engagement Benchmark",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Platform Social Media Analytics Engagement Benchmark.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Platform Social Media Analytics Engagement Benchmark.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-format-e-book-lead-magnet-social-download-funnel": {
+    id: "social-multi-multi-format-e-book-lead-magnet-social-download-funnel",
+    name: "MultiFormatEBookLeadMagnetSocialDownloadFunnelSkill",
+    displayName: "Multi Format E-Book Lead Magnet Social Download Funnel",
+    categoryId: "social",
+    description: "Promotes free PDF guides on social media driving email subscriber sign-ups.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format E-Book Lead Magnet Social Download Funnel",
+      ruSectionName: "Композитный Multi-Skill: Multi Format E-Book Lead Magnet Social Download Funnel",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format E-Book Lead Magnet Social Download Funnel.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format E-Book Lead Magnet Social Download Funnel.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-channel-b2b-employer-branding-recruitment-social": {
+    id: "social-multi-multi-channel-b2b-employer-branding-recruitment-social",
+    name: "MultiChannelB2BEmployerBrandingRecruitmentSocialSkill",
+    displayName: "Multi Channel B2B Employer Branding Recruitment Social",
+    categoryId: "social",
+    description: "Showcases company culture, team spotlights, and office perks attracting top talent.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel B2B Employer Branding Recruitment Social",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel B2B Employer Branding Recruitment Social",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Channel B2B Employer Branding Recruitment Social.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Channel B2B Employer Branding Recruitment Social.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-stage-tiktok-live-interactive-stream-gamification": {
+    id: "social-multi-multi-stage-tiktok-live-interactive-stream-gamification",
+    name: "MultiStageTikTokLiveInteractiveStreamGamificationSkill",
+    displayName: "Multi Stage TikTok Live Interactive Stream Gamification",
+    categoryId: "social",
+    description: "Sets up gift-triggered screen animations and interactive games during TikTok live streams.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage TikTok Live Interactive Stream Gamification",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage TikTok Live Interactive Stream Gamification",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage TikTok Live Interactive Stream Gamification.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage TikTok Live Interactive Stream Gamification.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-platform-local-business-geo-tagged-social-strategy": {
+    id: "social-multi-multi-platform-local-business-geo-tagged-social-strategy",
+    name: "MultiPlatformLocalBusinessGeoTaggedSocialStrategySkill",
+    displayName: "Multi Platform Local Business Geo Tagged Social Strategy",
+    categoryId: "social",
+    description: "Optimizes local Instagram/Google Business posts with geo-tags, local hashtags, and store photos.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Local Business Geo Tagged Social Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Local Business Geo Tagged Social Strategy",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Platform Local Business Geo Tagged Social Strategy.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Platform Local Business Geo Tagged Social Strategy.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-format-infographic-visual-data-carousel-creator": {
+    id: "social-multi-multi-format-infographic-visual-data-carousel-creator",
+    name: "MultiFormatInfographicVisualDataCarouselCreatorSkill",
+    displayName: "Multi Format Infographic Visual Data Carousel Creator",
+    categoryId: "social",
+    description: "Transforms complex industry data reports into swipeable Instagram/LinkedIn infographics.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Infographic Visual Data Carousel Creator",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Infographic Visual Data Carousel Creator",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Infographic Visual Data Carousel Creator.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Infographic Visual Data Carousel Creator.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-channel-non-profit-fundraising-giving-tuesday-campaign": {
+    id: "social-multi-multi-channel-non-profit-fundraising-giving-tuesday-campaign",
+    name: "MultiChannelNonProfitFundraisingGivingTuesdayCampaignSkill",
+    displayName: "Multi Channel Non-Profit Fundraising Giving Tuesday Campaign",
+    categoryId: "social",
+    description: "Executes social media fundraising blitzes with donor matching multipliers and live progress bars.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Non-Profit Fundraising Giving Tuesday Campaign",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Non-Profit Fundraising Giving Tuesday Campaign",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Channel Non-Profit Fundraising Giving Tuesday Campaign.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Channel Non-Profit Fundraising Giving Tuesday Campaign.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-stage-music-artist-album-release-social-blitz": {
+    id: "social-multi-multi-stage-music-artist-album-release-social-blitz",
+    name: "MultiStageMusicArtistAlbumReleaseSocialBlitzSkill",
+    displayName: "Multi Stage Music Artist Album Release Social Blitz",
+    categoryId: "social",
+    description: "Paces pre-save campaigns, snippet teasers, TikTok audio trends, and release day listening parties.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Music Artist Album Release Social Blitz",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Music Artist Album Release Social Blitz",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Music Artist Album Release Social Blitz.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Music Artist Album Release Social Blitz.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-platform-web3-crypto-community-nft-discord-strategy": {
+    id: "social-multi-multi-platform-web3-crypto-community-nft-discord-strategy",
+    name: "MultiPlatformWeb3CryptoCommunityNFTDiscordStrategySkill",
+    displayName: "Multi Platform Web3 Crypto Community NFT Discord Strategy",
+    categoryId: "social",
+    description: "Manages Discord community white-lists, AMA stages, and NFT project lore drops.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Web3 Crypto Community NFT Discord Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Web3 Crypto Community NFT Discord Strategy",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Platform Web3 Crypto Community NFT Discord Strategy.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Platform Web3 Crypto Community NFT Discord Strategy.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-format-interactive-instagram-story-poll-quiz-engine": {
+    id: "social-multi-multi-format-interactive-instagram-story-poll-quiz-engine",
+    name: "MultiFormatInteractiveInstagramStoryPollQuizEngineSkill",
+    displayName: "Multi Format Interactive Instagram Story Poll Quiz Engine",
+    categoryId: "social",
+    description: "Designs daily interactive Instagram Story sequences using stickers, polls, and countdowns.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Interactive Instagram Story Poll Quiz Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Interactive Instagram Story Poll Quiz Engine",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Interactive Instagram Story Poll Quiz Engine.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Interactive Instagram Story Poll Quiz Engine.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-channel-social-customer-service-sla-response-router": {
+    id: "social-multi-multi-channel-social-customer-service-sla-response-router",
+    name: "MultiChannelSocialCustomerServiceSLAResponseRouterSkill",
+    displayName: "Multi Channel Social Customer Service SLA Response Router",
+    categoryId: "social",
+    description: "Monitors brand mentions and DMs responding within 15-minute support SLAs.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Social Customer Service SLA Response Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Social Customer Service SLA Response Router",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Channel Social Customer Service SLA Response Router.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Channel Social Customer Service SLA Response Router.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-stage-saas-product-feature-update-social-announcement": {
+    id: "social-multi-multi-stage-saas-product-feature-update-social-announcement",
+    name: "MultiStageSaaSProductFeatureUpdateSocialAnnouncementSkill",
+    displayName: "Multi Stage SaaS Product Feature Update Social Announcement",
+    categoryId: "social",
+    description: "Creates screen recording GIFs, feature teardown threads, and product changelog posts.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage SaaS Product Feature Update Social Announcement",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage SaaS Product Feature Update Social Announcement",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage SaaS Product Feature Update Social Announcement.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage SaaS Product Feature Update Social Announcement.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-platform-culinary-food-blogger-recipe-reel-funnel": {
+    id: "social-multi-multi-platform-culinary-food-blogger-recipe-reel-funnel",
+    name: "MultiPlatformCulinaryFoodBloggerRecipeReelFunnelSkill",
+    displayName: "Multi Platform Culinary Food Blogger Recipe Reel Funnel",
+    categoryId: "social",
+    description: "Crafts mouth-watering 15-second recipe videos driving blog traffic and cookbook sales.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Culinary Food Blogger Recipe Reel Funnel",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Culinary Food Blogger Recipe Reel Funnel",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Platform Culinary Food Blogger Recipe Reel Funnel.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Platform Culinary Food Blogger Recipe Reel Funnel.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-format-fitness-influencer-workout-challenge-series": {
+    id: "social-multi-multi-format-fitness-influencer-workout-challenge-series",
+    name: "MultiFormatFitnessInfluencerWorkoutChallengeSeriesSkill",
+    displayName: "Multi Format Fitness Influencer Workout Challenge Series",
+    categoryId: "social",
+    description: "Structures 30-day social media fitness challenge video series with downloadable PDF trackers.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Fitness Influencer Workout Challenge Series",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Fitness Influencer Workout Challenge Series",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Format Fitness Influencer Workout Challenge Series.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Format Fitness Influencer Workout Challenge Series.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-channel-real-estate-home-tour-video-reel-series": {
+    id: "social-multi-multi-channel-real-estate-home-tour-video-reel-series",
+    name: "MultiChannelRealEstateHomeTourVideoReelSeriesSkill",
+    displayName: "Multi Channel Real Estate Home Tour Video Reel Series",
+    categoryId: "social",
+    description: "Produces cinematic walkthrough tours of luxury homes for Instagram Reels and YouTube.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Real Estate Home Tour Video Reel Series",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Real Estate Home Tour Video Reel Series",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Channel Real Estate Home Tour Video Reel Series.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Channel Real Estate Home Tour Video Reel Series.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+
+  "social-multi-multi-horizon-master-social-media-growth-audience-engine": {
+    id: "social-multi-multi-horizon-master-social-media-growth-audience-engine",
+    name: "MultiHorizonMasterSocialMediaGrowthAudienceEngineSkill",
+    displayName: "Multi Horizon Master Social Media Growth Audience Engine",
+    categoryId: "social",
+    description: "Enforces master viral content creation, community engagement, brand positioning, and channel growth.",
+    tags: ["social","multi-skill","social-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Social Media Growth Audience Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Social Media Growth Audience Engine",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Horizon Master Social Media Growth Audience Engine.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Horizon Master Social Media Growth Audience Engine.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi"],
+    }),
+  },
+  "social-multi-topup-multi-channel-tiktok-youtube-shorts-reels-cross-post-automation": {
+    id: "social-multi-topup-multi-channel-tiktok-youtube-shorts-reels-cross-post-automation",
+    name: "MultiChannelTikTokYouTubeShortsReelsCrossPostAutomationSkill",
+    displayName: "Multi Channel TikTok YouTube Shorts Reels Cross Post Automation",
+    categoryId: "social",
+    description: "Automates multi-platform short video publishing with channel-specific caption tweaks.",
+    tags: ["social","multi-skill","social-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel TikTok YouTube Shorts Reels Cross Post Automation",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel TikTok YouTube Shorts Reels Cross Post Automation",
+      instructions: [
+        "Phase 1: Setup social media strategy, channel parameters, and target audience persona for Multi Channel TikTok YouTube Shorts Reels Cross Post Automation.",
+        "Phase 2: Multi-format content generation, virality optimization, and posting schedule.",
+        "Phase 3: Synthesize community response analysis and performance metrics."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация стратегии соцсетей, параметров каналов и целевой аудитории для Multi Channel TikTok YouTube Shorts Reels Cross Post Automation.",
+        "Этап 2: Многоформатная генерация контента, виральная оптимизация и контент-план.",
+        "Этап 3: Синтез анализа отклика сообщества и метрик эффективности."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi-topup"],
+    }),
+  },
+
+  "social-multi-topup-multi-platform-influencer-contract-deliverable-tracking": {
+    id: "social-multi-topup-multi-platform-influencer-contract-deliverable-tracking",
+    name: "MultiPlatformInfluencerContractDeliverableTrackingSkill",
+    displayName: "Multi Platform Influencer Contract Deliverable Tracking",
+    categoryId: "social",
+    description: "Tracks influencer deliverables, usage rights expirations, and promo code attribution.",
+    tags: ["social","multi-skill","social-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Influencer Contract Deliverable Tracking",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Influencer Contract Deliverable Tracking",
+      instructions: [
+        "Phase 1: Setup social media strategy, channel parameters, and target audience persona for Multi Platform Influencer Contract Deliverable Tracking.",
+        "Phase 2: Multi-format content generation, virality optimization, and posting schedule.",
+        "Phase 3: Synthesize community response analysis and performance metrics."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация стратегии соцсетей, параметров каналов и целевой аудитории для Multi Platform Influencer Contract Deliverable Tracking.",
+        "Этап 2: Многоформатная генерация контента, виральная оптимизация и контент-план.",
+        "Этап 3: Синтез анализа отклика сообщества и метрик эффективности."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi-topup"],
+    }),
+  },
+
+  "social-multi-topup-multi-format-linkedin-newsletter-subscriber-growth-funnel": {
+    id: "social-multi-topup-multi-format-linkedin-newsletter-subscriber-growth-funnel",
+    name: "MultiFormatLinkedInNewsletterSubscriberGrowthFunnelSkill",
+    displayName: "Multi Format LinkedIn Newsletter Subscriber Growth Funnel",
+    categoryId: "social",
+    description: "Builds LinkedIn newsletters converting organic feed readers into dedicated subscribers.",
+    tags: ["social","multi-skill","social-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format LinkedIn Newsletter Subscriber Growth Funnel",
+      ruSectionName: "Композитный Multi-Skill: Multi Format LinkedIn Newsletter Subscriber Growth Funnel",
+      instructions: [
+        "Phase 1: Setup social media strategy, channel parameters, and target audience persona for Multi Format LinkedIn Newsletter Subscriber Growth Funnel.",
+        "Phase 2: Multi-format content generation, virality optimization, and posting schedule.",
+        "Phase 3: Synthesize community response analysis and performance metrics."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация стратегии соцсетей, параметров каналов и целевой аудитории для Multi Format LinkedIn Newsletter Subscriber Growth Funnel.",
+        "Этап 2: Многоформатная генерация контента, виральная оптимизация и контент-план.",
+        "Этап 3: Синтез анализа отклика сообщества и метрик эффективности."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi-topup"],
+    }),
+  },
+
+  "social-multi-topup-multi-channel-e-commerce-product-launch-social-hype-campaign": {
+    id: "social-multi-topup-multi-channel-e-commerce-product-launch-social-hype-campaign",
+    name: "MultiChannelECommerceProductLaunchSocialHypeCampaignSkill",
+    displayName: "Multi Channel E-Commerce Product Launch Social Hype Campaign",
+    categoryId: "social",
+    description: "Creates 14-day countdown hype campaign for e-commerce drops across Instagram and TikTok.",
+    tags: ["social","multi-skill","social-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel E-Commerce Product Launch Social Hype Campaign",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel E-Commerce Product Launch Social Hype Campaign",
+      instructions: [
+        "Phase 1: Setup social media strategy, channel parameters, and target audience persona for Multi Channel E-Commerce Product Launch Social Hype Campaign.",
+        "Phase 2: Multi-format content generation, virality optimization, and posting schedule.",
+        "Phase 3: Synthesize community response analysis and performance metrics."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация стратегии соцсетей, параметров каналов и целевой аудитории для Multi Channel E-Commerce Product Launch Social Hype Campaign.",
+        "Этап 2: Многоформатная генерация контента, виральная оптимизация и контент-план.",
+        "Этап 3: Синтез анализа отклика сообщества и метрик эффективности."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi-topup"],
+    }),
+  },
+
+  "social-multi-topup-multi-platform-community-moderation-rule-enforcement-engine": {
+    id: "social-multi-topup-multi-platform-community-moderation-rule-enforcement-engine",
+    name: "MultiPlatformCommunityModerationRuleEnforcementEngineSkill",
+    displayName: "Multi Platform Community Moderation Rule Enforcement Engine",
+    categoryId: "social",
+    description: "Automates toxic comment removal, spam filtering, and warning dispatches across social accounts.",
+    tags: ["social","multi-skill","social-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Community Moderation Rule Enforcement Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Community Moderation Rule Enforcement Engine",
+      instructions: [
+        "Phase 1: Setup social media strategy, channel parameters, and target audience persona for Multi Platform Community Moderation Rule Enforcement Engine.",
+        "Phase 2: Multi-format content generation, virality optimization, and posting schedule.",
+        "Phase 3: Synthesize community response analysis and performance metrics."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация стратегии соцсетей, параметров каналов и целевой аудитории для Multi Platform Community Moderation Rule Enforcement Engine.",
+        "Этап 2: Многоформатная генерация контента, виральная оптимизация и контент-план.",
+        "Этап 3: Синтез анализа отклика сообщества и метрик эффективности."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi-topup"],
+    }),
+  },
+
+  "social-multi-topup-multi-format-podcast-video-clip-highlight-reel-creator": {
+    id: "social-multi-topup-multi-format-podcast-video-clip-highlight-reel-creator",
+    name: "MultiFormatPodcastVideoClipHighlightReelCreatorSkill",
+    displayName: "Multi Format Podcast Video Clip Highlight Reel Creator",
+    categoryId: "social",
+    description: "Extracts high-retention 60-second video podcast clips with animated captions for social.",
+    tags: ["social","multi-skill","social-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Podcast Video Clip Highlight Reel Creator",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Podcast Video Clip Highlight Reel Creator",
+      instructions: [
+        "Phase 1: Setup social media strategy, channel parameters, and target audience persona for Multi Format Podcast Video Clip Highlight Reel Creator.",
+        "Phase 2: Multi-format content generation, virality optimization, and posting schedule.",
+        "Phase 3: Synthesize community response analysis and performance metrics."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация стратегии соцсетей, параметров каналов и целевой аудитории для Multi Format Podcast Video Clip Highlight Reel Creator.",
+        "Этап 2: Многоформатная генерация контента, виральная оптимизация и контент-план.",
+        "Этап 3: Синтез анализа отклика сообщества и метрик эффективности."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi-topup"],
+    }),
+  },
+
+  "social-multi-topup-multi-channel-b2b-employer-branding-talent-attraction": {
+    id: "social-multi-topup-multi-channel-b2b-employer-branding-talent-attraction",
+    name: "MultiChannelB2BEmployerBrandingTalentAttractionSkill",
+    displayName: "Multi Channel B2B Employer Branding Talent Attraction",
+    categoryId: "social",
+    description: "Showcases employee stories and office culture to attract high-caliber job candidates.",
+    tags: ["social","multi-skill","social-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel B2B Employer Branding Talent Attraction",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel B2B Employer Branding Talent Attraction",
+      instructions: [
+        "Phase 1: Setup social media strategy, channel parameters, and target audience persona for Multi Channel B2B Employer Branding Talent Attraction.",
+        "Phase 2: Multi-format content generation, virality optimization, and posting schedule.",
+        "Phase 3: Synthesize community response analysis and performance metrics."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация стратегии соцсетей, параметров каналов и целевой аудитории для Multi Channel B2B Employer Branding Talent Attraction.",
+        "Этап 2: Многоформатная генерация контента, виральная оптимизация и контент-план.",
+        "Этап 3: Синтез анализа отклика сообщества и метрик эффективности."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi-topup"],
+    }),
+  },
+
+  "social-multi-topup-multi-platform-social-commerce-in-app-checkout-funnel": {
+    id: "social-multi-topup-multi-platform-social-commerce-in-app-checkout-funnel",
+    name: "MultiPlatformSocialCommerceInAppCheckoutFunnelSkill",
+    displayName: "Multi Platform Social Commerce In-App Checkout Funnel",
+    categoryId: "social",
+    description: "Configures seamless social media in-app shop checkouts and live stream product tags.",
+    tags: ["social","multi-skill","social-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Platform Social Commerce In-App Checkout Funnel",
+      ruSectionName: "Композитный Multi-Skill: Multi Platform Social Commerce In-App Checkout Funnel",
+      instructions: [
+        "Phase 1: Setup social media strategy, channel parameters, and target audience persona for Multi Platform Social Commerce In-App Checkout Funnel.",
+        "Phase 2: Multi-format content generation, virality optimization, and posting schedule.",
+        "Phase 3: Synthesize community response analysis and performance metrics."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация стратегии соцсетей, параметров каналов и целевой аудитории для Multi Platform Social Commerce In-App Checkout Funnel.",
+        "Этап 2: Многоформатная генерация контента, виральная оптимизация и контент-план.",
+        "Этап 3: Синтез анализа отклика сообщества и метрик эффективности."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi-topup"],
+    }),
+  },
+
+  "social-multi-topup-multi-format-crowdfunding-backer-update-social-storytelling": {
+    id: "social-multi-topup-multi-format-crowdfunding-backer-update-social-storytelling",
+    name: "MultiFormatCrowdfundingBackerUpdateSocialStorytellingSkill",
+    displayName: "Multi Format Crowdfunding Backer Update Social Storytelling",
+    categoryId: "social",
+    description: "Drafts engaging campaign updates maintaining momentum and backer excitement.",
+    tags: ["social","multi-skill","social-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Crowdfunding Backer Update Social Storytelling",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Crowdfunding Backer Update Social Storytelling",
+      instructions: [
+        "Phase 1: Setup social media strategy, channel parameters, and target audience persona for Multi Format Crowdfunding Backer Update Social Storytelling.",
+        "Phase 2: Multi-format content generation, virality optimization, and posting schedule.",
+        "Phase 3: Synthesize community response analysis and performance metrics."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация стратегии соцсетей, параметров каналов и целевой аудитории для Multi Format Crowdfunding Backer Update Social Storytelling.",
+        "Этап 2: Многоформатная генерация контента, виральная оптимизация и контент-план.",
+        "Этап 3: Синтез анализа отклика сообщества и метрик эффективности."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi-topup"],
+    }),
+  },
+
+  "social-multi-topup-multi-horizon-master-social-growth-audience-expansion-engine": {
+    id: "social-multi-topup-multi-horizon-master-social-growth-audience-expansion-engine",
+    name: "MultiHorizonMasterSocialGrowthAudienceExpansionEngineSkill",
+    displayName: "Multi Horizon Master Social Growth Audience Expansion Engine",
+    categoryId: "social",
+    description: "Enforces master social growth strategy, viral mechanics, community management, and channel dominance.",
+    tags: ["social","multi-skill","social-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Social Growth Audience Expansion Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Social Growth Audience Expansion Engine",
+      instructions: [
+        "Phase 1: Setup social media strategy, channel parameters, and target audience persona for Multi Horizon Master Social Growth Audience Expansion Engine.",
+        "Phase 2: Multi-format content generation, virality optimization, and posting schedule.",
+        "Phase 3: Synthesize community response analysis and performance metrics."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация стратегии соцсетей, параметров каналов и целевой аудитории для Multi Horizon Master Social Growth Audience Expansion Engine.",
+        "Этап 2: Многоформатная генерация контента, виральная оптимизация и контент-план.",
+        "Этап 3: Синтез анализа отклика сообщества и метрик эффективности."
+],
+      semanticType: "process_directive",
+      tags: ["social","multi-skill","social-multi-topup"],
+    }),
+  },
 };

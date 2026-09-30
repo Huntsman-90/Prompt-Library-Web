@@ -4323,4 +4323,1503 @@ export const AGENTIC_SKILLS: Record<string, SkillDefinition> = {
       tags: ["agentic","agentic-final","final","master"],
     }),
   },
+  "agentic-multi-multi-agent-autonomous-hierarchical-worker-swarm": {
+    id: "agentic-multi-multi-agent-autonomous-hierarchical-worker-swarm",
+    name: "MultiAgentAutonomousHierarchicalWorkerSwarmSkill",
+    displayName: "Multi Agent Autonomous Hierarchical Worker Swarm",
+    categoryId: "agentic",
+    description: "Orchestrates a root supervisor agent delegating tasks across tier-1 and tier-2 worker agent clusters.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Autonomous Hierarchical Worker Swarm",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Autonomous Hierarchical Worker Swarm",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Autonomous Hierarchical Worker Swarm.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Autonomous Hierarchical Worker Swarm.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-self-healing-execution-loop": {
+    id: "agentic-multi-multi-agent-self-healing-execution-loop",
+    name: "MultiAgentSelfHealingExecutionLoopSkill",
+    displayName: "Multi Agent Self Healing Execution Loop",
+    categoryId: "agentic",
+    description: "Deploys monitoring and recovery agents that detect workflow failures and auto-generate corrective agent code.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Self Healing Execution Loop",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Self Healing Execution Loop",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Self Healing Execution Loop.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Self Healing Execution Loop.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-parallel-web-research-crawler-swarm": {
+    id: "agentic-multi-multi-agent-parallel-web-research-crawler-swarm",
+    name: "MultiAgentParallelWebResearchCrawlerSwarmSkill",
+    displayName: "Multi Agent Parallel Web Research Crawler Swarm",
+    categoryId: "agentic",
+    description: "Coordinates specialized researcher agents scraping, synthesizing, and cross-checking web data in parallel.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Parallel Web Research Crawler Swarm",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Parallel Web Research Crawler Swarm",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Parallel Web Research Crawler Swarm.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Parallel Web Research Crawler Swarm.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-memory-augmented-context-manager": {
+    id: "agentic-multi-multi-agent-memory-augmented-context-manager",
+    name: "MultiAgentMemoryAugmentedContextManagerSkill",
+    displayName: "Multi Agent Memory Augmented Context Manager",
+    categoryId: "agentic",
+    description: "Maintains short-term, episodic, and long-term vector memory agents for persistent multi-turn execution.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Memory Augmented Context Manager",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Memory Augmented Context Manager",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Memory Augmented Context Manager.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Memory Augmented Context Manager.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-tool-discovery-schema-generator": {
+    id: "agentic-multi-multi-agent-tool-discovery-schema-generator",
+    name: "MultiAgentToolDiscoverySchemaGeneratorSkill",
+    displayName: "Multi Agent Tool Discovery Schema Generator",
+    categoryId: "agentic",
+    description: "Empowers agents to dynamically inspect, generate OpenAPI specs for, and invoke novel external APIs.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Tool Discovery Schema Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Tool Discovery Schema Generator",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Tool Discovery Schema Generator.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Tool Discovery Schema Generator.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-competitive-adversarial-arena": {
+    id: "agentic-multi-multi-agent-competitive-adversarial-arena",
+    name: "MultiAgentCompetitiveAdversarialArenaSkill",
+    displayName: "Multi Agent Competitive Adversarial Arena",
+    categoryId: "agentic",
+    description: "Runs two agent teams in a competitive gaming or negotiation arena with an arbiter agent evaluating scores.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Competitive Adversarial Arena",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Competitive Adversarial Arena",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Competitive Adversarial Arena.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Competitive Adversarial Arena.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-asynchronous-event-router-pipeline": {
+    id: "agentic-multi-multi-agent-asynchronous-event-router-pipeline",
+    name: "MultiAgentAsynchronousEventRouterPipelineSkill",
+    displayName: "Multi Agent Asynchronous Event Router Pipeline",
+    categoryId: "agentic",
+    description: "Routes event streams through decoupled event-producer, filter, and transformer worker agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Asynchronous Event Router Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Asynchronous Event Router Pipeline",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Asynchronous Event Router Pipeline.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Asynchronous Event Router Pipeline.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-consensus-voting-protocol": {
+    id: "agentic-multi-multi-agent-consensus-voting-protocol",
+    name: "MultiAgentConsensusVotingProtocolSkill",
+    displayName: "Multi Agent Consensus Voting Protocol",
+    categoryId: "agentic",
+    description: "Executes Byzantine fault-tolerant voting across N heterogeneous reasoning agents to reach verified consensus.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Consensus Voting Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Consensus Voting Protocol",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Consensus Voting Protocol.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Consensus Voting Protocol.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-code-generation-refactoring-pair": {
+    id: "agentic-multi-multi-agent-code-generation-refactoring-pair",
+    name: "MultiAgentCodeGenerationRefactoringPairSkill",
+    displayName: "Multi Agent Code Generation Refactoring Pair",
+    categoryId: "agentic",
+    description: "Pairs a Generator Agent with a Linter/Refactor Agent in an iterative test-driven development loop.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Code Generation Refactoring Pair",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Code Generation Refactoring Pair",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Code Generation Refactoring Pair.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Code Generation Refactoring Pair.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-dynamic-planning-task-breakdown": {
+    id: "agentic-multi-multi-agent-dynamic-planning-task-breakdown",
+    name: "MultiAgentDynamicPlanningTaskBreakdownSkill",
+    displayName: "Multi Agent Dynamic Planning Task Breakdown",
+    categoryId: "agentic",
+    description: "Breaks high-level user intents into directed acyclic graphs (DAGs) executed by specialized sub-agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Dynamic Planning Task Breakdown",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Dynamic Planning Task Breakdown",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Dynamic Planning Task Breakdown.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Dynamic Planning Task Breakdown.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-multi-modal-asset-generation-swarm": {
+    id: "agentic-multi-multi-agent-multi-modal-asset-generation-swarm",
+    name: "MultiAgentMultiModalAssetGenerationSwarmSkill",
+    displayName: "Multi Agent Multi-Modal Asset Generation Swarm",
+    categoryId: "agentic",
+    description: "Coordinates text, image, audio, and code generation agents producing unified multimedia artifacts.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Multi-Modal Asset Generation Swarm",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Multi-Modal Asset Generation Swarm",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Multi-Modal Asset Generation Swarm.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Multi-Modal Asset Generation Swarm.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-contract-legal-clause-extraction-fleet": {
+    id: "agentic-multi-multi-agent-contract-legal-clause-extraction-fleet",
+    name: "MultiAgentContractLegalClauseExtractionFleetSkill",
+    displayName: "Multi Agent Contract Legal Clause Extraction Fleet",
+    categoryId: "agentic",
+    description: "Deploys parallel extractor agents inspecting large document repositories for specific legal indemnities.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Contract Legal Clause Extraction Fleet",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Contract Legal Clause Extraction Fleet",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Contract Legal Clause Extraction Fleet.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Contract Legal Clause Extraction Fleet.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-financial-market-arbitrage-monitor": {
+    id: "agentic-multi-multi-agent-financial-market-arbitrage-monitor",
+    name: "MultiAgentFinancialMarketArbitrageMonitorSkill",
+    displayName: "Multi Agent Financial Market Arbitrage Monitor",
+    categoryId: "agentic",
+    description: "Deploys real-time ticker monitor agents triggering execution agents upon detecting price discrepancies.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Financial Market Arbitrage Monitor",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Financial Market Arbitrage Monitor",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Financial Market Arbitrage Monitor.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Financial Market Arbitrage Monitor.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-customer-support-escalation-routing": {
+    id: "agentic-multi-multi-agent-customer-support-escalation-routing",
+    name: "MultiAgentCustomerSupportEscalationRoutingSkill",
+    displayName: "Multi Agent Customer Support Escalation Routing",
+    categoryId: "agentic",
+    description: "Routes customer tickets between intent-classifier, sentiment-analyzer, and tier-2 resolution agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Customer Support Escalation Routing",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Customer Support Escalation Routing",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Customer Support Escalation Routing.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Customer Support Escalation Routing.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-ci-cd-automated-pipeline-watchdog": {
+    id: "agentic-multi-multi-agent-ci-cd-automated-pipeline-watchdog",
+    name: "MultiAgentCICDAutomatedPipelineWatchdogSkill",
+    displayName: "Multi Agent CI CD Automated Pipeline Watchdog",
+    categoryId: "agentic",
+    description: "Deploys build monitoring, test suite verification, and deployment rollback supervisor agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent CI CD Automated Pipeline Watchdog",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent CI CD Automated Pipeline Watchdog",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent CI CD Automated Pipeline Watchdog.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent CI CD Automated Pipeline Watchdog.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-threat-hunting-soc-investigation": {
+    id: "agentic-multi-multi-agent-threat-hunting-soc-investigation",
+    name: "MultiAgentThreatHuntingSOCInvestigationSkill",
+    displayName: "Multi Agent Threat Hunting SOC Investigation",
+    categoryId: "agentic",
+    description: "Coordinates SIEM log parser, threat intelligence lookup, and containment action agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Threat Hunting SOC Investigation",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Threat Hunting SOC Investigation",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Threat Hunting SOC Investigation.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Threat Hunting SOC Investigation.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-e-commerce-inventory-reordering-network": {
+    id: "agentic-multi-multi-agent-e-commerce-inventory-reordering-network",
+    name: "MultiAgentECommerceInventoryReorderingNetworkSkill",
+    displayName: "Multi Agent E-Commerce Inventory Reordering Network",
+    categoryId: "agentic",
+    description: "Links demand forecasting, supplier negotiation, and warehouse logistics fulfillment agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent E-Commerce Inventory Reordering Network",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent E-Commerce Inventory Reordering Network",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent E-Commerce Inventory Reordering Network.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent E-Commerce Inventory Reordering Network.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-personal-assistant-calendar-scheduler": {
+    id: "agentic-multi-multi-agent-personal-assistant-calendar-scheduler",
+    name: "MultiAgentPersonalAssistantCalendarSchedulerSkill",
+    displayName: "Multi Agent Personal Assistant Calendar Scheduler",
+    categoryId: "agentic",
+    description: "Deploys availability negotiator, priority evaluator, and meeting summary dispatch agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Personal Assistant Calendar Scheduler",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Personal Assistant Calendar Scheduler",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Personal Assistant Calendar Scheduler.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Personal Assistant Calendar Scheduler.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-clinical-trial-data-normalizer": {
+    id: "agentic-multi-multi-agent-clinical-trial-data-normalizer",
+    name: "MultiAgentClinicalTrialDataNormalizerSkill",
+    displayName: "Multi Agent Clinical Trial Data Normalizer",
+    categoryId: "agentic",
+    description: "Extracts, standardizes, and validates patient records across multi-hospital trial databases.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Clinical Trial Data Normalizer",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Clinical Trial Data Normalizer",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Clinical Trial Data Normalizer.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Clinical Trial Data Normalizer.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-software-vulnerability-patch-generator": {
+    id: "agentic-multi-multi-agent-software-vulnerability-patch-generator",
+    name: "MultiAgentSoftwareVulnerabilityPatchGeneratorSkill",
+    displayName: "Multi Agent Software Vulnerability Patch Generator",
+    categoryId: "agentic",
+    description: "Coordinates AST scanner, exploit tester, patch writer, and regression test verification agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Software Vulnerability Patch Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Software Vulnerability Patch Generator",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Software Vulnerability Patch Generator.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Software Vulnerability Patch Generator.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-game-npc-behavioral-simulation": {
+    id: "agentic-multi-multi-agent-game-npc-behavioral-simulation",
+    name: "MultiAgentGameNPCBehavioralSimulationSkill",
+    displayName: "Multi Agent Game NPC Behavioral Simulation",
+    categoryId: "agentic",
+    description: "Simulates autonomous non-player characters with goal-oriented action planning (GOAP) agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Game NPC Behavioral Simulation",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Game NPC Behavioral Simulation",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Game NPC Behavioral Simulation.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Game NPC Behavioral Simulation.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-data-pipeline-etl-transformer-fleet": {
+    id: "agentic-multi-multi-agent-data-pipeline-etl-transformer-fleet",
+    name: "MultiAgentDataPipelineETLTransformerFleetSkill",
+    displayName: "Multi Agent Data Pipeline ETL Transformer Fleet",
+    categoryId: "agentic",
+    description: "Coordinates extraction, schema translation, data quality validation, and database load agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Data Pipeline ETL Transformer Fleet",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Data Pipeline ETL Transformer Fleet",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Data Pipeline ETL Transformer Fleet.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Data Pipeline ETL Transformer Fleet.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-localization-translation-verification": {
+    id: "agentic-multi-multi-agent-localization-translation-verification",
+    name: "MultiAgentLocalizationTranslationVerificationSkill",
+    displayName: "Multi Agent Localization Translation Verification",
+    categoryId: "agentic",
+    description: "Pairs primary translator, cultural nuance checker, and regional compliance reviewer agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Localization Translation Verification",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Localization Translation Verification",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Localization Translation Verification.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Localization Translation Verification.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-automated-grant-proposal-writer": {
+    id: "agentic-multi-multi-agent-automated-grant-proposal-writer",
+    name: "MultiAgentAutomatedGrantProposalWriterSkill",
+    displayName: "Multi Agent Automated Grant Proposal Writer",
+    categoryId: "agentic",
+    description: "Coordinates grant requirements analyzer, budget calculator, and narrative drafting agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Automated Grant Proposal Writer",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Automated Grant Proposal Writer",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Automated Grant Proposal Writer.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Automated Grant Proposal Writer.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-smart-contract-audit-suite": {
+    id: "agentic-multi-multi-agent-smart-contract-audit-suite",
+    name: "MultiAgentSmartContractAuditSuiteSkill",
+    displayName: "Multi Agent Smart Contract Audit Suite",
+    categoryId: "agentic",
+    description: "Pairs formal verification, reentrancy scanner, and gas optimization agents auditing Solidity code.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Smart Contract Audit Suite",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Smart Contract Audit Suite",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Smart Contract Audit Suite.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Smart Contract Audit Suite.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-podcast-episode-automated-production": {
+    id: "agentic-multi-multi-agent-podcast-episode-automated-production",
+    name: "MultiAgentPodcastEpisodeAutomatedProductionSkill",
+    displayName: "Multi Agent Podcast Episode Automated Production",
+    categoryId: "agentic",
+    description: "Links transcript cleaner, chapter marker generator, show note writer, and audio edit marker agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Podcast Episode Automated Production",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Podcast Episode Automated Production",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Podcast Episode Automated Production.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Podcast Episode Automated Production.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-real-estate-valuation-estimator": {
+    id: "agentic-multi-multi-agent-real-estate-valuation-estimator",
+    name: "MultiAgentRealEstateValuationEstimatorSkill",
+    displayName: "Multi Agent Real Estate Valuation Estimator",
+    categoryId: "agentic",
+    description: "Links comp sales analyst, neighborhood trend tracker, and property condition scoring agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Real Estate Valuation Estimator",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Real Estate Valuation Estimator",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Real Estate Valuation Estimator.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Real Estate Valuation Estimator.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-automated-book-indexer-summarizer": {
+    id: "agentic-multi-multi-agent-automated-book-indexer-summarizer",
+    name: "MultiAgentAutomatedBookIndexerSummarizerSkill",
+    displayName: "Multi Agent Automated Book Indexer Summarizer",
+    categoryId: "agentic",
+    description: "Deploys page scraper, key concept tagger, cross-reference builder, and index compiler agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Automated Book Indexer Summarizer",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Automated Book Indexer Summarizer",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Automated Book Indexer Summarizer.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Automated Book Indexer Summarizer.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-social-media-sentiment-radar": {
+    id: "agentic-multi-multi-agent-social-media-sentiment-radar",
+    name: "MultiAgentSocialMediaSentimentRadarSkill",
+    displayName: "Multi Agent Social Media Sentiment Radar",
+    categoryId: "agentic",
+    description: "Deploys live social listener, trend classifier, virality predictor, and response generator agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Social Media Sentiment Radar",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Social Media Sentiment Radar",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Social Media Sentiment Radar.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Social Media Sentiment Radar.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-penetration-testing-reconnaissance": {
+    id: "agentic-multi-multi-agent-penetration-testing-reconnaissance",
+    name: "MultiAgentPenetrationTestingReconnaissanceSkill",
+    displayName: "Multi Agent Penetration Testing Reconnaissance",
+    categoryId: "agentic",
+    description: "Coordinates port scanner, subdomain enumerator, vulnerability matcher, and report writer agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Penetration Testing Reconnaissance",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Penetration Testing Reconnaissance",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Penetration Testing Reconnaissance.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Penetration Testing Reconnaissance.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-enterprise-knowledge-graph-builder": {
+    id: "agentic-multi-multi-agent-enterprise-knowledge-graph-builder",
+    name: "MultiAgentEnterpriseKnowledgeGraphBuilderSkill",
+    displayName: "Multi Agent Enterprise Knowledge Graph Builder",
+    categoryId: "agentic",
+    description: "Extracts entity-relation-entity triples from unstructured docs and ingests into GraphDB.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Enterprise Knowledge Graph Builder",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Enterprise Knowledge Graph Builder",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Enterprise Knowledge Graph Builder.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Enterprise Knowledge Graph Builder.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-scientific-literature-discovery-engine": {
+    id: "agentic-multi-multi-agent-scientific-literature-discovery-engine",
+    name: "MultiAgentScientificLiteratureDiscoveryEngineSkill",
+    displayName: "Multi Agent Scientific Literature Discovery Engine",
+    categoryId: "agentic",
+    description: "Scrapes PubMed/arXiv, synthesizes citation graphs, and identifies novelty gaps.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Scientific Literature Discovery Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Scientific Literature Discovery Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Scientific Literature Discovery Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Scientific Literature Discovery Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-automated-regulatory-filing-assistant": {
+    id: "agentic-multi-multi-agent-automated-regulatory-filing-assistant",
+    name: "MultiAgentAutomatedRegulatoryFilingAssistantSkill",
+    displayName: "Multi Agent Automated Regulatory Filing Assistant",
+    categoryId: "agentic",
+    description: "Coordinates data collection, SEC/FDA form mapping, and compliance check agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Automated Regulatory Filing Assistant",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Automated Regulatory Filing Assistant",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Automated Regulatory Filing Assistant.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Automated Regulatory Filing Assistant.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-hardware-telemetry-anomaly-detector": {
+    id: "agentic-multi-multi-agent-hardware-telemetry-anomaly-detector",
+    name: "MultiAgentHardwareTelemetryAnomalyDetectorSkill",
+    displayName: "Multi Agent Hardware Telemetry Anomaly Detector",
+    categoryId: "agentic",
+    description: "Parses IoT sensor streams, detects outliers, and dispatches preventative maintenance tickets.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Hardware Telemetry Anomaly Detector",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Hardware Telemetry Anomaly Detector",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Hardware Telemetry Anomaly Detector.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Hardware Telemetry Anomaly Detector.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-saas-user-churn-prevention-engine": {
+    id: "agentic-multi-multi-agent-saas-user-churn-prevention-engine",
+    name: "MultiAgentSaaSUserChurnPreventionEngineSkill",
+    displayName: "Multi Agent SaaS User Churn Prevention Engine",
+    categoryId: "agentic",
+    description: "Identifies dropping engagement metrics, generates personalized retention offers, and dispatches CS alerts.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent SaaS User Churn Prevention Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent SaaS User Churn Prevention Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent SaaS User Churn Prevention Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent SaaS User Churn Prevention Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-automated-ad-creative-a-b-testing": {
+    id: "agentic-multi-multi-agent-automated-ad-creative-a-b-testing",
+    name: "MultiAgentAutomatedAdCreativeABTestingSkill",
+    displayName: "Multi Agent Automated Ad Creative A B Testing",
+    categoryId: "agentic",
+    description: "Coordinates copy generation, image prompt creation, performance tracking, and budget reallocation.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Automated Ad Creative A B Testing",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Automated Ad Creative A B Testing",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Automated Ad Creative A B Testing.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Automated Ad Creative A B Testing.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-supply-chain-disruption-rerouting": {
+    id: "agentic-multi-multi-agent-supply-chain-disruption-rerouting",
+    name: "MultiAgentSupplyChainDisruptionReroutingSkill",
+    displayName: "Multi Agent Supply Chain Disruption Rerouting",
+    categoryId: "agentic",
+    description: "Monitors weather/port delays, calculates alternate freight routes, and updates shipping manifests.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Supply Chain Disruption Rerouting",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Supply Chain Disruption Rerouting",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Supply Chain Disruption Rerouting.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Supply Chain Disruption Rerouting.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-video-script-storyboard-generator": {
+    id: "agentic-multi-multi-agent-video-script-storyboard-generator",
+    name: "MultiAgentVideoScriptStoryboardGeneratorSkill",
+    displayName: "Multi Agent Video Script Storyboard Generator",
+    categoryId: "agentic",
+    description: "Pairs scriptwriter, visual scene describer, shot list generator, and voiceover timing agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Video Script Storyboard Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Video Script Storyboard Generator",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Video Script Storyboard Generator.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Video Script Storyboard Generator.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-open-source-repository-triage-swarm": {
+    id: "agentic-multi-multi-agent-open-source-repository-triage-swarm",
+    name: "MultiAgentOpenSourceRepositoryTriageSwarmSkill",
+    displayName: "Multi Agent Open Source Repository Triage Swarm",
+    categoryId: "agentic",
+    description: "Triages incoming issues, labels PRs, runs reproduction steps, and suggests fixes.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Open Source Repository Triage Swarm",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Open Source Repository Triage Swarm",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Open Source Repository Triage Swarm.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Open Source Repository Triage Swarm.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-wealth-management-rebalancing-engine": {
+    id: "agentic-multi-multi-agent-wealth-management-rebalancing-engine",
+    name: "MultiAgentWealthManagementRebalancingEngineSkill",
+    displayName: "Multi Agent Wealth Management Rebalancing Engine",
+    categoryId: "agentic",
+    description: "Analyzes portfolio drift, calculates tax-loss harvesting sales, and executes rebalance orders.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Wealth Management Rebalancing Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Wealth Management Rebalancing Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Wealth Management Rebalancing Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Wealth Management Rebalancing Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-disaster-relief-supply-allocator": {
+    id: "agentic-multi-multi-agent-disaster-relief-supply-allocator",
+    name: "MultiAgentDisasterReliefSupplyAllocatorSkill",
+    displayName: "Multi Agent Disaster Relief Supply Allocator",
+    categoryId: "agentic",
+    description: "Coordinates emergency request intake, inventory mapping, and dispatch routing agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Disaster Relief Supply Allocator",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Disaster Relief Supply Allocator",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Disaster Relief Supply Allocator.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Disaster Relief Supply Allocator.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-urban-traffic-light-signal-optimizer": {
+    id: "agentic-multi-multi-agent-urban-traffic-light-signal-optimizer",
+    name: "MultiAgentUrbanTrafficLightSignalOptimizerSkill",
+    displayName: "Multi Agent Urban Traffic Light Signal Optimizer",
+    categoryId: "agentic",
+    description: "Monitors traffic camera feeds and dynamically adjusts signal timing agents across intersections.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Urban Traffic Light Signal Optimizer",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Urban Traffic Light Signal Optimizer",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Urban Traffic Light Signal Optimizer.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Urban Traffic Light Signal Optimizer.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-pharmaceutical-adverse-event-parser": {
+    id: "agentic-multi-multi-agent-pharmaceutical-adverse-event-parser",
+    name: "MultiAgentPharmaceuticalAdverseEventParserSkill",
+    displayName: "Multi Agent Pharmaceutical Adverse Event Parser",
+    categoryId: "agentic",
+    description: "Extracts side-effect reports from clinical notes, maps to MedDRA, and dispatches FDA filings.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Pharmaceutical Adverse Event Parser",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Pharmaceutical Adverse Event Parser",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Pharmaceutical Adverse Event Parser.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Pharmaceutical Adverse Event Parser.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-autonomous-drone-fleet-mission-planner": {
+    id: "agentic-multi-multi-agent-autonomous-drone-fleet-mission-planner",
+    name: "MultiAgentAutonomousDroneFleetMissionPlannerSkill",
+    displayName: "Multi Agent Autonomous Drone Fleet Mission Planner",
+    categoryId: "agentic",
+    description: "Plans waypoint navigation, obstacle avoidance, and battery recharge schedules for drone swarms.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Autonomous Drone Fleet Mission Planner",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Autonomous Drone Fleet Mission Planner",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Autonomous Drone Fleet Mission Planner.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Autonomous Drone Fleet Mission Planner.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-hotel-revenue-management-engine": {
+    id: "agentic-multi-multi-agent-hotel-revenue-management-engine",
+    name: "MultiAgentHotelRevenueManagementEngineSkill",
+    displayName: "Multi Agent Hotel Revenue Management Engine",
+    categoryId: "agentic",
+    description: "Monitors competitor room pricing, local event demand, and dynamically adjusts nightly rates.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Hotel Revenue Management Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Hotel Revenue Management Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Hotel Revenue Management Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Hotel Revenue Management Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-freight-customs-clearance-assistant": {
+    id: "agentic-multi-multi-agent-freight-customs-clearance-assistant",
+    name: "MultiAgentFreightCustomsClearanceAssistantSkill",
+    displayName: "Multi Agent Freight Customs Clearance Assistant",
+    categoryId: "agentic",
+    description: "Parses shipping bills, verifies HS tariff codes, and submits customs entry documentation.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Freight Customs Clearance Assistant",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Freight Customs Clearance Assistant",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Freight Customs Clearance Assistant.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Freight Customs Clearance Assistant.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-microservices-service-mesh-health-agent": {
+    id: "agentic-multi-multi-agent-microservices-service-mesh-health-agent",
+    name: "MultiAgentMicroservicesServiceMeshHealthAgentSkill",
+    displayName: "Multi Agent Microservices Service Mesh Health Agent",
+    categoryId: "agentic",
+    description: "Monitors latency spikes, auto-scales pod replicas, and reroutes failed circuit breakers.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Microservices Service Mesh Health Agent",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Microservices Service Mesh Health Agent",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Microservices Service Mesh Health Agent.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Microservices Service Mesh Health Agent.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-personalized-learning-tutor-network": {
+    id: "agentic-multi-multi-agent-personalized-learning-tutor-network",
+    name: "MultiAgentPersonalizedLearningTutorNetworkSkill",
+    displayName: "Multi Agent Personalized Learning Tutor Network",
+    categoryId: "agentic",
+    description: "Coordinates diagnostic assessment, concept explainer, quiz generator, and feedback agents.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Personalized Learning Tutor Network",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Personalized Learning Tutor Network",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Personalized Learning Tutor Network.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Personalized Learning Tutor Network.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-agritech-crop-disease-diagnostic-fleet": {
+    id: "agentic-multi-multi-agent-agritech-crop-disease-diagnostic-fleet",
+    name: "MultiAgentAgritechCropDiseaseDiagnosticFleetSkill",
+    displayName: "Multi Agent Agritech Crop Disease Diagnostic Fleet",
+    categoryId: "agentic",
+    description: "Analyzes leaf images, identifies fungal pathogens, and recommends targeted treatment.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Agritech Crop Disease Diagnostic Fleet",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Agritech Crop Disease Diagnostic Fleet",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Agritech Crop Disease Diagnostic Fleet.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Agritech Crop Disease Diagnostic Fleet.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-commercial-insurance-claim-fraud-detector": {
+    id: "agentic-multi-multi-agent-commercial-insurance-claim-fraud-detector",
+    name: "MultiAgentCommercialInsuranceClaimFraudDetectorSkill",
+    displayName: "Multi Agent Commercial Insurance Claim Fraud Detector",
+    categoryId: "agentic",
+    description: "Cross-checks claim descriptions, historical fraud patterns, and social data for red flags.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Commercial Insurance Claim Fraud Detector",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Commercial Insurance Claim Fraud Detector",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Commercial Insurance Claim Fraud Detector.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Commercial Insurance Claim Fraud Detector.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-renewable-energy-grid-storage-dispatcher": {
+    id: "agentic-multi-multi-agent-renewable-energy-grid-storage-dispatcher",
+    name: "MultiAgentRenewableEnergyGridStorageDispatcherSkill",
+    displayName: "Multi Agent Renewable Energy Grid Storage Dispatcher",
+    categoryId: "agentic",
+    description: "Balances solar/wind battery charging, peak demand pricing, and grid discharge schedules.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Renewable Energy Grid Storage Dispatcher",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Renewable Energy Grid Storage Dispatcher",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Renewable Energy Grid Storage Dispatcher.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Renewable Energy Grid Storage Dispatcher.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-airline-flight-gate-assignment-engine": {
+    id: "agentic-multi-multi-agent-airline-flight-gate-assignment-engine",
+    name: "MultiAgentAirlineFlightGateAssignmentEngineSkill",
+    displayName: "Multi Agent Airline Flight Gate Assignment Engine",
+    categoryId: "agentic",
+    description: "Dynamically assigns airport arrival gates minimizing passenger connection walking times.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Airline Flight Gate Assignment Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Airline Flight Gate Assignment Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Airline Flight Gate Assignment Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Airline Flight Gate Assignment Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-enterprise-procurement-po-approval-routing": {
+    id: "agentic-multi-multi-agent-enterprise-procurement-po-approval-routing",
+    name: "MultiAgentEnterpriseProcurementPOApprovalRoutingSkill",
+    displayName: "Multi Agent Enterprise Procurement PO Approval Routing",
+    categoryId: "agentic",
+    description: "Validates vendor invoices, matches purchase orders, and dispatches multi-tier manager sign-offs.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Enterprise Procurement PO Approval Routing",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Enterprise Procurement PO Approval Routing",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Enterprise Procurement PO Approval Routing.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Enterprise Procurement PO Approval Routing.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-cyber-threat-intelligence-feed-synthesizer": {
+    id: "agentic-multi-multi-agent-cyber-threat-intelligence-feed-synthesizer",
+    name: "MultiAgentCyberThreatIntelligenceFeedSynthesizerSkill",
+    displayName: "Multi Agent Cyber Threat Intelligence Feed Synthesizer",
+    categoryId: "agentic",
+    description: "Aggregates STIX/TAXII feeds, deduplicates indicators of compromise, and updates firewall rules.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Cyber Threat Intelligence Feed Synthesizer",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Cyber Threat Intelligence Feed Synthesizer",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Cyber Threat Intelligence Feed Synthesizer.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Cyber Threat Intelligence Feed Synthesizer.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-e-discovery-litigation-document-screener": {
+    id: "agentic-multi-multi-agent-e-discovery-litigation-document-screener",
+    name: "MultiAgentEDiscoveryLitigationDocumentScreenerSkill",
+    displayName: "Multi Agent E Discovery Litigation Document Screener",
+    categoryId: "agentic",
+    description: "Screens millions of emails for legal relevance, attorney-client privilege, and confidentiality.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent E Discovery Litigation Document Screener",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent E Discovery Litigation Document Screener",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent E Discovery Litigation Document Screener.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent E Discovery Litigation Document Screener.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-municipal-citizen-inquiry-router": {
+    id: "agentic-multi-multi-agent-municipal-citizen-inquiry-router",
+    name: "MultiAgentMunicipalCitizenInquiryRouterSkill",
+    displayName: "Multi Agent Municipal Citizen Inquiry Router",
+    categoryId: "agentic",
+    description: "Classifies 311 municipal service requests, dispatches public works teams, and tracks resolution.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Municipal Citizen Inquiry Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Municipal Citizen Inquiry Router",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Municipal Citizen Inquiry Router.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Municipal Citizen Inquiry Router.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-space-debris-orbital-tracking-collision-avoidance": {
+    id: "agentic-multi-multi-agent-space-debris-orbital-tracking-collision-avoidance",
+    name: "MultiAgentSpaceDebrisOrbitalTrackingCollisionAvoidanceSkill",
+    displayName: "Multi Agent Space Debris Orbital Tracking Collision Avoidance",
+    categoryId: "agentic",
+    description: "Predicts satellite conjunction risks and calculates thruster burn collision avoidance maneuvers.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Space Debris Orbital Tracking Collision Avoidance",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Space Debris Orbital Tracking Collision Avoidance",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Space Debris Orbital Tracking Collision Avoidance.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Space Debris Orbital Tracking Collision Avoidance.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-autonomous-warehousing-pick-and-pack-swarm": {
+    id: "agentic-multi-multi-agent-autonomous-warehousing-pick-and-pack-swarm",
+    name: "MultiAgentAutonomousWarehousingPickandPackSwarmSkill",
+    displayName: "Multi Agent Autonomous Warehousing Pick and Pack Swarm",
+    categoryId: "agentic",
+    description: "Coordinates AGV robot navigation, shelf picking, and packaging station sorting.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Autonomous Warehousing Pick and Pack Swarm",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Autonomous Warehousing Pick and Pack Swarm",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Autonomous Warehousing Pick and Pack Swarm.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Autonomous Warehousing Pick and Pack Swarm.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-clinical-note-medical-coding-icd-10-fleet": {
+    id: "agentic-multi-multi-agent-clinical-note-medical-coding-icd-10-fleet",
+    name: "MultiAgentClinicalNoteMedicalCodingICD10FleetSkill",
+    displayName: "Multi Agent Clinical Note Medical Coding ICD 10 Fleet",
+    categoryId: "agentic",
+    description: "Parses physician notes, assigns ICD-10 and CPT codes, and validates insurance billing claims.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Clinical Note Medical Coding ICD 10 Fleet",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Clinical Note Medical Coding ICD 10 Fleet",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Clinical Note Medical Coding ICD 10 Fleet.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Clinical Note Medical Coding ICD 10 Fleet.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
+
+  "agentic-multi-multi-agent-master-agentic-swarm-orchestration-engine": {
+    id: "agentic-multi-multi-agent-master-agentic-swarm-orchestration-engine",
+    name: "MultiAgentMasterAgenticSwarmOrchestrationEngineSkill",
+    displayName: "Multi Agent Master Agentic Swarm Orchestration Engine",
+    categoryId: "agentic",
+    description: "Enforces master orchestration, dynamic agent spawning, inter-agent IPC, and fault recovery.",
+    tags: ["agentic","multi-skill","agentic-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Master Agentic Swarm Orchestration Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Master Agentic Swarm Orchestration Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Agent Master Agentic Swarm Orchestration Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Agent Master Agentic Swarm Orchestration Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","multi-skill","agentic-multi"],
+    }),
+  },
 };

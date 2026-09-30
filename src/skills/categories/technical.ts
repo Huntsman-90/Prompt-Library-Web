@@ -4295,4 +4295,1503 @@ sectionName: 'PostgreSQL WAL & Logical Replication Architecture',
       tags: ["technical","tech-final","final","master"],
     }),
   },
+  "tech-multi-multi-region-kubernetes-cluster-federation-deployment": {
+    id: "tech-multi-multi-region-kubernetes-cluster-federation-deployment",
+    name: "MultiRegionKubernetesClusterFederationDeploymentSkill",
+    displayName: "Multi Region Kubernetes Cluster Federation Deployment",
+    categoryId: "technical",
+    description: "Deploys multi-region K8s clusters using KubeFed with global load balancing and failover.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Region Kubernetes Cluster Federation Deployment",
+      ruSectionName: "Композитный Multi-Skill: Multi Region Kubernetes Cluster Federation Deployment",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Region Kubernetes Cluster Federation Deployment.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Region Kubernetes Cluster Federation Deployment.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-linux-kernel-ebpf-packet-filtering-engine": {
+    id: "tech-multi-multi-layer-linux-kernel-ebpf-packet-filtering-engine",
+    name: "MultiLayerLinuxKerneleBPFPacketFilteringEngineSkill",
+    displayName: "Multi Layer Linux Kernel eBPF Packet Filtering Engine",
+    categoryId: "technical",
+    description: "Writes C eBPF programs attached to XDP hooks for low-latency kernel packet processing.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Linux Kernel eBPF Packet Filtering Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Linux Kernel eBPF Packet Filtering Engine",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Linux Kernel eBPF Packet Filtering Engine.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Linux Kernel eBPF Packet Filtering Engine.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-ceph-distributed-object-storage-tuning": {
+    id: "tech-multi-multi-node-ceph-distributed-object-storage-tuning",
+    name: "MultiNodeCephDistributedObjectStorageTuningSkill",
+    displayName: "Multi Node Ceph Distributed Object Storage Tuning",
+    categoryId: "technical",
+    description: "Configures Ceph OSD storage pools, CRUSH maps, and Bluestore caching for high IOPS.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node Ceph Distributed Object Storage Tuning",
+      ruSectionName: "Композитный Multi-Skill: Multi Node Ceph Distributed Object Storage Tuning",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node Ceph Distributed Object Storage Tuning.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node Ceph Distributed Object Storage Tuning.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-service-hashicorp-nomad-workload-orchestration": {
+    id: "tech-multi-multi-service-hashicorp-nomad-workload-orchestration",
+    name: "MultiServiceHashiCorpNomadWorkloadOrchestrationSkill",
+    displayName: "Multi Service HashiCorp Nomad Workload Orchestration",
+    categoryId: "technical",
+    description: "Deploys containerized and non-containerized workloads using Nomad job specifications.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Service HashiCorp Nomad Workload Orchestration",
+      ruSectionName: "Композитный Multi-Skill: Multi Service HashiCorp Nomad Workload Orchestration",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Service HashiCorp Nomad Workload Orchestration.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Service HashiCorp Nomad Workload Orchestration.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-opentelemetry-distributed-tracing-collector": {
+    id: "tech-multi-multi-layer-opentelemetry-distributed-tracing-collector",
+    name: "MultiLayerOpenTelemetryDistributedTracingCollectorSkill",
+    displayName: "Multi Layer OpenTelemetry Distributed Tracing Collector",
+    categoryId: "technical",
+    description: "Configures OpenTelemetry Collectors for traces, metrics, and logs export to Jaeger/Prometheus.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer OpenTelemetry Distributed Tracing Collector",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer OpenTelemetry Distributed Tracing Collector",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer OpenTelemetry Distributed Tracing Collector.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer OpenTelemetry Distributed Tracing Collector.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-gateway-traefik-reverse-proxy-acme-tls-router": {
+    id: "tech-multi-multi-gateway-traefik-reverse-proxy-acme-tls-router",
+    name: "MultiGatewayTraefikReverseProxyACMETLSRouterSkill",
+    displayName: "Multi Gateway Traefik Reverse Proxy ACME TLS Router",
+    categoryId: "technical",
+    description: "Sets up Traefik ingress routers with Let's Encrypt automated TLS certificate renewal.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Gateway Traefik Reverse Proxy ACME TLS Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Gateway Traefik Reverse Proxy ACME TLS Router",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Gateway Traefik Reverse Proxy ACME TLS Router.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Gateway Traefik Reverse Proxy ACME TLS Router.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-clickhouse-columnar-database-sharding": {
+    id: "tech-multi-multi-node-clickhouse-columnar-database-sharding",
+    name: "MultiNodeClickHouseColumnarDatabaseShardingSkill",
+    displayName: "Multi Node ClickHouse Columnar Database Sharding",
+    categoryId: "technical",
+    description: "Configures ClickHouse cluster Distributed tables, Zookeeper synchronization, and queries.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node ClickHouse Columnar Database Sharding",
+      ruSectionName: "Композитный Multi-Skill: Multi Node ClickHouse Columnar Database Sharding",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node ClickHouse Columnar Database Sharding.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node ClickHouse Columnar Database Sharding.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-wireguard-zero-trust-mesh-vpn-infrastructure": {
+    id: "tech-multi-multi-layer-wireguard-zero-trust-mesh-vpn-infrastructure",
+    name: "MultiLayerWireGuardZeroTrustMeshVPNInfrastructureSkill",
+    displayName: "Multi Layer WireGuard Zero Trust Mesh VPN Infrastructure",
+    categoryId: "technical",
+    description: "Configures mesh VPN networks using WireGuard for encrypted node-to-node communication.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer WireGuard Zero Trust Mesh VPN Infrastructure",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer WireGuard Zero Trust Mesh VPN Infrastructure",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer WireGuard Zero Trust Mesh VPN Infrastructure.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer WireGuard Zero Trust Mesh VPN Infrastructure.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-stage-ci-cd-github-actions-matrix-build-caching": {
+    id: "tech-multi-multi-stage-ci-cd-github-actions-matrix-build-caching",
+    name: "MultiStageCICDGitHubActionsMatrixBuildCachingSkill",
+    displayName: "Multi Stage CI CD GitHub Actions Matrix Build Caching",
+    categoryId: "technical",
+    description: "Builds GitHub Actions workflows with parallel OS matrix testing and dependency caching.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage CI CD GitHub Actions Matrix Build Caching",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage CI CD GitHub Actions Matrix Build Caching",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage CI CD GitHub Actions Matrix Build Caching.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage CI CD GitHub Actions Matrix Build Caching.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-postgresql-wal-streaming-replication-failover": {
+    id: "tech-multi-multi-node-postgresql-wal-streaming-replication-failover",
+    name: "MultiNodePostgreSQLWALStreamingReplicationFailoverSkill",
+    displayName: "Multi Node PostgreSQL WAL Streaming Replication Failover",
+    categoryId: "technical",
+    description: "Sets up active-passive PostgreSQL streaming replication with Patroni auto-failover.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node PostgreSQL WAL Streaming Replication Failover",
+      ruSectionName: "Композитный Multi-Skill: Multi Node PostgreSQL WAL Streaming Replication Failover",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node PostgreSQL WAL Streaming Replication Failover.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node PostgreSQL WAL Streaming Replication Failover.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-envoy-service-mesh-sidecar-proxy-routing": {
+    id: "tech-multi-multi-layer-envoy-service-mesh-sidecar-proxy-routing",
+    name: "MultiLayerEnvoyServiceMeshSidecarProxyRoutingSkill",
+    displayName: "Multi Layer Envoy Service Mesh Sidecar Proxy Routing",
+    categoryId: "technical",
+    description: "Configures Envoy sidecars for mTLS encryption, rate limiting, and dynamic traffic splitting.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Envoy Service Mesh Sidecar Proxy Routing",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Envoy Service Mesh Sidecar Proxy Routing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Envoy Service Mesh Sidecar Proxy Routing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Envoy Service Mesh Sidecar Proxy Routing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-redis-sentinel-high-availability-failover": {
+    id: "tech-multi-multi-node-redis-sentinel-high-availability-failover",
+    name: "MultiNodeRedisSentinelHighAvailabilityFailoverSkill",
+    displayName: "Multi Node Redis Sentinel High Availability Failover",
+    categoryId: "technical",
+    description: "Configures Redis Sentinel master-replica clusters with automatic leader election.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node Redis Sentinel High Availability Failover",
+      ruSectionName: "Композитный Multi-Skill: Multi Node Redis Sentinel High Availability Failover",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node Redis Sentinel High Availability Failover.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node Redis Sentinel High Availability Failover.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-tier-elasticsearch-hot-warm-cold-tier-sharding": {
+    id: "tech-multi-multi-tier-elasticsearch-hot-warm-cold-tier-sharding",
+    name: "MultiTierElasticsearchHotWarmColdTierShardingSkill",
+    displayName: "Multi Tier Elasticsearch Hot Warm Cold Tier Sharding",
+    categoryId: "technical",
+    description: "Manages Elasticsearch index lifecycle policies (ILM) migrating indices across storage tiers.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Elasticsearch Hot Warm Cold Tier Sharding",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Elasticsearch Hot Warm Cold Tier Sharding",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Tier Elasticsearch Hot Warm Cold Tier Sharding.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Tier Elasticsearch Hot Warm Cold Tier Sharding.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-provider-cloud-security-posture-management-cspm": {
+    id: "tech-multi-multi-provider-cloud-security-posture-management-cspm",
+    name: "MultiProviderCloudSecurityPostureManagementCSPMSkill",
+    displayName: "Multi Provider Cloud Security Posture Management CSPM",
+    categoryId: "technical",
+    description: "Scans AWS/GCP/Azure IAM policies, security groups, and S3 buckets for misconfigurations.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider Cloud Security Posture Management CSPM",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider Cloud Security Posture Management CSPM",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Provider Cloud Security Posture Management CSPM.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Provider Cloud Security Posture Management CSPM.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-stage-infrastructure-as-code-terraform-opentofu": {
+    id: "tech-multi-multi-stage-infrastructure-as-code-terraform-opentofu",
+    name: "MultiStageInfrastructureasCodeTerraformOpenTofuSkill",
+    displayName: "Multi Stage Infrastructure as Code Terraform OpenTofu",
+    categoryId: "technical",
+    description: "Writes modular Terraform state configurations with remote S3 backends and state locking.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Infrastructure as Code Terraform OpenTofu",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Infrastructure as Code Terraform OpenTofu",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Infrastructure as Code Terraform OpenTofu.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Infrastructure as Code Terraform OpenTofu.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-bgp-anycast-routing-network-edge-balancer": {
+    id: "tech-multi-multi-layer-bgp-anycast-routing-network-edge-balancer",
+    name: "MultiLayerBGPAnycastRoutingNetworkEdgeBalancerSkill",
+    displayName: "Multi Layer BGP Anycast Routing Network Edge Balancer",
+    categoryId: "technical",
+    description: "Configures BGP Anycast routing announcing IP prefixes across distributed POP edge centers.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer BGP Anycast Routing Network Edge Balancer",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer BGP Anycast Routing Network Edge Balancer",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer BGP Anycast Routing Network Edge Balancer.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer BGP Anycast Routing Network Edge Balancer.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-apache-kafka-distributed-event-log-cluster": {
+    id: "tech-multi-multi-node-apache-kafka-distributed-event-log-cluster",
+    name: "MultiNodeApacheKafkaDistributedEventLogClusterSkill",
+    displayName: "Multi Node Apache Kafka Distributed Event Log Cluster",
+    categoryId: "technical",
+    description: "Tunes Kafka broker JVM settings, partition replication factors, and log retention.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node Apache Kafka Distributed Event Log Cluster",
+      ruSectionName: "Композитный Multi-Skill: Multi Node Apache Kafka Distributed Event Log Cluster",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node Apache Kafka Distributed Event Log Cluster.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node Apache Kafka Distributed Event Log Cluster.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-tier-cloudflare-edge-workers-serverless-routing": {
+    id: "tech-multi-multi-tier-cloudflare-edge-workers-serverless-routing",
+    name: "MultiTierCloudflareEdgeWorkersServerlessRoutingSkill",
+    displayName: "Multi Tier Cloudflare Edge Workers Serverless Routing",
+    categoryId: "technical",
+    description: "Deploys TypeScript functions to Cloudflare Workers edge runtime for low-latency header rewrites.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Cloudflare Edge Workers Serverless Routing",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Cloudflare Edge Workers Serverless Routing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Tier Cloudflare Edge Workers Serverless Routing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Tier Cloudflare Edge Workers Serverless Routing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-hardened-linux-os-cis-benchmark-kernel": {
+    id: "tech-multi-multi-layer-hardened-linux-os-cis-benchmark-kernel",
+    name: "MultiLayerHardenedLinuxOSCISBenchmarkKernelSkill",
+    displayName: "Multi Layer Hardened Linux OS CIS Benchmark Kernel",
+    categoryId: "technical",
+    description: "Hardens Linux server OS (Ubuntu/RHEL) adhering to CIS Level 2 security benchmarks.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Hardened Linux OS CIS Benchmark Kernel",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Hardened Linux OS CIS Benchmark Kernel",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Hardened Linux OS CIS Benchmark Kernel.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Hardened Linux OS CIS Benchmark Kernel.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-provider-aws-gcp-hybrid-cloud-network-interconnect": {
+    id: "tech-multi-multi-provider-aws-gcp-hybrid-cloud-network-interconnect",
+    name: "MultiProviderAWSGCPHybridCloudNetworkInterconnectSkill",
+    displayName: "Multi Provider AWS GCP Hybrid Cloud Network Interconnect",
+    categoryId: "technical",
+    description: "Sets up AWS Direct Connect and GCP Dedicated Interconnect with IPsec VPN backup.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider AWS GCP Hybrid Cloud Network Interconnect",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider AWS GCP Hybrid Cloud Network Interconnect",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Provider AWS GCP Hybrid Cloud Network Interconnect.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Provider AWS GCP Hybrid Cloud Network Interconnect.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-cassandra-distributed-nosql-replication": {
+    id: "tech-multi-multi-node-cassandra-distributed-nosql-replication",
+    name: "MultiNodeCassandraDistributedNoSQLReplicationSkill",
+    displayName: "Multi Node Cassandra Distributed NoSQL Replication",
+    categoryId: "technical",
+    description: "Configures Apache Cassandra multi-datacenter keyspaces, consistency levels, and repair.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node Cassandra Distributed NoSQL Replication",
+      ruSectionName: "Композитный Multi-Skill: Multi Node Cassandra Distributed NoSQL Replication",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node Cassandra Distributed NoSQL Replication.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node Cassandra Distributed NoSQL Replication.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-prometheus-alertmanager-monitoring-metrics": {
+    id: "tech-multi-multi-layer-prometheus-alertmanager-monitoring-metrics",
+    name: "MultiLayerPrometheusAlertmanagerMonitoringMetricsSkill",
+    displayName: "Multi Layer Prometheus Alertmanager Monitoring Metrics",
+    categoryId: "technical",
+    description: "Writes Prometheus recording rules and Alertmanager routing trees for PagerDuty dispatches.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Prometheus Alertmanager Monitoring Metrics",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Prometheus Alertmanager Monitoring Metrics",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Prometheus Alertmanager Monitoring Metrics.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Prometheus Alertmanager Monitoring Metrics.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-stage-container-image-minimal-distroless-security": {
+    id: "tech-multi-multi-stage-container-image-minimal-distroless-security",
+    name: "MultiStageContainerImageMinimalDistrolessSecuritySkill",
+    displayName: "Multi Stage Container Image Minimal Distroless Security",
+    categoryId: "technical",
+    description: "Builds multi-stage Dockerfiles producing minimal Distroless images scanned with Trivy.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Container Image Minimal Distroless Security",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Container Image Minimal Distroless Security",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Container Image Minimal Distroless Security.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Container Image Minimal Distroless Security.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-high-availability-haproxy-load-balancer": {
+    id: "tech-multi-multi-layer-high-availability-haproxy-load-balancer",
+    name: "MultiLayerHighAvailabilityHAProxyLoadBalancerSkill",
+    displayName: "Multi Layer High Availability HAProxy Load Balancer",
+    categoryId: "technical",
+    description: "Configures HAProxy layer 4/7 load balancing with health checks and sticky sessions.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer High Availability HAProxy Load Balancer",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer High Availability HAProxy Load Balancer",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer High Availability HAProxy Load Balancer.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer High Availability HAProxy Load Balancer.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-glusterfs-distributed-clustered-volume": {
+    id: "tech-multi-multi-node-glusterfs-distributed-clustered-volume",
+    name: "MultiNodeGlusterFSDistributedClusteredVolumeSkill",
+    displayName: "Multi Node GlusterFS Distributed Clustered Volume",
+    categoryId: "technical",
+    description: "Configures GlusterFS replicated storage volumes across distributed Linux nodes.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node GlusterFS Distributed Clustered Volume",
+      ruSectionName: "Композитный Multi-Skill: Multi Node GlusterFS Distributed Clustered Volume",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node GlusterFS Distributed Clustered Volume.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node GlusterFS Distributed Clustered Volume.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-hashicorp-vault-secrets-encryption-engine": {
+    id: "tech-multi-multi-layer-hashicorp-vault-secrets-encryption-engine",
+    name: "MultiLayerHashiCorpVaultSecretsEncryptionEngineSkill",
+    displayName: "Multi Layer HashiCorp Vault Secrets Encryption Engine",
+    categoryId: "technical",
+    description: "Configures Vault transit secret engines, dynamic database credentials, and PKI certs.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer HashiCorp Vault Secrets Encryption Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer HashiCorp Vault Secrets Encryption Engine",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer HashiCorp Vault Secrets Encryption Engine.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer HashiCorp Vault Secrets Encryption Engine.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-stage-microservice-circuit-breaker-resilience": {
+    id: "tech-multi-multi-stage-microservice-circuit-breaker-resilience",
+    name: "MultiStageMicroserviceCircuitBreakerResilienceSkill",
+    displayName: "Multi Stage Microservice Circuit Breaker Resilience",
+    categoryId: "technical",
+    description: "Configures Istio/Resilience4j circuit breakers, timeouts, and retry budgets.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Microservice Circuit Breaker Resilience",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Microservice Circuit Breaker Resilience",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Microservice Circuit Breaker Resilience.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Microservice Circuit Breaker Resilience.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-provider-dns-cloudflare-aws-route53-failover": {
+    id: "tech-multi-multi-provider-dns-cloudflare-aws-route53-failover",
+    name: "MultiProviderDNSCloudflareAWSRoute53FailoverSkill",
+    displayName: "Multi Provider DNS Cloudflare AWS Route53 Failover",
+    categoryId: "technical",
+    description: "Sets up dual-provider DNS routing with health checks preventing DNS provider outages.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider DNS Cloudflare AWS Route53 Failover",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider DNS Cloudflare AWS Route53 Failover",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Provider DNS Cloudflare AWS Route53 Failover.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Provider DNS Cloudflare AWS Route53 Failover.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-apache-flink-stateful-stream-processing": {
+    id: "tech-multi-multi-node-apache-flink-stateful-stream-processing",
+    name: "MultiNodeApacheFlinkStatefulStreamProcessingSkill",
+    displayName: "Multi Node Apache Flink Stateful Stream Processing",
+    categoryId: "technical",
+    description: "Configures Flink job managers, RocksDB state backends, and checkpointing intervals.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node Apache Flink Stateful Stream Processing",
+      ruSectionName: "Композитный Multi-Skill: Multi Node Apache Flink Stateful Stream Processing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node Apache Flink Stateful Stream Processing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node Apache Flink Stateful Stream Processing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-linux-cgroups-v2-namespace-container-isolation": {
+    id: "tech-multi-multi-layer-linux-cgroups-v2-namespace-container-isolation",
+    name: "MultiLayerLinuxcgroupsv2NamespaceContainerIsolationSkill",
+    displayName: "Multi Layer Linux cgroups v2 Namespace Container Isolation",
+    categoryId: "technical",
+    description: "Tunes Linux kernel namespaces and cgroups limiting CPU/memory bounds for workloads.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Linux cgroups v2 Namespace Container Isolation",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Linux cgroups v2 Namespace Container Isolation",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Linux cgroups v2 Namespace Container Isolation.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Linux cgroups v2 Namespace Container Isolation.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-rabbitmq-erlang-clustered-message-broker": {
+    id: "tech-multi-multi-node-rabbitmq-erlang-clustered-message-broker",
+    name: "MultiNodeRabbitMQErlangClusteredMessageBrokerSkill",
+    displayName: "Multi Node RabbitMQ Erlang Clustered Message Broker",
+    categoryId: "technical",
+    description: "Configures RabbitMQ mirrored queues, exchange bindings, and dead-letter routing.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node RabbitMQ Erlang Clustered Message Broker",
+      ruSectionName: "Композитный Multi-Skill: Multi Node RabbitMQ Erlang Clustered Message Broker",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node RabbitMQ Erlang Clustered Message Broker.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node RabbitMQ Erlang Clustered Message Broker.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-tier-enterprise-storage-san-nas-fibre-channel": {
+    id: "tech-multi-multi-tier-enterprise-storage-san-nas-fibre-channel",
+    name: "MultiTierEnterpriseStorageSANNASFibreChannelSkill",
+    displayName: "Multi Tier Enterprise Storage SAN NAS Fibre Channel",
+    categoryId: "technical",
+    description: "Configures Fibre Channel SAN storage LUNs, multipath I/O (MPIO), and NFS mounts.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Enterprise Storage SAN NAS Fibre Channel",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Enterprise Storage SAN NAS Fibre Channel",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Tier Enterprise Storage SAN NAS Fibre Channel.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Tier Enterprise Storage SAN NAS Fibre Channel.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-linux-kernel-network-stack-tcp-tuning": {
+    id: "tech-multi-multi-layer-linux-kernel-network-stack-tcp-tuning",
+    name: "MultiLayerLinuxKernelNetworkStackTCPTuningSkill",
+    displayName: "Multi Layer Linux Kernel Network Stack TCP Tuning",
+    categoryId: "technical",
+    description: "Tunes sysctl TCP window scaling, SYN backlog queues, and BBR congestion control.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Linux Kernel Network Stack TCP Tuning",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Linux Kernel Network Stack TCP Tuning",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Linux Kernel Network Stack TCP Tuning.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Linux Kernel Network Stack TCP Tuning.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-stage-system-performance-ebpf-flamegraph-profiling": {
+    id: "tech-multi-multi-stage-system-performance-ebpf-flamegraph-profiling",
+    name: "MultiStageSystemPerformanceeBPFFlamegraphProfilingSkill",
+    displayName: "Multi Stage System Performance eBPF Flamegraph Profiling",
+    categoryId: "technical",
+    description: "Generates CPU flamegraphs using BCC/bpftrace isolating kernel and userland bottlenecks.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage System Performance eBPF Flamegraph Profiling",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage System Performance eBPF Flamegraph Profiling",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage System Performance eBPF Flamegraph Profiling.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage System Performance eBPF Flamegraph Profiling.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-provider-serverless-aws-lambda-google-cloud-functions": {
+    id: "tech-multi-multi-provider-serverless-aws-lambda-google-cloud-functions",
+    name: "MultiProviderServerlessAWSLambdaGoogleCloudFunctionsSkill",
+    displayName: "Multi Provider Serverless AWS Lambda Google Cloud Functions",
+    categoryId: "technical",
+    description: "Deploys event-driven serverless functions with provisioned concurrency preventing cold starts.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider Serverless AWS Lambda Google Cloud Functions",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider Serverless AWS Lambda Google Cloud Functions",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Provider Serverless AWS Lambda Google Cloud Functions.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Provider Serverless AWS Lambda Google Cloud Functions.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-minio-distributed-object-storage-cluster": {
+    id: "tech-multi-multi-node-minio-distributed-object-storage-cluster",
+    name: "MultiNodeMinIODistributedObjectStorageClusterSkill",
+    displayName: "Multi Node MinIO Distributed Object Storage Cluster",
+    categoryId: "technical",
+    description: "Configures MinIO erasure coding pools for high-availability S3-compatible storage.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node MinIO Distributed Object Storage Cluster",
+      ruSectionName: "Композитный Multi-Skill: Multi Node MinIO Distributed Object Storage Cluster",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node MinIO Distributed Object Storage Cluster.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node MinIO Distributed Object Storage Cluster.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-hardened-ssh-key-bastion-host-architecture": {
+    id: "tech-multi-multi-layer-hardened-ssh-key-bastion-host-architecture",
+    name: "MultiLayerHardenedSSHKeyBastionHostArchitectureSkill",
+    displayName: "Multi Layer Hardened SSH Key Bastion Host Architecture",
+    categoryId: "technical",
+    description: "Configures SSH bastion jump hosts with YubiKey hardware 2FA and session recording.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Hardened SSH Key Bastion Host Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Hardened SSH Key Bastion Host Architecture",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Hardened SSH Key Bastion Host Architecture.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Hardened SSH Key Bastion Host Architecture.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-cockroachdb-distributed-sql-replication": {
+    id: "tech-multi-multi-node-cockroachdb-distributed-sql-replication",
+    name: "MultiNodeCockroachDBDistributedSQLReplicationSkill",
+    displayName: "Multi Node CockroachDB Distributed SQL Replication",
+    categoryId: "technical",
+    description: "Configures CockroachDB multi-region Raft consensus clusters with geo-partitioning.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node CockroachDB Distributed SQL Replication",
+      ruSectionName: "Композитный Multi-Skill: Multi Node CockroachDB Distributed SQL Replication",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node CockroachDB Distributed SQL Replication.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node CockroachDB Distributed SQL Replication.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-nginx-web-server-performance-caching": {
+    id: "tech-multi-multi-layer-nginx-web-server-performance-caching",
+    name: "MultiLayerNginxWebServerPerformanceCachingSkill",
+    displayName: "Multi Layer Nginx Web Server Performance Caching",
+    categoryId: "technical",
+    description: "Tunes Nginx worker processes, keepalive timeouts, open file cache, and gzip/brotli.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Nginx Web Server Performance Caching",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Nginx Web Server Performance Caching",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Nginx Web Server Performance Caching.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Nginx Web Server Performance Caching.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-stage-automated-chaos-engineering-litmus-chaosmesh": {
+    id: "tech-multi-multi-stage-automated-chaos-engineering-litmus-chaosmesh",
+    name: "MultiStageAutomatedChaosEngineeringLitmusChaosMeshSkill",
+    displayName: "Multi Stage Automated Chaos Engineering Litmus ChaosMesh",
+    categoryId: "technical",
+    description: "Injects pod kills, network latency spikes, and disk fill stress tests using ChaosMesh.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Automated Chaos Engineering Litmus ChaosMesh",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Automated Chaos Engineering Litmus ChaosMesh",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Automated Chaos Engineering Litmus ChaosMesh.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Automated Chaos Engineering Litmus ChaosMesh.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-provider-cloud-finops-cost-allocation-tagging": {
+    id: "tech-multi-multi-provider-cloud-finops-cost-allocation-tagging",
+    name: "MultiProviderCloudFinOpsCostAllocationTaggingSkill",
+    displayName: "Multi Provider Cloud FinOps Cost Allocation Tagging",
+    categoryId: "technical",
+    description: "Configures cloud tag policies, AWS Cost Explorer alerts, and Kubecost pod allocation.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider Cloud FinOps Cost Allocation Tagging",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider Cloud FinOps Cost Allocation Tagging",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Provider Cloud FinOps Cost Allocation Tagging.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Provider Cloud FinOps Cost Allocation Tagging.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-scylladb-c-plus-plus-nosql-performance": {
+    id: "tech-multi-multi-node-scylladb-c-plus-plus-nosql-performance",
+    name: "MultiNodeScyllaDBCPlusPlusNoSQLPerformanceSkill",
+    displayName: "Multi Node ScyllaDB C Plus Plus NoSQL Performance",
+    categoryId: "technical",
+    description: "Configures ScyllaDB auto-sharding C++ NoSQL clusters for ultra-low latency.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node ScyllaDB C Plus Plus NoSQL Performance",
+      ruSectionName: "Композитный Multi-Skill: Multi Node ScyllaDB C Plus Plus NoSQL Performance",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node ScyllaDB C Plus Plus NoSQL Performance.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node ScyllaDB C Plus Plus NoSQL Performance.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-ansible-configuration-management-playbook": {
+    id: "tech-multi-multi-layer-ansible-configuration-management-playbook",
+    name: "MultiLayerAnsibleConfigurationManagementPlaybookSkill",
+    displayName: "Multi Layer Ansible Configuration Management Playbook",
+    categoryId: "technical",
+    description: "Writes idempotent Ansible playbooks deploying infrastructure configurations across fleets.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Ansible Configuration Management Playbook",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Ansible Configuration Management Playbook",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Ansible Configuration Management Playbook.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Ansible Configuration Management Playbook.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-stage-kubernetes-helm-chart-package-management": {
+    id: "tech-multi-multi-stage-kubernetes-helm-chart-package-management",
+    name: "MultiStageKubernetesHelmChartPackageManagementSkill",
+    displayName: "Multi Stage Kubernetes Helm Chart Package Management",
+    categoryId: "technical",
+    description: "Creates modular Helm charts with templates, values validation, and release rollbacks.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Kubernetes Helm Chart Package Management",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Kubernetes Helm Chart Package Management",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Kubernetes Helm Chart Package Management.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Kubernetes Helm Chart Package Management.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-linux-pam-system-authentication-sssd": {
+    id: "tech-multi-multi-layer-linux-pam-system-authentication-sssd",
+    name: "MultiLayerLinuxPAMSystemAuthenticationSSSDSkill",
+    displayName: "Multi Layer Linux PAM System Authentication SSSD",
+    categoryId: "technical",
+    description: "Configures Linux PAM with SSSD joining Linux servers to Active Directory LDAP domains.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Linux PAM System Authentication SSSD",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Linux PAM System Authentication SSSD",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Linux PAM System Authentication SSSD.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Linux PAM System Authentication SSSD.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-apache-spark-big-data-distributed-cluster": {
+    id: "tech-multi-multi-node-apache-spark-big-data-distributed-cluster",
+    name: "MultiNodeApacheSparkBigDataDistributedClusterSkill",
+    displayName: "Multi Node Apache Spark Big Data Distributed Cluster",
+    categoryId: "technical",
+    description: "Configures Spark standalone/YARN clusters tuning executor memory and shuffle partitions.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node Apache Spark Big Data Distributed Cluster",
+      ruSectionName: "Композитный Multi-Skill: Multi Node Apache Spark Big Data Distributed Cluster",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node Apache Spark Big Data Distributed Cluster.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node Apache Spark Big Data Distributed Cluster.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-palo-alto-enterprise-firewall-ipsec-tunnel": {
+    id: "tech-multi-multi-layer-palo-alto-enterprise-firewall-ipsec-tunnel",
+    name: "MultiLayerPaloAltoEnterpriseFirewallIPsecTunnelSkill",
+    displayName: "Multi Layer Palo Alto Enterprise Firewall IPsec Tunnel",
+    categoryId: "technical",
+    description: "Configures Palo Alto Next-Gen Firewall BGP routing, threat prevention, and IPsec VPNs.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Palo Alto Enterprise Firewall IPsec Tunnel",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Palo Alto Enterprise Firewall IPsec Tunnel",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Palo Alto Enterprise Firewall IPsec Tunnel.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Palo Alto Enterprise Firewall IPsec Tunnel.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-stage-gitops-argocd-kubernetes-deployment": {
+    id: "tech-multi-multi-stage-gitops-argocd-kubernetes-deployment",
+    name: "MultiStageGitOpsArgoCDKubernetesDeploymentSkill",
+    displayName: "Multi Stage GitOps ArgoCD Kubernetes Deployment",
+    categoryId: "technical",
+    description: "Sets up ArgoCD GitOps pipelines auto-syncing Git repository state to K8s clusters.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage GitOps ArgoCD Kubernetes Deployment",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage GitOps ArgoCD Kubernetes Deployment",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage GitOps ArgoCD Kubernetes Deployment.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage GitOps ArgoCD Kubernetes Deployment.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-elasticsearch-vector-search-hnsw-indexing": {
+    id: "tech-multi-multi-node-elasticsearch-vector-search-hnsw-indexing",
+    name: "MultiNodeElasticsearchVectorSearchHNSWIndexingSkill",
+    displayName: "Multi Node Elasticsearch Vector Search HNSW Indexing",
+    categoryId: "technical",
+    description: "Configures Elasticsearch k-NN vector search using HNSW graph indexing.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node Elasticsearch Vector Search HNSW Indexing",
+      ruSectionName: "Композитный Multi-Skill: Multi Node Elasticsearch Vector Search HNSW Indexing",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node Elasticsearch Vector Search HNSW Indexing.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node Elasticsearch Vector Search HNSW Indexing.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-linux-lvm-logical-volume-snapshot-encryption": {
+    id: "tech-multi-multi-layer-linux-lvm-logical-volume-snapshot-encryption",
+    name: "MultiLayerLinuxLVMLogicalVolumeSnapshotEncryptionSkill",
+    displayName: "Multi Layer Linux LVM Logical Volume Snapshot Encryption",
+    categoryId: "technical",
+    description: "Configures LVM storage volumes with LUKS disk encryption and snapshot backups.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Linux LVM Logical Volume Snapshot Encryption",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Linux LVM Logical Volume Snapshot Encryption",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Linux LVM Logical Volume Snapshot Encryption.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Linux LVM Logical Volume Snapshot Encryption.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-provider-hybrid-identity-azure-ad-okta-saml-sso": {
+    id: "tech-multi-multi-provider-hybrid-identity-azure-ad-okta-saml-sso",
+    name: "MultiProviderHybridIdentityAzureADOktaSAMLSSOSkill",
+    displayName: "Multi Provider Hybrid Identity Azure AD Okta SAML SSO",
+    categoryId: "technical",
+    description: "Configures Azure AD and Okta identity federation with SAML 2.0 and SCIM user provisioning.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Provider Hybrid Identity Azure AD Okta SAML SSO",
+      ruSectionName: "Композитный Multi-Skill: Multi Provider Hybrid Identity Azure AD Okta SAML SSO",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Provider Hybrid Identity Azure AD Okta SAML SSO.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Provider Hybrid Identity Azure AD Okta SAML SSO.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-trino-presto-distributed-query-engine": {
+    id: "tech-multi-multi-node-trino-presto-distributed-query-engine",
+    name: "MultiNodeTrinoPrestoDistributedQueryEngineSkill",
+    displayName: "Multi Node Trino Presto Distributed Query Engine",
+    categoryId: "technical",
+    description: "Configures Trino query engine connecting Hive, PostgreSQL, and S3 data lakes.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node Trino Presto Distributed Query Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Node Trino Presto Distributed Query Engine",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node Trino Presto Distributed Query Engine.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node Trino Presto Distributed Query Engine.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-cisco-catalyst-enterprise-network-vlan-trunking": {
+    id: "tech-multi-multi-layer-cisco-catalyst-enterprise-network-vlan-trunking",
+    name: "MultiLayerCiscoCatalystEnterpriseNetworkVLANTrunkingSkill",
+    displayName: "Multi Layer Cisco Catalyst Enterprise Network VLAN Trunking",
+    categoryId: "technical",
+    description: "Configures Cisco switch 802.1Q VLAN trunking, Spanning Tree (RSTP), and LACP bonds.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Cisco Catalyst Enterprise Network VLAN Trunking",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Cisco Catalyst Enterprise Network VLAN Trunking",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Cisco Catalyst Enterprise Network VLAN Trunking.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Cisco Catalyst Enterprise Network VLAN Trunking.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-stage-automated-vulnerability-scanning-dependency-check": {
+    id: "tech-multi-multi-stage-automated-vulnerability-scanning-dependency-check",
+    name: "MultiStageAutomatedVulnerabilityScanningDependencyCheckSkill",
+    displayName: "Multi Stage Automated Vulnerability Scanning Dependency Check",
+    categoryId: "technical",
+    description: "Integrates Dependency-Check, Snyk, and Trivy into CI/CD build pipelines.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Automated Vulnerability Scanning Dependency Check",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Automated Vulnerability Scanning Dependency Check",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Automated Vulnerability Scanning Dependency Check.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Automated Vulnerability Scanning Dependency Check.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-glusterfs-geo-replication-disaster-recovery": {
+    id: "tech-multi-multi-node-glusterfs-geo-replication-disaster-recovery",
+    name: "MultiNodeGlusterFSGeoReplicationDisasterRecoverySkill",
+    displayName: "Multi Node GlusterFS Geo Replication Disaster Recovery",
+    categoryId: "technical",
+    description: "Configures GlusterFS asynchronous geo-replication across remote datacenters.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node GlusterFS Geo Replication Disaster Recovery",
+      ruSectionName: "Композитный Multi-Skill: Multi Node GlusterFS Geo Replication Disaster Recovery",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node GlusterFS Geo Replication Disaster Recovery.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node GlusterFS Geo Replication Disaster Recovery.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-linux-raid-array-mdadm-storage-configuration": {
+    id: "tech-multi-multi-layer-linux-raid-array-mdadm-storage-configuration",
+    name: "MultiLayerLinuxRAIDArrayMDADMStorageConfigurationSkill",
+    displayName: "Multi Layer Linux RAID Array MDADM Storage Configuration",
+    categoryId: "technical",
+    description: "Configures software RAID 10 arrays using mdadm with hot-spare disk drives.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Linux RAID Array MDADM Storage Configuration",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Linux RAID Array MDADM Storage Configuration",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Linux RAID Array MDADM Storage Configuration.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Linux RAID Array MDADM Storage Configuration.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-stage-infrastructure-monitoring-grafana-dashboard": {
+    id: "tech-multi-multi-stage-infrastructure-monitoring-grafana-dashboard",
+    name: "MultiStageInfrastructureMonitoringGrafanaDashboardSkill",
+    displayName: "Multi Stage Infrastructure Monitoring Grafana Dashboard",
+    categoryId: "technical",
+    description: "Builds Grafana operational dashboards visualizing system metrics and SLO error budgets.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Infrastructure Monitoring Grafana Dashboard",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Infrastructure Monitoring Grafana Dashboard",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Stage Infrastructure Monitoring Grafana Dashboard.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Stage Infrastructure Monitoring Grafana Dashboard.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-node-apache-zookeeper-distributed-coordination": {
+    id: "tech-multi-multi-node-apache-zookeeper-distributed-coordination",
+    name: "MultiNodeApacheZooKeeperDistributedCoordinationSkill",
+    displayName: "Multi Node Apache ZooKeeper Distributed Coordination",
+    categoryId: "technical",
+    description: "Configures ZooKeeper ensemble quorums managing distributed system leader elections.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Node Apache ZooKeeper Distributed Coordination",
+      ruSectionName: "Композитный Multi-Skill: Multi Node Apache ZooKeeper Distributed Coordination",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Node Apache ZooKeeper Distributed Coordination.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Node Apache ZooKeeper Distributed Coordination.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-layer-hardware-security-module-hsm-key-storage": {
+    id: "tech-multi-multi-layer-hardware-security-module-hsm-key-storage",
+    name: "MultiLayerHardwareSecurityModuleHSMKeyStorageSkill",
+    displayName: "Multi Layer Hardware Security Module HSM Key Storage",
+    categoryId: "technical",
+    description: "Configures Cloud HSM / PKCS#11 modules for cryptographic key generation and signing.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Hardware Security Module HSM Key Storage",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Hardware Security Module HSM Key Storage",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Layer Hardware Security Module HSM Key Storage.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Layer Hardware Security Module HSM Key Storage.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
+
+  "tech-multi-multi-horizon-master-cloud-native-technical-infrastructure-engine": {
+    id: "tech-multi-multi-horizon-master-cloud-native-technical-infrastructure-engine",
+    name: "MultiHorizonMasterCloudNativeTechnicalInfrastructureEngineSkill",
+    displayName: "Multi Horizon Master Cloud Native Technical Infrastructure Engine",
+    categoryId: "technical",
+    description: "Enforces master DevOps, cloud-native architecture, system resilience, and infrastructure engineering.",
+    tags: ["technical","multi-skill","tech-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Cloud Native Technical Infrastructure Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Cloud Native Technical Infrastructure Engine",
+      instructions: [
+        "Phase 1: Setup research, social, technical, or design baseline parameters for Multi Horizon Master Cloud Native Technical Infrastructure Engine.",
+        "Phase 2: Multi-perspective analysis, design execution, or technical synthesis.",
+        "Phase 3: Produce verified structured output adhering to domain quality standards."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация исследовательской, социальной, технической или дизайнерской базы для Multi Horizon Master Cloud Native Technical Infrastructure Engine.",
+        "Этап 2: Многоаспектный анализ, исполнение дизайна или технический синтез.",
+        "Этап 3: Формирование структурированного результата по стандартам качества."
+],
+      semanticType: "process_directive",
+      tags: ["technical","multi-skill","tech-multi"],
+    }),
+  },
 };

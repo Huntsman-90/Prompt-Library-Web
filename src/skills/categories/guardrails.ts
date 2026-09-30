@@ -4274,4 +4274,1503 @@ export const GUARDRAILS_SKILLS: Record<string, SkillDefinition> = {
       tags: ["guardrails","guardrails","comprehensive","enterprise"],
     }),
   },
+  "guardrails-multi-multi-layer-prompt-injection-input-sanitization-shield": {
+    id: "guardrails-multi-multi-layer-prompt-injection-input-sanitization-shield",
+    name: "MultiLayerPromptInjectionInputSanitizationShieldSkill",
+    displayName: "Multi Layer Prompt Injection Input Sanitization Shield",
+    categoryId: "guardrails",
+    description: "Detects and neutralizes direct and indirect prompt injection attempts in user inputs.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Prompt Injection Input Sanitization Shield",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Prompt Injection Input Sanitization Shield",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Prompt Injection Input Sanitization Shield.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Prompt Injection Input Sanitization Shield.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-pii-anonymization-masking-redaction": {
+    id: "guardrails-multi-multi-factor-pii-anonymization-masking-redaction",
+    name: "MultiFactorPIIAnonymizationMaskingRedactionSkill",
+    displayName: "Multi Factor PII Anonymization Masking Redaction",
+    categoryId: "guardrails",
+    description: "Scans texts for SSNs, credit cards, emails, and names, replacing them with anonymized tokens.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor PII Anonymization Masking Redaction",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor PII Anonymization Masking Redaction",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor PII Anonymization Masking Redaction.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor PII Anonymization Masking Redaction.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-classifier-hate-speech-toxicity-filtering-guard": {
+    id: "guardrails-multi-multi-classifier-hate-speech-toxicity-filtering-guard",
+    name: "MultiClassifierHateSpeechToxicityFilteringGuardSkill",
+    displayName: "Multi Classifier Hate Speech Toxicity Filtering Guard",
+    categoryId: "guardrails",
+    description: "Filters hate speech, harassment, slurs, and toxic language across multiple severity tiers.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Classifier Hate Speech Toxicity Filtering Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Classifier Hate Speech Toxicity Filtering Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Classifier Hate Speech Toxicity Filtering Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Classifier Hate Speech Toxicity Filtering Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-output-hallucination-fact-checking-guard": {
+    id: "guardrails-multi-multi-stage-output-hallucination-fact-checking-guard",
+    name: "MultiStageOutputHallucinationFactCheckingGuardSkill",
+    displayName: "Multi Stage Output Hallucination Fact Checking Guard",
+    categoryId: "guardrails",
+    description: "Cross-checks LLM response claims against verified grounded knowledge bases before outputting.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Output Hallucination Fact Checking Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Output Hallucination Fact Checking Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Output Hallucination Fact Checking Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Output Hallucination Fact Checking Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-system-prompt-leakage-defense-shield": {
+    id: "guardrails-multi-multi-layer-system-prompt-leakage-defense-shield",
+    name: "MultiLayerSystemPromptLeakageDefenseShieldSkill",
+    displayName: "Multi Layer System Prompt Leakage Defense Shield",
+    categoryId: "guardrails",
+    description: "Prevents adversaries from extracting internal system instructions or proprietary prompts.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer System Prompt Leakage Defense Shield",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer System Prompt Leakage Defense Shield",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer System Prompt Leakage Defense Shield.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer System Prompt Leakage Defense Shield.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-threshold-rate-limiting-dos-prevention-valve": {
+    id: "guardrails-multi-multi-threshold-rate-limiting-dos-prevention-valve",
+    name: "MultiThresholdRateLimitingDoSPreventionValveSkill",
+    displayName: "Multi Threshold Rate Limiting DoS Prevention Valve",
+    categoryId: "guardrails",
+    description: "Prevents API abuse, automated scraping, and DoS attacks via token bucket throttling.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Threshold Rate Limiting DoS Prevention Valve",
+      ruSectionName: "Композитный Multi-Skill: Multi Threshold Rate Limiting DoS Prevention Valve",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Threshold Rate Limiting DoS Prevention Valve.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Threshold Rate Limiting DoS Prevention Valve.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-category-content-moderation-policy-safety-net": {
+    id: "guardrails-multi-multi-category-content-moderation-policy-safety-net",
+    name: "MultiCategoryContentModerationPolicySafetyNetSkill",
+    displayName: "Multi Category Content Moderation Policy Safety Net",
+    categoryId: "guardrails",
+    description: "Screens content against self-harm, sexual content, violence, and illegal activity policies.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Category Content Moderation Policy Safety Net",
+      ruSectionName: "Композитный Multi-Skill: Multi Category Content Moderation Policy Safety Net",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Category Content Moderation Policy Safety Net.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Category Content Moderation Policy Safety Net.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-role-based-data-access-authorization-shield": {
+    id: "guardrails-multi-multi-layer-role-based-data-access-authorization-shield",
+    name: "MultiLayerRoleBasedDataAccessAuthorizationShieldSkill",
+    displayName: "Multi Layer Role Based Data Access Authorization Shield",
+    categoryId: "guardrails",
+    description: "Enforces column-level and row-level access permissions on generated database queries.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Role Based Data Access Authorization Shield",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Role Based Data Access Authorization Shield",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Role Based Data Access Authorization Shield.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Role Based Data Access Authorization Shield.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-jailbreak-adversarial-attack-neutralizer": {
+    id: "guardrails-multi-multi-stage-jailbreak-adversarial-attack-neutralizer",
+    name: "MultiStageJailbreakAdversarialAttackNeutralizerSkill",
+    displayName: "Multi Stage Jailbreak Adversarial Attack Neutralizer",
+    categoryId: "guardrails",
+    description: "Detects DAN, prefix injection, character obfuscation, and base64 encoded jailbreak attempts.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Jailbreak Adversarial Attack Neutralizer",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Jailbreak Adversarial Attack Neutralizer",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Jailbreak Adversarial Attack Neutralizer.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Jailbreak Adversarial Attack Neutralizer.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-copyrighted-ip-output-detection-guard": {
+    id: "guardrails-multi-multi-factor-copyrighted-ip-output-detection-guard",
+    name: "MultiFactorCopyrightedIPOutputDetectionGuardSkill",
+    displayName: "Multi Factor Copyrighted IP Output Detection Guard",
+    categoryId: "guardrails",
+    description: "Scans LLM text and code outputs preventing verbatim reproduction of copyrighted materials.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Copyrighted IP Output Detection Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Copyrighted IP Output Detection Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Copyrighted IP Output Detection Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Copyrighted IP Output Detection Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-output-format-schema-validation-firewall": {
+    id: "guardrails-multi-multi-layer-output-format-schema-validation-firewall",
+    name: "MultiLayerOutputFormatSchemaValidationFirewallSkill",
+    displayName: "Multi Layer Output Format Schema Validation Firewall",
+    categoryId: "guardrails",
+    description: "Validates JSON/XML outputs against strict schemas, auto-correcting malformed syntax.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Output Format Schema Validation Firewall",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Output Format Schema Validation Firewall",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Output Format Schema Validation Firewall.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Output Format Schema Validation Firewall.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-medical-advice-disclaimers-safety-guard": {
+    id: "guardrails-multi-multi-stage-medical-advice-disclaimers-safety-guard",
+    name: "MultiStageMedicalAdviceDisclaimersSafetyGuardSkill",
+    displayName: "Multi Stage Medical Advice Disclaimers Safety Guard",
+    categoryId: "guardrails",
+    description: "Injects mandatory medical disclaimers and flags dangerous self-treatment suggestions.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Medical Advice Disclaimers Safety Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Medical Advice Disclaimers Safety Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Medical Advice Disclaimers Safety Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Medical Advice Disclaimers Safety Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-legal-liability-caveat-insertion-shield": {
+    id: "guardrails-multi-multi-layer-legal-liability-caveat-insertion-shield",
+    name: "MultiLayerLegalLiabilityCaveatInsertionShieldSkill",
+    displayName: "Multi Layer Legal Liability Caveat Insertion Shield",
+    categoryId: "guardrails",
+    description: "Ensures financial/legal generation includes necessary regulatory disclaimers and limitations.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Legal Liability Caveat Insertion Shield",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Legal Liability Caveat Insertion Shield",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Legal Liability Caveat Insertion Shield.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Legal Liability Caveat Insertion Shield.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-bias-discrimination-mitigation-audit": {
+    id: "guardrails-multi-multi-factor-bias-discrimination-mitigation-audit",
+    name: "MultiFactorBiasDiscriminationMitigationAuditSkill",
+    displayName: "Multi Factor Bias Discrimination Mitigation Audit",
+    categoryId: "guardrails",
+    description: "Audits outputs for racial, gender, age, or socio-economic stereotyping biases.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Bias Discrimination Mitigation Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Bias Discrimination Mitigation Audit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Bias Discrimination Mitigation Audit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Bias Discrimination Mitigation Audit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-out-of-scope-topic-redirection-router": {
+    id: "guardrails-multi-multi-stage-out-of-scope-topic-redirection-router",
+    name: "MultiStageOutofScopeTopicRedirectionRouterSkill",
+    displayName: "Multi Stage Out of Scope Topic Redirection Router",
+    categoryId: "guardrails",
+    description: "Gracefully redirects off-topic or out-of-scope user prompts back to supported domains.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Out of Scope Topic Redirection Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Out of Scope Topic Redirection Router",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Out of Scope Topic Redirection Router.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Out of Scope Topic Redirection Router.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-code-sandbox-vulnerability-analyzer": {
+    id: "guardrails-multi-multi-layer-code-sandbox-vulnerability-analyzer",
+    name: "MultiLayerCodeSandboxVulnerabilityAnalyzerSkill",
+    displayName: "Multi Layer Code Sandbox Vulnerability Analyzer",
+    categoryId: "guardrails",
+    description: "Scans AI-generated code for SQL injection, XSS, insecure deserialization, and hardcoded secrets.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Code Sandbox Vulnerability Analyzer",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Code Sandbox Vulnerability Analyzer",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Code Sandbox Vulnerability Analyzer.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Code Sandbox Vulnerability Analyzer.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-sentiment-distress-self-harm-escalation": {
+    id: "guardrails-multi-multi-factor-sentiment-distress-self-harm-escalation",
+    name: "MultiFactorSentimentDistressSelfHarmEscalationSkill",
+    displayName: "Multi Factor Sentiment Distress Self Harm Escalation",
+    categoryId: "guardrails",
+    description: "Detects user crisis or self-harm intent and dispatches immediate helpline resources.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Sentiment Distress Self Harm Escalation",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Sentiment Distress Self Harm Escalation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Sentiment Distress Self Harm Escalation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Sentiment Distress Self Harm Escalation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-automated-content-fact-verification-grounding": {
+    id: "guardrails-multi-multi-stage-automated-content-fact-verification-grounding",
+    name: "MultiStageAutomatedContentFactVerificationGroundingSkill",
+    displayName: "Multi Stage Automated Content Fact Verification Grounding",
+    categoryId: "guardrails",
+    description: "Verifies numerical stats, dates, and proper nouns against trusted web APIs.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Automated Content Fact Verification Grounding",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Automated Content Fact Verification Grounding",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Automated Content Fact Verification Grounding.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Automated Content Fact Verification Grounding.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-pii-export-compliance-audit-trail": {
+    id: "guardrails-multi-multi-layer-pii-export-compliance-audit-trail",
+    name: "MultiLayerPIIExportComplianceAuditTrailSkill",
+    displayName: "Multi Layer PII Export Compliance Audit Trail",
+    categoryId: "guardrails",
+    description: "Logs all PII accesses and redactions to tamper-evident immutable audit logs.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer PII Export Compliance Audit Trail",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer PII Export Compliance Audit Trail",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer PII Export Compliance Audit Trail.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer PII Export Compliance Audit Trail.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-tone-neutrality-political-non-bias-guard": {
+    id: "guardrails-multi-multi-factor-tone-neutrality-political-non-bias-guard",
+    name: "MultiFactorToneNeutralityPoliticalNonBiasGuardSkill",
+    displayName: "Multi Factor Tone Neutrality Political Non Bias Guard",
+    categoryId: "guardrails",
+    description: "Maintains objective non-partisan stance on controversial political or religious topics.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Tone Neutrality Political Non Bias Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Tone Neutrality Political Non Bias Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Tone Neutrality Political Non Bias Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Tone Neutrality Political Non Bias Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-anti-spam-automated-bot-detection-engine": {
+    id: "guardrails-multi-multi-layer-anti-spam-automated-bot-detection-engine",
+    name: "MultiLayerAntiSpamAutomatedBotDetectionEngineSkill",
+    displayName: "Multi Layer Anti Spam Automated Bot Detection Engine",
+    categoryId: "guardrails",
+    description: "Identifies automated bot spam submissions via CAPTCHA and behavior heuristics.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Anti Spam Automated Bot Detection Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Anti Spam Automated Bot Detection Engine",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Anti Spam Automated Bot Detection Engine.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Anti Spam Automated Bot Detection Engine.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-financial-advice-compliance-disclaimers": {
+    id: "guardrails-multi-multi-stage-financial-advice-compliance-disclaimers",
+    name: "MultiStageFinancialAdviceComplianceDisclaimersSkill",
+    displayName: "Multi Stage Financial Advice Compliance Disclaimers",
+    categoryId: "guardrails",
+    description: "Injects SEC/FINRA investment disclaimers when discussing stock or crypto options.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Financial Advice Compliance Disclaimers",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Financial Advice Compliance Disclaimers",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Financial Advice Compliance Disclaimers.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Financial Advice Compliance Disclaimers.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-brand-reputation-protection-filter": {
+    id: "guardrails-multi-multi-factor-brand-reputation-protection-filter",
+    name: "MultiFactorBrandReputationProtectionFilterSkill",
+    displayName: "Multi Factor Brand Reputation Protection Filter",
+    categoryId: "guardrails",
+    description: "Prevents AI from generating defamatory, offensive, or off-brand company statements.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Brand Reputation Protection Filter",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Brand Reputation Protection Filter",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Brand Reputation Protection Filter.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Brand Reputation Protection Filter.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-cryptography-api-key-secret-sanitizer": {
+    id: "guardrails-multi-multi-layer-cryptography-api-key-secret-sanitizer",
+    name: "MultiLayerCryptographyAPIKeySecretSanitizerSkill",
+    displayName: "Multi Layer Cryptography API Key Secret Sanitizer",
+    categoryId: "guardrails",
+    description: "Redacts случайно exposed AWS keys, JWT tokens, and passwords from logs and code outputs.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Cryptography API Key Secret Sanitizer",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Cryptography API Key Secret Sanitizer",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Cryptography API Key Secret Sanitizer.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Cryptography API Key Secret Sanitizer.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-child-safety-online-protection-csam-guard": {
+    id: "guardrails-multi-multi-stage-child-safety-online-protection-csam-guard",
+    name: "MultiStageChildSafetyOnlineProtectionCSAMGuardSkill",
+    displayName: "Multi Stage Child Safety Online Protection CSAM Guard",
+    categoryId: "guardrails",
+    description: "Enforces zero-tolerance immediate blocking and reporting on child exploitation content.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Child Safety Online Protection CSAM Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Child Safety Online Protection CSAM Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Child Safety Online Protection CSAM Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Child Safety Online Protection CSAM Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-cross-origin-resource-sharing-cors-guard": {
+    id: "guardrails-multi-multi-layer-cross-origin-resource-sharing-cors-guard",
+    name: "MultiLayerCrossOriginResourceSharingCORSGuardSkill",
+    displayName: "Multi Layer Cross Origin Resource Sharing CORS Guard",
+    categoryId: "guardrails",
+    description: "Enforces strict CORS origin validation preventing unauthorized cross-domain API calls.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Cross Origin Resource Sharing CORS Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Cross Origin Resource Sharing CORS Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Cross Origin Resource Sharing CORS Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Cross Origin Resource Sharing CORS Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-misinformation-fake-news-detector": {
+    id: "guardrails-multi-multi-factor-misinformation-fake-news-detector",
+    name: "MultiFactorMisinformationFakeNewsDetectorSkill",
+    displayName: "Multi Factor Misinformation Fake News Detector",
+    categoryId: "guardrails",
+    description: "Identifies debunked conspiracy theories, fake news stories, and doctored claims.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Misinformation Fake News Detector",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Misinformation Fake News Detector",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Misinformation Fake News Detector.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Misinformation Fake News Detector.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-database-destructive-query-injection-guard": {
+    id: "guardrails-multi-multi-stage-database-destructive-query-injection-guard",
+    name: "MultiStageDatabaseDestructiveQueryInjectionGuardSkill",
+    displayName: "Multi Stage Database Destructive Query Injection Guard",
+    categoryId: "guardrails",
+    description: "Blocks AI-generated SQL containing `DROP TABLE`, `DELETE WITHOUT WHERE`, or `TRUNCATE`.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Database Destructive Query Injection Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Database Destructive Query Injection Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Database Destructive Query Injection Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Database Destructive Query Injection Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-user-input-length-bomb-overflow-shield": {
+    id: "guardrails-multi-multi-layer-user-input-length-bomb-overflow-shield",
+    name: "MultiLayerUserInputLengthBombOverflowShieldSkill",
+    displayName: "Multi Layer User Input Length Bomb Overflow Shield",
+    categoryId: "guardrails",
+    description: "Truncates excessively long context input bombs designed to exhaust LLM token windows.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer User Input Length Bomb Overflow Shield",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer User Input Length Bomb Overflow Shield",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer User Input Length Bomb Overflow Shield.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer User Input Length Bomb Overflow Shield.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-algorithmic-fairness-demographic-parity-audit": {
+    id: "guardrails-multi-multi-factor-algorithmic-fairness-demographic-parity-audit",
+    name: "MultiFactorAlgorithmicFairnessDemographicParityAuditSkill",
+    displayName: "Multi Factor Algorithmic Fairness Demographic Parity Audit",
+    categoryId: "guardrails",
+    description: "Audits automated decision outputs for equitable treatment across demographic groups.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Algorithmic Fairness Demographic Parity Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Algorithmic Fairness Demographic Parity Audit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Algorithmic Fairness Demographic Parity Audit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Algorithmic Fairness Demographic Parity Audit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-deepfake-synthetic-media-misuse-guard": {
+    id: "guardrails-multi-multi-stage-deepfake-synthetic-media-misuse-guard",
+    name: "MultiStageDeepfakeSyntheticMediaMisuseGuardSkill",
+    displayName: "Multi Stage Deepfake Synthetic Media Misuse Guard",
+    categoryId: "guardrails",
+    description: "Detects attempts to generate unauthorized deepfake likenesses or voice clones of real people.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Deepfake Synthetic Media Misuse Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Deepfake Synthetic Media Misuse Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Deepfake Synthetic Media Misuse Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Deepfake Synthetic Media Misuse Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-oauth-scope-permission-boundary-guard": {
+    id: "guardrails-multi-multi-layer-oauth-scope-permission-boundary-guard",
+    name: "MultiLayerOAuthScopePermissionBoundaryGuardSkill",
+    displayName: "Multi Layer OAuth Scope Permission Boundary Guard",
+    categoryId: "guardrails",
+    description: "Restricts API call execution strictly within user authorized OAuth scopes.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer OAuth Scope Permission Boundary Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer OAuth Scope Permission Boundary Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer OAuth Scope Permission Boundary Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer OAuth Scope Permission Boundary Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-profanity-vulgarity-filtering-net": {
+    id: "guardrails-multi-multi-factor-profanity-vulgarity-filtering-net",
+    name: "MultiFactorProfanityVulgarityFilteringNetSkill",
+    displayName: "Multi Factor Profanity Vulgarity Filtering Net",
+    categoryId: "guardrails",
+    description: "Redacts explicit profanity and vulgarity from customer-facing conversational channels.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Profanity Vulgarity Filtering Net",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Profanity Vulgarity Filtering Net",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Profanity Vulgarity Filtering Net.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Profanity Vulgarity Filtering Net.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-automated-code-license-compliance-check": {
+    id: "guardrails-multi-multi-stage-automated-code-license-compliance-check",
+    name: "MultiStageAutomatedCodeLicenseComplianceCheckSkill",
+    displayName: "Multi Stage Automated Code License Compliance Check",
+    categoryId: "guardrails",
+    description: "Scans generated code snippets preventing GPL copyleft license contamination in proprietary apps.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Automated Code License Compliance Check",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Automated Code License Compliance Check",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Automated Code License Compliance Check.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Automated Code License Compliance Check.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-system-resource-cpu-exhaustion-guard": {
+    id: "guardrails-multi-multi-layer-system-resource-cpu-exhaustion-guard",
+    name: "MultiLayerSystemResourceCPUExhaustionGuardSkill",
+    displayName: "Multi Layer System Resource CPU Exhaustion Guard",
+    categoryId: "guardrails",
+    description: "Kills long-running AI code execution routines exceeding CPU time limits.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer System Resource CPU Exhaustion Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer System Resource CPU Exhaustion Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer System Resource CPU Exhaustion Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer System Resource CPU Exhaustion Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-customer-support-empathy-policy-guard": {
+    id: "guardrails-multi-multi-factor-customer-support-empathy-policy-guard",
+    name: "MultiFactorCustomerSupportEmpathyPolicyGuardSkill",
+    displayName: "Multi Factor Customer Support Empathy Policy Guard",
+    categoryId: "guardrails",
+    description: "Ensures support bot replies maintain respectful tone avoiding defensive or snarky phrasing.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Customer Support Empathy Policy Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Customer Support Empathy Policy Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Customer Support Empathy Policy Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Customer Support Empathy Policy Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-e-commerce-maximum-discount-fraud-guard": {
+    id: "guardrails-multi-multi-stage-e-commerce-maximum-discount-fraud-guard",
+    name: "MultiStageECommerceMaximumDiscountFraudGuardSkill",
+    displayName: "Multi Stage E-Commerce Maximum Discount Fraud Guard",
+    categoryId: "guardrails",
+    description: "Blocks promotional code generations exceeding maximum authorized margin thresholds.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage E-Commerce Maximum Discount Fraud Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage E-Commerce Maximum Discount Fraud Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage E-Commerce Maximum Discount Fraud Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage E-Commerce Maximum Discount Fraud Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-network-egress-ip-whitelisting-shield": {
+    id: "guardrails-multi-multi-layer-network-egress-ip-whitelisting-shield",
+    name: "MultiLayerNetworkEgressIPWhitelistingShieldSkill",
+    displayName: "Multi Layer Network Egress IP Whitelisting Shield",
+    categoryId: "guardrails",
+    description: "Restricts AI tool call outbound HTTP connections exclusively to approved domains.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Network Egress IP Whitelisting Shield",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Network Egress IP Whitelisting Shield",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Network Egress IP Whitelisting Shield.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Network Egress IP Whitelisting Shield.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-election-integrity-voting-misinformation-guard": {
+    id: "guardrails-multi-multi-factor-election-integrity-voting-misinformation-guard",
+    name: "MultiFactorElectionIntegrityVotingMisinformationGuardSkill",
+    displayName: "Multi Factor Election Integrity Voting Misinformation Guard",
+    categoryId: "guardrails",
+    description: "Blocks false claims regarding polling locations, voting procedures, and candidate eligibility.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Election Integrity Voting Misinformation Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Election Integrity Voting Misinformation Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Election Integrity Voting Misinformation Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Election Integrity Voting Misinformation Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-automated-schema-anti-drift-guard": {
+    id: "guardrails-multi-multi-stage-automated-schema-anti-drift-guard",
+    name: "MultiStageAutomatedSchemaAntiDriftGuardSkill",
+    displayName: "Multi Stage Automated Schema Anti Drift Guard",
+    categoryId: "guardrails",
+    description: "Flags breaking changes in generated JSON APIs before deploying to production clients.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Automated Schema Anti Drift Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Automated Schema Anti Drift Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Automated Schema Anti Drift Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Automated Schema Anti Drift Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-phishing-malware-generation-guard": {
+    id: "guardrails-multi-multi-layer-phishing-malware-generation-guard",
+    name: "MultiLayerPhishingMalwareGenerationGuardSkill",
+    displayName: "Multi Layer Phishing Malware Generation Guard",
+    categoryId: "guardrails",
+    description: "Detects and blocks requests attempting to generate phishing email templates or malware scripts.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Phishing Malware Generation Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Phishing Malware Generation Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Phishing Malware Generation Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Phishing Malware Generation Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-accessibility-wcag-contrast-alt-text-guard": {
+    id: "guardrails-multi-multi-factor-accessibility-wcag-contrast-alt-text-guard",
+    name: "MultiFactorAccessibilityWCAGContrastAltTextGuardSkill",
+    displayName: "Multi Factor Accessibility WCAG Contrast Alt Text Guard",
+    categoryId: "guardrails",
+    description: "Enforces mandatory image alt text and WCAG AAA color contrast ratios in UI generation.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Accessibility WCAG Contrast Alt Text Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Accessibility WCAG Contrast Alt Text Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Accessibility WCAG Contrast Alt Text Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Accessibility WCAG Contrast Alt Text Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-pharmaceutical-off-label-drug-promotion-guard": {
+    id: "guardrails-multi-multi-stage-pharmaceutical-off-label-drug-promotion-guard",
+    name: "MultiStagePharmaceuticalOffLabelDrugPromotionGuardSkill",
+    displayName: "Multi Stage Pharmaceutical Off Label Drug Promotion Guard",
+    categoryId: "guardrails",
+    description: "Blocks unapproved off-label medical drug usage recommendations.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Pharmaceutical Off Label Drug Promotion Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Pharmaceutical Off Label Drug Promotion Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Pharmaceutical Off Label Drug Promotion Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Pharmaceutical Off Label Drug Promotion Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-session-hijacking-csrf-token-guard": {
+    id: "guardrails-multi-multi-layer-session-hijacking-csrf-token-guard",
+    name: "MultiLayerSessionHijackingCSRFTokenGuardSkill",
+    displayName: "Multi Layer Session Hijacking CSRF Token Guard",
+    categoryId: "guardrails",
+    description: "Enforces anti-CSRF token verification on all state-changing API request payloads.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Session Hijacking CSRF Token Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Session Hijacking CSRF Token Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Session Hijacking CSRF Token Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Session Hijacking CSRF Token Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-military-weapons-proliferation-guard": {
+    id: "guardrails-multi-multi-factor-military-weapons-proliferation-guard",
+    name: "MultiFactorMilitaryWeaponsProliferationGuardSkill",
+    displayName: "Multi Factor Military Weapons Proliferation Guard",
+    categoryId: "guardrails",
+    description: "Blocks instructions for manufacturing chemical, biological, radiological, or nuclear weapons.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Military Weapons Proliferation Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Military Weapons Proliferation Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Military Weapons Proliferation Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Military Weapons Proliferation Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-gdpr-right-to-be-forgotten-data-eraser": {
+    id: "guardrails-multi-multi-stage-gdpr-right-to-be-forgotten-data-eraser",
+    name: "MultiStageGDPRRightToBeForgottenDataEraserSkill",
+    displayName: "Multi Stage GDPR Right To Be Forgotten Data Eraser",
+    categoryId: "guardrails",
+    description: "Executes cascading user personal data erasure across all databases and vector indices.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage GDPR Right To Be Forgotten Data Eraser",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage GDPR Right To Be Forgotten Data Eraser",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage GDPR Right To Be Forgotten Data Eraser.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage GDPR Right To Be Forgotten Data Eraser.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-autonomous-agent-action-approval-confirmation": {
+    id: "guardrails-multi-multi-layer-autonomous-agent-action-approval-confirmation",
+    name: "MultiLayerAutonomousAgentActionApprovalConfirmationSkill",
+    displayName: "Multi Layer Autonomous Agent Action Approval Confirmation",
+    categoryId: "guardrails",
+    description: "Requires mandatory explicit human confirmation for high-stakes actions (money transfers, emails).",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Autonomous Agent Action Approval Confirmation",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Autonomous Agent Action Approval Confirmation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Autonomous Agent Action Approval Confirmation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Autonomous Agent Action Approval Confirmation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-academic-dishonesty-plagiarism-guard": {
+    id: "guardrails-multi-multi-factor-academic-dishonesty-plagiarism-guard",
+    name: "MultiFactorAcademicDishonestyPlagiarismGuardSkill",
+    displayName: "Multi Factor Academic Dishonesty Plagiarism Guard",
+    categoryId: "guardrails",
+    description: "Flags generated academic essays failing originality checks or lacking proper citations.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Academic Dishonesty Plagiarism Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Academic Dishonesty Plagiarism Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Academic Dishonesty Plagiarism Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Academic Dishonesty Plagiarism Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-insurance-discrimination-underwriting-guard": {
+    id: "guardrails-multi-multi-stage-insurance-discrimination-underwriting-guard",
+    name: "MultiStageInsuranceDiscriminationUnderwritingGuardSkill",
+    displayName: "Multi Stage Insurance Discrimination Underwriting Guard",
+    categoryId: "guardrails",
+    description: "Blocks prohibited demographic factors from insurance risk scoring algorithms.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Insurance Discrimination Underwriting Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Insurance Discrimination Underwriting Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Insurance Discrimination Underwriting Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Insurance Discrimination Underwriting Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-cloud-storage-public-bucket-prevention-shield": {
+    id: "guardrails-multi-multi-layer-cloud-storage-public-bucket-prevention-shield",
+    name: "MultiLayerCloudStoragePublicBucketPreventionShieldSkill",
+    displayName: "Multi Layer Cloud Storage Public Bucket Prevention Shield",
+    categoryId: "guardrails",
+    description: "Scans S3 bucket policy outputs preventing accidental public read permissions.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Cloud Storage Public Bucket Prevention Shield",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Cloud Storage Public Bucket Prevention Shield",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Cloud Storage Public Bucket Prevention Shield.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Cloud Storage Public Bucket Prevention Shield.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-extremist-propaganda-recruitment-detector": {
+    id: "guardrails-multi-multi-factor-extremist-propaganda-recruitment-detector",
+    name: "MultiFactorExtremistPropagandaRecruitmentDetectorSkill",
+    displayName: "Multi Factor Extremist Propaganda Recruitment Detector",
+    categoryId: "guardrails",
+    description: "Identifies and blocks radicalization or extremist organization propaganda.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Extremist Propaganda Recruitment Detector",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Extremist Propaganda Recruitment Detector",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Extremist Propaganda Recruitment Detector.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Extremist Propaganda Recruitment Detector.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-real-estate-fair-housing-act-compliance-guard": {
+    id: "guardrails-multi-multi-stage-real-estate-fair-housing-act-compliance-guard",
+    name: "MultiStageRealEstateFairHousingActComplianceGuardSkill",
+    displayName: "Multi Stage Real Estate Fair Housing Act Compliance Guard",
+    categoryId: "guardrails",
+    description: "Scans property listings ensuring no discriminatory housing references.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Real Estate Fair Housing Act Compliance Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Real Estate Fair Housing Act Compliance Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Real Estate Fair Housing Act Compliance Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Real Estate Fair Housing Act Compliance Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-telemetry-analytics-pii-redaction-pipeline": {
+    id: "guardrails-multi-multi-layer-telemetry-analytics-pii-redaction-pipeline",
+    name: "MultiLayerTelemetryAnalyticsPIIRedactionPipelineSkill",
+    displayName: "Multi Layer Telemetry Analytics PII Redaction Pipeline",
+    categoryId: "guardrails",
+    description: "Strips IP addresses, device IDs, and location coordinates from telemetry events.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Telemetry Analytics PII Redaction Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Telemetry Analytics PII Redaction Pipeline",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Telemetry Analytics PII Redaction Pipeline.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Telemetry Analytics PII Redaction Pipeline.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-gambling-addiction-responsible-gaming-guard": {
+    id: "guardrails-multi-multi-factor-gambling-addiction-responsible-gaming-guard",
+    name: "MultiFactorGamblingAddictionResponsibleGamingGuardSkill",
+    displayName: "Multi Factor Gambling Addiction Responsible Gaming Guard",
+    categoryId: "guardrails",
+    description: "Detects compulsive gambling behavior and presents self-exclusion options.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Gambling Addiction Responsible Gaming Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Gambling Addiction Responsible Gaming Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Gambling Addiction Responsible Gaming Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Gambling Addiction Responsible Gaming Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-automated-system-prompt-integrity-watchdog": {
+    id: "guardrails-multi-multi-stage-automated-system-prompt-integrity-watchdog",
+    name: "MultiStageAutomatedSystemPromptIntegrityWatchdogSkill",
+    displayName: "Multi Stage Automated System Prompt Integrity Watchdog",
+    categoryId: "guardrails",
+    description: "Monitors memory for runtime system prompt corruption or drift.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Automated System Prompt Integrity Watchdog",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Automated System Prompt Integrity Watchdog",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Automated System Prompt Integrity Watchdog.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Automated System Prompt Integrity Watchdog.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-commercial-contract-price-slippage-guard": {
+    id: "guardrails-multi-multi-layer-commercial-contract-price-slippage-guard",
+    name: "MultiLayerCommercialContractPriceSlippageGuardSkill",
+    displayName: "Multi Layer Commercial Contract Price Slippage Guard",
+    categoryId: "guardrails",
+    description: "Flags pricing terms exceeding authorized contract variance thresholds.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Commercial Contract Price Slippage Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Commercial Contract Price Slippage Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Commercial Contract Price Slippage Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Commercial Contract Price Slippage Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-factor-environmental-greenwashing-claim-checker": {
+    id: "guardrails-multi-multi-factor-environmental-greenwashing-claim-checker",
+    name: "MultiFactorEnvironmentalGreenwashingClaimCheckerSkill",
+    displayName: "Multi Factor Environmental Greenwashing Claim Checker",
+    categoryId: "guardrails",
+    description: "Verifies corporate eco-friendly claims against third-party sustainability certifications.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Environmental Greenwashing Claim Checker",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Environmental Greenwashing Claim Checker",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Environmental Greenwashing Claim Checker.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Environmental Greenwashing Claim Checker.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-stage-autonomous-vehicle-critical-safety-interlock": {
+    id: "guardrails-multi-multi-stage-autonomous-vehicle-critical-safety-interlock",
+    name: "MultiStageAutonomousVehicleCriticalSafetyInterlockSkill",
+    displayName: "Multi Stage Autonomous Vehicle Critical Safety Interlock",
+    categoryId: "guardrails",
+    description: "Overrides autonomous driving commands if lidar/radar detects imminent collision.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Autonomous Vehicle Critical Safety Interlock",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Autonomous Vehicle Critical Safety Interlock",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Autonomous Vehicle Critical Safety Interlock.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Autonomous Vehicle Critical Safety Interlock.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-layer-financial-trading-algorithmic-spoofing-guard": {
+    id: "guardrails-multi-multi-layer-financial-trading-algorithmic-spoofing-guard",
+    name: "MultiLayerFinancialTradingAlgorithmicSpoofingGuardSkill",
+    displayName: "Multi Layer Financial Trading Algorithmic Spoofing Guard",
+    categoryId: "guardrails",
+    description: "Blocks automated trading orders exhibiting market manipulation patterns.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Financial Trading Algorithmic Spoofing Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Financial Trading Algorithmic Spoofing Guard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Financial Trading Algorithmic Spoofing Guard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Financial Trading Algorithmic Spoofing Guard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
+
+  "guardrails-multi-multi-horizon-master-guardrails-safety-architecture-engine": {
+    id: "guardrails-multi-multi-horizon-master-guardrails-safety-architecture-engine",
+    name: "MultiHorizonMasterGuardrailsSafetyArchitectureEngineSkill",
+    displayName: "Multi Horizon Master Guardrails Safety Architecture Engine",
+    categoryId: "guardrails",
+    description: "Enforces master AI safety, zero-trust input sanitization, output grounding, and ethical compliance.",
+    tags: ["guardrails","multi-skill","guardrails-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Guardrails Safety Architecture Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Guardrails Safety Architecture Engine",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Master Guardrails Safety Architecture Engine.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Master Guardrails Safety Architecture Engine.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["guardrails","multi-skill","guardrails-multi"],
+    }),
+  },
 };

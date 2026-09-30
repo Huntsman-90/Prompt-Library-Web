@@ -4316,4 +4316,1503 @@ export const CORE_SKILLS: Record<string, SkillDefinition> = {
       tags: ["core","core","final","deliverable"],
     }),
   },
+  "core-multi-multi-perspective-persona-system-prompt-framing": {
+    id: "core-multi-multi-perspective-persona-system-prompt-framing",
+    name: "MultiPerspectivePersonaSystemPromptFramingSkill",
+    displayName: "Multi Perspective Persona System Prompt Framing",
+    categoryId: "core",
+    description: "Structures system prompts establishing core identity, domain expertise, behavioral rules, and negative constraints.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Persona System Prompt Framing",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Persona System Prompt Framing",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Perspective Persona System Prompt Framing.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Perspective Persona System Prompt Framing.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-stage-few-shot-example-anchor-calibration": {
+    id: "core-multi-multi-stage-few-shot-example-anchor-calibration",
+    name: "MultiStageFewShotExampleAnchorCalibrationSkill",
+    displayName: "Multi Stage Few Shot Example Anchor Calibration",
+    categoryId: "core",
+    description: "Calibrates model output formatting and reasoning style using curated diverse few-shot prompt examples.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Few Shot Example Anchor Calibration",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Few Shot Example Anchor Calibration",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Few Shot Example Anchor Calibration.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Few Shot Example Anchor Calibration.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-layer-prompt-variable-injection-system": {
+    id: "core-multi-multi-layer-prompt-variable-injection-system",
+    name: "MultiLayerPromptVariableInjectionSystemSkill",
+    displayName: "Multi Layer Prompt Variable Injection System",
+    categoryId: "core",
+    description: "Template engine injecting dynamic context variables, user preferences, and metadata safely.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Prompt Variable Injection System",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Prompt Variable Injection System",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Prompt Variable Injection System.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Prompt Variable Injection System.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-constraint-prompt-boundary-enforcement": {
+    id: "core-multi-multi-constraint-prompt-boundary-enforcement",
+    name: "MultiConstraintPromptBoundaryEnforcementSkill",
+    displayName: "Multi Constraint Prompt Boundary Enforcement",
+    categoryId: "core",
+    description: "Establishes strict boundaries preventing hallucination, topic drift, and out-of-scope responses.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Constraint Prompt Boundary Enforcement",
+      ruSectionName: "Композитный Multi-Skill: Multi Constraint Prompt Boundary Enforcement",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Constraint Prompt Boundary Enforcement.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Constraint Prompt Boundary Enforcement.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-format-output-schema-injection": {
+    id: "core-multi-multi-format-output-schema-injection",
+    name: "MultiFormatOutputSchemaInjectionSkill",
+    displayName: "Multi Format Output Schema Injection",
+    categoryId: "core",
+    description: "Forces exact JSON Schema, XML, or Markdown table output through precise prompt structural directives.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Output Schema Injection",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Output Schema Injection",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Format Output Schema Injection.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Format Output Schema Injection.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-step-chain-of-thought-cot-guidance": {
+    id: "core-multi-multi-step-chain-of-thought-cot-guidance",
+    name: "MultiStepChainofThoughtCoTGuidanceSkill",
+    displayName: "Multi Step Chain of Thought CoT Guidance",
+    categoryId: "core",
+    description: "Instructs step-by-step intermediate reasoning paths prior to producing the final answer.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Chain of Thought CoT Guidance",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Chain of Thought CoT Guidance",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Chain of Thought CoT Guidance.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Chain of Thought CoT Guidance.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-angle-context-window-compression": {
+    id: "core-multi-multi-angle-context-window-compression",
+    name: "MultiAngleContextWindowCompressionSkill",
+    displayName: "Multi Angle Context Window Compression",
+    categoryId: "core",
+    description: "Summarizes and compresses long conversation histories preserving key entities and decisions.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Context Window Compression",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Context Window Compression",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle Context Window Compression.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle Context Window Compression.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-level-negative-prompting-anti-pattern-guard": {
+    id: "core-multi-multi-level-negative-prompting-anti-pattern-guard",
+    name: "MultiLevelNegativePromptingAntiPatternGuardSkill",
+    displayName: "Multi Level Negative Prompting Anti Pattern Guard",
+    categoryId: "core",
+    description: "Explicitly specifies forbidden phrases, buzzwords, tone pitfalls, and unwanted structural artifacts.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Negative Prompting Anti Pattern Guard",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Negative Prompting Anti Pattern Guard",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Level Negative Prompting Anti Pattern Guard.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Level Negative Prompting Anti Pattern Guard.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-style-tone-and-voice-register-adapter": {
+    id: "core-multi-multi-style-tone-and-voice-register-adapter",
+    name: "MultiStyleToneandVoiceRegisterAdapterSkill",
+    displayName: "Multi Style Tone and Voice Register Adapter",
+    categoryId: "core",
+    description: "Adapts response register seamlessly between academic, executive, casual, empathetic, or authoritative.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Style Tone and Voice Register Adapter",
+      ruSectionName: "Композитный Multi-Skill: Multi Style Tone and Voice Register Adapter",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Style Tone and Voice Register Adapter.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Style Tone and Voice Register Adapter.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-task-unified-zero-shot-prompt-architecture": {
+    id: "core-multi-multi-task-unified-zero-shot-prompt-architecture",
+    name: "MultiTaskUnifiedZeroShotPromptArchitectureSkill",
+    displayName: "Multi Task Unified Zero Shot Prompt Architecture",
+    categoryId: "core",
+    description: "Structures single prompts capable of categorizing, extracting, and summarizing content simultaneously.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Task Unified Zero Shot Prompt Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Task Unified Zero Shot Prompt Architecture",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Task Unified Zero Shot Prompt Architecture.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Task Unified Zero Shot Prompt Architecture.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-step-self-correction-prompt-loop": {
+    id: "core-multi-multi-step-self-correction-prompt-loop",
+    name: "MultiStepSelfCorrectionPromptLoopSkill",
+    displayName: "Multi Step Self Correction Prompt Loop",
+    categoryId: "core",
+    description: "Instructs model to review its draft response against criteria and output an improved revision.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Self Correction Prompt Loop",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Self Correction Prompt Loop",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Self Correction Prompt Loop.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Self Correction Prompt Loop.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-layer-role-based-system-context-injection": {
+    id: "core-multi-multi-layer-role-based-system-context-injection",
+    name: "MultiLayerRoleBasedSystemContextInjectionSkill",
+    displayName: "Multi Layer Role Based System Context Injection",
+    categoryId: "core",
+    description: "Combines domain expert role, audience persona profile, and task parameters in system prompt.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Role Based System Context Injection",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Role Based System Context Injection",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Role Based System Context Injection.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Role Based System Context Injection.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-level-detail-expansion-slider-control": {
+    id: "core-multi-multi-level-detail-expansion-slider-control",
+    name: "MultiLevelDetailExpansionSliderControlSkill",
+    displayName: "Multi Level Detail Expansion Slider Control",
+    categoryId: "core",
+    description: "Controls output depth from 1-sentence executive summary to exhaustive multi-page breakdown.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Detail Expansion Slider Control",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Detail Expansion Slider Control",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Level Detail Expansion Slider Control.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Level Detail Expansion Slider Control.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-option-alternative-solution-generator": {
+    id: "core-multi-multi-option-alternative-solution-generator",
+    name: "MultiOptionAlternativeSolutionGeneratorSkill",
+    displayName: "Multi Option Alternative Solution Generator",
+    categoryId: "core",
+    description: "Forces prompt to generate 3 distinct solution approaches (e.g. conservative, balanced, aggressive).",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Option Alternative Solution Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Option Alternative Solution Generator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Option Alternative Solution Generator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Option Alternative Solution Generator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-language-translation-register-calibration": {
+    id: "core-multi-multi-language-translation-register-calibration",
+    name: "MultiLanguageTranslationRegisterCalibrationSkill",
+    displayName: "Multi Language Translation Register Calibration",
+    categoryId: "core",
+    description: "Translates text while preserving specialized industry terminology and local cultural idioms.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Language Translation Register Calibration",
+      ruSectionName: "Композитный Multi-Skill: Multi Language Translation Register Calibration",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Language Translation Register Calibration.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Language Translation Register Calibration.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-perspective-socratic-questioning-prompt": {
+    id: "core-multi-multi-perspective-socratic-questioning-prompt",
+    name: "MultiPerspectiveSocraticQuestioningPromptSkill",
+    displayName: "Multi Perspective Socratic Questioning Prompt",
+    categoryId: "core",
+    description: "Guides user discovery through structured Socratic follow-up questions rather than direct answers.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Socratic Questioning Prompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Socratic Questioning Prompt",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Perspective Socratic Questioning Prompt.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Perspective Socratic Questioning Prompt.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-stage-document-summarization-hierarchy": {
+    id: "core-multi-multi-stage-document-summarization-hierarchy",
+    name: "MultiStageDocumentSummarizationHierarchySkill",
+    displayName: "Multi Stage Document Summarization Hierarchy",
+    categoryId: "core",
+    description: "Produces TL;DR, key takeaways bullet points, and detailed chapter-by-chapter summaries.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Document Summarization Hierarchy",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Document Summarization Hierarchy",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Document Summarization Hierarchy.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Document Summarization Hierarchy.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-constraint-creative-writing-sandbox-prompt": {
+    id: "core-multi-multi-constraint-creative-writing-sandbox-prompt",
+    name: "MultiConstraintCreativeWritingSandboxPromptSkill",
+    displayName: "Multi Constraint Creative Writing Sandbox Prompt",
+    categoryId: "core",
+    description: "Enforces genre conventions, word count caps, character constraints, and narrative POV.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Constraint Creative Writing Sandbox Prompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Constraint Creative Writing Sandbox Prompt",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Constraint Creative Writing Sandbox Prompt.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Constraint Creative Writing Sandbox Prompt.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-step-complex-problem-deconstruction-engine": {
+    id: "core-multi-multi-step-complex-problem-deconstruction-engine",
+    name: "MultiStepComplexProblemDeconstructionEngineSkill",
+    displayName: "Multi Step Complex Problem Deconstruction Engine",
+    categoryId: "core",
+    description: "Breaks intimidating user requests into clear sub-tasks, addressing each systematically.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Complex Problem Deconstruction Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Complex Problem Deconstruction Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Complex Problem Deconstruction Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Complex Problem Deconstruction Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-persona-deliberation-synthesis-prompt": {
+    id: "core-multi-multi-persona-deliberation-synthesis-prompt",
+    name: "MultiPersonaDeliberationSynthesisPromptSkill",
+    displayName: "Multi Persona Deliberation Synthesis Prompt",
+    categoryId: "core",
+    description: "Combines perspectives from 3 distinct virtual advisors before delivering a unified recommendation.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Deliberation Synthesis Prompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Deliberation Synthesis Prompt",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Persona Deliberation Synthesis Prompt.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Persona Deliberation Synthesis Prompt.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-layer-context-chunk-rag-prompt-alignment": {
+    id: "core-multi-multi-layer-context-chunk-rag-prompt-alignment",
+    name: "MultiLayerContextChunkRAGPromptAlignmentSkill",
+    displayName: "Multi Layer Context Chunk RAG Prompt Alignment",
+    categoryId: "core",
+    description: "Formats retrieved RAG context blocks with citation markers ensuring factual grounding.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Context Chunk RAG Prompt Alignment",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Context Chunk RAG Prompt Alignment",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Context Chunk RAG Prompt Alignment.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Context Chunk RAG Prompt Alignment.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-level-explanation-feynman-technique-prompt": {
+    id: "core-multi-multi-level-explanation-feynman-technique-prompt",
+    name: "MultiLevelExplanationFeynmanTechniquePromptSkill",
+    displayName: "Multi Level Explanation Feynman Technique Prompt",
+    categoryId: "core",
+    description: "Explains complex concepts at 5-year-old, high school, undergraduate, and PhD levels.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Explanation Feynman Technique Prompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Explanation Feynman Technique Prompt",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Level Explanation Feynman Technique Prompt.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Level Explanation Feynman Technique Prompt.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-stage-code-refactoring-explanation-prompt": {
+    id: "core-multi-multi-stage-code-refactoring-explanation-prompt",
+    name: "MultiStageCodeRefactoringExplanationPromptSkill",
+    displayName: "Multi Stage Code Refactoring Explanation Prompt",
+    categoryId: "core",
+    description: "Outputs refactored code alongside detailed explanations of performance and readability gains.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Code Refactoring Explanation Prompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Code Refactoring Explanation Prompt",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Code Refactoring Explanation Prompt.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Code Refactoring Explanation Prompt.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-perspective-debating-argument-formulation": {
+    id: "core-multi-multi-perspective-debating-argument-formulation",
+    name: "MultiPerspectiveDebatingArgumentFormulationSkill",
+    displayName: "Multi Perspective Debating Argument Formulation",
+    categoryId: "core",
+    description: "Generates strongest arguments for, strongest counterarguments against, and neutral synthesis.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Debating Argument Formulation",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Debating Argument Formulation",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Perspective Debating Argument Formulation.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Perspective Debating Argument Formulation.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-criteria-content-proofreading-editing-prompt": {
+    id: "core-multi-multi-criteria-content-proofreading-editing-prompt",
+    name: "MultiCriteriaContentProofreadingEditingPromptSkill",
+    displayName: "Multi Criteria Content Proofreading Editing Prompt",
+    categoryId: "core",
+    description: "Edits prose for grammar, clarity, conciseness, passive voice removal, and tone alignment.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Criteria Content Proofreading Editing Prompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Criteria Content Proofreading Editing Prompt",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Criteria Content Proofreading Editing Prompt.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Criteria Content Proofreading Editing Prompt.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-format-structural-output-switcher-prompt": {
+    id: "core-multi-multi-format-structural-output-switcher-prompt",
+    name: "MultiFormatStructuralOutputSwitcherPromptSkill",
+    displayName: "Multi Format Structural Output Switcher Prompt",
+    categoryId: "core",
+    description: "Renders same core information dynamically as bulleted list, Markdown table, JSON, or executive memo.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Structural Output Switcher Prompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Structural Output Switcher Prompt",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Format Structural Output Switcher Prompt.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Format Structural Output Switcher Prompt.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-step-technical-spec-requirement-extraction": {
+    id: "core-multi-multi-step-technical-spec-requirement-extraction",
+    name: "MultiStepTechnicalSpecRequirementExtractionSkill",
+    displayName: "Multi Step Technical Spec Requirement Extraction",
+    categoryId: "core",
+    description: "Extracts functional requirements, non-functional requirements, and constraints from raw notes.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Technical Spec Requirement Extraction",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Technical Spec Requirement Extraction",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Technical Spec Requirement Extraction.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Technical Spec Requirement Extraction.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-horizon-goal-planning-action-step-generator": {
+    id: "core-multi-multi-horizon-goal-planning-action-step-generator",
+    name: "MultiHorizonGoalPlanningActionStepGeneratorSkill",
+    displayName: "Multi Horizon Goal Planning Action Step Generator",
+    categoryId: "core",
+    description: "Breaks ambitious goals into immediate 7-day action steps, 30-day milestones, and 90-day targets.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Goal Planning Action Step Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Goal Planning Action Step Generator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Horizon Goal Planning Action Step Generator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Horizon Goal Planning Action Step Generator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-angle-user-intent-disambiguation-prompt": {
+    id: "core-multi-multi-angle-user-intent-disambiguation-prompt",
+    name: "MultiAngleUserIntentDisambiguationPromptSkill",
+    displayName: "Multi Angle User Intent Disambiguation Prompt",
+    categoryId: "core",
+    description: "Detects ambiguous user queries and asks targeted clarifying questions before answering.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle User Intent Disambiguation Prompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle User Intent Disambiguation Prompt",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle User Intent Disambiguation Prompt.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle User Intent Disambiguation Prompt.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-layer-metaphor-and-analogy-generator": {
+    id: "core-multi-multi-layer-metaphor-and-analogy-generator",
+    name: "MultiLayerMetaphorandAnalogyGeneratorSkill",
+    displayName: "Multi Layer Metaphor and Analogy Generator",
+    categoryId: "core",
+    description: "Explains abstract technical concepts using vivid everyday real-world analogies.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Metaphor and Analogy Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Metaphor and Analogy Generator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Metaphor and Analogy Generator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Metaphor and Analogy Generator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-step-email-copywriting-response-drafter": {
+    id: "core-multi-multi-step-email-copywriting-response-drafter",
+    name: "MultiStepEmailCopywritingResponseDrafterSkill",
+    displayName: "Multi Step Email Copywriting Response Drafter",
+    categoryId: "core",
+    description: "Drafts professional email responses calibrated for cold outreach, negotiation, or conflict resolution.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Email Copywriting Response Drafter",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Email Copywriting Response Drafter",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Email Copywriting Response Drafter.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Email Copywriting Response Drafter.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-criteria-resume-and-cv-optimization-prompt": {
+    id: "core-multi-multi-criteria-resume-and-cv-optimization-prompt",
+    name: "MultiCriteriaResumeandCVOptimizationPromptSkill",
+    displayName: "Multi Criteria Resume and CV Optimization Prompt",
+    categoryId: "core",
+    description: "Tailors user resume achievements to match specific target job description keywords and ATS filters.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Criteria Resume and CV Optimization Prompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Criteria Resume and CV Optimization Prompt",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Criteria Resume and CV Optimization Prompt.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Criteria Resume and CV Optimization Prompt.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-perspective-interview-preparation-simulator": {
+    id: "core-multi-multi-perspective-interview-preparation-simulator",
+    name: "MultiPerspectiveInterviewPreparationSimulatorSkill",
+    displayName: "Multi Perspective Interview Preparation Simulator",
+    categoryId: "core",
+    description: "Simulates tough interviewer questions, evaluates user answers, and provides coaching feedback.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Interview Preparation Simulator",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Interview Preparation Simulator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Perspective Interview Preparation Simulator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Perspective Interview Preparation Simulator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-stage-research-paper-outline-architect": {
+    id: "core-multi-multi-stage-research-paper-outline-architect",
+    name: "MultiStageResearchPaperOutlineArchitectSkill",
+    displayName: "Multi Stage Research Paper Outline Architect",
+    categoryId: "core",
+    description: "Structures academic paper outlines with thesis statement, literature review sections, and methodology.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Research Paper Outline Architect",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Research Paper Outline Architect",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Research Paper Outline Architect.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Research Paper Outline Architect.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-angle-product-review-sentiment-summarizer": {
+    id: "core-multi-multi-angle-product-review-sentiment-summarizer",
+    name: "MultiAngleProductReviewSentimentSummarizerSkill",
+    displayName: "Multi Angle Product Review Sentiment Summarizer",
+    categoryId: "core",
+    description: "Synthesizes hundreds of customer reviews into pros, cons, bug reports, and feature requests.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Product Review Sentiment Summarizer",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Product Review Sentiment Summarizer",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle Product Review Sentiment Summarizer.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle Product Review Sentiment Summarizer.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-step-recipe-and-meal-plan-customizer": {
+    id: "core-multi-multi-step-recipe-and-meal-plan-customizer",
+    name: "MultiStepRecipeandMealPlanCustomizerSkill",
+    displayName: "Multi Step Recipe and Meal Plan Customizer",
+    categoryId: "core",
+    description: "Generates weekly meal plans adhering to dietary restrictions, calorie targets, and grocery budgets.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Recipe and Meal Plan Customizer",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Recipe and Meal Plan Customizer",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Recipe and Meal Plan Customizer.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Recipe and Meal Plan Customizer.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-layer-contract-risk-keyword-highlighter": {
+    id: "core-multi-multi-layer-contract-risk-keyword-highlighter",
+    name: "MultiLayerContractRiskKeywordHighlighterSkill",
+    displayName: "Multi Layer Contract Risk Keyword Highlighter",
+    categoryId: "core",
+    description: "Scans legal agreements highlighting indemnities, liability caps, and termination penalties.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Contract Risk Keyword Highlighter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Contract Risk Keyword Highlighter",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Contract Risk Keyword Highlighter.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Contract Risk Keyword Highlighter.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-stage-marketing-copy-headline-generator": {
+    id: "core-multi-multi-stage-marketing-copy-headline-generator",
+    name: "MultiStageMarketingCopyHeadlineGeneratorSkill",
+    displayName: "Multi Stage Marketing Copy Headline Generator",
+    categoryId: "core",
+    description: "Generates 10 high-converting ad headlines testing curiosity, urgency, benefit, and social proof hooks.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Marketing Copy Headline Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Marketing Copy Headline Generator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Marketing Copy Headline Generator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Marketing Copy Headline Generator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-angle-meeting-transcript-action-item-extractor": {
+    id: "core-multi-multi-angle-meeting-transcript-action-item-extractor",
+    name: "MultiAngleMeetingTranscriptActionItemExtractorSkill",
+    displayName: "Multi Angle Meeting Transcript Action Item Extractor",
+    categoryId: "core",
+    description: "Parses meeting transcripts extracting key decisions, assigned action items, and deadlines.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Meeting Transcript Action Item Extractor",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Meeting Transcript Action Item Extractor",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle Meeting Transcript Action Item Extractor.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle Meeting Transcript Action Item Extractor.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-step-bug-report-reproduction-steps-generator": {
+    id: "core-multi-multi-step-bug-report-reproduction-steps-generator",
+    name: "MultiStepBugReportReproductionStepsGeneratorSkill",
+    displayName: "Multi Step Bug Report Reproduction Steps Generator",
+    categoryId: "core",
+    description: "Formats user bug complaints into clean GitHub issue templates with steps to reproduce and logs.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Bug Report Reproduction Steps Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Bug Report Reproduction Steps Generator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Bug Report Reproduction Steps Generator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Bug Report Reproduction Steps Generator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-perspective-historical-event-analysis-prompt": {
+    id: "core-multi-multi-perspective-historical-event-analysis-prompt",
+    name: "MultiPerspectiveHistoricalEventAnalysisPromptSkill",
+    displayName: "Multi Perspective Historical Event Analysis Prompt",
+    categoryId: "core",
+    description: "Analyzes historical events through economic, social, political, and military lenses.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Historical Event Analysis Prompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Historical Event Analysis Prompt",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Perspective Historical Event Analysis Prompt.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Perspective Historical Event Analysis Prompt.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-level-vocabulary-complexity-adjuster": {
+    id: "core-multi-multi-level-vocabulary-complexity-adjuster",
+    name: "MultiLevelVocabularyComplexityAdjusterSkill",
+    displayName: "Multi Level Vocabulary Complexity Adjuster",
+    categoryId: "core",
+    description: "Rewrites text adjusting reading level from elementary school to GRE/post-graduate standard.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Vocabulary Complexity Adjuster",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Vocabulary Complexity Adjuster",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Level Vocabulary Complexity Adjuster.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Level Vocabulary Complexity Adjuster.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-stage-creative-brainstorming-mind-map-prompt": {
+    id: "core-multi-multi-stage-creative-brainstorming-mind-map-prompt",
+    name: "MultiStageCreativeBrainstormingMindMapPromptSkill",
+    displayName: "Multi Stage Creative Brainstorming Mind Map Prompt",
+    categoryId: "core",
+    description: "Generates central topic mind map nodes, sub-branches, and unexpected creative connections.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Creative Brainstorming Mind Map Prompt",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Creative Brainstorming Mind Map Prompt",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Creative Brainstorming Mind Map Prompt.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Creative Brainstorming Mind Map Prompt.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-perspective-public-speaking-keynote-outline": {
+    id: "core-multi-multi-perspective-public-speaking-keynote-outline",
+    name: "MultiPerspectivePublicSpeakingKeynoteOutlineSkill",
+    displayName: "Multi Perspective Public Speaking Keynote Outline",
+    categoryId: "core",
+    description: "Structures keynote speeches with attention hook, 3 core pillars, audience stories, and call to action.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Public Speaking Keynote Outline",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Public Speaking Keynote Outline",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Perspective Public Speaking Keynote Outline.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Perspective Public Speaking Keynote Outline.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-layer-customer-support-escalation-drafter": {
+    id: "core-multi-multi-layer-customer-support-escalation-drafter",
+    name: "MultiLayerCustomerSupportEscalationDrafterSkill",
+    displayName: "Multi Layer Customer Support Escalation Drafter",
+    categoryId: "core",
+    description: "Drafts empathetic support replies handling irate customers while protecting company policies.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Customer Support Escalation Drafter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Customer Support Escalation Drafter",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Customer Support Escalation Drafter.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Customer Support Escalation Drafter.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-stage-podcast-episode-interview-questions": {
+    id: "core-multi-multi-stage-podcast-episode-interview-questions",
+    name: "MultiStagePodcastEpisodeInterviewQuestionsSkill",
+    displayName: "Multi Stage Podcast Episode Interview Questions",
+    categoryId: "core",
+    description: "Drafts icebreaker, deep-dive background, controversial debate, and rapid-fire podcast questions.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Podcast Episode Interview Questions",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Podcast Episode Interview Questions",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Podcast Episode Interview Questions.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Podcast Episode Interview Questions.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-perspective-financial-earnings-call-parser": {
+    id: "core-multi-multi-perspective-financial-earnings-call-parser",
+    name: "MultiPerspectiveFinancialEarningsCallParserSkill",
+    displayName: "Multi Perspective Financial Earnings Call Parser",
+    categoryId: "core",
+    description: "Extracts guidance changes, management tone shifts, and analyst Q&A friction from earnings calls.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Financial Earnings Call Parser",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Financial Earnings Call Parser",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Perspective Financial Earnings Call Parser.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Perspective Financial Earnings Call Parser.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-level-storytelling-arc-narrative-builder": {
+    id: "core-multi-multi-level-storytelling-arc-narrative-builder",
+    name: "MultiLevelStorytellingArcNarrativeBuilderSkill",
+    displayName: "Multi Level Storytelling Arc Narrative Builder",
+    categoryId: "core",
+    description: "Structures narrative story arcs following Hero's Journey, Three-Act Structure, or Dan Harmon Circle.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Storytelling Arc Narrative Builder",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Storytelling Arc Narrative Builder",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Level Storytelling Arc Narrative Builder.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Level Storytelling Arc Narrative Builder.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-angle-fitness-training-workout-plan-generator": {
+    id: "core-multi-multi-angle-fitness-training-workout-plan-generator",
+    name: "MultiAngleFitnessTrainingWorkoutPlanGeneratorSkill",
+    displayName: "Multi Angle Fitness Training Workout Plan Generator",
+    categoryId: "core",
+    description: "Designs gym workout splits tailored to user fitness level, equipment availability, and goals.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Fitness Training Workout Plan Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Fitness Training Workout Plan Generator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle Fitness Training Workout Plan Generator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle Fitness Training Workout Plan Generator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-step-travel-itinerary-trip-planner": {
+    id: "core-multi-multi-step-travel-itinerary-trip-planner",
+    name: "MultiStepTravelItineraryTripPlannerSkill",
+    displayName: "Multi Step Travel Itinerary Trip Planner",
+    categoryId: "core",
+    description: "Builds day-by-day travel itineraries balancing sightseeing, dining, transit time, and rest.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Travel Itinerary Trip Planner",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Travel Itinerary Trip Planner",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Travel Itinerary Trip Planner.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Travel Itinerary Trip Planner.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-perspective-philosophical-thought-experiment": {
+    id: "core-multi-multi-perspective-philosophical-thought-experiment",
+    name: "MultiPerspectivePhilosophicalThoughtExperimentSkill",
+    displayName: "Multi Perspective Philosophical Thought Experiment",
+    categoryId: "core",
+    description: "Explores ethical and metaphysical implications of classic thought experiments (e.g. Trolley, Ship of Theseus).",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Philosophical Thought Experiment",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Philosophical Thought Experiment",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Perspective Philosophical Thought Experiment.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Perspective Philosophical Thought Experiment.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-layer-e-commerce-product-description-copywriter": {
+    id: "core-multi-multi-layer-e-commerce-product-description-copywriter",
+    name: "MultiLayerECommerceProductDescriptionCopywriterSkill",
+    displayName: "Multi Layer E-Commerce Product Description Copywriter",
+    categoryId: "core",
+    description: "Writes SEO-optimized product descriptions highlighting specs, benefits, and emotional lifestyle appeal.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer E-Commerce Product Description Copywriter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer E-Commerce Product Description Copywriter",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer E-Commerce Product Description Copywriter.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer E-Commerce Product Description Copywriter.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-stage-math-problem-solver-step-generator": {
+    id: "core-multi-multi-stage-math-problem-solver-step-generator",
+    name: "MultiStageMathProblemSolverStepGeneratorSkill",
+    displayName: "Multi Stage Math Problem Solver Step Generator",
+    categoryId: "core",
+    description: "Solves complex math/statistics problems showing explicit step-by-step derivations and formulas.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Math Problem Solver Step Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Math Problem Solver Step Generator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Math Problem Solver Step Generator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Math Problem Solver Step Generator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-angle-pitch-deck-slide-storyboard": {
+    id: "core-multi-multi-angle-pitch-deck-slide-storyboard",
+    name: "MultiAnglePitchDeckSlideStoryboardSkill",
+    displayName: "Multi Angle Pitch Deck Slide Storyboard",
+    categoryId: "core",
+    description: "Drafts 10-slide startup pitch deck content from Problem/Solution to Market Size and Financials.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Pitch Deck Slide Storyboard",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Pitch Deck Slide Storyboard",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle Pitch Deck Slide Storyboard.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle Pitch Deck Slide Storyboard.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-perspective-grant-application-narrative-writer": {
+    id: "core-multi-multi-perspective-grant-application-narrative-writer",
+    name: "MultiPerspectiveGrantApplicationNarrativeWriterSkill",
+    displayName: "Multi Perspective Grant Application Narrative Writer",
+    categoryId: "core",
+    description: "Drafts grant narratives highlighting project impact, community need, methodology, and evaluation.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Grant Application Narrative Writer",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Grant Application Narrative Writer",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Perspective Grant Application Narrative Writer.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Perspective Grant Application Narrative Writer.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-level-interactive-quiz-and-flashcard-generator": {
+    id: "core-multi-multi-level-interactive-quiz-and-flashcard-generator",
+    name: "MultiLevelInteractiveQuizandFlashcardGeneratorSkill",
+    displayName: "Multi Level Interactive Quiz and Flashcard Generator",
+    categoryId: "core",
+    description: "Generates multiple-choice questions, explanations, and flashcards from study text.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Interactive Quiz and Flashcard Generator",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Interactive Quiz and Flashcard Generator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Level Interactive Quiz and Flashcard Generator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Level Interactive Quiz and Flashcard Generator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-angle-user-story-acceptance-criteria-drafter": {
+    id: "core-multi-multi-angle-user-story-acceptance-criteria-drafter",
+    name: "MultiAngleUserStoryAcceptanceCriteriaDrafterSkill",
+    displayName: "Multi Angle User Story Acceptance Criteria Drafter",
+    categoryId: "core",
+    description: "Writes Agile user stories with 'Given-When-Then' BDD acceptance criteria.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle User Story Acceptance Criteria Drafter",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle User Story Acceptance Criteria Drafter",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle User Story Acceptance Criteria Drafter.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle User Story Acceptance Criteria Drafter.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-stage-real-estate-listing-copywriter": {
+    id: "core-multi-multi-stage-real-estate-listing-copywriter",
+    name: "MultiStageRealEstateListingCopywriterSkill",
+    displayName: "Multi Stage Real Estate Listing Copywriter",
+    categoryId: "core",
+    description: "Writes evocative property descriptions highlighting home features, neighborhood amenities, and architectural style.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Real Estate Listing Copywriter",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Real Estate Listing Copywriter",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Real Estate Listing Copywriter.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Real Estate Listing Copywriter.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-angle-crisis-pr-statement-drafter": {
+    id: "core-multi-multi-angle-crisis-pr-statement-drafter",
+    name: "MultiAngleCrisisPRStatementDrafterSkill",
+    displayName: "Multi Angle Crisis PR Statement Drafter",
+    categoryId: "core",
+    description: "Drafts corporate crisis communications addressing public concerns, taking accountability, and outlining actions.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Crisis PR Statement Drafter",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Crisis PR Statement Drafter",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle Crisis PR Statement Drafter.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle Crisis PR Statement Drafter.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
+
+  "core-multi-multi-horizon-master-system-prompt-design-engine": {
+    id: "core-multi-multi-horizon-master-system-prompt-design-engine",
+    name: "MultiHorizonMasterSystemPromptDesignEngineSkill",
+    displayName: "Multi Horizon Master System Prompt Design Engine",
+    categoryId: "core",
+    description: "Enforces master prompt engineering principles, zero-hallucination guardrails, and optimal context use.",
+    tags: ["core","multi-skill","core-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master System Prompt Design Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master System Prompt Design Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Horizon Master System Prompt Design Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Horizon Master System Prompt Design Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["core","multi-skill","core-multi"],
+    }),
+  },
 };

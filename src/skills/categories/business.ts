@@ -4260,4 +4260,1503 @@ export const BUSINESS_SKILLS: Record<string, SkillDefinition> = {
       tags: ["business","business-final","final","master"],
     }),
   },
+  "business-multi-multi-horizon-corporate-strategic-growth-roadmap": {
+    id: "business-multi-multi-horizon-corporate-strategic-growth-roadmap",
+    name: "MultiHorizonCorporateStrategicGrowthRoadmapSkill",
+    displayName: "Multi Horizon Corporate Strategic Growth Roadmap",
+    categoryId: "business",
+    description: "Drafts Horizon 1 (core business), Horizon 2 (emerging opportunities), and Horizon 3 (disruptive bets).",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Corporate Strategic Growth Roadmap",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Corporate Strategic Growth Roadmap",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Horizon Corporate Strategic Growth Roadmap.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Horizon Corporate Strategic Growth Roadmap.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-stakeholder-value-proposition-canvas-alignment": {
+    id: "business-multi-multi-stakeholder-value-proposition-canvas-alignment",
+    name: "MultiStakeholderValuePropositionCanvasAlignmentSkill",
+    displayName: "Multi Stakeholder Value Proposition Canvas Alignment",
+    categoryId: "business",
+    description: "Aligns buyer, end-user, IT admin, and executive buyer jobs-to-be-done into unified value proposition.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stakeholder Value Proposition Canvas Alignment",
+      ruSectionName: "Композитный Multi-Skill: Multi Stakeholder Value Proposition Canvas Alignment",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stakeholder Value Proposition Canvas Alignment.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stakeholder Value Proposition Canvas Alignment.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-channel-go-to-market-omnichannel-strategy": {
+    id: "business-multi-multi-channel-go-to-market-omnichannel-strategy",
+    name: "MultiChannelGoToMarketOmnichannelStrategySkill",
+    displayName: "Multi Channel Go To Market Omnichannel Strategy",
+    categoryId: "business",
+    description: "Coordinates direct sales, channel partners, self-serve PLG, and marketplace distribution channels.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Go To Market Omnichannel Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Go To Market Omnichannel Strategy",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Channel Go To Market Omnichannel Strategy.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Channel Go To Market Omnichannel Strategy.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-layer-business-model-canvas-architecture": {
+    id: "business-multi-multi-layer-business-model-canvas-architecture",
+    name: "MultiLayerBusinessModelCanvasArchitectureSkill",
+    displayName: "Multi Layer Business Model Canvas Architecture",
+    categoryId: "business",
+    description: "Drafts value propositions, revenue streams, cost structures, and key partnerships in interconnected system.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Business Model Canvas Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Business Model Canvas Architecture",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Business Model Canvas Architecture.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Business Model Canvas Architecture.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-scenario-financial-forecasting-valuation-model": {
+    id: "business-multi-multi-scenario-financial-forecasting-valuation-model",
+    name: "MultiScenarioFinancialForecastingValuationModelSkill",
+    displayName: "Multi Scenario Financial Forecasting Valuation Model",
+    categoryId: "business",
+    description: "Builds discounted cash flow (DCF) models with dynamic scenario toggles and sensitivity tables.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Scenario Financial Forecasting Valuation Model",
+      ruSectionName: "Композитный Multi-Skill: Multi Scenario Financial Forecasting Valuation Model",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Scenario Financial Forecasting Valuation Model.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Scenario Financial Forecasting Valuation Model.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-tier-enterprise-sales-playbook-execution": {
+    id: "business-multi-multi-tier-enterprise-sales-playbook-execution",
+    name: "MultiTierEnterpriseSalesPlaybookExecutionSkill",
+    displayName: "Multi Tier Enterprise Sales Playbook Execution",
+    categoryId: "business",
+    description: "Structures qualification (MEDDPICC), discovery call scripts, executive pitching, and closing playbooks.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Enterprise Sales Playbook Execution",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Enterprise Sales Playbook Execution",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Tier Enterprise Sales Playbook Execution.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Tier Enterprise Sales Playbook Execution.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-phase-corporate-turnaround-restructuring-plan": {
+    id: "business-multi-multi-phase-corporate-turnaround-restructuring-plan",
+    name: "MultiPhaseCorporateTurnaroundRestructuringPlanSkill",
+    displayName: "Multi Phase Corporate Turnaround Restructuring Plan",
+    categoryId: "business",
+    description: "Executes emergency cash preservation, non-core asset divestiture, and operational margin recovery.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Phase Corporate Turnaround Restructuring Plan",
+      ruSectionName: "Композитный Multi-Skill: Multi Phase Corporate Turnaround Restructuring Plan",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Phase Corporate Turnaround Restructuring Plan.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Phase Corporate Turnaround Restructuring Plan.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-country-international-expansion-playbook": {
+    id: "business-multi-multi-country-international-expansion-playbook",
+    name: "MultiCountryInternationalExpansionPlaybookSkill",
+    displayName: "Multi Country International Expansion Playbook",
+    categoryId: "business",
+    description: "Guides market sizing, entity formation, local tax compliance, and cultural product adaptation.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Country International Expansion Playbook",
+      ruSectionName: "Композитный Multi-Skill: Multi Country International Expansion Playbook",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Country International Expansion Playbook.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Country International Expansion Playbook.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-product-pricing-tier-monetization-matrix": {
+    id: "business-multi-multi-product-pricing-tier-monetization-matrix",
+    name: "MultiProductPricingTierMonetizationMatrixSkill",
+    displayName: "Multi Product Pricing Tier Monetization Matrix",
+    categoryId: "business",
+    description: "Structures Freemium, Starter, Pro, and Enterprise pricing tiers with feature gates and usage limits.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Product Pricing Tier Monetization Matrix",
+      ruSectionName: "Композитный Multi-Skill: Multi Product Pricing Tier Monetization Matrix",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Product Pricing Tier Monetization Matrix.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Product Pricing Tier Monetization Matrix.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-level-okr-objective-key-result-cascade": {
+    id: "business-multi-multi-level-okr-objective-key-result-cascade",
+    name: "MultiLevelOKRObjectiveKeyResultCascadeSkill",
+    displayName: "Multi Level OKR Objective Key Result Cascade",
+    categoryId: "business",
+    description: "Cascades corporate OKRs down to department, team, and individual key result metrics.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level OKR Objective Key Result Cascade",
+      ruSectionName: "Композитный Multi-Skill: Multi Level OKR Objective Key Result Cascade",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Level OKR Objective Key Result Cascade.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Level OKR Objective Key Result Cascade.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-method-competitive-moat-fortification-blueprint": {
+    id: "business-multi-multi-method-competitive-moat-fortification-blueprint",
+    name: "MultiMethodCompetitiveMoatFortificationBlueprintSkill",
+    displayName: "Multi Method Competitive Moat Fortification Blueprint",
+    categoryId: "business",
+    description: "Strengthens network effects, switching costs, cost advantages, scale economies, and brand equity.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Competitive Moat Fortification Blueprint",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Competitive Moat Fortification Blueprint",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Method Competitive Moat Fortification Blueprint.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Method Competitive Moat Fortification Blueprint.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-stage-post-merger-integration-pmi-plan": {
+    id: "business-multi-multi-stage-post-merger-integration-pmi-plan",
+    name: "MultiStagePostMergerIntegrationPMIPlanSkill",
+    displayName: "Multi Stage Post Merger Integration PMI Plan",
+    categoryId: "business",
+    description: "Executes Day 1, Day 30, Day 100 integration milestones across tech, culture, sales, and HR.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Post Merger Integration PMI Plan",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Post Merger Integration PMI Plan",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Post Merger Integration PMI Plan.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Post Merger Integration PMI Plan.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-segment-customer-retention-expansion-playbook": {
+    id: "business-multi-multi-segment-customer-retention-expansion-playbook",
+    name: "MultiSegmentCustomerRetentionExpansionPlaybookSkill",
+    displayName: "Multi Segment Customer Retention Expansion Playbook",
+    categoryId: "business",
+    description: "Drives Net Revenue Retention (NRR) through upsells, cross-sells, seat expansion, and usage tiers.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Segment Customer Retention Expansion Playbook",
+      ruSectionName: "Композитный Multi-Skill: Multi Segment Customer Retention Expansion Playbook",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Segment Customer Retention Expansion Playbook.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Segment Customer Retention Expansion Playbook.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-channel-customer-acquisition-cost-cac-optimization": {
+    id: "business-multi-multi-channel-customer-acquisition-cost-cac-optimization",
+    name: "MultiChannelCustomerAcquisitionCostCACOptimizationSkill",
+    displayName: "Multi Channel Customer Acquisition Cost CAC Optimization",
+    categoryId: "business",
+    description: "Optimizes CAC across paid search, content SEO, paid social, outbound sales, and affiliate programs.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Customer Acquisition Cost CAC Optimization",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Customer Acquisition Cost CAC Optimization",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Channel Customer Acquisition Cost CAC Optimization.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Channel Customer Acquisition Cost CAC Optimization.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-layer-commercial-contract-negotiation-playbook": {
+    id: "business-multi-multi-layer-commercial-contract-negotiation-playbook",
+    name: "MultiLayerCommercialContractNegotiationPlaybookSkill",
+    displayName: "Multi Layer Commercial Contract Negotiation Playbook",
+    categoryId: "business",
+    description: "Establishes deal term fallback positions for pricing discounts, payment terms, SLAs, and liability.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Commercial Contract Negotiation Playbook",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Commercial Contract Negotiation Playbook",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Commercial Contract Negotiation Playbook.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Commercial Contract Negotiation Playbook.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-variable-product-market-fit-pmf-verification": {
+    id: "business-multi-multi-variable-product-market-fit-pmf-verification",
+    name: "MultiVariableProductMarketFitPMFVerificationSkill",
+    displayName: "Multi Variable Product Market Fit PMF Verification",
+    categoryId: "business",
+    description: "Measures Sean Ellis 40% rule, retention curve flattening, organic referral rates, and NPS.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Variable Product Market Fit PMF Verification",
+      ruSectionName: "Композитный Multi-Skill: Multi Variable Product Market Fit PMF Verification",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Variable Product Market Fit PMF Verification.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Variable Product Market Fit PMF Verification.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-tier-franchise-expansion-operations-playbook": {
+    id: "business-multi-multi-tier-franchise-expansion-operations-playbook",
+    name: "MultiTierFranchiseExpansionOperationsPlaybookSkill",
+    displayName: "Multi Tier Franchise Expansion Operations Playbook",
+    categoryId: "business",
+    description: "Drafts Franchise Disclosure Document (FDD) guidelines, franchisee onboarding, and royalty audits.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Franchise Expansion Operations Playbook",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Franchise Expansion Operations Playbook",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Tier Franchise Expansion Operations Playbook.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Tier Franchise Expansion Operations Playbook.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-horizon-corporate-innovation-lab-accelerator": {
+    id: "business-multi-multi-horizon-corporate-innovation-lab-accelerator",
+    name: "MultiHorizonCorporateInnovationLabAcceleratorSkill",
+    displayName: "Multi Horizon Corporate Innovation Lab Accelerator",
+    categoryId: "business",
+    description: "Structures internal venture building, hackathons, strategic corporate venture capital (CVC) investments.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Corporate Innovation Lab Accelerator",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Corporate Innovation Lab Accelerator",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Horizon Corporate Innovation Lab Accelerator.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Horizon Corporate Innovation Lab Accelerator.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-metric-balanced-scorecard-performance-engine": {
+    id: "business-multi-multi-metric-balanced-scorecard-performance-engine",
+    name: "MultiMetricBalancedScorecardPerformanceEngineSkill",
+    displayName: "Multi Metric Balanced Scorecard Performance Engine",
+    categoryId: "business",
+    description: "Tracks Financial, Customer, Internal Process, and Learning/Growth metrics in executive dashboard.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Metric Balanced Scorecard Performance Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Metric Balanced Scorecard Performance Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Metric Balanced Scorecard Performance Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Metric Balanced Scorecard Performance Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-level-vendor-procurement-cost-reduction-strategy": {
+    id: "business-multi-multi-level-vendor-procurement-cost-reduction-strategy",
+    name: "MultiLevelVendorProcurementCostReductionStrategySkill",
+    displayName: "Multi Level Vendor Procurement Cost Reduction Strategy",
+    categoryId: "business",
+    description: "Executes competitive RFPs, vendor consolidation, volume rebate negotiations, and contract renegotiation.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Vendor Procurement Cost Reduction Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Vendor Procurement Cost Reduction Strategy",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Level Vendor Procurement Cost Reduction Strategy.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Level Vendor Procurement Cost Reduction Strategy.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-channel-content-marketing-demand-generation": {
+    id: "business-multi-multi-channel-content-marketing-demand-generation",
+    name: "MultiChannelContentMarketingDemandGenerationSkill",
+    displayName: "Multi Channel Content Marketing Demand Generation",
+    categoryId: "business",
+    description: "Builds content engine converting top-of-funnel thought leadership into sales-qualified pipeline.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Content Marketing Demand Generation",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Content Marketing Demand Generation",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Channel Content Marketing Demand Generation.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Channel Content Marketing Demand Generation.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-tier-strategic-partnership-co-selling-playbook": {
+    id: "business-multi-multi-tier-strategic-partnership-co-selling-playbook",
+    name: "MultiTierStrategicPartnershipCoSellingPlaybookSkill",
+    displayName: "Multi Tier Strategic Partnership Co Selling Playbook",
+    categoryId: "business",
+    description: "Drafts partner tier requirements, revenue share splits, co-marketing collateral, and deal registration.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Strategic Partnership Co Selling Playbook",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Strategic Partnership Co Selling Playbook",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Tier Strategic Partnership Co Selling Playbook.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Tier Strategic Partnership Co Selling Playbook.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-stage-corporate-venture-capital-cvc-investment": {
+    id: "business-multi-multi-stage-corporate-venture-capital-cvc-investment",
+    name: "MultiStageCorporateVentureCapitalCVCInvestmentSkill",
+    displayName: "Multi Stage Corporate Venture Capital CVC Investment",
+    categoryId: "business",
+    description: "Evaluates deal sourcing, strategic fit matrix, due diligence, board observer terms, and follow-ons.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Corporate Venture Capital CVC Investment",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Corporate Venture Capital CVC Investment",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Corporate Venture Capital CVC Investment.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Corporate Venture Capital CVC Investment.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-horizon-esg-sustainability-business-integration": {
+    id: "business-multi-multi-horizon-esg-sustainability-business-integration",
+    name: "MultiHorizonESGSustainabilityBusinessIntegrationSkill",
+    displayName: "Multi Horizon ESG Sustainability Business Integration",
+    categoryId: "business",
+    description: "Integrates decarbonization goals, sustainable sourcing, circular economy, and ESG reporting.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon ESG Sustainability Business Integration",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon ESG Sustainability Business Integration",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Horizon ESG Sustainability Business Integration.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Horizon ESG Sustainability Business Integration.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-segment-b2b-enterprise-account-based-marketing-abm": {
+    id: "business-multi-multi-segment-b2b-enterprise-account-based-marketing-abm",
+    name: "MultiSegmentB2BEnterpriseAccountBasedMarketingABMSkill",
+    displayName: "Multi Segment B2B Enterprise Account Based Marketing ABM",
+    categoryId: "business",
+    description: "Structures tier-1 target account lists, personalized campaign playbooks, and sales cadences.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Segment B2B Enterprise Account Based Marketing ABM",
+      ruSectionName: "Композитный Multi-Skill: Multi Segment B2B Enterprise Account Based Marketing ABM",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Segment B2B Enterprise Account Based Marketing ABM.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Segment B2B Enterprise Account Based Marketing ABM.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-layer-operations-process-reengineering-bpr": {
+    id: "business-multi-multi-layer-operations-process-reengineering-bpr",
+    name: "MultiLayerOperationsProcessReengineeringBPRSkill",
+    displayName: "Multi Layer Operations Process Reengineering BPR",
+    categoryId: "business",
+    description: "Redesigns core business workflows eliminating waste, reducing lead time, and automating handoffs.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Operations Process Reengineering BPR",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Operations Process Reengineering BPR",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Operations Process Reengineering BPR.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Operations Process Reengineering BPR.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-country-tax-transfer-pricing-strategy": {
+    id: "business-multi-multi-country-tax-transfer-pricing-strategy",
+    name: "MultiCountryTaxTransferPricingStrategySkill",
+    displayName: "Multi Country Tax Transfer Pricing Strategy",
+    categoryId: "business",
+    description: "Establishes arm's length transfer pricing documentation, intercompany agreements, and BEPS compliance.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Country Tax Transfer Pricing Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Country Tax Transfer Pricing Strategy",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Country Tax Transfer Pricing Strategy.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Country Tax Transfer Pricing Strategy.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-stage-product-launch-go-live-playbook": {
+    id: "business-multi-multi-stage-product-launch-go-live-playbook",
+    name: "MultiStageProductLaunchGoLivePlaybookSkill",
+    displayName: "Multi Stage Product Launch Go Live Playbook",
+    categoryId: "business",
+    description: "Coordinates PR announcements, enablement training, customer webinars, and ad campaign launches.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Product Launch Go Live Playbook",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Product Launch Go Live Playbook",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Product Launch Go Live Playbook.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Product Launch Go Live Playbook.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-tier-customer-success-health-score-architecture": {
+    id: "business-multi-multi-tier-customer-success-health-score-architecture",
+    name: "MultiTierCustomerSuccessHealthScoreArchitectureSkill",
+    displayName: "Multi Tier Customer Success Health Score Architecture",
+    categoryId: "business",
+    description: "Combines product usage frequency, support ticket volume, executive sponsor changes, and NPS.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Customer Success Health Score Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Customer Success Health Score Architecture",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Tier Customer Success Health Score Architecture.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Tier Customer Success Health Score Architecture.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-factor-executive-compensation-incentive-scheme": {
+    id: "business-multi-multi-factor-executive-compensation-incentive-scheme",
+    name: "MultiFactorExecutiveCompensationIncentiveSchemeSkill",
+    displayName: "Multi Factor Executive Compensation Incentive Scheme",
+    categoryId: "business",
+    description: "Structures base salary, short-term bonuses, long-term equity RSUs, and performance vesting hurdles.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Executive Compensation Incentive Scheme",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Executive Compensation Incentive Scheme",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Factor Executive Compensation Incentive Scheme.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Factor Executive Compensation Incentive Scheme.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-horizon-supply-chain-resiliency-strategy": {
+    id: "business-multi-multi-horizon-supply-chain-resiliency-strategy",
+    name: "MultiHorizonSupplyChainResiliencyStrategySkill",
+    displayName: "Multi Horizon Supply Chain Resiliency Strategy",
+    categoryId: "business",
+    description: "Diversifies dual-sourcing, nearshoring, safety stock buffers, and carrier redundancy.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Supply Chain Resiliency Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Supply Chain Resiliency Strategy",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Horizon Supply Chain Resiliency Strategy.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Horizon Supply Chain Resiliency Strategy.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-channel-e-commerce-d2c-growth-playbook": {
+    id: "business-multi-multi-channel-e-commerce-d2c-growth-playbook",
+    name: "MultiChannelECommerceD2CGrowthPlaybookSkill",
+    displayName: "Multi Channel E Commerce D2C Growth Playbook",
+    categoryId: "business",
+    description: "Optimizes conversion funnels, subscription retention, AOV upsells, and email/SMS flows.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel E Commerce D2C Growth Playbook",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel E Commerce D2C Growth Playbook",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Channel E Commerce D2C Growth Playbook.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Channel E Commerce D2C Growth Playbook.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-stage-change-management-adkar-deployment": {
+    id: "business-multi-multi-stage-change-management-adkar-deployment",
+    name: "MultiStageChangeManagementADKARDeploymentSkill",
+    displayName: "Multi Stage Change Management ADKAR Deployment",
+    categoryId: "business",
+    description: "Guides organizational change through Awareness, Desire, Knowledge, Ability, and Reinforcement.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Change Management ADKAR Deployment",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Change Management ADKAR Deployment",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Change Management ADKAR Deployment.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Change Management ADKAR Deployment.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-tier-working-capital-optimization-blueprint": {
+    id: "business-multi-multi-tier-working-capital-optimization-blueprint",
+    name: "MultiTierWorkingCapitalOptimizationBlueprintSkill",
+    displayName: "Multi Tier Working Capital Optimization Blueprint",
+    categoryId: "business",
+    description: "Optimizes Days Sales Outstanding (DSO), Days Inventory Outstanding (DIO), and Days Payable (DPO).",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Working Capital Optimization Blueprint",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Working Capital Optimization Blueprint",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Tier Working Capital Optimization Blueprint.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Tier Working Capital Optimization Blueprint.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-channel-product-product-led-growth-plg-engine": {
+    id: "business-multi-multi-channel-product-product-led-growth-plg-engine",
+    name: "MultiChannelProductProductLedGrowthPLGEngineSkill",
+    displayName: "Multi Channel Product Product-Led Growth PLG Engine",
+    categoryId: "business",
+    description: "Builds viral invitation loops, self-serve onboarding, product-qualified lead (PQL) triggers, and paywalls.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Product Product-Led Growth PLG Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Product Product-Led Growth PLG Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Channel Product Product-Led Growth PLG Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Channel Product Product-Led Growth PLG Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-market-cross-border-e-commerce-expansion": {
+    id: "business-multi-multi-market-cross-border-e-commerce-expansion",
+    name: "MultiMarketCrossBorderECommerceExpansionSkill",
+    displayName: "Multi Market Cross Border E Commerce Expansion",
+    categoryId: "business",
+    description: "Configures multi-currency checkouts, localized shipping, duty calculation, and regional marketing.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Market Cross Border E Commerce Expansion",
+      ruSectionName: "Композитный Multi-Skill: Multi Market Cross Border E Commerce Expansion",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Market Cross Border E Commerce Expansion.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Market Cross Border E Commerce Expansion.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-tier-cloud-saas-security-compliance-positioning": {
+    id: "business-multi-multi-tier-cloud-saas-security-compliance-positioning",
+    name: "MultiTierCloudSaaSSecurityCompliancePositioningSkill",
+    displayName: "Multi Tier Cloud SaaS Security Compliance Positioning",
+    categoryId: "business",
+    description: "Transforms SOC 2, ISO 27001, and FedRAMP compliance credentials into enterprise sales collaterals.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Cloud SaaS Security Compliance Positioning",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Cloud SaaS Security Compliance Positioning",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Tier Cloud SaaS Security Compliance Positioning.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Tier Cloud SaaS Security Compliance Positioning.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-stage-customer-advisory-board-cab-governance": {
+    id: "business-multi-multi-stage-customer-advisory-board-cab-governance",
+    name: "MultiStageCustomerAdvisoryBoardCABGovernanceSkill",
+    displayName: "Multi Stage Customer Advisory Board CAB Governance",
+    categoryId: "business",
+    description: "Schedules bi-annual CAB meetings, agenda creation, feedback loops, and executive relationship building.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Customer Advisory Board CAB Governance",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Customer Advisory Board CAB Governance",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Customer Advisory Board CAB Governance.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Customer Advisory Board CAB Governance.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-horizon-corporate-real-estate-workplace-strategy": {
+    id: "business-multi-multi-horizon-corporate-real-estate-workplace-strategy",
+    name: "MultiHorizonCorporateRealEstateWorkplaceStrategySkill",
+    displayName: "Multi Horizon Corporate Real Estate Workplace Strategy",
+    categoryId: "business",
+    description: "Balances hybrid office footprint, flex space leasing, lease renegotiation, and facilities costs.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Corporate Real Estate Workplace Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Corporate Real Estate Workplace Strategy",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Horizon Corporate Real Estate Workplace Strategy.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Horizon Corporate Real Estate Workplace Strategy.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-factor-brand-crisis-management-playbook": {
+    id: "business-multi-multi-factor-brand-crisis-management-playbook",
+    name: "MultiFactorBrandCrisisManagementPlaybookSkill",
+    displayName: "Multi Factor Brand Crisis Management Playbook",
+    categoryId: "business",
+    description: "Executes holding statements, press conference protocol, social media monitoring, and brand rehabilitation.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Brand Crisis Management Playbook",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Brand Crisis Management Playbook",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Factor Brand Crisis Management Playbook.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Factor Brand Crisis Management Playbook.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-tier-logistics-last-mile-delivery-optimization": {
+    id: "business-multi-multi-tier-logistics-last-mile-delivery-optimization",
+    name: "MultiTierLogisticsLastMileDeliveryOptimizationSkill",
+    displayName: "Multi Tier Logistics Last Mile Delivery Optimization",
+    categoryId: "business",
+    description: "Optimizes urban micro-fulfillment hubs, courier partner fleets, dynamic route grouping, and SLA tracking.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Logistics Last Mile Delivery Optimization",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Logistics Last Mile Delivery Optimization",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Tier Logistics Last Mile Delivery Optimization.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Tier Logistics Last Mile Delivery Optimization.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-stage-strategic-licensing-ip-monetization": {
+    id: "business-multi-multi-stage-strategic-licensing-ip-monetization",
+    name: "MultiStageStrategicLicensingIPMonetizationSkill",
+    displayName: "Multi Stage Strategic Licensing IP Monetization",
+    categoryId: "business",
+    description: "Drafts patent and trademark licensing agreements, royalty rate benchmarks, and audit rights.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Strategic Licensing IP Monetization",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Strategic Licensing IP Monetization",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Strategic Licensing IP Monetization.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Strategic Licensing IP Monetization.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-channel-b2b-customer-support-sla-strategy": {
+    id: "business-multi-multi-channel-b2b-customer-support-sla-strategy",
+    name: "MultiChannelB2BCustomerSupportSLAStrategySkill",
+    displayName: "Multi Channel B2B Customer Support SLA Strategy",
+    categoryId: "business",
+    description: "Defines Tier 1-3 support channels, ticket response/resolution SLAs, and customer escalation paths.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel B2B Customer Support SLA Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel B2B Customer Support SLA Strategy",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Channel B2B Customer Support SLA Strategy.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Channel B2B Customer Support SLA Strategy.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-horizon-family-office-wealth-succession-plan": {
+    id: "business-multi-multi-horizon-family-office-wealth-succession-plan",
+    name: "MultiHorizonFamilyOfficeWealthSuccessionPlanSkill",
+    displayName: "Multi Horizon Family Office Wealth Succession Plan",
+    categoryId: "business",
+    description: "Structures asset allocation, intergenerational trust governance, philanthropic foundations, and tax planning.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Family Office Wealth Succession Plan",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Family Office Wealth Succession Plan",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Horizon Family Office Wealth Succession Plan.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Horizon Family Office Wealth Succession Plan.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-tier-food-beverage-franchise-store-operations": {
+    id: "business-multi-multi-tier-food-beverage-franchise-store-operations",
+    name: "MultiTierFoodBeverageFranchiseStoreOperationsSkill",
+    displayName: "Multi Tier Food Beverage Franchise Store Operations",
+    categoryId: "business",
+    description: "Drafts store opening checklists, secret shopper audits, labor cost scheduling, and food safety standards.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Food Beverage Franchise Store Operations",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Food Beverage Franchise Store Operations",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Tier Food Beverage Franchise Store Operations.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Tier Food Beverage Franchise Store Operations.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-stage-pharmaceutical-commercialization-pathway": {
+    id: "business-multi-multi-stage-pharmaceutical-commercialization-pathway",
+    name: "MultiStagePharmaceuticalCommercializationPathwaySkill",
+    displayName: "Multi Stage Pharmaceutical Commercialization Pathway",
+    categoryId: "business",
+    description: "Navigates market access, payer reimbursement negotiation, physician detail campaigns, and launch.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Pharmaceutical Commercialization Pathway",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Pharmaceutical Commercialization Pathway",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Pharmaceutical Commercialization Pathway.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Pharmaceutical Commercialization Pathway.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-channel-crowdfunding-equity-campaign-execution": {
+    id: "business-multi-multi-channel-crowdfunding-equity-campaign-execution",
+    name: "MultiChannelCrowdfundingEquityCampaignExecutionSkill",
+    displayName: "Multi Channel Crowdfunding Equity Campaign Execution",
+    categoryId: "business",
+    description: "Structures campaign video scripting, backer rewards, PR outreach, and SEC Reg CF/Reg A+ compliance.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Crowdfunding Equity Campaign Execution",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Crowdfunding Equity Campaign Execution",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Channel Crowdfunding Equity Campaign Execution.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Channel Crowdfunding Equity Campaign Execution.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-layer-telecom-arpu-churn-prevention-playbook": {
+    id: "business-multi-multi-layer-telecom-arpu-churn-prevention-playbook",
+    name: "MultiLayerTelecomARPUChurnPreventionPlaybookSkill",
+    displayName: "Multi Layer Telecom ARPU Churn Prevention Playbook",
+    categoryId: "business",
+    description: "Drives Average Revenue Per User (ARPU) via 5G speed upgrades, device financing, and OTT bundles.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Telecom ARPU Churn Prevention Playbook",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Telecom ARPU Churn Prevention Playbook",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Telecom ARPU Churn Prevention Playbook.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Telecom ARPU Churn Prevention Playbook.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-stage-heavy-machinery-asset-leasing-playbook": {
+    id: "business-multi-multi-stage-heavy-machinery-asset-leasing-playbook",
+    name: "MultiStageHeavyMachineryAssetLeasingPlaybookSkill",
+    displayName: "Multi Stage Heavy Machinery Asset Leasing Playbook",
+    categoryId: "business",
+    description: "Structures equipment operating leases, residual value calculations, maintenance contracts, and repossession.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Heavy Machinery Asset Leasing Playbook",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Heavy Machinery Asset Leasing Playbook",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Heavy Machinery Asset Leasing Playbook.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Heavy Machinery Asset Leasing Playbook.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-channel-non-profit-donor-acquisition-strategy": {
+    id: "business-multi-multi-channel-non-profit-donor-acquisition-strategy",
+    name: "MultiChannelNonProfitDonorAcquisitionStrategySkill",
+    displayName: "Multi Channel Non Profit Donor Acquisition Strategy",
+    categoryId: "business",
+    description: "Executes major donor stewardship, recurring monthly giver campaigns, grant applications, and galas.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Non Profit Donor Acquisition Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Non Profit Donor Acquisition Strategy",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Channel Non Profit Donor Acquisition Strategy.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Channel Non Profit Donor Acquisition Strategy.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-tier-renewable-energy-power-purchase-agreement-ppa": {
+    id: "business-multi-multi-tier-renewable-energy-power-purchase-agreement-ppa",
+    name: "MultiTierRenewableEnergyPowerPurchaseAgreementPPASkill",
+    displayName: "Multi Tier Renewable Energy Power Purchase Agreement PPA",
+    categoryId: "business",
+    description: "Structures corporate virtual PPAs, strike price negotiations, green attribute RECs, and curtailment terms.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Renewable Energy Power Purchase Agreement PPA",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Renewable Energy Power Purchase Agreement PPA",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Tier Renewable Energy Power Purchase Agreement PPA.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Tier Renewable Energy Power Purchase Agreement PPA.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-stage-commercial-aviation-route-profitability": {
+    id: "business-multi-multi-stage-commercial-aviation-route-profitability",
+    name: "MultiStageCommercialAviationRouteProfitabilitySkill",
+    displayName: "Multi Stage Commercial Aviation Route Profitability",
+    categoryId: "business",
+    description: "Calculates passenger load factors, yield per seat mile (RASM), jet fuel hedging, and airport slot costs.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Commercial Aviation Route Profitability",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Commercial Aviation Route Profitability",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Commercial Aviation Route Profitability.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Commercial Aviation Route Profitability.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-channel-automotive-dealership-network-sales": {
+    id: "business-multi-multi-channel-automotive-dealership-network-sales",
+    name: "MultiChannelAutomotiveDealershipNetworkSalesSkill",
+    displayName: "Multi Channel Automotive Dealership Network Sales",
+    categoryId: "business",
+    description: "Coordinates OEM inventory allocation, dealer margin incentives, floorplan financing, and EV sales training.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Automotive Dealership Network Sales",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Automotive Dealership Network Sales",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Channel Automotive Dealership Network Sales.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Channel Automotive Dealership Network Sales.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-layer-commercial-banking-small-business-lending": {
+    id: "business-multi-multi-layer-commercial-banking-small-business-lending",
+    name: "MultiLayerCommercialBankingSmallBusinessLendingSkill",
+    displayName: "Multi Layer Commercial Banking Small Business Lending",
+    categoryId: "business",
+    description: "Streamlines credit underwriting, SBA loan guarantee applications, collateral valuation, and defaults.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Commercial Banking Small Business Lending",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Commercial Banking Small Business Lending",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Commercial Banking Small Business Lending.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Commercial Banking Small Business Lending.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-stage-hotel-hospitality-loyalty-program": {
+    id: "business-multi-multi-stage-hotel-hospitality-loyalty-program",
+    name: "MultiStageHotelHospitalityLoyaltyProgramSkill",
+    displayName: "Multi Stage Hotel Hospitality Loyalty Program",
+    categoryId: "business",
+    description: "Structures reward point earning tiers, partner airline point swaps, VIP perks, and redemption liability.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Hotel Hospitality Loyalty Program",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Hotel Hospitality Loyalty Program",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Hotel Hospitality Loyalty Program.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Hotel Hospitality Loyalty Program.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-channel-independent-software-vendor-isv-ecosystem": {
+    id: "business-multi-multi-channel-independent-software-vendor-isv-ecosystem",
+    name: "MultiChannelIndependentSoftwareVendorISVEcosystemSkill",
+    displayName: "Multi Channel Independent Software Vendor ISV Ecosystem",
+    categoryId: "business",
+    description: "Builds app marketplace partner programs, developer APIs, co-marketing funds, and revenue share terms.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Independent Software Vendor ISV Ecosystem",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Independent Software Vendor ISV Ecosystem",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Channel Independent Software Vendor ISV Ecosystem.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Channel Independent Software Vendor ISV Ecosystem.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-horizon-construction-contractor-cash-flow-management": {
+    id: "business-multi-multi-horizon-construction-contractor-cash-flow-management",
+    name: "MultiHorizonConstructionContractorCashFlowManagementSkill",
+    displayName: "Multi Horizon Construction Contractor Cash Flow Management",
+    categoryId: "business",
+    description: "Manages progress billing, retainage release, subcontractor pay-when-paid clauses, and surety bonds.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Construction Contractor Cash Flow Management",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Construction Contractor Cash Flow Management",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Horizon Construction Contractor Cash Flow Management.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Horizon Construction Contractor Cash Flow Management.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-tier-retail-store-layout-foot-traffic-optimization": {
+    id: "business-multi-multi-tier-retail-store-layout-foot-traffic-optimization",
+    name: "MultiTierRetailStoreLayoutFootTrafficOptimizationSkill",
+    displayName: "Multi Tier Retail Store Layout Foot Traffic Optimization",
+    categoryId: "business",
+    description: "Optimizes endcap displays, planogram shelf placement, impulse buy zones, and loss prevention.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Retail Store Layout Foot Traffic Optimization",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Retail Store Layout Foot Traffic Optimization",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Tier Retail Store Layout Foot Traffic Optimization.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Tier Retail Store Layout Foot Traffic Optimization.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-stage-maritime-freight-charter-party-negotiation": {
+    id: "business-multi-multi-stage-maritime-freight-charter-party-negotiation",
+    name: "MultiStageMaritimeFreightCharterPartyNegotiationSkill",
+    displayName: "Multi Stage Maritime Freight Charter Party Negotiation",
+    categoryId: "business",
+    description: "Drafts time and voyage charter contracts, demurrage terms, laytime calculations, and fuel clauses.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Maritime Freight Charter Party Negotiation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Maritime Freight Charter Party Negotiation",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Maritime Freight Charter Party Negotiation.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Maritime Freight Charter Party Negotiation.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
+
+  "business-multi-multi-horizon-master-business-growth-blueprint-engine": {
+    id: "business-multi-multi-horizon-master-business-growth-blueprint-engine",
+    name: "MultiHorizonMasterBusinessGrowthBlueprintEngineSkill",
+    displayName: "Multi Horizon Master Business Growth Blueprint Engine",
+    categoryId: "business",
+    description: "Enforces master strategic vision, commercial execution, financial modeling, and market dominance.",
+    tags: ["business","multi-skill","business-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Business Growth Blueprint Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Business Growth Blueprint Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Horizon Master Business Growth Blueprint Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Horizon Master Business Growth Blueprint Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["business","multi-skill","business-multi"],
+    }),
+  },
 };

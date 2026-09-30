@@ -4350,4 +4350,1503 @@ export const IDEATION_SKILLS: Record<string, SkillDefinition> = {
       tags: ["ideation","ideation-topup","topup","master"],
     }),
   },
+  "ideation-multi-multi-perspective-scamper-innovation-matrix": {
+    id: "ideation-multi-multi-perspective-scamper-innovation-matrix",
+    name: "MultiPerspectiveSCAMPERInnovationMatrixSkill",
+    displayName: "Multi Perspective SCAMPER Innovation Matrix",
+    categoryId: "ideation",
+    description: "Applies Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, and Reverse.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective SCAMPER Innovation Matrix",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective SCAMPER Innovation Matrix",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective SCAMPER Innovation Matrix.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective SCAMPER Innovation Matrix.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-angle-triz-theory-of-inventive-problem-solving": {
+    id: "ideation-multi-multi-angle-triz-theory-of-inventive-problem-solving",
+    name: "MultiAngleTRIZTheoryofInventiveProblemSolvingSkill",
+    displayName: "Multi Angle TRIZ Theory of Inventive Problem Solving",
+    categoryId: "ideation",
+    description: "Solves technical contradictions using 40 TRIZ inventive principles and contradiction matrix.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle TRIZ Theory of Inventive Problem Solving",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle TRIZ Theory of Inventive Problem Solving",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Angle TRIZ Theory of Inventive Problem Solving.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Angle TRIZ Theory of Inventive Problem Solving.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-horizon-disruptive-technology-ideation-factory": {
+    id: "ideation-multi-multi-horizon-disruptive-technology-ideation-factory",
+    name: "MultiHorizonDisruptiveTechnologyIdeationFactorySkill",
+    displayName: "Multi Horizon Disruptive Technology Ideation Factory",
+    categoryId: "ideation",
+    description: "Brainstorms product concepts leveraging emerging tech convergences (AI, Biotech, Quantum, Energy).",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Disruptive Technology Ideation Factory",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Disruptive Technology Ideation Factory",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Disruptive Technology Ideation Factory.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Disruptive Technology Ideation Factory.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-perspective-six-thinking-hats-edward-de-bono": {
+    id: "ideation-multi-multi-perspective-six-thinking-hats-edward-de-bono",
+    name: "MultiPerspectiveSixThinkingHatsEdwarddeBonoSkill",
+    displayName: "Multi Perspective Six Thinking Hats Edward de Bono",
+    categoryId: "ideation",
+    description: "Iterates ideas across White (data), Red (feelings), Black (risk), Yellow (benefits), Green (creativity), Blue (process).",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Six Thinking Hats Edward de Bono",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Six Thinking Hats Edward de Bono",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Six Thinking Hats Edward de Bono.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Six Thinking Hats Edward de Bono.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-stage-design-sprint-innovation-ideation": {
+    id: "ideation-multi-multi-stage-design-sprint-innovation-ideation",
+    name: "MultiStageDesignSprintInnovationIdeationSkill",
+    displayName: "Multi Stage Design Sprint Innovation Ideation",
+    categoryId: "ideation",
+    description: "Guides 5-day Google Ventures design sprint ideation from map to sketch, decide, prototype, test.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Design Sprint Innovation Ideation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Design Sprint Innovation Ideation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Design Sprint Innovation Ideation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Design Sprint Innovation Ideation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-category-cross-industry-biomimicry-innovation": {
+    id: "ideation-multi-multi-category-cross-industry-biomimicry-innovation",
+    name: "MultiCategoryCrossIndustryBiomimicryInnovationSkill",
+    displayName: "Multi Category Cross Industry Biomimicry Innovation",
+    categoryId: "ideation",
+    description: "Translates biological nature mechanisms (e.g. lotus leaf, kingfisher beak) into engineering solutions.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Category Cross Industry Biomimicry Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Category Cross Industry Biomimicry Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Category Cross Industry Biomimicry Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Category Cross Industry Biomimicry Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-perspective-lateral-thinking-random-word-association": {
+    id: "ideation-multi-multi-perspective-lateral-thinking-random-word-association",
+    name: "MultiPerspectiveLateralThinkingRandomWordAssociationSkill",
+    displayName: "Multi Perspective Lateral Thinking Random Word Association",
+    categoryId: "ideation",
+    description: "Breaks cognitive inertia using forced associations with random stimulus words and images.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Lateral Thinking Random Word Association",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Lateral Thinking Random Word Association",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Lateral Thinking Random Word Association.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Lateral Thinking Random Word Association.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-horizon-blue-ocean-uncontested-market-canvas": {
+    id: "ideation-multi-multi-horizon-blue-ocean-uncontested-market-canvas",
+    name: "MultiHorizonBlueOceanUncontestedMarketCanvasSkill",
+    displayName: "Multi Horizon Blue Ocean Uncontested Market Canvas",
+    categoryId: "ideation",
+    description: "Brainstorms radical market offerings eliminating industry standards and creating new demand.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Blue Ocean Uncontested Market Canvas",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Blue Ocean Uncontested Market Canvas",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Blue Ocean Uncontested Market Canvas.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Blue Ocean Uncontested Market Canvas.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-persona-brainstorming-anti-pattern-inversion": {
+    id: "ideation-multi-multi-persona-brainstorming-anti-pattern-inversion",
+    name: "MultiPersonaBrainstormingAntiPatternInversionSkill",
+    displayName: "Multi Persona Brainstorming Anti Pattern Inversion",
+    categoryId: "ideation",
+    description: "Generates worst possible ideas first ('Reverse Brainstorming') to uncover hidden solutions.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Brainstorming Anti Pattern Inversion",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Brainstorming Anti Pattern Inversion",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Persona Brainstorming Anti Pattern Inversion.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Persona Brainstorming Anti Pattern Inversion.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-layer-crazy-eights-rapid-prototyping-workshop": {
+    id: "ideation-multi-multi-layer-crazy-eights-rapid-prototyping-workshop",
+    name: "MultiLayerCrazyEightsRapidPrototypingWorkshopSkill",
+    displayName: "Multi Layer Crazy Eights Rapid Prototyping Workshop",
+    categoryId: "ideation",
+    description: "Generates 8 distinct visual or conceptual product ideas in 8 intense minutes.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Crazy Eights Rapid Prototyping Workshop",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Crazy Eights Rapid Prototyping Workshop",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Crazy Eights Rapid Prototyping Workshop.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Crazy Eights Rapid Prototyping Workshop.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-angle-customer-pain-point-first-principles-ideation": {
+    id: "ideation-multi-multi-angle-customer-pain-point-first-principles-ideation",
+    name: "MultiAngleCustomerPainPointFirstPrinciplesIdeationSkill",
+    displayName: "Multi Angle Customer Pain Point First Principles Ideation",
+    categoryId: "ideation",
+    description: "Deconstructs customer frustrations to fundamental truths, re-building innovative solutions.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Customer Pain Point First Principles Ideation",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Customer Pain Point First Principles Ideation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Angle Customer Pain Point First Principles Ideation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Angle Customer Pain Point First Principles Ideation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-horizon-future-back-trend-extrapolation-lab": {
+    id: "ideation-multi-multi-horizon-future-back-trend-extrapolation-lab",
+    name: "MultiHorizonFutureBackTrendExtrapolationLabSkill",
+    displayName: "Multi Horizon Future Back Trend Extrapolation Lab",
+    categoryId: "ideation",
+    description: "Envisions 2035 future worlds and works backwards deriving necessary breakthrough products today.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Future Back Trend Extrapolation Lab",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Future Back Trend Extrapolation Lab",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Future Back Trend Extrapolation Lab.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Future Back Trend Extrapolation Lab.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-category-cross-industry-analogy-transfer": {
+    id: "ideation-multi-multi-category-cross-industry-analogy-transfer",
+    name: "MultiCategoryCrossIndustryAnalogyTransferSkill",
+    displayName: "Multi Category Cross Industry Analogy Transfer",
+    categoryId: "ideation",
+    description: "Transfers successful business models from one industry (e.g. Uber/Airbnb) into unrelated sectors.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Category Cross Industry Analogy Transfer",
+      ruSectionName: "Композитный Multi-Skill: Multi Category Cross Industry Analogy Transfer",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Category Cross Industry Analogy Transfer.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Category Cross Industry Analogy Transfer.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-perspective-morphological-analysis-problem-grid": {
+    id: "ideation-multi-multi-perspective-morphological-analysis-problem-grid",
+    name: "MultiPerspectiveMorphologicalAnalysisProblemGridSkill",
+    displayName: "Multi Perspective Morphological Analysis Problem Grid",
+    categoryId: "ideation",
+    description: "Combines parameters in a multi-dimensional matrix generating thousands of unique product permutations.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Morphological Analysis Problem Grid",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Morphological Analysis Problem Grid",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Morphological Analysis Problem Grid.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Morphological Analysis Problem Grid.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-stage-b2b-enterprise-saas-micro-feature-innovation": {
+    id: "ideation-multi-multi-stage-b2b-enterprise-saas-micro-feature-innovation",
+    name: "MultiStageB2BEnterpriseSaaSMicroFeatureInnovationSkill",
+    displayName: "Multi Stage B2B Enterprise SaaS Micro Feature Innovation",
+    categoryId: "ideation",
+    description: "Ideates workflow automation micro-features that eliminate 80% of repetitive enterprise tasks.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage B2B Enterprise SaaS Micro Feature Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage B2B Enterprise SaaS Micro Feature Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage B2B Enterprise SaaS Micro Feature Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage B2B Enterprise SaaS Micro Feature Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-horizon-sustainability-circular-economy-ideation": {
+    id: "ideation-multi-multi-horizon-sustainability-circular-economy-ideation",
+    name: "MultiHorizonSustainabilityCircularEconomyIdeationSkill",
+    displayName: "Multi Horizon Sustainability Circular Economy Ideation",
+    categoryId: "ideation",
+    description: "Brainstorms cradle-to-cradle zero-waste product designs and closed-loop material recycling.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Sustainability Circular Economy Ideation",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Sustainability Circular Economy Ideation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Sustainability Circular Economy Ideation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Sustainability Circular Economy Ideation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-layer-brainwriting-6-3-5-group-ideation": {
+    id: "ideation-multi-multi-layer-brainwriting-6-3-5-group-ideation",
+    name: "MultiLayerBrainwriting635GroupIdeationSkill",
+    displayName: "Multi Layer Brainwriting 6-3-5 Group Ideation",
+    categoryId: "ideation",
+    description: "Runs silent 6-3-5 brainwriting rounds where 6 people write 3 ideas in 5 minutes, passing sheets.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Brainwriting 6-3-5 Group Ideation",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Brainwriting 6-3-5 Group Ideation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Brainwriting 6-3-5 Group Ideation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Brainwriting 6-3-5 Group Ideation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-perspective-trendjacking-cultural-meme-productization": {
+    id: "ideation-multi-multi-perspective-trendjacking-cultural-meme-productization",
+    name: "MultiPerspectiveTrendjackingCulturalMemeProductizationSkill",
+    displayName: "Multi Perspective Trendjacking Cultural Meme Productization",
+    categoryId: "ideation",
+    description: "Translates viral internet memes and cultural shifts into real-world consumer products.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Trendjacking Cultural Meme Productization",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Trendjacking Cultural Meme Productization",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Trendjacking Cultural Meme Productization.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Trendjacking Cultural Meme Productization.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-angle-unmet-customer-jobs-to-be-done-ideation": {
+    id: "ideation-multi-multi-angle-unmet-customer-jobs-to-be-done-ideation",
+    name: "MultiAngleUnmetCustomerJobsToBeDoneIdeationSkill",
+    displayName: "Multi Angle Unmet Customer Jobs To Be Done Ideation",
+    categoryId: "ideation",
+    description: "Ideates solutions for under-served customer jobs with high importance and low satisfaction.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Unmet Customer Jobs To Be Done Ideation",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Unmet Customer Jobs To Be Done Ideation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Angle Unmet Customer Jobs To Be Done Ideation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Angle Unmet Customer Jobs To Be Done Ideation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-horizon-ai-native-workflow-re-imagination": {
+    id: "ideation-multi-multi-horizon-ai-native-workflow-re-imagination",
+    name: "MultiHorizonAINativeWorkflowReImaginationSkill",
+    displayName: "Multi Horizon AI-Native Workflow Re-Imagination",
+    categoryId: "ideation",
+    description: "Re-imagines traditional software workflows assuming zero-cost instant AI intelligence.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon AI-Native Workflow Re-Imagination",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon AI-Native Workflow Re-Imagination",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon AI-Native Workflow Re-Imagination.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon AI-Native Workflow Re-Imagination.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-stage-e-commerce-viral-hook-product-ideation": {
+    id: "ideation-multi-multi-stage-e-commerce-viral-hook-product-ideation",
+    name: "MultiStageECommerceViralHookProductIdeationSkill",
+    displayName: "Multi Stage E-Commerce Viral Hook Product Ideation",
+    categoryId: "ideation",
+    description: "Ideates visual, highly demonstrative physical products engineered for social media virality.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage E-Commerce Viral Hook Product Ideation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage E-Commerce Viral Hook Product Ideation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage E-Commerce Viral Hook Product Ideation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage E-Commerce Viral Hook Product Ideation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-category-low-code-no-code-saas-micro-app-ideation": {
+    id: "ideation-multi-multi-category-low-code-no-code-saas-micro-app-ideation",
+    name: "MultiCategoryLowCodeNoCodeSaaSMicroAppIdeationSkill",
+    displayName: "Multi Category Low-Code No-Code SaaS Micro App Ideation",
+    categoryId: "ideation",
+    description: "Ideates niche, highly profitable micro-SaaS tools solvable with low-code automation.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Category Low-Code No-Code SaaS Micro App Ideation",
+      ruSectionName: "Композитный Multi-Skill: Multi Category Low-Code No-Code SaaS Micro App Ideation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Category Low-Code No-Code SaaS Micro App Ideation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Category Low-Code No-Code SaaS Micro App Ideation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-perspective-frictionless-ux-delight-feature-brainstorm": {
+    id: "ideation-multi-multi-perspective-frictionless-ux-delight-feature-brainstorm",
+    name: "MultiPerspectiveFrictionlessUXDelightFeatureBrainstormSkill",
+    displayName: "Multi Perspective Frictionless UX Delight Feature Brainstorm",
+    categoryId: "ideation",
+    description: "Ideates magical micro-interactions that surprise and delight users during mundane app tasks.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Frictionless UX Delight Feature Brainstorm",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Frictionless UX Delight Feature Brainstorm",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Frictionless UX Delight Feature Brainstorm.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Frictionless UX Delight Feature Brainstorm.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-horizon-spatial-computing-ar-vr-experience-ideation": {
+    id: "ideation-multi-multi-horizon-spatial-computing-ar-vr-experience-ideation",
+    name: "MultiHorizonSpatialComputingARVRExperienceIdeationSkill",
+    displayName: "Multi Horizon Spatial Computing AR VR Experience Ideation",
+    categoryId: "ideation",
+    description: "Brainstorms immersive 3D spatial user experiences for Apple Vision Pro and Meta Quest.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Spatial Computing AR VR Experience Ideation",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Spatial Computing AR VR Experience Ideation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Spatial Computing AR VR Experience Ideation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Spatial Computing AR VR Experience Ideation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-category-hardware-tech-accessory-innovation": {
+    id: "ideation-multi-multi-category-hardware-tech-accessory-innovation",
+    name: "MultiCategoryHardwareTechAccessoryInnovationSkill",
+    displayName: "Multi Category Hardware Tech Accessory Innovation",
+    categoryId: "ideation",
+    description: "Ideates ergonomic, modular, and multi-functional desk setup and mobile accessories.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Category Hardware Tech Accessory Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Category Hardware Tech Accessory Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Category Hardware Tech Accessory Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Category Hardware Tech Accessory Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-perspective-gamification-mechanics-ideation": {
+    id: "ideation-multi-multi-perspective-gamification-mechanics-ideation",
+    name: "MultiPerspectiveGamificationMechanicsIdeationSkill",
+    displayName: "Multi Perspective Gamification Mechanics Ideation",
+    categoryId: "ideation",
+    description: "Ideates habit-forming game mechanics (streaks, mystery boxes, achievements) for non-game apps.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Gamification Mechanics Ideation",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Gamification Mechanics Ideation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Gamification Mechanics Ideation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Gamification Mechanics Ideation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-stage-content-creator-monetization-product-ideation": {
+    id: "ideation-multi-multi-stage-content-creator-monetization-product-ideation",
+    name: "MultiStageContentCreatorMonetizationProductIdeationSkill",
+    displayName: "Multi Stage Content Creator Monetization Product Ideation",
+    categoryId: "ideation",
+    description: "Ideates novel digital products, newsletters, communities, and courses for content creators.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Content Creator Monetization Product Ideation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Content Creator Monetization Product Ideation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Content Creator Monetization Product Ideation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Content Creator Monetization Product Ideation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-layer-zero-to-one-radical-paradigm-shift-lab": {
+    id: "ideation-multi-multi-layer-zero-to-one-radical-paradigm-shift-lab",
+    name: "MultiLayerZeroToOneRadicalParadigmShiftLabSkill",
+    displayName: "Multi Layer Zero-To-One Radical Paradigm Shift Lab",
+    categoryId: "ideation",
+    description: "Ideates radical 10x solutions that make existing industry incumbent products obsolete.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Zero-To-One Radical Paradigm Shift Lab",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Zero-To-One Radical Paradigm Shift Lab",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Zero-To-One Radical Paradigm Shift Lab.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Zero-To-One Radical Paradigm Shift Lab.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-horizon-smart-home-iot-ecosystem-automation": {
+    id: "ideation-multi-multi-horizon-smart-home-iot-ecosystem-automation",
+    name: "MultiHorizonSmartHomeIoTEcosystemAutomationSkill",
+    displayName: "Multi Horizon Smart Home IoT Ecosystem Automation",
+    categoryId: "ideation",
+    description: "Brainstorms contextual smart home automations linking sensors, energy, and comfort.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Smart Home IoT Ecosystem Automation",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Smart Home IoT Ecosystem Automation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Smart Home IoT Ecosystem Automation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Smart Home IoT Ecosystem Automation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-category-culinary-food-beverage-taste-flavor-fusion": {
+    id: "ideation-multi-multi-category-culinary-food-beverage-taste-flavor-fusion",
+    name: "MultiCategoryCulinaryFoodBeverageTasteFlavorFusionSkill",
+    displayName: "Multi Category Culinary Food Beverage Taste Flavor Fusion",
+    categoryId: "ideation",
+    description: "Ideates unexpected flavor combinations, plant-based alternatives, and functional beverages.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Category Culinary Food Beverage Taste Flavor Fusion",
+      ruSectionName: "Композитный Multi-Skill: Multi Category Culinary Food Beverage Taste Flavor Fusion",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Category Culinary Food Beverage Taste Flavor Fusion.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Category Culinary Food Beverage Taste Flavor Fusion.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-stage-fintech-financial-inclusion-product-ideation": {
+    id: "ideation-multi-multi-stage-fintech-financial-inclusion-product-ideation",
+    name: "MultiStageFinTechFinancialInclusionProductIdeationSkill",
+    displayName: "Multi Stage FinTech Financial Inclusion Product Ideation",
+    categoryId: "ideation",
+    description: "Ideates micro-loan, fractional investing, and mobile payment tools for underserved populations.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage FinTech Financial Inclusion Product Ideation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage FinTech Financial Inclusion Product Ideation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage FinTech Financial Inclusion Product Ideation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage FinTech Financial Inclusion Product Ideation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-perspective-educational-edtech-engagement-ideation": {
+    id: "ideation-multi-multi-perspective-educational-edtech-engagement-ideation",
+    name: "MultiPerspectiveEducationalEdTechEngagementIdeationSkill",
+    displayName: "Multi Perspective Educational EdTech Engagement Ideation",
+    categoryId: "ideation",
+    description: "Ideates interactive learning games and AI tutors making difficult topics fun.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Educational EdTech Engagement Ideation",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Educational EdTech Engagement Ideation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Educational EdTech Engagement Ideation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Educational EdTech Engagement Ideation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-horizon-commercial-space-economy-orbital-business": {
+    id: "ideation-multi-multi-horizon-commercial-space-economy-orbital-business",
+    name: "MultiHorizonCommercialSpaceEconomyOrbitalBusinessSkill",
+    displayName: "Multi Horizon Commercial Space Economy Orbital Business",
+    categoryId: "ideation",
+    description: "Brainstorms commercial business models in satellite servicing, space tourism, and microgravity manufacturing.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Commercial Space Economy Orbital Business",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Commercial Space Economy Orbital Business",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Commercial Space Economy Orbital Business.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Commercial Space Economy Orbital Business.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-category-sustainable-fashion-textile-circularity": {
+    id: "ideation-multi-multi-category-sustainable-fashion-textile-circularity",
+    name: "MultiCategorySustainableFashionTextileCircularitySkill",
+    displayName: "Multi Category Sustainable Fashion Textile Circularity",
+    categoryId: "ideation",
+    description: "Ideates biodegradable fabrics, rental fashion subscription models, and upcycled garments.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Category Sustainable Fashion Textile Circularity",
+      ruSectionName: "Композитный Multi-Skill: Multi Category Sustainable Fashion Textile Circularity",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Category Sustainable Fashion Textile Circularity.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Category Sustainable Fashion Textile Circularity.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-perspective-urban-livability-mobility-innovation": {
+    id: "ideation-multi-multi-perspective-urban-livability-mobility-innovation",
+    name: "MultiPerspectiveUrbanLivabilityMobilityInnovationSkill",
+    displayName: "Multi Perspective Urban Livability Mobility Innovation",
+    categoryId: "ideation",
+    description: "Brainstorms micro-mobility solutions, pocket parks, and neighborhood community sharing hubs.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Urban Livability Mobility Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Urban Livability Mobility Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Urban Livability Mobility Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Urban Livability Mobility Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-stage-healthcare-remote-patient-monitoring-ideation": {
+    id: "ideation-multi-multi-stage-healthcare-remote-patient-monitoring-ideation",
+    name: "MultiStageHealthcareRemotePatientMonitoringIdeationSkill",
+    displayName: "Multi Stage Healthcare Remote Patient Monitoring Ideation",
+    categoryId: "ideation",
+    description: "Ideates wearable biometric sensor monitoring tools preventing chronic disease flare-ups.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Healthcare Remote Patient Monitoring Ideation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Healthcare Remote Patient Monitoring Ideation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Healthcare Remote Patient Monitoring Ideation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Healthcare Remote Patient Monitoring Ideation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-layer-subconscious-mind-association-brainstorm": {
+    id: "ideation-multi-multi-layer-subconscious-mind-association-brainstorm",
+    name: "MultiLayerSubconsciousMindAssociationBrainstormSkill",
+    displayName: "Multi Layer Subconscious Mind Association Brainstorm",
+    categoryId: "ideation",
+    description: "Uses dream logic, guided imagery, and subconscious prompts to unlock artistic breakthroughs.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Subconscious Mind Association Brainstorm",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Subconscious Mind Association Brainstorm",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Subconscious Mind Association Brainstorm.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Subconscious Mind Association Brainstorm.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-horizon-clean-energy-storage-grid-decarbonization": {
+    id: "ideation-multi-multi-horizon-clean-energy-storage-grid-decarbonization",
+    name: "MultiHorizonCleanEnergyStorageGridDecarbonizationSkill",
+    displayName: "Multi Horizon Clean Energy Storage Grid Decarbonization",
+    categoryId: "ideation",
+    description: "Ideates long-duration grid battery storage, geothermal, and green hydrogen solutions.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Clean Energy Storage Grid Decarbonization",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Clean Energy Storage Grid Decarbonization",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Clean Energy Storage Grid Decarbonization.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Clean Energy Storage Grid Decarbonization.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-category-hospitality-boutique-experience-innovation": {
+    id: "ideation-multi-multi-category-hospitality-boutique-experience-innovation",
+    name: "MultiCategoryHospitalityBoutiqueExperienceInnovationSkill",
+    displayName: "Multi Category Hospitality Boutique Experience Innovation",
+    categoryId: "ideation",
+    description: "Ideates unique thematic hotel stays, immersive dining pop-ups, and experiential travel.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Category Hospitality Boutique Experience Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Category Hospitality Boutique Experience Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Category Hospitality Boutique Experience Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Category Hospitality Boutique Experience Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-perspective-community-led-growth-social-features": {
+    id: "ideation-multi-multi-perspective-community-led-growth-social-features",
+    name: "MultiPerspectiveCommunityLedGrowthSocialFeaturesSkill",
+    displayName: "Multi Perspective Community-Led Growth Social Features",
+    categoryId: "ideation",
+    description: "Ideates peer-to-peer sharing, user-generated template hubs, and collaborative spaces.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Community-Led Growth Social Features",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Community-Led Growth Social Features",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Community-Led Growth Social Features.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Community-Led Growth Social Features.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-stage-agritech-precision-farming-innovation": {
+    id: "ideation-multi-multi-stage-agritech-precision-farming-innovation",
+    name: "MultiStageAgritechPrecisionFarmingInnovationSkill",
+    displayName: "Multi Stage Agritech Precision Farming Innovation",
+    categoryId: "ideation",
+    description: "Ideates autonomous weeding robots, vertical farm hydroponics, and soil sensor networks.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Agritech Precision Farming Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Agritech Precision Farming Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Agritech Precision Farming Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Agritech Precision Farming Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-layer-intellectual-property-patent-invention-mine": {
+    id: "ideation-multi-multi-layer-intellectual-property-patent-invention-mine",
+    name: "MultiLayerIntellectualPropertyPatentInventionMineSkill",
+    displayName: "Multi Layer Intellectual Property Patent Invention Mine",
+    categoryId: "ideation",
+    description: "Scans core technology capabilities generating patentable novelty variations and claims.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Intellectual Property Patent Invention Mine",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Intellectual Property Patent Invention Mine",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Intellectual Property Patent Invention Mine.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Intellectual Property Patent Invention Mine.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-horizon-autonomous-transport-logistics-fleet": {
+    id: "ideation-multi-multi-horizon-autonomous-transport-logistics-fleet",
+    name: "MultiHorizonAutonomousTransportLogisticsFleetSkill",
+    displayName: "Multi Horizon Autonomous Transport Logistics Fleet",
+    categoryId: "ideation",
+    description: "Brainstorms autonomous drone delivery networks, self-driving freight, and micro-hubs.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Autonomous Transport Logistics Fleet",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Autonomous Transport Logistics Fleet",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Autonomous Transport Logistics Fleet.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Autonomous Transport Logistics Fleet.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-category-pet-care-wellness-technology-innovation": {
+    id: "ideation-multi-multi-category-pet-care-wellness-technology-innovation",
+    name: "MultiCategoryPetCareWellnessTechnologyInnovationSkill",
+    displayName: "Multi Category Pet Care Wellness Technology Innovation",
+    categoryId: "ideation",
+    description: "Ideates smart pet feeders, health trackers, GPS collars, and interactive pet toys.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Category Pet Care Wellness Technology Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Category Pet Care Wellness Technology Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Category Pet Care Wellness Technology Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Category Pet Care Wellness Technology Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-perspective-senior-living-elder-care-innovation": {
+    id: "ideation-multi-multi-perspective-senior-living-elder-care-innovation",
+    name: "MultiPerspectiveSeniorLivingElderCareInnovationSkill",
+    displayName: "Multi Perspective Senior Living Elder Care Innovation",
+    categoryId: "ideation",
+    description: "Ideates fall-detection sensors, memory stimulation games, and mobility assistance aids.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Senior Living Elder Care Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Senior Living Elder Care Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Senior Living Elder Care Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Senior Living Elder Care Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-stage-maritime-freight-ocean-plastic-cleanup": {
+    id: "ideation-multi-multi-stage-maritime-freight-ocean-plastic-cleanup",
+    name: "MultiStageMaritimeFreightOceanPlasticCleanupSkill",
+    displayName: "Multi Stage Maritime Freight Ocean Plastic Cleanup",
+    categoryId: "ideation",
+    description: "Ideates autonomous ocean plastic skimming barriers and river interceptor vessels.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Maritime Freight Ocean Plastic Cleanup",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Maritime Freight Ocean Plastic Cleanup",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Maritime Freight Ocean Plastic Cleanup.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Maritime Freight Ocean Plastic Cleanup.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-layer-deep-tech-synthetic-biology-material-innovation": {
+    id: "ideation-multi-multi-layer-deep-tech-synthetic-biology-material-innovation",
+    name: "MultiLayerDeepTechSyntheticBiologyMaterialInnovationSkill",
+    displayName: "Multi Layer Deep Tech Synthetic Biology Material Innovation",
+    categoryId: "ideation",
+    description: "Ideates lab-grown leather, spider silk materials, and engineered enzyme plastics.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Deep Tech Synthetic Biology Material Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Deep Tech Synthetic Biology Material Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Deep Tech Synthetic Biology Material Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Deep Tech Synthetic Biology Material Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-horizon-quantum-computing-algorithm-breakthrough": {
+    id: "ideation-multi-multi-horizon-quantum-computing-algorithm-breakthrough",
+    name: "MultiHorizonQuantumComputingAlgorithmBreakthroughSkill",
+    displayName: "Multi Horizon Quantum Computing Algorithm Breakthrough",
+    categoryId: "ideation",
+    description: "Brainstorms quantum optimization applications in drug discovery, battery chem, and logistics.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Quantum Computing Algorithm Breakthrough",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Quantum Computing Algorithm Breakthrough",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Quantum Computing Algorithm Breakthrough.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Quantum Computing Algorithm Breakthrough.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-category-music-sound-audio-tech-innovation": {
+    id: "ideation-multi-multi-category-music-sound-audio-tech-innovation",
+    name: "MultiCategoryMusicSoundAudioTechInnovationSkill",
+    displayName: "Multi Category Music Sound Audio Tech Innovation",
+    categoryId: "ideation",
+    description: "Ideates spatial audio headphones, AI melody generation plugins, and adaptive soundscapes.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Category Music Sound Audio Tech Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Category Music Sound Audio Tech Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Category Music Sound Audio Tech Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Category Music Sound Audio Tech Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-perspective-non-profit-social-impact-innovation": {
+    id: "ideation-multi-multi-perspective-non-profit-social-impact-innovation",
+    name: "MultiPerspectiveNonProfitSocialImpactInnovationSkill",
+    displayName: "Multi Perspective Non-Profit Social Impact Innovation",
+    categoryId: "ideation",
+    description: "Ideates scalable non-profit models addressing homelessness, literacy, and clean water.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Non-Profit Social Impact Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Non-Profit Social Impact Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Non-Profit Social Impact Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Non-Profit Social Impact Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-stage-construction-pre-fab-modular-housing": {
+    id: "ideation-multi-multi-stage-construction-pre-fab-modular-housing",
+    name: "MultiStageConstructionPreFabModularHousingSkill",
+    displayName: "Multi Stage Construction Pre-Fab Modular Housing",
+    categoryId: "ideation",
+    description: "Ideates 3D-printed homes, flat-pack modular building kits, and sustainable mass timber.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Construction Pre-Fab Modular Housing",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Construction Pre-Fab Modular Housing",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Construction Pre-Fab Modular Housing.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Construction Pre-Fab Modular Housing.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-layer-micro-mobility-electric-bike-cargo-innovation": {
+    id: "ideation-multi-multi-layer-micro-mobility-electric-bike-cargo-innovation",
+    name: "MultiLayerMicroMobilityElectricBikeCargoInnovationSkill",
+    displayName: "Multi Layer Micro-Mobility Electric Bike Cargo Innovation",
+    categoryId: "ideation",
+    description: "Ideates heavy-payload electric cargo bikes replacing urban delivery vans.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Micro-Mobility Electric Bike Cargo Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Micro-Mobility Electric Bike Cargo Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Micro-Mobility Electric Bike Cargo Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Micro-Mobility Electric Bike Cargo Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-horizon-artificial-general-intelligence-agi-society": {
+    id: "ideation-multi-multi-horizon-artificial-general-intelligence-agi-society",
+    name: "MultiHorizonArtificialGeneralIntelligenceAGISocietySkill",
+    displayName: "Multi Horizon Artificial General Intelligence AGI Society",
+    categoryId: "ideation",
+    description: "Envisions post-scarcity economic models, universal basic assets, and AI human symbiosis.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Artificial General Intelligence AGI Society",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Artificial General Intelligence AGI Society",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Artificial General Intelligence AGI Society.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Artificial General Intelligence AGI Society.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-category-fitness-wellness-recovery-tech-innovation": {
+    id: "ideation-multi-multi-category-fitness-wellness-recovery-tech-innovation",
+    name: "MultiCategoryFitnessWellnessRecoveryTechInnovationSkill",
+    displayName: "Multi Category Fitness Wellness Recovery Tech Innovation",
+    categoryId: "ideation",
+    description: "Ideates cold plunge tubs, infrared sauna blankets, and percussion massage tools.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Category Fitness Wellness Recovery Tech Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Category Fitness Wellness Recovery Tech Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Category Fitness Wellness Recovery Tech Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Category Fitness Wellness Recovery Tech Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-perspective-e-sports-vr-gaming-arena-innovation": {
+    id: "ideation-multi-multi-perspective-e-sports-vr-gaming-arena-innovation",
+    name: "MultiPerspectiveESportsVRGamingArenaInnovationSkill",
+    displayName: "Multi Perspective E-Sports VR Gaming Arena Innovation",
+    categoryId: "ideation",
+    description: "Ideates haptic feedback suits, omni-directional treadmills, and spectator VR modes.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective E-Sports VR Gaming Arena Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective E-Sports VR Gaming Arena Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective E-Sports VR Gaming Arena Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective E-Sports VR Gaming Arena Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-stage-supply-chain-reusable-packaging-system": {
+    id: "ideation-multi-multi-stage-supply-chain-reusable-packaging-system",
+    name: "MultiStageSupplyChainReusablePackagingSystemSkill",
+    displayName: "Multi Stage Supply Chain Reusable Packaging System",
+    categoryId: "ideation",
+    description: "Ideates durable, trackable tote shipping containers eliminating single-use cardboard.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Supply Chain Reusable Packaging System",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Supply Chain Reusable Packaging System",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Supply Chain Reusable Packaging System.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Supply Chain Reusable Packaging System.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-layer-chemical-material-recycling-catalyst": {
+    id: "ideation-multi-multi-layer-chemical-material-recycling-catalyst",
+    name: "MultiLayerChemicalMaterialRecyclingCatalystSkill",
+    displayName: "Multi Layer Chemical Material Recycling Catalyst",
+    categoryId: "ideation",
+    description: "Ideates chemical catalysts breaking down mixed polyester/cotton textiles into raw monomers.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Chemical Material Recycling Catalyst",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Chemical Material Recycling Catalyst",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Chemical Material Recycling Catalyst.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Chemical Material Recycling Catalyst.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-horizon-autonomous-mining-drone-fleet-innovation": {
+    id: "ideation-multi-multi-horizon-autonomous-mining-drone-fleet-innovation",
+    name: "MultiHorizonAutonomousMiningDroneFleetInnovationSkill",
+    displayName: "Multi Horizon Autonomous Mining Drone Fleet Innovation",
+    categoryId: "ideation",
+    description: "Brainstorms subterranean mapping drones and autonomous electric haul trucks.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Autonomous Mining Drone Fleet Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Autonomous Mining Drone Fleet Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Autonomous Mining Drone Fleet Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Autonomous Mining Drone Fleet Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-category-artisan-craft-heritage-modernization": {
+    id: "ideation-multi-multi-category-artisan-craft-heritage-modernization",
+    name: "MultiCategoryArtisanCraftHeritageModernizationSkill",
+    displayName: "Multi Category Artisan Craft Heritage Modernization",
+    categoryId: "ideation",
+    description: "Ideates modern tech enhancements for traditional pottery, woodworking, and weaving.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Category Artisan Craft Heritage Modernization",
+      ruSectionName: "Композитный Multi-Skill: Multi Category Artisan Craft Heritage Modernization",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Category Artisan Craft Heritage Modernization.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Category Artisan Craft Heritage Modernization.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
+
+  "ideation-multi-multi-horizon-master-ideation-innovation-blueprint-engine": {
+    id: "ideation-multi-multi-horizon-master-ideation-innovation-blueprint-engine",
+    name: "MultiHorizonMasterIdeationInnovationBlueprintEngineSkill",
+    displayName: "Multi Horizon Master Ideation Innovation Blueprint Engine",
+    categoryId: "ideation",
+    description: "Enforces master inventive problem solving, cross-domain breakthrough ideation, and disruptive vision.",
+    tags: ["ideation","multi-skill","ideation-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Ideation Innovation Blueprint Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Ideation Innovation Blueprint Engine",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Master Ideation Innovation Blueprint Engine.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Master Ideation Innovation Blueprint Engine.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","multi-skill","ideation-multi"],
+    }),
+  },
 };

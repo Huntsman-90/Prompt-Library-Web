@@ -4303,4 +4303,1503 @@ sectionName: 'HPO Rare Disease Phenotypic Mapping',
       tags: ["medical","medical-final","final","master"],
     }),
   },
+  "medical-multi-multi-specialist-multidisciplinary-tumor-board-consultation": {
+    id: "medical-multi-multi-specialist-multidisciplinary-tumor-board-consultation",
+    name: "MultiSpecialistMultidisciplinaryTumorBoardConsultationSkill",
+    displayName: "Multi Specialist Multidisciplinary Tumor Board Consultation",
+    categoryId: "medical",
+    description: "Synthesizes medical oncology, surgical oncology, radiation oncology, pathology, and radiology.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Specialist Multidisciplinary Tumor Board Consultation",
+      ruSectionName: "Композитный Multi-Skill: Multi Specialist Multidisciplinary Tumor Board Consultation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Specialist Multidisciplinary Tumor Board Consultation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Specialist Multidisciplinary Tumor Board Consultation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-system-differential-diagnosis-clinical-reasoning": {
+    id: "medical-multi-multi-system-differential-diagnosis-clinical-reasoning",
+    name: "MultiSystemDifferentialDiagnosisClinicalReasoningSkill",
+    displayName: "Multi System Differential Diagnosis Clinical Reasoning",
+    categoryId: "medical",
+    description: "Evaluates patient symptoms across cardiovascular, respiratory, neurological, and endocrine systems.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi System Differential Diagnosis Clinical Reasoning",
+      ruSectionName: "Композитный Multi-Skill: Multi System Differential Diagnosis Clinical Reasoning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi System Differential Diagnosis Clinical Reasoning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi System Differential Diagnosis Clinical Reasoning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-critical-care-emergency-resuscitation-protocol": {
+    id: "medical-multi-multi-stage-critical-care-emergency-resuscitation-protocol",
+    name: "MultiStageCriticalCareEmergencyResuscitationProtocolSkill",
+    displayName: "Multi Stage Critical Care Emergency Resuscitation Protocol",
+    categoryId: "medical",
+    description: "Guides ACLS/ATLS resuscitation steps for cardiac arrest, severe sepsis, and massive trauma.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Critical Care Emergency Resuscitation Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Critical Care Emergency Resuscitation Protocol",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Critical Care Emergency Resuscitation Protocol.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Critical Care Emergency Resuscitation Protocol.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-layer-pharmacotherapy-drug-interaction-countermeasure": {
+    id: "medical-multi-multi-layer-pharmacotherapy-drug-interaction-countermeasure",
+    name: "MultiLayerPharmacotherapyDrugInteractionCountermeasureSkill",
+    displayName: "Multi Layer Pharmacotherapy Drug Interaction Countermeasure",
+    categoryId: "medical",
+    description: "Audits polypharmacy regimens identifying cytochrome P450 interactions, QT prolongation, and dosage adjustments.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Pharmacotherapy Drug Interaction Countermeasure",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Pharmacotherapy Drug Interaction Countermeasure",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Pharmacotherapy Drug Interaction Countermeasure.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Pharmacotherapy Drug Interaction Countermeasure.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-perspective-clinical-practice-guideline-synthesis": {
+    id: "medical-multi-multi-perspective-clinical-practice-guideline-synthesis",
+    name: "MultiPerspectiveClinicalPracticeGuidelineSynthesisSkill",
+    displayName: "Multi Perspective Clinical Practice Guideline Synthesis",
+    categoryId: "medical",
+    description: "Synthesizes AHA, ACC, NCCN, and GOLD clinical guidelines into standardized patient care pathways.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Clinical Practice Guideline Synthesis",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Clinical Practice Guideline Synthesis",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Clinical Practice Guideline Synthesis.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Clinical Practice Guideline Synthesis.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-icu-patient-telemetry-anomaly-triaging": {
+    id: "medical-multi-multi-parameter-icu-patient-telemetry-anomaly-triaging",
+    name: "MultiParameterICUPatientTelemetryAnomalyTriagingSkill",
+    displayName: "Multi Parameter ICU Patient Telemetry Anomaly Triaging",
+    categoryId: "medical",
+    description: "Analyzes invasive arterial line pressure, EKG leads, pulse oximetry, and capnography waveforms.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter ICU Patient Telemetry Anomaly Triaging",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter ICU Patient Telemetry Anomaly Triaging",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter ICU Patient Telemetry Anomaly Triaging.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter ICU Patient Telemetry Anomaly Triaging.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-pediatric-growth-developmental-milestones-screener": {
+    id: "medical-multi-multi-stage-pediatric-growth-developmental-milestones-screener",
+    name: "MultiStagePediatricGrowthDevelopmentalMilestonesScreenerSkill",
+    displayName: "Multi Stage Pediatric Growth Developmental Milestones Screener",
+    categoryId: "medical",
+    description: "Evaluates infant/child growth percentiles, motor skills, speech development, and autism screeners.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Pediatric Growth Developmental Milestones Screener",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Pediatric Growth Developmental Milestones Screener",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Pediatric Growth Developmental Milestones Screener.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Pediatric Growth Developmental Milestones Screener.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-layer-hospital-infection-control-outbreak-protocol": {
+    id: "medical-multi-multi-layer-hospital-infection-control-outbreak-protocol",
+    name: "MultiLayerHospitalInfectionControlOutbreakProtocolSkill",
+    displayName: "Multi Layer Hospital Infection Control Outbreak Protocol",
+    categoryId: "medical",
+    description: "Tracks nosocomial infection clusters (MRSA, C. difficile), contact isolation rules, and sterilization.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Hospital Infection Control Outbreak Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Hospital Infection Control Outbreak Protocol",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Hospital Infection Control Outbreak Protocol.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Hospital Infection Control Outbreak Protocol.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-surgical-pre-operative-anesthesia-risk-assessment": {
+    id: "medical-multi-multi-stage-surgical-pre-operative-anesthesia-risk-assessment",
+    name: "MultiStageSurgicalPreOperativeAnesthesiaRiskAssessmentSkill",
+    displayName: "Multi Stage Surgical Pre Operative Anesthesia Risk Assessment",
+    categoryId: "medical",
+    description: "Evaluates ASA physical status, Mallampati airway score, cardiac risk index, and blood loss prep.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Surgical Pre Operative Anesthesia Risk Assessment",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Surgical Pre Operative Anesthesia Risk Assessment",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Surgical Pre Operative Anesthesia Risk Assessment.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Surgical Pre Operative Anesthesia Risk Assessment.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-obstetric-fetal-monitoring-distress-assessment": {
+    id: "medical-multi-multi-parameter-obstetric-fetal-monitoring-distress-assessment",
+    name: "MultiParameterObstetricFetalMonitoringDistressAssessmentSkill",
+    displayName: "Multi Parameter Obstetric Fetal Monitoring Distress Assessment",
+    categoryId: "medical",
+    description: "Parses cardiotocography (CTG) fetal heart rate decelerations, variability, and contraction frequency.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Obstetric Fetal Monitoring Distress Assessment",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Obstetric Fetal Monitoring Distress Assessment",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Obstetric Fetal Monitoring Distress Assessment.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Obstetric Fetal Monitoring Distress Assessment.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-psychiatric-mental-status-exam-diagnostic": {
+    id: "medical-multi-multi-stage-psychiatric-mental-status-exam-diagnostic",
+    name: "MultiStagePsychiatricMentalStatusExamDiagnosticSkill",
+    displayName: "Multi Stage Psychiatric Mental Status Exam Diagnostic",
+    categoryId: "medical",
+    description: "Conducts structured Mental Status Examination (MSE) assessing appearance, mood, thought content, and insight.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Psychiatric Mental Status Exam Diagnostic",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Psychiatric Mental Status Exam Diagnostic",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Psychiatric Mental Status Exam Diagnostic.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Psychiatric Mental Status Exam Diagnostic.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-layer-clinical-trial-protocol-adverse-event-reporting": {
+    id: "medical-multi-multi-layer-clinical-trial-protocol-adverse-event-reporting",
+    name: "MultiLayerClinicalTrialProtocolAdverseEventReportingSkill",
+    displayName: "Multi Layer Clinical Trial Protocol Adverse Event Reporting",
+    categoryId: "medical",
+    description: "Monitors clinical trial patient safety, MedDRA coding, and Serious Adverse Event (SAE) FDA filings.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Clinical Trial Protocol Adverse Event Reporting",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Clinical Trial Protocol Adverse Event Reporting",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Clinical Trial Protocol Adverse Event Reporting.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Clinical Trial Protocol Adverse Event Reporting.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-chronic-kidney-disease-ckd-staging-management": {
+    id: "medical-multi-multi-parameter-chronic-kidney-disease-ckd-staging-management",
+    name: "MultiParameterChronicKidneyDiseaseCKDStagingManagementSkill",
+    displayName: "Multi Parameter Chronic Kidney Disease CKD Staging Management",
+    categoryId: "medical",
+    description: "Tracks eGFR decline, urine albumin-to-creatinine ratio, electrolytes, and renal replacement timing.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Chronic Kidney Disease CKD Staging Management",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Chronic Kidney Disease CKD Staging Management",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Chronic Kidney Disease CKD Staging Management.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Chronic Kidney Disease CKD Staging Management.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-system-stroke-acute-ischemic-neuroprotection-protocol": {
+    id: "medical-multi-multi-system-stroke-acute-ischemic-neuroprotection-protocol",
+    name: "MultiSystemStrokeAcuteIschemicNeuroprotectionProtocolSkill",
+    displayName: "Multi System Stroke Acute Ischemic Neuroprotection Protocol",
+    categoryId: "medical",
+    description: "Guides NIHSS stroke scoring, tPA thrombolytic eligibility windows, and endovascular thrombectomy.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi System Stroke Acute Ischemic Neuroprotection Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi System Stroke Acute Ischemic Neuroprotection Protocol",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi System Stroke Acute Ischemic Neuroprotection Protocol.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi System Stroke Acute Ischemic Neuroprotection Protocol.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-diabetes-mellitus-glycemic-control-optimization": {
+    id: "medical-multi-multi-stage-diabetes-mellitus-glycemic-control-optimization",
+    name: "MultiStageDiabetesMellitusGlycemicControlOptimizationSkill",
+    displayName: "Multi Stage Diabetes Mellitus Glycemic Control Optimization",
+    categoryId: "medical",
+    description: "Adjusts basal-bolus insulin regimens, SGLT2 inhibitors, GLP-1 agonists based on continuous glucose monitoring.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Diabetes Mellitus Glycemic Control Optimization",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Diabetes Mellitus Glycemic Control Optimization",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Diabetes Mellitus Glycemic Control Optimization.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Diabetes Mellitus Glycemic Control Optimization.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-factor-rheumatology-autoimmune-antibody-workup": {
+    id: "medical-multi-multi-factor-rheumatology-autoimmune-antibody-workup",
+    name: "MultiFactorRheumatologyAutoimmuneAntibodyWorkupSkill",
+    displayName: "Multi Factor Rheumatology Autoimmune Antibody Workup",
+    categoryId: "medical",
+    description: "Parses ANA, anti-dsDNA, RF, anti-CCP, and complement levels for systemic lupus and rheumatoid arthritis.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Rheumatology Autoimmune Antibody Workup",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Rheumatology Autoimmune Antibody Workup",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Rheumatology Autoimmune Antibody Workup.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Rheumatology Autoimmune Antibody Workup.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-pulmonology-mechanical-ventilation-tuning": {
+    id: "medical-multi-multi-parameter-pulmonology-mechanical-ventilation-tuning",
+    name: "MultiParameterPulmonologyMechanicalVentilationTuningSkill",
+    displayName: "Multi Parameter Pulmonology Mechanical Ventilation Tuning",
+    categoryId: "medical",
+    description: "Tunes ventilator PEEP, tidal volume (6 mL/kg PBW), FiO2, and peak airway pressure for ARDS.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Pulmonology Mechanical Ventilation Tuning",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Pulmonology Mechanical Ventilation Tuning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Pulmonology Mechanical Ventilation Tuning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Pulmonology Mechanical Ventilation Tuning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-gastroenterology-ibd-biotic-therapy-escalation": {
+    id: "medical-multi-multi-stage-gastroenterology-ibd-biotic-therapy-escalation",
+    name: "MultiStageGastroenterologyIBDBioticTherapyEscalationSkill",
+    displayName: "Multi Stage Gastroenterology IBD Biotic Therapy Escalation",
+    categoryId: "medical",
+    description: "Navigates Crohn's and Ulcerative Colitis disease severity, endoscopic scoring, and anti-TNF biologics.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Gastroenterology IBD Biotic Therapy Escalation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Gastroenterology IBD Biotic Therapy Escalation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Gastroenterology IBD Biotic Therapy Escalation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Gastroenterology IBD Biotic Therapy Escalation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-factor-cardiology-heart-failure-guideline-directed-medical-therapy-gdmt": {
+    id: "medical-multi-multi-factor-cardiology-heart-failure-guideline-directed-medical-therapy-gdmt",
+    name: "MultiFactorCardiologyHeartFailureGuidelineDirectedMedicalTherapyGDMTSkill",
+    displayName: "Multi Factor Cardiology Heart Failure Guideline Directed Medical Therapy GDMT",
+    categoryId: "medical",
+    description: "Titrates quadruple GDMT therapy (ARNI, beta-blocker, MRA, SGLT2i) for HFrEF patients.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Cardiology Heart Failure Guideline Directed Medical Therapy GDMT",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Cardiology Heart Failure Guideline Directed Medical Therapy GDMT",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Cardiology Heart Failure Guideline Directed Medical Therapy GDMT.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Cardiology Heart Failure Guideline Directed Medical Therapy GDMT.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-dermatology-pigmented-lesion-melanoma-dermoscopy": {
+    id: "medical-multi-multi-parameter-dermatology-pigmented-lesion-melanoma-dermoscopy",
+    name: "MultiParameterDermatologyPigmentedLesionMelanomaDermoscopySkill",
+    displayName: "Multi Parameter Dermatology Pigmented Lesion Melanoma Dermoscopy",
+    categoryId: "medical",
+    description: "Evaluates skin lesions using ABCDE criteria and dermoscopic structures for biopsy referral.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Dermatology Pigmented Lesion Melanoma Dermoscopy",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Dermatology Pigmented Lesion Melanoma Dermoscopy",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Dermatology Pigmented Lesion Melanoma Dermoscopy.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Dermatology Pigmented Lesion Melanoma Dermoscopy.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-hematology-acute-leukemia-flow-cytometry-workup": {
+    id: "medical-multi-multi-stage-hematology-acute-leukemia-flow-cytometry-workup",
+    name: "MultiStageHematologyAcuteLeukemiaFlowCytometryWorkupSkill",
+    displayName: "Multi Stage Hematology Acute Leukemia Flow Cytometry Workup",
+    categoryId: "medical",
+    description: "Parses bone marrow biopsy flow cytometry markers (CD34, CD33, CD19) distinguishing AML vs ALL.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Hematology Acute Leukemia Flow Cytometry Workup",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Hematology Acute Leukemia Flow Cytometry Workup",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Hematology Acute Leukemia Flow Cytometry Workup.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Hematology Acute Leukemia Flow Cytometry Workup.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-system-geriatric-frailty-comprehensive-assessment": {
+    id: "medical-multi-multi-system-geriatric-frailty-comprehensive-assessment",
+    name: "MultiSystemGeriatricFrailtyComprehensiveAssessmentSkill",
+    displayName: "Multi System Geriatric Frailty Comprehensive Assessment",
+    categoryId: "medical",
+    description: "Evaluates cognitive function (MoCA), polypharmacy, fall risk, activities of daily living (ADLs), and nutrition.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi System Geriatric Frailty Comprehensive Assessment",
+      ruSectionName: "Композитный Multi-Skill: Multi System Geriatric Frailty Comprehensive Assessment",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi System Geriatric Frailty Comprehensive Assessment.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi System Geriatric Frailty Comprehensive Assessment.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-infectious-disease-sepsis-bundle-execution": {
+    id: "medical-multi-multi-parameter-infectious-disease-sepsis-bundle-execution",
+    name: "MultiParameterInfectiousDiseaseSepsisBundleExecutionSkill",
+    displayName: "Multi Parameter Infectious Disease Sepsis Bundle Execution",
+    categoryId: "medical",
+    description: "Executes 1-hour sepsis bundle: serum lactate, blood cultures, broad-spectrum IV antibiotics, and fluid resuscitation.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Infectious Disease Sepsis Bundle Execution",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Infectious Disease Sepsis Bundle Execution",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Infectious Disease Sepsis Bundle Execution.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Infectious Disease Sepsis Bundle Execution.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-orthopedic-fracture-classification-surgical-planning": {
+    id: "medical-multi-multi-stage-orthopedic-fracture-classification-surgical-planning",
+    name: "MultiStageOrthopedicFractureClassificationSurgicalPlanningSkill",
+    displayName: "Multi Stage Orthopedic Fracture Classification Surgical Planning",
+    categoryId: "medical",
+    description: "Classifies bone fractures (AO/OTA system), evaluates compartment syndrome risk, and plans fixation.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Orthopedic Fracture Classification Surgical Planning",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Orthopedic Fracture Classification Surgical Planning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Orthopedic Fracture Classification Surgical Planning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Orthopedic Fracture Classification Surgical Planning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-factor-ophthalmology-glaucoma-intraocular-pressure-progression": {
+    id: "medical-multi-multi-factor-ophthalmology-glaucoma-intraocular-pressure-progression",
+    name: "MultiFactorOphthalmologyGlaucomaIntraocularPressureProgressionSkill",
+    displayName: "Multi Factor Ophthalmology Glaucoma Intraocular Pressure Progression",
+    categoryId: "medical",
+    description: "Monitors visual field defect progression, OCT retinal nerve fiber layer thickness, and IOP drops.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Ophthalmology Glaucoma Intraocular Pressure Progression",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Ophthalmology Glaucoma Intraocular Pressure Progression",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Ophthalmology Glaucoma Intraocular Pressure Progression.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Ophthalmology Glaucoma Intraocular Pressure Progression.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-endocrinology-thyroid-nodule-ultrasound-tirads": {
+    id: "medical-multi-multi-parameter-endocrinology-thyroid-nodule-ultrasound-tirads",
+    name: "MultiParameterEndocrinologyThyroidNoduleUltrasoundTIRADSSkill",
+    displayName: "Multi Parameter Endocrinology Thyroid Nodule Ultrasound TIRADS",
+    categoryId: "medical",
+    description: "Evaluates thyroid nodule echogenicity and microcalcifications assigning ACR TI-RADS score.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Endocrinology Thyroid Nodule Ultrasound TIRADS",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Endocrinology Thyroid Nodule Ultrasound TIRADS",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Endocrinology Thyroid Nodule Ultrasound TIRADS.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Endocrinology Thyroid Nodule Ultrasound TIRADS.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-allergy-anaphylaxis-emergency-treatment-protocol": {
+    id: "medical-multi-multi-stage-allergy-anaphylaxis-emergency-treatment-protocol",
+    name: "MultiStageAllergyAnaphylaxisEmergencyTreatmentProtocolSkill",
+    displayName: "Multi Stage Allergy Anaphylaxis Emergency Treatment Protocol",
+    categoryId: "medical",
+    description: "Guides immediate intramuscular epinephrine, airway stabilization, IV fluids, and antihistamines.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Allergy Anaphylaxis Emergency Treatment Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Allergy Anaphylaxis Emergency Treatment Protocol",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Allergy Anaphylaxis Emergency Treatment Protocol.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Allergy Anaphylaxis Emergency Treatment Protocol.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-factor-nephrology-metabolic-acidosis-anion-gap-calculator": {
+    id: "medical-multi-multi-factor-nephrology-metabolic-acidosis-anion-gap-calculator",
+    name: "MultiFactorNephrologyMetabolicAcidosisAnionGapCalculatorSkill",
+    displayName: "Multi Factor Nephrology Metabolic Acidosis Anion Gap Calculator",
+    categoryId: "medical",
+    description: "Calculates serum anion gap, delta ratio, and urine anion gap diagnosing MUDPILES etiologies.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Nephrology Metabolic Acidosis Anion Gap Calculator",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Nephrology Metabolic Acidosis Anion Gap Calculator",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Nephrology Metabolic Acidosis Anion Gap Calculator.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Nephrology Metabolic Acidosis Anion Gap Calculator.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-otolaryngology-sudden-sensorineural-hearing-loss": {
+    id: "medical-multi-multi-parameter-otolaryngology-sudden-sensorineural-hearing-loss",
+    name: "MultiParameterOtolaryngologySuddenSensorineuralHearingLossSkill",
+    displayName: "Multi Parameter Otolaryngology Sudden Sensorineural Hearing Loss",
+    categoryId: "medical",
+    description: "Evaluates audiogram Weber/Rinne tuning fork tests, MRI internal auditory canal, and oral steroids.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Otolaryngology Sudden Sensorineural Hearing Loss",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Otolaryngology Sudden Sensorineural Hearing Loss",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Otolaryngology Sudden Sensorineural Hearing Loss.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Otolaryngology Sudden Sensorineural Hearing Loss.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-urology-prostate-cancer-risk-stratification-nccn": {
+    id: "medical-multi-multi-stage-urology-prostate-cancer-risk-stratification-nccn",
+    name: "MultiStageUrologyProstateCancerRiskStratificationNCCNSkill",
+    displayName: "Multi Stage Urology Prostate Cancer Risk Stratification NCCN",
+    categoryId: "medical",
+    description: "Combines PSA level, Gleason biopsy score, and MRI PIRADS classification guiding treatment.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Urology Prostate Cancer Risk Stratification NCCN",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Urology Prostate Cancer Risk Stratification NCCN",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Urology Prostate Cancer Risk Stratification NCCN.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Urology Prostate Cancer Risk Stratification NCCN.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-toxicology-overdose-toxidrome-antidote-guide": {
+    id: "medical-multi-multi-parameter-toxicology-overdose-toxidrome-antidote-guide",
+    name: "MultiParameterToxicologyOverdoseToxidromeAntidoteGuideSkill",
+    displayName: "Multi Parameter Toxicology Overdose Toxidrome Antidote Guide",
+    categoryId: "medical",
+    description: "Identifies anticholinergic, opioid, sympathomimetic toxidromes and administers targeted antidotes.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Toxicology Overdose Toxidrome Antidote Guide",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Toxicology Overdose Toxidrome Antidote Guide",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Toxicology Overdose Toxidrome Antidote Guide.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Toxicology Overdose Toxidrome Antidote Guide.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-system-burn-resuscitation-parkland-formula-fluid-calculator": {
+    id: "medical-multi-multi-system-burn-resuscitation-parkland-formula-fluid-calculator",
+    name: "MultiSystemBurnResuscitationParklandFormulaFluidCalculatorSkill",
+    displayName: "Multi System Burn Resuscitation Parkland Formula Fluid Calculator",
+    categoryId: "medical",
+    description: "Calculates total body surface area (TBSA) burn percentage and 24-hour Lactated Ringer's fluid resuscitation.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi System Burn Resuscitation Parkland Formula Fluid Calculator",
+      ruSectionName: "Композитный Multi-Skill: Multi System Burn Resuscitation Parkland Formula Fluid Calculator",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi System Burn Resuscitation Parkland Formula Fluid Calculator.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi System Burn Resuscitation Parkland Formula Fluid Calculator.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-palliative-care-pain-symptom-opioid-rotation": {
+    id: "medical-multi-multi-stage-palliative-care-pain-symptom-opioid-rotation",
+    name: "MultiStagePalliativeCarePainSymptomOpioidRotationSkill",
+    displayName: "Multi Stage Palliative Care Pain Symptom Opioid Rotation",
+    categoryId: "medical",
+    description: "Calculates morphine milligram equivalents (MME) and rotates opioid prescriptions safely.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Palliative Care Pain Symptom Opioid Rotation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Palliative Care Pain Symptom Opioid Rotation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Palliative Care Pain Symptom Opioid Rotation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Palliative Care Pain Symptom Opioid Rotation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-factor-radiology-ct-mri-contrast-safety-pre-workup": {
+    id: "medical-multi-multi-factor-radiology-ct-mri-contrast-safety-pre-workup",
+    name: "MultiFactorRadiologyCTMRIContrastSafetyPreWorkupSkill",
+    displayName: "Multi Factor Radiology CT MRI Contrast Safety Pre Workup",
+    categoryId: "medical",
+    description: "Evaluates eGFR for contrast-induced nephropathy risk and premedicates contrast allergy history.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Radiology CT MRI Contrast Safety Pre Workup",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Radiology CT MRI Contrast Safety Pre Workup",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Radiology CT MRI Contrast Safety Pre Workup.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Radiology CT MRI Contrast Safety Pre Workup.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-pulmonology-asthma-copd-exacerbation-management": {
+    id: "medical-multi-multi-parameter-pulmonology-asthma-copd-exacerbation-management",
+    name: "MultiParameterPulmonologyAsthmaCOPDExacerbationManagementSkill",
+    displayName: "Multi Parameter Pulmonology Asthma COPD Exacerbation Management",
+    categoryId: "medical",
+    description: "Evaluates peak expiratory flow, arterial blood gas, nebulized bronchodilators, and systemic steroids.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Pulmonology Asthma COPD Exacerbation Management",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Pulmonology Asthma COPD Exacerbation Management",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Pulmonology Asthma COPD Exacerbation Management.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Pulmonology Asthma COPD Exacerbation Management.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-neonatal-resuscitation-program-nrp-algorithm": {
+    id: "medical-multi-multi-stage-neonatal-resuscitation-program-nrp-algorithm",
+    name: "MultiStageNeonatalResuscitationProgramNRPAlgorithmSkill",
+    displayName: "Multi Stage Neonatal Resuscitation Program NRP Algorithm",
+    categoryId: "medical",
+    description: "Guides delivery room infant warming, tactile stimulation, positive pressure ventilation, and APGAR scoring.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Neonatal Resuscitation Program NRP Algorithm",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Neonatal Resuscitation Program NRP Algorithm",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Neonatal Resuscitation Program NRP Algorithm.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Neonatal Resuscitation Program NRP Algorithm.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-factor-vascular-surgery-abdominal-aortic-aneurysm-aaa-repair": {
+    id: "medical-multi-multi-factor-vascular-surgery-abdominal-aortic-aneurysm-aaa-repair",
+    name: "MultiFactorVascularSurgeryAbdominalAorticAneurysmAAARepairSkill",
+    displayName: "Multi Factor Vascular Surgery Abdominal Aortic Aneurysm AAA Repair",
+    categoryId: "medical",
+    description: "Monitors AAA diameter expansion rate on ultrasound and evaluates EVAR endovascular repair criteria.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Vascular Surgery Abdominal Aortic Aneurysm AAA Repair",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Vascular Surgery Abdominal Aortic Aneurysm AAA Repair",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Vascular Surgery Abdominal Aortic Aneurysm AAA Repair.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Vascular Surgery Abdominal Aortic Aneurysm AAA Repair.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-hepatology-liver-cirrhosis-meld-child-pugh-score": {
+    id: "medical-multi-multi-parameter-hepatology-liver-cirrhosis-meld-child-pugh-score",
+    name: "MultiParameterHepatologyLiverCirrhosisMELDChildPughScoreSkill",
+    displayName: "Multi Parameter Hepatology Liver Cirrhosis MELD Child Pugh Score",
+    categoryId: "medical",
+    description: "Calculates MELD-Na and Child-Pugh scores assessing mortality risk and liver transplant priority.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Hepatology Liver Cirrhosis MELD Child Pugh Score",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Hepatology Liver Cirrhosis MELD Child Pugh Score",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Hepatology Liver Cirrhosis MELD Child Pugh Score.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Hepatology Liver Cirrhosis MELD Child Pugh Score.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-neurosurgery-traumatic-brain-injury-tbi-protocol": {
+    id: "medical-multi-multi-stage-neurosurgery-traumatic-brain-injury-tbi-protocol",
+    name: "MultiStageNeurosurgeryTraumaticBrainInjuryTBIProtocolSkill",
+    displayName: "Multi Stage Neurosurgery Traumatic Brain Injury TBI Protocol",
+    categoryId: "medical",
+    description: "Manages elevated intracranial pressure (ICP) with hypertonic saline, mannitol, and CPP targets.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Neurosurgery Traumatic Brain Injury TBI Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Neurosurgery Traumatic Brain Injury TBI Protocol",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Neurosurgery Traumatic Brain Injury TBI Protocol.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Neurosurgery Traumatic Brain Injury TBI Protocol.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-factor-cardiovascular-syncope-risk-stratification-san-francisco-rule": {
+    id: "medical-multi-multi-factor-cardiovascular-syncope-risk-stratification-san-francisco-rule",
+    name: "MultiFactorCardiovascularSyncopeRiskStratificationSanFranciscoRuleSkill",
+    displayName: "Multi Factor Cardiovascular Syncope Risk Stratification San Francisco Rule",
+    categoryId: "medical",
+    description: "Evaluates EKG abnormalities, shortness of breath, hematocrit, and systolic BP predicting adverse outcomes.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Cardiovascular Syncope Risk Stratification San Francisco Rule",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Cardiovascular Syncope Risk Stratification San Francisco Rule",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Cardiovascular Syncope Risk Stratification San Francisco Rule.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Cardiovascular Syncope Risk Stratification San Francisco Rule.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-genetics-hereditary-cancer-screening-panel": {
+    id: "medical-multi-multi-parameter-genetics-hereditary-cancer-screening-panel",
+    name: "MultiParameterGeneticsHereditaryCancerScreeningPanelSkill",
+    displayName: "Multi Parameter Genetics Hereditary Cancer Screening Panel",
+    categoryId: "medical",
+    description: "Evaluates BRCA1/2, Lynch Syndrome mismatch repair genes, and genetic counseling indications.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Genetics Hereditary Cancer Screening Panel",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Genetics Hereditary Cancer Screening Panel",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Genetics Hereditary Cancer Screening Panel.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Genetics Hereditary Cancer Screening Panel.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-anesthesiology-malignant-hyperthermia-emergency": {
+    id: "medical-multi-multi-stage-anesthesiology-malignant-hyperthermia-emergency",
+    name: "MultiStageAnesthesiologyMalignantHyperthermiaEmergencySkill",
+    displayName: "Multi Stage Anesthesiology Malignant Hyperthermia Emergency",
+    categoryId: "medical",
+    description: "Executes immediate volatile agent cessation, hyperventilation, and IV Dantrolene administration.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Anesthesiology Malignant Hyperthermia Emergency",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Anesthesiology Malignant Hyperthermia Emergency",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Anesthesiology Malignant Hyperthermia Emergency.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Anesthesiology Malignant Hyperthermia Emergency.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-factor-physical-medicine-rehabilitation-spinal-cord-injury": {
+    id: "medical-multi-multi-factor-physical-medicine-rehabilitation-spinal-cord-injury",
+    name: "MultiFactorPhysicalMedicineRehabilitationSpinalCordInjurySkill",
+    displayName: "Multi Factor Physical Medicine Rehabilitation Spinal Cord Injury",
+    categoryId: "medical",
+    description: "Evaluates ASIA impairment scale motor/sensory levels guiding neuro-rehabilitation goals.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Physical Medicine Rehabilitation Spinal Cord Injury",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Physical Medicine Rehabilitation Spinal Cord Injury",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Physical Medicine Rehabilitation Spinal Cord Injury.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Physical Medicine Rehabilitation Spinal Cord Injury.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-clinical-nutrition-parenteral-tpn-electrolyte-calculator": {
+    id: "medical-multi-multi-parameter-clinical-nutrition-parenteral-tpn-electrolyte-calculator",
+    name: "MultiParameterClinicalNutritionParenteralTPNElectrolyteCalculatorSkill",
+    displayName: "Multi Parameter Clinical Nutrition Parenteral TPN Electrolyte Calculator",
+    categoryId: "medical",
+    description: "Calculates daily calorie requirements, amino acids, dextrose, lipid emulsions, and TPN electrolytes.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Clinical Nutrition Parenteral TPN Electrolyte Calculator",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Clinical Nutrition Parenteral TPN Electrolyte Calculator",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Clinical Nutrition Parenteral TPN Electrolyte Calculator.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Clinical Nutrition Parenteral TPN Electrolyte Calculator.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-oral-maxillofacial-facial-trauma-mandible-fixation": {
+    id: "medical-multi-multi-stage-oral-maxillofacial-facial-trauma-mandible-fixation",
+    name: "MultiStageOralMaxillofacialFacialTraumaMandibleFixationSkill",
+    displayName: "Multi Stage Oral Maxillofacial Facial Trauma Mandible Fixation",
+    categoryId: "medical",
+    description: "Classifies Le Fort facial fractures and guides intermaxillary fixation surgical planning.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Oral Maxillofacial Facial Trauma Mandible Fixation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Oral Maxillofacial Facial Trauma Mandible Fixation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Oral Maxillofacial Facial Trauma Mandible Fixation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Oral Maxillofacial Facial Trauma Mandible Fixation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-factor-reproductive-endocrinology-ivf-ovarian-hyperstimulation": {
+    id: "medical-multi-multi-factor-reproductive-endocrinology-ivf-ovarian-hyperstimulation",
+    name: "MultiFactorReproductiveEndocrinologyIVFOvarianHyperstimulationSkill",
+    displayName: "Multi Factor Reproductive Endocrinology IVF Ovarian Hyperstimulation",
+    categoryId: "medical",
+    description: "Monitors antral follicle count, estradiol levels, and OHSS prevention protocols.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Reproductive Endocrinology IVF Ovarian Hyperstimulation",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Reproductive Endocrinology IVF Ovarian Hyperstimulation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Reproductive Endocrinology IVF Ovarian Hyperstimulation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Reproductive Endocrinology IVF Ovarian Hyperstimulation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-environmental-hypothermia-core-rewarming-protocol": {
+    id: "medical-multi-multi-parameter-environmental-hypothermia-core-rewarming-protocol",
+    name: "MultiParameterEnvironmentalHypothermiaCoreRewarmingProtocolSkill",
+    displayName: "Multi Parameter Environmental Hypothermia Core Rewarming Protocol",
+    categoryId: "medical",
+    description: "Guides active internal core rewarming, warm IV fluids, and cardiac arrhythmia monitoring.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Environmental Hypothermia Core Rewarming Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Environmental Hypothermia Core Rewarming Protocol",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Environmental Hypothermia Core Rewarming Protocol.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Environmental Hypothermia Core Rewarming Protocol.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-podiatry-diabetic-foot-ulcer-osteomyelitis-workup": {
+    id: "medical-multi-multi-stage-podiatry-diabetic-foot-ulcer-osteomyelitis-workup",
+    name: "MultiStagePodiatryDiabeticFootUlcerOsteomyelitisWorkupSkill",
+    displayName: "Multi Stage Podiatry Diabetic Foot Ulcer Osteomyelitis Workup",
+    categoryId: "medical",
+    description: "Classifies Wagner diabetic ulcer grade, evaluates probe-to-bone test, and plans debridement.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Podiatry Diabetic Foot Ulcer Osteomyelitis Workup",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Podiatry Diabetic Foot Ulcer Osteomyelitis Workup",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Podiatry Diabetic Foot Ulcer Osteomyelitis Workup.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Podiatry Diabetic Foot Ulcer Osteomyelitis Workup.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-factor-occupational-medicine-needle-stick-bloodborne-exposure": {
+    id: "medical-multi-multi-factor-occupational-medicine-needle-stick-bloodborne-exposure",
+    name: "MultiFactorOccupationalMedicineNeedleStickBloodborneExposureSkill",
+    displayName: "Multi Factor Occupational Medicine Needle Stick Bloodborne Exposure",
+    categoryId: "medical",
+    description: "Executes HIV post-exposure prophylaxis (PEP) within 72-hour window and Hepatitis B titer checks.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Occupational Medicine Needle Stick Bloodborne Exposure",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Occupational Medicine Needle Stick Bloodborne Exposure",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Occupational Medicine Needle Stick Bloodborne Exposure.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Occupational Medicine Needle Stick Bloodborne Exposure.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-sports-medicine-concussion-return-to-play-protocol": {
+    id: "medical-multi-multi-parameter-sports-medicine-concussion-return-to-play-protocol",
+    name: "MultiParameterSportsMedicineConcussionReturnToPlayProtocolSkill",
+    displayName: "Multi Parameter Sports Medicine Concussion Return To Play Protocol",
+    categoryId: "medical",
+    description: "Evaluates SCAT5 concussion score and guides 6-stage graduated return-to-play progression.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Sports Medicine Concussion Return To Play Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Sports Medicine Concussion Return To Play Protocol",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Sports Medicine Concussion Return To Play Protocol.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Sports Medicine Concussion Return To Play Protocol.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-radiation-oncology-intensity-modulated-radiotherapy-imrt": {
+    id: "medical-multi-multi-stage-radiation-oncology-intensity-modulated-radiotherapy-imrt",
+    name: "MultiStageRadiationOncologyIntensityModulatedRadiotherapyIMRTSkill",
+    displayName: "Multi Stage Radiation Oncology Intensity Modulated Radiotherapy IMRT",
+    categoryId: "medical",
+    description: "Plans gross tumor volume (GTV), planning target volume (PTV), and organs at risk (OAR) dose constraints.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Radiation Oncology Intensity Modulated Radiotherapy IMRT",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Radiation Oncology Intensity Modulated Radiotherapy IMRT",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Radiation Oncology Intensity Modulated Radiotherapy IMRT.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Radiation Oncology Intensity Modulated Radiotherapy IMRT.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-factor-critical-care-central-line-associated-bloodstream-clabsi-bundle": {
+    id: "medical-multi-multi-factor-critical-care-central-line-associated-bloodstream-clabsi-bundle",
+    name: "MultiFactorCriticalCareCentralLineAssociatedBloodstreamCLABSIBundleSkill",
+    displayName: "Multi Factor Critical Care Central Line Associated Bloodstream CLABSI Bundle",
+    categoryId: "medical",
+    description: "Enforces sterile barrier precautions, chlorhexidine skin prep, and daily line necessity checks.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Critical Care Central Line Associated Bloodstream CLABSI Bundle",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Critical Care Central Line Associated Bloodstream CLABSI Bundle",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Critical Care Central Line Associated Bloodstream CLABSI Bundle.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Critical Care Central Line Associated Bloodstream CLABSI Bundle.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-bariatric-surgery-post-op-dumping-syndrome-diet": {
+    id: "medical-multi-multi-parameter-bariatric-surgery-post-op-dumping-syndrome-diet",
+    name: "MultiParameterBariatricSurgeryPostOpDumpingSyndromeDietSkill",
+    displayName: "Multi Parameter Bariatric Surgery Post Op Dumping Syndrome Diet",
+    categoryId: "medical",
+    description: "Guides gastric bypass dietary transition, vitamin supplementation, and dumping syndrome management.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Bariatric Surgery Post Op Dumping Syndrome Diet",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Bariatric Surgery Post Op Dumping Syndrome Diet",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Bariatric Surgery Post Op Dumping Syndrome Diet.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Bariatric Surgery Post Op Dumping Syndrome Diet.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-cardiovascular-infectuous-endocarditis-duke-criteria": {
+    id: "medical-multi-multi-stage-cardiovascular-infectuous-endocarditis-duke-criteria",
+    name: "MultiStageCardiovascularInfectuousEndocarditisDukeCriteriaSkill",
+    displayName: "Multi Stage Cardiovascular Infectuous Endocarditis Duke Criteria",
+    categoryId: "medical",
+    description: "Evaluates major blood culture findings and echocardiographic vegetation for Duke diagnosis.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Cardiovascular Infectuous Endocarditis Duke Criteria",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Cardiovascular Infectuous Endocarditis Duke Criteria",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Cardiovascular Infectuous Endocarditis Duke Criteria.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Cardiovascular Infectuous Endocarditis Duke Criteria.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-factor-hematology-deep-vein-thrombosis-dvt-anticoagulation": {
+    id: "medical-multi-multi-factor-hematology-deep-vein-thrombosis-dvt-anticoagulation",
+    name: "MultiFactorHematologyDeepVeinThrombosisDVTAnticoagulationSkill",
+    displayName: "Multi Factor Hematology Deep Vein Thrombosis DVT Anticoagulation",
+    categoryId: "medical",
+    description: "Calculates Wells DVT score, checks D-dimer, and manages DOAC vs Warfarin bridge therapy.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Hematology Deep Vein Thrombosis DVT Anticoagulation",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Hematology Deep Vein Thrombosis DVT Anticoagulation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Hematology Deep Vein Thrombosis DVT Anticoagulation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Hematology Deep Vein Thrombosis DVT Anticoagulation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-pain-medicine-epidural-steroid-injection-workup": {
+    id: "medical-multi-multi-parameter-pain-medicine-epidural-steroid-injection-workup",
+    name: "MultiParameterPainMedicineEpiduralSteroidInjectionWorkupSkill",
+    displayName: "Multi Parameter Pain Medicine Epidural Steroid Injection Workup",
+    categoryId: "medical",
+    description: "Evaluates lumbar spine MRI nerve root compression prior to fluoroscopic epidural injection.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Pain Medicine Epidural Steroid Injection Workup",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Pain Medicine Epidural Steroid Injection Workup",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Pain Medicine Epidural Steroid Injection Workup.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Pain Medicine Epidural Steroid Injection Workup.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-stage-sleep-medicine-obstructive-sleep-apnea-polysomnography": {
+    id: "medical-multi-multi-stage-sleep-medicine-obstructive-sleep-apnea-polysomnography",
+    name: "MultiStageSleepMedicineObstructiveSleepApneaPolysomnographySkill",
+    displayName: "Multi Stage Sleep Medicine Obstructive Sleep Apnea Polysomnography",
+    categoryId: "medical",
+    description: "Parses Apnea-Hypopnea Index (AHI) and titrates continuous positive airway pressure (CPAP).",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Sleep Medicine Obstructive Sleep Apnea Polysomnography",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Sleep Medicine Obstructive Sleep Apnea Polysomnography",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Sleep Medicine Obstructive Sleep Apnea Polysomnography.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Sleep Medicine Obstructive Sleep Apnea Polysomnography.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-factor-clinical-pathology-blood-transfusion-reaction-protocol": {
+    id: "medical-multi-multi-factor-clinical-pathology-blood-transfusion-reaction-protocol",
+    name: "MultiFactorClinicalPathologyBloodTransfusionReactionProtocolSkill",
+    displayName: "Multi Factor Clinical Pathology Blood Transfusion Reaction Protocol",
+    categoryId: "medical",
+    description: "Identifies acute hemolytic, TRALI, and TACO transfusion reactions and halts blood infusion.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Clinical Pathology Blood Transfusion Reaction Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Clinical Pathology Blood Transfusion Reaction Protocol",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Clinical Pathology Blood Transfusion Reaction Protocol.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Clinical Pathology Blood Transfusion Reaction Protocol.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-parameter-transplant-medicine-immunosuppression-trough-monitoring": {
+    id: "medical-multi-multi-parameter-transplant-medicine-immunosuppression-trough-monitoring",
+    name: "MultiParameterTransplantMedicineImmunosuppressionTroughMonitoringSkill",
+    displayName: "Multi Parameter Transplant Medicine Immunosuppression Trough Monitoring",
+    categoryId: "medical",
+    description: "Monitors Tacrolimus and Cyclosporine trough levels preventing organ rejection and nephrotoxicity.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Parameter Transplant Medicine Immunosuppression Trough Monitoring",
+      ruSectionName: "Композитный Multi-Skill: Multi Parameter Transplant Medicine Immunosuppression Trough Monitoring",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Parameter Transplant Medicine Immunosuppression Trough Monitoring.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Parameter Transplant Medicine Immunosuppression Trough Monitoring.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
+
+  "medical-multi-multi-horizon-master-medical-science-clinical-reasoning-engine": {
+    id: "medical-multi-multi-horizon-master-medical-science-clinical-reasoning-engine",
+    name: "MultiHorizonMasterMedicalScienceClinicalReasoningEngineSkill",
+    displayName: "Multi Horizon Master Medical Science Clinical Reasoning Engine",
+    categoryId: "medical",
+    description: "Enforces master clinical diagnosis, evidence-based therapy, patient safety, and medical excellence.",
+    tags: ["medical","multi-skill","medical-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Medical Science Clinical Reasoning Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Medical Science Clinical Reasoning Engine",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Horizon Master Medical Science Clinical Reasoning Engine.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Horizon Master Medical Science Clinical Reasoning Engine.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["medical","multi-skill","medical-multi"],
+    }),
+  },
 };

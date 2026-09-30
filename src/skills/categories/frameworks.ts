@@ -4382,5 +4382,1504 @@ export const FRAMEWORKS_SKILLS: Record<string, SkillDefinition> = {
       tags: ["frameworks","frameworks","master","framework"],
     }),
   },
+  "frameworks-multi-multi-framework-cynefin-decision-making-matrix": {
+    id: "frameworks-multi-multi-framework-cynefin-decision-making-matrix",
+    name: "MultiFrameworkCynefinDecisionMakingMatrixSkill",
+    displayName: "Multi Framework Cynefin Decision Making Matrix",
+    categoryId: "frameworks",
+    description: "Navigates Clear, Complicated, Complex, Chaotic, and Confusion domains with tailored action steps.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Framework Cynefin Decision Making Matrix",
+      ruSectionName: "Композитный Multi-Skill: Multi Framework Cynefin Decision Making Matrix",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Framework Cynefin Decision Making Matrix.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Framework Cynefin Decision Making Matrix.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-wardley-value-chain-mapping-architecture": {
+    id: "frameworks-multi-multi-stage-wardley-value-chain-mapping-architecture",
+    name: "MultiStageWardleyValueChainMappingArchitectureSkill",
+    displayName: "Multi Stage Wardley Value Chain Mapping Architecture",
+    categoryId: "frameworks",
+    description: "Maps user value chains and component evolution across Genesis, Custom, Product, and Commodity.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Wardley Value Chain Mapping Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Wardley Value Chain Mapping Architecture",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Wardley Value Chain Mapping Architecture.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Wardley Value Chain Mapping Architecture.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-mckinsey-7s-organizational-audit": {
+    id: "frameworks-multi-multi-perspective-mckinsey-7s-organizational-audit",
+    name: "MultiPerspectiveMcKinsey7SOrganizationalAuditSkill",
+    displayName: "Multi Perspective McKinsey 7S Organizational Audit",
+    categoryId: "frameworks",
+    description: "Audits Strategy, Structure, Systems, Shared Values, Style, Staff, and Skills alignment.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective McKinsey 7S Organizational Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective McKinsey 7S Organizational Audit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective McKinsey 7S Organizational Audit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective McKinsey 7S Organizational Audit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-dimension-togaf-enterprise-architecture-togaf-adm": {
+    id: "frameworks-multi-multi-dimension-togaf-enterprise-architecture-togaf-adm",
+    name: "MultiDimensionTOGAFEnterpriseArchitectureTOGAFADMSkill",
+    displayName: "Multi Dimension TOGAF Enterprise Architecture TOGAF ADM",
+    categoryId: "frameworks",
+    description: "Applies Architecture Development Method across Business, Data, Application, and Tech architectures.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Dimension TOGAF Enterprise Architecture TOGAF ADM",
+      ruSectionName: "Композитный Multi-Skill: Multi Dimension TOGAF Enterprise Architecture TOGAF ADM",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Dimension TOGAF Enterprise Architecture TOGAF ADM.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Dimension TOGAF Enterprise Architecture TOGAF ADM.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-phase-design-thinking-double-diamond-framework": {
+    id: "frameworks-multi-multi-phase-design-thinking-double-diamond-framework",
+    name: "MultiPhaseDesignThinkingDoubleDiamondFrameworkSkill",
+    displayName: "Multi Phase Design Thinking Double Diamond Framework",
+    categoryId: "frameworks",
+    description: "Guides Discover, Define, Develop, and Deliver innovation cycles.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Phase Design Thinking Double Diamond Framework",
+      ruSectionName: "Композитный Multi-Skill: Multi Phase Design Thinking Double Diamond Framework",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Phase Design Thinking Double Diamond Framework.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Phase Design Thinking Double Diamond Framework.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-safe-scaled-agile-framework-portfolio": {
+    id: "frameworks-multi-multi-layer-safe-scaled-agile-framework-portfolio",
+    name: "MultiLayerSAFeScaledAgileFrameworkPortfolioSkill",
+    displayName: "Multi Layer SAFe Scaled Agile Framework Portfolio",
+    categoryId: "frameworks",
+    description: "Coordinates Agile Release Trains (ARTs), Program Increments (PIs), and Lean portfolio management.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer SAFe Scaled Agile Framework Portfolio",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer SAFe Scaled Agile Framework Portfolio",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer SAFe Scaled Agile Framework Portfolio.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer SAFe Scaled Agile Framework Portfolio.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-porter-five-forces-industry-attractiveness": {
+    id: "frameworks-multi-multi-perspective-porter-five-forces-industry-attractiveness",
+    name: "MultiPerspectivePorterFiveForcesIndustryAttractivenessSkill",
+    displayName: "Multi Perspective Porter Five Forces Industry Attractiveness",
+    categoryId: "frameworks",
+    description: "Evaluates Supplier Power, Buyer Power, Competitive Rivalry, Substitution, and New Entrants.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Porter Five Forces Industry Attractiveness",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Porter Five Forces Industry Attractiveness",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Porter Five Forces Industry Attractiveness.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Porter Five Forces Industry Attractiveness.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-factor-pestle-macro-environment-audit-framework": {
+    id: "frameworks-multi-multi-factor-pestle-macro-environment-audit-framework",
+    name: "MultiFactorPESTLEMacroEnvironmentAuditFrameworkSkill",
+    displayName: "Multi Factor PESTLE Macro Environment Audit Framework",
+    categoryId: "frameworks",
+    description: "Audits Political, Economic, Social, Technological, Legal, and Environmental external factors.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor PESTLE Macro Environment Audit Framework",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor PESTLE Macro Environment Audit Framework",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor PESTLE Macro Environment Audit Framework.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor PESTLE Macro Environment Audit Framework.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-six-sigma-dmaic-process-quality-engine": {
+    id: "frameworks-multi-multi-layer-six-sigma-dmaic-process-quality-engine",
+    name: "MultiLayerSixSigmaDMAICProcessQualityEngineSkill",
+    displayName: "Multi Layer Six Sigma DMAIC Process Quality Engine",
+    categoryId: "frameworks",
+    description: "Applies Define, Measure, Analyze, Improve, and Control statistical defect elimination.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Six Sigma DMAIC Process Quality Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Six Sigma DMAIC Process Quality Engine",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Six Sigma DMAIC Process Quality Engine.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Six Sigma DMAIC Process Quality Engine.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-level-cobit-it-governance-compliance-architecture": {
+    id: "frameworks-multi-multi-level-cobit-it-governance-compliance-architecture",
+    name: "MultiLevelCOBITITGovernanceComplianceArchitectureSkill",
+    displayName: "Multi Level COBIT IT Governance Compliance Architecture",
+    categoryId: "frameworks",
+    description: "Aligns IT goals with business objectives across Evaluate, Direct, and Monitor governance domains.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level COBIT IT Governance Compliance Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Level COBIT IT Governance Compliance Architecture",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level COBIT IT Governance Compliance Architecture.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level COBIT IT Governance Compliance Architecture.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-swot-tows-strategic-matrix": {
+    id: "frameworks-multi-multi-perspective-swot-tows-strategic-matrix",
+    name: "MultiPerspectiveSWOTTOWSStrategicMatrixSkill",
+    displayName: "Multi Perspective SWOT TOWS Strategic Matrix",
+    categoryId: "frameworks",
+    description: "Converts Strengths, Weaknesses, Opportunities, and Threats into actionable TOWS strategy pairs.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective SWOT TOWS Strategic Matrix",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective SWOT TOWS Strategic Matrix",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective SWOT TOWS Strategic Matrix.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective SWOT TOWS Strategic Matrix.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-lean-startup-build-measure-learn-feedback": {
+    id: "frameworks-multi-multi-stage-lean-startup-build-measure-learn-feedback",
+    name: "MultiStageLeanStartupBuildMeasureLearnFeedbackSkill",
+    displayName: "Multi Stage Lean Startup Build Measure Learn Feedback",
+    categoryId: "frameworks",
+    description: "Runs rapid experiment loops testing Hypotheses via Minimum Viable Products (MVPs).",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Lean Startup Build Measure Learn Feedback",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Lean Startup Build Measure Learn Feedback",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Lean Startup Build Measure Learn Feedback.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Lean Startup Build Measure Learn Feedback.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-level-itil-4-service-value-system-framework": {
+    id: "frameworks-multi-multi-level-itil-4-service-value-system-framework",
+    name: "MultiLevelITIL4ServiceValueSystemFrameworkSkill",
+    displayName: "Multi Level ITIL 4 Service Value System Framework",
+    categoryId: "frameworks",
+    description: "Coordinates Service Value Chain, 34 Management Practices, and Continual Improvement.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level ITIL 4 Service Value System Framework",
+      ruSectionName: "Композитный Multi-Skill: Multi Level ITIL 4 Service Value System Framework",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level ITIL 4 Service Value System Framework.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level ITIL 4 Service Value System Framework.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-factor-ansoff-growth-matrix-strategic-planning": {
+    id: "frameworks-multi-multi-factor-ansoff-growth-matrix-strategic-planning",
+    name: "MultiFactorAnsoffGrowthMatrixStrategicPlanningSkill",
+    displayName: "Multi Factor Ansoff Growth Matrix Strategic Planning",
+    categoryId: "frameworks",
+    description: "Evaluates Market Penetration, Market Development, Product Development, and Diversification.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Ansoff Growth Matrix Strategic Planning",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Ansoff Growth Matrix Strategic Planning",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Factor Ansoff Growth Matrix Strategic Planning.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Factor Ansoff Growth Matrix Strategic Planning.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-bcg-growth-share-portfolio-matrix": {
+    id: "frameworks-multi-multi-perspective-bcg-growth-share-portfolio-matrix",
+    name: "MultiPerspectiveBCGGrowthSharePortfolioMatrixSkill",
+    displayName: "Multi Perspective BCG Growth Share Portfolio Matrix",
+    categoryId: "frameworks",
+    description: "Categorizes business units into Stars, Cash Cows, Question Marks, and Dogs.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective BCG Growth Share Portfolio Matrix",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective BCG Growth Share Portfolio Matrix",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective BCG Growth Share Portfolio Matrix.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective BCG Growth Share Portfolio Matrix.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-zachman-enterprise-architecture-framework": {
+    id: "frameworks-multi-multi-layer-zachman-enterprise-architecture-framework",
+    name: "MultiLayerZachmanEnterpriseArchitectureFrameworkSkill",
+    displayName: "Multi Layer Zachman Enterprise Architecture Framework",
+    categoryId: "frameworks",
+    description: "Fills 6x6 matrix of perspectives (Planner to Worker) against fundamental questions (What, How, Where, Who, When, Why).",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Zachman Enterprise Architecture Framework",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Zachman Enterprise Architecture Framework",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Zachman Enterprise Architecture Framework.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Zachman Enterprise Architecture Framework.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-blue-ocean-strategy-value-innovation": {
+    id: "frameworks-multi-multi-stage-blue-ocean-strategy-value-innovation",
+    name: "MultiStageBlueOceanStrategyValueInnovationSkill",
+    displayName: "Multi Stage Blue Ocean Strategy Value Innovation",
+    categoryId: "frameworks",
+    description: "Applies Four Actions Framework (Eliminate, Reduce, Raise, Create) opening uncontested market space.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Blue Ocean Strategy Value Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Blue Ocean Strategy Value Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Blue Ocean Strategy Value Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Blue Ocean Strategy Value Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-jobs-to-be-done-jtbd-outcome-driven": {
+    id: "frameworks-multi-multi-perspective-jobs-to-be-done-jtbd-outcome-driven",
+    name: "MultiPerspectiveJobsToBeDoneJTBDOutcomeDrivenSkill",
+    displayName: "Multi Perspective Jobs To Be Done JTBD Outcome Driven",
+    categoryId: "frameworks",
+    description: "Uncovers functional, emotional, and social jobs-to-be-done with desired outcome expectations.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Jobs To Be Done JTBD Outcome Driven",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Jobs To Be Done JTBD Outcome Driven",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Jobs To Be Done JTBD Outcome Driven.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Jobs To Be Done JTBD Outcome Driven.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-nist-cybersecurity-framework-csf-2-0": {
+    id: "frameworks-multi-multi-layer-nist-cybersecurity-framework-csf-2-0",
+    name: "MultiLayerNISTCybersecurityFrameworkCSF20Skill",
+    displayName: "Multi Layer NIST Cybersecurity Framework CSF 2 0",
+    categoryId: "frameworks",
+    description: "Maps cybersecurity controls across Identify, Protect, Detect, Respond, Recover, and Govern.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer NIST Cybersecurity Framework CSF 2 0",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer NIST Cybersecurity Framework CSF 2 0",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer NIST Cybersecurity Framework CSF 2 0.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer NIST Cybersecurity Framework CSF 2 0.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-okr-strategic-cascading-objective-engine": {
+    id: "frameworks-multi-multi-stage-okr-strategic-cascading-objective-engine",
+    name: "MultiStageOKRStrategicCascadingObjectiveEngineSkill",
+    displayName: "Multi Stage OKR Strategic Cascading Objective Engine",
+    categoryId: "frameworks",
+    description: "Aligns ambitious company objectives with measurable key results and quarterly initiatives.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage OKR Strategic Cascading Objective Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage OKR Strategic Cascading Objective Engine",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage OKR Strategic Cascading Objective Engine.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage OKR Strategic Cascading Objective Engine.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-value-chain-analysis-primary-support": {
+    id: "frameworks-multi-multi-perspective-value-chain-analysis-primary-support",
+    name: "MultiPerspectiveValueChainAnalysisPrimarySupportSkill",
+    displayName: "Multi Perspective Value Chain Analysis Primary Support",
+    categoryId: "frameworks",
+    description: "Audits Inbound Logistics, Operations, Outbound Logistics, Marketing, and Service value add.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Value Chain Analysis Primary Support",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Value Chain Analysis Primary Support",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Value Chain Analysis Primary Support.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Value Chain Analysis Primary Support.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-apqc-process-classification-framework-pcf": {
+    id: "frameworks-multi-multi-stage-apqc-process-classification-framework-pcf",
+    name: "MultiStageAPQCProcessClassificationFrameworkPCFSkill",
+    displayName: "Multi Stage APQC Process Classification Framework PCF",
+    categoryId: "frameworks",
+    description: "Standardizes operating processes using APQC cross-industry benchmark taxonomy.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage APQC Process Classification Framework PCF",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage APQC Process Classification Framework PCF",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage APQC Process Classification Framework PCF.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage APQC Process Classification Framework PCF.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-level-coso-enterprise-risk-management-erm": {
+    id: "frameworks-multi-multi-level-coso-enterprise-risk-management-erm",
+    name: "MultiLevelCOSOEnterpriseRiskManagementERMSkill",
+    displayName: "Multi Level COSO Enterprise Risk Management ERM",
+    categoryId: "frameworks",
+    description: "Aligns governance, risk management, and internal controls using COSO 5-component framework.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level COSO Enterprise Risk Management ERM",
+      ruSectionName: "Композитный Multi-Skill: Multi Level COSO Enterprise Risk Management ERM",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level COSO Enterprise Risk Management ERM.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level COSO Enterprise Risk Management ERM.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-vrio-competitive-capability-audit": {
+    id: "frameworks-multi-multi-perspective-vrio-competitive-capability-audit",
+    name: "MultiPerspectiveVRIOCompetitiveCapabilityAuditSkill",
+    displayName: "Multi Perspective VRIO Competitive Capability Audit",
+    categoryId: "frameworks",
+    description: "Evaluates resources on Value, Rarity, Inimitability, and Organization for sustainable advantage.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective VRIO Competitive Capability Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective VRIO Competitive Capability Audit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective VRIO Competitive Capability Audit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective VRIO Competitive Capability Audit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-capability-maturity-model-integration-cmmi": {
+    id: "frameworks-multi-multi-stage-capability-maturity-model-integration-cmmi",
+    name: "MultiStageCapabilityMaturityModelIntegrationCMMISkill",
+    displayName: "Multi Stage Capability Maturity Model Integration CMMI",
+    categoryId: "frameworks",
+    description: "Assesses organizational maturity across Initial, Managed, Defined, Quantitatively Managed, and Optimizing.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Capability Maturity Model Integration CMMI",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Capability Maturity Model Integration CMMI",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Capability Maturity Model Integration CMMI.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Capability Maturity Model Integration CMMI.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-crossing-the-chasm-technology-adoption": {
+    id: "frameworks-multi-multi-perspective-crossing-the-chasm-technology-adoption",
+    name: "MultiPerspectiveCrossingTheChasmTechnologyAdoptionSkill",
+    displayName: "Multi Perspective Crossing The Chasm Technology Adoption",
+    categoryId: "frameworks",
+    description: "Navigates tech adoption lifecycle from Innovators and Early Adopters across the chasm to Mainstream.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Crossing The Chasm Technology Adoption",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Crossing The Chasm Technology Adoption",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Crossing The Chasm Technology Adoption.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Crossing The Chasm Technology Adoption.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-balanced-scorecard-strategy-mapping": {
+    id: "frameworks-multi-multi-layer-balanced-scorecard-strategy-mapping",
+    name: "MultiLayerBalancedScorecardStrategyMappingSkill",
+    displayName: "Multi Layer Balanced Scorecard Strategy Mapping",
+    categoryId: "frameworks",
+    description: "Maps cause-and-effect financial, customer, process, and learning objectives visually.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Balanced Scorecard Strategy Mapping",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Balanced Scorecard Strategy Mapping",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Balanced Scorecard Strategy Mapping.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Balanced Scorecard Strategy Mapping.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-scor-supply-chain-operations-reference": {
+    id: "frameworks-multi-multi-stage-scor-supply-chain-operations-reference",
+    name: "MultiStageSCORSupplyChainOperationsReferenceSkill",
+    displayName: "Multi Stage SCOR Supply Chain Operations Reference",
+    categoryId: "frameworks",
+    description: "Standardizes supply chain processes across Plan, Source, Make, Deliver, Return, and Enable.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage SCOR Supply Chain Operations Reference",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage SCOR Supply Chain Operations Reference",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage SCOR Supply Chain Operations Reference.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage SCOR Supply Chain Operations Reference.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-mckinsey-horizon-model-innovation": {
+    id: "frameworks-multi-multi-perspective-mckinsey-horizon-model-innovation",
+    name: "MultiPerspectiveMcKinseyHorizonModelInnovationSkill",
+    displayName: "Multi Perspective McKinsey Horizon Model Innovation",
+    categoryId: "frameworks",
+    description: "Allocates innovation budget across Horizon 1 core, Horizon 2 emerging, and Horizon 3 future bets.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective McKinsey Horizon Model Innovation",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective McKinsey Horizon Model Innovation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective McKinsey Horizon Model Innovation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective McKinsey Horizon Model Innovation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-iso-9001-quality-management-system-qms": {
+    id: "frameworks-multi-multi-layer-iso-9001-quality-management-system-qms",
+    name: "MultiLayerISO9001QualityManagementSystemQMSSkill",
+    displayName: "Multi Layer ISO 9001 Quality Management System QMS",
+    categoryId: "frameworks",
+    description: "Establishes Plan-Do-Check-Act (PDCA) quality management controls and audit documentation.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer ISO 9001 Quality Management System QMS",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer ISO 9001 Quality Management System QMS",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer ISO 9001 Quality Management System QMS.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer ISO 9001 Quality Management System QMS.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-kano-model-feature-satisfaction-matrix": {
+    id: "frameworks-multi-multi-perspective-kano-model-feature-satisfaction-matrix",
+    name: "MultiPerspectiveKanoModelFeatureSatisfactionMatrixSkill",
+    displayName: "Multi Perspective Kano Model Feature Satisfaction Matrix",
+    categoryId: "frameworks",
+    description: "Classifies features into Basic, Performance, Excitement, Indifferent, and Reverse expectations.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Kano Model Feature Satisfaction Matrix",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Kano Model Feature Satisfaction Matrix",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Kano Model Feature Satisfaction Matrix.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Kano Model Feature Satisfaction Matrix.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-lean-canvas-one-page-startup-model": {
+    id: "frameworks-multi-multi-stage-lean-canvas-one-page-startup-model",
+    name: "MultiStageLeanCanvasOnePageStartupModelSkill",
+    displayName: "Multi Stage Lean Canvas One Page Startup Model",
+    categoryId: "frameworks",
+    description: "Formulates problem, solution, key metrics, unique value proposition, channels, and cost structure.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Lean Canvas One Page Startup Model",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Lean Canvas One Page Startup Model",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Lean Canvas One Page Startup Model.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Lean Canvas One Page Startup Model.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-level-prince2-project-governance-framework": {
+    id: "frameworks-multi-multi-level-prince2-project-governance-framework",
+    name: "MultiLevelPRINCE2ProjectGovernanceFrameworkSkill",
+    displayName: "Multi Level PRINCE2 Project Governance Framework",
+    categoryId: "frameworks",
+    description: "Manages projects via stage gates, business case justification, and tolerance thresholds.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level PRINCE2 Project Governance Framework",
+      ruSectionName: "Композитный Multi-Skill: Multi Level PRINCE2 Project Governance Framework",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level PRINCE2 Project Governance Framework.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level PRINCE2 Project Governance Framework.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-flywheel-effect-growth-engine": {
+    id: "frameworks-multi-multi-perspective-flywheel-effect-growth-engine",
+    name: "MultiPerspectiveFlywheelEffectGrowthEngineSkill",
+    displayName: "Multi Perspective Flywheel Effect Growth Engine",
+    categoryId: "frameworks",
+    description: "Designs self-reinforcing business flywheels where each component accelerates momentum.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Flywheel Effect Growth Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Flywheel Effect Growth Engine",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Flywheel Effect Growth Engine.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Flywheel Effect Growth Engine.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-archimate-enterprise-modeling-standard": {
+    id: "frameworks-multi-multi-layer-archimate-enterprise-modeling-standard",
+    name: "MultiLayerArchimateEnterpriseModelingStandardSkill",
+    displayName: "Multi Layer Archimate Enterprise Modeling Standard",
+    categoryId: "frameworks",
+    description: "Drafts standardized Archimate diagrams across Business, Application, and Technology layers.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Archimate Enterprise Modeling Standard",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Archimate Enterprise Modeling Standard",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Archimate Enterprise Modeling Standard.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Archimate Enterprise Modeling Standard.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-pmbok-7th-edition-performance-domains": {
+    id: "frameworks-multi-multi-stage-pmbok-7th-edition-performance-domains",
+    name: "MultiStagePMBOK7thEditionPerformanceDomainsSkill",
+    displayName: "Multi Stage PMBOK 7th Edition Performance Domains",
+    categoryId: "frameworks",
+    description: "Aligns project delivery across Stakeholders, Team, Development Approach, Planning, and Value.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage PMBOK 7th Edition Performance Domains",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage PMBOK 7th Edition Performance Domains",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage PMBOK 7th Edition Performance Domains.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage PMBOK 7th Edition Performance Domains.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-horizon-scanning-weak-signal-detection": {
+    id: "frameworks-multi-multi-perspective-horizon-scanning-weak-signal-detection",
+    name: "MultiPerspectiveHorizonScanningWeakSignalDetectionSkill",
+    displayName: "Multi Perspective Horizon Scanning Weak Signal Detection",
+    categoryId: "frameworks",
+    description: "Scans emerging technology and societal signals for early strategic disruption warning.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Horizon Scanning Weak Signal Detection",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Horizon Scanning Weak Signal Detection",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Horizon Scanning Weak Signal Detection.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Horizon Scanning Weak Signal Detection.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-iso-27001-information-security-controls": {
+    id: "frameworks-multi-multi-layer-iso-27001-information-security-controls",
+    name: "MultiLayerISO27001InformationSecurityControlsSkill",
+    displayName: "Multi Layer ISO 27001 Information Security Controls",
+    categoryId: "frameworks",
+    description: "Applies Annex A security controls establishing an Information Security Management System (ISMS).",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer ISO 27001 Information Security Controls",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer ISO 27001 Information Security Controls",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer ISO 27001 Information Security Controls.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer ISO 27001 Information Security Controls.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-kotter-8-step-organizational-change": {
+    id: "frameworks-multi-multi-stage-kotter-8-step-organizational-change",
+    name: "MultiStageKotter8StepOrganizationalChangeSkill",
+    displayName: "Multi Stage Kotter 8 Step Organizational Change",
+    categoryId: "frameworks",
+    description: "Executes urgency creation, guiding coalition, vision communication, quick wins, and cultural anchor.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Kotter 8 Step Organizational Change",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Kotter 8 Step Organizational Change",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Kotter 8 Step Organizational Change.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Kotter 8 Step Organizational Change.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-ge-mckinsey-9-box-matrix-investment": {
+    id: "frameworks-multi-multi-perspective-ge-mckinsey-9-box-matrix-investment",
+    name: "MultiPerspectiveGEMcKinsey9BoxMatrixInvestmentSkill",
+    displayName: "Multi Perspective GE McKinsey 9 Box Matrix Investment",
+    categoryId: "frameworks",
+    description: "Evaluates business units based on Industry Attractiveness vs Competitive Business Unit Strength.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective GE McKinsey 9 Box Matrix Investment",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective GE McKinsey 9 Box Matrix Investment",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective GE McKinsey 9 Box Matrix Investment.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective GE McKinsey 9 Box Matrix Investment.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-aws-well-architected-framework-review": {
+    id: "frameworks-multi-multi-layer-aws-well-architected-framework-review",
+    name: "MultiLayerAWSWellArchitectedFrameworkReviewSkill",
+    displayName: "Multi Layer AWS Well Architected Framework Review",
+    categoryId: "frameworks",
+    description: "Evaluates cloud workloads across Operational Excellence, Security, Reliability, Performance, Cost, and Sustainability.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer AWS Well Architected Framework Review",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer AWS Well Architected Framework Review",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer AWS Well Architected Framework Review.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer AWS Well Architected Framework Review.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-waterfall-agile-hybrid-project-governance": {
+    id: "frameworks-multi-multi-stage-waterfall-agile-hybrid-project-governance",
+    name: "MultiStageWaterfallAgileHybridProjectGovernanceSkill",
+    displayName: "Multi Stage Waterfall Agile Hybrid Project Governance",
+    categoryId: "frameworks",
+    description: "Combines Stage-Gate fixed budgeting with iterative Scrum sprint execution.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Waterfall Agile Hybrid Project Governance",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Waterfall Agile Hybrid Project Governance",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Waterfall Agile Hybrid Project Governance.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Waterfall Agile Hybrid Project Governance.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-customer-experience-journey-mapping": {
+    id: "frameworks-multi-multi-perspective-customer-experience-journey-mapping",
+    name: "MultiPerspectiveCustomerExperienceJourneyMappingSkill",
+    displayName: "Multi Perspective Customer Experience Journey Mapping",
+    categoryId: "frameworks",
+    description: "Maps customer touchpoints, emotional highs/lows, friction points, and improvement ideas.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Customer Experience Journey Mapping",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Customer Experience Journey Mapping",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Customer Experience Journey Mapping.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Customer Experience Journey Mapping.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-zero-trust-architecture-zta-principles": {
+    id: "frameworks-multi-multi-layer-zero-trust-architecture-zta-principles",
+    name: "MultiLayerZeroTrustArchitectureZTAPrinciplesSkill",
+    displayName: "Multi Layer Zero Trust Architecture ZTA Principles",
+    categoryId: "frameworks",
+    description: "Applies Never Trust, Always Verify, Least Privilege, and Assume Breach security frameworks.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Zero Trust Architecture ZTA Principles",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Zero Trust Architecture ZTA Principles",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Zero Trust Architecture ZTA Principles.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Zero Trust Architecture ZTA Principles.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-spotify-engineering-culture-model-squads": {
+    id: "frameworks-multi-multi-stage-spotify-engineering-culture-model-squads",
+    name: "MultiStageSpotifyEngineeringCultureModelSquadsSkill",
+    displayName: "Multi Stage Spotify Engineering Culture Model Squads",
+    categoryId: "frameworks",
+    description: "Coordinates autonomous Squads, Tribes, Chapters, and Guilds for agile delivery.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Spotify Engineering Culture Model Squads",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Spotify Engineering Culture Model Squads",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Spotify Engineering Culture Model Squads.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Spotify Engineering Culture Model Squads.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-scenario-planning-shell-method": {
+    id: "frameworks-multi-multi-perspective-scenario-planning-shell-method",
+    name: "MultiPerspectiveScenarioPlanningShellMethodSkill",
+    displayName: "Multi Perspective Scenario Planning Shell Method",
+    categoryId: "frameworks",
+    description: "Constructs plausible future scenarios testing strategic resilience against high uncertainty.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Scenario Planning Shell Method",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Scenario Planning Shell Method",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Scenario Planning Shell Method.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Scenario Planning Shell Method.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-iso-31000-risk-management-guidelines": {
+    id: "frameworks-multi-multi-layer-iso-31000-risk-management-guidelines",
+    name: "MultiLayerISO31000RiskManagementGuidelinesSkill",
+    displayName: "Multi Layer ISO 31000 Risk Management Guidelines",
+    categoryId: "frameworks",
+    description: "Establishes risk assessment, risk treatment, risk reporting, and risk governance cycles.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer ISO 31000 Risk Management Guidelines",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer ISO 31000 Risk Management Guidelines",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer ISO 31000 Risk Management Guidelines.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer ISO 31000 Risk Management Guidelines.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-3c-model-ohmae-strategic-triangle": {
+    id: "frameworks-multi-multi-stage-3c-model-ohmae-strategic-triangle",
+    name: "MultiStage3CModelOhmaeStrategicTriangleSkill",
+    displayName: "Multi Stage 3C Model Ohmae Strategic Triangle",
+    categoryId: "frameworks",
+    description: "Aligns strategic positioning across Corporation, Customer, and Competitors.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage 3C Model Ohmae Strategic Triangle",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage 3C Model Ohmae Strategic Triangle",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage 3C Model Ohmae Strategic Triangle.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage 3C Model Ohmae Strategic Triangle.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-value-proposition-design-strategyzer": {
+    id: "frameworks-multi-multi-perspective-value-proposition-design-strategyzer",
+    name: "MultiPerspectiveValuePropositionDesignStrategyzerSkill",
+    displayName: "Multi Perspective Value Proposition Design Strategyzer",
+    categoryId: "frameworks",
+    description: "Fits Customer Profile (pains, gains, jobs) with Value Map (products, pain relievers, gain creators).",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Value Proposition Design Strategyzer",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Value Proposition Design Strategyzer",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Value Proposition Design Strategyzer.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Value Proposition Design Strategyzer.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-dama-dmbok-data-management-framework": {
+    id: "frameworks-multi-multi-layer-dama-dmbok-data-management-framework",
+    name: "MultiLayerDAMADMBOKDataManagementFrameworkSkill",
+    displayName: "Multi Layer DAMA DMBOK Data Management Framework",
+    categoryId: "frameworks",
+    description: "Coordinates 11 data management knowledge areas from Architecture to Data Quality.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer DAMA DMBOK Data Management Framework",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer DAMA DMBOK Data Management Framework",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer DAMA DMBOK Data Management Framework.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer DAMA DMBOK Data Management Framework.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-lean-manufacturing-5s-housekeeping-kaizen": {
+    id: "frameworks-multi-multi-stage-lean-manufacturing-5s-housekeeping-kaizen",
+    name: "MultiStageLeanManufacturing5SHousekeepingKaizenSkill",
+    displayName: "Multi Stage Lean Manufacturing 5S Housekeeping Kaizen",
+    categoryId: "frameworks",
+    description: "Implements Sort, Set in order, Shine, Standardize, and Sustain continuous improvement.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Lean Manufacturing 5S Housekeeping Kaizen",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Lean Manufacturing 5S Housekeeping Kaizen",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Lean Manufacturing 5S Housekeeping Kaizen.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Lean Manufacturing 5S Housekeeping Kaizen.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-hook-model-behavioral-engagement": {
+    id: "frameworks-multi-multi-perspective-hook-model-behavioral-engagement",
+    name: "MultiPerspectiveHookModelBehavioralEngagementSkill",
+    displayName: "Multi Perspective Hook Model Behavioral Engagement",
+    categoryId: "frameworks",
+    description: "Structures user engagement loops via Trigger, Action, Variable Reward, and Investment.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Hook Model Behavioral Engagement",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Hook Model Behavioral Engagement",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Hook Model Behavioral Engagement.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Hook Model Behavioral Engagement.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-cis-critical-security-controls-v8": {
+    id: "frameworks-multi-multi-layer-cis-critical-security-controls-v8",
+    name: "MultiLayerCISCriticalSecurityControlsv8Skill",
+    displayName: "Multi Layer CIS Critical Security Controls v8",
+    categoryId: "frameworks",
+    description: "Applies 18 prioritized cybersecurity safeguard controls for enterprise defense.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer CIS Critical Security Controls v8",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer CIS Critical Security Controls v8",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer CIS Critical Security Controls v8.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer CIS Critical Security Controls v8.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-scrum-at-scale-scaled-architecture": {
+    id: "frameworks-multi-multi-stage-scrum-at-scale-scaled-architecture",
+    name: "MultiStageScrumatScaleScaledArchitectureSkill",
+    displayName: "Multi Stage Scrum at Scale Scaled Architecture",
+    categoryId: "frameworks",
+    description: "Coordinates Scrum-of-Scrums and Executive Action Teams for enterprise scale.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Scrum at Scale Scaled Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Scrum at Scale Scaled Architecture",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Scrum at Scale Scaled Architecture.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Scrum at Scale Scaled Architecture.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-adkar-change-readiness-assessment": {
+    id: "frameworks-multi-multi-perspective-adkar-change-readiness-assessment",
+    name: "MultiPerspectiveADKARChangeReadinessAssessmentSkill",
+    displayName: "Multi Perspective ADKAR Change Readiness Assessment",
+    categoryId: "frameworks",
+    description: "Measures organizational Awareness, Desire, Knowledge, Ability, and Reinforcement score.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective ADKAR Change Readiness Assessment",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective ADKAR Change Readiness Assessment",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective ADKAR Change Readiness Assessment.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective ADKAR Change Readiness Assessment.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-c4-architecture-software-diagramming": {
+    id: "frameworks-multi-multi-layer-c4-architecture-software-diagramming",
+    name: "MultiLayerC4ArchitectureSoftwareDiagrammingSkill",
+    displayName: "Multi Layer C4 Architecture Software Diagramming",
+    categoryId: "frameworks",
+    description: "Renders architecture views across Context, Container, Component, and Code levels.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer C4 Architecture Software Diagramming",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer C4 Architecture Software Diagramming",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer C4 Architecture Software Diagramming.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer C4 Architecture Software Diagramming.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-stage-raci-responsibility-assignment-matrix": {
+    id: "frameworks-multi-multi-stage-raci-responsibility-assignment-matrix",
+    name: "MultiStageRACIResponsibilityAssignmentMatrixSkill",
+    displayName: "Multi Stage RACI Responsibility Assignment Matrix",
+    categoryId: "frameworks",
+    description: "Defines Responsible, Accountable, Consulted, and Informed roles across project deliverables.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage RACI Responsibility Assignment Matrix",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage RACI Responsibility Assignment Matrix",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage RACI Responsibility Assignment Matrix.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage RACI Responsibility Assignment Matrix.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-perspective-hambrick-fredrickson-strategy-diamond": {
+    id: "frameworks-multi-multi-perspective-hambrick-fredrickson-strategy-diamond",
+    name: "MultiPerspectiveHambrickFredricksonStrategyDiamondSkill",
+    displayName: "Multi Perspective Hambrick Fredrickson Strategy Diamond",
+    categoryId: "frameworks",
+    description: "Aligns Arenas, Vehicles, Differentiators, Staging, and Economic Logic into a strategy diamond.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Hambrick Fredrickson Strategy Diamond",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Hambrick Fredrickson Strategy Diamond",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Hambrick Fredrickson Strategy Diamond.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Hambrick Fredrickson Strategy Diamond.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-layer-iso-22301-business-continuity-management": {
+    id: "frameworks-multi-multi-layer-iso-22301-business-continuity-management",
+    name: "MultiLayerISO22301BusinessContinuityManagementSkill",
+    displayName: "Multi Layer ISO 22301 Business Continuity Management",
+    categoryId: "frameworks",
+    description: "Establishes Business Impact Analysis (BIA), disaster recovery plans, and crisis drills.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer ISO 22301 Business Continuity Management",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer ISO 22301 Business Continuity Management",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer ISO 22301 Business Continuity Management.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer ISO 22301 Business Continuity Management.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
+
+  "frameworks-multi-multi-horizon-master-strategic-framework-engine": {
+    id: "frameworks-multi-multi-horizon-master-strategic-framework-engine",
+    name: "MultiHorizonMasterStrategicFrameworkEngineSkill",
+    displayName: "Multi Horizon Master Strategic Framework Engine",
+    categoryId: "frameworks",
+    description: "Enforces master alignment across enterprise frameworks, competitive strategy, and execution methodologies.",
+    tags: ["frameworks","multi-skill","frameworks-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Strategic Framework Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Strategic Framework Engine",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Master Strategic Framework Engine.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Master Strategic Framework Engine.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","multi-skill","frameworks-multi"],
+    }),
+  },
 };
 

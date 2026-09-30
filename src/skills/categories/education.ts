@@ -4378,4 +4378,1503 @@ sectionName: 'Andragogical Adult Learning Principles',
       tags: ["education","education-topup","topup","master"],
     }),
   },
+  "education-multi-multi-stage-differentiated-instructional-curriculum-design": {
+    id: "education-multi-multi-stage-differentiated-instructional-curriculum-design",
+    name: "MultiStageDifferentiatedInstructionalCurriculumDesignSkill",
+    displayName: "Multi Stage Differentiated Instructional Curriculum Design",
+    categoryId: "education",
+    description: "Tailors lesson plans dynamically for advanced, grade-level, and struggling learners.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Differentiated Instructional Curriculum Design",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Differentiated Instructional Curriculum Design",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Differentiated Instructional Curriculum Design.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Differentiated Instructional Curriculum Design.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-bloom-taxonomy-cognitive-scaffolding": {
+    id: "education-multi-multi-level-bloom-taxonomy-cognitive-scaffolding",
+    name: "MultiLevelBloomTaxonomyCognitiveScaffoldingSkill",
+    displayName: "Multi Level Bloom Taxonomy Cognitive Scaffolding",
+    categoryId: "education",
+    description: "Guides students systematically from Remember and Understand up to Evaluate and Create.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Bloom Taxonomy Cognitive Scaffolding",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Bloom Taxonomy Cognitive Scaffolding",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Bloom Taxonomy Cognitive Scaffolding.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Bloom Taxonomy Cognitive Scaffolding.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-formative-diagnostic-assessment-suite": {
+    id: "education-multi-multi-method-formative-diagnostic-assessment-suite",
+    name: "MultiMethodFormativeDiagnosticAssessmentSuiteSkill",
+    displayName: "Multi Method Formative Diagnostic Assessment Suite",
+    categoryId: "education",
+    description: "Combines diagnostic pre-tests, exit tickets, peer grading rubrics, and summative exams.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Formative Diagnostic Assessment Suite",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Formative Diagnostic Assessment Suite",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Formative Diagnostic Assessment Suite.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Formative Diagnostic Assessment Suite.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-modal-interactive-learning-activity-design": {
+    id: "education-multi-multi-modal-interactive-learning-activity-design",
+    name: "MultiModalInteractiveLearningActivityDesignSkill",
+    displayName: "Multi Modal Interactive Learning Activity Design",
+    categoryId: "education",
+    description: "Integrates visual diagrams, auditory discussions, kinesthetic experiments, and reading tasks.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Modal Interactive Learning Activity Design",
+      ruSectionName: "Композитный Multi-Skill: Multi Modal Interactive Learning Activity Design",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Modal Interactive Learning Activity Design.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Modal Interactive Learning Activity Design.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-project-based-learning-pbl-unit-blueprint": {
+    id: "education-multi-multi-stage-project-based-learning-pbl-unit-blueprint",
+    name: "MultiStageProjectBasedLearningPBLUnitBlueprintSkill",
+    displayName: "Multi Stage Project Based Learning PBL Unit Blueprint",
+    categoryId: "education",
+    description: "Structures real-world problem solving units with student inquiry, milestone checks, and public showcases.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Project Based Learning PBL Unit Blueprint",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Project Based Learning PBL Unit Blueprint",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Project Based Learning PBL Unit Blueprint.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Project Based Learning PBL Unit Blueprint.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-universal-design-for-learning-udl-scaffolding": {
+    id: "education-multi-multi-level-universal-design-for-learning-udl-scaffolding",
+    name: "MultiLevelUniversalDesignforLearningUDLScaffoldingSkill",
+    displayName: "Multi Level Universal Design for Learning UDL Scaffolding",
+    categoryId: "education",
+    description: "Provides multiple means of engagement, representation, and action/expression.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Universal Design for Learning UDL Scaffolding",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Universal Design for Learning UDL Scaffolding",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Universal Design for Learning UDL Scaffolding.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Universal Design for Learning UDL Scaffolding.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-perspective-socratic-seminar-discussion-guide": {
+    id: "education-multi-multi-perspective-socratic-seminar-discussion-guide",
+    name: "MultiPerspectiveSocraticSeminarDiscussionGuideSkill",
+    displayName: "Multi Perspective Socratic Seminar Discussion Guide",
+    categoryId: "education",
+    description: "Facilitates student-led Socratic seminars with open-ended textual analysis questions.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Socratic Seminar Discussion Guide",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Socratic Seminar Discussion Guide",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Perspective Socratic Seminar Discussion Guide.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Perspective Socratic Seminar Discussion Guide.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-gamified-learning-progression-framework": {
+    id: "education-multi-multi-stage-gamified-learning-progression-framework",
+    name: "MultiStageGamifiedLearningProgressionFrameworkSkill",
+    displayName: "Multi Stage Gamified Learning Progression Framework",
+    categoryId: "education",
+    description: "Structures badges, quest milestones, XP points, and leaderboard mechanics into academic units.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Gamified Learning Progression Framework",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Gamified Learning Progression Framework",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Gamified Learning Progression Framework.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Gamified Learning Progression Framework.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-dyslexia-adhd-accessibility-accommodations": {
+    id: "education-multi-multi-level-dyslexia-adhd-accessibility-accommodations",
+    name: "MultiLevelDyslexiaADHDAccessibilityAccommodationsSkill",
+    displayName: "Multi Level Dyslexia ADHD Accessibility Accommodations",
+    categoryId: "education",
+    description: "Adapts curriculum materials with dyslexic-friendly fonts, chunked instructions, and extra time.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Dyslexia ADHD Accessibility Accommodations",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Dyslexia ADHD Accessibility Accommodations",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Dyslexia ADHD Accessibility Accommodations.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Dyslexia ADHD Accessibility Accommodations.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-flipped-classroom-pre-work-architecture": {
+    id: "education-multi-multi-method-flipped-classroom-pre-work-architecture",
+    name: "MultiMethodFlippedClassroomPreWorkArchitectureSkill",
+    displayName: "Multi Method Flipped Classroom Pre Work Architecture",
+    categoryId: "education",
+    description: "Coordinates pre-class video lectures, comprehension quizzes, and in-class problem-solving labs.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Flipped Classroom Pre Work Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Flipped Classroom Pre Work Architecture",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Flipped Classroom Pre Work Architecture.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Flipped Classroom Pre Work Architecture.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-stem-engineering-design-challenge": {
+    id: "education-multi-multi-stage-stem-engineering-design-challenge",
+    name: "MultiStageSTEMEngineeringDesignChallengeSkill",
+    displayName: "Multi Stage STEM Engineering Design Challenge",
+    categoryId: "education",
+    description: "Guides students through Ask, Imagine, Plan, Create, Test, and Improve engineering cycles.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage STEM Engineering Design Challenge",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage STEM Engineering Design Challenge",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage STEM Engineering Design Challenge.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage STEM Engineering Design Challenge.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-language-immersion-scaffolding-framework": {
+    id: "education-multi-multi-level-language-immersion-scaffolding-framework",
+    name: "MultiLevelLanguageImmersionScaffoldingFrameworkSkill",
+    displayName: "Multi Level Language Immersion Scaffolding Framework",
+    categoryId: "education",
+    description: "Scaffolds dual-language instruction using sentence frames, visual vocabulary, and code-switching.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Language Immersion Scaffolding Framework",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Language Immersion Scaffolding Framework",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Language Immersion Scaffolding Framework.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Language Immersion Scaffolding Framework.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-social-emotional-learning-sel-curriculum": {
+    id: "education-multi-multi-method-social-emotional-learning-sel-curriculum",
+    name: "MultiMethodSocialEmotionalLearningSELCurriculumSkill",
+    displayName: "Multi Method Social Emotional Learning SEL Curriculum",
+    categoryId: "education",
+    description: "Integrates self-awareness, self-management, social awareness, and responsible decision-making.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Social Emotional Learning SEL Curriculum",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Social Emotional Learning SEL Curriculum",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Social Emotional Learning SEL Curriculum.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Social Emotional Learning SEL Curriculum.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-academic-essay-peer-review-protocol": {
+    id: "education-multi-multi-stage-academic-essay-peer-review-protocol",
+    name: "MultiStageAcademicEssayPeerReviewProtocolSkill",
+    displayName: "Multi Stage Academic Essay Peer Review Protocol",
+    categoryId: "education",
+    description: "Structures peer editing rounds focusing on thesis clarity, evidence strength, and citations.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Academic Essay Peer Review Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Academic Essay Peer Review Protocol",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Academic Essay Peer Review Protocol.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Academic Essay Peer Review Protocol.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-montessori-hands-on-discovery-environment": {
+    id: "education-multi-multi-level-montessori-hands-on-discovery-environment",
+    name: "MultiLevelMontessoriHandsOnDiscoveryEnvironmentSkill",
+    displayName: "Multi Level Montessori Hands On Discovery Environment",
+    categoryId: "education",
+    description: "Designs self-directed, tactile learning station guides encouraging independent mastery.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Montessori Hands On Discovery Environment",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Montessori Hands On Discovery Environment",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Montessori Hands On Discovery Environment.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Montessori Hands On Discovery Environment.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-math-concept-concrete-pictorial-abstract-cpa": {
+    id: "education-multi-multi-method-math-concept-concrete-pictorial-abstract-cpa",
+    name: "MultiMethodMathConceptConcretePictorialAbstractCPASkill",
+    displayName: "Multi Method Math Concept Concrete Pictorial Abstract CPA",
+    categoryId: "education",
+    description: "Teaches math concepts through physical manipulatives, visual diagrams, and symbolic equations.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Math Concept Concrete Pictorial Abstract CPA",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Math Concept Concrete Pictorial Abstract CPA",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Math Concept Concrete Pictorial Abstract CPA.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Math Concept Concrete Pictorial Abstract CPA.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-executive-function-study-skills-coaching": {
+    id: "education-multi-multi-stage-executive-function-study-skills-coaching",
+    name: "MultiStageExecutiveFunctionStudySkillsCoachingSkill",
+    displayName: "Multi Stage Executive Function Study Skills Coaching",
+    categoryId: "education",
+    description: "Teaches time blocking, note-taking (Cornell Method), prioritization, and exam prep strategy.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Executive Function Study Skills Coaching",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Executive Function Study Skills Coaching",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Executive Function Study Skills Coaching.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Executive Function Study Skills Coaching.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-higher-education-syllabus-rubric-architecture": {
+    id: "education-multi-multi-level-higher-education-syllabus-rubric-architecture",
+    name: "MultiLevelHigherEducationSyllabusRubricArchitectureSkill",
+    displayName: "Multi Level Higher Education Syllabus Rubric Architecture",
+    categoryId: "education",
+    description: "Drafts university course syllabi with explicit grading rubrics, weekly readings, and policies.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Higher Education Syllabus Rubric Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Higher Education Syllabus Rubric Architecture",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Higher Education Syllabus Rubric Architecture.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Higher Education Syllabus Rubric Architecture.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-special-education-iep-goal-tracker": {
+    id: "education-multi-multi-method-special-education-iep-goal-tracker",
+    name: "MultiMethodSpecialEducationIEPGoalTrackerSkill",
+    displayName: "Multi Method Special Education IEP Goal Tracker",
+    categoryId: "education",
+    description: "Drafts Individualized Education Program (IEP) measurable goals and progress monitoring metrics.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Special Education IEP Goal Tracker",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Special Education IEP Goal Tracker",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Special Education IEP Goal Tracker.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Special Education IEP Goal Tracker.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-medical-residency-case-based-clinical-teaching": {
+    id: "education-multi-multi-stage-medical-residency-case-based-clinical-teaching",
+    name: "MultiStageMedicalResidencyCaseBasedClinicalTeachingSkill",
+    displayName: "Multi Stage Medical Residency Case Based Clinical Teaching",
+    categoryId: "education",
+    description: "Structures morning report case presentations teaching differential diagnosis and patient management.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Medical Residency Case Based Clinical Teaching",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Medical Residency Case Based Clinical Teaching",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Medical Residency Case Based Clinical Teaching.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Medical Residency Case Based Clinical Teaching.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-coding-bootcamp-project-milestone-roadmap": {
+    id: "education-multi-multi-level-coding-bootcamp-project-milestone-roadmap",
+    name: "MultiLevelCodingBootcampProjectMilestoneRoadmapSkill",
+    displayName: "Multi Level Coding Bootcamp Project Milestone Roadmap",
+    categoryId: "education",
+    description: "Structures full-stack coding curriculum with daily labs, pair programming, and capstone reviews.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Coding Bootcamp Project Milestone Roadmap",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Coding Bootcamp Project Milestone Roadmap",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Coding Bootcamp Project Milestone Roadmap.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Coding Bootcamp Project Milestone Roadmap.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-science-inquiry-lab-experiment-manual": {
+    id: "education-multi-multi-method-science-inquiry-lab-experiment-manual",
+    name: "MultiMethodScienceInquiryLabExperimentManualSkill",
+    displayName: "Multi Method Science Inquiry Lab Experiment Manual",
+    categoryId: "education",
+    description: "Drafts chemistry/physics lab manuals with safety protocols, hypothesis formulation, and data graphing.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Science Inquiry Lab Experiment Manual",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Science Inquiry Lab Experiment Manual",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Science Inquiry Lab Experiment Manual.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Science Inquiry Lab Experiment Manual.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-corporate-employee-upskilling-pathway": {
+    id: "education-multi-multi-stage-corporate-employee-upskilling-pathway",
+    name: "MultiStageCorporateEmployeeUpskillingPathwaySkill",
+    displayName: "Multi Stage Corporate Employee Upskilling Pathway",
+    categoryId: "education",
+    description: "Designs professional certification tracks with micro-learning modules and skill verification.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Corporate Employee Upskilling Pathway",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Corporate Employee Upskilling Pathway",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Corporate Employee Upskilling Pathway.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Corporate Employee Upskilling Pathway.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-early-childhood-literacy-phonemic-awareness": {
+    id: "education-multi-multi-level-early-childhood-literacy-phonemic-awareness",
+    name: "MultiLevelEarlyChildhoodLiteracyPhonemicAwarenessSkill",
+    displayName: "Multi Level Early Childhood Literacy Phonemic Awareness",
+    categoryId: "education",
+    description: "Structures phonics, sight word recognition, guided reading, and story comprehension activities.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Early Childhood Literacy Phonemic Awareness",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Early Childhood Literacy Phonemic Awareness",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Early Childhood Literacy Phonemic Awareness.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Early Childhood Literacy Phonemic Awareness.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-high-school-debate-argumentation-training": {
+    id: "education-multi-multi-method-high-school-debate-argumentation-training",
+    name: "MultiMethodHighSchoolDebateArgumentationTrainingSkill",
+    displayName: "Multi Method High School Debate Argumentation Training",
+    categoryId: "education",
+    description: "Teaches claim-warrant-impact structure, cross-examination skills, and rebuttal flow sheets.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method High School Debate Argumentation Training",
+      ruSectionName: "Композитный Multi-Skill: Multi Method High School Debate Argumentation Training",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method High School Debate Argumentation Training.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method High School Debate Argumentation Training.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-vocational-trade-apprenticeship-curriculum": {
+    id: "education-multi-multi-stage-vocational-trade-apprenticeship-curriculum",
+    name: "MultiStageVocationalTradeApprenticeshipCurriculumSkill",
+    displayName: "Multi Stage Vocational Trade Apprenticeship Curriculum",
+    categoryId: "education",
+    description: "Structures electrician/welding hands-on shop practice, safety codes, and master sign-offs.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Vocational Trade Apprenticeship Curriculum",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Vocational Trade Apprenticeship Curriculum",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Vocational Trade Apprenticeship Curriculum.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Vocational Trade Apprenticeship Curriculum.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-music-theory-sight-reading-mastery-track": {
+    id: "education-multi-multi-level-music-theory-sight-reading-mastery-track",
+    name: "MultiLevelMusicTheorySightReadingMasteryTrackSkill",
+    displayName: "Multi Level Music Theory Sight Reading Mastery Track",
+    categoryId: "education",
+    description: "Scaffolds pitch identification, rhythm dictation, interval training, and sight singing.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Music Theory Sight Reading Mastery Track",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Music Theory Sight Reading Mastery Track",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Music Theory Sight Reading Mastery Track.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Music Theory Sight Reading Mastery Track.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-history-primary-source-dbq-document-analysis": {
+    id: "education-multi-multi-method-history-primary-source-dbq-document-analysis",
+    name: "MultiMethodHistoryPrimarySourceDBQDocumentAnalysisSkill",
+    displayName: "Multi Method History Primary Source DBQ Document Analysis",
+    categoryId: "education",
+    description: "Guides students analyzing historical primary sources for bias, context, and corroboration.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method History Primary Source DBQ Document Analysis",
+      ruSectionName: "Композитный Multi-Skill: Multi Method History Primary Source DBQ Document Analysis",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method History Primary Source DBQ Document Analysis.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method History Primary Source DBQ Document Analysis.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-kindergarten-transition-social-readiness": {
+    id: "education-multi-multi-stage-kindergarten-transition-social-readiness",
+    name: "MultiStageKindergartenTransitionSocialReadinessSkill",
+    displayName: "Multi Stage Kindergarten Transition Social Readiness",
+    categoryId: "education",
+    description: "Prepares young children for classroom routines, sharing, emotion regulation, and motor skills.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Kindergarten Transition Social Readiness",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Kindergarten Transition Social Readiness",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Kindergarten Transition Social Readiness.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Kindergarten Transition Social Readiness.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-art-history-visual-analysis-criticism": {
+    id: "education-multi-multi-level-art-history-visual-analysis-criticism",
+    name: "MultiLevelArtHistoryVisualAnalysisCriticismSkill",
+    displayName: "Multi Level Art History Visual Analysis Criticism",
+    categoryId: "education",
+    description: "Teaches formal visual analysis (color, composition, medium) and cultural art history context.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Art History Visual Analysis Criticism",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Art History Visual Analysis Criticism",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Art History Visual Analysis Criticism.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Art History Visual Analysis Criticism.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-physical-education-fitness-health-unit": {
+    id: "education-multi-multi-method-physical-education-fitness-health-unit",
+    name: "MultiMethodPhysicalEducationFitnessHealthUnitSkill",
+    displayName: "Multi Method Physical Education Fitness Health Unit",
+    categoryId: "education",
+    description: "Combines cardiovascular motor skills, team sportsmanship, and nutrition education.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Physical Education Fitness Health Unit",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Physical Education Fitness Health Unit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Physical Education Fitness Health Unit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Physical Education Fitness Health Unit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-philosophy-ethics-thought-experiment-lab": {
+    id: "education-multi-multi-stage-philosophy-ethics-thought-experiment-lab",
+    name: "MultiStagePhilosophyEthicsThoughtExperimentLabSkill",
+    displayName: "Multi Stage Philosophy Ethics Thought Experiment Lab",
+    categoryId: "education",
+    description: "Engages high school/college students in ethical debate using structured moral dilemmas.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Philosophy Ethics Thought Experiment Lab",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Philosophy Ethics Thought Experiment Lab",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Philosophy Ethics Thought Experiment Lab.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Philosophy Ethics Thought Experiment Lab.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-environmental-science-field-trip-guide": {
+    id: "education-multi-multi-level-environmental-science-field-trip-guide",
+    name: "MultiLevelEnvironmentalScienceFieldTripGuideSkill",
+    displayName: "Multi Level Environmental Science Field Trip Guide",
+    categoryId: "education",
+    description: "Structures outdoor ecology field work collecting water samples, identifying species, and logging data.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Environmental Science Field Trip Guide",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Environmental Science Field Trip Guide",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Environmental Science Field Trip Guide.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Environmental Science Field Trip Guide.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-chess-tactical-opening-strategy-training": {
+    id: "education-multi-multi-method-chess-tactical-opening-strategy-training",
+    name: "MultiMethodChessTacticalOpeningStrategyTrainingSkill",
+    displayName: "Multi Method Chess Tactical Opening Strategy Training",
+    categoryId: "education",
+    description: "Scaffolds chess tactical vision, opening principles, endgame patterns, and puzzle solving.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Chess Tactical Opening Strategy Training",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Chess Tactical Opening Strategy Training",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Chess Tactical Opening Strategy Training.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Chess Tactical Opening Strategy Training.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-culinary-arts-kitchen-safety-knife-skills": {
+    id: "education-multi-multi-stage-culinary-arts-kitchen-safety-knife-skills",
+    name: "MultiStageCulinaryArtsKitchenSafetyKnifeSkillsSkill",
+    displayName: "Multi Stage Culinary Arts Kitchen Safety Knife Skills",
+    categoryId: "education",
+    description: "Structures commercial culinary training in knife cuts, food sanitation, and station prep.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Culinary Arts Kitchen Safety Knife Skills",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Culinary Arts Kitchen Safety Knife Skills",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Culinary Arts Kitchen Safety Knife Skills.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Culinary Arts Kitchen Safety Knife Skills.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-astronomy-stargazing-constellation-lab": {
+    id: "education-multi-multi-level-astronomy-stargazing-constellation-lab",
+    name: "MultiLevelAstronomyStargazingConstellationLabSkill",
+    displayName: "Multi Level Astronomy Stargazing Constellation Lab",
+    categoryId: "education",
+    description: "Guides observational astronomy calculating celestial coordinates and planetary orbits.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Astronomy Stargazing Constellation Lab",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Astronomy Stargazing Constellation Lab",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Astronomy Stargazing Constellation Lab.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Astronomy Stargazing Constellation Lab.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-financial-literacy-money-management-unit": {
+    id: "education-multi-multi-method-financial-literacy-money-management-unit",
+    name: "MultiMethodFinancialLiteracyMoneyManagementUnitSkill",
+    displayName: "Multi Method Financial Literacy Money Management Unit",
+    categoryId: "education",
+    description: "Teaches high school students budgeting, compound interest, credit scores, and tax basics.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Financial Literacy Money Management Unit",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Financial Literacy Money Management Unit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Financial Literacy Money Management Unit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Financial Literacy Money Management Unit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-foreign-language-oral-fluency-drill": {
+    id: "education-multi-multi-stage-foreign-language-oral-fluency-drill",
+    name: "MultiStageForeignLanguageOralFluencyDrillSkill",
+    displayName: "Multi Stage Foreign Language Oral Fluency Drill",
+    categoryId: "education",
+    description: "Practices conversational speed drills, verb conjugation, and real-world dialog simulation.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Foreign Language Oral Fluency Drill",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Foreign Language Oral Fluency Drill",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Foreign Language Oral Fluency Drill.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Foreign Language Oral Fluency Drill.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-architecture-design-drafting-studio": {
+    id: "education-multi-multi-level-architecture-design-drafting-studio",
+    name: "MultiLevelArchitectureDesignDraftingStudioSkill",
+    displayName: "Multi Level Architecture Design Drafting Studio",
+    categoryId: "education",
+    description: "Guides architecture students from physical sketches and scale models to CAD rendering.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Architecture Design Drafting Studio",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Architecture Design Drafting Studio",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Architecture Design Drafting Studio.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Architecture Design Drafting Studio.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-journalism-news-reporting-ethics-unit": {
+    id: "education-multi-multi-method-journalism-news-reporting-ethics-unit",
+    name: "MultiMethodJournalismNewsReportingEthicsUnitSkill",
+    displayName: "Multi Method Journalism News Reporting Ethics Unit",
+    categoryId: "education",
+    description: "Teaches interviewing techniques, lead paragraph writing, fact-checking, and media ethics.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Journalism News Reporting Ethics Unit",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Journalism News Reporting Ethics Unit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Journalism News Reporting Ethics Unit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Journalism News Reporting Ethics Unit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-psychology-behavioral-experiment-design": {
+    id: "education-multi-multi-stage-psychology-behavioral-experiment-design",
+    name: "MultiStagePsychologyBehavioralExperimentDesignSkill",
+    displayName: "Multi Stage Psychology Behavioral Experiment Design",
+    categoryId: "education",
+    description: "Guides undergraduate psychology students designing IRB-compliant human subject surveys.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Psychology Behavioral Experiment Design",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Psychology Behavioral Experiment Design",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Psychology Behavioral Experiment Design.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Psychology Behavioral Experiment Design.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-aviation-flight-school-ground-theory-track": {
+    id: "education-multi-multi-level-aviation-flight-school-ground-theory-track",
+    name: "MultiLevelAviationFlightSchoolGroundTheoryTrackSkill",
+    displayName: "Multi Level Aviation Flight School Ground Theory Track",
+    categoryId: "education",
+    description: "Structures private pilot ground school in aerodynamics, weather METARs, navigation, and FAA rules.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Aviation Flight School Ground Theory Track",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Aviation Flight School Ground Theory Track",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Aviation Flight School Ground Theory Track.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Aviation Flight School Ground Theory Track.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-creative-writing-workshop-critique-protocol": {
+    id: "education-multi-multi-method-creative-writing-workshop-critique-protocol",
+    name: "MultiMethodCreativeWritingWorkshopCritiqueProtocolSkill",
+    displayName: "Multi Method Creative Writing Workshop Critique Protocol",
+    categoryId: "education",
+    description: "Structures fiction workshop feedback rules balancing encouraging praise and constructive edits.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Creative Writing Workshop Critique Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Creative Writing Workshop Critique Protocol",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Creative Writing Workshop Critique Protocol.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Creative Writing Workshop Critique Protocol.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-agricultural-farming-youth-club-project": {
+    id: "education-multi-multi-stage-agricultural-farming-youth-club-project",
+    name: "MultiStageAgriculturalFarmingYouthClubProjectSkill",
+    displayName: "Multi Stage Agricultural Farming Youth Club Project",
+    categoryId: "education",
+    description: "Guides 4-H / FFA students raising livestock or crops with financial record keeping.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Agricultural Farming Youth Club Project",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Agricultural Farming Youth Club Project",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Agricultural Farming Youth Club Project.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Agricultural Farming Youth Club Project.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-theatre-acting-improvisation-character-method": {
+    id: "education-multi-multi-level-theatre-acting-improvisation-character-method",
+    name: "MultiLevelTheatreActingImprovisationCharacterMethodSkill",
+    displayName: "Multi Level Theatre Acting Improvisation Character Method",
+    categoryId: "education",
+    description: "Structures drama exercises in vocal projection, Stanislavski character motivation, and improv.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Theatre Acting Improvisation Character Method",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Theatre Acting Improvisation Character Method",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Theatre Acting Improvisation Character Method.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Theatre Acting Improvisation Character Method.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-oceanography-marine-biology-field-unit": {
+    id: "education-multi-multi-method-oceanography-marine-biology-field-unit",
+    name: "MultiMethodOceanographyMarineBiologyFieldUnitSkill",
+    displayName: "Multi Method Oceanography Marine Biology Field Unit",
+    categoryId: "education",
+    description: "Teaches ocean currents, intertidal zone ecology, and marine organism dissection labs.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Oceanography Marine Biology Field Unit",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Oceanography Marine Biology Field Unit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Oceanography Marine Biology Field Unit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Oceanography Marine Biology Field Unit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-robotics-first-lego-league-team-coaching": {
+    id: "education-multi-multi-stage-robotics-first-lego-league-team-coaching",
+    name: "MultiStageRoboticsFirstLegoLeagueTeamCoachingSkill",
+    displayName: "Multi Stage Robotics First Lego League Team Coaching",
+    categoryId: "education",
+    description: "Guides youth robotics teams building autonomous EV3/Spike robots and research presentations.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Robotics First Lego League Team Coaching",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Robotics First Lego League Team Coaching",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Robotics First Lego League Team Coaching.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Robotics First Lego League Team Coaching.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-law-school-case-brief-socratic-dialogue": {
+    id: "education-multi-multi-level-law-school-case-brief-socratic-dialogue",
+    name: "MultiLevelLawSchoolCaseBriefSocraticDialogueSkill",
+    displayName: "Multi Level Law School Case Brief Socratic Dialogue",
+    categoryId: "education",
+    description: "Teaches first-year law students IRAC case briefing and surviving cold-call Socratic questioning.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Law School Case Brief Socratic Dialogue",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Law School Case Brief Socratic Dialogue",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Law School Case Brief Socratic Dialogue.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Law School Case Brief Socratic Dialogue.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-entrepreneurship-pitch-deck-student-competition": {
+    id: "education-multi-multi-method-entrepreneurship-pitch-deck-student-competition",
+    name: "MultiMethodEntrepreneurshipPitchDeckStudentCompetitionSkill",
+    displayName: "Multi Method Entrepreneurship Pitch Deck Student Competition",
+    categoryId: "education",
+    description: "Guides high school/college teams developing business MVPs and pitching to judges.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Entrepreneurship Pitch Deck Student Competition",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Entrepreneurship Pitch Deck Student Competition",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Entrepreneurship Pitch Deck Student Competition.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Entrepreneurship Pitch Deck Student Competition.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-public-speaking-toastmasters-speech-mastery": {
+    id: "education-multi-multi-stage-public-speaking-toastmasters-speech-mastery",
+    name: "MultiStagePublicSpeakingToastmastersSpeechMasterySkill",
+    displayName: "Multi Stage Public Speaking Toastmasters Speech Mastery",
+    categoryId: "education",
+    description: "Scaffolds vocal variety, body language, eliminating filler words, and impromptu speaking.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Public Speaking Toastmasters Speech Mastery",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Public Speaking Toastmasters Speech Mastery",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Public Speaking Toastmasters Speech Mastery.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Public Speaking Toastmasters Speech Mastery.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-graphic-design-typography-layout-studio": {
+    id: "education-multi-multi-level-graphic-design-typography-layout-studio",
+    name: "MultiLevelGraphicDesignTypographyLayoutStudioSkill",
+    displayName: "Multi Level Graphic Design Typography Layout Studio",
+    categoryId: "education",
+    description: "Teaches color theory, grid alignment, typography hierarchy, and Adobe Illustrator mastery.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Graphic Design Typography Layout Studio",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Graphic Design Typography Layout Studio",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Graphic Design Typography Layout Studio.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Graphic Design Typography Layout Studio.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-archaeology-excavation-fieldwork-manual": {
+    id: "education-multi-multi-method-archaeology-excavation-fieldwork-manual",
+    name: "MultiMethodArchaeologyExcavationFieldworkManualSkill",
+    displayName: "Multi Method Archaeology Excavation Fieldwork Manual",
+    categoryId: "education",
+    description: "Teaches stratigraphic grid trench digging, artifact cataloging, and carbon dating theory.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Archaeology Excavation Fieldwork Manual",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Archaeology Excavation Fieldwork Manual",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Archaeology Excavation Fieldwork Manual.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Archaeology Excavation Fieldwork Manual.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-dental-school-pre-clinical-cavity-prep-lab": {
+    id: "education-multi-multi-stage-dental-school-pre-clinical-cavity-prep-lab",
+    name: "MultiStageDentalSchoolPreClinicalCavityPrepLabSkill",
+    displayName: "Multi Stage Dental School Pre Clinical Cavity Prep Lab",
+    categoryId: "education",
+    description: "Guides dental students practicing drill ergonomics and tooth restoration on typodont models.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Dental School Pre Clinical Cavity Prep Lab",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Dental School Pre Clinical Cavity Prep Lab",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Dental School Pre Clinical Cavity Prep Lab.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Dental School Pre Clinical Cavity Prep Lab.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-meteorology-weather-map-synoptic-analysis": {
+    id: "education-multi-multi-level-meteorology-weather-map-synoptic-analysis",
+    name: "MultiLevelMeteorologyWeatherMapSynopticAnalysisSkill",
+    displayName: "Multi Level Meteorology Weather Map Synoptic Analysis",
+    categoryId: "education",
+    description: "Teaches reading isobar weather charts, satellite radar, and forecasting storm fronts.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Meteorology Weather Map Synoptic Analysis",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Meteorology Weather Map Synoptic Analysis",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Meteorology Weather Map Synoptic Analysis.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Meteorology Weather Map Synoptic Analysis.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-veterinary-assistant-animal-handling-unit": {
+    id: "education-multi-multi-method-veterinary-assistant-animal-handling-unit",
+    name: "MultiMethodVeterinaryAssistantAnimalHandlingUnitSkill",
+    displayName: "Multi Method Veterinary Assistant Animal Handling Unit",
+    categoryId: "education",
+    description: "Structures training in animal restraint, vitals monitoring, surgical prep, and pharmacy math.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Veterinary Assistant Animal Handling Unit",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Veterinary Assistant Animal Handling Unit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Veterinary Assistant Animal Handling Unit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Veterinary Assistant Animal Handling Unit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-film-production-camera-lighting-crew-guide": {
+    id: "education-multi-multi-stage-film-production-camera-lighting-crew-guide",
+    name: "MultiStageFilmProductionCameraLightingCrewGuideSkill",
+    displayName: "Multi Stage Film Production Camera Lighting Crew Guide",
+    categoryId: "education",
+    description: "Teaches 3-point lighting setup, camera focal length choice, boom mic audio, and slate protocol.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Film Production Camera Lighting Crew Guide",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Film Production Camera Lighting Crew Guide",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Film Production Camera Lighting Crew Guide.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Film Production Camera Lighting Crew Guide.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-level-forestry-conservation-timber-cruise-lab": {
+    id: "education-multi-multi-level-forestry-conservation-timber-cruise-lab",
+    name: "MultiLevelForestryConservationTimberCruiseLabSkill",
+    displayName: "Multi Level Forestry Conservation Timber Cruise Lab",
+    categoryId: "education",
+    description: "Teaches tree species identification, inclinometer height measurement, and forest management.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Forestry Conservation Timber Cruise Lab",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Forestry Conservation Timber Cruise Lab",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Level Forestry Conservation Timber Cruise Lab.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Level Forestry Conservation Timber Cruise Lab.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-method-emergency-medical-technician-emt-basic-prep": {
+    id: "education-multi-multi-method-emergency-medical-technician-emt-basic-prep",
+    name: "MultiMethodEmergencyMedicalTechnicianEMTBasicPrepSkill",
+    displayName: "Multi Method Emergency Medical Technician EMT Basic Prep",
+    categoryId: "education",
+    description: "Structures EMT training in CPR, trauma triage, splinting, and ambulance radio reports.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Emergency Medical Technician EMT Basic Prep",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Emergency Medical Technician EMT Basic Prep",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Method Emergency Medical Technician EMT Basic Prep.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Method Emergency Medical Technician EMT Basic Prep.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-stage-cyber-defense-high-school-capture-the-flag": {
+    id: "education-multi-multi-stage-cyber-defense-high-school-capture-the-flag",
+    name: "MultiStageCyberDefenseHighSchoolCaptureTheFlagSkill",
+    displayName: "Multi Stage Cyber Defense High School Capture The Flag",
+    categoryId: "education",
+    description: "Guides student cybersecurity teams solving password cracking and network packet analysis CTFs.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Cyber Defense High School Capture The Flag",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Cyber Defense High School Capture The Flag",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Cyber Defense High School Capture The Flag.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Cyber Defense High School Capture The Flag.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
+
+  "education-multi-multi-horizon-master-pedagogical-instructional-framework": {
+    id: "education-multi-multi-horizon-master-pedagogical-instructional-framework",
+    name: "MultiHorizonMasterPedagogicalInstructionalFrameworkSkill",
+    displayName: "Multi Horizon Master Pedagogical Instructional Framework",
+    categoryId: "education",
+    description: "Enforces master instructional design, learning taxonomy, differentiated scaffolding, and student outcome mastery.",
+    tags: ["education","multi-skill","education-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Pedagogical Instructional Framework",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Pedagogical Instructional Framework",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Master Pedagogical Instructional Framework.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Master Pedagogical Instructional Framework.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["education","multi-skill","education-multi"],
+    }),
+  },
 };

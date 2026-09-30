@@ -4291,4 +4291,1503 @@ export const DIALOGUE_SKILLS: Record<string, SkillDefinition> = {
       tags: ["dialogue","dialogue-topup","topup","master"],
     }),
   },
+  "dialogue-multi-multi-turn-conversation-state-memory-tracking": {
+    id: "dialogue-multi-multi-turn-conversation-state-memory-tracking",
+    name: "MultiTurnConversationStateMemoryTrackingSkill",
+    displayName: "Multi Turn Conversation State Memory Tracking",
+    categoryId: "dialogue",
+    description: "Maintains entity slots, user intent history, and dialogue state across multi-turn chats.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Turn Conversation State Memory Tracking",
+      ruSectionName: "Композитный Multi-Skill: Multi Turn Conversation State Memory Tracking",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Turn Conversation State Memory Tracking.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Turn Conversation State Memory Tracking.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-persona-conversational-roleplay-facilitator": {
+    id: "dialogue-multi-multi-persona-conversational-roleplay-facilitator",
+    name: "MultiPersonaConversationalRoleplayFacilitatorSkill",
+    displayName: "Multi Persona Conversational Roleplay Facilitator",
+    categoryId: "dialogue",
+    description: "Facilitates interactive roleplay scenarios seamlessly switching between multiple NPC characters.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Conversational Roleplay Facilitator",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Conversational Roleplay Facilitator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Persona Conversational Roleplay Facilitator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Persona Conversational Roleplay Facilitator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-modality-conversational-text-voice-visual-switcher": {
+    id: "dialogue-multi-multi-modality-conversational-text-voice-visual-switcher",
+    name: "MultiModalityConversationalTextVoiceVisualSwitcherSkill",
+    displayName: "Multi Modality Conversational Text Voice Visual Switcher",
+    categoryId: "dialogue",
+    description: "Adapts dialogue style seamlessly between text chat, spoken audio, and visual UI card prompts.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Modality Conversational Text Voice Visual Switcher",
+      ruSectionName: "Композитный Multi-Skill: Multi Modality Conversational Text Voice Visual Switcher",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Modality Conversational Text Voice Visual Switcher.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Modality Conversational Text Voice Visual Switcher.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-intent-ambiguity-disambiguation-dialogue": {
+    id: "dialogue-multi-multi-intent-ambiguity-disambiguation-dialogue",
+    name: "MultiIntentAmbiguityDisambiguationDialogueSkill",
+    displayName: "Multi Intent Ambiguity Disambiguation Dialogue",
+    categoryId: "dialogue",
+    description: "Detects overlapping user intents and asks targeted single-choice clarifying prompts.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Intent Ambiguity Disambiguation Dialogue",
+      ruSectionName: "Композитный Multi-Skill: Multi Intent Ambiguity Disambiguation Dialogue",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Intent Ambiguity Disambiguation Dialogue.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Intent Ambiguity Disambiguation Dialogue.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-stage-customer-support-escalation-de-escalation": {
+    id: "dialogue-multi-multi-stage-customer-support-escalation-de-escalation",
+    name: "MultiStageCustomerSupportEscalationDeEscalationSkill",
+    displayName: "Multi Stage Customer Support Escalation De Escalation",
+    categoryId: "dialogue",
+    description: "De-escalates frustrated users using empathetic reflective listening before proposing solutions.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Customer Support Escalation De Escalation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Customer Support Escalation De Escalation",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Customer Support Escalation De Escalation.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Customer Support Escalation De Escalation.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-agent-interactive-chat-room-moderator": {
+    id: "dialogue-multi-multi-agent-interactive-chat-room-moderator",
+    name: "MultiAgentInteractiveChatRoomModeratorSkill",
+    displayName: "Multi Agent Interactive Chat Room Moderator",
+    categoryId: "dialogue",
+    description: "Monitors multi-user group chat rooms enforcing ground rules and synthesizing conversation summaries.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Agent Interactive Chat Room Moderator",
+      ruSectionName: "Композитный Multi-Skill: Multi Agent Interactive Chat Room Moderator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Agent Interactive Chat Room Moderator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Agent Interactive Chat Room Moderator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-perspective-socratic-mentorship-dialogue": {
+    id: "dialogue-multi-multi-perspective-socratic-mentorship-dialogue",
+    name: "MultiPerspectiveSocraticMentorshipDialogueSkill",
+    displayName: "Multi Perspective Socratic Mentorship Dialogue",
+    categoryId: "dialogue",
+    description: "Guides student problem solving through progressive Socratic hints rather than giving direct answers.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Socratic Mentorship Dialogue",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Socratic Mentorship Dialogue",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Perspective Socratic Mentorship Dialogue.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Perspective Socratic Mentorship Dialogue.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-language-real-time-conversational-translation": {
+    id: "dialogue-multi-multi-language-real-time-conversational-translation",
+    name: "MultiLanguageRealTimeConversationalTranslationSkill",
+    displayName: "Multi Language Real Time Conversational Translation",
+    categoryId: "dialogue",
+    description: "Translates live dialogue turn-by-turn maintaining conversational naturalness and tone.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Language Real Time Conversational Translation",
+      ruSectionName: "Композитный Multi-Skill: Multi Language Real Time Conversational Translation",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Language Real Time Conversational Translation.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Language Real Time Conversational Translation.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-channel-messaging-bot-handler-pipeline": {
+    id: "dialogue-multi-multi-channel-messaging-bot-handler-pipeline",
+    name: "MultiChannelMessagingBotHandlerPipelineSkill",
+    displayName: "Multi Channel Messaging Bot Handler Pipeline",
+    categoryId: "dialogue",
+    description: "Powers unified chat interfaces working across WhatsApp, Slack, Telegram, and Web widget.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Messaging Bot Handler Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Messaging Bot Handler Pipeline",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Channel Messaging Bot Handler Pipeline.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Channel Messaging Bot Handler Pipeline.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-step-interactive-form-filing-assistant": {
+    id: "dialogue-multi-multi-step-interactive-form-filing-assistant",
+    name: "MultiStepInteractiveFormFilingAssistantSkill",
+    displayName: "Multi Step Interactive Form Filing Assistant",
+    categoryId: "dialogue",
+    description: "Guides users step-by-step through complex multi-field form completion via natural chat.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Interactive Form Filing Assistant",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Interactive Form Filing Assistant",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Interactive Form Filing Assistant.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Interactive Form Filing Assistant.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-tone-conversational-register-adaptive-engine": {
+    id: "dialogue-multi-multi-tone-conversational-register-adaptive-engine",
+    name: "MultiToneConversationalRegisterAdaptiveEngineSkill",
+    displayName: "Multi Tone Conversational Register Adaptive Engine",
+    categoryId: "dialogue",
+    description: "Adjusts conversation tone dynamically matching user formality, enthusiasm, or distress.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tone Conversational Register Adaptive Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Tone Conversational Register Adaptive Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Tone Conversational Register Adaptive Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Tone Conversational Register Adaptive Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-stage-b2b-sales-qualification-discovery-chat": {
+    id: "dialogue-multi-multi-stage-b2b-sales-qualification-discovery-chat",
+    name: "MultiStageB2BSalesQualificationDiscoveryChatSkill",
+    displayName: "Multi Stage B2B Sales Qualification Discovery Chat",
+    categoryId: "dialogue",
+    description: "Conducts natural discovery conversations evaluating budget, authority, need, and timeline (BANT).",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage B2B Sales Qualification Discovery Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage B2B Sales Qualification Discovery Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage B2B Sales Qualification Discovery Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage B2B Sales Qualification Discovery Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-option-conversational-choice-recommendation": {
+    id: "dialogue-multi-multi-option-conversational-choice-recommendation",
+    name: "MultiOptionConversationalChoiceRecommendationSkill",
+    displayName: "Multi Option Conversational Choice Recommendation",
+    categoryId: "dialogue",
+    description: "Presents structured 3-option choices in chat guiding user decision-making effortlessly.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Option Conversational Choice Recommendation",
+      ruSectionName: "Композитный Multi-Skill: Multi Option Conversational Choice Recommendation",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Option Conversational Choice Recommendation.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Option Conversational Choice Recommendation.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-turn-code-troubleshooting-diagnostic-chat": {
+    id: "dialogue-multi-multi-turn-code-troubleshooting-diagnostic-chat",
+    name: "MultiTurnCodeTroubleshootingDiagnosticChatSkill",
+    displayName: "Multi Turn Code Troubleshooting Diagnostic Chat",
+    categoryId: "dialogue",
+    description: "Interactively diagnoses software bugs asking for error logs, code snippets, and expected behavior.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Turn Code Troubleshooting Diagnostic Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Turn Code Troubleshooting Diagnostic Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Turn Code Troubleshooting Diagnostic Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Turn Code Troubleshooting Diagnostic Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-persona-advisory-board-conversation-facilitator": {
+    id: "dialogue-multi-multi-persona-advisory-board-conversation-facilitator",
+    name: "MultiPersonaAdvisoryBoardConversationFacilitatorSkill",
+    displayName: "Multi Persona Advisory Board Conversation Facilitator",
+    categoryId: "dialogue",
+    description: "Coordinates a multi-advisor round-table discussion where user can ask questions to specific experts.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Advisory Board Conversation Facilitator",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Advisory Board Conversation Facilitator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Persona Advisory Board Conversation Facilitator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Persona Advisory Board Conversation Facilitator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-stage-medical-patient-intake-screener-chat": {
+    id: "dialogue-multi-multi-stage-medical-patient-intake-screener-chat",
+    name: "MultiStageMedicalPatientIntakeScreenerChatSkill",
+    displayName: "Multi Stage Medical Patient Intake Screener Chat",
+    categoryId: "dialogue",
+    description: "Gathers patient chief complaints, medical history, and symptoms via conversational intake flow.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Medical Patient Intake Screener Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Medical Patient Intake Screener Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Medical Patient Intake Screener Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Medical Patient Intake Screener Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-horizon-interactive-storytelling-game-dm": {
+    id: "dialogue-multi-multi-horizon-interactive-storytelling-game-dm",
+    name: "MultiHorizonInteractiveStorytellingGameDMSkill",
+    displayName: "Multi Horizon Interactive Storytelling Game DM",
+    categoryId: "dialogue",
+    description: "Acts as Dungeon Master dynamically responding to player choices and describing immersive outcomes.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Interactive Storytelling Game DM",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Interactive Storytelling Game DM",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Horizon Interactive Storytelling Game DM.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Horizon Interactive Storytelling Game DM.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-user-group-discussion-consensus-building-chat": {
+    id: "dialogue-multi-multi-user-group-discussion-consensus-building-chat",
+    name: "MultiUserGroupDiscussionConsensusBuildingChatSkill",
+    displayName: "Multi User Group Discussion Consensus Building Chat",
+    categoryId: "dialogue",
+    description: "Facilitates group decision making in team chat summarizing agreements and highlighting friction.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi User Group Discussion Consensus Building Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi User Group Discussion Consensus Building Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi User Group Discussion Consensus Building Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi User Group Discussion Consensus Building Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-stage-job-interview-coaching-simulator-chat": {
+    id: "dialogue-multi-multi-stage-job-interview-coaching-simulator-chat",
+    name: "MultiStageJobInterviewCoachingSimulatorChatSkill",
+    displayName: "Multi Stage Job Interview Coaching Simulator Chat",
+    categoryId: "dialogue",
+    description: "Asks behavioral interview questions turn-by-turn providing immediate feedback on user responses.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Job Interview Coaching Simulator Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Job Interview Coaching Simulator Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Job Interview Coaching Simulator Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Job Interview Coaching Simulator Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-layer-conversational-security-injection-shield": {
+    id: "dialogue-multi-multi-layer-conversational-security-injection-shield",
+    name: "MultiLayerConversationalSecurityInjectionShieldSkill",
+    displayName: "Multi Layer Conversational Security Injection Shield",
+    categoryId: "dialogue",
+    description: "Filters prompt injection attacks and out-of-bounds user attempts in real-time chat turns.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Conversational Security Injection Shield",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Conversational Security Injection Shield",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Conversational Security Injection Shield.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Conversational Security Injection Shield.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-step-language-learning-conversation-partner": {
+    id: "dialogue-multi-multi-step-language-learning-conversation-partner",
+    name: "MultiStepLanguageLearningConversationPartnerSkill",
+    displayName: "Multi Step Language Learning Conversation Partner",
+    categoryId: "dialogue",
+    description: "Acts as foreign language tutor correcting grammar gently while keeping conversation flowing.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Language Learning Conversation Partner",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Language Learning Conversation Partner",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Language Learning Conversation Partner.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Language Learning Conversation Partner.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-angle-user-feedback-survey-conversational-bot": {
+    id: "dialogue-multi-multi-angle-user-feedback-survey-conversational-bot",
+    name: "MultiAngleUserFeedbackSurveyConversationalBotSkill",
+    displayName: "Multi Angle User Feedback Survey Conversational Bot",
+    categoryId: "dialogue",
+    description: "Collects customer feedback through engaging conversational questions rather than static forms.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle User Feedback Survey Conversational Bot",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle User Feedback Survey Conversational Bot",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle User Feedback Survey Conversational Bot.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle User Feedback Survey Conversational Bot.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-stage-technical-onboarding-guidance-chat": {
+    id: "dialogue-multi-multi-stage-technical-onboarding-guidance-chat",
+    name: "MultiStageTechnicalOnboardingGuidanceChatSkill",
+    displayName: "Multi Stage Technical Onboarding Guidance Chat",
+    categoryId: "dialogue",
+    description: "Guides new developers through local dev environment setup step-by-step in chat.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Technical Onboarding Guidance Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Technical Onboarding Guidance Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Technical Onboarding Guidance Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Technical Onboarding Guidance Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-persona-legal-consultation-assistant-chat": {
+    id: "dialogue-multi-multi-persona-legal-consultation-assistant-chat",
+    name: "MultiPersonaLegalConsultationAssistantChatSkill",
+    displayName: "Multi Persona Legal Consultation Assistant Chat",
+    categoryId: "dialogue",
+    description: "Gathers legal case details conversationally explaining relevant statutes in accessible terms.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Legal Consultation Assistant Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Legal Consultation Assistant Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Persona Legal Consultation Assistant Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Persona Legal Consultation Assistant Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-step-financial-budgeting-planning-advisor": {
+    id: "dialogue-multi-multi-step-financial-budgeting-planning-advisor",
+    name: "MultiStepFinancialBudgetingPlanningAdvisorSkill",
+    displayName: "Multi Step Financial Budgeting Planning Advisor",
+    categoryId: "dialogue",
+    description: "Asks user income and expense questions conversationally constructing personalized budget.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Financial Budgeting Planning Advisor",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Financial Budgeting Planning Advisor",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Financial Budgeting Planning Advisor.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Financial Budgeting Planning Advisor.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-angle-product-recommendation-shopping-assistant": {
+    id: "dialogue-multi-multi-angle-product-recommendation-shopping-assistant",
+    name: "MultiAngleProductRecommendationShoppingAssistantSkill",
+    displayName: "Multi Angle Product Recommendation Shopping Assistant",
+    categoryId: "dialogue",
+    description: "Recommends ideal e-commerce products through conversational preference discovery.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Product Recommendation Shopping Assistant",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Product Recommendation Shopping Assistant",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle Product Recommendation Shopping Assistant.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle Product Recommendation Shopping Assistant.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-stage-troubleshooting-hardware-support-bot": {
+    id: "dialogue-multi-multi-stage-troubleshooting-hardware-support-bot",
+    name: "MultiStageTroubleshootingHardwareSupportBotSkill",
+    displayName: "Multi Stage Troubleshooting Hardware Support Bot",
+    categoryId: "dialogue",
+    description: "Guides user through physical hardware reboot, cable check, and indicator light diagnostics.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Troubleshooting Hardware Support Bot",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Troubleshooting Hardware Support Bot",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Troubleshooting Hardware Support Bot.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Troubleshooting Hardware Support Bot.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-persona-creative-brainstorming-partner-chat": {
+    id: "dialogue-multi-multi-persona-creative-brainstorming-partner-chat",
+    name: "MultiPersonaCreativeBrainstormingPartnerChatSkill",
+    displayName: "Multi Persona Creative Brainstorming Partner Chat",
+    categoryId: "dialogue",
+    description: "Bounces creative ideas back and forth with user adding unexpected twists and builds.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Creative Brainstorming Partner Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Creative Brainstorming Partner Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Persona Creative Brainstorming Partner Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Persona Creative Brainstorming Partner Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-step-travel-concierge-itinerary-planner-chat": {
+    id: "dialogue-multi-multi-step-travel-concierge-itinerary-planner-chat",
+    name: "MultiStepTravelConciergeItineraryPlannerChatSkill",
+    displayName: "Multi Step Travel Concierge Itinerary Planner Chat",
+    categoryId: "dialogue",
+    description: "Plans personalized travel trips conversationally adjusting based on user budget and tastes.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Travel Concierge Itinerary Planner Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Travel Concierge Itinerary Planner Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Travel Concierge Itinerary Planner Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Travel Concierge Itinerary Planner Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-level-educational-quiz-flashcard-tutor-chat": {
+    id: "dialogue-multi-multi-level-educational-quiz-flashcard-tutor-chat",
+    name: "MultiLevelEducationalQuizFlashcardTutorChatSkill",
+    displayName: "Multi Level Educational Quiz Flashcard Tutor Chat",
+    categoryId: "dialogue",
+    description: "Tests user knowledge conversationally adapting difficulty based on right/wrong answers.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Educational Quiz Flashcard Tutor Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Educational Quiz Flashcard Tutor Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Level Educational Quiz Flashcard Tutor Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Level Educational Quiz Flashcard Tutor Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-stage-hr-employee-benefits-q-a-assistant": {
+    id: "dialogue-multi-multi-stage-hr-employee-benefits-q-a-assistant",
+    name: "MultiStageHREmployeeBenefitsQAAssistantSkill",
+    displayName: "Multi Stage HR Employee Benefits Q A Assistant",
+    categoryId: "dialogue",
+    description: "Answers employee health insurance and PTO policy questions conversationally.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage HR Employee Benefits Q A Assistant",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage HR Employee Benefits Q A Assistant",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage HR Employee Benefits Q A Assistant.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage HR Employee Benefits Q A Assistant.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-persona-debating-opponent-simulation-chat": {
+    id: "dialogue-multi-multi-persona-debating-opponent-simulation-chat",
+    name: "MultiPersonaDebatingOpponentSimulationChatSkill",
+    displayName: "Multi Persona Debating Opponent Simulation Chat",
+    categoryId: "dialogue",
+    description: "Engages in respectful debate against user positions challenging assumptions with evidence.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Debating Opponent Simulation Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Debating Opponent Simulation Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Persona Debating Opponent Simulation Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Persona Debating Opponent Simulation Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-step-real-estate-property-search-assistant": {
+    id: "dialogue-multi-multi-step-real-estate-property-search-assistant",
+    name: "MultiStepRealEstatePropertySearchAssistantSkill",
+    displayName: "Multi Step Real Estate Property Search Assistant",
+    categoryId: "dialogue",
+    description: "Discovers user home preferences conversationally showing matched property listings.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Real Estate Property Search Assistant",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Real Estate Property Search Assistant",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Real Estate Property Search Assistant.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Real Estate Property Search Assistant.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-angle-fitness-coaching-motivation-chat": {
+    id: "dialogue-multi-multi-angle-fitness-coaching-motivation-chat",
+    name: "MultiAngleFitnessCoachingMotivationChatSkill",
+    displayName: "Multi Angle Fitness Coaching Motivation Chat",
+    categoryId: "dialogue",
+    description: "Tracks user daily workout progress conversationally offering encouragement and tip adjustments.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Fitness Coaching Motivation Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Fitness Coaching Motivation Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle Fitness Coaching Motivation Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle Fitness Coaching Motivation Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-stage-recipe-cooking-assistant-step-guide": {
+    id: "dialogue-multi-multi-stage-recipe-cooking-assistant-step-guide",
+    name: "MultiStageRecipeCookingAssistantStepGuideSkill",
+    displayName: "Multi Stage Recipe Cooking Assistant Step Guide",
+    categoryId: "dialogue",
+    description: "Guides user through cooking recipes step-by-step responding to hands-free voice questions.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Recipe Cooking Assistant Step Guide",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Recipe Cooking Assistant Step Guide",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Recipe Cooking Assistant Step Guide.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Recipe Cooking Assistant Step Guide.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-persona-philosophical-dialogue-companion": {
+    id: "dialogue-multi-multi-persona-philosophical-dialogue-companion",
+    name: "MultiPersonaPhilosophicalDialogueCompanionSkill",
+    displayName: "Multi Persona Philosophical Dialogue Companion",
+    categoryId: "dialogue",
+    description: "Explores existential and ethical topics in deep reflective conversation.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Philosophical Dialogue Companion",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Philosophical Dialogue Companion",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Persona Philosophical Dialogue Companion.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Persona Philosophical Dialogue Companion.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-step-event-planning-checklist-facilitator": {
+    id: "dialogue-multi-multi-step-event-planning-checklist-facilitator",
+    name: "MultiStepEventPlanningChecklistFacilitatorSkill",
+    displayName: "Multi Step Event Planning Checklist Facilitator",
+    categoryId: "dialogue",
+    description: "Helps user plan weddings/conferences step-by-step managing vendor and guest lists.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Event Planning Checklist Facilitator",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Event Planning Checklist Facilitator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Event Planning Checklist Facilitator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Event Planning Checklist Facilitator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-angle-automotive-car-maintenance-advisor-chat": {
+    id: "dialogue-multi-multi-angle-automotive-car-maintenance-advisor-chat",
+    name: "MultiAngleAutomotiveCarMaintenanceAdvisorChatSkill",
+    displayName: "Multi Angle Automotive Car Maintenance Advisor Chat",
+    categoryId: "dialogue",
+    description: "Diagnoses weird car noises and warning lights conversationally advising urgency.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Automotive Car Maintenance Advisor Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Automotive Car Maintenance Advisor Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle Automotive Car Maintenance Advisor Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle Automotive Car Maintenance Advisor Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-stage-mental-wellness-reflection-companion": {
+    id: "dialogue-multi-multi-stage-mental-wellness-reflection-companion",
+    name: "MultiStageMentalWellnessReflectionCompanionSkill",
+    displayName: "Multi Stage Mental Wellness Reflection Companion",
+    categoryId: "dialogue",
+    description: "Provides supportive, non-clinical reflective listening and mindfulness grounding prompts.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Mental Wellness Reflection Companion",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Mental Wellness Reflection Companion",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Mental Wellness Reflection Companion.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Mental Wellness Reflection Companion.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-persona-historical-figure-chat-simulator": {
+    id: "dialogue-multi-multi-persona-historical-figure-chat-simulator",
+    name: "MultiPersonaHistoricalFigureChatSimulatorSkill",
+    displayName: "Multi Persona Historical Figure Chat Simulator",
+    categoryId: "dialogue",
+    description: "Simulates conversation with historical figures (e.g. Leonardo da Vinci, Marie Curie) in character.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Historical Figure Chat Simulator",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Historical Figure Chat Simulator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Persona Historical Figure Chat Simulator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Persona Historical Figure Chat Simulator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-step-saas-product-feature-discovery-bot": {
+    id: "dialogue-multi-multi-step-saas-product-feature-discovery-bot",
+    name: "MultiStepSaaSProductFeatureDiscoveryBotSkill",
+    displayName: "Multi Step SaaS Product Feature Discovery Bot",
+    categoryId: "dialogue",
+    description: "Guides existing users to discover unused advanced features through targeted chat tips.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step SaaS Product Feature Discovery Bot",
+      ruSectionName: "Композитный Multi-Skill: Multi Step SaaS Product Feature Discovery Bot",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step SaaS Product Feature Discovery Bot.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step SaaS Product Feature Discovery Bot.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-angle-insurance-claim-filing-assistant-chat": {
+    id: "dialogue-multi-multi-angle-insurance-claim-filing-assistant-chat",
+    name: "MultiAngleInsuranceClaimFilingAssistantChatSkill",
+    displayName: "Multi Angle Insurance Claim Filing Assistant Chat",
+    categoryId: "dialogue",
+    description: "Guides policyholder through reporting accident details and uploading damage photos.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Insurance Claim Filing Assistant Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Insurance Claim Filing Assistant Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle Insurance Claim Filing Assistant Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle Insurance Claim Filing Assistant Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-stage-university-student-academic-advisor-bot": {
+    id: "dialogue-multi-multi-stage-university-student-academic-advisor-bot",
+    name: "MultiStageUniversityStudentAcademicAdvisorBotSkill",
+    displayName: "Multi Stage University Student Academic Advisor Bot",
+    categoryId: "dialogue",
+    description: "Answers course credit requirements and graduation track questions conversationally.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage University Student Academic Advisor Bot",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage University Student Academic Advisor Bot",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage University Student Academic Advisor Bot.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage University Student Academic Advisor Bot.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-persona-fan-fiction-roleplay-companion": {
+    id: "dialogue-multi-multi-persona-fan-fiction-roleplay-companion",
+    name: "MultiPersonaFanFictionRoleplayCompanionSkill",
+    displayName: "Multi Persona Fan Fiction Roleplay Companion",
+    categoryId: "dialogue",
+    description: "Engages in creative roleplay within established fiction fandom universes.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Fan Fiction Roleplay Companion",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Fan Fiction Roleplay Companion",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Persona Fan Fiction Roleplay Companion.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Persona Fan Fiction Roleplay Companion.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-step-e-commerce-order-tracking-status-bot": {
+    id: "dialogue-multi-multi-step-e-commerce-order-tracking-status-bot",
+    name: "MultiStepECommerceOrderTrackingStatusBotSkill",
+    displayName: "Multi Step E-Commerce Order Tracking Status Bot",
+    categoryId: "dialogue",
+    description: "Answers 'where is my order' questions conversationally providing live tracking links.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step E-Commerce Order Tracking Status Bot",
+      ruSectionName: "Композитный Multi-Skill: Multi Step E-Commerce Order Tracking Status Bot",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step E-Commerce Order Tracking Status Bot.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step E-Commerce Order Tracking Status Bot.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-angle-commercial-loan-pre-qualification-chat": {
+    id: "dialogue-multi-multi-angle-commercial-loan-pre-qualification-chat",
+    name: "MultiAngleCommercialLoanPreQualificationChatSkill",
+    displayName: "Multi Angle Commercial Loan Pre-Qualification Chat",
+    categoryId: "dialogue",
+    description: "Gathers business revenue numbers conversationally estimating loan eligibility.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Commercial Loan Pre-Qualification Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Commercial Loan Pre-Qualification Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle Commercial Loan Pre-Qualification Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle Commercial Loan Pre-Qualification Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-stage-non-profit-volunteer-onboarding-chat": {
+    id: "dialogue-multi-multi-stage-non-profit-volunteer-onboarding-chat",
+    name: "MultiStageNonProfitVolunteerOnboardingChatSkill",
+    displayName: "Multi Stage Non-Profit Volunteer Onboarding Chat",
+    categoryId: "dialogue",
+    description: "Welcomes new volunteers, collects skill interests, and matches with open projects.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Non-Profit Volunteer Onboarding Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Non-Profit Volunteer Onboarding Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Non-Profit Volunteer Onboarding Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Non-Profit Volunteer Onboarding Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-persona-gaming-strategy-coach-companion": {
+    id: "dialogue-multi-multi-persona-gaming-strategy-coach-companion",
+    name: "MultiPersonaGamingStrategyCoachCompanionSkill",
+    displayName: "Multi Persona Gaming Strategy Coach Companion",
+    categoryId: "dialogue",
+    description: "Provides real-time strategic tips for video games based on user current match state.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Gaming Strategy Coach Companion",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Gaming Strategy Coach Companion",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Persona Gaming Strategy Coach Companion.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Persona Gaming Strategy Coach Companion.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-step-home-repair-diy-maintenance-guide": {
+    id: "dialogue-multi-multi-step-home-repair-diy-maintenance-guide",
+    name: "MultiStepHomeRepairDIYMaintenanceGuideSkill",
+    displayName: "Multi Step Home Repair DIY Maintenance Guide",
+    categoryId: "dialogue",
+    description: "Guides user through fixing leaky faucets or patching drywall conversationally.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Home Repair DIY Maintenance Guide",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Home Repair DIY Maintenance Guide",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Home Repair DIY Maintenance Guide.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Home Repair DIY Maintenance Guide.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-angle-public-transit-commute-route-assistant": {
+    id: "dialogue-multi-multi-angle-public-transit-commute-route-assistant",
+    name: "MultiAnglePublicTransitCommuteRouteAssistantSkill",
+    displayName: "Multi Angle Public Transit Commute Route Assistant",
+    categoryId: "dialogue",
+    description: "Provides live bus/train transit advice conversationally during service disruptions.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Public Transit Commute Route Assistant",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Public Transit Commute Route Assistant",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle Public Transit Commute Route Assistant.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle Public Transit Commute Route Assistant.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-stage-restaurant-reservation-ordering-bot": {
+    id: "dialogue-multi-multi-stage-restaurant-reservation-ordering-bot",
+    name: "MultiStageRestaurantReservationOrderingBotSkill",
+    displayName: "Multi Stage Restaurant Reservation Ordering Bot",
+    categoryId: "dialogue",
+    description: "Takes table reservations and food pre-orders conversationally.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Restaurant Reservation Ordering Bot",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Restaurant Reservation Ordering Bot",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Restaurant Reservation Ordering Bot.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Restaurant Reservation Ordering Bot.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-persona-philosophy-of-science-discussion-partner": {
+    id: "dialogue-multi-multi-persona-philosophy-of-science-discussion-partner",
+    name: "MultiPersonaPhilosophyofScienceDiscussionPartnerSkill",
+    displayName: "Multi Persona Philosophy of Science Discussion Partner",
+    categoryId: "dialogue",
+    description: "Debates epistemology, scientific method, and paradigm shifts.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Philosophy of Science Discussion Partner",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Philosophy of Science Discussion Partner",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Persona Philosophy of Science Discussion Partner.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Persona Philosophy of Science Discussion Partner.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-step-employee-expense-report-filing-chat": {
+    id: "dialogue-multi-multi-step-employee-expense-report-filing-chat",
+    name: "MultiStepEmployeeExpenseReportFilingChatSkill",
+    displayName: "Multi Step Employee Expense Report Filing Chat",
+    categoryId: "dialogue",
+    description: "Gathers receipt details conversationally submitting expense reports for approval.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Employee Expense Report Filing Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Employee Expense Report Filing Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Employee Expense Report Filing Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Employee Expense Report Filing Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-angle-pet-healthcare-symptom-checker-bot": {
+    id: "dialogue-multi-multi-angle-pet-healthcare-symptom-checker-bot",
+    name: "MultiAnglePetHealthcareSymptomCheckerBotSkill",
+    displayName: "Multi Angle Pet Healthcare Symptom Checker Bot",
+    categoryId: "dialogue",
+    description: "Gathers dog/cat symptoms conversationally advising if emergency vet visit is required.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Pet Healthcare Symptom Checker Bot",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Pet Healthcare Symptom Checker Bot",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle Pet Healthcare Symptom Checker Bot.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle Pet Healthcare Symptom Checker Bot.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-stage-apartment-maintenance-service-request-bot": {
+    id: "dialogue-multi-multi-stage-apartment-maintenance-service-request-bot",
+    name: "MultiStageApartmentMaintenanceServiceRequestBotSkill",
+    displayName: "Multi Stage Apartment Maintenance Service Request Bot",
+    categoryId: "dialogue",
+    description: "Logs tenant repair requests, schedules technician visit times conversationally.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Apartment Maintenance Service Request Bot",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Apartment Maintenance Service Request Bot",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Apartment Maintenance Service Request Bot.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Apartment Maintenance Service Request Bot.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-persona-music-appreciation-genre-coach": {
+    id: "dialogue-multi-multi-persona-music-appreciation-genre-coach",
+    name: "MultiPersonaMusicAppreciationGenreCoachSkill",
+    displayName: "Multi Persona Music Appreciation Genre Coach",
+    categoryId: "dialogue",
+    description: "Explores music history, chord progressions, and album recommendations conversationally.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Persona Music Appreciation Genre Coach",
+      ruSectionName: "Композитный Multi-Skill: Multi Persona Music Appreciation Genre Coach",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Persona Music Appreciation Genre Coach.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Persona Music Appreciation Genre Coach.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-step-library-research-literature-finder-chat": {
+    id: "dialogue-multi-multi-step-library-research-literature-finder-chat",
+    name: "MultiStepLibraryResearchLiteratureFinderChatSkill",
+    displayName: "Multi Step Library Research Literature Finder Chat",
+    categoryId: "dialogue",
+    description: "Helps students find academic books and journal articles conversationally.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Library Research Literature Finder Chat",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Library Research Literature Finder Chat",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Library Research Literature Finder Chat.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Library Research Literature Finder Chat.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-angle-car-dealership-test-drive-booking-bot": {
+    id: "dialogue-multi-multi-angle-car-dealership-test-drive-booking-bot",
+    name: "MultiAngleCarDealershipTestDriveBookingBotSkill",
+    displayName: "Multi Angle Car Dealership Test Drive Booking Bot",
+    categoryId: "dialogue",
+    description: "Schedules vehicle test drives and answers vehicle spec questions conversationally.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Car Dealership Test Drive Booking Bot",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Car Dealership Test Drive Booking Bot",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Angle Car Dealership Test Drive Booking Bot.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Angle Car Dealership Test Drive Booking Bot.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-stage-community-garden-member-coordinator": {
+    id: "dialogue-multi-multi-stage-community-garden-member-coordinator",
+    name: "MultiStageCommunityGardenMemberCoordinatorSkill",
+    displayName: "Multi Stage Community Garden Member Coordinator",
+    categoryId: "dialogue",
+    description: "Coordinates plot assignments and community workdays conversationally.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Community Garden Member Coordinator",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Community Garden Member Coordinator",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Community Garden Member Coordinator.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Community Garden Member Coordinator.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
+
+  "dialogue-multi-multi-horizon-master-conversational-dialogue-engine": {
+    id: "dialogue-multi-multi-horizon-master-conversational-dialogue-engine",
+    name: "MultiHorizonMasterConversationalDialogueEngineSkill",
+    displayName: "Multi Horizon Master Conversational Dialogue Engine",
+    categoryId: "dialogue",
+    description: "Enforces master multi-turn dialogue state tracking, empathy, clarity, and flawless interactivity.",
+    tags: ["dialogue","multi-skill","dialogue-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Conversational Dialogue Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Conversational Dialogue Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Horizon Master Conversational Dialogue Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Horizon Master Conversational Dialogue Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","multi-skill","dialogue-multi"],
+    }),
+  },
 };

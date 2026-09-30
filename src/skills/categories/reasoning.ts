@@ -4244,4 +4244,1503 @@ export const REASONING_SKILLS: Record<string, SkillDefinition> = {
       tags: ["reasoning","reasoning","straw","man"],
     }),
   },
+  "reasoning-multi-multi-step-deductive-syllogistic-logical-reasoning": {
+    id: "reasoning-multi-multi-step-deductive-syllogistic-logical-reasoning",
+    name: "MultiStepDeductiveSyllogisticLogicalReasoningSkill",
+    displayName: "Multi Step Deductive Syllogistic Logical Reasoning",
+    categoryId: "reasoning",
+    description: "Constructs valid deductive syllogisms verifying major premises, minor premises, and conclusions.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Deductive Syllogistic Logical Reasoning",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Deductive Syllogistic Logical Reasoning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Step Deductive Syllogistic Logical Reasoning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Step Deductive Syllogistic Logical Reasoning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-inductive-pattern-generalization-reasoning": {
+    id: "reasoning-multi-multi-layer-inductive-pattern-generalization-reasoning",
+    name: "MultiLayerInductivePatternGeneralizationReasoningSkill",
+    displayName: "Multi Layer Inductive Pattern Generalization Reasoning",
+    categoryId: "reasoning",
+    description: "Evaluates sample size, representative bias, and probability when generalizing trends from observations.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Inductive Pattern Generalization Reasoning",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Inductive Pattern Generalization Reasoning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Inductive Pattern Generalization Reasoning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Inductive Pattern Generalization Reasoning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-abductive-inference-to-best-explanation": {
+    id: "reasoning-multi-multi-stage-abductive-inference-to-best-explanation",
+    name: "MultiStageAbductiveInferencetoBestExplanationSkill",
+    displayName: "Multi Stage Abductive Inference to Best Explanation",
+    categoryId: "reasoning",
+    description: "Evaluates competing hypotheses for observed anomalies selecting the most plausible cause.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Abductive Inference to Best Explanation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Abductive Inference to Best Explanation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Abductive Inference to Best Explanation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Abductive Inference to Best Explanation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-perspective-dialectical-hegelian-triad-reasoning": {
+    id: "reasoning-multi-multi-perspective-dialectical-hegelian-triad-reasoning",
+    name: "MultiPerspectiveDialecticalHegelianTriadReasoningSkill",
+    displayName: "Multi Perspective Dialectical Hegelian Triad Reasoning",
+    categoryId: "reasoning",
+    description: "Pits Thesis against Antithesis, resolving contradictions into a higher-level Synthesis.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Dialectical Hegelian Triad Reasoning",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Dialectical Hegelian Triad Reasoning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Dialectical Hegelian Triad Reasoning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Dialectical Hegelian Triad Reasoning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-factor-first-principles-physical-deconstruction": {
+    id: "reasoning-multi-multi-factor-first-principles-physical-deconstruction",
+    name: "MultiFactorFirstPrinciplesPhysicalDeconstructionSkill",
+    displayName: "Multi Factor First Principles Physical Deconstruction",
+    categoryId: "reasoning",
+    description: "Deconstructs complex problems to fundamental physical/economic axioms, re-reasoning up.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor First Principles Physical Deconstruction",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor First Principles Physical Deconstruction",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor First Principles Physical Deconstruction.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor First Principles Physical Deconstruction.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-counterfactual-what-if-horizon-reasoning": {
+    id: "reasoning-multi-multi-stage-counterfactual-what-if-horizon-reasoning",
+    name: "MultiStageCounterfactualWhatIfHorizonReasoningSkill",
+    displayName: "Multi Stage Counterfactual What If Horizon Reasoning",
+    categoryId: "reasoning",
+    description: "Simulates hypothetical timeline alterations evaluating cascading alternative outcomes.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Counterfactual What If Horizon Reasoning",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Counterfactual What If Horizon Reasoning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Counterfactual What If Horizon Reasoning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Counterfactual What If Horizon Reasoning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-bayesian-probability-belief-updating-engine": {
+    id: "reasoning-multi-multi-layer-bayesian-probability-belief-updating-engine",
+    name: "MultiLayerBayesianProbabilityBeliefUpdatingEngineSkill",
+    displayName: "Multi Layer Bayesian Probability Belief Updating Engine",
+    categoryId: "reasoning",
+    description: "Updates prior probability estimates based on new incoming empirical evidence.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Bayesian Probability Belief Updating Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Bayesian Probability Belief Updating Engine",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Bayesian Probability Belief Updating Engine.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Bayesian Probability Belief Updating Engine.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-perspective-analogical-mapping-knowledge-transfer": {
+    id: "reasoning-multi-multi-perspective-analogical-mapping-knowledge-transfer",
+    name: "MultiPerspectiveAnalogicalMappingKnowledgeTransferSkill",
+    displayName: "Multi Perspective Analogical Mapping Knowledge Transfer",
+    categoryId: "reasoning",
+    description: "Maps structural relations between known source domains and novel target domains.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Analogical Mapping Knowledge Transfer",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Analogical Mapping Knowledge Transfer",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Analogical Mapping Knowledge Transfer.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Analogical Mapping Knowledge Transfer.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-factor-causal-loop-systemic-feedback-reasoning": {
+    id: "reasoning-multi-multi-factor-causal-loop-systemic-feedback-reasoning",
+    name: "MultiFactorCausalLoopSystemicFeedbackReasoningSkill",
+    displayName: "Multi Factor Causal Loop Systemic Feedback Reasoning",
+    categoryId: "reasoning",
+    description: "Maps reinforcing loops, balancing loops, and time delays in complex systemic relationships.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Causal Loop Systemic Feedback Reasoning",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Causal Loop Systemic Feedback Reasoning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Causal Loop Systemic Feedback Reasoning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Causal Loop Systemic Feedback Reasoning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-fallacy-identification-debunking-engine": {
+    id: "reasoning-multi-multi-stage-fallacy-identification-debunking-engine",
+    name: "MultiStageFallacyIdentificationDebunkingEngineSkill",
+    displayName: "Multi Stage Fallacy Identification Debunking Engine",
+    categoryId: "reasoning",
+    description: "Detects logical fallacies (Ad Hominem, Strawman, False Dilemma) neutralizing flawed arguments.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Fallacy Identification Debunking Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Fallacy Identification Debunking Engine",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Fallacy Identification Debunking Engine.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Fallacy Identification Debunking Engine.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-game-theoretic-nash-equilibrium-reasoning": {
+    id: "reasoning-multi-multi-layer-game-theoretic-nash-equilibrium-reasoning",
+    name: "MultiLayerGameTheoreticNashEquilibriumReasoningSkill",
+    displayName: "Multi Layer Game Theoretic Nash Equilibrium Reasoning",
+    categoryId: "reasoning",
+    description: "Analyzes strategic interaction payoff matrices identifying dominant strategies and equilibria.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Game Theoretic Nash Equilibrium Reasoning",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Game Theoretic Nash Equilibrium Reasoning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Game Theoretic Nash Equilibrium Reasoning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Game Theoretic Nash Equilibrium Reasoning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-perspective-reductio-ad-absurdum-proof-method": {
+    id: "reasoning-multi-multi-perspective-reductio-ad-absurdum-proof-method",
+    name: "MultiPerspectiveReductioAdAbsurdumProofMethodSkill",
+    displayName: "Multi Perspective Reductio Ad Absurdum Proof Method",
+    categoryId: "reasoning",
+    description: "Proves claims by demonstrating that assuming their negation leads to impossible contradictions.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Reductio Ad Absurdum Proof Method",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Reductio Ad Absurdum Proof Method",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Reductio Ad Absurdum Proof Method.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Reductio Ad Absurdum Proof Method.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-factor-second-order-consequences-ripple-reasoning": {
+    id: "reasoning-multi-multi-factor-second-order-consequences-ripple-reasoning",
+    name: "MultiFactorSecondOrderConsequencesRippleReasoningSkill",
+    displayName: "Multi Factor Second Order Consequences Ripple Reasoning",
+    categoryId: "reasoning",
+    description: "Traces immediate first-order effects into secondary and tertiary indirect consequences.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Second Order Consequences Ripple Reasoning",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Second Order Consequences Ripple Reasoning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Second Order Consequences Ripple Reasoning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Second Order Consequences Ripple Reasoning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-decision-tree-expected-utility-calculation": {
+    id: "reasoning-multi-multi-stage-decision-tree-expected-utility-calculation",
+    name: "MultiStageDecisionTreeExpectedUtilityCalculationSkill",
+    displayName: "Multi Stage Decision Tree Expected Utility Calculation",
+    categoryId: "reasoning",
+    description: "Calculates expected monetary value (EMV) across branching decision nodes and probabilities.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Decision Tree Expected Utility Calculation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Decision Tree Expected Utility Calculation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Decision Tree Expected Utility Calculation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Decision Tree Expected Utility Calculation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-occam-razor-simplicity-parsimony-reasoning": {
+    id: "reasoning-multi-multi-layer-occam-razor-simplicity-parsimony-reasoning",
+    name: "MultiLayerOccamRazorSimplicityParsimonyReasoningSkill",
+    displayName: "Multi Layer Occam Razor Simplicity Parsimony Reasoning",
+    categoryId: "reasoning",
+    description: "Selects the explanation requiring the fewest unproven assumptions among competing theories.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Occam Razor Simplicity Parsimony Reasoning",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Occam Razor Simplicity Parsimony Reasoning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Occam Razor Simplicity Parsimony Reasoning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Occam Razor Simplicity Parsimony Reasoning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-perspective-epistemic-certainty-confidence-scoring": {
+    id: "reasoning-multi-multi-perspective-epistemic-certainty-confidence-scoring",
+    name: "MultiPerspectiveEpistemicCertaintyConfidenceScoringSkill",
+    displayName: "Multi Perspective Epistemic Certainty Confidence Scoring",
+    categoryId: "reasoning",
+    description: "Scores claim validity on explicit epistemic scale (Fact, Strong Evidence, Speculation, Debunked).",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Epistemic Certainty Confidence Scoring",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Epistemic Certainty Confidence Scoring",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Epistemic Certainty Confidence Scoring.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Epistemic Certainty Confidence Scoring.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-factor-trade-off-pareto-frontier-optimization": {
+    id: "reasoning-multi-multi-factor-trade-off-pareto-frontier-optimization",
+    name: "MultiFactorTradeOffParetoFrontierOptimizationSkill",
+    displayName: "Multi Factor Trade Off Pareto Frontier Optimization",
+    categoryId: "reasoning",
+    description: "Identifies Pareto-optimal solutions where improving one metric does not degrade another.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Trade Off Pareto Frontier Optimization",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Trade Off Pareto Frontier Optimization",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Trade Off Pareto Frontier Optimization.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Trade Off Pareto Frontier Optimization.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-root-cause-fault-tree-analysis-fta": {
+    id: "reasoning-multi-multi-stage-root-cause-fault-tree-analysis-fta",
+    name: "MultiStageRootCauseFaultTreeAnalysisFTASkill",
+    displayName: "Multi Stage Root Cause Fault Tree Analysis FTA",
+    categoryId: "reasoning",
+    description: "Constructs logical AND/OR gate fault trees isolating exact component failure roots.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Root Cause Fault Tree Analysis FTA",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Root Cause Fault Tree Analysis FTA",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Root Cause Fault Tree Analysis FTA.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Root Cause Fault Tree Analysis FTA.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-deductive-mathematical-proof-step-builder": {
+    id: "reasoning-multi-multi-layer-deductive-mathematical-proof-step-builder",
+    name: "MultiLayerDeductiveMathematicalProofStepBuilderSkill",
+    displayName: "Multi Layer Deductive Mathematical Proof Step Builder",
+    categoryId: "reasoning",
+    description: "Drafts rigorous step-by-step mathematical proofs (Induction, Direct, Contradiction).",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Deductive Mathematical Proof Step Builder",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Deductive Mathematical Proof Step Builder",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Deductive Mathematical Proof Step Builder.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Deductive Mathematical Proof Step Builder.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-perspective-cognitive-bias-de-biasing-engine": {
+    id: "reasoning-multi-multi-perspective-cognitive-bias-de-biasing-engine",
+    name: "MultiPerspectiveCognitiveBiasDeBiasingEngineSkill",
+    displayName: "Multi Perspective Cognitive Bias De-Biasing Engine",
+    categoryId: "reasoning",
+    description: "Audits reasoning against Confirmation Bias, Anchoring, Availability Heuristic, and Sunk Cost.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Cognitive Bias De-Biasing Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Cognitive Bias De-Biasing Engine",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Cognitive Bias De-Biasing Engine.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Cognitive Bias De-Biasing Engine.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-hypothesis-testing-significance-evaluation": {
+    id: "reasoning-multi-multi-stage-hypothesis-testing-significance-evaluation",
+    name: "MultiStageHypothesisTestingSignificanceEvaluationSkill",
+    displayName: "Multi Stage Hypothesis Testing Significance Evaluation",
+    categoryId: "reasoning",
+    description: "Formulates null/alternative hypotheses, calculates p-values, and evaluates Type I/II errors.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Hypothesis Testing Significance Evaluation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Hypothesis Testing Significance Evaluation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Hypothesis Testing Significance Evaluation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Hypothesis Testing Significance Evaluation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-factor-marginal-utility-economics-cost-benefit": {
+    id: "reasoning-multi-multi-factor-marginal-utility-economics-cost-benefit",
+    name: "MultiFactorMarginalUtilityEconomicsCostBenefitSkill",
+    displayName: "Multi Factor Marginal Utility Economics Cost Benefit",
+    categoryId: "reasoning",
+    description: "Evaluates diminishing marginal returns and opportunity costs in resource allocation.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Marginal Utility Economics Cost Benefit",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Marginal Utility Economics Cost Benefit",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Marginal Utility Economics Cost Benefit.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Marginal Utility Economics Cost Benefit.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-epistemological-justified-true-belief-audit": {
+    id: "reasoning-multi-multi-layer-epistemological-justified-true-belief-audit",
+    name: "MultiLayerEpistemologicalJustifiedTrueBeliefAuditSkill",
+    displayName: "Multi Layer Epistemological Justified True Belief Audit",
+    categoryId: "reasoning",
+    description: "Audits whether knowledge claims meet strict conditions of belief, truth, and justification.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Epistemological Justified True Belief Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Epistemological Justified True Belief Audit",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Epistemological Justified True Belief Audit.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Epistemological Justified True Belief Audit.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-perspective-socratic-questioning-logical-interrogation": {
+    id: "reasoning-multi-multi-perspective-socratic-questioning-logical-interrogation",
+    name: "MultiPerspectiveSocraticQuestioningLogicalInterrogationSkill",
+    displayName: "Multi Perspective Socratic Questioning Logical Interrogation",
+    categoryId: "reasoning",
+    description: "Interrogates premises through structured Socratic questioning exposing hidden contradictions.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Socratic Questioning Logical Interrogation",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Socratic Questioning Logical Interrogation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Socratic Questioning Logical Interrogation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Socratic Questioning Logical Interrogation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-pre-mortem-failure-mode-simulation": {
+    id: "reasoning-multi-multi-stage-pre-mortem-failure-mode-simulation",
+    name: "MultiStagePreMortemFailureModeSimulationSkill",
+    displayName: "Multi Stage Pre Mortem Failure Mode Simulation",
+    categoryId: "reasoning",
+    description: "Assumes project failed catastrophically 1 year from now, reasoning backwards to catch vulnerabilities today.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Pre Mortem Failure Mode Simulation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Pre Mortem Failure Mode Simulation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Pre Mortem Failure Mode Simulation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Pre Mortem Failure Mode Simulation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-factor-comparative-matrix-risk-benefit-evaluation": {
+    id: "reasoning-multi-multi-factor-comparative-matrix-risk-benefit-evaluation",
+    name: "MultiFactorComparativeMatrixRiskBenefitEvaluationSkill",
+    displayName: "Multi Factor Comparative Matrix Risk Benefit Evaluation",
+    categoryId: "reasoning",
+    description: "Weights pros and cons of competing strategies using normalized multi-criteria scoring.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Comparative Matrix Risk Benefit Evaluation",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Comparative Matrix Risk Benefit Evaluation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Comparative Matrix Risk Benefit Evaluation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Comparative Matrix Risk Benefit Evaluation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-system-dynamics-stock-and-flow-modeling": {
+    id: "reasoning-multi-multi-layer-system-dynamics-stock-and-flow-modeling",
+    name: "MultiLayerSystemDynamicsStockandFlowModelingSkill",
+    displayName: "Multi Layer System Dynamics Stock and Flow Modeling",
+    categoryId: "reasoning",
+    description: "Models accumulation stocks, inflow/outflow rates, and feedback delays in systems.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer System Dynamics Stock and Flow Modeling",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer System Dynamics Stock and Flow Modeling",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer System Dynamics Stock and Flow Modeling.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer System Dynamics Stock and Flow Modeling.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-perspective-ethical-deontology-vs-consequentialism": {
+    id: "reasoning-multi-multi-perspective-ethical-deontology-vs-consequentialism",
+    name: "MultiPerspectiveEthicalDeontologyvsConsequentialismSkill",
+    displayName: "Multi Perspective Ethical Deontology vs Consequentialism",
+    categoryId: "reasoning",
+    description: "Evaluates moral dilemmas through Duty-based (Kant) vs Outcome-based (Utilitarian) lenses.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Ethical Deontology vs Consequentialism",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Ethical Deontology vs Consequentialism",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Ethical Deontology vs Consequentialism.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Ethical Deontology vs Consequentialism.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-evidential-triangulation-cross-verification": {
+    id: "reasoning-multi-multi-stage-evidential-triangulation-cross-verification",
+    name: "MultiStageEvidentialTriangulationCrossVerificationSkill",
+    displayName: "Multi Stage Evidential Triangulation Cross Verification",
+    categoryId: "reasoning",
+    description: "Validates claims by requiring corroboration from at least 3 independent data sources.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Evidential Triangulation Cross Verification",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Evidential Triangulation Cross Verification",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Evidential Triangulation Cross Verification.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Evidential Triangulation Cross Verification.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-factor-black-swan-extreme-event-risk-reasoning": {
+    id: "reasoning-multi-multi-factor-black-swan-extreme-event-risk-reasoning",
+    name: "MultiFactorBlackSwanExtremeEventRiskReasoningSkill",
+    displayName: "Multi Factor Black Swan Extreme Event Risk Reasoning",
+    categoryId: "reasoning",
+    description: "Models tail-risk events characterized by high unpredictability and massive impact.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Black Swan Extreme Event Risk Reasoning",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Black Swan Extreme Event Risk Reasoning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Black Swan Extreme Event Risk Reasoning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Black Swan Extreme Event Risk Reasoning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-logical-implication-modal-necessity-reasoning": {
+    id: "reasoning-multi-multi-layer-logical-implication-modal-necessity-reasoning",
+    name: "MultiLayerLogicalImplicationModalNecessityReasoningSkill",
+    displayName: "Multi Layer Logical Implication Modal Necessity Reasoning",
+    categoryId: "reasoning",
+    description: "Evaluates claims across necessary truth, possible truth, and contingent truth states.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Logical Implication Modal Necessity Reasoning",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Logical Implication Modal Necessity Reasoning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Logical Implication Modal Necessity Reasoning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Logical Implication Modal Necessity Reasoning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-perspective-prisoner-dilemma-cooperation-analysis": {
+    id: "reasoning-multi-multi-perspective-prisoner-dilemma-cooperation-analysis",
+    name: "MultiPerspectivePrisonerDilemmaCooperationAnalysisSkill",
+    displayName: "Multi Perspective Prisoner Dilemma Cooperation Analysis",
+    categoryId: "reasoning",
+    description: "Analyzes iterated prisoner's dilemma strategies (Tit-for-Tat, Win-Stay Lose-Shift).",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Prisoner Dilemma Cooperation Analysis",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Prisoner Dilemma Cooperation Analysis",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Prisoner Dilemma Cooperation Analysis.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Prisoner Dilemma Cooperation Analysis.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-inversion-problem-solving-reverse-reasoning": {
+    id: "reasoning-multi-multi-stage-inversion-problem-solving-reverse-reasoning",
+    name: "MultiStageInversionProblemSolvingReverseReasoningSkill",
+    displayName: "Multi Stage Inversion Problem Solving Reverse Reasoning",
+    categoryId: "reasoning",
+    description: "Solves problems by determining how to achieve the opposite bad outcome, then avoiding it.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Inversion Problem Solving Reverse Reasoning",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Inversion Problem Solving Reverse Reasoning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Inversion Problem Solving Reverse Reasoning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Inversion Problem Solving Reverse Reasoning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-factor-supply-and-demand-market-equilibrium-reasoning": {
+    id: "reasoning-multi-multi-factor-supply-and-demand-market-equilibrium-reasoning",
+    name: "MultiFactorSupplyandDemandMarketEquilibriumReasoningSkill",
+    displayName: "Multi Factor Supply and Demand Market Equilibrium Reasoning",
+    categoryId: "reasoning",
+    description: "Predicts price shifts from supply shocks, demand elasticity, and price ceilings/floors.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Supply and Demand Market Equilibrium Reasoning",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Supply and Demand Market Equilibrium Reasoning",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Supply and Demand Market Equilibrium Reasoning.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Supply and Demand Market Equilibrium Reasoning.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-venn-diagram-set-theory-logic-deduction": {
+    id: "reasoning-multi-multi-layer-venn-diagram-set-theory-logic-deduction",
+    name: "MultiLayerVennDiagramSetTheoryLogicDeductionSkill",
+    displayName: "Multi Layer Venn Diagram Set Theory Logic Deduction",
+    categoryId: "reasoning",
+    description: "Deduces subset relationships, intersections, and unions using formal set theory logic.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Venn Diagram Set Theory Logic Deduction",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Venn Diagram Set Theory Logic Deduction",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Venn Diagram Set Theory Logic Deduction.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Venn Diagram Set Theory Logic Deduction.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-perspective-scientific-paradigm-shift-kuhn-analysis": {
+    id: "reasoning-multi-multi-perspective-scientific-paradigm-shift-kuhn-analysis",
+    name: "MultiPerspectiveScientificParadigmShiftKuhnAnalysisSkill",
+    displayName: "Multi Perspective Scientific Paradigm Shift Kuhn Analysis",
+    categoryId: "reasoning",
+    description: "Analyzes anomaly accumulations triggering scientific paradigm shifts in research fields.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Scientific Paradigm Shift Kuhn Analysis",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Scientific Paradigm Shift Kuhn Analysis",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Scientific Paradigm Shift Kuhn Analysis.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Scientific Paradigm Shift Kuhn Analysis.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-fermi-estimation-back-of-envelope-calculation": {
+    id: "reasoning-multi-multi-stage-fermi-estimation-back-of-envelope-calculation",
+    name: "MultiStageFermiEstimationBackofEnvelopeCalculationSkill",
+    displayName: "Multi Stage Fermi Estimation Back of Envelope Calculation",
+    categoryId: "reasoning",
+    description: "Breaks impossible estimation questions into order-of-magnitude dimensional steps.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Fermi Estimation Back of Envelope Calculation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Fermi Estimation Back of Envelope Calculation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Fermi Estimation Back of Envelope Calculation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Fermi Estimation Back of Envelope Calculation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-factor-survivorship-bias-selection-trap-audit": {
+    id: "reasoning-multi-multi-factor-survivorship-bias-selection-trap-audit",
+    name: "MultiFactorSurvivorshipBiasSelectionTrapAuditSkill",
+    displayName: "Multi Factor Survivorship Bias Selection Trap Audit",
+    categoryId: "reasoning",
+    description: "Audits data samples for survivorship bias ensuring failed/invisible data is accounted for.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Survivorship Bias Selection Trap Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Survivorship Bias Selection Trap Audit",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Survivorship Bias Selection Trap Audit.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Survivorship Bias Selection Trap Audit.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-causation-vs-correlation-disambiguation": {
+    id: "reasoning-multi-multi-layer-causation-vs-correlation-disambiguation",
+    name: "MultiLayerCausationvsCorrelationDisambiguationSkill",
+    displayName: "Multi Layer Causation vs Correlation Disambiguation",
+    categoryId: "reasoning",
+    description: "Evaluates confounding variables, reverse causality, and spurious correlations.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Causation vs Correlation Disambiguation",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Causation vs Correlation Disambiguation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Causation vs Correlation Disambiguation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Causation vs Correlation Disambiguation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-perspective-tragedy-of-the-commons-resource-dilemma": {
+    id: "reasoning-multi-multi-perspective-tragedy-of-the-commons-resource-dilemma",
+    name: "MultiPerspectiveTragedyoftheCommonsResourceDilemmaSkill",
+    displayName: "Multi Perspective Tragedy of the Commons Resource Dilemma",
+    categoryId: "reasoning",
+    description: "Analyzes shared resource depletion, freerider problems, and governance solutions.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Tragedy of the Commons Resource Dilemma",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Tragedy of the Commons Resource Dilemma",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Tragedy of the Commons Resource Dilemma.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Tragedy of the Commons Resource Dilemma.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-deductive-code-logic-correctness-proof": {
+    id: "reasoning-multi-multi-stage-deductive-code-logic-correctness-proof",
+    name: "MultiStageDeductiveCodeLogicCorrectnessProofSkill",
+    displayName: "Multi Stage Deductive Code Logic Correctness Proof",
+    categoryId: "reasoning",
+    description: "Proves software loop invariants and pre/post conditions using Hoare logic.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Deductive Code Logic Correctness Proof",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Deductive Code Logic Correctness Proof",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Deductive Code Logic Correctness Proof.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Deductive Code Logic Correctness Proof.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-factor-goodhart-law-metric-distortion-audit": {
+    id: "reasoning-multi-multi-factor-goodhart-law-metric-distortion-audit",
+    name: "MultiFactorGoodhartLawMetricDistortionAuditSkill",
+    displayName: "Multi Factor Goodhart Law Metric Distortion Audit",
+    categoryId: "reasoning",
+    description: "Audits target metrics verifying that optimizing for the metric does not destroy value.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Goodhart Law Metric Distortion Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Goodhart Law Metric Distortion Audit",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Goodhart Law Metric Distortion Audit.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Goodhart Law Metric Distortion Audit.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-semantic-ambiguity-disambiguation-engine": {
+    id: "reasoning-multi-multi-layer-semantic-ambiguity-disambiguation-engine",
+    name: "MultiLayerSemanticAmbiguityDisambiguationEngineSkill",
+    displayName: "Multi Layer Semantic Ambiguity Disambiguation Engine",
+    categoryId: "reasoning",
+    description: "Disambiguates double meanings, polysemy, and vague terminology in statements.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Semantic Ambiguity Disambiguation Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Semantic Ambiguity Disambiguation Engine",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Semantic Ambiguity Disambiguation Engine.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Semantic Ambiguity Disambiguation Engine.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-perspective-chesterton-fence-policy-removal-rule": {
+    id: "reasoning-multi-multi-perspective-chesterton-fence-policy-removal-rule",
+    name: "MultiPerspectiveChestertonFencePolicyRemovalRuleSkill",
+    displayName: "Multi Perspective Chesterton Fence Policy Removal Rule",
+    categoryId: "reasoning",
+    description: "Requires understanding why a rule or fence was built before authorizing its removal.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Chesterton Fence Policy Removal Rule",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Chesterton Fence Policy Removal Rule",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Chesterton Fence Policy Removal Rule.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Chesterton Fence Policy Removal Rule.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-probabilistic-risk-assessment-pra-engine": {
+    id: "reasoning-multi-multi-stage-probabilistic-risk-assessment-pra-engine",
+    name: "MultiStageProbabilisticRiskAssessmentPRAEngineSkill",
+    displayName: "Multi Stage Probabilistic Risk Assessment PRA Engine",
+    categoryId: "reasoning",
+    description: "Calculates probability distributions of component failures in complex engineering plants.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Probabilistic Risk Assessment PRA Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Probabilistic Risk Assessment PRA Engine",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Probabilistic Risk Assessment PRA Engine.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Probabilistic Risk Assessment PRA Engine.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-factor-diminishing-returns-threshold-calculation": {
+    id: "reasoning-multi-multi-factor-diminishing-returns-threshold-calculation",
+    name: "MultiFactorDiminishingReturnsThresholdCalculationSkill",
+    displayName: "Multi Factor Diminishing Returns Threshold Calculation",
+    categoryId: "reasoning",
+    description: "Calculates the exact inflection point where additional resource input yields zero benefit.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Diminishing Returns Threshold Calculation",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Diminishing Returns Threshold Calculation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Diminishing Returns Threshold Calculation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Diminishing Returns Threshold Calculation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-deductive-argument-validity-soundness-checker": {
+    id: "reasoning-multi-multi-layer-deductive-argument-validity-soundness-checker",
+    name: "MultiLayerDeductiveArgumentValiditySoundnessCheckerSkill",
+    displayName: "Multi Layer Deductive Argument Validity Soundness Checker",
+    categoryId: "reasoning",
+    description: "Evaluates whether arguments possess both valid logical structure and true premises.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Deductive Argument Validity Soundness Checker",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Deductive Argument Validity Soundness Checker",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Deductive Argument Validity Soundness Checker.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Deductive Argument Validity Soundness Checker.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-perspective-hanlon-razor-negligence-intent-audit": {
+    id: "reasoning-multi-multi-perspective-hanlon-razor-negligence-intent-audit",
+    name: "MultiPerspectiveHanlonRazorNegligenceIntentAuditSkill",
+    displayName: "Multi Perspective Hanlon Razor Negligence Intent Audit",
+    categoryId: "reasoning",
+    description: "Evaluates whether bad outcomes stemmed from malice, incompetence, or systemic friction.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Hanlon Razor Negligence Intent Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Hanlon Razor Negligence Intent Audit",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Hanlon Razor Negligence Intent Audit.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Hanlon Razor Negligence Intent Audit.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-regret-minimization-long-term-horizon": {
+    id: "reasoning-multi-multi-stage-regret-minimization-long-term-horizon",
+    name: "MultiStageRegretMinimizationLongTermHorizonSkill",
+    displayName: "Multi Stage Regret Minimization Long Term Horizon",
+    categoryId: "reasoning",
+    description: "Evaluates major life/business decisions by projecting to age 80 and minimizing future regret.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Regret Minimization Long Term Horizon",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Regret Minimization Long Term Horizon",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Regret Minimization Long Term Horizon.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Regret Minimization Long Term Horizon.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-factor-cobra-effect-perverse-incentive-audit": {
+    id: "reasoning-multi-multi-factor-cobra-effect-perverse-incentive-audit",
+    name: "MultiFactorCobraEffectPerverseIncentiveAuditSkill",
+    displayName: "Multi Factor Cobra Effect Perverse Incentive Audit",
+    categoryId: "reasoning",
+    description: "Audits incentive structures ensuring reward programs do not accidentally worsen the problem.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Cobra Effect Perverse Incentive Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Cobra Effect Perverse Incentive Audit",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Cobra Effect Perverse Incentive Audit.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Cobra Effect Perverse Incentive Audit.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-logical-equivalence-contrapositive-deduction": {
+    id: "reasoning-multi-multi-layer-logical-equivalence-contrapositive-deduction",
+    name: "MultiLayerLogicalEquivalenceContrapositiveDeductionSkill",
+    displayName: "Multi Layer Logical Equivalence Contrapositive Deduction",
+    categoryId: "reasoning",
+    description: "Deduces logically equivalent statements using contrapositive conversions (P -> Q = ~Q -> ~P).",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Logical Equivalence Contrapositive Deduction",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Logical Equivalence Contrapositive Deduction",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Logical Equivalence Contrapositive Deduction.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Logical Equivalence Contrapositive Deduction.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-perspective-streetlight-effect-measurement-bias": {
+    id: "reasoning-multi-multi-perspective-streetlight-effect-measurement-bias",
+    name: "MultiPerspectiveStreetlightEffectMeasurementBiasSkill",
+    displayName: "Multi Perspective Streetlight Effect Measurement Bias",
+    categoryId: "reasoning",
+    description: "Audits data collection ensuring metrics are not chosen merely because they are easy to measure.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Streetlight Effect Measurement Bias",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Streetlight Effect Measurement Bias",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Streetlight Effect Measurement Bias.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Streetlight Effect Measurement Bias.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-counter-argument-steelmanning-engine": {
+    id: "reasoning-multi-multi-stage-counter-argument-steelmanning-engine",
+    name: "MultiStageCounterArgumentSteelmanningEngineSkill",
+    displayName: "Multi Stage Counter-Argument Steelmanning Engine",
+    categoryId: "reasoning",
+    description: "Constructs the absolute strongest possible version of an opposing argument before responding.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Counter-Argument Steelmanning Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Counter-Argument Steelmanning Engine",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Counter-Argument Steelmanning Engine.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Counter-Argument Steelmanning Engine.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-factor-principal-agent-moral-hazard-alignment": {
+    id: "reasoning-multi-multi-factor-principal-agent-moral-hazard-alignment",
+    name: "MultiFactorPrincipalAgentMoralHazardAlignmentSkill",
+    displayName: "Multi Factor Principal Agent Moral Hazard Alignment",
+    categoryId: "reasoning",
+    description: "Analyzes information asymmetry and conflicting incentives between principals and agents.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Principal Agent Moral Hazard Alignment",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Principal Agent Moral Hazard Alignment",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Principal Agent Moral Hazard Alignment.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Principal Agent Moral Hazard Alignment.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-truth-table-boolean-proposition-verifier": {
+    id: "reasoning-multi-multi-layer-truth-table-boolean-proposition-verifier",
+    name: "MultiLayerTruthTableBooleanPropositionVerifierSkill",
+    displayName: "Multi Layer Truth Table Boolean Proposition Verifier",
+    categoryId: "reasoning",
+    description: "Evaluates complex Boolean expressions constructing exhaustive truth tables.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Truth Table Boolean Proposition Verifier",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Truth Table Boolean Proposition Verifier",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Truth Table Boolean Proposition Verifier.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Truth Table Boolean Proposition Verifier.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-perspective-lindy-effect-technology-longevity": {
+    id: "reasoning-multi-multi-perspective-lindy-effect-technology-longevity",
+    name: "MultiPerspectiveLindyEffectTechnologyLongevitySkill",
+    displayName: "Multi Perspective Lindy Effect Technology Longevity",
+    categoryId: "reasoning",
+    description: "Predicts future technology lifespan based on current age according to the Lindy Effect.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Lindy Effect Technology Longevity",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Lindy Effect Technology Longevity",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Lindy Effect Technology Longevity.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Lindy Effect Technology Longevity.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-stage-root-cause-5-whys-chain-analysis": {
+    id: "reasoning-multi-multi-stage-root-cause-5-whys-chain-analysis",
+    name: "MultiStageRootCause5WhysChainAnalysisSkill",
+    displayName: "Multi Stage Root Cause 5 Whys Chain Analysis",
+    categoryId: "reasoning",
+    description: "Asks 5 progressive 'Why' questions uncovering underlying cultural or process failures.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Root Cause 5 Whys Chain Analysis",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Root Cause 5 Whys Chain Analysis",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Root Cause 5 Whys Chain Analysis.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Root Cause 5 Whys Chain Analysis.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-factor-opportunity-cost-trade-off-evaluation": {
+    id: "reasoning-multi-multi-factor-opportunity-cost-trade-off-evaluation",
+    name: "MultiFactorOpportunityCostTradeOffEvaluationSkill",
+    displayName: "Multi Factor Opportunity Cost Trade Off Evaluation",
+    categoryId: "reasoning",
+    description: "Calculates lost value of foregone alternatives when choosing a specific capital investment.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Opportunity Cost Trade Off Evaluation",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Opportunity Cost Trade Off Evaluation",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Factor Opportunity Cost Trade Off Evaluation.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Factor Opportunity Cost Trade Off Evaluation.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-layer-deductive-proof-by-exhaustion-case-analysis": {
+    id: "reasoning-multi-multi-layer-deductive-proof-by-exhaustion-case-analysis",
+    name: "MultiLayerDeductiveProofbyExhaustionCaseAnalysisSkill",
+    displayName: "Multi Layer Deductive Proof by Exhaustion Case Analysis",
+    categoryId: "reasoning",
+    description: "Proves claims by dividing problem space into finite cases and verifying each case individually.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Deductive Proof by Exhaustion Case Analysis",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Deductive Proof by Exhaustion Case Analysis",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Deductive Proof by Exhaustion Case Analysis.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Deductive Proof by Exhaustion Case Analysis.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
+
+  "reasoning-multi-multi-horizon-master-logical-reasoning-deduction-engine": {
+    id: "reasoning-multi-multi-horizon-master-logical-reasoning-deduction-engine",
+    name: "MultiHorizonMasterLogicalReasoningDeductionEngineSkill",
+    displayName: "Multi Horizon Master Logical Reasoning Deduction Engine",
+    categoryId: "reasoning",
+    description: "Enforces master logical validity, de-biasing, causal modeling, and sound first-principles reasoning.",
+    tags: ["reasoning","multi-skill","reasoning-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Logical Reasoning Deduction Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Logical Reasoning Deduction Engine",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Horizon Master Logical Reasoning Deduction Engine.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Horizon Master Logical Reasoning Deduction Engine.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","multi-skill","reasoning-multi"],
+    }),
+  },
 };

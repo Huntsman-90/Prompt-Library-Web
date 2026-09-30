@@ -4286,4 +4286,1503 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
       tags: ["controlFlow","controlflow-final","final","master"],
     }),
   },
+  "controlflow-multi-multi-stage-dynamic-branching-decision-tree": {
+    id: "controlflow-multi-multi-stage-dynamic-branching-decision-tree",
+    name: "MultiStageDynamicBranchingDecisionTreeSkill",
+    displayName: "Multi Stage Dynamic Branching Decision Tree",
+    categoryId: "controlFlow",
+    description: "Routes execution paths conditionally based on dynamic multi-variable evaluator nodes.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Dynamic Branching Decision Tree",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Dynamic Branching Decision Tree",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Dynamic Branching Decision Tree.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Dynamic Branching Decision Tree.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-layer-exception-catch-fallback-chain": {
+    id: "controlflow-multi-multi-layer-exception-catch-fallback-chain",
+    name: "MultiLayerExceptionCatchFallbackChainSkill",
+    displayName: "Multi Layer Exception Catch Fallback Chain",
+    categoryId: "controlFlow",
+    description: "Structures multi-tiered exception handling with graceful degraded fallback responses.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Exception Catch Fallback Chain",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Exception Catch Fallback Chain",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Exception Catch Fallback Chain.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Exception Catch Fallback Chain.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-pipeline-asynchronous-queue-fan-out-fan-in": {
+    id: "controlflow-multi-multi-pipeline-asynchronous-queue-fan-out-fan-in",
+    name: "MultiPipelineAsynchronousQueueFanOutFanInSkill",
+    displayName: "Multi Pipeline Asynchronous Queue Fan Out Fan In",
+    categoryId: "controlFlow",
+    description: "Fans out workloads to parallel queue workers and merges results in a fan-in aggregator.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Pipeline Asynchronous Queue Fan Out Fan In",
+      ruSectionName: "Композитный Multi-Skill: Multi Pipeline Asynchronous Queue Fan Out Fan In",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Pipeline Asynchronous Queue Fan Out Fan In.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Pipeline Asynchronous Queue Fan Out Fan In.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-human-in-the-loop-approval-gate": {
+    id: "controlflow-multi-multi-step-human-in-the-loop-approval-gate",
+    name: "MultiStepHumanintheLoopApprovalGateSkill",
+    displayName: "Multi Step Human in the Loop Approval Gate",
+    categoryId: "controlFlow",
+    description: "Pauses workflow execution at milestone gates requiring explicit human sign-off.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Human in the Loop Approval Gate",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Human in the Loop Approval Gate",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Human in the Loop Approval Gate.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Human in the Loop Approval Gate.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-rate-token-bucket-traffic-shaping-valve": {
+    id: "controlflow-multi-multi-rate-token-bucket-traffic-shaping-valve",
+    name: "MultiRateTokenBucketTrafficShapingValveSkill",
+    displayName: "Multi Rate Token Bucket Traffic Shaping Valve",
+    categoryId: "controlFlow",
+    description: "Controls request flow using dual token bucket rate limiting for burst and steady traffic.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Rate Token Bucket Traffic Shaping Valve",
+      ruSectionName: "Композитный Multi-Skill: Multi Rate Token Bucket Traffic Shaping Valve",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Rate Token Bucket Traffic Shaping Valve.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Rate Token Bucket Traffic Shaping Valve.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-state-finite-state-machine-fsm-transitions": {
+    id: "controlflow-multi-multi-state-finite-state-machine-fsm-transitions",
+    name: "MultiStateFiniteStateMachineFSMTransitionsSkill",
+    displayName: "Multi State Finite State Machine FSM Transitions",
+    categoryId: "controlFlow",
+    description: "Enforces strict state transitions, entry/exit hooks, and valid trigger conditions.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi State Finite State Machine FSM Transitions",
+      ruSectionName: "Композитный Multi-Skill: Multi State Finite State Machine FSM Transitions",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi State Finite State Machine FSM Transitions.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi State Finite State Machine FSM Transitions.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-phase-distributed-transaction-saga-pattern": {
+    id: "controlflow-multi-multi-phase-distributed-transaction-saga-pattern",
+    name: "MultiPhaseDistributedTransactionSagaPatternSkill",
+    displayName: "Multi Phase Distributed Transaction Saga Pattern",
+    categoryId: "controlFlow",
+    description: "Executes saga orchestration across distributed services with compensating rollback steps.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Phase Distributed Transaction Saga Pattern",
+      ruSectionName: "Композитный Multi-Skill: Multi Phase Distributed Transaction Saga Pattern",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Phase Distributed Transaction Saga Pattern.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Phase Distributed Transaction Saga Pattern.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-branch-priority-queue-job-scheduler": {
+    id: "controlflow-multi-multi-branch-priority-queue-job-scheduler",
+    name: "MultiBranchPriorityQueueJobSchedulerSkill",
+    displayName: "Multi Branch Priority Queue Job Scheduler",
+    categoryId: "controlFlow",
+    description: "Dispatches jobs based on priority weight, deadline urgency, and worker capacity.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Branch Priority Queue Job Scheduler",
+      ruSectionName: "Композитный Multi-Skill: Multi Branch Priority Queue Job Scheduler",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Branch Priority Queue Job Scheduler.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Branch Priority Queue Job Scheduler.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-path-circuit-breaker-health-degrade-loop": {
+    id: "controlflow-multi-multi-path-circuit-breaker-health-degrade-loop",
+    name: "MultiPathCircuitBreakerHealthDegradeLoopSkill",
+    displayName: "Multi Path Circuit Breaker Health Degrade Loop",
+    categoryId: "controlFlow",
+    description: "Monitors upstream service errors, trips circuit breaker, and routes to cached mock data.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Path Circuit Breaker Health Degrade Loop",
+      ruSectionName: "Композитный Multi-Skill: Multi Path Circuit Breaker Health Degrade Loop",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Path Circuit Breaker Health Degrade Loop.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Path Circuit Breaker Health Degrade Loop.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-tier-batch-stream-hybrids-data-processing": {
+    id: "controlflow-multi-multi-tier-batch-stream-hybrids-data-processing",
+    name: "MultiTierBatchStreamHybridsDataProcessingSkill",
+    displayName: "Multi Tier Batch Stream Hybrids Data Processing",
+    categoryId: "controlFlow",
+    description: "Combines real-time event streaming with scheduled micro-batch aggregation pipelines.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Batch Stream Hybrids Data Processing",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Batch Stream Hybrids Data Processing",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Tier Batch Stream Hybrids Data Processing.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Tier Batch Stream Hybrids Data Processing.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-gateway-dynamic-load-balancing-router": {
+    id: "controlflow-multi-multi-gateway-dynamic-load-balancing-router",
+    name: "MultiGatewayDynamicLoadBalancingRouterSkill",
+    displayName: "Multi Gateway Dynamic Load Balancing Router",
+    categoryId: "controlFlow",
+    description: "Distributes incoming traffic across healthy backend endpoints using weighted round-robin.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Gateway Dynamic Load Balancing Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Gateway Dynamic Load Balancing Router",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Gateway Dynamic Load Balancing Router.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Gateway Dynamic Load Balancing Router.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-layer-retry-exponential-backoff-jitter": {
+    id: "controlflow-multi-multi-layer-retry-exponential-backoff-jitter",
+    name: "MultiLayerRetryExponentialBackoffJitterSkill",
+    displayName: "Multi Layer Retry Exponential Backoff Jitter",
+    categoryId: "controlFlow",
+    description: "Retries transient network failures using randomized full-jitter exponential backoff.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Retry Exponential Backoff Jitter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Retry Exponential Backoff Jitter",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Retry Exponential Backoff Jitter.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Retry Exponential Backoff Jitter.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-document-conversion-state-machine": {
+    id: "controlflow-multi-multi-step-document-conversion-state-machine",
+    name: "MultiStepDocumentConversionStateMachineSkill",
+    displayName: "Multi Step Document Conversion State Machine",
+    categoryId: "controlFlow",
+    description: "Tracks document upload, malware scan, OCR parsing, indexing, and notify state flow.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Document Conversion State Machine",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Document Conversion State Machine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Document Conversion State Machine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Document Conversion State Machine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-channel-event-driven-webhook-broadcaster": {
+    id: "controlflow-multi-multi-channel-event-driven-webhook-broadcaster",
+    name: "MultiChannelEventDrivenWebhookBroadcasterSkill",
+    displayName: "Multi Channel Event Driven Webhook Broadcaster",
+    categoryId: "controlFlow",
+    description: "Publishes state change events to multiple external consumer webhook subscriptions.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Channel Event Driven Webhook Broadcaster",
+      ruSectionName: "Композитный Multi-Skill: Multi Channel Event Driven Webhook Broadcaster",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Channel Event Driven Webhook Broadcaster.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Channel Event Driven Webhook Broadcaster.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-queue-dead-letter-replay-mechanism": {
+    id: "controlflow-multi-multi-queue-dead-letter-replay-mechanism",
+    name: "MultiQueueDeadLetterReplayMechanismSkill",
+    displayName: "Multi Queue Dead Letter Replay Mechanism",
+    categoryId: "controlFlow",
+    description: "Captures failed queue messages in DLQ, isolates poison pills, and replays valid payloads.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Queue Dead Letter Replay Mechanism",
+      ruSectionName: "Композитный Multi-Skill: Multi Queue Dead Letter Replay Mechanism",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Queue Dead Letter Replay Mechanism.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Queue Dead Letter Replay Mechanism.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-threshold-auto-scaling-trigger-engine": {
+    id: "controlflow-multi-multi-threshold-auto-scaling-trigger-engine",
+    name: "MultiThresholdAutoScalingTriggerEngineSkill",
+    displayName: "Multi Threshold Auto Scaling Trigger Engine",
+    categoryId: "controlFlow",
+    description: "Monitors CPU, memory, and queue depth thresholds to trigger pod/VM scaling events.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Threshold Auto Scaling Trigger Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Threshold Auto Scaling Trigger Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Threshold Auto Scaling Trigger Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Threshold Auto Scaling Trigger Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-user-onboarding-verification-workflow": {
+    id: "controlflow-multi-multi-step-user-onboarding-verification-workflow",
+    name: "MultiStepUserOnboardingVerificationWorkflowSkill",
+    displayName: "Multi Step User Onboarding Verification Workflow",
+    categoryId: "controlFlow",
+    description: "Orchestrates email confirmation, KYC identity check, initial setup, and welcome flow.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step User Onboarding Verification Workflow",
+      ruSectionName: "Композитный Multi-Skill: Multi Step User Onboarding Verification Workflow",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step User Onboarding Verification Workflow.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step User Onboarding Verification Workflow.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-layer-task-dependency-graph-dag-orchestration": {
+    id: "controlflow-multi-multi-layer-task-dependency-graph-dag-orchestration",
+    name: "MultiLayerTaskDependencyGraphDAGOrchestrationSkill",
+    displayName: "Multi Layer Task Dependency Graph DAG Orchestration",
+    categoryId: "controlFlow",
+    description: "Executes directed acyclic graphs ensuring prerequisite parent tasks complete before children.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Task Dependency Graph DAG Orchestration",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Task Dependency Graph DAG Orchestration",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Task Dependency Graph DAG Orchestration.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Task Dependency Graph DAG Orchestration.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-region-high-availability-traffic-failover": {
+    id: "controlflow-multi-multi-region-high-availability-traffic-failover",
+    name: "MultiRegionHighAvailabilityTrafficFailoverSkill",
+    displayName: "Multi Region High Availability Traffic Failover",
+    categoryId: "controlFlow",
+    description: "Monitors DNS health checks and routes user traffic away from degraded regions.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Region High Availability Traffic Failover",
+      ruSectionName: "Композитный Multi-Skill: Multi Region High Availability Traffic Failover",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Region High Availability Traffic Failover.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Region High Availability Traffic Failover.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-level-cache-revalidation-stale-while-revalidate": {
+    id: "controlflow-multi-multi-level-cache-revalidation-stale-while-revalidate",
+    name: "MultiLevelCacheRevalidationStaleWhileRevalidateSkill",
+    displayName: "Multi Level Cache Revalidation Stale While Revalidate",
+    categoryId: "controlFlow",
+    description: "Serves stale cached assets immediately while asynchronously revalidating in background.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Cache Revalidation Stale While Revalidate",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Cache Revalidation Stale While Revalidate",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Level Cache Revalidation Stale While Revalidate.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Level Cache Revalidation Stale While Revalidate.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-payment-processing-settlement-pipeline": {
+    id: "controlflow-multi-multi-step-payment-processing-settlement-pipeline",
+    name: "MultiStepPaymentProcessingSettlementPipelineSkill",
+    displayName: "Multi Step Payment Processing Settlement Pipeline",
+    categoryId: "controlFlow",
+    description: "Orchestrates payment authorization, fraud check, capture, payout split, and ledger entry.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Payment Processing Settlement Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Payment Processing Settlement Pipeline",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Payment Processing Settlement Pipeline.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Payment Processing Settlement Pipeline.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-stage-etl-data-pipeline-ingestion-workflow": {
+    id: "controlflow-multi-multi-stage-etl-data-pipeline-ingestion-workflow",
+    name: "MultiStageETLDataPipelineIngestionWorkflowSkill",
+    displayName: "Multi Stage ETL Data Pipeline Ingestion Workflow",
+    categoryId: "controlFlow",
+    description: "Orchestrates data extract, schema validation, enrichment transform, and bulk database load.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage ETL Data Pipeline Ingestion Workflow",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage ETL Data Pipeline Ingestion Workflow",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage ETL Data Pipeline Ingestion Workflow.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage ETL Data Pipeline Ingestion Workflow.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-user-collaborative-locking-concurrency-control": {
+    id: "controlflow-multi-multi-user-collaborative-locking-concurrency-control",
+    name: "MultiUserCollaborativeLockingConcurrencyControlSkill",
+    displayName: "Multi User Collaborative Locking Concurrency Control",
+    categoryId: "controlFlow",
+    description: "Manages optimistic and pessimistic locking for concurrent document edit sessions.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi User Collaborative Locking Concurrency Control",
+      ruSectionName: "Композитный Multi-Skill: Multi User Collaborative Locking Concurrency Control",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi User Collaborative Locking Concurrency Control.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi User Collaborative Locking Concurrency Control.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-email-campaign-sequence-drip-engine": {
+    id: "controlflow-multi-multi-step-email-campaign-sequence-drip-engine",
+    name: "MultiStepEmailCampaignSequenceDripEngineSkill",
+    displayName: "Multi Step Email Campaign Sequence Drip Engine",
+    categoryId: "controlFlow",
+    description: "Triggers drip emails based on delay timers, user engagement clicks, and unsubscribes.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Email Campaign Sequence Drip Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Email Campaign Sequence Drip Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Email Campaign Sequence Drip Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Email Campaign Sequence Drip Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-level-permission-authorization-enforcer-rbac": {
+    id: "controlflow-multi-multi-level-permission-authorization-enforcer-rbac",
+    name: "MultiLevelPermissionAuthorizationEnforcerRBACSkill",
+    displayName: "Multi Level Permission Authorization Enforcer RBAC",
+    categoryId: "controlFlow",
+    description: "Evaluates role-based and attribute-based access control rules before route execution.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Permission Authorization Enforcer RBAC",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Permission Authorization Enforcer RBAC",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Level Permission Authorization Enforcer RBAC.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Level Permission Authorization Enforcer RBAC.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-phase-feature-flag-canary-deployment-router": {
+    id: "controlflow-multi-multi-phase-feature-flag-canary-deployment-router",
+    name: "MultiPhaseFeatureFlagCanaryDeploymentRouterSkill",
+    displayName: "Multi Phase Feature Flag Canary Deployment Router",
+    categoryId: "controlFlow",
+    description: "Routes percentages of user traffic to canary release features with automatic rollback on error.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Phase Feature Flag Canary Deployment Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Phase Feature Flag Canary Deployment Router",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Phase Feature Flag Canary Deployment Router.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Phase Feature Flag Canary Deployment Router.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-order-fulfillment-warehouse-routing": {
+    id: "controlflow-multi-multi-step-order-fulfillment-warehouse-routing",
+    name: "MultiStepOrderFulfillmentWarehouseRoutingSkill",
+    displayName: "Multi Step Order Fulfillment Warehouse Routing",
+    categoryId: "controlFlow",
+    description: "Routes e-commerce orders to nearest warehouse with stock, dispatches pick/pack, and tracks delivery.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Order Fulfillment Warehouse Routing",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Order Fulfillment Warehouse Routing",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Order Fulfillment Warehouse Routing.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Order Fulfillment Warehouse Routing.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-tier-database-connection-pool-balancer": {
+    id: "controlflow-multi-multi-tier-database-connection-pool-balancer",
+    name: "MultiTierDatabaseConnectionPoolBalancerSkill",
+    displayName: "Multi Tier Database Connection Pool Balancer",
+    categoryId: "controlFlow",
+    description: "Manages connection checkout timeouts, max pool limits, and idle connection reaping.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Database Connection Pool Balancer",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Database Connection Pool Balancer",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Tier Database Connection Pool Balancer.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Tier Database Connection Pool Balancer.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-video-transcoding-hls-playlist-workflow": {
+    id: "controlflow-multi-multi-step-video-transcoding-hls-playlist-workflow",
+    name: "MultiStepVideoTranscodingHLSPlaylistWorkflowSkill",
+    displayName: "Multi Step Video Transcoding HLS Playlist Workflow",
+    categoryId: "controlFlow",
+    description: "Orchestrates raw video upload, multi-bitrate encoding, HLS chunking, and CDN distribution.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Video Transcoding HLS Playlist Workflow",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Video Transcoding HLS Playlist Workflow",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Video Transcoding HLS Playlist Workflow.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Video Transcoding HLS Playlist Workflow.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-phase-cloud-resource-provisioning-pipeline": {
+    id: "controlflow-multi-multi-phase-cloud-resource-provisioning-pipeline",
+    name: "MultiPhaseCloudResourceProvisioningPipelineSkill",
+    displayName: "Multi Phase Cloud Resource Provisioning Pipeline",
+    categoryId: "controlFlow",
+    description: "Executes Terraform plan, IAM creation, security group binding, and VM boot verification.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Phase Cloud Resource Provisioning Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Phase Cloud Resource Provisioning Pipeline",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Phase Cloud Resource Provisioning Pipeline.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Phase Cloud Resource Provisioning Pipeline.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-subscription-renewal-dunning-flow": {
+    id: "controlflow-multi-multi-step-subscription-renewal-dunning-flow",
+    name: "MultiStepSubscriptionRenewalDunningFlowSkill",
+    displayName: "Multi Step Subscription Renewal Dunning Flow",
+    categoryId: "controlFlow",
+    description: "Handles failed payment retries, customer email notifications, grace periods, and cancellation.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Subscription Renewal Dunning Flow",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Subscription Renewal Dunning Flow",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Subscription Renewal Dunning Flow.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Subscription Renewal Dunning Flow.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-layer-api-gateway-rate-limit-throttling": {
+    id: "controlflow-multi-multi-layer-api-gateway-rate-limit-throttling",
+    name: "MultiLayerAPIGatewayRateLimitThrottlingSkill",
+    displayName: "Multi Layer API Gateway Rate Limit Throttling",
+    categoryId: "controlFlow",
+    description: "Enforces per-IP and per-API-key sliding window rate limits across public endpoints.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer API Gateway Rate Limit Throttling",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer API Gateway Rate Limit Throttling",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer API Gateway Rate Limit Throttling.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer API Gateway Rate Limit Throttling.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-customer-support-ticket-escalation-router": {
+    id: "controlflow-multi-multi-step-customer-support-ticket-escalation-router",
+    name: "MultiStepCustomerSupportTicketEscalationRouterSkill",
+    displayName: "Multi Step Customer Support Ticket Escalation Router",
+    categoryId: "controlFlow",
+    description: "Escalates unacknowledged P1 support tickets to manager level after SLA threshold expiry.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Customer Support Ticket Escalation Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Customer Support Ticket Escalation Router",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Customer Support Ticket Escalation Router.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Customer Support Ticket Escalation Router.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-phase-software-build-artifact-release-pipeline": {
+    id: "controlflow-multi-multi-phase-software-build-artifact-release-pipeline",
+    name: "MultiPhaseSoftwareBuildArtifactReleasePipelineSkill",
+    displayName: "Multi Phase Software Build Artifact Release Pipeline",
+    categoryId: "controlFlow",
+    description: "Runs unit tests, security scans, container build, image tag push, and deployment approval.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Phase Software Build Artifact Release Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Phase Software Build Artifact Release Pipeline",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Phase Software Build Artifact Release Pipeline.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Phase Software Build Artifact Release Pipeline.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-inventory-stock-allocation-locking-engine": {
+    id: "controlflow-multi-multi-step-inventory-stock-allocation-locking-engine",
+    name: "MultiStepInventoryStockAllocationLockingEngineSkill",
+    displayName: "Multi Step Inventory Stock Allocation Locking Engine",
+    categoryId: "controlFlow",
+    description: "Temporarily locks cart inventory during checkout prevention of double-selling stock.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Inventory Stock Allocation Locking Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Inventory Stock Allocation Locking Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Inventory Stock Allocation Locking Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Inventory Stock Allocation Locking Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-tier-log-aggregation-filter-ingestion-pipeline": {
+    id: "controlflow-multi-multi-tier-log-aggregation-filter-ingestion-pipeline",
+    name: "MultiTierLogAggregationFilterIngestionPipelineSkill",
+    displayName: "Multi Tier Log Aggregation Filter Ingestion Pipeline",
+    categoryId: "controlFlow",
+    description: "Filters debug logs, redacts PII data, enriches metadata, and routes to Elasticsearch.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Log Aggregation Filter Ingestion Pipeline",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Log Aggregation Filter Ingestion Pipeline",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Tier Log Aggregation Filter Ingestion Pipeline.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Tier Log Aggregation Filter Ingestion Pipeline.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-password-reset-security-verification-flow": {
+    id: "controlflow-multi-multi-step-password-reset-security-verification-flow",
+    name: "MultiStepPasswordResetSecurityVerificationFlowSkill",
+    displayName: "Multi Step Password Reset Security Verification Flow",
+    categoryId: "controlFlow",
+    description: "Generates short-lived magic links, 2FA OTP codes, and password hash update confirmation.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Password Reset Security Verification Flow",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Password Reset Security Verification Flow",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Password Reset Security Verification Flow.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Password Reset Security Verification Flow.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-phase-medical-appointment-booking-scheduling": {
+    id: "controlflow-multi-multi-phase-medical-appointment-booking-scheduling",
+    name: "MultiPhaseMedicalAppointmentBookingSchedulingSkill",
+    displayName: "Multi Phase Medical Appointment Booking Scheduling",
+    categoryId: "controlFlow",
+    description: "Verifies doctor availability, locks time slot, collects intake form, and dispatches SMS reminder.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Phase Medical Appointment Booking Scheduling",
+      ruSectionName: "Композитный Multi-Skill: Multi Phase Medical Appointment Booking Scheduling",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Phase Medical Appointment Booking Scheduling.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Phase Medical Appointment Booking Scheduling.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-loan-application-underwriting-workflow": {
+    id: "controlflow-multi-multi-step-loan-application-underwriting-workflow",
+    name: "MultiStepLoanApplicationUnderwritingWorkflowSkill",
+    displayName: "Multi Step Loan Application Underwriting Workflow",
+    categoryId: "controlFlow",
+    description: "Pulls credit score, checks employment, runs debt-to-income calculation, and outputs decision.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Loan Application Underwriting Workflow",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Loan Application Underwriting Workflow",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Loan Application Underwriting Workflow.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Loan Application Underwriting Workflow.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-layer-web-crawler-politeness-rate-limit-valve": {
+    id: "controlflow-multi-multi-layer-web-crawler-politeness-rate-limit-valve",
+    name: "MultiLayerWebCrawlerPolitenessRateLimitValveSkill",
+    displayName: "Multi Layer Web Crawler Politeness Rate Limit Valve",
+    categoryId: "controlFlow",
+    description: "Throttles domain scraping speeds adhering to robots.txt crawl delays and IP concurrency.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Web Crawler Politeness Rate Limit Valve",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Web Crawler Politeness Rate Limit Valve",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Web Crawler Politeness Rate Limit Valve.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Web Crawler Politeness Rate Limit Valve.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-insurance-claim-fraud-detection-router": {
+    id: "controlflow-multi-multi-step-insurance-claim-fraud-detection-router",
+    name: "MultiStepInsuranceClaimFraudDetectionRouterSkill",
+    displayName: "Multi Step Insurance Claim Fraud Detection Router",
+    categoryId: "controlFlow",
+    description: "Routes low-risk claims to automated instant payout, and high-risk claims to manual audit.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Insurance Claim Fraud Detection Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Insurance Claim Fraud Detection Router",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Insurance Claim Fraud Detection Router.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Insurance Claim Fraud Detection Router.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-phase-data-anonymization-pii-scrubber-workflow": {
+    id: "controlflow-multi-multi-phase-data-anonymization-pii-scrubber-workflow",
+    name: "MultiPhaseDataAnonymizationPIIScrubberWorkflowSkill",
+    displayName: "Multi Phase Data Anonymization PII Scrubber Workflow",
+    categoryId: "controlFlow",
+    description: "Identifies, masks, hashes, or redacts sensitive PII before publishing data to dev environments.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Phase Data Anonymization PII Scrubber Workflow",
+      ruSectionName: "Композитный Multi-Skill: Multi Phase Data Anonymization PII Scrubber Workflow",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Phase Data Anonymization PII Scrubber Workflow.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Phase Data Anonymization PII Scrubber Workflow.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-hotel-room-reservation-cancellation-workflow": {
+    id: "controlflow-multi-multi-step-hotel-room-reservation-cancellation-workflow",
+    name: "MultiStepHotelRoomReservationCancellationWorkflowSkill",
+    displayName: "Multi Step Hotel Room Reservation Cancellation Workflow",
+    categoryId: "controlFlow",
+    description: "Calculates refund eligibility, releases room inventory, and dispatches cancellation email.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Hotel Room Reservation Cancellation Workflow",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Hotel Room Reservation Cancellation Workflow",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Hotel Room Reservation Cancellation Workflow.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Hotel Room Reservation Cancellation Workflow.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-tier-microservice-distributed-tracing-context-router": {
+    id: "controlflow-multi-multi-tier-microservice-distributed-tracing-context-router",
+    name: "MultiTierMicroserviceDistributedTracingContextRouterSkill",
+    displayName: "Multi Tier Microservice Distributed Tracing Context Router",
+    categoryId: "controlFlow",
+    description: "Injects and propagates W3C traceparent headers across HTTP/gRPC service calls.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Microservice Distributed Tracing Context Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Microservice Distributed Tracing Context Router",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Tier Microservice Distributed Tracing Context Router.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Tier Microservice Distributed Tracing Context Router.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-e-commerce-product-return-refund-flow": {
+    id: "controlflow-multi-multi-step-e-commerce-product-return-refund-flow",
+    name: "MultiStepECommerceProductReturnRefundFlowSkill",
+    displayName: "Multi Step E-Commerce Product Return Refund Flow",
+    categoryId: "controlFlow",
+    description: "Generates shipping label, inspects returned item at warehouse, and issues refund credit.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step E-Commerce Product Return Refund Flow",
+      ruSectionName: "Композитный Multi-Skill: Multi Step E-Commerce Product Return Refund Flow",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step E-Commerce Product Return Refund Flow.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step E-Commerce Product Return Refund Flow.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-phase-software-license-key-activation-workflow": {
+    id: "controlflow-multi-multi-phase-software-license-key-activation-workflow",
+    name: "MultiPhaseSoftwareLicenseKeyActivationWorkflowSkill",
+    displayName: "Multi Phase Software License Key Activation Workflow",
+    categoryId: "controlFlow",
+    description: "Validates license key, registers hardware fingerprint, and issues cryptographically signed JWT.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Phase Software License Key Activation Workflow",
+      ruSectionName: "Композитный Multi-Skill: Multi Phase Software License Key Activation Workflow",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Phase Software License Key Activation Workflow.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Phase Software License Key Activation Workflow.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-b2b-vendor-onboarding-compliance-check": {
+    id: "controlflow-multi-multi-step-b2b-vendor-onboarding-compliance-check",
+    name: "MultiStepB2BVendorOnboardingComplianceCheckSkill",
+    displayName: "Multi Step B2B Vendor Onboarding Compliance Check",
+    categoryId: "controlFlow",
+    description: "Collects W-9 form, runs sanctions background search, verifies insurance certificate, and approves vendor.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step B2B Vendor Onboarding Compliance Check",
+      ruSectionName: "Композитный Multi-Skill: Multi Step B2B Vendor Onboarding Compliance Check",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step B2B Vendor Onboarding Compliance Check.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step B2B Vendor Onboarding Compliance Check.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-layer-edge-cdn-cache-purge-invalidation-router": {
+    id: "controlflow-multi-multi-layer-edge-cdn-cache-purge-invalidation-router",
+    name: "MultiLayerEdgeCDNCachePurgeInvalidationRouterSkill",
+    displayName: "Multi Layer Edge CDN Cache Purge Invalidation Router",
+    categoryId: "controlFlow",
+    description: "Distributes instant CDN cache purge requests globally across edge PoPs upon content edits.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Edge CDN Cache Purge Invalidation Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Edge CDN Cache Purge Invalidation Router",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Edge CDN Cache Purge Invalidation Router.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Edge CDN Cache Purge Invalidation Router.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-employee-resignation-offboarding-workflow": {
+    id: "controlflow-multi-multi-step-employee-resignation-offboarding-workflow",
+    name: "MultiStepEmployeeResignationOffboardingWorkflowSkill",
+    displayName: "Multi Step Employee Resignation Offboarding Workflow",
+    categoryId: "controlFlow",
+    description: "Revokes SSO access, archives email box, requests laptop return, and dispatches final paycheck.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Employee Resignation Offboarding Workflow",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Employee Resignation Offboarding Workflow",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Employee Resignation Offboarding Workflow.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Employee Resignation Offboarding Workflow.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-phase-real-time-sensor-anomaly-escalation-loop": {
+    id: "controlflow-multi-multi-phase-real-time-sensor-anomaly-escalation-loop",
+    name: "MultiPhaseRealTimeSensorAnomalyEscalationLoopSkill",
+    displayName: "Multi Phase Real Time Sensor Anomaly Escalation Loop",
+    categoryId: "controlFlow",
+    description: "Triggers acoustic alarm, dispatches SMS alert, and executes emergency shutdown if sensor spikes.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Phase Real Time Sensor Anomaly Escalation Loop",
+      ruSectionName: "Композитный Multi-Skill: Multi Phase Real Time Sensor Anomaly Escalation Loop",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Phase Real Time Sensor Anomaly Escalation Loop.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Phase Real Time Sensor Anomaly Escalation Loop.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-university-course-registration-waiting-list": {
+    id: "controlflow-multi-multi-step-university-course-registration-waiting-list",
+    name: "MultiStepUniversityCourseRegistrationWaitingListSkill",
+    displayName: "Multi Step University Course Registration Waiting List",
+    categoryId: "controlFlow",
+    description: "Automatically enrolls top waiting list student when a registered student drops the class.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step University Course Registration Waiting List",
+      ruSectionName: "Композитный Multi-Skill: Multi Step University Course Registration Waiting List",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step University Course Registration Waiting List.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step University Course Registration Waiting List.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-tier-automated-backup-snapshot-retention-workflow": {
+    id: "controlflow-multi-multi-tier-automated-backup-snapshot-retention-workflow",
+    name: "MultiTierAutomatedBackupSnapshotRetentionWorkflowSkill",
+    displayName: "Multi Tier Automated Backup Snapshot Retention Workflow",
+    categoryId: "controlFlow",
+    description: "Rotates daily, weekly, and monthly database snapshots deleting expired backups.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Automated Backup Snapshot Retention Workflow",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Automated Backup Snapshot Retention Workflow",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Tier Automated Backup Snapshot Retention Workflow.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Tier Automated Backup Snapshot Retention Workflow.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-food-delivery-order-dispatch-fleet-router": {
+    id: "controlflow-multi-multi-step-food-delivery-order-dispatch-fleet-router",
+    name: "MultiStepFoodDeliveryOrderDispatchFleetRouterSkill",
+    displayName: "Multi Step Food Delivery Order Dispatch Fleet Router",
+    categoryId: "controlFlow",
+    description: "Matches restaurant order ready event with closest available courier driver.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Food Delivery Order Dispatch Fleet Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Food Delivery Order Dispatch Fleet Router",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Food Delivery Order Dispatch Fleet Router.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Food Delivery Order Dispatch Fleet Router.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-phase-flight-booking-seat-selection-check-in": {
+    id: "controlflow-multi-multi-phase-flight-booking-seat-selection-check-in",
+    name: "MultiPhaseFlightBookingSeatSelectionCheckInSkill",
+    displayName: "Multi Phase Flight Booking Seat Selection Check In",
+    categoryId: "controlFlow",
+    description: "Processes passenger seat assignment, generates mobile boarding pass, and syncs baggage count.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Phase Flight Booking Seat Selection Check In",
+      ruSectionName: "Композитный Multi-Skill: Multi Phase Flight Booking Seat Selection Check In",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Phase Flight Booking Seat Selection Check In.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Phase Flight Booking Seat Selection Check In.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-customer-refund-dispute-arbitration-router": {
+    id: "controlflow-multi-multi-step-customer-refund-dispute-arbitration-router",
+    name: "MultiStepCustomerRefundDisputeArbitrationRouterSkill",
+    displayName: "Multi Step Customer Refund Dispute Arbitration Router",
+    categoryId: "controlFlow",
+    description: "Gathers evidence from buyer and seller, submits to payment processor, and tracks dispute status.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Customer Refund Dispute Arbitration Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Customer Refund Dispute Arbitration Router",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Customer Refund Dispute Arbitration Router.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Customer Refund Dispute Arbitration Router.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-tier-microgrid-battery-charging-energy-router": {
+    id: "controlflow-multi-multi-tier-microgrid-battery-charging-energy-router",
+    name: "MultiTierMicrogridBatteryChargingEnergyRouterSkill",
+    displayName: "Multi Tier Microgrid Battery Charging Energy Router",
+    categoryId: "controlFlow",
+    description: "Routes surplus solar power to battery storage, grid export, or EV charging stations dynamically.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Microgrid Battery Charging Energy Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Microgrid Battery Charging Energy Router",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Tier Microgrid Battery Charging Energy Router.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Tier Microgrid Battery Charging Energy Router.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-intellectual-property-takedown-dmca-notice-flow": {
+    id: "controlflow-multi-multi-step-intellectual-property-takedown-dmca-notice-flow",
+    name: "MultiStepIntellectualPropertyTakedownDMCANoticeFlowSkill",
+    displayName: "Multi Step Intellectual Property Takedown DMCA Notice Flow",
+    categoryId: "controlFlow",
+    description: "Scans reported URL, verifies copyright ownership, removes infringing content, and notifies uploader.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Intellectual Property Takedown DMCA Notice Flow",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Intellectual Property Takedown DMCA Notice Flow",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Intellectual Property Takedown DMCA Notice Flow.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Intellectual Property Takedown DMCA Notice Flow.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-phase-vehicle-fleet-preventative-maintenance-router": {
+    id: "controlflow-multi-multi-phase-vehicle-fleet-preventative-maintenance-router",
+    name: "MultiPhaseVehicleFleetPreventativeMaintenanceRouterSkill",
+    displayName: "Multi Phase Vehicle Fleet Preventative Maintenance Router",
+    categoryId: "controlFlow",
+    description: "Tracks mileage/engine hours, schedules mechanic service appointment, and dispatches loaner vehicle.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Phase Vehicle Fleet Preventative Maintenance Router",
+      ruSectionName: "Композитный Multi-Skill: Multi Phase Vehicle Fleet Preventative Maintenance Router",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Phase Vehicle Fleet Preventative Maintenance Router.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Phase Vehicle Fleet Preventative Maintenance Router.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-step-crowdfunding-campaign-all-or-nothing-payout": {
+    id: "controlflow-multi-multi-step-crowdfunding-campaign-all-or-nothing-payout",
+    name: "MultiStepCrowdfundingCampaignAllorNothingPayoutSkill",
+    displayName: "Multi Step Crowdfunding Campaign All or Nothing Payout",
+    categoryId: "controlFlow",
+    description: "Monitors target deadline; charges backer credit cards if funded, or cancels authorizations if missed.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Step Crowdfunding Campaign All or Nothing Payout",
+      ruSectionName: "Композитный Multi-Skill: Multi Step Crowdfunding Campaign All or Nothing Payout",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Step Crowdfunding Campaign All or Nothing Payout.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Step Crowdfunding Campaign All or Nothing Payout.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
+
+  "controlflow-multi-multi-horizon-master-workflow-execution-control-engine": {
+    id: "controlflow-multi-multi-horizon-master-workflow-execution-control-engine",
+    name: "MultiHorizonMasterWorkflowExecutionControlEngineSkill",
+    displayName: "Multi Horizon Master Workflow Execution Control Engine",
+    categoryId: "controlFlow",
+    description: "Enforces master state machine, fault recovery, concurrency control, and deterministic execution.",
+    tags: ["controlFlow","multi-skill","controlflow-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Workflow Execution Control Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Workflow Execution Control Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Horizon Master Workflow Execution Control Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Horizon Master Workflow Execution Control Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","multi-skill","controlflow-multi"],
+    }),
+  },
 };

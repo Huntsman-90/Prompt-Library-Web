@@ -4247,4 +4247,1503 @@ sectionName: 'Enforceable Liquidated Damages Calibration',
       tags: ["legal","legal-final","final","master"],
     }),
   },
+  "legal-multi-multi-jurisdictional-cross-border-m-a-due-diligence": {
+    id: "legal-multi-multi-jurisdictional-cross-border-m-a-due-diligence",
+    name: "MultiJurisdictionalCrossBorderMADueDiligenceSkill",
+    displayName: "Multi Jurisdictional Cross Border M A Due Diligence",
+    categoryId: "legal",
+    description: "Audits target company legal compliance across US, EU, UK, and Asian jurisdictions.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Jurisdictional Cross Border M A Due Diligence",
+      ruSectionName: "Композитный Multi-Skill: Multi Jurisdictional Cross Border M A Due Diligence",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Jurisdictional Cross Border M A Due Diligence.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Jurisdictional Cross Border M A Due Diligence.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-layer-commercial-msa-indemnification-negotiation": {
+    id: "legal-multi-multi-layer-commercial-msa-indemnification-negotiation",
+    name: "MultiLayerCommercialMSAIndemnificationNegotiationSkill",
+    displayName: "Multi Layer Commercial MSA Indemnification Negotiation",
+    categoryId: "legal",
+    description: "Drafts master service agreements balancing liability caps, mutual indemnities, and IP rights.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Commercial MSA Indemnification Negotiation",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Commercial MSA Indemnification Negotiation",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Commercial MSA Indemnification Negotiation.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Commercial MSA Indemnification Negotiation.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-patent-infringement-freedom-to-operate-fto": {
+    id: "legal-multi-multi-stage-patent-infringement-freedom-to-operate-fto",
+    name: "MultiStagePatentInfringementFreedomtoOperateFTOSkill",
+    displayName: "Multi Stage Patent Infringement Freedom to Operate FTO",
+    categoryId: "legal",
+    description: "Analyzes patent claim trees, prior art, and product specs evaluating infringement risks.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Patent Infringement Freedom to Operate FTO",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Patent Infringement Freedom to Operate FTO",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Patent Infringement Freedom to Operate FTO.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Patent Infringement Freedom to Operate FTO.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-regulatory-data-privacy-gdpr-ccpa-cpra-audit": {
+    id: "legal-multi-multi-regulatory-data-privacy-gdpr-ccpa-cpra-audit",
+    name: "MultiRegulatoryDataPrivacyGDPRCCPACPRAAuditSkill",
+    displayName: "Multi Regulatory Data Privacy GDPR CCPA CPRA Audit",
+    categoryId: "legal",
+    description: "Audits data processing agreements, cross-border transfers, SCCs, and consent mechanisms.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Regulatory Data Privacy GDPR CCPA CPRA Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Regulatory Data Privacy GDPR CCPA CPRA Audit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Regulatory Data Privacy GDPR CCPA CPRA Audit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Regulatory Data Privacy GDPR CCPA CPRA Audit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-tier-corporate-governance-board-resolution-drafter": {
+    id: "legal-multi-multi-tier-corporate-governance-board-resolution-drafter",
+    name: "MultiTierCorporateGovernanceBoardResolutionDrafterSkill",
+    displayName: "Multi Tier Corporate Governance Board Resolution Drafter",
+    categoryId: "legal",
+    description: "Drafts corporate resolutions, board minutes, shareholder agreements, and voting trusts.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Corporate Governance Board Resolution Drafter",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Corporate Governance Board Resolution Drafter",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Tier Corporate Governance Board Resolution Drafter.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Tier Corporate Governance Board Resolution Drafter.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-party-intellectual-property-assignment-agreement": {
+    id: "legal-multi-multi-party-intellectual-property-assignment-agreement",
+    name: "MultiPartyIntellectualPropertyAssignmentAgreementSkill",
+    displayName: "Multi Party Intellectual Property Assignment Agreement",
+    categoryId: "legal",
+    description: "Drafts IP assignment agreements securing founder, employee, and contractor inventions.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Party Intellectual Property Assignment Agreement",
+      ruSectionName: "Композитный Multi-Skill: Multi Party Intellectual Property Assignment Agreement",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Party Intellectual Property Assignment Agreement.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Party Intellectual Property Assignment Agreement.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-employment-non-compete-severance-playbook": {
+    id: "legal-multi-multi-stage-employment-non-compete-severance-playbook",
+    name: "MultiStageEmploymentNonCompeteSeverancePlaybookSkill",
+    displayName: "Multi Stage Employment Non Compete Severance Playbook",
+    categoryId: "legal",
+    description: "Drafts executive employment agreements with non-solicit, non-compete, and severance terms.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Employment Non Compete Severance Playbook",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Employment Non Compete Severance Playbook",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Employment Non Compete Severance Playbook.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Employment Non Compete Severance Playbook.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-layer-software-license-agreement-sla-eula-drafter": {
+    id: "legal-multi-multi-layer-software-license-agreement-sla-eula-drafter",
+    name: "MultiLayerSoftwareLicenseAgreementSLAEULADrafterSkill",
+    displayName: "Multi Layer Software License Agreement SLA EULA Drafter",
+    categoryId: "legal",
+    description: "Drafts enterprise SaaS SLAs, end-user license agreements, and uptime credit terms.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Software License Agreement SLA EULA Drafter",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Software License Agreement SLA EULA Drafter",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Software License Agreement SLA EULA Drafter.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Software License Agreement SLA EULA Drafter.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-forum-international-arbitration-clause-drafter": {
+    id: "legal-multi-multi-forum-international-arbitration-clause-drafter",
+    name: "MultiForumInternationalArbitrationClauseDrafterSkill",
+    displayName: "Multi Forum International Arbitration Clause Drafter",
+    categoryId: "legal",
+    description: "Structures ICC/LCIA arbitration clauses specifying seat, language, governing law, and rules.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Forum International Arbitration Clause Drafter",
+      ruSectionName: "Композитный Multi-Skill: Multi Forum International Arbitration Clause Drafter",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Forum International Arbitration Clause Drafter.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Forum International Arbitration Clause Drafter.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-regulatory-antitrust-hart-scott-rodino-clearance": {
+    id: "legal-multi-multi-regulatory-antitrust-hart-scott-rodino-clearance",
+    name: "MultiRegulatoryAntitrustHartScottRodinoClearanceSkill",
+    displayName: "Multi Regulatory Antitrust Hart Scott Rodino Clearance",
+    categoryId: "legal",
+    description: "Prepares HSR premerger notifications evaluating market concentration and overlaps.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Regulatory Antitrust Hart Scott Rodino Clearance",
+      ruSectionName: "Композитный Multi-Skill: Multi Regulatory Antitrust Hart Scott Rodino Clearance",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Regulatory Antitrust Hart Scott Rodino Clearance.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Regulatory Antitrust Hart Scott Rodino Clearance.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-commercial-real-estate-triple-net-nnn-lease": {
+    id: "legal-multi-multi-stage-commercial-real-estate-triple-net-nnn-lease",
+    name: "MultiStageCommercialRealEstateTripleNetNNNLeaseSkill",
+    displayName: "Multi Stage Commercial Real Estate Triple Net NNN Lease",
+    categoryId: "legal",
+    description: "Drafts NNN commercial lease agreements detailing CAM expenses, tenant improvements, and default.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Commercial Real Estate Triple Net NNN Lease",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Commercial Real Estate Triple Net NNN Lease",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Commercial Real Estate Triple Net NNN Lease.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Commercial Real Estate Triple Net NNN Lease.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-layer-hipaa-business-associate-agreement-baa": {
+    id: "legal-multi-multi-layer-hipaa-business-associate-agreement-baa",
+    name: "MultiLayerHIPAABusinessAssociateAgreementBAASkill",
+    displayName: "Multi Layer HIPAA Business Associate Agreement BAA",
+    categoryId: "legal",
+    description: "Drafts healthcare BAAs establishing PHI data safeguards, breach reporting, and audits.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer HIPAA Business Associate Agreement BAA",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer HIPAA Business Associate Agreement BAA",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer HIPAA Business Associate Agreement BAA.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer HIPAA Business Associate Agreement BAA.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-party-joint-venture-strategic-alliance-agreement": {
+    id: "legal-multi-multi-party-joint-venture-strategic-alliance-agreement",
+    name: "MultiPartyJointVentureStrategicAllianceAgreementSkill",
+    displayName: "Multi Party Joint Venture Strategic Alliance Agreement",
+    categoryId: "legal",
+    description: "Structures JV governance, profit splits, capital calls, deadlock resolution, and buyouts.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Party Joint Venture Strategic Alliance Agreement",
+      ruSectionName: "Композитный Multi-Skill: Multi Party Joint Venture Strategic Alliance Agreement",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Party Joint Venture Strategic Alliance Agreement.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Party Joint Venture Strategic Alliance Agreement.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-whistleblower-internal-investigation-protocol": {
+    id: "legal-multi-multi-stage-whistleblower-internal-investigation-protocol",
+    name: "MultiStageWhistleblowerInternalInvestigationProtocolSkill",
+    displayName: "Multi Stage Whistleblower Internal Investigation Protocol",
+    categoryId: "legal",
+    description: "Directs privileged corporate internal investigations into fraud or compliance violations.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Whistleblower Internal Investigation Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Whistleblower Internal Investigation Protocol",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Whistleblower Internal Investigation Protocol.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Whistleblower Internal Investigation Protocol.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-tier-venture-capital-safe-convertible-note-instrument": {
+    id: "legal-multi-multi-tier-venture-capital-safe-convertible-note-instrument",
+    name: "MultiTierVentureCapitalSAFEConvertibleNoteInstrumentSkill",
+    displayName: "Multi Tier Venture Capital SAFE Convertible Note Instrument",
+    categoryId: "legal",
+    description: "Drafts YC SAFE notes, valuation caps, discount rates, and pro-rata investor rights.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Venture Capital SAFE Convertible Note Instrument",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Venture Capital SAFE Convertible Note Instrument",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Tier Venture Capital SAFE Convertible Note Instrument.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Tier Venture Capital SAFE Convertible Note Instrument.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-regulatory-export-control-ear-itar-sanctions-audit": {
+    id: "legal-multi-multi-regulatory-export-control-ear-itar-sanctions-audit",
+    name: "MultiRegulatoryExportControlEARITARSanctionsAuditSkill",
+    displayName: "Multi Regulatory Export Control EAR ITAR Sanctions Audit",
+    categoryId: "legal",
+    description: "Audits dual-use technology exports against BIS Commerce Control Lists and OFAC sanctions.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Regulatory Export Control EAR ITAR Sanctions Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Regulatory Export Control EAR ITAR Sanctions Audit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Regulatory Export Control EAR ITAR Sanctions Audit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Regulatory Export Control EAR ITAR Sanctions Audit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-layer-trademark-opposition-ttab-proceeding": {
+    id: "legal-multi-multi-layer-trademark-opposition-ttab-proceeding",
+    name: "MultiLayerTrademarkOppositionTTABProceedingSkill",
+    displayName: "Multi Layer Trademark Opposition TTAB Proceeding",
+    categoryId: "legal",
+    description: "Drafts TTAB trademark opposition notices, responses, likelihood of confusion briefs.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Trademark Opposition TTAB Proceeding",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Trademark Opposition TTAB Proceeding",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Trademark Opposition TTAB Proceeding.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Trademark Opposition TTAB Proceeding.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-securities-reg-d-private-placement-memorandum": {
+    id: "legal-multi-multi-stage-securities-reg-d-private-placement-memorandum",
+    name: "MultiStageSecuritiesRegDPrivatePlacementMemorandumSkill",
+    displayName: "Multi Stage Securities Reg D Private Placement Memorandum",
+    categoryId: "legal",
+    description: "Drafts PPM disclosure documents, accredited investor questionnaires, and Form D filings.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Securities Reg D Private Placement Memorandum",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Securities Reg D Private Placement Memorandum",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Securities Reg D Private Placement Memorandum.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Securities Reg D Private Placement Memorandum.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-party-construction-epc-engineering-procurement-contract": {
+    id: "legal-multi-multi-party-construction-epc-engineering-procurement-contract",
+    name: "MultiPartyConstructionEPCEngineeringProcurementContractSkill",
+    displayName: "Multi Party Construction EPC Engineering Procurement Contract",
+    categoryId: "legal",
+    description: "Drafts lump-sum EPC contracts with liquidated damages, performance guarantees, and delays.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Party Construction EPC Engineering Procurement Contract",
+      ruSectionName: "Композитный Multi-Skill: Multi Party Construction EPC Engineering Procurement Contract",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Party Construction EPC Engineering Procurement Contract.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Party Construction EPC Engineering Procurement Contract.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-layer-open-source-software-copyleft-gpl-audit": {
+    id: "legal-multi-multi-layer-open-source-software-copyleft-gpl-audit",
+    name: "MultiLayerOpenSourceSoftwareCopyleftGPLAuditSkill",
+    displayName: "Multi Layer Open Source Software Copyleft GPL Audit",
+    categoryId: "legal",
+    description: "Audits codebase for open source license compliance preventing viral copyleft triggers.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Open Source Software Copyleft GPL Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Open Source Software Copyleft GPL Audit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Open Source Software Copyleft GPL Audit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Open Source Software Copyleft GPL Audit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-civil-litigation-deposition-outline-strategy": {
+    id: "legal-multi-multi-stage-civil-litigation-deposition-outline-strategy",
+    name: "MultiStageCivilLitigationDepositionOutlineStrategySkill",
+    displayName: "Multi Stage Civil Litigation Deposition Outline Strategy",
+    categoryId: "legal",
+    description: "Drafts witness deposition questioning outlines, document impeachment exhibits, and objections.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Civil Litigation Deposition Outline Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Civil Litigation Deposition Outline Strategy",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Civil Litigation Deposition Outline Strategy.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Civil Litigation Deposition Outline Strategy.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-regulatory-consumer-financial-cfpb-udaap-compliance": {
+    id: "legal-multi-multi-regulatory-consumer-financial-cfpb-udaap-compliance",
+    name: "MultiRegulatoryConsumerFinancialCFPBUDAAPComplianceSkill",
+    displayName: "Multi Regulatory Consumer Financial CFPB UDAAP Compliance",
+    categoryId: "legal",
+    description: "Audits fintech lending flows for unfair, deceptive, or abusive acts or practices.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Regulatory Consumer Financial CFPB UDAAP Compliance",
+      ruSectionName: "Композитный Multi-Skill: Multi Regulatory Consumer Financial CFPB UDAAP Compliance",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Regulatory Consumer Financial CFPB UDAAP Compliance.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Regulatory Consumer Financial CFPB UDAAP Compliance.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-party-commercial-maritime-carriage-of-goods-cogsa": {
+    id: "legal-multi-multi-party-commercial-maritime-carriage-of-goods-cogsa",
+    name: "MultiPartyCommercialMaritimeCarriageofGoodsCOGSASkill",
+    displayName: "Multi Party Commercial Maritime Carriage of Goods COGSA",
+    categoryId: "legal",
+    description: "Drafts bills of lading, charter party agreements, and ocean carrier liability claims.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Party Commercial Maritime Carriage of Goods COGSA",
+      ruSectionName: "Композитный Multi-Skill: Multi Party Commercial Maritime Carriage of Goods COGSA",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Party Commercial Maritime Carriage of Goods COGSA.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Party Commercial Maritime Carriage of Goods COGSA.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-product-liability-defect-defense-strategy": {
+    id: "legal-multi-multi-stage-product-liability-defect-defense-strategy",
+    name: "MultiStageProductLiabilityDefectDefenseStrategySkill",
+    displayName: "Multi Stage Product Liability Defect Defense Strategy",
+    categoryId: "legal",
+    description: "Defends manufacturing design defect claims under strict liability and negligence standards.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Product Liability Defect Defense Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Product Liability Defect Defense Strategy",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Product Liability Defect Defense Strategy.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Product Liability Defect Defense Strategy.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-layer-sovereign-debt-restructuring-paris-club-rules": {
+    id: "legal-multi-multi-layer-sovereign-debt-restructuring-paris-club-rules",
+    name: "MultiLayerSovereignDebtRestructuringParisClubRulesSkill",
+    displayName: "Multi Layer Sovereign Debt Restructuring Paris Club Rules",
+    categoryId: "legal",
+    description: "Navigates sovereign bond restructuring, comparability of treatment, and debt swaps.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Sovereign Debt Restructuring Paris Club Rules",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Sovereign Debt Restructuring Paris Club Rules",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Sovereign Debt Restructuring Paris Club Rules.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Sovereign Debt Restructuring Paris Club Rules.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-party-telecommunications-cell-tower-lease-master": {
+    id: "legal-multi-multi-party-telecommunications-cell-tower-lease-master",
+    name: "MultiPartyTelecommunicationsCellTowerLeaseMasterSkill",
+    displayName: "Multi Party Telecommunications Cell Tower Lease Master",
+    categoryId: "legal",
+    description: "Drafts wireless tower ground leases, colocation rights, and fiber backhaul easements.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Party Telecommunications Cell Tower Lease Master",
+      ruSectionName: "Композитный Multi-Skill: Multi Party Telecommunications Cell Tower Lease Master",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Party Telecommunications Cell Tower Lease Master.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Party Telecommunications Cell Tower Lease Master.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-false-claims-act-qui-tam-whistleblower-defense": {
+    id: "legal-multi-multi-stage-false-claims-act-qui-tam-whistleblower-defense",
+    name: "MultiStageFalseClaimsActQuiTamWhistleblowerDefenseSkill",
+    displayName: "Multi Stage False Claims Act Qui Tam Whistleblower Defense",
+    categoryId: "legal",
+    description: "Defends healthcare/defense contractors against relator FCA suits and CID subpoenas.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage False Claims Act Qui Tam Whistleblower Defense",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage False Claims Act Qui Tam Whistleblower Defense",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage False Claims Act Qui Tam Whistleblower Defense.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage False Claims Act Qui Tam Whistleblower Defense.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-regulatory-environmental-clean-air-act-permitting": {
+    id: "legal-multi-multi-regulatory-environmental-clean-air-act-permitting",
+    name: "MultiRegulatoryEnvironmentalCleanAirActPermittingSkill",
+    displayName: "Multi Regulatory Environmental Clean Air Act Permitting",
+    categoryId: "legal",
+    description: "Audits industrial plant Title V air operating permits and EPA emission compliance.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Regulatory Environmental Clean Air Act Permitting",
+      ruSectionName: "Композитный Multi-Skill: Multi Regulatory Environmental Clean Air Act Permitting",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Regulatory Environmental Clean Air Act Permitting.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Regulatory Environmental Clean Air Act Permitting.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-party-consumer-product-safety-cpsc-recall-protocol": {
+    id: "legal-multi-multi-party-consumer-product-safety-cpsc-recall-protocol",
+    name: "MultiPartyConsumerProductSafetyCPSCRecallProtocolSkill",
+    displayName: "Multi Party Consumer Product Safety CPSC Recall Protocol",
+    categoryId: "legal",
+    description: "Executes CPSC fast-track product safety defect reporting and recall plan management.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Party Consumer Product Safety CPSC Recall Protocol",
+      ruSectionName: "Композитный Multi-Skill: Multi Party Consumer Product Safety CPSC Recall Protocol",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Party Consumer Product Safety CPSC Recall Protocol.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Party Consumer Product Safety CPSC Recall Protocol.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-fda-510k-medical-device-clearance-pathway": {
+    id: "legal-multi-multi-stage-fda-510k-medical-device-clearance-pathway",
+    name: "MultiStageFDA510kMedicalDeviceClearancePathwaySkill",
+    displayName: "Multi Stage FDA 510k Medical Device Clearance Pathway",
+    categoryId: "legal",
+    description: "Drafts 510(k) premarket notifications demonstrating substantial equivalence.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage FDA 510k Medical Device Clearance Pathway",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage FDA 510k Medical Device Clearance Pathway",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage FDA 510k Medical Device Clearance Pathway.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage FDA 510k Medical Device Clearance Pathway.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-regulatory-erisa-pension-plan-fiduciary-audit": {
+    id: "legal-multi-multi-regulatory-erisa-pension-plan-fiduciary-audit",
+    name: "MultiRegulatoryERISAPensionPlanFiduciaryAuditSkill",
+    displayName: "Multi Regulatory ERISA Pension Plan Fiduciary Audit",
+    categoryId: "legal",
+    description: "Ensures plan trustee compliance with prudent expert rule, fee disclosures, and investments.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Regulatory ERISA Pension Plan Fiduciary Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Regulatory ERISA Pension Plan Fiduciary Audit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Regulatory ERISA Pension Plan Fiduciary Audit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Regulatory ERISA Pension Plan Fiduciary Audit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-forum-itc-section-337-patent-import-exclusion": {
+    id: "legal-multi-multi-forum-itc-section-337-patent-import-exclusion",
+    name: "MultiForumITCSection337PatentImportExclusionSkill",
+    displayName: "Multi Forum ITC Section 337 Patent Import Exclusion",
+    categoryId: "legal",
+    description: "Litigates unfair import trade practices before International Trade Commission.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Forum ITC Section 337 Patent Import Exclusion",
+      ruSectionName: "Композитный Multi-Skill: Multi Forum ITC Section 337 Patent Import Exclusion",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Forum ITC Section 337 Patent Import Exclusion.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Forum ITC Section 337 Patent Import Exclusion.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-layer-corporate-officer-d-o-indemnification-deed": {
+    id: "legal-multi-multi-layer-corporate-officer-d-o-indemnification-deed",
+    name: "MultiLayerCorporateOfficerDOIndemnificationDeedSkill",
+    displayName: "Multi Layer Corporate Officer D O Indemnification Deed",
+    categoryId: "legal",
+    description: "Structures advancement of legal fees, side-A D&O coverage, and tail policy terms.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Corporate Officer D O Indemnification Deed",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Corporate Officer D O Indemnification Deed",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Corporate Officer D O Indemnification Deed.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Corporate Officer D O Indemnification Deed.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-patent-prosecution-cpc-claim-drafting": {
+    id: "legal-multi-multi-stage-patent-prosecution-cpc-claim-drafting",
+    name: "MultiStagePatentProsecutionCPCClaimDraftingSkill",
+    displayName: "Multi Stage Patent Prosecution CPC Claim Drafting",
+    categoryId: "legal",
+    description: "Drafts patent specifications and independent/dependent claims formatted for CPC.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Patent Prosecution CPC Claim Drafting",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Patent Prosecution CPC Claim Drafting",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Patent Prosecution CPC Claim Drafting.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Patent Prosecution CPC Claim Drafting.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-regulatory-franchise-disclosure-document-fdd-audit": {
+    id: "legal-multi-multi-regulatory-franchise-disclosure-document-fdd-audit",
+    name: "MultiRegulatoryFranchiseDisclosureDocumentFDDAuditSkill",
+    displayName: "Multi Regulatory Franchise Disclosure Document FDD Audit",
+    categoryId: "legal",
+    description: "Audits Item 19 Financial Performance Representations in FDD filings.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Regulatory Franchise Disclosure Document FDD Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Regulatory Franchise Disclosure Document FDD Audit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Regulatory Franchise Disclosure Document FDD Audit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Regulatory Franchise Disclosure Document FDD Audit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-party-trademark-co-existence-settlement-agreement": {
+    id: "legal-multi-multi-party-trademark-co-existence-settlement-agreement",
+    name: "MultiPartyTrademarkCoExistenceSettlementAgreementSkill",
+    displayName: "Multi Party Trademark Co-Existence Settlement Agreement",
+    categoryId: "legal",
+    description: "Drafts worldwide trademark co-existence agreements with geographic boundaries.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Party Trademark Co-Existence Settlement Agreement",
+      ruSectionName: "Композитный Multi-Skill: Multi Party Trademark Co-Existence Settlement Agreement",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Party Trademark Co-Existence Settlement Agreement.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Party Trademark Co-Existence Settlement Agreement.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-municipal-bond-official-statement-disclosure": {
+    id: "legal-multi-multi-stage-municipal-bond-official-statement-disclosure",
+    name: "MultiStageMunicipalBondOfficialStatementDisclosureSkill",
+    displayName: "Multi Stage Municipal Bond Official Statement Disclosure",
+    categoryId: "legal",
+    description: "Drafts primary disclosure documents for tax-exempt municipal bond issuances.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Municipal Bond Official Statement Disclosure",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Municipal Bond Official Statement Disclosure",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Municipal Bond Official Statement Disclosure.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Municipal Bond Official Statement Disclosure.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-regulatory-ferc-interstate-natural-gas-pipeline-tariff": {
+    id: "legal-multi-multi-regulatory-ferc-interstate-natural-gas-pipeline-tariff",
+    name: "MultiRegulatoryFERCInterstateNaturalGasPipelineTariffSkill",
+    displayName: "Multi Regulatory FERC Interstate Natural Gas Pipeline Tariff",
+    categoryId: "legal",
+    description: "Navigates Federal Energy Regulatory Commission open-access transmission tariffs.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Regulatory FERC Interstate Natural Gas Pipeline Tariff",
+      ruSectionName: "Композитный Multi-Skill: Multi Regulatory FERC Interstate Natural Gas Pipeline Tariff",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Regulatory FERC Interstate Natural Gas Pipeline Tariff.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Regulatory FERC Interstate Natural Gas Pipeline Tariff.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-party-native-american-tribal-gaming-compact": {
+    id: "legal-multi-multi-party-native-american-tribal-gaming-compact",
+    name: "MultiPartyNativeAmericanTribalGamingCompactSkill",
+    displayName: "Multi Party Native American Tribal Gaming Compact",
+    categoryId: "legal",
+    description: "Drafts Class III Indian gaming compacts balancing state and tribal sovereignty.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Party Native American Tribal Gaming Compact",
+      ruSectionName: "Композитный Multi-Skill: Multi Party Native American Tribal Gaming Compact",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Party Native American Tribal Gaming Compact.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Party Native American Tribal Gaming Compact.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-cyber-breach-privilege-incident-response": {
+    id: "legal-multi-multi-stage-cyber-breach-privilege-incident-response",
+    name: "MultiStageCyberBreachPrivilegeIncidentResponseSkill",
+    displayName: "Multi Stage Cyber Breach Privilege Incident Response",
+    categoryId: "legal",
+    description: "Directs cybersecurity breach investigations under attorney-client privilege.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Cyber Breach Privilege Incident Response",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Cyber Breach Privilege Incident Response",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Cyber Breach Privilege Incident Response.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Cyber Breach Privilege Incident Response.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-regulatory-commercial-banking-aml-bsa-compliance": {
+    id: "legal-multi-multi-regulatory-commercial-banking-aml-bsa-compliance",
+    name: "MultiRegulatoryCommercialBankingAMLBSAComplianceSkill",
+    displayName: "Multi Regulatory Commercial Banking AML BSA Compliance",
+    categoryId: "legal",
+    description: "Audits Anti-Money Laundering and Bank Secrecy Act Know-Your-Customer (KYC) flows.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Regulatory Commercial Banking AML BSA Compliance",
+      ruSectionName: "Композитный Multi-Skill: Multi Regulatory Commercial Banking AML BSA Compliance",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Regulatory Commercial Banking AML BSA Compliance.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Regulatory Commercial Banking AML BSA Compliance.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-party-cross-border-asset-purchase-agreement-apa": {
+    id: "legal-multi-multi-party-cross-border-asset-purchase-agreement-apa",
+    name: "MultiPartyCrossBorderAssetPurchaseAgreementAPASkill",
+    displayName: "Multi Party Cross Border Asset Purchase Agreement APA",
+    categoryId: "legal",
+    description: "Drafts asset acquisition agreements, representation/warranties, and escrow terms.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Party Cross Border Asset Purchase Agreement APA",
+      ruSectionName: "Композитный Multi-Skill: Multi Party Cross Border Asset Purchase Agreement APA",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Party Cross Border Asset Purchase Agreement APA.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Party Cross Border Asset Purchase Agreement APA.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-civil-rights-ada-title-iii-accessibility-defense": {
+    id: "legal-multi-multi-stage-civil-rights-ada-title-iii-accessibility-defense",
+    name: "MultiStageCivilRightsADATitleIIIAccessibilityDefenseSkill",
+    displayName: "Multi Stage Civil Rights ADA Title III Accessibility Defense",
+    categoryId: "legal",
+    description: "Defends commercial website and physical facility ADA accessibility lawsuits.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Civil Rights ADA Title III Accessibility Defense",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Civil Rights ADA Title III Accessibility Defense",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Civil Rights ADA Title III Accessibility Defense.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Civil Rights ADA Title III Accessibility Defense.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-layer-force-majeure-commercial-frustration-defense": {
+    id: "legal-multi-multi-layer-force-majeure-commercial-frustration-defense",
+    name: "MultiLayerForceMajeureCommercialFrustrationDefenseSkill",
+    displayName: "Multi Layer Force Majeure Commercial Frustration Defense",
+    categoryId: "legal",
+    description: "Evaluates force majeure contract triggers, impossibility, and impracticability defenses.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Force Majeure Commercial Frustration Defense",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Force Majeure Commercial Frustration Defense",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Layer Force Majeure Commercial Frustration Defense.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Layer Force Majeure Commercial Frustration Defense.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-party-commercial-aircraft-equipment-trust-lease": {
+    id: "legal-multi-multi-party-commercial-aircraft-equipment-trust-lease",
+    name: "MultiPartyCommercialAircraftEquipmentTrustLeaseSkill",
+    displayName: "Multi Party Commercial Aircraft Equipment Trust Lease",
+    categoryId: "legal",
+    description: "Drafts airline aircraft leasing, Cape Town Convention filings, and engine maintenance reserves.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Party Commercial Aircraft Equipment Trust Lease",
+      ruSectionName: "Композитный Multi-Skill: Multi Party Commercial Aircraft Equipment Trust Lease",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Party Commercial Aircraft Equipment Trust Lease.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Party Commercial Aircraft Equipment Trust Lease.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-class-action-waiver-consumer-arbitration": {
+    id: "legal-multi-multi-stage-class-action-waiver-consumer-arbitration",
+    name: "MultiStageClassActionWaiverConsumerArbitrationSkill",
+    displayName: "Multi Stage Class Action Waiver Consumer Arbitration",
+    categoryId: "legal",
+    description: "Drafts enforceable consumer arbitration clauses and class action waiver provisions.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Class Action Waiver Consumer Arbitration",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Class Action Waiver Consumer Arbitration",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Class Action Waiver Consumer Arbitration.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Class Action Waiver Consumer Arbitration.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-regulatory-insurance-solvency-naic-financial-audit": {
+    id: "legal-multi-multi-regulatory-insurance-solvency-naic-financial-audit",
+    name: "MultiRegulatoryInsuranceSolvencyNAICFinancialAuditSkill",
+    displayName: "Multi Regulatory Insurance Solvency NAIC Financial Audit",
+    categoryId: "legal",
+    description: "Audits insurance company statutory accounting principles and reserve adequacy.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Regulatory Insurance Solvency NAIC Financial Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Regulatory Insurance Solvency NAIC Financial Audit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Regulatory Insurance Solvency NAIC Financial Audit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Regulatory Insurance Solvency NAIC Financial Audit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-party-cross-border-technology-transfer-licensing": {
+    id: "legal-multi-multi-party-cross-border-technology-transfer-licensing",
+    name: "MultiPartyCrossBorderTechnologyTransferLicensingSkill",
+    displayName: "Multi Party Cross Border Technology Transfer Licensing",
+    categoryId: "legal",
+    description: "Structures cross-border tech licensing agreements with withholding tax optimizations.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Party Cross Border Technology Transfer Licensing",
+      ruSectionName: "Композитный Multi-Skill: Multi Party Cross Border Technology Transfer Licensing",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Party Cross Border Technology Transfer Licensing.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Party Cross Border Technology Transfer Licensing.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-labor-union-collective-bargaining-agreement": {
+    id: "legal-multi-multi-stage-labor-union-collective-bargaining-agreement",
+    name: "MultiStageLaborUnionCollectiveBargainingAgreementSkill",
+    displayName: "Multi Stage Labor Union Collective Bargaining Agreement",
+    categoryId: "legal",
+    description: "Drafts CBA terms covering wages, grievances, seniority rights, and strike clauses.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Labor Union Collective Bargaining Agreement",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Labor Union Collective Bargaining Agreement",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Labor Union Collective Bargaining Agreement.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Labor Union Collective Bargaining Agreement.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-regulatory-biometric-data-privacy-bipa-audit": {
+    id: "legal-multi-multi-regulatory-biometric-data-privacy-bipa-audit",
+    name: "MultiRegulatoryBiometricDataPrivacyBIPAAuditSkill",
+    displayName: "Multi Regulatory Biometric Data Privacy BIPA Audit",
+    categoryId: "legal",
+    description: "Audits employee and customer biometric data collection consent protocols under BIPA.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Regulatory Biometric Data Privacy BIPA Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Regulatory Biometric Data Privacy BIPA Audit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Regulatory Biometric Data Privacy BIPA Audit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Regulatory Biometric Data Privacy BIPA Audit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-party-renewable-energy-solar-ground-lease-easement": {
+    id: "legal-multi-multi-party-renewable-energy-solar-ground-lease-easement",
+    name: "MultiPartyRenewableEnergySolarGroundLeaseEasementSkill",
+    displayName: "Multi Party Renewable Energy Solar Ground Lease Easement",
+    categoryId: "legal",
+    description: "Drafts long-term utility-scale solar ground leases, decommissioning bonds, and easements.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Party Renewable Energy Solar Ground Lease Easement",
+      ruSectionName: "Композитный Multi-Skill: Multi Party Renewable Energy Solar Ground Lease Easement",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Party Renewable Energy Solar Ground Lease Easement.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Party Renewable Energy Solar Ground Lease Easement.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-criminal-defense-white-collar-subpoena-response": {
+    id: "legal-multi-multi-stage-criminal-defense-white-collar-subpoena-response",
+    name: "MultiStageCriminalDefenseWhiteCollarSubpoenaResponseSkill",
+    displayName: "Multi Stage Criminal Defense White Collar Subpoena Response",
+    categoryId: "legal",
+    description: "Coordinates grand jury subpoena response, document holds, and employee interviews.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Criminal Defense White Collar Subpoena Response",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Criminal Defense White Collar Subpoena Response",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Criminal Defense White Collar Subpoena Response.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Criminal Defense White Collar Subpoena Response.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-regulatory-pharmaceutical-drug-price-transparency": {
+    id: "legal-multi-multi-regulatory-pharmaceutical-drug-price-transparency",
+    name: "MultiRegulatoryPharmaceuticalDrugPriceTransparencySkill",
+    displayName: "Multi Regulatory Pharmaceutical Drug Price Transparency",
+    categoryId: "legal",
+    description: "Navigates state drug price transparency filings and IRA inflation rebate rules.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Regulatory Pharmaceutical Drug Price Transparency",
+      ruSectionName: "Композитный Multi-Skill: Multi Regulatory Pharmaceutical Drug Price Transparency",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Regulatory Pharmaceutical Drug Price Transparency.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Regulatory Pharmaceutical Drug Price Transparency.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-party-entertainment-film-production-rights-clearance": {
+    id: "legal-multi-multi-party-entertainment-film-production-rights-clearance",
+    name: "MultiPartyEntertainmentFilmProductionRightsClearanceSkill",
+    displayName: "Multi Party Entertainment Film Production Rights Clearance",
+    categoryId: "legal",
+    description: "Clears life story rights, synchronization music licenses, and location releases.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Party Entertainment Film Production Rights Clearance",
+      ruSectionName: "Композитный Multi-Skill: Multi Party Entertainment Film Production Rights Clearance",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Party Entertainment Film Production Rights Clearance.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Party Entertainment Film Production Rights Clearance.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-chapter-11-corporate-bankruptcy-reorganization": {
+    id: "legal-multi-multi-stage-chapter-11-corporate-bankruptcy-reorganization",
+    name: "MultiStageChapter11CorporateBankruptcyReorganizationSkill",
+    displayName: "Multi Stage Chapter 11 Corporate Bankruptcy Reorganization",
+    categoryId: "legal",
+    description: "Drafts debtor-in-possession (DIP) financing motions, disclosure statements, and plans.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Chapter 11 Corporate Bankruptcy Reorganization",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Chapter 11 Corporate Bankruptcy Reorganization",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Chapter 11 Corporate Bankruptcy Reorganization.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Chapter 11 Corporate Bankruptcy Reorganization.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-regulatory-federal-election-commission-fec-compliance": {
+    id: "legal-multi-multi-regulatory-federal-election-commission-fec-compliance",
+    name: "MultiRegulatoryFederalElectionCommissionFECComplianceSkill",
+    displayName: "Multi Regulatory Federal Election Commission FEC Compliance",
+    categoryId: "legal",
+    description: "Audits PAC corporate contributions, lobbyist disclosure reports, and campaign finance.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Regulatory Federal Election Commission FEC Compliance",
+      ruSectionName: "Композитный Multi-Skill: Multi Regulatory Federal Election Commission FEC Compliance",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Regulatory Federal Election Commission FEC Compliance.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Regulatory Federal Election Commission FEC Compliance.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-party-commercial-franchising-territory-protection": {
+    id: "legal-multi-multi-party-commercial-franchising-territory-protection",
+    name: "MultiPartyCommercialFranchisingTerritoryProtectionSkill",
+    displayName: "Multi Party Commercial Franchising Territory Protection",
+    categoryId: "legal",
+    description: "Drafts exclusive franchisee territory boundaries, right of first refusal, and covenants.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Party Commercial Franchising Territory Protection",
+      ruSectionName: "Композитный Multi-Skill: Multi Party Commercial Franchising Territory Protection",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Party Commercial Franchising Territory Protection.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Party Commercial Franchising Territory Protection.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-stage-intellectual-property-trade-secret-audit": {
+    id: "legal-multi-multi-stage-intellectual-property-trade-secret-audit",
+    name: "MultiStageIntellectualPropertyTradeSecretAuditSkill",
+    displayName: "Multi Stage Intellectual Property Trade Secret Audit",
+    categoryId: "legal",
+    description: "Establishes NDA protocols, reasonable secrecy measures, and DTSA enforcement.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Intellectual Property Trade Secret Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Intellectual Property Trade Secret Audit",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Stage Intellectual Property Trade Secret Audit.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Stage Intellectual Property Trade Secret Audit.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-regulatory-distilled-spirits-ttb-labeling-compliance": {
+    id: "legal-multi-multi-regulatory-distilled-spirits-ttb-labeling-compliance",
+    name: "MultiRegulatoryDistilledSpiritsTTBLabelingComplianceSkill",
+    displayName: "Multi Regulatory Distilled Spirits TTB Labeling Compliance",
+    categoryId: "legal",
+    description: "Navigates TTB COLA alcoholic beverage label approvals and formula filings.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Regulatory Distilled Spirits TTB Labeling Compliance",
+      ruSectionName: "Композитный Multi-Skill: Multi Regulatory Distilled Spirits TTB Labeling Compliance",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Regulatory Distilled Spirits TTB Labeling Compliance.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Regulatory Distilled Spirits TTB Labeling Compliance.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
+
+  "legal-multi-multi-horizon-master-legal-jurisprudence-drafting-engine": {
+    id: "legal-multi-multi-horizon-master-legal-jurisprudence-drafting-engine",
+    name: "MultiHorizonMasterLegalJurisprudenceDraftingEngineSkill",
+    displayName: "Multi Horizon Master Legal Jurisprudence Drafting Engine",
+    categoryId: "legal",
+    description: "Enforces master statutory analysis, contract drafting, regulatory compliance, and risk mitigation.",
+    tags: ["legal","multi-skill","legal-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Legal Jurisprudence Drafting Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Legal Jurisprudence Drafting Engine",
+      instructions: [
+        "Phase 1: Setup frameworks, constraints, and initial inputs for Multi Horizon Master Legal Jurisprudence Drafting Engine.",
+        "Phase 2: Multi-perspective analysis, generation, or verification pipeline.",
+        "Phase 3: Synthesize output into structured format with validated criteria."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация фреймворков, ограничений и исходных данных для Multi Horizon Master Legal Jurisprudence Drafting Engine.",
+        "Этап 2: Многоаспектный анализ, генерация или конвейер проверки.",
+        "Этап 3: Синтез результата в структурированный формат с валидацией критериев."
+],
+      semanticType: "process_directive",
+      tags: ["legal","multi-skill","legal-multi"],
+    }),
+  },
 };

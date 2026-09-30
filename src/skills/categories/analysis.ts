@@ -4279,4 +4279,1503 @@ export const ANALYSIS_SKILLS: Record<string, SkillDefinition> = {
       tags: ["analysis","analysis","corporate","governance"],
     }),
   },
+  "analysis-multi-multi-perspective-qualitative-research-analysis": {
+    id: "analysis-multi-multi-perspective-qualitative-research-analysis",
+    name: "MultiPerspectiveQualitativeResearchAnalysisSkill",
+    displayName: "Multi Perspective Qualitative Research Analysis",
+    categoryId: "analysis",
+    description: "Analyzes interviews using Grounded Theory, Thematic Analysis, and Discourse Analysis simultaneously.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Qualitative Research Analysis",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Qualitative Research Analysis",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Perspective Qualitative Research Analysis.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Perspective Qualitative Research Analysis.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-layer-enterprise-risk-audit-cascades": {
+    id: "analysis-multi-multi-layer-enterprise-risk-audit-cascades",
+    name: "MultiLayerEnterpriseRiskAuditCascadesSkill",
+    displayName: "Multi Layer Enterprise Risk Audit Cascades",
+    categoryId: "analysis",
+    description: "Audits operational, financial, reputational, and compliance risks in cascading failure chains.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Enterprise Risk Audit Cascades",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Enterprise Risk Audit Cascades",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Enterprise Risk Audit Cascades.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Enterprise Risk Audit Cascades.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-horizon-financial-ratio-decomposition": {
+    id: "analysis-multi-multi-horizon-financial-ratio-decomposition",
+    name: "MultiHorizonFinancialRatioDecompositionSkill",
+    displayName: "Multi Horizon Financial Ratio Decomposition",
+    categoryId: "analysis",
+    description: "Decomposes DuPont return on equity (ROE) across past, current, and projected forward cycles.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Financial Ratio Decomposition",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Financial Ratio Decomposition",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Horizon Financial Ratio Decomposition.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Horizon Financial Ratio Decomposition.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-factor-root-cause-ishikawa-analysis": {
+    id: "analysis-multi-multi-factor-root-cause-ishikawa-analysis",
+    name: "MultiFactorRootCauseIshikawaAnalysisSkill",
+    displayName: "Multi Factor Root Cause Ishikawa Analysis",
+    categoryId: "analysis",
+    description: "Combines 5-Whys, Fishbone Diagram, and Fault Tree Analysis for deep systemic failure diagnosis.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Root Cause Ishikawa Analysis",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Root Cause Ishikawa Analysis",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Factor Root Cause Ishikawa Analysis.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Factor Root Cause Ishikawa Analysis.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-dimensional-competitive-matrix-benchmarking": {
+    id: "analysis-multi-multi-dimensional-competitive-matrix-benchmarking",
+    name: "MultiDimensionalCompetitiveMatrixBenchmarkingSkill",
+    displayName: "Multi Dimensional Competitive Matrix Benchmarking",
+    categoryId: "analysis",
+    description: "Evaluates competitors across pricing, feature set, UX, market share, and technical moat.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Dimensional Competitive Matrix Benchmarking",
+      ruSectionName: "Композитный Multi-Skill: Multi Dimensional Competitive Matrix Benchmarking",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Dimensional Competitive Matrix Benchmarking.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Dimensional Competitive Matrix Benchmarking.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-method-sentiment-nuance-disambiguation": {
+    id: "analysis-multi-multi-method-sentiment-nuance-disambiguation",
+    name: "MultiMethodSentimentNuanceDisambiguationSkill",
+    displayName: "Multi Method Sentiment Nuance Disambiguation",
+    categoryId: "analysis",
+    description: "Synthesizes VADER, Transformer sentiment scoring, and qualitative tone inspection.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Sentiment Nuance Disambiguation",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Sentiment Nuance Disambiguation",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Method Sentiment Nuance Disambiguation.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Method Sentiment Nuance Disambiguation.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-scenario-sensitivity-stress-testing": {
+    id: "analysis-multi-multi-scenario-sensitivity-stress-testing",
+    name: "MultiScenarioSensitivityStressTestingSkill",
+    displayName: "Multi Scenario Sensitivity Stress Testing",
+    categoryId: "analysis",
+    description: "Models base, optimistic, pessimistic, and black-swan stress test parameters on business models.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Scenario Sensitivity Stress Testing",
+      ruSectionName: "Композитный Multi-Skill: Multi Scenario Sensitivity Stress Testing",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Scenario Sensitivity Stress Testing.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Scenario Sensitivity Stress Testing.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-level-supply-chain-bottleneck-diagnostic": {
+    id: "analysis-multi-multi-level-supply-chain-bottleneck-diagnostic",
+    name: "MultiLevelSupplyChainBottleneckDiagnosticSkill",
+    displayName: "Multi Level Supply Chain Bottleneck Diagnostic",
+    categoryId: "analysis",
+    description: "Traces raw material, Tier-1/2 suppliers, logistics hubs, and retail endpoint bottlenecks.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Supply Chain Bottleneck Diagnostic",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Supply Chain Bottleneck Diagnostic",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Level Supply Chain Bottleneck Diagnostic.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Level Supply Chain Bottleneck Diagnostic.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-view-customer-churn-cohort-analytics": {
+    id: "analysis-multi-multi-view-customer-churn-cohort-analytics",
+    name: "MultiViewCustomerChurnCohortAnalyticsSkill",
+    displayName: "Multi View Customer Churn Cohort Analytics",
+    categoryId: "analysis",
+    description: "Analyzes churn by acquisition channel, usage frequency, contract tier, and support ticket history.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi View Customer Churn Cohort Analytics",
+      ruSectionName: "Композитный Multi-Skill: Multi View Customer Churn Cohort Analytics",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi View Customer Churn Cohort Analytics.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi View Customer Churn Cohort Analytics.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-attribute-utility-theory-maut-decision-framework": {
+    id: "analysis-multi-multi-attribute-utility-theory-maut-decision-framework",
+    name: "MultiAttributeUtilityTheoryMAUTDecisionFrameworkSkill",
+    displayName: "Multi Attribute Utility Theory MAUT Decision Framework",
+    categoryId: "analysis",
+    description: "Evaluates complex decisions by weighting trade-offs across multiple non-monetary criteria.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Attribute Utility Theory MAUT Decision Framework",
+      ruSectionName: "Композитный Multi-Skill: Multi Attribute Utility Theory MAUT Decision Framework",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Attribute Utility Theory MAUT Decision Framework.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Attribute Utility Theory MAUT Decision Framework.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-stakeholder-value-stream-mapping": {
+    id: "analysis-multi-multi-stakeholder-value-stream-mapping",
+    name: "MultiStakeholderValueStreamMappingSkill",
+    displayName: "Multi Stakeholder Value Stream Mapping",
+    categoryId: "analysis",
+    description: "Maps value flow and waste across internal teams, external vendors, and end customers.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stakeholder Value Stream Mapping",
+      ruSectionName: "Композитный Multi-Skill: Multi Stakeholder Value Stream Mapping",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stakeholder Value Stream Mapping.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stakeholder Value Stream Mapping.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-layer-cybersecurity-threat-surface-inspection": {
+    id: "analysis-multi-multi-layer-cybersecurity-threat-surface-inspection",
+    name: "MultiLayerCybersecurityThreatSurfaceInspectionSkill",
+    displayName: "Multi Layer Cybersecurity Threat Surface Inspection",
+    categoryId: "analysis",
+    description: "Audits network perimeter, cloud IAM, endpoint security, and application vulnerabilities.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Cybersecurity Threat Surface Inspection",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Cybersecurity Threat Surface Inspection",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Cybersecurity Threat Surface Inspection.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Cybersecurity Threat Surface Inspection.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-variable-macroeconomic-trend-triangulation": {
+    id: "analysis-multi-multi-variable-macroeconomic-trend-triangulation",
+    name: "MultiVariableMacroeconomicTrendTriangulationSkill",
+    displayName: "Multi Variable Macroeconomic Trend Triangulation",
+    categoryId: "analysis",
+    description: "Triangulates GDP growth, inflation, interest rates, and labor data to project industry headwinds.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Variable Macroeconomic Trend Triangulation",
+      ruSectionName: "Композитный Multi-Skill: Multi Variable Macroeconomic Trend Triangulation",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Variable Macroeconomic Trend Triangulation.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Variable Macroeconomic Trend Triangulation.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-model-software-performance-bottleneck-profiling": {
+    id: "analysis-multi-multi-model-software-performance-bottleneck-profiling",
+    name: "MultiModelSoftwarePerformanceBottleneckProfilingSkill",
+    displayName: "Multi Model Software Performance Bottleneck Profiling",
+    categoryId: "analysis",
+    description: "Combines CPU flamegraphs, memory allocation traces, and DB query latency metrics.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Model Software Performance Bottleneck Profiling",
+      ruSectionName: "Композитный Multi-Skill: Multi Model Software Performance Bottleneck Profiling",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Model Software Performance Bottleneck Profiling.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Model Software Performance Bottleneck Profiling.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-point-brand-perception-equity-audit": {
+    id: "analysis-multi-multi-point-brand-perception-equity-audit",
+    name: "MultiPointBrandPerceptionEquityAuditSkill",
+    displayName: "Multi Point Brand Perception Equity Audit",
+    categoryId: "analysis",
+    description: "Measures brand sentiment across social media, press coverage, customer reviews, and surveys.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Point Brand Perception Equity Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Point Brand Perception Equity Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Point Brand Perception Equity Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Point Brand Perception Equity Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-tier-regulatory-compliance-gap-diagnostic": {
+    id: "analysis-multi-multi-tier-regulatory-compliance-gap-diagnostic",
+    name: "MultiTierRegulatoryComplianceGapDiagnosticSkill",
+    displayName: "Multi Tier Regulatory Compliance Gap Diagnostic",
+    categoryId: "analysis",
+    description: "Audits operations against GDPR, HIPAA, SOC 2, and ISO 27001 requirements simultaneously.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Tier Regulatory Compliance Gap Diagnostic",
+      ruSectionName: "Композитный Multi-Skill: Multi Tier Regulatory Compliance Gap Diagnostic",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Tier Regulatory Compliance Gap Diagnostic.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Tier Regulatory Compliance Gap Diagnostic.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-criterion-commercial-real-estate-location-scoring": {
+    id: "analysis-multi-multi-criterion-commercial-real-estate-location-scoring",
+    name: "MultiCriterionCommercialRealEstateLocationScoringSkill",
+    displayName: "Multi Criterion Commercial Real Estate Location Scoring",
+    categoryId: "analysis",
+    description: "Scores property sites based on foot traffic, demographic income, zoning, and transit access.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Criterion Commercial Real Estate Location Scoring",
+      ruSectionName: "Композитный Multi-Skill: Multi Criterion Commercial Real Estate Location Scoring",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Criterion Commercial Real Estate Location Scoring.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Criterion Commercial Real Estate Location Scoring.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-method-usability-heuristic-evaluation": {
+    id: "analysis-multi-multi-method-usability-heuristic-evaluation",
+    name: "MultiMethodUsabilityHeuristicEvaluationSkill",
+    displayName: "Multi Method Usability Heuristic Evaluation",
+    categoryId: "analysis",
+    description: "Combines Nielsen's 10 Heuristics, System Usability Scale (SUS), and cognitive walkthroughs.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Usability Heuristic Evaluation",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Usability Heuristic Evaluation",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Method Usability Heuristic Evaluation.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Method Usability Heuristic Evaluation.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-dimensional-saas-unit-economics-decomposition": {
+    id: "analysis-multi-multi-dimensional-saas-unit-economics-decomposition",
+    name: "MultiDimensionalSaaSUnitEconomicsDecompositionSkill",
+    displayName: "Multi Dimensional SaaS Unit Economics Decomposition",
+    categoryId: "analysis",
+    description: "Decomposes CAC, LTV, Payback Period, and Expansion ARR across customer segments.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Dimensional SaaS Unit Economics Decomposition",
+      ruSectionName: "Композитный Multi-Skill: Multi Dimensional SaaS Unit Economics Decomposition",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Dimensional SaaS Unit Economics Decomposition.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Dimensional SaaS Unit Economics Decomposition.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-stage-product-feature-prioritization-rice-kano": {
+    id: "analysis-multi-multi-stage-product-feature-prioritization-rice-kano",
+    name: "MultiStageProductFeaturePrioritizationRICEKanoSkill",
+    displayName: "Multi Stage Product Feature Prioritization RICE Kano",
+    categoryId: "analysis",
+    description: "Combines RICE scoring, Kano Model classification, and MoSCoW categorization.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Product Feature Prioritization RICE Kano",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Product Feature Prioritization RICE Kano",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Stage Product Feature Prioritization RICE Kano.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Stage Product Feature Prioritization RICE Kano.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-perspective-geopolitical-risk-assessment": {
+    id: "analysis-multi-multi-perspective-geopolitical-risk-assessment",
+    name: "MultiPerspectiveGeopoliticalRiskAssessmentSkill",
+    displayName: "Multi Perspective Geopolitical Risk Assessment",
+    categoryId: "analysis",
+    description: "Evaluates trade policy, political stability, currency risk, and regional conflicts.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Geopolitical Risk Assessment",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Geopolitical Risk Assessment",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Perspective Geopolitical Risk Assessment.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Perspective Geopolitical Risk Assessment.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-layer-data-quality-profiling-matrix": {
+    id: "analysis-multi-multi-layer-data-quality-profiling-matrix",
+    name: "MultiLayerDataQualityProfilingMatrixSkill",
+    displayName: "Multi Layer Data Quality Profiling Matrix",
+    categoryId: "analysis",
+    description: "Audits completeness, accuracy, consistency, timeliness, and uniqueness across datasets.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Data Quality Profiling Matrix",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Data Quality Profiling Matrix",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Data Quality Profiling Matrix.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Data Quality Profiling Matrix.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-factor-employee-attrition-risk-diagnostic": {
+    id: "analysis-multi-multi-factor-employee-attrition-risk-diagnostic",
+    name: "MultiFactorEmployeeAttritionRiskDiagnosticSkill",
+    displayName: "Multi Factor Employee Attrition Risk Diagnostic",
+    categoryId: "analysis",
+    description: "Analyzes salary benchmark gap, manager score, commute, tenure, and promotion velocity.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Employee Attrition Risk Diagnostic",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Employee Attrition Risk Diagnostic",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Factor Employee Attrition Risk Diagnostic.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Factor Employee Attrition Risk Diagnostic.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-angle-legal-contract-liability-exposure-screener": {
+    id: "analysis-multi-multi-angle-legal-contract-liability-exposure-screener",
+    name: "MultiAngleLegalContractLiabilityExposureScreenerSkill",
+    displayName: "Multi Angle Legal Contract Liability Exposure Screener",
+    categoryId: "analysis",
+    description: "Audits indemnification caps, termination clauses, IP ownership, and jurisdiction terms.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Legal Contract Liability Exposure Screener",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Legal Contract Liability Exposure Screener",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Angle Legal Contract Liability Exposure Screener.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Angle Legal Contract Liability Exposure Screener.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-dimension-e-commerce-cart-abandonment-audit": {
+    id: "analysis-multi-multi-dimension-e-commerce-cart-abandonment-audit",
+    name: "MultiDimensionECommerceCartAbandonmentAuditSkill",
+    displayName: "Multi Dimension E Commerce Cart Abandonment Audit",
+    categoryId: "analysis",
+    description: "Inspects checkout friction, unexpected shipping fees, payment gateway errors, and trust cues.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Dimension E Commerce Cart Abandonment Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Dimension E Commerce Cart Abandonment Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Dimension E Commerce Cart Abandonment Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Dimension E Commerce Cart Abandonment Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-criteria-cloud-provider-cost-optimization-audit": {
+    id: "analysis-multi-multi-criteria-cloud-provider-cost-optimization-audit",
+    name: "MultiCriteriaCloudProviderCostOptimizationAuditSkill",
+    displayName: "Multi Criteria Cloud Provider Cost Optimization Audit",
+    categoryId: "analysis",
+    description: "Evaluates reserved instances, idle resource termination, serverless auto-scaling, and egress costs.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Criteria Cloud Provider Cost Optimization Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Criteria Cloud Provider Cost Optimization Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Criteria Cloud Provider Cost Optimization Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Criteria Cloud Provider Cost Optimization Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-level-educational-curriculum-gap-diagnostic": {
+    id: "analysis-multi-multi-level-educational-curriculum-gap-diagnostic",
+    name: "MultiLevelEducationalCurriculumGapDiagnosticSkill",
+    displayName: "Multi Level Educational Curriculum Gap Diagnostic",
+    categoryId: "analysis",
+    description: "Maps learning objectives against Bloom's Taxonomy, industry skill demands, and exam benchmarks.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Educational Curriculum Gap Diagnostic",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Educational Curriculum Gap Diagnostic",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Level Educational Curriculum Gap Diagnostic.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Level Educational Curriculum Gap Diagnostic.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-layer-m-a-synergies-valuation-audit": {
+    id: "analysis-multi-multi-layer-m-a-synergies-valuation-audit",
+    name: "MultiLayerMASynergiesValuationAuditSkill",
+    displayName: "Multi Layer M A Synergies Valuation Audit",
+    categoryId: "analysis",
+    description: "Analyzes cost synergies, cross-selling revenue uplift, technology consolidation, and tax credits.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer M A Synergies Valuation Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer M A Synergies Valuation Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer M A Synergies Valuation Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer M A Synergies Valuation Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-factor-renewable-energy-site-feasibility-analysis": {
+    id: "analysis-multi-multi-factor-renewable-energy-site-feasibility-analysis",
+    name: "MultiFactorRenewableEnergySiteFeasibilityAnalysisSkill",
+    displayName: "Multi Factor Renewable Energy Site Feasibility Analysis",
+    categoryId: "analysis",
+    description: "Evaluates solar irradiance/wind speed, grid interconnection cost, land topography, and zoning.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Renewable Energy Site Feasibility Analysis",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Renewable Energy Site Feasibility Analysis",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Factor Renewable Energy Site Feasibility Analysis.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Factor Renewable Energy Site Feasibility Analysis.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-method-patient-care-quality-outcome-audit": {
+    id: "analysis-multi-multi-method-patient-care-quality-outcome-audit",
+    name: "MultiMethodPatientCareQualityOutcomeAuditSkill",
+    displayName: "Multi Method Patient Care Quality Outcome Audit",
+    categoryId: "analysis",
+    description: "Combines readmission rates, infection rates, patient satisfaction scores, and mortality risk.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Patient Care Quality Outcome Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Patient Care Quality Outcome Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Method Patient Care Quality Outcome Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Method Patient Care Quality Outcome Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-horizon-corporate-capital-allocation-audit": {
+    id: "analysis-multi-multi-horizon-corporate-capital-allocation-audit",
+    name: "MultiHorizonCorporateCapitalAllocationAuditSkill",
+    displayName: "Multi Horizon Corporate Capital Allocation Audit",
+    categoryId: "analysis",
+    description: "Audits capital deployment across R&D, dividends, share buybacks, CAPEX, and M&A.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Corporate Capital Allocation Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Corporate Capital Allocation Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Horizon Corporate Capital Allocation Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Horizon Corporate Capital Allocation Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-level-logistics-freight-cost-decomposition": {
+    id: "analysis-multi-multi-level-logistics-freight-cost-decomposition",
+    name: "MultiLevelLogisticsFreightCostDecompositionSkill",
+    displayName: "Multi Level Logistics Freight Cost Decomposition",
+    categoryId: "analysis",
+    description: "Decomposes ocean freight, drayage, customs clearance, demurrage, and last-mile costs.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Logistics Freight Cost Decomposition",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Logistics Freight Cost Decomposition",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Level Logistics Freight Cost Decomposition.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Level Logistics Freight Cost Decomposition.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-dimension-api-ecosystem-performance-audit": {
+    id: "analysis-multi-multi-dimension-api-ecosystem-performance-audit",
+    name: "MultiDimensionAPIEcosystemPerformanceAuditSkill",
+    displayName: "Multi Dimension API Ecosystem Performance Audit",
+    categoryId: "analysis",
+    description: "Audits throughput, p99 latency, error rates, developer onboarding friction, and API limits.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Dimension API Ecosystem Performance Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Dimension API Ecosystem Performance Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Dimension API Ecosystem Performance Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Dimension API Ecosystem Performance Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-view-customer-journey-friction-diagnostics": {
+    id: "analysis-multi-multi-view-customer-journey-friction-diagnostics",
+    name: "MultiViewCustomerJourneyFrictionDiagnosticsSkill",
+    displayName: "Multi View Customer Journey Friction Diagnostics",
+    categoryId: "analysis",
+    description: "Maps customer frustration signals across onboarding, feature adoption, and support interactions.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi View Customer Journey Friction Diagnostics",
+      ruSectionName: "Композитный Multi-Skill: Multi View Customer Journey Friction Diagnostics",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi View Customer Journey Friction Diagnostics.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi View Customer Journey Friction Diagnostics.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-factor-urban-traffic-congestion-diagnostic": {
+    id: "analysis-multi-multi-factor-urban-traffic-congestion-diagnostic",
+    name: "MultiFactorUrbanTrafficCongestionDiagnosticSkill",
+    displayName: "Multi Factor Urban Traffic Congestion Diagnostic",
+    categoryId: "analysis",
+    description: "Analyzes signal timing, bottleneck bottlenecks, accident hotspots, and public transit overlap.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Urban Traffic Congestion Diagnostic",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Urban Traffic Congestion Diagnostic",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Factor Urban Traffic Congestion Diagnostic.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Factor Urban Traffic Congestion Diagnostic.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-angle-venture-capital-portfolio-risk-concentration": {
+    id: "analysis-multi-multi-angle-venture-capital-portfolio-risk-concentration",
+    name: "MultiAngleVentureCapitalPortfolioRiskConcentrationSkill",
+    displayName: "Multi Angle Venture Capital Portfolio Risk Concentration",
+    categoryId: "analysis",
+    description: "Evaluates sector exposure, stage concentration, follow-on reserve adequacy, and runway.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Venture Capital Portfolio Risk Concentration",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Venture Capital Portfolio Risk Concentration",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Angle Venture Capital Portfolio Risk Concentration.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Angle Venture Capital Portfolio Risk Concentration.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-method-media-campaign-roi-attribution": {
+    id: "analysis-multi-multi-method-media-campaign-roi-attribution",
+    name: "MultiMethodMediaCampaignROIAttributionSkill",
+    displayName: "Multi Method Media Campaign ROI Attribution",
+    categoryId: "analysis",
+    description: "Combines first-touch, last-touch, linear, and marketing mix modeling (MMM) attribution.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Media Campaign ROI Attribution",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Media Campaign ROI Attribution",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Method Media Campaign ROI Attribution.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Method Media Campaign ROI Attribution.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-layer-sustainable-esg-impact-metric-diagnostic": {
+    id: "analysis-multi-multi-layer-sustainable-esg-impact-metric-diagnostic",
+    name: "MultiLayerSustainableESGImpactMetricDiagnosticSkill",
+    displayName: "Multi Layer Sustainable ESG Impact Metric Diagnostic",
+    categoryId: "analysis",
+    description: "Audits carbon footprint (Scopes 1-3), diversity equity metrics, and board governance rules.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Sustainable ESG Impact Metric Diagnostic",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Sustainable ESG Impact Metric Diagnostic",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Sustainable ESG Impact Metric Diagnostic.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Sustainable ESG Impact Metric Diagnostic.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-perspective-scientific-paper-methodology-audit": {
+    id: "analysis-multi-multi-perspective-scientific-paper-methodology-audit",
+    name: "MultiPerspectiveScientificPaperMethodologyAuditSkill",
+    displayName: "Multi Perspective Scientific Paper Methodology Audit",
+    categoryId: "analysis",
+    description: "Audits statistical power, sample bias, replicability hazards, and data availability.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Scientific Paper Methodology Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Scientific Paper Methodology Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Perspective Scientific Paper Methodology Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Perspective Scientific Paper Methodology Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-criteria-software-vendor-selection-evaluation": {
+    id: "analysis-multi-multi-criteria-software-vendor-selection-evaluation",
+    name: "MultiCriteriaSoftwareVendorSelectionEvaluationSkill",
+    displayName: "Multi Criteria Software Vendor Selection Evaluation",
+    categoryId: "analysis",
+    description: "Scores vendors on security compliance, SLA uptime, pricing structure, and API extensibility.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Criteria Software Vendor Selection Evaluation",
+      ruSectionName: "Композитный Multi-Skill: Multi Criteria Software Vendor Selection Evaluation",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Criteria Software Vendor Selection Evaluation.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Criteria Software Vendor Selection Evaluation.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-layer-warehouse-storage-space-utilization": {
+    id: "analysis-multi-multi-layer-warehouse-storage-space-utilization",
+    name: "MultiLayerWarehouseStorageSpaceUtilizationSkill",
+    displayName: "Multi Layer Warehouse Storage Space Utilization",
+    categoryId: "analysis",
+    description: "Inspects rack height efficiency, aisle slotting optimization, and fast/slow-moving SKU placement.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Warehouse Storage Space Utilization",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Warehouse Storage Space Utilization",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Warehouse Storage Space Utilization.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Warehouse Storage Space Utilization.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-dimension-mobile-app-crash-rate-diagnostics": {
+    id: "analysis-multi-multi-dimension-mobile-app-crash-rate-diagnostics",
+    name: "MultiDimensionMobileAppCrashRateDiagnosticsSkill",
+    displayName: "Multi Dimension Mobile App Crash Rate Diagnostics",
+    categoryId: "analysis",
+    description: "Correlates crashes by OS version, device model, memory threshold, and user action sequence.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Dimension Mobile App Crash Rate Diagnostics",
+      ruSectionName: "Композитный Multi-Skill: Multi Dimension Mobile App Crash Rate Diagnostics",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Dimension Mobile App Crash Rate Diagnostics.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Dimension Mobile App Crash Rate Diagnostics.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-horizon-talent-pipeline-workforce-planning": {
+    id: "analysis-multi-multi-horizon-talent-pipeline-workforce-planning",
+    name: "MultiHorizonTalentPipelineWorkforcePlanningSkill",
+    displayName: "Multi Horizon Talent Pipeline Workforce Planning",
+    categoryId: "analysis",
+    description: "Projects hiring needs, retirement rates, skill gap shifts, and internal promotion velocity.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Talent Pipeline Workforce Planning",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Talent Pipeline Workforce Planning",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Horizon Talent Pipeline Workforce Planning.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Horizon Talent Pipeline Workforce Planning.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-angle-hotel-occupancy-revenue-yield-diagnostics": {
+    id: "analysis-multi-multi-angle-hotel-occupancy-revenue-yield-diagnostics",
+    name: "MultiAngleHotelOccupancyRevenueYieldDiagnosticsSkill",
+    displayName: "Multi Angle Hotel Occupancy Revenue Yield Diagnostics",
+    categoryId: "analysis",
+    description: "Analyzes RevPAR, ADR, booking window lead times, and OTA commission leaks.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Angle Hotel Occupancy Revenue Yield Diagnostics",
+      ruSectionName: "Композитный Multi-Skill: Multi Angle Hotel Occupancy Revenue Yield Diagnostics",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Angle Hotel Occupancy Revenue Yield Diagnostics.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Angle Hotel Occupancy Revenue Yield Diagnostics.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-method-retail-inventory-shrinkage-loss-audit": {
+    id: "analysis-multi-multi-method-retail-inventory-shrinkage-loss-audit",
+    name: "MultiMethodRetailInventoryShrinkageLossAuditSkill",
+    displayName: "Multi Method Retail Inventory Shrinkage Loss Audit",
+    categoryId: "analysis",
+    description: "Audits shoplifting data, employee theft vectors, vendor short-shipments, and POS errors.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Retail Inventory Shrinkage Loss Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Retail Inventory Shrinkage Loss Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Method Retail Inventory Shrinkage Loss Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Method Retail Inventory Shrinkage Loss Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-layer-telecommunications-network-coverage-diagnostic": {
+    id: "analysis-multi-multi-layer-telecommunications-network-coverage-diagnostic",
+    name: "MultiLayerTelecommunicationsNetworkCoverageDiagnosticSkill",
+    displayName: "Multi Layer Telecommunications Network Coverage Diagnostic",
+    categoryId: "analysis",
+    description: "Evaluates signal dead zones, tower handoff drop rates, bandwidth throttling, and latency.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Telecommunications Network Coverage Diagnostic",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Telecommunications Network Coverage Diagnostic",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Telecommunications Network Coverage Diagnostic.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Telecommunications Network Coverage Diagnostic.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-dimension-food-beverage-menu-profitability-matrix": {
+    id: "analysis-multi-multi-dimension-food-beverage-menu-profitability-matrix",
+    name: "MultiDimensionFoodBeverageMenuProfitabilityMatrixSkill",
+    displayName: "Multi Dimension Food Beverage Menu Profitability Matrix",
+    categoryId: "analysis",
+    description: "Combines Menu Engineering matrix (Plowhorses, Stars, Dogs, Puzzles) with ingredient inflation.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Dimension Food Beverage Menu Profitability Matrix",
+      ruSectionName: "Композитный Multi-Skill: Multi Dimension Food Beverage Menu Profitability Matrix",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Dimension Food Beverage Menu Profitability Matrix.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Dimension Food Beverage Menu Profitability Matrix.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-factor-agricultural-yield-disruption-screener": {
+    id: "analysis-multi-multi-factor-agricultural-yield-disruption-screener",
+    name: "MultiFactorAgriculturalYieldDisruptionScreenerSkill",
+    displayName: "Multi Factor Agricultural Yield Disruption Screener",
+    categoryId: "analysis",
+    description: "Evaluates soil nitrogen levels, drought indices, pest pressure, and fertilizer cost spikes.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Agricultural Yield Disruption Screener",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Agricultural Yield Disruption Screener",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Factor Agricultural Yield Disruption Screener.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Factor Agricultural Yield Disruption Screener.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-level-airport-passenger-terminal-flow-bottleneck": {
+    id: "analysis-multi-multi-level-airport-passenger-terminal-flow-bottleneck",
+    name: "MultiLevelAirportPassengerTerminalFlowBottleneckSkill",
+    displayName: "Multi Level Airport Passenger Terminal Flow Bottleneck",
+    categoryId: "analysis",
+    description: "Inspects security queue times, baggage handling latency, and gate boarding throughput.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Airport Passenger Terminal Flow Bottleneck",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Airport Passenger Terminal Flow Bottleneck",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Level Airport Passenger Terminal Flow Bottleneck.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Level Airport Passenger Terminal Flow Bottleneck.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-criterion-renewable-energy-storage-battery-audit": {
+    id: "analysis-multi-multi-criterion-renewable-energy-storage-battery-audit",
+    name: "MultiCriterionRenewableEnergyStorageBatteryAuditSkill",
+    displayName: "Multi Criterion Renewable Energy Storage Battery Audit",
+    categoryId: "analysis",
+    description: "Evaluates cycle degradation, thermal runaway risk, round-trip efficiency, and recycling value.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Criterion Renewable Energy Storage Battery Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Criterion Renewable Energy Storage Battery Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Criterion Renewable Energy Storage Battery Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Criterion Renewable Energy Storage Battery Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-horizon-intellectual-property-portfolio-valuation": {
+    id: "analysis-multi-multi-horizon-intellectual-property-portfolio-valuation",
+    name: "MultiHorizonIntellectualPropertyPortfolioValuationSkill",
+    displayName: "Multi Horizon Intellectual Property Portfolio Valuation",
+    categoryId: "analysis",
+    description: "Evaluates patent remaining lifespan, citation impact, litigation history, and licensing potential.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Intellectual Property Portfolio Valuation",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Intellectual Property Portfolio Valuation",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Horizon Intellectual Property Portfolio Valuation.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Horizon Intellectual Property Portfolio Valuation.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-layer-medical-device-biocompatibility-audit": {
+    id: "analysis-multi-multi-layer-medical-device-biocompatibility-audit",
+    name: "MultiLayerMedicalDeviceBiocompatibilityAuditSkill",
+    displayName: "Multi Layer Medical Device Biocompatibility Audit",
+    categoryId: "analysis",
+    description: "Audits material toxicity, extractables/leachables, sterilization validation, and ISO 10993.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Medical Device Biocompatibility Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Medical Device Biocompatibility Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Medical Device Biocompatibility Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Medical Device Biocompatibility Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-dimension-high-frequency-trading-slippage-audit": {
+    id: "analysis-multi-multi-dimension-high-frequency-trading-slippage-audit",
+    name: "MultiDimensionHighFrequencyTradingSlippageAuditSkill",
+    displayName: "Multi Dimension High Frequency Trading Slippage Audit",
+    categoryId: "analysis",
+    description: "Analyzes order routing delay, market impact cost, venue toxicity, and dark pool execution.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Dimension High Frequency Trading Slippage Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Dimension High Frequency Trading Slippage Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Dimension High Frequency Trading Slippage Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Dimension High Frequency Trading Slippage Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-point-e-learning-course-completion-rate-audit": {
+    id: "analysis-multi-multi-point-e-learning-course-completion-rate-audit",
+    name: "MultiPointELearningCourseCompletionRateAuditSkill",
+    displayName: "Multi Point E Learning Course Completion Rate Audit",
+    categoryId: "analysis",
+    description: "Inspects video drop-off points, quiz failure spikes, discussion forum activity, and module length.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Point E Learning Course Completion Rate Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Point E Learning Course Completion Rate Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Point E Learning Course Completion Rate Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Point E Learning Course Completion Rate Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-factor-mining-quarry-reserve-extraction-audit": {
+    id: "analysis-multi-multi-factor-mining-quarry-reserve-extraction-audit",
+    name: "MultiFactorMiningQuarryReserveExtractionAuditSkill",
+    displayName: "Multi Factor Mining Quarry Reserve Extraction Audit",
+    categoryId: "analysis",
+    description: "Evaluates ore grade distribution, overburden ratio, processing recovery rate, and reclamation costs.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Factor Mining Quarry Reserve Extraction Audit",
+      ruSectionName: "Композитный Multi-Skill: Multi Factor Mining Quarry Reserve Extraction Audit",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Factor Mining Quarry Reserve Extraction Audit.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Factor Mining Quarry Reserve Extraction Audit.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-method-pharmaceutical-drug-adherence-diagnostic": {
+    id: "analysis-multi-multi-method-pharmaceutical-drug-adherence-diagnostic",
+    name: "MultiMethodPharmaceuticalDrugAdherenceDiagnosticSkill",
+    displayName: "Multi Method Pharmaceutical Drug Adherence Diagnostic",
+    categoryId: "analysis",
+    description: "Analyzes prescription refill frequency, patient side-effect surveys, and pill-count metrics.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Method Pharmaceutical Drug Adherence Diagnostic",
+      ruSectionName: "Композитный Multi-Skill: Multi Method Pharmaceutical Drug Adherence Diagnostic",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Method Pharmaceutical Drug Adherence Diagnostic.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Method Pharmaceutical Drug Adherence Diagnostic.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-layer-commercial-airline-fleet-maintenance-diagnostics": {
+    id: "analysis-multi-multi-layer-commercial-airline-fleet-maintenance-diagnostics",
+    name: "MultiLayerCommercialAirlineFleetMaintenanceDiagnosticsSkill",
+    displayName: "Multi Layer Commercial Airline Fleet Maintenance Diagnostics",
+    categoryId: "analysis",
+    description: "Inspects engine flight hours, mandatory AD compliance, unscheduled maintenance spikes, and parts stock.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Commercial Airline Fleet Maintenance Diagnostics",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Commercial Airline Fleet Maintenance Diagnostics",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Layer Commercial Airline Fleet Maintenance Diagnostics.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Layer Commercial Airline Fleet Maintenance Diagnostics.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-dimension-municipal-water-quality-contaminant-screener": {
+    id: "analysis-multi-multi-dimension-municipal-water-quality-contaminant-screener",
+    name: "MultiDimensionMunicipalWaterQualityContaminantScreenerSkill",
+    displayName: "Multi Dimension Municipal Water Quality Contaminant Screener",
+    categoryId: "analysis",
+    description: "Audits heavy metals, PFAS, bacterial levels, turbidity, and pipe corrosion indices.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Dimension Municipal Water Quality Contaminant Screener",
+      ruSectionName: "Композитный Multi-Skill: Multi Dimension Municipal Water Quality Contaminant Screener",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Dimension Municipal Water Quality Contaminant Screener.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Dimension Municipal Water Quality Contaminant Screener.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-point-saas-lead-scoring-qualification-matrix": {
+    id: "analysis-multi-multi-point-saas-lead-scoring-qualification-matrix",
+    name: "MultiPointSaaSLeadScoringQualificationMatrixSkill",
+    displayName: "Multi Point SaaS Lead Scoring Qualification Matrix",
+    categoryId: "analysis",
+    description: "Scores lead intent signals, firmographic fit, website behavior, and product product-qualified signals.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Point SaaS Lead Scoring Qualification Matrix",
+      ruSectionName: "Композитный Multi-Skill: Multi Point SaaS Lead Scoring Qualification Matrix",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Point SaaS Lead Scoring Qualification Matrix.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Point SaaS Lead Scoring Qualification Matrix.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
+
+  "analysis-multi-multi-perspective-master-analytical-diagnostics-engine": {
+    id: "analysis-multi-multi-perspective-master-analytical-diagnostics-engine",
+    name: "MultiPerspectiveMasterAnalyticalDiagnosticsEngineSkill",
+    displayName: "Multi Perspective Master Analytical Diagnostics Engine",
+    categoryId: "analysis",
+    description: "Enforces master multi-dimensional qualitative, quantitative, and systemic analytical synthesis.",
+    tags: ["analysis","multi-skill","analysis-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Master Analytical Diagnostics Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Master Analytical Diagnostics Engine",
+      instructions: [
+        "Execute multi-perspective phase 1: Role setup & constraint specification for Multi Perspective Master Analytical Diagnostics Engine.",
+        "Execute multi-perspective phase 2: Iterative debate, analysis, or multi-agent execution pipeline.",
+        "Execute multi-perspective phase 3: Synthesize consensus, friction points, and structured final summary."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация ролей, параметров и ограничений для Multi Perspective Master Analytical Diagnostics Engine.",
+        "Этап 2: Итеративный анализ, дебаты или мульти-агентное исполнение конвейера.",
+        "Этап 3: Синтез консенсуса, разногласий и итогового структурированного вывода."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","multi-skill","analysis-multi"],
+    }),
+  },
 };

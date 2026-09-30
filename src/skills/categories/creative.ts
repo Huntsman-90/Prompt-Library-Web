@@ -4283,4 +4283,1452 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
       tags: ["creative","creative-final","final","master"],
     }),
   },
+  "creative-multi-multi-layer-worldbuilding-cosmology-magic-system": {
+    id: "creative-multi-multi-layer-worldbuilding-cosmology-magic-system",
+    name: "MultiLayerWorldbuildingCosmologyMagicSystemSkill",
+    displayName: "Multi Layer Worldbuilding Cosmology Magic System",
+    categoryId: "creative",
+    description: "Constructs rich fictional universes with coherent physical laws, magic limitations, and lore.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Worldbuilding Cosmology Magic System",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Worldbuilding Cosmology Magic System",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Worldbuilding Cosmology Magic System.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Worldbuilding Cosmology Magic System.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-voice-polyphonic-novel-narrative-design": {
+    id: "creative-multi-multi-voice-polyphonic-novel-narrative-design",
+    name: "MultiVoicePolyphonicNovelNarrativeDesignSkill",
+    displayName: "Multi Voice Polyphonic Novel Narrative Design",
+    categoryId: "creative",
+    description: "Weaves multiple distinct character perspective chapters into a cohesive overarching plot arc.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Voice Polyphonic Novel Narrative Design",
+      ruSectionName: "Композитный Multi-Skill: Multi Voice Polyphonic Novel Narrative Design",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Voice Polyphonic Novel Narrative Design.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Voice Polyphonic Novel Narrative Design.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-sensory-immersive-environment-scene-evocation": {
+    id: "creative-multi-multi-sensory-immersive-environment-scene-evocation",
+    name: "MultiSensoryImmersiveEnvironmentSceneEvocationSkill",
+    displayName: "Multi Sensory Immersive Environment Scene Evocation",
+    categoryId: "creative",
+    description: "Evokes vivid auditory, olfactory, visual, tactile, and gustatory descriptions in literary fiction.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Sensory Immersive Environment Scene Evocation",
+      ruSectionName: "Композитный Multi-Skill: Multi Sensory Immersive Environment Scene Evocation",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Sensory Immersive Environment Scene Evocation.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Sensory Immersive Environment Scene Evocation.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-genre-fusion-fiction-story-concepting": {
+    id: "creative-multi-multi-genre-fusion-fiction-story-concepting",
+    name: "MultiGenreFusionFictionStoryConceptingSkill",
+    displayName: "Multi Genre Fusion Fiction Story Concepting",
+    categoryId: "creative",
+    description: "Blends disparate genres (e.g. Cyberpunk Western, Historical Fantasy, Sci-Fi Horror) into original narratives.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Genre Fusion Fiction Story Concepting",
+      ruSectionName: "Композитный Multi-Skill: Multi Genre Fusion Fiction Story Concepting",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Genre Fusion Fiction Story Concepting.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Genre Fusion Fiction Story Concepting.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-stage-character-arc-psychological-transformation": {
+    id: "creative-multi-multi-stage-character-arc-psychological-transformation",
+    name: "MultiStageCharacterArcPsychologicalTransformationSkill",
+    displayName: "Multi Stage Character Arc Psychological Transformation",
+    categoryId: "creative",
+    description: "Tracks protagonist internal flaws, catalytic inciting incidents, midpoints, and thematic redemption.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Character Arc Psychological Transformation",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Character Arc Psychological Transformation",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Character Arc Psychological Transformation.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Character Arc Psychological Transformation.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-format-transmedia-storytelling-universe-blueprint": {
+    id: "creative-multi-multi-format-transmedia-storytelling-universe-blueprint",
+    name: "MultiFormatTransmediaStorytellingUniverseBlueprintSkill",
+    displayName: "Multi Format Transmedia Storytelling Universe Blueprint",
+    categoryId: "creative",
+    description: "Expands story IP across novels, graphic novels, podcasts, video games, and film adaptations.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Format Transmedia Storytelling Universe Blueprint",
+      ruSectionName: "Композитный Multi-Skill: Multi Format Transmedia Storytelling Universe Blueprint",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Format Transmedia Storytelling Universe Blueprint.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Format Transmedia Storytelling Universe Blueprint.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-perspective-non-linear-storytelling-architecture": {
+    id: "creative-multi-multi-perspective-non-linear-storytelling-architecture",
+    name: "MultiPerspectiveNonLinearStorytellingArchitectureSkill",
+    displayName: "Multi Perspective Non Linear Storytelling Architecture",
+    categoryId: "creative",
+    description: "Structures stories using non-linear chronologies, memory flashbacks, and parallel timeline loops.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Non Linear Storytelling Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Non Linear Storytelling Architecture",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Perspective Non Linear Storytelling Architecture.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Perspective Non Linear Storytelling Architecture.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-dynamic-interactive-choice-fiction-branching": {
+    id: "creative-multi-multi-dynamic-interactive-choice-fiction-branching",
+    name: "MultiDynamicInteractiveChoiceFictionBranchingSkill",
+    displayName: "Multi Dynamic Interactive Choice Fiction Branching",
+    categoryId: "creative",
+    description: "Drafts choose-your-own-adventure story paths with meaningful consequences and multiple endings.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Dynamic Interactive Choice Fiction Branching",
+      ruSectionName: "Композитный Multi-Skill: Multi Dynamic Interactive Choice Fiction Branching",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Dynamic Interactive Choice Fiction Branching.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Dynamic Interactive Choice Fiction Branching.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-layer-allegorical-symbolism-metaphor-design": {
+    id: "creative-multi-multi-layer-allegorical-symbolism-metaphor-design",
+    name: "MultiLayerAllegoricalSymbolismMetaphorDesignSkill",
+    displayName: "Multi Layer Allegorical Symbolism Metaphor Design",
+    categoryId: "creative",
+    description: "Embeds subtle philosophical allegories, recurring motifs, and thematic symbolism throughout fiction.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Allegorical Symbolism Metaphor Design",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Allegorical Symbolism Metaphor Design",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Allegorical Symbolism Metaphor Design.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Allegorical Symbolism Metaphor Design.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-style-poetic-form-metrical-composition": {
+    id: "creative-multi-multi-style-poetic-form-metrical-composition",
+    name: "MultiStylePoeticFormMetricalCompositionSkill",
+    displayName: "Multi Style Poetic Form Metrical Composition",
+    categoryId: "creative",
+    description: "Drafts poetry in Sonnet, Haiku, Villanelle, Free Verse, or Spoken Word styles with metrical precision.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Style Poetic Form Metrical Composition",
+      ruSectionName: "Композитный Multi-Skill: Multi Style Poetic Form Metrical Composition",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Style Poetic Form Metrical Composition.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Style Poetic Form Metrical Composition.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-character-dialogue-subtext-tension-crafting": {
+    id: "creative-multi-multi-character-dialogue-subtext-tension-crafting",
+    name: "MultiCharacterDialogueSubtextTensionCraftingSkill",
+    displayName: "Multi Character Dialogue Subtext Tension Crafting",
+    categoryId: "creative",
+    description: "Writes dramatic dialogue where characters' true motives, conflicts, and emotions lie beneath spoken words.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Character Dialogue Subtext Tension Crafting",
+      ruSectionName: "Композитный Multi-Skill: Multi Character Dialogue Subtext Tension Crafting",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Character Dialogue Subtext Tension Crafting.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Character Dialogue Subtext Tension Crafting.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-stage-screenplay-scene-pacing-beat-sheet": {
+    id: "creative-multi-multi-stage-screenplay-scene-pacing-beat-sheet",
+    name: "MultiStageScreenplayScenePacingBeatSheetSkill",
+    displayName: "Multi Stage Screenplay Scene Pacing Beat Sheet",
+    categoryId: "creative",
+    description: "Structures movie scenes using Blake Snyder Save the Cat beats, sequence pacing, and dramatic tension.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Screenplay Scene Pacing Beat Sheet",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Screenplay Scene Pacing Beat Sheet",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Screenplay Scene Pacing Beat Sheet.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Screenplay Scene Pacing Beat Sheet.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-horizon-science-fiction-speculative-world-building": {
+    id: "creative-multi-multi-horizon-science-fiction-speculative-world-building",
+    name: "MultiHorizonScienceFictionSpeculativeWorldBuildingSkill",
+    displayName: "Multi Horizon Science Fiction Speculative World Building",
+    categoryId: "creative",
+    description: "Extrapolates future technologies, societal shifts, bio-engineering, and space colonization concepts.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Science Fiction Speculative World Building",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Science Fiction Speculative World Building",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Horizon Science Fiction Speculative World Building.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Horizon Science Fiction Speculative World Building.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-faction-geopolitical-fantasy-kingdom-conflicts": {
+    id: "creative-multi-multi-faction-geopolitical-fantasy-kingdom-conflicts",
+    name: "MultiFactionGeopoliticalFantasyKingdomConflictsSkill",
+    displayName: "Multi Faction Geopolitical Fantasy Kingdom Conflicts",
+    categoryId: "creative",
+    description: "Designs competing noble houses, guilds, religious orders, and secret societies vying for power.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Faction Geopolitical Fantasy Kingdom Conflicts",
+      ruSectionName: "Композитный Multi-Skill: Multi Faction Geopolitical Fantasy Kingdom Conflicts",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Faction Geopolitical Fantasy Kingdom Conflicts.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Faction Geopolitical Fantasy Kingdom Conflicts.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-layer-mystery-crime-clue-red-herring-weaving": {
+    id: "creative-multi-multi-layer-mystery-crime-clue-red-herring-weaving",
+    name: "MultiLayerMysteryCrimeClueRedHerringWeavingSkill",
+    displayName: "Multi Layer Mystery Crime Clue Red Herring Weaving",
+    categoryId: "creative",
+    description: "Engineers whodunit mystery plots with fair-play clues, subtle red herrings, and shocking reveals.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Mystery Crime Clue Red Herring Weaving",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Mystery Crime Clue Red Herring Weaving",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Mystery Crime Clue Red Herring Weaving.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Mystery Crime Clue Red Herring Weaving.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-perspective-villain-motivation-antagonist-design": {
+    id: "creative-multi-multi-perspective-villain-motivation-antagonist-design",
+    name: "MultiPerspectiveVillainMotivationAntagonistDesignSkill",
+    displayName: "Multi Perspective Villain Motivation Antagonist Design",
+    categoryId: "creative",
+    description: "Crafts complex antagonists with sympathetic backstories, moral justifications, and tragic flaws.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Villain Motivation Antagonist Design",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Villain Motivation Antagonist Design",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Perspective Villain Motivation Antagonist Design.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Perspective Villain Motivation Antagonist Design.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-style-lyric-songwriting-melody-meter": {
+    id: "creative-multi-multi-style-lyric-songwriting-melody-meter",
+    name: "MultiStyleLyricSongwritingMelodyMeterSkill",
+    displayName: "Multi Style Lyric Songwriting Melody Meter",
+    categoryId: "creative",
+    description: "Drafts song lyrics with verse-chorus-bridge structures, rhyme schemes, and musical rhythm.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Style Lyric Songwriting Melody Meter",
+      ruSectionName: "Композитный Multi-Skill: Multi Style Lyric Songwriting Melody Meter",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Style Lyric Songwriting Melody Meter.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Style Lyric Songwriting Melody Meter.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-layer-historical-fiction-authenticity-weaving": {
+    id: "creative-multi-multi-layer-historical-fiction-authenticity-weaving",
+    name: "MultiLayerHistoricalFictionAuthenticityWeavingSkill",
+    displayName: "Multi Layer Historical Fiction Authenticity Weaving",
+    categoryId: "creative",
+    description: "Weaves historical facts, period dialogue, cultural norms, and real figures into fictional narratives.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Historical Fiction Authenticity Weaving",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Historical Fiction Authenticity Weaving",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Historical Fiction Authenticity Weaving.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Historical Fiction Authenticity Weaving.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-character-ensemble-comedy-dynamics-design": {
+    id: "creative-multi-multi-character-ensemble-comedy-dynamics-design",
+    name: "MultiCharacterEnsembleComedyDynamicsDesignSkill",
+    displayName: "Multi Character Ensemble Comedy Dynamics Design",
+    categoryId: "creative",
+    description: "Structures ensemble comedy character archetypes, banter dynamics, and escalating situational chaos.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Character Ensemble Comedy Dynamics Design",
+      ruSectionName: "Композитный Multi-Skill: Multi Character Ensemble Comedy Dynamics Design",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Character Ensemble Comedy Dynamics Design.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Character Ensemble Comedy Dynamics Design.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-stage-horror-tension-dread-atmosphere-building": {
+    id: "creative-multi-multi-stage-horror-tension-dread-atmosphere-building",
+    name: "MultiStageHorrorTensionDreadAtmosphereBuildingSkill",
+    displayName: "Multi Stage Horror Tension Dread Atmosphere Building",
+    categoryId: "creative",
+    description: "Builds psychological horror through eerie pacing, sensory isolation, uncanny atmosphere, and climactic terror.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Horror Tension Dread Atmosphere Building",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Horror Tension Dread Atmosphere Building",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Horror Tension Dread Atmosphere Building.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Horror Tension Dread Atmosphere Building.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-level-mythological-folklore-legend-crafting": {
+    id: "creative-multi-multi-level-mythological-folklore-legend-crafting",
+    name: "MultiLevelMythologicalFolkloreLegendCraftingSkill",
+    displayName: "Multi Level Mythological Folklore Legend Crafting",
+    categoryId: "creative",
+    description: "Creates original mythologies, pantheons of deities, creation myths, and ancient hero legends.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Level Mythological Folklore Legend Crafting",
+      ruSectionName: "Композитный Multi-Skill: Multi Level Mythological Folklore Legend Crafting",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Level Mythological Folklore Legend Crafting.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Level Mythological Folklore Legend Crafting.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-medium-visual-storyboard-scene-description": {
+    id: "creative-multi-multi-medium-visual-storyboard-scene-description",
+    name: "MultiMediumVisualStoryboardSceneDescriptionSkill",
+    displayName: "Multi Medium Visual Storyboard Scene Description",
+    categoryId: "creative",
+    description: "Writes camera direction, shot framing (close-up, wide panning), lighting mood, and action descriptions.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Medium Visual Storyboard Scene Description",
+      ruSectionName: "Композитный Multi-Skill: Multi Medium Visual Storyboard Scene Description",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Medium Visual Storyboard Scene Description.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Medium Visual Storyboard Scene Description.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-character-romance-chemistry-slow-burn-arc": {
+    id: "creative-multi-multi-character-romance-chemistry-slow-burn-arc",
+    name: "MultiCharacterRomanceChemistrySlowBurnArcSkill",
+    displayName: "Multi Character Romance Chemistry Slow Burn Arc",
+    categoryId: "creative",
+    description: "Paces romantic tension, emotional intimacy, miscommunications, and satisfying resolution.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Character Romance Chemistry Slow Burn Arc",
+      ruSectionName: "Композитный Multi-Skill: Multi Character Romance Chemistry Slow Burn Arc",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Character Romance Chemistry Slow Burn Arc.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Character Romance Chemistry Slow Burn Arc.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-layer-satire-parody-cultural-critique": {
+    id: "creative-multi-multi-layer-satire-parody-cultural-critique",
+    name: "MultiLayerSatireParodyCulturalCritiqueSkill",
+    displayName: "Multi Layer Satire Parody Cultural Critique",
+    categoryId: "creative",
+    description: "Crafts sharp satirical fiction parodying corporate absurdities, social trends, or political systems.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Satire Parody Cultural Critique",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Satire Parody Cultural Critique",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Satire Parody Cultural Critique.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Satire Parody Cultural Critique.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-horizon-post-apocalyptic-survival-environment": {
+    id: "creative-multi-multi-horizon-post-apocalyptic-survival-environment",
+    name: "MultiHorizonPostApocalypticSurvivalEnvironmentSkill",
+    displayName: "Multi Horizon Post Apocalyptic Survival Environment",
+    categoryId: "creative",
+    description: "Designs post-collapse societies, resource scarcity dynamics, mutated ecosystems, and survivor enclaves.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Post Apocalyptic Survival Environment",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Post Apocalyptic Survival Environment",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Horizon Post Apocalyptic Survival Environment.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Horizon Post Apocalyptic Survival Environment.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-character-speech-voice-dialect-idiolect-styling": {
+    id: "creative-multi-multi-character-speech-voice-dialect-idiolect-styling",
+    name: "MultiCharacterSpeechVoiceDialectIdiolectStylingSkill",
+    displayName: "Multi Character Speech Voice Dialect Idiolect Styling",
+    categoryId: "creative",
+    description: "Gives each character unique speech patterns, regional slang, vocabulary quirks, and catchphrases.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Character Speech Voice Dialect Idiolect Styling",
+      ruSectionName: "Композитный Multi-Skill: Multi Character Speech Voice Dialect Idiolect Styling",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Character Speech Voice Dialect Idiolect Styling.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Character Speech Voice Dialect Idiolect Styling.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-stage-graphic-novel-script-panel-layout": {
+    id: "creative-multi-multi-stage-graphic-novel-script-panel-layout",
+    name: "MultiStageGraphicNovelScriptPanelLayoutSkill",
+    displayName: "Multi Stage Graphic Novel Script Panel Layout",
+    categoryId: "creative",
+    description: "Formats comic book scripts specifying page grids, panel descriptions, captions, and speech bubbles.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Graphic Novel Script Panel Layout",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Graphic Novel Script Panel Layout",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Graphic Novel Script Panel Layout.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Graphic Novel Script Panel Layout.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-layer-magical-realism-everyday-surrealism": {
+    id: "creative-multi-multi-layer-magical-realism-everyday-surrealism",
+    name: "MultiLayerMagicalRealismEverydaySurrealismSkill",
+    displayName: "Multi Layer Magical Realism Everyday Surrealism",
+    categoryId: "creative",
+    description: "Blends mundane real-world settings with extraordinary, dreamlike magical elements accepted as normal.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Magical Realism Everyday Surrealism",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Magical Realism Everyday Surrealism",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Magical Realism Everyday Surrealism.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Magical Realism Everyday Surrealism.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-character-heist-plot-blueprint-execution": {
+    id: "creative-multi-multi-character-heist-plot-blueprint-execution",
+    name: "MultiCharacterHeistPlotBlueprintExecutionSkill",
+    displayName: "Multi Character Heist Plot Blueprint Execution",
+    categoryId: "creative",
+    description: "Engineers intricate heist plans with specialist team assembly, security obstacles, and unexpected twists.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Character Heist Plot Blueprint Execution",
+      ruSectionName: "Композитный Multi-Skill: Multi Character Heist Plot Blueprint Execution",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Character Heist Plot Blueprint Execution.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Character Heist Plot Blueprint Execution.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-horizon-cyberpunk-high-tech-low-life-dystopia": {
+    id: "creative-multi-multi-horizon-cyberpunk-high-tech-low-life-dystopia",
+    name: "MultiHorizonCyberpunkHighTechLowLifeDystopiaSkill",
+    displayName: "Multi Horizon Cyberpunk High Tech Low Life Dystopia",
+    categoryId: "creative",
+    description: "Designs neon-lit megacities, mega-corporations, cybernetic enhancements, and underworld hackers.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Cyberpunk High Tech Low Life Dystopia",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Cyberpunk High Tech Low Life Dystopia",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Horizon Cyberpunk High Tech Low Life Dystopia.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Horizon Cyberpunk High Tech Low Life Dystopia.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-perspective-epistolary-novel-document-assembly": {
+    id: "creative-multi-multi-perspective-epistolary-novel-document-assembly",
+    name: "MultiPerspectiveEpistolaryNovelDocumentAssemblySkill",
+    displayName: "Multi Perspective Epistolary Novel Document Assembly",
+    categoryId: "creative",
+    description: "Tells stories through diary entries, emails, police reports, interview transcripts, and letters.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Epistolary Novel Document Assembly",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Epistolary Novel Document Assembly",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Perspective Epistolary Novel Document Assembly.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Perspective Epistolary Novel Document Assembly.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-stage-action-choreography-stunt-pacing": {
+    id: "creative-multi-multi-stage-action-choreography-stunt-pacing",
+    name: "MultiStageActionChoreographyStuntPacingSkill",
+    displayName: "Multi Stage Action Choreography Stunt Pacing",
+    categoryId: "creative",
+    description: "Writes visceral, spatial action combat scenes with clear cause-and-effect choreography.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Action Choreography Stunt Pacing",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Action Choreography Stunt Pacing",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Action Choreography Stunt Pacing.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Action Choreography Stunt Pacing.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-layer-gothic-atmosphere-haunted-environment": {
+    id: "creative-multi-multi-layer-gothic-atmosphere-haunted-environment",
+    name: "MultiLayerGothicAtmosphereHauntedEnvironmentSkill",
+    displayName: "Multi Layer Gothic Atmosphere Haunted Environment",
+    categoryId: "creative",
+    description: "Crafts creepy gothic horror featuring crumbling mansions, family curses, stormy weather, and madness.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Gothic Atmosphere Haunted Environment",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Gothic Atmosphere Haunted Environment",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Gothic Atmosphere Haunted Environment.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Gothic Atmosphere Haunted Environment.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-character-time-travel-causality-loop-paradox": {
+    id: "creative-multi-multi-character-time-travel-causality-loop-paradox",
+    name: "MultiCharacterTimeTravelCausalityLoopParadoxSkill",
+    displayName: "Multi Character Time Travel Causality Loop Paradox",
+    categoryId: "creative",
+    description: "Engineers time travel narratives navigating grandfather paradoxes, butterfly effects, and fixed points.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Character Time Travel Causality Loop Paradox",
+      ruSectionName: "Композитный Multi-Skill: Multi Character Time Travel Causality Loop Paradox",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Character Time Travel Causality Loop Paradox.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Character Time Travel Causality Loop Paradox.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-stage-audio-drama-script-sound-effect-design": {
+    id: "creative-multi-multi-stage-audio-drama-script-sound-effect-design",
+    name: "MultiStageAudioDramaScriptSoundEffectDesignSkill",
+    displayName: "Multi Stage Audio Drama Script Sound Effect Design",
+    categoryId: "creative",
+    description: "Formats radio/podcast drama scripts with rich sound effects (SFX), ambient noise, and voice cues.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Audio Drama Script Sound Effect Design",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Audio Drama Script Sound Effect Design",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Audio Drama Script Sound Effect Design.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Audio Drama Script Sound Effect Design.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-layer-urban-fantasy-hidden-world-concealment": {
+    id: "creative-multi-multi-layer-urban-fantasy-hidden-world-concealment",
+    name: "MultiLayerUrbanFantasyHiddenWorldConcealmentSkill",
+    displayName: "Multi Layer Urban Fantasy Hidden World Concealment",
+    categoryId: "creative",
+    description: "Designs secret magical societies hiding in plain sight beneath modern metropolitan cities.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Urban Fantasy Hidden World Concealment",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Urban Fantasy Hidden World Concealment",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Urban Fantasy Hidden World Concealment.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Urban Fantasy Hidden World Concealment.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-perspective-multiverse-parallel-reality-architecture": {
+    id: "creative-multi-multi-perspective-multiverse-parallel-reality-architecture",
+    name: "MultiPerspectiveMultiverseParallelRealityArchitectureSkill",
+    displayName: "Multi Perspective Multiverse Parallel Reality Architecture",
+    categoryId: "creative",
+    description: "Structures stories exploring alternate history branches and parallel universe counterpart characters.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Multiverse Parallel Reality Architecture",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Multiverse Parallel Reality Architecture",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Perspective Multiverse Parallel Reality Architecture.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Perspective Multiverse Parallel Reality Architecture.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-character-micro-fiction-flash-story-crafting": {
+    id: "creative-multi-multi-character-micro-fiction-flash-story-crafting",
+    name: "MultiCharacterMicroFictionFlashStoryCraftingSkill",
+    displayName: "Multi Character Micro Fiction Flash Story Crafting",
+    categoryId: "creative",
+    description: "Writes impactful complete stories under 500 words with vivid punchlines and emotional resonance.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Character Micro Fiction Flash Story Crafting",
+      ruSectionName: "Композитный Multi-Skill: Multi Character Micro Fiction Flash Story Crafting",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Character Micro Fiction Flash Story Crafting.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Character Micro Fiction Flash Story Crafting.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-layer-space-opera-galactic-empire-civilizations": {
+    id: "creative-multi-multi-layer-space-opera-galactic-empire-civilizations",
+    name: "MultiLayerSpaceOperaGalacticEmpireCivilizationsSkill",
+    displayName: "Multi Layer Space Opera Galactic Empire Civilizations",
+    categoryId: "creative",
+    description: "Designs sprawling space empires, alien species physiology, faster-than-light transit, and starship battles.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Space Opera Galactic Empire Civilizations",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Space Opera Galactic Empire Civilizations",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Space Opera Galactic Empire Civilizations.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Space Opera Galactic Empire Civilizations.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-stage-childrens-picture-book-rhythm-rhyme": {
+    id: "creative-multi-multi-stage-childrens-picture-book-rhythm-rhyme",
+    name: "MultiStageChildrensPictureBookRhythmRhymeSkill",
+    displayName: "Multi Stage Childrens Picture Book Rhythm Rhyme",
+    categoryId: "creative",
+    description: "Drafts engaging picture book text with rhythmic repetition, visual page-turn hooks, and gentle morals.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Childrens Picture Book Rhythm Rhyme",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Childrens Picture Book Rhythm Rhyme",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Childrens Picture Book Rhythm Rhyme.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Childrens Picture Book Rhythm Rhyme.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-character-young-adult-coming-of-age-storyline": {
+    id: "creative-multi-multi-character-young-adult-coming-of-age-storyline",
+    name: "MultiCharacterYoungAdultComingofAgeStorylineSkill",
+    displayName: "Multi Character Young Adult Coming of Age Storyline",
+    categoryId: "creative",
+    description: "Explores teenage identity, friendship conflicts, first love, and standing up against authority.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Character Young Adult Coming of Age Storyline",
+      ruSectionName: "Композитный Multi-Skill: Multi Character Young Adult Coming of Age Storyline",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Character Young Adult Coming of Age Storyline.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Character Young Adult Coming of Age Storyline.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-layer-noir-detective-hardboiled-investigation": {
+    id: "creative-multi-multi-layer-noir-detective-hardboiled-investigation",
+    name: "MultiLayerNoirDetectiveHardboiledInvestigationSkill",
+    displayName: "Multi Layer Noir Detective Hardboiled Investigation",
+    categoryId: "creative",
+    description: "Crafts gritty detective noir with cynicism, femme fatales, rain-soaked streets, and systemic corruption.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Noir Detective Hardboiled Investigation",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Noir Detective Hardboiled Investigation",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Noir Detective Hardboiled Investigation.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Noir Detective Hardboiled Investigation.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-stage-steampunk-victorian-industrial-technology": {
+    id: "creative-multi-multi-stage-steampunk-victorian-industrial-technology",
+    name: "MultiStageSteampunkVictorianIndustrialTechnologySkill",
+    displayName: "Multi Stage Steampunk Victorian Industrial Technology",
+    categoryId: "creative",
+    description: "Designs brass clockwork mechanisms, steam-powered airships, Victorian etiquette, and mad scientists.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Steampunk Victorian Industrial Technology",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Steampunk Victorian Industrial Technology",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Steampunk Victorian Industrial Technology.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Steampunk Victorian Industrial Technology.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-character-solarpunk-ecological-hopeful-future": {
+    id: "creative-multi-multi-character-solarpunk-ecological-hopeful-future",
+    name: "MultiCharacterSolarpunkEcologicalHopefulFutureSkill",
+    displayName: "Multi Character Solarpunk Ecological Hopeful Future",
+    categoryId: "creative",
+    description: "Designs optimistic eco-cities, solar architecture, community resilience, and sustainable tech.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Character Solarpunk Ecological Hopeful Future",
+      ruSectionName: "Композитный Multi-Skill: Multi Character Solarpunk Ecological Hopeful Future",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Character Solarpunk Ecological Hopeful Future.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Character Solarpunk Ecological Hopeful Future.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-layer-litrpg-game-mechanics-progression-story": {
+    id: "creative-multi-multi-layer-litrpg-game-mechanics-progression-story",
+    name: "MultiLayerLitRPGGameMechanicsProgressionStorySkill",
+    displayName: "Multi Layer LitRPG Game Mechanics Progression Story",
+    categoryId: "creative",
+    description: "Integrates stats, level-ups, skill trees, and quest logs seamlessly into fiction narratives.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer LitRPG Game Mechanics Progression Story",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer LitRPG Game Mechanics Progression Story",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer LitRPG Game Mechanics Progression Story.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer LitRPG Game Mechanics Progression Story.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-stage-kaiju-giant-monster-disaster-narrative": {
+    id: "creative-multi-multi-stage-kaiju-giant-monster-disaster-narrative",
+    name: "MultiStageKaijuGiantMonsterDisasterNarrativeSkill",
+    displayName: "Multi Stage Kaiju Giant Monster Disaster Narrative",
+    categoryId: "creative",
+    description: "Paces giant monster attacks, military defense strategies, city destruction, and human survival.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Kaiju Giant Monster Disaster Narrative",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Kaiju Giant Monster Disaster Narrative",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Kaiju Giant Monster Disaster Narrative.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Kaiju Giant Monster Disaster Narrative.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-character-superhero-origin-team-assembly": {
+    id: "creative-multi-multi-character-superhero-origin-team-assembly",
+    name: "MultiCharacterSuperheroOriginTeamAssemblySkill",
+    displayName: "Multi Character Superhero Origin Team Assembly",
+    categoryId: "creative",
+    description: "Crafts superhero origin stories, unique power sets, weakness limitations, and team chemistry.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Character Superhero Origin Team Assembly",
+      ruSectionName: "Композитный Multi-Skill: Multi Character Superhero Origin Team Assembly",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Character Superhero Origin Team Assembly.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Character Superhero Origin Team Assembly.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-layer-grimdark-dark-fantasy-moral-grey-ambiguity": {
+    id: "creative-multi-multi-layer-grimdark-dark-fantasy-moral-grey-ambiguity",
+    name: "MultiLayerGrimdarkDarkFantasyMoralGreyAmbiguitySkill",
+    displayName: "Multi Layer Grimdark Dark Fantasy Moral Grey Ambiguity",
+    categoryId: "creative",
+    description: "Creates bleak fantasy worlds with morally grey anti-heroes, brutal realism, and pyrrhic victories.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Grimdark Dark Fantasy Moral Grey Ambiguity",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Grimdark Dark Fantasy Moral Grey Ambiguity",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Layer Grimdark Dark Fantasy Moral Grey Ambiguity.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Layer Grimdark Dark Fantasy Moral Grey Ambiguity.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-stage-tabletop-rpg-campaign-module-architect": {
+    id: "creative-multi-multi-stage-tabletop-rpg-campaign-module-architect",
+    name: "MultiStageTabletopRPGCampaignModuleArchitectSkill",
+    displayName: "Multi Stage Tabletop RPG Campaign Module Architect",
+    categoryId: "creative",
+    description: "Designs D&D/TTRPG campaign modules with quest hooks, dungeon maps, NPC stats, and encounter balance.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Tabletop RPG Campaign Module Architect",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Tabletop RPG Campaign Module Architect",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Stage Tabletop RPG Campaign Module Architect.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Stage Tabletop RPG Campaign Module Architect.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+
+  "creative-multi-multi-horizon-master-creative-direction-storytelling-engine": {
+    id: "creative-multi-multi-horizon-master-creative-direction-storytelling-engine",
+    name: "MultiHorizonMasterCreativeDirectionStorytellingEngineSkill",
+    displayName: "Multi Horizon Master Creative Direction Storytelling Engine",
+    categoryId: "creative",
+    description: "Enforces master artistic vision, narrative pacing, emotional resonance, and world-class prose.",
+    tags: ["creative","multi-skill","creative-multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Creative Direction Storytelling Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Creative Direction Storytelling Engine",
+      instructions: [
+        "Phase 1: Setup parameters and initial input routing for Multi Horizon Master Creative Direction Storytelling Engine.",
+        "Phase 2: Multi-stage transformation, orchestration, and evaluation loop.",
+        "Phase 3: Synthesize output into structured format with comprehensive validations."
+],
+      ruInstructions: [
+        "Этап 1: Инициализация параметров и маршрутизация входящих данных для Multi Horizon Master Creative Direction Storytelling Engine.",
+        "Этап 2: Многоэтапная трансформация, оркестрация и цикл оценки.",
+        "Этап 3: Итоговый синтез в структурированный формат с полной валидацией."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi"],
+    }),
+  },
+  "creative-multi-topup-multi-layer-cyberpunk-neon-underworld-detective-narrative": {
+    id: "creative-multi-topup-multi-layer-cyberpunk-neon-underworld-detective-narrative",
+    name: "MultiLayerCyberpunkNeonUnderworldDetectiveNarrativeSkill",
+    displayName: "Multi Layer Cyberpunk Neon Underworld Detective Narrative",
+    categoryId: "creative",
+    description: "Crafts gritty cyberpunk noir detective stories with implants, megacorps, and rain-soaked alleyways.",
+    tags: ["creative","multi-skill","creative-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Cyberpunk Neon Underworld Detective Narrative",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Cyberpunk Neon Underworld Detective Narrative",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Cyberpunk Neon Underworld Detective Narrative.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Cyberpunk Neon Underworld Detective Narrative.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi-topup"],
+    }),
+  },
+
+  "creative-multi-topup-multi-stage-fantasy-epic-siege-battle-strategy": {
+    id: "creative-multi-topup-multi-stage-fantasy-epic-siege-battle-strategy",
+    name: "MultiStageFantasyEpicSiegeBattleStrategySkill",
+    displayName: "Multi Stage Fantasy Epic Siege Battle Strategy",
+    categoryId: "creative",
+    description: "Paces massive castle siege battles with trebuchets, magic defense barriers, and heroic duels.",
+    tags: ["creative","multi-skill","creative-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Fantasy Epic Siege Battle Strategy",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Fantasy Epic Siege Battle Strategy",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Fantasy Epic Siege Battle Strategy.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Fantasy Epic Siege Battle Strategy.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi-topup"],
+    }),
+  },
+
+  "creative-multi-topup-multi-perspective-time-travel-multiverse-timeline-repair": {
+    id: "creative-multi-topup-multi-perspective-time-travel-multiverse-timeline-repair",
+    name: "MultiPerspectiveTimeTravelMultiverseTimelineRepairSkill",
+    displayName: "Multi Perspective Time Travel Multiverse Timeline Repair",
+    categoryId: "creative",
+    description: "Navigates complex multiverse timeline paradoxes and temporal paradox agents.",
+    tags: ["creative","multi-skill","creative-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Perspective Time Travel Multiverse Timeline Repair",
+      ruSectionName: "Композитный Multi-Skill: Multi Perspective Time Travel Multiverse Timeline Repair",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Perspective Time Travel Multiverse Timeline Repair.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Perspective Time Travel Multiverse Timeline Repair.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi-topup"],
+    }),
+  },
+
+  "creative-multi-topup-multi-character-cozy-mystery-village-bakery-whodunit": {
+    id: "creative-multi-topup-multi-character-cozy-mystery-village-bakery-whodunit",
+    name: "MultiCharacterCozyMysteryVillageBakeryWhodunitSkill",
+    displayName: "Multi Character Cozy Mystery Village Bakery Whodunit",
+    categoryId: "creative",
+    description: "Engineers charming cozy mystery plots in small seaside villages with eccentric suspects.",
+    tags: ["creative","multi-skill","creative-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Character Cozy Mystery Village Bakery Whodunit",
+      ruSectionName: "Композитный Multi-Skill: Multi Character Cozy Mystery Village Bakery Whodunit",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Character Cozy Mystery Village Bakery Whodunit.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Character Cozy Mystery Village Bakery Whodunit.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi-topup"],
+    }),
+  },
+
+  "creative-multi-topup-multi-layer-solar-punk-organic-architecture-worldbuilding": {
+    id: "creative-multi-topup-multi-layer-solar-punk-organic-architecture-worldbuilding",
+    name: "MultiLayerSolarPunkOrganicArchitectureWorldbuildingSkill",
+    displayName: "Multi Layer Solar Punk Organic Architecture Worldbuilding",
+    categoryId: "creative",
+    description: "Designs hopeful solar-powered eco-cities integrated with living botanical structures.",
+    tags: ["creative","multi-skill","creative-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Layer Solar Punk Organic Architecture Worldbuilding",
+      ruSectionName: "Композитный Multi-Skill: Multi Layer Solar Punk Organic Architecture Worldbuilding",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Layer Solar Punk Organic Architecture Worldbuilding.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Layer Solar Punk Organic Architecture Worldbuilding.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi-topup"],
+    }),
+  },
+
+  "creative-multi-topup-multi-stage-gothic-vampire-aristocracy-political-intrigue": {
+    id: "creative-multi-topup-multi-stage-gothic-vampire-aristocracy-political-intrigue",
+    name: "MultiStageGothicVampireAristocracyPoliticalIntrigueSkill",
+    displayName: "Multi Stage Gothic Vampire Aristocracy Political Intrigue",
+    categoryId: "creative",
+    description: "Drafts political intrigue stories between immortal aristocratic vampire coven houses.",
+    tags: ["creative","multi-skill","creative-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Stage Gothic Vampire Aristocracy Political Intrigue",
+      ruSectionName: "Композитный Multi-Skill: Multi Stage Gothic Vampire Aristocracy Political Intrigue",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Stage Gothic Vampire Aristocracy Political Intrigue.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Stage Gothic Vampire Aristocracy Political Intrigue.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi-topup"],
+    }),
+  },
+
+  "creative-multi-topup-multi-character-space-western-freight-hauler-crew": {
+    id: "creative-multi-topup-multi-character-space-western-freight-hauler-crew",
+    name: "MultiCharacterSpaceWesternFreightHaulerCrewSkill",
+    displayName: "Multi Character Space Western Freight Hauler Crew",
+    categoryId: "creative",
+    description: "Structures ragtag space freighter crew dynamics completing dangerous smuggling jobs.",
+    tags: ["creative","multi-skill","creative-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Character Space Western Freight Hauler Crew",
+      ruSectionName: "Композитный Multi-Skill: Multi Character Space Western Freight Hauler Crew",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Character Space Western Freight Hauler Crew.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Character Space Western Freight Hauler Crew.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi-topup"],
+    }),
+  },
+
+  "creative-multi-topup-multi-horizon-master-narrative-prose-stylist-engine": {
+    id: "creative-multi-topup-multi-horizon-master-narrative-prose-stylist-engine",
+    name: "MultiHorizonMasterNarrativeProseStylistEngineSkill",
+    displayName: "Multi Horizon Master Narrative Prose Stylist Engine",
+    categoryId: "creative",
+    description: "Enforces master literary prose, poetic cadence, and unforgettable story craft.",
+    tags: ["creative","multi-skill","creative-multi-topup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Skill: Multi Horizon Master Narrative Prose Stylist Engine",
+      ruSectionName: "Композитный Multi-Skill: Multi Horizon Master Narrative Prose Stylist Engine",
+      instructions: [
+        "Phase 1: Setup medical, structural, or logical baseline parameters for Multi Horizon Master Narrative Prose Stylist Engine.",
+        "Phase 2: Multi-perspective analysis, reasoning pipeline, or multi-format execution.",
+        "Phase 3: Synthesize verified structured output with explicit quality checks."
+],
+      ruInstructions: [
+        "Этап 1: Настройка медицинских, структурных или логических параметров для Multi Horizon Master Narrative Prose Stylist Engine.",
+        "Этап 2: Многоаспектный анализ, конвейер рассуждений или многоформатное исполнение.",
+        "Этап 3: Синтез верифицированного структурированного результата с контролем качества."
+],
+      semanticType: "process_directive",
+      tags: ["creative","multi-skill","creative-multi-topup"],
+    }),
+  },
 };
