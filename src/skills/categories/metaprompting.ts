@@ -3034,5 +3034,1254 @@ export const METAPROMPTING_SKILLS: Record<string, SkillDefinition> = {
       tags: ["metaprompting","production-ready","completeness","no-placeholders","quality-gate"],
     }),
   },
+  "metaprompting-prompt-instruction-compression-token-minimization": {
+    id: "metaprompting-prompt-instruction-compression-token-minimization",
+    name: "PromptInstructionCompressionTokenMinimizationSkill",
+    displayName: "Prompt Instruction Compression & Token Minimization",
+    categoryId: "metaprompting",
+    description: "Compresses prompts into minimal token representations while preserving semantic intent.",
+    tags: ["metaprompting","metaprompting","prompt","instruction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Prompt Instruction Compression & Token Minimization Standards",
+      ruSectionName: "Стандарты и регламенты: Prompt Instruction Compression & Token Minimization",
+      instructions: [
+        "Apply core domain tenets for Prompt Instruction Compression & Token Minimization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Prompt Instruction Compression & Token Minimization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","prompt","instruction"],
+    }),
+  },
+
+  "metaprompting-self-improving-prompt-iteration-loop": {
+    id: "metaprompting-self-improving-prompt-iteration-loop",
+    name: "SelfImprovingPromptIterationLoopSkill",
+    displayName: "Self-Improving Prompt Iteration Loop",
+    categoryId: "metaprompting",
+    description: "Evaluates previous prompt generation output and generates a refined version 2.0 prompt.",
+    tags: ["metaprompting","metaprompting","self","improving"],
+    transform: createStandardSkillTransform({
+      sectionName: "Self-Improving Prompt Iteration Loop Standards",
+      ruSectionName: "Стандарты и регламенты: Self-Improving Prompt Iteration Loop",
+      instructions: [
+        "Apply core domain tenets for Self-Improving Prompt Iteration Loop.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Self-Improving Prompt Iteration Loop.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","self","improving"],
+    }),
+  },
+
+  "metaprompting-few-shot-example-generator-synthetic-pairs": {
+    id: "metaprompting-few-shot-example-generator-synthetic-pairs",
+    name: "FewShotExampleGeneratorSyntheticPairsSkill",
+    displayName: "Few-Shot Example Generator & Synthetic Pairs",
+    categoryId: "metaprompting",
+    description: "Generates high-quality, diverse input-output example pairs for prompt enhancement.",
+    tags: ["metaprompting","metaprompting","few","shot"],
+    transform: createStandardSkillTransform({
+      sectionName: "Few-Shot Example Generator & Synthetic Pairs Standards",
+      ruSectionName: "Стандарты и регламенты: Few-Shot Example Generator & Synthetic Pairs",
+      instructions: [
+        "Apply core domain tenets for Few-Shot Example Generator & Synthetic Pairs.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Few-Shot Example Generator & Synthetic Pairs.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","few","shot"],
+    }),
+  },
+
+  "metaprompting-prompt-vulnerability-injection-stress-testing": {
+    id: "metaprompting-prompt-vulnerability-injection-stress-testing",
+    name: "PromptVulnerabilityInjectionStressTestingSkill",
+    displayName: "Prompt Vulnerability & Injection Stress-Testing",
+    categoryId: "metaprompting",
+    description: "Red-teams prompts against jailbreak attempts and instruction overrides.",
+    tags: ["metaprompting","metaprompting","prompt","vulnerability"],
+    transform: createStandardSkillTransform({
+      sectionName: "Prompt Vulnerability & Injection Stress-Testing Standards",
+      ruSectionName: "Стандарты и регламенты: Prompt Vulnerability & Injection Stress-Testing",
+      instructions: [
+        "Apply core domain tenets for Prompt Vulnerability & Injection Stress-Testing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Prompt Vulnerability & Injection Stress-Testing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","prompt","vulnerability"],
+    }),
+  },
+
+  "metaprompting-role-persona-system-directive-synthesizer": {
+    id: "metaprompting-role-persona-system-directive-synthesizer",
+    name: "RolePersonaSystemDirectiveSynthesizerSkill",
+    displayName: "Role & Persona System Directive Synthesizer",
+    categoryId: "metaprompting",
+    description: "Creates highly detailed, authentic persona system prompts for target domains.",
+    tags: ["metaprompting","metaprompting","role","persona"],
+    transform: createStandardSkillTransform({
+      sectionName: "Role & Persona System Directive Synthesizer Standards",
+      ruSectionName: "Стандарты и регламенты: Role & Persona System Directive Synthesizer",
+      instructions: [
+        "Apply core domain tenets for Role & Persona System Directive Synthesizer.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Role & Persona System Directive Synthesizer.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","role","persona"],
+    }),
+  },
+
+  "metaprompting-prompt-formatting-schema-delimiter-injector": {
+    id: "metaprompting-prompt-formatting-schema-delimiter-injector",
+    name: "PromptFormattingSchemaDelimiterInjectorSkill",
+    displayName: "Prompt Formatting Schema & Delimiter Injector",
+    categoryId: "metaprompting",
+    description: "Enforces XML, Markdown, or JSON tags to separate context, inputs, and directives.",
+    tags: ["metaprompting","metaprompting","prompt","formatting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Prompt Formatting Schema & Delimiter Injector Standards",
+      ruSectionName: "Стандарты и регламенты: Prompt Formatting Schema & Delimiter Injector",
+      instructions: [
+        "Apply core domain tenets for Prompt Formatting Schema & Delimiter Injector.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Prompt Formatting Schema & Delimiter Injector.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","prompt","formatting"],
+    }),
+  },
+
+  "metaprompting-multi-agent-conversation-orchestration-meta-prompt": {
+    id: "metaprompting-multi-agent-conversation-orchestration-meta-prompt",
+    name: "MultiAgentConversationOrchestrationMetaPromptSkill",
+    displayName: "Multi-Agent Conversation Orchestration Meta-Prompt",
+    categoryId: "metaprompting",
+    description: "Generates system prompts for multi-agent supervisor-worker topologies.",
+    tags: ["metaprompting","metaprompting","multi","agent"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Agent Conversation Orchestration Meta-Prompt Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Agent Conversation Orchestration Meta-Prompt",
+      instructions: [
+        "Apply core domain tenets for Multi-Agent Conversation Orchestration Meta-Prompt.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Agent Conversation Orchestration Meta-Prompt.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","multi","agent"],
+    }),
+  },
+
+  "metaprompting-metaprompting-variable-extractor-template-builder": {
+    id: "metaprompting-metaprompting-variable-extractor-template-builder",
+    name: "MetapromptingVariableExtractorTemplateBuilderSkill",
+    displayName: "Metaprompting Variable Extractor & Template Builder",
+    categoryId: "metaprompting",
+    description: "Converts static text prompts into parameterized dynamic templates with variables.",
+    tags: ["metaprompting","metaprompting","metaprompting","variable"],
+    transform: createStandardSkillTransform({
+      sectionName: "Metaprompting Variable Extractor & Template Builder Standards",
+      ruSectionName: "Стандарты и регламенты: Metaprompting Variable Extractor & Template Builder",
+      instructions: [
+        "Apply core domain tenets for Metaprompting Variable Extractor & Template Builder.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Metaprompting Variable Extractor & Template Builder.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","metaprompting","variable"],
+    }),
+  },
+
+  "metaprompting-instruction-ambiguity-auditor-disambiguator": {
+    id: "metaprompting-instruction-ambiguity-auditor-disambiguator",
+    name: "InstructionAmbiguityAuditorDisambiguatorSkill",
+    displayName: "Instruction Ambiguity Auditor & Disambiguator",
+    categoryId: "metaprompting",
+    description: "Scans prompts for vague directives and rewrites them into explicit boolean rules.",
+    tags: ["metaprompting","metaprompting","instruction","ambiguity"],
+    transform: createStandardSkillTransform({
+      sectionName: "Instruction Ambiguity Auditor & Disambiguator Standards",
+      ruSectionName: "Стандарты и регламенты: Instruction Ambiguity Auditor & Disambiguator",
+      instructions: [
+        "Apply core domain tenets for Instruction Ambiguity Auditor & Disambiguator.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Instruction Ambiguity Auditor & Disambiguator.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","instruction","ambiguity"],
+    }),
+  },
+
+  "metaprompting-chain-of-thought-reasoning-trigger-injector": {
+    id: "metaprompting-chain-of-thought-reasoning-trigger-injector",
+    name: "ChainofThoughtReasoningTriggerInjectorSkill",
+    displayName: "Chain-of-Thought Reasoning Trigger Injector",
+    categoryId: "metaprompting",
+    description: "Injects step-by-step reasoning triggers ('Think step by step before answering').",
+    tags: ["metaprompting","metaprompting","chain","of"],
+    transform: createStandardSkillTransform({
+      sectionName: "Chain-of-Thought Reasoning Trigger Injector Standards",
+      ruSectionName: "Стандарты и регламенты: Chain-of-Thought Reasoning Trigger Injector",
+      instructions: [
+        "Apply core domain tenets for Chain-of-Thought Reasoning Trigger Injector.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Chain-of-Thought Reasoning Trigger Injector.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","chain","of"],
+    }),
+  },
+
+  "metaprompting-negative-constraint-generator-anti-patterns": {
+    id: "metaprompting-negative-constraint-generator-anti-patterns",
+    name: "NegativeConstraintGeneratorAntiPatternsSkill",
+    displayName: "Negative Constraint Generator & Anti-Patterns",
+    categoryId: "metaprompting",
+    description: "Generates comprehensive 'Do NOT' lists to eliminate common model hallucination modes.",
+    tags: ["metaprompting","metaprompting","negative","constraint"],
+    transform: createStandardSkillTransform({
+      sectionName: "Negative Constraint Generator & Anti-Patterns Standards",
+      ruSectionName: "Стандарты и регламенты: Negative Constraint Generator & Anti-Patterns",
+      instructions: [
+        "Apply core domain tenets for Negative Constraint Generator & Anti-Patterns.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Negative Constraint Generator & Anti-Patterns.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","negative","constraint"],
+    }),
+  },
+
+  "metaprompting-cross-model-prompt-portability-converter": {
+    id: "metaprompting-cross-model-prompt-portability-converter",
+    name: "CrossModelPromptPortabilityConverterSkill",
+    displayName: "Cross-Model Prompt Portability Converter",
+    categoryId: "metaprompting",
+    description: "Adapts prompts written for Claude/GPT to work optimally on Gemini or Llama.",
+    tags: ["metaprompting","metaprompting","cross","model"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Model Prompt Portability Converter Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Model Prompt Portability Converter",
+      instructions: [
+        "Apply core domain tenets for Cross-Model Prompt Portability Converter.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Model Prompt Portability Converter.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","cross","model"],
+    }),
+  },
+
+  "metaprompting-evaluation-rubric-scoring-system-generator": {
+    id: "metaprompting-evaluation-rubric-scoring-system-generator",
+    name: "EvaluationRubricScoringSystemGeneratorSkill",
+    displayName: "Evaluation Rubric & Scoring System Generator",
+    categoryId: "metaprompting",
+    description: "Generates automated LLM-as-a-judge scoring rubrics for evaluating response quality.",
+    tags: ["metaprompting","metaprompting","evaluation","rubric"],
+    transform: createStandardSkillTransform({
+      sectionName: "Evaluation Rubric & Scoring System Generator Standards",
+      ruSectionName: "Стандарты и регламенты: Evaluation Rubric & Scoring System Generator",
+      instructions: [
+        "Apply core domain tenets for Evaluation Rubric & Scoring System Generator.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Evaluation Rubric & Scoring System Generator.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","evaluation","rubric"],
+    }),
+  },
+
+  "metaprompting-domain-specific-vocabulary-jargon-injector": {
+    id: "metaprompting-domain-specific-vocabulary-jargon-injector",
+    name: "DomainSpecificVocabularyJargonInjectorSkill",
+    displayName: "Domain-Specific Vocabulary & Jargon Injector",
+    categoryId: "metaprompting",
+    description: "Enriches generic prompts with professional terminology and industry standards.",
+    tags: ["metaprompting","metaprompting","domain","specific"],
+    transform: createStandardSkillTransform({
+      sectionName: "Domain-Specific Vocabulary & Jargon Injector Standards",
+      ruSectionName: "Стандарты и регламенты: Domain-Specific Vocabulary & Jargon Injector",
+      instructions: [
+        "Apply core domain tenets for Domain-Specific Vocabulary & Jargon Injector.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Domain-Specific Vocabulary & Jargon Injector.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","domain","specific"],
+    }),
+  },
+
+  "metaprompting-output-length-verbosity-control-meta-prompt": {
+    id: "metaprompting-output-length-verbosity-control-meta-prompt",
+    name: "OutputLengthVerbosityControlMetaPromptSkill",
+    displayName: "Output Length & Verbosity Control Meta-Prompt",
+    categoryId: "metaprompting",
+    description: "Injects strict word count, token budget, or bullet point formatting constraints.",
+    tags: ["metaprompting","metaprompting","output","length"],
+    transform: createStandardSkillTransform({
+      sectionName: "Output Length & Verbosity Control Meta-Prompt Standards",
+      ruSectionName: "Стандарты и регламенты: Output Length & Verbosity Control Meta-Prompt",
+      instructions: [
+        "Apply core domain tenets for Output Length & Verbosity Control Meta-Prompt.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Output Length & Verbosity Control Meta-Prompt.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","output","length"],
+    }),
+  },
+
+  "metaprompting-prompt-modularization-component-decomposition": {
+    id: "metaprompting-prompt-modularization-component-decomposition",
+    name: "PromptModularizationComponentDecompositionSkill",
+    displayName: "Prompt Modularization & Component Decomposition",
+    categoryId: "metaprompting",
+    description: "Decomposes monolithic system prompts into reusable, composable sub-modules.",
+    tags: ["metaprompting","metaprompting","prompt","modularization"],
+    transform: createStandardSkillTransform({
+      sectionName: "Prompt Modularization & Component Decomposition Standards",
+      ruSectionName: "Стандарты и регламенты: Prompt Modularization & Component Decomposition",
+      instructions: [
+        "Apply core domain tenets for Prompt Modularization & Component Decomposition.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Prompt Modularization & Component Decomposition.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","prompt","modularization"],
+    }),
+  },
+
+  "metaprompting-edge-case-error-handling-directive-creator": {
+    id: "metaprompting-edge-case-error-handling-directive-creator",
+    name: "EdgeCaseErrorHandlingDirectiveCreatorSkill",
+    displayName: "Edge Case & Error Handling Directive Creator",
+    categoryId: "metaprompting",
+    description: "Adds explicit error handling rules for missing data or unexpected user inputs.",
+    tags: ["metaprompting","metaprompting","edge","case"],
+    transform: createStandardSkillTransform({
+      sectionName: "Edge Case & Error Handling Directive Creator Standards",
+      ruSectionName: "Стандарты и регламенты: Edge Case & Error Handling Directive Creator",
+      instructions: [
+        "Apply core domain tenets for Edge Case & Error Handling Directive Creator.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Edge Case & Error Handling Directive Creator.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","edge","case"],
+    }),
+  },
+
+  "metaprompting-task-decomposition-sub-task-router-generator": {
+    id: "metaprompting-task-decomposition-sub-task-router-generator",
+    name: "TaskDecompositionSubTaskRouterGeneratorSkill",
+    displayName: "Task Decomposition & Sub-Task Router Generator",
+    categoryId: "metaprompting",
+    description: "Creates prompts that break complex user tasks into sequential sub-agent calls.",
+    tags: ["metaprompting","metaprompting","task","decomposition"],
+    transform: createStandardSkillTransform({
+      sectionName: "Task Decomposition & Sub-Task Router Generator Standards",
+      ruSectionName: "Стандарты и регламенты: Task Decomposition & Sub-Task Router Generator",
+      instructions: [
+        "Apply core domain tenets for Task Decomposition & Sub-Task Router Generator.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Task Decomposition & Sub-Task Router Generator.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","task","decomposition"],
+    }),
+  },
+
+  "metaprompting-user-intent-disambiguation-clarification-builder": {
+    id: "metaprompting-user-intent-disambiguation-clarification-builder",
+    name: "UserIntentDisambiguationClarificationBuilderSkill",
+    displayName: "User Intent Disambiguation & Clarification Builder",
+    categoryId: "metaprompting",
+    description: "Adds rules instructing the model to ask clarifying questions when inputs are ambiguous.",
+    tags: ["metaprompting","metaprompting","user","intent"],
+    transform: createStandardSkillTransform({
+      sectionName: "User Intent Disambiguation & Clarification Builder Standards",
+      ruSectionName: "Стандарты и регламенты: User Intent Disambiguation & Clarification Builder",
+      instructions: [
+        "Apply core domain tenets for User Intent Disambiguation & Clarification Builder.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для User Intent Disambiguation & Clarification Builder.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","user","intent"],
+    }),
+  },
+
+  "metaprompting-context-window-priority-attention-anchor": {
+    id: "metaprompting-context-window-priority-attention-anchor",
+    name: "ContextWindowPriorityAttentionAnchorSkill",
+    displayName: "Context Window Priority & Attention Anchor",
+    categoryId: "metaprompting",
+    description: "Positions critical instructions at system prompt start and end to combat middle loss.",
+    tags: ["metaprompting","metaprompting","context","window"],
+    transform: createStandardSkillTransform({
+      sectionName: "Context Window Priority & Attention Anchor Standards",
+      ruSectionName: "Стандарты и регламенты: Context Window Priority & Attention Anchor",
+      instructions: [
+        "Apply core domain tenets for Context Window Priority & Attention Anchor.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Context Window Priority & Attention Anchor.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","context","window"],
+    }),
+  },
+
+  "metaprompting-tone-voice-calibration-directive-builder": {
+    id: "metaprompting-tone-voice-calibration-directive-builder",
+    name: "ToneVoiceCalibrationDirectiveBuilderSkill",
+    displayName: "Tone & Voice Calibration Directive Builder",
+    categoryId: "metaprompting",
+    description: "Synthesizes precise voice guidelines matching corporate brand style guides.",
+    tags: ["metaprompting","metaprompting","tone","voice"],
+    transform: createStandardSkillTransform({
+      sectionName: "Tone & Voice Calibration Directive Builder Standards",
+      ruSectionName: "Стандарты и регламенты: Tone & Voice Calibration Directive Builder",
+      instructions: [
+        "Apply core domain tenets for Tone & Voice Calibration Directive Builder.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Tone & Voice Calibration Directive Builder.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","tone","voice"],
+    }),
+  },
+
+  "metaprompting-json-output-schema-enforcement-meta-prompt": {
+    id: "metaprompting-json-output-schema-enforcement-meta-prompt",
+    name: "JSONOutputSchemaEnforcementMetaPromptSkill",
+    displayName: "JSON Output Schema Enforcement Meta-Prompt",
+    categoryId: "metaprompting",
+    description: "Injects strict JSON schema rules ensuring 100% parseable structured output.",
+    tags: ["metaprompting","metaprompting","json","output"],
+    transform: createStandardSkillTransform({
+      sectionName: "JSON Output Schema Enforcement Meta-Prompt Standards",
+      ruSectionName: "Стандарты и регламенты: JSON Output Schema Enforcement Meta-Prompt",
+      instructions: [
+        "Apply core domain tenets for JSON Output Schema Enforcement Meta-Prompt.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для JSON Output Schema Enforcement Meta-Prompt.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","json","output"],
+    }),
+  },
+
+  "metaprompting-grounding-citation-requirement-injector": {
+    id: "metaprompting-grounding-citation-requirement-injector",
+    name: "GroundingCitationRequirementInjectorSkill",
+    displayName: "Grounding & Citation Requirement Injector",
+    categoryId: "metaprompting",
+    description: "Adds rules requiring the model to cite exact source paragraph numbers for all claims.",
+    tags: ["metaprompting","metaprompting","grounding","citation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Grounding & Citation Requirement Injector Standards",
+      ruSectionName: "Стандарты и регламенты: Grounding & Citation Requirement Injector",
+      instructions: [
+        "Apply core domain tenets for Grounding & Citation Requirement Injector.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Grounding & Citation Requirement Injector.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","grounding","citation"],
+    }),
+  },
+
+  "metaprompting-confidence-threshold-uncertainty-flag-directive": {
+    id: "metaprompting-confidence-threshold-uncertainty-flag-directive",
+    name: "ConfidenceThresholdUncertaintyFlagDirectiveSkill",
+    displayName: "Confidence Threshold & Uncertainty Flag Directive",
+    categoryId: "metaprompting",
+    description: "Instructs the model to output 'I don't know' when confidence falls below 80%.",
+    tags: ["metaprompting","metaprompting","confidence","threshold"],
+    transform: createStandardSkillTransform({
+      sectionName: "Confidence Threshold & Uncertainty Flag Directive Standards",
+      ruSectionName: "Стандарты и регламенты: Confidence Threshold & Uncertainty Flag Directive",
+      instructions: [
+        "Apply core domain tenets for Confidence Threshold & Uncertainty Flag Directive.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Confidence Threshold & Uncertainty Flag Directive.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","confidence","threshold"],
+    }),
+  },
+
+  "metaprompting-interactive-tool-calling-prompt-specifier": {
+    id: "metaprompting-interactive-tool-calling-prompt-specifier",
+    name: "InteractiveToolCallingPromptSpecifierSkill",
+    displayName: "Interactive Tool Calling Prompt Specifier",
+    categoryId: "metaprompting",
+    description: "Formats tool signatures, parameters, and invocation guidelines for function calling.",
+    tags: ["metaprompting","metaprompting","interactive","tool"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Tool Calling Prompt Specifier Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Tool Calling Prompt Specifier",
+      instructions: [
+        "Apply core domain tenets for Interactive Tool Calling Prompt Specifier.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Tool Calling Prompt Specifier.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","interactive","tool"],
+    }),
+  },
+
+  "metaprompting-few-shot-boundary-negative-example-builder": {
+    id: "metaprompting-few-shot-boundary-negative-example-builder",
+    name: "FewShotBoundaryNegativeExampleBuilderSkill",
+    displayName: "Few-Shot Boundary & Negative Example Builder",
+    categoryId: "metaprompting",
+    description: "Includes 'Bad Example vs Good Example' pairs to demonstrate unacceptable responses.",
+    tags: ["metaprompting","metaprompting","few","shot"],
+    transform: createStandardSkillTransform({
+      sectionName: "Few-Shot Boundary & Negative Example Builder Standards",
+      ruSectionName: "Стандарты и регламенты: Few-Shot Boundary & Negative Example Builder",
+      instructions: [
+        "Apply core domain tenets for Few-Shot Boundary & Negative Example Builder.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Few-Shot Boundary & Negative Example Builder.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","few","shot"],
+    }),
+  },
+
+  "metaprompting-multi-language-localization-directive-injector": {
+    id: "metaprompting-multi-language-localization-directive-injector",
+    name: "MultiLanguageLocalizationDirectiveInjectorSkill",
+    displayName: "Multi-Language Localization Directive Injector",
+    categoryId: "metaprompting",
+    description: "Adds instructions for seamless, natural translation and cultural adaptation.",
+    tags: ["metaprompting","metaprompting","multi","language"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Language Localization Directive Injector Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Language Localization Directive Injector",
+      instructions: [
+        "Apply core domain tenets for Multi-Language Localization Directive Injector.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Language Localization Directive Injector.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","multi","language"],
+    }),
+  },
+
+  "metaprompting-refusal-safety-guardrail-meta-prompt": {
+    id: "metaprompting-refusal-safety-guardrail-meta-prompt",
+    name: "RefusalSafetyGuardrailMetaPromptSkill",
+    displayName: "Refusal & Safety Guardrail Meta-Prompt",
+    categoryId: "metaprompting",
+    description: "Builds safe refusal protocols for out-of-bounds, illegal, or unethical requests.",
+    tags: ["metaprompting","metaprompting","refusal","safety"],
+    transform: createStandardSkillTransform({
+      sectionName: "Refusal & Safety Guardrail Meta-Prompt Standards",
+      ruSectionName: "Стандарты и регламенты: Refusal & Safety Guardrail Meta-Prompt",
+      instructions: [
+        "Apply core domain tenets for Refusal & Safety Guardrail Meta-Prompt.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Refusal & Safety Guardrail Meta-Prompt.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","refusal","safety"],
+    }),
+  },
+
+  "metaprompting-creative-brainstorming-diversity-multiplier": {
+    id: "metaprompting-creative-brainstorming-diversity-multiplier",
+    name: "CreativeBrainstormingDiversityMultiplierSkill",
+    displayName: "Creative Brainstorming Diversity Multiplier",
+    categoryId: "metaprompting",
+    description: "Injects rules forcing the model to generate non-overlapping, lateral ideas.",
+    tags: ["metaprompting","metaprompting","creative","brainstorming"],
+    transform: createStandardSkillTransform({
+      sectionName: "Creative Brainstorming Diversity Multiplier Standards",
+      ruSectionName: "Стандарты и регламенты: Creative Brainstorming Diversity Multiplier",
+      instructions: [
+        "Apply core domain tenets for Creative Brainstorming Diversity Multiplier.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Creative Brainstorming Diversity Multiplier.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","creative","brainstorming"],
+    }),
+  },
+
+  "metaprompting-code-generation-system-directive-builder": {
+    id: "metaprompting-code-generation-system-directive-builder",
+    name: "CodeGenerationSystemDirectiveBuilderSkill",
+    displayName: "Code Generation System Directive Builder",
+    categoryId: "metaprompting",
+    description: "Creates specialized coding system prompts enforcing TypeScript, unit tests, and clean architecture.",
+    tags: ["metaprompting","metaprompting","code","generation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Code Generation System Directive Builder Standards",
+      ruSectionName: "Стандарты и регламенты: Code Generation System Directive Builder",
+      instructions: [
+        "Apply core domain tenets for Code Generation System Directive Builder.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Code Generation System Directive Builder.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","code","generation"],
+    }),
+  },
+
+  "metaprompting-self-correction-output-verification-step": {
+    id: "metaprompting-self-correction-output-verification-step",
+    name: "SelfCorrectionOutputVerificationStepSkill",
+    displayName: "Self-Correction & Output Verification Step",
+    categoryId: "metaprompting",
+    description: "Injects a final reflection step where the model audits its work before responding.",
+    tags: ["metaprompting","metaprompting","self","correction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Self-Correction & Output Verification Step Standards",
+      ruSectionName: "Стандарты и регламенты: Self-Correction & Output Verification Step",
+      instructions: [
+        "Apply core domain tenets for Self-Correction & Output Verification Step.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Self-Correction & Output Verification Step.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","self","correction"],
+    }),
+  },
+
+  "metaprompting-prompt-version-migration-changelog-generator": {
+    id: "metaprompting-prompt-version-migration-changelog-generator",
+    name: "PromptVersionMigrationChangelogGeneratorSkill",
+    displayName: "Prompt Version Migration & Changelog Generator",
+    categoryId: "metaprompting",
+    description: "Tracks changes between prompt versions and documents modifications.",
+    tags: ["metaprompting","metaprompting","prompt","version"],
+    transform: createStandardSkillTransform({
+      sectionName: "Prompt Version Migration & Changelog Generator Standards",
+      ruSectionName: "Стандарты и регламенты: Prompt Version Migration & Changelog Generator",
+      instructions: [
+        "Apply core domain tenets for Prompt Version Migration & Changelog Generator.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Prompt Version Migration & Changelog Generator.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","prompt","version"],
+    }),
+  },
+
+  "metaprompting-context-summarization-memory-compression": {
+    id: "metaprompting-context-summarization-memory-compression",
+    name: "ContextSummarizationMemoryCompressionSkill",
+    displayName: "Context Summarization & Memory Compression",
+    categoryId: "metaprompting",
+    description: "Builds prompts that compress long conversation turns into dense state summaries.",
+    tags: ["metaprompting","metaprompting","context","summarization"],
+    transform: createStandardSkillTransform({
+      sectionName: "Context Summarization & Memory Compression Standards",
+      ruSectionName: "Стандарты и регламенты: Context Summarization & Memory Compression",
+      instructions: [
+        "Apply core domain tenets for Context Summarization & Memory Compression.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Context Summarization & Memory Compression.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","context","summarization"],
+    }),
+  },
+
+  "metaprompting-role-playing-boundary-identity-anchor": {
+    id: "metaprompting-role-playing-boundary-identity-anchor",
+    name: "RolePlayingBoundaryIdentityAnchorSkill",
+    displayName: "Role-Playing Boundary & Identity Anchor",
+    categoryId: "metaprompting",
+    description: "Prevents persona breaking or out-of-character responses during long roleplay.",
+    tags: ["metaprompting","metaprompting","role","playing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Role-Playing Boundary & Identity Anchor Standards",
+      ruSectionName: "Стандарты и регламенты: Role-Playing Boundary & Identity Anchor",
+      instructions: [
+        "Apply core domain tenets for Role-Playing Boundary & Identity Anchor.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Role-Playing Boundary & Identity Anchor.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","role","playing"],
+    }),
+  },
+
+  "metaprompting-formatting-cleanup-markdown-beautifier": {
+    id: "metaprompting-formatting-cleanup-markdown-beautifier",
+    name: "FormattingCleanupMarkdownBeautifierSkill",
+    displayName: "Formatting Cleanup & Markdown Beautifier",
+    categoryId: "metaprompting",
+    description: "Adds post-processing directives to ensure clean typography, tables, and spacing.",
+    tags: ["metaprompting","metaprompting","formatting","cleanup"],
+    transform: createStandardSkillTransform({
+      sectionName: "Formatting Cleanup & Markdown Beautifier Standards",
+      ruSectionName: "Стандарты и регламенты: Formatting Cleanup & Markdown Beautifier",
+      instructions: [
+        "Apply core domain tenets for Formatting Cleanup & Markdown Beautifier.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Formatting Cleanup & Markdown Beautifier.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","formatting","cleanup"],
+    }),
+  },
+
+  "metaprompting-multi-turn-conversation-state-machine-specifier": {
+    id: "metaprompting-multi-turn-conversation-state-machine-specifier",
+    name: "MultiTurnConversationStateMachineSpecifierSkill",
+    displayName: "Multi-Turn Conversation State Machine Specifier",
+    categoryId: "metaprompting",
+    description: "Generates prompts that maintain state across multi-step conversational flows.",
+    tags: ["metaprompting","metaprompting","multi","turn"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Turn Conversation State Machine Specifier Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Turn Conversation State Machine Specifier",
+      instructions: [
+        "Apply core domain tenets for Multi-Turn Conversation State Machine Specifier.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Turn Conversation State Machine Specifier.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","multi","turn"],
+    }),
+  },
+
+  "metaprompting-algorithmic-reasoning-logic-proof-prompt": {
+    id: "metaprompting-algorithmic-reasoning-logic-proof-prompt",
+    name: "AlgorithmicReasoningLogicProofPromptSkill",
+    displayName: "Algorithmic Reasoning & Logic Proof Prompt",
+    categoryId: "metaprompting",
+    description: "Instructs the model to construct formal proofs or mathematical derivations.",
+    tags: ["metaprompting","metaprompting","algorithmic","reasoning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Algorithmic Reasoning & Logic Proof Prompt Standards",
+      ruSectionName: "Стандарты и регламенты: Algorithmic Reasoning & Logic Proof Prompt",
+      instructions: [
+        "Apply core domain tenets for Algorithmic Reasoning & Logic Proof Prompt.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Algorithmic Reasoning & Logic Proof Prompt.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","algorithmic","reasoning"],
+    }),
+  },
+
+  "metaprompting-socratic-teacher-tutoring-directive-synthesizer": {
+    id: "metaprompting-socratic-teacher-tutoring-directive-synthesizer",
+    name: "SocraticTeacherTutoringDirectiveSynthesizerSkill",
+    displayName: "Socratic Teacher & Tutoring Directive Synthesizer",
+    categoryId: "metaprompting",
+    description: "Creates tutoring system prompts that guide students through questions.",
+    tags: ["metaprompting","metaprompting","socratic","teacher"],
+    transform: createStandardSkillTransform({
+      sectionName: "Socratic Teacher & Tutoring Directive Synthesizer Standards",
+      ruSectionName: "Стандарты и регламенты: Socratic Teacher & Tutoring Directive Synthesizer",
+      instructions: [
+        "Apply core domain tenets for Socratic Teacher & Tutoring Directive Synthesizer.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Socratic Teacher & Tutoring Directive Synthesizer.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","socratic","teacher"],
+    }),
+  },
+
+  "metaprompting-executive-summary-briefing-directive-generator": {
+    id: "metaprompting-executive-summary-briefing-directive-generator",
+    name: "ExecutiveSummaryBriefingDirectiveGeneratorSkill",
+    displayName: "Executive Summary & Briefing Directive Generator",
+    categoryId: "metaprompting",
+    description: "Injects rules enforcing Bottom-Line-Up-Front (BLUF) executive structure.",
+    tags: ["metaprompting","metaprompting","executive","summary"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Summary & Briefing Directive Generator Standards",
+      ruSectionName: "Стандарты и регламенты: Executive Summary & Briefing Directive Generator",
+      instructions: [
+        "Apply core domain tenets for Executive Summary & Briefing Directive Generator.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Executive Summary & Briefing Directive Generator.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","executive","summary"],
+    }),
+  },
+
+  "metaprompting-data-anonymization-pii-redaction-meta-prompt": {
+    id: "metaprompting-data-anonymization-pii-redaction-meta-prompt",
+    name: "DataAnonymizationPIIRedactionMetaPromptSkill",
+    displayName: "Data Anonymization & PII Redaction Meta-Prompt",
+    categoryId: "metaprompting",
+    description: "Adds rules instructing the model to automatically redact names, emails, and IPs.",
+    tags: ["metaprompting","metaprompting","data","anonymization"],
+    transform: createStandardSkillTransform({
+      sectionName: "Data Anonymization & PII Redaction Meta-Prompt Standards",
+      ruSectionName: "Стандарты и регламенты: Data Anonymization & PII Redaction Meta-Prompt",
+      instructions: [
+        "Apply core domain tenets for Data Anonymization & PII Redaction Meta-Prompt.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Data Anonymization & PII Redaction Meta-Prompt.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","data","anonymization"],
+    }),
+  },
+
+  "metaprompting-multi-perspective-debate-generator": {
+    id: "metaprompting-multi-perspective-debate-generator",
+    name: "MultiPerspectiveDebateGeneratorSkill",
+    displayName: "Multi-Perspective Debate Generator",
+    categoryId: "metaprompting",
+    description: "Instructs the model to debate a topic from 3 distinct stakeholder viewpoints.",
+    tags: ["metaprompting","metaprompting","multi","perspective"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Perspective Debate Generator Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Perspective Debate Generator",
+      instructions: [
+        "Apply core domain tenets for Multi-Perspective Debate Generator.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Perspective Debate Generator.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","multi","perspective"],
+    }),
+  },
+
+  "metaprompting-step-by-step-chain-of-thought-disabler": {
+    id: "metaprompting-step-by-step-chain-of-thought-disabler",
+    name: "StepbyStepChainofThoughtDisablerSkill",
+    displayName: "Step-by-Step Chain of Thought Disabler",
+    categoryId: "metaprompting",
+    description: "Removes chain of thought reasoning when ultra-low latency or short output is needed.",
+    tags: ["metaprompting","metaprompting","step","by"],
+    transform: createStandardSkillTransform({
+      sectionName: "Step-by-Step Chain of Thought Disabler Standards",
+      ruSectionName: "Стандарты и регламенты: Step-by-Step Chain of Thought Disabler",
+      instructions: [
+        "Apply core domain tenets for Step-by-Step Chain of Thought Disabler.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Step-by-Step Chain of Thought Disabler.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","step","by"],
+    }),
+  },
+
+  "metaprompting-regex-pattern-matching-instruction-builder": {
+    id: "metaprompting-regex-pattern-matching-instruction-builder",
+    name: "RegexPatternMatchingInstructionBuilderSkill",
+    displayName: "Regex & Pattern Matching Instruction Builder",
+    categoryId: "metaprompting",
+    description: "Creates prompts enforcing strict regular expression pattern validation.",
+    tags: ["metaprompting","metaprompting","regex","pattern"],
+    transform: createStandardSkillTransform({
+      sectionName: "Regex & Pattern Matching Instruction Builder Standards",
+      ruSectionName: "Стандарты и регламенты: Regex & Pattern Matching Instruction Builder",
+      instructions: [
+        "Apply core domain tenets for Regex & Pattern Matching Instruction Builder.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Regex & Pattern Matching Instruction Builder.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","regex","pattern"],
+    }),
+  },
+
+  "metaprompting-api-gateway-proxy-directive-builder": {
+    id: "metaprompting-api-gateway-proxy-directive-builder",
+    name: "APIGatewayProxyDirectiveBuilderSkill",
+    displayName: "API Gateway Proxy Directive Builder",
+    categoryId: "metaprompting",
+    description: "Formats prompts designed to run inside automated API gateway proxies.",
+    tags: ["metaprompting","metaprompting","api","gateway"],
+    transform: createStandardSkillTransform({
+      sectionName: "API Gateway Proxy Directive Builder Standards",
+      ruSectionName: "Стандарты и регламенты: API Gateway Proxy Directive Builder",
+      instructions: [
+        "Apply core domain tenets for API Gateway Proxy Directive Builder.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для API Gateway Proxy Directive Builder.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","api","gateway"],
+    }),
+  },
+
+  "metaprompting-system-prompt-token-optimization-de-duplication": {
+    id: "metaprompting-system-prompt-token-optimization-de-duplication",
+    name: "SystemPromptTokenOptimizationDeduplicationSkill",
+    displayName: "System Prompt Token Optimization & De-duplication",
+    categoryId: "metaprompting",
+    description: "Scans system prompts to remove duplicate rules and redundant phrasing.",
+    tags: ["metaprompting","metaprompting","system","prompt"],
+    transform: createStandardSkillTransform({
+      sectionName: "System Prompt Token Optimization & De-duplication Standards",
+      ruSectionName: "Стандарты и регламенты: System Prompt Token Optimization & De-duplication",
+      instructions: [
+        "Apply core domain tenets for System Prompt Token Optimization & De-duplication.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для System Prompt Token Optimization & De-duplication.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","system","prompt"],
+    }),
+  },
+
+  "metaprompting-adversarial-robustness-stress-tester": {
+    id: "metaprompting-adversarial-robustness-stress-tester",
+    name: "AdversarialRobustnessStressTesterSkill",
+    displayName: "Adversarial Robustness Stress-Tester",
+    categoryId: "metaprompting",
+    description: "Generates adversarial user inputs to test prompt resilience.",
+    tags: ["metaprompting","metaprompting","adversarial","robustness"],
+    transform: createStandardSkillTransform({
+      sectionName: "Adversarial Robustness Stress-Tester Standards",
+      ruSectionName: "Стандарты и регламенты: Adversarial Robustness Stress-Tester",
+      instructions: [
+        "Apply core domain tenets for Adversarial Robustness Stress-Tester.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Adversarial Robustness Stress-Tester.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","adversarial","robustness"],
+    }),
+  },
+
+  "metaprompting-structured-markdown-table-enforcement-prompt": {
+    id: "metaprompting-structured-markdown-table-enforcement-prompt",
+    name: "StructuredMarkdownTableEnforcementPromptSkill",
+    displayName: "Structured Markdown Table Enforcement Prompt",
+    categoryId: "metaprompting",
+    description: "Injects strict rules for generating valid, aligned Markdown tables.",
+    tags: ["metaprompting","metaprompting","structured","markdown"],
+    transform: createStandardSkillTransform({
+      sectionName: "Structured Markdown Table Enforcement Prompt Standards",
+      ruSectionName: "Стандарты и регламенты: Structured Markdown Table Enforcement Prompt",
+      instructions: [
+        "Apply core domain tenets for Structured Markdown Table Enforcement Prompt.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Structured Markdown Table Enforcement Prompt.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","structured","markdown"],
+    }),
+  },
+
+  "metaprompting-task-completion-definition-of-done-dod-injector": {
+    id: "metaprompting-task-completion-definition-of-done-dod-injector",
+    name: "TaskCompletionDefinitionofDoneDoDInjectorSkill",
+    displayName: "Task Completion Definition of Done (DoD) Injector",
+    categoryId: "metaprompting",
+    description: "Appends explicit Definition of Done checklists to task prompts.",
+    tags: ["metaprompting","metaprompting","task","completion"],
+    transform: createStandardSkillTransform({
+      sectionName: "Task Completion Definition of Done (DoD) Injector Standards",
+      ruSectionName: "Стандарты и регламенты: Task Completion Definition of Done (DoD) Injector",
+      instructions: [
+        "Apply core domain tenets for Task Completion Definition of Done (DoD) Injector.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Task Completion Definition of Done (DoD) Injector.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","task","completion"],
+    }),
+  },
+
+  "metaprompting-human-in-the-loop-approval-checkpoint-builder": {
+    id: "metaprompting-human-in-the-loop-approval-checkpoint-builder",
+    name: "HumanintheLoopApprovalCheckpointBuilderSkill",
+    displayName: "Human-in-the-Loop Approval Checkpoint Builder",
+    categoryId: "metaprompting",
+    description: "Adds instructions to pause execution and request human approval at key steps.",
+    tags: ["metaprompting","metaprompting","human","in"],
+    transform: createStandardSkillTransform({
+      sectionName: "Human-in-the-Loop Approval Checkpoint Builder Standards",
+      ruSectionName: "Стандарты и регламенты: Human-in-the-Loop Approval Checkpoint Builder",
+      instructions: [
+        "Apply core domain tenets for Human-in-the-Loop Approval Checkpoint Builder.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Human-in-the-Loop Approval Checkpoint Builder.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","human","in"],
+    }),
+  },
+
+  "metaprompting-master-metaprompting-architecture-synthesizer": {
+    id: "metaprompting-master-metaprompting-architecture-synthesizer",
+    name: "MasterMetapromptingArchitectureSynthesizerSkill",
+    displayName: "Master Metaprompting Architecture Synthesizer",
+    categoryId: "metaprompting",
+    description: "Generates comprehensive, enterprise-grade system prompts from a single goal statement.",
+    tags: ["metaprompting","metaprompting","master","metaprompting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Metaprompting Architecture Synthesizer Standards",
+      ruSectionName: "Стандарты и регламенты: Master Metaprompting Architecture Synthesizer",
+      instructions: [
+        "Apply core domain tenets for Master Metaprompting Architecture Synthesizer.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Metaprompting Architecture Synthesizer.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["metaprompting","metaprompting","master","metaprompting"],
+    }),
+  },
 };
 

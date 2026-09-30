@@ -3030,4 +3030,1253 @@ export const ANALYSIS_SKILLS: Record<string, SkillDefinition> = {
       tags: ["analysis","littles-law","queuing-theory","concurrency","performance"],
     }),
   },
+  "analysis-financial-statement-ratio-dupont-decomposition": {
+    id: "analysis-financial-statement-ratio-dupont-decomposition",
+    name: "FinancialStatementRatioDupontDecompositionSkill",
+    displayName: "Financial Statement Ratio & Dupont Decomposition",
+    categoryId: "analysis",
+    description: "Analyzes ROE using DuPont 3-factor breakdown: profit margin, asset turnover, leverage.",
+    tags: ["analysis","analysis","financial","statement"],
+    transform: createStandardSkillTransform({
+      sectionName: "Financial Statement Ratio & Dupont Decomposition Standards",
+      ruSectionName: "Стандарты и регламенты: Financial Statement Ratio & Dupont Decomposition",
+      instructions: [
+        "Apply core domain tenets for Financial Statement Ratio & Dupont Decomposition.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Financial Statement Ratio & Dupont Decomposition.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","financial","statement"],
+    }),
+  },
+
+  "analysis-competitive-intelligence-porter-five-forces": {
+    id: "analysis-competitive-intelligence-porter-five-forces",
+    name: "CompetitiveIntelligencePorterFiveForcesSkill",
+    displayName: "Competitive Intelligence Porter Five Forces",
+    categoryId: "analysis",
+    description: "Evaluates industry attractiveness across threat of entry, buyer power, and substitutes.",
+    tags: ["analysis","analysis","competitive","intelligence"],
+    transform: createStandardSkillTransform({
+      sectionName: "Competitive Intelligence Porter Five Forces Standards",
+      ruSectionName: "Стандарты и регламенты: Competitive Intelligence Porter Five Forces",
+      instructions: [
+        "Apply core domain tenets for Competitive Intelligence Porter Five Forces.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Competitive Intelligence Porter Five Forces.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","competitive","intelligence"],
+    }),
+  },
+
+  "analysis-macroeconomic-pestle-strategic-environmental-audit": {
+    id: "analysis-macroeconomic-pestle-strategic-environmental-audit",
+    name: "MacroeconomicPESTLEStrategicEnvironmentalAuditSkill",
+    displayName: "Macroeconomic PESTLE Strategic Environmental Audit",
+    categoryId: "analysis",
+    description: "Assesses Political, Economic, Social, Tech, Legal, and Environmental trends.",
+    tags: ["analysis","analysis","macroeconomic","pestle"],
+    transform: createStandardSkillTransform({
+      sectionName: "Macroeconomic PESTLE Strategic Environmental Audit Standards",
+      ruSectionName: "Стандарты и регламенты: Macroeconomic PESTLE Strategic Environmental Audit",
+      instructions: [
+        "Apply core domain tenets for Macroeconomic PESTLE Strategic Environmental Audit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Macroeconomic PESTLE Strategic Environmental Audit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","macroeconomic","pestle"],
+    }),
+  },
+
+  "analysis-root-cause-fishbone-ishikawa-diagram-analysis": {
+    id: "analysis-root-cause-fishbone-ishikawa-diagram-analysis",
+    name: "RootCauseFishboneIshikawaDiagramAnalysisSkill",
+    displayName: "Root Cause Fishbone (Ishikawa) Diagram Analysis",
+    categoryId: "analysis",
+    description: "Categorizes causes of equipment/process defects across Man, Machine, Material, Method.",
+    tags: ["analysis","analysis","root","cause"],
+    transform: createStandardSkillTransform({
+      sectionName: "Root Cause Fishbone (Ishikawa) Diagram Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Root Cause Fishbone (Ishikawa) Diagram Analysis",
+      instructions: [
+        "Apply core domain tenets for Root Cause Fishbone (Ishikawa) Diagram Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Root Cause Fishbone (Ishikawa) Diagram Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","root","cause"],
+    }),
+  },
+
+  "analysis-statistical-hypothesis-testing-p-value-interpretation": {
+    id: "analysis-statistical-hypothesis-testing-p-value-interpretation",
+    name: "StatisticalHypothesisTestingpValueInterpretationSkill",
+    displayName: "Statistical Hypothesis Testing & p-Value Interpretation",
+    categoryId: "analysis",
+    description: "Evaluates null vs alternative hypotheses using t-tests, ANOVA, and z-scores.",
+    tags: ["analysis","analysis","statistical","hypothesis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Statistical Hypothesis Testing & p-Value Interpretation Standards",
+      ruSectionName: "Стандарты и регламенты: Statistical Hypothesis Testing & p-Value Interpretation",
+      instructions: [
+        "Apply core domain tenets for Statistical Hypothesis Testing & p-Value Interpretation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Statistical Hypothesis Testing & p-Value Interpretation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","statistical","hypothesis"],
+    }),
+  },
+
+  "analysis-cohort-survival-analysis-kaplan-meier-decay": {
+    id: "analysis-cohort-survival-analysis-kaplan-meier-decay",
+    name: "CohortSurvivalAnalysisKaplanMeierDecaySkill",
+    displayName: "Cohort Survival Analysis & Kaplan-Meier Decay",
+    categoryId: "analysis",
+    description: "Models time-to-event attrition rates and survival probabilities over customer lifespans.",
+    tags: ["analysis","analysis","cohort","survival"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cohort Survival Analysis & Kaplan-Meier Decay Standards",
+      ruSectionName: "Стандарты и регламенты: Cohort Survival Analysis & Kaplan-Meier Decay",
+      instructions: [
+        "Apply core domain tenets for Cohort Survival Analysis & Kaplan-Meier Decay.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cohort Survival Analysis & Kaplan-Meier Decay.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","cohort","survival"],
+    }),
+  },
+
+  "analysis-supply-chain-value-stream-mapping-vsm": {
+    id: "analysis-supply-chain-value-stream-mapping-vsm",
+    name: "SupplyChainValueStreamMappingVSMSkill",
+    displayName: "Supply Chain Value Stream Mapping (VSM)",
+    categoryId: "analysis",
+    description: "Identifies non-value-add delay waste and bottleneck cycle times in production.",
+    tags: ["analysis","analysis","supply","chain"],
+    transform: createStandardSkillTransform({
+      sectionName: "Supply Chain Value Stream Mapping (VSM) Standards",
+      ruSectionName: "Стандарты и регламенты: Supply Chain Value Stream Mapping (VSM)",
+      instructions: [
+        "Apply core domain tenets for Supply Chain Value Stream Mapping (VSM).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Supply Chain Value Stream Mapping (VSM).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","supply","chain"],
+    }),
+  },
+
+  "analysis-brand-perception-sentiment-semantic-clustering": {
+    id: "analysis-brand-perception-sentiment-semantic-clustering",
+    name: "BrandPerceptionSentimentSemanticClusteringSkill",
+    displayName: "Brand Perception Sentiment & Semantic Clustering",
+    categoryId: "analysis",
+    description: "Analyzes customer feedback sentiment across topic clusters using NLP.",
+    tags: ["analysis","analysis","brand","perception"],
+    transform: createStandardSkillTransform({
+      sectionName: "Brand Perception Sentiment & Semantic Clustering Standards",
+      ruSectionName: "Стандарты и регламенты: Brand Perception Sentiment & Semantic Clustering",
+      instructions: [
+        "Apply core domain tenets for Brand Perception Sentiment & Semantic Clustering.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Brand Perception Sentiment & Semantic Clustering.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","brand","perception"],
+    }),
+  },
+
+  "analysis-m-a-due-diligence-synergy-red-flag-audit": {
+    id: "analysis-m-a-due-diligence-synergy-red-flag-audit",
+    name: "MADueDiligenceSynergyRedFlagAuditSkill",
+    displayName: "M&A Due Diligence Synergy & Red Flag Audit",
+    categoryId: "analysis",
+    description: "Audits target company financial liabilities, churn, litigation, and tech debt.",
+    tags: ["analysis","analysis","m","a"],
+    transform: createStandardSkillTransform({
+      sectionName: "M&A Due Diligence Synergy & Red Flag Audit Standards",
+      ruSectionName: "Стандарты и регламенты: M&A Due Diligence Synergy & Red Flag Audit",
+      instructions: [
+        "Apply core domain tenets for M&A Due Diligence Synergy & Red Flag Audit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для M&A Due Diligence Synergy & Red Flag Audit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","m","a"],
+    }),
+  },
+
+  "analysis-sensitivity-monte-carlo-risk-simulation": {
+    id: "analysis-sensitivity-monte-carlo-risk-simulation",
+    name: "SensitivityMonteCarloRiskSimulationSkill",
+    displayName: "Sensitivity & Monte Carlo Risk Simulation",
+    categoryId: "analysis",
+    description: "Simulates thousands of probabilistic outcomes across variable distribution ranges.",
+    tags: ["analysis","analysis","sensitivity","monte"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sensitivity & Monte Carlo Risk Simulation Standards",
+      ruSectionName: "Стандарты и регламенты: Sensitivity & Monte Carlo Risk Simulation",
+      instructions: [
+        "Apply core domain tenets for Sensitivity & Monte Carlo Risk Simulation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sensitivity & Monte Carlo Risk Simulation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","sensitivity","monte"],
+    }),
+  },
+
+  "analysis-rfm-customer-lifetime-value-segmentation": {
+    id: "analysis-rfm-customer-lifetime-value-segmentation",
+    name: "RFMCustomerLifetimeValueSegmentationSkill",
+    displayName: "RFM Customer Lifetime Value Segmentation",
+    categoryId: "analysis",
+    description: "Segments user bases by Recency, Frequency, and Monetary transaction values.",
+    tags: ["analysis","analysis","rfm","customer"],
+    transform: createStandardSkillTransform({
+      sectionName: "RFM Customer Lifetime Value Segmentation Standards",
+      ruSectionName: "Стандарты и регламенты: RFM Customer Lifetime Value Segmentation",
+      instructions: [
+        "Apply core domain tenets for RFM Customer Lifetime Value Segmentation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для RFM Customer Lifetime Value Segmentation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","rfm","customer"],
+    }),
+  },
+
+  "analysis-ansoff-matrix-growth-vector-strategy": {
+    id: "analysis-ansoff-matrix-growth-vector-strategy",
+    name: "AnsoffMatrixGrowthVectorStrategySkill",
+    displayName: "Ansoff Matrix Growth Vector Strategy",
+    categoryId: "analysis",
+    description: "Evaluates Market Penetration, Product Development, Market Dev, and Diversification.",
+    tags: ["analysis","analysis","ansoff","matrix"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ansoff Matrix Growth Vector Strategy Standards",
+      ruSectionName: "Стандарты и регламенты: Ansoff Matrix Growth Vector Strategy",
+      instructions: [
+        "Apply core domain tenets for Ansoff Matrix Growth Vector Strategy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Ansoff Matrix Growth Vector Strategy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","ansoff","matrix"],
+    }),
+  },
+
+  "analysis-vrio-resource-competitability-evaluation": {
+    id: "analysis-vrio-resource-competitability-evaluation",
+    name: "VRIOResourceCompetitabilityEvaluationSkill",
+    displayName: "VRIO Resource Competitability Evaluation",
+    categoryId: "analysis",
+    description: "Tests corporate assets for Value, Rarity, Inimitability, and Organizational alignment.",
+    tags: ["analysis","analysis","vrio","resource"],
+    transform: createStandardSkillTransform({
+      sectionName: "VRIO Resource Competitability Evaluation Standards",
+      ruSectionName: "Стандарты и регламенты: VRIO Resource Competitability Evaluation",
+      instructions: [
+        "Apply core domain tenets for VRIO Resource Competitability Evaluation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для VRIO Resource Competitability Evaluation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","vrio","resource"],
+    }),
+  },
+
+  "analysis-bcg-growth-share-matrix-portfolio-analysis": {
+    id: "analysis-bcg-growth-share-matrix-portfolio-analysis",
+    name: "BCGGrowthShareMatrixPortfolioAnalysisSkill",
+    displayName: "BCG Growth-Share Matrix Portfolio Analysis",
+    categoryId: "analysis",
+    description: "Categorizes business units into Stars, Cash Cows, Question Marks, and Dogs.",
+    tags: ["analysis","analysis","bcg","growth"],
+    transform: createStandardSkillTransform({
+      sectionName: "BCG Growth-Share Matrix Portfolio Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: BCG Growth-Share Matrix Portfolio Analysis",
+      instructions: [
+        "Apply core domain tenets for BCG Growth-Share Matrix Portfolio Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для BCG Growth-Share Matrix Portfolio Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","bcg","growth"],
+    }),
+  },
+
+  "analysis-customer-churn-hazard-rate-modeling": {
+    id: "analysis-customer-churn-hazard-rate-modeling",
+    name: "CustomerChurnHazardRateModelingSkill",
+    displayName: "Customer Churn Hazard Rate Modeling",
+    categoryId: "analysis",
+    description: "Identifies early warning indicators correlated with customer subscription cancellation.",
+    tags: ["analysis","analysis","customer","churn"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Churn Hazard Rate Modeling Standards",
+      ruSectionName: "Стандарты и регламенты: Customer Churn Hazard Rate Modeling",
+      instructions: [
+        "Apply core domain tenets for Customer Churn Hazard Rate Modeling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Customer Churn Hazard Rate Modeling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","customer","churn"],
+    }),
+  },
+
+  "analysis-regulatory-compliance-gap-audit-trail": {
+    id: "analysis-regulatory-compliance-gap-audit-trail",
+    name: "RegulatoryComplianceGapAuditTrailSkill",
+    displayName: "Regulatory Compliance Gap & Audit Trail",
+    categoryId: "analysis",
+    description: "Identifies non-compliance gaps between current operations and new legal frameworks.",
+    tags: ["analysis","analysis","regulatory","compliance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Regulatory Compliance Gap & Audit Trail Standards",
+      ruSectionName: "Стандарты и регламенты: Regulatory Compliance Gap & Audit Trail",
+      instructions: [
+        "Apply core domain tenets for Regulatory Compliance Gap & Audit Trail.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Regulatory Compliance Gap & Audit Trail.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","regulatory","compliance"],
+    }),
+  },
+
+  "analysis-pricing-elasticity-of-demand-optimization": {
+    id: "analysis-pricing-elasticity-of-demand-optimization",
+    name: "PricingElasticityofDemandOptimizationSkill",
+    displayName: "Pricing Elasticity of Demand Optimization",
+    categoryId: "analysis",
+    description: "Calculates price elasticity coefficients to optimize profit margins without churn.",
+    tags: ["analysis","analysis","pricing","elasticity"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pricing Elasticity of Demand Optimization Standards",
+      ruSectionName: "Стандарты и регламенты: Pricing Elasticity of Demand Optimization",
+      instructions: [
+        "Apply core domain tenets for Pricing Elasticity of Demand Optimization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Pricing Elasticity of Demand Optimization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","pricing","elasticity"],
+    }),
+  },
+
+  "analysis-capex-vs-opex-capital-allocation-analysis": {
+    id: "analysis-capex-vs-opex-capital-allocation-analysis",
+    name: "CapExvsOpExCapitalAllocationAnalysisSkill",
+    displayName: "CapEx vs OpEx Capital Allocation Analysis",
+    categoryId: "analysis",
+    description: "Evaluates long-term ROI trade-offs between upfront CapEx and recurring OpEx.",
+    tags: ["analysis","analysis","capex","vs"],
+    transform: createStandardSkillTransform({
+      sectionName: "CapEx vs OpEx Capital Allocation Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: CapEx vs OpEx Capital Allocation Analysis",
+      instructions: [
+        "Apply core domain tenets for CapEx vs OpEx Capital Allocation Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для CapEx vs OpEx Capital Allocation Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","capex","vs"],
+    }),
+  },
+
+  "analysis-unit-economics-ltv-cac-payback-period": {
+    id: "analysis-unit-economics-ltv-cac-payback-period",
+    name: "UnitEconomicsLTVCACPaybackPeriodSkill",
+    displayName: "Unit Economics LTV/CAC Payback Period",
+    categoryId: "analysis",
+    description: "Calculates Net LTV, Customer Acquisition Cost, and months to CAC payback.",
+    tags: ["analysis","analysis","unit","economics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Unit Economics LTV/CAC Payback Period Standards",
+      ruSectionName: "Стандарты и регламенты: Unit Economics LTV/CAC Payback Period",
+      instructions: [
+        "Apply core domain tenets for Unit Economics LTV/CAC Payback Period.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Unit Economics LTV/CAC Payback Period.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","unit","economics"],
+    }),
+  },
+
+  "analysis-cybersecurity-threat-surface-attack-vector": {
+    id: "analysis-cybersecurity-threat-surface-attack-vector",
+    name: "CybersecurityThreatSurfaceAttackVectorSkill",
+    displayName: "Cybersecurity Threat Surface & Attack Vector",
+    categoryId: "analysis",
+    description: "Maps attack surfaces, entry points, and vulnerability exploitation paths.",
+    tags: ["analysis","analysis","cybersecurity","threat"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cybersecurity Threat Surface & Attack Vector Standards",
+      ruSectionName: "Стандарты и регламенты: Cybersecurity Threat Surface & Attack Vector",
+      instructions: [
+        "Apply core domain tenets for Cybersecurity Threat Surface & Attack Vector.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cybersecurity Threat Surface & Attack Vector.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","cybersecurity","threat"],
+    }),
+  },
+
+  "analysis-market-sizing-tam-sam-som-bottom-up-model": {
+    id: "analysis-market-sizing-tam-sam-som-bottom-up-model",
+    name: "MarketSizingTAMSAMSOMBottomUpModelSkill",
+    displayName: "Market Sizing TAM SAM SOM Bottom-Up Model",
+    categoryId: "analysis",
+    description: "Builds realistic market sizing estimations using bottom-up unit calculations.",
+    tags: ["analysis","analysis","market","sizing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Market Sizing TAM SAM SOM Bottom-Up Model Standards",
+      ruSectionName: "Стандарты и регламенты: Market Sizing TAM SAM SOM Bottom-Up Model",
+      instructions: [
+        "Apply core domain tenets for Market Sizing TAM SAM SOM Bottom-Up Model.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Market Sizing TAM SAM SOM Bottom-Up Model.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","market","sizing"],
+    }),
+  },
+
+  "analysis-product-quality-defect-pareto-distribution": {
+    id: "analysis-product-quality-defect-pareto-distribution",
+    name: "ProductQualityDefectParetoDistributionSkill",
+    displayName: "Product Quality Defect Pareto Distribution",
+    categoryId: "analysis",
+    description: "Isolates the 20% of root defect causes responsible for 80% of product returns.",
+    tags: ["analysis","analysis","product","quality"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product Quality Defect Pareto Distribution Standards",
+      ruSectionName: "Стандарты и регламенты: Product Quality Defect Pareto Distribution",
+      instructions: [
+        "Apply core domain tenets for Product Quality Defect Pareto Distribution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Product Quality Defect Pareto Distribution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","product","quality"],
+    }),
+  },
+
+  "analysis-organizational-network-analysis-ona-communication": {
+    id: "analysis-organizational-network-analysis-ona-communication",
+    name: "OrganizationalNetworkAnalysisONACommunicationSkill",
+    displayName: "Organizational Network Analysis (ONA) Communication",
+    categoryId: "analysis",
+    description: "Maps informal communication channels and key influence hubs inside companies.",
+    tags: ["analysis","analysis","organizational","network"],
+    transform: createStandardSkillTransform({
+      sectionName: "Organizational Network Analysis (ONA) Communication Standards",
+      ruSectionName: "Стандарты и регламенты: Organizational Network Analysis (ONA) Communication",
+      instructions: [
+        "Apply core domain tenets for Organizational Network Analysis (ONA) Communication.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Organizational Network Analysis (ONA) Communication.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","organizational","network"],
+    }),
+  },
+
+  "analysis-vendor-sla-performance-penalty-credit-audit": {
+    id: "analysis-vendor-sla-performance-penalty-credit-audit",
+    name: "VendorSLAPerformancePenaltyCreditAuditSkill",
+    displayName: "Vendor SLA Performance & Penalty Credit Audit",
+    categoryId: "analysis",
+    description: "Audits vendor uptime and performance logs against contractual SLA penalties.",
+    tags: ["analysis","analysis","vendor","sla"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vendor SLA Performance & Penalty Credit Audit Standards",
+      ruSectionName: "Стандарты и регламенты: Vendor SLA Performance & Penalty Credit Audit",
+      instructions: [
+        "Apply core domain tenets for Vendor SLA Performance & Penalty Credit Audit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Vendor SLA Performance & Penalty Credit Audit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","vendor","sla"],
+    }),
+  },
+
+  "analysis-technology-debt-index-refactoring-impact": {
+    id: "analysis-technology-debt-index-refactoring-impact",
+    name: "TechnologyDebtIndexRefactoringImpactSkill",
+    displayName: "Technology Debt Index & Refactoring Impact",
+    categoryId: "analysis",
+    description: "Quantifies technical debt interest costs in terms of developer velocity loss.",
+    tags: ["analysis","analysis","technology","debt"],
+    transform: createStandardSkillTransform({
+      sectionName: "Technology Debt Index & Refactoring Impact Standards",
+      ruSectionName: "Стандарты и регламенты: Technology Debt Index & Refactoring Impact",
+      instructions: [
+        "Apply core domain tenets for Technology Debt Index & Refactoring Impact.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Technology Debt Index & Refactoring Impact.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","technology","debt"],
+    }),
+  },
+
+  "analysis-operational-bottleneck-theory-of-constraints-toc": {
+    id: "analysis-operational-bottleneck-theory-of-constraints-toc",
+    name: "OperationalBottleneckTheoryofConstraintsTOCSkill",
+    displayName: "Operational Bottleneck Theory of Constraints (TOC)",
+    categoryId: "analysis",
+    description: "Identifies and elevates the single constraint limiting throughput capacity.",
+    tags: ["analysis","analysis","operational","bottleneck"],
+    transform: createStandardSkillTransform({
+      sectionName: "Operational Bottleneck Theory of Constraints (TOC) Standards",
+      ruSectionName: "Стандарты и регламенты: Operational Bottleneck Theory of Constraints (TOC)",
+      instructions: [
+        "Apply core domain tenets for Operational Bottleneck Theory of Constraints (TOC).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Operational Bottleneck Theory of Constraints (TOC).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","operational","bottleneck"],
+    }),
+  },
+
+  "analysis-customer-journey-touchpoint-attribution": {
+    id: "analysis-customer-journey-touchpoint-attribution",
+    name: "CustomerJourneyTouchpointAttributionSkill",
+    displayName: "Customer Journey Touchpoint Attribution",
+    categoryId: "analysis",
+    description: "Allocates conversion credit across first-click, last-click, and multi-touch channels.",
+    tags: ["analysis","analysis","customer","journey"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Journey Touchpoint Attribution Standards",
+      ruSectionName: "Стандарты и регламенты: Customer Journey Touchpoint Attribution",
+      instructions: [
+        "Apply core domain tenets for Customer Journey Touchpoint Attribution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Customer Journey Touchpoint Attribution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","customer","journey"],
+    }),
+  },
+
+  "analysis-b2b-sales-pipeline-velocity-stage-conversion": {
+    id: "analysis-b2b-sales-pipeline-velocity-stage-conversion",
+    name: "B2BSalesPipelineVelocityStageConversionSkill",
+    displayName: "B2B Sales Pipeline Velocity & Stage Conversion",
+    categoryId: "analysis",
+    description: "Calculates sales velocity: `(Deals * Win Rate * Deal Size) / Cycle Length`.",
+    tags: ["analysis","analysis","b2b","sales"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Sales Pipeline Velocity & Stage Conversion Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Sales Pipeline Velocity & Stage Conversion",
+      instructions: [
+        "Apply core domain tenets for B2B Sales Pipeline Velocity & Stage Conversion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Sales Pipeline Velocity & Stage Conversion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","b2b","sales"],
+    }),
+  },
+
+  "analysis-esg-carbon-footprint-scope-1-3-inventory": {
+    id: "analysis-esg-carbon-footprint-scope-1-3-inventory",
+    name: "ESGCarbonFootprintScope13InventorySkill",
+    displayName: "ESG Carbon Footprint Scope 1-3 Inventory",
+    categoryId: "analysis",
+    description: "Audits direct and indirect corporate greenhouse gas emissions across value chains.",
+    tags: ["analysis","analysis","esg","carbon"],
+    transform: createStandardSkillTransform({
+      sectionName: "ESG Carbon Footprint Scope 1-3 Inventory Standards",
+      ruSectionName: "Стандарты и регламенты: ESG Carbon Footprint Scope 1-3 Inventory",
+      instructions: [
+        "Apply core domain tenets for ESG Carbon Footprint Scope 1-3 Inventory.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ESG Carbon Footprint Scope 1-3 Inventory.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","esg","carbon"],
+    }),
+  },
+
+  "analysis-commercial-real-estate-yield-cap-rate-audit": {
+    id: "analysis-commercial-real-estate-yield-cap-rate-audit",
+    name: "CommercialRealEstateYieldCapRateAuditSkill",
+    displayName: "Commercial Real Estate Yield & Cap Rate Audit",
+    categoryId: "analysis",
+    description: "Evaluates net operating income (NOI) and capitalization rates for properties.",
+    tags: ["analysis","analysis","commercial","real"],
+    transform: createStandardSkillTransform({
+      sectionName: "Commercial Real Estate Yield & Cap Rate Audit Standards",
+      ruSectionName: "Стандарты и регламенты: Commercial Real Estate Yield & Cap Rate Audit",
+      instructions: [
+        "Apply core domain tenets for Commercial Real Estate Yield & Cap Rate Audit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Commercial Real Estate Yield & Cap Rate Audit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","commercial","real"],
+    }),
+  },
+
+  "analysis-product-feature-usage-engagement-dropoff": {
+    id: "analysis-product-feature-usage-engagement-dropoff",
+    name: "ProductFeatureUsageEngagementDropoffSkill",
+    displayName: "Product Feature Usage & Engagement Dropoff",
+    categoryId: "analysis",
+    description: "Analyzes telemetry logs to find friction points where users abandon features.",
+    tags: ["analysis","analysis","product","feature"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product Feature Usage & Engagement Dropoff Standards",
+      ruSectionName: "Стандарты и регламенты: Product Feature Usage & Engagement Dropoff",
+      instructions: [
+        "Apply core domain tenets for Product Feature Usage & Engagement Dropoff.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Product Feature Usage & Engagement Dropoff.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","product","feature"],
+    }),
+  },
+
+  "analysis-geopolitical-country-risk-currency-hedging": {
+    id: "analysis-geopolitical-country-risk-currency-hedging",
+    name: "GeopoliticalCountryRiskCurrencyHedgingSkill",
+    displayName: "Geopolitical Country Risk & Currency Hedging",
+    categoryId: "analysis",
+    description: "Assesses sovereign risk, expropriation threat, and foreign exchange exposure.",
+    tags: ["analysis","analysis","geopolitical","country"],
+    transform: createStandardSkillTransform({
+      sectionName: "Geopolitical Country Risk & Currency Hedging Standards",
+      ruSectionName: "Стандарты и регламенты: Geopolitical Country Risk & Currency Hedging",
+      instructions: [
+        "Apply core domain tenets for Geopolitical Country Risk & Currency Hedging.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Geopolitical Country Risk & Currency Hedging.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","geopolitical","country"],
+    }),
+  },
+
+  "analysis-patent-landscape-prior-art-freedom-to-operate": {
+    id: "analysis-patent-landscape-prior-art-freedom-to-operate",
+    name: "PatentLandscapePriorArtFreedomtoOperateSkill",
+    displayName: "Patent Landscape Prior Art & Freedom to Operate",
+    categoryId: "analysis",
+    description: "Maps competitor patent filings to identify white space and infringement risks.",
+    tags: ["analysis","analysis","patent","landscape"],
+    transform: createStandardSkillTransform({
+      sectionName: "Patent Landscape Prior Art & Freedom to Operate Standards",
+      ruSectionName: "Стандарты и регламенты: Patent Landscape Prior Art & Freedom to Operate",
+      instructions: [
+        "Apply core domain tenets for Patent Landscape Prior Art & Freedom to Operate.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Patent Landscape Prior Art & Freedom to Operate.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","patent","landscape"],
+    }),
+  },
+
+  "analysis-inventory-turnover-days-sales-of-inventory-dsi": {
+    id: "analysis-inventory-turnover-days-sales-of-inventory-dsi",
+    name: "InventoryTurnoverDaysSalesofInventoryDSISkill",
+    displayName: "Inventory Turnover & Days Sales of Inventory (DSI)",
+    categoryId: "analysis",
+    description: "Evaluates inventory holding costs and stockout risk management.",
+    tags: ["analysis","analysis","inventory","turnover"],
+    transform: createStandardSkillTransform({
+      sectionName: "Inventory Turnover & Days Sales of Inventory (DSI) Standards",
+      ruSectionName: "Стандарты и регламенты: Inventory Turnover & Days Sales of Inventory (DSI)",
+      instructions: [
+        "Apply core domain tenets for Inventory Turnover & Days Sales of Inventory (DSI).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Inventory Turnover & Days Sales of Inventory (DSI).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","inventory","turnover"],
+    }),
+  },
+
+  "analysis-employee-turnover-retention-cohort-analysis": {
+    id: "analysis-employee-turnover-retention-cohort-analysis",
+    name: "EmployeeTurnoverRetentionCohortAnalysisSkill",
+    displayName: "Employee Turnover Retention Cohort Analysis",
+    categoryId: "analysis",
+    description: "Tracks employee tenure retention curves by department and manager cohort.",
+    tags: ["analysis","analysis","employee","turnover"],
+    transform: createStandardSkillTransform({
+      sectionName: "Employee Turnover Retention Cohort Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Employee Turnover Retention Cohort Analysis",
+      instructions: [
+        "Apply core domain tenets for Employee Turnover Retention Cohort Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Employee Turnover Retention Cohort Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","employee","turnover"],
+    }),
+  },
+
+  "analysis-software-infrastructure-cloud-cost-allocation-finops": {
+    id: "analysis-software-infrastructure-cloud-cost-allocation-finops",
+    name: "SoftwareInfrastructureCloudCostAllocationFinOpsSkill",
+    displayName: "Software Infrastructure Cloud Cost Allocation (FinOps)",
+    categoryId: "analysis",
+    description: "Attributes AWS/GCP cloud hosting spend down to individual product features.",
+    tags: ["analysis","analysis","software","infrastructure"],
+    transform: createStandardSkillTransform({
+      sectionName: "Software Infrastructure Cloud Cost Allocation (FinOps) Standards",
+      ruSectionName: "Стандарты и регламенты: Software Infrastructure Cloud Cost Allocation (FinOps)",
+      instructions: [
+        "Apply core domain tenets for Software Infrastructure Cloud Cost Allocation (FinOps).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Software Infrastructure Cloud Cost Allocation (FinOps).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","software","infrastructure"],
+    }),
+  },
+
+  "analysis-data-governance-lineage-metadata-provenance": {
+    id: "analysis-data-governance-lineage-metadata-provenance",
+    name: "DataGovernanceLineageMetadataProvenanceSkill",
+    displayName: "Data Governance Lineage & Metadata Provenance",
+    categoryId: "analysis",
+    description: "Traces raw data transformation lineage from source systems to dashboards.",
+    tags: ["analysis","analysis","data","governance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Data Governance Lineage & Metadata Provenance Standards",
+      ruSectionName: "Стандарты и регламенты: Data Governance Lineage & Metadata Provenance",
+      instructions: [
+        "Apply core domain tenets for Data Governance Lineage & Metadata Provenance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Data Governance Lineage & Metadata Provenance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","data","governance"],
+    }),
+  },
+
+  "analysis-franchise-unit-ebitda-payback-benchmarking": {
+    id: "analysis-franchise-unit-ebitda-payback-benchmarking",
+    name: "FranchiseUnitEBITDAPaybackBenchmarkingSkill",
+    displayName: "Franchise Unit EBITDA & Payback Benchmarking",
+    categoryId: "analysis",
+    description: "Audits franchisee location profitability and 4-wall margin consistency.",
+    tags: ["analysis","analysis","franchise","unit"],
+    transform: createStandardSkillTransform({
+      sectionName: "Franchise Unit EBITDA & Payback Benchmarking Standards",
+      ruSectionName: "Стандарты и регламенты: Franchise Unit EBITDA & Payback Benchmarking",
+      instructions: [
+        "Apply core domain tenets for Franchise Unit EBITDA & Payback Benchmarking.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Franchise Unit EBITDA & Payback Benchmarking.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","franchise","unit"],
+    }),
+  },
+
+  "analysis-public-relations-share-of-voice-sov-analysis": {
+    id: "analysis-public-relations-share-of-voice-sov-analysis",
+    name: "PublicRelationsShareofVoiceSOVAnalysisSkill",
+    displayName: "Public Relations Share of Voice (SOV) Analysis",
+    categoryId: "analysis",
+    description: "Measures brand media mention volume against key competitors.",
+    tags: ["analysis","analysis","public","relations"],
+    transform: createStandardSkillTransform({
+      sectionName: "Public Relations Share of Voice (SOV) Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Public Relations Share of Voice (SOV) Analysis",
+      instructions: [
+        "Apply core domain tenets for Public Relations Share of Voice (SOV) Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Public Relations Share of Voice (SOV) Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","public","relations"],
+    }),
+  },
+
+  "analysis-disaster-recovery-rpo-rto-gap-assessment": {
+    id: "analysis-disaster-recovery-rpo-rto-gap-assessment",
+    name: "DisasterRecoveryRPORTOGapAssessmentSkill",
+    displayName: "Disaster Recovery RPO/RTO Gap Assessment",
+    categoryId: "analysis",
+    description: "Audits actual backup restoration times against business continuity goals.",
+    tags: ["analysis","analysis","disaster","recovery"],
+    transform: createStandardSkillTransform({
+      sectionName: "Disaster Recovery RPO/RTO Gap Assessment Standards",
+      ruSectionName: "Стандарты и регламенты: Disaster Recovery RPO/RTO Gap Assessment",
+      instructions: [
+        "Apply core domain tenets for Disaster Recovery RPO/RTO Gap Assessment.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Disaster Recovery RPO/RTO Gap Assessment.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","disaster","recovery"],
+    }),
+  },
+
+  "analysis-customer-support-first-contact-resolution-fcr": {
+    id: "analysis-customer-support-first-contact-resolution-fcr",
+    name: "CustomerSupportFirstContactResolutionFCRSkill",
+    displayName: "Customer Support First Contact Resolution (FCR)",
+    categoryId: "analysis",
+    description: "Evaluates support ticket resolution efficiency and repeat contact rates.",
+    tags: ["analysis","analysis","customer","support"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Support First Contact Resolution (FCR) Standards",
+      ruSectionName: "Стандарты и регламенты: Customer Support First Contact Resolution (FCR)",
+      instructions: [
+        "Apply core domain tenets for Customer Support First Contact Resolution (FCR).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Customer Support First Contact Resolution (FCR).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","customer","support"],
+    }),
+  },
+
+  "analysis-e-commerce-cart-abandonment-cause-segmentation": {
+    id: "analysis-e-commerce-cart-abandonment-cause-segmentation",
+    name: "ECommerceCartAbandonmentCauseSegmentationSkill",
+    displayName: "E-Commerce Cart Abandonment Cause Segmentation",
+    categoryId: "analysis",
+    description: "Analyzes cart checkout dropoff causes: shipping costs, payment options, friction.",
+    tags: ["analysis","analysis","e","commerce"],
+    transform: createStandardSkillTransform({
+      sectionName: "E-Commerce Cart Abandonment Cause Segmentation Standards",
+      ruSectionName: "Стандарты и регламенты: E-Commerce Cart Abandonment Cause Segmentation",
+      instructions: [
+        "Apply core domain tenets for E-Commerce Cart Abandonment Cause Segmentation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для E-Commerce Cart Abandonment Cause Segmentation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","e","commerce"],
+    }),
+  },
+
+  "analysis-syndicated-retail-scanner-data-market-share": {
+    id: "analysis-syndicated-retail-scanner-data-market-share",
+    name: "SyndicatedRetailScannerDataMarketShareSkill",
+    displayName: "Syndicated Retail Scanner Data Market Share",
+    categoryId: "analysis",
+    description: "Analyzes POS retail sales data to track market share shifts by region.",
+    tags: ["analysis","analysis","syndicated","retail"],
+    transform: createStandardSkillTransform({
+      sectionName: "Syndicated Retail Scanner Data Market Share Standards",
+      ruSectionName: "Стандарты и регламенты: Syndicated Retail Scanner Data Market Share",
+      instructions: [
+        "Apply core domain tenets for Syndicated Retail Scanner Data Market Share.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Syndicated Retail Scanner Data Market Share.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","syndicated","retail"],
+    }),
+  },
+
+  "analysis-clinical-trial-primary-endpoint-statistical-power": {
+    id: "analysis-clinical-trial-primary-endpoint-statistical-power",
+    name: "ClinicalTrialPrimaryEndpointStatisticalPowerSkill",
+    displayName: "Clinical Trial Primary Endpoint Statistical Power",
+    categoryId: "analysis",
+    description: "Evaluates sample size power calculations for medical drug trial endpoints.",
+    tags: ["analysis","analysis","clinical","trial"],
+    transform: createStandardSkillTransform({
+      sectionName: "Clinical Trial Primary Endpoint Statistical Power Standards",
+      ruSectionName: "Стандарты и регламенты: Clinical Trial Primary Endpoint Statistical Power",
+      instructions: [
+        "Apply core domain tenets for Clinical Trial Primary Endpoint Statistical Power.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Clinical Trial Primary Endpoint Statistical Power.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","clinical","trial"],
+    }),
+  },
+
+  "analysis-saas-rule-of-40-efficiency-index": {
+    id: "analysis-saas-rule-of-40-efficiency-index",
+    name: "SaaSRuleof40EfficiencyIndexSkill",
+    displayName: "SaaS Rule of 40 Efficiency Index",
+    categoryId: "analysis",
+    description: "Calculates combined ARR growth rate + FCF margin score for SaaS health.",
+    tags: ["analysis","analysis","saas","rule"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Rule of 40 Efficiency Index Standards",
+      ruSectionName: "Стандарты и регламенты: SaaS Rule of 40 Efficiency Index",
+      instructions: [
+        "Apply core domain tenets for SaaS Rule of 40 Efficiency Index.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SaaS Rule of 40 Efficiency Index.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","saas","rule"],
+    }),
+  },
+
+  "analysis-algorithmic-trading-backtest-sharpe-ratio": {
+    id: "analysis-algorithmic-trading-backtest-sharpe-ratio",
+    name: "AlgorithmicTradingBacktestSharpeRatioSkill",
+    displayName: "Algorithmic Trading Backtest Sharpe Ratio",
+    categoryId: "analysis",
+    description: "Evaluates trading strategy risk-adjusted returns and maximum drawdown depth.",
+    tags: ["analysis","analysis","algorithmic","trading"],
+    transform: createStandardSkillTransform({
+      sectionName: "Algorithmic Trading Backtest Sharpe Ratio Standards",
+      ruSectionName: "Стандарты и регламенты: Algorithmic Trading Backtest Sharpe Ratio",
+      instructions: [
+        "Apply core domain tenets for Algorithmic Trading Backtest Sharpe Ratio.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Algorithmic Trading Backtest Sharpe Ratio.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","algorithmic","trading"],
+    }),
+  },
+
+  "analysis-energy-grid-peak-load-demand-response": {
+    id: "analysis-energy-grid-peak-load-demand-response",
+    name: "EnergyGridPeakLoadDemandResponseSkill",
+    displayName: "Energy Grid Peak Load & Demand Response",
+    categoryId: "analysis",
+    description: "Analyzes peak electricity demand patterns and load-shedding opportunities.",
+    tags: ["analysis","analysis","energy","grid"],
+    transform: createStandardSkillTransform({
+      sectionName: "Energy Grid Peak Load & Demand Response Standards",
+      ruSectionName: "Стандарты и регламенты: Energy Grid Peak Load & Demand Response",
+      instructions: [
+        "Apply core domain tenets for Energy Grid Peak Load & Demand Response.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Energy Grid Peak Load & Demand Response.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","energy","grid"],
+    }),
+  },
+
+  "analysis-supply-chain-bullwhip-demand-distortion": {
+    id: "analysis-supply-chain-bullwhip-demand-distortion",
+    name: "SupplyChainBullwhipDemandDistortionSkill",
+    displayName: "Supply Chain Bullwhip Demand Distortion",
+    categoryId: "analysis",
+    description: "Identifies demand forecast amplification across multi-tier distribution channels.",
+    tags: ["analysis","analysis","supply","chain"],
+    transform: createStandardSkillTransform({
+      sectionName: "Supply Chain Bullwhip Demand Distortion Standards",
+      ruSectionName: "Стандарты и регламенты: Supply Chain Bullwhip Demand Distortion",
+      instructions: [
+        "Apply core domain tenets for Supply Chain Bullwhip Demand Distortion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Supply Chain Bullwhip Demand Distortion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","supply","chain"],
+    }),
+  },
+
+  "analysis-mobile-app-aso-keyword-conversion-audit": {
+    id: "analysis-mobile-app-aso-keyword-conversion-audit",
+    name: "MobileAppASOKeywordConversionAuditSkill",
+    displayName: "Mobile App ASO Keyword Conversion Audit",
+    categoryId: "analysis",
+    description: "Analyzes app store search ranking factors and organic install conversion.",
+    tags: ["analysis","analysis","mobile","app"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mobile App ASO Keyword Conversion Audit Standards",
+      ruSectionName: "Стандарты и регламенты: Mobile App ASO Keyword Conversion Audit",
+      instructions: [
+        "Apply core domain tenets for Mobile App ASO Keyword Conversion Audit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Mobile App ASO Keyword Conversion Audit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","mobile","app"],
+    }),
+  },
+
+  "analysis-corporate-governance-board-composition-audit": {
+    id: "analysis-corporate-governance-board-composition-audit",
+    name: "CorporateGovernanceBoardCompositionAuditSkill",
+    displayName: "Corporate Governance Board Composition Audit",
+    categoryId: "analysis",
+    description: "Evaluates board independence, diversity, and committee oversight efficacy.",
+    tags: ["analysis","analysis","corporate","governance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Governance Board Composition Audit Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Governance Board Composition Audit",
+      instructions: [
+        "Apply core domain tenets for Corporate Governance Board Composition Audit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Governance Board Composition Audit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["analysis","analysis","corporate","governance"],
+    }),
+  },
 };

@@ -2988,4 +2988,1302 @@ export const CONTROL_FLOW_SKILLS: Record<string, SkillDefinition> = {
       tags: ["control-flow","multi-tenant","fair-share","dwrr","scheduling"],
     }),
   },
+  "control-flow-dynamic-rate-limiting-token-bucket-refill": {
+    id: "control-flow-dynamic-rate-limiting-token-bucket-refill",
+    name: "DynamicRateLimitingTokenBucketRefillSkill",
+    displayName: "Dynamic Rate Limiting Token Bucket Refill",
+    categoryId: "control_flow",
+    description: "Replenishes request quotas dynamically based on token bucket capacity.",
+    tags: ["control_flow","control-flow","flow","dynamic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dynamic Rate Limiting Token Bucket Refill Standards",
+      ruSectionName: "Стандарты и регламенты: Dynamic Rate Limiting Token Bucket Refill",
+      instructions: [
+        "Apply core domain tenets for Dynamic Rate Limiting Token Bucket Refill.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dynamic Rate Limiting Token Bucket Refill.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","dynamic"],
+    }),
+  },
+
+  "control-flow-cascading-fallback-chain-execution": {
+    id: "control-flow-cascading-fallback-chain-execution",
+    name: "CascadingFallbackChainExecutionSkill",
+    displayName: "Cascading Fallback Chain Execution",
+    categoryId: "control_flow",
+    description: "Executes multi-tiered fallback handlers sequentially until one succeeds.",
+    tags: ["control_flow","control-flow","flow","cascading"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cascading Fallback Chain Execution Standards",
+      ruSectionName: "Стандарты и регламенты: Cascading Fallback Chain Execution",
+      instructions: [
+        "Apply core domain tenets for Cascading Fallback Chain Execution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cascading Fallback Chain Execution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","cascading"],
+    }),
+  },
+
+  "control-flow-stateful-session-re-hydration-resume": {
+    id: "control-flow-stateful-session-re-hydration-resume",
+    name: "StatefulSessionRehydrationResumeSkill",
+    displayName: "Stateful Session Re-hydration & Resume",
+    categoryId: "control_flow",
+    description: "Restores execution state seamlessly from persistent database checkpoints.",
+    tags: ["control_flow","control-flow","flow","stateful"],
+    transform: createStandardSkillTransform({
+      sectionName: "Stateful Session Re-hydration & Resume Standards",
+      ruSectionName: "Стандарты и регламенты: Stateful Session Re-hydration & Resume",
+      instructions: [
+        "Apply core domain tenets for Stateful Session Re-hydration & Resume.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Stateful Session Re-hydration & Resume.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","stateful"],
+    }),
+  },
+
+  "control-flow-distributed-lock-acquisition-with-redlock": {
+    id: "control-flow-distributed-lock-acquisition-with-redlock",
+    name: "DistributedLockAcquisitionwithRedlockSkill",
+    displayName: "Distributed Lock Acquisition with Redlock",
+    categoryId: "control_flow",
+    description: "Secures multi-node distributed locks with automatic TTL lease renewal.",
+    tags: ["control_flow","control-flow","flow","distributed"],
+    transform: createStandardSkillTransform({
+      sectionName: "Distributed Lock Acquisition with Redlock Standards",
+      ruSectionName: "Стандарты и регламенты: Distributed Lock Acquisition with Redlock",
+      instructions: [
+        "Apply core domain tenets for Distributed Lock Acquisition with Redlock.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Distributed Lock Acquisition with Redlock.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","distributed"],
+    }),
+  },
+
+  "control-flow-dead-letter-queue-isolation-triage": {
+    id: "control-flow-dead-letter-queue-isolation-triage",
+    name: "DeadLetterQueueIsolationTriageSkill",
+    displayName: "Dead-Letter Queue Isolation & Triage",
+    categoryId: "control_flow",
+    description: "Isolates unprocessable poison-pill messages for manual inspection.",
+    tags: ["control_flow","control-flow","flow","dead"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dead-Letter Queue Isolation & Triage Standards",
+      ruSectionName: "Стандарты и регламенты: Dead-Letter Queue Isolation & Triage",
+      instructions: [
+        "Apply core domain tenets for Dead-Letter Queue Isolation & Triage.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dead-Letter Queue Isolation & Triage.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","dead"],
+    }),
+  },
+
+  "control-flow-scatter-gather-parallel-request-aggregation": {
+    id: "control-flow-scatter-gather-parallel-request-aggregation",
+    name: "ScatterGatherParallelRequestAggregationSkill",
+    displayName: "Scatter-Gather Parallel Request Aggregation",
+    categoryId: "control_flow",
+    description: "Broadcasts queries to multiple backends and merges responses.",
+    tags: ["control_flow","control-flow","flow","scatter"],
+    transform: createStandardSkillTransform({
+      sectionName: "Scatter-Gather Parallel Request Aggregation Standards",
+      ruSectionName: "Стандарты и регламенты: Scatter-Gather Parallel Request Aggregation",
+      instructions: [
+        "Apply core domain tenets for Scatter-Gather Parallel Request Aggregation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Scatter-Gather Parallel Request Aggregation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","scatter"],
+    }),
+  },
+
+  "control-flow-event-choreography-vs-centralized-orchestration": {
+    id: "control-flow-event-choreography-vs-centralized-orchestration",
+    name: "EventChoreographyvsCentralizedOrchestrationSkill",
+    displayName: "Event Choreography vs Centralized Orchestration",
+    categoryId: "control_flow",
+    description: "Manages distributed workflows using decoupled event messaging.",
+    tags: ["control_flow","control-flow","flow","event"],
+    transform: createStandardSkillTransform({
+      sectionName: "Event Choreography vs Centralized Orchestration Standards",
+      ruSectionName: "Стандарты и регламенты: Event Choreography vs Centralized Orchestration",
+      instructions: [
+        "Apply core domain tenets for Event Choreography vs Centralized Orchestration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Event Choreography vs Centralized Orchestration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","event"],
+    }),
+  },
+
+  "control-flow-hierarchical-abortsignal-cascade-cancellation": {
+    id: "control-flow-hierarchical-abortsignal-cascade-cancellation",
+    name: "HierarchicalAbortSignalCascadeCancellationSkill",
+    displayName: "Hierarchical AbortSignal Cascade Cancellation",
+    categoryId: "control_flow",
+    description: "Propagates cancellation signals down nested async task trees.",
+    tags: ["control_flow","control-flow","flow","hierarchical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hierarchical AbortSignal Cascade Cancellation Standards",
+      ruSectionName: "Стандарты и регламенты: Hierarchical AbortSignal Cascade Cancellation",
+      instructions: [
+        "Apply core domain tenets for Hierarchical AbortSignal Cascade Cancellation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hierarchical AbortSignal Cascade Cancellation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","hierarchical"],
+    }),
+  },
+
+  "control-flow-circuit-breaker-exponential-half-open-probe": {
+    id: "control-flow-circuit-breaker-exponential-half-open-probe",
+    name: "CircuitBreakerExponentialHalfOpenProbeSkill",
+    displayName: "Circuit Breaker Exponential Half-Open Probe",
+    categoryId: "control_flow",
+    description: "Probes recovering services with exponential backoff before full reset.",
+    tags: ["control_flow","control-flow","flow","circuit"],
+    transform: createStandardSkillTransform({
+      sectionName: "Circuit Breaker Exponential Half-Open Probe Standards",
+      ruSectionName: "Стандарты и регламенты: Circuit Breaker Exponential Half-Open Probe",
+      instructions: [
+        "Apply core domain tenets for Circuit Breaker Exponential Half-Open Probe.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Circuit Breaker Exponential Half-Open Probe.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","circuit"],
+    }),
+  },
+
+  "control-flow-idempotent-replay-window-nonce-verification": {
+    id: "control-flow-idempotent-replay-window-nonce-verification",
+    name: "IdempotentReplayWindowNonceVerificationSkill",
+    displayName: "Idempotent Replay Window Nonce Verification",
+    categoryId: "control_flow",
+    description: "Prevents replay attacks using cryptographically signed timestamped nonces.",
+    tags: ["control_flow","control-flow","flow","idempotent"],
+    transform: createStandardSkillTransform({
+      sectionName: "Idempotent Replay Window Nonce Verification Standards",
+      ruSectionName: "Стандарты и регламенты: Idempotent Replay Window Nonce Verification",
+      instructions: [
+        "Apply core domain tenets for Idempotent Replay Window Nonce Verification.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Idempotent Replay Window Nonce Verification.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","idempotent"],
+    }),
+  },
+
+  "control-flow-singleflight-in-flight-request-deduplication": {
+    id: "control-flow-singleflight-in-flight-request-deduplication",
+    name: "SingleflightInFlightRequestDeduplicationSkill",
+    displayName: "Singleflight In-Flight Request Deduplication",
+    categoryId: "control_flow",
+    description: "Shares single execution promise across simultaneous identical requests.",
+    tags: ["control_flow","control-flow","flow","singleflight"],
+    transform: createStandardSkillTransform({
+      sectionName: "Singleflight In-Flight Request Deduplication Standards",
+      ruSectionName: "Стандарты и регламенты: Singleflight In-Flight Request Deduplication",
+      instructions: [
+        "Apply core domain tenets for Singleflight In-Flight Request Deduplication.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Singleflight In-Flight Request Deduplication.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","singleflight"],
+    }),
+  },
+
+  "control-flow-transactional-outbox-pattern-for-cdc": {
+    id: "control-flow-transactional-outbox-pattern-for-cdc",
+    name: "TransactionalOutboxPatternforCDCSkill",
+    displayName: "Transactional Outbox Pattern for CDC",
+    categoryId: "control_flow",
+    description: "Ensures atomic database mutations and event publishing consistency.",
+    tags: ["control_flow","control-flow","flow","transactional"],
+    transform: createStandardSkillTransform({
+      sectionName: "Transactional Outbox Pattern for CDC Standards",
+      ruSectionName: "Стандарты и регламенты: Transactional Outbox Pattern for CDC",
+      instructions: [
+        "Apply core domain tenets for Transactional Outbox Pattern for CDC.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Transactional Outbox Pattern for CDC.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","transactional"],
+    }),
+  },
+
+  "control-flow-hedged-requests-for-tail-latency-elimination": {
+    id: "control-flow-hedged-requests-for-tail-latency-elimination",
+    name: "HedgedRequestsforTailLatencyEliminationSkill",
+    displayName: "Hedged Requests for Tail Latency Elimination",
+    categoryId: "control_flow",
+    description: "Dispatches backup requests to secondary nodes upon p95 delay.",
+    tags: ["control_flow","control-flow","flow","hedged"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hedged Requests for Tail Latency Elimination Standards",
+      ruSectionName: "Стандарты и регламенты: Hedged Requests for Tail Latency Elimination",
+      instructions: [
+        "Apply core domain tenets for Hedged Requests for Tail Latency Elimination.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hedged Requests for Tail Latency Elimination.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","hedged"],
+    }),
+  },
+
+  "control-flow-fencing-token-distributed-mutex-lock": {
+    id: "control-flow-fencing-token-distributed-mutex-lock",
+    name: "FencingTokenDistributedMutexLockSkill",
+    displayName: "Fencing Token Distributed Mutex Lock",
+    categoryId: "control_flow",
+    description: "Validates monotonic fencing tokens to prevent stale lock writes.",
+    tags: ["control_flow","control-flow","flow","fencing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fencing Token Distributed Mutex Lock Standards",
+      ruSectionName: "Стандарты и регламенты: Fencing Token Distributed Mutex Lock",
+      instructions: [
+        "Apply core domain tenets for Fencing Token Distributed Mutex Lock.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Fencing Token Distributed Mutex Lock.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","fencing"],
+    }),
+  },
+
+  "control-flow-statechart-history-states-preservation": {
+    id: "control-flow-statechart-history-states-preservation",
+    name: "StatechartHistoryStatesPreservationSkill",
+    displayName: "Statechart History States Preservation",
+    categoryId: "control_flow",
+    description: "Remembers sub-state configurations during temporary modal interrupts.",
+    tags: ["control_flow","control-flow","flow","statechart"],
+    transform: createStandardSkillTransform({
+      sectionName: "Statechart History States Preservation Standards",
+      ruSectionName: "Стандарты и регламенты: Statechart History States Preservation",
+      instructions: [
+        "Apply core domain tenets for Statechart History States Preservation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Statechart History States Preservation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","statechart"],
+    }),
+  },
+
+  "control-flow-server-sent-events-graceful-long-polling-downgrade": {
+    id: "control-flow-server-sent-events-graceful-long-polling-downgrade",
+    name: "ServerSentEventsGracefulLongPollingDowngradeSkill",
+    displayName: "Server-Sent Events Graceful Long-Polling Downgrade",
+    categoryId: "control_flow",
+    description: "Falls back to long-polling when SSE streaming is blocked by proxy.",
+    tags: ["control_flow","control-flow","flow","server"],
+    transform: createStandardSkillTransform({
+      sectionName: "Server-Sent Events Graceful Long-Polling Downgrade Standards",
+      ruSectionName: "Стандарты и регламенты: Server-Sent Events Graceful Long-Polling Downgrade",
+      instructions: [
+        "Apply core domain tenets for Server-Sent Events Graceful Long-Polling Downgrade.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Server-Sent Events Graceful Long-Polling Downgrade.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","server"],
+    }),
+  },
+
+  "control-flow-bloom-filter-webhook-idempotency-check": {
+    id: "control-flow-bloom-filter-webhook-idempotency-check",
+    name: "BloomFilterWebhookIdempotencyCheckSkill",
+    displayName: "Bloom Filter Webhook Idempotency Check",
+    categoryId: "control_flow",
+    description: "Pre-filters duplicate webhooks instantly with zero DB lookup.",
+    tags: ["control_flow","control-flow","flow","bloom"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bloom Filter Webhook Idempotency Check Standards",
+      ruSectionName: "Стандарты и регламенты: Bloom Filter Webhook Idempotency Check",
+      instructions: [
+        "Apply core domain tenets for Bloom Filter Webhook Idempotency Check.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Bloom Filter Webhook Idempotency Check.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","bloom"],
+    }),
+  },
+
+  "control-flow-codel-queue-sojourn-time-load-shedding": {
+    id: "control-flow-codel-queue-sojourn-time-load-shedding",
+    name: "CoDelQueueSojournTimeLoadSheddingSkill",
+    displayName: "CoDel Queue Sojourn Time Load Shedding",
+    categoryId: "control_flow",
+    description: "Sheds excess load dynamically when queue waiting times exceed SLOs.",
+    tags: ["control_flow","control-flow","flow","codel"],
+    transform: createStandardSkillTransform({
+      sectionName: "CoDel Queue Sojourn Time Load Shedding Standards",
+      ruSectionName: "Стандарты и регламенты: CoDel Queue Sojourn Time Load Shedding",
+      instructions: [
+        "Apply core domain tenets for CoDel Queue Sojourn Time Load Shedding.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для CoDel Queue Sojourn Time Load Shedding.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","codel"],
+    }),
+  },
+
+  "control-flow-work-stealing-task-queue-thread-pool": {
+    id: "control-flow-work-stealing-task-queue-thread-pool",
+    name: "WorkStealingTaskQueueThreadPoolSkill",
+    displayName: "Work-Stealing Task Queue Thread Pool",
+    categoryId: "control_flow",
+    description: "Balances multi-threaded CPU load using lock-free task stealing.",
+    tags: ["control_flow","control-flow","flow","work"],
+    transform: createStandardSkillTransform({
+      sectionName: "Work-Stealing Task Queue Thread Pool Standards",
+      ruSectionName: "Стандарты и регламенты: Work-Stealing Task Queue Thread Pool",
+      instructions: [
+        "Apply core domain tenets for Work-Stealing Task Queue Thread Pool.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Work-Stealing Task Queue Thread Pool.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","work"],
+    }),
+  },
+
+  "control-flow-llm-semantic-intent-classifier-dispatch": {
+    id: "control-flow-llm-semantic-intent-classifier-dispatch",
+    name: "LLMSemanticIntentClassifierDispatchSkill",
+    displayName: "LLM Semantic Intent Classifier Dispatch",
+    categoryId: "control_flow",
+    description: "Routes user prompts to specialized tools via intent classification.",
+    tags: ["control_flow","control-flow","flow","llm"],
+    transform: createStandardSkillTransform({
+      sectionName: "LLM Semantic Intent Classifier Dispatch Standards",
+      ruSectionName: "Стандарты и регламенты: LLM Semantic Intent Classifier Dispatch",
+      instructions: [
+        "Apply core domain tenets for LLM Semantic Intent Classifier Dispatch.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для LLM Semantic Intent Classifier Dispatch.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","llm"],
+    }),
+  },
+
+  "control-flow-priority-inversion-prevention-protocol": {
+    id: "control-flow-priority-inversion-prevention-protocol",
+    name: "PriorityInversionPreventionProtocolSkill",
+    displayName: "Priority Inversion Prevention Protocol",
+    categoryId: "control_flow",
+    description: "Elevates priority of low-priority tasks holding critical locks.",
+    tags: ["control_flow","control-flow","flow","priority"],
+    transform: createStandardSkillTransform({
+      sectionName: "Priority Inversion Prevention Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Priority Inversion Prevention Protocol",
+      instructions: [
+        "Apply core domain tenets for Priority Inversion Prevention Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Priority Inversion Prevention Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","priority"],
+    }),
+  },
+
+  "control-flow-hot-path-branch-prediction-hinting": {
+    id: "control-flow-hot-path-branch-prediction-hinting",
+    name: "HotPathBranchPredictionHintingSkill",
+    displayName: "Hot-Path Branch Prediction Hinting",
+    categoryId: "control_flow",
+    description: "Structures conditionals to optimize CPU instruction cache locality.",
+    tags: ["control_flow","control-flow","flow","hot"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hot-Path Branch Prediction Hinting Standards",
+      ruSectionName: "Стандарты и регламенты: Hot-Path Branch Prediction Hinting",
+      instructions: [
+        "Apply core domain tenets for Hot-Path Branch Prediction Hinting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hot-Path Branch Prediction Hinting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","hot"],
+    }),
+  },
+
+  "control-flow-hierarchical-timeout-deadline-propagation": {
+    id: "control-flow-hierarchical-timeout-deadline-propagation",
+    name: "HierarchicalTimeoutDeadlinePropagationSkill",
+    displayName: "Hierarchical Timeout Deadline Propagation",
+    categoryId: "control_flow",
+    description: "Passes shrinking execution deadlines across microservice hops.",
+    tags: ["control_flow","control-flow","flow","hierarchical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hierarchical Timeout Deadline Propagation Standards",
+      ruSectionName: "Стандарты и регламенты: Hierarchical Timeout Deadline Propagation",
+      instructions: [
+        "Apply core domain tenets for Hierarchical Timeout Deadline Propagation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hierarchical Timeout Deadline Propagation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","hierarchical"],
+    }),
+  },
+
+  "control-flow-event-sourcing-periodic-snapshotting": {
+    id: "control-flow-event-sourcing-periodic-snapshotting",
+    name: "EventSourcingPeriodicSnapshottingSkill",
+    displayName: "Event Sourcing Periodic Snapshotting",
+    categoryId: "control_flow",
+    description: "Accelerates aggregate hydration using periodic checkpoint snapshots.",
+    tags: ["control_flow","control-flow","flow","event"],
+    transform: createStandardSkillTransform({
+      sectionName: "Event Sourcing Periodic Snapshotting Standards",
+      ruSectionName: "Стандарты и регламенты: Event Sourcing Periodic Snapshotting",
+      instructions: [
+        "Apply core domain tenets for Event Sourcing Periodic Snapshotting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Event Sourcing Periodic Snapshotting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","event"],
+    }),
+  },
+
+  "control-flow-go-channel-style-csp-pipeline-buffering": {
+    id: "control-flow-go-channel-style-csp-pipeline-buffering",
+    name: "GoChannelStyleCSPPipelineBufferingSkill",
+    displayName: "Go-Channel Style CSP Pipeline Buffering",
+    categoryId: "control_flow",
+    description: "Connects concurrent pipeline stages with bounded FIFO channels.",
+    tags: ["control_flow","control-flow","flow","go"],
+    transform: createStandardSkillTransform({
+      sectionName: "Go-Channel Style CSP Pipeline Buffering Standards",
+      ruSectionName: "Стандарты и регламенты: Go-Channel Style CSP Pipeline Buffering",
+      instructions: [
+        "Apply core domain tenets for Go-Channel Style CSP Pipeline Buffering.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Go-Channel Style CSP Pipeline Buffering.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","go"],
+    }),
+  },
+
+  "control-flow-multi-region-active-passive-dns-failover": {
+    id: "control-flow-multi-region-active-passive-dns-failover",
+    name: "MultiRegionActivePassiveDNSFailoverSkill",
+    displayName: "Multi-Region Active-Passive DNS Failover",
+    categoryId: "control_flow",
+    description: "Reroutes global traffic on edge health check probe failures.",
+    tags: ["control_flow","control-flow","flow","multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Region Active-Passive DNS Failover Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Region Active-Passive DNS Failover",
+      instructions: [
+        "Apply core domain tenets for Multi-Region Active-Passive DNS Failover.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Region Active-Passive DNS Failover.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","multi"],
+    }),
+  },
+
+  "control-flow-client-side-retry-budget-token-bucket": {
+    id: "control-flow-client-side-retry-budget-token-bucket",
+    name: "ClientSideRetryBudgetTokenBucketSkill",
+    displayName: "Client-Side Retry Budget Token Bucket",
+    categoryId: "control_flow",
+    description: "Limits retry attempts to a fixed percentage of total outbound traffic.",
+    tags: ["control_flow","control-flow","flow","client"],
+    transform: createStandardSkillTransform({
+      sectionName: "Client-Side Retry Budget Token Bucket Standards",
+      ruSectionName: "Стандарты и регламенты: Client-Side Retry Budget Token Bucket",
+      instructions: [
+        "Apply core domain tenets for Client-Side Retry Budget Token Bucket.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Client-Side Retry Budget Token Bucket.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","client"],
+    }),
+  },
+
+  "control-flow-cost-aware-speculative-request-hedging": {
+    id: "control-flow-cost-aware-speculative-request-hedging",
+    name: "CostAwareSpeculativeRequestHedgingSkill",
+    displayName: "Cost-Aware Speculative Request Hedging",
+    categoryId: "control_flow",
+    description: "Executes hedged requests selectively based on user tier and cost.",
+    tags: ["control_flow","control-flow","flow","cost"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cost-Aware Speculative Request Hedging Standards",
+      ruSectionName: "Стандарты и регламенты: Cost-Aware Speculative Request Hedging",
+      instructions: [
+        "Apply core domain tenets for Cost-Aware Speculative Request Hedging.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cost-Aware Speculative Request Hedging.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","cost"],
+    }),
+  },
+
+  "control-flow-linearizable-read-index-optimization-in-raft": {
+    id: "control-flow-linearizable-read-index-optimization-in-raft",
+    name: "LinearizableReadIndexOptimizationinRaftSkill",
+    displayName: "Linearizable Read Index Optimization in Raft",
+    categoryId: "control_flow",
+    description: "Serves linearizable reads from leader without full log consensus.",
+    tags: ["control_flow","control-flow","flow","linearizable"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linearizable Read Index Optimization in Raft Standards",
+      ruSectionName: "Стандарты и регламенты: Linearizable Read Index Optimization in Raft",
+      instructions: [
+        "Apply core domain tenets for Linearizable Read Index Optimization in Raft.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linearizable Read Index Optimization in Raft.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","linearizable"],
+    }),
+  },
+
+  "control-flow-declarative-rule-engine-rete-network-matching": {
+    id: "control-flow-declarative-rule-engine-rete-network-matching",
+    name: "DeclarativeRuleEngineReteNetworkMatchingSkill",
+    displayName: "Declarative Rule Engine Rete Network Matching",
+    categoryId: "control_flow",
+    description: "Evaluates thousands of conditional rules in sub-millisecond time.",
+    tags: ["control_flow","control-flow","flow","declarative"],
+    transform: createStandardSkillTransform({
+      sectionName: "Declarative Rule Engine Rete Network Matching Standards",
+      ruSectionName: "Стандарты и регламенты: Declarative Rule Engine Rete Network Matching",
+      instructions: [
+        "Apply core domain tenets for Declarative Rule Engine Rete Network Matching.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Declarative Rule Engine Rete Network Matching.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","declarative"],
+    }),
+  },
+
+  "control-flow-fine-grained-reactive-signal-graph": {
+    id: "control-flow-fine-grained-reactive-signal-graph",
+    name: "FineGrainedReactiveSignalGraphSkill",
+    displayName: "Fine-Grained Reactive Signal Graph",
+    categoryId: "control_flow",
+    description: "Propagates state updates without virtual DOM diffing overhead.",
+    tags: ["control_flow","control-flow","flow","fine"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fine-Grained Reactive Signal Graph Standards",
+      ruSectionName: "Стандарты и регламенты: Fine-Grained Reactive Signal Graph",
+      instructions: [
+        "Apply core domain tenets for Fine-Grained Reactive Signal Graph.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Fine-Grained Reactive Signal Graph.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","fine"],
+    }),
+  },
+
+  "control-flow-leading-and-trailing-edge-event-throttling": {
+    id: "control-flow-leading-and-trailing-edge-event-throttling",
+    name: "LeadingandTrailingEdgeEventThrottlingSkill",
+    displayName: "Leading and Trailing Edge Event Throttling",
+    categoryId: "control_flow",
+    description: "Configures event execution pacing with immediate or delayed invocation.",
+    tags: ["control_flow","control-flow","flow","leading"],
+    transform: createStandardSkillTransform({
+      sectionName: "Leading and Trailing Edge Event Throttling Standards",
+      ruSectionName: "Стандарты и регламенты: Leading and Trailing Edge Event Throttling",
+      instructions: [
+        "Apply core domain tenets for Leading and Trailing Edge Event Throttling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Leading and Trailing Edge Event Throttling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","leading"],
+    }),
+  },
+
+  "control-flow-stale-while-revalidate-async-cache-refresh": {
+    id: "control-flow-stale-while-revalidate-async-cache-refresh",
+    name: "StaleWhileRevalidateAsyncCacheRefreshSkill",
+    displayName: "Stale-While-Revalidate Async Cache Refresh",
+    categoryId: "control_flow",
+    description: "Returns cached data instantly while refreshing fresh data in background.",
+    tags: ["control_flow","control-flow","flow","stale"],
+    transform: createStandardSkillTransform({
+      sectionName: "Stale-While-Revalidate Async Cache Refresh Standards",
+      ruSectionName: "Стандарты и регламенты: Stale-While-Revalidate Async Cache Refresh",
+      instructions: [
+        "Apply core domain tenets for Stale-While-Revalidate Async Cache Refresh.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Stale-While-Revalidate Async Cache Refresh.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","stale"],
+    }),
+  },
+
+  "control-flow-typescript-explicit-async-resource-disposal": {
+    id: "control-flow-typescript-explicit-async-resource-disposal",
+    name: "TypeScriptExplicitAsyncResourceDisposalSkill",
+    displayName: "TypeScript Explicit Async Resource Disposal",
+    categoryId: "control_flow",
+    description: "Guarantees resource cleanup using `Symbol.asyncDispose` syntax.",
+    tags: ["control_flow","control-flow","flow","typescript"],
+    transform: createStandardSkillTransform({
+      sectionName: "TypeScript Explicit Async Resource Disposal Standards",
+      ruSectionName: "Стандарты и регламенты: TypeScript Explicit Async Resource Disposal",
+      instructions: [
+        "Apply core domain tenets for TypeScript Explicit Async Resource Disposal.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для TypeScript Explicit Async Resource Disposal.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","typescript"],
+    }),
+  },
+
+  "control-flow-aimd-adaptive-concurrency-limits": {
+    id: "control-flow-aimd-adaptive-concurrency-limits",
+    name: "AIMDAdaptiveConcurrencyLimitsSkill",
+    displayName: "AIMD Adaptive Concurrency Limits",
+    categoryId: "control_flow",
+    description: "Adjusts outbound concurrency limits dynamically based on RTT latency.",
+    tags: ["control_flow","control-flow","flow","aimd"],
+    transform: createStandardSkillTransform({
+      sectionName: "AIMD Adaptive Concurrency Limits Standards",
+      ruSectionName: "Стандарты и регламенты: AIMD Adaptive Concurrency Limits",
+      instructions: [
+        "Apply core domain tenets for AIMD Adaptive Concurrency Limits.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AIMD Adaptive Concurrency Limits.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","aimd"],
+    }),
+  },
+
+  "control-flow-self-healing-state-purge-memory-recycling": {
+    id: "control-flow-self-healing-state-purge-memory-recycling",
+    name: "SelfHealingStatePurgeMemoryRecyclingSkill",
+    displayName: "Self-Healing State Purge & Memory Recycling",
+    categoryId: "control_flow",
+    description: "Purges ephemeral state and recycles pools upon memory pressure.",
+    tags: ["control_flow","control-flow","flow","self"],
+    transform: createStandardSkillTransform({
+      sectionName: "Self-Healing State Purge & Memory Recycling Standards",
+      ruSectionName: "Стандарты и регламенты: Self-Healing State Purge & Memory Recycling",
+      instructions: [
+        "Apply core domain tenets for Self-Healing State Purge & Memory Recycling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Self-Healing State Purge & Memory Recycling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","self"],
+    }),
+  },
+
+  "control-flow-multi-tenant-deficit-weighted-round-robin": {
+    id: "control-flow-multi-tenant-deficit-weighted-round-robin",
+    name: "MultiTenantDeficitWeightedRoundRobinSkill",
+    displayName: "Multi-Tenant Deficit Weighted Round-Robin",
+    categoryId: "control_flow",
+    description: "Allocates worker execution fairly across competing tenant queues.",
+    tags: ["control_flow","control-flow","flow","multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Tenant Deficit Weighted Round-Robin Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Tenant Deficit Weighted Round-Robin",
+      instructions: [
+        "Apply core domain tenets for Multi-Tenant Deficit Weighted Round-Robin.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Tenant Deficit Weighted Round-Robin.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","multi"],
+    }),
+  },
+
+  "control-flow-graceful-process-termination-sigterm-drain": {
+    id: "control-flow-graceful-process-termination-sigterm-drain",
+    name: "GracefulProcessTerminationSIGTERMDrainSkill",
+    displayName: "Graceful Process Termination SIGTERM Drain",
+    categoryId: "control_flow",
+    description: "Drains in-flight requests cleanly on process termination signals.",
+    tags: ["control_flow","control-flow","flow","graceful"],
+    transform: createStandardSkillTransform({
+      sectionName: "Graceful Process Termination SIGTERM Drain Standards",
+      ruSectionName: "Стандарты и регламенты: Graceful Process Termination SIGTERM Drain",
+      instructions: [
+        "Apply core domain tenets for Graceful Process Termination SIGTERM Drain.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Graceful Process Termination SIGTERM Drain.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","graceful"],
+    }),
+  },
+
+  "control-flow-optimistic-concurrency-compare-and-swap": {
+    id: "control-flow-optimistic-concurrency-compare-and-swap",
+    name: "OptimisticConcurrencyCompareAndSwapSkill",
+    displayName: "Optimistic Concurrency Compare-And-Swap",
+    categoryId: "control_flow",
+    description: "Guards against lost updates using version column updates.",
+    tags: ["control_flow","control-flow","flow","optimistic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Optimistic Concurrency Compare-And-Swap Standards",
+      ruSectionName: "Стандарты и регламенты: Optimistic Concurrency Compare-And-Swap",
+      instructions: [
+        "Apply core domain tenets for Optimistic Concurrency Compare-And-Swap.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Optimistic Concurrency Compare-And-Swap.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","optimistic"],
+    }),
+  },
+
+  "control-flow-2pc-two-phase-commit-atomic-coordination": {
+    id: "control-flow-2pc-two-phase-commit-atomic-coordination",
+    name: "2PCTwoPhaseCommitAtomicCoordinationSkill",
+    displayName: "2PC Two-Phase Commit Atomic Coordination",
+    categoryId: "control_flow",
+    description: "Guarantees atomic multi-database transactions via Prepare/Commit.",
+    tags: ["control_flow","control-flow","flow","2pc"],
+    transform: createStandardSkillTransform({
+      sectionName: "2PC Two-Phase Commit Atomic Coordination Standards",
+      ruSectionName: "Стандарты и регламенты: 2PC Two-Phase Commit Atomic Coordination",
+      instructions: [
+        "Apply core domain tenets for 2PC Two-Phase Commit Atomic Coordination.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для 2PC Two-Phase Commit Atomic Coordination.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","2pc"],
+    }),
+  },
+
+  "control-flow-reactive-backpressure-flow-control": {
+    id: "control-flow-reactive-backpressure-flow-control",
+    name: "ReactiveBackpressureFlowControlSkill",
+    displayName: "Reactive Backpressure Flow Control",
+    categoryId: "control_flow",
+    description: "Prevents fast producers from overwhelming slow consumers.",
+    tags: ["control_flow","control-flow","flow","reactive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Reactive Backpressure Flow Control Standards",
+      ruSectionName: "Стандарты и регламенты: Reactive Backpressure Flow Control",
+      instructions: [
+        "Apply core domain tenets for Reactive Backpressure Flow Control.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Reactive Backpressure Flow Control.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","reactive"],
+    }),
+  },
+
+  "control-flow-debounce-search-input-key-pacing": {
+    id: "control-flow-debounce-search-input-key-pacing",
+    name: "DebounceSearchInputKeyPacingSkill",
+    displayName: "Debounce Search Input Key Pacing",
+    categoryId: "control_flow",
+    description: "Delays search execution until user stops typing for N milliseconds.",
+    tags: ["control_flow","control-flow","flow","debounce"],
+    transform: createStandardSkillTransform({
+      sectionName: "Debounce Search Input Key Pacing Standards",
+      ruSectionName: "Стандарты и регламенты: Debounce Search Input Key Pacing",
+      instructions: [
+        "Apply core domain tenets for Debounce Search Input Key Pacing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Debounce Search Input Key Pacing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","debounce"],
+    }),
+  },
+
+  "control-flow-middleware-pipeline-onion-execution": {
+    id: "control-flow-middleware-pipeline-onion-execution",
+    name: "MiddlewarePipelineOnionExecutionSkill",
+    displayName: "Middleware Pipeline Onion Execution",
+    categoryId: "control_flow",
+    description: "Executes request pipelines through composable middleware layers.",
+    tags: ["control_flow","control-flow","flow","middleware"],
+    transform: createStandardSkillTransform({
+      sectionName: "Middleware Pipeline Onion Execution Standards",
+      ruSectionName: "Стандарты и регламенты: Middleware Pipeline Onion Execution",
+      instructions: [
+        "Apply core domain tenets for Middleware Pipeline Onion Execution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Middleware Pipeline Onion Execution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","middleware"],
+    }),
+  },
+
+  "control-flow-swim-gossip-protocol-cluster-membership": {
+    id: "control-flow-swim-gossip-protocol-cluster-membership",
+    name: "SWIMGossipProtocolClusterMembershipSkill",
+    displayName: "SWIM Gossip Protocol Cluster Membership",
+    categoryId: "control_flow",
+    description: "Detects cluster node failures using peer-to-peer gossip messages.",
+    tags: ["control_flow","control-flow","flow","swim"],
+    transform: createStandardSkillTransform({
+      sectionName: "SWIM Gossip Protocol Cluster Membership Standards",
+      ruSectionName: "Стандарты и регламенты: SWIM Gossip Protocol Cluster Membership",
+      instructions: [
+        "Apply core domain tenets for SWIM Gossip Protocol Cluster Membership.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SWIM Gossip Protocol Cluster Membership.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","swim"],
+    }),
+  },
+
+  "control-flow-cqrs-asynchronous-event-projection-replay": {
+    id: "control-flow-cqrs-asynchronous-event-projection-replay",
+    name: "CQRSAsynchronousEventProjectionReplaySkill",
+    displayName: "CQRS Asynchronous Event Projection Replay",
+    categoryId: "control_flow",
+    description: "Rebuilds read models by replaying past event streams.",
+    tags: ["control_flow","control-flow","flow","cqrs"],
+    transform: createStandardSkillTransform({
+      sectionName: "CQRS Asynchronous Event Projection Replay Standards",
+      ruSectionName: "Стандарты и регламенты: CQRS Asynchronous Event Projection Replay",
+      instructions: [
+        "Apply core domain tenets for CQRS Asynchronous Event Projection Replay.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для CQRS Asynchronous Event Projection Replay.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","cqrs"],
+    }),
+  },
+
+  "control-flow-fork-join-parallel-recursive-execution": {
+    id: "control-flow-fork-join-parallel-recursive-execution",
+    name: "ForkJoinParallelRecursiveExecutionSkill",
+    displayName: "Fork-Join Parallel Recursive Execution",
+    categoryId: "control_flow",
+    description: "Splits large tasks recursively and joins outputs asynchronously.",
+    tags: ["control_flow","control-flow","flow","fork"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fork-Join Parallel Recursive Execution Standards",
+      ruSectionName: "Стандарты и регламенты: Fork-Join Parallel Recursive Execution",
+      instructions: [
+        "Apply core domain tenets for Fork-Join Parallel Recursive Execution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Fork-Join Parallel Recursive Execution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","fork"],
+    }),
+  },
+
+  "control-flow-token-bucket-rate-limiter-with-burst-support": {
+    id: "control-flow-token-bucket-rate-limiter-with-burst-support",
+    name: "TokenBucketRateLimiterwithBurstSupportSkill",
+    displayName: "Token Bucket Rate Limiter with Burst Support",
+    categoryId: "control_flow",
+    description: "Enforces smooth rate limits while allowing short traffic bursts.",
+    tags: ["control_flow","control-flow","flow","token"],
+    transform: createStandardSkillTransform({
+      sectionName: "Token Bucket Rate Limiter with Burst Support Standards",
+      ruSectionName: "Стандарты и регламенты: Token Bucket Rate Limiter with Burst Support",
+      instructions: [
+        "Apply core domain tenets for Token Bucket Rate Limiter with Burst Support.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Token Bucket Rate Limiter with Burst Support.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","token"],
+    }),
+  },
+
+  "control-flow-sliding-window-log-redis-deduplication": {
+    id: "control-flow-sliding-window-log-redis-deduplication",
+    name: "SlidingWindowLogRedisDeduplicationSkill",
+    displayName: "Sliding Window Log Redis Deduplication",
+    categoryId: "control_flow",
+    description: "Tracks request timestamps in sorted sets to prevent burst attacks.",
+    tags: ["control_flow","control-flow","flow","sliding"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sliding Window Log Redis Deduplication Standards",
+      ruSectionName: "Стандарты и регламенты: Sliding Window Log Redis Deduplication",
+      instructions: [
+        "Apply core domain tenets for Sliding Window Log Redis Deduplication.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sliding Window Log Redis Deduplication.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","sliding"],
+    }),
+  },
+
+  "control-flow-actor-model-mailbox-isolated-state": {
+    id: "control-flow-actor-model-mailbox-isolated-state",
+    name: "ActorModelMailboxIsolatedStateSkill",
+    displayName: "Actor Model Mailbox Isolated State",
+    categoryId: "control_flow",
+    description: "Processes messages sequentially in isolated actor memory loops.",
+    tags: ["control_flow","control-flow","flow","actor"],
+    transform: createStandardSkillTransform({
+      sectionName: "Actor Model Mailbox Isolated State Standards",
+      ruSectionName: "Стандарты и регламенты: Actor Model Mailbox Isolated State",
+      instructions: [
+        "Apply core domain tenets for Actor Model Mailbox Isolated State.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Actor Model Mailbox Isolated State.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["control_flow","control-flow","flow","actor"],
+    }),
+  },
+  "controlflow-final-distributed-saga-transaction-choreography-orchestration": {
+    id: "controlflow-final-distributed-saga-transaction-choreography-orchestration",
+    name: "DistributedSagaTransactionChoreographyOrchestrationSkill",
+    displayName: "Distributed Saga Transaction Choreography Orchestration",
+    categoryId: "controlFlow",
+    description: "Manages multi-service distributed transactions with forward execution and compensations.",
+    tags: ["controlFlow","controlflow-final","final","distributed"],
+    transform: createStandardSkillTransform({
+      sectionName: "Distributed Saga Transaction Choreography Orchestration Standards",
+      ruSectionName: "Стандарты и регламенты: Distributed Saga Transaction Choreography Orchestration",
+      instructions: [
+        "Apply core domain tenets for Distributed Saga Transaction Choreography Orchestration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Distributed Saga Transaction Choreography Orchestration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","controlflow-final","final","distributed"],
+    }),
+  },
+
+  "controlflow-final-rate-limiting-sliding-window-counter-algorithm": {
+    id: "controlflow-final-rate-limiting-sliding-window-counter-algorithm",
+    name: "RateLimitingSlidingWindowCounterAlgorithmSkill",
+    displayName: "Rate-Limiting Sliding Window Counter Algorithm",
+    categoryId: "controlFlow",
+    description: "Implements high-accuracy sliding window rate limiters for API gateway protection.",
+    tags: ["controlFlow","controlflow-final","final","rate"],
+    transform: createStandardSkillTransform({
+      sectionName: "Rate-Limiting Sliding Window Counter Algorithm Standards",
+      ruSectionName: "Стандарты и регламенты: Rate-Limiting Sliding Window Counter Algorithm",
+      instructions: [
+        "Apply core domain tenets for Rate-Limiting Sliding Window Counter Algorithm.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Rate-Limiting Sliding Window Counter Algorithm.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","controlflow-final","final","rate"],
+    }),
+  },
+
+  "controlflow-final-master-control-flow-architecture-execution-control": {
+    id: "controlflow-final-master-control-flow-architecture-execution-control",
+    name: "MasterControlFlowArchitectureExecutionControlSkill",
+    displayName: "Master Control Flow Architecture Execution Control",
+    categoryId: "controlFlow",
+    description: "Enforces world-class workflow routing, state machines, and resilient execution control.",
+    tags: ["controlFlow","controlflow-final","final","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Control Flow Architecture Execution Control Standards",
+      ruSectionName: "Стандарты и регламенты: Master Control Flow Architecture Execution Control",
+      instructions: [
+        "Apply core domain tenets for Master Control Flow Architecture Execution Control.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Control Flow Architecture Execution Control.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["controlFlow","controlflow-final","final","master"],
+    }),
+  },
 };

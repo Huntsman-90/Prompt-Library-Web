@@ -1985,4 +1985,2302 @@ export const CREATIVE_SKILLS: Record<string, SkillDefinition> = {
       tags: ["creative","screenwriting","save-the-cat","blake-snyder","cinema"],
     }),
   },
+  "creative-hard-magic-system-sanderson-three-laws": {
+    id: "creative-hard-magic-system-sanderson-three-laws",
+    name: "HardMagicSystemSandersonThreeLawsSkill",
+    displayName: "Hard Magic System Sanderson Three Laws",
+    categoryId: "creative",
+    description: "Designs consistent fantasy magic systems governed by Sanderson's laws.",
+    tags: ["creative","creative","hard","magic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hard Magic System Sanderson Three Laws Standards",
+      ruSectionName: "Стандарты и регламенты: Hard Magic System Sanderson Three Laws",
+      instructions: [
+        "Apply core domain tenets for Hard Magic System Sanderson Three Laws.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hard Magic System Sanderson Three Laws.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","hard","magic"],
+    }),
+  },
+
+  "creative-pixar-22-rules-of-emotional-storytelling": {
+    id: "creative-pixar-22-rules-of-emotional-storytelling",
+    name: "Pixar22RulesofEmotionalStorytellingSkill",
+    displayName: "Pixar 22 Rules of Emotional Storytelling",
+    categoryId: "creative",
+    description: "Applies Pixar narrative principles: admire character effort, embrace vulnerability.",
+    tags: ["creative","creative","pixar","22"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pixar 22 Rules of Emotional Storytelling Standards",
+      ruSectionName: "Стандарты и регламенты: Pixar 22 Rules of Emotional Storytelling",
+      instructions: [
+        "Apply core domain tenets for Pixar 22 Rules of Emotional Storytelling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Pixar 22 Rules of Emotional Storytelling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","pixar","22"],
+    }),
+  },
+
+  "creative-poetic-synesthesia-multi-sensory-imagery": {
+    id: "creative-poetic-synesthesia-multi-sensory-imagery",
+    name: "PoeticSynesthesiaMultiSensoryImagerySkill",
+    displayName: "Poetic Synesthesia & Multi-Sensory Imagery",
+    categoryId: "creative",
+    description: "Constructs evocative figurative language blending cross-modal sensory perceptions.",
+    tags: ["creative","creative","poetic","synesthesia"],
+    transform: createStandardSkillTransform({
+      sectionName: "Poetic Synesthesia & Multi-Sensory Imagery Standards",
+      ruSectionName: "Стандарты и регламенты: Poetic Synesthesia & Multi-Sensory Imagery",
+      instructions: [
+        "Apply core domain tenets for Poetic Synesthesia & Multi-Sensory Imagery.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Poetic Synesthesia & Multi-Sensory Imagery.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","poetic","synesthesia"],
+    }),
+  },
+
+  "creative-hardboiled-noir-detective-cynical-subtext": {
+    id: "creative-hardboiled-noir-detective-cynical-subtext",
+    name: "HardboiledNoirDetectiveCynicalSubtextSkill",
+    displayName: "Hardboiled Noir Detective Cynical Subtext",
+    categoryId: "creative",
+    description: "Emulates classic Raymond Chandler / Dashiell Hammett noir atmosphere and similes.",
+    tags: ["creative","creative","hardboiled","noir"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hardboiled Noir Detective Cynical Subtext Standards",
+      ruSectionName: "Стандарты и регламенты: Hardboiled Noir Detective Cynical Subtext",
+      instructions: [
+        "Apply core domain tenets for Hardboiled Noir Detective Cynical Subtext.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hardboiled Noir Detective Cynical Subtext.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","hardboiled","noir"],
+    }),
+  },
+
+  "creative-cyberpunk-dystopian-high-tech-low-life": {
+    id: "creative-cyberpunk-dystopian-high-tech-low-life",
+    name: "CyberpunkDystopianHighTechLowLifeSkill",
+    displayName: "Cyberpunk Dystopian High-Tech Low-Life",
+    categoryId: "creative",
+    description: "Constructs dense cyberpunk settings: megacorps, neural wetware, street culture.",
+    tags: ["creative","creative","cyberpunk","dystopian"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cyberpunk Dystopian High-Tech Low-Life Standards",
+      ruSectionName: "Стандарты и регламенты: Cyberpunk Dystopian High-Tech Low-Life",
+      instructions: [
+        "Apply core domain tenets for Cyberpunk Dystopian High-Tech Low-Life.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cyberpunk Dystopian High-Tech Low-Life.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","cyberpunk","dystopian"],
+    }),
+  },
+
+  "creative-surrealist-dream-logic-automatic-writing": {
+    id: "creative-surrealist-dream-logic-automatic-writing",
+    name: "SurrealistDreamLogicAutomaticWritingSkill",
+    displayName: "Surrealist Dream Logic & Automatic Writing",
+    categoryId: "creative",
+    description: "Explores subconscious associations, non-Euclidean spaces, and poetic juxtapositions.",
+    tags: ["creative","creative","surrealist","dream"],
+    transform: createStandardSkillTransform({
+      sectionName: "Surrealist Dream Logic & Automatic Writing Standards",
+      ruSectionName: "Стандарты и регламенты: Surrealist Dream Logic & Automatic Writing",
+      instructions: [
+        "Apply core domain tenets for Surrealist Dream Logic & Automatic Writing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Surrealist Dream Logic & Automatic Writing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","surrealist","dream"],
+    }),
+  },
+
+  "creative-classical-japanese-haiku-kigo-kireji": {
+    id: "creative-classical-japanese-haiku-kigo-kireji",
+    name: "ClassicalJapaneseHaikuKigoKirejiSkill",
+    displayName: "Classical Japanese Haiku Kigo & Kireji",
+    categoryId: "creative",
+    description: "Composes 5-7-5 syllable haiku rooted in seasonal kigo references and kireji cutting words.",
+    tags: ["creative","creative","classical","japanese"],
+    transform: createStandardSkillTransform({
+      sectionName: "Classical Japanese Haiku Kigo & Kireji Standards",
+      ruSectionName: "Стандарты и регламенты: Classical Japanese Haiku Kigo & Kireji",
+      instructions: [
+        "Apply core domain tenets for Classical Japanese Haiku Kigo & Kireji.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Classical Japanese Haiku Kigo & Kireji.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","classical","japanese"],
+    }),
+  },
+
+  "creative-homeric-epic-poetry-dactylic-hexameter": {
+    id: "creative-homeric-epic-poetry-dactylic-hexameter",
+    name: "HomericEpicPoetryDactylicHexameterSkill",
+    displayName: "Homeric Epic Poetry Dactylic Hexameter",
+    categoryId: "creative",
+    description: "Crafts epic heroic poetry featuring Muse invocations, epithets, and extended similes.",
+    tags: ["creative","creative","homeric","epic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Homeric Epic Poetry Dactylic Hexameter Standards",
+      ruSectionName: "Стандарты и регламенты: Homeric Epic Poetry Dactylic Hexameter",
+      instructions: [
+        "Apply core domain tenets for Homeric Epic Poetry Dactylic Hexameter.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Homeric Epic Poetry Dactylic Hexameter.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","homeric","epic"],
+    }),
+  },
+
+  "creative-gabriel-garcia-marquez-magical-realism": {
+    id: "creative-gabriel-garcia-marquez-magical-realism",
+    name: "GabrielGarciaMarquezMagicalRealismSkill",
+    displayName: "Gabriel Garcia Marquez Magical Realism",
+    categoryId: "creative",
+    description: "Blends fantastical occurrences with calm, journalistic realism in Latin American style.",
+    tags: ["creative","creative","gabriel","garcia"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gabriel Garcia Marquez Magical Realism Standards",
+      ruSectionName: "Стандарты и регламенты: Gabriel Garcia Marquez Magical Realism",
+      instructions: [
+        "Apply core domain tenets for Gabriel Garcia Marquez Magical Realism.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gabriel Garcia Marquez Magical Realism.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","gabriel","garcia"],
+    }),
+  },
+
+  "creative-steampunk-victorian-clockwork-worldbuilding": {
+    id: "creative-steampunk-victorian-clockwork-worldbuilding",
+    name: "SteampunkVictorianClockworkWorldbuildingSkill",
+    displayName: "Steampunk Victorian Clockwork Worldbuilding",
+    categoryId: "creative",
+    description: "Designs alternative 19th-century worlds powered by brass gears, steam, and airships.",
+    tags: ["creative","creative","steampunk","victorian"],
+    transform: createStandardSkillTransform({
+      sectionName: "Steampunk Victorian Clockwork Worldbuilding Standards",
+      ruSectionName: "Стандарты и регламенты: Steampunk Victorian Clockwork Worldbuilding",
+      instructions: [
+        "Apply core domain tenets for Steampunk Victorian Clockwork Worldbuilding.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Steampunk Victorian Clockwork Worldbuilding.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","steampunk","victorian"],
+    }),
+  },
+
+  "creative-lovecraftian-cosmic-horror-dread": {
+    id: "creative-lovecraftian-cosmic-horror-dread",
+    name: "LovecraftianCosmicHorrorDreadSkill",
+    displayName: "Lovecraftian Cosmic Horror & Dread",
+    categoryId: "creative",
+    description: "Evokes atmospheric dread through ancient non-Euclidean architectures and cosmic entities.",
+    tags: ["creative","creative","lovecraftian","cosmic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Lovecraftian Cosmic Horror & Dread Standards",
+      ruSectionName: "Стандарты и регламенты: Lovecraftian Cosmic Horror & Dread",
+      instructions: [
+        "Apply core domain tenets for Lovecraftian Cosmic Horror & Dread.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Lovecraftian Cosmic Horror & Dread.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","lovecraftian","cosmic"],
+    }),
+  },
+
+  "creative-commercial-lyric-songwriting-prosody": {
+    id: "creative-commercial-lyric-songwriting-prosody",
+    name: "CommercialLyricSongwritingProsodySkill",
+    displayName: "Commercial Lyric Songwriting & Prosody",
+    categoryId: "creative",
+    description: "Structures radio-ready song lyrics: storytelling verses, explosive choruses, bridges.",
+    tags: ["creative","creative","commercial","lyric"],
+    transform: createStandardSkillTransform({
+      sectionName: "Commercial Lyric Songwriting & Prosody Standards",
+      ruSectionName: "Стандарты и регламенты: Commercial Lyric Songwriting & Prosody",
+      instructions: [
+        "Apply core domain tenets for Commercial Lyric Songwriting & Prosody.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Commercial Lyric Songwriting & Prosody.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","commercial","lyric"],
+    }),
+  },
+
+  "creative-epic-space-opera-intergalactic-geopolitics": {
+    id: "creative-epic-space-opera-intergalactic-geopolitics",
+    name: "EpicSpaceOperaIntergalacticGeopoliticsSkill",
+    displayName: "Epic Space Opera Intergalactic Geopolitics",
+    categoryId: "creative",
+    description: "Builds massive sci-fi sagas: dynastic royal houses, FTL trade, planet-spanning cultures.",
+    tags: ["creative","creative","epic","space"],
+    transform: createStandardSkillTransform({
+      sectionName: "Epic Space Opera Intergalactic Geopolitics Standards",
+      ruSectionName: "Стандарты и регламенты: Epic Space Opera Intergalactic Geopolitics",
+      instructions: [
+        "Apply core domain tenets for Epic Space Opera Intergalactic Geopolitics.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Epic Space Opera Intergalactic Geopolitics.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","epic","space"],
+    }),
+  },
+
+  "creative-children-picture-book-rhythm-rhyme": {
+    id: "creative-children-picture-book-rhythm-rhyme",
+    name: "ChildrenPictureBookRhythmRhymeSkill",
+    displayName: "Children Picture Book Rhythm & Rhyme",
+    categoryId: "creative",
+    description: "Crafts playful, read-aloud early childhood picture books featuring refrains.",
+    tags: ["creative","creative","children","picture"],
+    transform: createStandardSkillTransform({
+      sectionName: "Children Picture Book Rhythm & Rhyme Standards",
+      ruSectionName: "Стандарты и регламенты: Children Picture Book Rhythm & Rhyme",
+      instructions: [
+        "Apply core domain tenets for Children Picture Book Rhythm & Rhyme.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Children Picture Book Rhythm & Rhyme.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","children","picture"],
+    }),
+  },
+
+  "creative-flash-fiction-under-500-words-twist": {
+    id: "creative-flash-fiction-under-500-words-twist",
+    name: "FlashFictionUnder500WordsTwistSkill",
+    displayName: "Flash Fiction Under 500 Words Twist",
+    categoryId: "creative",
+    description: "Distills powerful short narratives under 500 words with punchline twists.",
+    tags: ["creative","creative","flash","fiction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Flash Fiction Under 500 Words Twist Standards",
+      ruSectionName: "Стандарты и регламенты: Flash Fiction Under 500 Words Twist",
+      instructions: [
+        "Apply core domain tenets for Flash Fiction Under 500 Words Twist.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Flash Fiction Under 500 Words Twist.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","flash","fiction"],
+    }),
+  },
+
+  "creative-satirical-news-parody-the-onion-style": {
+    id: "creative-satirical-news-parody-the-onion-style",
+    name: "SatiricalNewsParodyTheOnionStyleSkill",
+    displayName: "Satirical News Parody The Onion Style",
+    categoryId: "creative",
+    description: "Writes razor-sharp journalistic satire using deadpan headlines and absurd premises.",
+    tags: ["creative","creative","satirical","news"],
+    transform: createStandardSkillTransform({
+      sectionName: "Satirical News Parody The Onion Style Standards",
+      ruSectionName: "Стандарты и регламенты: Satirical News Parody The Onion Style",
+      instructions: [
+        "Apply core domain tenets for Satirical News Parody The Onion Style.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Satirical News Parody The Onion Style.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","satirical","news"],
+    }),
+  },
+
+  "creative-solarpunk-optimistic-eco-utopian-world": {
+    id: "creative-solarpunk-optimistic-eco-utopian-world",
+    name: "SolarpunkOptimisticEcoUtopianWorldSkill",
+    displayName: "Solarpunk Optimistic Eco-Utopian World",
+    categoryId: "creative",
+    description: "Builds hopeful, high-tech sustainable futures: solar glass, permaculture, co-ops.",
+    tags: ["creative","creative","solarpunk","optimistic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Solarpunk Optimistic Eco-Utopian World Standards",
+      ruSectionName: "Стандарты и регламенты: Solarpunk Optimistic Eco-Utopian World",
+      instructions: [
+        "Apply core domain tenets for Solarpunk Optimistic Eco-Utopian World.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Solarpunk Optimistic Eco-Utopian World.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","solarpunk","optimistic"],
+    }),
+  },
+
+  "creative-stand-up-comedy-setup-punchline-callback": {
+    id: "creative-stand-up-comedy-setup-punchline-callback",
+    name: "StandUpComedySetupPunchlineCallbackSkill",
+    displayName: "Stand-Up Comedy Setup Punchline Callback",
+    categoryId: "creative",
+    description: "Structures stand-up comedy sets: relatable premises, misdirection, tags, callbacks.",
+    tags: ["creative","creative","stand","up"],
+    transform: createStandardSkillTransform({
+      sectionName: "Stand-Up Comedy Setup Punchline Callback Standards",
+      ruSectionName: "Стандарты и регламенты: Stand-Up Comedy Setup Punchline Callback",
+      instructions: [
+        "Apply core domain tenets for Stand-Up Comedy Setup Punchline Callback.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Stand-Up Comedy Setup Punchline Callback.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","stand","up"],
+    }),
+  },
+
+  "creative-agatha-christie-murder-mystery-clue-matrix": {
+    id: "creative-agatha-christie-murder-mystery-clue-matrix",
+    name: "AgathaChristieMurderMysteryClueMatrixSkill",
+    displayName: "Agatha Christie Murder Mystery Clue Matrix",
+    categoryId: "creative",
+    description: "Designs fair-play whodunits: locked-room scenes, suspect alibis, red herrings.",
+    tags: ["creative","creative","agatha","christie"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agatha Christie Murder Mystery Clue Matrix Standards",
+      ruSectionName: "Стандарты и регламенты: Agatha Christie Murder Mystery Clue Matrix",
+      instructions: [
+        "Apply core domain tenets for Agatha Christie Murder Mystery Clue Matrix.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agatha Christie Murder Mystery Clue Matrix.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","agatha","christie"],
+    }),
+  },
+
+  "creative-vladimir-propp-folk-tale-31-morphology": {
+    id: "creative-vladimir-propp-folk-tale-31-morphology",
+    name: "VladimirProppFolkTale31MorphologySkill",
+    displayName: "Vladimir Propp Folk Tale 31 Morphology",
+    categoryId: "creative",
+    description: "Structures authentic folktales using Propp's 31 narrative functions.",
+    tags: ["creative","creative","vladimir","propp"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vladimir Propp Folk Tale 31 Morphology Standards",
+      ruSectionName: "Стандарты и регламенты: Vladimir Propp Folk Tale 31 Morphology",
+      instructions: [
+        "Apply core domain tenets for Vladimir Propp Folk Tale 31 Morphology.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Vladimir Propp Folk Tale 31 Morphology.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","vladimir","propp"],
+    }),
+  },
+
+  "creative-stream-of-consciousness-joyce-woolf-prose": {
+    id: "creative-stream-of-consciousness-joyce-woolf-prose",
+    name: "StreamofConsciousnessJoyceWoolfProseSkill",
+    displayName: "Stream of Consciousness Joyce Woolf Prose",
+    categoryId: "creative",
+    description: "Captures unedited sensory flow, internal monologues, and involuntary memory.",
+    tags: ["creative","creative","stream","of"],
+    transform: createStandardSkillTransform({
+      sectionName: "Stream of Consciousness Joyce Woolf Prose Standards",
+      ruSectionName: "Стандарты и регламенты: Stream of Consciousness Joyce Woolf Prose",
+      instructions: [
+        "Apply core domain tenets for Stream of Consciousness Joyce Woolf Prose.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Stream of Consciousness Joyce Woolf Prose.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","stream","of"],
+    }),
+  },
+
+  "creative-cyber-noir-augmented-reality-investigation": {
+    id: "creative-cyber-noir-augmented-reality-investigation",
+    name: "CyberNoirAugmentedRealityInvestigationSkill",
+    displayName: "Cyber-Noir Augmented Reality Investigation",
+    categoryId: "creative",
+    description: "Merges rain-drenched hardboiled detective tropes with ocular HUD overlays.",
+    tags: ["creative","creative","cyber","noir"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cyber-Noir Augmented Reality Investigation Standards",
+      ruSectionName: "Стандарты и регламенты: Cyber-Noir Augmented Reality Investigation",
+      instructions: [
+        "Apply core domain tenets for Cyber-Noir Augmented Reality Investigation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cyber-Noir Augmented Reality Investigation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","cyber","noir"],
+    }),
+  },
+
+  "creative-mythological-cosmogony-pantheon-creation": {
+    id: "creative-mythological-cosmogony-pantheon-creation",
+    name: "MythologicalCosmogonyPantheonCreationSkill",
+    displayName: "Mythological Cosmogony Pantheon Creation",
+    categoryId: "creative",
+    description: "Generates coherent polytheistic pantheons: creation cosmogonies and divine domains.",
+    tags: ["creative","creative","mythological","cosmogony"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mythological Cosmogony Pantheon Creation Standards",
+      ruSectionName: "Стандарты и регламенты: Mythological Cosmogony Pantheon Creation",
+      instructions: [
+        "Apply core domain tenets for Mythological Cosmogony Pantheon Creation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Mythological Cosmogony Pantheon Creation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","mythological","cosmogony"],
+    }),
+  },
+
+  "creative-fantasy-conlang-phonotactics-naming": {
+    id: "creative-fantasy-conlang-phonotactics-naming",
+    name: "FantasyConlangPhonotacticsNamingSkill",
+    displayName: "Fantasy Conlang Phonotactics & Naming",
+    categoryId: "creative",
+    description: "Develops fictional languages with strict phonetic inventories and naming rules.",
+    tags: ["creative","creative","fantasy","conlang"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fantasy Conlang Phonotactics & Naming Standards",
+      ruSectionName: "Стандарты и регламенты: Fantasy Conlang Phonotactics & Naming",
+      instructions: [
+        "Apply core domain tenets for Fantasy Conlang Phonotactics & Naming.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Fantasy Conlang Phonotactics & Naming.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","fantasy","conlang"],
+    }),
+  },
+
+  "creative-blake-snyder-save-the-cat-15-beat-sheet": {
+    id: "creative-blake-snyder-save-the-cat-15-beat-sheet",
+    name: "BlakeSnyderSavetheCat15BeatSheetSkill",
+    displayName: "Blake Snyder Save the Cat 15-Beat Sheet",
+    categoryId: "creative",
+    description: "Structures cinematic screenplays according to the proven 15-beat timeline.",
+    tags: ["creative","creative","blake","snyder"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blake Snyder Save the Cat 15-Beat Sheet Standards",
+      ruSectionName: "Стандарты и регламенты: Blake Snyder Save the Cat 15-Beat Sheet",
+      instructions: [
+        "Apply core domain tenets for Blake Snyder Save the Cat 15-Beat Sheet.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Blake Snyder Save the Cat 15-Beat Sheet.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","blake","snyder"],
+    }),
+  },
+
+  "creative-high-fantasy-worldbuilding-cultural-map": {
+    id: "creative-high-fantasy-worldbuilding-cultural-map",
+    name: "HighFantasyWorldbuildingCulturalMapSkill",
+    displayName: "High Fantasy Worldbuilding Cultural Map",
+    categoryId: "creative",
+    description: "Architects high fantasy worlds: geography, trade routes, magic, and heraldry.",
+    tags: ["creative","creative","high","fantasy"],
+    transform: createStandardSkillTransform({
+      sectionName: "High Fantasy Worldbuilding Cultural Map Standards",
+      ruSectionName: "Стандарты и регламенты: High Fantasy Worldbuilding Cultural Map",
+      instructions: [
+        "Apply core domain tenets for High Fantasy Worldbuilding Cultural Map.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для High Fantasy Worldbuilding Cultural Map.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","high","fantasy"],
+    }),
+  },
+
+  "creative-post-apocalyptic-survival-scarcity-fiction": {
+    id: "creative-post-apocalyptic-survival-scarcity-fiction",
+    name: "PostApocalypticSurvivalScarcityFictionSkill",
+    displayName: "Post-Apocalyptic Survival Scarcity Fiction",
+    categoryId: "creative",
+    description: "Writes gritty post-apocalyptic fiction focused on resource scarcity and moral choices.",
+    tags: ["creative","creative","post","apocalyptic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Post-Apocalyptic Survival Scarcity Fiction Standards",
+      ruSectionName: "Стандарты и регламенты: Post-Apocalyptic Survival Scarcity Fiction",
+      instructions: [
+        "Apply core domain tenets for Post-Apocalyptic Survival Scarcity Fiction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Post-Apocalyptic Survival Scarcity Fiction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","post","apocalyptic"],
+    }),
+  },
+
+  "creative-historical-fiction-period-authenticity-arc": {
+    id: "creative-historical-fiction-period-authenticity-arc",
+    name: "HistoricalFictionPeriodAuthenticityArcSkill",
+    displayName: "Historical Fiction Period Authenticity Arc",
+    categoryId: "creative",
+    description: "Crafts historical fiction with authentic dialogue, material culture, and social norms.",
+    tags: ["creative","creative","historical","fiction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Historical Fiction Period Authenticity Arc Standards",
+      ruSectionName: "Стандарты и регламенты: Historical Fiction Period Authenticity Arc",
+      instructions: [
+        "Apply core domain tenets for Historical Fiction Period Authenticity Arc.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Historical Fiction Period Authenticity Arc.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","historical","fiction"],
+    }),
+  },
+
+  "creative-psychological-thriller-unreliable-narrator": {
+    id: "creative-psychological-thriller-unreliable-narrator",
+    name: "PsychologicalThrillerunreliableNarratorSkill",
+    displayName: "Psychological Thriller unreliable Narrator",
+    categoryId: "creative",
+    description: "Designs psychological thrillers featuring gaslighting and unreliable narrators.",
+    tags: ["creative","creative","psychological","thriller"],
+    transform: createStandardSkillTransform({
+      sectionName: "Psychological Thriller unreliable Narrator Standards",
+      ruSectionName: "Стандарты и регламенты: Psychological Thriller unreliable Narrator",
+      instructions: [
+        "Apply core domain tenets for Psychological Thriller unreliable Narrator.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Psychological Thriller unreliable Narrator.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","psychological","thriller"],
+    }),
+  },
+
+  "creative-cozy-mystery-small-town-amateur-sleuth": {
+    id: "creative-cozy-mystery-small-town-amateur-sleuth",
+    name: "CozyMysterySmallTownAmateurSleuthSkill",
+    displayName: "Cozy Mystery Small-Town Amateur Sleuth",
+    categoryId: "creative",
+    description: "Writes charming cozy mysteries featuring amateur sleuths and small-town eccentricities.",
+    tags: ["creative","creative","cozy","mystery"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cozy Mystery Small-Town Amateur Sleuth Standards",
+      ruSectionName: "Стандарты и регламенты: Cozy Mystery Small-Town Amateur Sleuth",
+      instructions: [
+        "Apply core domain tenets for Cozy Mystery Small-Town Amateur Sleuth.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cozy Mystery Small-Town Amateur Sleuth.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","cozy","mystery"],
+    }),
+  },
+
+  "creative-space-horror-alien-containment-isolation": {
+    id: "creative-space-horror-alien-containment-isolation",
+    name: "SpaceHorrorAlienContainmentIsolationSkill",
+    displayName: "Space Horror Alien Containment Isolation",
+    categoryId: "creative",
+    description: "Evokes claustrophobic horror aboard isolated space stations hunted by alien life.",
+    tags: ["creative","creative","space","horror"],
+    transform: createStandardSkillTransform({
+      sectionName: "Space Horror Alien Containment Isolation Standards",
+      ruSectionName: "Стандарты и регламенты: Space Horror Alien Containment Isolation",
+      instructions: [
+        "Apply core domain tenets for Space Horror Alien Containment Isolation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Space Horror Alien Containment Isolation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","space","horror"],
+    }),
+  },
+
+  "creative-urban-fantasy-hidden-magic-underbelly": {
+    id: "creative-urban-fantasy-hidden-magic-underbelly",
+    name: "UrbanFantasyHiddenMagicUnderbellySkill",
+    displayName: "Urban Fantasy Hidden Magic Underbelly",
+    categoryId: "creative",
+    description: "Designs urban fantasy settings where secret magical societies coexist with modern cities.",
+    tags: ["creative","creative","urban","fantasy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Urban Fantasy Hidden Magic Underbelly Standards",
+      ruSectionName: "Стандарты и регламенты: Urban Fantasy Hidden Magic Underbelly",
+      instructions: [
+        "Apply core domain tenets for Urban Fantasy Hidden Magic Underbelly.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Urban Fantasy Hidden Magic Underbelly.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","urban","fantasy"],
+    }),
+  },
+
+  "creative-time-travel-multiverse-causality-paradox": {
+    id: "creative-time-travel-multiverse-causality-paradox",
+    name: "TimeTravelMultiverseCausalityParadoxSkill",
+    displayName: "Time Travel Multiverse Causality Paradox",
+    categoryId: "creative",
+    description: "Structures complex time travel narratives managing grandfather paradoxes and timelines.",
+    tags: ["creative","creative","time","travel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Time Travel Multiverse Causality Paradox Standards",
+      ruSectionName: "Стандарты и регламенты: Time Travel Multiverse Causality Paradox",
+      instructions: [
+        "Apply core domain tenets for Time Travel Multiverse Causality Paradox.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Time Travel Multiverse Causality Paradox.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","time","travel"],
+    }),
+  },
+
+  "creative-sonnet-shakespearean-iambic-pentameter": {
+    id: "creative-sonnet-shakespearean-iambic-pentameter",
+    name: "SonnetShakespeareaniambicpentameterSkill",
+    displayName: "Sonnet Shakespearean iambic pentameter",
+    categoryId: "creative",
+    description: "Composes 14-line Shakespearean sonnets in iambic pentameter with ABAB CDCD EFEF GG rhyme.",
+    tags: ["creative","creative","sonnet","shakespearean"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sonnet Shakespearean iambic pentameter Standards",
+      ruSectionName: "Стандарты и регламенты: Sonnet Shakespearean iambic pentameter",
+      instructions: [
+        "Apply core domain tenets for Sonnet Shakespearean iambic pentameter.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sonnet Shakespearean iambic pentameter.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","sonnet","shakespearean"],
+    }),
+  },
+
+  "creative-hero-journey-campbell-mythic-blueprint": {
+    id: "creative-hero-journey-campbell-mythic-blueprint",
+    name: "HeroJourneyCampbellMythicBlueprintSkill",
+    displayName: "Hero Journey Campbell Mythic Blueprint",
+    categoryId: "creative",
+    description: "Guides narrative arcs through Joseph Campbell's 12-stage monomyth journey.",
+    tags: ["creative","creative","hero","journey"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hero Journey Campbell Mythic Blueprint Standards",
+      ruSectionName: "Стандарты и регламенты: Hero Journey Campbell Mythic Blueprint",
+      instructions: [
+        "Apply core domain tenets for Hero Journey Campbell Mythic Blueprint.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hero Journey Campbell Mythic Blueprint.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","hero","journey"],
+    }),
+  },
+
+  "creative-noir-femme-fatale-moral-ambiguity": {
+    id: "creative-noir-femme-fatale-moral-ambiguity",
+    name: "NoirFemmeFataleMoralAmbiguitySkill",
+    displayName: "Noir Femme Fatale & Moral Ambiguity",
+    categoryId: "creative",
+    description: "Crafts compelling femme fatale characters and noir moral compromises.",
+    tags: ["creative","creative","noir","femme"],
+    transform: createStandardSkillTransform({
+      sectionName: "Noir Femme Fatale & Moral Ambiguity Standards",
+      ruSectionName: "Стандарты и регламенты: Noir Femme Fatale & Moral Ambiguity",
+      instructions: [
+        "Apply core domain tenets for Noir Femme Fatale & Moral Ambiguity.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Noir Femme Fatale & Moral Ambiguity.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","noir","femme"],
+    }),
+  },
+
+  "creative-biopunk-genetic-engineering-dystopia": {
+    id: "creative-biopunk-genetic-engineering-dystopia",
+    name: "BiopunkGeneticEngineeringDystopiaSkill",
+    displayName: "Biopunk Genetic Engineering Dystopia",
+    categoryId: "creative",
+    description: "Explores biopunk themes: DNA splicing, bio-hacking, and organic technology.",
+    tags: ["creative","creative","biopunk","genetic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Biopunk Genetic Engineering Dystopia Standards",
+      ruSectionName: "Стандарты и регламенты: Biopunk Genetic Engineering Dystopia",
+      instructions: [
+        "Apply core domain tenets for Biopunk Genetic Engineering Dystopia.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Biopunk Genetic Engineering Dystopia.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","biopunk","genetic"],
+    }),
+  },
+
+  "creative-epistolary-novel-letter-journal-format": {
+    id: "creative-epistolary-novel-letter-journal-format",
+    name: "EpistolaryNovelLetterJournalFormatSkill",
+    displayName: "Epistolary Novel Letter & Journal Format",
+    categoryId: "creative",
+    description: "Tells stories through fictional letters, diary entries, emails, and police transcripts.",
+    tags: ["creative","creative","epistolary","novel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Epistolary Novel Letter & Journal Format Standards",
+      ruSectionName: "Стандарты и регламенты: Epistolary Novel Letter & Journal Format",
+      instructions: [
+        "Apply core domain tenets for Epistolary Novel Letter & Journal Format.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Epistolary Novel Letter & Journal Format.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","epistolary","novel"],
+    }),
+  },
+
+  "creative-slipstream-weird-fiction-reality-bending": {
+    id: "creative-slipstream-weird-fiction-reality-bending",
+    name: "SlipstreamWeirdFictionRealityBendingSkill",
+    displayName: "Slipstream Weird Fiction Reality Bending",
+    categoryId: "creative",
+    description: "Blends literary fiction, sci-fi, and surrealism into slipstream 'weird' stories.",
+    tags: ["creative","creative","slipstream","weird"],
+    transform: createStandardSkillTransform({
+      sectionName: "Slipstream Weird Fiction Reality Bending Standards",
+      ruSectionName: "Стандарты и регламенты: Slipstream Weird Fiction Reality Bending",
+      instructions: [
+        "Apply core domain tenets for Slipstream Weird Fiction Reality Bending.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Slipstream Weird Fiction Reality Bending.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","slipstream","weird"],
+    }),
+  },
+
+  "creative-grimdark-dark-fantasy-moral-decay": {
+    id: "creative-grimdark-dark-fantasy-moral-decay",
+    name: "GrimdarkDarkFantasyMoralDecaySkill",
+    displayName: "Grimdark Dark Fantasy Moral Decay",
+    categoryId: "creative",
+    description: "Writes gritty, cynical grimdark fantasy with antiheroes and moral compromise.",
+    tags: ["creative","creative","grimdark","dark"],
+    transform: createStandardSkillTransform({
+      sectionName: "Grimdark Dark Fantasy Moral Decay Standards",
+      ruSectionName: "Стандарты и регламенты: Grimdark Dark Fantasy Moral Decay",
+      instructions: [
+        "Apply core domain tenets for Grimdark Dark Fantasy Moral Decay.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Grimdark Dark Fantasy Moral Decay.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","grimdark","dark"],
+    }),
+  },
+
+  "creative-wuxia-martial-arts-xianxia-cultivation": {
+    id: "creative-wuxia-martial-arts-xianxia-cultivation",
+    name: "WuxiaMartialArtsXianxiaCultivationSkill",
+    displayName: "Wuxia Martial Arts Xianxia Cultivation",
+    categoryId: "creative",
+    description: "Crafts Chinese wuxia/xianxia martial arts fantasy with qi cultivation and honor.",
+    tags: ["creative","creative","wuxia","martial"],
+    transform: createStandardSkillTransform({
+      sectionName: "Wuxia Martial Arts Xianxia Cultivation Standards",
+      ruSectionName: "Стандарты и регламенты: Wuxia Martial Arts Xianxia Cultivation",
+      instructions: [
+        "Apply core domain tenets for Wuxia Martial Arts Xianxia Cultivation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Wuxia Martial Arts Xianxia Cultivation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","wuxia","martial"],
+    }),
+  },
+
+  "creative-regency-romance-austen-manner-social-comedy": {
+    id: "creative-regency-romance-austen-manner-social-comedy",
+    name: "RegencyRomanceAustenMannerSocialComedySkill",
+    displayName: "Regency Romance Austen Manner Social Comedy",
+    categoryId: "creative",
+    description: "Writes witty Regency romance focusing on ballroom etiquette and social satire.",
+    tags: ["creative","creative","regency","romance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Regency Romance Austen Manner Social Comedy Standards",
+      ruSectionName: "Стандарты и регламенты: Regency Romance Austen Manner Social Comedy",
+      instructions: [
+        "Apply core domain tenets for Regency Romance Austen Manner Social Comedy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Regency Romance Austen Manner Social Comedy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","regency","romance"],
+    }),
+  },
+
+  "creative-space-colonization-terraforming-hard-sci-fi": {
+    id: "creative-space-colonization-terraforming-hard-sci-fi",
+    name: "SpaceColonizationTerraformingHardSciFiSkill",
+    displayName: "Space Colonization Terraforming Hard Sci-Fi",
+    categoryId: "creative",
+    description: "Explores hard sci-fi terraforming mechanics and Martian colony survival.",
+    tags: ["creative","creative","space","colonization"],
+    transform: createStandardSkillTransform({
+      sectionName: "Space Colonization Terraforming Hard Sci-Fi Standards",
+      ruSectionName: "Стандарты и регламенты: Space Colonization Terraforming Hard Sci-Fi",
+      instructions: [
+        "Apply core domain tenets for Space Colonization Terraforming Hard Sci-Fi.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Space Colonization Terraforming Hard Sci-Fi.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","space","colonization"],
+    }),
+  },
+
+  "creative-dieselpunk-interwar-retro-futurism": {
+    id: "creative-dieselpunk-interwar-retro-futurism",
+    name: "DieselpunkInterwarRetroFuturismSkill",
+    displayName: "Dieselpunk Interwar Retro-Futurism",
+    categoryId: "creative",
+    description: "Designs 1920s-1940s dieselpunk aesthetics: art deco, giant war machines, and aviation.",
+    tags: ["creative","creative","dieselpunk","interwar"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dieselpunk Interwar Retro-Futurism Standards",
+      ruSectionName: "Стандарты и регламенты: Dieselpunk Interwar Retro-Futurism",
+      instructions: [
+        "Apply core domain tenets for Dieselpunk Interwar Retro-Futurism.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dieselpunk Interwar Retro-Futurism.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","dieselpunk","interwar"],
+    }),
+  },
+
+  "creative-weird-west-supernatural-frontier-western": {
+    id: "creative-weird-west-supernatural-frontier-western",
+    name: "WeirdWestSupernaturalFrontierWesternSkill",
+    displayName: "Weird West Supernatural Frontier Western",
+    categoryId: "creative",
+    description: "Blends 19th-century American western frontier themes with occult magic and monsters.",
+    tags: ["creative","creative","weird","west"],
+    transform: createStandardSkillTransform({
+      sectionName: "Weird West Supernatural Frontier Western Standards",
+      ruSectionName: "Стандарты и регламенты: Weird West Supernatural Frontier Western",
+      instructions: [
+        "Apply core domain tenets for Weird West Supernatural Frontier Western.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Weird West Supernatural Frontier Western.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","weird","west"],
+    }),
+  },
+
+  "creative-litrpg-video-game-mechanics-narrative": {
+    id: "creative-litrpg-video-game-mechanics-narrative",
+    name: "LitRPGVideoGameMechanicsNarrativeSkill",
+    displayName: "LitRPG Video Game Mechanics Narrative",
+    categoryId: "creative",
+    description: "Writes LitRPG fiction featuring stat screens, leveling up, loot drops, and quest lines.",
+    tags: ["creative","creative","litrpg","video"],
+    transform: createStandardSkillTransform({
+      sectionName: "LitRPG Video Game Mechanics Narrative Standards",
+      ruSectionName: "Стандарты и регламенты: LitRPG Video Game Mechanics Narrative",
+      instructions: [
+        "Apply core domain tenets for LitRPG Video Game Mechanics Narrative.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для LitRPG Video Game Mechanics Narrative.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","litrpg","video"],
+    }),
+  },
+
+  "creative-micro-poetry-couplet-epigram-precision": {
+    id: "creative-micro-poetry-couplet-epigram-precision",
+    name: "MicroPoetryCoupletEpigramPrecisionSkill",
+    displayName: "Micro-Poetry Couplet & Epigram Precision",
+    categoryId: "creative",
+    description: "Crafts 2-line micro-poems and sharp epigrams delivering profound philosophical punch.",
+    tags: ["creative","creative","micro","poetry"],
+    transform: createStandardSkillTransform({
+      sectionName: "Micro-Poetry Couplet & Epigram Precision Standards",
+      ruSectionName: "Стандарты и регламенты: Micro-Poetry Couplet & Epigram Precision",
+      instructions: [
+        "Apply core domain tenets for Micro-Poetry Couplet & Epigram Precision.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Micro-Poetry Couplet & Epigram Precision.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","micro","poetry"],
+    }),
+  },
+
+  "creative-interactive-narrative-choose-your-own-path": {
+    id: "creative-interactive-narrative-choose-your-own-path",
+    name: "InteractiveNarrativeChooseYourOwnPathSkill",
+    displayName: "Interactive Narrative Choose-Your-Own-Path",
+    categoryId: "creative",
+    description: "Structures branching choose-your-own-adventure storylines with multiple endings.",
+    tags: ["creative","creative","interactive","narrative"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Narrative Choose-Your-Own-Path Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Narrative Choose-Your-Own-Path",
+      instructions: [
+        "Apply core domain tenets for Interactive Narrative Choose-Your-Own-Path.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Narrative Choose-Your-Own-Path.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","interactive","narrative"],
+    }),
+  },
+
+  "creative-eldritch-cosmic-horror-artifact-inspection": {
+    id: "creative-eldritch-cosmic-horror-artifact-inspection",
+    name: "EldritchCosmicHorrorArtifactInspectionSkill",
+    displayName: "Eldritch Cosmic Horror Artifact Inspection",
+    categoryId: "creative",
+    description: "Describes cursed artifacts whose inspection drives scholars to madness.",
+    tags: ["creative","creative","eldritch","cosmic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Eldritch Cosmic Horror Artifact Inspection Standards",
+      ruSectionName: "Стандарты и регламенты: Eldritch Cosmic Horror Artifact Inspection",
+      instructions: [
+        "Apply core domain tenets for Eldritch Cosmic Horror Artifact Inspection.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Eldritch Cosmic Horror Artifact Inspection.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","eldritch","cosmic"],
+    }),
+  },
+
+  "creative-solarpunk-community-garden-city-architecture": {
+    id: "creative-solarpunk-community-garden-city-architecture",
+    name: "SolarpunkCommunityGardenCityArchitectureSkill",
+    displayName: "Solarpunk Community Garden City Architecture",
+    categoryId: "creative",
+    description: "Envisions sustainable urban architecture integrating vertical farming and solar.",
+    tags: ["creative","creative","solarpunk","community"],
+    transform: createStandardSkillTransform({
+      sectionName: "Solarpunk Community Garden City Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: Solarpunk Community Garden City Architecture",
+      instructions: [
+        "Apply core domain tenets for Solarpunk Community Garden City Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Solarpunk Community Garden City Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","solarpunk","community"],
+    }),
+  },
+
+  "creative-dark-academia-ancient-library-mystery": {
+    id: "creative-dark-academia-ancient-library-mystery",
+    name: "DarkAcademiaAncientLibraryMysterySkill",
+    displayName: "Dark Academia Ancient Library Mystery",
+    categoryId: "creative",
+    description: "Writes dark academia fiction set in gothic universities centered on secret societies.",
+    tags: ["creative","creative","dark","academia"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dark Academia Ancient Library Mystery Standards",
+      ruSectionName: "Стандарты и регламенты: Dark Academia Ancient Library Mystery",
+      instructions: [
+        "Apply core domain tenets for Dark Academia Ancient Library Mystery.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dark Academia Ancient Library Mystery.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","dark","academia"],
+    }),
+  },
+
+  "creative-hopepunk-compassionate-resistance-narrative": {
+    id: "creative-hopepunk-compassionate-resistance-narrative",
+    name: "HopepunkCompassionateResistanceNarrativeSkill",
+    displayName: "Hopepunk Compassionate Resistance Narrative",
+    categoryId: "creative",
+    description: "Crafts hopepunk fiction emphasizing radical kindness, community, and standing up to tyranny.",
+    tags: ["creative","creative","hopepunk","compassionate"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hopepunk Compassionate Resistance Narrative Standards",
+      ruSectionName: "Стандарты и регламенты: Hopepunk Compassionate Resistance Narrative",
+      instructions: [
+        "Apply core domain tenets for Hopepunk Compassionate Resistance Narrative.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hopepunk Compassionate Resistance Narrative.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","hopepunk","compassionate"],
+    }),
+  },
+
+  "creative-cybernetic-cyberpunk-body-augmentation": {
+    id: "creative-cybernetic-cyberpunk-body-augmentation",
+    name: "CyberneticCyberpunkBodyAugmentationSkill",
+    displayName: "Cybernetic Cyberpunk Body Augmentation",
+    categoryId: "creative",
+    description: "Explores human identity trade-offs as characters replace organs with cyberware.",
+    tags: ["creative","creative","cybernetic","cyberpunk"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cybernetic Cyberpunk Body Augmentation Standards",
+      ruSectionName: "Стандарты и регламенты: Cybernetic Cyberpunk Body Augmentation",
+      instructions: [
+        "Apply core domain tenets for Cybernetic Cyberpunk Body Augmentation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cybernetic Cyberpunk Body Augmentation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","cybernetic","cyberpunk"],
+    }),
+  },
+
+  "creative-mythic-retelling-classic-tale-feminist-lens": {
+    id: "creative-mythic-retelling-classic-tale-feminist-lens",
+    name: "MythicRetellingClassicTaleFeministLensSkill",
+    displayName: "Mythic Retelling Classic Tale Feminist Lens",
+    categoryId: "creative",
+    description: "Retells ancient Greek or Norse myths from the perspective of sidelined female figures.",
+    tags: ["creative","creative","mythic","retelling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mythic Retelling Classic Tale Feminist Lens Standards",
+      ruSectionName: "Стандарты и регламенты: Mythic Retelling Classic Tale Feminist Lens",
+      instructions: [
+        "Apply core domain tenets for Mythic Retelling Classic Tale Feminist Lens.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Mythic Retelling Classic Tale Feminist Lens.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","mythic","retelling"],
+    }),
+  },
+
+  "creative-hard-sci-fi-orbital-mechanics-space-navigation": {
+    id: "creative-hard-sci-fi-orbital-mechanics-space-navigation",
+    name: "HardSciFiOrbitalMechanicsSpaceNavigationSkill",
+    displayName: "Hard Sci-Fi Orbital Mechanics Space Navigation",
+    categoryId: "creative",
+    description: "Calculates realistic delta-v burns, Hohmann transfer orbits, and artificial gravity.",
+    tags: ["creative","creative","hard","sci"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hard Sci-Fi Orbital Mechanics Space Navigation Standards",
+      ruSectionName: "Стандарты и регламенты: Hard Sci-Fi Orbital Mechanics Space Navigation",
+      instructions: [
+        "Apply core domain tenets for Hard Sci-Fi Orbital Mechanics Space Navigation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hard Sci-Fi Orbital Mechanics Space Navigation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","hard","sci"],
+    }),
+  },
+
+  "creative-spaghetti-western-silent-gunslinger-standoff": {
+    id: "creative-spaghetti-western-silent-gunslinger-standoff",
+    name: "SpaghettiWesternSilentGunslingerStandoffSkill",
+    displayName: "Spaghetti Western Silent Gunslinger Standoff",
+    categoryId: "creative",
+    description: "Writes tense western showdowns featuring Sergio Leone cinematic pacing and silence.",
+    tags: ["creative","creative","spaghetti","western"],
+    transform: createStandardSkillTransform({
+      sectionName: "Spaghetti Western Silent Gunslinger Standoff Standards",
+      ruSectionName: "Стандарты и регламенты: Spaghetti Western Silent Gunslinger Standoff",
+      instructions: [
+        "Apply core domain tenets for Spaghetti Western Silent Gunslinger Standoff.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Spaghetti Western Silent Gunslinger Standoff.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","spaghetti","western"],
+    }),
+  },
+
+  "creative-gaslamp-fantasy-victorian-faerie-courts": {
+    id: "creative-gaslamp-fantasy-victorian-faerie-courts",
+    name: "GaslampFantasyVictorianFaerieCourtsSkill",
+    displayName: "Gaslamp Fantasy Victorian Faerie Courts",
+    categoryId: "creative",
+    description: "Blends Victorian London gaslight aesthetics with secret faerie realm politics.",
+    tags: ["creative","creative","gaslamp","fantasy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gaslamp Fantasy Victorian Faerie Courts Standards",
+      ruSectionName: "Стандарты и регламенты: Gaslamp Fantasy Victorian Faerie Courts",
+      instructions: [
+        "Apply core domain tenets for Gaslamp Fantasy Victorian Faerie Courts.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gaslamp Fantasy Victorian Faerie Courts.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","gaslamp","fantasy"],
+    }),
+  },
+
+  "creative-prose-poetry-paragraph-lyricism-cadence": {
+    id: "creative-prose-poetry-paragraph-lyricism-cadence",
+    name: "ProsePoetryParagraphLyricismCadenceSkill",
+    displayName: "Prose Poetry Paragraph Lyricism & Cadence",
+    categoryId: "creative",
+    description: "Writes dense, poetic prose paragraphs prioritizing rhythm and sensory resonance.",
+    tags: ["creative","creative","prose","poetry"],
+    transform: createStandardSkillTransform({
+      sectionName: "Prose Poetry Paragraph Lyricism & Cadence Standards",
+      ruSectionName: "Стандарты и регламенты: Prose Poetry Paragraph Lyricism & Cadence",
+      instructions: [
+        "Apply core domain tenets for Prose Poetry Paragraph Lyricism & Cadence.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Prose Poetry Paragraph Lyricism & Cadence.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","prose","poetry"],
+    }),
+  },
+
+  "creative-kaiju-giant-monster-city-destruction-arc": {
+    id: "creative-kaiju-giant-monster-city-destruction-arc",
+    name: "KaijuGiantMonsterCityDestructionArcSkill",
+    displayName: "Kaiju Giant Monster City Destruction Arc",
+    categoryId: "creative",
+    description: "Drafts epic titan monster narratives featuring urban destruction and military response.",
+    tags: ["creative","creative","kaiju","giant"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kaiju Giant Monster City Destruction Arc Standards",
+      ruSectionName: "Стандарты и регламенты: Kaiju Giant Monster City Destruction Arc",
+      instructions: [
+        "Apply core domain tenets for Kaiju Giant Monster City Destruction Arc.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kaiju Giant Monster City Destruction Arc.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","kaiju","giant"],
+    }),
+  },
+
+  "creative-time-loop-groundhog-day-narrative-arc": {
+    id: "creative-time-loop-groundhog-day-narrative-arc",
+    name: "TimeLoopGroundhogDayNarrativeArcSkill",
+    displayName: "Time Loop Groundhog Day Narrative Arc",
+    categoryId: "creative",
+    description: "Structures time loop stories where protagonists relive the same day to learn lessons.",
+    tags: ["creative","creative","time","loop"],
+    transform: createStandardSkillTransform({
+      sectionName: "Time Loop Groundhog Day Narrative Arc Standards",
+      ruSectionName: "Стандарты и регламенты: Time Loop Groundhog Day Narrative Arc",
+      instructions: [
+        "Apply core domain tenets for Time Loop Groundhog Day Narrative Arc.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Time Loop Groundhog Day Narrative Arc.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","time","loop"],
+    }),
+  },
+
+  "creative-cyber-espionage-hacktivist-thriller-arc": {
+    id: "creative-cyber-espionage-hacktivist-thriller-arc",
+    name: "CyberEspionageHacktivistThrillerArcSkill",
+    displayName: "Cyber-Espionage Hacktivist Thriller Arc",
+    categoryId: "creative",
+    description: "Writes high-stakes cyber-espionage thrillers featuring encryption and whistleblowers.",
+    tags: ["creative","creative","cyber","espionage"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cyber-Espionage Hacktivist Thriller Arc Standards",
+      ruSectionName: "Стандарты и регламенты: Cyber-Espionage Hacktivist Thriller Arc",
+      instructions: [
+        "Apply core domain tenets for Cyber-Espionage Hacktivist Thriller Arc.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cyber-Espionage Hacktivist Thriller Arc.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","cyber","espionage"],
+    }),
+  },
+
+  "creative-mythic-beast-beastiary-lore-directory": {
+    id: "creative-mythic-beast-beastiary-lore-directory",
+    name: "MythicBeastBeastiaryLoreDirectorySkill",
+    displayName: "Mythic Beast Beastiary Lore Directory",
+    categoryId: "creative",
+    description: "Creates detailed bestiary entries for mythical creatures: habits, weaknesses, lore.",
+    tags: ["creative","creative","mythic","beast"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mythic Beast Beastiary Lore Directory Standards",
+      ruSectionName: "Стандарты и регламенты: Mythic Beast Beastiary Lore Directory",
+      instructions: [
+        "Apply core domain tenets for Mythic Beast Beastiary Lore Directory.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Mythic Beast Beastiary Lore Directory.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","mythic","beast"],
+    }),
+  },
+
+  "creative-absurdist-theater-ionesco-existential-comedy": {
+    id: "creative-absurdist-theater-ionesco-existential-comedy",
+    name: "AbsurdistTheaterIonescoExistentialComedySkill",
+    displayName: "Absurdist Theater Ionesco Existential Comedy",
+    categoryId: "creative",
+    description: "Writes absurdist theatrical dialogue exploring the breakdown of human communication.",
+    tags: ["creative","creative","absurdist","theater"],
+    transform: createStandardSkillTransform({
+      sectionName: "Absurdist Theater Ionesco Existential Comedy Standards",
+      ruSectionName: "Стандарты и регламенты: Absurdist Theater Ionesco Existential Comedy",
+      instructions: [
+        "Apply core domain tenets for Absurdist Theater Ionesco Existential Comedy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Absurdist Theater Ionesco Existential Comedy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","absurdist","theater"],
+    }),
+  },
+
+  "creative-high-seas-pirate-swashbuckler-adventure": {
+    id: "creative-high-seas-pirate-swashbuckler-adventure",
+    name: "HighSeasPirateSwashbucklerAdventureSkill",
+    displayName: "High-Seas Pirate Swashbuckler Adventure",
+    categoryId: "creative",
+    description: "Drafts high-seas nautical adventures: naval broadsides, treasure maps, and mutinies.",
+    tags: ["creative","creative","high","seas"],
+    transform: createStandardSkillTransform({
+      sectionName: "High-Seas Pirate Swashbuckler Adventure Standards",
+      ruSectionName: "Стандарты и регламенты: High-Seas Pirate Swashbuckler Adventure",
+      instructions: [
+        "Apply core domain tenets for High-Seas Pirate Swashbuckler Adventure.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для High-Seas Pirate Swashbuckler Adventure.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","high","seas"],
+    }),
+  },
+
+  "creative-afrofuturism-african-mythology-tech-utopia": {
+    id: "creative-afrofuturism-african-mythology-tech-utopia",
+    name: "AfrofuturismAfricanMythologyTechUtopiaSkill",
+    displayName: "Afrofuturism African Mythology Tech Utopia",
+    categoryId: "creative",
+    description: "Combines African cultural traditions, mythology, and futuristic technology.",
+    tags: ["creative","creative","afrofuturism","african"],
+    transform: createStandardSkillTransform({
+      sectionName: "Afrofuturism African Mythology Tech Utopia Standards",
+      ruSectionName: "Стандарты и регламенты: Afrofuturism African Mythology Tech Utopia",
+      instructions: [
+        "Apply core domain tenets for Afrofuturism African Mythology Tech Utopia.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Afrofuturism African Mythology Tech Utopia.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","afrofuturism","african"],
+    }),
+  },
+
+  "creative-metaphorical-fabulism-animal-allegory": {
+    id: "creative-metaphorical-fabulism-animal-allegory",
+    name: "MetaphoricalFabulismAnimalAllegorySkill",
+    displayName: "Metaphorical Fabulism Animal Allegory",
+    categoryId: "creative",
+    description: "Writes modern Aesop-style fables using animal characters to critique human society.",
+    tags: ["creative","creative","metaphorical","fabulism"],
+    transform: createStandardSkillTransform({
+      sectionName: "Metaphorical Fabulism Animal Allegory Standards",
+      ruSectionName: "Стандарты и регламенты: Metaphorical Fabulism Animal Allegory",
+      instructions: [
+        "Apply core domain tenets for Metaphorical Fabulism Animal Allegory.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Metaphorical Fabulism Animal Allegory.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","metaphorical","fabulism"],
+    }),
+  },
+
+  "creative-gothic-horror-haunted-asylum-medical-lore": {
+    id: "creative-gothic-horror-haunted-asylum-medical-lore",
+    name: "GothicHorrorHauntedAsylumMedicalLoreSkill",
+    displayName: "Gothic Horror Haunted Asylum Medical Lore",
+    categoryId: "creative",
+    description: "Explores 19th-century abandoned asylum medical horrors and psychological dread.",
+    tags: ["creative","creative","gothic","horror"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gothic Horror Haunted Asylum Medical Lore Standards",
+      ruSectionName: "Стандарты и регламенты: Gothic Horror Haunted Asylum Medical Lore",
+      instructions: [
+        "Apply core domain tenets for Gothic Horror Haunted Asylum Medical Lore.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gothic Horror Haunted Asylum Medical Lore.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","gothic","horror"],
+    }),
+  },
+
+  "creative-parallel-dimension-portal-fantasy-worlding": {
+    id: "creative-parallel-dimension-portal-fantasy-worlding",
+    name: "ParallelDimensionPortalFantasyWorldingSkill",
+    displayName: "Parallel Dimension Portal Fantasy Worlding",
+    categoryId: "creative",
+    description: "Designs portal fantasy transitions between mundane real-world locations and magical realms.",
+    tags: ["creative","creative","parallel","dimension"],
+    transform: createStandardSkillTransform({
+      sectionName: "Parallel Dimension Portal Fantasy Worlding Standards",
+      ruSectionName: "Стандарты и регламенты: Parallel Dimension Portal Fantasy Worlding",
+      instructions: [
+        "Apply core domain tenets for Parallel Dimension Portal Fantasy Worlding.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Parallel Dimension Portal Fantasy Worlding.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","parallel","dimension"],
+    }),
+  },
+
+  "creative-retro-80s-synthwave-neon-nostalgia-narrative": {
+    id: "creative-retro-80s-synthwave-neon-nostalgia-narrative",
+    name: "Retro80sSynthwaveNeonNostalgiaNarrativeSkill",
+    displayName: "Retro 80s Synthwave Neon Nostalgia Narrative",
+    categoryId: "creative",
+    description: "Evokes 1980s VHS nostalgia: arcade games, synthwave music, and summer adventures.",
+    tags: ["creative","creative","retro","80s"],
+    transform: createStandardSkillTransform({
+      sectionName: "Retro 80s Synthwave Neon Nostalgia Narrative Standards",
+      ruSectionName: "Стандарты и регламенты: Retro 80s Synthwave Neon Nostalgia Narrative",
+      instructions: [
+        "Apply core domain tenets for Retro 80s Synthwave Neon Nostalgia Narrative.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Retro 80s Synthwave Neon Nostalgia Narrative.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","retro","80s"],
+    }),
+  },
+
+  "creative-steampunk-airship-naval-battle-tactics": {
+    id: "creative-steampunk-airship-naval-battle-tactics",
+    name: "SteampunkAirshipNavalBattleTacticsSkill",
+    displayName: "Steampunk Airship Naval Battle Tactics",
+    categoryId: "creative",
+    description: "Describes sky battles between armored steam-powered dirigibles and gunships.",
+    tags: ["creative","creative","steampunk","airship"],
+    transform: createStandardSkillTransform({
+      sectionName: "Steampunk Airship Naval Battle Tactics Standards",
+      ruSectionName: "Стандарты и регламенты: Steampunk Airship Naval Battle Tactics",
+      instructions: [
+        "Apply core domain tenets for Steampunk Airship Naval Battle Tactics.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Steampunk Airship Naval Battle Tactics.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","steampunk","airship"],
+    }),
+  },
+
+  "creative-interactive-rpg-quest-dialogue-tree-design": {
+    id: "creative-interactive-rpg-quest-dialogue-tree-design",
+    name: "InteractiveRPGQuestDialogueTreeDesignSkill",
+    displayName: "Interactive RPG Quest Dialogue Tree Design",
+    categoryId: "creative",
+    description: "Drafts branching NPC quest dialogue trees with reputation checks.",
+    tags: ["creative","creative","interactive","rpg"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive RPG Quest Dialogue Tree Design Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive RPG Quest Dialogue Tree Design",
+      instructions: [
+        "Apply core domain tenets for Interactive RPG Quest Dialogue Tree Design.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive RPG Quest Dialogue Tree Design.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","interactive","rpg"],
+    }),
+  },
+
+  "creative-cozy-fantasy-teahouse-community-craft": {
+    id: "creative-cozy-fantasy-teahouse-community-craft",
+    name: "CozyFantasyTeahouseCommunityCraftSkill",
+    displayName: "Cozy Fantasy Teahouse Community Craft",
+    categoryId: "creative",
+    description: "Writes low-stakes, warm cozy fantasy stories centered on running teahouses or bakeries.",
+    tags: ["creative","creative","cozy","fantasy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cozy Fantasy Teahouse Community Craft Standards",
+      ruSectionName: "Стандарты и регламенты: Cozy Fantasy Teahouse Community Craft",
+      instructions: [
+        "Apply core domain tenets for Cozy Fantasy Teahouse Community Craft.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cozy Fantasy Teahouse Community Craft.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","cozy","fantasy"],
+    }),
+  },
+
+  "creative-hardboiled-detective-crime-scene-forensics": {
+    id: "creative-hardboiled-detective-crime-scene-forensics",
+    name: "HardboiledDetectiveCrimeSceneForensicsSkill",
+    displayName: "Hardboiled Detective Crime Scene Forensics",
+    categoryId: "creative",
+    description: "Describes 1940s noir crime scenes with gritty forensic observation.",
+    tags: ["creative","creative","hardboiled","detective"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hardboiled Detective Crime Scene Forensics Standards",
+      ruSectionName: "Стандарты и регламенты: Hardboiled Detective Crime Scene Forensics",
+      instructions: [
+        "Apply core domain tenets for Hardboiled Detective Crime Scene Forensics.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hardboiled Detective Crime Scene Forensics.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","hardboiled","detective"],
+    }),
+  },
+
+  "creative-surrealist-object-transformation-poem": {
+    id: "creative-surrealist-object-transformation-poem",
+    name: "SurrealistObjectTransformationPoemSkill",
+    displayName: "Surrealist Object Transformation Poem",
+    categoryId: "creative",
+    description: "Writes poetry where everyday household objects mutate into natural landscapes.",
+    tags: ["creative","creative","surrealist","object"],
+    transform: createStandardSkillTransform({
+      sectionName: "Surrealist Object Transformation Poem Standards",
+      ruSectionName: "Стандарты и регламенты: Surrealist Object Transformation Poem",
+      instructions: [
+        "Apply core domain tenets for Surrealist Object Transformation Poem.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Surrealist Object Transformation Poem.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","surrealist","object"],
+    }),
+  },
+
+  "creative-cyberpunk-netrunning-cyberspace-visuals": {
+    id: "creative-cyberpunk-netrunning-cyberspace-visuals",
+    name: "CyberpunkNetrunningCyberspaceVisualsSkill",
+    displayName: "Cyberpunk Netrunning Cyberspace Visuals",
+    categoryId: "creative",
+    description: "Visualizes virtual reality cyberspace matrix hacks as geometric glowing architectures.",
+    tags: ["creative","creative","cyberpunk","netrunning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cyberpunk Netrunning Cyberspace Visuals Standards",
+      ruSectionName: "Стандарты и регламенты: Cyberpunk Netrunning Cyberspace Visuals",
+      instructions: [
+        "Apply core domain tenets for Cyberpunk Netrunning Cyberspace Visuals.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cyberpunk Netrunning Cyberspace Visuals.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","cyberpunk","netrunning"],
+    }),
+  },
+
+  "creative-epic-battle-tactical-army-formation-arc": {
+    id: "creative-epic-battle-tactical-army-formation-arc",
+    name: "EpicBattleTacticalArmyFormationArcSkill",
+    displayName: "Epic Battle Tactical Army Formation Arc",
+    categoryId: "creative",
+    description: "Describes medieval military battles featuring shield walls, cavalry flanks, and archery.",
+    tags: ["creative","creative","epic","battle"],
+    transform: createStandardSkillTransform({
+      sectionName: "Epic Battle Tactical Army Formation Arc Standards",
+      ruSectionName: "Стандарты и регламенты: Epic Battle Tactical Army Formation Arc",
+      instructions: [
+        "Apply core domain tenets for Epic Battle Tactical Army Formation Arc.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Epic Battle Tactical Army Formation Arc.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","epic","battle"],
+    }),
+  },
+
+  "creative-philosophical-dialogue-mind-body-dualism": {
+    id: "creative-philosophical-dialogue-mind-body-dualism",
+    name: "PhilosophicalDialogueMindBodyDualismSkill",
+    displayName: "Philosophical Dialogue Mind-Body Dualism",
+    categoryId: "creative",
+    description: "Writes engaging philosophical dialogues exploring consciousness and AI identity.",
+    tags: ["creative","creative","philosophical","dialogue"],
+    transform: createStandardSkillTransform({
+      sectionName: "Philosophical Dialogue Mind-Body Dualism Standards",
+      ruSectionName: "Стандарты и регламенты: Philosophical Dialogue Mind-Body Dualism",
+      instructions: [
+        "Apply core domain tenets for Philosophical Dialogue Mind-Body Dualism.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Philosophical Dialogue Mind-Body Dualism.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","philosophical","dialogue"],
+    }),
+  },
+
+  "creative-mythological-underworld-descent-orpheus-arc": {
+    id: "creative-mythological-underworld-descent-orpheus-arc",
+    name: "MythologicalUnderworldDescentOrpheusArcSkill",
+    displayName: "Mythological Underworld Descent Orpheus Arc",
+    categoryId: "creative",
+    description: "Structures heroic descent narratives into the realm of the dead to retrieve loved ones.",
+    tags: ["creative","creative","mythological","underworld"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mythological Underworld Descent Orpheus Arc Standards",
+      ruSectionName: "Стандарты и регламенты: Mythological Underworld Descent Orpheus Arc",
+      instructions: [
+        "Apply core domain tenets for Mythological Underworld Descent Orpheus Arc.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Mythological Underworld Descent Orpheus Arc.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","mythological","underworld"],
+    }),
+  },
+
+  "creative-solarpunk-permaculture-community-building": {
+    id: "creative-solarpunk-permaculture-community-building",
+    name: "SolarpunkPermacultureCommunityBuildingSkill",
+    displayName: "Solarpunk Permaculture Community Building",
+    categoryId: "creative",
+    description: "Describes cooperative eco-villages building zero-waste closed-loop systems.",
+    tags: ["creative","creative","solarpunk","permaculture"],
+    transform: createStandardSkillTransform({
+      sectionName: "Solarpunk Permaculture Community Building Standards",
+      ruSectionName: "Стандарты и регламенты: Solarpunk Permaculture Community Building",
+      instructions: [
+        "Apply core domain tenets for Solarpunk Permaculture Community Building.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Solarpunk Permaculture Community Building.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","solarpunk","permaculture"],
+    }),
+  },
+
+  "creative-dark-fantasy-necromancy-magic-mechanics": {
+    id: "creative-dark-fantasy-necromancy-magic-mechanics",
+    name: "DarkFantasyNecromancyMagicMechanicsSkill",
+    displayName: "Dark Fantasy Necromancy Magic Mechanics",
+    categoryId: "creative",
+    description: "Designs dark magic systems based on soul manipulation and undead animation.",
+    tags: ["creative","creative","dark","fantasy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dark Fantasy Necromancy Magic Mechanics Standards",
+      ruSectionName: "Стандарты и регламенты: Dark Fantasy Necromancy Magic Mechanics",
+      instructions: [
+        "Apply core domain tenets for Dark Fantasy Necromancy Magic Mechanics.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dark Fantasy Necromancy Magic Mechanics.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","dark","fantasy"],
+    }),
+  },
+
+  "creative-space-western-frontier-colony-saloon": {
+    id: "creative-space-western-frontier-colony-saloon",
+    name: "SpaceWesternFrontierColonySaloonSkill",
+    displayName: "Space Western Frontier Colony Saloon",
+    categoryId: "creative",
+    description: "Blends space opera and western themes on lawless outer-rim desert mining planets.",
+    tags: ["creative","creative","space","western"],
+    transform: createStandardSkillTransform({
+      sectionName: "Space Western Frontier Colony Saloon Standards",
+      ruSectionName: "Стандарты и регламенты: Space Western Frontier Colony Saloon",
+      instructions: [
+        "Apply core domain tenets for Space Western Frontier Colony Saloon.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Space Western Frontier Colony Saloon.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","space","western"],
+    }),
+  },
+
+  "creative-cyberpunk-street-slang-lexicon-idioms": {
+    id: "creative-cyberpunk-street-slang-lexicon-idioms",
+    name: "CyberpunkStreetSlangLexiconIdiomsSkill",
+    displayName: "Cyberpunk Street Slang Lexicon & Idioms",
+    categoryId: "creative",
+    description: "Develops rich futuristic street slang and corporate jargon for sci-fi dialogue.",
+    tags: ["creative","creative","cyberpunk","street"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cyberpunk Street Slang Lexicon & Idioms Standards",
+      ruSectionName: "Стандарты и регламенты: Cyberpunk Street Slang Lexicon & Idioms",
+      instructions: [
+        "Apply core domain tenets for Cyberpunk Street Slang Lexicon & Idioms.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cyberpunk Street Slang Lexicon & Idioms.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","cyberpunk","street"],
+    }),
+  },
+
+  "creative-gothic-romance-secret-passage-discovery": {
+    id: "creative-gothic-romance-secret-passage-discovery",
+    name: "GothicRomanceSecretPassageDiscoverySkill",
+    displayName: "Gothic Romance Secret Passage Discovery",
+    categoryId: "creative",
+    description: "Describes dramatic discoveries of hidden chambers and diary secrets in ancient manors.",
+    tags: ["creative","creative","gothic","romance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gothic Romance Secret Passage Discovery Standards",
+      ruSectionName: "Стандарты и регламенты: Gothic Romance Secret Passage Discovery",
+      instructions: [
+        "Apply core domain tenets for Gothic Romance Secret Passage Discovery.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gothic Romance Secret Passage Discovery.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","gothic","romance"],
+    }),
+  },
+
+  "creative-time-travel-causality-repair-agency-arc": {
+    id: "creative-time-travel-causality-repair-agency-arc",
+    name: "TimeTravelCausalityRepairAgencyArcSkill",
+    displayName: "Time Travel Causality Repair Agency Arc",
+    categoryId: "creative",
+    description: "Follows time cops repairing historical anomalies caused by rogue time travelers.",
+    tags: ["creative","creative","time","travel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Time Travel Causality Repair Agency Arc Standards",
+      ruSectionName: "Стандарты и регламенты: Time Travel Causality Repair Agency Arc",
+      instructions: [
+        "Apply core domain tenets for Time Travel Causality Repair Agency Arc.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Time Travel Causality Repair Agency Arc.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","time","travel"],
+    }),
+  },
+
+  "creative-noir-voiceover-monologue-cynical-reflection": {
+    id: "creative-noir-voiceover-monologue-cynical-reflection",
+    name: "NoirVoiceoverMonologueCynicalReflectionSkill",
+    displayName: "Noir Voiceover Monologue Cynical Reflection",
+    categoryId: "creative",
+    description: "Writes iconic rain-slicked noir detective opening voiceover monologues.",
+    tags: ["creative","creative","noir","voiceover"],
+    transform: createStandardSkillTransform({
+      sectionName: "Noir Voiceover Monologue Cynical Reflection Standards",
+      ruSectionName: "Стандарты и регламенты: Noir Voiceover Monologue Cynical Reflection",
+      instructions: [
+        "Apply core domain tenets for Noir Voiceover Monologue Cynical Reflection.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Noir Voiceover Monologue Cynical Reflection.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","noir","voiceover"],
+    }),
+  },
+
+  "creative-high-fantasy-sacred-sword-legend-prophecy": {
+    id: "creative-high-fantasy-sacred-sword-legend-prophecy",
+    name: "HighFantasySacredSwordLegendProphecySkill",
+    displayName: "High Fantasy Sacred Sword Legend Prophecy",
+    categoryId: "creative",
+    description: "Drafts ancient prophecies and legendary weapon forging mythologies.",
+    tags: ["creative","creative","high","fantasy"],
+    transform: createStandardSkillTransform({
+      sectionName: "High Fantasy Sacred Sword Legend Prophecy Standards",
+      ruSectionName: "Стандарты и регламенты: High Fantasy Sacred Sword Legend Prophecy",
+      instructions: [
+        "Apply core domain tenets for High Fantasy Sacred Sword Legend Prophecy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для High Fantasy Sacred Sword Legend Prophecy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","high","fantasy"],
+    }),
+  },
+
+  "creative-micro-fiction-6-word-story-emotional-punch": {
+    id: "creative-micro-fiction-6-word-story-emotional-punch",
+    name: "MicroFiction6WordStoryEmotionalPunchSkill",
+    displayName: "Micro-Fiction 6-Word Story Emotional Punch",
+    categoryId: "creative",
+    description: "Drafts ultra-compressed 6-word micro-stories that deliver instant emotional resonance.",
+    tags: ["creative","creative","micro","fiction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Micro-Fiction 6-Word Story Emotional Punch Standards",
+      ruSectionName: "Стандарты и регламенты: Micro-Fiction 6-Word Story Emotional Punch",
+      instructions: [
+        "Apply core domain tenets for Micro-Fiction 6-Word Story Emotional Punch.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Micro-Fiction 6-Word Story Emotional Punch.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","micro","fiction"],
+    }),
+  },
+
+  "creative-interactive-fiction-game-master-dm-guide": {
+    id: "creative-interactive-fiction-game-master-dm-guide",
+    name: "InteractiveFictionGameMasterDMGuideSkill",
+    displayName: "Interactive Fiction Game Master DM Guide",
+    categoryId: "creative",
+    description: "Provides game masters with evocative room descriptions and improvisational prompts.",
+    tags: ["creative","creative","interactive","fiction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Fiction Game Master DM Guide Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Fiction Game Master DM Guide",
+      instructions: [
+        "Apply core domain tenets for Interactive Fiction Game Master DM Guide.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Fiction Game Master DM Guide.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","interactive","fiction"],
+    }),
+  },
+
+  "creative-comprehensive-creative-writing-master-constitution": {
+    id: "creative-comprehensive-creative-writing-master-constitution",
+    name: "ComprehensiveCreativeWritingMasterConstitutionSkill",
+    displayName: "Comprehensive Creative Writing Master Constitution",
+    categoryId: "creative",
+    description: "Enforces world-class creative writing, narrative architecture, and prose craft.",
+    tags: ["creative","creative","comprehensive","creative"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comprehensive Creative Writing Master Constitution Standards",
+      ruSectionName: "Стандарты и регламенты: Comprehensive Creative Writing Master Constitution",
+      instructions: [
+        "Apply core domain tenets for Comprehensive Creative Writing Master Constitution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comprehensive Creative Writing Master Constitution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative","comprehensive","creative"],
+    }),
+  },
+  "creative-final-multi-sensory-immersive-world-scene-conception": {
+    id: "creative-final-multi-sensory-immersive-world-scene-conception",
+    name: "MultiSensoryImmersiveWorldSceneConceptionSkill",
+    displayName: "Multi-Sensory Immersive World Scene Conception",
+    categoryId: "creative",
+    description: "Evokes vivid auditory, olfactory, tactile, and visual imagery in fictional settings.",
+    tags: ["creative","creative-final","final","multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Sensory Immersive World Scene Conception Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Sensory Immersive World Scene Conception",
+      instructions: [
+        "Apply core domain tenets for Multi-Sensory Immersive World Scene Conception.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Sensory Immersive World Scene Conception.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative-final","final","multi"],
+    }),
+  },
+
+  "creative-final-avant-garde-experimental-narrative-structure-design": {
+    id: "creative-final-avant-garde-experimental-narrative-structure-design",
+    name: "AvantGardeExperimentalNarrativeStructureDesignSkill",
+    displayName: "Avant-Garde Experimental Narrative Structure Design",
+    categoryId: "creative",
+    description: "Structures non-linear, fragmented, or interactive multi-perspective narratives.",
+    tags: ["creative","creative-final","final","avant"],
+    transform: createStandardSkillTransform({
+      sectionName: "Avant-Garde Experimental Narrative Structure Design Standards",
+      ruSectionName: "Стандарты и регламенты: Avant-Garde Experimental Narrative Structure Design",
+      instructions: [
+        "Apply core domain tenets for Avant-Garde Experimental Narrative Structure Design.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Avant-Garde Experimental Narrative Structure Design.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative-final","final","avant"],
+    }),
+  },
+
+  "creative-final-master-artistic-expression-creative-direction": {
+    id: "creative-final-master-artistic-expression-creative-direction",
+    name: "MasterArtisticExpressionCreativeDirectionSkill",
+    displayName: "Master Artistic Expression Creative Direction",
+    categoryId: "creative",
+    description: "Enforces world-class creative concepting, artistic vision, and multimedia storytelling.",
+    tags: ["creative","creative-final","final","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Artistic Expression Creative Direction Standards",
+      ruSectionName: "Стандарты и регламенты: Master Artistic Expression Creative Direction",
+      instructions: [
+        "Apply core domain tenets for Master Artistic Expression Creative Direction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Artistic Expression Creative Direction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["creative","creative-final","final","master"],
+    }),
+  },
 };

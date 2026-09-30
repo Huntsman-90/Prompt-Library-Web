@@ -1962,4 +1962,2302 @@ export const BUSINESS_SKILLS: Record<string, SkillDefinition> = {
       tags: ["business","kam","account-management","enterprise-sales","growth"],
     }),
   },
+  "business-b2b-saas-magic-number-sales-efficiency": {
+    id: "business-b2b-saas-magic-number-sales-efficiency",
+    name: "B2BSaaSMagicNumberSalesEfficiencySkill",
+    displayName: "B2B SaaS Magic Number & Sales Efficiency",
+    categoryId: "business",
+    description: "Calculates SaaS Magic Number, CAC Payback, and Rule of 40.",
+    tags: ["business","business","b2b","saas"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B SaaS Magic Number & Sales Efficiency Standards",
+      ruSectionName: "Стандарты и регламенты: B2B SaaS Magic Number & Sales Efficiency",
+      instructions: [
+        "Apply core domain tenets for B2B SaaS Magic Number & Sales Efficiency.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B SaaS Magic Number & Sales Efficiency.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","saas"],
+    }),
+  },
+
+  "business-blue-ocean-strategy-canvas-errc-grid": {
+    id: "business-blue-ocean-strategy-canvas-errc-grid",
+    name: "BlueOceanStrategyCanvasERRCGridSkill",
+    displayName: "Blue Ocean Strategy Canvas & ERRC Grid",
+    categoryId: "business",
+    description: "Identifies uncontested market space using Eliminate-Reduce-Raise-Create grid.",
+    tags: ["business","business","blue","ocean"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blue Ocean Strategy Canvas & ERRC Grid Standards",
+      ruSectionName: "Стандарты и регламенты: Blue Ocean Strategy Canvas & ERRC Grid",
+      instructions: [
+        "Apply core domain tenets for Blue Ocean Strategy Canvas & ERRC Grid.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Blue Ocean Strategy Canvas & ERRC Grid.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","blue","ocean"],
+    }),
+  },
+
+  "business-jim-collins-compounding-flywheel-architecture": {
+    id: "business-jim-collins-compounding-flywheel-architecture",
+    name: "JimCollinsCompoundingFlywheelArchitectureSkill",
+    displayName: "Jim Collins Compounding Flywheel Architecture",
+    categoryId: "business",
+    description: "Maps interconnected business virtuous cycles where momentum compounds.",
+    tags: ["business","business","jim","collins"],
+    transform: createStandardSkillTransform({
+      sectionName: "Jim Collins Compounding Flywheel Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: Jim Collins Compounding Flywheel Architecture",
+      instructions: [
+        "Apply core domain tenets for Jim Collins Compounding Flywheel Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Jim Collins Compounding Flywheel Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","jim","collins"],
+    }),
+  },
+
+  "business-cohort-retention-heatmap-decay-curves": {
+    id: "business-cohort-retention-heatmap-decay-curves",
+    name: "CohortRetentionHeatmapDecayCurvesSkill",
+    displayName: "Cohort Retention Heatmap & Decay Curves",
+    categoryId: "business",
+    description: "Analyzes monthly customer cohort retention decay curves and asymptotic flattening.",
+    tags: ["business","business","cohort","retention"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cohort Retention Heatmap & Decay Curves Standards",
+      ruSectionName: "Стандарты и регламенты: Cohort Retention Heatmap & Decay Curves",
+      instructions: [
+        "Apply core domain tenets for Cohort Retention Heatmap & Decay Curves.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cohort Retention Heatmap & Decay Curves.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","cohort","retention"],
+    }),
+  },
+
+  "business-mckinsey-three-horizons-portfolio-framework": {
+    id: "business-mckinsey-three-horizons-portfolio-framework",
+    name: "McKinseyThreeHorizonsPortfolioFrameworkSkill",
+    displayName: "McKinsey Three Horizons Portfolio Framework",
+    categoryId: "business",
+    description: "Allocates capital across Horizon 1 core, Horizon 2 scaling, and Horizon 3 bets.",
+    tags: ["business","business","mckinsey","three"],
+    transform: createStandardSkillTransform({
+      sectionName: "McKinsey Three Horizons Portfolio Framework Standards",
+      ruSectionName: "Стандарты и регламенты: McKinsey Three Horizons Portfolio Framework",
+      instructions: [
+        "Apply core domain tenets for McKinsey Three Horizons Portfolio Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для McKinsey Three Horizons Portfolio Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","mckinsey","three"],
+    }),
+  },
+
+  "business-land-and-expand-enterprise-sales-framework": {
+    id: "business-land-and-expand-enterprise-sales-framework",
+    name: "LandandExpandEnterpriseSalesFrameworkSkill",
+    displayName: "Land and Expand Enterprise Sales Framework",
+    categoryId: "business",
+    description: "Enters accounts with departmental beachheads and expands to site licenses.",
+    tags: ["business","business","land","and"],
+    transform: createStandardSkillTransform({
+      sectionName: "Land and Expand Enterprise Sales Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Land and Expand Enterprise Sales Framework",
+      instructions: [
+        "Apply core domain tenets for Land and Expand Enterprise Sales Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Land and Expand Enterprise Sales Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","land","and"],
+    }),
+  },
+
+  "business-zero-based-budgeting-zbb-cost-optimization": {
+    id: "business-zero-based-budgeting-zbb-cost-optimization",
+    name: "ZeroBasedBudgetingZBBCostOptimizationSkill",
+    displayName: "Zero-Based Budgeting (ZBB) Cost Optimization",
+    categoryId: "business",
+    description: "Rebuilds department budgets from zero requiring explicit operational justification.",
+    tags: ["business","business","zero","based"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zero-Based Budgeting (ZBB) Cost Optimization Standards",
+      ruSectionName: "Стандарты и регламенты: Zero-Based Budgeting (ZBB) Cost Optimization",
+      instructions: [
+        "Apply core domain tenets for Zero-Based Budgeting (ZBB) Cost Optimization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Zero-Based Budgeting (ZBB) Cost Optimization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","zero","based"],
+    }),
+  },
+
+  "business-van-westendorp-price-sensitivity-meter-psm": {
+    id: "business-van-westendorp-price-sensitivity-meter-psm",
+    name: "VanWestendorpPriceSensitivityMeterPSMSkill",
+    displayName: "Van Westendorp Price Sensitivity Meter (PSM)",
+    categoryId: "business",
+    description: "Determines acceptable price ranges using the 4-question PSM survey methodology.",
+    tags: ["business","business","van","westendorp"],
+    transform: createStandardSkillTransform({
+      sectionName: "Van Westendorp Price Sensitivity Meter (PSM) Standards",
+      ruSectionName: "Стандарты и регламенты: Van Westendorp Price Sensitivity Meter (PSM)",
+      instructions: [
+        "Apply core domain tenets for Van Westendorp Price Sensitivity Meter (PSM).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Van Westendorp Price Sensitivity Meter (PSM).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","van","westendorp"],
+    }),
+  },
+
+  "business-clayton-christensen-low-end-disruption": {
+    id: "business-clayton-christensen-low-end-disruption",
+    name: "ClaytonChristensenLowEndDisruptionSkill",
+    displayName: "Clayton Christensen Low-End Disruption",
+    categoryId: "business",
+    description: "Analyzes how simpler, cheaper solutions enter underserved market bottoms.",
+    tags: ["business","business","clayton","christensen"],
+    transform: createStandardSkillTransform({
+      sectionName: "Clayton Christensen Low-End Disruption Standards",
+      ruSectionName: "Стандарты и регламенты: Clayton Christensen Low-End Disruption",
+      instructions: [
+        "Apply core domain tenets for Clayton Christensen Low-End Disruption.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Clayton Christensen Low-End Disruption.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","clayton","christensen"],
+    }),
+  },
+
+  "business-david-sacks-burn-multiple-capital-efficiency": {
+    id: "business-david-sacks-burn-multiple-capital-efficiency",
+    name: "DavidSacksBurnMultipleCapitalEfficiencySkill",
+    displayName: "David Sacks Burn Multiple & Capital Efficiency",
+    categoryId: "business",
+    description: "Evaluates startup capital efficiency: Net Burn / Net New ARR.",
+    tags: ["business","business","david","sacks"],
+    transform: createStandardSkillTransform({
+      sectionName: "David Sacks Burn Multiple & Capital Efficiency Standards",
+      ruSectionName: "Стандарты и регламенты: David Sacks Burn Multiple & Capital Efficiency",
+      instructions: [
+        "Apply core domain tenets for David Sacks Burn Multiple & Capital Efficiency.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для David Sacks Burn Multiple & Capital Efficiency.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","david","sacks"],
+    }),
+  },
+
+  "business-bcg-growth-share-portfolio-matrix-strategy": {
+    id: "business-bcg-growth-share-portfolio-matrix-strategy",
+    name: "BCGGrowthSharePortfolioMatrixStrategySkill",
+    displayName: "BCG Growth-Share Portfolio Matrix Strategy",
+    categoryId: "business",
+    description: "Categorizes business units into Stars, Cash Cows, Question Marks, and Dogs.",
+    tags: ["business","business","bcg","growth"],
+    transform: createStandardSkillTransform({
+      sectionName: "BCG Growth-Share Portfolio Matrix Strategy Standards",
+      ruSectionName: "Стандарты и регламенты: BCG Growth-Share Portfolio Matrix Strategy",
+      instructions: [
+        "Apply core domain tenets for BCG Growth-Share Portfolio Matrix Strategy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для BCG Growth-Share Portfolio Matrix Strategy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","bcg","growth"],
+    }),
+  },
+
+  "business-product-led-growth-plg-self-serve-funnel": {
+    id: "business-product-led-growth-plg-self-serve-funnel",
+    name: "ProductLedGrowthPLGSelfServeFunnelSkill",
+    displayName: "Product-Led Growth (PLG) Self-Serve Funnel",
+    categoryId: "business",
+    description: "Drives software distribution through self-serve product experience.",
+    tags: ["business","business","product","led"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product-Led Growth (PLG) Self-Serve Funnel Standards",
+      ruSectionName: "Стандарты и регламенты: Product-Led Growth (PLG) Self-Serve Funnel",
+      instructions: [
+        "Apply core domain tenets for Product-Led Growth (PLG) Self-Serve Funnel.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Product-Led Growth (PLG) Self-Serve Funnel.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","product","led"],
+    }),
+  },
+
+  "business-gross-margin-profile-cogs-structuring": {
+    id: "business-gross-margin-profile-cogs-structuring",
+    name: "GrossMarginProfileCOGSStructuringSkill",
+    displayName: "Gross Margin Profile & COGS Structuring",
+    categoryId: "business",
+    description: "Structures COGS to target healthy 75%+ software gross margins.",
+    tags: ["business","business","gross","margin"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gross Margin Profile & COGS Structuring Standards",
+      ruSectionName: "Стандарты и регламенты: Gross Margin Profile & COGS Structuring",
+      instructions: [
+        "Apply core domain tenets for Gross Margin Profile & COGS Structuring.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gross Margin Profile & COGS Structuring.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","gross","margin"],
+    }),
+  },
+
+  "business-geoffrey-moore-crossing-the-chasm-framework": {
+    id: "business-geoffrey-moore-crossing-the-chasm-framework",
+    name: "GeoffreyMooreCrossingtheChasmFrameworkSkill",
+    displayName: "Geoffrey Moore Crossing the Chasm Framework",
+    categoryId: "business",
+    description: "Guides tech startups transitioning from Early Adopters to Pragmatists.",
+    tags: ["business","business","geoffrey","moore"],
+    transform: createStandardSkillTransform({
+      sectionName: "Geoffrey Moore Crossing the Chasm Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Geoffrey Moore Crossing the Chasm Framework",
+      instructions: [
+        "Apply core domain tenets for Geoffrey Moore Crossing the Chasm Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Geoffrey Moore Crossing the Chasm Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","geoffrey","moore"],
+    }),
+  },
+
+  "business-dunbar-number-organizational-scaling-points": {
+    id: "business-dunbar-number-organizational-scaling-points",
+    name: "DunbarNumberOrganizationalScalingPointsSkill",
+    displayName: "Dunbar Number Organizational Scaling Points",
+    categoryId: "business",
+    description: "Restructures management hierarchy at team thresholds: 15, 50, 150, 500.",
+    tags: ["business","business","dunbar","number"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dunbar Number Organizational Scaling Points Standards",
+      ruSectionName: "Стандарты и регламенты: Dunbar Number Organizational Scaling Points",
+      instructions: [
+        "Apply core domain tenets for Dunbar Number Organizational Scaling Points.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dunbar Number Organizational Scaling Points.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","dunbar","number"],
+    }),
+  },
+
+  "business-dynamic-pricing-perishable-yield-management": {
+    id: "business-dynamic-pricing-perishable-yield-management",
+    name: "DynamicPricingPerishableYieldManagementSkill",
+    displayName: "Dynamic Pricing & Perishable Yield Management",
+    categoryId: "business",
+    description: "Maximizes revenue for time-sensitive capacity via elasticity models.",
+    tags: ["business","business","dynamic","pricing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dynamic Pricing & Perishable Yield Management Standards",
+      ruSectionName: "Стандарты и регламенты: Dynamic Pricing & Perishable Yield Management",
+      instructions: [
+        "Apply core domain tenets for Dynamic Pricing & Perishable Yield Management.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dynamic Pricing & Perishable Yield Management.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","dynamic","pricing"],
+    }),
+  },
+
+  "business-b2b-procurement-vendor-risk-assessment": {
+    id: "business-b2b-procurement-vendor-risk-assessment",
+    name: "B2BProcurementVendorRiskAssessmentSkill",
+    displayName: "B2B Procurement & Vendor Risk Assessment",
+    categoryId: "business",
+    description: "Evaluates vendor financial solvency, SLA penalties, and business continuity.",
+    tags: ["business","business","b2b","procurement"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Procurement & Vendor Risk Assessment Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Procurement & Vendor Risk Assessment",
+      instructions: [
+        "Apply core domain tenets for B2B Procurement & Vendor Risk Assessment.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Procurement & Vendor Risk Assessment.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","procurement"],
+    }),
+  },
+
+  "business-freemium-conversion-paywall-placement": {
+    id: "business-freemium-conversion-paywall-placement",
+    name: "FreemiumConversionPaywallPlacementSkill",
+    displayName: "Freemium Conversion & Paywall Placement",
+    categoryId: "business",
+    description: "Structures feature gating, reverse trials, and contextual upgrade triggers.",
+    tags: ["business","business","freemium","conversion"],
+    transform: createStandardSkillTransform({
+      sectionName: "Freemium Conversion & Paywall Placement Standards",
+      ruSectionName: "Стандарты и регламенты: Freemium Conversion & Paywall Placement",
+      instructions: [
+        "Apply core domain tenets for Freemium Conversion & Paywall Placement.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Freemium Conversion & Paywall Placement.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","freemium","conversion"],
+    }),
+  },
+
+  "business-closed-loop-nps-operational-system": {
+    id: "business-closed-loop-nps-operational-system",
+    name: "ClosedLoopNPSOperationalSystemSkill",
+    displayName: "Closed-Loop NPS Operational System",
+    categoryId: "business",
+    description: "Segments feedback into Promoters, Passives, and Detractors with SLA follow-ups.",
+    tags: ["business","business","closed","loop"],
+    transform: createStandardSkillTransform({
+      sectionName: "Closed-Loop NPS Operational System Standards",
+      ruSectionName: "Стандарты и регламенты: Closed-Loop NPS Operational System",
+      instructions: [
+        "Apply core domain tenets for Closed-Loop NPS Operational System.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Closed-Loop NPS Operational System.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","closed","loop"],
+    }),
+  },
+
+  "business-post-merger-integration-pmi-100-day-plan": {
+    id: "business-post-merger-integration-pmi-100-day-plan",
+    name: "PostMergerIntegrationPMI100DayPlanSkill",
+    displayName: "Post-Merger Integration (PMI) 100-Day Plan",
+    categoryId: "business",
+    description: "Executes post-acquisition integration covering IT, culture, and cost synergies.",
+    tags: ["business","business","post","merger"],
+    transform: createStandardSkillTransform({
+      sectionName: "Post-Merger Integration (PMI) 100-Day Plan Standards",
+      ruSectionName: "Стандарты и регламенты: Post-Merger Integration (PMI) 100-Day Plan",
+      instructions: [
+        "Apply core domain tenets for Post-Merger Integration (PMI) 100-Day Plan.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Post-Merger Integration (PMI) 100-Day Plan.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","post","merger"],
+    }),
+  },
+
+  "business-channel-partner-var-reseller-program": {
+    id: "business-channel-partner-var-reseller-program",
+    name: "ChannelPartnerVARResellerProgramSkill",
+    displayName: "Channel Partner & VAR Reseller Program",
+    categoryId: "business",
+    description: "Designs multi-tier reseller programs, deal registration, and co-op funds.",
+    tags: ["business","business","channel","partner"],
+    transform: createStandardSkillTransform({
+      sectionName: "Channel Partner & VAR Reseller Program Standards",
+      ruSectionName: "Стандарты и регламенты: Channel Partner & VAR Reseller Program",
+      instructions: [
+        "Apply core domain tenets for Channel Partner & VAR Reseller Program.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Channel Partner & VAR Reseller Program.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","channel","partner"],
+    }),
+  },
+
+  "business-corporate-esg-csrd-sustainability-reporting": {
+    id: "business-corporate-esg-csrd-sustainability-reporting",
+    name: "CorporateESGCSRDSustainabilityReportingSkill",
+    displayName: "Corporate ESG & CSRD Sustainability Reporting",
+    categoryId: "business",
+    description: "Measures Scope 1-3 carbon emissions and supply chain labor ethics.",
+    tags: ["business","business","corporate","esg"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate ESG & CSRD Sustainability Reporting Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate ESG & CSRD Sustainability Reporting",
+      instructions: [
+        "Apply core domain tenets for Corporate ESG & CSRD Sustainability Reporting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate ESG & CSRD Sustainability Reporting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","esg"],
+    }),
+  },
+
+  "business-voice-of-the-customer-voc-listening-engine": {
+    id: "business-voice-of-the-customer-voc-listening-engine",
+    name: "VoiceoftheCustomerVoCListeningEngineSkill",
+    displayName: "Voice of the Customer (VoC) Listening Engine",
+    categoryId: "business",
+    description: "Synthesizes customer call recordings, tickets, and reviews into feature backlogs.",
+    tags: ["business","business","voice","of"],
+    transform: createStandardSkillTransform({
+      sectionName: "Voice of the Customer (VoC) Listening Engine Standards",
+      ruSectionName: "Стандарты и регламенты: Voice of the Customer (VoC) Listening Engine",
+      instructions: [
+        "Apply core domain tenets for Voice of the Customer (VoC) Listening Engine.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Voice of the Customer (VoC) Listening Engine.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","voice","of"],
+    }),
+  },
+
+  "business-working-capital-cash-conversion-cycle-ccc": {
+    id: "business-working-capital-cash-conversion-cycle-ccc",
+    name: "WorkingCapitalCashConversionCycleCCCSkill",
+    displayName: "Working Capital Cash Conversion Cycle (CCC)",
+    categoryId: "business",
+    description: "Compresses DSO + DSI - DPO to liberate operating cash.",
+    tags: ["business","business","working","capital"],
+    transform: createStandardSkillTransform({
+      sectionName: "Working Capital Cash Conversion Cycle (CCC) Standards",
+      ruSectionName: "Стандарты и регламенты: Working Capital Cash Conversion Cycle (CCC)",
+      instructions: [
+        "Apply core domain tenets for Working Capital Cash Conversion Cycle (CCC).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Working Capital Cash Conversion Cycle (CCC).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","working","capital"],
+    }),
+  },
+
+  "business-key-account-management-kam-joint-plans": {
+    id: "business-key-account-management-kam-joint-plans",
+    name: "KeyAccountManagementKAMJointPlansSkill",
+    displayName: "Key Account Management (KAM) Joint Plans",
+    categoryId: "business",
+    description: "Aligns executive sponsorship and 12-month joint business plans.",
+    tags: ["business","business","key","account"],
+    transform: createStandardSkillTransform({
+      sectionName: "Key Account Management (KAM) Joint Plans Standards",
+      ruSectionName: "Стандарты и регламенты: Key Account Management (KAM) Joint Plans",
+      instructions: [
+        "Apply core domain tenets for Key Account Management (KAM) Joint Plans.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Key Account Management (KAM) Joint Plans.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","key","account"],
+    }),
+  },
+
+  "business-saas-net-revenue-retention-nrr-expansion": {
+    id: "business-saas-net-revenue-retention-nrr-expansion",
+    name: "SaaSNetRevenueRetentionNRRExpansionSkill",
+    displayName: "SaaS Net Revenue Retention (NRR) Expansion",
+    categoryId: "business",
+    description: "Drives account expansion through seat additions, upsells, and usage tiers.",
+    tags: ["business","business","saas","net"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Net Revenue Retention (NRR) Expansion Standards",
+      ruSectionName: "Стандарты и регламенты: SaaS Net Revenue Retention (NRR) Expansion",
+      instructions: [
+        "Apply core domain tenets for SaaS Net Revenue Retention (NRR) Expansion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SaaS Net Revenue Retention (NRR) Expansion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","saas","net"],
+    }),
+  },
+
+  "business-b2b-sales-pipeline-stage-conversion-rate": {
+    id: "business-b2b-sales-pipeline-stage-conversion-rate",
+    name: "B2BSalesPipelineStageConversionRateSkill",
+    displayName: "B2B Sales Pipeline Stage Conversion Rate",
+    categoryId: "business",
+    description: "Analyzes pipeline bottlenecks across MQL, SQL, Opportunity, and Closed-Won.",
+    tags: ["business","business","b2b","sales"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Sales Pipeline Stage Conversion Rate Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Sales Pipeline Stage Conversion Rate",
+      instructions: [
+        "Apply core domain tenets for B2B Sales Pipeline Stage Conversion Rate.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Sales Pipeline Stage Conversion Rate.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","sales"],
+    }),
+  },
+
+  "business-unit-economics-cac-payback-period-calculation": {
+    id: "business-unit-economics-cac-payback-period-calculation",
+    name: "UnitEconomicsCACPaybackPeriodCalculationSkill",
+    displayName: "Unit Economics CAC Payback Period Calculation",
+    categoryId: "business",
+    description: "Calculates fully-burdened CAC and payback period in months.",
+    tags: ["business","business","unit","economics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Unit Economics CAC Payback Period Calculation Standards",
+      ruSectionName: "Стандарты и регламенты: Unit Economics CAC Payback Period Calculation",
+      instructions: [
+        "Apply core domain tenets for Unit Economics CAC Payback Period Calculation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Unit Economics CAC Payback Period Calculation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","unit","economics"],
+    }),
+  },
+
+  "business-enterprise-sla-uptime-guarantee-penalty": {
+    id: "business-enterprise-sla-uptime-guarantee-penalty",
+    name: "EnterpriseSLAUptimeGuaranteePenaltySkill",
+    displayName: "Enterprise SLA Uptime Guarantee Penalty",
+    categoryId: "business",
+    description: "Structures 99.9% uptime SLAs with tier-based financial penalty credits.",
+    tags: ["business","business","enterprise","sla"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enterprise SLA Uptime Guarantee Penalty Standards",
+      ruSectionName: "Стандарты и регламенты: Enterprise SLA Uptime Guarantee Penalty",
+      instructions: [
+        "Apply core domain tenets for Enterprise SLA Uptime Guarantee Penalty.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Enterprise SLA Uptime Guarantee Penalty.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","enterprise","sla"],
+    }),
+  },
+
+  "business-b2b-pricing-tier-packaging-feature-matrix": {
+    id: "business-b2b-pricing-tier-packaging-feature-matrix",
+    name: "B2BPricingTierPackagingFeatureMatrixSkill",
+    displayName: "B2B Pricing Tier Packaging & Feature Matrix",
+    categoryId: "business",
+    description: "Packages features into Good-Better-Best tier plans targeting buyer personas.",
+    tags: ["business","business","b2b","pricing"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Pricing Tier Packaging & Feature Matrix Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Pricing Tier Packaging & Feature Matrix",
+      instructions: [
+        "Apply core domain tenets for B2B Pricing Tier Packaging & Feature Matrix.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Pricing Tier Packaging & Feature Matrix.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","pricing"],
+    }),
+  },
+
+  "business-customer-success-health-score-early-warning": {
+    id: "business-customer-success-health-score-early-warning",
+    name: "CustomerSuccessHealthScoreEarlyWarningSkill",
+    displayName: "Customer Success Health Score Early Warning",
+    categoryId: "business",
+    description: "Combines telemetry, support tickets, and NPS into composite health scores.",
+    tags: ["business","business","customer","success"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Success Health Score Early Warning Standards",
+      ruSectionName: "Стандарты и регламенты: Customer Success Health Score Early Warning",
+      instructions: [
+        "Apply core domain tenets for Customer Success Health Score Early Warning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Customer Success Health Score Early Warning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","customer","success"],
+    }),
+  },
+
+  "business-strategic-supplier-single-source-diversification": {
+    id: "business-strategic-supplier-single-source-diversification",
+    name: "StrategicSupplierSingleSourceDiversificationSkill",
+    displayName: "Strategic Supplier Single-Source Diversification",
+    categoryId: "business",
+    description: "Mitigates supply chain risk by qualifying secondary backup suppliers.",
+    tags: ["business","business","strategic","supplier"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strategic Supplier Single-Source Diversification Standards",
+      ruSectionName: "Стандарты и регламенты: Strategic Supplier Single-Source Diversification",
+      instructions: [
+        "Apply core domain tenets for Strategic Supplier Single-Source Diversification.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Strategic Supplier Single-Source Diversification.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","strategic","supplier"],
+    }),
+  },
+
+  "business-corporate-divestiture-carve-out-strategy": {
+    id: "business-corporate-divestiture-carve-out-strategy",
+    name: "CorporateDivestitureCarveOutStrategySkill",
+    displayName: "Corporate Divestiture & Carve-Out Strategy",
+    categoryId: "business",
+    description: "Executes non-core business unit spin-offs and carve-out asset sales.",
+    tags: ["business","business","corporate","divestiture"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Divestiture & Carve-Out Strategy Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Divestiture & Carve-Out Strategy",
+      instructions: [
+        "Apply core domain tenets for Corporate Divestiture & Carve-Out Strategy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Divestiture & Carve-Out Strategy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","divestiture"],
+    }),
+  },
+
+  "business-subscription-churn-voluntary-vs-involuntary": {
+    id: "business-subscription-churn-voluntary-vs-involuntary",
+    name: "SubscriptionChurnVoluntaryvsInvoluntarySkill",
+    displayName: "Subscription Churn Voluntary vs Involuntary",
+    categoryId: "business",
+    description: "Reduces involuntary churn via automated dunning credit card retry logic.",
+    tags: ["business","business","subscription","churn"],
+    transform: createStandardSkillTransform({
+      sectionName: "Subscription Churn Voluntary vs Involuntary Standards",
+      ruSectionName: "Стандарты и регламенты: Subscription Churn Voluntary vs Involuntary",
+      instructions: [
+        "Apply core domain tenets for Subscription Churn Voluntary vs Involuntary.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Subscription Churn Voluntary vs Involuntary.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","subscription","churn"],
+    }),
+  },
+
+  "business-b2b-sales-territory-realignment-quota": {
+    id: "business-b2b-sales-territory-realignment-quota",
+    name: "B2BSalesTerritoryRealignmentQuotaSkill",
+    displayName: "B2B Sales Territory Realignment & Quota",
+    categoryId: "business",
+    description: "Allocates enterprise sales territories and sets achievable account quotas.",
+    tags: ["business","business","b2b","sales"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Sales Territory Realignment & Quota Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Sales Territory Realignment & Quota",
+      instructions: [
+        "Apply core domain tenets for B2B Sales Territory Realignment & Quota.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Sales Territory Realignment & Quota.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","sales"],
+    }),
+  },
+
+  "business-corporate-treasury-liquidity-runway-management": {
+    id: "business-corporate-treasury-liquidity-runway-management",
+    name: "CorporateTreasuryLiquidityRunwayManagementSkill",
+    displayName: "Corporate Treasury Liquidity Runway Management",
+    categoryId: "business",
+    description: "Manages cash reserves, short-term yields, and 24-month runway projections.",
+    tags: ["business","business","corporate","treasury"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Treasury Liquidity Runway Management Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Treasury Liquidity Runway Management",
+      instructions: [
+        "Apply core domain tenets for Corporate Treasury Liquidity Runway Management.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Treasury Liquidity Runway Management.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","treasury"],
+    }),
+  },
+
+  "business-strategic-intellectual-property-portfolio-licensing": {
+    id: "business-strategic-intellectual-property-portfolio-licensing",
+    name: "StrategicIntellectualPropertyPortfolioLicensingSkill",
+    displayName: "Strategic Intellectual Property Portfolio Licensing",
+    categoryId: "business",
+    description: "Monetizes patent portfolios through out-licensing and cross-licensing.",
+    tags: ["business","business","strategic","intellectual"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strategic Intellectual Property Portfolio Licensing Standards",
+      ruSectionName: "Стандарты и регламенты: Strategic Intellectual Property Portfolio Licensing",
+      instructions: [
+        "Apply core domain tenets for Strategic Intellectual Property Portfolio Licensing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Strategic Intellectual Property Portfolio Licensing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","strategic","intellectual"],
+    }),
+  },
+
+  "business-e-commerce-average-order-value-aov-boost": {
+    id: "business-e-commerce-average-order-value-aov-boost",
+    name: "ECommerceAverageOrderValueAOVBoostSkill",
+    displayName: "E-Commerce Average Order Value (AOV) Boost",
+    categoryId: "business",
+    description: "Increases order values via bundle discounts, cross-sells, and threshold free shipping.",
+    tags: ["business","business","e","commerce"],
+    transform: createStandardSkillTransform({
+      sectionName: "E-Commerce Average Order Value (AOV) Boost Standards",
+      ruSectionName: "Стандарты и регламенты: E-Commerce Average Order Value (AOV) Boost",
+      instructions: [
+        "Apply core domain tenets for E-Commerce Average Order Value (AOV) Boost.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для E-Commerce Average Order Value (AOV) Boost.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","e","commerce"],
+    }),
+  },
+
+  "business-b2b-enterprise-discount-governance-matrix": {
+    id: "business-b2b-enterprise-discount-governance-matrix",
+    name: "B2BEnterpriseDiscountGovernanceMatrixSkill",
+    displayName: "B2B Enterprise Discount Governance Matrix",
+    categoryId: "business",
+    description: "Restricts AE sales discount authority with approval workflows.",
+    tags: ["business","business","b2b","enterprise"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Enterprise Discount Governance Matrix Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Enterprise Discount Governance Matrix",
+      instructions: [
+        "Apply core domain tenets for B2B Enterprise Discount Governance Matrix.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Enterprise Discount Governance Matrix.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","enterprise"],
+    }),
+  },
+
+  "business-joint-venture-strategic-alliance-structure": {
+    id: "business-joint-venture-strategic-alliance-structure",
+    name: "JointVentureStrategicAllianceStructureSkill",
+    displayName: "Joint Venture & Strategic Alliance Structure",
+    categoryId: "business",
+    description: "Negotiates equity joint ventures and shared governance agreements.",
+    tags: ["business","business","joint","venture"],
+    transform: createStandardSkillTransform({
+      sectionName: "Joint Venture & Strategic Alliance Structure Standards",
+      ruSectionName: "Стандарты и регламенты: Joint Venture & Strategic Alliance Structure",
+      instructions: [
+        "Apply core domain tenets for Joint Venture & Strategic Alliance Structure.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Joint Venture & Strategic Alliance Structure.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","joint","venture"],
+    }),
+  },
+
+  "business-executive-compensation-stock-option-pool": {
+    id: "business-executive-compensation-stock-option-pool",
+    name: "ExecutiveCompensationStockOptionPoolSkill",
+    displayName: "Executive Compensation & Stock Option Pool",
+    categoryId: "business",
+    description: "Designs 4-year vesting stock option pools with 1-year cliff terms.",
+    tags: ["business","business","executive","compensation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Compensation & Stock Option Pool Standards",
+      ruSectionName: "Стандарты и регламенты: Executive Compensation & Stock Option Pool",
+      instructions: [
+        "Apply core domain tenets for Executive Compensation & Stock Option Pool.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Executive Compensation & Stock Option Pool.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","executive","compensation"],
+    }),
+  },
+
+  "business-customer-acquisition-channel-roi-attribution": {
+    id: "business-customer-acquisition-channel-roi-attribution",
+    name: "CustomerAcquisitionChannelROIAttributionSkill",
+    displayName: "Customer Acquisition Channel ROI Attribution",
+    categoryId: "business",
+    description: "Attributes customer acquisition spend across Google, LinkedIn, and Organic.",
+    tags: ["business","business","customer","acquisition"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Acquisition Channel ROI Attribution Standards",
+      ruSectionName: "Стандарты и регламенты: Customer Acquisition Channel ROI Attribution",
+      instructions: [
+        "Apply core domain tenets for Customer Acquisition Channel ROI Attribution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Customer Acquisition Channel ROI Attribution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","customer","acquisition"],
+    }),
+  },
+
+  "business-b2b-contract-renewal-auto-escalation-clause": {
+    id: "business-b2b-contract-renewal-auto-escalation-clause",
+    name: "B2BContractRenewalAutoEscalationClauseSkill",
+    displayName: "B2B Contract Renewal Auto-Escalation Clause",
+    categoryId: "business",
+    description: "Includes annual 5% price increase auto-escalation clauses in enterprise SLAs.",
+    tags: ["business","business","b2b","contract"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Contract Renewal Auto-Escalation Clause Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Contract Renewal Auto-Escalation Clause",
+      instructions: [
+        "Apply core domain tenets for B2B Contract Renewal Auto-Escalation Clause.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Contract Renewal Auto-Escalation Clause.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","contract"],
+    }),
+  },
+
+  "business-corporate-credit-rating-debt-covenant": {
+    id: "business-corporate-credit-rating-debt-covenant",
+    name: "CorporateCreditRatingDebtCovenantSkill",
+    displayName: "Corporate Credit Rating & Debt Covenant",
+    categoryId: "business",
+    description: "Monitors leverage ratios (Net Debt / EBITDA) to comply with debt covenants.",
+    tags: ["business","business","corporate","credit"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Credit Rating & Debt Covenant Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Credit Rating & Debt Covenant",
+      instructions: [
+        "Apply core domain tenets for Corporate Credit Rating & Debt Covenant.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Credit Rating & Debt Covenant.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","credit"],
+    }),
+  },
+
+  "business-retail-store-foot-traffic-conversion-audit": {
+    id: "business-retail-store-foot-traffic-conversion-audit",
+    name: "RetailStoreFootTrafficConversionAuditSkill",
+    displayName: "Retail Store Foot-Traffic Conversion Audit",
+    categoryId: "business",
+    description: "Analyzes store visitor foot-traffic conversion rates and basket sizes.",
+    tags: ["business","business","retail","store"],
+    transform: createStandardSkillTransform({
+      sectionName: "Retail Store Foot-Traffic Conversion Audit Standards",
+      ruSectionName: "Стандарты и регламенты: Retail Store Foot-Traffic Conversion Audit",
+      instructions: [
+        "Apply core domain tenets for Retail Store Foot-Traffic Conversion Audit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Retail Store Foot-Traffic Conversion Audit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","retail","store"],
+    }),
+  },
+
+  "business-b2b-sales-engineering-demo-conversion": {
+    id: "business-b2b-sales-engineering-demo-conversion",
+    name: "B2BSalesEngineeringDemoConversionSkill",
+    displayName: "B2B Sales Engineering Demo Conversion",
+    categoryId: "business",
+    description: "Pairs AEs with sales engineers to conduct high-converting technical proof-of-concepts.",
+    tags: ["business","business","b2b","sales"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Sales Engineering Demo Conversion Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Sales Engineering Demo Conversion",
+      instructions: [
+        "Apply core domain tenets for B2B Sales Engineering Demo Conversion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Sales Engineering Demo Conversion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","sales"],
+    }),
+  },
+
+  "business-corporate-board-governance-audit-committee": {
+    id: "business-corporate-board-governance-audit-committee",
+    name: "CorporateBoardGovernanceAuditCommitteeSkill",
+    displayName: "Corporate Board Governance & Audit Committee",
+    categoryId: "business",
+    description: "Establishes independent board audit committees and risk oversight.",
+    tags: ["business","business","corporate","board"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Board Governance & Audit Committee Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Board Governance & Audit Committee",
+      instructions: [
+        "Apply core domain tenets for Corporate Board Governance & Audit Committee.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Board Governance & Audit Committee.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","board"],
+    }),
+  },
+
+  "business-saas-usage-based-pricing-consumption-metering": {
+    id: "business-saas-usage-based-pricing-consumption-metering",
+    name: "SaaSUsageBasedPricingConsumptionMeteringSkill",
+    displayName: "SaaS Usage-Based Pricing Consumption Metering",
+    categoryId: "business",
+    description: "Implements metered billing based on active storage, compute, or API tokens.",
+    tags: ["business","business","saas","usage"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Usage-Based Pricing Consumption Metering Standards",
+      ruSectionName: "Стандарты и регламенты: SaaS Usage-Based Pricing Consumption Metering",
+      instructions: [
+        "Apply core domain tenets for SaaS Usage-Based Pricing Consumption Metering.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SaaS Usage-Based Pricing Consumption Metering.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","saas","usage"],
+    }),
+  },
+
+  "business-product-sunset-legacy-eol-migration-plan": {
+    id: "business-product-sunset-legacy-eol-migration-plan",
+    name: "ProductSunsetLegacyEOLMigrationPlanSkill",
+    displayName: "Product Sunset & Legacy EOL Migration Plan",
+    categoryId: "business",
+    description: "Deprecates legacy software products with structured migration paths for users.",
+    tags: ["business","business","product","sunset"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product Sunset & Legacy EOL Migration Plan Standards",
+      ruSectionName: "Стандарты и регламенты: Product Sunset & Legacy EOL Migration Plan",
+      instructions: [
+        "Apply core domain tenets for Product Sunset & Legacy EOL Migration Plan.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Product Sunset & Legacy EOL Migration Plan.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","product","sunset"],
+    }),
+  },
+
+  "business-strategic-advisory-board-incentive-equity": {
+    id: "business-strategic-advisory-board-incentive-equity",
+    name: "StrategicAdvisoryBoardIncentiveEquitySkill",
+    displayName: "Strategic Advisory Board Incentive Equity",
+    categoryId: "business",
+    description: "Recruits industry luminary advisors using 0.25%-0.5% 2-year vesting equity.",
+    tags: ["business","business","strategic","advisory"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strategic Advisory Board Incentive Equity Standards",
+      ruSectionName: "Стандарты и регламенты: Strategic Advisory Board Incentive Equity",
+      instructions: [
+        "Apply core domain tenets for Strategic Advisory Board Incentive Equity.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Strategic Advisory Board Incentive Equity.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","strategic","advisory"],
+    }),
+  },
+
+  "business-b2b-cold-calling-script-objection-defusal": {
+    id: "business-b2b-cold-calling-script-objection-defusal",
+    name: "B2BColdCallingScriptObjectionDefusalSkill",
+    displayName: "B2B Cold Calling Script & Objection Defusal",
+    categoryId: "business",
+    description: "Arms sales SDRs with pattern-interrupt cold call scripts and objection handling.",
+    tags: ["business","business","b2b","cold"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Cold Calling Script & Objection Defusal Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Cold Calling Script & Objection Defusal",
+      instructions: [
+        "Apply core domain tenets for B2B Cold Calling Script & Objection Defusal.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Cold Calling Script & Objection Defusal.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","cold"],
+    }),
+  },
+
+  "business-corporate-debt-refinancing-term-loan-b": {
+    id: "business-corporate-debt-refinancing-term-loan-b",
+    name: "CorporateDebtRefinancingTermLoanBSkill",
+    displayName: "Corporate Debt Refinancing & Term Loan B",
+    categoryId: "business",
+    description: "Structures corporate debt refinancing to lower interest expense and extend maturities.",
+    tags: ["business","business","corporate","debt"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Debt Refinancing & Term Loan B Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Debt Refinancing & Term Loan B",
+      instructions: [
+        "Apply core domain tenets for Corporate Debt Refinancing & Term Loan B.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Debt Refinancing & Term Loan B.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","debt"],
+    }),
+  },
+
+  "business-customer-trial-to-paid-conversion-optimization": {
+    id: "business-customer-trial-to-paid-conversion-optimization",
+    name: "CustomerTrialtoPaidConversionOptimizationSkill",
+    displayName: "Customer Trial-to-Paid Conversion Optimization",
+    categoryId: "business",
+    description: "Optimizes 14-day free trial conversion through in-app guided onboarding.",
+    tags: ["business","business","customer","trial"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Trial-to-Paid Conversion Optimization Standards",
+      ruSectionName: "Стандарты и регламенты: Customer Trial-to-Paid Conversion Optimization",
+      instructions: [
+        "Apply core domain tenets for Customer Trial-to-Paid Conversion Optimization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Customer Trial-to-Paid Conversion Optimization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","customer","trial"],
+    }),
+  },
+
+  "business-b2b-sales-commission-plan-incentive-structure": {
+    id: "business-b2b-sales-commission-plan-incentive-structure",
+    name: "B2BSalesCommissionPlanIncentiveStructureSkill",
+    displayName: "B2B Sales Commission Plan Incentive Structure",
+    categoryId: "business",
+    description: "Designs quota-based commission tiers with accelerators for over-performance.",
+    tags: ["business","business","b2b","sales"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Sales Commission Plan Incentive Structure Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Sales Commission Plan Incentive Structure",
+      instructions: [
+        "Apply core domain tenets for B2B Sales Commission Plan Incentive Structure.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Sales Commission Plan Incentive Structure.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","sales"],
+    }),
+  },
+
+  "business-global-transfer-pricing-tax-compliance": {
+    id: "business-global-transfer-pricing-tax-compliance",
+    name: "GlobalTransferPricingTaxComplianceSkill",
+    displayName: "Global Transfer Pricing Tax Compliance",
+    categoryId: "business",
+    description: "Sets arm's length intercompany transfer prices compliant with OECD standards.",
+    tags: ["business","business","global","transfer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Global Transfer Pricing Tax Compliance Standards",
+      ruSectionName: "Стандарты и регламенты: Global Transfer Pricing Tax Compliance",
+      instructions: [
+        "Apply core domain tenets for Global Transfer Pricing Tax Compliance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Global Transfer Pricing Tax Compliance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","global","transfer"],
+    }),
+  },
+
+  "business-commercial-real-estate-lease-subleasing-strategy": {
+    id: "business-commercial-real-estate-lease-subleasing-strategy",
+    name: "CommercialRealEstateLeaseSubleasingStrategySkill",
+    displayName: "Commercial Real Estate Lease Subleasing Strategy",
+    categoryId: "business",
+    description: "Subleases excess corporate office footprint to reduce operating overhead.",
+    tags: ["business","business","commercial","real"],
+    transform: createStandardSkillTransform({
+      sectionName: "Commercial Real Estate Lease Subleasing Strategy Standards",
+      ruSectionName: "Стандарты и регламенты: Commercial Real Estate Lease Subleasing Strategy",
+      instructions: [
+        "Apply core domain tenets for Commercial Real Estate Lease Subleasing Strategy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Commercial Real Estate Lease Subleasing Strategy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","commercial","real"],
+    }),
+  },
+
+  "business-b2b-enterprise-security-questionnaire-defense": {
+    id: "business-b2b-enterprise-security-questionnaire-defense",
+    name: "B2BEnterpriseSecurityQuestionnaireDefenseSkill",
+    displayName: "B2B Enterprise Security Questionnaire Defense",
+    categoryId: "business",
+    description: "Accelerates enterprise procurement deals by streamlining SOC2/ISO answers.",
+    tags: ["business","business","b2b","enterprise"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Enterprise Security Questionnaire Defense Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Enterprise Security Questionnaire Defense",
+      instructions: [
+        "Apply core domain tenets for B2B Enterprise Security Questionnaire Defense.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Enterprise Security Questionnaire Defense.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","enterprise"],
+    }),
+  },
+
+  "business-product-category-creation-market-education": {
+    id: "business-product-category-creation-market-education",
+    name: "ProductCategoryCreationMarketEducationSkill",
+    displayName: "Product Category Creation & Market Education",
+    categoryId: "business",
+    description: "Establishes new software product categories through thought leadership.",
+    tags: ["business","business","product","category"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product Category Creation & Market Education Standards",
+      ruSectionName: "Стандарты и регламенты: Product Category Creation & Market Education",
+      instructions: [
+        "Apply core domain tenets for Product Category Creation & Market Education.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Product Category Creation & Market Education.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","product","category"],
+    }),
+  },
+
+  "business-corporate-philanthropy-foundation-matching": {
+    id: "business-corporate-philanthropy-foundation-matching",
+    name: "CorporatePhilanthropyFoundationMatchingSkill",
+    displayName: "Corporate Philanthropy & Foundation Matching",
+    categoryId: "business",
+    description: "Establishes corporate 1% pledge programs matching employee charitable donations.",
+    tags: ["business","business","corporate","philanthropy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Philanthropy & Foundation Matching Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Philanthropy & Foundation Matching",
+      instructions: [
+        "Apply core domain tenets for Corporate Philanthropy & Foundation Matching.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Philanthropy & Foundation Matching.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","philanthropy"],
+    }),
+  },
+
+  "business-b2b-content-marketing-lead-generation-funnel": {
+    id: "business-b2b-content-marketing-lead-generation-funnel",
+    name: "B2BContentMarketingLeadGenerationFunnelSkill",
+    displayName: "B2B Content Marketing Lead Generation Funnel",
+    categoryId: "business",
+    description: "Generates MQLs through gated white papers, webinars, and ROI calculators.",
+    tags: ["business","business","b2b","content"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Content Marketing Lead Generation Funnel Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Content Marketing Lead Generation Funnel",
+      instructions: [
+        "Apply core domain tenets for B2B Content Marketing Lead Generation Funnel.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Content Marketing Lead Generation Funnel.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","content"],
+    }),
+  },
+
+  "business-supply-chain-vendor-quality-defect-penalties": {
+    id: "business-supply-chain-vendor-quality-defect-penalties",
+    name: "SupplyChainVendorQualityDefectPenaltiesSkill",
+    displayName: "Supply Chain Vendor Quality Defect Penalties",
+    categoryId: "business",
+    description: "Enforces factory defect SLA penalties on manufacturing suppliers.",
+    tags: ["business","business","supply","chain"],
+    transform: createStandardSkillTransform({
+      sectionName: "Supply Chain Vendor Quality Defect Penalties Standards",
+      ruSectionName: "Стандарты и регламенты: Supply Chain Vendor Quality Defect Penalties",
+      instructions: [
+        "Apply core domain tenets for Supply Chain Vendor Quality Defect Penalties.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Supply Chain Vendor Quality Defect Penalties.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","supply","chain"],
+    }),
+  },
+
+  "business-saas-gross-margin-cloud-cost-optimization": {
+    id: "business-saas-gross-margin-cloud-cost-optimization",
+    name: "SaaSGrossMarginCloudCostOptimizationSkill",
+    displayName: "SaaS Gross Margin Cloud Cost Optimization",
+    categoryId: "business",
+    description: "Reduces AWS/GCP hosting costs to increase software gross margins toward 80%.",
+    tags: ["business","business","saas","gross"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Gross Margin Cloud Cost Optimization Standards",
+      ruSectionName: "Стандарты и регламенты: SaaS Gross Margin Cloud Cost Optimization",
+      instructions: [
+        "Apply core domain tenets for SaaS Gross Margin Cloud Cost Optimization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SaaS Gross Margin Cloud Cost Optimization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","saas","gross"],
+    }),
+  },
+
+  "business-corporate-restructuring-severance-plan": {
+    id: "business-corporate-restructuring-severance-plan",
+    name: "CorporateRestructuringSeverancePlanSkill",
+    displayName: "Corporate Restructuring & Severance Plan",
+    categoryId: "business",
+    description: "Executes organizational rightsizing with transparent severance and job placement.",
+    tags: ["business","business","corporate","restructuring"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Restructuring & Severance Plan Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Restructuring & Severance Plan",
+      instructions: [
+        "Apply core domain tenets for Corporate Restructuring & Severance Plan.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Restructuring & Severance Plan.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","restructuring"],
+    }),
+  },
+
+  "business-b2b-account-based-marketing-abm-campaign": {
+    id: "business-b2b-account-based-marketing-abm-campaign",
+    name: "B2BAccountBasedMarketingABMCampaignSkill",
+    displayName: "B2B Account-Based Marketing (ABM) Campaign",
+    categoryId: "business",
+    description: "Coordinates personalized multi-channel marketing campaigns targeting top 100 enterprise accounts.",
+    tags: ["business","business","b2b","account"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Account-Based Marketing (ABM) Campaign Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Account-Based Marketing (ABM) Campaign",
+      instructions: [
+        "Apply core domain tenets for B2B Account-Based Marketing (ABM) Campaign.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Account-Based Marketing (ABM) Campaign.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","account"],
+    }),
+  },
+
+  "business-franchisee-royalty-collection-field-audit": {
+    id: "business-franchisee-royalty-collection-field-audit",
+    name: "FranchiseeRoyaltyCollectionFieldAuditSkill",
+    displayName: "Franchisee Royalty Collection & Field Audit",
+    categoryId: "business",
+    description: "Audits franchisee POS sales records to ensure accurate royalty collection.",
+    tags: ["business","business","franchisee","royalty"],
+    transform: createStandardSkillTransform({
+      sectionName: "Franchisee Royalty Collection & Field Audit Standards",
+      ruSectionName: "Стандарты и регламенты: Franchisee Royalty Collection & Field Audit",
+      instructions: [
+        "Apply core domain tenets for Franchisee Royalty Collection & Field Audit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Franchisee Royalty Collection & Field Audit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","franchisee","royalty"],
+    }),
+  },
+
+  "business-retail-inventory-markdown-clearance-strategy": {
+    id: "business-retail-inventory-markdown-clearance-strategy",
+    name: "RetailInventoryMarkdownClearanceStrategySkill",
+    displayName: "Retail Inventory Markdown & Clearance Strategy",
+    categoryId: "business",
+    description: "Executes seasonal inventory markdowns to clear slow-moving SKUs.",
+    tags: ["business","business","retail","inventory"],
+    transform: createStandardSkillTransform({
+      sectionName: "Retail Inventory Markdown & Clearance Strategy Standards",
+      ruSectionName: "Стандарты и регламенты: Retail Inventory Markdown & Clearance Strategy",
+      instructions: [
+        "Apply core domain tenets for Retail Inventory Markdown & Clearance Strategy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Retail Inventory Markdown & Clearance Strategy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","retail","inventory"],
+    }),
+  },
+
+  "business-b2b-executive-sponsor-relationship-mapping": {
+    id: "business-b2b-executive-sponsor-relationship-mapping",
+    name: "B2BExecutiveSponsorRelationshipMappingSkill",
+    displayName: "B2B Executive Sponsor Relationship Mapping",
+    categoryId: "business",
+    description: "Pairs internal VP executives with C-suite stakeholders at top clients.",
+    tags: ["business","business","b2b","executive"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Executive Sponsor Relationship Mapping Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Executive Sponsor Relationship Mapping",
+      instructions: [
+        "Apply core domain tenets for B2B Executive Sponsor Relationship Mapping.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Executive Sponsor Relationship Mapping.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","executive"],
+    }),
+  },
+
+  "business-corporate-crisis-financial-solvency-plan": {
+    id: "business-corporate-crisis-financial-solvency-plan",
+    name: "CorporateCrisisFinancialSolvencyPlanSkill",
+    displayName: "Corporate Crisis Financial Solvency Plan",
+    categoryId: "business",
+    description: "Draws down credit lines and freezes non-essential CapEx during macro downturns.",
+    tags: ["business","business","corporate","crisis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Crisis Financial Solvency Plan Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Crisis Financial Solvency Plan",
+      instructions: [
+        "Apply core domain tenets for Corporate Crisis Financial Solvency Plan.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Crisis Financial Solvency Plan.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","crisis"],
+    }),
+  },
+
+  "business-saas-customer-churn-save-desk-win-back": {
+    id: "business-saas-customer-churn-save-desk-win-back",
+    name: "SaaSCustomerChurnSaveDeskWinBackSkill",
+    displayName: "SaaS Customer Churn Save Desk & Win-Back",
+    categoryId: "business",
+    description: "Deploys specialized save desk reps to offer customized retention plans.",
+    tags: ["business","business","saas","customer"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Customer Churn Save Desk & Win-Back Standards",
+      ruSectionName: "Стандарты и регламенты: SaaS Customer Churn Save Desk & Win-Back",
+      instructions: [
+        "Apply core domain tenets for SaaS Customer Churn Save Desk & Win-Back.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SaaS Customer Churn Save Desk & Win-Back.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","saas","customer"],
+    }),
+  },
+
+  "business-b2b-sales-partner-portal-co-op-funds": {
+    id: "business-b2b-sales-partner-portal-co-op-funds",
+    name: "B2BSalesPartnerPortalCoOpFundsSkill",
+    displayName: "B2B Sales Partner Portal & Co-Op Funds",
+    categoryId: "business",
+    description: "Provides resellers with co-branded marketing materials and MDF funds.",
+    tags: ["business","business","b2b","sales"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Sales Partner Portal & Co-Op Funds Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Sales Partner Portal & Co-Op Funds",
+      instructions: [
+        "Apply core domain tenets for B2B Sales Partner Portal & Co-Op Funds.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Sales Partner Portal & Co-Op Funds.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","sales"],
+    }),
+  },
+
+  "business-corporate-shared-services-efficiency-hub": {
+    id: "business-corporate-shared-services-efficiency-hub",
+    name: "CorporateSharedServicesEfficiencyHubSkill",
+    displayName: "Corporate Shared Services Efficiency Hub",
+    categoryId: "business",
+    description: "Consolidates back-office HR, Finance, and IT functions into shared service hubs.",
+    tags: ["business","business","corporate","shared"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Shared Services Efficiency Hub Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Shared Services Efficiency Hub",
+      instructions: [
+        "Apply core domain tenets for Corporate Shared Services Efficiency Hub.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Shared Services Efficiency Hub.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","shared"],
+    }),
+  },
+
+  "business-e-commerce-return-rate-reduction-strategy": {
+    id: "business-e-commerce-return-rate-reduction-strategy",
+    name: "ECommerceReturnRateReductionStrategySkill",
+    displayName: "E-Commerce Return Rate Reduction Strategy",
+    categoryId: "business",
+    description: "Reduces apparel return rates via accurate sizing charts and 3D product previews.",
+    tags: ["business","business","e","commerce"],
+    transform: createStandardSkillTransform({
+      sectionName: "E-Commerce Return Rate Reduction Strategy Standards",
+      ruSectionName: "Стандарты и регламенты: E-Commerce Return Rate Reduction Strategy",
+      instructions: [
+        "Apply core domain tenets for E-Commerce Return Rate Reduction Strategy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для E-Commerce Return Rate Reduction Strategy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","e","commerce"],
+    }),
+  },
+
+  "business-b2b-enterprise-pilot-to-contract-conversion": {
+    id: "business-b2b-enterprise-pilot-to-contract-conversion",
+    name: "B2BEnterprisePilottoContractConversionSkill",
+    displayName: "B2B Enterprise Pilot-to-Contract Conversion",
+    categoryId: "business",
+    description: "Converts paid proof-of-concept pilots into multi-year site licenses.",
+    tags: ["business","business","b2b","enterprise"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Enterprise Pilot-to-Contract Conversion Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Enterprise Pilot-to-Contract Conversion",
+      instructions: [
+        "Apply core domain tenets for B2B Enterprise Pilot-to-Contract Conversion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Enterprise Pilot-to-Contract Conversion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","enterprise"],
+    }),
+  },
+
+  "business-corporate-insurance-liability-d-o-coverage": {
+    id: "business-corporate-insurance-liability-d-o-coverage",
+    name: "CorporateInsuranceLiabilityDOCoverageSkill",
+    displayName: "Corporate Insurance Liability & D&O Coverage",
+    categoryId: "business",
+    description: "Secures Directors & Officers (D&O), cyber liability, and general liability policies.",
+    tags: ["business","business","corporate","insurance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Insurance Liability & D&O Coverage Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Insurance Liability & D&O Coverage",
+      instructions: [
+        "Apply core domain tenets for Corporate Insurance Liability & D&O Coverage.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Insurance Liability & D&O Coverage.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","insurance"],
+    }),
+  },
+
+  "business-saas-multi-year-contract-upfront-payment-discount": {
+    id: "business-saas-multi-year-contract-upfront-payment-discount",
+    name: "SaaSMultiYearContractUpfrontPaymentDiscountSkill",
+    displayName: "SaaS Multi-Year Contract Upfront Payment Discount",
+    categoryId: "business",
+    description: "Offers 15% discounts for multi-year upfront contract cash payments.",
+    tags: ["business","business","saas","multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Multi-Year Contract Upfront Payment Discount Standards",
+      ruSectionName: "Стандарты и регламенты: SaaS Multi-Year Contract Upfront Payment Discount",
+      instructions: [
+        "Apply core domain tenets for SaaS Multi-Year Contract Upfront Payment Discount.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SaaS Multi-Year Contract Upfront Payment Discount.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","saas","multi"],
+    }),
+  },
+
+  "business-b2b-sdr-lead-qualification-bant-standard": {
+    id: "business-b2b-sdr-lead-qualification-bant-standard",
+    name: "B2BSDRLeadQualificationBANTStandardSkill",
+    displayName: "B2B SDR Lead Qualification BANT Standard",
+    categoryId: "business",
+    description: "Qualifies inbound sales leads across Budget, Authority, Need, and Timeline.",
+    tags: ["business","business","b2b","sdr"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B SDR Lead Qualification BANT Standard Standards",
+      ruSectionName: "Стандарты и регламенты: B2B SDR Lead Qualification BANT Standard",
+      instructions: [
+        "Apply core domain tenets for B2B SDR Lead Qualification BANT Standard.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B SDR Lead Qualification BANT Standard.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","sdr"],
+    }),
+  },
+
+  "business-corporate-employee-referral-bonus-program": {
+    id: "business-corporate-employee-referral-bonus-program",
+    name: "CorporateEmployeeReferralBonusProgramSkill",
+    displayName: "Corporate Employee Referral Bonus Program",
+    categoryId: "business",
+    description: "Drives high-quality engineering hires through cash employee referral bonuses.",
+    tags: ["business","business","corporate","employee"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Employee Referral Bonus Program Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Employee Referral Bonus Program",
+      instructions: [
+        "Apply core domain tenets for Corporate Employee Referral Bonus Program.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Employee Referral Bonus Program.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","employee"],
+    }),
+  },
+
+  "business-supply-chain-just-in-time-jit-buffer-safety": {
+    id: "business-supply-chain-just-in-time-jit-buffer-safety",
+    name: "SupplyChainJustinTimeJITBufferSafetySkill",
+    displayName: "Supply Chain Just-in-Time (JIT) Buffer Safety",
+    categoryId: "business",
+    description: "Balances JIT lean inventory with strategic safety stock buffers.",
+    tags: ["business","business","supply","chain"],
+    transform: createStandardSkillTransform({
+      sectionName: "Supply Chain Just-in-Time (JIT) Buffer Safety Standards",
+      ruSectionName: "Стандарты и регламенты: Supply Chain Just-in-Time (JIT) Buffer Safety",
+      instructions: [
+        "Apply core domain tenets for Supply Chain Just-in-Time (JIT) Buffer Safety.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Supply Chain Just-in-Time (JIT) Buffer Safety.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","supply","chain"],
+    }),
+  },
+
+  "business-b2b-customer-advocacy-reference-program": {
+    id: "business-b2b-customer-advocacy-reference-program",
+    name: "B2BCustomerAdvocacyReferenceProgramSkill",
+    displayName: "B2B Customer Advocacy & Reference Program",
+    categoryId: "business",
+    description: "Nurtures customer advocates to participate in prospect reference calls.",
+    tags: ["business","business","b2b","customer"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Customer Advocacy & Reference Program Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Customer Advocacy & Reference Program",
+      instructions: [
+        "Apply core domain tenets for B2B Customer Advocacy & Reference Program.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Customer Advocacy & Reference Program.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","customer"],
+    }),
+  },
+
+  "business-corporate-pension-401-k-matching-governance": {
+    id: "business-corporate-pension-401-k-matching-governance",
+    name: "CorporatePension401kMatchingGovernanceSkill",
+    displayName: "Corporate Pension & 401(k) Matching Governance",
+    categoryId: "business",
+    description: "Manages employee retirement benefits and fiduciary committee oversight.",
+    tags: ["business","business","corporate","pension"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Pension & 401(k) Matching Governance Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Pension & 401(k) Matching Governance",
+      instructions: [
+        "Apply core domain tenets for Corporate Pension & 401(k) Matching Governance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Pension & 401(k) Matching Governance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","pension"],
+    }),
+  },
+
+  "business-saas-benchmark-valuation-multiple-analysis": {
+    id: "business-saas-benchmark-valuation-multiple-analysis",
+    name: "SaaSBenchmarkValuationMultipleAnalysisSkill",
+    displayName: "SaaS Benchmark Valuation Multiple Analysis",
+    categoryId: "business",
+    description: "Evaluates company valuation multiples (EV/ARR) based on growth and NRR.",
+    tags: ["business","business","saas","benchmark"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Benchmark Valuation Multiple Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: SaaS Benchmark Valuation Multiple Analysis",
+      instructions: [
+        "Apply core domain tenets for SaaS Benchmark Valuation Multiple Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SaaS Benchmark Valuation Multiple Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","saas","benchmark"],
+    }),
+  },
+
+  "business-b2b-field-marketing-regional-event-strategy": {
+    id: "business-b2b-field-marketing-regional-event-strategy",
+    name: "B2BFieldMarketingRegionalEventStrategySkill",
+    displayName: "B2B Field Marketing Regional Event Strategy",
+    categoryId: "business",
+    description: "Hosts intimate C-suite dinners and regional roundtables to accelerate enterprise deals.",
+    tags: ["business","business","b2b","field"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Field Marketing Regional Event Strategy Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Field Marketing Regional Event Strategy",
+      instructions: [
+        "Apply core domain tenets for B2B Field Marketing Regional Event Strategy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Field Marketing Regional Event Strategy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","field"],
+    }),
+  },
+
+  "business-corporate-foreign-exchange-risk-hedging": {
+    id: "business-corporate-foreign-exchange-risk-hedging",
+    name: "CorporateForeignExchangeRiskHedgingSkill",
+    displayName: "Corporate Foreign Exchange Risk Hedging",
+    categoryId: "business",
+    description: "Mitigates currency fluctuations using forward contracts and currency options.",
+    tags: ["business","business","corporate","foreign"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Foreign Exchange Risk Hedging Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Foreign Exchange Risk Hedging",
+      instructions: [
+        "Apply core domain tenets for Corporate Foreign Exchange Risk Hedging.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Foreign Exchange Risk Hedging.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","foreign"],
+    }),
+  },
+
+  "business-e-commerce-loyalty-program-point-redemption": {
+    id: "business-e-commerce-loyalty-program-point-redemption",
+    name: "ECommerceLoyaltyProgramPointRedemptionSkill",
+    displayName: "E-Commerce Loyalty Program Point Redemption",
+    categoryId: "business",
+    description: "Designs gamified customer loyalty programs driving repeat purchase frequency.",
+    tags: ["business","business","e","commerce"],
+    transform: createStandardSkillTransform({
+      sectionName: "E-Commerce Loyalty Program Point Redemption Standards",
+      ruSectionName: "Стандарты и регламенты: E-Commerce Loyalty Program Point Redemption",
+      instructions: [
+        "Apply core domain tenets for E-Commerce Loyalty Program Point Redemption.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для E-Commerce Loyalty Program Point Redemption.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","e","commerce"],
+    }),
+  },
+
+  "business-b2b-sales-demo-script-value-narrative": {
+    id: "business-b2b-sales-demo-script-value-narrative",
+    name: "B2BSalesDemoScriptValueNarrativeSkill",
+    displayName: "B2B Sales Demo Script & Value Narrative",
+    categoryId: "business",
+    description: "Structures 30-minute sales demo scripts focused on prospect pain points.",
+    tags: ["business","business","b2b","sales"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Sales Demo Script & Value Narrative Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Sales Demo Script & Value Narrative",
+      instructions: [
+        "Apply core domain tenets for B2B Sales Demo Script & Value Narrative.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Sales Demo Script & Value Narrative.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","b2b","sales"],
+    }),
+  },
+
+  "business-corporate-offshoring-global-capability-center": {
+    id: "business-corporate-offshoring-global-capability-center",
+    name: "CorporateOffshoringGlobalCapabilityCenterSkill",
+    displayName: "Corporate Offshoring & Global Capability Center",
+    categoryId: "business",
+    description: "Establishes global capability centers (GCC) in India or Poland for engineering.",
+    tags: ["business","business","corporate","offshoring"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Offshoring & Global Capability Center Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Offshoring & Global Capability Center",
+      instructions: [
+        "Apply core domain tenets for Corporate Offshoring & Global Capability Center.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Offshoring & Global Capability Center.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","corporate","offshoring"],
+    }),
+  },
+
+  "business-saas-product-expansion-seat-add-on-engine": {
+    id: "business-saas-product-expansion-seat-add-on-engine",
+    name: "SaaSProductExpansionSeatAddOnEngineSkill",
+    displayName: "SaaS Product Expansion Seat Add-On Engine",
+    categoryId: "business",
+    description: "Drives organic seat expansion as client departments adopt software.",
+    tags: ["business","business","saas","product"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Product Expansion Seat Add-On Engine Standards",
+      ruSectionName: "Стандарты и регламенты: SaaS Product Expansion Seat Add-On Engine",
+      instructions: [
+        "Apply core domain tenets for SaaS Product Expansion Seat Add-On Engine.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SaaS Product Expansion Seat Add-On Engine.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","saas","product"],
+    }),
+  },
+
+  "business-comprehensive-business-strategy-execution-constitution": {
+    id: "business-comprehensive-business-strategy-execution-constitution",
+    name: "ComprehensiveBusinessStrategyExecutionConstitutionSkill",
+    displayName: "Comprehensive Business Strategy & Execution Constitution",
+    categoryId: "business",
+    description: "Enforces world-class corporate strategy, unit economics, and operational rigor.",
+    tags: ["business","business","comprehensive","business"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comprehensive Business Strategy & Execution Constitution Standards",
+      ruSectionName: "Стандарты и регламенты: Comprehensive Business Strategy & Execution Constitution",
+      instructions: [
+        "Apply core domain tenets for Comprehensive Business Strategy & Execution Constitution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comprehensive Business Strategy & Execution Constitution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","comprehensive","business"],
+    }),
+  },
+
+  "business-business-skill-90": {
+    id: "business-business-skill-90",
+    name: "businessSkill90Skill",
+    displayName: "business Skill 90",
+    categoryId: "business",
+    description: "Applies advanced business Skill 90 standards and execution patterns.",
+    tags: ["business","business","business","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "business Skill 90 Standards",
+      ruSectionName: "Стандарты и регламенты: business Skill 90",
+      instructions: [
+        "Apply core domain tenets for business Skill 90.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для business Skill 90.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business","business","skill"],
+    }),
+  },
+  "business-final-saas-net-revenue-retention-nrr-expansion-playbook": {
+    id: "business-final-saas-net-revenue-retention-nrr-expansion-playbook",
+    name: "SaaSNetRevenueRetentionNRRExpansionPlaybookSkill",
+    displayName: "SaaS Net Revenue Retention NRR Expansion Playbook",
+    categoryId: "business",
+    description: "Drives account expansion through tier upgrades, seat expansion, and usage add-ons.",
+    tags: ["business","business-final","final","saas"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Net Revenue Retention NRR Expansion Playbook Standards",
+      ruSectionName: "Стандарты и регламенты: SaaS Net Revenue Retention NRR Expansion Playbook",
+      instructions: [
+        "Apply core domain tenets for SaaS Net Revenue Retention NRR Expansion Playbook.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SaaS Net Revenue Retention NRR Expansion Playbook.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business-final","final","saas"],
+    }),
+  },
+
+  "business-final-strategic-corporate-ma-post-merger-integration-plan": {
+    id: "business-final-strategic-corporate-ma-post-merger-integration-plan",
+    name: "StrategicCorporateMAPostMergerIntegrationPlanSkill",
+    displayName: "Strategic Corporate MA Post-Merger Integration Plan",
+    categoryId: "business",
+    description: "Executes 100-day post-merger integration for tech, culture, and sales synergy.",
+    tags: ["business","business-final","final","strategic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strategic Corporate MA Post-Merger Integration Plan Standards",
+      ruSectionName: "Стандарты и регламенты: Strategic Corporate MA Post-Merger Integration Plan",
+      instructions: [
+        "Apply core domain tenets for Strategic Corporate MA Post-Merger Integration Plan.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Strategic Corporate MA Post-Merger Integration Plan.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business-final","final","strategic"],
+    }),
+  },
+
+  "business-final-master-enterprise-strategy-commercial-growth": {
+    id: "business-final-master-enterprise-strategy-commercial-growth",
+    name: "MasterEnterpriseStrategyCommercialGrowthSkill",
+    displayName: "Master Enterprise Strategy Commercial Growth",
+    categoryId: "business",
+    description: "Enforces world-class commercial execution, corporate strategy, and revenue growth.",
+    tags: ["business","business-final","final","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Enterprise Strategy Commercial Growth Standards",
+      ruSectionName: "Стандарты и регламенты: Master Enterprise Strategy Commercial Growth",
+      instructions: [
+        "Apply core domain tenets for Master Enterprise Strategy Commercial Growth.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Enterprise Strategy Commercial Growth.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["business","business-final","final","master"],
+    }),
+  },
 };

@@ -1993,4 +1993,2302 @@ export const DIALOGUE_SKILLS: Record<string, SkillDefinition> = {
       tags: ["dialogue","meeting","closing","action"],
     }),
   },
+  "dialogue-conversational-repair-clarification-prompting": {
+    id: "dialogue-conversational-repair-clarification-prompting",
+    name: "ConversationalRepairClarificationPromptingSkill",
+    displayName: "Conversational Repair & Clarification Prompting",
+    categoryId: "dialogue",
+    description: "Handles user misunderstandings gracefully by re-framing concepts.",
+    tags: ["dialogue","dialogue","conversational","repair"],
+    transform: createStandardSkillTransform({
+      sectionName: "Conversational Repair & Clarification Prompting Standards",
+      ruSectionName: "Стандарты и регламенты: Conversational Repair & Clarification Prompting",
+      instructions: [
+        "Apply core domain tenets for Conversational Repair & Clarification Prompting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Conversational Repair & Clarification Prompting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","conversational","repair"],
+    }),
+  },
+
+  "dialogue-cross-cultural-politeness-honorifics-adaptation": {
+    id: "dialogue-cross-cultural-politeness-honorifics-adaptation",
+    name: "CrossCulturalPolitenessHonorificsAdaptationSkill",
+    displayName: "Cross-Cultural Politeness & Honorifics Adaptation",
+    categoryId: "dialogue",
+    description: "Adapts dialogue register and honorifics to target cultural norms.",
+    tags: ["dialogue","dialogue","cross","cultural"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Cultural Politeness & Honorifics Adaptation Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Cultural Politeness & Honorifics Adaptation",
+      instructions: [
+        "Apply core domain tenets for Cross-Cultural Politeness & Honorifics Adaptation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Cultural Politeness & Honorifics Adaptation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","cross","cultural"],
+    }),
+  },
+
+  "dialogue-executive-briefing-bottom-line-up-front-bluf": {
+    id: "dialogue-executive-briefing-bottom-line-up-front-bluf",
+    name: "ExecutiveBriefingBottomLineUpFrontBLUFSkill",
+    displayName: "Executive Briefing Bottom-Line Up Front (BLUF)",
+    categoryId: "dialogue",
+    description: "Leads dialogue with concise executive conclusions before detailing supporting data.",
+    tags: ["dialogue","dialogue","executive","briefing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Briefing Bottom-Line Up Front (BLUF) Standards",
+      ruSectionName: "Стандарты и регламенты: Executive Briefing Bottom-Line Up Front (BLUF)",
+      instructions: [
+        "Apply core domain tenets for Executive Briefing Bottom-Line Up Front (BLUF).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Executive Briefing Bottom-Line Up Front (BLUF).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","executive","briefing"],
+    }),
+  },
+
+  "dialogue-star-behavioral-interview-technique": {
+    id: "dialogue-star-behavioral-interview-technique",
+    name: "STARBehavioralInterviewTechniqueSkill",
+    displayName: "STAR Behavioral Interview Technique",
+    categoryId: "dialogue",
+    description: "Guides interviewees to detail Situation, Task, Action, and Result.",
+    tags: ["dialogue","dialogue","star","behavioral"],
+    transform: createStandardSkillTransform({
+      sectionName: "STAR Behavioral Interview Technique Standards",
+      ruSectionName: "Стандарты и регламенты: STAR Behavioral Interview Technique",
+      instructions: [
+        "Apply core domain tenets for STAR Behavioral Interview Technique.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для STAR Behavioral Interview Technique.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","star","behavioral"],
+    }),
+  },
+
+  "dialogue-debate-rebuttal-steelmanning-strategy": {
+    id: "dialogue-debate-rebuttal-steelmanning-strategy",
+    name: "DebateRebuttalSteelmanningStrategySkill",
+    displayName: "Debate Rebuttal & Steelmanning Strategy",
+    categoryId: "dialogue",
+    description: "Reframes opponent arguments in their strongest form before presenting counter-evidence.",
+    tags: ["dialogue","dialogue","debate","rebuttal"],
+    transform: createStandardSkillTransform({
+      sectionName: "Debate Rebuttal & Steelmanning Strategy Standards",
+      ruSectionName: "Стандарты и регламенты: Debate Rebuttal & Steelmanning Strategy",
+      instructions: [
+        "Apply core domain tenets for Debate Rebuttal & Steelmanning Strategy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Debate Rebuttal & Steelmanning Strategy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","debate","rebuttal"],
+    }),
+  },
+
+  "dialogue-constructive-feedback-situation-behavior-impact-sbi": {
+    id: "dialogue-constructive-feedback-situation-behavior-impact-sbi",
+    name: "ConstructiveFeedbackSituationBehaviorImpactSBISkill",
+    displayName: "Constructive Feedback Situation-Behavior-Impact (SBI)",
+    categoryId: "dialogue",
+    description: "Delivers feedback focused on specific observed behaviors and tangible impact.",
+    tags: ["dialogue","dialogue","constructive","feedback"],
+    transform: createStandardSkillTransform({
+      sectionName: "Constructive Feedback Situation-Behavior-Impact (SBI) Standards",
+      ruSectionName: "Стандарты и регламенты: Constructive Feedback Situation-Behavior-Impact (SBI)",
+      instructions: [
+        "Apply core domain tenets for Constructive Feedback Situation-Behavior-Impact (SBI).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Constructive Feedback Situation-Behavior-Impact (SBI).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","constructive","feedback"],
+    }),
+  },
+
+  "dialogue-action-commitment-meeting-closing-protocol": {
+    id: "dialogue-action-commitment-meeting-closing-protocol",
+    name: "ActionCommitmentMeetingClosingProtocolSkill",
+    displayName: "Action Commitment Meeting Closing Protocol",
+    categoryId: "dialogue",
+    description: "Summarizes action items, assigned owners, and deadlines before ending discussions.",
+    tags: ["dialogue","dialogue","action","commitment"],
+    transform: createStandardSkillTransform({
+      sectionName: "Action Commitment Meeting Closing Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Action Commitment Meeting Closing Protocol",
+      instructions: [
+        "Apply core domain tenets for Action Commitment Meeting Closing Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Action Commitment Meeting Closing Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","action","commitment"],
+    }),
+  },
+
+  "dialogue-hostile-interrogation-de-escalation-pivot": {
+    id: "dialogue-hostile-interrogation-de-escalation-pivot",
+    name: "HostileInterrogationDeescalationPivotSkill",
+    displayName: "Hostile Interrogation De-escalation & Pivot",
+    categoryId: "dialogue",
+    description: "Deflects aggressive interrogation tactics smoothly toward constructive dialogue.",
+    tags: ["dialogue","dialogue","hostile","interrogation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hostile Interrogation De-escalation & Pivot Standards",
+      ruSectionName: "Стандарты и регламенты: Hostile Interrogation De-escalation & Pivot",
+      instructions: [
+        "Apply core domain tenets for Hostile Interrogation De-escalation & Pivot.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hostile Interrogation De-escalation & Pivot.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","hostile","interrogation"],
+    }),
+  },
+
+  "dialogue-cross-functional-jargon-translation-dialogue": {
+    id: "dialogue-cross-functional-jargon-translation-dialogue",
+    name: "CrossFunctionalJargonTranslationDialogueSkill",
+    displayName: "Cross-Functional Jargon Translation Dialogue",
+    categoryId: "dialogue",
+    description: "Bridges language gaps between engineering, marketing, and executive teams.",
+    tags: ["dialogue","dialogue","cross","functional"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Functional Jargon Translation Dialogue Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Functional Jargon Translation Dialogue",
+      instructions: [
+        "Apply core domain tenets for Cross-Functional Jargon Translation Dialogue.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Functional Jargon Translation Dialogue.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","cross","functional"],
+    }),
+  },
+
+  "dialogue-socratic-reframing-of-limiting-beliefs": {
+    id: "dialogue-socratic-reframing-of-limiting-beliefs",
+    name: "SocraticReframingofLimitingBeliefsSkill",
+    displayName: "Socratic Reframing of Limiting Beliefs",
+    categoryId: "dialogue",
+    description: "Challenges user self-limiting assumptions through gentle logical inquiry.",
+    tags: ["dialogue","dialogue","socratic","reframing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Socratic Reframing of Limiting Beliefs Standards",
+      ruSectionName: "Стандарты и регламенты: Socratic Reframing of Limiting Beliefs",
+      instructions: [
+        "Apply core domain tenets for Socratic Reframing of Limiting Beliefs.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Socratic Reframing of Limiting Beliefs.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","socratic","reframing"],
+    }),
+  },
+
+  "dialogue-active-silence-thoughtful-pause-insertion": {
+    id: "dialogue-active-silence-thoughtful-pause-insertion",
+    name: "ActiveSilenceThoughtfulPauseInsertionSkill",
+    displayName: "Active Silence & Thoughtful Pause Insertion",
+    categoryId: "dialogue",
+    description: "Inserts intentional pauses in dialogue to allow user processing time.",
+    tags: ["dialogue","dialogue","active","silence"],
+    transform: createStandardSkillTransform({
+      sectionName: "Active Silence & Thoughtful Pause Insertion Standards",
+      ruSectionName: "Стандарты и регламенты: Active Silence & Thoughtful Pause Insertion",
+      instructions: [
+        "Apply core domain tenets for Active Silence & Thoughtful Pause Insertion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Active Silence & Thoughtful Pause Insertion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","active","silence"],
+    }),
+  },
+
+  "dialogue-multi-persona-roundtable-simulation": {
+    id: "dialogue-multi-persona-roundtable-simulation",
+    name: "MultiPersonaRoundtableSimulationSkill",
+    displayName: "Multi-Persona Roundtable Simulation",
+    categoryId: "dialogue",
+    description: "Simulates a panel discussion among 3 distinct expert personas.",
+    tags: ["dialogue","dialogue","multi","persona"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Persona Roundtable Simulation Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Persona Roundtable Simulation",
+      instructions: [
+        "Apply core domain tenets for Multi-Persona Roundtable Simulation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Persona Roundtable Simulation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","multi","persona"],
+    }),
+  },
+
+  "dialogue-crisis-hotline-supportive-dialogue-protocol": {
+    id: "dialogue-crisis-hotline-supportive-dialogue-protocol",
+    name: "CrisisHotlineSupportiveDialogueProtocolSkill",
+    displayName: "Crisis Hotline Supportive Dialogue Protocol",
+    categoryId: "dialogue",
+    description: "Provides calm, stabilizing support during acute emotional distress.",
+    tags: ["dialogue","dialogue","crisis","hotline"],
+    transform: createStandardSkillTransform({
+      sectionName: "Crisis Hotline Supportive Dialogue Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Crisis Hotline Supportive Dialogue Protocol",
+      instructions: [
+        "Apply core domain tenets for Crisis Hotline Supportive Dialogue Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Crisis Hotline Supportive Dialogue Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","crisis","hotline"],
+    }),
+  },
+
+  "dialogue-strategic-questioning-for-sales-discovery": {
+    id: "dialogue-strategic-questioning-for-sales-discovery",
+    name: "StrategicQuestioningforSalesDiscoverySkill",
+    displayName: "Strategic Questioning for Sales Discovery",
+    categoryId: "dialogue",
+    description: "Uncovers latent customer pain points through targeted discovery questioning.",
+    tags: ["dialogue","dialogue","strategic","questioning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strategic Questioning for Sales Discovery Standards",
+      ruSectionName: "Стандарты и регламенты: Strategic Questioning for Sales Discovery",
+      instructions: [
+        "Apply core domain tenets for Strategic Questioning for Sales Discovery.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Strategic Questioning for Sales Discovery.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","strategic","questioning"],
+    }),
+  },
+
+  "dialogue-executive-coaching-accountability-check-in": {
+    id: "dialogue-executive-coaching-accountability-check-in",
+    name: "ExecutiveCoachingAccountabilityCheckInSkill",
+    displayName: "Executive Coaching Accountability Check-In",
+    categoryId: "dialogue",
+    description: "Conducts structured accountability reviews on goal progress.",
+    tags: ["dialogue","dialogue","executive","coaching"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Coaching Accountability Check-In Standards",
+      ruSectionName: "Стандарты и регламенты: Executive Coaching Accountability Check-In",
+      instructions: [
+        "Apply core domain tenets for Executive Coaching Accountability Check-In.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Executive Coaching Accountability Check-In.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","executive","coaching"],
+    }),
+  },
+
+  "dialogue-diplomatic-refusal-of-unreasonable-deadlines": {
+    id: "dialogue-diplomatic-refusal-of-unreasonable-deadlines",
+    name: "DiplomaticRefusalofUnreasonableDeadlinesSkill",
+    displayName: "Diplomatic Refusal of Unreasonable Deadlines",
+    categoryId: "dialogue",
+    description: "Negotiates realistic project timelines without alienating stakeholders.",
+    tags: ["dialogue","dialogue","diplomatic","refusal"],
+    transform: createStandardSkillTransform({
+      sectionName: "Diplomatic Refusal of Unreasonable Deadlines Standards",
+      ruSectionName: "Стандарты и регламенты: Diplomatic Refusal of Unreasonable Deadlines",
+      instructions: [
+        "Apply core domain tenets for Diplomatic Refusal of Unreasonable Deadlines.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Diplomatic Refusal of Unreasonable Deadlines.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","diplomatic","refusal"],
+    }),
+  },
+
+  "dialogue-cross-departmental-alignment-moderation": {
+    id: "dialogue-cross-departmental-alignment-moderation",
+    name: "CrossDepartmentalAlignmentModerationSkill",
+    displayName: "Cross-Departmental Alignment Moderation",
+    categoryId: "dialogue",
+    description: "Aligns product, engineering, and sales teams on shared release priorities.",
+    tags: ["dialogue","dialogue","cross","departmental"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Departmental Alignment Moderation Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Departmental Alignment Moderation",
+      instructions: [
+        "Apply core domain tenets for Cross-Departmental Alignment Moderation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Departmental Alignment Moderation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","cross","departmental"],
+    }),
+  },
+
+  "dialogue-empathic-boundary-setting-with-demanding-clients": {
+    id: "dialogue-empathic-boundary-setting-with-demanding-clients",
+    name: "EmpathicBoundarySettingwithDemandingClientsSkill",
+    displayName: "Empathic Boundary Setting with Demanding Clients",
+    categoryId: "dialogue",
+    description: "Protects team scope while maintaining positive client relationships.",
+    tags: ["dialogue","dialogue","empathic","boundary"],
+    transform: createStandardSkillTransform({
+      sectionName: "Empathic Boundary Setting with Demanding Clients Standards",
+      ruSectionName: "Стандарты и регламенты: Empathic Boundary Setting with Demanding Clients",
+      instructions: [
+        "Apply core domain tenets for Empathic Boundary Setting with Demanding Clients.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Empathic Boundary Setting with Demanding Clients.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","empathic","boundary"],
+    }),
+  },
+
+  "dialogue-inspirational-leadership-all-hands-speech": {
+    id: "dialogue-inspirational-leadership-all-hands-speech",
+    name: "InspirationalLeadershipAllHandsSpeechSkill",
+    displayName: "Inspirational Leadership All-Hands Speech",
+    categoryId: "dialogue",
+    description: "Rallies company employees around vision during organizational change.",
+    tags: ["dialogue","dialogue","inspirational","leadership"],
+    transform: createStandardSkillTransform({
+      sectionName: "Inspirational Leadership All-Hands Speech Standards",
+      ruSectionName: "Стандарты и регламенты: Inspirational Leadership All-Hands Speech",
+      instructions: [
+        "Apply core domain tenets for Inspirational Leadership All-Hands Speech.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Inspirational Leadership All-Hands Speech.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","inspirational","leadership"],
+    }),
+  },
+
+  "dialogue-conflict-resolution-interest-based-bargaining": {
+    id: "dialogue-conflict-resolution-interest-based-bargaining",
+    name: "ConflictResolutionInterestBasedBargainingSkill",
+    displayName: "Conflict Resolution Interest-Based Bargaining",
+    categoryId: "dialogue",
+    description: "Resolves interpersonal disputes by focusing on underlying interests rather than positions.",
+    tags: ["dialogue","dialogue","conflict","resolution"],
+    transform: createStandardSkillTransform({
+      sectionName: "Conflict Resolution Interest-Based Bargaining Standards",
+      ruSectionName: "Стандарты и регламенты: Conflict Resolution Interest-Based Bargaining",
+      instructions: [
+        "Apply core domain tenets for Conflict Resolution Interest-Based Bargaining.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Conflict Resolution Interest-Based Bargaining.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","conflict","resolution"],
+    }),
+  },
+
+  "dialogue-peer-to-peer-code-review-feedback-dialogue": {
+    id: "dialogue-peer-to-peer-code-review-feedback-dialogue",
+    name: "PeertoPeerCodeReviewFeedbackDialogueSkill",
+    displayName: "Peer-to-Peer Code Review Feedback Dialogue",
+    categoryId: "dialogue",
+    description: "Delivers constructive, respectful code review comments focused on improvement.",
+    tags: ["dialogue","dialogue","peer","to"],
+    transform: createStandardSkillTransform({
+      sectionName: "Peer-to-Peer Code Review Feedback Dialogue Standards",
+      ruSectionName: "Стандарты и регламенты: Peer-to-Peer Code Review Feedback Dialogue",
+      instructions: [
+        "Apply core domain tenets for Peer-to-Peer Code Review Feedback Dialogue.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Peer-to-Peer Code Review Feedback Dialogue.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","peer","to"],
+    }),
+  },
+
+  "dialogue-customer-offboarding-exit-interview-protocol": {
+    id: "dialogue-customer-offboarding-exit-interview-protocol",
+    name: "CustomerOffboardingExitInterviewProtocolSkill",
+    displayName: "Customer Offboarding & Exit Interview Protocol",
+    categoryId: "dialogue",
+    description: "Gathers candid exit feedback while leaving doors open for future return.",
+    tags: ["dialogue","dialogue","customer","offboarding"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Offboarding & Exit Interview Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Customer Offboarding & Exit Interview Protocol",
+      instructions: [
+        "Apply core domain tenets for Customer Offboarding & Exit Interview Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Customer Offboarding & Exit Interview Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","customer","offboarding"],
+    }),
+  },
+
+  "dialogue-cross-cultural-business-etiquette-navigation": {
+    id: "dialogue-cross-cultural-business-etiquette-navigation",
+    name: "CrossCulturalBusinessEtiquetteNavigationSkill",
+    displayName: "Cross-Cultural Business Etiquette Navigation",
+    categoryId: "dialogue",
+    description: "Navigates international business meetings with cultural sensitivity.",
+    tags: ["dialogue","dialogue","cross","cultural"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Cultural Business Etiquette Navigation Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Cultural Business Etiquette Navigation",
+      instructions: [
+        "Apply core domain tenets for Cross-Cultural Business Etiquette Navigation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Cultural Business Etiquette Navigation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","cross","cultural"],
+    }),
+  },
+
+  "dialogue-interactive-workshop-facilitation-sequence": {
+    id: "dialogue-interactive-workshop-facilitation-sequence",
+    name: "InteractiveWorkshopFacilitationSequenceSkill",
+    displayName: "Interactive Workshop Facilitation Sequence",
+    categoryId: "dialogue",
+    description: "Facilitates collaborative team workshops with high engagement.",
+    tags: ["dialogue","dialogue","interactive","workshop"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Workshop Facilitation Sequence Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Workshop Facilitation Sequence",
+      instructions: [
+        "Apply core domain tenets for Interactive Workshop Facilitation Sequence.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Workshop Facilitation Sequence.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","interactive","workshop"],
+    }),
+  },
+
+  "dialogue-empathetic-medical-bad-news-delivery": {
+    id: "dialogue-empathetic-medical-bad-news-delivery",
+    name: "EmpatheticMedicalBadNewsDeliverySkill",
+    displayName: "Empathetic Medical Bad News Delivery",
+    categoryId: "dialogue",
+    description: "Communicates difficult medical diagnoses with compassion and clarity.",
+    tags: ["dialogue","dialogue","empathetic","medical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Empathetic Medical Bad News Delivery Standards",
+      ruSectionName: "Стандарты и регламенты: Empathetic Medical Bad News Delivery",
+      instructions: [
+        "Apply core domain tenets for Empathetic Medical Bad News Delivery.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Empathetic Medical Bad News Delivery.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","empathetic","medical"],
+    }),
+  },
+
+  "dialogue-parent-teacher-collaborative-dialogue-protocol": {
+    id: "dialogue-parent-teacher-collaborative-dialogue-protocol",
+    name: "ParentTeacherCollaborativeDialogueProtocolSkill",
+    displayName: "Parent-Teacher Collaborative Dialogue Protocol",
+    categoryId: "dialogue",
+    description: "Builds supportive partnerships between educators and parents.",
+    tags: ["dialogue","dialogue","parent","teacher"],
+    transform: createStandardSkillTransform({
+      sectionName: "Parent-Teacher Collaborative Dialogue Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Parent-Teacher Collaborative Dialogue Protocol",
+      instructions: [
+        "Apply core domain tenets for Parent-Teacher Collaborative Dialogue Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Parent-Teacher Collaborative Dialogue Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","parent","teacher"],
+    }),
+  },
+
+  "dialogue-investor-q-a-defense-objection-handling": {
+    id: "dialogue-investor-q-a-defense-objection-handling",
+    name: "InvestorQADefenseObjectionHandlingSkill",
+    displayName: "Investor Q&A Defense & Objection Handling",
+    categoryId: "dialogue",
+    description: "Answers tough venture capital pitch questions with poise and hard data.",
+    tags: ["dialogue","dialogue","investor","q"],
+    transform: createStandardSkillTransform({
+      sectionName: "Investor Q&A Defense & Objection Handling Standards",
+      ruSectionName: "Стандарты и регламенты: Investor Q&A Defense & Objection Handling",
+      instructions: [
+        "Apply core domain tenets for Investor Q&A Defense & Objection Handling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Investor Q&A Defense & Objection Handling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","investor","q"],
+    }),
+  },
+
+  "dialogue-mentorship-career-guidance-dialogue-arc": {
+    id: "dialogue-mentorship-career-guidance-dialogue-arc",
+    name: "MentorshipCareerGuidanceDialogueArcSkill",
+    displayName: "Mentorship Career Guidance Dialogue Arc",
+    categoryId: "dialogue",
+    description: "Guides junior mentees through career planning and skill development.",
+    tags: ["dialogue","dialogue","mentorship","career"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mentorship Career Guidance Dialogue Arc Standards",
+      ruSectionName: "Стандарты и регламенты: Mentorship Career Guidance Dialogue Arc",
+      instructions: [
+        "Apply core domain tenets for Mentorship Career Guidance Dialogue Arc.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Mentorship Career Guidance Dialogue Arc.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","mentorship","career"],
+    }),
+  },
+
+  "dialogue-community-forum-moderation-de-trolling": {
+    id: "dialogue-community-forum-moderation-de-trolling",
+    name: "CommunityForumModerationDetrollingSkill",
+    displayName: "Community Forum Moderation & De-trolling",
+    categoryId: "dialogue",
+    description: "De-escalates heated online forum debates while enforcing community standards.",
+    tags: ["dialogue","dialogue","community","forum"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Forum Moderation & De-trolling Standards",
+      ruSectionName: "Стандарты и регламенты: Community Forum Moderation & De-trolling",
+      instructions: [
+        "Apply core domain tenets for Community Forum Moderation & De-trolling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community Forum Moderation & De-trolling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","community","forum"],
+    }),
+  },
+
+  "dialogue-user-research-usability-test-moderation": {
+    id: "dialogue-user-research-usability-test-moderation",
+    name: "UserResearchUsabilityTestModerationSkill",
+    displayName: "User Research Usability Test Moderation",
+    categoryId: "dialogue",
+    description: "Guides usability test participants without biasing their natural interactions.",
+    tags: ["dialogue","dialogue","user","research"],
+    transform: createStandardSkillTransform({
+      sectionName: "User Research Usability Test Moderation Standards",
+      ruSectionName: "Стандарты и регламенты: User Research Usability Test Moderation",
+      instructions: [
+        "Apply core domain tenets for User Research Usability Test Moderation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для User Research Usability Test Moderation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","user","research"],
+    }),
+  },
+
+  "dialogue-sales-objection-defusal-value-re-anchoring": {
+    id: "dialogue-sales-objection-defusal-value-re-anchoring",
+    name: "SalesObjectionDefusalValueReanchoringSkill",
+    displayName: "Sales Objection Defusal & Value Re-anchoring",
+    categoryId: "dialogue",
+    description: "Reframes price objections around return on investment.",
+    tags: ["dialogue","dialogue","sales","objection"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sales Objection Defusal & Value Re-anchoring Standards",
+      ruSectionName: "Стандарты и регламенты: Sales Objection Defusal & Value Re-anchoring",
+      instructions: [
+        "Apply core domain tenets for Sales Objection Defusal & Value Re-anchoring.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sales Objection Defusal & Value Re-anchoring.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","sales","objection"],
+    }),
+  },
+
+  "dialogue-diplomatic-performance-improvement-plan-pip-dialogue": {
+    id: "dialogue-diplomatic-performance-improvement-plan-pip-dialogue",
+    name: "DiplomaticPerformanceImprovementPlanPIPDialogueSkill",
+    displayName: "Diplomatic Performance Improvement Plan (PIP) Dialogue",
+    categoryId: "dialogue",
+    description: "Delivers PIP reviews with clear performance expectations and support.",
+    tags: ["dialogue","dialogue","diplomatic","performance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Diplomatic Performance Improvement Plan (PIP) Dialogue Standards",
+      ruSectionName: "Стандарты и регламенты: Diplomatic Performance Improvement Plan (PIP) Dialogue",
+      instructions: [
+        "Apply core domain tenets for Diplomatic Performance Improvement Plan (PIP) Dialogue.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Diplomatic Performance Improvement Plan (PIP) Dialogue.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","diplomatic","performance"],
+    }),
+  },
+
+  "dialogue-asynchronous-slack-teams-communication-etiquette": {
+    id: "dialogue-asynchronous-slack-teams-communication-etiquette",
+    name: "AsynchronousSlackTeamsCommunicationEtiquetteSkill",
+    displayName: "Asynchronous Slack/Teams Communication Etiquette",
+    categoryId: "dialogue",
+    description: "Formats async chat messages for maximum clarity and minimal disruption.",
+    tags: ["dialogue","dialogue","asynchronous","slack"],
+    transform: createStandardSkillTransform({
+      sectionName: "Asynchronous Slack/Teams Communication Etiquette Standards",
+      ruSectionName: "Стандарты и регламенты: Asynchronous Slack/Teams Communication Etiquette",
+      instructions: [
+        "Apply core domain tenets for Asynchronous Slack/Teams Communication Etiquette.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Asynchronous Slack/Teams Communication Etiquette.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","asynchronous","slack"],
+    }),
+  },
+
+  "dialogue-brainstorming-group-dynamic-moderation": {
+    id: "dialogue-brainstorming-group-dynamic-moderation",
+    name: "BrainstormingGroupDynamicModerationSkill",
+    displayName: "Brainstorming Group Dynamic Moderation",
+    categoryId: "dialogue",
+    description: "Facilitates creative group brainstorming ensuring equal speaking time.",
+    tags: ["dialogue","dialogue","brainstorming","group"],
+    transform: createStandardSkillTransform({
+      sectionName: "Brainstorming Group Dynamic Moderation Standards",
+      ruSectionName: "Стандарты и регламенты: Brainstorming Group Dynamic Moderation",
+      instructions: [
+        "Apply core domain tenets for Brainstorming Group Dynamic Moderation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Brainstorming Group Dynamic Moderation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","brainstorming","group"],
+    }),
+  },
+
+  "dialogue-executive-sponsor-status-briefing": {
+    id: "dialogue-executive-sponsor-status-briefing",
+    name: "ExecutiveSponsorStatusBriefingSkill",
+    displayName: "Executive Sponsor Status Briefing",
+    categoryId: "dialogue",
+    description: "Delivers concise, high-density project status updates to C-level sponsors.",
+    tags: ["dialogue","dialogue","executive","sponsor"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Sponsor Status Briefing Standards",
+      ruSectionName: "Стандарты и регламенты: Executive Sponsor Status Briefing",
+      instructions: [
+        "Apply core domain tenets for Executive Sponsor Status Briefing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Executive Sponsor Status Briefing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","executive","sponsor"],
+    }),
+  },
+
+  "dialogue-vendor-price-contract-negotiation-dialogue": {
+    id: "dialogue-vendor-price-contract-negotiation-dialogue",
+    name: "VendorPriceContractNegotiationDialogueSkill",
+    displayName: "Vendor Price Contract Negotiation Dialogue",
+    categoryId: "dialogue",
+    description: "Negotiates vendor contract terms while preserving long-term partnership.",
+    tags: ["dialogue","dialogue","vendor","price"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vendor Price Contract Negotiation Dialogue Standards",
+      ruSectionName: "Стандарты и регламенты: Vendor Price Contract Negotiation Dialogue",
+      instructions: [
+        "Apply core domain tenets for Vendor Price Contract Negotiation Dialogue.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Vendor Price Contract Negotiation Dialogue.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","vendor","price"],
+    }),
+  },
+
+  "dialogue-cross-generational-workplace-dialogue-bridging": {
+    id: "dialogue-cross-generational-workplace-dialogue-bridging",
+    name: "CrossGenerationalWorkplaceDialogueBridgingSkill",
+    displayName: "Cross-Generational Workplace Dialogue Bridging",
+    categoryId: "dialogue",
+    description: "Bridges communication style differences across Gen Z, Millennial, and Gen X.",
+    tags: ["dialogue","dialogue","cross","generational"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Generational Workplace Dialogue Bridging Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Generational Workplace Dialogue Bridging",
+      instructions: [
+        "Apply core domain tenets for Cross-Generational Workplace Dialogue Bridging.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Generational Workplace Dialogue Bridging.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","cross","generational"],
+    }),
+  },
+
+  "dialogue-empathetic-apology-service-recovery": {
+    id: "dialogue-empathetic-apology-service-recovery",
+    name: "EmpatheticApologyServiceRecoverySkill",
+    displayName: "Empathetic Apology & Service Recovery",
+    categoryId: "dialogue",
+    description: "Delivers sincere service recovery communications after product failures.",
+    tags: ["dialogue","dialogue","empathetic","apology"],
+    transform: createStandardSkillTransform({
+      sectionName: "Empathetic Apology & Service Recovery Standards",
+      ruSectionName: "Стандарты и регламенты: Empathetic Apology & Service Recovery",
+      instructions: [
+        "Apply core domain tenets for Empathetic Apology & Service Recovery.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Empathetic Apology & Service Recovery.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","empathetic","apology"],
+    }),
+  },
+
+  "dialogue-stakeholder-alignment-matrix-dialogue": {
+    id: "dialogue-stakeholder-alignment-matrix-dialogue",
+    name: "StakeholderAlignmentMatrixDialogueSkill",
+    displayName: "Stakeholder Alignment Matrix Dialogue",
+    categoryId: "dialogue",
+    description: "Maps and addresses diverse stakeholder interests in major IT projects.",
+    tags: ["dialogue","dialogue","stakeholder","alignment"],
+    transform: createStandardSkillTransform({
+      sectionName: "Stakeholder Alignment Matrix Dialogue Standards",
+      ruSectionName: "Стандарты и регламенты: Stakeholder Alignment Matrix Dialogue",
+      instructions: [
+        "Apply core domain tenets for Stakeholder Alignment Matrix Dialogue.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Stakeholder Alignment Matrix Dialogue.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","stakeholder","alignment"],
+    }),
+  },
+
+  "dialogue-public-panel-discussion-moderation-arc": {
+    id: "dialogue-public-panel-discussion-moderation-arc",
+    name: "PublicPanelDiscussionModerationArcSkill",
+    displayName: "Public Panel Discussion Moderation Arc",
+    categoryId: "dialogue",
+    description: "Moderates live panel discussions with dynamic time management and Q&A.",
+    tags: ["dialogue","dialogue","public","panel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Public Panel Discussion Moderation Arc Standards",
+      ruSectionName: "Стандарты и регламенты: Public Panel Discussion Moderation Arc",
+      instructions: [
+        "Apply core domain tenets for Public Panel Discussion Moderation Arc.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Public Panel Discussion Moderation Arc.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","public","panel"],
+    }),
+  },
+
+  "dialogue-sales-discovery-bant-qualification-dialogue": {
+    id: "dialogue-sales-discovery-bant-qualification-dialogue",
+    name: "SalesDiscoveryBANTQualificationDialogueSkill",
+    displayName: "Sales Discovery BANT Qualification Dialogue",
+    categoryId: "dialogue",
+    description: "Qualifies enterprise leads across Budget, Authority, Need, and Timeline.",
+    tags: ["dialogue","dialogue","sales","discovery"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sales Discovery BANT Qualification Dialogue Standards",
+      ruSectionName: "Стандарты и регламенты: Sales Discovery BANT Qualification Dialogue",
+      instructions: [
+        "Apply core domain tenets for Sales Discovery BANT Qualification Dialogue.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sales Discovery BANT Qualification Dialogue.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","sales","discovery"],
+    }),
+  },
+
+  "dialogue-academic-thesis-defense-defense-preparation": {
+    id: "dialogue-academic-thesis-defense-defense-preparation",
+    name: "AcademicThesisDefenseDefensePreparationSkill",
+    displayName: "Academic Thesis Defense Defense Preparation",
+    categoryId: "dialogue",
+    description: "Prepares graduate students to defend research findings against faculty critique.",
+    tags: ["dialogue","dialogue","academic","thesis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Academic Thesis Defense Defense Preparation Standards",
+      ruSectionName: "Стандарты и регламенты: Academic Thesis Defense Defense Preparation",
+      instructions: [
+        "Apply core domain tenets for Academic Thesis Defense Defense Preparation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Academic Thesis Defense Defense Preparation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","academic","thesis"],
+    }),
+  },
+
+  "dialogue-customer-success-onboarding-kickoff-call": {
+    id: "dialogue-customer-success-onboarding-kickoff-call",
+    name: "CustomerSuccessOnboardingKickoffCallSkill",
+    displayName: "Customer Success Onboarding Kickoff Call",
+    categoryId: "dialogue",
+    description: "Conducts energetic SaaS customer onboarding calls establishing success milestones.",
+    tags: ["dialogue","dialogue","customer","success"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Success Onboarding Kickoff Call Standards",
+      ruSectionName: "Стандарты и регламенты: Customer Success Onboarding Kickoff Call",
+      instructions: [
+        "Apply core domain tenets for Customer Success Onboarding Kickoff Call.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Customer Success Onboarding Kickoff Call.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","customer","success"],
+    }),
+  },
+
+  "dialogue-difficult-feedback-sandwich-technique-genuinely-applied": {
+    id: "dialogue-difficult-feedback-sandwich-technique-genuinely-applied",
+    name: "DifficultFeedbackSandwichTechniqueGenuinelyAppliedSkill",
+    displayName: "Difficult Feedback Sandwich Technique (Genuinely Applied)",
+    categoryId: "dialogue",
+    description: "Delivers corrective feedback framed between authentic positive recognition.",
+    tags: ["dialogue","dialogue","difficult","feedback"],
+    transform: createStandardSkillTransform({
+      sectionName: "Difficult Feedback Sandwich Technique (Genuinely Applied) Standards",
+      ruSectionName: "Стандарты и регламенты: Difficult Feedback Sandwich Technique (Genuinely Applied)",
+      instructions: [
+        "Apply core domain tenets for Difficult Feedback Sandwich Technique (Genuinely Applied).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Difficult Feedback Sandwich Technique (Genuinely Applied).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","difficult","feedback"],
+    }),
+  },
+
+  "dialogue-cross-border-virtual-team-trust-building": {
+    id: "dialogue-cross-border-virtual-team-trust-building",
+    name: "CrossBorderVirtualTeamTrustBuildingSkill",
+    displayName: "Cross-Border Virtual Team Trust Building",
+    categoryId: "dialogue",
+    description: "Builds psychological safety and cohesion in remote distributed teams.",
+    tags: ["dialogue","dialogue","cross","border"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Border Virtual Team Trust Building Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Border Virtual Team Trust Building",
+      instructions: [
+        "Apply core domain tenets for Cross-Border Virtual Team Trust Building.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Border Virtual Team Trust Building.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","cross","border"],
+    }),
+  },
+
+  "dialogue-interactive-storytelling-roleplay-game-master": {
+    id: "dialogue-interactive-storytelling-roleplay-game-master",
+    name: "InteractiveStorytellingRoleplayGameMasterSkill",
+    displayName: "Interactive Storytelling Roleplay Game Master",
+    categoryId: "dialogue",
+    description: "Guides players through immersive interactive fiction choices.",
+    tags: ["dialogue","dialogue","interactive","storytelling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Storytelling Roleplay Game Master Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Storytelling Roleplay Game Master",
+      instructions: [
+        "Apply core domain tenets for Interactive Storytelling Roleplay Game Master.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Storytelling Roleplay Game Master.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","interactive","storytelling"],
+    }),
+  },
+
+  "dialogue-diplomatic-scope-creep-re-negotiation": {
+    id: "dialogue-diplomatic-scope-creep-re-negotiation",
+    name: "DiplomaticScopeCreepRenegotiationSkill",
+    displayName: "Diplomatic Scope Creep Re-negotiation",
+    categoryId: "dialogue",
+    description: "Manages client feature requests while protecting contract budget and timeline.",
+    tags: ["dialogue","dialogue","diplomatic","scope"],
+    transform: createStandardSkillTransform({
+      sectionName: "Diplomatic Scope Creep Re-negotiation Standards",
+      ruSectionName: "Стандарты и регламенты: Diplomatic Scope Creep Re-negotiation",
+      instructions: [
+        "Apply core domain tenets for Diplomatic Scope Creep Re-negotiation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Diplomatic Scope Creep Re-negotiation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","diplomatic","scope"],
+    }),
+  },
+
+  "dialogue-strategic-advisory-session-framing": {
+    id: "dialogue-strategic-advisory-session-framing",
+    name: "StrategicAdvisorySessionFramingSkill",
+    displayName: "Strategic Advisory Session Framing",
+    categoryId: "dialogue",
+    description: "Positions advisory sessions to deliver high-value strategic direction.",
+    tags: ["dialogue","dialogue","strategic","advisory"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strategic Advisory Session Framing Standards",
+      ruSectionName: "Стандарты и регламенты: Strategic Advisory Session Framing",
+      instructions: [
+        "Apply core domain tenets for Strategic Advisory Session Framing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Strategic Advisory Session Framing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","strategic","advisory"],
+    }),
+  },
+
+  "dialogue-crisis-incident-war-room-communication": {
+    id: "dialogue-crisis-incident-war-room-communication",
+    name: "CrisisIncidentWarRoomCommunicationSkill",
+    displayName: "Crisis Incident War Room Communication",
+    categoryId: "dialogue",
+    description: "Coordinates engineering war room communications during major outages.",
+    tags: ["dialogue","dialogue","crisis","incident"],
+    transform: createStandardSkillTransform({
+      sectionName: "Crisis Incident War Room Communication Standards",
+      ruSectionName: "Стандарты и регламенты: Crisis Incident War Room Communication",
+      instructions: [
+        "Apply core domain tenets for Crisis Incident War Room Communication.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Crisis Incident War Room Communication.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","crisis","incident"],
+    }),
+  },
+
+  "dialogue-change-management-communication-sequence": {
+    id: "dialogue-change-management-communication-sequence",
+    name: "ChangeManagementCommunicationSequenceSkill",
+    displayName: "Change Management Communication Sequence",
+    categoryId: "dialogue",
+    description: "Communicates enterprise software transitions to minimize employee anxiety.",
+    tags: ["dialogue","dialogue","change","management"],
+    transform: createStandardSkillTransform({
+      sectionName: "Change Management Communication Sequence Standards",
+      ruSectionName: "Стандарты и регламенты: Change Management Communication Sequence",
+      instructions: [
+        "Apply core domain tenets for Change Management Communication Sequence.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Change Management Communication Sequence.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","change","management"],
+    }),
+  },
+
+  "dialogue-empathetic-design-research-interviewing": {
+    id: "dialogue-empathetic-design-research-interviewing",
+    name: "EmpatheticDesignResearchInterviewingSkill",
+    displayName: "Empathetic Design Research Interviewing",
+    categoryId: "dialogue",
+    description: "Conducts deep ethnographic interviews uncovering latent user needs.",
+    tags: ["dialogue","dialogue","empathetic","design"],
+    transform: createStandardSkillTransform({
+      sectionName: "Empathetic Design Research Interviewing Standards",
+      ruSectionName: "Стандарты и регламенты: Empathetic Design Research Interviewing",
+      instructions: [
+        "Apply core domain tenets for Empathetic Design Research Interviewing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Empathetic Design Research Interviewing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","empathetic","design"],
+    }),
+  },
+
+  "dialogue-high-stakes-media-press-conference-q-a": {
+    id: "dialogue-high-stakes-media-press-conference-q-a",
+    name: "HighStakesMediaPressConferenceQASkill",
+    displayName: "High-Stakes Media Press Conference Q&A",
+    categoryId: "dialogue",
+    description: "Prepares corporate spokespeople to handle hostile press questioning.",
+    tags: ["dialogue","dialogue","high","stakes"],
+    transform: createStandardSkillTransform({
+      sectionName: "High-Stakes Media Press Conference Q&A Standards",
+      ruSectionName: "Стандарты и регламенты: High-Stakes Media Press Conference Q&A",
+      instructions: [
+        "Apply core domain tenets for High-Stakes Media Press Conference Q&A.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для High-Stakes Media Press Conference Q&A.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","high","stakes"],
+    }),
+  },
+
+  "dialogue-product-manager-vs-engineering-trade-off-negotiation": {
+    id: "dialogue-product-manager-vs-engineering-trade-off-negotiation",
+    name: "ProductManagervsEngineeringTradeoffNegotiationSkill",
+    displayName: "Product Manager vs Engineering Trade-off Negotiation",
+    categoryId: "dialogue",
+    description: "Facilitates constructive trade-off debates between scope and technical debt.",
+    tags: ["dialogue","dialogue","product","manager"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product Manager vs Engineering Trade-off Negotiation Standards",
+      ruSectionName: "Стандарты и регламенты: Product Manager vs Engineering Trade-off Negotiation",
+      instructions: [
+        "Apply core domain tenets for Product Manager vs Engineering Trade-off Negotiation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Product Manager vs Engineering Trade-off Negotiation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","product","manager"],
+    }),
+  },
+
+  "dialogue-peer-mentorship-knowledge-transfer-dialogue": {
+    id: "dialogue-peer-mentorship-knowledge-transfer-dialogue",
+    name: "PeerMentorshipKnowledgeTransferDialogueSkill",
+    displayName: "Peer Mentorship Knowledge Transfer Dialogue",
+    categoryId: "dialogue",
+    description: "Structures knowledge sharing sessions between senior and junior engineers.",
+    tags: ["dialogue","dialogue","peer","mentorship"],
+    transform: createStandardSkillTransform({
+      sectionName: "Peer Mentorship Knowledge Transfer Dialogue Standards",
+      ruSectionName: "Стандарты и регламенты: Peer Mentorship Knowledge Transfer Dialogue",
+      instructions: [
+        "Apply core domain tenets for Peer Mentorship Knowledge Transfer Dialogue.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Peer Mentorship Knowledge Transfer Dialogue.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","peer","mentorship"],
+    }),
+  },
+
+  "dialogue-executive-compensation-negotiation-dialogue": {
+    id: "dialogue-executive-compensation-negotiation-dialogue",
+    name: "ExecutiveCompensationNegotiationDialogueSkill",
+    displayName: "Executive Compensation Negotiation Dialogue",
+    categoryId: "dialogue",
+    description: "Navigates executive job offer compensation negotiations professionally.",
+    tags: ["dialogue","dialogue","executive","compensation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Compensation Negotiation Dialogue Standards",
+      ruSectionName: "Стандарты и регламенты: Executive Compensation Negotiation Dialogue",
+      instructions: [
+        "Apply core domain tenets for Executive Compensation Negotiation Dialogue.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Executive Compensation Negotiation Dialogue.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","executive","compensation"],
+    }),
+  },
+
+  "dialogue-nonprofit-donor-relationship-cultivation": {
+    id: "dialogue-nonprofit-donor-relationship-cultivation",
+    name: "NonprofitDonorRelationshipCultivationSkill",
+    displayName: "Nonprofit Donor Relationship Cultivation",
+    categoryId: "dialogue",
+    description: "Builds long-term relationships with major philanthropic donors.",
+    tags: ["dialogue","dialogue","nonprofit","donor"],
+    transform: createStandardSkillTransform({
+      sectionName: "Nonprofit Donor Relationship Cultivation Standards",
+      ruSectionName: "Стандарты и регламенты: Nonprofit Donor Relationship Cultivation",
+      instructions: [
+        "Apply core domain tenets for Nonprofit Donor Relationship Cultivation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Nonprofit Donor Relationship Cultivation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","nonprofit","donor"],
+    }),
+  },
+
+  "dialogue-patient-centered-medical-consultation-arc": {
+    id: "dialogue-patient-centered-medical-consultation-arc",
+    name: "PatientCenteredMedicalConsultationArcSkill",
+    displayName: "Patient-Centered Medical Consultation Arc",
+    categoryId: "dialogue",
+    description: "Conducts thorough, empathetic medical consultations active in shared decision making.",
+    tags: ["dialogue","dialogue","patient","centered"],
+    transform: createStandardSkillTransform({
+      sectionName: "Patient-Centered Medical Consultation Arc Standards",
+      ruSectionName: "Стандарты и регламенты: Patient-Centered Medical Consultation Arc",
+      instructions: [
+        "Apply core domain tenets for Patient-Centered Medical Consultation Arc.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Patient-Centered Medical Consultation Arc.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","patient","centered"],
+    }),
+  },
+
+  "dialogue-agile-retrospective-retrospective-facilitation": {
+    id: "dialogue-agile-retrospective-retrospective-facilitation",
+    name: "AgileRetrospectiveRetrospectiveFacilitationSkill",
+    displayName: "Agile Retrospective Retrospective Facilitation",
+    categoryId: "dialogue",
+    description: "Leads team retrospectives that produce actionable process improvements.",
+    tags: ["dialogue","dialogue","agile","retrospective"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agile Retrospective Retrospective Facilitation Standards",
+      ruSectionName: "Стандарты и регламенты: Agile Retrospective Retrospective Facilitation",
+      instructions: [
+        "Apply core domain tenets for Agile Retrospective Retrospective Facilitation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agile Retrospective Retrospective Facilitation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","agile","retrospective"],
+    }),
+  },
+
+  "dialogue-strategic-partnership-exploratory-meeting": {
+    id: "dialogue-strategic-partnership-exploratory-meeting",
+    name: "StrategicPartnershipExploratoryMeetingSkill",
+    displayName: "Strategic Partnership Exploratory Meeting",
+    categoryId: "dialogue",
+    description: "Conducts initial partnership meetings exploring mutual win-win opportunities.",
+    tags: ["dialogue","dialogue","strategic","partnership"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strategic Partnership Exploratory Meeting Standards",
+      ruSectionName: "Стандарты и регламенты: Strategic Partnership Exploratory Meeting",
+      instructions: [
+        "Apply core domain tenets for Strategic Partnership Exploratory Meeting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Strategic Partnership Exploratory Meeting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","strategic","partnership"],
+    }),
+  },
+
+  "dialogue-diplomatic-open-source-contributor-pr-feedback": {
+    id: "dialogue-diplomatic-open-source-contributor-pr-feedback",
+    name: "DiplomaticOpenSourceContributorPRFeedbackSkill",
+    displayName: "Diplomatic Open Source Contributor PR Feedback",
+    categoryId: "dialogue",
+    description: "Reviews open source pull requests with encouraging, constructive guidance.",
+    tags: ["dialogue","dialogue","diplomatic","open"],
+    transform: createStandardSkillTransform({
+      sectionName: "Diplomatic Open Source Contributor PR Feedback Standards",
+      ruSectionName: "Стандарты и регламенты: Diplomatic Open Source Contributor PR Feedback",
+      instructions: [
+        "Apply core domain tenets for Diplomatic Open Source Contributor PR Feedback.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Diplomatic Open Source Contributor PR Feedback.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","diplomatic","open"],
+    }),
+  },
+
+  "dialogue-customer-churn-prevention-save-offer-dialogue": {
+    id: "dialogue-customer-churn-prevention-save-offer-dialogue",
+    name: "CustomerChurnPreventionSaveOfferDialogueSkill",
+    displayName: "Customer Churn Prevention Save Offer Dialogue",
+    categoryId: "dialogue",
+    description: "Engages cancelling customers with personalized save offers.",
+    tags: ["dialogue","dialogue","customer","churn"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Churn Prevention Save Offer Dialogue Standards",
+      ruSectionName: "Стандарты и регламенты: Customer Churn Prevention Save Offer Dialogue",
+      instructions: [
+        "Apply core domain tenets for Customer Churn Prevention Save Offer Dialogue.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Customer Churn Prevention Save Offer Dialogue.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","customer","churn"],
+    }),
+  },
+
+  "dialogue-cross-functional-post-mortem-facilitation": {
+    id: "dialogue-cross-functional-post-mortem-facilitation",
+    name: "CrossFunctionalPostMortemFacilitationSkill",
+    displayName: "Cross-Functional Post-Mortem Facilitation",
+    categoryId: "dialogue",
+    description: "Leads blameless post-mortem reviews isolating systemic process failures.",
+    tags: ["dialogue","dialogue","cross","functional"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Functional Post-Mortem Facilitation Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Functional Post-Mortem Facilitation",
+      instructions: [
+        "Apply core domain tenets for Cross-Functional Post-Mortem Facilitation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Functional Post-Mortem Facilitation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","cross","functional"],
+    }),
+  },
+
+  "dialogue-executive-thought-leadership-podcast-guest-arc": {
+    id: "dialogue-executive-thought-leadership-podcast-guest-arc",
+    name: "ExecutiveThoughtLeadershipPodcastGuestArcSkill",
+    displayName: "Executive Thought Leadership Podcast Guest Arc",
+    categoryId: "dialogue",
+    description: "Prepares executives to deliver high-impact podcast interview appearances.",
+    tags: ["dialogue","dialogue","executive","thought"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Thought Leadership Podcast Guest Arc Standards",
+      ruSectionName: "Стандарты и регламенты: Executive Thought Leadership Podcast Guest Arc",
+      instructions: [
+        "Apply core domain tenets for Executive Thought Leadership Podcast Guest Arc.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Executive Thought Leadership Podcast Guest Arc.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","executive","thought"],
+    }),
+  },
+
+  "dialogue-sales-demo-custom-value-proposition-alignment": {
+    id: "dialogue-sales-demo-custom-value-proposition-alignment",
+    name: "SalesDemoCustomValuePropositionAlignmentSkill",
+    displayName: "Sales Demo Custom Value Proposition Alignment",
+    categoryId: "dialogue",
+    description: "Tailors live product demos directly to prospect pain points.",
+    tags: ["dialogue","dialogue","sales","demo"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sales Demo Custom Value Proposition Alignment Standards",
+      ruSectionName: "Стандарты и регламенты: Sales Demo Custom Value Proposition Alignment",
+      instructions: [
+        "Apply core domain tenets for Sales Demo Custom Value Proposition Alignment.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sales Demo Custom Value Proposition Alignment.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","sales","demo"],
+    }),
+  },
+
+  "dialogue-diplomatic-board-meeting-dispute-neutralization": {
+    id: "dialogue-diplomatic-board-meeting-dispute-neutralization",
+    name: "DiplomaticBoardMeetingDisputeNeutralizationSkill",
+    displayName: "Diplomatic Board Meeting Dispute Neutralization",
+    categoryId: "dialogue",
+    description: "De-escalates tense board meeting disagreements toward constructive consensus.",
+    tags: ["dialogue","dialogue","diplomatic","board"],
+    transform: createStandardSkillTransform({
+      sectionName: "Diplomatic Board Meeting Dispute Neutralization Standards",
+      ruSectionName: "Стандарты и регламенты: Diplomatic Board Meeting Dispute Neutralization",
+      instructions: [
+        "Apply core domain tenets for Diplomatic Board Meeting Dispute Neutralization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Diplomatic Board Meeting Dispute Neutralization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","diplomatic","board"],
+    }),
+  },
+
+  "dialogue-inclusive-discussion-moderation-for-introverts": {
+    id: "dialogue-inclusive-discussion-moderation-for-introverts",
+    name: "InclusiveDiscussionModerationforIntrovertsSkill",
+    displayName: "Inclusive Discussion Moderation for Introverts",
+    categoryId: "dialogue",
+    description: "Ensures quieter team members have structured space to share insights.",
+    tags: ["dialogue","dialogue","inclusive","discussion"],
+    transform: createStandardSkillTransform({
+      sectionName: "Inclusive Discussion Moderation for Introverts Standards",
+      ruSectionName: "Стандарты и регламенты: Inclusive Discussion Moderation for Introverts",
+      instructions: [
+        "Apply core domain tenets for Inclusive Discussion Moderation for Introverts.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Inclusive Discussion Moderation for Introverts.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","inclusive","discussion"],
+    }),
+  },
+
+  "dialogue-remote-onboarding-welcome-integration-arc": {
+    id: "dialogue-remote-onboarding-welcome-integration-arc",
+    name: "RemoteOnboardingWelcomeIntegrationArcSkill",
+    displayName: "Remote Onboarding Welcome & Integration Arc",
+    categoryId: "dialogue",
+    description: "Welcomes new remote hires with structured check-ins and buddy pairing.",
+    tags: ["dialogue","dialogue","remote","onboarding"],
+    transform: createStandardSkillTransform({
+      sectionName: "Remote Onboarding Welcome & Integration Arc Standards",
+      ruSectionName: "Стандарты и регламенты: Remote Onboarding Welcome & Integration Arc",
+      instructions: [
+        "Apply core domain tenets for Remote Onboarding Welcome & Integration Arc.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Remote Onboarding Welcome & Integration Arc.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","remote","onboarding"],
+    }),
+  },
+
+  "dialogue-enterprise-procurement-security-review-defense": {
+    id: "dialogue-enterprise-procurement-security-review-defense",
+    name: "EnterpriseProcurementSecurityReviewDefenseSkill",
+    displayName: "Enterprise Procurement Security Review Defense",
+    categoryId: "dialogue",
+    description: "Answers enterprise security questionnaire queries with confidence.",
+    tags: ["dialogue","dialogue","enterprise","procurement"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enterprise Procurement Security Review Defense Standards",
+      ruSectionName: "Стандарты и регламенты: Enterprise Procurement Security Review Defense",
+      instructions: [
+        "Apply core domain tenets for Enterprise Procurement Security Review Defense.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Enterprise Procurement Security Review Defense.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","enterprise","procurement"],
+    }),
+  },
+
+  "dialogue-consultative-problem-solving-client-session": {
+    id: "dialogue-consultative-problem-solving-client-session",
+    name: "ConsultativeProblemSolvingClientSessionSkill",
+    displayName: "Consultative Problem-Solving Client Session",
+    categoryId: "dialogue",
+    description: "Leads collaborative client strategy sessions to co-create solutions.",
+    tags: ["dialogue","dialogue","consultative","problem"],
+    transform: createStandardSkillTransform({
+      sectionName: "Consultative Problem-Solving Client Session Standards",
+      ruSectionName: "Стандарты и регламенты: Consultative Problem-Solving Client Session",
+      instructions: [
+        "Apply core domain tenets for Consultative Problem-Solving Client Session.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Consultative Problem-Solving Client Session.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","consultative","problem"],
+    }),
+  },
+
+  "dialogue-community-guild-leadership-communication": {
+    id: "dialogue-community-guild-leadership-communication",
+    name: "CommunityGuildLeadershipCommunicationSkill",
+    displayName: "Community Guild Leadership Communication",
+    categoryId: "dialogue",
+    description: "Leads internal practice guilds driving technology standardization.",
+    tags: ["dialogue","dialogue","community","guild"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Guild Leadership Communication Standards",
+      ruSectionName: "Стандарты и регламенты: Community Guild Leadership Communication",
+      instructions: [
+        "Apply core domain tenets for Community Guild Leadership Communication.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community Guild Leadership Communication.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","community","guild"],
+    }),
+  },
+
+  "dialogue-comprehensive-conversational-mastery-protocol": {
+    id: "dialogue-comprehensive-conversational-mastery-protocol",
+    name: "ComprehensiveConversationalMasteryProtocolSkill",
+    displayName: "Comprehensive Conversational Mastery Protocol",
+    categoryId: "dialogue",
+    description: "Applies world-class dialogue, active listening, and negotiation techniques.",
+    tags: ["dialogue","dialogue","comprehensive","conversational"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comprehensive Conversational Mastery Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Comprehensive Conversational Mastery Protocol",
+      instructions: [
+        "Apply core domain tenets for Comprehensive Conversational Mastery Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comprehensive Conversational Mastery Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","comprehensive","conversational"],
+    }),
+  },
+
+  "dialogue-dialogue-skill-90": {
+    id: "dialogue-dialogue-skill-90",
+    name: "dialogueSkill90Skill",
+    displayName: "dialogue Skill 90",
+    categoryId: "dialogue",
+    description: "Applies advanced dialogue Skill 90 standards and execution patterns.",
+    tags: ["dialogue","dialogue","dialogue","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "dialogue Skill 90 Standards",
+      ruSectionName: "Стандарты и регламенты: dialogue Skill 90",
+      instructions: [
+        "Apply core domain tenets for dialogue Skill 90.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для dialogue Skill 90.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue","dialogue","skill"],
+    }),
+  },
+  "dialogue-topup-dialogue-protocol-for-remote-team-retrospectives": {
+    id: "dialogue-topup-dialogue-protocol-for-remote-team-retrospectives",
+    name: "DialogueProtocolforRemoteTeamRetrospectivesSkill",
+    displayName: "Dialogue Protocol for Remote Team Retrospectives",
+    categoryId: "dialogue",
+    description: "Leads retrospective discussions identifying continuous process improvements.",
+    tags: ["dialogue","dialogue-topup","topup","dialogue"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dialogue Protocol for Remote Team Retrospectives Standards",
+      ruSectionName: "Стандарты и регламенты: Dialogue Protocol for Remote Team Retrospectives",
+      instructions: [
+        "Apply core domain tenets for Dialogue Protocol for Remote Team Retrospectives.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dialogue Protocol for Remote Team Retrospectives.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","dialogue"],
+    }),
+  },
+
+  "dialogue-topup-strategic-questioning-for-high-stakes-negotiations": {
+    id: "dialogue-topup-strategic-questioning-for-high-stakes-negotiations",
+    name: "StrategicQuestioningforHighStakesNegotiationsSkill",
+    displayName: "Strategic Questioning for High-Stakes Negotiations",
+    categoryId: "dialogue",
+    description: "Uncovers counterpart priorities through calibrated non-confrontational questions.",
+    tags: ["dialogue","dialogue-topup","topup","strategic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strategic Questioning for High-Stakes Negotiations Standards",
+      ruSectionName: "Стандарты и регламенты: Strategic Questioning for High-Stakes Negotiations",
+      instructions: [
+        "Apply core domain tenets for Strategic Questioning for High-Stakes Negotiations.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Strategic Questioning for High-Stakes Negotiations.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","strategic"],
+    }),
+  },
+
+  "dialogue-topup-empathetic-patient-history-taking-protocol": {
+    id: "dialogue-topup-empathetic-patient-history-taking-protocol",
+    name: "EmpatheticPatientHistoryTakingProtocolSkill",
+    displayName: "Empathetic Patient History Taking Protocol",
+    categoryId: "dialogue",
+    description: "Conducts supportive medical intake interviews uncovering hidden symptoms.",
+    tags: ["dialogue","dialogue-topup","topup","empathetic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Empathetic Patient History Taking Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Empathetic Patient History Taking Protocol",
+      instructions: [
+        "Apply core domain tenets for Empathetic Patient History Taking Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Empathetic Patient History Taking Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","empathetic"],
+    }),
+  },
+
+  "dialogue-topup-socratic-guided-discovery-for-student-mentorship": {
+    id: "dialogue-topup-socratic-guided-discovery-for-student-mentorship",
+    name: "SocraticGuidedDiscoveryforStudentMentorshipSkill",
+    displayName: "Socratic Guided Discovery for Student Mentorship",
+    categoryId: "dialogue",
+    description: "Guides learners to solve complex math and coding problems through inquiry.",
+    tags: ["dialogue","dialogue-topup","topup","socratic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Socratic Guided Discovery for Student Mentorship Standards",
+      ruSectionName: "Стандарты и регламенты: Socratic Guided Discovery for Student Mentorship",
+      instructions: [
+        "Apply core domain tenets for Socratic Guided Discovery for Student Mentorship.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Socratic Guided Discovery for Student Mentorship.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","socratic"],
+    }),
+  },
+
+  "dialogue-topup-diplomatic-executive-alignment-conversation": {
+    id: "dialogue-topup-diplomatic-executive-alignment-conversation",
+    name: "DiplomaticExecutiveAlignmentConversationSkill",
+    displayName: "Diplomatic Executive Alignment Conversation",
+    categoryId: "dialogue",
+    description: "Aligns VP-level stakeholders on shared strategic objectives and resource split.",
+    tags: ["dialogue","dialogue-topup","topup","diplomatic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Diplomatic Executive Alignment Conversation Standards",
+      ruSectionName: "Стандарты и регламенты: Diplomatic Executive Alignment Conversation",
+      instructions: [
+        "Apply core domain tenets for Diplomatic Executive Alignment Conversation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Diplomatic Executive Alignment Conversation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","diplomatic"],
+    }),
+  },
+
+  "dialogue-topup-de-escalation-sequence-for-hostile-public-feedback": {
+    id: "dialogue-topup-de-escalation-sequence-for-hostile-public-feedback",
+    name: "DeescalationSequenceforHostilePublicFeedbackSkill",
+    displayName: "De-escalation Sequence for Hostile Public Feedback",
+    categoryId: "dialogue",
+    description: "Responds to angry public comments with calm, accountable, solution-focused messaging.",
+    tags: ["dialogue","dialogue-topup","topup","de"],
+    transform: createStandardSkillTransform({
+      sectionName: "De-escalation Sequence for Hostile Public Feedback Standards",
+      ruSectionName: "Стандарты и регламенты: De-escalation Sequence for Hostile Public Feedback",
+      instructions: [
+        "Apply core domain tenets for De-escalation Sequence for Hostile Public Feedback.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для De-escalation Sequence for Hostile Public Feedback.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","de"],
+    }),
+  },
+
+  "dialogue-topup-cross-departmental-war-room-incident-coordination": {
+    id: "dialogue-topup-cross-departmental-war-room-incident-coordination",
+    name: "CrossDepartmentalWarRoomIncidentCoordinationSkill",
+    displayName: "Cross-Departmental War Room Incident Coordination",
+    categoryId: "dialogue",
+    description: "Facilitates rapid incident management dialogue between Ops and Product leads.",
+    tags: ["dialogue","dialogue-topup","topup","cross"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Departmental War Room Incident Coordination Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Departmental War Room Incident Coordination",
+      instructions: [
+        "Apply core domain tenets for Cross-Departmental War Room Incident Coordination.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Departmental War Room Incident Coordination.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","cross"],
+    }),
+  },
+
+  "dialogue-topup-warm-rapport-building-for-executive-interviews": {
+    id: "dialogue-topup-warm-rapport-building-for-executive-interviews",
+    name: "WarmRapportBuildingforExecutiveInterviewsSkill",
+    displayName: "Warm Rapport Building for Executive Interviews",
+    categoryId: "dialogue",
+    description: "Establishes immediate trust and open dialogue during C-suite candidate interviews.",
+    tags: ["dialogue","dialogue-topup","topup","warm"],
+    transform: createStandardSkillTransform({
+      sectionName: "Warm Rapport Building for Executive Interviews Standards",
+      ruSectionName: "Стандарты и регламенты: Warm Rapport Building for Executive Interviews",
+      instructions: [
+        "Apply core domain tenets for Warm Rapport Building for Executive Interviews.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Warm Rapport Building for Executive Interviews.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","warm"],
+    }),
+  },
+
+  "dialogue-topup-interactive-workshop-icebreaker-warm-up": {
+    id: "dialogue-topup-interactive-workshop-icebreaker-warm-up",
+    name: "InteractiveWorkshopIcebreakerWarmUpSkill",
+    displayName: "Interactive Workshop Icebreaker & Warm-Up",
+    categoryId: "dialogue",
+    description: "Engages workshop participants with active icebreaker exercises.",
+    tags: ["dialogue","dialogue-topup","topup","interactive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Workshop Icebreaker & Warm-Up Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Workshop Icebreaker & Warm-Up",
+      instructions: [
+        "Apply core domain tenets for Interactive Workshop Icebreaker & Warm-Up.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Workshop Icebreaker & Warm-Up.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","interactive"],
+    }),
+  },
+
+  "dialogue-topup-constructive-code-review-feedback-communication": {
+    id: "dialogue-topup-constructive-code-review-feedback-communication",
+    name: "ConstructiveCodeReviewFeedbackCommunicationSkill",
+    displayName: "Constructive Code Review Feedback Communication",
+    categoryId: "dialogue",
+    description: "Delivers actionable, respectful code feedback encouraging engineer growth.",
+    tags: ["dialogue","dialogue-topup","topup","constructive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Constructive Code Review Feedback Communication Standards",
+      ruSectionName: "Стандарты и регламенты: Constructive Code Review Feedback Communication",
+      instructions: [
+        "Apply core domain tenets for Constructive Code Review Feedback Communication.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Constructive Code Review Feedback Communication.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","constructive"],
+    }),
+  },
+
+  "dialogue-topup-client-offboarding-bridge-building-dialogue": {
+    id: "dialogue-topup-client-offboarding-bridge-building-dialogue",
+    name: "ClientOffboardingBridgeBuildingDialogueSkill",
+    displayName: "Client Offboarding & Bridge-Building Dialogue",
+    categoryId: "dialogue",
+    description: "Concludes client projects professionally while keeping doors open for future work.",
+    tags: ["dialogue","dialogue-topup","topup","client"],
+    transform: createStandardSkillTransform({
+      sectionName: "Client Offboarding & Bridge-Building Dialogue Standards",
+      ruSectionName: "Стандарты и регламенты: Client Offboarding & Bridge-Building Dialogue",
+      instructions: [
+        "Apply core domain tenets for Client Offboarding & Bridge-Building Dialogue.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Client Offboarding & Bridge-Building Dialogue.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","client"],
+    }),
+  },
+
+  "dialogue-topup-diplomatic-refusal-of-scope-creep-requests": {
+    id: "dialogue-topup-diplomatic-refusal-of-scope-creep-requests",
+    name: "DiplomaticRefusalofScopeCreepRequestsSkill",
+    displayName: "Diplomatic Refusal of Scope Creep Requests",
+    categoryId: "dialogue",
+    description: "Manages feature requests while protecting team capacity and release dates.",
+    tags: ["dialogue","dialogue-topup","topup","diplomatic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Diplomatic Refusal of Scope Creep Requests Standards",
+      ruSectionName: "Стандарты и регламенты: Diplomatic Refusal of Scope Creep Requests",
+      instructions: [
+        "Apply core domain tenets for Diplomatic Refusal of Scope Creep Requests.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Diplomatic Refusal of Scope Creep Requests.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","diplomatic"],
+    }),
+  },
+
+  "dialogue-topup-parent-teacher-collaborative-growth-meeting": {
+    id: "dialogue-topup-parent-teacher-collaborative-growth-meeting",
+    name: "ParentTeacherCollaborativeGrowthMeetingSkill",
+    displayName: "Parent-Teacher Collaborative Growth Meeting",
+    categoryId: "dialogue",
+    description: "Builds constructive partnerships between parents and teachers to support students.",
+    tags: ["dialogue","dialogue-topup","topup","parent"],
+    transform: createStandardSkillTransform({
+      sectionName: "Parent-Teacher Collaborative Growth Meeting Standards",
+      ruSectionName: "Стандарты и регламенты: Parent-Teacher Collaborative Growth Meeting",
+      instructions: [
+        "Apply core domain tenets for Parent-Teacher Collaborative Growth Meeting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Parent-Teacher Collaborative Growth Meeting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","parent"],
+    }),
+  },
+
+  "dialogue-topup-investor-q-a-pitch-defense-strategy": {
+    id: "dialogue-topup-investor-q-a-pitch-defense-strategy",
+    name: "InvestorQAPitchDefenseStrategySkill",
+    displayName: "Investor Q&A Pitch Defense Strategy",
+    categoryId: "dialogue",
+    description: "Answers tough venture capital questions with confidence and verified data.",
+    tags: ["dialogue","dialogue-topup","topup","investor"],
+    transform: createStandardSkillTransform({
+      sectionName: "Investor Q&A Pitch Defense Strategy Standards",
+      ruSectionName: "Стандарты и регламенты: Investor Q&A Pitch Defense Strategy",
+      instructions: [
+        "Apply core domain tenets for Investor Q&A Pitch Defense Strategy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Investor Q&A Pitch Defense Strategy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","investor"],
+    }),
+  },
+
+  "dialogue-topup-cross-generational-workplace-communication-bridge": {
+    id: "dialogue-topup-cross-generational-workplace-communication-bridge",
+    name: "CrossGenerationalWorkplaceCommunicationBridgeSkill",
+    displayName: "Cross-Generational Workplace Communication Bridge",
+    categoryId: "dialogue",
+    description: "Facilitates productive collaboration between team members of different generations.",
+    tags: ["dialogue","dialogue-topup","topup","cross"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Generational Workplace Communication Bridge Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Generational Workplace Communication Bridge",
+      instructions: [
+        "Apply core domain tenets for Cross-Generational Workplace Communication Bridge.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Generational Workplace Communication Bridge.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","cross"],
+    }),
+  },
+
+  "dialogue-topup-community-forum-anti-trolling-de-escalation": {
+    id: "dialogue-topup-community-forum-anti-trolling-de-escalation",
+    name: "CommunityForumAntiTrollingDeescalationSkill",
+    displayName: "Community Forum Anti-Trolling De-escalation",
+    categoryId: "dialogue",
+    description: "Moderates heated online discussions maintaining community guidelines.",
+    tags: ["dialogue","dialogue-topup","topup","community"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Forum Anti-Trolling De-escalation Standards",
+      ruSectionName: "Стандарты и регламенты: Community Forum Anti-Trolling De-escalation",
+      instructions: [
+        "Apply core domain tenets for Community Forum Anti-Trolling De-escalation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community Forum Anti-Trolling De-escalation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","community"],
+    }),
+  },
+
+  "dialogue-topup-sales-objection-reframing-roi-anchor": {
+    id: "dialogue-topup-sales-objection-reframing-roi-anchor",
+    name: "SalesObjectionReframingROIAnchorSkill",
+    displayName: "Sales Objection Reframing & ROI Anchor",
+    categoryId: "dialogue",
+    description: "Addresses pricing objections by focusing on measurable business return.",
+    tags: ["dialogue","dialogue-topup","topup","sales"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sales Objection Reframing & ROI Anchor Standards",
+      ruSectionName: "Стандарты и регламенты: Sales Objection Reframing & ROI Anchor",
+      instructions: [
+        "Apply core domain tenets for Sales Objection Reframing & ROI Anchor.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sales Objection Reframing & ROI Anchor.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","sales"],
+    }),
+  },
+
+  "dialogue-topup-asynchronous-slack-team-communication-etiquette": {
+    id: "dialogue-topup-asynchronous-slack-team-communication-etiquette",
+    name: "AsynchronousSlackTeamCommunicationEtiquetteSkill",
+    displayName: "Asynchronous Slack Team Communication Etiquette",
+    categoryId: "dialogue",
+    description: "Structures async team messages for clarity, brevity, and minimal disruption.",
+    tags: ["dialogue","dialogue-topup","topup","asynchronous"],
+    transform: createStandardSkillTransform({
+      sectionName: "Asynchronous Slack Team Communication Etiquette Standards",
+      ruSectionName: "Стандарты и регламенты: Asynchronous Slack Team Communication Etiquette",
+      instructions: [
+        "Apply core domain tenets for Asynchronous Slack Team Communication Etiquette.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Asynchronous Slack Team Communication Etiquette.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","asynchronous"],
+    }),
+  },
+
+  "dialogue-topup-executive-sponsor-project-briefing-protocol": {
+    id: "dialogue-topup-executive-sponsor-project-briefing-protocol",
+    name: "ExecutiveSponsorProjectBriefingProtocolSkill",
+    displayName: "Executive Sponsor Project Briefing Protocol",
+    categoryId: "dialogue",
+    description: "Delivers concise, high-density project status updates to executive sponsors.",
+    tags: ["dialogue","dialogue-topup","topup","executive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Sponsor Project Briefing Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Executive Sponsor Project Briefing Protocol",
+      instructions: [
+        "Apply core domain tenets for Executive Sponsor Project Briefing Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Executive Sponsor Project Briefing Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","executive"],
+    }),
+  },
+
+  "dialogue-topup-master-dialogue-communication-excellence": {
+    id: "dialogue-topup-master-dialogue-communication-excellence",
+    name: "MasterDialogueCommunicationExcellenceSkill",
+    displayName: "Master Dialogue & Communication Excellence",
+    categoryId: "dialogue",
+    description: "Applies world-class active listening, empathy, and negotiation skills.",
+    tags: ["dialogue","dialogue-topup","topup","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Dialogue & Communication Excellence Standards",
+      ruSectionName: "Стандарты и регламенты: Master Dialogue & Communication Excellence",
+      instructions: [
+        "Apply core domain tenets for Master Dialogue & Communication Excellence.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Dialogue & Communication Excellence.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["dialogue","dialogue-topup","topup","master"],
+    }),
+  },
 };

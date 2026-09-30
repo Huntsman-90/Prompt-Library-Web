@@ -3000,4 +3000,1327 @@ export const AGENTIC_SKILLS: Record<string, SkillDefinition> = {
       tags: ["agentic","determinism","reproducibility","seed-locking","testing"],
     }),
   },
+  "agentic-react-reason-act-tool-calling-loop": {
+    id: "agentic-react-reason-act-tool-calling-loop",
+    name: "ReActReasonActToolCallingLoopSkill",
+    displayName: "ReAct (Reason + Act) Tool Calling Loop",
+    categoryId: "agentic",
+    description: "Orchestrates Thought -> Action -> Observation iteration loops until task completion.",
+    tags: ["agentic","agentic","react","reason"],
+    transform: createStandardSkillTransform({
+      sectionName: "ReAct (Reason + Act) Tool Calling Loop Standards",
+      ruSectionName: "Стандарты и регламенты: ReAct (Reason + Act) Tool Calling Loop",
+      instructions: [
+        "Apply core domain tenets for ReAct (Reason + Act) Tool Calling Loop.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ReAct (Reason + Act) Tool Calling Loop.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","react","reason"],
+    }),
+  },
+
+  "agentic-plan-and-solve-autonomous-decomposition": {
+    id: "agentic-plan-and-solve-autonomous-decomposition",
+    name: "PlanAndSolveAutonomousDecompositionSkill",
+    displayName: "Plan-And-Solve Autonomous Decomposition",
+    categoryId: "agentic",
+    description: "Generates an explicit multi-step plan before invoking execution tool agents.",
+    tags: ["agentic","agentic","plan","and"],
+    transform: createStandardSkillTransform({
+      sectionName: "Plan-And-Solve Autonomous Decomposition Standards",
+      ruSectionName: "Стандарты и регламенты: Plan-And-Solve Autonomous Decomposition",
+      instructions: [
+        "Apply core domain tenets for Plan-And-Solve Autonomous Decomposition.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Plan-And-Solve Autonomous Decomposition.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","plan","and"],
+    }),
+  },
+
+  "agentic-hierarchical-supervisor-worker-agent-topology": {
+    id: "agentic-hierarchical-supervisor-worker-agent-topology",
+    name: "HierarchicalSupervisorWorkerAgentTopologySkill",
+    displayName: "Hierarchical Supervisor-Worker Agent Topology",
+    categoryId: "agentic",
+    description: "Coordinates specialized worker agents via a central supervisor delegator.",
+    tags: ["agentic","agentic","hierarchical","supervisor"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hierarchical Supervisor-Worker Agent Topology Standards",
+      ruSectionName: "Стандарты и регламенты: Hierarchical Supervisor-Worker Agent Topology",
+      instructions: [
+        "Apply core domain tenets for Hierarchical Supervisor-Worker Agent Topology.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hierarchical Supervisor-Worker Agent Topology.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","hierarchical","supervisor"],
+    }),
+  },
+
+  "agentic-tool-argument-schema-validation-error-recovery": {
+    id: "agentic-tool-argument-schema-validation-error-recovery",
+    name: "ToolArgumentSchemaValidationErrorRecoverySkill",
+    displayName: "Tool Argument Schema Validation & Error Recovery",
+    categoryId: "agentic",
+    description: "Validates tool call JSON arguments against schemas, auto-correcting errors.",
+    tags: ["agentic","agentic","tool","argument"],
+    transform: createStandardSkillTransform({
+      sectionName: "Tool Argument Schema Validation & Error Recovery Standards",
+      ruSectionName: "Стандарты и регламенты: Tool Argument Schema Validation & Error Recovery",
+      instructions: [
+        "Apply core domain tenets for Tool Argument Schema Validation & Error Recovery.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Tool Argument Schema Validation & Error Recovery.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","tool","argument"],
+    }),
+  },
+
+  "agentic-agent-memory-consolidation-context-summarization": {
+    id: "agentic-agent-memory-consolidation-context-summarization",
+    name: "AgentMemoryConsolidationContextSummarizationSkill",
+    displayName: "Agent Memory Consolidation & Context Summarization",
+    categoryId: "agentic",
+    description: "Compresses execution history into persistent memory summaries to fit context windows.",
+    tags: ["agentic","agentic","agent","memory"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agent Memory Consolidation & Context Summarization Standards",
+      ruSectionName: "Стандарты и регламенты: Agent Memory Consolidation & Context Summarization",
+      instructions: [
+        "Apply core domain tenets for Agent Memory Consolidation & Context Summarization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agent Memory Consolidation & Context Summarization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agent","memory"],
+    }),
+  },
+
+  "agentic-reflection-self-correction-agent-loop": {
+    id: "agentic-reflection-self-correction-agent-loop",
+    name: "ReflectionSelfCorrectionAgentLoopSkill",
+    displayName: "Reflection & Self-Correction Agent Loop",
+    categoryId: "agentic",
+    description: "Audits tool execution results and adjusts plans when steps fail.",
+    tags: ["agentic","agentic","reflection","self"],
+    transform: createStandardSkillTransform({
+      sectionName: "Reflection & Self-Correction Agent Loop Standards",
+      ruSectionName: "Стандарты и регламенты: Reflection & Self-Correction Agent Loop",
+      instructions: [
+        "Apply core domain tenets for Reflection & Self-Correction Agent Loop.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Reflection & Self-Correction Agent Loop.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","reflection","self"],
+    }),
+  },
+
+  "agentic-human-in-the-loop-approval-checkpoint": {
+    id: "agentic-human-in-the-loop-approval-checkpoint",
+    name: "HumanintheLoopApprovalCheckpointSkill",
+    displayName: "Human-in-the-Loop Approval Checkpoint",
+    categoryId: "agentic",
+    description: "Pauses agent execution for human sign-off before high-stakes actions.",
+    tags: ["agentic","agentic","human","in"],
+    transform: createStandardSkillTransform({
+      sectionName: "Human-in-the-Loop Approval Checkpoint Standards",
+      ruSectionName: "Стандарты и регламенты: Human-in-the-Loop Approval Checkpoint",
+      instructions: [
+        "Apply core domain tenets for Human-in-the-Loop Approval Checkpoint.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Human-in-the-Loop Approval Checkpoint.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","human","in"],
+    }),
+  },
+
+  "agentic-parallel-multi-tool-execution-fan-out": {
+    id: "agentic-parallel-multi-tool-execution-fan-out",
+    name: "ParallelMultiToolExecutionFanOutSkill",
+    displayName: "Parallel Multi-Tool Execution & Fan-Out",
+    categoryId: "agentic",
+    description: "Invokes multiple independent tools concurrently to accelerate workflow speed.",
+    tags: ["agentic","agentic","parallel","multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Parallel Multi-Tool Execution & Fan-Out Standards",
+      ruSectionName: "Стандарты и регламенты: Parallel Multi-Tool Execution & Fan-Out",
+      instructions: [
+        "Apply core domain tenets for Parallel Multi-Tool Execution & Fan-Out.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Parallel Multi-Tool Execution & Fan-Out.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","parallel","multi"],
+    }),
+  },
+
+  "agentic-agentic-web-search-information-retrieval": {
+    id: "agentic-agentic-web-search-information-retrieval",
+    name: "AgenticWebSearchInformationRetrievalSkill",
+    displayName: "Agentic Web Search & Information Retrieval",
+    categoryId: "agentic",
+    description: "Formulates search queries, parses results, and extracts relevant facts.",
+    tags: ["agentic","agentic","agentic","web"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agentic Web Search & Information Retrieval Standards",
+      ruSectionName: "Стандарты и регламенты: Agentic Web Search & Information Retrieval",
+      instructions: [
+        "Apply core domain tenets for Agentic Web Search & Information Retrieval.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agentic Web Search & Information Retrieval.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agentic","web"],
+    }),
+  },
+
+  "agentic-code-execution-sandbox-environment-agent": {
+    id: "agentic-code-execution-sandbox-environment-agent",
+    name: "CodeExecutionSandboxEnvironmentAgentSkill",
+    displayName: "Code Execution Sandbox & Environment Agent",
+    categoryId: "agentic",
+    description: "Runs generated Python/JS code in a secure sandbox and processes STDOUT.",
+    tags: ["agentic","agentic","code","execution"],
+    transform: createStandardSkillTransform({
+      sectionName: "Code Execution Sandbox & Environment Agent Standards",
+      ruSectionName: "Стандарты и регламенты: Code Execution Sandbox & Environment Agent",
+      instructions: [
+        "Apply core domain tenets for Code Execution Sandbox & Environment Agent.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Code Execution Sandbox & Environment Agent.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","code","execution"],
+    }),
+  },
+
+  "agentic-autonomous-browser-navigation-dom-action": {
+    id: "agentic-autonomous-browser-navigation-dom-action",
+    name: "AutonomousBrowserNavigationDOMActionSkill",
+    displayName: "Autonomous Browser Navigation & DOM Action",
+    categoryId: "agentic",
+    description: "Navigates web pages, fills forms, and extracts DOM elements via browser automation.",
+    tags: ["agentic","agentic","autonomous","browser"],
+    transform: createStandardSkillTransform({
+      sectionName: "Autonomous Browser Navigation & DOM Action Standards",
+      ruSectionName: "Стандарты и регламенты: Autonomous Browser Navigation & DOM Action",
+      instructions: [
+        "Apply core domain tenets for Autonomous Browser Navigation & DOM Action.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Autonomous Browser Navigation & DOM Action.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","autonomous","browser"],
+    }),
+  },
+
+  "agentic-multi-agent-consensus-peer-review-debate": {
+    id: "agentic-multi-agent-consensus-peer-review-debate",
+    name: "MultiAgentConsensusPeerReviewDebateSkill",
+    displayName: "Multi-Agent Consensus & Peer Review Debate",
+    categoryId: "agentic",
+    description: "Has multiple agent personas debate a solution to reach consensus.",
+    tags: ["agentic","agentic","multi","agent"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Agent Consensus & Peer Review Debate Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Agent Consensus & Peer Review Debate",
+      instructions: [
+        "Apply core domain tenets for Multi-Agent Consensus & Peer Review Debate.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Agent Consensus & Peer Review Debate.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","multi","agent"],
+    }),
+  },
+
+  "agentic-dynamic-tool-selection-capability-router": {
+    id: "agentic-dynamic-tool-selection-capability-router",
+    name: "DynamicToolSelectionCapabilityRouterSkill",
+    displayName: "Dynamic Tool Selection & Capability Router",
+    categoryId: "agentic",
+    description: "Selects the optimal tool from a registry based on task requirements.",
+    tags: ["agentic","agentic","dynamic","tool"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dynamic Tool Selection & Capability Router Standards",
+      ruSectionName: "Стандарты и регламенты: Dynamic Tool Selection & Capability Router",
+      instructions: [
+        "Apply core domain tenets for Dynamic Tool Selection & Capability Router.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dynamic Tool Selection & Capability Router.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","dynamic","tool"],
+    }),
+  },
+
+  "agentic-task-dependency-graph-dag-execution": {
+    id: "agentic-task-dependency-graph-dag-execution",
+    name: "TaskDependencyGraphDAGExecutionSkill",
+    displayName: "Task Dependency Graph & DAG Execution",
+    categoryId: "agentic",
+    description: "Constructs and executes directed acyclic graphs of dependent sub-tasks.",
+    tags: ["agentic","agentic","task","dependency"],
+    transform: createStandardSkillTransform({
+      sectionName: "Task Dependency Graph & DAG Execution Standards",
+      ruSectionName: "Стандарты и регламенты: Task Dependency Graph & DAG Execution",
+      instructions: [
+        "Apply core domain tenets for Task Dependency Graph & DAG Execution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Task Dependency Graph & DAG Execution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","task","dependency"],
+    }),
+  },
+
+  "agentic-persistent-scratchpad-working-memory": {
+    id: "agentic-persistent-scratchpad-working-memory",
+    name: "PersistentScratchpadWorkingMemorySkill",
+    displayName: "Persistent Scratchpad & Working Memory",
+    categoryId: "agentic",
+    description: "Maintains an active scratchpad for intermediate notes during complex reasoning.",
+    tags: ["agentic","agentic","persistent","scratchpad"],
+    transform: createStandardSkillTransform({
+      sectionName: "Persistent Scratchpad & Working Memory Standards",
+      ruSectionName: "Стандарты и регламенты: Persistent Scratchpad & Working Memory",
+      instructions: [
+        "Apply core domain tenets for Persistent Scratchpad & Working Memory.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Persistent Scratchpad & Working Memory.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","persistent","scratchpad"],
+    }),
+  },
+
+  "agentic-agent-sub-goal-verification-milestone-check": {
+    id: "agentic-agent-sub-goal-verification-milestone-check",
+    name: "AgentSubGoalVerificationMilestoneCheckSkill",
+    displayName: "Agent Sub-Goal Verification & Milestone Check",
+    categoryId: "agentic",
+    description: "Verifies that sub-goals have been satisfied before advancing to the next step.",
+    tags: ["agentic","agentic","agent","sub"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agent Sub-Goal Verification & Milestone Check Standards",
+      ruSectionName: "Стандарты и регламенты: Agent Sub-Goal Verification & Milestone Check",
+      instructions: [
+        "Apply core domain tenets for Agent Sub-Goal Verification & Milestone Check.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agent Sub-Goal Verification & Milestone Check.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agent","sub"],
+    }),
+  },
+
+  "agentic-error-backoff-fallback-tool-substitution": {
+    id: "agentic-error-backoff-fallback-tool-substitution",
+    name: "ErrorBackoffFallbackToolSubstitutionSkill",
+    displayName: "Error Backoff & Fallback Tool Substitution",
+    categoryId: "agentic",
+    description: "Switches to alternative tools or search engines when primary APIs fail.",
+    tags: ["agentic","agentic","error","backoff"],
+    transform: createStandardSkillTransform({
+      sectionName: "Error Backoff & Fallback Tool Substitution Standards",
+      ruSectionName: "Стандарты и регламенты: Error Backoff & Fallback Tool Substitution",
+      instructions: [
+        "Apply core domain tenets for Error Backoff & Fallback Tool Substitution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Error Backoff & Fallback Tool Substitution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","error","backoff"],
+    }),
+  },
+
+  "agentic-long-running-async-task-checkpointing": {
+    id: "agentic-long-running-async-task-checkpointing",
+    name: "LongRunningAsyncTaskCheckpointingSkill",
+    displayName: "Long-Running Async Task Checkpointing",
+    categoryId: "agentic",
+    description: "Saves agent execution state to durable storage for multi-hour workflows.",
+    tags: ["agentic","agentic","long","running"],
+    transform: createStandardSkillTransform({
+      sectionName: "Long-Running Async Task Checkpointing Standards",
+      ruSectionName: "Стандарты и регламенты: Long-Running Async Task Checkpointing",
+      instructions: [
+        "Apply core domain tenets for Long-Running Async Task Checkpointing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Long-Running Async Task Checkpointing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","long","running"],
+    }),
+  },
+
+  "agentic-multi-modal-image-document-analysis-agent": {
+    id: "agentic-multi-modal-image-document-analysis-agent",
+    name: "MultiModalImageDocumentAnalysisAgentSkill",
+    displayName: "Multi-Modal Image & Document Analysis Agent",
+    categoryId: "agentic",
+    description: "Inspects diagrams, charts, and PDF documents to inform execution steps.",
+    tags: ["agentic","agentic","multi","modal"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Modal Image & Document Analysis Agent Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Modal Image & Document Analysis Agent",
+      instructions: [
+        "Apply core domain tenets for Multi-Modal Image & Document Analysis Agent.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Modal Image & Document Analysis Agent.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","multi","modal"],
+    }),
+  },
+
+  "agentic-agentic-database-query-schema-discovery": {
+    id: "agentic-agentic-database-query-schema-discovery",
+    name: "AgenticDatabaseQuerySchemaDiscoverySkill",
+    displayName: "Agentic Database Query & Schema Discovery",
+    categoryId: "agentic",
+    description: "Inspects DB schemas, constructs SQL queries, and analyzes returned datasets.",
+    tags: ["agentic","agentic","agentic","database"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agentic Database Query & Schema Discovery Standards",
+      ruSectionName: "Стандарты и регламенты: Agentic Database Query & Schema Discovery",
+      instructions: [
+        "Apply core domain tenets for Agentic Database Query & Schema Discovery.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agentic Database Query & Schema Discovery.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agentic","database"],
+    }),
+  },
+
+  "agentic-recursive-sub-agent-delegation-protocol": {
+    id: "agentic-recursive-sub-agent-delegation-protocol",
+    name: "RecursiveSubAgentDelegationProtocolSkill",
+    displayName: "Recursive Sub-Agent Delegation Protocol",
+    categoryId: "agentic",
+    description: "Spawns nested sub-agents for specialized sub-tasks with bounded depth.",
+    tags: ["agentic","agentic","recursive","sub"],
+    transform: createStandardSkillTransform({
+      sectionName: "Recursive Sub-Agent Delegation Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Recursive Sub-Agent Delegation Protocol",
+      instructions: [
+        "Apply core domain tenets for Recursive Sub-Agent Delegation Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Recursive Sub-Agent Delegation Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","recursive","sub"],
+    }),
+  },
+
+  "agentic-agent-telemetry-step-execution-logger": {
+    id: "agentic-agent-telemetry-step-execution-logger",
+    name: "AgentTelemetryStepExecutionLoggerSkill",
+    displayName: "Agent Telemetry & Step Execution Logger",
+    categoryId: "agentic",
+    description: "Logs step duration, token cost, and tool calls for agent observability.",
+    tags: ["agentic","agentic","agent","telemetry"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agent Telemetry & Step Execution Logger Standards",
+      ruSectionName: "Стандарты и регламенты: Agent Telemetry & Step Execution Logger",
+      instructions: [
+        "Apply core domain tenets for Agent Telemetry & Step Execution Logger.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agent Telemetry & Step Execution Logger.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agent","telemetry"],
+    }),
+  },
+
+  "agentic-role-based-agent-persona-specialization": {
+    id: "agentic-role-based-agent-persona-specialization",
+    name: "RoleBasedAgentPersonaSpecializationSkill",
+    displayName: "Role-Based Agent Persona Specialization",
+    categoryId: "agentic",
+    description: "Assigns distinct expert personas (e.g. Security Auditor) to sub-agents.",
+    tags: ["agentic","agentic","role","based"],
+    transform: createStandardSkillTransform({
+      sectionName: "Role-Based Agent Persona Specialization Standards",
+      ruSectionName: "Стандарты и регламенты: Role-Based Agent Persona Specialization",
+      instructions: [
+        "Apply core domain tenets for Role-Based Agent Persona Specialization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Role-Based Agent Persona Specialization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","role","based"],
+    }),
+  },
+
+  "agentic-goal-drift-prevention-steering-anchor": {
+    id: "agentic-goal-drift-prevention-steering-anchor",
+    name: "GoalDriftPreventionSteeringAnchorSkill",
+    displayName: "Goal Drift Prevention & Steering Anchor",
+    categoryId: "agentic",
+    description: "Monitors agent progress against original user goal to prevent task drift.",
+    tags: ["agentic","agentic","goal","drift"],
+    transform: createStandardSkillTransform({
+      sectionName: "Goal Drift Prevention & Steering Anchor Standards",
+      ruSectionName: "Стандарты и регламенты: Goal Drift Prevention & Steering Anchor",
+      instructions: [
+        "Apply core domain tenets for Goal Drift Prevention & Steering Anchor.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Goal Drift Prevention & Steering Anchor.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","goal","drift"],
+    }),
+  },
+
+  "agentic-agentic-file-system-code-repository-editor": {
+    id: "agentic-agentic-file-system-code-repository-editor",
+    name: "AgenticFileSystemCodeRepositoryEditorSkill",
+    displayName: "Agentic File System & Code Repository Editor",
+    categoryId: "agentic",
+    description: "Reads, edits, and refactors multi-file codebases in local workspaces.",
+    tags: ["agentic","agentic","agentic","file"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agentic File System & Code Repository Editor Standards",
+      ruSectionName: "Стандарты и регламенты: Agentic File System & Code Repository Editor",
+      instructions: [
+        "Apply core domain tenets for Agentic File System & Code Repository Editor.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agentic File System & Code Repository Editor.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agentic","file"],
+    }),
+  },
+
+  "agentic-conversational-interrupt-instruction-override": {
+    id: "agentic-conversational-interrupt-instruction-override",
+    name: "ConversationalInterruptInstructionOverrideSkill",
+    displayName: "Conversational Interrupt & Instruction Override",
+    categoryId: "agentic",
+    description: "Handles mid-execution user steering commands gracefully.",
+    tags: ["agentic","agentic","conversational","interrupt"],
+    transform: createStandardSkillTransform({
+      sectionName: "Conversational Interrupt & Instruction Override Standards",
+      ruSectionName: "Стандарты и регламенты: Conversational Interrupt & Instruction Override",
+      instructions: [
+        "Apply core domain tenets for Conversational Interrupt & Instruction Override.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Conversational Interrupt & Instruction Override.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","conversational","interrupt"],
+    }),
+  },
+
+  "agentic-synthetic-data-generation-self-play-agent": {
+    id: "agentic-synthetic-data-generation-self-play-agent",
+    name: "SyntheticDataGenerationSelfPlayAgentSkill",
+    displayName: "Synthetic Data Generation & Self-Play Agent",
+    categoryId: "agentic",
+    description: "Generates synthetic training scenarios and evaluates agent performance.",
+    tags: ["agentic","agentic","synthetic","data"],
+    transform: createStandardSkillTransform({
+      sectionName: "Synthetic Data Generation & Self-Play Agent Standards",
+      ruSectionName: "Стандарты и регламенты: Synthetic Data Generation & Self-Play Agent",
+      instructions: [
+        "Apply core domain tenets for Synthetic Data Generation & Self-Play Agent.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Synthetic Data Generation & Self-Play Agent.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","synthetic","data"],
+    }),
+  },
+
+  "agentic-multi-service-api-integration-oauth-agent": {
+    id: "agentic-multi-service-api-integration-oauth-agent",
+    name: "MultiServiceAPIIntegrationOAuthAgentSkill",
+    displayName: "Multi-Service API Integration & OAuth Agent",
+    categoryId: "agentic",
+    description: "Authenticates and coordinates actions across Slack, GitHub, and Jira APIs.",
+    tags: ["agentic","agentic","multi","service"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Service API Integration & OAuth Agent Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Service API Integration & OAuth Agent",
+      instructions: [
+        "Apply core domain tenets for Multi-Service API Integration & OAuth Agent.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Service API Integration & OAuth Agent.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","multi","service"],
+    }),
+  },
+
+  "agentic-agentic-web-scraping-content-cleaning": {
+    id: "agentic-agentic-web-scraping-content-cleaning",
+    name: "AgenticWebScrapingContentCleaningSkill",
+    displayName: "Agentic Web Scraping & Content Cleaning",
+    categoryId: "agentic",
+    description: "Extracts clean Markdown content from noisy web pages.",
+    tags: ["agentic","agentic","agentic","web"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agentic Web Scraping & Content Cleaning Standards",
+      ruSectionName: "Стандарты и регламенты: Agentic Web Scraping & Content Cleaning",
+      instructions: [
+        "Apply core domain tenets for Agentic Web Scraping & Content Cleaning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agentic Web Scraping & Content Cleaning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agentic","web"],
+    }),
+  },
+
+  "agentic-resource-budgeting-token-cost-limiter": {
+    id: "agentic-resource-budgeting-token-cost-limiter",
+    name: "ResourceBudgetingTokenCostLimiterSkill",
+    displayName: "Resource Budgeting & Token Cost Limiter",
+    categoryId: "agentic",
+    description: "Caps total agent token spend and API calls per workflow execution.",
+    tags: ["agentic","agentic","resource","budgeting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Resource Budgeting & Token Cost Limiter Standards",
+      ruSectionName: "Стандарты и регламенты: Resource Budgeting & Token Cost Limiter",
+      instructions: [
+        "Apply core domain tenets for Resource Budgeting & Token Cost Limiter.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Resource Budgeting & Token Cost Limiter.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","resource","budgeting"],
+    }),
+  },
+
+  "agentic-tree-of-thoughts-beam-search-agent": {
+    id: "agentic-tree-of-thoughts-beam-search-agent",
+    name: "TreeofThoughtsBeamSearchAgentSkill",
+    displayName: "Tree-of-Thoughts Beam Search Agent",
+    categoryId: "agentic",
+    description: "Explores multiple reasoning branches simultaneously using beam search.",
+    tags: ["agentic","agentic","tree","of"],
+    transform: createStandardSkillTransform({
+      sectionName: "Tree-of-Thoughts Beam Search Agent Standards",
+      ruSectionName: "Стандарты и регламенты: Tree-of-Thoughts Beam Search Agent",
+      instructions: [
+        "Apply core domain tenets for Tree-of-Thoughts Beam Search Agent.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Tree-of-Thoughts Beam Search Agent.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","tree","of"],
+    }),
+  },
+
+  "agentic-autonomous-refactoring-test-verification": {
+    id: "agentic-autonomous-refactoring-test-verification",
+    name: "AutonomousRefactoringTestVerificationSkill",
+    displayName: "Autonomous Refactoring & Test Verification",
+    categoryId: "agentic",
+    description: "Edits code, runs unit test suites, and iterates until all tests pass.",
+    tags: ["agentic","agentic","autonomous","refactoring"],
+    transform: createStandardSkillTransform({
+      sectionName: "Autonomous Refactoring & Test Verification Standards",
+      ruSectionName: "Стандарты и регламенты: Autonomous Refactoring & Test Verification",
+      instructions: [
+        "Apply core domain tenets for Autonomous Refactoring & Test Verification.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Autonomous Refactoring & Test Verification.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","autonomous","refactoring"],
+    }),
+  },
+
+  "agentic-multi-agent-red-teaming-vulnerability-probe": {
+    id: "agentic-multi-agent-red-teaming-vulnerability-probe",
+    name: "MultiAgentRedTeamingVulnerabilityProbeSkill",
+    displayName: "Multi-Agent Red-Teaming & Vulnerability Probe",
+    categoryId: "agentic",
+    description: "Uses attacker agents to stress-test target system defenses.",
+    tags: ["agentic","agentic","multi","agent"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Agent Red-Teaming & Vulnerability Probe Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Agent Red-Teaming & Vulnerability Probe",
+      instructions: [
+        "Apply core domain tenets for Multi-Agent Red-Teaming & Vulnerability Probe.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Agent Red-Teaming & Vulnerability Probe.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","multi","agent"],
+    }),
+  },
+
+  "agentic-agentic-document-editing-track-changes": {
+    id: "agentic-agentic-document-editing-track-changes",
+    name: "AgenticDocumentEditingTrackChangesSkill",
+    displayName: "Agentic Document Editing & Track Changes",
+    categoryId: "agentic",
+    description: "Proposes targeted edits and inline comments on long documents.",
+    tags: ["agentic","agentic","agentic","document"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agentic Document Editing & Track Changes Standards",
+      ruSectionName: "Стандарты и регламенты: Agentic Document Editing & Track Changes",
+      instructions: [
+        "Apply core domain tenets for Agentic Document Editing & Track Changes.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agentic Document Editing & Track Changes.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agentic","document"],
+    }),
+  },
+
+  "agentic-self-correction-refusal-recovery-agent": {
+    id: "agentic-self-correction-refusal-recovery-agent",
+    name: "SelfCorrectionRefusalRecoveryAgentSkill",
+    displayName: "Self-Correction Refusal Recovery Agent",
+    categoryId: "agentic",
+    description: "Rephrases tool inputs when external APIs refuse or error out.",
+    tags: ["agentic","agentic","self","correction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Self-Correction Refusal Recovery Agent Standards",
+      ruSectionName: "Стандарты и регламенты: Self-Correction Refusal Recovery Agent",
+      instructions: [
+        "Apply core domain tenets for Self-Correction Refusal Recovery Agent.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Self-Correction Refusal Recovery Agent.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","self","correction"],
+    }),
+  },
+
+  "agentic-temporal-workflow-event-driven-agent": {
+    id: "agentic-temporal-workflow-event-driven-agent",
+    name: "TemporalWorkflowEventDrivenAgentSkill",
+    displayName: "Temporal Workflow & Event-Driven Agent",
+    categoryId: "agentic",
+    description: "Responds to external webhook events and triggers scheduled tasks.",
+    tags: ["agentic","agentic","temporal","workflow"],
+    transform: createStandardSkillTransform({
+      sectionName: "Temporal Workflow & Event-Driven Agent Standards",
+      ruSectionName: "Стандарты и регламенты: Temporal Workflow & Event-Driven Agent",
+      instructions: [
+        "Apply core domain tenets for Temporal Workflow & Event-Driven Agent.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Temporal Workflow & Event-Driven Agent.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","temporal","workflow"],
+    }),
+  },
+
+  "agentic-agentic-summarization-key-takeaways-extractor": {
+    id: "agentic-agentic-summarization-key-takeaways-extractor",
+    name: "AgenticSummarizationKeyTakeawaysExtractorSkill",
+    displayName: "Agentic Summarization & Key Takeaways Extractor",
+    categoryId: "agentic",
+    description: "Distills multi-gigabyte document corpora into executive summaries.",
+    tags: ["agentic","agentic","agentic","summarization"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agentic Summarization & Key Takeaways Extractor Standards",
+      ruSectionName: "Стандарты и регламенты: Agentic Summarization & Key Takeaways Extractor",
+      instructions: [
+        "Apply core domain tenets for Agentic Summarization & Key Takeaways Extractor.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agentic Summarization & Key Takeaways Extractor.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agentic","summarization"],
+    }),
+  },
+
+  "agentic-autonomous-bug-triaging-ticket-assignment": {
+    id: "agentic-autonomous-bug-triaging-ticket-assignment",
+    name: "AutonomousBugTriagingTicketAssignmentSkill",
+    displayName: "Autonomous Bug Triaging & Ticket Assignment",
+    categoryId: "agentic",
+    description: "Inspects stack traces, reproduces bugs, and assigns Jira tickets.",
+    tags: ["agentic","agentic","autonomous","bug"],
+    transform: createStandardSkillTransform({
+      sectionName: "Autonomous Bug Triaging & Ticket Assignment Standards",
+      ruSectionName: "Стандарты и регламенты: Autonomous Bug Triaging & Ticket Assignment",
+      instructions: [
+        "Apply core domain tenets for Autonomous Bug Triaging & Ticket Assignment.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Autonomous Bug Triaging & Ticket Assignment.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","autonomous","bug"],
+    }),
+  },
+
+  "agentic-agentic-financial-portfolio-rebalancing": {
+    id: "agentic-agentic-financial-portfolio-rebalancing",
+    name: "AgenticFinancialPortfolioRebalancingSkill",
+    displayName: "Agentic Financial Portfolio Rebalancing",
+    categoryId: "agentic",
+    description: "Analyzes market data, calculates target allocations, and executes trades.",
+    tags: ["agentic","agentic","agentic","financial"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agentic Financial Portfolio Rebalancing Standards",
+      ruSectionName: "Стандарты и регламенты: Agentic Financial Portfolio Rebalancing",
+      instructions: [
+        "Apply core domain tenets for Agentic Financial Portfolio Rebalancing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agentic Financial Portfolio Rebalancing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agentic","financial"],
+    }),
+  },
+
+  "agentic-multi-agent-brainstorming-swarm-ideation": {
+    id: "agentic-multi-agent-brainstorming-swarm-ideation",
+    name: "MultiAgentBrainstormingSwarmIdeationSkill",
+    displayName: "Multi-Agent Brainstorming & Swarm Ideation",
+    categoryId: "agentic",
+    description: "Deploys a swarm of diverse agents to generate creative solutions.",
+    tags: ["agentic","agentic","multi","agent"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Agent Brainstorming & Swarm Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Agent Brainstorming & Swarm Ideation",
+      instructions: [
+        "Apply core domain tenets for Multi-Agent Brainstorming & Swarm Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Agent Brainstorming & Swarm Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","multi","agent"],
+    }),
+  },
+
+  "agentic-agentic-email-drafting-inbox-management": {
+    id: "agentic-agentic-email-drafting-inbox-management",
+    name: "AgenticEmailDraftingInboxManagementSkill",
+    displayName: "Agentic Email Drafting & Inbox Management",
+    categoryId: "agentic",
+    description: "Triages incoming emails, drafts contextual replies, and manages labels.",
+    tags: ["agentic","agentic","agentic","email"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agentic Email Drafting & Inbox Management Standards",
+      ruSectionName: "Стандарты и регламенты: Agentic Email Drafting & Inbox Management",
+      instructions: [
+        "Apply core domain tenets for Agentic Email Drafting & Inbox Management.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agentic Email Drafting & Inbox Management.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agentic","email"],
+    }),
+  },
+
+  "agentic-autonomous-incident-response-remediation": {
+    id: "agentic-autonomous-incident-response-remediation",
+    name: "AutonomousIncidentResponseRemediationSkill",
+    displayName: "Autonomous Incident Response & Remediation",
+    categoryId: "agentic",
+    description: "Inspects server metrics, restarts failing pods, and alerts engineers.",
+    tags: ["agentic","agentic","autonomous","incident"],
+    transform: createStandardSkillTransform({
+      sectionName: "Autonomous Incident Response & Remediation Standards",
+      ruSectionName: "Стандарты и регламенты: Autonomous Incident Response & Remediation",
+      instructions: [
+        "Apply core domain tenets for Autonomous Incident Response & Remediation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Autonomous Incident Response & Remediation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","autonomous","incident"],
+    }),
+  },
+
+  "agentic-agentic-customer-support-ticket-resolver": {
+    id: "agentic-agentic-customer-support-ticket-resolver",
+    name: "AgenticCustomerSupportTicketResolverSkill",
+    displayName: "Agentic Customer Support Ticket Resolver",
+    categoryId: "agentic",
+    description: "Resolves customer issues autonomously using knowledge base search and tools.",
+    tags: ["agentic","agentic","agentic","customer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agentic Customer Support Ticket Resolver Standards",
+      ruSectionName: "Стандарты и регламенты: Agentic Customer Support Ticket Resolver",
+      instructions: [
+        "Apply core domain tenets for Agentic Customer Support Ticket Resolver.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agentic Customer Support Ticket Resolver.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agentic","customer"],
+    }),
+  },
+
+  "agentic-multi-agent-negotiation-contract-bargaining": {
+    id: "agentic-multi-agent-negotiation-contract-bargaining",
+    name: "MultiAgentNegotiationContractBargainingSkill",
+    displayName: "Multi-Agent Negotiation & Contract Bargaining",
+    categoryId: "agentic",
+    description: "Simulates buyer-seller negotiations to discover optimal deal terms.",
+    tags: ["agentic","agentic","multi","agent"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Agent Negotiation & Contract Bargaining Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Agent Negotiation & Contract Bargaining",
+      instructions: [
+        "Apply core domain tenets for Multi-Agent Negotiation & Contract Bargaining.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Agent Negotiation & Contract Bargaining.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","multi","agent"],
+    }),
+  },
+
+  "agentic-agentic-social-media-scheduling-engagement": {
+    id: "agentic-agentic-social-media-scheduling-engagement",
+    name: "AgenticSocialMediaSchedulingEngagementSkill",
+    displayName: "Agentic Social Media Scheduling & Engagement",
+    categoryId: "agentic",
+    description: "Monitors social feeds, crafts posts, and responds to community comments.",
+    tags: ["agentic","agentic","agentic","social"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agentic Social Media Scheduling & Engagement Standards",
+      ruSectionName: "Стандарты и регламенты: Agentic Social Media Scheduling & Engagement",
+      instructions: [
+        "Apply core domain tenets for Agentic Social Media Scheduling & Engagement.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agentic Social Media Scheduling & Engagement.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agentic","social"],
+    }),
+  },
+
+  "agentic-autonomous-research-assistant-report-generator": {
+    id: "agentic-autonomous-research-assistant-report-generator",
+    name: "AutonomousResearchAssistantReportGeneratorSkill",
+    displayName: "Autonomous Research Assistant & Report Generator",
+    categoryId: "agentic",
+    description: "Conducts deep web research, verifies facts, and compiles comprehensive reports.",
+    tags: ["agentic","agentic","autonomous","research"],
+    transform: createStandardSkillTransform({
+      sectionName: "Autonomous Research Assistant & Report Generator Standards",
+      ruSectionName: "Стандарты и регламенты: Autonomous Research Assistant & Report Generator",
+      instructions: [
+        "Apply core domain tenets for Autonomous Research Assistant & Report Generator.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Autonomous Research Assistant & Report Generator.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","autonomous","research"],
+    }),
+  },
+
+  "agentic-agentic-competitive-intelligence-tracker": {
+    id: "agentic-agentic-competitive-intelligence-tracker",
+    name: "AgenticCompetitiveIntelligenceTrackerSkill",
+    displayName: "Agentic Competitive Intelligence Tracker",
+    categoryId: "agentic",
+    description: "Monitors competitor product updates, pricing changes, and press releases.",
+    tags: ["agentic","agentic","agentic","competitive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agentic Competitive Intelligence Tracker Standards",
+      ruSectionName: "Стандарты и регламенты: Agentic Competitive Intelligence Tracker",
+      instructions: [
+        "Apply core domain tenets for Agentic Competitive Intelligence Tracker.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agentic Competitive Intelligence Tracker.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agentic","competitive"],
+    }),
+  },
+
+  "agentic-multi-agent-game-playing-strategy-search": {
+    id: "agentic-multi-agent-game-playing-strategy-search",
+    name: "MultiAgentGamePlayingStrategySearchSkill",
+    displayName: "Multi-Agent Game Playing & Strategy Search",
+    categoryId: "agentic",
+    description: "Plays strategic games using MCTS (Monte Carlo Tree Search) and LLM heuristics.",
+    tags: ["agentic","agentic","multi","agent"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Agent Game Playing & Strategy Search Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Agent Game Playing & Strategy Search",
+      instructions: [
+        "Apply core domain tenets for Multi-Agent Game Playing & Strategy Search.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Agent Game Playing & Strategy Search.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","multi","agent"],
+    }),
+  },
+
+  "agentic-agentic-supply-chain-tracking-reorder-bot": {
+    id: "agentic-agentic-supply-chain-tracking-reorder-bot",
+    name: "AgenticSupplyChainTrackingReorderBotSkill",
+    displayName: "Agentic Supply Chain Tracking & Reorder Bot",
+    categoryId: "agentic",
+    description: "Monitors inventory levels and generates supplier purchase orders.",
+    tags: ["agentic","agentic","agentic","supply"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agentic Supply Chain Tracking & Reorder Bot Standards",
+      ruSectionName: "Стандарты и регламенты: Agentic Supply Chain Tracking & Reorder Bot",
+      instructions: [
+        "Apply core domain tenets for Agentic Supply Chain Tracking & Reorder Bot.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agentic Supply Chain Tracking & Reorder Bot.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","agentic","supply"],
+    }),
+  },
+
+  "agentic-comprehensive-agentic-orchestration-master-framework": {
+    id: "agentic-comprehensive-agentic-orchestration-master-framework",
+    name: "ComprehensiveAgenticOrchestrationMasterFrameworkSkill",
+    displayName: "Comprehensive Agentic Orchestration Master Framework",
+    categoryId: "agentic",
+    description: "Deploys production-grade, fault-tolerant multi-agent autonomous systems.",
+    tags: ["agentic","agentic","comprehensive","agentic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comprehensive Agentic Orchestration Master Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Comprehensive Agentic Orchestration Master Framework",
+      instructions: [
+        "Apply core domain tenets for Comprehensive Agentic Orchestration Master Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comprehensive Agentic Orchestration Master Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic","comprehensive","agentic"],
+    }),
+  },
+  "agentic-final-hierarchical-agentic-delegation-supervisor-worker-topology": {
+    id: "agentic-final-hierarchical-agentic-delegation-supervisor-worker-topology",
+    name: "HierarchicalAgenticDelegationSupervisorWorkerTopologySkill",
+    displayName: "Hierarchical Agentic Delegation Supervisor Worker Topology",
+    categoryId: "agentic",
+    description: "Coordinates complex tasks via a supervisor agent that routes sub-tasks to specialized workers.",
+    tags: ["agentic","agentic-final","final","hierarchical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hierarchical Agentic Delegation Supervisor Worker Topology Standards",
+      ruSectionName: "Стандарты и регламенты: Hierarchical Agentic Delegation Supervisor Worker Topology",
+      instructions: [
+        "Apply core domain tenets for Hierarchical Agentic Delegation Supervisor Worker Topology.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hierarchical Agentic Delegation Supervisor Worker Topology.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic-final","final","hierarchical"],
+    }),
+  },
+
+  "agentic-final-self-reflective-agent-plan-modification-re-execution": {
+    id: "agentic-final-self-reflective-agent-plan-modification-re-execution",
+    name: "SelfReflectiveAgentPlanModificationReExecutionSkill",
+    displayName: "Self-Reflective Agent Plan Modification Re-Execution",
+    categoryId: "agentic",
+    description: "Enables agents to critique their own intermediate outputs and dynamically revise plans.",
+    tags: ["agentic","agentic-final","final","self"],
+    transform: createStandardSkillTransform({
+      sectionName: "Self-Reflective Agent Plan Modification Re-Execution Standards",
+      ruSectionName: "Стандарты и регламенты: Self-Reflective Agent Plan Modification Re-Execution",
+      instructions: [
+        "Apply core domain tenets for Self-Reflective Agent Plan Modification Re-Execution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Self-Reflective Agent Plan Modification Re-Execution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic-final","final","self"],
+    }),
+  },
+
+  "agentic-final-master-autonomous-agentic-system-architecture": {
+    id: "agentic-final-master-autonomous-agentic-system-architecture",
+    name: "MasterAutonomousAgenticSystemArchitectureSkill",
+    displayName: "Master Autonomous Agentic System Architecture",
+    categoryId: "agentic",
+    description: "Enforces world-class autonomous agent design, multi-agent orchestration, and tool use.",
+    tags: ["agentic","agentic-final","final","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Autonomous Agentic System Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: Master Autonomous Agentic System Architecture",
+      instructions: [
+        "Apply core domain tenets for Master Autonomous Agentic System Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Autonomous Agentic System Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["agentic","agentic-final","final","master"],
+    }),
+  },
 };

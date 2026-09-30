@@ -1999,4 +1999,2252 @@ sectionName: 'Enforceable Liquidated Damages Calibration',
       tags: ["legal","civil","litigation","deposition"],
     }),
   },
+  "legal-international-commercial-arbitration-icc-rules": {
+    id: "legal-international-commercial-arbitration-icc-rules",
+    name: "InternationalCommercialArbitrationICCRulesSkill",
+    displayName: "International Commercial Arbitration ICC Rules",
+    categoryId: "legal",
+    description: "Drafts arbitration clauses under International Chamber of Commerce rules.",
+    tags: ["legal","legal","international","commercial"],
+    transform: createStandardSkillTransform({
+      sectionName: "International Commercial Arbitration ICC Rules Standards",
+      ruSectionName: "Стандарты и регламенты: International Commercial Arbitration ICC Rules",
+      instructions: [
+        "Apply core domain tenets for International Commercial Arbitration ICC Rules.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для International Commercial Arbitration ICC Rules.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","international","commercial"],
+    }),
+  },
+
+  "legal-construction-contract-aia-a201-general-conditions": {
+    id: "legal-construction-contract-aia-a201-general-conditions",
+    name: "ConstructionContractAIAA201GeneralConditionsSkill",
+    displayName: "Construction Contract AIA A201 General Conditions",
+    categoryId: "legal",
+    description: "Navigates owner, contractor, and architect responsibilities in construction.",
+    tags: ["legal","legal","construction","contract"],
+    transform: createStandardSkillTransform({
+      sectionName: "Construction Contract AIA A201 General Conditions Standards",
+      ruSectionName: "Стандарты и регламенты: Construction Contract AIA A201 General Conditions",
+      instructions: [
+        "Apply core domain tenets for Construction Contract AIA A201 General Conditions.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Construction Contract AIA A201 General Conditions.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","construction","contract"],
+    }),
+  },
+
+  "legal-fcpa-foreign-corrupt-practices-act-anti-bribery": {
+    id: "legal-fcpa-foreign-corrupt-practices-act-anti-bribery",
+    name: "FCPAForeignCorruptPracticesActAntiBriberySkill",
+    displayName: "FCPA Foreign Corrupt Practices Act Anti-Bribery",
+    categoryId: "legal",
+    description: "Establishes anti-corruption compliance controls for international business.",
+    tags: ["legal","legal","fcpa","foreign"],
+    transform: createStandardSkillTransform({
+      sectionName: "FCPA Foreign Corrupt Practices Act Anti-Bribery Standards",
+      ruSectionName: "Стандарты и регламенты: FCPA Foreign Corrupt Practices Act Anti-Bribery",
+      instructions: [
+        "Apply core domain tenets for FCPA Foreign Corrupt Practices Act Anti-Bribery.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для FCPA Foreign Corrupt Practices Act Anti-Bribery.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","fcpa","foreign"],
+    }),
+  },
+
+  "legal-environmental-protection-act-epa-site-assessment": {
+    id: "legal-environmental-protection-act-epa-site-assessment",
+    name: "EnvironmentalProtectionActEPASiteAssessmentSkill",
+    displayName: "Environmental Protection Act EPA Site Assessment",
+    categoryId: "legal",
+    description: "Conducts Phase I Environmental Site Assessments for commercial property.",
+    tags: ["legal","legal","environmental","protection"],
+    transform: createStandardSkillTransform({
+      sectionName: "Environmental Protection Act EPA Site Assessment Standards",
+      ruSectionName: "Стандарты и регламенты: Environmental Protection Act EPA Site Assessment",
+      instructions: [
+        "Apply core domain tenets for Environmental Protection Act EPA Site Assessment.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Environmental Protection Act EPA Site Assessment.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","environmental","protection"],
+    }),
+  },
+
+  "legal-bankruptcy-chapter-11-reorganization-plan": {
+    id: "legal-bankruptcy-chapter-11-reorganization-plan",
+    name: "BankruptcyChapter11ReorganizationPlanSkill",
+    displayName: "Bankruptcy Chapter 11 Reorganization Plan",
+    categoryId: "legal",
+    description: "Structures Chapter 11 debtor-in-possession financing and creditor plans.",
+    tags: ["legal","legal","bankruptcy","chapter"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bankruptcy Chapter 11 Reorganization Plan Standards",
+      ruSectionName: "Стандарты и регламенты: Bankruptcy Chapter 11 Reorganization Plan",
+      instructions: [
+        "Apply core domain tenets for Bankruptcy Chapter 11 Reorganization Plan.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Bankruptcy Chapter 11 Reorganization Plan.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","bankruptcy","chapter"],
+    }),
+  },
+
+  "legal-copyright-fair-use-digital-millennium-copyright-act": {
+    id: "legal-copyright-fair-use-digital-millennium-copyright-act",
+    name: "CopyrightFairUseDigitalMillenniumCopyrightActSkill",
+    displayName: "Copyright Fair Use Digital Millennium Copyright Act",
+    categoryId: "legal",
+    description: "Evaluates DMCA safe harbor eligibility and four-factor fair use defenses.",
+    tags: ["legal","legal","copyright","fair"],
+    transform: createStandardSkillTransform({
+      sectionName: "Copyright Fair Use Digital Millennium Copyright Act Standards",
+      ruSectionName: "Стандарты и регламенты: Copyright Fair Use Digital Millennium Copyright Act",
+      instructions: [
+        "Apply core domain tenets for Copyright Fair Use Digital Millennium Copyright Act.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Copyright Fair Use Digital Millennium Copyright Act.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","copyright","fair"],
+    }),
+  },
+
+  "legal-franchise-disclosure-document-fdd-item-20-audit": {
+    id: "legal-franchise-disclosure-document-fdd-item-20-audit",
+    name: "FranchiseDisclosureDocumentFDDItem20AuditSkill",
+    displayName: "Franchise Disclosure Document (FDD) Item 20 Audit",
+    categoryId: "legal",
+    description: "Audits FDD disclosures for franchisee turnover and litigation history.",
+    tags: ["legal","legal","franchise","disclosure"],
+    transform: createStandardSkillTransform({
+      sectionName: "Franchise Disclosure Document (FDD) Item 20 Audit Standards",
+      ruSectionName: "Стандарты и регламенты: Franchise Disclosure Document (FDD) Item 20 Audit",
+      instructions: [
+        "Apply core domain tenets for Franchise Disclosure Document (FDD) Item 20 Audit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Franchise Disclosure Document (FDD) Item 20 Audit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","franchise","disclosure"],
+    }),
+  },
+
+  "legal-employee-stock-option-plan-esop-409a-valuation": {
+    id: "legal-employee-stock-option-plan-esop-409a-valuation",
+    name: "EmployeeStockOptionPlanESOP409AValuationSkill",
+    displayName: "Employee Stock Option Plan (ESOP) 409A Valuation",
+    categoryId: "legal",
+    description: "Structures IRS-compliant 409A fair market value stock option grants.",
+    tags: ["legal","legal","employee","stock"],
+    transform: createStandardSkillTransform({
+      sectionName: "Employee Stock Option Plan (ESOP) 409A Valuation Standards",
+      ruSectionName: "Стандарты и регламенты: Employee Stock Option Plan (ESOP) 409A Valuation",
+      instructions: [
+        "Apply core domain tenets for Employee Stock Option Plan (ESOP) 409A Valuation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Employee Stock Option Plan (ESOP) 409A Valuation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","employee","stock"],
+    }),
+  },
+
+  "legal-government-contracting-far-dfars-compliance": {
+    id: "legal-government-contracting-far-dfars-compliance",
+    name: "GovernmentContractingFARDFARSComplianceSkill",
+    displayName: "Government Contracting FAR / DFARS Compliance",
+    categoryId: "legal",
+    description: "Navigates Federal Acquisition Regulation rules for defense contractors.",
+    tags: ["legal","legal","government","contracting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Government Contracting FAR / DFARS Compliance Standards",
+      ruSectionName: "Стандарты и регламенты: Government Contracting FAR / DFARS Compliance",
+      instructions: [
+        "Apply core domain tenets for Government Contracting FAR / DFARS Compliance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Government Contracting FAR / DFARS Compliance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","government","contracting"],
+    }),
+  },
+
+  "legal-consumer-financial-protection-cfpb-truth-in-lending": {
+    id: "legal-consumer-financial-protection-cfpb-truth-in-lending",
+    name: "ConsumerFinancialProtectionCFPBTruthinLendingSkill",
+    displayName: "Consumer Financial Protection CFPB Truth in Lending",
+    categoryId: "legal",
+    description: "Ensures APR financial disclosures comply with TILA and Regulation Z.",
+    tags: ["legal","legal","consumer","financial"],
+    transform: createStandardSkillTransform({
+      sectionName: "Consumer Financial Protection CFPB Truth in Lending Standards",
+      ruSectionName: "Стандарты и регламенты: Consumer Financial Protection CFPB Truth in Lending",
+      instructions: [
+        "Apply core domain tenets for Consumer Financial Protection CFPB Truth in Lending.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Consumer Financial Protection CFPB Truth in Lending.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","consumer","financial"],
+    }),
+  },
+
+  "legal-maritime-law-jones-act-admiralty-jurisdiction": {
+    id: "legal-maritime-law-jones-act-admiralty-jurisdiction",
+    name: "MaritimeLawJonesActAdmiraltyJurisdictionSkill",
+    displayName: "Maritime Law Jones Act & Admiralty Jurisdiction",
+    categoryId: "legal",
+    description: "Evaluates seaman injury claims and vessel charterparty agreements.",
+    tags: ["legal","legal","maritime","law"],
+    transform: createStandardSkillTransform({
+      sectionName: "Maritime Law Jones Act & Admiralty Jurisdiction Standards",
+      ruSectionName: "Стандарты и регламенты: Maritime Law Jones Act & Admiralty Jurisdiction",
+      instructions: [
+        "Apply core domain tenets for Maritime Law Jones Act & Admiralty Jurisdiction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Maritime Law Jones Act & Admiralty Jurisdiction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","maritime","law"],
+    }),
+  },
+
+  "legal-entertainment-law-talent-option-rights-purchase": {
+    id: "legal-entertainment-law-talent-option-rights-purchase",
+    name: "EntertainmentLawTalentOptionRightsPurchaseSkill",
+    displayName: "Entertainment Law Talent Option & Rights Purchase",
+    categoryId: "legal",
+    description: "Drafts film rights purchase options and talent performance contracts.",
+    tags: ["legal","legal","entertainment","law"],
+    transform: createStandardSkillTransform({
+      sectionName: "Entertainment Law Talent Option & Rights Purchase Standards",
+      ruSectionName: "Стандарты и регламенты: Entertainment Law Talent Option & Rights Purchase",
+      instructions: [
+        "Apply core domain tenets for Entertainment Law Talent Option & Rights Purchase.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Entertainment Law Talent Option & Rights Purchase.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","entertainment","law"],
+    }),
+  },
+
+  "legal-sports-law-athlete-endorsement-name-image-likeness": {
+    id: "legal-sports-law-athlete-endorsement-name-image-likeness",
+    name: "SportsLawAthleteEndorsementNameImageLikenessSkill",
+    displayName: "Sports Law Athlete Endorsement & Name Image Likeness",
+    categoryId: "legal",
+    description: "Drafts college athlete NIL marketing and brand sponsorship contracts.",
+    tags: ["legal","legal","sports","law"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sports Law Athlete Endorsement & Name Image Likeness Standards",
+      ruSectionName: "Стандарты и регламенты: Sports Law Athlete Endorsement & Name Image Likeness",
+      instructions: [
+        "Apply core domain tenets for Sports Law Athlete Endorsement & Name Image Likeness.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sports Law Athlete Endorsement & Name Image Likeness.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","sports","law"],
+    }),
+  },
+
+  "legal-tax-law-section-368-reorganization-corporate-tax": {
+    id: "legal-tax-law-section-368-reorganization-corporate-tax",
+    name: "TaxLawSection368ReorganizationCorporateTaxSkill",
+    displayName: "Tax Law Section 368 Reorganization Corporate Tax",
+    categoryId: "legal",
+    description: "Structures tax-free corporate mergers and stock-for-stock exchanges.",
+    tags: ["legal","legal","tax","law"],
+    transform: createStandardSkillTransform({
+      sectionName: "Tax Law Section 368 Reorganization Corporate Tax Standards",
+      ruSectionName: "Стандарты и регламенты: Tax Law Section 368 Reorganization Corporate Tax",
+      instructions: [
+        "Apply core domain tenets for Tax Law Section 368 Reorganization Corporate Tax.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Tax Law Section 368 Reorganization Corporate Tax.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","tax","law"],
+    }),
+  },
+
+  "legal-immigration-law-h-1b-o-1-extraordinary-ability": {
+    id: "legal-immigration-law-h-1b-o-1-extraordinary-ability",
+    name: "ImmigrationLawH1BO1ExtraordinaryAbilitySkill",
+    displayName: "Immigration Law H-1B / O-1 Extraordinary Ability",
+    categoryId: "legal",
+    description: "Drafts petitions proving specialized knowledge or extraordinary ability.",
+    tags: ["legal","legal","immigration","law"],
+    transform: createStandardSkillTransform({
+      sectionName: "Immigration Law H-1B / O-1 Extraordinary Ability Standards",
+      ruSectionName: "Стандарты и регламенты: Immigration Law H-1B / O-1 Extraordinary Ability",
+      instructions: [
+        "Apply core domain tenets for Immigration Law H-1B / O-1 Extraordinary Ability.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Immigration Law H-1B / O-1 Extraordinary Ability.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","immigration","law"],
+    }),
+  },
+
+  "legal-sovereignty-native-american-tribal-law-jurisdiction": {
+    id: "legal-sovereignty-native-american-tribal-law-jurisdiction",
+    name: "SovereigntyNativeAmericanTribalLawJurisdictionSkill",
+    displayName: "Sovereignty & Native American Tribal Law Jurisdiction",
+    categoryId: "legal",
+    description: "Navigates tribal court jurisdiction and sovereign immunity doctrines.",
+    tags: ["legal","legal","sovereignty","native"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sovereignty & Native American Tribal Law Jurisdiction Standards",
+      ruSectionName: "Стандарты и регламенты: Sovereignty & Native American Tribal Law Jurisdiction",
+      instructions: [
+        "Apply core domain tenets for Sovereignty & Native American Tribal Law Jurisdiction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sovereignty & Native American Tribal Law Jurisdiction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","sovereignty","native"],
+    }),
+  },
+
+  "legal-aviation-law-faa-aircraft-lease-registration": {
+    id: "legal-aviation-law-faa-aircraft-lease-registration",
+    name: "AviationLawFAAAircraftLeaseRegistrationSkill",
+    displayName: "Aviation Law FAA Aircraft Lease & Registration",
+    categoryId: "legal",
+    description: "Drafts dry/wet aircraft leases compliant with FAA FAR Part 91/135.",
+    tags: ["legal","legal","aviation","law"],
+    transform: createStandardSkillTransform({
+      sectionName: "Aviation Law FAA Aircraft Lease & Registration Standards",
+      ruSectionName: "Стандарты и регламенты: Aviation Law FAA Aircraft Lease & Registration",
+      instructions: [
+        "Apply core domain tenets for Aviation Law FAA Aircraft Lease & Registration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Aviation Law FAA Aircraft Lease & Registration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","aviation","law"],
+    }),
+  },
+
+  "legal-telecommunications-fcc-spectrum-licensing-auction": {
+    id: "legal-telecommunications-fcc-spectrum-licensing-auction",
+    name: "TelecommunicationsFCCSpectrumLicensingAuctionSkill",
+    displayName: "Telecommunications FCC Spectrum Licensing & Auction",
+    categoryId: "legal",
+    description: "Navigates FCC wireless spectrum auction bidding and compliance.",
+    tags: ["legal","legal","telecommunications","fcc"],
+    transform: createStandardSkillTransform({
+      sectionName: "Telecommunications FCC Spectrum Licensing & Auction Standards",
+      ruSectionName: "Стандарты и регламенты: Telecommunications FCC Spectrum Licensing & Auction",
+      instructions: [
+        "Apply core domain tenets for Telecommunications FCC Spectrum Licensing & Auction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Telecommunications FCC Spectrum Licensing & Auction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","telecommunications","fcc"],
+    }),
+  },
+
+  "legal-insurance-law-bad-faith-denial-litigation": {
+    id: "legal-insurance-law-bad-faith-denial-litigation",
+    name: "InsuranceLawBadFaithDenialLitigationSkill",
+    displayName: "Insurance Law Bad Faith Denial Litigation",
+    categoryId: "legal",
+    description: "Drafts insurance coverage demand letters citing first-party bad faith.",
+    tags: ["legal","legal","insurance","law"],
+    transform: createStandardSkillTransform({
+      sectionName: "Insurance Law Bad Faith Denial Litigation Standards",
+      ruSectionName: "Стандарты и регламенты: Insurance Law Bad Faith Denial Litigation",
+      instructions: [
+        "Apply core domain tenets for Insurance Law Bad Faith Denial Litigation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Insurance Law Bad Faith Denial Litigation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","insurance","law"],
+    }),
+  },
+
+  "legal-bioethics-human-gene-editing-irb-legal-review": {
+    id: "legal-bioethics-human-gene-editing-irb-legal-review",
+    name: "BioethicsHumanGeneEditingIRBLegalReviewSkill",
+    displayName: "Bioethics & Human Gene Editing IRB Legal Review",
+    categoryId: "legal",
+    description: "Audits clinical trial consent forms for experimental genetic therapies.",
+    tags: ["legal","legal","bioethics","human"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bioethics & Human Gene Editing IRB Legal Review Standards",
+      ruSectionName: "Стандарты и регламенты: Bioethics & Human Gene Editing IRB Legal Review",
+      instructions: [
+        "Apply core domain tenets for Bioethics & Human Gene Editing IRB Legal Review.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Bioethics & Human Gene Editing IRB Legal Review.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","bioethics","human"],
+    }),
+  },
+
+  "legal-cryptocurrency-sec-howey-test-securities-status": {
+    id: "legal-cryptocurrency-sec-howey-test-securities-status",
+    name: "CryptocurrencySECHoweyTestSecuritiesStatusSkill",
+    displayName: "Cryptocurrency SEC Howey Test Securities Status",
+    categoryId: "legal",
+    description: "Analyzes digital token utility against the Howey Test securities threshold.",
+    tags: ["legal","legal","cryptocurrency","sec"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cryptocurrency SEC Howey Test Securities Status Standards",
+      ruSectionName: "Стандарты и регламенты: Cryptocurrency SEC Howey Test Securities Status",
+      instructions: [
+        "Apply core domain tenets for Cryptocurrency SEC Howey Test Securities Status.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cryptocurrency SEC Howey Test Securities Status.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","cryptocurrency","sec"],
+    }),
+  },
+
+  "legal-space-law-outer-space-treaty-satellite-debris": {
+    id: "legal-space-law-outer-space-treaty-satellite-debris",
+    name: "SpaceLawOuterSpaceTreatySatelliteDebrisSkill",
+    displayName: "Space Law Outer Space Treaty & Satellite Debris",
+    categoryId: "legal",
+    description: "Navigates satellite orbital slot licensing and liability for space debris.",
+    tags: ["legal","legal","space","law"],
+    transform: createStandardSkillTransform({
+      sectionName: "Space Law Outer Space Treaty & Satellite Debris Standards",
+      ruSectionName: "Стандарты и регламенты: Space Law Outer Space Treaty & Satellite Debris",
+      instructions: [
+        "Apply core domain tenets for Space Law Outer Space Treaty & Satellite Debris.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Space Law Outer Space Treaty & Satellite Debris.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","space","law"],
+    }),
+  },
+
+  "legal-cannabis-hemp-state-level-regulatory-licensing": {
+    id: "legal-cannabis-hemp-state-level-regulatory-licensing",
+    name: "CannabisHempStateLevelRegulatoryLicensingSkill",
+    displayName: "Cannabis & Hemp State-Level Regulatory Licensing",
+    categoryId: "legal",
+    description: "Navigates state commercial cannabis licensing and Banking 280E tax.",
+    tags: ["legal","legal","cannabis","hemp"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cannabis & Hemp State-Level Regulatory Licensing Standards",
+      ruSectionName: "Стандарты и регламенты: Cannabis & Hemp State-Level Regulatory Licensing",
+      instructions: [
+        "Apply core domain tenets for Cannabis & Hemp State-Level Regulatory Licensing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cannabis & Hemp State-Level Regulatory Licensing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","cannabis","hemp"],
+    }),
+  },
+
+  "legal-ai-ethics-algorithmic-liability-risk-audit": {
+    id: "legal-ai-ethics-algorithmic-liability-risk-audit",
+    name: "AIEthicsAlgorithmicLiabilityRiskAuditSkill",
+    displayName: "AI Ethics & Algorithmic Liability Risk Audit",
+    categoryId: "legal",
+    description: "Audits AI automated decision systems for bias, transparency, and liability.",
+    tags: ["legal","legal","ai","ethics"],
+    transform: createStandardSkillTransform({
+      sectionName: "AI Ethics & Algorithmic Liability Risk Audit Standards",
+      ruSectionName: "Стандарты и регламенты: AI Ethics & Algorithmic Liability Risk Audit",
+      instructions: [
+        "Apply core domain tenets for AI Ethics & Algorithmic Liability Risk Audit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AI Ethics & Algorithmic Liability Risk Audit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","ai","ethics"],
+    }),
+  },
+
+  "legal-cross-border-tax-double-taxation-treaty-optimization": {
+    id: "legal-cross-border-tax-double-taxation-treaty-optimization",
+    name: "CrossBorderTaxDoubleTaxationTreatyOptimizationSkill",
+    displayName: "Cross-Border Tax Double Taxation Treaty Optimization",
+    categoryId: "legal",
+    description: "Applies bilateral tax treaties to prevent double taxation on foreign income.",
+    tags: ["legal","legal","cross","border"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Border Tax Double Taxation Treaty Optimization Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Border Tax Double Taxation Treaty Optimization",
+      instructions: [
+        "Apply core domain tenets for Cross-Border Tax Double Taxation Treaty Optimization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Border Tax Double Taxation Treaty Optimization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","cross","border"],
+    }),
+  },
+
+  "legal-trade-secret-uniform-trade-secrets-act-utsa-protection": {
+    id: "legal-trade-secret-uniform-trade-secrets-act-utsa-protection",
+    name: "TradeSecretUniformTradeSecretsActUTSAProtectionSkill",
+    displayName: "Trade Secret Uniform Trade Secrets Act (UTSA) Protection",
+    categoryId: "legal",
+    description: "Establishes reasonable security measures to preserve trade secret status.",
+    tags: ["legal","legal","trade","secret"],
+    transform: createStandardSkillTransform({
+      sectionName: "Trade Secret Uniform Trade Secrets Act (UTSA) Protection Standards",
+      ruSectionName: "Стандарты и регламенты: Trade Secret Uniform Trade Secrets Act (UTSA) Protection",
+      instructions: [
+        "Apply core domain tenets for Trade Secret Uniform Trade Secrets Act (UTSA) Protection.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Trade Secret Uniform Trade Secrets Act (UTSA) Protection.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","trade","secret"],
+    }),
+  },
+
+  "legal-commercial-debt-collection-fdcpa-seizure-enforcement": {
+    id: "legal-commercial-debt-collection-fdcpa-seizure-enforcement",
+    name: "CommercialDebtCollectionFDCPASeizureEnforcementSkill",
+    displayName: "Commercial Debt Collection FDCPA & Seizure Enforcement",
+    categoryId: "legal",
+    description: "Enforces post-judgment asset discovery, garnishment, and property liens.",
+    tags: ["legal","legal","commercial","debt"],
+    transform: createStandardSkillTransform({
+      sectionName: "Commercial Debt Collection FDCPA & Seizure Enforcement Standards",
+      ruSectionName: "Стандарты и регламенты: Commercial Debt Collection FDCPA & Seizure Enforcement",
+      instructions: [
+        "Apply core domain tenets for Commercial Debt Collection FDCPA & Seizure Enforcement.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Commercial Debt Collection FDCPA & Seizure Enforcement.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","commercial","debt"],
+    }),
+  },
+
+  "legal-labor-law-national-labor-relations-board-nlrb-union": {
+    id: "legal-labor-law-national-labor-relations-board-nlrb-union",
+    name: "LaborLawNationalLaborRelationsBoardNLRBUnionSkill",
+    displayName: "Labor Law National Labor Relations Board (NLRB) Union",
+    categoryId: "legal",
+    description: "Navigates collective bargaining agreements and unfair labor practice charges.",
+    tags: ["legal","legal","labor","law"],
+    transform: createStandardSkillTransform({
+      sectionName: "Labor Law National Labor Relations Board (NLRB) Union Standards",
+      ruSectionName: "Стандарты и регламенты: Labor Law National Labor Relations Board (NLRB) Union",
+      instructions: [
+        "Apply core domain tenets for Labor Law National Labor Relations Board (NLRB) Union.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Labor Law National Labor Relations Board (NLRB) Union.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","labor","law"],
+    }),
+  },
+
+  "legal-joint-venture-shared-equity-governance-deed": {
+    id: "legal-joint-venture-shared-equity-governance-deed",
+    name: "JointVentureSharedEquityGovernanceDeedSkill",
+    displayName: "Joint Venture Shared Equity Governance Deed",
+    categoryId: "legal",
+    description: "Drafts 50/50 joint venture operating deeds with deadlock resolution rules.",
+    tags: ["legal","legal","joint","venture"],
+    transform: createStandardSkillTransform({
+      sectionName: "Joint Venture Shared Equity Governance Deed Standards",
+      ruSectionName: "Стандарты и регламенты: Joint Venture Shared Equity Governance Deed",
+      instructions: [
+        "Apply core domain tenets for Joint Venture Shared Equity Governance Deed.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Joint Venture Shared Equity Governance Deed.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","joint","venture"],
+    }),
+  },
+
+  "legal-commercial-equipment-lease-ucc-article-2a": {
+    id: "legal-commercial-equipment-lease-ucc-article-2a",
+    name: "CommercialEquipmentLeaseUCCArticle2ASkill",
+    displayName: "Commercial Equipment Lease UCC Article 2A",
+    categoryId: "legal",
+    description: "Structures equipment leases under Uniform Commercial Code Article 2A.",
+    tags: ["legal","legal","commercial","equipment"],
+    transform: createStandardSkillTransform({
+      sectionName: "Commercial Equipment Lease UCC Article 2A Standards",
+      ruSectionName: "Стандарты и регламенты: Commercial Equipment Lease UCC Article 2A",
+      instructions: [
+        "Apply core domain tenets for Commercial Equipment Lease UCC Article 2A.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Commercial Equipment Lease UCC Article 2A.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","commercial","equipment"],
+    }),
+  },
+
+  "legal-privacy-law-eu-eprivacy-directive-cookie-consent": {
+    id: "legal-privacy-law-eu-eprivacy-directive-cookie-consent",
+    name: "PrivacyLawEUePrivacyDirectiveCookieConsentSkill",
+    displayName: "Privacy Law EU ePrivacy Directive Cookie Consent",
+    categoryId: "legal",
+    description: "Enforces cookie consent banners compliant with ePrivacy Directive.",
+    tags: ["legal","legal","privacy","law"],
+    transform: createStandardSkillTransform({
+      sectionName: "Privacy Law EU ePrivacy Directive Cookie Consent Standards",
+      ruSectionName: "Стандарты и регламенты: Privacy Law EU ePrivacy Directive Cookie Consent",
+      instructions: [
+        "Apply core domain tenets for Privacy Law EU ePrivacy Directive Cookie Consent.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Privacy Law EU ePrivacy Directive Cookie Consent.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","privacy","law"],
+    }),
+  },
+
+  "legal-securities-fraud-rule-10b-5-material-misrepresentation": {
+    id: "legal-securities-fraud-rule-10b-5-material-misrepresentation",
+    name: "SecuritiesFraudRule10b5MaterialMisrepresentationSkill",
+    displayName: "Securities Fraud Rule 10b-5 Material Misrepresentation",
+    categoryId: "legal",
+    description: "Analyzes 10b-5 civil liability for false statements affecting stock prices.",
+    tags: ["legal","legal","securities","fraud"],
+    transform: createStandardSkillTransform({
+      sectionName: "Securities Fraud Rule 10b-5 Material Misrepresentation Standards",
+      ruSectionName: "Стандарты и регламенты: Securities Fraud Rule 10b-5 Material Misrepresentation",
+      instructions: [
+        "Apply core domain tenets for Securities Fraud Rule 10b-5 Material Misrepresentation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Securities Fraud Rule 10b-5 Material Misrepresentation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","securities","fraud"],
+    }),
+  },
+
+  "legal-real-estate-zoning-board-variance-special-permit": {
+    id: "legal-real-estate-zoning-board-variance-special-permit",
+    name: "RealEstateZoningBoardVarianceSpecialPermitSkill",
+    displayName: "Real Estate Zoning Board Variance & Special Permit",
+    categoryId: "legal",
+    description: "Drafts variance applications proving unnecessary hardship to zoning boards.",
+    tags: ["legal","legal","real","estate"],
+    transform: createStandardSkillTransform({
+      sectionName: "Real Estate Zoning Board Variance & Special Permit Standards",
+      ruSectionName: "Стандарты и регламенты: Real Estate Zoning Board Variance & Special Permit",
+      instructions: [
+        "Apply core domain tenets for Real Estate Zoning Board Variance & Special Permit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Real Estate Zoning Board Variance & Special Permit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","real","estate"],
+    }),
+  },
+
+  "legal-healthcare-stark-law-anti-kickback-statute-aks": {
+    id: "legal-healthcare-stark-law-anti-kickback-statute-aks",
+    name: "HealthcareStarkLawAntiKickbackStatuteAKSSkill",
+    displayName: "Healthcare Stark Law & Anti-Kickback Statute (AKS)",
+    categoryId: "legal",
+    description: "Audits physician referral relationships to prevent illegal kickbacks.",
+    tags: ["legal","legal","healthcare","stark"],
+    transform: createStandardSkillTransform({
+      sectionName: "Healthcare Stark Law & Anti-Kickback Statute (AKS) Standards",
+      ruSectionName: "Стандарты и регламенты: Healthcare Stark Law & Anti-Kickback Statute (AKS)",
+      instructions: [
+        "Apply core domain tenets for Healthcare Stark Law & Anti-Kickback Statute (AKS).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Healthcare Stark Law & Anti-Kickback Statute (AKS).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","healthcare","stark"],
+    }),
+  },
+
+  "legal-constitutional-law-first-amendment-free-speech": {
+    id: "legal-constitutional-law-first-amendment-free-speech",
+    name: "ConstitutionalLawFirstAmendmentFreeSpeechSkill",
+    displayName: "Constitutional Law First Amendment Free Speech",
+    categoryId: "legal",
+    description: "Analyzes government speech restrictions under strict scrutiny standards.",
+    tags: ["legal","legal","constitutional","law"],
+    transform: createStandardSkillTransform({
+      sectionName: "Constitutional Law First Amendment Free Speech Standards",
+      ruSectionName: "Стандарты и регламенты: Constitutional Law First Amendment Free Speech",
+      instructions: [
+        "Apply core domain tenets for Constitutional Law First Amendment Free Speech.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Constitutional Law First Amendment Free Speech.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","constitutional","law"],
+    }),
+  },
+
+  "legal-probate-estate-planning-living-trust-pour-over-will": {
+    id: "legal-probate-estate-planning-living-trust-pour-over-will",
+    name: "ProbateEstatePlanningLivingTrustPourOverWillSkill",
+    displayName: "Probate & Estate Planning Living Trust & Pour-Over Will",
+    categoryId: "legal",
+    description: "Drafts revocable living trusts to avoid probate court costs.",
+    tags: ["legal","legal","probate","estate"],
+    transform: createStandardSkillTransform({
+      sectionName: "Probate & Estate Planning Living Trust & Pour-Over Will Standards",
+      ruSectionName: "Стандарты и регламенты: Probate & Estate Planning Living Trust & Pour-Over Will",
+      instructions: [
+        "Apply core domain tenets for Probate & Estate Planning Living Trust & Pour-Over Will.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Probate & Estate Planning Living Trust & Pour-Over Will.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","probate","estate"],
+    }),
+  },
+
+  "legal-product-liability-restatement-third-strict-torts": {
+    id: "legal-product-liability-restatement-third-strict-torts",
+    name: "ProductLiabilityRestatementThirdStrictTortsSkill",
+    displayName: "Product Liability Restatement Third Strict Torts",
+    categoryId: "legal",
+    description: "Evaluates manufacturing defect, design defect, and failure to warn claims.",
+    tags: ["legal","legal","product","liability"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product Liability Restatement Third Strict Torts Standards",
+      ruSectionName: "Стандарты и регламенты: Product Liability Restatement Third Strict Torts",
+      instructions: [
+        "Apply core domain tenets for Product Liability Restatement Third Strict Torts.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Product Liability Restatement Third Strict Torts.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","product","liability"],
+    }),
+  },
+
+  "legal-class-action-rule-23-certification-motion": {
+    id: "legal-class-action-rule-23-certification-motion",
+    name: "ClassActionRule23CertificationMotionSkill",
+    displayName: "Class Action Rule 23 Certification Motion",
+    categoryId: "legal",
+    description: "Drafts class certification motions proving numerosity, commonality, and typicality.",
+    tags: ["legal","legal","class","action"],
+    transform: createStandardSkillTransform({
+      sectionName: "Class Action Rule 23 Certification Motion Standards",
+      ruSectionName: "Стандарты и регламенты: Class Action Rule 23 Certification Motion",
+      instructions: [
+        "Apply core domain tenets for Class Action Rule 23 Certification Motion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Class Action Rule 23 Certification Motion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","class","action"],
+    }),
+  },
+
+  "legal-cyber-insurance-claim-proof-of-loss-documentation": {
+    id: "legal-cyber-insurance-claim-proof-of-loss-documentation",
+    name: "CyberInsuranceClaimProofofLossDocumentationSkill",
+    displayName: "Cyber Insurance Claim Proof of Loss Documentation",
+    categoryId: "legal",
+    description: "Documents ransomware extortion losses for cyber insurance reimbursement.",
+    tags: ["legal","legal","cyber","insurance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cyber Insurance Claim Proof of Loss Documentation Standards",
+      ruSectionName: "Стандарты и регламенты: Cyber Insurance Claim Proof of Loss Documentation",
+      instructions: [
+        "Apply core domain tenets for Cyber Insurance Claim Proof of Loss Documentation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cyber Insurance Claim Proof of Loss Documentation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","cyber","insurance"],
+    }),
+  },
+
+  "legal-defamation-libel-per-se-public-figure-malice": {
+    id: "legal-defamation-libel-per-se-public-figure-malice",
+    name: "DefamationLibelPerSePublicFigureMaliceSkill",
+    displayName: "Defamation Libel Per Se Public Figure Malice",
+    categoryId: "legal",
+    description: "Evaluates actual malice standards in defamation suits involving public figures.",
+    tags: ["legal","legal","defamation","libel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Defamation Libel Per Se Public Figure Malice Standards",
+      ruSectionName: "Стандарты и регламенты: Defamation Libel Per Se Public Figure Malice",
+      instructions: [
+        "Apply core domain tenets for Defamation Libel Per Se Public Figure Malice.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Defamation Libel Per Se Public Figure Malice.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","defamation","libel"],
+    }),
+  },
+
+  "legal-sovereignty-immunity-foreign-sovereign-immunities-act-fsia": {
+    id: "legal-sovereignty-immunity-foreign-sovereign-immunities-act-fsia",
+    name: "SovereigntyImmunityForeignSovereignImmunitiesActFSIASkill",
+    displayName: "Sovereignty Immunity Foreign Sovereign Immunities Act (FSIA)",
+    categoryId: "legal",
+    description: "Navigates lawsuits against foreign states under FSIA commercial activity exceptions.",
+    tags: ["legal","legal","sovereignty","immunity"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sovereignty Immunity Foreign Sovereign Immunities Act (FSIA) Standards",
+      ruSectionName: "Стандарты и регламенты: Sovereignty Immunity Foreign Sovereign Immunities Act (FSIA)",
+      instructions: [
+        "Apply core domain tenets for Sovereignty Immunity Foreign Sovereign Immunities Act (FSIA).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sovereignty Immunity Foreign Sovereign Immunities Act (FSIA).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","sovereignty","immunity"],
+    }),
+  },
+
+  "legal-international-sales-cisg-vienna-convention-application": {
+    id: "legal-international-sales-cisg-vienna-convention-application",
+    name: "InternationalSalesCISGViennaConventionApplicationSkill",
+    displayName: "International Sales CISG Vienna Convention Application",
+    categoryId: "legal",
+    description: "Applies the UN Convention on Contracts for International Sale of Goods.",
+    tags: ["legal","legal","international","sales"],
+    transform: createStandardSkillTransform({
+      sectionName: "International Sales CISG Vienna Convention Application Standards",
+      ruSectionName: "Стандарты и регламенты: International Sales CISG Vienna Convention Application",
+      instructions: [
+        "Apply core domain tenets for International Sales CISG Vienna Convention Application.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для International Sales CISG Vienna Convention Application.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","international","sales"],
+    }),
+  },
+
+  "legal-patent-inter-partes-review-ipr-invalidity-petition": {
+    id: "legal-patent-inter-partes-review-ipr-invalidity-petition",
+    name: "PatentInterPartesReviewIPRInvalidityPetitionSkill",
+    displayName: "Patent Inter Partes Review (IPR) Invalidity Petition",
+    categoryId: "legal",
+    description: "Drafts IPR petitions challenging patent validity before the USPTO PTAB.",
+    tags: ["legal","legal","patent","inter"],
+    transform: createStandardSkillTransform({
+      sectionName: "Patent Inter Partes Review (IPR) Invalidity Petition Standards",
+      ruSectionName: "Стандарты и регламенты: Patent Inter Partes Review (IPR) Invalidity Petition",
+      instructions: [
+        "Apply core domain tenets for Patent Inter Partes Review (IPR) Invalidity Petition.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Patent Inter Partes Review (IPR) Invalidity Petition.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","patent","inter"],
+    }),
+  },
+
+  "legal-corporate-director-fiduciary-duty-duty-of-loyalty": {
+    id: "legal-corporate-director-fiduciary-duty-duty-of-loyalty",
+    name: "CorporateDirectorFiduciaryDutyDutyofLoyaltySkill",
+    displayName: "Corporate Director Fiduciary Duty Duty of Loyalty",
+    categoryId: "legal",
+    description: "Evaluates board director business judgment rule defenses vs duty breaches.",
+    tags: ["legal","legal","corporate","director"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Director Fiduciary Duty Duty of Loyalty Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Director Fiduciary Duty Duty of Loyalty",
+      instructions: [
+        "Apply core domain tenets for Corporate Director Fiduciary Duty Duty of Loyalty.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Director Fiduciary Duty Duty of Loyalty.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","corporate","director"],
+    }),
+  },
+
+  "legal-eminent-domain-takings-clause-just-compensation": {
+    id: "legal-eminent-domain-takings-clause-just-compensation",
+    name: "EminentDomainTakingsClauseJustCompensationSkill",
+    displayName: "Eminent Domain Takings Clause Just Compensation",
+    categoryId: "legal",
+    description: "Navigates government land condemnation and fair market value compensation.",
+    tags: ["legal","legal","eminent","domain"],
+    transform: createStandardSkillTransform({
+      sectionName: "Eminent Domain Takings Clause Just Compensation Standards",
+      ruSectionName: "Стандарты и регламенты: Eminent Domain Takings Clause Just Compensation",
+      instructions: [
+        "Apply core domain tenets for Eminent Domain Takings Clause Just Compensation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Eminent Domain Takings Clause Just Compensation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","eminent","domain"],
+    }),
+  },
+
+  "legal-sovereign-wealth-fund-cross-border-investment-governance": {
+    id: "legal-sovereign-wealth-fund-cross-border-investment-governance",
+    name: "SovereignWealthFundCrossBorderInvestmentGovernanceSkill",
+    displayName: "Sovereign Wealth Fund Cross-Border Investment Governance",
+    categoryId: "legal",
+    description: "Structures foreign direct investment deals subject to CFIUS national security review.",
+    tags: ["legal","legal","sovereign","wealth"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sovereign Wealth Fund Cross-Border Investment Governance Standards",
+      ruSectionName: "Стандарты и регламенты: Sovereign Wealth Fund Cross-Border Investment Governance",
+      instructions: [
+        "Apply core domain tenets for Sovereign Wealth Fund Cross-Border Investment Governance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sovereign Wealth Fund Cross-Border Investment Governance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","sovereign","wealth"],
+    }),
+  },
+
+  "legal-saas-service-level-agreement-uptime-penalty": {
+    id: "legal-saas-service-level-agreement-uptime-penalty",
+    name: "SaaSServiceLevelAgreementUptimePenaltySkill",
+    displayName: "SaaS Service Level Agreement Uptime Penalty",
+    categoryId: "legal",
+    description: "Drafts 99.9% uptime SLAs with credit remedies for downtime.",
+    tags: ["legal","legal","saas","service"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Service Level Agreement Uptime Penalty Standards",
+      ruSectionName: "Стандарты и регламенты: SaaS Service Level Agreement Uptime Penalty",
+      instructions: [
+        "Apply core domain tenets for SaaS Service Level Agreement Uptime Penalty.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SaaS Service Level Agreement Uptime Penalty.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","saas","service"],
+    }),
+  },
+
+  "legal-labor-union-grievance-arbitration-hearing": {
+    id: "legal-labor-union-grievance-arbitration-hearing",
+    name: "LaborUnionGrievanceArbitrationHearingSkill",
+    displayName: "Labor Union Grievance Arbitration Hearing",
+    categoryId: "legal",
+    description: "Prepares management briefs for labor union contract grievance arbitrations.",
+    tags: ["legal","legal","labor","union"],
+    transform: createStandardSkillTransform({
+      sectionName: "Labor Union Grievance Arbitration Hearing Standards",
+      ruSectionName: "Стандарты и регламенты: Labor Union Grievance Arbitration Hearing",
+      instructions: [
+        "Apply core domain tenets for Labor Union Grievance Arbitration Hearing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Labor Union Grievance Arbitration Hearing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","labor","union"],
+    }),
+  },
+
+  "legal-media-defamation-pre-publication-legal-vetting": {
+    id: "legal-media-defamation-pre-publication-legal-vetting",
+    name: "MediaDefamationPrePublicationLegalVettingSkill",
+    displayName: "Media Defamation Pre-Publication Legal Vetting",
+    categoryId: "legal",
+    description: "Reviews investigative news stories prior to publication to mitigate libel risk.",
+    tags: ["legal","legal","media","defamation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Media Defamation Pre-Publication Legal Vetting Standards",
+      ruSectionName: "Стандарты и регламенты: Media Defamation Pre-Publication Legal Vetting",
+      instructions: [
+        "Apply core domain tenets for Media Defamation Pre-Publication Legal Vetting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Media Defamation Pre-Publication Legal Vetting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","media","defamation"],
+    }),
+  },
+
+  "legal-cross-border-insolvency-uncitral-model-law": {
+    id: "legal-cross-border-insolvency-uncitral-model-law",
+    name: "CrossBorderInsolvencyUNCITRALModelLawSkill",
+    displayName: "Cross-Border Insolvency UNCITRAL Model Law",
+    categoryId: "legal",
+    description: "Coordinates multi-jurisdictional corporate restructuring across borders.",
+    tags: ["legal","legal","cross","border"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Border Insolvency UNCITRAL Model Law Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Border Insolvency UNCITRAL Model Law",
+      instructions: [
+        "Apply core domain tenets for Cross-Border Insolvency UNCITRAL Model Law.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Border Insolvency UNCITRAL Model Law.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","cross","border"],
+    }),
+  },
+
+  "legal-biometric-information-privacy-act-bipa-compliance": {
+    id: "legal-biometric-information-privacy-act-bipa-compliance",
+    name: "BiometricInformationPrivacyActBIPAComplianceSkill",
+    displayName: "Biometric Information Privacy Act (BIPA) Compliance",
+    categoryId: "legal",
+    description: "Enforces written consent rules for collecting facial scans and fingerprints.",
+    tags: ["legal","legal","biometric","information"],
+    transform: createStandardSkillTransform({
+      sectionName: "Biometric Information Privacy Act (BIPA) Compliance Standards",
+      ruSectionName: "Стандарты и регламенты: Biometric Information Privacy Act (BIPA) Compliance",
+      instructions: [
+        "Apply core domain tenets for Biometric Information Privacy Act (BIPA) Compliance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Biometric Information Privacy Act (BIPA) Compliance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","biometric","information"],
+    }),
+  },
+
+  "legal-intellectual-property-licensing-royalty-audit": {
+    id: "legal-intellectual-property-licensing-royalty-audit",
+    name: "IntellectualPropertyLicensingRoyaltyAuditSkill",
+    displayName: "Intellectual Property Licensing Royalty Audit",
+    categoryId: "legal",
+    description: "Audits licensee sales books to uncover underreported IP royalty payments.",
+    tags: ["legal","legal","intellectual","property"],
+    transform: createStandardSkillTransform({
+      sectionName: "Intellectual Property Licensing Royalty Audit Standards",
+      ruSectionName: "Стандарты и регламенты: Intellectual Property Licensing Royalty Audit",
+      instructions: [
+        "Apply core domain tenets for Intellectual Property Licensing Royalty Audit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Intellectual Property Licensing Royalty Audit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","intellectual","property"],
+    }),
+  },
+
+  "legal-corporate-compliance-hotline-code-of-ethics": {
+    id: "legal-corporate-compliance-hotline-code-of-ethics",
+    name: "CorporateComplianceHotlineCodeofEthicsSkill",
+    displayName: "Corporate Compliance Hotline Code of Ethics",
+    categoryId: "legal",
+    description: "Establishes independent hotline reporting for accounting or safety fraud.",
+    tags: ["legal","legal","corporate","compliance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Compliance Hotline Code of Ethics Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Compliance Hotline Code of Ethics",
+      instructions: [
+        "Apply core domain tenets for Corporate Compliance Hotline Code of Ethics.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Compliance Hotline Code of Ethics.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","corporate","compliance"],
+    }),
+  },
+
+  "legal-franchise-agreement-master-territorial-development": {
+    id: "legal-franchise-agreement-master-territorial-development",
+    name: "FranchiseAgreementMasterTerritorialDevelopmentSkill",
+    displayName: "Franchise Agreement Master Territorial Development",
+    categoryId: "legal",
+    description: "Drafts master franchise agreements granting exclusive regional development rights.",
+    tags: ["legal","legal","franchise","agreement"],
+    transform: createStandardSkillTransform({
+      sectionName: "Franchise Agreement Master Territorial Development Standards",
+      ruSectionName: "Стандарты и регламенты: Franchise Agreement Master Territorial Development",
+      instructions: [
+        "Apply core domain tenets for Franchise Agreement Master Territorial Development.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Franchise Agreement Master Territorial Development.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","franchise","agreement"],
+    }),
+  },
+
+  "legal-construction-mechanics-lien-foreclosure": {
+    id: "legal-construction-mechanics-lien-foreclosure",
+    name: "ConstructionMechanicsLienForeclosureSkill",
+    displayName: "Construction Mechanics Lien Foreclosure",
+    categoryId: "legal",
+    description: "Files and forecloses mechanics liens on real property for unpaid contractor work.",
+    tags: ["legal","legal","construction","mechanics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Construction Mechanics Lien Foreclosure Standards",
+      ruSectionName: "Стандарты и регламенты: Construction Mechanics Lien Foreclosure",
+      instructions: [
+        "Apply core domain tenets for Construction Mechanics Lien Foreclosure.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Construction Mechanics Lien Foreclosure.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","construction","mechanics"],
+    }),
+  },
+
+  "legal-commercial-guarantee-personal-suretyship-deed": {
+    id: "legal-commercial-guarantee-personal-suretyship-deed",
+    name: "CommercialGuaranteePersonalSuretyshipDeedSkill",
+    displayName: "Commercial Guarantee & Personal Suretyship Deed",
+    categoryId: "legal",
+    description: "Drafts unconditional personal guarantees backing commercial corporate loans.",
+    tags: ["legal","legal","commercial","guarantee"],
+    transform: createStandardSkillTransform({
+      sectionName: "Commercial Guarantee & Personal Suretyship Deed Standards",
+      ruSectionName: "Стандарты и регламенты: Commercial Guarantee & Personal Suretyship Deed",
+      instructions: [
+        "Apply core domain tenets for Commercial Guarantee & Personal Suretyship Deed.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Commercial Guarantee & Personal Suretyship Deed.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","commercial","guarantee"],
+    }),
+  },
+
+  "legal-ada-title-iii-public-accommodation-accessibility": {
+    id: "legal-ada-title-iii-public-accommodation-accessibility",
+    name: "ADATitleIIIPublicAccommodationAccessibilitySkill",
+    displayName: "ADA Title III Public Accommodation Accessibility",
+    categoryId: "legal",
+    description: "Audits physical store and digital website compliance with ADA accessibility.",
+    tags: ["legal","legal","ada","title"],
+    transform: createStandardSkillTransform({
+      sectionName: "ADA Title III Public Accommodation Accessibility Standards",
+      ruSectionName: "Стандарты и регламенты: ADA Title III Public Accommodation Accessibility",
+      instructions: [
+        "Apply core domain tenets for ADA Title III Public Accommodation Accessibility.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ADA Title III Public Accommodation Accessibility.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","ada","title"],
+    }),
+  },
+
+  "legal-securities-insider-trading-rule-10b5-1-trading-plan": {
+    id: "legal-securities-insider-trading-rule-10b5-1-trading-plan",
+    name: "SecuritiesInsiderTradingRule10b51TradingPlanSkill",
+    displayName: "Securities Insider Trading Rule 10b5-1 Trading Plan",
+    categoryId: "legal",
+    description: "Structures pre-scheduled executive stock sale plans under Rule 10b5-1.",
+    tags: ["legal","legal","securities","insider"],
+    transform: createStandardSkillTransform({
+      sectionName: "Securities Insider Trading Rule 10b5-1 Trading Plan Standards",
+      ruSectionName: "Стандарты и регламенты: Securities Insider Trading Rule 10b5-1 Trading Plan",
+      instructions: [
+        "Apply core domain tenets for Securities Insider Trading Rule 10b5-1 Trading Plan.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Securities Insider Trading Rule 10b5-1 Trading Plan.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","securities","insider"],
+    }),
+  },
+
+  "legal-healthcare-hipaa-breach-notification-rule": {
+    id: "legal-healthcare-hipaa-breach-notification-rule",
+    name: "HealthcareHIPAABreachNotificationRuleSkill",
+    displayName: "Healthcare HIPAA Breach Notification Rule",
+    categoryId: "legal",
+    description: "Manages 60-day notification requirements following Protected Health Info leaks.",
+    tags: ["legal","legal","healthcare","hipaa"],
+    transform: createStandardSkillTransform({
+      sectionName: "Healthcare HIPAA Breach Notification Rule Standards",
+      ruSectionName: "Стандарты и регламенты: Healthcare HIPAA Breach Notification Rule",
+      instructions: [
+        "Apply core domain tenets for Healthcare HIPAA Breach Notification Rule.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Healthcare HIPAA Breach Notification Rule.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","healthcare","hipaa"],
+    }),
+  },
+
+  "legal-commercial-debt-restructuring-workout-agreement": {
+    id: "legal-commercial-debt-restructuring-workout-agreement",
+    name: "CommercialDebtRestructuringWorkoutAgreementSkill",
+    displayName: "Commercial Debt Restructuring Workout Agreement",
+    categoryId: "legal",
+    description: "Renegotiates distressed corporate debt terms outside formal bankruptcy.",
+    tags: ["legal","legal","commercial","debt"],
+    transform: createStandardSkillTransform({
+      sectionName: "Commercial Debt Restructuring Workout Agreement Standards",
+      ruSectionName: "Стандарты и регламенты: Commercial Debt Restructuring Workout Agreement",
+      instructions: [
+        "Apply core domain tenets for Commercial Debt Restructuring Workout Agreement.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Commercial Debt Restructuring Workout Agreement.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","commercial","debt"],
+    }),
+  },
+
+  "legal-corporate-merger-stock-for-stock-reorganization": {
+    id: "legal-corporate-merger-stock-for-stock-reorganization",
+    name: "CorporateMergerStockforStockReorganizationSkill",
+    displayName: "Corporate Merger Stock-for-Stock Reorganization",
+    categoryId: "legal",
+    description: "Drafts tax-free stock swap merger agreements.",
+    tags: ["legal","legal","corporate","merger"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Merger Stock-for-Stock Reorganization Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Merger Stock-for-Stock Reorganization",
+      instructions: [
+        "Apply core domain tenets for Corporate Merger Stock-for-Stock Reorganization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Merger Stock-for-Stock Reorganization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","corporate","merger"],
+    }),
+  },
+
+  "legal-environmental-superfund-cercla-contamination-liability": {
+    id: "legal-environmental-superfund-cercla-contamination-liability",
+    name: "EnvironmentalSuperfundCERCLAContaminationLiabilitySkill",
+    displayName: "Environmental Superfund CERCLA Contamination Liability",
+    categoryId: "legal",
+    description: "Navigates strictly joint and several liability for hazardous waste cleanup.",
+    tags: ["legal","legal","environmental","superfund"],
+    transform: createStandardSkillTransform({
+      sectionName: "Environmental Superfund CERCLA Contamination Liability Standards",
+      ruSectionName: "Стандарты и регламенты: Environmental Superfund CERCLA Contamination Liability",
+      instructions: [
+        "Apply core domain tenets for Environmental Superfund CERCLA Contamination Liability.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Environmental Superfund CERCLA Contamination Liability.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","environmental","superfund"],
+    }),
+  },
+
+  "legal-intellectual-property-injunction-ex-parte-order": {
+    id: "legal-intellectual-property-injunction-ex-parte-order",
+    name: "IntellectualPropertyInjunctionExParteOrderSkill",
+    displayName: "Intellectual Property Injunction Ex Parte Order",
+    categoryId: "legal",
+    description: "Requests emergency court injunctions to seize counterfeit goods at borders.",
+    tags: ["legal","legal","intellectual","property"],
+    transform: createStandardSkillTransform({
+      sectionName: "Intellectual Property Injunction Ex Parte Order Standards",
+      ruSectionName: "Стандарты и регламенты: Intellectual Property Injunction Ex Parte Order",
+      instructions: [
+        "Apply core domain tenets for Intellectual Property Injunction Ex Parte Order.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Intellectual Property Injunction Ex Parte Order.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","intellectual","property"],
+    }),
+  },
+
+  "legal-master-enterprise-legal-jurisprudence-constitution": {
+    id: "legal-master-enterprise-legal-jurisprudence-constitution",
+    name: "MasterEnterpriseLegalJurisprudenceConstitutionSkill",
+    displayName: "Master Enterprise Legal Jurisprudence Constitution",
+    categoryId: "legal",
+    description: "Enforces world-class legal analysis, contract drafting, and regulatory compliance.",
+    tags: ["legal","legal","master","enterprise"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Enterprise Legal Jurisprudence Constitution Standards",
+      ruSectionName: "Стандарты и регламенты: Master Enterprise Legal Jurisprudence Constitution",
+      instructions: [
+        "Apply core domain tenets for Master Enterprise Legal Jurisprudence Constitution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Enterprise Legal Jurisprudence Constitution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","master","enterprise"],
+    }),
+  },
+
+  "legal-legal-skill-90": {
+    id: "legal-legal-skill-90",
+    name: "legalSkill90Skill",
+    displayName: "legal Skill 90",
+    categoryId: "legal",
+    description: "Applies advanced legal Skill 90 standards and execution patterns.",
+    tags: ["legal","legal","legal","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "legal Skill 90 Standards",
+      ruSectionName: "Стандарты и регламенты: legal Skill 90",
+      instructions: [
+        "Apply core domain tenets for legal Skill 90.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для legal Skill 90.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal","legal","skill"],
+    }),
+  },
+  "legal-final-alternative-dispute-resolution-mediation-protocol": {
+    id: "legal-final-alternative-dispute-resolution-mediation-protocol",
+    name: "AlternativeDisputeResolutionMediationProtocolSkill",
+    displayName: "Alternative Dispute Resolution Mediation Protocol",
+    categoryId: "legal",
+    description: "Guides pre-litigation commercial dispute resolution through structured mediation.",
+    tags: ["legal","legal-final","final","alternative"],
+    transform: createStandardSkillTransform({
+      sectionName: "Alternative Dispute Resolution Mediation Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Alternative Dispute Resolution Mediation Protocol",
+      instructions: [
+        "Apply core domain tenets for Alternative Dispute Resolution Mediation Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Alternative Dispute Resolution Mediation Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","alternative"],
+    }),
+  },
+
+  "legal-final-maritime-carriage-of-goods-by-sea-act-cogsa": {
+    id: "legal-final-maritime-carriage-of-goods-by-sea-act-cogsa",
+    name: "MaritimeCarriageofGoodsbySeaActCOGSASkill",
+    displayName: "Maritime Carriage of Goods by Sea Act COGSA",
+    categoryId: "legal",
+    description: "Applies ocean carrier liability limits and bill of lading legal defenses.",
+    tags: ["legal","legal-final","final","maritime"],
+    transform: createStandardSkillTransform({
+      sectionName: "Maritime Carriage of Goods by Sea Act COGSA Standards",
+      ruSectionName: "Стандарты и регламенты: Maritime Carriage of Goods by Sea Act COGSA",
+      instructions: [
+        "Apply core domain tenets for Maritime Carriage of Goods by Sea Act COGSA.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Maritime Carriage of Goods by Sea Act COGSA.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","maritime"],
+    }),
+  },
+
+  "legal-final-sovereign-debt-restructuring-paris-club-principles": {
+    id: "legal-final-sovereign-debt-restructuring-paris-club-principles",
+    name: "SovereignDebtRestructuringParisClubPrinciplesSkill",
+    displayName: "Sovereign Debt Restructuring Paris Club Principles",
+    categoryId: "legal",
+    description: "Coordinates bilateral official sovereign debt rescheduling and comparability of treatment.",
+    tags: ["legal","legal-final","final","sovereign"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sovereign Debt Restructuring Paris Club Principles Standards",
+      ruSectionName: "Стандарты и регламенты: Sovereign Debt Restructuring Paris Club Principles",
+      instructions: [
+        "Apply core domain tenets for Sovereign Debt Restructuring Paris Club Principles.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sovereign Debt Restructuring Paris Club Principles.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","sovereign"],
+    }),
+  },
+
+  "legal-final-space-launch-liability-insurance-faa-authorization": {
+    id: "legal-final-space-launch-liability-insurance-faa-authorization",
+    name: "SpaceLaunchLiabilityInsuranceFAAAuthorizationSkill",
+    displayName: "Space Launch Liability Insurance FAA Authorization",
+    categoryId: "legal",
+    description: "Navigates commercial space launch financial responsibility and FAA payload licenses.",
+    tags: ["legal","legal-final","final","space"],
+    transform: createStandardSkillTransform({
+      sectionName: "Space Launch Liability Insurance FAA Authorization Standards",
+      ruSectionName: "Стандарты и регламенты: Space Launch Liability Insurance FAA Authorization",
+      instructions: [
+        "Apply core domain tenets for Space Launch Liability Insurance FAA Authorization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Space Launch Liability Insurance FAA Authorization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","space"],
+    }),
+  },
+
+  "legal-final-biometric-genetic-information-nondiscrimination-gina": {
+    id: "legal-final-biometric-genetic-information-nondiscrimination-gina",
+    name: "BiometricGeneticInformationNondiscriminationGINASkill",
+    displayName: "Biometric Genetic Information Nondiscrimination GINA",
+    categoryId: "legal",
+    description: "Audits employment wellness programs for GINA and genetic data compliance.",
+    tags: ["legal","legal-final","final","biometric"],
+    transform: createStandardSkillTransform({
+      sectionName: "Biometric Genetic Information Nondiscrimination GINA Standards",
+      ruSectionName: "Стандарты и регламенты: Biometric Genetic Information Nondiscrimination GINA",
+      instructions: [
+        "Apply core domain tenets for Biometric Genetic Information Nondiscrimination GINA.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Biometric Genetic Information Nondiscrimination GINA.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","biometric"],
+    }),
+  },
+
+  "legal-final-cross-border-chapter-15-ancillary-insolvency": {
+    id: "legal-final-cross-border-chapter-15-ancillary-insolvency",
+    name: "CrossBorderChapter15AncillaryInsolvencySkill",
+    displayName: "Cross-Border Chapter 15 Ancillary Insolvency",
+    categoryId: "legal",
+    description: "Manages foreign main bankruptcy proceedings in US bankruptcy courts under Chapter 15.",
+    tags: ["legal","legal-final","final","cross"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Border Chapter 15 Ancillary Insolvency Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Border Chapter 15 Ancillary Insolvency",
+      instructions: [
+        "Apply core domain tenets for Cross-Border Chapter 15 Ancillary Insolvency.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Border Chapter 15 Ancillary Insolvency.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","cross"],
+    }),
+  },
+
+  "legal-final-telecommunications-spectrum-lease-tower-colocation": {
+    id: "legal-final-telecommunications-spectrum-lease-tower-colocation",
+    name: "TelecommunicationsSpectrumLeaseTowerColocationSkill",
+    displayName: "Telecommunications Spectrum Lease Tower Colocation",
+    categoryId: "legal",
+    description: "Drafts wireless cell tower ground leases and DAS antenna colocation agreements.",
+    tags: ["legal","legal-final","final","telecommunications"],
+    transform: createStandardSkillTransform({
+      sectionName: "Telecommunications Spectrum Lease Tower Colocation Standards",
+      ruSectionName: "Стандарты и регламенты: Telecommunications Spectrum Lease Tower Colocation",
+      instructions: [
+        "Apply core domain tenets for Telecommunications Spectrum Lease Tower Colocation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Telecommunications Spectrum Lease Tower Colocation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","telecommunications"],
+    }),
+  },
+
+  "legal-final-false-claims-act-qui-tam-whistleblower-defense": {
+    id: "legal-final-false-claims-act-qui-tam-whistleblower-defense",
+    name: "FalseClaimsActQuiTamWhistleblowerDefenseSkill",
+    displayName: "False Claims Act Qui Tam Whistleblower Defense",
+    categoryId: "legal",
+    description: "Defends corporate healthcare and defense contractors against relator FCA suits.",
+    tags: ["legal","legal-final","final","false"],
+    transform: createStandardSkillTransform({
+      sectionName: "False Claims Act Qui Tam Whistleblower Defense Standards",
+      ruSectionName: "Стандарты и регламенты: False Claims Act Qui Tam Whistleblower Defense",
+      instructions: [
+        "Apply core domain tenets for False Claims Act Qui Tam Whistleblower Defense.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для False Claims Act Qui Tam Whistleblower Defense.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","false"],
+    }),
+  },
+
+  "legal-final-environmental-clean-air-act-title-v-permitting": {
+    id: "legal-final-environmental-clean-air-act-title-v-permitting",
+    name: "EnvironmentalCleanAirActTitleVPermittingSkill",
+    displayName: "Environmental Clean Air Act Title V Permitting",
+    categoryId: "legal",
+    description: "Audits industrial plant air emissions and major source operating permits.",
+    tags: ["legal","legal-final","final","environmental"],
+    transform: createStandardSkillTransform({
+      sectionName: "Environmental Clean Air Act Title V Permitting Standards",
+      ruSectionName: "Стандарты и регламенты: Environmental Clean Air Act Title V Permitting",
+      instructions: [
+        "Apply core domain tenets for Environmental Clean Air Act Title V Permitting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Environmental Clean Air Act Title V Permitting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","environmental"],
+    }),
+  },
+
+  "legal-final-consumer-product-safety-cpsc-recall-protocol": {
+    id: "legal-final-consumer-product-safety-cpsc-recall-protocol",
+    name: "ConsumerProductSafetyCPSCRecallProtocolSkill",
+    displayName: "Consumer Product Safety CPSC Recall Protocol",
+    categoryId: "legal",
+    description: "Executes CPSC Section 15(b) fast-track product safety defect reporting and recalls.",
+    tags: ["legal","legal-final","final","consumer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Consumer Product Safety CPSC Recall Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Consumer Product Safety CPSC Recall Protocol",
+      instructions: [
+        "Apply core domain tenets for Consumer Product Safety CPSC Recall Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Consumer Product Safety CPSC Recall Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","consumer"],
+    }),
+  },
+
+  "legal-final-fda-510k-medical-device-clearance-pathway": {
+    id: "legal-final-fda-510k-medical-device-clearance-pathway",
+    name: "FDA510kMedicalDeviceClearancePathwaySkill",
+    displayName: "FDA 510k Medical Device Clearance Pathway",
+    categoryId: "legal",
+    description: "Drafts 510(k) premarket notifications demonstrating substantial equivalence.",
+    tags: ["legal","legal-final","final","fda"],
+    transform: createStandardSkillTransform({
+      sectionName: "FDA 510k Medical Device Clearance Pathway Standards",
+      ruSectionName: "Стандарты и регламенты: FDA 510k Medical Device Clearance Pathway",
+      instructions: [
+        "Apply core domain tenets for FDA 510k Medical Device Clearance Pathway.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для FDA 510k Medical Device Clearance Pathway.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","fda"],
+    }),
+  },
+
+  "legal-final-erisa-fiduciary-duty-pension-investment-policy": {
+    id: "legal-final-erisa-fiduciary-duty-pension-investment-policy",
+    name: "ERISAFiduciaryDutyPensionInvestmentPolicySkill",
+    displayName: "ERISA Fiduciary Duty Pension Investment Policy",
+    categoryId: "legal",
+    description: "Ensures ERISA plan trustee compliance with the prudent expert rule and diversification.",
+    tags: ["legal","legal-final","final","erisa"],
+    transform: createStandardSkillTransform({
+      sectionName: "ERISA Fiduciary Duty Pension Investment Policy Standards",
+      ruSectionName: "Стандарты и регламенты: ERISA Fiduciary Duty Pension Investment Policy",
+      instructions: [
+        "Apply core domain tenets for ERISA Fiduciary Duty Pension Investment Policy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ERISA Fiduciary Duty Pension Investment Policy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","erisa"],
+    }),
+  },
+
+  "legal-final-itc-section-337-patent-import-exclusion-order": {
+    id: "legal-final-itc-section-337-patent-import-exclusion-order",
+    name: "ITCSection337PatentImportExclusionOrderSkill",
+    displayName: "ITC Section 337 Patent Import Exclusion Order",
+    categoryId: "legal",
+    description: "Litigates unfair import trade practices before the International Trade Commission.",
+    tags: ["legal","legal-final","final","itc"],
+    transform: createStandardSkillTransform({
+      sectionName: "ITC Section 337 Patent Import Exclusion Order Standards",
+      ruSectionName: "Стандарты и регламенты: ITC Section 337 Patent Import Exclusion Order",
+      instructions: [
+        "Apply core domain tenets for ITC Section 337 Patent Import Exclusion Order.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ITC Section 337 Patent Import Exclusion Order.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","itc"],
+    }),
+  },
+
+  "legal-final-antitrust-hart-scott-rodino-premerger-filings": {
+    id: "legal-final-antitrust-hart-scott-rodino-premerger-filings",
+    name: "AntitrustHartScottRodinoPremergerFilingsSkill",
+    displayName: "Antitrust Hart-Scott-Rodino Premerger Filings",
+    categoryId: "legal",
+    description: "Prepares FTC/DOJ HSR notification forms for high-value corporate acquisitions.",
+    tags: ["legal","legal-final","final","antitrust"],
+    transform: createStandardSkillTransform({
+      sectionName: "Antitrust Hart-Scott-Rodino Premerger Filings Standards",
+      ruSectionName: "Стандарты и регламенты: Antitrust Hart-Scott-Rodino Premerger Filings",
+      instructions: [
+        "Apply core domain tenets for Antitrust Hart-Scott-Rodino Premerger Filings.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Antitrust Hart-Scott-Rodino Premerger Filings.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","antitrust"],
+    }),
+  },
+
+  "legal-final-corporate-officer-indemnification-deed-do-insurance": {
+    id: "legal-final-corporate-officer-indemnification-deed-do-insurance",
+    name: "CorporateOfficerIndemnificationDeedDOInsuranceSkill",
+    displayName: "Corporate Officer Indemnification Deed DO Insurance",
+    categoryId: "legal",
+    description: "Structures advancement of legal fees and D&O insurance policy coverage.",
+    tags: ["legal","legal-final","final","corporate"],
+    transform: createStandardSkillTransform({
+      sectionName: "Corporate Officer Indemnification Deed DO Insurance Standards",
+      ruSectionName: "Стандарты и регламенты: Corporate Officer Indemnification Deed DO Insurance",
+      instructions: [
+        "Apply core domain tenets for Corporate Officer Indemnification Deed DO Insurance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Corporate Officer Indemnification Deed DO Insurance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","corporate"],
+    }),
+  },
+
+  "legal-final-patent-prosecution-cpc-specification-drafting": {
+    id: "legal-final-patent-prosecution-cpc-specification-drafting",
+    name: "PatentProsecutionCPCSpecificationDraftingSkill",
+    displayName: "Patent Prosecution CPC Specification Drafting",
+    categoryId: "legal",
+    description: "Drafts patent specifications and claims formatted for CPC classification.",
+    tags: ["legal","legal-final","final","patent"],
+    transform: createStandardSkillTransform({
+      sectionName: "Patent Prosecution CPC Specification Drafting Standards",
+      ruSectionName: "Стандарты и регламенты: Patent Prosecution CPC Specification Drafting",
+      instructions: [
+        "Apply core domain tenets for Patent Prosecution CPC Specification Drafting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Patent Prosecution CPC Specification Drafting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","patent"],
+    }),
+  },
+
+  "legal-final-franchise-disclosure-item-19-performance-audit": {
+    id: "legal-final-franchise-disclosure-item-19-performance-audit",
+    name: "FranchiseDisclosureItem19PerformanceAuditSkill",
+    displayName: "Franchise Disclosure Item 19 Performance Audit",
+    categoryId: "legal",
+    description: "Audits item 19 Financial Performance Representations in Franchise Disclosure Documents.",
+    tags: ["legal","legal-final","final","franchise"],
+    transform: createStandardSkillTransform({
+      sectionName: "Franchise Disclosure Item 19 Performance Audit Standards",
+      ruSectionName: "Стандарты и регламенты: Franchise Disclosure Item 19 Performance Audit",
+      instructions: [
+        "Apply core domain tenets for Franchise Disclosure Item 19 Performance Audit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Franchise Disclosure Item 19 Performance Audit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","franchise"],
+    }),
+  },
+
+  "legal-final-intellectual-property-co-existence-trademark-settlement": {
+    id: "legal-final-intellectual-property-co-existence-trademark-settlement",
+    name: "IntellectualPropertyCoExistenceTrademarkSettlementSkill",
+    displayName: "Intellectual Property Co-Existence Trademark Settlement",
+    categoryId: "legal",
+    description: "Drafts worldwide trademark co-existence agreements with geographic boundaries.",
+    tags: ["legal","legal-final","final","intellectual"],
+    transform: createStandardSkillTransform({
+      sectionName: "Intellectual Property Co-Existence Trademark Settlement Standards",
+      ruSectionName: "Стандарты и регламенты: Intellectual Property Co-Existence Trademark Settlement",
+      instructions: [
+        "Apply core domain tenets for Intellectual Property Co-Existence Trademark Settlement.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Intellectual Property Co-Existence Trademark Settlement.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","intellectual"],
+    }),
+  },
+
+  "legal-final-municipal-bond-official-statement-disclosure-counsel": {
+    id: "legal-final-municipal-bond-official-statement-disclosure-counsel",
+    name: "MunicipalBondOfficialStatementDisclosureCounselSkill",
+    displayName: "Municipal Bond Official Statement Disclosure Counsel",
+    categoryId: "legal",
+    description: "Drafts primary disclosure documents for tax-exempt municipal bond issuances.",
+    tags: ["legal","legal-final","final","municipal"],
+    transform: createStandardSkillTransform({
+      sectionName: "Municipal Bond Official Statement Disclosure Counsel Standards",
+      ruSectionName: "Стандарты и регламенты: Municipal Bond Official Statement Disclosure Counsel",
+      instructions: [
+        "Apply core domain tenets for Municipal Bond Official Statement Disclosure Counsel.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Municipal Bond Official Statement Disclosure Counsel.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","municipal"],
+    }),
+  },
+
+  "legal-final-ferc-interstate-natural-gas-pipeline-tariff": {
+    id: "legal-final-ferc-interstate-natural-gas-pipeline-tariff",
+    name: "FERCInterstateNaturalGasPipelineTariffSkill",
+    displayName: "FERC Interstate Natural Gas Pipeline Tariff",
+    categoryId: "legal",
+    description: "Navigates Federal Energy Regulatory Commission open-access transmission tariffs.",
+    tags: ["legal","legal-final","final","ferc"],
+    transform: createStandardSkillTransform({
+      sectionName: "FERC Interstate Natural Gas Pipeline Tariff Standards",
+      ruSectionName: "Стандарты и регламенты: FERC Interstate Natural Gas Pipeline Tariff",
+      instructions: [
+        "Apply core domain tenets for FERC Interstate Natural Gas Pipeline Tariff.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для FERC Interstate Natural Gas Pipeline Tariff.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","ferc"],
+    }),
+  },
+
+  "legal-final-native-american-tribal-gaming-compact-sovereignty": {
+    id: "legal-final-native-american-tribal-gaming-compact-sovereignty",
+    name: "NativeAmericanTribalGamingCompactSovereigntySkill",
+    displayName: "Native American Tribal Gaming Compact Sovereignty",
+    categoryId: "legal",
+    description: "Drafts Class III Indian gaming compacts balancing state and tribal authority.",
+    tags: ["legal","legal-final","final","native"],
+    transform: createStandardSkillTransform({
+      sectionName: "Native American Tribal Gaming Compact Sovereignty Standards",
+      ruSectionName: "Стандарты и регламенты: Native American Tribal Gaming Compact Sovereignty",
+      instructions: [
+        "Apply core domain tenets for Native American Tribal Gaming Compact Sovereignty.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Native American Tribal Gaming Compact Sovereignty.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","native"],
+    }),
+  },
+
+  "legal-final-cyber-liability-incident-response-forensics-privilege": {
+    id: "legal-final-cyber-liability-incident-response-forensics-privilege",
+    name: "CyberLiabilityIncidentResponseForensicsPrivilegeSkill",
+    displayName: "Cyber Liability Incident Response Forensics Privilege",
+    categoryId: "legal",
+    description: "Directs cybersecurity breach investigations under attorney-client privilege.",
+    tags: ["legal","legal-final","final","cyber"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cyber Liability Incident Response Forensics Privilege Standards",
+      ruSectionName: "Стандарты и регламенты: Cyber Liability Incident Response Forensics Privilege",
+      instructions: [
+        "Apply core domain tenets for Cyber Liability Incident Response Forensics Privilege.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cyber Liability Incident Response Forensics Privilege.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","cyber"],
+    }),
+  },
+
+  "legal-final-cfpb-unfair-deceptive-abusive-practice-udaap": {
+    id: "legal-final-cfpb-unfair-deceptive-abusive-practice-udaap",
+    name: "CFPBUnfairDeceptiveAbusivePracticeUDAAPSkill",
+    displayName: "CFPB Unfair Deceptive Abusive Practice UDAAP",
+    categoryId: "legal",
+    description: "Audits consumer fintech lending flows for CFPB UDAAP enforcement risks.",
+    tags: ["legal","legal-final","final","cfpb"],
+    transform: createStandardSkillTransform({
+      sectionName: "CFPB Unfair Deceptive Abusive Practice UDAAP Standards",
+      ruSectionName: "Стандарты и регламенты: CFPB Unfair Deceptive Abusive Practice UDAAP",
+      instructions: [
+        "Apply core domain tenets for CFPB Unfair Deceptive Abusive Practice UDAAP.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для CFPB Unfair Deceptive Abusive Practice UDAAP.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","cfpb"],
+    }),
+  },
+
+  "legal-final-international-commercial-agency-treaty-cisg": {
+    id: "legal-final-international-commercial-agency-treaty-cisg",
+    name: "InternationalCommercialAgencyTreatyCISGSkill",
+    displayName: "International Commercial Agency Treaty CISG",
+    categoryId: "legal",
+    description: "Structures cross-border distributor agreements under local agency protection laws.",
+    tags: ["legal","legal-final","final","international"],
+    transform: createStandardSkillTransform({
+      sectionName: "International Commercial Agency Treaty CISG Standards",
+      ruSectionName: "Стандарты и регламенты: International Commercial Agency Treaty CISG",
+      instructions: [
+        "Apply core domain tenets for International Commercial Agency Treaty CISG.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для International Commercial Agency Treaty CISG.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","international"],
+    }),
+  },
+
+  "legal-final-master-jurisprudence-constitutional-legal-systems": {
+    id: "legal-final-master-jurisprudence-constitutional-legal-systems",
+    name: "MasterJurisprudenceConstitutionalLegalSystemsSkill",
+    displayName: "Master Jurisprudence Constitutional Legal Systems",
+    categoryId: "legal",
+    description: "Enforces world-class legal analysis, statutory interpretation, and contract jurisprudence.",
+    tags: ["legal","legal-final","final","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Jurisprudence Constitutional Legal Systems Standards",
+      ruSectionName: "Стандарты и регламенты: Master Jurisprudence Constitutional Legal Systems",
+      instructions: [
+        "Apply core domain tenets for Master Jurisprudence Constitutional Legal Systems.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Jurisprudence Constitutional Legal Systems.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["legal","legal-final","final","master"],
+    }),
+  },
 };

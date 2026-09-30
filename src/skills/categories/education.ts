@@ -2005,4 +2005,2377 @@ sectionName: 'Andragogical Adult Learning Principles',
       tags: ["education","real","world","scenario"],
     }),
   },
+  "education-bloom-taxonomy-cognitive-scaffolding": {
+    id: "education-bloom-taxonomy-cognitive-scaffolding",
+    name: "BloomTaxonomyCognitiveScaffoldingSkill",
+    displayName: "Bloom Taxonomy Cognitive Scaffolding",
+    categoryId: "education",
+    description: "Scaffolds learning from Remember -> Understand -> Apply -> Analyze -> Evaluate -> Create.",
+    tags: ["education","education","bloom","taxonomy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bloom Taxonomy Cognitive Scaffolding Standards",
+      ruSectionName: "Стандарты и регламенты: Bloom Taxonomy Cognitive Scaffolding",
+      instructions: [
+        "Apply core domain tenets for Bloom Taxonomy Cognitive Scaffolding.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Bloom Taxonomy Cognitive Scaffolding.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","bloom","taxonomy"],
+    }),
+  },
+
+  "education-feynman-radical-concept-simplification": {
+    id: "education-feynman-radical-concept-simplification",
+    name: "FeynmanRadicalConceptSimplificationSkill",
+    displayName: "Feynman Radical Concept Simplification",
+    categoryId: "education",
+    description: "Simplifies complex scientific topics so a 12-year-old can understand without jargon.",
+    tags: ["education","education","feynman","radical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Feynman Radical Concept Simplification Standards",
+      ruSectionName: "Стандарты и регламенты: Feynman Radical Concept Simplification",
+      instructions: [
+        "Apply core domain tenets for Feynman Radical Concept Simplification.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Feynman Radical Concept Simplification.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","feynman","radical"],
+    }),
+  },
+
+  "education-spaced-repetition-leitner-box-schedule": {
+    id: "education-spaced-repetition-leitner-box-schedule",
+    name: "SpacedRepetitionLeitnerBoxScheduleSkill",
+    displayName: "Spaced Repetition & Leitner Box Schedule",
+    categoryId: "education",
+    description: "Schedules review intervals based on memory decay curves to maximize retention.",
+    tags: ["education","education","spaced","repetition"],
+    transform: createStandardSkillTransform({
+      sectionName: "Spaced Repetition & Leitner Box Schedule Standards",
+      ruSectionName: "Стандарты и регламенты: Spaced Repetition & Leitner Box Schedule",
+      instructions: [
+        "Apply core domain tenets for Spaced Repetition & Leitner Box Schedule.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Spaced Repetition & Leitner Box Schedule.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","spaced","repetition"],
+    }),
+  },
+
+  "education-cognitive-load-working-memory-limits": {
+    id: "education-cognitive-load-working-memory-limits",
+    name: "CognitiveLoadWorkingMemoryLimitsSkill",
+    displayName: "Cognitive Load Working Memory Limits",
+    categoryId: "education",
+    description: "Manages intrinsic, extraneous, and germane cognitive load in instructional design.",
+    tags: ["education","education","cognitive","load"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cognitive Load Working Memory Limits Standards",
+      ruSectionName: "Стандарты и регламенты: Cognitive Load Working Memory Limits",
+      instructions: [
+        "Apply core domain tenets for Cognitive Load Working Memory Limits.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cognitive Load Working Memory Limits.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","cognitive","load"],
+    }),
+  },
+
+  "education-inquiry-based-learning-scientific-discovery": {
+    id: "education-inquiry-based-learning-scientific-discovery",
+    name: "InquiryBasedLearningScientificDiscoverySkill",
+    displayName: "Inquiry-Based Learning Scientific Discovery",
+    categoryId: "education",
+    description: "Guides students through hypothesis formation, experimentation, and data analysis.",
+    tags: ["education","education","inquiry","based"],
+    transform: createStandardSkillTransform({
+      sectionName: "Inquiry-Based Learning Scientific Discovery Standards",
+      ruSectionName: "Стандарты и регламенты: Inquiry-Based Learning Scientific Discovery",
+      instructions: [
+        "Apply core domain tenets for Inquiry-Based Learning Scientific Discovery.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Inquiry-Based Learning Scientific Discovery.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","inquiry","based"],
+    }),
+  },
+
+  "education-gamified-formative-quiz-feedback": {
+    id: "education-gamified-formative-quiz-feedback",
+    name: "GamifiedFormativeQuizFeedbackSkill",
+    displayName: "Gamified Formative Quiz & Feedback",
+    categoryId: "education",
+    description: "Designs low-stakes interactive quizzes providing instant corrective feedback.",
+    tags: ["education","education","gamified","formative"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gamified Formative Quiz & Feedback Standards",
+      ruSectionName: "Стандарты и регламенты: Gamified Formative Quiz & Feedback",
+      instructions: [
+        "Apply core domain tenets for Gamified Formative Quiz & Feedback.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gamified Formative Quiz & Feedback.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","gamified","formative"],
+    }),
+  },
+
+  "education-universal-design-for-learning-udl": {
+    id: "education-universal-design-for-learning-udl",
+    name: "UniversalDesignforLearningUDLSkill",
+    displayName: "Universal Design for Learning (UDL)",
+    categoryId: "education",
+    description: "Provides multiple means of Engagement, Representation, and Action/Expression.",
+    tags: ["education","education","universal","design"],
+    transform: createStandardSkillTransform({
+      sectionName: "Universal Design for Learning (UDL) Standards",
+      ruSectionName: "Стандарты и регламенты: Universal Design for Learning (UDL)",
+      instructions: [
+        "Apply core domain tenets for Universal Design for Learning (UDL).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Universal Design for Learning (UDL).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","universal","design"],
+    }),
+  },
+
+  "education-problem-based-case-challenge-learning": {
+    id: "education-problem-based-case-challenge-learning",
+    name: "ProblemBasedCaseChallengeLearningSkill",
+    displayName: "Problem-Based Case Challenge Learning",
+    categoryId: "education",
+    description: "Presents messy real-world scenarios for small team collaborative problem-solving.",
+    tags: ["education","education","problem","based"],
+    transform: createStandardSkillTransform({
+      sectionName: "Problem-Based Case Challenge Learning Standards",
+      ruSectionName: "Стандарты и регламенты: Problem-Based Case Challenge Learning",
+      instructions: [
+        "Apply core domain tenets for Problem-Based Case Challenge Learning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Problem-Based Case Challenge Learning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","problem","based"],
+    }),
+  },
+
+  "education-differentiated-tiered-instruction": {
+    id: "education-differentiated-tiered-instruction",
+    name: "DifferentiatedTieredInstructionSkill",
+    displayName: "Differentiated Tiered Instruction",
+    categoryId: "education",
+    description: "Adapts lesson complexity and support levels for diverse learner readiness tiers.",
+    tags: ["education","education","differentiated","tiered"],
+    transform: createStandardSkillTransform({
+      sectionName: "Differentiated Tiered Instruction Standards",
+      ruSectionName: "Стандарты и регламенты: Differentiated Tiered Instruction",
+      instructions: [
+        "Apply core domain tenets for Differentiated Tiered Instruction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Differentiated Tiered Instruction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","differentiated","tiered"],
+    }),
+  },
+
+  "education-formative-rubric-scoring-feedback": {
+    id: "education-formative-rubric-scoring-feedback",
+    name: "FormativeRubricScoringFeedbackSkill",
+    displayName: "Formative Rubric Scoring & Feedback",
+    categoryId: "education",
+    description: "Evaluates student work using clear analytic rubrics paired with actionable next steps.",
+    tags: ["education","education","formative","rubric"],
+    transform: createStandardSkillTransform({
+      sectionName: "Formative Rubric Scoring & Feedback Standards",
+      ruSectionName: "Стандарты и регламенты: Formative Rubric Scoring & Feedback",
+      instructions: [
+        "Apply core domain tenets for Formative Rubric Scoring & Feedback.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Formative Rubric Scoring & Feedback.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","formative","rubric"],
+    }),
+  },
+
+  "education-retrieval-practice-active-flashcard-recall": {
+    id: "education-retrieval-practice-active-flashcard-recall",
+    name: "RetrievalPracticeActiveFlashcardRecallSkill",
+    displayName: "Retrieval Practice Active Flashcard Recall",
+    categoryId: "education",
+    description: "Uses active recall quizzes rather than passive re-reading to solidify memory.",
+    tags: ["education","education","retrieval","practice"],
+    transform: createStandardSkillTransform({
+      sectionName: "Retrieval Practice Active Flashcard Recall Standards",
+      ruSectionName: "Стандарты и регламенты: Retrieval Practice Active Flashcard Recall",
+      instructions: [
+        "Apply core domain tenets for Retrieval Practice Active Flashcard Recall.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Retrieval Practice Active Flashcard Recall.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","retrieval","practice"],
+    }),
+  },
+
+  "education-adaptive-learning-individualized-pace": {
+    id: "education-adaptive-learning-individualized-pace",
+    name: "AdaptiveLearningIndividualizedPaceSkill",
+    displayName: "Adaptive Learning Individualized Pace",
+    categoryId: "education",
+    description: "Dynamically adjusts curriculum difficulty based on real-time student performance.",
+    tags: ["education","education","adaptive","learning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Adaptive Learning Individualized Pace Standards",
+      ruSectionName: "Стандарты и регламенты: Adaptive Learning Individualized Pace",
+      instructions: [
+        "Apply core domain tenets for Adaptive Learning Individualized Pace.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Adaptive Learning Individualized Pace.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","adaptive","learning"],
+    }),
+  },
+
+  "education-elaborative-interrogation-why-questions": {
+    id: "education-elaborative-interrogation-why-questions",
+    name: "ElaborativeInterrogationWhyQuestionsSkill",
+    displayName: "Elaborative Interrogation 'Why' Questions",
+    categoryId: "education",
+    description: "Prompts learners to explain why facts are true to deepen conceptual encoding.",
+    tags: ["education","education","elaborative","interrogation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Elaborative Interrogation 'Why' Questions Standards",
+      ruSectionName: "Стандарты и регламенты: Elaborative Interrogation 'Why' Questions",
+      instructions: [
+        "Apply core domain tenets for Elaborative Interrogation 'Why' Questions.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Elaborative Interrogation 'Why' Questions.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","elaborative","interrogation"],
+    }),
+  },
+
+  "education-explicit-schema-activation-warm-up": {
+    id: "education-explicit-schema-activation-warm-up",
+    name: "ExplicitSchemaActivationWarmUpSkill",
+    displayName: "Explicit Schema Activation Warm-Up",
+    categoryId: "education",
+    description: "Activates prior knowledge before introducing new complex academic concepts.",
+    tags: ["education","education","explicit","schema"],
+    transform: createStandardSkillTransform({
+      sectionName: "Explicit Schema Activation Warm-Up Standards",
+      ruSectionName: "Стандарты и регламенты: Explicit Schema Activation Warm-Up",
+      instructions: [
+        "Apply core domain tenets for Explicit Schema Activation Warm-Up.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Explicit Schema Activation Warm-Up.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","explicit","schema"],
+    }),
+  },
+
+  "education-anchor-based-instruction-video-context": {
+    id: "education-anchor-based-instruction-video-context",
+    name: "AnchorBasedInstructionVideoContextSkill",
+    displayName: "Anchor Based Instruction Video Context",
+    categoryId: "education",
+    description: "Anchors math and science learning in engaging video-based adventure contexts.",
+    tags: ["education","education","anchor","based"],
+    transform: createStandardSkillTransform({
+      sectionName: "Anchor Based Instruction Video Context Standards",
+      ruSectionName: "Стандарты и регламенты: Anchor Based Instruction Video Context",
+      instructions: [
+        "Apply core domain tenets for Anchor Based Instruction Video Context.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Anchor Based Instruction Video Context.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","anchor","based"],
+    }),
+  },
+
+  "education-peer-tutoring-cross-age-buddy-system": {
+    id: "education-peer-tutoring-cross-age-buddy-system",
+    name: "PeerTutoringCrossAgeBuddySystemSkill",
+    displayName: "Peer Tutoring Cross-Age Buddy System",
+    categoryId: "education",
+    description: "Pairs older students with younger peers to reinforce mastery through teaching.",
+    tags: ["education","education","peer","tutoring"],
+    transform: createStandardSkillTransform({
+      sectionName: "Peer Tutoring Cross-Age Buddy System Standards",
+      ruSectionName: "Стандарты и регламенты: Peer Tutoring Cross-Age Buddy System",
+      instructions: [
+        "Apply core domain tenets for Peer Tutoring Cross-Age Buddy System.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Peer Tutoring Cross-Age Buddy System.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","peer","tutoring"],
+    }),
+  },
+
+  "education-micro-learning-bitesized-video-modules": {
+    id: "education-micro-learning-bitesized-video-modules",
+    name: "MicroLearningBitesizedVideoModulesSkill",
+    displayName: "Micro-Learning Bitesized Video Modules",
+    categoryId: "education",
+    description: "Breaks complex courses into 3-5 minute self-contained video learning modules.",
+    tags: ["education","education","micro","learning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Micro-Learning Bitesized Video Modules Standards",
+      ruSectionName: "Стандарты и регламенты: Micro-Learning Bitesized Video Modules",
+      instructions: [
+        "Apply core domain tenets for Micro-Learning Bitesized Video Modules.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Micro-Learning Bitesized Video Modules.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","micro","learning"],
+    }),
+  },
+
+  "education-rubric-co-creation-student-ownership": {
+    id: "education-rubric-co-creation-student-ownership",
+    name: "RubricCoCreationStudentOwnershipSkill",
+    displayName: "Rubric Co-Creation Student Ownership",
+    categoryId: "education",
+    description: "Involves students in co-creating grading rubrics to build ownership of quality.",
+    tags: ["education","education","rubric","co"],
+    transform: createStandardSkillTransform({
+      sectionName: "Rubric Co-Creation Student Ownership Standards",
+      ruSectionName: "Стандарты и регламенты: Rubric Co-Creation Student Ownership",
+      instructions: [
+        "Apply core domain tenets for Rubric Co-Creation Student Ownership.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Rubric Co-Creation Student Ownership.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","rubric","co"],
+    }),
+  },
+
+  "education-self-regulated-learning-goal-tracking": {
+    id: "education-self-regulated-learning-goal-tracking",
+    name: "SelfRegulatedLearningGoalTrackingSkill",
+    displayName: "Self-Regulated Learning Goal Tracking",
+    categoryId: "education",
+    description: "Guides students to set weekly learning goals, monitor time, and evaluate progress.",
+    tags: ["education","education","self","regulated"],
+    transform: createStandardSkillTransform({
+      sectionName: "Self-Regulated Learning Goal Tracking Standards",
+      ruSectionName: "Стандарты и регламенты: Self-Regulated Learning Goal Tracking",
+      instructions: [
+        "Apply core domain tenets for Self-Regulated Learning Goal Tracking.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Self-Regulated Learning Goal Tracking.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","self","regulated"],
+    }),
+  },
+
+  "education-analogical-mapping-conceptual-bridges": {
+    id: "education-analogical-mapping-conceptual-bridges",
+    name: "AnalogicalMappingConceptualBridgesSkill",
+    displayName: "Analogical Mapping Conceptual Bridges",
+    categoryId: "education",
+    description: "Uses familiar everyday analogies to introduce unintuitive scientific concepts.",
+    tags: ["education","education","analogical","mapping"],
+    transform: createStandardSkillTransform({
+      sectionName: "Analogical Mapping Conceptual Bridges Standards",
+      ruSectionName: "Стандарты и регламенты: Analogical Mapping Conceptual Bridges",
+      instructions: [
+        "Apply core domain tenets for Analogical Mapping Conceptual Bridges.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Analogical Mapping Conceptual Bridges.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","analogical","mapping"],
+    }),
+  },
+
+  "education-culturally-responsive-teaching-pedagogy": {
+    id: "education-culturally-responsive-teaching-pedagogy",
+    name: "CulturallyResponsiveTeachingPedagogySkill",
+    displayName: "Culturally Responsive Teaching Pedagogy",
+    categoryId: "education",
+    description: "Connects curriculum content to diverse student cultural backgrounds and experiences.",
+    tags: ["education","education","culturally","responsive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Culturally Responsive Teaching Pedagogy Standards",
+      ruSectionName: "Стандарты и регламенты: Culturally Responsive Teaching Pedagogy",
+      instructions: [
+        "Apply core domain tenets for Culturally Responsive Teaching Pedagogy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Culturally Responsive Teaching Pedagogy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","culturally","responsive"],
+    }),
+  },
+
+  "education-interactive-science-lab-virtual-simulator": {
+    id: "education-interactive-science-lab-virtual-simulator",
+    name: "InteractiveScienceLabVirtualSimulatorSkill",
+    displayName: "Interactive Science Lab Virtual Simulator",
+    categoryId: "education",
+    description: "Guides virtual physics and chemistry experiments with parameter controls.",
+    tags: ["education","education","interactive","science"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Science Lab Virtual Simulator Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Science Lab Virtual Simulator",
+      instructions: [
+        "Apply core domain tenets for Interactive Science Lab Virtual Simulator.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Science Lab Virtual Simulator.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","interactive","science"],
+    }),
+  },
+
+  "education-authentic-assessment-real-world-portfolio": {
+    id: "education-authentic-assessment-real-world-portfolio",
+    name: "AuthenticAssessmentRealWorldPortfolioSkill",
+    displayName: "Authentic Assessment Real-World Portfolio",
+    categoryId: "education",
+    description: "Evaluates student competence through curated portfolios of authentic work.",
+    tags: ["education","education","authentic","assessment"],
+    transform: createStandardSkillTransform({
+      sectionName: "Authentic Assessment Real-World Portfolio Standards",
+      ruSectionName: "Стандарты и регламенты: Authentic Assessment Real-World Portfolio",
+      instructions: [
+        "Apply core domain tenets for Authentic Assessment Real-World Portfolio.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Authentic Assessment Real-World Portfolio.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","authentic","assessment"],
+    }),
+  },
+
+  "education-socio-emotional-learning-sel-self-awareness": {
+    id: "education-socio-emotional-learning-sel-self-awareness",
+    name: "SocioEmotionalLearningSELSelfAwarenessSkill",
+    displayName: "Socio-Emotional Learning (SEL) Self-Awareness",
+    categoryId: "education",
+    description: "Integrates emotional regulation, empathy, and relationship building into daily routines.",
+    tags: ["education","education","socio","emotional"],
+    transform: createStandardSkillTransform({
+      sectionName: "Socio-Emotional Learning (SEL) Self-Awareness Standards",
+      ruSectionName: "Стандарты и регламенты: Socio-Emotional Learning (SEL) Self-Awareness",
+      instructions: [
+        "Apply core domain tenets for Socio-Emotional Learning (SEL) Self-Awareness.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Socio-Emotional Learning (SEL) Self-Awareness.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","socio","emotional"],
+    }),
+  },
+
+  "education-jigsaw-cooperative-expert-group-learning": {
+    id: "education-jigsaw-cooperative-expert-group-learning",
+    name: "JigsawCooperativeExpertGroupLearningSkill",
+    displayName: "Jigsaw Cooperative Expert Group Learning",
+    categoryId: "education",
+    description: "Divides topics among student 'experts' who teach their section to group members.",
+    tags: ["education","education","jigsaw","cooperative"],
+    transform: createStandardSkillTransform({
+      sectionName: "Jigsaw Cooperative Expert Group Learning Standards",
+      ruSectionName: "Стандарты и регламенты: Jigsaw Cooperative Expert Group Learning",
+      instructions: [
+        "Apply core domain tenets for Jigsaw Cooperative Expert Group Learning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Jigsaw Cooperative Expert Group Learning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","jigsaw","cooperative"],
+    }),
+  },
+
+  "education-think-pair-share-collaborative-pacing": {
+    id: "education-think-pair-share-collaborative-pacing",
+    name: "ThinkPairShareCollaborativePacingSkill",
+    displayName: "Think-Pair-Share Collaborative Pacing",
+    categoryId: "education",
+    description: "Allows individual thinking time, peer discussion, and whole-class sharing.",
+    tags: ["education","education","think","pair"],
+    transform: createStandardSkillTransform({
+      sectionName: "Think-Pair-Share Collaborative Pacing Standards",
+      ruSectionName: "Стандарты и регламенты: Think-Pair-Share Collaborative Pacing",
+      instructions: [
+        "Apply core domain tenets for Think-Pair-Share Collaborative Pacing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Think-Pair-Share Collaborative Pacing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","think","pair"],
+    }),
+  },
+
+  "education-guided-note-taking-graphic-organizers": {
+    id: "education-guided-note-taking-graphic-organizers",
+    name: "GuidedNoteTakingGraphicOrganizersSkill",
+    displayName: "Guided Note-Taking Graphic Organizers",
+    categoryId: "education",
+    description: "Provides structured fill-in-the-blank outline notes to support lecture listening.",
+    tags: ["education","education","guided","note"],
+    transform: createStandardSkillTransform({
+      sectionName: "Guided Note-Taking Graphic Organizers Standards",
+      ruSectionName: "Стандарты и регламенты: Guided Note-Taking Graphic Organizers",
+      instructions: [
+        "Apply core domain tenets for Guided Note-Taking Graphic Organizers.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Guided Note-Taking Graphic Organizers.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","guided","note"],
+    }),
+  },
+
+  "education-math-concrete-representational-abstract-cra": {
+    id: "education-math-concrete-representational-abstract-cra",
+    name: "MathConcreteRepresentationalAbstractCRASkill",
+    displayName: "Math Concrete-Representational-Abstract (CRA)",
+    categoryId: "education",
+    description: "Transitions math instruction from physical blocks to visual drawings to abstract symbols.",
+    tags: ["education","education","math","concrete"],
+    transform: createStandardSkillTransform({
+      sectionName: "Math Concrete-Representational-Abstract (CRA) Standards",
+      ruSectionName: "Стандарты и регламенты: Math Concrete-Representational-Abstract (CRA)",
+      instructions: [
+        "Apply core domain tenets for Math Concrete-Representational-Abstract (CRA).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Math Concrete-Representational-Abstract (CRA).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","math","concrete"],
+    }),
+  },
+
+  "education-phonics-explicit-decodable-reading": {
+    id: "education-phonics-explicit-decodable-reading",
+    name: "PhonicsExplicitDecodableReadingSkill",
+    displayName: "Phonics Explicit Decodable Reading",
+    categoryId: "education",
+    description: "Teaches early reading through systematic phonics rules and decodable text practice.",
+    tags: ["education","education","phonics","explicit"],
+    transform: createStandardSkillTransform({
+      sectionName: "Phonics Explicit Decodable Reading Standards",
+      ruSectionName: "Стандарты и регламенты: Phonics Explicit Decodable Reading",
+      instructions: [
+        "Apply core domain tenets for Phonics Explicit Decodable Reading.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Phonics Explicit Decodable Reading.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","phonics","explicit"],
+    }),
+  },
+
+  "education-vocabulary-frayer-model-definition-grid": {
+    id: "education-vocabulary-frayer-model-definition-grid",
+    name: "VocabularyFrayerModelDefinitionGridSkill",
+    displayName: "Vocabulary Frayer Model Definition Grid",
+    categoryId: "education",
+    description: "Explores new terms via Definition, Characteristics, Examples, and Non-Examples.",
+    tags: ["education","education","vocabulary","frayer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vocabulary Frayer Model Definition Grid Standards",
+      ruSectionName: "Стандарты и регламенты: Vocabulary Frayer Model Definition Grid",
+      instructions: [
+        "Apply core domain tenets for Vocabulary Frayer Model Definition Grid.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Vocabulary Frayer Model Definition Grid.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","vocabulary","frayer"],
+    }),
+  },
+
+  "education-constructivist-knowledge-co-construction": {
+    id: "education-constructivist-knowledge-co-construction",
+    name: "ConstructivistKnowledgeCoConstructionSkill",
+    displayName: "Constructivist Knowledge Co-Construction",
+    categoryId: "education",
+    description: "Facilitates student discovery where learners actively construct their own understanding.",
+    tags: ["education","education","constructivist","knowledge"],
+    transform: createStandardSkillTransform({
+      sectionName: "Constructivist Knowledge Co-Construction Standards",
+      ruSectionName: "Стандарты и регламенты: Constructivist Knowledge Co-Construction",
+      instructions: [
+        "Apply core domain tenets for Constructivist Knowledge Co-Construction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Constructivist Knowledge Co-Construction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","constructivist","knowledge"],
+    }),
+  },
+
+  "education-scaffolded-writing-cer-claim-evidence-reasoning": {
+    id: "education-scaffolded-writing-cer-claim-evidence-reasoning",
+    name: "ScaffoldedWritingCERClaimEvidenceReasoningSkill",
+    displayName: "Scaffolded Writing CER (Claim-Evidence-Reasoning)",
+    categoryId: "education",
+    description: "Structures persuasive academic essays: Claim -> Supporting Evidence -> Reasoning.",
+    tags: ["education","education","scaffolded","writing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Scaffolded Writing CER (Claim-Evidence-Reasoning) Standards",
+      ruSectionName: "Стандарты и регламенты: Scaffolded Writing CER (Claim-Evidence-Reasoning)",
+      instructions: [
+        "Apply core domain tenets for Scaffolded Writing CER (Claim-Evidence-Reasoning).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Scaffolded Writing CER (Claim-Evidence-Reasoning).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","scaffolded","writing"],
+    }),
+  },
+
+  "education-gamified-digital-leaderboard-badge-systems": {
+    id: "education-gamified-digital-leaderboard-badge-systems",
+    name: "GamifiedDigitalLeaderboardBadgeSystemsSkill",
+    displayName: "Gamified Digital Leaderboard & Badge Systems",
+    categoryId: "education",
+    description: "Motivates student assignment completion through badges, levels, and achievements.",
+    tags: ["education","education","gamified","digital"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gamified Digital Leaderboard & Badge Systems Standards",
+      ruSectionName: "Стандарты и регламенты: Gamified Digital Leaderboard & Badge Systems",
+      instructions: [
+        "Apply core domain tenets for Gamified Digital Leaderboard & Badge Systems.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gamified Digital Leaderboard & Badge Systems.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","gamified","digital"],
+    }),
+  },
+
+  "education-special-education-individualized-education-program-iep": {
+    id: "education-special-education-individualized-education-program-iep",
+    name: "SpecialEducationIndividualizedEducationProgramIEPSkill",
+    displayName: "Special Education Individualized Education Program (IEP)",
+    categoryId: "education",
+    description: "Adapts curriculum accommodations and goals for neurodiverse special needs learners.",
+    tags: ["education","education","special","education"],
+    transform: createStandardSkillTransform({
+      sectionName: "Special Education Individualized Education Program (IEP) Standards",
+      ruSectionName: "Стандарты и регламенты: Special Education Individualized Education Program (IEP)",
+      instructions: [
+        "Apply core domain tenets for Special Education Individualized Education Program (IEP).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Special Education Individualized Education Program (IEP).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","special","education"],
+    }),
+  },
+
+  "education-english-language-learner-ell-sheltered-instruction": {
+    id: "education-english-language-learner-ell-sheltered-instruction",
+    name: "EnglishLanguageLearnerELLShelteredInstructionSkill",
+    displayName: "English Language Learner (ELL) Sheltered Instruction",
+    categoryId: "education",
+    description: "Supports non-native speakers with visual aids, sentence frames, and simplified syntax.",
+    tags: ["education","education","english","language"],
+    transform: createStandardSkillTransform({
+      sectionName: "English Language Learner (ELL) Sheltered Instruction Standards",
+      ruSectionName: "Стандарты и регламенты: English Language Learner (ELL) Sheltered Instruction",
+      instructions: [
+        "Apply core domain tenets for English Language Learner (ELL) Sheltered Instruction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для English Language Learner (ELL) Sheltered Instruction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","english","language"],
+    }),
+  },
+
+  "education-mastery-based-standards-grading-scale": {
+    id: "education-mastery-based-standards-grading-scale",
+    name: "MasteryBasedStandardsGradingScaleSkill",
+    displayName: "Mastery-Based Standards Grading Scale",
+    categoryId: "education",
+    description: "Grades student work against standards mastery rather than points-based homework completion.",
+    tags: ["education","education","mastery","based"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mastery-Based Standards Grading Scale Standards",
+      ruSectionName: "Стандарты и регламенты: Mastery-Based Standards Grading Scale",
+      instructions: [
+        "Apply core domain tenets for Mastery-Based Standards Grading Scale.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Mastery-Based Standards Grading Scale.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","mastery","based"],
+    }),
+  },
+
+  "education-flipped-classroom-pre-class-video-quiz": {
+    id: "education-flipped-classroom-pre-class-video-quiz",
+    name: "FlippedClassroomPreClassVideoQuizSkill",
+    displayName: "Flipped Classroom Pre-Class Video Quiz",
+    categoryId: "education",
+    description: "Checks pre-class video comprehension with 3 quick check-in questions before class.",
+    tags: ["education","education","flipped","classroom"],
+    transform: createStandardSkillTransform({
+      sectionName: "Flipped Classroom Pre-Class Video Quiz Standards",
+      ruSectionName: "Стандарты и регламенты: Flipped Classroom Pre-Class Video Quiz",
+      instructions: [
+        "Apply core domain tenets for Flipped Classroom Pre-Class Video Quiz.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Flipped Classroom Pre-Class Video Quiz.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","flipped","classroom"],
+    }),
+  },
+
+  "education-case-based-clinical-medical-education": {
+    id: "education-case-based-clinical-medical-education",
+    name: "CaseBasedClinicalMedicalEducationSkill",
+    displayName: "Case-Based Clinical Medical Education",
+    categoryId: "education",
+    description: "Guides medical students through patient diagnostic case studies and differential reasoning.",
+    tags: ["education","education","case","based"],
+    transform: createStandardSkillTransform({
+      sectionName: "Case-Based Clinical Medical Education Standards",
+      ruSectionName: "Стандарты и регламенты: Case-Based Clinical Medical Education",
+      instructions: [
+        "Apply core domain tenets for Case-Based Clinical Medical Education.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Case-Based Clinical Medical Education.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","case","based"],
+    }),
+  },
+
+  "education-executive-function-time-management-coaching": {
+    id: "education-executive-function-time-management-coaching",
+    name: "ExecutiveFunctionTimeManagementCoachingSkill",
+    displayName: "Executive Function Time Management Coaching",
+    categoryId: "education",
+    description: "Teaches students how to break large term papers into manageable daily tasks.",
+    tags: ["education","education","executive","function"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Function Time Management Coaching Standards",
+      ruSectionName: "Стандарты и регламенты: Executive Function Time Management Coaching",
+      instructions: [
+        "Apply core domain tenets for Executive Function Time Management Coaching.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Executive Function Time Management Coaching.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","executive","function"],
+    }),
+  },
+
+  "education-design-thinking-k-12-innovation-challenge": {
+    id: "education-design-thinking-k-12-innovation-challenge",
+    name: "DesignThinkingK12InnovationChallengeSkill",
+    displayName: "Design Thinking K-12 Innovation Challenge",
+    categoryId: "education",
+    description: "Guides middle school students through design thinking projects to solve community problems.",
+    tags: ["education","education","design","thinking"],
+    transform: createStandardSkillTransform({
+      sectionName: "Design Thinking K-12 Innovation Challenge Standards",
+      ruSectionName: "Стандарты и регламенты: Design Thinking K-12 Innovation Challenge",
+      instructions: [
+        "Apply core domain tenets for Design Thinking K-12 Innovation Challenge.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Design Thinking K-12 Innovation Challenge.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","design","thinking"],
+    }),
+  },
+
+  "education-interactive-coding-playground-auto-grader": {
+    id: "education-interactive-coding-playground-auto-grader",
+    name: "InteractiveCodingPlaygroundAutoGraderSkill",
+    displayName: "Interactive Coding Playground Auto-Grader",
+    categoryId: "education",
+    description: "Provides instant feedback on coding exercises with automated test suite checks.",
+    tags: ["education","education","interactive","coding"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Coding Playground Auto-Grader Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Coding Playground Auto-Grader",
+      instructions: [
+        "Apply core domain tenets for Interactive Coding Playground Auto-Grader.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Coding Playground Auto-Grader.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","interactive","coding"],
+    }),
+  },
+
+  "education-peer-to-peer-essay-review-protocol": {
+    id: "education-peer-to-peer-essay-review-protocol",
+    name: "PeertoPeerEssayReviewProtocolSkill",
+    displayName: "Peer-to-Peer Essay Review Protocol",
+    categoryId: "education",
+    description: "Structures constructive peer writing reviews using rubric checklists.",
+    tags: ["education","education","peer","to"],
+    transform: createStandardSkillTransform({
+      sectionName: "Peer-to-Peer Essay Review Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Peer-to-Peer Essay Review Protocol",
+      instructions: [
+        "Apply core domain tenets for Peer-to-Peer Essay Review Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Peer-to-Peer Essay Review Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","peer","to"],
+    }),
+  },
+
+  "education-socratic-method-legal-case-dialogue": {
+    id: "education-socratic-method-legal-case-dialogue",
+    name: "SocraticMethodLegalCaseDialogueSkill",
+    displayName: "Socratic Method Legal Case Dialogue",
+    categoryId: "education",
+    description: "Guides law students through cold-call questioning on landmark legal precedents.",
+    tags: ["education","education","socratic","method"],
+    transform: createStandardSkillTransform({
+      sectionName: "Socratic Method Legal Case Dialogue Standards",
+      ruSectionName: "Стандарты и регламенты: Socratic Method Legal Case Dialogue",
+      instructions: [
+        "Apply core domain tenets for Socratic Method Legal Case Dialogue.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Socratic Method Legal Case Dialogue.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","socratic","method"],
+    }),
+  },
+
+  "education-project-based-science-fair-research-milestone": {
+    id: "education-project-based-science-fair-research-milestone",
+    name: "ProjectBasedScienceFairResearchMilestoneSkill",
+    displayName: "Project-Based Science Fair Research Milestone",
+    categoryId: "education",
+    description: "Scaffolds science fair projects from question to variable control and poster presentation.",
+    tags: ["education","education","project","based"],
+    transform: createStandardSkillTransform({
+      sectionName: "Project-Based Science Fair Research Milestone Standards",
+      ruSectionName: "Стандарты и регламенты: Project-Based Science Fair Research Milestone",
+      instructions: [
+        "Apply core domain tenets for Project-Based Science Fair Research Milestone.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Project-Based Science Fair Research Milestone.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","project","based"],
+    }),
+  },
+
+  "education-early-childhood-play-based-learning-exploration": {
+    id: "education-early-childhood-play-based-learning-exploration",
+    name: "EarlyChildhoodPlayBasedLearningExplorationSkill",
+    displayName: "Early Childhood Play-Based Learning Exploration",
+    categoryId: "education",
+    description: "Fosters early cognitive development through structured sensory play and discovery.",
+    tags: ["education","education","early","childhood"],
+    transform: createStandardSkillTransform({
+      sectionName: "Early Childhood Play-Based Learning Exploration Standards",
+      ruSectionName: "Стандарты и регламенты: Early Childhood Play-Based Learning Exploration",
+      instructions: [
+        "Apply core domain tenets for Early Childhood Play-Based Learning Exploration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Early Childhood Play-Based Learning Exploration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","early","childhood"],
+    }),
+  },
+
+  "education-adult-learning-theory-andragogy-self-direction": {
+    id: "education-adult-learning-theory-andragogy-self-direction",
+    name: "AdultLearningTheoryAndragogySelfDirectionSkill",
+    displayName: "Adult Learning Theory (Andragogy) Self-Direction",
+    categoryId: "education",
+    description: "Designs adult professional training focused on immediate practical application.",
+    tags: ["education","education","adult","learning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Adult Learning Theory (Andragogy) Self-Direction Standards",
+      ruSectionName: "Стандарты и регламенты: Adult Learning Theory (Andragogy) Self-Direction",
+      instructions: [
+        "Apply core domain tenets for Adult Learning Theory (Andragogy) Self-Direction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Adult Learning Theory (Andragogy) Self-Direction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","adult","learning"],
+    }),
+  },
+
+  "education-blended-learning-station-rotation-model": {
+    id: "education-blended-learning-station-rotation-model",
+    name: "BlendedLearningStationRotationModelSkill",
+    displayName: "Blended Learning Station Rotation Model",
+    categoryId: "education",
+    description: "Rotates students between teacher instruction, online learning, and small group work.",
+    tags: ["education","education","blended","learning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blended Learning Station Rotation Model Standards",
+      ruSectionName: "Стандарты и регламенты: Blended Learning Station Rotation Model",
+      instructions: [
+        "Apply core domain tenets for Blended Learning Station Rotation Model.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Blended Learning Station Rotation Model.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","blended","learning"],
+    }),
+  },
+
+  "education-executive-summary-study-guide-synthesis": {
+    id: "education-executive-summary-study-guide-synthesis",
+    name: "ExecutiveSummaryStudyGuideSynthesisSkill",
+    displayName: "Executive Summary Study Guide Synthesis",
+    categoryId: "education",
+    description: "Summarizes textbook chapters into high-density 2-page exam study guides.",
+    tags: ["education","education","executive","summary"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Summary Study Guide Synthesis Standards",
+      ruSectionName: "Стандарты и регламенты: Executive Summary Study Guide Synthesis",
+      instructions: [
+        "Apply core domain tenets for Executive Summary Study Guide Synthesis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Executive Summary Study Guide Synthesis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","executive","summary"],
+    }),
+  },
+
+  "education-interactive-geometry-proof-construction": {
+    id: "education-interactive-geometry-proof-construction",
+    name: "InteractiveGeometryProofConstructionSkill",
+    displayName: "Interactive Geometry Proof Construction",
+    categoryId: "education",
+    description: "Guides students through step-by-step geometric proofs with logical justifications.",
+    tags: ["education","education","interactive","geometry"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Geometry Proof Construction Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Geometry Proof Construction",
+      instructions: [
+        "Apply core domain tenets for Interactive Geometry Proof Construction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Geometry Proof Construction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","interactive","geometry"],
+    }),
+  },
+
+  "education-gamified-reading-comprehension-quest": {
+    id: "education-gamified-reading-comprehension-quest",
+    name: "GamifiedReadingComprehensionQuestSkill",
+    displayName: "Gamified Reading Comprehension Quest",
+    categoryId: "education",
+    description: "Turns chapter reading into interactive story quests with decision choices.",
+    tags: ["education","education","gamified","reading"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gamified Reading Comprehension Quest Standards",
+      ruSectionName: "Стандарты и регламенты: Gamified Reading Comprehension Quest",
+      instructions: [
+        "Apply core domain tenets for Gamified Reading Comprehension Quest.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gamified Reading Comprehension Quest.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","gamified","reading"],
+    }),
+  },
+
+  "education-stem-robotics-engineering-challenge": {
+    id: "education-stem-robotics-engineering-challenge",
+    name: "STEMRoboticsEngineeringChallengeSkill",
+    displayName: "STEM Robotics Engineering Challenge",
+    categoryId: "education",
+    description: "Scaffolds robotics building and programming challenges for middle school teams.",
+    tags: ["education","education","stem","robotics"],
+    transform: createStandardSkillTransform({
+      sectionName: "STEM Robotics Engineering Challenge Standards",
+      ruSectionName: "Стандарты и регламенты: STEM Robotics Engineering Challenge",
+      instructions: [
+        "Apply core domain tenets for STEM Robotics Engineering Challenge.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для STEM Robotics Engineering Challenge.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","stem","robotics"],
+    }),
+  },
+
+  "education-universal-primary-source-document-analysis": {
+    id: "education-universal-primary-source-document-analysis",
+    name: "UniversalPrimarySourceDocumentAnalysisSkill",
+    displayName: "Universal Primary Source Document Analysis",
+    categoryId: "education",
+    description: "Guides history students to analyze primary sources for bias, context, and intent.",
+    tags: ["education","education","universal","primary"],
+    transform: createStandardSkillTransform({
+      sectionName: "Universal Primary Source Document Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Universal Primary Source Document Analysis",
+      instructions: [
+        "Apply core domain tenets for Universal Primary Source Document Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Universal Primary Source Document Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","universal","primary"],
+    }),
+  },
+
+  "education-calculus-visual-derivative-rate-of-change": {
+    id: "education-calculus-visual-derivative-rate-of-change",
+    name: "CalculusVisualDerivativeRateofChangeSkill",
+    displayName: "Calculus Visual Derivative Rate-of-Change",
+    categoryId: "education",
+    description: "Teaches calculus derivatives visually using secant line slope approximations.",
+    tags: ["education","education","calculus","visual"],
+    transform: createStandardSkillTransform({
+      sectionName: "Calculus Visual Derivative Rate-of-Change Standards",
+      ruSectionName: "Стандарты и регламенты: Calculus Visual Derivative Rate-of-Change",
+      instructions: [
+        "Apply core domain tenets for Calculus Visual Derivative Rate-of-Change.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Calculus Visual Derivative Rate-of-Change.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","calculus","visual"],
+    }),
+  },
+
+  "education-computer-science-algorithmic-thinking-unplugged": {
+    id: "education-computer-science-algorithmic-thinking-unplugged",
+    name: "ComputerScienceAlgorithmicThinkingunpluggedSkill",
+    displayName: "Computer Science Algorithmic Thinking unplugged",
+    categoryId: "education",
+    description: "Teaches sorting and searching algorithms using physical cards and unplugged activities.",
+    tags: ["education","education","computer","science"],
+    transform: createStandardSkillTransform({
+      sectionName: "Computer Science Algorithmic Thinking unplugged Standards",
+      ruSectionName: "Стандарты и регламенты: Computer Science Algorithmic Thinking unplugged",
+      instructions: [
+        "Apply core domain tenets for Computer Science Algorithmic Thinking unplugged.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Computer Science Algorithmic Thinking unplugged.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","computer","science"],
+    }),
+  },
+
+  "education-music-theory-sight-reading-solfege": {
+    id: "education-music-theory-sight-reading-solfege",
+    name: "MusicTheorySightReadingSolfegeSkill",
+    displayName: "Music Theory Sight-Reading & Solfege",
+    categoryId: "education",
+    description: "Scaffolds musical sight-reading skills through solfege hand signs and rhythm exercises.",
+    tags: ["education","education","music","theory"],
+    transform: createStandardSkillTransform({
+      sectionName: "Music Theory Sight-Reading & Solfege Standards",
+      ruSectionName: "Стандарты и регламенты: Music Theory Sight-Reading & Solfege",
+      instructions: [
+        "Apply core domain tenets for Music Theory Sight-Reading & Solfege.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Music Theory Sight-Reading & Solfege.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","music","theory"],
+    }),
+  },
+
+  "education-art-history-visual-thinking-strategy-vts": {
+    id: "education-art-history-visual-thinking-strategy-vts",
+    name: "ArtHistoryVisualThinkingStrategyVTSSkill",
+    displayName: "Art History Visual Thinking Strategy (VTS)",
+    categoryId: "education",
+    description: "Facilitates open-ended group discussion of artwork: 'What's going on in this picture?'.",
+    tags: ["education","education","art","history"],
+    transform: createStandardSkillTransform({
+      sectionName: "Art History Visual Thinking Strategy (VTS) Standards",
+      ruSectionName: "Стандарты и регламенты: Art History Visual Thinking Strategy (VTS)",
+      instructions: [
+        "Apply core domain tenets for Art History Visual Thinking Strategy (VTS).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Art History Visual Thinking Strategy (VTS).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","art","history"],
+    }),
+  },
+
+  "education-physical-education-motor-skill-progression": {
+    id: "education-physical-education-motor-skill-progression",
+    name: "PhysicalEducationMotorSkillProgressionSkill",
+    displayName: "Physical Education Motor Skill Progression",
+    categoryId: "education",
+    description: "Breaks complex athletic movements (throwing, jumping) into developmental phases.",
+    tags: ["education","education","physical","education"],
+    transform: createStandardSkillTransform({
+      sectionName: "Physical Education Motor Skill Progression Standards",
+      ruSectionName: "Стандарты и регламенты: Physical Education Motor Skill Progression",
+      instructions: [
+        "Apply core domain tenets for Physical Education Motor Skill Progression.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Physical Education Motor Skill Progression.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","physical","education"],
+    }),
+  },
+
+  "education-chemistry-molecular-model-building-lab": {
+    id: "education-chemistry-molecular-model-building-lab",
+    name: "ChemistryMolecularModelBuildingLabSkill",
+    displayName: "Chemistry Molecular Model Building Lab",
+    categoryId: "education",
+    description: "Teaches chemical bonding and VSEPR geometry using 3D physical model kits.",
+    tags: ["education","education","chemistry","molecular"],
+    transform: createStandardSkillTransform({
+      sectionName: "Chemistry Molecular Model Building Lab Standards",
+      ruSectionName: "Стандарты и регламенты: Chemistry Molecular Model Building Lab",
+      instructions: [
+        "Apply core domain tenets for Chemistry Molecular Model Building Lab.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Chemistry Molecular Model Building Lab.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","chemistry","molecular"],
+    }),
+  },
+
+  "education-foreign-language-immersion-conversation": {
+    id: "education-foreign-language-immersion-conversation",
+    name: "ForeignLanguageImmersionConversationSkill",
+    displayName: "Foreign Language Immersion Conversation",
+    categoryId: "education",
+    description: "Conducts target language practice using gestures, visuals, and 90%+ immersion.",
+    tags: ["education","education","foreign","language"],
+    transform: createStandardSkillTransform({
+      sectionName: "Foreign Language Immersion Conversation Standards",
+      ruSectionName: "Стандарты и регламенты: Foreign Language Immersion Conversation",
+      instructions: [
+        "Apply core domain tenets for Foreign Language Immersion Conversation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Foreign Language Immersion Conversation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","foreign","language"],
+    }),
+  },
+
+  "education-financial-literacy-budgeting-compound-interest": {
+    id: "education-financial-literacy-budgeting-compound-interest",
+    name: "FinancialLiteracyBudgetingCompoundInterestSkill",
+    displayName: "Financial Literacy Budgeting & Compound Interest",
+    categoryId: "education",
+    description: "Teaches high school students personal budgeting, credit card math, and investing.",
+    tags: ["education","education","financial","literacy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Financial Literacy Budgeting & Compound Interest Standards",
+      ruSectionName: "Стандарты и регламенты: Financial Literacy Budgeting & Compound Interest",
+      instructions: [
+        "Apply core domain tenets for Financial Literacy Budgeting & Compound Interest.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Financial Literacy Budgeting & Compound Interest.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","financial","literacy"],
+    }),
+  },
+
+  "education-environmental-science-eco-system-simulation": {
+    id: "education-environmental-science-eco-system-simulation",
+    name: "EnvironmentalScienceEcoSystemSimulationSkill",
+    displayName: "Environmental Science Eco-System Simulation",
+    categoryId: "education",
+    description: "Simulates food web predator-prey dynamics and ecological population balance.",
+    tags: ["education","education","environmental","science"],
+    transform: createStandardSkillTransform({
+      sectionName: "Environmental Science Eco-System Simulation Standards",
+      ruSectionName: "Стандарты и регламенты: Environmental Science Eco-System Simulation",
+      instructions: [
+        "Apply core domain tenets for Environmental Science Eco-System Simulation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Environmental Science Eco-System Simulation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","environmental","science"],
+    }),
+  },
+
+  "education-geography-spatial-map-layering-skills": {
+    id: "education-geography-spatial-map-layering-skills",
+    name: "GeographySpatialMapLayeringSkillsSkill",
+    displayName: "Geography Spatial Map Layering Skills",
+    categoryId: "education",
+    description: "Teaches GIS map reading, topographic elevation lines, and spatial analysis.",
+    tags: ["education","education","geography","spatial"],
+    transform: createStandardSkillTransform({
+      sectionName: "Geography Spatial Map Layering Skills Standards",
+      ruSectionName: "Стандарты и регламенты: Geography Spatial Map Layering Skills",
+      instructions: [
+        "Apply core domain tenets for Geography Spatial Map Layering Skills.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Geography Spatial Map Layering Skills.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","geography","spatial"],
+    }),
+  },
+
+  "education-psychology-behavioral-conditioning-lab": {
+    id: "education-psychology-behavioral-conditioning-lab",
+    name: "PsychologyBehavioralConditioningLabSkill",
+    displayName: "Psychology Behavioral Conditioning Lab",
+    categoryId: "education",
+    description: "Demonstrates classical and operant conditioning principles through interactive examples.",
+    tags: ["education","education","psychology","behavioral"],
+    transform: createStandardSkillTransform({
+      sectionName: "Psychology Behavioral Conditioning Lab Standards",
+      ruSectionName: "Стандарты и регламенты: Psychology Behavioral Conditioning Lab",
+      instructions: [
+        "Apply core domain tenets for Psychology Behavioral Conditioning Lab.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Psychology Behavioral Conditioning Lab.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","psychology","behavioral"],
+    }),
+  },
+
+  "education-debate-club-argumentation-refutation": {
+    id: "education-debate-club-argumentation-refutation",
+    name: "DebateClubArgumentationRefutationSkill",
+    displayName: "Debate Club Argumentation & Refutation",
+    categoryId: "education",
+    description: "Trains high school debate teams in constructing arguments, evidence, and cross-examination.",
+    tags: ["education","education","debate","club"],
+    transform: createStandardSkillTransform({
+      sectionName: "Debate Club Argumentation & Refutation Standards",
+      ruSectionName: "Стандарты и регламенты: Debate Club Argumentation & Refutation",
+      instructions: [
+        "Apply core domain tenets for Debate Club Argumentation & Refutation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Debate Club Argumentation & Refutation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","debate","club"],
+    }),
+  },
+
+  "education-creative-writing-story-arc-workshop": {
+    id: "education-creative-writing-story-arc-workshop",
+    name: "CreativeWritingStoryArcWorkshopSkill",
+    displayName: "Creative Writing Story Arc Workshop",
+    categoryId: "education",
+    description: "Guides young writers to develop character motivations, inciting incidents, and climaxes.",
+    tags: ["education","education","creative","writing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Creative Writing Story Arc Workshop Standards",
+      ruSectionName: "Стандарты и регламенты: Creative Writing Story Arc Workshop",
+      instructions: [
+        "Apply core domain tenets for Creative Writing Story Arc Workshop.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Creative Writing Story Arc Workshop.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","creative","writing"],
+    }),
+  },
+
+  "education-philosophy-ethics-thought-experiment-circle": {
+    id: "education-philosophy-ethics-thought-experiment-circle",
+    name: "PhilosophyEthicsThoughtExperimentCircleSkill",
+    displayName: "Philosophy Ethics Thought Experiment Circle",
+    categoryId: "education",
+    description: "Facilitates student discussions of ethical dilemmas (Trolley Problem, Experience Machine).",
+    tags: ["education","education","philosophy","ethics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Philosophy Ethics Thought Experiment Circle Standards",
+      ruSectionName: "Стандарты и регламенты: Philosophy Ethics Thought Experiment Circle",
+      instructions: [
+        "Apply core domain tenets for Philosophy Ethics Thought Experiment Circle.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Philosophy Ethics Thought Experiment Circle.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","philosophy","ethics"],
+    }),
+  },
+
+  "education-microbiology-bacterial-culture-staining-lab": {
+    id: "education-microbiology-bacterial-culture-staining-lab",
+    name: "MicrobiologyBacterialCultureStainingLabSkill",
+    displayName: "Microbiology Bacterial Culture & Staining Lab",
+    categoryId: "education",
+    description: "Teaches sterile lab techniques, Gram staining, and microscope identification.",
+    tags: ["education","education","microbiology","bacterial"],
+    transform: createStandardSkillTransform({
+      sectionName: "Microbiology Bacterial Culture & Staining Lab Standards",
+      ruSectionName: "Стандарты и регламенты: Microbiology Bacterial Culture & Staining Lab",
+      instructions: [
+        "Apply core domain tenets for Microbiology Bacterial Culture & Staining Lab.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Microbiology Bacterial Culture & Staining Lab.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","microbiology","bacterial"],
+    }),
+  },
+
+  "education-physics-kinematics-motion-graphing": {
+    id: "education-physics-kinematics-motion-graphing",
+    name: "PhysicsKinematicsMotionGraphingSkill",
+    displayName: "Physics Kinematics Motion Graphing",
+    categoryId: "education",
+    description: "Connects physical toy car motion to position-time and velocity-time graphs.",
+    tags: ["education","education","physics","kinematics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Physics Kinematics Motion Graphing Standards",
+      ruSectionName: "Стандарты и регламенты: Physics Kinematics Motion Graphing",
+      instructions: [
+        "Apply core domain tenets for Physics Kinematics Motion Graphing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Physics Kinematics Motion Graphing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","physics","kinematics"],
+    }),
+  },
+
+  "education-civics-government-mock-trial-simulation": {
+    id: "education-civics-government-mock-trial-simulation",
+    name: "CivicsGovernmentMockTrialSimulationSkill",
+    displayName: "Civics & Government Mock Trial Simulation",
+    categoryId: "education",
+    description: "Immerses students in court trial roles: attorneys, witnesses, and jury members.",
+    tags: ["education","education","civics","government"],
+    transform: createStandardSkillTransform({
+      sectionName: "Civics & Government Mock Trial Simulation Standards",
+      ruSectionName: "Стандарты и регламенты: Civics & Government Mock Trial Simulation",
+      instructions: [
+        "Apply core domain tenets for Civics & Government Mock Trial Simulation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Civics & Government Mock Trial Simulation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","civics","government"],
+    }),
+  },
+
+  "education-data-literacy-chart-reading-misleading-graphs": {
+    id: "education-data-literacy-chart-reading-misleading-graphs",
+    name: "DataLiteracyChartReadingMisleadingGraphsSkill",
+    displayName: "Data Literacy Chart Reading & Misleading Graphs",
+    categoryId: "education",
+    description: "Teaches students how to spot manipulated Y-axes and misleading data visualizations.",
+    tags: ["education","education","data","literacy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Data Literacy Chart Reading & Misleading Graphs Standards",
+      ruSectionName: "Стандарты и регламенты: Data Literacy Chart Reading & Misleading Graphs",
+      instructions: [
+        "Apply core domain tenets for Data Literacy Chart Reading & Misleading Graphs.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Data Literacy Chart Reading & Misleading Graphs.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","data","literacy"],
+    }),
+  },
+
+  "education-mindfulness-brain-break-stress-reduction": {
+    id: "education-mindfulness-brain-break-stress-reduction",
+    name: "MindfulnessBrainBreakStressReductionSkill",
+    displayName: "Mindfulness & Brain Break Stress Reduction",
+    categoryId: "education",
+    description: "Leads short 2-minute breathing exercises before high-stakes exams to reduce anxiety.",
+    tags: ["education","education","mindfulness","brain"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mindfulness & Brain Break Stress Reduction Standards",
+      ruSectionName: "Стандарты и регламенты: Mindfulness & Brain Break Stress Reduction",
+      instructions: [
+        "Apply core domain tenets for Mindfulness & Brain Break Stress Reduction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Mindfulness & Brain Break Stress Reduction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","mindfulness","brain"],
+    }),
+  },
+
+  "education-peer-study-group-facilitation-guide": {
+    id: "education-peer-study-group-facilitation-guide",
+    name: "PeerStudyGroupFacilitationGuideSkill",
+    displayName: "Peer Study Group Facilitation Guide",
+    categoryId: "education",
+    description: "Provides student study groups with structured agendas and practice question sets.",
+    tags: ["education","education","peer","study"],
+    transform: createStandardSkillTransform({
+      sectionName: "Peer Study Group Facilitation Guide Standards",
+      ruSectionName: "Стандарты и регламенты: Peer Study Group Facilitation Guide",
+      instructions: [
+        "Apply core domain tenets for Peer Study Group Facilitation Guide.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Peer Study Group Facilitation Guide.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","peer","study"],
+    }),
+  },
+
+  "education-holistic-teacher-professional-development-workshop": {
+    id: "education-holistic-teacher-professional-development-workshop",
+    name: "HolisticTeacherProfessionalDevelopmentWorkshopSkill",
+    displayName: "Holistic Teacher Professional Development Workshop",
+    categoryId: "education",
+    description: "Trains educators on innovative classroom management and instructional tech.",
+    tags: ["education","education","holistic","teacher"],
+    transform: createStandardSkillTransform({
+      sectionName: "Holistic Teacher Professional Development Workshop Standards",
+      ruSectionName: "Стандарты и регламенты: Holistic Teacher Professional Development Workshop",
+      instructions: [
+        "Apply core domain tenets for Holistic Teacher Professional Development Workshop.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Holistic Teacher Professional Development Workshop.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","holistic","teacher"],
+    }),
+  },
+
+  "education-comprehensive-pedagogy-instructional-excellence-constitution": {
+    id: "education-comprehensive-pedagogy-instructional-excellence-constitution",
+    name: "ComprehensivePedagogyInstructionalExcellenceConstitutionSkill",
+    displayName: "Comprehensive Pedagogy & Instructional Excellence Constitution",
+    categoryId: "education",
+    description: "Enforces world-class educational scaffolding, Bloom taxonomy, and active learning.",
+    tags: ["education","education","comprehensive","pedagogy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comprehensive Pedagogy & Instructional Excellence Constitution Standards",
+      ruSectionName: "Стандарты и регламенты: Comprehensive Pedagogy & Instructional Excellence Constitution",
+      instructions: [
+        "Apply core domain tenets for Comprehensive Pedagogy & Instructional Excellence Constitution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comprehensive Pedagogy & Instructional Excellence Constitution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","comprehensive","pedagogy"],
+    }),
+  },
+
+  "education-education-skill-90": {
+    id: "education-education-skill-90",
+    name: "educationSkill90Skill",
+    displayName: "education Skill 90",
+    categoryId: "education",
+    description: "Applies advanced education Skill 90 standards and execution patterns.",
+    tags: ["education","education","education","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "education Skill 90 Standards",
+      ruSectionName: "Стандарты и регламенты: education Skill 90",
+      instructions: [
+        "Apply core domain tenets for education Skill 90.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для education Skill 90.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education","education","skill"],
+    }),
+  },
+  "education-topup-socratic-method-legal-case-briefing-dialogue": {
+    id: "education-topup-socratic-method-legal-case-briefing-dialogue",
+    name: "SocraticMethodLegalCaseBriefingDialogueSkill",
+    displayName: "Socratic Method Legal Case Briefing Dialogue",
+    categoryId: "education",
+    description: "Guides law students through cold-call questioning on landmark precedents.",
+    tags: ["education","education-topup","topup","socratic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Socratic Method Legal Case Briefing Dialogue Standards",
+      ruSectionName: "Стандарты и регламенты: Socratic Method Legal Case Briefing Dialogue",
+      instructions: [
+        "Apply core domain tenets for Socratic Method Legal Case Briefing Dialogue.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Socratic Method Legal Case Briefing Dialogue.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","socratic"],
+    }),
+  },
+
+  "education-topup-project-based-science-fair-research-milestone": {
+    id: "education-topup-project-based-science-fair-research-milestone",
+    name: "ProjectBasedScienceFairResearchMilestoneSkill",
+    displayName: "Project-Based Science Fair Research Milestone",
+    categoryId: "education",
+    description: "Scaffolds science fair projects from question to variable control and poster.",
+    tags: ["education","education-topup","topup","project"],
+    transform: createStandardSkillTransform({
+      sectionName: "Project-Based Science Fair Research Milestone Standards",
+      ruSectionName: "Стандарты и регламенты: Project-Based Science Fair Research Milestone",
+      instructions: [
+        "Apply core domain tenets for Project-Based Science Fair Research Milestone.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Project-Based Science Fair Research Milestone.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","project"],
+    }),
+  },
+
+  "education-topup-early-childhood-play-based-sensory-discovery": {
+    id: "education-topup-early-childhood-play-based-sensory-discovery",
+    name: "EarlyChildhoodPlayBasedSensoryDiscoverySkill",
+    displayName: "Early Childhood Play-Based Sensory Discovery",
+    categoryId: "education",
+    description: "Fosters early cognitive development through structured sensory play and discovery.",
+    tags: ["education","education-topup","topup","early"],
+    transform: createStandardSkillTransform({
+      sectionName: "Early Childhood Play-Based Sensory Discovery Standards",
+      ruSectionName: "Стандарты и регламенты: Early Childhood Play-Based Sensory Discovery",
+      instructions: [
+        "Apply core domain tenets for Early Childhood Play-Based Sensory Discovery.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Early Childhood Play-Based Sensory Discovery.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","early"],
+    }),
+  },
+
+  "education-topup-adult-learning-theory-andragogy-self-direction": {
+    id: "education-topup-adult-learning-theory-andragogy-self-direction",
+    name: "AdultLearningTheoryAndragogySelfDirectionSkill",
+    displayName: "Adult Learning Theory (Andragogy) Self-Direction",
+    categoryId: "education",
+    description: "Designs adult professional training focused on immediate practical application.",
+    tags: ["education","education-topup","topup","adult"],
+    transform: createStandardSkillTransform({
+      sectionName: "Adult Learning Theory (Andragogy) Self-Direction Standards",
+      ruSectionName: "Стандарты и регламенты: Adult Learning Theory (Andragogy) Self-Direction",
+      instructions: [
+        "Apply core domain tenets for Adult Learning Theory (Andragogy) Self-Direction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Adult Learning Theory (Andragogy) Self-Direction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","adult"],
+    }),
+  },
+
+  "education-topup-blended-learning-station-rotation-model": {
+    id: "education-topup-blended-learning-station-rotation-model",
+    name: "BlendedLearningStationRotationModelSkill",
+    displayName: "Blended Learning Station Rotation Model",
+    categoryId: "education",
+    description: "Rotates students between teacher instruction, online learning, and small group work.",
+    tags: ["education","education-topup","topup","blended"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blended Learning Station Rotation Model Standards",
+      ruSectionName: "Стандарты и регламенты: Blended Learning Station Rotation Model",
+      instructions: [
+        "Apply core domain tenets for Blended Learning Station Rotation Model.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Blended Learning Station Rotation Model.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","blended"],
+    }),
+  },
+
+  "education-topup-executive-summary-study-guide-exam-prep": {
+    id: "education-topup-executive-summary-study-guide-exam-prep",
+    name: "ExecutiveSummaryStudyGuideExamPrepSkill",
+    displayName: "Executive Summary Study Guide Exam Prep",
+    categoryId: "education",
+    description: "Summarizes textbook chapters into high-density 2-page exam study guides.",
+    tags: ["education","education-topup","topup","executive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Summary Study Guide Exam Prep Standards",
+      ruSectionName: "Стандарты и регламенты: Executive Summary Study Guide Exam Prep",
+      instructions: [
+        "Apply core domain tenets for Executive Summary Study Guide Exam Prep.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Executive Summary Study Guide Exam Prep.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","executive"],
+    }),
+  },
+
+  "education-topup-interactive-geometry-proof-construction": {
+    id: "education-topup-interactive-geometry-proof-construction",
+    name: "InteractiveGeometryProofConstructionSkill",
+    displayName: "Interactive Geometry Proof Construction",
+    categoryId: "education",
+    description: "Guides students through step-by-step geometric proofs with logical justifications.",
+    tags: ["education","education-topup","topup","interactive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Geometry Proof Construction Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Geometry Proof Construction",
+      instructions: [
+        "Apply core domain tenets for Interactive Geometry Proof Construction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Geometry Proof Construction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","interactive"],
+    }),
+  },
+
+  "education-topup-gamified-reading-comprehension-quest": {
+    id: "education-topup-gamified-reading-comprehension-quest",
+    name: "GamifiedReadingComprehensionQuestSkill",
+    displayName: "Gamified Reading Comprehension Quest",
+    categoryId: "education",
+    description: "Turns chapter reading into interactive story quests with decision choices.",
+    tags: ["education","education-topup","topup","gamified"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gamified Reading Comprehension Quest Standards",
+      ruSectionName: "Стандарты и регламенты: Gamified Reading Comprehension Quest",
+      instructions: [
+        "Apply core domain tenets for Gamified Reading Comprehension Quest.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gamified Reading Comprehension Quest.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","gamified"],
+    }),
+  },
+
+  "education-topup-stem-robotics-engineering-challenge": {
+    id: "education-topup-stem-robotics-engineering-challenge",
+    name: "STEMRoboticsEngineeringChallengeSkill",
+    displayName: "STEM Robotics Engineering Challenge",
+    categoryId: "education",
+    description: "Scaffolds robotics building and programming challenges for middle school teams.",
+    tags: ["education","education-topup","topup","stem"],
+    transform: createStandardSkillTransform({
+      sectionName: "STEM Robotics Engineering Challenge Standards",
+      ruSectionName: "Стандарты и регламенты: STEM Robotics Engineering Challenge",
+      instructions: [
+        "Apply core domain tenets for STEM Robotics Engineering Challenge.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для STEM Robotics Engineering Challenge.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","stem"],
+    }),
+  },
+
+  "education-topup-universal-primary-source-document-analysis": {
+    id: "education-topup-universal-primary-source-document-analysis",
+    name: "UniversalPrimarySourceDocumentAnalysisSkill",
+    displayName: "Universal Primary Source Document Analysis",
+    categoryId: "education",
+    description: "Guides history students to analyze primary sources for bias, context, and intent.",
+    tags: ["education","education-topup","topup","universal"],
+    transform: createStandardSkillTransform({
+      sectionName: "Universal Primary Source Document Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Universal Primary Source Document Analysis",
+      instructions: [
+        "Apply core domain tenets for Universal Primary Source Document Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Universal Primary Source Document Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","universal"],
+    }),
+  },
+
+  "education-topup-calculus-visual-derivative-rate-of-change": {
+    id: "education-topup-calculus-visual-derivative-rate-of-change",
+    name: "CalculusVisualDerivativeRateofChangeSkill",
+    displayName: "Calculus Visual Derivative Rate-of-Change",
+    categoryId: "education",
+    description: "Teaches calculus derivatives visually using secant line slope approximations.",
+    tags: ["education","education-topup","topup","calculus"],
+    transform: createStandardSkillTransform({
+      sectionName: "Calculus Visual Derivative Rate-of-Change Standards",
+      ruSectionName: "Стандарты и регламенты: Calculus Visual Derivative Rate-of-Change",
+      instructions: [
+        "Apply core domain tenets for Calculus Visual Derivative Rate-of-Change.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Calculus Visual Derivative Rate-of-Change.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","calculus"],
+    }),
+  },
+
+  "education-topup-computer-science-algorithmic-thinking-unplugged": {
+    id: "education-topup-computer-science-algorithmic-thinking-unplugged",
+    name: "ComputerScienceAlgorithmicThinkingUnpluggedSkill",
+    displayName: "Computer Science Algorithmic Thinking Unplugged",
+    categoryId: "education",
+    description: "Teaches sorting and searching algorithms using physical cards and unplugged activities.",
+    tags: ["education","education-topup","topup","computer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Computer Science Algorithmic Thinking Unplugged Standards",
+      ruSectionName: "Стандарты и регламенты: Computer Science Algorithmic Thinking Unplugged",
+      instructions: [
+        "Apply core domain tenets for Computer Science Algorithmic Thinking Unplugged.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Computer Science Algorithmic Thinking Unplugged.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","computer"],
+    }),
+  },
+
+  "education-topup-music-theory-sight-reading-solfege": {
+    id: "education-topup-music-theory-sight-reading-solfege",
+    name: "MusicTheorySightReadingSolfegeSkill",
+    displayName: "Music Theory Sight-Reading & Solfege",
+    categoryId: "education",
+    description: "Scaffolds musical sight-reading skills through solfege hand signs and rhythm exercises.",
+    tags: ["education","education-topup","topup","music"],
+    transform: createStandardSkillTransform({
+      sectionName: "Music Theory Sight-Reading & Solfege Standards",
+      ruSectionName: "Стандарты и регламенты: Music Theory Sight-Reading & Solfege",
+      instructions: [
+        "Apply core domain tenets for Music Theory Sight-Reading & Solfege.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Music Theory Sight-Reading & Solfege.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","music"],
+    }),
+  },
+
+  "education-topup-art-history-visual-thinking-strategy-vts": {
+    id: "education-topup-art-history-visual-thinking-strategy-vts",
+    name: "ArtHistoryVisualThinkingStrategyVTSSkill",
+    displayName: "Art History Visual Thinking Strategy (VTS)",
+    categoryId: "education",
+    description: "Facilitates open-ended group discussion of artwork: 'What's going on in this picture?'.",
+    tags: ["education","education-topup","topup","art"],
+    transform: createStandardSkillTransform({
+      sectionName: "Art History Visual Thinking Strategy (VTS) Standards",
+      ruSectionName: "Стандарты и регламенты: Art History Visual Thinking Strategy (VTS)",
+      instructions: [
+        "Apply core domain tenets for Art History Visual Thinking Strategy (VTS).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Art History Visual Thinking Strategy (VTS).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","art"],
+    }),
+  },
+
+  "education-topup-physical-education-motor-skill-progression": {
+    id: "education-topup-physical-education-motor-skill-progression",
+    name: "PhysicalEducationMotorSkillProgressionSkill",
+    displayName: "Physical Education Motor Skill Progression",
+    categoryId: "education",
+    description: "Breaks complex athletic movements (throwing, jumping) into developmental phases.",
+    tags: ["education","education-topup","topup","physical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Physical Education Motor Skill Progression Standards",
+      ruSectionName: "Стандарты и регламенты: Physical Education Motor Skill Progression",
+      instructions: [
+        "Apply core domain tenets for Physical Education Motor Skill Progression.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Physical Education Motor Skill Progression.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","physical"],
+    }),
+  },
+
+  "education-topup-chemistry-molecular-model-building-lab": {
+    id: "education-topup-chemistry-molecular-model-building-lab",
+    name: "ChemistryMolecularModelBuildingLabSkill",
+    displayName: "Chemistry Molecular Model Building Lab",
+    categoryId: "education",
+    description: "Teaches chemical bonding and VSEPR geometry using 3D physical model kits.",
+    tags: ["education","education-topup","topup","chemistry"],
+    transform: createStandardSkillTransform({
+      sectionName: "Chemistry Molecular Model Building Lab Standards",
+      ruSectionName: "Стандарты и регламенты: Chemistry Molecular Model Building Lab",
+      instructions: [
+        "Apply core domain tenets for Chemistry Molecular Model Building Lab.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Chemistry Molecular Model Building Lab.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","chemistry"],
+    }),
+  },
+
+  "education-topup-foreign-language-immersion-conversation": {
+    id: "education-topup-foreign-language-immersion-conversation",
+    name: "ForeignLanguageImmersionConversationSkill",
+    displayName: "Foreign Language Immersion Conversation",
+    categoryId: "education",
+    description: "Conducts target language practice using gestures, visuals, and 90%+ immersion.",
+    tags: ["education","education-topup","topup","foreign"],
+    transform: createStandardSkillTransform({
+      sectionName: "Foreign Language Immersion Conversation Standards",
+      ruSectionName: "Стандарты и регламенты: Foreign Language Immersion Conversation",
+      instructions: [
+        "Apply core domain tenets for Foreign Language Immersion Conversation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Foreign Language Immersion Conversation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","foreign"],
+    }),
+  },
+
+  "education-topup-financial-literacy-budgeting-compound-interest": {
+    id: "education-topup-financial-literacy-budgeting-compound-interest",
+    name: "FinancialLiteracyBudgetingCompoundInterestSkill",
+    displayName: "Financial Literacy Budgeting & Compound Interest",
+    categoryId: "education",
+    description: "Teaches high school students personal budgeting, credit card math, and investing.",
+    tags: ["education","education-topup","topup","financial"],
+    transform: createStandardSkillTransform({
+      sectionName: "Financial Literacy Budgeting & Compound Interest Standards",
+      ruSectionName: "Стандарты и регламенты: Financial Literacy Budgeting & Compound Interest",
+      instructions: [
+        "Apply core domain tenets for Financial Literacy Budgeting & Compound Interest.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Financial Literacy Budgeting & Compound Interest.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","financial"],
+    }),
+  },
+
+  "education-topup-environmental-science-eco-system-simulation": {
+    id: "education-topup-environmental-science-eco-system-simulation",
+    name: "EnvironmentalScienceEcoSystemSimulationSkill",
+    displayName: "Environmental Science Eco-System Simulation",
+    categoryId: "education",
+    description: "Simulates food web predator-prey dynamics and ecological population balance.",
+    tags: ["education","education-topup","topup","environmental"],
+    transform: createStandardSkillTransform({
+      sectionName: "Environmental Science Eco-System Simulation Standards",
+      ruSectionName: "Стандарты и регламенты: Environmental Science Eco-System Simulation",
+      instructions: [
+        "Apply core domain tenets for Environmental Science Eco-System Simulation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Environmental Science Eco-System Simulation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","environmental"],
+    }),
+  },
+
+  "education-topup-master-pedagogy-curriculum-excellence": {
+    id: "education-topup-master-pedagogy-curriculum-excellence",
+    name: "MasterPedagogyCurriculumExcellenceSkill",
+    displayName: "Master Pedagogy & Curriculum Excellence",
+    categoryId: "education",
+    description: "Applies world-class educational scaffolding and active learning strategies.",
+    tags: ["education","education-topup","topup","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Pedagogy & Curriculum Excellence Standards",
+      ruSectionName: "Стандарты и регламенты: Master Pedagogy & Curriculum Excellence",
+      instructions: [
+        "Apply core domain tenets for Master Pedagogy & Curriculum Excellence.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Pedagogy & Curriculum Excellence.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["education","education-topup","topup","master"],
+    }),
+  },
 };

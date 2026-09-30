@@ -3042,5 +3042,1303 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
       tags: ["writing","grant-proposal","nonprofit","philanthropy","fundraising"],
     }),
   },
+  "writing-executive-summary-elevator-pitch-synthesis": {
+    id: "writing-executive-summary-elevator-pitch-synthesis",
+    name: "ExecutiveSummaryElevatorPitchSynthesisSkill",
+    displayName: "Executive Summary & Elevator Pitch Synthesis",
+    categoryId: "writing",
+    description: "Distills long complex documents into a 1-page executive summary.",
+    tags: ["writing","writing","executive","summary"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Summary & Elevator Pitch Synthesis Standards",
+      ruSectionName: "Стандарты и регламенты: Executive Summary & Elevator Pitch Synthesis",
+      instructions: [
+        "Apply core domain tenets for Executive Summary & Elevator Pitch Synthesis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Executive Summary & Elevator Pitch Synthesis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","executive","summary"],
+    }),
+  },
+
+  "writing-cold-outbound-email-pattern-interrupt": {
+    id: "writing-cold-outbound-email-pattern-interrupt",
+    name: "ColdOutboundEmailPatternInterruptSkill",
+    displayName: "Cold Outbound Email & Pattern Interrupt",
+    categoryId: "writing",
+    description: "Drafts high-converting B2B sales emails under 75 words.",
+    tags: ["writing","writing","cold","outbound"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cold Outbound Email & Pattern Interrupt Standards",
+      ruSectionName: "Стандарты и регламенты: Cold Outbound Email & Pattern Interrupt",
+      instructions: [
+        "Apply core domain tenets for Cold Outbound Email & Pattern Interrupt.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cold Outbound Email & Pattern Interrupt.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","cold","outbound"],
+    }),
+  },
+
+  "writing-crisis-communications-pr-apology-statement": {
+    id: "writing-crisis-communications-pr-apology-statement",
+    name: "CrisisCommunicationsPRApologyStatementSkill",
+    displayName: "Crisis Communications & PR Apology Statement",
+    categoryId: "writing",
+    description: "Crafts transparent, accountable corporate crisis responses.",
+    tags: ["writing","writing","crisis","communications"],
+    transform: createStandardSkillTransform({
+      sectionName: "Crisis Communications & PR Apology Statement Standards",
+      ruSectionName: "Стандарты и регламенты: Crisis Communications & PR Apology Statement",
+      instructions: [
+        "Apply core domain tenets for Crisis Communications & PR Apology Statement.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Crisis Communications & PR Apology Statement.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","crisis","communications"],
+    }),
+  },
+
+  "writing-technical-release-notes-customer-delight": {
+    id: "writing-technical-release-notes-customer-delight",
+    name: "TechnicalReleaseNotesCustomerDelightSkill",
+    displayName: "Technical Release Notes & Customer Delight",
+    categoryId: "writing",
+    description: "Translates code commits into engaging user-facing release notes.",
+    tags: ["writing","writing","technical","release"],
+    transform: createStandardSkillTransform({
+      sectionName: "Technical Release Notes & Customer Delight Standards",
+      ruSectionName: "Стандарты и регламенты: Technical Release Notes & Customer Delight",
+      instructions: [
+        "Apply core domain tenets for Technical Release Notes & Customer Delight.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Technical Release Notes & Customer Delight.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","technical","release"],
+    }),
+  },
+
+  "writing-amazon-6-page-narrative-strategy-memo": {
+    id: "writing-amazon-6-page-narrative-strategy-memo",
+    name: "Amazon6PageNarrativeStrategyMemoSkill",
+    displayName: "Amazon 6-Page Narrative Strategy Memo",
+    categoryId: "writing",
+    description: "Structures strategic proposals in Bezos narrative memo format.",
+    tags: ["writing","writing","amazon","6"],
+    transform: createStandardSkillTransform({
+      sectionName: "Amazon 6-Page Narrative Strategy Memo Standards",
+      ruSectionName: "Стандарты и регламенты: Amazon 6-Page Narrative Strategy Memo",
+      instructions: [
+        "Apply core domain tenets for Amazon 6-Page Narrative Strategy Memo.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Amazon 6-Page Narrative Strategy Memo.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","amazon","6"],
+    }),
+  },
+
+  "writing-ap-stylebook-journalistic-clarity-neutrality": {
+    id: "writing-ap-stylebook-journalistic-clarity-neutrality",
+    name: "APStylebookJournalisticClarityNeutralitySkill",
+    displayName: "AP Stylebook Journalistic Clarity & Neutrality",
+    categoryId: "writing",
+    description: "Applies standard AP Stylebook conventions for news articles.",
+    tags: ["writing","writing","ap","stylebook"],
+    transform: createStandardSkillTransform({
+      sectionName: "AP Stylebook Journalistic Clarity & Neutrality Standards",
+      ruSectionName: "Стандарты и регламенты: AP Stylebook Journalistic Clarity & Neutrality",
+      instructions: [
+        "Apply core domain tenets for AP Stylebook Journalistic Clarity & Neutrality.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AP Stylebook Journalistic Clarity & Neutrality.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","ap","stylebook"],
+    }),
+  },
+
+  "writing-y-combinator-startup-pitch-application": {
+    id: "writing-y-combinator-startup-pitch-application",
+    name: "YCombinatorStartupPitchApplicationSkill",
+    displayName: "Y Combinator Startup Pitch Application",
+    categoryId: "writing",
+    description: "Drafts concise, high-density answers for startup accelerator applications.",
+    tags: ["writing","writing","y","combinator"],
+    transform: createStandardSkillTransform({
+      sectionName: "Y Combinator Startup Pitch Application Standards",
+      ruSectionName: "Стандарты и регламенты: Y Combinator Startup Pitch Application",
+      instructions: [
+        "Apply core domain tenets for Y Combinator Startup Pitch Application.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Y Combinator Startup Pitch Application.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","y","combinator"],
+    }),
+  },
+
+  "writing-sec-form-10-k-md-a-financial-commentary": {
+    id: "writing-sec-form-10-k-md-a-financial-commentary",
+    name: "SECForm10KMDAFinancialCommentarySkill",
+    displayName: "SEC Form 10-K MD&A Financial Commentary",
+    categoryId: "writing",
+    description: "Drafts public company financial discussion and analysis sections.",
+    tags: ["writing","writing","sec","form"],
+    transform: createStandardSkillTransform({
+      sectionName: "SEC Form 10-K MD&A Financial Commentary Standards",
+      ruSectionName: "Стандарты и регламенты: SEC Form 10-K MD&A Financial Commentary",
+      instructions: [
+        "Apply core domain tenets for SEC Form 10-K MD&A Financial Commentary.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SEC Form 10-K MD&A Financial Commentary.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","sec","form"],
+    }),
+  },
+
+  "writing-nature-peer-reviewed-abstract-structure": {
+    id: "writing-nature-peer-reviewed-abstract-structure",
+    name: "NaturePeerReviewedAbstractStructureSkill",
+    displayName: "Nature Peer-Reviewed Abstract Structure",
+    categoryId: "writing",
+    description: "Composes 5-part scientific paper abstracts following Nature standards.",
+    tags: ["writing","writing","nature","peer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Nature Peer-Reviewed Abstract Structure Standards",
+      ruSectionName: "Стандарты и регламенты: Nature Peer-Reviewed Abstract Structure",
+      instructions: [
+        "Apply core domain tenets for Nature Peer-Reviewed Abstract Structure.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Nature Peer-Reviewed Abstract Structure.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","nature","peer"],
+    }),
+  },
+
+  "writing-stripe-press-long-form-intellectual-essay": {
+    id: "writing-stripe-press-long-form-intellectual-essay",
+    name: "StripePressLongFormIntellectualEssaySkill",
+    displayName: "Stripe Press Long-Form Intellectual Essay",
+    categoryId: "writing",
+    description: "Crafts high-grade essays on technological progress and economics.",
+    tags: ["writing","writing","stripe","press"],
+    transform: createStandardSkillTransform({
+      sectionName: "Stripe Press Long-Form Intellectual Essay Standards",
+      ruSectionName: "Стандарты и регламенты: Stripe Press Long-Form Intellectual Essay",
+      instructions: [
+        "Apply core domain tenets for Stripe Press Long-Form Intellectual Essay.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Stripe Press Long-Form Intellectual Essay.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","stripe","press"],
+    }),
+  },
+
+  "writing-executive-keynote-speechwriting-rhetoric": {
+    id: "writing-executive-keynote-speechwriting-rhetoric",
+    name: "ExecutiveKeynoteSpeechwritingRhetoricSkill",
+    displayName: "Executive Keynote Speechwriting & Rhetoric",
+    categoryId: "writing",
+    description: "Writes charismatic spoken-word speeches using classical rhetorical devices.",
+    tags: ["writing","writing","executive","keynote"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Keynote Speechwriting & Rhetoric Standards",
+      ruSectionName: "Стандарты и регламенты: Executive Keynote Speechwriting & Rhetoric",
+      instructions: [
+        "Apply core domain tenets for Executive Keynote Speechwriting & Rhetoric.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Executive Keynote Speechwriting & Rhetoric.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","executive","keynote"],
+    }),
+  },
+
+  "writing-saas-behavioral-onboarding-email-drip": {
+    id: "writing-saas-behavioral-onboarding-email-drip",
+    name: "SaaSBehavioralOnboardingEmailDripSkill",
+    displayName: "SaaS Behavioral Onboarding Email Drip",
+    categoryId: "writing",
+    description: "Designs automated email onboarding funnels triggered by telemetry.",
+    tags: ["writing","writing","saas","behavioral"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Behavioral Onboarding Email Drip Standards",
+      ruSectionName: "Стандарты и регламенты: SaaS Behavioral Onboarding Email Drip",
+      instructions: [
+        "Apply core domain tenets for SaaS Behavioral Onboarding Email Drip.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SaaS Behavioral Onboarding Email Drip.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","saas","behavioral"],
+    }),
+  },
+
+  "writing-blameless-engineering-incident-post-mortem": {
+    id: "writing-blameless-engineering-incident-post-mortem",
+    name: "BlamelessEngineeringIncidentPostMortemSkill",
+    displayName: "Blameless Engineering Incident Post-Mortem",
+    categoryId: "writing",
+    description: "Documents system outages objectively with root causes and timelines.",
+    tags: ["writing","writing","blameless","engineering"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blameless Engineering Incident Post-Mortem Standards",
+      ruSectionName: "Стандарты и регламенты: Blameless Engineering Incident Post-Mortem",
+      instructions: [
+        "Apply core domain tenets for Blameless Engineering Incident Post-Mortem.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Blameless Engineering Incident Post-Mortem.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","blameless","engineering"],
+    }),
+  },
+
+  "writing-substack-thought-leadership-newsletter": {
+    id: "writing-substack-thought-leadership-newsletter",
+    name: "SubstackThoughtLeadershipNewsletterSkill",
+    displayName: "Substack Thought Leadership Newsletter",
+    categoryId: "writing",
+    description: "Structures high-open-rate newsletters with magnetic subject lines.",
+    tags: ["writing","writing","substack","thought"],
+    transform: createStandardSkillTransform({
+      sectionName: "Substack Thought Leadership Newsletter Standards",
+      ruSectionName: "Стандарты и регламенты: Substack Thought Leadership Newsletter",
+      instructions: [
+        "Apply core domain tenets for Substack Thought Leadership Newsletter.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Substack Thought Leadership Newsletter.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","substack","thought"],
+    }),
+  },
+
+  "writing-patent-claims-specification-drafting": {
+    id: "writing-patent-claims-specification-drafting",
+    name: "PatentClaimsSpecificationDraftingSkill",
+    displayName: "Patent Claims & Specification Drafting",
+    categoryId: "writing",
+    description: "Drafts utility patent specifications and independent claim language.",
+    tags: ["writing","writing","patent","claims"],
+    transform: createStandardSkillTransform({
+      sectionName: "Patent Claims & Specification Drafting Standards",
+      ruSectionName: "Стандарты и регламенты: Patent Claims & Specification Drafting",
+      instructions: [
+        "Apply core domain tenets for Patent Claims & Specification Drafting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Patent Claims & Specification Drafting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","patent","claims"],
+    }),
+  },
+
+  "writing-developer-api-reference-documentation": {
+    id: "writing-developer-api-reference-documentation",
+    name: "DeveloperAPIReferenceDocumentationSkill",
+    displayName: "Developer API Reference Documentation",
+    categoryId: "writing",
+    description: "Writes Stripe-grade developer API docs with copy-paste code snippets.",
+    tags: ["writing","writing","developer","api"],
+    transform: createStandardSkillTransform({
+      sectionName: "Developer API Reference Documentation Standards",
+      ruSectionName: "Стандарты и регламенты: Developer API Reference Documentation",
+      instructions: [
+        "Apply core domain tenets for Developer API Reference Documentation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Developer API Reference Documentation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","developer","api"],
+    }),
+  },
+
+  "writing-b2b-enterprise-case-study-roi-story": {
+    id: "writing-b2b-enterprise-case-study-roi-story",
+    name: "B2BEnterpriseCaseStudyROIStorySkill",
+    displayName: "B2B Enterprise Case Study ROI Story",
+    categoryId: "writing",
+    description: "Transforms customer success into sales collateral with quantitative proof.",
+    tags: ["writing","writing","b2b","enterprise"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Enterprise Case Study ROI Story Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Enterprise Case Study ROI Story",
+      instructions: [
+        "Apply core domain tenets for B2B Enterprise Case Study ROI Story.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Enterprise Case Study ROI Story.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","b2b","enterprise"],
+    }),
+  },
+
+  "writing-harvard-business-school-executive-case-study": {
+    id: "writing-harvard-business-school-executive-case-study",
+    name: "HarvardBusinessSchoolExecutiveCaseStudySkill",
+    displayName: "Harvard Business School Executive Case Study",
+    categoryId: "writing",
+    description: "Drafts management case studies centered on critical executive choices.",
+    tags: ["writing","writing","harvard","business"],
+    transform: createStandardSkillTransform({
+      sectionName: "Harvard Business School Executive Case Study Standards",
+      ruSectionName: "Стандарты и регламенты: Harvard Business School Executive Case Study",
+      instructions: [
+        "Apply core domain tenets for Harvard Business School Executive Case Study.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Harvard Business School Executive Case Study.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","harvard","business"],
+    }),
+  },
+
+  "writing-app-store-listing-optimization-aso": {
+    id: "writing-app-store-listing-optimization-aso",
+    name: "AppStoreListingOptimizationASOSkill",
+    displayName: "App Store Listing Optimization (ASO)",
+    categoryId: "writing",
+    description: "Writes high-converting titles, subtitles, and descriptions for app stores.",
+    tags: ["writing","writing","app","store"],
+    transform: createStandardSkillTransform({
+      sectionName: "App Store Listing Optimization (ASO) Standards",
+      ruSectionName: "Стандарты и регламенты: App Store Listing Optimization (ASO)",
+      instructions: [
+        "Apply core domain tenets for App Store Listing Optimization (ASO).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для App Store Listing Optimization (ASO).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","app","store"],
+    }),
+  },
+
+  "writing-ux-microcopy-friendly-error-messages": {
+    id: "writing-ux-microcopy-friendly-error-messages",
+    name: "UXMicrocopyFriendlyErrorMessagesSkill",
+    displayName: "UX Microcopy & Friendly Error Messages",
+    categoryId: "writing",
+    description: "Crafts empathetic interface microcopy for errors and empty states.",
+    tags: ["writing","writing","ux","microcopy"],
+    transform: createStandardSkillTransform({
+      sectionName: "UX Microcopy & Friendly Error Messages Standards",
+      ruSectionName: "Стандарты и регламенты: UX Microcopy & Friendly Error Messages",
+      instructions: [
+        "Apply core domain tenets for UX Microcopy & Friendly Error Messages.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для UX Microcopy & Friendly Error Messages.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","ux","microcopy"],
+    }),
+  },
+
+  "writing-quarterly-shareholder-letter-update": {
+    id: "writing-quarterly-shareholder-letter-update",
+    name: "QuarterlyShareholderLetterUpdateSkill",
+    displayName: "Quarterly Shareholder Letter & Update",
+    categoryId: "writing",
+    description: "Writes candid investor updates covering ARR, burn rate, and key asks.",
+    tags: ["writing","writing","quarterly","shareholder"],
+    transform: createStandardSkillTransform({
+      sectionName: "Quarterly Shareholder Letter & Update Standards",
+      ruSectionName: "Стандарты и регламенты: Quarterly Shareholder Letter & Update",
+      instructions: [
+        "Apply core domain tenets for Quarterly Shareholder Letter & Update.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Quarterly Shareholder Letter & Update.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","quarterly","shareholder"],
+    }),
+  },
+
+  "writing-podcast-host-interview-script-questions": {
+    id: "writing-podcast-host-interview-script-questions",
+    name: "PodcastHostInterviewScriptQuestionsSkill",
+    displayName: "Podcast Host Interview Script & Questions",
+    categoryId: "writing",
+    description: "Prepares deep interview arcs and provocative questions for podcasts.",
+    tags: ["writing","writing","podcast","host"],
+    transform: createStandardSkillTransform({
+      sectionName: "Podcast Host Interview Script & Questions Standards",
+      ruSectionName: "Стандарты и регламенты: Podcast Host Interview Script & Questions",
+      instructions: [
+        "Apply core domain tenets for Podcast Host Interview Script & Questions.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Podcast Host Interview Script & Questions.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","podcast","host"],
+    }),
+  },
+
+  "writing-technical-white-paper-authority-blueprint": {
+    id: "writing-technical-white-paper-authority-blueprint",
+    name: "TechnicalWhitePaperAuthorityBlueprintSkill",
+    displayName: "Technical White Paper Authority Blueprint",
+    categoryId: "writing",
+    description: "Authors comprehensive technical white papers establishing market leadership.",
+    tags: ["writing","writing","technical","white"],
+    transform: createStandardSkillTransform({
+      sectionName: "Technical White Paper Authority Blueprint Standards",
+      ruSectionName: "Стандарты и регламенты: Technical White Paper Authority Blueprint",
+      instructions: [
+        "Apply core domain tenets for Technical White Paper Authority Blueprint.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Technical White Paper Authority Blueprint.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","technical","white"],
+    }),
+  },
+
+  "writing-brand-manifesto-cultural-declaration": {
+    id: "writing-brand-manifesto-cultural-declaration",
+    name: "BrandManifestoCulturalDeclarationSkill",
+    displayName: "Brand Manifesto & Cultural Declaration",
+    categoryId: "writing",
+    description: "Crafts inspiring brand manifestos that rally employees and users.",
+    tags: ["writing","writing","brand","manifesto"],
+    transform: createStandardSkillTransform({
+      sectionName: "Brand Manifesto & Cultural Declaration Standards",
+      ruSectionName: "Стандарты и регламенты: Brand Manifesto & Cultural Declaration",
+      instructions: [
+        "Apply core domain tenets for Brand Manifesto & Cultural Declaration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Brand Manifesto & Cultural Declaration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","brand","manifesto"],
+    }),
+  },
+
+  "writing-comprehensive-product-faq-objection-handling": {
+    id: "writing-comprehensive-product-faq-objection-handling",
+    name: "ComprehensiveProductFAQObjectionHandlingSkill",
+    displayName: "Comprehensive Product FAQ & Objection Handling",
+    categoryId: "writing",
+    description: "Structures FAQ hubs addressing pricing, security, and migration friction.",
+    tags: ["writing","writing","comprehensive","product"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comprehensive Product FAQ & Objection Handling Standards",
+      ruSectionName: "Стандарты и регламенты: Comprehensive Product FAQ & Objection Handling",
+      instructions: [
+        "Apply core domain tenets for Comprehensive Product FAQ & Objection Handling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comprehensive Product FAQ & Objection Handling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","comprehensive","product"],
+    }),
+  },
+
+  "writing-enterprise-rfp-bid-proposal-response": {
+    id: "writing-enterprise-rfp-bid-proposal-response",
+    name: "EnterpriseRFPBidProposalResponseSkill",
+    displayName: "Enterprise RFP Bid Proposal Response",
+    categoryId: "writing",
+    description: "Drafts compliant, winning responses to enterprise Requests for Proposal.",
+    tags: ["writing","writing","enterprise","rfp"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enterprise RFP Bid Proposal Response Standards",
+      ruSectionName: "Стандарты и регламенты: Enterprise RFP Bid Proposal Response",
+      instructions: [
+        "Apply core domain tenets for Enterprise RFP Bid Proposal Response.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Enterprise RFP Bid Proposal Response.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","enterprise","rfp"],
+    }),
+  },
+
+  "writing-investigative-journalism-expose-article": {
+    id: "writing-investigative-journalism-expose-article",
+    name: "InvestigativeJournalismExposeArticleSkill",
+    displayName: "Investigative Journalism Expose Article",
+    categoryId: "writing",
+    description: "Constructs airtight investigative pieces linking verified source documents.",
+    tags: ["writing","writing","investigative","journalism"],
+    transform: createStandardSkillTransform({
+      sectionName: "Investigative Journalism Expose Article Standards",
+      ruSectionName: "Стандарты и регламенты: Investigative Journalism Expose Article",
+      instructions: [
+        "Apply core domain tenets for Investigative Journalism Expose Article.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Investigative Journalism Expose Article.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","investigative","journalism"],
+    }),
+  },
+
+  "writing-github-repository-readme-showcase": {
+    id: "writing-github-repository-readme-showcase",
+    name: "GitHubRepositoryREADMEShowcaseSkill",
+    displayName: "GitHub Repository README Showcase",
+    categoryId: "writing",
+    description: "Crafts engaging open-source READMEs with animated GIFs and quickstarts.",
+    tags: ["writing","writing","github","repository"],
+    transform: createStandardSkillTransform({
+      sectionName: "GitHub Repository README Showcase Standards",
+      ruSectionName: "Стандарты и регламенты: GitHub Repository README Showcase",
+      instructions: [
+        "Apply core domain tenets for GitHub Repository README Showcase.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для GitHub Repository README Showcase.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","github","repository"],
+    }),
+  },
+
+  "writing-sales-battlecard-competitor-differentiation": {
+    id: "writing-sales-battlecard-competitor-differentiation",
+    name: "SalesBattlecardCompetitorDifferentiationSkill",
+    displayName: "Sales Battlecard & Competitor Differentiation",
+    categoryId: "writing",
+    description: "Equips sales reps with objection handling and competitive trap questions.",
+    tags: ["writing","writing","sales","battlecard"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sales Battlecard & Competitor Differentiation Standards",
+      ruSectionName: "Стандарты и регламенты: Sales Battlecard & Competitor Differentiation",
+      instructions: [
+        "Apply core domain tenets for Sales Battlecard & Competitor Differentiation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sales Battlecard & Competitor Differentiation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","sales","battlecard"],
+    }),
+  },
+
+  "writing-customer-advisory-board-strategic-briefing": {
+    id: "writing-customer-advisory-board-strategic-briefing",
+    name: "CustomerAdvisoryBoardStrategicBriefingSkill",
+    displayName: "Customer Advisory Board Strategic Briefing",
+    categoryId: "writing",
+    description: "Prepares C-suite agendas and confidential roadmap previews.",
+    tags: ["writing","writing","customer","advisory"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Advisory Board Strategic Briefing Standards",
+      ruSectionName: "Стандарты и регламенты: Customer Advisory Board Strategic Briefing",
+      instructions: [
+        "Apply core domain tenets for Customer Advisory Board Strategic Briefing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Customer Advisory Board Strategic Briefing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","customer","advisory"],
+    }),
+  },
+
+  "writing-security-trust-center-whitepaper": {
+    id: "writing-security-trust-center-whitepaper",
+    name: "SecurityTrustCenterWhitepaperSkill",
+    displayName: "Security & Trust Center Whitepaper",
+    categoryId: "writing",
+    description: "Details enterprise encryption, tenant isolation, and SOC2 compliance.",
+    tags: ["writing","writing","security","trust"],
+    transform: createStandardSkillTransform({
+      sectionName: "Security & Trust Center Whitepaper Standards",
+      ruSectionName: "Стандарты и регламенты: Security & Trust Center Whitepaper",
+      instructions: [
+        "Apply core domain tenets for Security & Trust Center Whitepaper.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Security & Trust Center Whitepaper.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","security","trust"],
+    }),
+  },
+
+  "writing-classic-direct-response-sales-letter": {
+    id: "writing-classic-direct-response-sales-letter",
+    name: "ClassicDirectResponseSalesLetterSkill",
+    displayName: "Classic Direct-Response Sales Letter",
+    categoryId: "writing",
+    description: "Structures high-converting long-form direct-response sales copy.",
+    tags: ["writing","writing","classic","direct"],
+    transform: createStandardSkillTransform({
+      sectionName: "Classic Direct-Response Sales Letter Standards",
+      ruSectionName: "Стандарты и регламенты: Classic Direct-Response Sales Letter",
+      instructions: [
+        "Apply core domain tenets for Classic Direct-Response Sales Letter.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Classic Direct-Response Sales Letter.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","classic","direct"],
+    }),
+  },
+
+  "writing-product-hunt-launch-kit-maker-comment": {
+    id: "writing-product-hunt-launch-kit-maker-comment",
+    name: "ProductHuntLaunchKitMakerCommentSkill",
+    displayName: "Product Hunt Launch Kit & Maker Comment",
+    categoryId: "writing",
+    description: "Crafts Product Hunt taglines, maker stories, and launch Q&A replies.",
+    tags: ["writing","writing","product","hunt"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product Hunt Launch Kit & Maker Comment Standards",
+      ruSectionName: "Стандарты и регламенты: Product Hunt Launch Kit & Maker Comment",
+      instructions: [
+        "Apply core domain tenets for Product Hunt Launch Kit & Maker Comment.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Product Hunt Launch Kit & Maker Comment.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","product","hunt"],
+    }),
+  },
+
+  "writing-ted-talk-storytelling-narrative-arc": {
+    id: "writing-ted-talk-storytelling-narrative-arc",
+    name: "TEDTalkStorytellingNarrativeArcSkill",
+    displayName: "TED Talk Storytelling Narrative Arc",
+    categoryId: "writing",
+    description: "Structures captivating 15-minute talks around an 'idea worth spreading'.",
+    tags: ["writing","writing","ted","talk"],
+    transform: createStandardSkillTransform({
+      sectionName: "TED Talk Storytelling Narrative Arc Standards",
+      ruSectionName: "Стандарты и регламенты: TED Talk Storytelling Narrative Arc",
+      instructions: [
+        "Apply core domain tenets for TED Talk Storytelling Narrative Arc.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для TED Talk Storytelling Narrative Arc.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","ted","talk"],
+    }),
+  },
+
+  "writing-jobs-to-be-done-jtbd-user-persona-profile": {
+    id: "writing-jobs-to-be-done-jtbd-user-persona-profile",
+    name: "JobstobeDoneJTBDUserPersonaProfileSkill",
+    displayName: "Jobs-to-be-Done (JTBD) User Persona Profile",
+    categoryId: "writing",
+    description: "Creates customer profiles based on functional, emotional, and social jobs.",
+    tags: ["writing","writing","jobs","to"],
+    transform: createStandardSkillTransform({
+      sectionName: "Jobs-to-be-Done (JTBD) User Persona Profile Standards",
+      ruSectionName: "Стандарты и регламенты: Jobs-to-be-Done (JTBD) User Persona Profile",
+      instructions: [
+        "Apply core domain tenets for Jobs-to-be-Done (JTBD) User Persona Profile.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Jobs-to-be-Done (JTBD) User Persona Profile.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","jobs","to"],
+    }),
+  },
+
+  "writing-engineering-design-document-rfc": {
+    id: "writing-engineering-design-document-rfc",
+    name: "EngineeringDesignDocumentRFCSkill",
+    displayName: "Engineering Design Document (RFC)",
+    categoryId: "writing",
+    description: "Structures technical RFCs covering non-goals, architecture, and rollbacks.",
+    tags: ["writing","writing","engineering","design"],
+    transform: createStandardSkillTransform({
+      sectionName: "Engineering Design Document (RFC) Standards",
+      ruSectionName: "Стандарты и регламенты: Engineering Design Document (RFC)",
+      instructions: [
+        "Apply core domain tenets for Engineering Design Document (RFC).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Engineering Design Document (RFC).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","engineering","design"],
+    }),
+  },
+
+  "writing-promotion-packet-impact-brag-sheet": {
+    id: "writing-promotion-packet-impact-brag-sheet",
+    name: "PromotionPacketImpactBragSheetSkill",
+    displayName: "Promotion Packet & Impact Brag Sheet",
+    categoryId: "writing",
+    description: "Compiles convincing promotion packets linking technical wins to revenue.",
+    tags: ["writing","writing","promotion","packet"],
+    transform: createStandardSkillTransform({
+      sectionName: "Promotion Packet & Impact Brag Sheet Standards",
+      ruSectionName: "Стандарты и регламенты: Promotion Packet & Impact Brag Sheet",
+      instructions: [
+        "Apply core domain tenets for Promotion Packet & Impact Brag Sheet.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Promotion Packet & Impact Brag Sheet.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","promotion","packet"],
+    }),
+  },
+
+  "writing-dual-column-terms-of-service-plain-summary": {
+    id: "writing-dual-column-terms-of-service-plain-summary",
+    name: "DualColumnTermsofServicePlainSummarySkill",
+    displayName: "Dual-Column Terms of Service Plain Summary",
+    categoryId: "writing",
+    description: "Presents legal TOS alongside friendly plain-English side-by-side notes.",
+    tags: ["writing","writing","dual","column"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dual-Column Terms of Service Plain Summary Standards",
+      ruSectionName: "Стандарты и регламенты: Dual-Column Terms of Service Plain Summary",
+      instructions: [
+        "Apply core domain tenets for Dual-Column Terms of Service Plain Summary.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dual-Column Terms of Service Plain Summary.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","dual","column"],
+    }),
+  },
+
+  "writing-nonprofit-grant-proposal-theory-of-change": {
+    id: "writing-nonprofit-grant-proposal-theory-of-change",
+    name: "NonprofitGrantProposalTheoryofChangeSkill",
+    displayName: "Nonprofit Grant Proposal & Theory of Change",
+    categoryId: "writing",
+    description: "Constructs grant proposals demonstrating measurable social impact.",
+    tags: ["writing","writing","nonprofit","grant"],
+    transform: createStandardSkillTransform({
+      sectionName: "Nonprofit Grant Proposal & Theory of Change Standards",
+      ruSectionName: "Стандарты и регламенты: Nonprofit Grant Proposal & Theory of Change",
+      instructions: [
+        "Apply core domain tenets for Nonprofit Grant Proposal & Theory of Change.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Nonprofit Grant Proposal & Theory of Change.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","nonprofit","grant"],
+    }),
+  },
+
+  "writing-thoughtful-linkedin-thought-leadership-post": {
+    id: "writing-thoughtful-linkedin-thought-leadership-post",
+    name: "ThoughtfulLinkedInThoughtLeadershipPostSkill",
+    displayName: "Thoughtful LinkedIn Thought Leadership Post",
+    categoryId: "writing",
+    description: "Crafts high-engagement LinkedIn posts with strong hook headlines.",
+    tags: ["writing","writing","thoughtful","linkedin"],
+    transform: createStandardSkillTransform({
+      sectionName: "Thoughtful LinkedIn Thought Leadership Post Standards",
+      ruSectionName: "Стандарты и регламенты: Thoughtful LinkedIn Thought Leadership Post",
+      instructions: [
+        "Apply core domain tenets for Thoughtful LinkedIn Thought Leadership Post.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Thoughtful LinkedIn Thought Leadership Post.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","thoughtful","linkedin"],
+    }),
+  },
+
+  "writing-customer-offboarding-exit-survey-copy": {
+    id: "writing-customer-offboarding-exit-survey-copy",
+    name: "CustomerOffboardingExitSurveyCopySkill",
+    displayName: "Customer Offboarding & Exit Survey Copy",
+    categoryId: "writing",
+    description: "Writes empathetic cancellation flows that gather honest exit feedback.",
+    tags: ["writing","writing","customer","offboarding"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Offboarding & Exit Survey Copy Standards",
+      ruSectionName: "Стандарты и регламенты: Customer Offboarding & Exit Survey Copy",
+      instructions: [
+        "Apply core domain tenets for Customer Offboarding & Exit Survey Copy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Customer Offboarding & Exit Survey Copy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","customer","offboarding"],
+    }),
+  },
+
+  "writing-internal-employee-policy-announcement": {
+    id: "writing-internal-employee-policy-announcement",
+    name: "InternalEmployeePolicyAnnouncementSkill",
+    displayName: "Internal Employee Policy Announcement",
+    categoryId: "writing",
+    description: "Communicates company policy changes with clarity and transparency.",
+    tags: ["writing","writing","internal","employee"],
+    transform: createStandardSkillTransform({
+      sectionName: "Internal Employee Policy Announcement Standards",
+      ruSectionName: "Стандарты и регламенты: Internal Employee Policy Announcement",
+      instructions: [
+        "Apply core domain tenets for Internal Employee Policy Announcement.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Internal Employee Policy Announcement.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","internal","employee"],
+    }),
+  },
+
+  "writing-investor-pitch-deck-speaker-notes": {
+    id: "writing-investor-pitch-deck-speaker-notes",
+    name: "InvestorPitchDeckSpeakerNotesSkill",
+    displayName: "Investor Pitch Deck Speaker Notes",
+    categoryId: "writing",
+    description: "Prepares spoken slide-by-side scripts for startup founder pitch decks.",
+    tags: ["writing","writing","investor","pitch"],
+    transform: createStandardSkillTransform({
+      sectionName: "Investor Pitch Deck Speaker Notes Standards",
+      ruSectionName: "Стандарты и регламенты: Investor Pitch Deck Speaker Notes",
+      instructions: [
+        "Apply core domain tenets for Investor Pitch Deck Speaker Notes.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Investor Pitch Deck Speaker Notes.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","investor","pitch"],
+    }),
+  },
+
+  "writing-product-feature-announcement-blog-post": {
+    id: "writing-product-feature-announcement-blog-post",
+    name: "ProductFeatureAnnouncementBlogPostSkill",
+    displayName: "Product Feature Announcement Blog Post",
+    categoryId: "writing",
+    description: "Writes exciting product feature announcement posts highlighting benefits.",
+    tags: ["writing","writing","product","feature"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product Feature Announcement Blog Post Standards",
+      ruSectionName: "Стандарты и регламенты: Product Feature Announcement Blog Post",
+      instructions: [
+        "Apply core domain tenets for Product Feature Announcement Blog Post.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Product Feature Announcement Blog Post.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","product","feature"],
+    }),
+  },
+
+  "writing-technical-troubleshooting-knowledge-base": {
+    id: "writing-technical-troubleshooting-knowledge-base",
+    name: "TechnicalTroubleshootingKnowledgeBaseSkill",
+    displayName: "Technical Troubleshooting Knowledge Base",
+    categoryId: "writing",
+    description: "Authors step-by-step troubleshooting articles for common user bugs.",
+    tags: ["writing","writing","technical","troubleshooting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Technical Troubleshooting Knowledge Base Standards",
+      ruSectionName: "Стандарты и регламенты: Technical Troubleshooting Knowledge Base",
+      instructions: [
+        "Apply core domain tenets for Technical Troubleshooting Knowledge Base.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Technical Troubleshooting Knowledge Base.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","technical","troubleshooting"],
+    }),
+  },
+
+  "writing-b2b-sales-proposal-follow-up-email": {
+    id: "writing-b2b-sales-proposal-follow-up-email",
+    name: "B2BSalesProposalFollowUpEmailSkill",
+    displayName: "B2B Sales Proposal Follow-Up Email",
+    categoryId: "writing",
+    description: "Drafts polite, high-converting follow-up emails after enterprise demos.",
+    tags: ["writing","writing","b2b","sales"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Sales Proposal Follow-Up Email Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Sales Proposal Follow-Up Email",
+      instructions: [
+        "Apply core domain tenets for B2B Sales Proposal Follow-Up Email.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Sales Proposal Follow-Up Email.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","b2b","sales"],
+    }),
+  },
+
+  "writing-community-guidelines-conduct-policy": {
+    id: "writing-community-guidelines-conduct-policy",
+    name: "CommunityGuidelinesConductPolicySkill",
+    displayName: "Community Guidelines & Conduct Policy",
+    categoryId: "writing",
+    description: "Establishes clear, welcoming community behavior standards and rules.",
+    tags: ["writing","writing","community","guidelines"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Guidelines & Conduct Policy Standards",
+      ruSectionName: "Стандарты и регламенты: Community Guidelines & Conduct Policy",
+      instructions: [
+        "Apply core domain tenets for Community Guidelines & Conduct Policy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community Guidelines & Conduct Policy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","community","guidelines"],
+    }),
+  },
+
+  "writing-sponsorship-deck-partner-media-kit": {
+    id: "writing-sponsorship-deck-partner-media-kit",
+    name: "SponsorshipDeckPartnerMediaKitSkill",
+    displayName: "Sponsorship Deck & Partner Media Kit",
+    categoryId: "writing",
+    description: "Creates compelling media kit copy detailing audience metrics and reach.",
+    tags: ["writing","writing","sponsorship","deck"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sponsorship Deck & Partner Media Kit Standards",
+      ruSectionName: "Стандарты и регламенты: Sponsorship Deck & Partner Media Kit",
+      instructions: [
+        "Apply core domain tenets for Sponsorship Deck & Partner Media Kit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sponsorship Deck & Partner Media Kit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing","sponsorship","deck"],
+    }),
+  },
+  "writing-final-worldbuilding-fictional-magic-system-rule-creation": {
+    id: "writing-final-worldbuilding-fictional-magic-system-rule-creation",
+    name: "WorldbuildingFictionalMagicSystemRuleCreationSkill",
+    displayName: "Worldbuilding Fictional Magic System Rule Creation",
+    categoryId: "writing",
+    description: "Establishes hard vs soft magic rules, costs, and limitations for fantasy fiction.",
+    tags: ["writing","writing-final","final","worldbuilding"],
+    transform: createStandardSkillTransform({
+      sectionName: "Worldbuilding Fictional Magic System Rule Creation Standards",
+      ruSectionName: "Стандарты и регламенты: Worldbuilding Fictional Magic System Rule Creation",
+      instructions: [
+        "Apply core domain tenets for Worldbuilding Fictional Magic System Rule Creation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Worldbuilding Fictional Magic System Rule Creation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing-final","final","worldbuilding"],
+    }),
+  },
+
+  "writing-final-high-stakes-speechwriting-rhetorical-metaphor": {
+    id: "writing-final-high-stakes-speechwriting-rhetorical-metaphor",
+    name: "HighStakesSpeechwritingRhetoricalMetaphorSkill",
+    displayName: "High-Stakes Speechwriting Rhetorical Metaphor",
+    categoryId: "writing",
+    description: "Crafts keynote speeches using tricolons, anaphora, and memorable metaphors.",
+    tags: ["writing","writing-final","final","high"],
+    transform: createStandardSkillTransform({
+      sectionName: "High-Stakes Speechwriting Rhetorical Metaphor Standards",
+      ruSectionName: "Стандарты и регламенты: High-Stakes Speechwriting Rhetorical Metaphor",
+      instructions: [
+        "Apply core domain tenets for High-Stakes Speechwriting Rhetorical Metaphor.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для High-Stakes Speechwriting Rhetorical Metaphor.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing-final","final","high"],
+    }),
+  },
+
+  "writing-final-technical-whitepaper-executive-summary-framing": {
+    id: "writing-final-technical-whitepaper-executive-summary-framing",
+    name: "TechnicalWhitepaperExecutiveSummaryFramingSkill",
+    displayName: "Technical Whitepaper Executive Summary Framing",
+    categoryId: "writing",
+    description: "Condenses complex enterprise technology innovations into persuasive executive whitepapers.",
+    tags: ["writing","writing-final","final","technical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Technical Whitepaper Executive Summary Framing Standards",
+      ruSectionName: "Стандарты и регламенты: Technical Whitepaper Executive Summary Framing",
+      instructions: [
+        "Apply core domain tenets for Technical Whitepaper Executive Summary Framing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Technical Whitepaper Executive Summary Framing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing-final","final","technical"],
+    }),
+  },
+
+  "writing-final-master-creative-professional-prose-crafting": {
+    id: "writing-final-master-creative-professional-prose-crafting",
+    name: "MasterCreativeProfessionalProseCraftingSkill",
+    displayName: "Master Creative Professional Prose Crafting",
+    categoryId: "writing",
+    description: "Enforces world-class prose, storytelling, persuasive copy, and editorial excellence.",
+    tags: ["writing","writing-final","final","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Creative Professional Prose Crafting Standards",
+      ruSectionName: "Стандарты и регламенты: Master Creative Professional Prose Crafting",
+      instructions: [
+        "Apply core domain tenets for Master Creative Professional Prose Crafting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Creative Professional Prose Crafting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["writing","writing-final","final","master"],
+    }),
+  },
 };
 

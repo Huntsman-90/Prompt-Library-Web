@@ -2945,4 +2945,1253 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
       tags: ["data-knowledge","taxonomy","ontology","classification","knowledge-management"],
     }),
   },
+  "data-knowledge-hybrid-search-bm25-hnsw-reciprocal-rank-fusion": {
+    id: "data-knowledge-hybrid-search-bm25-hnsw-reciprocal-rank-fusion",
+    name: "HybridSearchBM25HNSWReciprocalRankFusionSkill",
+    displayName: "Hybrid Search BM25 + HNSW Reciprocal Rank Fusion",
+    categoryId: "data_knowledge",
+    description: "Combines exact keyword search (BM25) and dense vector search via RRF.",
+    tags: ["data_knowledge","data-knowledge","knowledge","hybrid"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hybrid Search BM25 + HNSW Reciprocal Rank Fusion Standards",
+      ruSectionName: "Стандарты и регламенты: Hybrid Search BM25 + HNSW Reciprocal Rank Fusion",
+      instructions: [
+        "Apply core domain tenets for Hybrid Search BM25 + HNSW Reciprocal Rank Fusion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hybrid Search BM25 + HNSW Reciprocal Rank Fusion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","hybrid"],
+    }),
+  },
+
+  "data-knowledge-graphrag-knowledge-graph-entity-extraction": {
+    id: "data-knowledge-graphrag-knowledge-graph-entity-extraction",
+    name: "GraphRAGKnowledgeGraphEntityExtractionSkill",
+    displayName: "GraphRAG Knowledge Graph Entity Extraction",
+    categoryId: "data_knowledge",
+    description: "Extracts entity nodes, relationship edges, and community summaries for RAG.",
+    tags: ["data_knowledge","data-knowledge","knowledge","graphrag"],
+    transform: createStandardSkillTransform({
+      sectionName: "GraphRAG Knowledge Graph Entity Extraction Standards",
+      ruSectionName: "Стандарты и регламенты: GraphRAG Knowledge Graph Entity Extraction",
+      instructions: [
+        "Apply core domain tenets for GraphRAG Knowledge Graph Entity Extraction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для GraphRAG Knowledge Graph Entity Extraction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","graphrag"],
+    }),
+  },
+
+  "data-knowledge-hierarchical-parent-child-document-chunking": {
+    id: "data-knowledge-hierarchical-parent-child-document-chunking",
+    name: "HierarchicalParentChildDocumentChunkingSkill",
+    displayName: "Hierarchical Parent-Child Document Chunking",
+    categoryId: "data_knowledge",
+    description: "Indexes granular child chunks for search while retrieving full parent document context.",
+    tags: ["data_knowledge","data-knowledge","knowledge","hierarchical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hierarchical Parent-Child Document Chunking Standards",
+      ruSectionName: "Стандарты и регламенты: Hierarchical Parent-Child Document Chunking",
+      instructions: [
+        "Apply core domain tenets for Hierarchical Parent-Child Document Chunking.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hierarchical Parent-Child Document Chunking.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","hierarchical"],
+    }),
+  },
+
+  "data-knowledge-slowly-changing-dimensions-scd-type-1-4-dwh": {
+    id: "data-knowledge-slowly-changing-dimensions-scd-type-1-4-dwh",
+    name: "SlowlyChangingDimensionsSCDType14DWHSkill",
+    displayName: "Slowly Changing Dimensions (SCD Type 1-4) DWH",
+    categoryId: "data_knowledge",
+    description: "Tracks historical record changes in data warehouse dimension tables.",
+    tags: ["data_knowledge","data-knowledge","knowledge","slowly"],
+    transform: createStandardSkillTransform({
+      sectionName: "Slowly Changing Dimensions (SCD Type 1-4) DWH Standards",
+      ruSectionName: "Стандарты и регламенты: Slowly Changing Dimensions (SCD Type 1-4) DWH",
+      instructions: [
+        "Apply core domain tenets for Slowly Changing Dimensions (SCD Type 1-4) DWH.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Slowly Changing Dimensions (SCD Type 1-4) DWH.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","slowly"],
+    }),
+  },
+
+  "data-knowledge-apache-arrow-zero-copy-memory-ipc-format": {
+    id: "data-knowledge-apache-arrow-zero-copy-memory-ipc-format",
+    name: "ApacheArrowZeroCopyMemoryIPCFormatSkill",
+    displayName: "Apache Arrow Zero-Copy Memory IPC Format",
+    categoryId: "data_knowledge",
+    description: "Transfers multi-gigabyte dataframes across process boundaries with zero serialization.",
+    tags: ["data_knowledge","data-knowledge","knowledge","apache"],
+    transform: createStandardSkillTransform({
+      sectionName: "Apache Arrow Zero-Copy Memory IPC Format Standards",
+      ruSectionName: "Стандарты и регламенты: Apache Arrow Zero-Copy Memory IPC Format",
+      instructions: [
+        "Apply core domain tenets for Apache Arrow Zero-Copy Memory IPC Format.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Apache Arrow Zero-Copy Memory IPC Format.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","apache"],
+    }),
+  },
+
+  "data-knowledge-vector-quantization-sq8-pq-hnsw-optimization": {
+    id: "data-knowledge-vector-quantization-sq8-pq-hnsw-optimization",
+    name: "VectorQuantizationSQ8PQHNSWOptimizationSkill",
+    displayName: "Vector Quantization (SQ8 / PQ) & HNSW Optimization",
+    categoryId: "data_knowledge",
+    description: "Reduces vector database memory footprint by 75-95% using scalar and product quantization.",
+    tags: ["data_knowledge","data-knowledge","knowledge","vector"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vector Quantization (SQ8 / PQ) & HNSW Optimization Standards",
+      ruSectionName: "Стандарты и регламенты: Vector Quantization (SQ8 / PQ) & HNSW Optimization",
+      instructions: [
+        "Apply core domain tenets for Vector Quantization (SQ8 / PQ) & HNSW Optimization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Vector Quantization (SQ8 / PQ) & HNSW Optimization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","vector"],
+    }),
+  },
+
+  "data-knowledge-dbt-semantic-layer-metricflow-governance": {
+    id: "data-knowledge-dbt-semantic-layer-metricflow-governance",
+    name: "dbtSemanticLayerMetricFlowGovernanceSkill",
+    displayName: "dbt Semantic Layer & MetricFlow Governance",
+    categoryId: "data_knowledge",
+    description: "Defines single-source-of-truth business metrics in YAML for downstream BI.",
+    tags: ["data_knowledge","data-knowledge","knowledge","dbt"],
+    transform: createStandardSkillTransform({
+      sectionName: "dbt Semantic Layer & MetricFlow Governance Standards",
+      ruSectionName: "Стандарты и регламенты: dbt Semantic Layer & MetricFlow Governance",
+      instructions: [
+        "Apply core domain tenets for dbt Semantic Layer & MetricFlow Governance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для dbt Semantic Layer & MetricFlow Governance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","dbt"],
+    }),
+  },
+
+  "data-knowledge-apache-parquet-dictionary-encoding-zstd": {
+    id: "data-knowledge-apache-parquet-dictionary-encoding-zstd",
+    name: "ApacheParquetDictionaryEncodingZSTDSkill",
+    displayName: "Apache Parquet Dictionary Encoding & ZSTD",
+    categoryId: "data_knowledge",
+    description: "Optimizes analytical data lake storage using Parquet row group sizing and compression.",
+    tags: ["data_knowledge","data-knowledge","knowledge","apache"],
+    transform: createStandardSkillTransform({
+      sectionName: "Apache Parquet Dictionary Encoding & ZSTD Standards",
+      ruSectionName: "Стандарты и регламенты: Apache Parquet Dictionary Encoding & ZSTD",
+      instructions: [
+        "Apply core domain tenets for Apache Parquet Dictionary Encoding & ZSTD.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Apache Parquet Dictionary Encoding & ZSTD.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","apache"],
+    }),
+  },
+
+  "data-knowledge-master-data-management-mdm-fellegi-sunter-linkage": {
+    id: "data-knowledge-master-data-management-mdm-fellegi-sunter-linkage",
+    name: "MasterDataManagementMDMFellegiSunterLinkageSkill",
+    displayName: "Master Data Management (MDM) Fellegi-Sunter Linkage",
+    categoryId: "data_knowledge",
+    description: "Merges duplicate records across enterprise databases using probabilistic fuzzy matching.",
+    tags: ["data_knowledge","data-knowledge","knowledge","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Data Management (MDM) Fellegi-Sunter Linkage Standards",
+      ruSectionName: "Стандарты и регламенты: Master Data Management (MDM) Fellegi-Sunter Linkage",
+      instructions: [
+        "Apply core domain tenets for Master Data Management (MDM) Fellegi-Sunter Linkage.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Data Management (MDM) Fellegi-Sunter Linkage.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","master"],
+    }),
+  },
+
+  "data-knowledge-automated-pii-detection-dynamic-data-masking": {
+    id: "data-knowledge-automated-pii-detection-dynamic-data-masking",
+    name: "AutomatedPIIDetectionDynamicDataMaskingSkill",
+    displayName: "Automated PII Detection & Dynamic Data Masking",
+    categoryId: "data_knowledge",
+    description: "Detects personally identifiable information and applies cryptographic salting or masking.",
+    tags: ["data_knowledge","data-knowledge","knowledge","automated"],
+    transform: createStandardSkillTransform({
+      sectionName: "Automated PII Detection & Dynamic Data Masking Standards",
+      ruSectionName: "Стандарты и регламенты: Automated PII Detection & Dynamic Data Masking",
+      instructions: [
+        "Apply core domain tenets for Automated PII Detection & Dynamic Data Masking.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Automated PII Detection & Dynamic Data Masking.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","automated"],
+    }),
+  },
+
+  "data-knowledge-clickhouse-mergetree-primary-key-sparse-indexing": {
+    id: "data-knowledge-clickhouse-mergetree-primary-key-sparse-indexing",
+    name: "ClickHouseMergeTreePrimaryKeySparseIndexingSkill",
+    displayName: "ClickHouse MergeTree Primary Key Sparse Indexing",
+    categoryId: "data_knowledge",
+    description: "Accelerates billion-row real-time analytical queries using ClickHouse sparse indexes.",
+    tags: ["data_knowledge","data-knowledge","knowledge","clickhouse"],
+    transform: createStandardSkillTransform({
+      sectionName: "ClickHouse MergeTree Primary Key Sparse Indexing Standards",
+      ruSectionName: "Стандарты и регламенты: ClickHouse MergeTree Primary Key Sparse Indexing",
+      instructions: [
+        "Apply core domain tenets for ClickHouse MergeTree Primary Key Sparse Indexing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ClickHouse MergeTree Primary Key Sparse Indexing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","clickhouse"],
+    }),
+  },
+
+  "data-knowledge-duckdb-embedded-olap-s3-parquet-analytics": {
+    id: "data-knowledge-duckdb-embedded-olap-s3-parquet-analytics",
+    name: "DuckDBEmbeddedOLAPS3ParquetAnalyticsSkill",
+    displayName: "DuckDB Embedded OLAP & S3 Parquet Analytics",
+    categoryId: "data_knowledge",
+    description: "Executes fast vectorized SQL queries directly against remote S3 Parquet files.",
+    tags: ["data_knowledge","data-knowledge","knowledge","duckdb"],
+    transform: createStandardSkillTransform({
+      sectionName: "DuckDB Embedded OLAP & S3 Parquet Analytics Standards",
+      ruSectionName: "Стандарты и регламенты: DuckDB Embedded OLAP & S3 Parquet Analytics",
+      instructions: [
+        "Apply core domain tenets for DuckDB Embedded OLAP & S3 Parquet Analytics.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для DuckDB Embedded OLAP & S3 Parquet Analytics.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","duckdb"],
+    }),
+  },
+
+  "data-knowledge-great-expectations-automated-data-quality-suite": {
+    id: "data-knowledge-great-expectations-automated-data-quality-suite",
+    name: "GreatExpectationsAutomatedDataQualitySuiteSkill",
+    displayName: "Great Expectations Automated Data Quality Suite",
+    categoryId: "data_knowledge",
+    description: "Enforces data quality contracts on analytical pipelines with automated assertions.",
+    tags: ["data_knowledge","data-knowledge","knowledge","great"],
+    transform: createStandardSkillTransform({
+      sectionName: "Great Expectations Automated Data Quality Suite Standards",
+      ruSectionName: "Стандарты и регламенты: Great Expectations Automated Data Quality Suite",
+      instructions: [
+        "Apply core domain tenets for Great Expectations Automated Data Quality Suite.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Great Expectations Automated Data Quality Suite.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","great"],
+    }),
+  },
+
+  "data-knowledge-openlineage-metadata-lineage-provenance-graph": {
+    id: "data-knowledge-openlineage-metadata-lineage-provenance-graph",
+    name: "OpenLineageMetadataLineageProvenanceGraphSkill",
+    displayName: "OpenLineage Metadata Lineage & Provenance Graph",
+    categoryId: "data_knowledge",
+    description: "Tracks end-to-end data lineage from raw Kafka streams to executive dashboards.",
+    tags: ["data_knowledge","data-knowledge","knowledge","openlineage"],
+    transform: createStandardSkillTransform({
+      sectionName: "OpenLineage Metadata Lineage & Provenance Graph Standards",
+      ruSectionName: "Стандарты и регламенты: OpenLineage Metadata Lineage & Provenance Graph",
+      instructions: [
+        "Apply core domain tenets for OpenLineage Metadata Lineage & Provenance Graph.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для OpenLineage Metadata Lineage & Provenance Graph.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","openlineage"],
+    }),
+  },
+
+  "data-knowledge-timescaledb-continuous-aggregates-downsampling": {
+    id: "data-knowledge-timescaledb-continuous-aggregates-downsampling",
+    name: "TimescaleDBContinuousAggregatesDownsamplingSkill",
+    displayName: "TimescaleDB Continuous Aggregates & Downsampling",
+    categoryId: "data_knowledge",
+    description: "Maintains real-time rollups over time-series data with automated retention downsampling.",
+    tags: ["data_knowledge","data-knowledge","knowledge","timescaledb"],
+    transform: createStandardSkillTransform({
+      sectionName: "TimescaleDB Continuous Aggregates & Downsampling Standards",
+      ruSectionName: "Стандарты и регламенты: TimescaleDB Continuous Aggregates & Downsampling",
+      instructions: [
+        "Apply core domain tenets for TimescaleDB Continuous Aggregates & Downsampling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для TimescaleDB Continuous Aggregates & Downsampling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","timescaledb"],
+    }),
+  },
+
+  "data-knowledge-redis-hyperloglog-probabilistic-cardinality": {
+    id: "data-knowledge-redis-hyperloglog-probabilistic-cardinality",
+    name: "RedisHyperLogLogProbabilisticCardinalitySkill",
+    displayName: "Redis HyperLogLog Probabilistic Cardinality",
+    categoryId: "data_knowledge",
+    description: "Counts unique daily active users in constant 12KB memory with <0.81% error.",
+    tags: ["data_knowledge","data-knowledge","knowledge","redis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Redis HyperLogLog Probabilistic Cardinality Standards",
+      ruSectionName: "Стандарты и регламенты: Redis HyperLogLog Probabilistic Cardinality",
+      instructions: [
+        "Apply core domain tenets for Redis HyperLogLog Probabilistic Cardinality.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Redis HyperLogLog Probabilistic Cardinality.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","redis"],
+    }),
+  },
+
+  "data-knowledge-debezium-cdc-streaming-into-apache-iceberg": {
+    id: "data-knowledge-debezium-cdc-streaming-into-apache-iceberg",
+    name: "DebeziumCDCStreamingintoApacheIcebergSkill",
+    displayName: "Debezium CDC Streaming into Apache Iceberg",
+    categoryId: "data_knowledge",
+    description: "Streams database row mutations directly into Iceberg lakehouse tables.",
+    tags: ["data_knowledge","data-knowledge","knowledge","debezium"],
+    transform: createStandardSkillTransform({
+      sectionName: "Debezium CDC Streaming into Apache Iceberg Standards",
+      ruSectionName: "Стандарты и регламенты: Debezium CDC Streaming into Apache Iceberg",
+      instructions: [
+        "Apply core domain tenets for Debezium CDC Streaming into Apache Iceberg.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Debezium CDC Streaming into Apache Iceberg.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","debezium"],
+    }),
+  },
+
+  "data-knowledge-star-schema-vs-snowflake-dimensional-modeling": {
+    id: "data-knowledge-star-schema-vs-snowflake-dimensional-modeling",
+    name: "StarSchemavsSnowflakeDimensionalModelingSkill",
+    displayName: "Star Schema vs Snowflake Dimensional Modeling",
+    categoryId: "data_knowledge",
+    description: "Designs denormalized dimensional data models balancing query join speed and storage.",
+    tags: ["data_knowledge","data-knowledge","knowledge","star"],
+    transform: createStandardSkillTransform({
+      sectionName: "Star Schema vs Snowflake Dimensional Modeling Standards",
+      ruSectionName: "Стандарты и регламенты: Star Schema vs Snowflake Dimensional Modeling",
+      instructions: [
+        "Apply core domain tenets for Star Schema vs Snowflake Dimensional Modeling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Star Schema vs Snowflake Dimensional Modeling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","star"],
+    }),
+  },
+
+  "data-knowledge-differential-privacy-laplace-noise-injection": {
+    id: "data-knowledge-differential-privacy-laplace-noise-injection",
+    name: "DifferentialPrivacyLaplaceNoiseInjectionSkill",
+    displayName: "Differential Privacy Laplace Noise Injection",
+    categoryId: "data_knowledge",
+    description: "Protects individual user privacy in analytical aggregates by injecting calibrated noise.",
+    tags: ["data_knowledge","data-knowledge","knowledge","differential"],
+    transform: createStandardSkillTransform({
+      sectionName: "Differential Privacy Laplace Noise Injection Standards",
+      ruSectionName: "Стандарты и регламенты: Differential Privacy Laplace Noise Injection",
+      instructions: [
+        "Apply core domain tenets for Differential Privacy Laplace Noise Injection.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Differential Privacy Laplace Noise Injection.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","differential"],
+    }),
+  },
+
+  "data-knowledge-neo4j-cypher-graph-query-path-traversal": {
+    id: "data-knowledge-neo4j-cypher-graph-query-path-traversal",
+    name: "Neo4jCypherGraphQueryPathTraversalSkill",
+    displayName: "Neo4j Cypher Graph Query Path Traversal",
+    categoryId: "data_knowledge",
+    description: "Tunes Cypher path queries and relationship indexes for multi-hop graph traversals.",
+    tags: ["data_knowledge","data-knowledge","knowledge","neo4j"],
+    transform: createStandardSkillTransform({
+      sectionName: "Neo4j Cypher Graph Query Path Traversal Standards",
+      ruSectionName: "Стандарты и регламенты: Neo4j Cypher Graph Query Path Traversal",
+      instructions: [
+        "Apply core domain tenets for Neo4j Cypher Graph Query Path Traversal.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Neo4j Cypher Graph Query Path Traversal.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","neo4j"],
+    }),
+  },
+
+  "data-knowledge-lakefs-git-style-data-versioning-for-s3": {
+    id: "data-knowledge-lakefs-git-style-data-versioning-for-s3",
+    name: "lakeFSGitStyleDataVersioningforS3Skill",
+    displayName: "lakeFS Git-Style Data Versioning for S3",
+    categoryId: "data_knowledge",
+    description: "Enables zero-copy branch, commit, and rollback workflows over object storage data lakes.",
+    tags: ["data_knowledge","data-knowledge","knowledge","lakefs"],
+    transform: createStandardSkillTransform({
+      sectionName: "lakeFS Git-Style Data Versioning for S3 Standards",
+      ruSectionName: "Стандарты и регламенты: lakeFS Git-Style Data Versioning for S3",
+      instructions: [
+        "Apply core domain tenets for lakeFS Git-Style Data Versioning for S3.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для lakeFS Git-Style Data Versioning for S3.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","lakefs"],
+    }),
+  },
+
+  "data-knowledge-snowflake-search-optimization-service-sos": {
+    id: "data-knowledge-snowflake-search-optimization-service-sos",
+    name: "SnowflakeSearchOptimizationServiceSOSSkill",
+    displayName: "Snowflake Search Optimization Service (SOS)",
+    categoryId: "data_knowledge",
+    description: "Accelerates high-cardinality point-lookup queries on multi-terabyte tables.",
+    tags: ["data_knowledge","data-knowledge","knowledge","snowflake"],
+    transform: createStandardSkillTransform({
+      sectionName: "Snowflake Search Optimization Service (SOS) Standards",
+      ruSectionName: "Стандарты и регламенты: Snowflake Search Optimization Service (SOS)",
+      instructions: [
+        "Apply core domain tenets for Snowflake Search Optimization Service (SOS).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Snowflake Search Optimization Service (SOS).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","snowflake"],
+    }),
+  },
+
+  "data-knowledge-enterprise-data-contracts-protobuf-sla": {
+    id: "data-knowledge-enterprise-data-contracts-protobuf-sla",
+    name: "EnterpriseDataContractsProtobufSLASkill",
+    displayName: "Enterprise Data Contracts Protobuf SLA",
+    categoryId: "data_knowledge",
+    description: "Establishes formal schema and freshness contracts between software producers and data teams.",
+    tags: ["data_knowledge","data-knowledge","knowledge","enterprise"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enterprise Data Contracts Protobuf SLA Standards",
+      ruSectionName: "Стандарты и регламенты: Enterprise Data Contracts Protobuf SLA",
+      instructions: [
+        "Apply core domain tenets for Enterprise Data Contracts Protobuf SLA.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Enterprise Data Contracts Protobuf SLA.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","enterprise"],
+    }),
+  },
+
+  "data-knowledge-semantic-query-caching-gptcache-vector-similarity": {
+    id: "data-knowledge-semantic-query-caching-gptcache-vector-similarity",
+    name: "SemanticQueryCachingGPTCacheVectorSimilaritySkill",
+    displayName: "Semantic Query Caching GPTCache Vector Similarity",
+    categoryId: "data_knowledge",
+    description: "Caches and serves expensive LLM / SQL responses for semantically equivalent queries.",
+    tags: ["data_knowledge","data-knowledge","knowledge","semantic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Semantic Query Caching GPTCache Vector Similarity Standards",
+      ruSectionName: "Стандарты и регламенты: Semantic Query Caching GPTCache Vector Similarity",
+      instructions: [
+        "Apply core domain tenets for Semantic Query Caching GPTCache Vector Similarity.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Semantic Query Caching GPTCache Vector Similarity.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","semantic"],
+    }),
+  },
+
+  "data-knowledge-delta-lake-liquid-clustering-multi-dimensional": {
+    id: "data-knowledge-delta-lake-liquid-clustering-multi-dimensional",
+    name: "DeltaLakeLiquidClusteringMultiDimensionalSkill",
+    displayName: "Delta Lake Liquid Clustering Multi-Dimensional",
+    categoryId: "data_knowledge",
+    description: "Replaces rigid table partitioning with Delta Lake Liquid Clustering for sorting.",
+    tags: ["data_knowledge","data-knowledge","knowledge","delta"],
+    transform: createStandardSkillTransform({
+      sectionName: "Delta Lake Liquid Clustering Multi-Dimensional Standards",
+      ruSectionName: "Стандарты и регламенты: Delta Lake Liquid Clustering Multi-Dimensional",
+      instructions: [
+        "Apply core domain tenets for Delta Lake Liquid Clustering Multi-Dimensional.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Delta Lake Liquid Clustering Multi-Dimensional.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","delta"],
+    }),
+  },
+
+  "data-knowledge-machine-learning-entity-resolution-dedupe": {
+    id: "data-knowledge-machine-learning-entity-resolution-dedupe",
+    name: "MachineLearningEntityResolutionDedupeSkill",
+    displayName: "Machine Learning Entity Resolution & Dedupe",
+    categoryId: "data_knowledge",
+    description: "Trains active-learning classification models to deduplicate messy text records.",
+    tags: ["data_knowledge","data-knowledge","knowledge","machine"],
+    transform: createStandardSkillTransform({
+      sectionName: "Machine Learning Entity Resolution & Dedupe Standards",
+      ruSectionName: "Стандарты и регламенты: Machine Learning Entity Resolution & Dedupe",
+      instructions: [
+        "Apply core domain tenets for Machine Learning Entity Resolution & Dedupe.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Machine Learning Entity Resolution & Dedupe.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","machine"],
+    }),
+  },
+
+  "data-knowledge-low-level-columnar-encodings-rle-delta-bit-packing": {
+    id: "data-knowledge-low-level-columnar-encodings-rle-delta-bit-packing",
+    name: "LowLevelColumnarEncodingsRLEDeltaBitPackingSkill",
+    displayName: "Low-Level Columnar Encodings (RLE, Delta, Bit-Packing)",
+    categoryId: "data_knowledge",
+    description: "Maximizes numerical data compression using RLE, Delta, and Bit-Packing.",
+    tags: ["data_knowledge","data-knowledge","knowledge","low"],
+    transform: createStandardSkillTransform({
+      sectionName: "Low-Level Columnar Encodings (RLE, Delta, Bit-Packing) Standards",
+      ruSectionName: "Стандарты и регламенты: Low-Level Columnar Encodings (RLE, Delta, Bit-Packing)",
+      instructions: [
+        "Apply core domain tenets for Low-Level Columnar Encodings (RLE, Delta, Bit-Packing).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Low-Level Columnar Encodings (RLE, Delta, Bit-Packing).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","low"],
+    }),
+  },
+
+  "data-knowledge-rag-two-stage-retrieval-with-cross-encoder-reranker": {
+    id: "data-knowledge-rag-two-stage-retrieval-with-cross-encoder-reranker",
+    name: "RAGTwoStageRetrievalwithCrossEncoderRerankerSkill",
+    displayName: "RAG Two-Stage Retrieval with Cross-Encoder Reranker",
+    categoryId: "data_knowledge",
+    description: "Re-scores top candidate documents with a deep Cross-Encoder model before prompt injection.",
+    tags: ["data_knowledge","data-knowledge","knowledge","rag"],
+    transform: createStandardSkillTransform({
+      sectionName: "RAG Two-Stage Retrieval with Cross-Encoder Reranker Standards",
+      ruSectionName: "Стандарты и регламенты: RAG Two-Stage Retrieval with Cross-Encoder Reranker",
+      instructions: [
+        "Apply core domain tenets for RAG Two-Stage Retrieval with Cross-Encoder Reranker.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для RAG Two-Stage Retrieval with Cross-Encoder Reranker.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","rag"],
+    }),
+  },
+
+  "data-knowledge-domain-taxonomy-pruning-ontological-depth": {
+    id: "data-knowledge-domain-taxonomy-pruning-ontological-depth",
+    name: "DomainTaxonomyPruningOntologicalDepthSkill",
+    displayName: "Domain Taxonomy Pruning & Ontological Depth",
+    categoryId: "data_knowledge",
+    description: "Prunes redundant hierarchy branches in corporate knowledge taxonomies.",
+    tags: ["data_knowledge","data-knowledge","knowledge","domain"],
+    transform: createStandardSkillTransform({
+      sectionName: "Domain Taxonomy Pruning & Ontological Depth Standards",
+      ruSectionName: "Стандарты и регламенты: Domain Taxonomy Pruning & Ontological Depth",
+      instructions: [
+        "Apply core domain tenets for Domain Taxonomy Pruning & Ontological Depth.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Domain Taxonomy Pruning & Ontological Depth.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","domain"],
+    }),
+  },
+
+  "data-knowledge-feast-feature-store-low-latency-online-offline-sync": {
+    id: "data-knowledge-feast-feature-store-low-latency-online-offline-sync",
+    name: "FeastFeatureStoreLowLatencyOnlineOfflineSyncSkill",
+    displayName: "Feast Feature Store Low-Latency Online/Offline Sync",
+    categoryId: "data_knowledge",
+    description: "Maintains ML feature parity across BigQuery training and Redis inference.",
+    tags: ["data_knowledge","data-knowledge","knowledge","feast"],
+    transform: createStandardSkillTransform({
+      sectionName: "Feast Feature Store Low-Latency Online/Offline Sync Standards",
+      ruSectionName: "Стандарты и регламенты: Feast Feature Store Low-Latency Online/Offline Sync",
+      instructions: [
+        "Apply core domain tenets for Feast Feature Store Low-Latency Online/Offline Sync.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Feast Feature Store Low-Latency Online/Offline Sync.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","feast"],
+    }),
+  },
+
+  "data-knowledge-apache-iceberg-schema-evolution-hidden-partitioning": {
+    id: "data-knowledge-apache-iceberg-schema-evolution-hidden-partitioning",
+    name: "ApacheIcebergSchemaEvolutionHiddenPartitioningSkill",
+    displayName: "Apache Iceberg Schema Evolution & Hidden Partitioning",
+    categoryId: "data_knowledge",
+    description: "Evolves data lake schemas and updates partition specs with zero table rewrites.",
+    tags: ["data_knowledge","data-knowledge","knowledge","apache"],
+    transform: createStandardSkillTransform({
+      sectionName: "Apache Iceberg Schema Evolution & Hidden Partitioning Standards",
+      ruSectionName: "Стандарты и регламенты: Apache Iceberg Schema Evolution & Hidden Partitioning",
+      instructions: [
+        "Apply core domain tenets for Apache Iceberg Schema Evolution & Hidden Partitioning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Apache Iceberg Schema Evolution & Hidden Partitioning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","apache"],
+    }),
+  },
+
+  "data-knowledge-colbertv2-late-interaction-token-multi-vector-search": {
+    id: "data-knowledge-colbertv2-late-interaction-token-multi-vector-search",
+    name: "ColBERTv2LateInteractionTokenMultiVectorSearchSkill",
+    displayName: "ColBERTv2 Late Interaction Token Multi-Vector Search",
+    categoryId: "data_knowledge",
+    description: "Performs fine-grained retrieval by computing token-level MaxSim matrix similarity.",
+    tags: ["data_knowledge","data-knowledge","knowledge","colbertv2"],
+    transform: createStandardSkillTransform({
+      sectionName: "ColBERTv2 Late Interaction Token Multi-Vector Search Standards",
+      ruSectionName: "Стандарты и регламенты: ColBERTv2 Late Interaction Token Multi-Vector Search",
+      instructions: [
+        "Apply core domain tenets for ColBERTv2 Late Interaction Token Multi-Vector Search.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ColBERTv2 Late Interaction Token Multi-Vector Search.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","colbertv2"],
+    }),
+  },
+
+  "data-knowledge-zstandard-pre-trained-dictionary-compression-for-json": {
+    id: "data-knowledge-zstandard-pre-trained-dictionary-compression-for-json",
+    name: "ZstandardPreTrainedDictionaryCompressionforJSONSkill",
+    displayName: "Zstandard Pre-Trained Dictionary Compression for JSON",
+    categoryId: "data_knowledge",
+    description: "Trains 110KB ZSTD dictionaries over JSON payloads for 5x higher compression.",
+    tags: ["data_knowledge","data-knowledge","knowledge","zstandard"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zstandard Pre-Trained Dictionary Compression for JSON Standards",
+      ruSectionName: "Стандарты и регламенты: Zstandard Pre-Trained Dictionary Compression for JSON",
+      instructions: [
+        "Apply core domain tenets for Zstandard Pre-Trained Dictionary Compression for JSON.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Zstandard Pre-Trained Dictionary Compression for JSON.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","zstandard"],
+    }),
+  },
+
+  "data-knowledge-w3c-owl-ontologies-sparql-1-1-query-engine": {
+    id: "data-knowledge-w3c-owl-ontologies-sparql-1-1-query-engine",
+    name: "W3COWLOntologiesSPARQL11QueryEngineSkill",
+    displayName: "W3C OWL Ontologies & SPARQL 1.1 Query Engine",
+    categoryId: "data_knowledge",
+    description: "Models enterprise domains in W3C OWL ontologies, executing SPARQL queries.",
+    tags: ["data_knowledge","data-knowledge","knowledge","w3c"],
+    transform: createStandardSkillTransform({
+      sectionName: "W3C OWL Ontologies & SPARQL 1.1 Query Engine Standards",
+      ruSectionName: "Стандарты и регламенты: W3C OWL Ontologies & SPARQL 1.1 Query Engine",
+      instructions: [
+        "Apply core domain tenets for W3C OWL Ontologies & SPARQL 1.1 Query Engine.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для W3C OWL Ontologies & SPARQL 1.1 Query Engine.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","w3c"],
+    }),
+  },
+
+  "data-knowledge-statistical-data-drift-detection-ks-test-psi": {
+    id: "data-knowledge-statistical-data-drift-detection-ks-test-psi",
+    name: "StatisticalDataDriftDetectionKSTestPSISkill",
+    displayName: "Statistical Data Drift Detection (KS-Test & PSI)",
+    categoryId: "data_knowledge",
+    description: "Monitors numerical distribution shift and categorical concept drift between baseline and live data.",
+    tags: ["data_knowledge","data-knowledge","knowledge","statistical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Statistical Data Drift Detection (KS-Test & PSI) Standards",
+      ruSectionName: "Стандарты и регламенты: Statistical Data Drift Detection (KS-Test & PSI)",
+      instructions: [
+        "Apply core domain tenets for Statistical Data Drift Detection (KS-Test & PSI).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Statistical Data Drift Detection (KS-Test & PSI).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","statistical"],
+    }),
+  },
+
+  "data-knowledge-uber-h3-spatial-hexagonal-hierarchical-indexing": {
+    id: "data-knowledge-uber-h3-spatial-hexagonal-hierarchical-indexing",
+    name: "UberH3SpatialHexagonalHierarchicalIndexingSkill",
+    displayName: "Uber H3 Spatial Hexagonal Hierarchical Indexing",
+    categoryId: "data_knowledge",
+    description: "Indexes geographic coordinates into hierarchical hexagonal grid cells for O(1) spatial queries.",
+    tags: ["data_knowledge","data-knowledge","knowledge","uber"],
+    transform: createStandardSkillTransform({
+      sectionName: "Uber H3 Spatial Hexagonal Hierarchical Indexing Standards",
+      ruSectionName: "Стандарты и регламенты: Uber H3 Spatial Hexagonal Hierarchical Indexing",
+      instructions: [
+        "Apply core domain tenets for Uber H3 Spatial Hexagonal Hierarchical Indexing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Uber H3 Spatial Hexagonal Hierarchical Indexing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","uber"],
+    }),
+  },
+
+  "data-knowledge-lsm-tree-bloom-filters-key-non-existence-check": {
+    id: "data-knowledge-lsm-tree-bloom-filters-key-non-existence-check",
+    name: "LSMTreeBloomFiltersKeyNonExistenceCheckSkill",
+    displayName: "LSM-Tree Bloom Filters Key Non-Existence Check",
+    categoryId: "data_knowledge",
+    description: "Tunes Bloom filter bit arrays in RocksDB/Cassandra to avoid expensive disk lookups.",
+    tags: ["data_knowledge","data-knowledge","knowledge","lsm"],
+    transform: createStandardSkillTransform({
+      sectionName: "LSM-Tree Bloom Filters Key Non-Existence Check Standards",
+      ruSectionName: "Стандарты и регламенты: LSM-Tree Bloom Filters Key Non-Existence Check",
+      instructions: [
+        "Apply core domain tenets for LSM-Tree Bloom Filters Key Non-Existence Check.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для LSM-Tree Bloom Filters Key Non-Existence Check.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","lsm"],
+    }),
+  },
+
+  "data-knowledge-data-lake-compaction-small-file-problem-fix": {
+    id: "data-knowledge-data-lake-compaction-small-file-problem-fix",
+    name: "DataLakeCompactionSmallFileProblemFixSkill",
+    displayName: "Data Lake Compaction & Small File Problem Fix",
+    categoryId: "data_knowledge",
+    description: "Merges millions of tiny streaming Parquet files into optimal 256MB blocks.",
+    tags: ["data_knowledge","data-knowledge","knowledge","data"],
+    transform: createStandardSkillTransform({
+      sectionName: "Data Lake Compaction & Small File Problem Fix Standards",
+      ruSectionName: "Стандарты и регламенты: Data Lake Compaction & Small File Problem Fix",
+      instructions: [
+        "Apply core domain tenets for Data Lake Compaction & Small File Problem Fix.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Data Lake Compaction & Small File Problem Fix.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","data"],
+    }),
+  },
+
+  "data-knowledge-metadata-cataloging-automated-asset-discovery": {
+    id: "data-knowledge-metadata-cataloging-automated-asset-discovery",
+    name: "MetadataCatalogingAutomatedAssetDiscoverySkill",
+    displayName: "Metadata Cataloging & Automated Asset Discovery",
+    categoryId: "data_knowledge",
+    description: "Scans enterprise data warehouses to auto-generate data dictionaries and tags.",
+    tags: ["data_knowledge","data-knowledge","knowledge","metadata"],
+    transform: createStandardSkillTransform({
+      sectionName: "Metadata Cataloging & Automated Asset Discovery Standards",
+      ruSectionName: "Стандарты и регламенты: Metadata Cataloging & Automated Asset Discovery",
+      instructions: [
+        "Apply core domain tenets for Metadata Cataloging & Automated Asset Discovery.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Metadata Cataloging & Automated Asset Discovery.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","metadata"],
+    }),
+  },
+
+  "data-knowledge-temporal-graph-analytics-historical-link-prediction": {
+    id: "data-knowledge-temporal-graph-analytics-historical-link-prediction",
+    name: "TemporalGraphAnalyticsHistoricalLinkPredictionSkill",
+    displayName: "Temporal Graph Analytics & Historical Link Prediction",
+    categoryId: "data_knowledge",
+    description: "Analyzes time-evolving networks to predict future relationships between entities.",
+    tags: ["data_knowledge","data-knowledge","knowledge","temporal"],
+    transform: createStandardSkillTransform({
+      sectionName: "Temporal Graph Analytics & Historical Link Prediction Standards",
+      ruSectionName: "Стандарты и регламенты: Temporal Graph Analytics & Historical Link Prediction",
+      instructions: [
+        "Apply core domain tenets for Temporal Graph Analytics & Historical Link Prediction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Temporal Graph Analytics & Historical Link Prediction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","temporal"],
+    }),
+  },
+
+  "data-knowledge-vector-database-hnsw-graph-index-tuning": {
+    id: "data-knowledge-vector-database-hnsw-graph-index-tuning",
+    name: "VectorDatabaseHNSWGraphIndexTuningSkill",
+    displayName: "Vector Database HNSW Graph Index Tuning",
+    categoryId: "data_knowledge",
+    description: "Tunes HNSW index parameters (M, efConstruction) for high-recall vector search.",
+    tags: ["data_knowledge","data-knowledge","knowledge","vector"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vector Database HNSW Graph Index Tuning Standards",
+      ruSectionName: "Стандарты и регламенты: Vector Database HNSW Graph Index Tuning",
+      instructions: [
+        "Apply core domain tenets for Vector Database HNSW Graph Index Tuning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Vector Database HNSW Graph Index Tuning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","vector"],
+    }),
+  },
+
+  "data-knowledge-data-governance-access-policies-column-security": {
+    id: "data-knowledge-data-governance-access-policies-column-security",
+    name: "DataGovernanceAccessPoliciesColumnSecuritySkill",
+    displayName: "Data Governance Access Policies & Column Security",
+    categoryId: "data_knowledge",
+    description: "Enforces row-level and column-level security policies across analytical tables.",
+    tags: ["data_knowledge","data-knowledge","knowledge","data"],
+    transform: createStandardSkillTransform({
+      sectionName: "Data Governance Access Policies & Column Security Standards",
+      ruSectionName: "Стандарты и регламенты: Data Governance Access Policies & Column Security",
+      instructions: [
+        "Apply core domain tenets for Data Governance Access Policies & Column Security.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Data Governance Access Policies & Column Security.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","data"],
+    }),
+  },
+
+  "data-knowledge-streaming-analytics-sliding-vs-tumbling-windows": {
+    id: "data-knowledge-streaming-analytics-sliding-vs-tumbling-windows",
+    name: "StreamingAnalyticsSlidingvsTumblingWindowsSkill",
+    displayName: "Streaming Analytics Sliding vs Tumbling Windows",
+    categoryId: "data_knowledge",
+    description: "Applies sliding and tumbling time windows on real-time event streams.",
+    tags: ["data_knowledge","data-knowledge","knowledge","streaming"],
+    transform: createStandardSkillTransform({
+      sectionName: "Streaming Analytics Sliding vs Tumbling Windows Standards",
+      ruSectionName: "Стандарты и регламенты: Streaming Analytics Sliding vs Tumbling Windows",
+      instructions: [
+        "Apply core domain tenets for Streaming Analytics Sliding vs Tumbling Windows.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Streaming Analytics Sliding vs Tumbling Windows.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","streaming"],
+    }),
+  },
+
+  "data-knowledge-geospatial-gis-postgis-geometry-indexing": {
+    id: "data-knowledge-geospatial-gis-postgis-geometry-indexing",
+    name: "GeospatialGISPostGISGeometryIndexingSkill",
+    displayName: "Geospatial GIS PostGIS Geometry Indexing",
+    categoryId: "data_knowledge",
+    description: "Executes spatial joins and distance calculations using PostGIS R-Tree indexes.",
+    tags: ["data_knowledge","data-knowledge","knowledge","geospatial"],
+    transform: createStandardSkillTransform({
+      sectionName: "Geospatial GIS PostGIS Geometry Indexing Standards",
+      ruSectionName: "Стандарты и регламенты: Geospatial GIS PostGIS Geometry Indexing",
+      instructions: [
+        "Apply core domain tenets for Geospatial GIS PostGIS Geometry Indexing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Geospatial GIS PostGIS Geometry Indexing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","geospatial"],
+    }),
+  },
+
+  "data-knowledge-data-cleaning-deduplication-outlier-removal": {
+    id: "data-knowledge-data-cleaning-deduplication-outlier-removal",
+    name: "DataCleaningDeduplicationOutlierRemovalSkill",
+    displayName: "Data Cleaning Deduplication & Outlier Removal",
+    categoryId: "data_knowledge",
+    description: "Cleans raw datasets by identifying z-score statistical outliers and duplicates.",
+    tags: ["data_knowledge","data-knowledge","knowledge","data"],
+    transform: createStandardSkillTransform({
+      sectionName: "Data Cleaning Deduplication & Outlier Removal Standards",
+      ruSectionName: "Стандарты и регламенты: Data Cleaning Deduplication & Outlier Removal",
+      instructions: [
+        "Apply core domain tenets for Data Cleaning Deduplication & Outlier Removal.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Data Cleaning Deduplication & Outlier Removal.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","data"],
+    }),
+  },
+
+  "data-knowledge-sql-query-cost-optimizer-cbo-hint-tuning": {
+    id: "data-knowledge-sql-query-cost-optimizer-cbo-hint-tuning",
+    name: "SQLQueryCostOptimizerCBOHintTuningSkill",
+    displayName: "SQL Query Cost Optimizer & CBO Hint Tuning",
+    categoryId: "data_knowledge",
+    description: "Analyzes cost-based optimizer statistics to tune complex SQL analytical joins.",
+    tags: ["data_knowledge","data-knowledge","knowledge","sql"],
+    transform: createStandardSkillTransform({
+      sectionName: "SQL Query Cost Optimizer & CBO Hint Tuning Standards",
+      ruSectionName: "Стандарты и регламенты: SQL Query Cost Optimizer & CBO Hint Tuning",
+      instructions: [
+        "Apply core domain tenets for SQL Query Cost Optimizer & CBO Hint Tuning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SQL Query Cost Optimizer & CBO Hint Tuning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","sql"],
+    }),
+  },
+
+  "data-knowledge-knowledge-base-rag-document-ingestion-pipeline": {
+    id: "data-knowledge-knowledge-base-rag-document-ingestion-pipeline",
+    name: "KnowledgeBaseRAGDocumentIngestionPipelineSkill",
+    displayName: "Knowledge Base RAG Document Ingestion Pipeline",
+    categoryId: "data_knowledge",
+    description: "Parses, chunks, embeds, and indexes unstructured PDF/Word corpora into vector stores.",
+    tags: ["data_knowledge","data-knowledge","knowledge","knowledge"],
+    transform: createStandardSkillTransform({
+      sectionName: "Knowledge Base RAG Document Ingestion Pipeline Standards",
+      ruSectionName: "Стандарты и регламенты: Knowledge Base RAG Document Ingestion Pipeline",
+      instructions: [
+        "Apply core domain tenets for Knowledge Base RAG Document Ingestion Pipeline.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Knowledge Base RAG Document Ingestion Pipeline.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","knowledge"],
+    }),
+  },
+
+  "data-knowledge-synthetic-data-generation-for-ml-privacy": {
+    id: "data-knowledge-synthetic-data-generation-for-ml-privacy",
+    name: "SyntheticDataGenerationforMLPrivacySkill",
+    displayName: "Synthetic Data Generation for ML Privacy",
+    categoryId: "data_knowledge",
+    description: "Generates privacy-preserving synthetic tabular datasets matching real distributions.",
+    tags: ["data_knowledge","data-knowledge","knowledge","synthetic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Synthetic Data Generation for ML Privacy Standards",
+      ruSectionName: "Стандарты и регламенты: Synthetic Data Generation for ML Privacy",
+      instructions: [
+        "Apply core domain tenets for Synthetic Data Generation for ML Privacy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Synthetic Data Generation for ML Privacy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","synthetic"],
+    }),
+  },
+
+  "data-knowledge-enterprise-data-warehouse-lakehouse-architecture": {
+    id: "data-knowledge-enterprise-data-warehouse-lakehouse-architecture",
+    name: "EnterpriseDataWarehouseLakehouseArchitectureSkill",
+    displayName: "Enterprise Data Warehouse Lakehouse Architecture",
+    categoryId: "data_knowledge",
+    description: "Architects modern data lakehouse systems unifying batch, streaming, and ML.",
+    tags: ["data_knowledge","data-knowledge","knowledge","enterprise"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enterprise Data Warehouse Lakehouse Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: Enterprise Data Warehouse Lakehouse Architecture",
+      instructions: [
+        "Apply core domain tenets for Enterprise Data Warehouse Lakehouse Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Enterprise Data Warehouse Lakehouse Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","enterprise"],
+    }),
+  },
+
+  "data-knowledge-master-knowledge-management-information-governance": {
+    id: "data-knowledge-master-knowledge-management-information-governance",
+    name: "MasterKnowledgeManagementInformationGovernanceSkill",
+    displayName: "Master Knowledge Management & Information Governance",
+    categoryId: "data_knowledge",
+    description: "Establishes enterprise-wide knowledge curation, taxonomy, and governance standards.",
+    tags: ["data_knowledge","data-knowledge","knowledge","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Knowledge Management & Information Governance Standards",
+      ruSectionName: "Стандарты и регламенты: Master Knowledge Management & Information Governance",
+      instructions: [
+        "Apply core domain tenets for Master Knowledge Management & Information Governance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Knowledge Management & Information Governance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["data_knowledge","data-knowledge","knowledge","master"],
+    }),
+  },
 };

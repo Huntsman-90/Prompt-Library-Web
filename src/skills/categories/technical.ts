@@ -1997,4 +1997,2302 @@ sectionName: 'PostgreSQL WAL & Logical Replication Architecture',
       tags: ["technical","chaos","engineering","chaos"],
     }),
   },
+  "technical-kubernetes-cluster-helm-deployment-protocol": {
+    id: "technical-kubernetes-cluster-helm-deployment-protocol",
+    name: "KubernetesClusterHelmDeploymentProtocolSkill",
+    displayName: "Kubernetes Cluster Helm Deployment Protocol",
+    categoryId: "technical",
+    description: "Deploys multi-environment application manifests using versioned Helm charts.",
+    tags: ["technical","technical","kubernetes","cluster"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kubernetes Cluster Helm Deployment Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Kubernetes Cluster Helm Deployment Protocol",
+      instructions: [
+        "Apply core domain tenets for Kubernetes Cluster Helm Deployment Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kubernetes Cluster Helm Deployment Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","kubernetes","cluster"],
+    }),
+  },
+
+  "technical-terraform-infrastructure-as-code-state-locking": {
+    id: "technical-terraform-infrastructure-as-code-state-locking",
+    name: "TerraformInfrastructureasCodeStateLockingSkill",
+    displayName: "Terraform Infrastructure as Code State Locking",
+    categoryId: "technical",
+    description: "Manages Terraform state locks in S3/DynamoDB to prevent concurrent pipeline collisions.",
+    tags: ["technical","technical","terraform","infrastructure"],
+    transform: createStandardSkillTransform({
+      sectionName: "Terraform Infrastructure as Code State Locking Standards",
+      ruSectionName: "Стандарты и регламенты: Terraform Infrastructure as Code State Locking",
+      instructions: [
+        "Apply core domain tenets for Terraform Infrastructure as Code State Locking.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Terraform Infrastructure as Code State Locking.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","terraform","infrastructure"],
+    }),
+  },
+
+  "technical-prometheus-grafana-sli-slo-alerting-rules": {
+    id: "technical-prometheus-grafana-sli-slo-alerting-rules",
+    name: "PrometheusGrafanaSLISLOAlertingRulesSkill",
+    displayName: "Prometheus & Grafana SLI/SLO Alerting Rules",
+    categoryId: "technical",
+    description: "Configures Prometheus alerts based on Service Level Indicators and error budgets.",
+    tags: ["technical","technical","prometheus","grafana"],
+    transform: createStandardSkillTransform({
+      sectionName: "Prometheus & Grafana SLI/SLO Alerting Rules Standards",
+      ruSectionName: "Стандарты и регламенты: Prometheus & Grafana SLI/SLO Alerting Rules",
+      instructions: [
+        "Apply core domain tenets for Prometheus & Grafana SLI/SLO Alerting Rules.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Prometheus & Grafana SLI/SLO Alerting Rules.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","prometheus","grafana"],
+    }),
+  },
+
+  "technical-nginx-reverse-proxy-security-ssl-termination": {
+    id: "technical-nginx-reverse-proxy-security-ssl-termination",
+    name: "NginxReverseProxySecuritySSLTerminationSkill",
+    displayName: "Nginx Reverse Proxy Security & SSL Termination",
+    categoryId: "technical",
+    description: "Configures Nginx reverse proxy with TLS 1.3 termination, rate limiting, and headers.",
+    tags: ["technical","technical","nginx","reverse"],
+    transform: createStandardSkillTransform({
+      sectionName: "Nginx Reverse Proxy Security & SSL Termination Standards",
+      ruSectionName: "Стандарты и регламенты: Nginx Reverse Proxy Security & SSL Termination",
+      instructions: [
+        "Apply core domain tenets for Nginx Reverse Proxy Security & SSL Termination.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Nginx Reverse Proxy Security & SSL Termination.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","nginx","reverse"],
+    }),
+  },
+
+  "technical-docker-multi-stage-build-minimal-container": {
+    id: "technical-docker-multi-stage-build-minimal-container",
+    name: "DockerMultiStageBuildMinimalContainerSkill",
+    displayName: "Docker Multi-Stage Build Minimal Container",
+    categoryId: "technical",
+    description: "Optimizes container images using multi-stage builds and distroless base layers.",
+    tags: ["technical","technical","docker","multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Docker Multi-Stage Build Minimal Container Standards",
+      ruSectionName: "Стандарты и регламенты: Docker Multi-Stage Build Minimal Container",
+      instructions: [
+        "Apply core domain tenets for Docker Multi-Stage Build Minimal Container.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Docker Multi-Stage Build Minimal Container.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","docker","multi"],
+    }),
+  },
+
+  "technical-bgp-autonomous-system-anycast-routing": {
+    id: "technical-bgp-autonomous-system-anycast-routing",
+    name: "BGPAutonomousSystemAnycastRoutingSkill",
+    displayName: "BGP Autonomous System Anycast Routing",
+    categoryId: "technical",
+    description: "Routes global user traffic to nearest edge data centers using BGP Anycast.",
+    tags: ["technical","technical","bgp","autonomous"],
+    transform: createStandardSkillTransform({
+      sectionName: "BGP Autonomous System Anycast Routing Standards",
+      ruSectionName: "Стандарты и регламенты: BGP Autonomous System Anycast Routing",
+      instructions: [
+        "Apply core domain tenets for BGP Autonomous System Anycast Routing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для BGP Autonomous System Anycast Routing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","bgp","autonomous"],
+    }),
+  },
+
+  "technical-linux-kernel-sysctl-epoll-performance-tuning": {
+    id: "technical-linux-kernel-sysctl-epoll-performance-tuning",
+    name: "LinuxKernelSysctlEpollPerformanceTuningSkill",
+    displayName: "Linux Kernel Sysctl Epoll Performance Tuning",
+    categoryId: "technical",
+    description: "Tunes Linux kernel network parameters (epoll, file descriptors, TCP buffers).",
+    tags: ["technical","technical","linux","kernel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux Kernel Sysctl Epoll Performance Tuning Standards",
+      ruSectionName: "Стандарты и регламенты: Linux Kernel Sysctl Epoll Performance Tuning",
+      instructions: [
+        "Apply core domain tenets for Linux Kernel Sysctl Epoll Performance Tuning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux Kernel Sysctl Epoll Performance Tuning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","kernel"],
+    }),
+  },
+
+  "technical-aws-iam-least-privilege-governance": {
+    id: "technical-aws-iam-least-privilege-governance",
+    name: "AWSIAMLeastPrivilegeGovernanceSkill",
+    displayName: "AWS IAM Least Privilege Governance",
+    categoryId: "technical",
+    description: "Enforces strict IAM role policies and Service Control Policies (SCPs).",
+    tags: ["technical","technical","aws","iam"],
+    transform: createStandardSkillTransform({
+      sectionName: "AWS IAM Least Privilege Governance Standards",
+      ruSectionName: "Стандарты и регламенты: AWS IAM Least Privilege Governance",
+      instructions: [
+        "Apply core domain tenets for AWS IAM Least Privilege Governance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AWS IAM Least Privilege Governance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","aws","iam"],
+    }),
+  },
+
+  "technical-grpc-protocol-buffers-high-speed-microservices": {
+    id: "technical-grpc-protocol-buffers-high-speed-microservices",
+    name: "gRPCProtocolBuffersHighSpeedMicroservicesSkill",
+    displayName: "gRPC Protocol Buffers High-Speed Microservices",
+    categoryId: "technical",
+    description: "Defines binary RPC services using Protocol Buffers and gRPC streaming.",
+    tags: ["technical","technical","grpc","protocol"],
+    transform: createStandardSkillTransform({
+      sectionName: "gRPC Protocol Buffers High-Speed Microservices Standards",
+      ruSectionName: "Стандарты и регламенты: gRPC Protocol Buffers High-Speed Microservices",
+      instructions: [
+        "Apply core domain tenets for gRPC Protocol Buffers High-Speed Microservices.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для gRPC Protocol Buffers High-Speed Microservices.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","grpc","protocol"],
+    }),
+  },
+
+  "technical-kafka-partition-leader-rebalance-lag-monitoring": {
+    id: "technical-kafka-partition-leader-rebalance-lag-monitoring",
+    name: "KafkaPartitionLeaderRebalanceLagMonitoringSkill",
+    displayName: "Kafka Partition Leader Rebalance & Lag Monitoring",
+    categoryId: "technical",
+    description: "Monitors Kafka consumer group lag and manages partition leader rebalancing.",
+    tags: ["technical","technical","kafka","partition"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kafka Partition Leader Rebalance & Lag Monitoring Standards",
+      ruSectionName: "Стандарты и регламенты: Kafka Partition Leader Rebalance & Lag Monitoring",
+      instructions: [
+        "Apply core domain tenets for Kafka Partition Leader Rebalance & Lag Monitoring.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kafka Partition Leader Rebalance & Lag Monitoring.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","kafka","partition"],
+    }),
+  },
+
+  "technical-hashicorp-vault-dynamic-secrets-management": {
+    id: "technical-hashicorp-vault-dynamic-secrets-management",
+    name: "HashiCorpVaultDynamicSecretsManagementSkill",
+    displayName: "HashiCorp Vault Dynamic Secrets Management",
+    categoryId: "technical",
+    description: "Generates ephemeral database credentials and rotates secrets automatically.",
+    tags: ["technical","technical","hashicorp","vault"],
+    transform: createStandardSkillTransform({
+      sectionName: "HashiCorp Vault Dynamic Secrets Management Standards",
+      ruSectionName: "Стандарты и регламенты: HashiCorp Vault Dynamic Secrets Management",
+      instructions: [
+        "Apply core domain tenets for HashiCorp Vault Dynamic Secrets Management.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для HashiCorp Vault Dynamic Secrets Management.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","hashicorp","vault"],
+    }),
+  },
+
+  "technical-linux-systemd-service-unit-lifecycle-management": {
+    id: "technical-linux-systemd-service-unit-lifecycle-management",
+    name: "LinuxSystemdServiceUnitLifecycleManagementSkill",
+    displayName: "Linux Systemd Service Unit Lifecycle Management",
+    categoryId: "technical",
+    description: "Authors systemd unit files with security sandboxing and auto-restart policies.",
+    tags: ["technical","technical","linux","systemd"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux Systemd Service Unit Lifecycle Management Standards",
+      ruSectionName: "Стандарты и регламенты: Linux Systemd Service Unit Lifecycle Management",
+      instructions: [
+        "Apply core domain tenets for Linux Systemd Service Unit Lifecycle Management.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux Systemd Service Unit Lifecycle Management.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","systemd"],
+    }),
+  },
+
+  "technical-ansible-idempotent-configuration-playbooks": {
+    id: "technical-ansible-idempotent-configuration-playbooks",
+    name: "AnsibleIdempotentConfigurationPlaybooksSkill",
+    displayName: "Ansible Idempotent Configuration Playbooks",
+    categoryId: "technical",
+    description: "Automates server provisioning using idempotent Ansible tasks and roles.",
+    tags: ["technical","technical","ansible","idempotent"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ansible Idempotent Configuration Playbooks Standards",
+      ruSectionName: "Стандарты и регламенты: Ansible Idempotent Configuration Playbooks",
+      instructions: [
+        "Apply core domain tenets for Ansible Idempotent Configuration Playbooks.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Ansible Idempotent Configuration Playbooks.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","ansible","idempotent"],
+    }),
+  },
+
+  "technical-enterprise-bgp-route-reflector-network-fabric": {
+    id: "technical-enterprise-bgp-route-reflector-network-fabric",
+    name: "EnterpriseBGPRouteReflectorNetworkFabricSkill",
+    displayName: "Enterprise BGP Route Reflector Network Fabric",
+    categoryId: "technical",
+    description: "Architects scalable internal BGP network fabrics using route reflectors.",
+    tags: ["technical","technical","enterprise","bgp"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enterprise BGP Route Reflector Network Fabric Standards",
+      ruSectionName: "Стандарты и регламенты: Enterprise BGP Route Reflector Network Fabric",
+      instructions: [
+        "Apply core domain tenets for Enterprise BGP Route Reflector Network Fabric.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Enterprise BGP Route Reflector Network Fabric.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","enterprise","bgp"],
+    }),
+  },
+
+  "technical-ebpf-kernel-network-tracing-packet-filtering": {
+    id: "technical-ebpf-kernel-network-tracing-packet-filtering",
+    name: "eBPFKernelNetworkTracingPacketFilteringSkill",
+    displayName: "eBPF Kernel Network Tracing & Packet Filtering",
+    categoryId: "technical",
+    description: "Attaches eBPF programs to kernel sockets for high-performance packet filtering.",
+    tags: ["technical","technical","ebpf","kernel"],
+    transform: createStandardSkillTransform({
+      sectionName: "eBPF Kernel Network Tracing & Packet Filtering Standards",
+      ruSectionName: "Стандарты и регламенты: eBPF Kernel Network Tracing & Packet Filtering",
+      instructions: [
+        "Apply core domain tenets for eBPF Kernel Network Tracing & Packet Filtering.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для eBPF Kernel Network Tracing & Packet Filtering.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","ebpf","kernel"],
+    }),
+  },
+
+  "technical-edge-serverless-compute-cloudflare-workers": {
+    id: "technical-edge-serverless-compute-cloudflare-workers",
+    name: "EdgeServerlessComputeCloudflareWorkersSkill",
+    displayName: "Edge Serverless Compute Cloudflare Workers",
+    categoryId: "technical",
+    description: "Deploys low-latency serverless JavaScript/Wasm code to global edge locations.",
+    tags: ["technical","technical","edge","serverless"],
+    transform: createStandardSkillTransform({
+      sectionName: "Edge Serverless Compute Cloudflare Workers Standards",
+      ruSectionName: "Стандарты и регламенты: Edge Serverless Compute Cloudflare Workers",
+      instructions: [
+        "Apply core domain tenets for Edge Serverless Compute Cloudflare Workers.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Edge Serverless Compute Cloudflare Workers.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","edge","serverless"],
+    }),
+  },
+
+  "technical-rabbitmq-distributed-quorum-queues": {
+    id: "technical-rabbitmq-distributed-quorum-queues",
+    name: "RabbitMQDistributedQuorumQueuesSkill",
+    displayName: "RabbitMQ Distributed Quorum Queues",
+    categoryId: "technical",
+    description: "Configures replicated, fault-tolerant message queues using RabbitMQ quorum queues.",
+    tags: ["technical","technical","rabbitmq","distributed"],
+    transform: createStandardSkillTransform({
+      sectionName: "RabbitMQ Distributed Quorum Queues Standards",
+      ruSectionName: "Стандарты и регламенты: RabbitMQ Distributed Quorum Queues",
+      instructions: [
+        "Apply core domain tenets for RabbitMQ Distributed Quorum Queues.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для RabbitMQ Distributed Quorum Queues.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","rabbitmq","distributed"],
+    }),
+  },
+
+  "technical-ceph-distributed-storage-pool-balancing": {
+    id: "technical-ceph-distributed-storage-pool-balancing",
+    name: "CephDistributedStoragePoolBalancingSkill",
+    displayName: "Ceph Distributed Storage Pool Balancing",
+    categoryId: "technical",
+    description: "Manages distributed block, object, and file storage pools across server clusters.",
+    tags: ["technical","technical","ceph","distributed"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ceph Distributed Storage Pool Balancing Standards",
+      ruSectionName: "Стандарты и регламенты: Ceph Distributed Storage Pool Balancing",
+      instructions: [
+        "Apply core domain tenets for Ceph Distributed Storage Pool Balancing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Ceph Distributed Storage Pool Balancing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","ceph","distributed"],
+    }),
+  },
+
+  "technical-chaos-engineering-chaos-mesh-injection": {
+    id: "technical-chaos-engineering-chaos-mesh-injection",
+    name: "ChaosEngineeringChaosMeshInjectionSkill",
+    displayName: "Chaos Engineering Chaos Mesh Injection",
+    categoryId: "technical",
+    description: "Injects network latency, packet loss, and pod failures to test system resilience.",
+    tags: ["technical","technical","chaos","engineering"],
+    transform: createStandardSkillTransform({
+      sectionName: "Chaos Engineering Chaos Mesh Injection Standards",
+      ruSectionName: "Стандарты и регламенты: Chaos Engineering Chaos Mesh Injection",
+      instructions: [
+        "Apply core domain tenets for Chaos Engineering Chaos Mesh Injection.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Chaos Engineering Chaos Mesh Injection.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","chaos","engineering"],
+    }),
+  },
+
+  "technical-istio-service-mesh-traffic-shifting-canary": {
+    id: "technical-istio-service-mesh-traffic-shifting-canary",
+    name: "IstioServiceMeshTrafficShiftingCanarySkill",
+    displayName: "Istio Service Mesh Traffic Shifting & Canary",
+    categoryId: "technical",
+    description: "Executes canary deployments by shifting traffic percentages using Istio VirtualServices.",
+    tags: ["technical","technical","istio","service"],
+    transform: createStandardSkillTransform({
+      sectionName: "Istio Service Mesh Traffic Shifting & Canary Standards",
+      ruSectionName: "Стандарты и регламенты: Istio Service Mesh Traffic Shifting & Canary",
+      instructions: [
+        "Apply core domain tenets for Istio Service Mesh Traffic Shifting & Canary.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Istio Service Mesh Traffic Shifting & Canary.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","istio","service"],
+    }),
+  },
+
+  "technical-aws-s3-lifecycle-policies-glacier-archiving": {
+    id: "technical-aws-s3-lifecycle-policies-glacier-archiving",
+    name: "AWSS3LifecyclePoliciesGlacierArchivingSkill",
+    displayName: "AWS S3 Lifecycle Policies & Glacier Archiving",
+    categoryId: "technical",
+    description: "Automates object transition policies from S3 Standard to Glacier and Deep Archive.",
+    tags: ["technical","technical","aws","s3"],
+    transform: createStandardSkillTransform({
+      sectionName: "AWS S3 Lifecycle Policies & Glacier Archiving Standards",
+      ruSectionName: "Стандарты и регламенты: AWS S3 Lifecycle Policies & Glacier Archiving",
+      instructions: [
+        "Apply core domain tenets for AWS S3 Lifecycle Policies & Glacier Archiving.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AWS S3 Lifecycle Policies & Glacier Archiving.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","aws","s3"],
+    }),
+  },
+
+  "technical-postgresql-vacuuming-bloat-maintenance": {
+    id: "technical-postgresql-vacuuming-bloat-maintenance",
+    name: "PostgreSQLVacuumingBloatMaintenanceSkill",
+    displayName: "PostgreSQL Vacuuming & Bloat Maintenance",
+    categoryId: "technical",
+    description: "Configures autovacuum parameters to prevent table bloat and transaction wraparound.",
+    tags: ["technical","technical","postgresql","vacuuming"],
+    transform: createStandardSkillTransform({
+      sectionName: "PostgreSQL Vacuuming & Bloat Maintenance Standards",
+      ruSectionName: "Стандарты и регламенты: PostgreSQL Vacuuming & Bloat Maintenance",
+      instructions: [
+        "Apply core domain tenets for PostgreSQL Vacuuming & Bloat Maintenance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для PostgreSQL Vacuuming & Bloat Maintenance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","postgresql","vacuuming"],
+    }),
+  },
+
+  "technical-cisco-nexus-data-center-vxlan-evpn-fabric": {
+    id: "technical-cisco-nexus-data-center-vxlan-evpn-fabric",
+    name: "CiscoNexusDataCenterVXLANEVPNFabricSkill",
+    displayName: "Cisco Nexus Data Center VXLAN EVPN Fabric",
+    categoryId: "technical",
+    description: "Architects scalable spine-and-leaf data center fabrics using VXLAN EVPN.",
+    tags: ["technical","technical","cisco","nexus"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cisco Nexus Data Center VXLAN EVPN Fabric Standards",
+      ruSectionName: "Стандарты и регламенты: Cisco Nexus Data Center VXLAN EVPN Fabric",
+      instructions: [
+        "Apply core domain tenets for Cisco Nexus Data Center VXLAN EVPN Fabric.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cisco Nexus Data Center VXLAN EVPN Fabric.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","cisco","nexus"],
+    }),
+  },
+
+  "technical-linux-cgroups-v2-system-resource-limits": {
+    id: "technical-linux-cgroups-v2-system-resource-limits",
+    name: "LinuxCgroupsv2SystemResourceLimitsSkill",
+    displayName: "Linux Cgroups v2 & System Resource Limits",
+    categoryId: "technical",
+    description: "Enforces CPU, memory, and I/O resource limits on container workloads via cgroups v2.",
+    tags: ["technical","technical","linux","cgroups"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux Cgroups v2 & System Resource Limits Standards",
+      ruSectionName: "Стандарты и регламенты: Linux Cgroups v2 & System Resource Limits",
+      instructions: [
+        "Apply core domain tenets for Linux Cgroups v2 & System Resource Limits.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux Cgroups v2 & System Resource Limits.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","cgroups"],
+    }),
+  },
+
+  "technical-argocd-gitops-declarative-kubernetes-sync": {
+    id: "technical-argocd-gitops-declarative-kubernetes-sync",
+    name: "ArgoCDGitOpsDeclarativeKubernetesSyncSkill",
+    displayName: "ArgoCD GitOps Declarative Kubernetes Sync",
+    categoryId: "technical",
+    description: "Implements GitOps deployment pipelines syncing Git repos to Kubernetes clusters.",
+    tags: ["technical","technical","argocd","gitops"],
+    transform: createStandardSkillTransform({
+      sectionName: "ArgoCD GitOps Declarative Kubernetes Sync Standards",
+      ruSectionName: "Стандарты и регламенты: ArgoCD GitOps Declarative Kubernetes Sync",
+      instructions: [
+        "Apply core domain tenets for ArgoCD GitOps Declarative Kubernetes Sync.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ArgoCD GitOps Declarative Kubernetes Sync.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","argocd","gitops"],
+    }),
+  },
+
+  "technical-haproxy-high-availability-load-balancing": {
+    id: "technical-haproxy-high-availability-load-balancing",
+    name: "HAProxyHighAvailabilityLoadBalancingSkill",
+    displayName: "HAProxy High-Availability Load Balancing",
+    categoryId: "technical",
+    description: "Configures HAProxy layer 4 and layer 7 load balancing with health checks.",
+    tags: ["technical","technical","haproxy","high"],
+    transform: createStandardSkillTransform({
+      sectionName: "HAProxy High-Availability Load Balancing Standards",
+      ruSectionName: "Стандарты и регламенты: HAProxy High-Availability Load Balancing",
+      instructions: [
+        "Apply core domain tenets for HAProxy High-Availability Load Balancing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для HAProxy High-Availability Load Balancing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","haproxy","high"],
+    }),
+  },
+
+  "technical-dnssec-cryptographic-domain-name-protection": {
+    id: "technical-dnssec-cryptographic-domain-name-protection",
+    name: "DNSSECCryptographicDomainNameProtectionSkill",
+    displayName: "DNSSEC Cryptographic Domain Name Protection",
+    categoryId: "technical",
+    description: "Secures DNS infrastructure against spoofing using DNSSEC digital signatures.",
+    tags: ["technical","technical","dnssec","cryptographic"],
+    transform: createStandardSkillTransform({
+      sectionName: "DNSSEC Cryptographic Domain Name Protection Standards",
+      ruSectionName: "Стандарты и регламенты: DNSSEC Cryptographic Domain Name Protection",
+      instructions: [
+        "Apply core domain tenets for DNSSEC Cryptographic Domain Name Protection.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для DNSSEC Cryptographic Domain Name Protection.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","dnssec","cryptographic"],
+    }),
+  },
+
+  "technical-aws-vpc-peering-transit-gateway-architecture": {
+    id: "technical-aws-vpc-peering-transit-gateway-architecture",
+    name: "AWSVPCPeeringTransitGatewayArchitectureSkill",
+    displayName: "AWS VPC Peering & Transit Gateway Architecture",
+    categoryId: "technical",
+    description: "Connects multi-region cloud VPCs using Transit Gateway and routing tables.",
+    tags: ["technical","technical","aws","vpc"],
+    transform: createStandardSkillTransform({
+      sectionName: "AWS VPC Peering & Transit Gateway Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: AWS VPC Peering & Transit Gateway Architecture",
+      instructions: [
+        "Apply core domain tenets for AWS VPC Peering & Transit Gateway Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AWS VPC Peering & Transit Gateway Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","aws","vpc"],
+    }),
+  },
+
+  "technical-linux-pam-ssh-key-hardening": {
+    id: "technical-linux-pam-ssh-key-hardening",
+    name: "LinuxPAMSSHKeyHardeningSkill",
+    displayName: "Linux PAM & SSH Key Hardening",
+    categoryId: "technical",
+    description: "Secures SSH server access using hardware security keys and two-factor PAM modules.",
+    tags: ["technical","technical","linux","pam"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux PAM & SSH Key Hardening Standards",
+      ruSectionName: "Стандарты и регламенты: Linux PAM & SSH Key Hardening",
+      instructions: [
+        "Apply core domain tenets for Linux PAM & SSH Key Hardening.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux PAM & SSH Key Hardening.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","pam"],
+    }),
+  },
+
+  "technical-clickhouse-columnar-database-cluster-architecture": {
+    id: "technical-clickhouse-columnar-database-cluster-architecture",
+    name: "ClickHouseColumnarDatabaseClusterArchitectureSkill",
+    displayName: "ClickHouse Columnar Database Cluster Architecture",
+    categoryId: "technical",
+    description: "Architects distributed ClickHouse clusters for sub-second analytical queries.",
+    tags: ["technical","technical","clickhouse","columnar"],
+    transform: createStandardSkillTransform({
+      sectionName: "ClickHouse Columnar Database Cluster Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: ClickHouse Columnar Database Cluster Architecture",
+      instructions: [
+        "Apply core domain tenets for ClickHouse Columnar Database Cluster Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ClickHouse Columnar Database Cluster Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","clickhouse","columnar"],
+    }),
+  },
+
+  "technical-apache-apache-flink-stateful-stream-processing": {
+    id: "technical-apache-apache-flink-stateful-stream-processing",
+    name: "ApacheApacheFlinkStatefulStreamProcessingSkill",
+    displayName: "Apache Apache Flink Stateful Stream Processing",
+    categoryId: "technical",
+    description: "Builds stateful real-time stream processing applications using Apache Flink.",
+    tags: ["technical","technical","apache","apache"],
+    transform: createStandardSkillTransform({
+      sectionName: "Apache Apache Flink Stateful Stream Processing Standards",
+      ruSectionName: "Стандарты и регламенты: Apache Apache Flink Stateful Stream Processing",
+      instructions: [
+        "Apply core domain tenets for Apache Apache Flink Stateful Stream Processing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Apache Apache Flink Stateful Stream Processing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","apache","apache"],
+    }),
+  },
+
+  "technical-vault-transit-secrets-engine-data-encryption": {
+    id: "technical-vault-transit-secrets-engine-data-encryption",
+    name: "VaultTransitSecretsEngineDataEncryptionSkill",
+    displayName: "Vault Transit Secrets Engine Data Encryption",
+    categoryId: "technical",
+    description: "Encrypts application data in transit and at rest using HashiCorp Vault APIs.",
+    tags: ["technical","technical","vault","transit"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vault Transit Secrets Engine Data Encryption Standards",
+      ruSectionName: "Стандарты и регламенты: Vault Transit Secrets Engine Data Encryption",
+      instructions: [
+        "Apply core domain tenets for Vault Transit Secrets Engine Data Encryption.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Vault Transit Secrets Engine Data Encryption.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","vault","transit"],
+    }),
+  },
+
+  "technical-opensearch-indexing-search-cluster-performance": {
+    id: "technical-opensearch-indexing-search-cluster-performance",
+    name: "OpenSearchIndexingSearchClusterPerformanceSkill",
+    displayName: "OpenSearch Indexing & Search Cluster Performance",
+    categoryId: "technical",
+    description: "Tunes OpenSearch cluster JVM heap, shard counts, and search performance.",
+    tags: ["technical","technical","opensearch","indexing"],
+    transform: createStandardSkillTransform({
+      sectionName: "OpenSearch Indexing & Search Cluster Performance Standards",
+      ruSectionName: "Стандарты и регламенты: OpenSearch Indexing & Search Cluster Performance",
+      instructions: [
+        "Apply core domain tenets for OpenSearch Indexing & Search Cluster Performance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для OpenSearch Indexing & Search Cluster Performance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","opensearch","indexing"],
+    }),
+  },
+
+  "technical-linux-lvm-storage-volume-management": {
+    id: "technical-linux-lvm-storage-volume-management",
+    name: "LinuxLVMStorageVolumeManagementSkill",
+    displayName: "Linux LVM Storage Volume Management",
+    categoryId: "technical",
+    description: "Manages logical volumes, snapshots, and filesystem resizing using LVM.",
+    tags: ["technical","technical","linux","lvm"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux LVM Storage Volume Management Standards",
+      ruSectionName: "Стандарты и регламенты: Linux LVM Storage Volume Management",
+      instructions: [
+        "Apply core domain tenets for Linux LVM Storage Volume Management.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux LVM Storage Volume Management.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","lvm"],
+    }),
+  },
+
+  "technical-cloudflare-ddos-protection-waf-rules": {
+    id: "technical-cloudflare-ddos-protection-waf-rules",
+    name: "CloudflareDDoSProtectionWAFRulesSkill",
+    displayName: "Cloudflare DDoS Protection & WAF Rules",
+    categoryId: "technical",
+    description: "Configures Web Application Firewall rules to block SQL injection and rate-limit bots.",
+    tags: ["technical","technical","cloudflare","ddos"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cloudflare DDoS Protection & WAF Rules Standards",
+      ruSectionName: "Стандарты и регламенты: Cloudflare DDoS Protection & WAF Rules",
+      instructions: [
+        "Apply core domain tenets for Cloudflare DDoS Protection & WAF Rules.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cloudflare DDoS Protection & WAF Rules.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","cloudflare","ddos"],
+    }),
+  },
+
+  "technical-graphql-subgraph-federation-router": {
+    id: "technical-graphql-subgraph-federation-router",
+    name: "GraphQLSubgraphFederationRouterSkill",
+    displayName: "GraphQL Subgraph Federation & Router",
+    categoryId: "technical",
+    description: "Deploys Apollo Router connecting federated subgraphs into a unified API.",
+    tags: ["technical","technical","graphql","subgraph"],
+    transform: createStandardSkillTransform({
+      sectionName: "GraphQL Subgraph Federation & Router Standards",
+      ruSectionName: "Стандарты и регламенты: GraphQL Subgraph Federation & Router",
+      instructions: [
+        "Apply core domain tenets for GraphQL Subgraph Federation & Router.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для GraphQL Subgraph Federation & Router.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","graphql","subgraph"],
+    }),
+  },
+
+  "technical-kafka-schema-registry-avro-compatibility": {
+    id: "technical-kafka-schema-registry-avro-compatibility",
+    name: "KafkaSchemaRegistryAvroCompatibilitySkill",
+    displayName: "Kafka Schema Registry Avro Compatibility",
+    categoryId: "technical",
+    description: "Enforces schema compatibility rules for Kafka messages using Confluent Schema Registry.",
+    tags: ["technical","technical","kafka","schema"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kafka Schema Registry Avro Compatibility Standards",
+      ruSectionName: "Стандарты и регламенты: Kafka Schema Registry Avro Compatibility",
+      instructions: [
+        "Apply core domain tenets for Kafka Schema Registry Avro Compatibility.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kafka Schema Registry Avro Compatibility.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","kafka","schema"],
+    }),
+  },
+
+  "technical-linux-system-performance-profiling-with-perf": {
+    id: "technical-linux-system-performance-profiling-with-perf",
+    name: "LinuxSystemPerformanceProfilingwithperfSkill",
+    displayName: "Linux System Performance Profiling with perf",
+    categoryId: "technical",
+    description: "Profiles CPU utilization and memory bottlenecks using Linux `perf` tools.",
+    tags: ["technical","technical","linux","system"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux System Performance Profiling with perf Standards",
+      ruSectionName: "Стандарты и регламенты: Linux System Performance Profiling with perf",
+      instructions: [
+        "Apply core domain tenets for Linux System Performance Profiling with perf.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux System Performance Profiling with perf.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","system"],
+    }),
+  },
+
+  "technical-datadog-apm-distributed-tracing-setup": {
+    id: "technical-datadog-apm-distributed-tracing-setup",
+    name: "DatadogAPMDistributedTracingSetupSkill",
+    displayName: "Datadog APM & Distributed Tracing Setup",
+    categoryId: "technical",
+    description: "Instruments microservices with Datadog APM agents for performance monitoring.",
+    tags: ["technical","technical","datadog","apm"],
+    transform: createStandardSkillTransform({
+      sectionName: "Datadog APM & Distributed Tracing Setup Standards",
+      ruSectionName: "Стандарты и регламенты: Datadog APM & Distributed Tracing Setup",
+      instructions: [
+        "Apply core domain tenets for Datadog APM & Distributed Tracing Setup.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Datadog APM & Distributed Tracing Setup.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","datadog","apm"],
+    }),
+  },
+
+  "technical-aws-lambda-cold-start-provisioned-concurrency": {
+    id: "technical-aws-lambda-cold-start-provisioned-concurrency",
+    name: "AWSLambdaColdStartProvisionedConcurrencySkill",
+    displayName: "AWS Lambda Cold Start & Provisioned Concurrency",
+    categoryId: "technical",
+    description: "Optimizes serverless function execution times using provisioned concurrency.",
+    tags: ["technical","technical","aws","lambda"],
+    transform: createStandardSkillTransform({
+      sectionName: "AWS Lambda Cold Start & Provisioned Concurrency Standards",
+      ruSectionName: "Стандарты и регламенты: AWS Lambda Cold Start & Provisioned Concurrency",
+      instructions: [
+        "Apply core domain tenets for AWS Lambda Cold Start & Provisioned Concurrency.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AWS Lambda Cold Start & Provisioned Concurrency.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","aws","lambda"],
+    }),
+  },
+
+  "technical-nfs-glusterfs-network-file-system-mounts": {
+    id: "technical-nfs-glusterfs-network-file-system-mounts",
+    name: "NFSGlusterFSNetworkFileSystemMountsSkill",
+    displayName: "NFS / GlusterFS Network File System Mounts",
+    categoryId: "technical",
+    description: "Configures shared network file systems with high availability and locking.",
+    tags: ["technical","technical","nfs","glusterfs"],
+    transform: createStandardSkillTransform({
+      sectionName: "NFS / GlusterFS Network File System Mounts Standards",
+      ruSectionName: "Стандарты и регламенты: NFS / GlusterFS Network File System Mounts",
+      instructions: [
+        "Apply core domain tenets for NFS / GlusterFS Network File System Mounts.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для NFS / GlusterFS Network File System Mounts.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","nfs","glusterfs"],
+    }),
+  },
+
+  "technical-bgp-peering-internet-exchange-ixp-interconnect": {
+    id: "technical-bgp-peering-internet-exchange-ixp-interconnect",
+    name: "BGPPeeringInternetExchangeIXPInterconnectSkill",
+    displayName: "BGP Peering & Internet Exchange (IXP) Interconnect",
+    categoryId: "technical",
+    description: "Establishes direct peering connections at Internet Exchange Points to cut latency.",
+    tags: ["technical","technical","bgp","peering"],
+    transform: createStandardSkillTransform({
+      sectionName: "BGP Peering & Internet Exchange (IXP) Interconnect Standards",
+      ruSectionName: "Стандарты и регламенты: BGP Peering & Internet Exchange (IXP) Interconnect",
+      instructions: [
+        "Apply core domain tenets for BGP Peering & Internet Exchange (IXP) Interconnect.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для BGP Peering & Internet Exchange (IXP) Interconnect.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","bgp","peering"],
+    }),
+  },
+
+  "technical-coredns-custom-plugin-dns-forwarding": {
+    id: "technical-coredns-custom-plugin-dns-forwarding",
+    name: "CoreDNSCustomPluginDNSForwardingSkill",
+    displayName: "CoreDNS Custom Plugin & DNS Forwarding",
+    categoryId: "technical",
+    description: "Configures Kubernetes CoreDNS for custom service discovery and forwarding.",
+    tags: ["technical","technical","coredns","custom"],
+    transform: createStandardSkillTransform({
+      sectionName: "CoreDNS Custom Plugin & DNS Forwarding Standards",
+      ruSectionName: "Стандарты и регламенты: CoreDNS Custom Plugin & DNS Forwarding",
+      instructions: [
+        "Apply core domain tenets for CoreDNS Custom Plugin & DNS Forwarding.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для CoreDNS Custom Plugin & DNS Forwarding.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","coredns","custom"],
+    }),
+  },
+
+  "technical-linux-iptables-nftables-network-firewall": {
+    id: "technical-linux-iptables-nftables-network-firewall",
+    name: "LinuxIPTablesNFTablesNetworkFirewallSkill",
+    displayName: "Linux IPTables & NFTables Network Firewall",
+    categoryId: "technical",
+    description: "Authors packet filtering rules using Linux `nftables` for server hardening.",
+    tags: ["technical","technical","linux","iptables"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux IPTables & NFTables Network Firewall Standards",
+      ruSectionName: "Стандарты и регламенты: Linux IPTables & NFTables Network Firewall",
+      instructions: [
+        "Apply core domain tenets for Linux IPTables & NFTables Network Firewall.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux IPTables & NFTables Network Firewall.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","iptables"],
+    }),
+  },
+
+  "technical-mongodb-replica-set-auto-failover-oplog": {
+    id: "technical-mongodb-replica-set-auto-failover-oplog",
+    name: "MongoDBReplicaSetAutoFailoverOplogSkill",
+    displayName: "MongoDB Replica Set Auto-Failover & Oplog",
+    categoryId: "technical",
+    description: "Configures MongoDB replica sets with automated leader election and oplog sizing.",
+    tags: ["technical","technical","mongodb","replica"],
+    transform: createStandardSkillTransform({
+      sectionName: "MongoDB Replica Set Auto-Failover & Oplog Standards",
+      ruSectionName: "Стандарты и регламенты: MongoDB Replica Set Auto-Failover & Oplog",
+      instructions: [
+        "Apply core domain tenets for MongoDB Replica Set Auto-Failover & Oplog.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для MongoDB Replica Set Auto-Failover & Oplog.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","mongodb","replica"],
+    }),
+  },
+
+  "technical-apache-airflow-dag-scheduling-task-sensors": {
+    id: "technical-apache-airflow-dag-scheduling-task-sensors",
+    name: "ApacheAirflowDAGSchedulingTaskSensorsSkill",
+    displayName: "Apache Airflow DAG Scheduling & Task Sensors",
+    categoryId: "technical",
+    description: "Authors idempotent Airflow DAGs with custom task sensors and retries.",
+    tags: ["technical","technical","apache","airflow"],
+    transform: createStandardSkillTransform({
+      sectionName: "Apache Airflow DAG Scheduling & Task Sensors Standards",
+      ruSectionName: "Стандарты и регламенты: Apache Airflow DAG Scheduling & Task Sensors",
+      instructions: [
+        "Apply core domain tenets for Apache Airflow DAG Scheduling & Task Sensors.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Apache Airflow DAG Scheduling & Task Sensors.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","apache","airflow"],
+    }),
+  },
+
+  "technical-openvpn-ipsec-site-to-site-tunneling": {
+    id: "technical-openvpn-ipsec-site-to-site-tunneling",
+    name: "OpenVPNIPsecSitetoSiteTunnelingSkill",
+    displayName: "OpenVPN / IPsec Site-to-Site Tunneling",
+    categoryId: "technical",
+    description: "Establishes encrypted site-to-site IPsec VPN tunnels between data centers.",
+    tags: ["technical","technical","openvpn","ipsec"],
+    transform: createStandardSkillTransform({
+      sectionName: "OpenVPN / IPsec Site-to-Site Tunneling Standards",
+      ruSectionName: "Стандарты и регламенты: OpenVPN / IPsec Site-to-Site Tunneling",
+      instructions: [
+        "Apply core domain tenets for OpenVPN / IPsec Site-to-Site Tunneling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для OpenVPN / IPsec Site-to-Site Tunneling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","openvpn","ipsec"],
+    }),
+  },
+
+  "technical-postgresql-connection-pooling-with-pgbouncer": {
+    id: "technical-postgresql-connection-pooling-with-pgbouncer",
+    name: "PostgreSQLConnectionPoolingwithPgBouncerSkill",
+    displayName: "PostgreSQL Connection Pooling with PgBouncer",
+    categoryId: "technical",
+    description: "Deploys PgBouncer in transaction pooling mode to support thousands of connections.",
+    tags: ["technical","technical","postgresql","connection"],
+    transform: createStandardSkillTransform({
+      sectionName: "PostgreSQL Connection Pooling with PgBouncer Standards",
+      ruSectionName: "Стандарты и регламенты: PostgreSQL Connection Pooling with PgBouncer",
+      instructions: [
+        "Apply core domain tenets for PostgreSQL Connection Pooling with PgBouncer.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для PostgreSQL Connection Pooling with PgBouncer.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","postgresql","connection"],
+    }),
+  },
+
+  "technical-gcp-cloud-run-container-auto-scaling": {
+    id: "technical-gcp-cloud-run-container-auto-scaling",
+    name: "GCPCloudRunContainerAutoScalingSkill",
+    displayName: "GCP Cloud Run Container Auto-Scaling",
+    categoryId: "technical",
+    description: "Deploys serverless containers on GCP Cloud Run with concurrency auto-scaling.",
+    tags: ["technical","technical","gcp","cloud"],
+    transform: createStandardSkillTransform({
+      sectionName: "GCP Cloud Run Container Auto-Scaling Standards",
+      ruSectionName: "Стандарты и регламенты: GCP Cloud Run Container Auto-Scaling",
+      instructions: [
+        "Apply core domain tenets for GCP Cloud Run Container Auto-Scaling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для GCP Cloud Run Container Auto-Scaling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","gcp","cloud"],
+    }),
+  },
+
+  "technical-linux-zfs-storage-pool-compression-snapshots": {
+    id: "technical-linux-zfs-storage-pool-compression-snapshots",
+    name: "LinuxZFSStoragePoolCompressionSnapshotsSkill",
+    displayName: "Linux ZFS Storage Pool Compression & Snapshots",
+    categoryId: "technical",
+    description: "Manages ZFS pools with LZ4 compression, RAID-Z redundancy, and atomic snapshots.",
+    tags: ["technical","technical","linux","zfs"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux ZFS Storage Pool Compression & Snapshots Standards",
+      ruSectionName: "Стандарты и регламенты: Linux ZFS Storage Pool Compression & Snapshots",
+      instructions: [
+        "Apply core domain tenets for Linux ZFS Storage Pool Compression & Snapshots.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux ZFS Storage Pool Compression & Snapshots.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","zfs"],
+    }),
+  },
+
+  "technical-snmp-ipfix-network-device-telemetry": {
+    id: "technical-snmp-ipfix-network-device-telemetry",
+    name: "SNMPIPFIXNetworkDeviceTelemetrySkill",
+    displayName: "SNMP & IPFIX Network Device Telemetry",
+    categoryId: "technical",
+    description: "Monitors router and switch hardware metrics using SNMP and IPFIX flow export.",
+    tags: ["technical","technical","snmp","ipfix"],
+    transform: createStandardSkillTransform({
+      sectionName: "SNMP & IPFIX Network Device Telemetry Standards",
+      ruSectionName: "Стандарты и регламенты: SNMP & IPFIX Network Device Telemetry",
+      instructions: [
+        "Apply core domain tenets for SNMP & IPFIX Network Device Telemetry.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SNMP & IPFIX Network Device Telemetry.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","snmp","ipfix"],
+    }),
+  },
+
+  "technical-hashicorp-consul-service-discovery-health-checks": {
+    id: "technical-hashicorp-consul-service-discovery-health-checks",
+    name: "HashiCorpConsulServiceDiscoveryHealthChecksSkill",
+    displayName: "HashiCorp Consul Service Discovery & Health Checks",
+    categoryId: "technical",
+    description: "Implements dynamic service discovery and health monitoring via Consul.",
+    tags: ["technical","technical","hashicorp","consul"],
+    transform: createStandardSkillTransform({
+      sectionName: "HashiCorp Consul Service Discovery & Health Checks Standards",
+      ruSectionName: "Стандарты и регламенты: HashiCorp Consul Service Discovery & Health Checks",
+      instructions: [
+        "Apply core domain tenets for HashiCorp Consul Service Discovery & Health Checks.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для HashiCorp Consul Service Discovery & Health Checks.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","hashicorp","consul"],
+    }),
+  },
+
+  "technical-aws-cloudfront-cdn-caching-invalidation": {
+    id: "technical-aws-cloudfront-cdn-caching-invalidation",
+    name: "AWSCloudFrontCDNCachingInvalidationSkill",
+    displayName: "AWS CloudFront CDN Caching & Invalidation",
+    categoryId: "technical",
+    description: "Optimizes CDN cache hit ratios and configures edge cache invalidations.",
+    tags: ["technical","technical","aws","cloudfront"],
+    transform: createStandardSkillTransform({
+      sectionName: "AWS CloudFront CDN Caching & Invalidation Standards",
+      ruSectionName: "Стандарты и регламенты: AWS CloudFront CDN Caching & Invalidation",
+      instructions: [
+        "Apply core domain tenets for AWS CloudFront CDN Caching & Invalidation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AWS CloudFront CDN Caching & Invalidation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","aws","cloudfront"],
+    }),
+  },
+
+  "technical-linux-auditd-security-event-logging": {
+    id: "technical-linux-auditd-security-event-logging",
+    name: "LinuxAuditdSecurityEventLoggingSkill",
+    displayName: "Linux Auditd Security Event Logging",
+    categoryId: "technical",
+    description: "Monitors system file access and privilege escalation attempts using `auditd`.",
+    tags: ["technical","technical","linux","auditd"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux Auditd Security Event Logging Standards",
+      ruSectionName: "Стандарты и регламенты: Linux Auditd Security Event Logging",
+      instructions: [
+        "Apply core domain tenets for Linux Auditd Security Event Logging.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux Auditd Security Event Logging.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","auditd"],
+    }),
+  },
+
+  "technical-traefik-cloud-native-ingress-controller": {
+    id: "technical-traefik-cloud-native-ingress-controller",
+    name: "TraefikCloudNativeIngressControllerSkill",
+    displayName: "Traefik Cloud-Native Ingress Controller",
+    categoryId: "technical",
+    description: "Deploys Traefik Ingress Controller with automated Let's Encrypt SSL certificates.",
+    tags: ["technical","technical","traefik","cloud"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traefik Cloud-Native Ingress Controller Standards",
+      ruSectionName: "Стандарты и регламенты: Traefik Cloud-Native Ingress Controller",
+      instructions: [
+        "Apply core domain tenets for Traefik Cloud-Native Ingress Controller.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traefik Cloud-Native Ingress Controller.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","traefik","cloud"],
+    }),
+  },
+
+  "technical-cassandra-multi-dc-replication-consistency-level": {
+    id: "technical-cassandra-multi-dc-replication-consistency-level",
+    name: "CassandraMultiDCReplicationConsistencyLevelSkill",
+    displayName: "Cassandra Multi-DC Replication & Consistency Level",
+    categoryId: "technical",
+    description: "Configures Apache Cassandra multi-datacenter replication and QUORUM consistency.",
+    tags: ["technical","technical","cassandra","multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cassandra Multi-DC Replication & Consistency Level Standards",
+      ruSectionName: "Стандарты и регламенты: Cassandra Multi-DC Replication & Consistency Level",
+      instructions: [
+        "Apply core domain tenets for Cassandra Multi-DC Replication & Consistency Level.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cassandra Multi-DC Replication & Consistency Level.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","cassandra","multi"],
+    }),
+  },
+
+  "technical-linux-kernel-memory-out-of-memory-oom-killer-tuning": {
+    id: "technical-linux-kernel-memory-out-of-memory-oom-killer-tuning",
+    name: "LinuxKernelMemoryOutOfMemoryOOMKillerTuningSkill",
+    displayName: "Linux Kernel Memory Out-Of-Memory (OOM) Killer Tuning",
+    categoryId: "technical",
+    description: "Tunes `oom_score_adj` to protect critical system daemons from OOM termination.",
+    tags: ["technical","technical","linux","kernel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux Kernel Memory Out-Of-Memory (OOM) Killer Tuning Standards",
+      ruSectionName: "Стандарты и регламенты: Linux Kernel Memory Out-Of-Memory (OOM) Killer Tuning",
+      instructions: [
+        "Apply core domain tenets for Linux Kernel Memory Out-Of-Memory (OOM) Killer Tuning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux Kernel Memory Out-Of-Memory (OOM) Killer Tuning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","kernel"],
+    }),
+  },
+
+  "technical-aws-aurora-serverless-v2-auto-scaling-db": {
+    id: "technical-aws-aurora-serverless-v2-auto-scaling-db",
+    name: "AWSAuroraServerlessv2AutoScalingDBSkill",
+    displayName: "AWS Aurora Serverless v2 Auto-Scaling DB",
+    categoryId: "technical",
+    description: "Deploys Aurora PostgreSQL Serverless v2 with instant ACU scaling.",
+    tags: ["technical","technical","aws","aurora"],
+    transform: createStandardSkillTransform({
+      sectionName: "AWS Aurora Serverless v2 Auto-Scaling DB Standards",
+      ruSectionName: "Стандарты и регламенты: AWS Aurora Serverless v2 Auto-Scaling DB",
+      instructions: [
+        "Apply core domain tenets for AWS Aurora Serverless v2 Auto-Scaling DB.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AWS Aurora Serverless v2 Auto-Scaling DB.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","aws","aurora"],
+    }),
+  },
+
+  "technical-grafana-loki-log-aggregation-querying": {
+    id: "technical-grafana-loki-log-aggregation-querying",
+    name: "GrafanaLokiLogAggregationQueryingSkill",
+    displayName: "Grafana Loki Log Aggregation & Querying",
+    categoryId: "technical",
+    description: "Aggregates application logs using Grafana Loki and LogQL query syntax.",
+    tags: ["technical","technical","grafana","loki"],
+    transform: createStandardSkillTransform({
+      sectionName: "Grafana Loki Log Aggregation & Querying Standards",
+      ruSectionName: "Стандарты и регламенты: Grafana Loki Log Aggregation & Querying",
+      instructions: [
+        "Apply core domain tenets for Grafana Loki Log Aggregation & Querying.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Grafana Loki Log Aggregation & Querying.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","grafana","loki"],
+    }),
+  },
+
+  "technical-linux-raid-array-management-with-mdadm": {
+    id: "technical-linux-raid-array-management-with-mdadm",
+    name: "LinuxRAIDArrayManagementwithmdadmSkill",
+    displayName: "Linux RAID Array Management with mdadm",
+    categoryId: "technical",
+    description: "Configures software RAID 1/5/10 arrays using Linux `mdadm` utilities.",
+    tags: ["technical","technical","linux","raid"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux RAID Array Management with mdadm Standards",
+      ruSectionName: "Стандарты и регламенты: Linux RAID Array Management with mdadm",
+      instructions: [
+        "Apply core domain tenets for Linux RAID Array Management with mdadm.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux RAID Array Management with mdadm.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","raid"],
+    }),
+  },
+
+  "technical-gcp-bigquery-slot-reservation-partitioning": {
+    id: "technical-gcp-bigquery-slot-reservation-partitioning",
+    name: "GCPBigQuerySlotReservationPartitioningSkill",
+    displayName: "GCP BigQuery Slot Reservation & Partitioning",
+    categoryId: "technical",
+    description: "Optimizes BigQuery SQL query costs using slot reservations and table partitioning.",
+    tags: ["technical","technical","gcp","bigquery"],
+    transform: createStandardSkillTransform({
+      sectionName: "GCP BigQuery Slot Reservation & Partitioning Standards",
+      ruSectionName: "Стандарты и регламенты: GCP BigQuery Slot Reservation & Partitioning",
+      instructions: [
+        "Apply core domain tenets for GCP BigQuery Slot Reservation & Partitioning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для GCP BigQuery Slot Reservation & Partitioning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","gcp","bigquery"],
+    }),
+  },
+
+  "technical-nats-jetstream-high-performance-messaging": {
+    id: "technical-nats-jetstream-high-performance-messaging",
+    name: "NATSJetStreamHighPerformanceMessagingSkill",
+    displayName: "NATS JetStream High-Performance Messaging",
+    categoryId: "technical",
+    description: "Deploys lightweight, ultra-fast NATS JetStream messaging clusters.",
+    tags: ["technical","technical","nats","jetstream"],
+    transform: createStandardSkillTransform({
+      sectionName: "NATS JetStream High-Performance Messaging Standards",
+      ruSectionName: "Стандарты и регламенты: NATS JetStream High-Performance Messaging",
+      instructions: [
+        "Apply core domain tenets for NATS JetStream High-Performance Messaging.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для NATS JetStream High-Performance Messaging.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","nats","jetstream"],
+    }),
+  },
+
+  "technical-linux-network-interface-bonding-lacp": {
+    id: "technical-linux-network-interface-bonding-lacp",
+    name: "LinuxNetworkInterfaceBondingLACPSkill",
+    displayName: "Linux Network Interface Bonding & LACP",
+    categoryId: "technical",
+    description: "Configures link aggregation (LACP) for high-bandwidth network redundancy.",
+    tags: ["technical","technical","linux","network"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux Network Interface Bonding & LACP Standards",
+      ruSectionName: "Стандарты и регламенты: Linux Network Interface Bonding & LACP",
+      instructions: [
+        "Apply core domain tenets for Linux Network Interface Bonding & LACP.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux Network Interface Bonding & LACP.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","network"],
+    }),
+  },
+
+  "technical-aws-route-53-latency-based-geolocation-routing": {
+    id: "technical-aws-route-53-latency-based-geolocation-routing",
+    name: "AWSRoute53LatencyBasedGeolocationRoutingSkill",
+    displayName: "AWS Route 53 Latency-Based & Geolocation Routing",
+    categoryId: "technical",
+    description: "Configures DNS routing policies based on user geographic location and network latency.",
+    tags: ["technical","technical","aws","route"],
+    transform: createStandardSkillTransform({
+      sectionName: "AWS Route 53 Latency-Based & Geolocation Routing Standards",
+      ruSectionName: "Стандарты и регламенты: AWS Route 53 Latency-Based & Geolocation Routing",
+      instructions: [
+        "Apply core domain tenets for AWS Route 53 Latency-Based & Geolocation Routing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AWS Route 53 Latency-Based & Geolocation Routing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","aws","route"],
+    }),
+  },
+
+  "technical-kubernetes-networkpolicy-micro-segmentation": {
+    id: "technical-kubernetes-networkpolicy-micro-segmentation",
+    name: "KubernetesNetworkPolicyMicroSegmentationSkill",
+    displayName: "Kubernetes NetworkPolicy Micro-Segmentation",
+    categoryId: "technical",
+    description: "Restricts pod-to-pod network traffic using Kubernetes NetworkPolicies.",
+    tags: ["technical","technical","kubernetes","networkpolicy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kubernetes NetworkPolicy Micro-Segmentation Standards",
+      ruSectionName: "Стандарты и регламенты: Kubernetes NetworkPolicy Micro-Segmentation",
+      instructions: [
+        "Apply core domain tenets for Kubernetes NetworkPolicy Micro-Segmentation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kubernetes NetworkPolicy Micro-Segmentation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","kubernetes","networkpolicy"],
+    }),
+  },
+
+  "technical-postgresql-postgis-geospatial-extension-tuning": {
+    id: "technical-postgresql-postgis-geospatial-extension-tuning",
+    name: "PostgreSQLPostGISGeospatialExtensionTuningSkill",
+    displayName: "PostgreSQL PostGIS Geospatial Extension Tuning",
+    categoryId: "technical",
+    description: "Indexes and queries spatial data using PostGIS R-Tree indexes.",
+    tags: ["technical","technical","postgresql","postgis"],
+    transform: createStandardSkillTransform({
+      sectionName: "PostgreSQL PostGIS Geospatial Extension Tuning Standards",
+      ruSectionName: "Стандарты и регламенты: PostgreSQL PostGIS Geospatial Extension Tuning",
+      instructions: [
+        "Apply core domain tenets for PostgreSQL PostGIS Geospatial Extension Tuning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для PostgreSQL PostGIS Geospatial Extension Tuning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","postgresql","postgis"],
+    }),
+  },
+
+  "technical-linux-system-hardening-cis-benchmark-compliance": {
+    id: "technical-linux-system-hardening-cis-benchmark-compliance",
+    name: "LinuxSystemHardeningCISBenchmarkComplianceSkill",
+    displayName: "Linux System Hardening CIS Benchmark Compliance",
+    categoryId: "technical",
+    description: "Hardens Linux server configurations according to CIS Security Benchmarks.",
+    tags: ["technical","technical","linux","system"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux System Hardening CIS Benchmark Compliance Standards",
+      ruSectionName: "Стандарты и регламенты: Linux System Hardening CIS Benchmark Compliance",
+      instructions: [
+        "Apply core domain tenets for Linux System Hardening CIS Benchmark Compliance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux System Hardening CIS Benchmark Compliance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","system"],
+    }),
+  },
+
+  "technical-apache-spark-distributed-cluster-resource-tuning": {
+    id: "technical-apache-spark-distributed-cluster-resource-tuning",
+    name: "ApacheSparkDistributedClusterResourceTuningSkill",
+    displayName: "Apache Spark Distributed Cluster Resource Tuning",
+    categoryId: "technical",
+    description: "Tunes Spark executor memory, core counts, and shuffle partitions for big data.",
+    tags: ["technical","technical","apache","spark"],
+    transform: createStandardSkillTransform({
+      sectionName: "Apache Spark Distributed Cluster Resource Tuning Standards",
+      ruSectionName: "Стандарты и регламенты: Apache Spark Distributed Cluster Resource Tuning",
+      instructions: [
+        "Apply core domain tenets for Apache Spark Distributed Cluster Resource Tuning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Apache Spark Distributed Cluster Resource Tuning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","apache","spark"],
+    }),
+  },
+
+  "technical-aws-kms-customer-managed-encryption-keys-cmek": {
+    id: "technical-aws-kms-customer-managed-encryption-keys-cmek",
+    name: "AWSKMSCustomerManagedEncryptionKeysCMEKSkill",
+    displayName: "AWS KMS Customer Managed Encryption Keys (CMEK)",
+    categoryId: "technical",
+    description: "Manages KMS key policies and automatic annual key rotation.",
+    tags: ["technical","technical","aws","kms"],
+    transform: createStandardSkillTransform({
+      sectionName: "AWS KMS Customer Managed Encryption Keys (CMEK) Standards",
+      ruSectionName: "Стандарты и регламенты: AWS KMS Customer Managed Encryption Keys (CMEK)",
+      instructions: [
+        "Apply core domain tenets for AWS KMS Customer Managed Encryption Keys (CMEK).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AWS KMS Customer Managed Encryption Keys (CMEK).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","aws","kms"],
+    }),
+  },
+
+  "technical-linux-kernel-module-management-dkms": {
+    id: "technical-linux-kernel-module-management-dkms",
+    name: "LinuxKernelModuleManagementDKMSSkill",
+    displayName: "Linux Kernel Module Management & DKMS",
+    categoryId: "technical",
+    description: "Loads, configures, and compiles Linux kernel modules using DKMS.",
+    tags: ["technical","technical","linux","kernel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux Kernel Module Management & DKMS Standards",
+      ruSectionName: "Стандарты и регламенты: Linux Kernel Module Management & DKMS",
+      instructions: [
+        "Apply core domain tenets for Linux Kernel Module Management & DKMS.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux Kernel Module Management & DKMS.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","kernel"],
+    }),
+  },
+
+  "technical-cloudflare-magic-transit-bgp-ddos-mitigation": {
+    id: "technical-cloudflare-magic-transit-bgp-ddos-mitigation",
+    name: "CloudflareMagicTransitBGPDDoSMitigationSkill",
+    displayName: "Cloudflare Magic Transit BGP DDoS Mitigation",
+    categoryId: "technical",
+    description: "Protects data center IP ranges using Cloudflare Magic Transit BGP rerouting.",
+    tags: ["technical","technical","cloudflare","magic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cloudflare Magic Transit BGP DDoS Mitigation Standards",
+      ruSectionName: "Стандарты и регламенты: Cloudflare Magic Transit BGP DDoS Mitigation",
+      instructions: [
+        "Apply core domain tenets for Cloudflare Magic Transit BGP DDoS Mitigation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cloudflare Magic Transit BGP DDoS Mitigation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","cloudflare","magic"],
+    }),
+  },
+
+  "technical-kubernetes-cluster-autoscaler-hpa-scaling": {
+    id: "technical-kubernetes-cluster-autoscaler-hpa-scaling",
+    name: "KubernetesClusterAutoscalerHPAScalingSkill",
+    displayName: "Kubernetes Cluster Autoscaler & HPA Scaling",
+    categoryId: "technical",
+    description: "Configures Horizontal Pod Autoscaler and Cluster Autoscaler for dynamic node provisioning.",
+    tags: ["technical","technical","kubernetes","cluster"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kubernetes Cluster Autoscaler & HPA Scaling Standards",
+      ruSectionName: "Стандарты и регламенты: Kubernetes Cluster Autoscaler & HPA Scaling",
+      instructions: [
+        "Apply core domain tenets for Kubernetes Cluster Autoscaler & HPA Scaling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kubernetes Cluster Autoscaler & HPA Scaling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","kubernetes","cluster"],
+    }),
+  },
+
+  "technical-postgresql-logical-replication-selective-sync": {
+    id: "technical-postgresql-logical-replication-selective-sync",
+    name: "PostgreSQLLogicalReplicationSelectiveSyncSkill",
+    displayName: "PostgreSQL Logical Replication & Selective Sync",
+    categoryId: "technical",
+    description: "Replicates specific tables across PostgreSQL databases using logical publication/subscription.",
+    tags: ["technical","technical","postgresql","logical"],
+    transform: createStandardSkillTransform({
+      sectionName: "PostgreSQL Logical Replication & Selective Sync Standards",
+      ruSectionName: "Стандарты и регламенты: PostgreSQL Logical Replication & Selective Sync",
+      instructions: [
+        "Apply core domain tenets for PostgreSQL Logical Replication & Selective Sync.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для PostgreSQL Logical Replication & Selective Sync.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","postgresql","logical"],
+    }),
+  },
+
+  "technical-linux-disk-i-o-scheduler-tuning-mq-deadline-kyber": {
+    id: "technical-linux-disk-i-o-scheduler-tuning-mq-deadline-kyber",
+    name: "LinuxDiskIOSchedulerTuningmqdeadlinekyberSkill",
+    displayName: "Linux Disk I/O Scheduler Tuning (mq-deadline / kyber)",
+    categoryId: "technical",
+    description: "Selects optimal disk I/O schedulers for NVMe SSD vs spinning hard drives.",
+    tags: ["technical","technical","linux","disk"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux Disk I/O Scheduler Tuning (mq-deadline / kyber) Standards",
+      ruSectionName: "Стандарты и регламенты: Linux Disk I/O Scheduler Tuning (mq-deadline / kyber)",
+      instructions: [
+        "Apply core domain tenets for Linux Disk I/O Scheduler Tuning (mq-deadline / kyber).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux Disk I/O Scheduler Tuning (mq-deadline / kyber).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","disk"],
+    }),
+  },
+
+  "technical-aws-direct-connect-dedicated-network-line": {
+    id: "technical-aws-direct-connect-dedicated-network-line",
+    name: "AWSDirectConnectDedicatedNetworkLineSkill",
+    displayName: "AWS Direct Connect Dedicated Network Line",
+    categoryId: "technical",
+    description: "Establishes private 10Gbps network connections between corporate data centers and AWS.",
+    tags: ["technical","technical","aws","direct"],
+    transform: createStandardSkillTransform({
+      sectionName: "AWS Direct Connect Dedicated Network Line Standards",
+      ruSectionName: "Стандарты и регламенты: AWS Direct Connect Dedicated Network Line",
+      instructions: [
+        "Apply core domain tenets for AWS Direct Connect Dedicated Network Line.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AWS Direct Connect Dedicated Network Line.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","aws","direct"],
+    }),
+  },
+
+  "technical-kubernetes-pod-disruption-budget-pdb-maintenance": {
+    id: "technical-kubernetes-pod-disruption-budget-pdb-maintenance",
+    name: "KubernetesPodDisruptionBudgetPDBMaintenanceSkill",
+    displayName: "Kubernetes Pod Disruption Budget (PDB) Maintenance",
+    categoryId: "technical",
+    description: "Protects application availability during cluster node upgrades using PDBs.",
+    tags: ["technical","technical","kubernetes","pod"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kubernetes Pod Disruption Budget (PDB) Maintenance Standards",
+      ruSectionName: "Стандарты и регламенты: Kubernetes Pod Disruption Budget (PDB) Maintenance",
+      instructions: [
+        "Apply core domain tenets for Kubernetes Pod Disruption Budget (PDB) Maintenance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kubernetes Pod Disruption Budget (PDB) Maintenance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","kubernetes","pod"],
+    }),
+  },
+
+  "technical-linux-system-time-ntp-chrony-synchronization": {
+    id: "technical-linux-system-time-ntp-chrony-synchronization",
+    name: "LinuxSystemTimeNTPChronySynchronizationSkill",
+    displayName: "Linux System Time NTP / Chrony Synchronization",
+    categoryId: "technical",
+    description: "Configures `chrony` NTP daemons for sub-millisecond clock synchronization across clusters.",
+    tags: ["technical","technical","linux","system"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux System Time NTP / Chrony Synchronization Standards",
+      ruSectionName: "Стандарты и регламенты: Linux System Time NTP / Chrony Synchronization",
+      instructions: [
+        "Apply core domain tenets for Linux System Time NTP / Chrony Synchronization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux System Time NTP / Chrony Synchronization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","system"],
+    }),
+  },
+
+  "technical-datadog-synthetic-monitoring-global-probes": {
+    id: "technical-datadog-synthetic-monitoring-global-probes",
+    name: "DatadogSyntheticMonitoringGlobalProbesSkill",
+    displayName: "Datadog Synthetic Monitoring & Global Probes",
+    categoryId: "technical",
+    description: "Schedules automated API and browser synthetic tests from global probe locations.",
+    tags: ["technical","technical","datadog","synthetic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Datadog Synthetic Monitoring & Global Probes Standards",
+      ruSectionName: "Стандарты и регламенты: Datadog Synthetic Monitoring & Global Probes",
+      instructions: [
+        "Apply core domain tenets for Datadog Synthetic Monitoring & Global Probes.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Datadog Synthetic Monitoring & Global Probes.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","datadog","synthetic"],
+    }),
+  },
+
+  "technical-aws-dynamodb-global-tables-multi-region-active-active": {
+    id: "technical-aws-dynamodb-global-tables-multi-region-active-active",
+    name: "AWSDynamoDBGlobalTablesMultiRegionActiveActiveSkill",
+    displayName: "AWS DynamoDB Global Tables Multi-Region Active-Active",
+    categoryId: "technical",
+    description: "Deploys fully managed multi-region active-active DynamoDB databases.",
+    tags: ["technical","technical","aws","dynamodb"],
+    transform: createStandardSkillTransform({
+      sectionName: "AWS DynamoDB Global Tables Multi-Region Active-Active Standards",
+      ruSectionName: "Стандарты и регламенты: AWS DynamoDB Global Tables Multi-Region Active-Active",
+      instructions: [
+        "Apply core domain tenets for AWS DynamoDB Global Tables Multi-Region Active-Active.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AWS DynamoDB Global Tables Multi-Region Active-Active.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","aws","dynamodb"],
+    }),
+  },
+
+  "technical-linux-bcachefs-btrfs-filesystem-management": {
+    id: "technical-linux-bcachefs-btrfs-filesystem-management",
+    name: "LinuxBcachefsBtrfsFilesystemManagementSkill",
+    displayName: "Linux Bcachefs / Btrfs Filesystem Management",
+    categoryId: "technical",
+    description: "Manages modern Linux filesystems with built-in checksums and copy-on-write.",
+    tags: ["technical","technical","linux","bcachefs"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux Bcachefs / Btrfs Filesystem Management Standards",
+      ruSectionName: "Стандарты и регламенты: Linux Bcachefs / Btrfs Filesystem Management",
+      instructions: [
+        "Apply core domain tenets for Linux Bcachefs / Btrfs Filesystem Management.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux Bcachefs / Btrfs Filesystem Management.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","linux","bcachefs"],
+    }),
+  },
+
+  "technical-kubernetes-cert-manager-automated-tls-certificates": {
+    id: "technical-kubernetes-cert-manager-automated-tls-certificates",
+    name: "KubernetesCertManagerAutomatedTLSCertificatesSkill",
+    displayName: "Kubernetes Cert-Manager Automated TLS Certificates",
+    categoryId: "technical",
+    description: "Automates SSL/TLS certificate issuance and renewal via cert-manager and Let's Encrypt.",
+    tags: ["technical","technical","kubernetes","cert"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kubernetes Cert-Manager Automated TLS Certificates Standards",
+      ruSectionName: "Стандарты и регламенты: Kubernetes Cert-Manager Automated TLS Certificates",
+      instructions: [
+        "Apply core domain tenets for Kubernetes Cert-Manager Automated TLS Certificates.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kubernetes Cert-Manager Automated TLS Certificates.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","kubernetes","cert"],
+    }),
+  },
+
+  "technical-comprehensive-infrastructure-systems-engineering-constitution": {
+    id: "technical-comprehensive-infrastructure-systems-engineering-constitution",
+    name: "ComprehensiveInfrastructureSystemsEngineeringConstitutionSkill",
+    displayName: "Comprehensive Infrastructure & Systems Engineering Constitution",
+    categoryId: "technical",
+    description: "Enforces world-class DevOps, cloud architecture, system hardening, and high availability.",
+    tags: ["technical","technical","comprehensive","infrastructure"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comprehensive Infrastructure & Systems Engineering Constitution Standards",
+      ruSectionName: "Стандарты и регламенты: Comprehensive Infrastructure & Systems Engineering Constitution",
+      instructions: [
+        "Apply core domain tenets for Comprehensive Infrastructure & Systems Engineering Constitution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comprehensive Infrastructure & Systems Engineering Constitution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","comprehensive","infrastructure"],
+    }),
+  },
+
+  "technical-technical-skill-89": {
+    id: "technical-technical-skill-89",
+    name: "technicalSkill89Skill",
+    displayName: "technical Skill 89",
+    categoryId: "technical",
+    description: "Applies advanced technical Skill 89 standards and execution patterns.",
+    tags: ["technical","technical","technical","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "technical Skill 89 Standards",
+      ruSectionName: "Стандарты и регламенты: technical Skill 89",
+      instructions: [
+        "Apply core domain tenets for technical Skill 89.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для technical Skill 89.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","technical","skill"],
+    }),
+  },
+
+  "technical-technical-skill-90": {
+    id: "technical-technical-skill-90",
+    name: "technicalSkill90Skill",
+    displayName: "technical Skill 90",
+    categoryId: "technical",
+    description: "Applies advanced technical Skill 90 standards and execution patterns.",
+    tags: ["technical","technical","technical","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "technical Skill 90 Standards",
+      ruSectionName: "Стандарты и регламенты: technical Skill 90",
+      instructions: [
+        "Apply core domain tenets for technical Skill 90.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для technical Skill 90.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","technical","technical","skill"],
+    }),
+  },
+  "tech-final-kubernetes-custom-resource-definition-operator-pattern": {
+    id: "tech-final-kubernetes-custom-resource-definition-operator-pattern",
+    name: "KubernetesCustomResourceDefinitionOperatorPatternSkill",
+    displayName: "Kubernetes Custom Resource Definition Operator Pattern",
+    categoryId: "technical",
+    description: "Builds Kubernetes CRD controllers in Go using controller-runtime reconciliation.",
+    tags: ["technical","tech-final","final","kubernetes"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kubernetes Custom Resource Definition Operator Pattern Standards",
+      ruSectionName: "Стандарты и регламенты: Kubernetes Custom Resource Definition Operator Pattern",
+      instructions: [
+        "Apply core domain tenets for Kubernetes Custom Resource Definition Operator Pattern.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kubernetes Custom Resource Definition Operator Pattern.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","tech-final","final","kubernetes"],
+    }),
+  },
+
+  "tech-final-ebpf-linux-kernel-network-packet-filtering-tracing": {
+    id: "tech-final-ebpf-linux-kernel-network-packet-filtering-tracing",
+    name: "eBPFLinuxKernelNetworkPacketFilteringTracingSkill",
+    displayName: "eBPF Linux Kernel Network Packet Filtering Tracing",
+    categoryId: "technical",
+    description: "Writes C eBPF programs attached to XDP hooks for low-latency kernel packet inspection.",
+    tags: ["technical","tech-final","final","ebpf"],
+    transform: createStandardSkillTransform({
+      sectionName: "eBPF Linux Kernel Network Packet Filtering Tracing Standards",
+      ruSectionName: "Стандарты и регламенты: eBPF Linux Kernel Network Packet Filtering Tracing",
+      instructions: [
+        "Apply core domain tenets for eBPF Linux Kernel Network Packet Filtering Tracing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для eBPF Linux Kernel Network Packet Filtering Tracing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","tech-final","final","ebpf"],
+    }),
+  },
+
+  "tech-final-ceph-distributed-block-object-storage-cluster-tuning": {
+    id: "tech-final-ceph-distributed-block-object-storage-cluster-tuning",
+    name: "CephDistributedBlockObjectStorageClusterTuningSkill",
+    displayName: "Ceph Distributed Block Object Storage Cluster Tuning",
+    categoryId: "technical",
+    description: "Tunes Ceph OSD storage pools, CRUSH maps, and Bluestore caching for high IOPS.",
+    tags: ["technical","tech-final","final","ceph"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ceph Distributed Block Object Storage Cluster Tuning Standards",
+      ruSectionName: "Стандарты и регламенты: Ceph Distributed Block Object Storage Cluster Tuning",
+      instructions: [
+        "Apply core domain tenets for Ceph Distributed Block Object Storage Cluster Tuning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Ceph Distributed Block Object Storage Cluster Tuning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","tech-final","final","ceph"],
+    }),
+  },
+
+  "tech-final-hashicorp-nomad-orchestration-engine-job-specification": {
+    id: "tech-final-hashicorp-nomad-orchestration-engine-job-specification",
+    name: "HashiCorpNomadOrchestrationEngineJobSpecificationSkill",
+    displayName: "HashiCorp Nomad Orchestration Engine Job Specification",
+    categoryId: "technical",
+    description: "Deploys multi-region containerized workloads using Nomad declarative job specs.",
+    tags: ["technical","tech-final","final","hashicorp"],
+    transform: createStandardSkillTransform({
+      sectionName: "HashiCorp Nomad Orchestration Engine Job Specification Standards",
+      ruSectionName: "Стандарты и регламенты: HashiCorp Nomad Orchestration Engine Job Specification",
+      instructions: [
+        "Apply core domain tenets for HashiCorp Nomad Orchestration Engine Job Specification.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для HashiCorp Nomad Orchestration Engine Job Specification.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","tech-final","final","hashicorp"],
+    }),
+  },
+
+  "tech-final-clickhouse-real-time-analytics-columnar-database": {
+    id: "tech-final-clickhouse-real-time-analytics-columnar-database",
+    name: "ClickHouseRealTimeAnalyticsColumnarDatabaseSkill",
+    displayName: "ClickHouse Real-Time Analytics Columnar Database",
+    categoryId: "technical",
+    description: "Optimizes ClickHouse MergeTree engines, primary keys, and vectorization.",
+    tags: ["technical","tech-final","final","clickhouse"],
+    transform: createStandardSkillTransform({
+      sectionName: "ClickHouse Real-Time Analytics Columnar Database Standards",
+      ruSectionName: "Стандарты и регламенты: ClickHouse Real-Time Analytics Columnar Database",
+      instructions: [
+        "Apply core domain tenets for ClickHouse Real-Time Analytics Columnar Database.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ClickHouse Real-Time Analytics Columnar Database.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","tech-final","final","clickhouse"],
+    }),
+  },
+
+  "tech-final-opentelemetry-distributed-tracing-collector-architecture": {
+    id: "tech-final-opentelemetry-distributed-tracing-collector-architecture",
+    name: "OpenTelemetryDistributedTracingCollectorArchitectureSkill",
+    displayName: "OpenTelemetry Distributed Tracing Collector Architecture",
+    categoryId: "technical",
+    description: "Configures OpenTelemetry Collectors for traces, metrics, and logs export.",
+    tags: ["technical","tech-final","final","opentelemetry"],
+    transform: createStandardSkillTransform({
+      sectionName: "OpenTelemetry Distributed Tracing Collector Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: OpenTelemetry Distributed Tracing Collector Architecture",
+      instructions: [
+        "Apply core domain tenets for OpenTelemetry Distributed Tracing Collector Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для OpenTelemetry Distributed Tracing Collector Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","tech-final","final","opentelemetry"],
+    }),
+  },
+
+  "tech-final-traefik-reverse-proxy-dynamic-routing-acme": {
+    id: "tech-final-traefik-reverse-proxy-dynamic-routing-acme",
+    name: "TraefikReverseProxyDynamicRoutingACMESkill",
+    displayName: "Traefik Reverse Proxy Dynamic Routing ACME",
+    categoryId: "technical",
+    description: "Sets up Traefik ingress routers with Let's Encrypt automated TLS certificate renewal.",
+    tags: ["technical","tech-final","final","traefik"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traefik Reverse Proxy Dynamic Routing ACME Standards",
+      ruSectionName: "Стандарты и регламенты: Traefik Reverse Proxy Dynamic Routing ACME",
+      instructions: [
+        "Apply core domain tenets for Traefik Reverse Proxy Dynamic Routing ACME.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traefik Reverse Proxy Dynamic Routing ACME.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","tech-final","final","traefik"],
+    }),
+  },
+
+  "tech-final-master-cloud-native-infrastructure-systems-architecture": {
+    id: "tech-final-master-cloud-native-infrastructure-systems-architecture",
+    name: "MasterCloudNativeInfrastructureSystemsArchitectureSkill",
+    displayName: "Master Cloud Native Infrastructure Systems Architecture",
+    categoryId: "technical",
+    description: "Enforces world-class cloud-native, distributed systems, and DevOps engineering.",
+    tags: ["technical","tech-final","final","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Cloud Native Infrastructure Systems Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: Master Cloud Native Infrastructure Systems Architecture",
+      instructions: [
+        "Apply core domain tenets for Master Cloud Native Infrastructure Systems Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Cloud Native Infrastructure Systems Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["technical","tech-final","final","master"],
+    }),
+  },
 };

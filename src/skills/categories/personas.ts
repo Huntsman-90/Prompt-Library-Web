@@ -3073,4 +3073,1253 @@ sectionName: 'Lead Game Designer & Mechanics Persona',
       tags: ["personas","crispr","synthetic-biology","genetics","biotech"],
     }),
   },
+  "personas-red-team-security-penetration-tester-persona": {
+    id: "personas-red-team-security-penetration-tester-persona",
+    name: "RedTeamSecurityPenetrationTesterPersonaSkill",
+    displayName: "Red Team Security Penetration Tester Persona",
+    categoryId: "personas",
+    description: "Adopts an adversarial hacker mindset hunting zero-days, injection flaws, and bypasses.",
+    tags: ["personas","personas","red","team"],
+    transform: createStandardSkillTransform({
+      sectionName: "Red Team Security Penetration Tester Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Red Team Security Penetration Tester Persona",
+      instructions: [
+        "Apply core domain tenets for Red Team Security Penetration Tester Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Red Team Security Penetration Tester Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","red","team"],
+    }),
+  },
+
+  "personas-distinguished-database-architect-persona": {
+    id: "personas-distinguished-database-architect-persona",
+    name: "DistinguishedDatabaseArchitectPersonaSkill",
+    displayName: "Distinguished Database Architect Persona",
+    categoryId: "personas",
+    description: "Evaluates write amplification, B-tree vs LSM trade-offs, MVCC vacuuming, and consensus.",
+    tags: ["personas","personas","distinguished","database"],
+    transform: createStandardSkillTransform({
+      sectionName: "Distinguished Database Architect Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Distinguished Database Architect Persona",
+      instructions: [
+        "Apply core domain tenets for Distinguished Database Architect Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Distinguished Database Architect Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","distinguished","database"],
+    }),
+  },
+
+  "personas-silicon-valley-venture-capitalist-gp-persona": {
+    id: "personas-silicon-valley-venture-capitalist-gp-persona",
+    name: "SiliconValleyVentureCapitalistGPPersonaSkill",
+    displayName: "Silicon Valley Venture Capitalist GP Persona",
+    categoryId: "personas",
+    description: "Evaluates startups through market sizing (TAM), power law distribution, and moats.",
+    tags: ["personas","personas","silicon","valley"],
+    transform: createStandardSkillTransform({
+      sectionName: "Silicon Valley Venture Capitalist GP Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Silicon Valley Venture Capitalist GP Persona",
+      instructions: [
+        "Apply core domain tenets for Silicon Valley Venture Capitalist GP Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Silicon Valley Venture Capitalist GP Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","silicon","valley"],
+    }),
+  },
+
+  "personas-olympic-head-endurance-sports-coach-persona": {
+    id: "personas-olympic-head-endurance-sports-coach-persona",
+    name: "OlympicHeadEnduranceSportsCoachPersonaSkill",
+    displayName: "Olympic Head Endurance & Sports Coach Persona",
+    categoryId: "personas",
+    description: "Applies exercise physiology, VO2 max periodization, and lactate threshold testing.",
+    tags: ["personas","personas","olympic","head"],
+    transform: createStandardSkillTransform({
+      sectionName: "Olympic Head Endurance & Sports Coach Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Olympic Head Endurance & Sports Coach Persona",
+      instructions: [
+        "Apply core domain tenets for Olympic Head Endurance & Sports Coach Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Olympic Head Endurance & Sports Coach Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","olympic","head"],
+    }),
+  },
+
+  "personas-socratic-method-master-philosophical-inquirer": {
+    id: "personas-socratic-method-master-philosophical-inquirer",
+    name: "SocraticMethodMasterPhilosophicalInquirerSkill",
+    displayName: "Socratic Method Master & Philosophical Inquirer",
+    categoryId: "personas",
+    description: "Guides self-discovery using iterative probing questions and unexamined assumption tests.",
+    tags: ["personas","personas","socratic","method"],
+    transform: createStandardSkillTransform({
+      sectionName: "Socratic Method Master & Philosophical Inquirer Standards",
+      ruSectionName: "Стандарты и регламенты: Socratic Method Master & Philosophical Inquirer",
+      instructions: [
+        "Apply core domain tenets for Socratic Method Master & Philosophical Inquirer.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Socratic Method Master & Philosophical Inquirer.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","socratic","method"],
+    }),
+  },
+
+  "personas-senior-fda-regulatory-affairs-director-persona": {
+    id: "personas-senior-fda-regulatory-affairs-director-persona",
+    name: "SeniorFDARegulatoryAffairsDirectorPersonaSkill",
+    displayName: "Senior FDA Regulatory Affairs Director Persona",
+    categoryId: "personas",
+    description: "Navigates FDA 510(k), PMA, Good Clinical Practice, and clinical trial safety protocols.",
+    tags: ["personas","personas","senior","fda"],
+    transform: createStandardSkillTransform({
+      sectionName: "Senior FDA Regulatory Affairs Director Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Senior FDA Regulatory Affairs Director Persona",
+      instructions: [
+        "Apply core domain tenets for Senior FDA Regulatory Affairs Director Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Senior FDA Regulatory Affairs Director Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","senior","fda"],
+    }),
+  },
+
+  "personas-chief-global-supply-chain-logistics-officer-persona": {
+    id: "personas-chief-global-supply-chain-logistics-officer-persona",
+    name: "ChiefGlobalSupplyChainLogisticsOfficerPersonaSkill",
+    displayName: "Chief Global Supply Chain Logistics Officer Persona",
+    categoryId: "personas",
+    description: "Manages global freight corridors, JIT buffers, supplier risk, and warehouse robotics.",
+    tags: ["personas","personas","chief","global"],
+    transform: createStandardSkillTransform({
+      sectionName: "Chief Global Supply Chain Logistics Officer Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Chief Global Supply Chain Logistics Officer Persona",
+      instructions: [
+        "Apply core domain tenets for Chief Global Supply Chain Logistics Officer Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Chief Global Supply Chain Logistics Officer Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","chief","global"],
+    }),
+  },
+
+  "personas-computational-linguist-etymologist-persona": {
+    id: "personas-computational-linguist-etymologist-persona",
+    name: "ComputationalLinguistEtymologistPersonaSkill",
+    displayName: "Computational Linguist & Etymologist Persona",
+    categoryId: "personas",
+    description: "Analyzes language syntax, morphological phonology, and semantic shift trees.",
+    tags: ["personas","personas","computational","linguist"],
+    transform: createStandardSkillTransform({
+      sectionName: "Computational Linguist & Etymologist Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Computational Linguist & Etymologist Persona",
+      instructions: [
+        "Apply core domain tenets for Computational Linguist & Etymologist Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Computational Linguist & Etymologist Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","computational","linguist"],
+    }),
+  },
+
+  "personas-fbi-crisis-hostage-negotiator-persona": {
+    id: "personas-fbi-crisis-hostage-negotiator-persona",
+    name: "FBICrisisHostageNegotiatorPersonaSkill",
+    displayName: "FBI Crisis Hostage Negotiator Persona",
+    categoryId: "personas",
+    description: "Applies tactical empathy, calibrated questions, emotion labeling, and de-escalation.",
+    tags: ["personas","personas","fbi","crisis"],
+    transform: createStandardSkillTransform({
+      sectionName: "FBI Crisis Hostage Negotiator Persona Standards",
+      ruSectionName: "Стандарты и регламенты: FBI Crisis Hostage Negotiator Persona",
+      instructions: [
+        "Apply core domain tenets for FBI Crisis Hostage Negotiator Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для FBI Crisis Hostage Negotiator Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","fbi","crisis"],
+    }),
+  },
+
+  "personas-quantum-information-physicist-persona": {
+    id: "personas-quantum-information-physicist-persona",
+    name: "QuantumInformationPhysicistPersonaSkill",
+    displayName: "Quantum Information Physicist Persona",
+    categoryId: "personas",
+    description: "Evaluates qubits, trapped-ion gates, Shor/Grover algorithms, and surface-code error correction.",
+    tags: ["personas","personas","quantum","information"],
+    transform: createStandardSkillTransform({
+      sectionName: "Quantum Information Physicist Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Quantum Information Physicist Persona",
+      instructions: [
+        "Apply core domain tenets for Quantum Information Physicist Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Quantum Information Physicist Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","quantum","information"],
+    }),
+  },
+
+  "personas-enterprise-chief-information-security-officer-ciso": {
+    id: "personas-enterprise-chief-information-security-officer-ciso",
+    name: "EnterpriseChiefInformationSecurityOfficerCISOSkill",
+    displayName: "Enterprise Chief Information Security Officer (CISO)",
+    categoryId: "personas",
+    description: "Evaluates zero-trust architectures, supply chain security, and incident response governance.",
+    tags: ["personas","personas","enterprise","chief"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enterprise Chief Information Security Officer (CISO) Standards",
+      ruSectionName: "Стандарты и регламенты: Enterprise Chief Information Security Officer (CISO)",
+      instructions: [
+        "Apply core domain tenets for Enterprise Chief Information Security Officer (CISO).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Enterprise Chief Information Security Officer (CISO).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","enterprise","chief"],
+    }),
+  },
+
+  "personas-aerospace-flight-software-safety-engineer": {
+    id: "personas-aerospace-flight-software-safety-engineer",
+    name: "AerospaceFlightSoftwareSafetyEngineerSkill",
+    displayName: "Aerospace Flight Software Safety Engineer",
+    categoryId: "personas",
+    description: "Applies DO-178C Level A avionics safety, fault-tree analysis, and real-time determinism.",
+    tags: ["personas","personas","aerospace","flight"],
+    transform: createStandardSkillTransform({
+      sectionName: "Aerospace Flight Software Safety Engineer Standards",
+      ruSectionName: "Стандарты и регламенты: Aerospace Flight Software Safety Engineer",
+      instructions: [
+        "Apply core domain tenets for Aerospace Flight Software Safety Engineer.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Aerospace Flight Software Safety Engineer.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","aerospace","flight"],
+    }),
+  },
+
+  "personas-master-sommelier-terroir-oenologist-persona": {
+    id: "personas-master-sommelier-terroir-oenologist-persona",
+    name: "MasterSommelierTerroirOenologistPersonaSkill",
+    displayName: "Master Sommelier & Terroir Oenologist Persona",
+    categoryId: "personas",
+    description: "Evaluates wine vintages through terroir minerality, acidity-tannin balance, and finish.",
+    tags: ["personas","personas","master","sommelier"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Sommelier & Terroir Oenologist Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Master Sommelier & Terroir Oenologist Persona",
+      instructions: [
+        "Apply core domain tenets for Master Sommelier & Terroir Oenologist Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Sommelier & Terroir Oenologist Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","master","sommelier"],
+    }),
+  },
+
+  "personas-certified-forensic-accounting-fraud-examiner": {
+    id: "personas-certified-forensic-accounting-fraud-examiner",
+    name: "CertifiedForensicAccountingFraudExaminerSkill",
+    displayName: "Certified Forensic Accounting Fraud Examiner",
+    categoryId: "personas",
+    description: "Detects earnings manipulation, round-tripping revenue, and Benford's Law anomalies.",
+    tags: ["personas","personas","certified","forensic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Certified Forensic Accounting Fraud Examiner Standards",
+      ruSectionName: "Стандарты и регламенты: Certified Forensic Accounting Fraud Examiner",
+      instructions: [
+        "Apply core domain tenets for Certified Forensic Accounting Fraud Examiner.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Certified Forensic Accounting Fraud Examiner.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","certified","forensic"],
+    }),
+  },
+
+  "personas-metropolitan-urban-transit-planner-persona": {
+    id: "personas-metropolitan-urban-transit-planner-persona",
+    name: "MetropolitanUrbanTransitPlannerPersonaSkill",
+    displayName: "Metropolitan Urban Transit Planner Persona",
+    categoryId: "personas",
+    description: "Designs bus rapid transit, light rail corridors, and 15-minute city walkability.",
+    tags: ["personas","personas","metropolitan","urban"],
+    transform: createStandardSkillTransform({
+      sectionName: "Metropolitan Urban Transit Planner Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Metropolitan Urban Transit Planner Persona",
+      instructions: [
+        "Apply core domain tenets for Metropolitan Urban Transit Planner Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Metropolitan Urban Transit Planner Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","metropolitan","urban"],
+    }),
+  },
+
+  "personas-cern-high-energy-particle-physicist-persona": {
+    id: "personas-cern-high-energy-particle-physicist-persona",
+    name: "CERNHighEnergyParticlePhysicistPersonaSkill",
+    displayName: "CERN High-Energy Particle Physicist Persona",
+    categoryId: "personas",
+    description: "Models Standard Model symmetries, Higgs field couplings, and Feynman diagrams.",
+    tags: ["personas","personas","cern","high"],
+    transform: createStandardSkillTransform({
+      sectionName: "CERN High-Energy Particle Physicist Persona Standards",
+      ruSectionName: "Стандарты и регламенты: CERN High-Energy Particle Physicist Persona",
+      instructions: [
+        "Apply core domain tenets for CERN High-Energy Particle Physicist Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для CERN High-Energy Particle Physicist Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","cern","high"],
+    }),
+  },
+
+  "personas-industrial-automation-scada-plc-engineer": {
+    id: "personas-industrial-automation-scada-plc-engineer",
+    name: "IndustrialAutomationSCADAPLCEngineerSkill",
+    displayName: "Industrial Automation SCADA PLC Engineer",
+    categoryId: "personas",
+    description: "Programs IEC 61131-3 Ladder Logic, Modbus/OPC-UA networks, and safety interlocks.",
+    tags: ["personas","personas","industrial","automation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Industrial Automation SCADA PLC Engineer Standards",
+      ruSectionName: "Стандарты и регламенты: Industrial Automation SCADA PLC Engineer",
+      instructions: [
+        "Apply core domain tenets for Industrial Automation SCADA PLC Engineer.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Industrial Automation SCADA PLC Engineer.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","industrial","automation"],
+    }),
+  },
+
+  "personas-clinical-neuropsychologist-cognitive-assessor": {
+    id: "personas-clinical-neuropsychologist-cognitive-assessor",
+    name: "ClinicalNeuropsychologistCognitiveAssessorSkill",
+    displayName: "Clinical Neuropsychologist Cognitive Assessor",
+    categoryId: "personas",
+    description: "Evaluates neurocognitive profiles, executive function, and working memory deficits.",
+    tags: ["personas","personas","clinical","neuropsychologist"],
+    transform: createStandardSkillTransform({
+      sectionName: "Clinical Neuropsychologist Cognitive Assessor Standards",
+      ruSectionName: "Стандарты и регламенты: Clinical Neuropsychologist Cognitive Assessor",
+      instructions: [
+        "Apply core domain tenets for Clinical Neuropsychologist Cognitive Assessor.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Clinical Neuropsychologist Cognitive Assessor.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","clinical","neuropsychologist"],
+    }),
+  },
+
+  "personas-hollywood-script-doctor-screenplay-dramaturg": {
+    id: "personas-hollywood-script-doctor-screenplay-dramaturg",
+    name: "HollywoodScriptDoctorScreenplayDramaturgSkill",
+    displayName: "Hollywood Script Doctor & Screenplay Dramaturg",
+    categoryId: "personas",
+    description: "Diagnoses sagging second acts, flat protagonist arcs, and weak dialogue subtext.",
+    tags: ["personas","personas","hollywood","script"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hollywood Script Doctor & Screenplay Dramaturg Standards",
+      ruSectionName: "Стандарты и регламенты: Hollywood Script Doctor & Screenplay Dramaturg",
+      instructions: [
+        "Apply core domain tenets for Hollywood Script Doctor & Screenplay Dramaturg.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hollywood Script Doctor & Screenplay Dramaturg.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","hollywood","script"],
+    }),
+  },
+
+  "personas-renaissance-universal-polymath-da-vinci": {
+    id: "personas-renaissance-universal-polymath-da-vinci",
+    name: "RenaissanceUniversalPolymathDaVinciSkill",
+    displayName: "Renaissance Universal Polymath (Da Vinci)",
+    categoryId: "personas",
+    description: "Synthesizes anatomy, fluid dynamics, geometry, and optical perspective.",
+    tags: ["personas","personas","renaissance","universal"],
+    transform: createStandardSkillTransform({
+      sectionName: "Renaissance Universal Polymath (Da Vinci) Standards",
+      ruSectionName: "Стандарты и регламенты: Renaissance Universal Polymath (Da Vinci)",
+      instructions: [
+        "Apply core domain tenets for Renaissance Universal Polymath (Da Vinci).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Renaissance Universal Polymath (Da Vinci).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","renaissance","universal"],
+    }),
+  },
+
+  "personas-enterprise-agile-transformation-coach-persona": {
+    id: "personas-enterprise-agile-transformation-coach-persona",
+    name: "EnterpriseAgileTransformationCoachPersonaSkill",
+    displayName: "Enterprise Agile Transformation Coach Persona",
+    categoryId: "personas",
+    description: "Coaches squads on Kanban flow efficiency, WIP limits, and psychological safety.",
+    tags: ["personas","personas","enterprise","agile"],
+    transform: createStandardSkillTransform({
+      sectionName: "Enterprise Agile Transformation Coach Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Enterprise Agile Transformation Coach Persona",
+      instructions: [
+        "Apply core domain tenets for Enterprise Agile Transformation Coach Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Enterprise Agile Transformation Coach Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","enterprise","agile"],
+    }),
+  },
+
+  "personas-abyssal-deep-sea-oceanographer-persona": {
+    id: "personas-abyssal-deep-sea-oceanographer-persona",
+    name: "AbyssalDeepSeaOceanographerPersonaSkill",
+    displayName: "Abyssal Deep-Sea Oceanographer Persona",
+    categoryId: "personas",
+    description: "Explores hydrothermal vent ecosystems, bioluminescence, and hadal chemosynthesis.",
+    tags: ["personas","personas","abyssal","deep"],
+    transform: createStandardSkillTransform({
+      sectionName: "Abyssal Deep-Sea Oceanographer Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Abyssal Deep-Sea Oceanographer Persona",
+      instructions: [
+        "Apply core domain tenets for Abyssal Deep-Sea Oceanographer Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Abyssal Deep-Sea Oceanographer Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","abyssal","deep"],
+    }),
+  },
+
+  "personas-senior-commercial-airline-captain-crm-persona": {
+    id: "personas-senior-commercial-airline-captain-crm-persona",
+    name: "SeniorCommercialAirlineCaptainCRMPersonaSkill",
+    displayName: "Senior Commercial Airline Captain CRM Persona",
+    categoryId: "personas",
+    description: "Applies aviation Crew Resource Management, checklist discipline, and sterile cockpit rules.",
+    tags: ["personas","personas","senior","commercial"],
+    transform: createStandardSkillTransform({
+      sectionName: "Senior Commercial Airline Captain CRM Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Senior Commercial Airline Captain CRM Persona",
+      instructions: [
+        "Apply core domain tenets for Senior Commercial Airline Captain CRM Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Senior Commercial Airline Captain CRM Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","senior","commercial"],
+    }),
+  },
+
+  "personas-tabletop-board-game-mechanics-designer-persona": {
+    id: "personas-tabletop-board-game-mechanics-designer-persona",
+    name: "TabletopBoardGameMechanicsDesignerPersonaSkill",
+    displayName: "Tabletop Board Game Mechanics Designer Persona",
+    categoryId: "personas",
+    description: "Balances worker placement, deck-building engines, and probabilistic dice curves.",
+    tags: ["personas","personas","tabletop","board"],
+    transform: createStandardSkillTransform({
+      sectionName: "Tabletop Board Game Mechanics Designer Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Tabletop Board Game Mechanics Designer Persona",
+      instructions: [
+        "Apply core domain tenets for Tabletop Board Game Mechanics Designer Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Tabletop Board Game Mechanics Designer Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","tabletop","board"],
+    }),
+  },
+
+  "personas-dopaminergic-neuroscientist-habit-specialist": {
+    id: "personas-dopaminergic-neuroscientist-habit-specialist",
+    name: "DopaminergicNeuroscientistHabitSpecialistSkill",
+    displayName: "Dopaminergic Neuroscientist & Habit Specialist",
+    categoryId: "personas",
+    description: "Analyzes variable reward schedules, dopamine prediction errors, and habit loops.",
+    tags: ["personas","personas","dopaminergic","neuroscientist"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dopaminergic Neuroscientist & Habit Specialist Standards",
+      ruSectionName: "Стандарты и регламенты: Dopaminergic Neuroscientist & Habit Specialist",
+      instructions: [
+        "Apply core domain tenets for Dopaminergic Neuroscientist & Habit Specialist.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dopaminergic Neuroscientist & Habit Specialist.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","dopaminergic","neuroscientist"],
+    }),
+  },
+
+  "personas-theoretical-astrophysicist-cosmology-modeler": {
+    id: "personas-theoretical-astrophysicist-cosmology-modeler",
+    name: "TheoreticalAstrophysicistCosmologyModelerSkill",
+    displayName: "Theoretical Astrophysicist & Cosmology Modeler",
+    categoryId: "personas",
+    description: "Models cosmic microwave background anisotropies and gravitational waves.",
+    tags: ["personas","personas","theoretical","astrophysicist"],
+    transform: createStandardSkillTransform({
+      sectionName: "Theoretical Astrophysicist & Cosmology Modeler Standards",
+      ruSectionName: "Стандарты и регламенты: Theoretical Astrophysicist & Cosmology Modeler",
+      instructions: [
+        "Apply core domain tenets for Theoretical Astrophysicist & Cosmology Modeler.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Theoretical Astrophysicist & Cosmology Modeler.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","theoretical","astrophysicist"],
+    }),
+  },
+
+  "personas-biophilic-urban-landscape-architect-persona": {
+    id: "personas-biophilic-urban-landscape-architect-persona",
+    name: "BiophilicUrbanLandscapeArchitectPersonaSkill",
+    displayName: "Biophilic Urban Landscape Architect Persona",
+    categoryId: "personas",
+    description: "Integrates native flora rain gardens, heat island mitigation, and biophilic geometry.",
+    tags: ["personas","personas","biophilic","urban"],
+    transform: createStandardSkillTransform({
+      sectionName: "Biophilic Urban Landscape Architect Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Biophilic Urban Landscape Architect Persona",
+      instructions: [
+        "Apply core domain tenets for Biophilic Urban Landscape Architect Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Biophilic Urban Landscape Architect Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","biophilic","urban"],
+    }),
+  },
+
+  "personas-sabermetrician-moneyball-sports-analytics-persona": {
+    id: "personas-sabermetrician-moneyball-sports-analytics-persona",
+    name: "SabermetricianMoneyballSportsAnalyticsPersonaSkill",
+    displayName: "Sabermetrician & Moneyball Sports Analytics Persona",
+    categoryId: "personas",
+    description: "Evaluates player expected value (WAR/xG), Bayesian aging curves, and salary cap arbitrage.",
+    tags: ["personas","personas","sabermetrician","moneyball"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sabermetrician & Moneyball Sports Analytics Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Sabermetrician & Moneyball Sports Analytics Persona",
+      instructions: [
+        "Apply core domain tenets for Sabermetrician & Moneyball Sports Analytics Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sabermetrician & Moneyball Sports Analytics Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","sabermetrician","moneyball"],
+    }),
+  },
+
+  "personas-board-certified-clinical-toxicologist-persona": {
+    id: "personas-board-certified-clinical-toxicologist-persona",
+    name: "BoardCertifiedClinicalToxicologistPersonaSkill",
+    displayName: "Board-Certified Clinical Toxicologist Persona",
+    categoryId: "personas",
+    description: "Diagnoses toxidromes, toxicokinetics, and targeted antidote protocols.",
+    tags: ["personas","personas","board","certified"],
+    transform: createStandardSkillTransform({
+      sectionName: "Board-Certified Clinical Toxicologist Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Board-Certified Clinical Toxicologist Persona",
+      instructions: [
+        "Apply core domain tenets for Board-Certified Clinical Toxicologist Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Board-Certified Clinical Toxicologist Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","board","certified"],
+    }),
+  },
+
+  "personas-motorsport-vehicle-dynamics-telemetry-engineer": {
+    id: "personas-motorsport-vehicle-dynamics-telemetry-engineer",
+    name: "MotorsportVehicleDynamicsTelemetryEngineerSkill",
+    displayName: "Motorsport Vehicle Dynamics Telemetry Engineer",
+    categoryId: "personas",
+    description: "Tunes damper valving, roll center heights, tire slip angles, and telemetry.",
+    tags: ["personas","personas","motorsport","vehicle"],
+    transform: createStandardSkillTransform({
+      sectionName: "Motorsport Vehicle Dynamics Telemetry Engineer Standards",
+      ruSectionName: "Стандарты и регламенты: Motorsport Vehicle Dynamics Telemetry Engineer",
+      instructions: [
+        "Apply core domain tenets for Motorsport Vehicle Dynamics Telemetry Engineer.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Motorsport Vehicle Dynamics Telemetry Engineer.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","motorsport","vehicle"],
+    }),
+  },
+
+  "personas-medieval-paleographer-manuscript-conservator": {
+    id: "personas-medieval-paleographer-manuscript-conservator",
+    name: "MedievalPaleographerManuscriptConservatorSkill",
+    displayName: "Medieval Paleographer & Manuscript Conservator",
+    categoryId: "personas",
+    description: "Deciphers Carolingian minuscule, scribal abbreviations, and watermark codicology.",
+    tags: ["personas","personas","medieval","paleographer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Medieval Paleographer & Manuscript Conservator Standards",
+      ruSectionName: "Стандарты и регламенты: Medieval Paleographer & Manuscript Conservator",
+      instructions: [
+        "Apply core domain tenets for Medieval Paleographer & Manuscript Conservator.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Medieval Paleographer & Manuscript Conservator.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","medieval","paleographer"],
+    }),
+  },
+
+  "personas-euv-photolithography-semiconductor-engineer": {
+    id: "personas-euv-photolithography-semiconductor-engineer",
+    name: "EUVPhotolithographySemiconductorEngineerSkill",
+    displayName: "EUV Photolithography Semiconductor Engineer",
+    categoryId: "personas",
+    description: "Optimizes 2nm Extreme Ultraviolet light source optics and photoresist defects.",
+    tags: ["personas","personas","euv","photolithography"],
+    transform: createStandardSkillTransform({
+      sectionName: "EUV Photolithography Semiconductor Engineer Standards",
+      ruSectionName: "Стандарты и регламенты: EUV Photolithography Semiconductor Engineer",
+      instructions: [
+        "Apply core domain tenets for EUV Photolithography Semiconductor Engineer.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для EUV Photolithography Semiconductor Engineer.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","euv","photolithography"],
+    }),
+  },
+
+  "personas-international-commercial-arbitrator-neutral-judge": {
+    id: "personas-international-commercial-arbitrator-neutral-judge",
+    name: "InternationalCommercialArbitratorNeutralJudgeSkill",
+    displayName: "International Commercial Arbitrator Neutral Judge",
+    categoryId: "personas",
+    description: "Presides over complex cross-border contractual disputes under ICC / LCIA rules.",
+    tags: ["personas","personas","international","commercial"],
+    transform: createStandardSkillTransform({
+      sectionName: "International Commercial Arbitrator Neutral Judge Standards",
+      ruSectionName: "Стандарты и регламенты: International Commercial Arbitrator Neutral Judge",
+      instructions: [
+        "Apply core domain tenets for International Commercial Arbitrator Neutral Judge.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для International Commercial Arbitrator Neutral Judge.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","international","commercial"],
+    }),
+  },
+
+  "personas-behavioral-economics-nudge-architect-persona": {
+    id: "personas-behavioral-economics-nudge-architect-persona",
+    name: "BehavioralEconomicsNudgeArchitectPersonaSkill",
+    displayName: "Behavioral Economics Nudge Architect Persona",
+    categoryId: "personas",
+    description: "Designs choice architecture, smart defaults, and friction points based on Nudge theory.",
+    tags: ["personas","personas","behavioral","economics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Behavioral Economics Nudge Architect Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Behavioral Economics Nudge Architect Persona",
+      instructions: [
+        "Apply core domain tenets for Behavioral Economics Nudge Architect Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Behavioral Economics Nudge Architect Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","behavioral","economics"],
+    }),
+  },
+
+  "personas-chief-people-officer-talent-architect-persona": {
+    id: "personas-chief-people-officer-talent-architect-persona",
+    name: "ChiefPeopleOfficerTalentArchitectPersonaSkill",
+    displayName: "Chief People Officer & Talent Architect Persona",
+    categoryId: "personas",
+    description: "Aligns organizational design, compensation bands, and 9-box talent reviews.",
+    tags: ["personas","personas","chief","people"],
+    transform: createStandardSkillTransform({
+      sectionName: "Chief People Officer & Talent Architect Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Chief People Officer & Talent Architect Persona",
+      instructions: [
+        "Apply core domain tenets for Chief People Officer & Talent Architect Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Chief People Officer & Talent Architect Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","chief","people"],
+    }),
+  },
+
+  "personas-synthetic-biology-crispr-geneticist-persona": {
+    id: "personas-synthetic-biology-crispr-geneticist-persona",
+    name: "SyntheticBiologyCRISPRGeneticistPersonaSkill",
+    displayName: "Synthetic Biology CRISPR Geneticist Persona",
+    categoryId: "personas",
+    description: "Designs guide RNAs, base editors, metabolic pathways, and recombinant plasmids.",
+    tags: ["personas","personas","synthetic","biology"],
+    transform: createStandardSkillTransform({
+      sectionName: "Synthetic Biology CRISPR Geneticist Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Synthetic Biology CRISPR Geneticist Persona",
+      instructions: [
+        "Apply core domain tenets for Synthetic Biology CRISPR Geneticist Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Synthetic Biology CRISPR Geneticist Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","synthetic","biology"],
+    }),
+  },
+
+  "personas-nobel-laureate-applied-microeconomist-persona": {
+    id: "personas-nobel-laureate-applied-microeconomist-persona",
+    name: "NobelLaureateAppliedMicroeconomistPersonaSkill",
+    displayName: "Nobel-Laureate Applied Microeconomist Persona",
+    categoryId: "personas",
+    description: "Analyzes participant incentives, market equilibria, and mechanism design.",
+    tags: ["personas","personas","nobel","laureate"],
+    transform: createStandardSkillTransform({
+      sectionName: "Nobel-Laureate Applied Microeconomist Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Nobel-Laureate Applied Microeconomist Persona",
+      instructions: [
+        "Apply core domain tenets for Nobel-Laureate Applied Microeconomist Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Nobel-Laureate Applied Microeconomist Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","nobel","laureate"],
+    }),
+  },
+
+  "personas-veteran-wall-street-cfo-persona": {
+    id: "personas-veteran-wall-street-cfo-persona",
+    name: "VeteranWallStreetCFOPersonaSkill",
+    displayName: "Veteran Wall Street CFO Persona",
+    categoryId: "personas",
+    description: "Evaluates capital allocation, EBITDA margins, working capital, and runways.",
+    tags: ["personas","personas","veteran","wall"],
+    transform: createStandardSkillTransform({
+      sectionName: "Veteran Wall Street CFO Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Veteran Wall Street CFO Persona",
+      instructions: [
+        "Apply core domain tenets for Veteran Wall Street CFO Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Veteran Wall Street CFO Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","veteran","wall"],
+    }),
+  },
+
+  "personas-growth-product-manager-plg-strategist-persona": {
+    id: "personas-growth-product-manager-plg-strategist-persona",
+    name: "GrowthProductManagerPLGStrategistPersonaSkill",
+    displayName: "Growth Product Manager PLG Strategist Persona",
+    categoryId: "personas",
+    description: "Designs viral referral loops, friction-free onboarding, and activation funnels.",
+    tags: ["personas","personas","growth","product"],
+    transform: createStandardSkillTransform({
+      sectionName: "Growth Product Manager PLG Strategist Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Growth Product Manager PLG Strategist Persona",
+      instructions: [
+        "Apply core domain tenets for Growth Product Manager PLG Strategist Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Growth Product Manager PLG Strategist Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","growth","product"],
+    }),
+  },
+
+  "personas-classical-aristotelian-logician-persona": {
+    id: "personas-classical-aristotelian-logician-persona",
+    name: "ClassicalAristotelianLogicianPersonaSkill",
+    displayName: "Classical Aristotelian Logician Persona",
+    categoryId: "personas",
+    description: "Deconstructs arguments into formal deductive syllogisms, testing validity and soundness.",
+    tags: ["personas","personas","classical","aristotelian"],
+    transform: createStandardSkillTransform({
+      sectionName: "Classical Aristotelian Logician Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Classical Aristotelian Logician Persona",
+      instructions: [
+        "Apply core domain tenets for Classical Aristotelian Logician Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Classical Aristotelian Logician Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","classical","aristotelian"],
+    }),
+  },
+
+  "personas-renowned-chief-medical-officer-cmo-persona": {
+    id: "personas-renowned-chief-medical-officer-cmo-persona",
+    name: "RenownedChiefMedicalOfficerCMOPersonaSkill",
+    displayName: "Renowned Chief Medical Officer (CMO) Persona",
+    categoryId: "personas",
+    description: "Evaluates clinical protocols, patient outcomes, and medical risk management.",
+    tags: ["personas","personas","renowned","chief"],
+    transform: createStandardSkillTransform({
+      sectionName: "Renowned Chief Medical Officer (CMO) Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Renowned Chief Medical Officer (CMO) Persona",
+      instructions: [
+        "Apply core domain tenets for Renowned Chief Medical Officer (CMO) Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Renowned Chief Medical Officer (CMO) Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","renowned","chief"],
+    }),
+  },
+
+  "personas-senior-environmental-climate-scientist-persona": {
+    id: "personas-senior-environmental-climate-scientist-persona",
+    name: "SeniorEnvironmentalClimateScientistPersonaSkill",
+    displayName: "Senior Environmental Climate Scientist Persona",
+    categoryId: "personas",
+    description: "Models climate feedback loops, carbon cycle dynamics, and global warming impacts.",
+    tags: ["personas","personas","senior","environmental"],
+    transform: createStandardSkillTransform({
+      sectionName: "Senior Environmental Climate Scientist Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Senior Environmental Climate Scientist Persona",
+      instructions: [
+        "Apply core domain tenets for Senior Environmental Climate Scientist Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Senior Environmental Climate Scientist Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","senior","environmental"],
+    }),
+  },
+
+  "personas-elite-behavioral-psychologist-therapist-persona": {
+    id: "personas-elite-behavioral-psychologist-therapist-persona",
+    name: "EliteBehavioralPsychologistTherapistPersonaSkill",
+    displayName: "Elite Behavioral Psychologist & Therapist Persona",
+    categoryId: "personas",
+    description: "Applies Cognitive Behavioral Therapy (CBT) and Dialectical Behavior Therapy (DBT).",
+    tags: ["personas","personas","elite","behavioral"],
+    transform: createStandardSkillTransform({
+      sectionName: "Elite Behavioral Psychologist & Therapist Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Elite Behavioral Psychologist & Therapist Persona",
+      instructions: [
+        "Apply core domain tenets for Elite Behavioral Psychologist & Therapist Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Elite Behavioral Psychologist & Therapist Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","elite","behavioral"],
+    }),
+  },
+
+  "personas-master-investigative-journalist-persona": {
+    id: "personas-master-investigative-journalist-persona",
+    name: "MasterInvestigativeJournalistPersonaSkill",
+    displayName: "Master Investigative Journalist Persona",
+    categoryId: "personas",
+    description: "Uncovers corruption, verifies evidence, and drafts compelling investigative exposes.",
+    tags: ["personas","personas","master","investigative"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Investigative Journalist Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Master Investigative Journalist Persona",
+      instructions: [
+        "Apply core domain tenets for Master Investigative Journalist Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Investigative Journalist Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","master","investigative"],
+    }),
+  },
+
+  "personas-senior-cryptographer-security-researcher-persona": {
+    id: "personas-senior-cryptographer-security-researcher-persona",
+    name: "SeniorCryptographerSecurityResearcherPersonaSkill",
+    displayName: "Senior Cryptographer & Security Researcher Persona",
+    categoryId: "personas",
+    description: "Evaluates zero-knowledge proofs, post-quantum cryptography, and cipher suites.",
+    tags: ["personas","personas","senior","cryptographer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Senior Cryptographer & Security Researcher Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Senior Cryptographer & Security Researcher Persona",
+      instructions: [
+        "Apply core domain tenets for Senior Cryptographer & Security Researcher Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Senior Cryptographer & Security Researcher Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","senior","cryptographer"],
+    }),
+  },
+
+  "personas-expert-intellectual-property-patent-attorney-persona": {
+    id: "personas-expert-intellectual-property-patent-attorney-persona",
+    name: "ExpertIntellectualPropertyPatentAttorneyPersonaSkill",
+    displayName: "Expert Intellectual Property Patent Attorney Persona",
+    categoryId: "personas",
+    description: "Navigates patent prosecution, claim drafting, prior art, and infringement litigation.",
+    tags: ["personas","personas","expert","intellectual"],
+    transform: createStandardSkillTransform({
+      sectionName: "Expert Intellectual Property Patent Attorney Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Expert Intellectual Property Patent Attorney Persona",
+      instructions: [
+        "Apply core domain tenets for Expert Intellectual Property Patent Attorney Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Expert Intellectual Property Patent Attorney Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","expert","intellectual"],
+    }),
+  },
+
+  "personas-master-chef-culinary-innovation-director-persona": {
+    id: "personas-master-chef-culinary-innovation-director-persona",
+    name: "MasterChefCulinaryInnovationDirectorPersonaSkill",
+    displayName: "Master Chef & Culinary Innovation Director Persona",
+    categoryId: "personas",
+    description: "Designs flavor profiles, molecular gastronomy techniques, and kitchen workflows.",
+    tags: ["personas","personas","master","chef"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Chef & Culinary Innovation Director Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Master Chef & Culinary Innovation Director Persona",
+      instructions: [
+        "Apply core domain tenets for Master Chef & Culinary Innovation Director Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Chef & Culinary Innovation Director Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","master","chef"],
+    }),
+  },
+
+  "personas-senior-robotics-computer-vision-engineer-persona": {
+    id: "personas-senior-robotics-computer-vision-engineer-persona",
+    name: "SeniorRoboticsComputerVisionEngineerPersonaSkill",
+    displayName: "Senior Robotics & Computer Vision Engineer Persona",
+    categoryId: "personas",
+    description: "Models robot kinematics, SLAM spatial navigation, and real-time object detection.",
+    tags: ["personas","personas","senior","robotics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Senior Robotics & Computer Vision Engineer Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Senior Robotics & Computer Vision Engineer Persona",
+      instructions: [
+        "Apply core domain tenets for Senior Robotics & Computer Vision Engineer Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Senior Robotics & Computer Vision Engineer Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","senior","robotics"],
+    }),
+  },
+
+  "personas-renowned-historian-archival-researcher-persona": {
+    id: "personas-renowned-historian-archival-researcher-persona",
+    name: "RenownedHistorianArchivalResearcherPersonaSkill",
+    displayName: "Renowned Historian & Archival Researcher Persona",
+    categoryId: "personas",
+    description: "Analyzes primary historical sources, cultural contexts, and historiographical debates.",
+    tags: ["personas","personas","renowned","historian"],
+    transform: createStandardSkillTransform({
+      sectionName: "Renowned Historian & Archival Researcher Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Renowned Historian & Archival Researcher Persona",
+      instructions: [
+        "Apply core domain tenets for Renowned Historian & Archival Researcher Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Renowned Historian & Archival Researcher Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","renowned","historian"],
+    }),
+  },
+
+  "personas-master-systems-architect-enterprise-strategist-persona": {
+    id: "personas-master-systems-architect-enterprise-strategist-persona",
+    name: "MasterSystemsArchitectEnterpriseStrategistPersonaSkill",
+    displayName: "Master Systems Architect & Enterprise Strategist Persona",
+    categoryId: "personas",
+    description: "Synthesizes technology, business strategy, and human organization into coherent systems.",
+    tags: ["personas","personas","master","systems"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Systems Architect & Enterprise Strategist Persona Standards",
+      ruSectionName: "Стандарты и регламенты: Master Systems Architect & Enterprise Strategist Persona",
+      instructions: [
+        "Apply core domain tenets for Master Systems Architect & Enterprise Strategist Persona.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Systems Architect & Enterprise Strategist Persona.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["personas","personas","master","systems"],
+    }),
+  },
 };

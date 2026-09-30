@@ -2003,4 +2003,2277 @@ sectionName: 'Peer Review Author Rebuttal Architecture',
       tags: ["research","peer","review","editorial"],
     }),
   },
+  "research-double-blind-randomized-controlled-trial-rct": {
+    id: "research-double-blind-randomized-controlled-trial-rct",
+    name: "DoubleBlindRandomizedControlledTrialRCTSkill",
+    displayName: "Double-Blind Randomized Controlled Trial (RCT)",
+    categoryId: "research",
+    description: "Designs double-blind RCTs with pre-registered primary endpoints.",
+    tags: ["research","research","double","blind"],
+    transform: createStandardSkillTransform({
+      sectionName: "Double-Blind Randomized Controlled Trial (RCT) Standards",
+      ruSectionName: "Стандарты и регламенты: Double-Blind Randomized Controlled Trial (RCT)",
+      instructions: [
+        "Apply core domain tenets for Double-Blind Randomized Controlled Trial (RCT).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Double-Blind Randomized Controlled Trial (RCT).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","double","blind"],
+    }),
+  },
+
+  "research-bibliometric-citation-network-mapping": {
+    id: "research-bibliometric-citation-network-mapping",
+    name: "BibliometricCitationNetworkMappingSkill",
+    displayName: "Bibliometric Citation Network Mapping",
+    categoryId: "research",
+    description: "Maps research domain co-citation networks and author collaboration graphs.",
+    tags: ["research","research","bibliometric","citation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bibliometric Citation Network Mapping Standards",
+      ruSectionName: "Стандарты и регламенты: Bibliometric Citation Network Mapping",
+      instructions: [
+        "Apply core domain tenets for Bibliometric Citation Network Mapping.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Bibliometric Citation Network Mapping.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","bibliometric","citation"],
+    }),
+  },
+
+  "research-seminal-paper-citation-tree-snowballing": {
+    id: "research-seminal-paper-citation-tree-snowballing",
+    name: "SeminalPaperCitationTreeSnowballingSkill",
+    displayName: "Seminal Paper Citation Tree Snowballing",
+    categoryId: "research",
+    description: "Executes forward and backward citation searches to map domain literature.",
+    tags: ["research","research","seminal","paper"],
+    transform: createStandardSkillTransform({
+      sectionName: "Seminal Paper Citation Tree Snowballing Standards",
+      ruSectionName: "Стандарты и регламенты: Seminal Paper Citation Tree Snowballing",
+      instructions: [
+        "Apply core domain tenets for Seminal Paper Citation Tree Snowballing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Seminal Paper Citation Tree Snowballing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","seminal","paper"],
+    }),
+  },
+
+  "research-delphi-expert-panel-multi-round-consensus": {
+    id: "research-delphi-expert-panel-multi-round-consensus",
+    name: "DelphiExpertPanelMultiRoundConsensusSkill",
+    displayName: "Delphi Expert Panel Multi-Round Consensus",
+    categoryId: "research",
+    description: "Reaches expert consensus through iterative anonymous survey rounds.",
+    tags: ["research","research","delphi","expert"],
+    transform: createStandardSkillTransform({
+      sectionName: "Delphi Expert Panel Multi-Round Consensus Standards",
+      ruSectionName: "Стандарты и регламенты: Delphi Expert Panel Multi-Round Consensus",
+      instructions: [
+        "Apply core domain tenets for Delphi Expert Panel Multi-Round Consensus.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Delphi Expert Panel Multi-Round Consensus.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","delphi","expert"],
+    }),
+  },
+
+  "research-cross-sectional-epidemiological-odds-ratio": {
+    id: "research-cross-sectional-epidemiological-odds-ratio",
+    name: "CrossSectionalEpidemiologicalOddsRatioSkill",
+    displayName: "Cross-Sectional Epidemiological Odds Ratio",
+    categoryId: "research",
+    description: "Calculates odds ratios and relative risks in epidemiological survey populations.",
+    tags: ["research","research","cross","sectional"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Sectional Epidemiological Odds Ratio Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Sectional Epidemiological Odds Ratio",
+      instructions: [
+        "Apply core domain tenets for Cross-Sectional Epidemiological Odds Ratio.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Sectional Epidemiological Odds Ratio.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","cross","sectional"],
+    }),
+  },
+
+  "research-replication-audit-reproducibility-code-check": {
+    id: "research-replication-audit-reproducibility-code-check",
+    name: "ReplicationAuditReproducibilityCodeCheckSkill",
+    displayName: "Replication Audit Reproducibility Code Check",
+    categoryId: "research",
+    description: "Verifies that published paper results recompute identically from raw data and code.",
+    tags: ["research","research","replication","audit"],
+    transform: createStandardSkillTransform({
+      sectionName: "Replication Audit Reproducibility Code Check Standards",
+      ruSectionName: "Стандарты и регламенты: Replication Audit Reproducibility Code Check",
+      instructions: [
+        "Apply core domain tenets for Replication Audit Reproducibility Code Check.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Replication Audit Reproducibility Code Check.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","replication","audit"],
+    }),
+  },
+
+  "research-mixed-methods-convergent-parallel-research-design": {
+    id: "research-mixed-methods-convergent-parallel-research-design",
+    name: "MixedMethodsConvergentParallelResearchDesignSkill",
+    displayName: "Mixed-Methods Convergent Parallel Research Design",
+    categoryId: "research",
+    description: "Combines quantitative surveys and qualitative interviews in a single study.",
+    tags: ["research","research","mixed","methods"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mixed-Methods Convergent Parallel Research Design Standards",
+      ruSectionName: "Стандарты и регламенты: Mixed-Methods Convergent Parallel Research Design",
+      instructions: [
+        "Apply core domain tenets for Mixed-Methods Convergent Parallel Research Design.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Mixed-Methods Convergent Parallel Research Design.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","mixed","methods"],
+    }),
+  },
+
+  "research-phenomenological-lived-experience-inquiry": {
+    id: "research-phenomenological-lived-experience-inquiry",
+    name: "PhenomenologicalLivedExperienceInquirySkill",
+    displayName: "Phenomenological Lived Experience Inquiry",
+    categoryId: "research",
+    description: "Explores the essence of human experiences through deep phenomenological interviews.",
+    tags: ["research","research","phenomenological","lived"],
+    transform: createStandardSkillTransform({
+      sectionName: "Phenomenological Lived Experience Inquiry Standards",
+      ruSectionName: "Стандарты и регламенты: Phenomenological Lived Experience Inquiry",
+      instructions: [
+        "Apply core domain tenets for Phenomenological Lived Experience Inquiry.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Phenomenological Lived Experience Inquiry.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","phenomenological","lived"],
+    }),
+  },
+
+  "research-regression-discontinuity-design-rdd-causal-analysis": {
+    id: "research-regression-discontinuity-design-rdd-causal-analysis",
+    name: "RegressionDiscontinuityDesignRDDCausalAnalysisSkill",
+    displayName: "Regression Discontinuity Design (RDD) Causal Analysis",
+    categoryId: "research",
+    description: "Estimates causal treatment effects around sharp arbitrary threshold cutoffs.",
+    tags: ["research","research","regression","discontinuity"],
+    transform: createStandardSkillTransform({
+      sectionName: "Regression Discontinuity Design (RDD) Causal Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Regression Discontinuity Design (RDD) Causal Analysis",
+      instructions: [
+        "Apply core domain tenets for Regression Discontinuity Design (RDD) Causal Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Regression Discontinuity Design (RDD) Causal Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","regression","discontinuity"],
+    }),
+  },
+
+  "research-structural-equation-modeling-sem-path-analysis": {
+    id: "research-structural-equation-modeling-sem-path-analysis",
+    name: "StructuralEquationModelingSEMPathAnalysisSkill",
+    displayName: "Structural Equation Modeling (SEM) Path Analysis",
+    categoryId: "research",
+    description: "Tests complex latent variable models using confirmatory factor analysis and SEM.",
+    tags: ["research","research","structural","equation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Structural Equation Modeling (SEM) Path Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Structural Equation Modeling (SEM) Path Analysis",
+      instructions: [
+        "Apply core domain tenets for Structural Equation Modeling (SEM) Path Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Structural Equation Modeling (SEM) Path Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","structural","equation"],
+    }),
+  },
+
+  "research-propensity-score-matching-psm-observational-bias": {
+    id: "research-propensity-score-matching-psm-observational-bias",
+    name: "PropensityScoreMatchingPSMObservationalBiasSkill",
+    displayName: "Propensity Score Matching (PSM) Observational Bias",
+    categoryId: "research",
+    description: "Reduces selection bias in non-randomized observational studies via propensity matching.",
+    tags: ["research","research","propensity","score"],
+    transform: createStandardSkillTransform({
+      sectionName: "Propensity Score Matching (PSM) Observational Bias Standards",
+      ruSectionName: "Стандарты и регламенты: Propensity Score Matching (PSM) Observational Bias",
+      instructions: [
+        "Apply core domain tenets for Propensity Score Matching (PSM) Observational Bias.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Propensity Score Matching (PSM) Observational Bias.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","propensity","score"],
+    }),
+  },
+
+  "research-discourse-analysis-foucault-power-relations": {
+    id: "research-discourse-analysis-foucault-power-relations",
+    name: "DiscourseAnalysisFoucaultPowerRelationsSkill",
+    displayName: "Discourse Analysis Foucault Power Relations",
+    categoryId: "research",
+    description: "Analyzes language patterns to uncover underlying power structures and ideologies.",
+    tags: ["research","research","discourse","analysis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Discourse Analysis Foucault Power Relations Standards",
+      ruSectionName: "Стандарты и регламенты: Discourse Analysis Foucault Power Relations",
+      instructions: [
+        "Apply core domain tenets for Discourse Analysis Foucault Power Relations.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Discourse Analysis Foucault Power Relations.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","discourse","analysis"],
+    }),
+  },
+
+  "research-case-study-yin-comparative-multi-case-research": {
+    id: "research-case-study-yin-comparative-multi-case-research",
+    name: "CaseStudyYinComparativeMultiCaseResearchSkill",
+    displayName: "Case Study Yin Comparative Multi-Case Research",
+    categoryId: "research",
+    description: "Conducts rigorous multi-case study research using replication logic.",
+    tags: ["research","research","case","study"],
+    transform: createStandardSkillTransform({
+      sectionName: "Case Study Yin Comparative Multi-Case Research Standards",
+      ruSectionName: "Стандарты и регламенты: Case Study Yin Comparative Multi-Case Research",
+      instructions: [
+        "Apply core domain tenets for Case Study Yin Comparative Multi-Case Research.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Case Study Yin Comparative Multi-Case Research.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","case","study"],
+    }),
+  },
+
+  "research-survival-analysis-cox-proportional-hazards-model": {
+    id: "research-survival-analysis-cox-proportional-hazards-model",
+    name: "SurvivalAnalysisCoxProportionalHazardsModelSkill",
+    displayName: "Survival Analysis Cox Proportional Hazards Model",
+    categoryId: "research",
+    description: "Models time-to-event outcomes while adjusting for multiple clinical covariates.",
+    tags: ["research","research","survival","analysis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Survival Analysis Cox Proportional Hazards Model Standards",
+      ruSectionName: "Стандарты и регламенты: Survival Analysis Cox Proportional Hazards Model",
+      instructions: [
+        "Apply core domain tenets for Survival Analysis Cox Proportional Hazards Model.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Survival Analysis Cox Proportional Hazards Model.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","survival","analysis"],
+    }),
+  },
+
+  "research-cluster-analysis-hierarchical-k-means-segmentation": {
+    id: "research-cluster-analysis-hierarchical-k-means-segmentation",
+    name: "ClusterAnalysisHierarchicalKMeansSegmentationSkill",
+    displayName: "Cluster Analysis Hierarchical & K-Means Segmentation",
+    categoryId: "research",
+    description: "Groups multi-dimensional survey data into distinct cohesive data clusters.",
+    tags: ["research","research","cluster","analysis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cluster Analysis Hierarchical & K-Means Segmentation Standards",
+      ruSectionName: "Стандарты и регламенты: Cluster Analysis Hierarchical & K-Means Segmentation",
+      instructions: [
+        "Apply core domain tenets for Cluster Analysis Hierarchical & K-Means Segmentation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cluster Analysis Hierarchical & K-Means Segmentation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","cluster","analysis"],
+    }),
+  },
+
+  "research-action-research-participatory-community-cycles": {
+    id: "research-action-research-participatory-community-cycles",
+    name: "ActionResearchParticipatoryCommunityCyclesSkill",
+    displayName: "Action Research Participatory Community Cycles",
+    categoryId: "research",
+    description: "Executes collaborative cycles of planning, action, observation, and reflection with communities.",
+    tags: ["research","research","action","research"],
+    transform: createStandardSkillTransform({
+      sectionName: "Action Research Participatory Community Cycles Standards",
+      ruSectionName: "Стандарты и регламенты: Action Research Participatory Community Cycles",
+      instructions: [
+        "Apply core domain tenets for Action Research Participatory Community Cycles.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Action Research Participatory Community Cycles.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","action","research"],
+    }),
+  },
+
+  "research-principal-component-analysis-pca-dimension-reduction": {
+    id: "research-principal-component-analysis-pca-dimension-reduction",
+    name: "PrincipalComponentAnalysisPCADimensionReductionSkill",
+    displayName: "Principal Component Analysis (PCA) Dimension Reduction",
+    categoryId: "research",
+    description: "Reduces multi-variable data dimensions while preserving maximum variance.",
+    tags: ["research","research","principal","component"],
+    transform: createStandardSkillTransform({
+      sectionName: "Principal Component Analysis (PCA) Dimension Reduction Standards",
+      ruSectionName: "Стандарты и регламенты: Principal Component Analysis (PCA) Dimension Reduction",
+      instructions: [
+        "Apply core domain tenets for Principal Component Analysis (PCA) Dimension Reduction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Principal Component Analysis (PCA) Dimension Reduction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","principal","component"],
+    }),
+  },
+
+  "research-narrative-inquiry-life-story-arc-analysis": {
+    id: "research-narrative-inquiry-life-story-arc-analysis",
+    name: "NarrativeInquiryLifeStoryArcAnalysisSkill",
+    displayName: "Narrative Inquiry Life Story Arc Analysis",
+    categoryId: "research",
+    description: "Analyzes personal life stories to understand identity construction over time.",
+    tags: ["research","research","narrative","inquiry"],
+    transform: createStandardSkillTransform({
+      sectionName: "Narrative Inquiry Life Story Arc Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Narrative Inquiry Life Story Arc Analysis",
+      instructions: [
+        "Apply core domain tenets for Narrative Inquiry Life Story Arc Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Narrative Inquiry Life Story Arc Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","narrative","inquiry"],
+    }),
+  },
+
+  "research-natural-experiment-exogenous-shock-causal-study": {
+    id: "research-natural-experiment-exogenous-shock-causal-study",
+    name: "NaturalExperimentExogenousShockCausalStudySkill",
+    displayName: "Natural Experiment Exogenous Shock Causal Study",
+    categoryId: "research",
+    description: "Leverages unexpected policy shifts or natural events as exogenous randomized shocks.",
+    tags: ["research","research","natural","experiment"],
+    transform: createStandardSkillTransform({
+      sectionName: "Natural Experiment Exogenous Shock Causal Study Standards",
+      ruSectionName: "Стандарты и регламенты: Natural Experiment Exogenous Shock Causal Study",
+      instructions: [
+        "Apply core domain tenets for Natural Experiment Exogenous Shock Causal Study.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Natural Experiment Exogenous Shock Causal Study.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","natural","experiment"],
+    }),
+  },
+
+  "research-conjoint-analysis-choice-based-preference-trade-offs": {
+    id: "research-conjoint-analysis-choice-based-preference-trade-offs",
+    name: "ConjointAnalysisChoiceBasedPreferenceTradeOffsSkill",
+    displayName: "Conjoint Analysis Choice-Based Preference Trade-Offs",
+    categoryId: "research",
+    description: "Measures consumer utility trade-offs across multi-attribute product profiles.",
+    tags: ["research","research","conjoint","analysis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Conjoint Analysis Choice-Based Preference Trade-Offs Standards",
+      ruSectionName: "Стандарты и регламенты: Conjoint Analysis Choice-Based Preference Trade-Offs",
+      instructions: [
+        "Apply core domain tenets for Conjoint Analysis Choice-Based Preference Trade-Offs.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Conjoint Analysis Choice-Based Preference Trade-Offs.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","conjoint","analysis"],
+    }),
+  },
+
+  "research-time-series-arima-forecasting-stationarity-check": {
+    id: "research-time-series-arima-forecasting-stationarity-check",
+    name: "TimeSeriesARIMAForecastingStationarityCheckSkill",
+    displayName: "Time Series ARIMA Forecasting & Stationarity Check",
+    categoryId: "research",
+    description: "Tests time series data for stationarity and builds predictive ARIMA models.",
+    tags: ["research","research","time","series"],
+    transform: createStandardSkillTransform({
+      sectionName: "Time Series ARIMA Forecasting & Stationarity Check Standards",
+      ruSectionName: "Стандарты и регламенты: Time Series ARIMA Forecasting & Stationarity Check",
+      instructions: [
+        "Apply core domain tenets for Time Series ARIMA Forecasting & Stationarity Check.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Time Series ARIMA Forecasting & Stationarity Check.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","time","series"],
+    }),
+  },
+
+  "research-heuristic-usability-testing-nielsen-benchmark": {
+    id: "research-heuristic-usability-testing-nielsen-benchmark",
+    name: "HeuristicUsabilityTestingNielsenBenchmarkSkill",
+    displayName: "Heuristic Usability Testing Nielsen Benchmark",
+    categoryId: "research",
+    description: "Evaluates digital interfaces against Jakob Nielsen's 10 usability heuristics.",
+    tags: ["research","research","heuristic","usability"],
+    transform: createStandardSkillTransform({
+      sectionName: "Heuristic Usability Testing Nielsen Benchmark Standards",
+      ruSectionName: "Стандарты и регламенты: Heuristic Usability Testing Nielsen Benchmark",
+      instructions: [
+        "Apply core domain tenets for Heuristic Usability Testing Nielsen Benchmark.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Heuristic Usability Testing Nielsen Benchmark.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","heuristic","usability"],
+    }),
+  },
+
+  "research-spatial-autocorrelation-moran-i-geographic-analysis": {
+    id: "research-spatial-autocorrelation-moran-i-geographic-analysis",
+    name: "SpatialAutocorrelationMoranIGeographicAnalysisSkill",
+    displayName: "Spatial Autocorrelation Moran I Geographic Analysis",
+    categoryId: "research",
+    description: "Measures spatial clustering of phenomena across geographic map coordinates.",
+    tags: ["research","research","spatial","autocorrelation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Spatial Autocorrelation Moran I Geographic Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Spatial Autocorrelation Moran I Geographic Analysis",
+      instructions: [
+        "Apply core domain tenets for Spatial Autocorrelation Moran I Geographic Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Spatial Autocorrelation Moran I Geographic Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","spatial","autocorrelation"],
+    }),
+  },
+
+  "research-eye-tracking-heatmap-visual-attention-analysis": {
+    id: "research-eye-tracking-heatmap-visual-attention-analysis",
+    name: "EyeTrackingHeatmapVisualAttentionAnalysisSkill",
+    displayName: "Eye-Tracking Heatmap Visual Attention Analysis",
+    categoryId: "research",
+    description: "Analyzes user visual fixation sequences and gaze heatmaps on digital layouts.",
+    tags: ["research","research","eye","tracking"],
+    transform: createStandardSkillTransform({
+      sectionName: "Eye-Tracking Heatmap Visual Attention Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Eye-Tracking Heatmap Visual Attention Analysis",
+      instructions: [
+        "Apply core domain tenets for Eye-Tracking Heatmap Visual Attention Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Eye-Tracking Heatmap Visual Attention Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","eye","tracking"],
+    }),
+  },
+
+  "research-card-sorting-information-architecture-mental-model": {
+    id: "research-card-sorting-information-architecture-mental-model",
+    name: "CardSortingInformationArchitectureMentalModelSkill",
+    displayName: "Card Sorting Information Architecture Mental Model",
+    categoryId: "research",
+    description: "Conducts open/closed card sorting tests to organize navigation categories.",
+    tags: ["research","research","card","sorting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Card Sorting Information Architecture Mental Model Standards",
+      ruSectionName: "Стандарты и регламенты: Card Sorting Information Architecture Mental Model",
+      instructions: [
+        "Apply core domain tenets for Card Sorting Information Architecture Mental Model.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Card Sorting Information Architecture Mental Model.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","card","sorting"],
+    }),
+  },
+
+  "research-diary-study-longitudinal-user-behavior-tracking": {
+    id: "research-diary-study-longitudinal-user-behavior-tracking",
+    name: "DiaryStudyLongitudinalUserBehaviorTrackingSkill",
+    displayName: "Diary Study Longitudinal User Behavior Tracking",
+    categoryId: "research",
+    description: "Captures contextual real-time user habits over multi-week diary periods.",
+    tags: ["research","research","diary","study"],
+    transform: createStandardSkillTransform({
+      sectionName: "Diary Study Longitudinal User Behavior Tracking Standards",
+      ruSectionName: "Стандарты и регламенты: Diary Study Longitudinal User Behavior Tracking",
+      instructions: [
+        "Apply core domain tenets for Diary Study Longitudinal User Behavior Tracking.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Diary Study Longitudinal User Behavior Tracking.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","diary","study"],
+    }),
+  },
+
+  "research-a-b-testing-frequentist-vs-bayesian-hypothesis-check": {
+    id: "research-a-b-testing-frequentist-vs-bayesian-hypothesis-check",
+    name: "ABTestingFrequentistvsBayesianHypothesisCheckSkill",
+    displayName: "A/B Testing Frequentist vs Bayesian Hypothesis Check",
+    categoryId: "research",
+    description: "Evaluates digital experiment conversion lifts using sequential Bayesian testing.",
+    tags: ["research","research","a","b"],
+    transform: createStandardSkillTransform({
+      sectionName: "A/B Testing Frequentist vs Bayesian Hypothesis Check Standards",
+      ruSectionName: "Стандарты и регламенты: A/B Testing Frequentist vs Bayesian Hypothesis Check",
+      instructions: [
+        "Apply core domain tenets for A/B Testing Frequentist vs Bayesian Hypothesis Check.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для A/B Testing Frequentist vs Bayesian Hypothesis Check.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","a","b"],
+    }),
+  },
+
+  "research-synthetic-control-method-comparative-policy-evaluation": {
+    id: "research-synthetic-control-method-comparative-policy-evaluation",
+    name: "SyntheticControlMethodComparativePolicyEvaluationSkill",
+    displayName: "Synthetic Control Method Comparative Policy Evaluation",
+    categoryId: "research",
+    description: "Constructs weighted combinations of control units to estimate policy impact.",
+    tags: ["research","research","synthetic","control"],
+    transform: createStandardSkillTransform({
+      sectionName: "Synthetic Control Method Comparative Policy Evaluation Standards",
+      ruSectionName: "Стандарты и регламенты: Synthetic Control Method Comparative Policy Evaluation",
+      instructions: [
+        "Apply core domain tenets for Synthetic Control Method Comparative Policy Evaluation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Synthetic Control Method Comparative Policy Evaluation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","synthetic","control"],
+    }),
+  },
+
+  "research-latent-dirichlet-allocation-lda-topic-modeling": {
+    id: "research-latent-dirichlet-allocation-lda-topic-modeling",
+    name: "LatentDirichletAllocationLDATopicModelingSkill",
+    displayName: "Latent Dirichlet Allocation (LDA) Topic Modeling",
+    categoryId: "research",
+    description: "Discovers hidden thematic topics across large unstructured text document collections.",
+    tags: ["research","research","latent","dirichlet"],
+    transform: createStandardSkillTransform({
+      sectionName: "Latent Dirichlet Allocation (LDA) Topic Modeling Standards",
+      ruSectionName: "Стандарты и регламенты: Latent Dirichlet Allocation (LDA) Topic Modeling",
+      instructions: [
+        "Apply core domain tenets for Latent Dirichlet Allocation (LDA) Topic Modeling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Latent Dirichlet Allocation (LDA) Topic Modeling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","latent","dirichlet"],
+    }),
+  },
+
+  "research-text-mining-sentiment-analysis-vader-scoring": {
+    id: "research-text-mining-sentiment-analysis-vader-scoring",
+    name: "TextMiningSentimentAnalysisVADERScoringSkill",
+    displayName: "Text Mining Sentiment Analysis & VADER Scoring",
+    categoryId: "research",
+    description: "Calculates emotional valence scores across customer review corpora.",
+    tags: ["research","research","text","mining"],
+    transform: createStandardSkillTransform({
+      sectionName: "Text Mining Sentiment Analysis & VADER Scoring Standards",
+      ruSectionName: "Стандарты и регламенты: Text Mining Sentiment Analysis & VADER Scoring",
+      instructions: [
+        "Apply core domain tenets for Text Mining Sentiment Analysis & VADER Scoring.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Text Mining Sentiment Analysis & VADER Scoring.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","text","mining"],
+    }),
+  },
+
+  "research-markov-chain-monte-carlo-mcmc-bayesian-sampling": {
+    id: "research-markov-chain-monte-carlo-mcmc-bayesian-sampling",
+    name: "MarkovChainMonteCarloMCMCBayesianSamplingSkill",
+    displayName: "Markov Chain Monte Carlo (MCMC) Bayesian Sampling",
+    categoryId: "research",
+    description: "Draws random samples from complex multi-dimensional posterior probability distributions.",
+    tags: ["research","research","markov","chain"],
+    transform: createStandardSkillTransform({
+      sectionName: "Markov Chain Monte Carlo (MCMC) Bayesian Sampling Standards",
+      ruSectionName: "Стандарты и регламенты: Markov Chain Monte Carlo (MCMC) Bayesian Sampling",
+      instructions: [
+        "Apply core domain tenets for Markov Chain Monte Carlo (MCMC) Bayesian Sampling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Markov Chain Monte Carlo (MCMC) Bayesian Sampling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","markov","chain"],
+    }),
+  },
+
+  "research-survival-curve-log-rank-statistical-significance-test": {
+    id: "research-survival-curve-log-rank-statistical-significance-test",
+    name: "SurvivalCurveLogRankStatisticalSignificanceTestSkill",
+    displayName: "Survival Curve Log-Rank Statistical Significance Test",
+    categoryId: "research",
+    description: "Compares survival curves between two experimental treatment groups.",
+    tags: ["research","research","survival","curve"],
+    transform: createStandardSkillTransform({
+      sectionName: "Survival Curve Log-Rank Statistical Significance Test Standards",
+      ruSectionName: "Стандарты и регламенты: Survival Curve Log-Rank Statistical Significance Test",
+      instructions: [
+        "Apply core domain tenets for Survival Curve Log-Rank Statistical Significance Test.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Survival Curve Log-Rank Statistical Significance Test.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","survival","curve"],
+    }),
+  },
+
+  "research-guttman-scale-cumulative-intensity-survey-design": {
+    id: "research-guttman-scale-cumulative-intensity-survey-design",
+    name: "GuttmanScaleCumulativeIntensitySurveyDesignSkill",
+    displayName: "Guttman Scale Cumulative Intensity Survey Design",
+    categoryId: "research",
+    description: "Constructs uni-dimensional survey scales where agreement with one item implies agreement with prior ones.",
+    tags: ["research","research","guttman","scale"],
+    transform: createStandardSkillTransform({
+      sectionName: "Guttman Scale Cumulative Intensity Survey Design Standards",
+      ruSectionName: "Стандарты и регламенты: Guttman Scale Cumulative Intensity Survey Design",
+      instructions: [
+        "Apply core domain tenets for Guttman Scale Cumulative Intensity Survey Design.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Guttman Scale Cumulative Intensity Survey Design.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","guttman","scale"],
+    }),
+  },
+
+  "research-sociometric-network-centrality-analysis": {
+    id: "research-sociometric-network-centrality-analysis",
+    name: "SociometricNetworkCentralityAnalysisSkill",
+    displayName: "Sociometric Network Centrality Analysis",
+    categoryId: "research",
+    description: "Measures Degree, Betweenness, and Eigenvector centrality in social graphs.",
+    tags: ["research","research","sociometric","network"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sociometric Network Centrality Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Sociometric Network Centrality Analysis",
+      instructions: [
+        "Apply core domain tenets for Sociometric Network Centrality Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sociometric Network Centrality Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","sociometric","network"],
+    }),
+  },
+
+  "research-hermeneutic-circle-text-interpretation-cycle": {
+    id: "research-hermeneutic-circle-text-interpretation-cycle",
+    name: "HermeneuticCircleTextInterpretationCycleSkill",
+    displayName: "Hermeneutic Circle Text Interpretation Cycle",
+    categoryId: "research",
+    description: "Interprets text meaning through continuous movement between whole and parts.",
+    tags: ["research","research","hermeneutic","circle"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hermeneutic Circle Text Interpretation Cycle Standards",
+      ruSectionName: "Стандарты и регламенты: Hermeneutic Circle Text Interpretation Cycle",
+      instructions: [
+        "Apply core domain tenets for Hermeneutic Circle Text Interpretation Cycle.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hermeneutic Circle Text Interpretation Cycle.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","hermeneutic","circle"],
+    }),
+  },
+
+  "research-content-validity-ratio-cvr-lawshe-expert-panel": {
+    id: "research-content-validity-ratio-cvr-lawshe-expert-panel",
+    name: "ContentValidityRatioCVRLawsheExpertPanelSkill",
+    displayName: "Content Validity Ratio (CVR) Lawshe Expert Panel",
+    categoryId: "research",
+    description: "Quantifies item essentiality across expert panels to validate survey content.",
+    tags: ["research","research","content","validity"],
+    transform: createStandardSkillTransform({
+      sectionName: "Content Validity Ratio (CVR) Lawshe Expert Panel Standards",
+      ruSectionName: "Стандарты и регламенты: Content Validity Ratio (CVR) Lawshe Expert Panel",
+      instructions: [
+        "Apply core domain tenets for Content Validity Ratio (CVR) Lawshe Expert Panel.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Content Validity Ratio (CVR) Lawshe Expert Panel.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","content","validity"],
+    }),
+  },
+
+  "research-multilevel-hierarchical-linear-modeling-hlm": {
+    id: "research-multilevel-hierarchical-linear-modeling-hlm",
+    name: "MultilevelHierarchicalLinearModelingHLMSkill",
+    displayName: "Multilevel Hierarchical Linear Modeling (HLM)",
+    categoryId: "research",
+    description: "Analyzes nested data structures (e.g. students within classrooms within districts).",
+    tags: ["research","research","multilevel","hierarchical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multilevel Hierarchical Linear Modeling (HLM) Standards",
+      ruSectionName: "Стандарты и регламенты: Multilevel Hierarchical Linear Modeling (HLM)",
+      instructions: [
+        "Apply core domain tenets for Multilevel Hierarchical Linear Modeling (HLM).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multilevel Hierarchical Linear Modeling (HLM).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","multilevel","hierarchical"],
+    }),
+  },
+
+  "research-fuzzy-set-qualitative-comparative-analysis-fsqca": {
+    id: "research-fuzzy-set-qualitative-comparative-analysis-fsqca",
+    name: "FuzzySetQualitativeComparativeAnalysisfsQCASkill",
+    displayName: "Fuzzy Set Qualitative Comparative Analysis (fsQCA)",
+    categoryId: "research",
+    description: "Identifies combinations of causal conditions leading to outcomes using set theory.",
+    tags: ["research","research","fuzzy","set"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fuzzy Set Qualitative Comparative Analysis (fsQCA) Standards",
+      ruSectionName: "Стандарты и регламенты: Fuzzy Set Qualitative Comparative Analysis (fsQCA)",
+      instructions: [
+        "Apply core domain tenets for Fuzzy Set Qualitative Comparative Analysis (fsQCA).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Fuzzy Set Qualitative Comparative Analysis (fsQCA).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","fuzzy","set"],
+    }),
+  },
+
+  "research-system-dynamics-feedback-loop-causal-stock-flow": {
+    id: "research-system-dynamics-feedback-loop-causal-stock-flow",
+    name: "SystemDynamicsFeedbackLoopCausalStockFlowSkill",
+    displayName: "System Dynamics Feedback Loop Causal Stock-Flow",
+    categoryId: "research",
+    description: "Models complex feedback systems using stocks, flows, and time delays.",
+    tags: ["research","research","system","dynamics"],
+    transform: createStandardSkillTransform({
+      sectionName: "System Dynamics Feedback Loop Causal Stock-Flow Standards",
+      ruSectionName: "Стандарты и регламенты: System Dynamics Feedback Loop Causal Stock-Flow",
+      instructions: [
+        "Apply core domain tenets for System Dynamics Feedback Loop Causal Stock-Flow.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для System Dynamics Feedback Loop Causal Stock-Flow.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","system","dynamics"],
+    }),
+  },
+
+  "research-archival-paleography-document-transcription": {
+    id: "research-archival-paleography-document-transcription",
+    name: "ArchivalPaleographyDocumentTranscriptionSkill",
+    displayName: "Archival Paleography Document Transcription",
+    categoryId: "research",
+    description: "Transcribes historical hand-written manuscripts with diplomatic accuracy.",
+    tags: ["research","research","archival","paleography"],
+    transform: createStandardSkillTransform({
+      sectionName: "Archival Paleography Document Transcription Standards",
+      ruSectionName: "Стандарты и регламенты: Archival Paleography Document Transcription",
+      instructions: [
+        "Apply core domain tenets for Archival Paleography Document Transcription.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Archival Paleography Document Transcription.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","archival","paleography"],
+    }),
+  },
+
+  "research-geospatial-buffer-overlay-proximity-analysis": {
+    id: "research-geospatial-buffer-overlay-proximity-analysis",
+    name: "GeospatialBufferOverlayProximityAnalysisSkill",
+    displayName: "Geospatial Buffer & Overlay Proximity Analysis",
+    categoryId: "research",
+    description: "Calculates spatial proximity buffers around points of interest in GIS.",
+    tags: ["research","research","geospatial","buffer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Geospatial Buffer & Overlay Proximity Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Geospatial Buffer & Overlay Proximity Analysis",
+      instructions: [
+        "Apply core domain tenets for Geospatial Buffer & Overlay Proximity Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Geospatial Buffer & Overlay Proximity Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","geospatial","buffer"],
+    }),
+  },
+
+  "research-visual-methods-photo-elicitation-research": {
+    id: "research-visual-methods-photo-elicitation-research",
+    name: "VisualMethodsPhotoElicitationResearchSkill",
+    displayName: "Visual Methods Photo-Elicitation Research",
+    categoryId: "research",
+    description: "Uses participant-generated photographs to prompt deep interview insights.",
+    tags: ["research","research","visual","methods"],
+    transform: createStandardSkillTransform({
+      sectionName: "Visual Methods Photo-Elicitation Research Standards",
+      ruSectionName: "Стандарты и регламенты: Visual Methods Photo-Elicitation Research",
+      instructions: [
+        "Apply core domain tenets for Visual Methods Photo-Elicitation Research.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Visual Methods Photo-Elicitation Research.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","visual","methods"],
+    }),
+  },
+
+  "research-cognitive-task-analysis-cta-decision-making": {
+    id: "research-cognitive-task-analysis-cta-decision-making",
+    name: "CognitiveTaskAnalysisCTADecisionMakingSkill",
+    displayName: "Cognitive Task Analysis CTA Decision Making",
+    categoryId: "research",
+    description: "Deconstructs cognitive expertise and decision-making steps of domain experts.",
+    tags: ["research","research","cognitive","task"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cognitive Task Analysis CTA Decision Making Standards",
+      ruSectionName: "Стандарты и регламенты: Cognitive Task Analysis CTA Decision Making",
+      instructions: [
+        "Apply core domain tenets for Cognitive Task Analysis CTA Decision Making.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cognitive Task Analysis CTA Decision Making.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","cognitive","task"],
+    }),
+  },
+
+  "research-cost-benefit-analysis-discounted-cash-flow-npv": {
+    id: "research-cost-benefit-analysis-discounted-cash-flow-npv",
+    name: "CostBenefitAnalysisDiscountedCashFlowNPVSkill",
+    displayName: "Cost-Benefit Analysis Discounted Cash Flow NPV",
+    categoryId: "research",
+    description: "Calculates Net Present Value (NPV) and Internal Rate of Return (IRR) for public projects.",
+    tags: ["research","research","cost","benefit"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cost-Benefit Analysis Discounted Cash Flow NPV Standards",
+      ruSectionName: "Стандарты и регламенты: Cost-Benefit Analysis Discounted Cash Flow NPV",
+      instructions: [
+        "Apply core domain tenets for Cost-Benefit Analysis Discounted Cash Flow NPV.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cost-Benefit Analysis Discounted Cash Flow NPV.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","cost","benefit"],
+    }),
+  },
+
+  "research-usability-rite-method-rapid-iterative-testing": {
+    id: "research-usability-rite-method-rapid-iterative-testing",
+    name: "UsabilityRITEMethodRapidIterativeTestingSkill",
+    displayName: "Usability RITE Method Rapid Iterative Testing",
+    categoryId: "research",
+    description: "Iterates user interface designs after every 2-3 usability test participants.",
+    tags: ["research","research","usability","rite"],
+    transform: createStandardSkillTransform({
+      sectionName: "Usability RITE Method Rapid Iterative Testing Standards",
+      ruSectionName: "Стандарты и регламенты: Usability RITE Method Rapid Iterative Testing",
+      instructions: [
+        "Apply core domain tenets for Usability RITE Method Rapid Iterative Testing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Usability RITE Method Rapid Iterative Testing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","usability","rite"],
+    }),
+  },
+
+  "research-delphi-panel-policy-scenario-consensus": {
+    id: "research-delphi-panel-policy-scenario-consensus",
+    name: "DelphiPanelPolicyScenarioConsensusSkill",
+    displayName: "Delphi Panel Policy Scenario Consensus",
+    categoryId: "research",
+    description: "Forecasts future technological scenarios through iterative expert panel consensus.",
+    tags: ["research","research","delphi","panel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Delphi Panel Policy Scenario Consensus Standards",
+      ruSectionName: "Стандарты и регламенты: Delphi Panel Policy Scenario Consensus",
+      instructions: [
+        "Apply core domain tenets for Delphi Panel Policy Scenario Consensus.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Delphi Panel Policy Scenario Consensus.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","delphi","panel"],
+    }),
+  },
+
+  "research-secondary-data-analysis-large-scale-survey-corpus": {
+    id: "research-secondary-data-analysis-large-scale-survey-corpus",
+    name: "SecondaryDataAnalysisLargeScaleSurveyCorpusSkill",
+    displayName: "Secondary Data Analysis Large-Scale Survey Corpus",
+    categoryId: "research",
+    description: "Analyzes existing public census or health survey datasets to test novel hypotheses.",
+    tags: ["research","research","secondary","data"],
+    transform: createStandardSkillTransform({
+      sectionName: "Secondary Data Analysis Large-Scale Survey Corpus Standards",
+      ruSectionName: "Стандарты и регламенты: Secondary Data Analysis Large-Scale Survey Corpus",
+      instructions: [
+        "Apply core domain tenets for Secondary Data Analysis Large-Scale Survey Corpus.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Secondary Data Analysis Large-Scale Survey Corpus.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","secondary","data"],
+    }),
+  },
+
+  "research-critical-discourse-analysis-power-framing": {
+    id: "research-critical-discourse-analysis-power-framing",
+    name: "CriticalDiscourseAnalysisPowerFramingSkill",
+    displayName: "Critical Discourse Analysis Power Framing",
+    categoryId: "research",
+    description: "Examines how media coverage constructs and reinforces social inequality.",
+    tags: ["research","research","critical","discourse"],
+    transform: createStandardSkillTransform({
+      sectionName: "Critical Discourse Analysis Power Framing Standards",
+      ruSectionName: "Стандарты и регламенты: Critical Discourse Analysis Power Framing",
+      instructions: [
+        "Apply core domain tenets for Critical Discourse Analysis Power Framing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Critical Discourse Analysis Power Framing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","critical","discourse"],
+    }),
+  },
+
+  "research-monte-carlo-sensitivity-analysis-risk-bounds": {
+    id: "research-monte-carlo-sensitivity-analysis-risk-bounds",
+    name: "MonteCarloSensitivityAnalysisRiskBoundsSkill",
+    displayName: "Monte Carlo Sensitivity Analysis Risk Bounds",
+    categoryId: "research",
+    description: "Evaluates model output variance by sampling input distributions 10,000 times.",
+    tags: ["research","research","monte","carlo"],
+    transform: createStandardSkillTransform({
+      sectionName: "Monte Carlo Sensitivity Analysis Risk Bounds Standards",
+      ruSectionName: "Стандарты и регламенты: Monte Carlo Sensitivity Analysis Risk Bounds",
+      instructions: [
+        "Apply core domain tenets for Monte Carlo Sensitivity Analysis Risk Bounds.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Monte Carlo Sensitivity Analysis Risk Bounds.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","monte","carlo"],
+    }),
+  },
+
+  "research-experimental-priming-psychological-cueing-check": {
+    id: "research-experimental-priming-psychological-cueing-check",
+    name: "ExperimentalPrimingPsychologicalCueingCheckSkill",
+    displayName: "Experimental Priming Psychological Cueing Check",
+    categoryId: "research",
+    description: "Tests implicit behavioral priming effects using controlled exposure stimuli.",
+    tags: ["research","research","experimental","priming"],
+    transform: createStandardSkillTransform({
+      sectionName: "Experimental Priming Psychological Cueing Check Standards",
+      ruSectionName: "Стандарты и регламенты: Experimental Priming Psychological Cueing Check",
+      instructions: [
+        "Apply core domain tenets for Experimental Priming Psychological Cueing Check.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Experimental Priming Psychological Cueing Check.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","experimental","priming"],
+    }),
+  },
+
+  "research-grounded-theory-constant-comparative-method": {
+    id: "research-grounded-theory-constant-comparative-method",
+    name: "GroundedTheoryConstantComparativeMethodSkill",
+    displayName: "Grounded Theory Constant Comparative Method",
+    categoryId: "research",
+    description: "Compares new qualitative data continuously against emerging theoretical codes.",
+    tags: ["research","research","grounded","theory"],
+    transform: createStandardSkillTransform({
+      sectionName: "Grounded Theory Constant Comparative Method Standards",
+      ruSectionName: "Стандарты и регламенты: Grounded Theory Constant Comparative Method",
+      instructions: [
+        "Apply core domain tenets for Grounded Theory Constant Comparative Method.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Grounded Theory Constant Comparative Method.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","grounded","theory"],
+    }),
+  },
+
+  "research-cross-cultural-translation-back-translation-protocol": {
+    id: "research-cross-cultural-translation-back-translation-protocol",
+    name: "CrossCulturalTranslationBackTranslationProtocolSkill",
+    displayName: "Cross-Cultural Translation Back-Translation Protocol",
+    categoryId: "research",
+    description: "Translates research instruments using forward and back-translation to ensure equivalence.",
+    tags: ["research","research","cross","cultural"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Cultural Translation Back-Translation Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Cultural Translation Back-Translation Protocol",
+      instructions: [
+        "Apply core domain tenets for Cross-Cultural Translation Back-Translation Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Cultural Translation Back-Translation Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","cross","cultural"],
+    }),
+  },
+
+  "research-clinical-trial-adverse-event-severity-reporting": {
+    id: "research-clinical-trial-adverse-event-severity-reporting",
+    name: "ClinicalTrialAdverseEventSeverityReportingSkill",
+    displayName: "Clinical Trial Adverse Event Severity Reporting",
+    categoryId: "research",
+    description: "Monitors and classifies clinical trial side effects according to CTCAE scales.",
+    tags: ["research","research","clinical","trial"],
+    transform: createStandardSkillTransform({
+      sectionName: "Clinical Trial Adverse Event Severity Reporting Standards",
+      ruSectionName: "Стандарты и регламенты: Clinical Trial Adverse Event Severity Reporting",
+      instructions: [
+        "Apply core domain tenets for Clinical Trial Adverse Event Severity Reporting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Clinical Trial Adverse Event Severity Reporting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","clinical","trial"],
+    }),
+  },
+
+  "research-a-b-test-minimum-detectable-effect-mde-calculation": {
+    id: "research-a-b-test-minimum-detectable-effect-mde-calculation",
+    name: "ABTestMinimumDetectableEffectMDECalculationSkill",
+    displayName: "A/B Test Minimum Detectable Effect (MDE) Calculation",
+    categoryId: "research",
+    description: "Determines required sample size to detect a target percentage uplift.",
+    tags: ["research","research","a","b"],
+    transform: createStandardSkillTransform({
+      sectionName: "A/B Test Minimum Detectable Effect (MDE) Calculation Standards",
+      ruSectionName: "Стандарты и регламенты: A/B Test Minimum Detectable Effect (MDE) Calculation",
+      instructions: [
+        "Apply core domain tenets for A/B Test Minimum Detectable Effect (MDE) Calculation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для A/B Test Minimum Detectable Effect (MDE) Calculation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","a","b"],
+    }),
+  },
+
+  "research-process-tracing-causal-mechanism-testing": {
+    id: "research-process-tracing-causal-mechanism-testing",
+    name: "ProcessTracingCausalMechanismTestingSkill",
+    displayName: "Process Tracing Causal Mechanism Testing",
+    categoryId: "research",
+    description: "Traces step-by-step causal mechanisms linking cause and effect in case studies.",
+    tags: ["research","research","process","tracing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Process Tracing Causal Mechanism Testing Standards",
+      ruSectionName: "Стандарты и регламенты: Process Tracing Causal Mechanism Testing",
+      instructions: [
+        "Apply core domain tenets for Process Tracing Causal Mechanism Testing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Process Tracing Causal Mechanism Testing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","process","tracing"],
+    }),
+  },
+
+  "research-factor-analysis-exploratory-confirmatory-efa-cfa": {
+    id: "research-factor-analysis-exploratory-confirmatory-efa-cfa",
+    name: "FactorAnalysisExploratoryConfirmatoryEFACFASkill",
+    displayName: "Factor Analysis Exploratory & Confirmatory (EFA/CFA)",
+    categoryId: "research",
+    description: "Identifies underlying latent factors explaining observed variable correlations.",
+    tags: ["research","research","factor","analysis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Factor Analysis Exploratory & Confirmatory (EFA/CFA) Standards",
+      ruSectionName: "Стандарты и регламенты: Factor Analysis Exploratory & Confirmatory (EFA/CFA)",
+      instructions: [
+        "Apply core domain tenets for Factor Analysis Exploratory & Confirmatory (EFA/CFA).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Factor Analysis Exploratory & Confirmatory (EFA/CFA).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","factor","analysis"],
+    }),
+  },
+
+  "research-ethnographic-auto-ethnography-reflexive-account": {
+    id: "research-ethnographic-auto-ethnography-reflexive-account",
+    name: "EthnographicAutoEthnographyReflexiveAccountSkill",
+    displayName: "Ethnographic Auto-Ethnography Reflexive Account",
+    categoryId: "research",
+    description: "Analyzes personal cultural experiences within broader sociological research contexts.",
+    tags: ["research","research","ethnographic","auto"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ethnographic Auto-Ethnography Reflexive Account Standards",
+      ruSectionName: "Стандарты и регламенты: Ethnographic Auto-Ethnography Reflexive Account",
+      instructions: [
+        "Apply core domain tenets for Ethnographic Auto-Ethnography Reflexive Account.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Ethnographic Auto-Ethnography Reflexive Account.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","ethnographic","auto"],
+    }),
+  },
+
+  "research-longitudinal-growth-curve-modeling": {
+    id: "research-longitudinal-growth-curve-modeling",
+    name: "LongitudinalGrowthCurveModelingSkill",
+    displayName: "Longitudinal Growth Curve Modeling",
+    categoryId: "research",
+    description: "Tracks individual trajectory changes over multiple time points using structural equations.",
+    tags: ["research","research","longitudinal","growth"],
+    transform: createStandardSkillTransform({
+      sectionName: "Longitudinal Growth Curve Modeling Standards",
+      ruSectionName: "Стандарты и регламенты: Longitudinal Growth Curve Modeling",
+      instructions: [
+        "Apply core domain tenets for Longitudinal Growth Curve Modeling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Longitudinal Growth Curve Modeling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","longitudinal","growth"],
+    }),
+  },
+
+  "research-usability-heuristic-walkthrough-expert-evaluation": {
+    id: "research-usability-heuristic-walkthrough-expert-evaluation",
+    name: "UsabilityHeuristicWalkthroughExpertEvaluationSkill",
+    displayName: "Usability Heuristic Walkthrough Expert Evaluation",
+    categoryId: "research",
+    description: "Audits digital applications against established usability principles.",
+    tags: ["research","research","usability","heuristic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Usability Heuristic Walkthrough Expert Evaluation Standards",
+      ruSectionName: "Стандарты и регламенты: Usability Heuristic Walkthrough Expert Evaluation",
+      instructions: [
+        "Apply core domain tenets for Usability Heuristic Walkthrough Expert Evaluation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Usability Heuristic Walkthrough Expert Evaluation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","usability","heuristic"],
+    }),
+  },
+
+  "research-citation-analysis-journal-impact-factor-metrics": {
+    id: "research-citation-analysis-journal-impact-factor-metrics",
+    name: "CitationAnalysisJournalImpactFactorMetricsSkill",
+    displayName: "Citation Analysis Journal Impact Factor Metrics",
+    categoryId: "research",
+    description: "Evaluates academic journal quality using H-index and Impact Factor metrics.",
+    tags: ["research","research","citation","analysis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Citation Analysis Journal Impact Factor Metrics Standards",
+      ruSectionName: "Стандарты и регламенты: Citation Analysis Journal Impact Factor Metrics",
+      instructions: [
+        "Apply core domain tenets for Citation Analysis Journal Impact Factor Metrics.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Citation Analysis Journal Impact Factor Metrics.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","citation","analysis"],
+    }),
+  },
+
+  "research-experimental-field-study-real-world-intervention": {
+    id: "research-experimental-field-study-real-world-intervention",
+    name: "ExperimentalFieldStudyRealWorldInterventionSkill",
+    displayName: "Experimental Field Study Real-World Intervention",
+    categoryId: "research",
+    description: "Tests behavioral intervention hypotheses in real-world natural environments.",
+    tags: ["research","research","experimental","field"],
+    transform: createStandardSkillTransform({
+      sectionName: "Experimental Field Study Real-World Intervention Standards",
+      ruSectionName: "Стандарты и регламенты: Experimental Field Study Real-World Intervention",
+      instructions: [
+        "Apply core domain tenets for Experimental Field Study Real-World Intervention.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Experimental Field Study Real-World Intervention.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","experimental","field"],
+    }),
+  },
+
+  "research-comprehensive-academic-scientific-research-constitution": {
+    id: "research-comprehensive-academic-scientific-research-constitution",
+    name: "ComprehensiveAcademicScientificResearchConstitutionSkill",
+    displayName: "Comprehensive Academic & Scientific Research Constitution",
+    categoryId: "research",
+    description: "Enforces world-class research methodology, statistical rigor, and peer review ethics.",
+    tags: ["research","research","comprehensive","academic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comprehensive Academic & Scientific Research Constitution Standards",
+      ruSectionName: "Стандарты и регламенты: Comprehensive Academic & Scientific Research Constitution",
+      instructions: [
+        "Apply core domain tenets for Comprehensive Academic & Scientific Research Constitution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comprehensive Academic & Scientific Research Constitution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","comprehensive","academic"],
+    }),
+  },
+
+  "research-research-skill-82": {
+    id: "research-research-skill-82",
+    name: "researchSkill82Skill",
+    displayName: "research Skill 82",
+    categoryId: "research",
+    description: "Applies advanced research Skill 82 standards and execution patterns.",
+    tags: ["research","research","research","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "research Skill 82 Standards",
+      ruSectionName: "Стандарты и регламенты: research Skill 82",
+      instructions: [
+        "Apply core domain tenets for research Skill 82.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для research Skill 82.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","research","skill"],
+    }),
+  },
+
+  "research-research-skill-83": {
+    id: "research-research-skill-83",
+    name: "researchSkill83Skill",
+    displayName: "research Skill 83",
+    categoryId: "research",
+    description: "Applies advanced research Skill 83 standards and execution patterns.",
+    tags: ["research","research","research","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "research Skill 83 Standards",
+      ruSectionName: "Стандарты и регламенты: research Skill 83",
+      instructions: [
+        "Apply core domain tenets for research Skill 83.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для research Skill 83.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","research","skill"],
+    }),
+  },
+
+  "research-research-skill-84": {
+    id: "research-research-skill-84",
+    name: "researchSkill84Skill",
+    displayName: "research Skill 84",
+    categoryId: "research",
+    description: "Applies advanced research Skill 84 standards and execution patterns.",
+    tags: ["research","research","research","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "research Skill 84 Standards",
+      ruSectionName: "Стандарты и регламенты: research Skill 84",
+      instructions: [
+        "Apply core domain tenets for research Skill 84.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для research Skill 84.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","research","skill"],
+    }),
+  },
+
+  "research-research-skill-85": {
+    id: "research-research-skill-85",
+    name: "researchSkill85Skill",
+    displayName: "research Skill 85",
+    categoryId: "research",
+    description: "Applies advanced research Skill 85 standards and execution patterns.",
+    tags: ["research","research","research","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "research Skill 85 Standards",
+      ruSectionName: "Стандарты и регламенты: research Skill 85",
+      instructions: [
+        "Apply core domain tenets for research Skill 85.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для research Skill 85.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","research","skill"],
+    }),
+  },
+
+  "research-research-skill-86": {
+    id: "research-research-skill-86",
+    name: "researchSkill86Skill",
+    displayName: "research Skill 86",
+    categoryId: "research",
+    description: "Applies advanced research Skill 86 standards and execution patterns.",
+    tags: ["research","research","research","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "research Skill 86 Standards",
+      ruSectionName: "Стандарты и регламенты: research Skill 86",
+      instructions: [
+        "Apply core domain tenets for research Skill 86.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для research Skill 86.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","research","skill"],
+    }),
+  },
+
+  "research-research-skill-87": {
+    id: "research-research-skill-87",
+    name: "researchSkill87Skill",
+    displayName: "research Skill 87",
+    categoryId: "research",
+    description: "Applies advanced research Skill 87 standards and execution patterns.",
+    tags: ["research","research","research","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "research Skill 87 Standards",
+      ruSectionName: "Стандарты и регламенты: research Skill 87",
+      instructions: [
+        "Apply core domain tenets for research Skill 87.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для research Skill 87.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","research","skill"],
+    }),
+  },
+
+  "research-research-skill-88": {
+    id: "research-research-skill-88",
+    name: "researchSkill88Skill",
+    displayName: "research Skill 88",
+    categoryId: "research",
+    description: "Applies advanced research Skill 88 standards and execution patterns.",
+    tags: ["research","research","research","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "research Skill 88 Standards",
+      ruSectionName: "Стандарты и регламенты: research Skill 88",
+      instructions: [
+        "Apply core domain tenets for research Skill 88.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для research Skill 88.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","research","skill"],
+    }),
+  },
+
+  "research-research-skill-89": {
+    id: "research-research-skill-89",
+    name: "researchSkill89Skill",
+    displayName: "research Skill 89",
+    categoryId: "research",
+    description: "Applies advanced research Skill 89 standards and execution patterns.",
+    tags: ["research","research","research","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "research Skill 89 Standards",
+      ruSectionName: "Стандарты и регламенты: research Skill 89",
+      instructions: [
+        "Apply core domain tenets for research Skill 89.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для research Skill 89.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","research","skill"],
+    }),
+  },
+
+  "research-research-skill-90": {
+    id: "research-research-skill-90",
+    name: "researchSkill90Skill",
+    displayName: "research Skill 90",
+    categoryId: "research",
+    description: "Applies advanced research Skill 90 standards and execution patterns.",
+    tags: ["research","research","research","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "research Skill 90 Standards",
+      ruSectionName: "Стандарты и регламенты: research Skill 90",
+      instructions: [
+        "Apply core domain tenets for research Skill 90.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для research Skill 90.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research","research","skill"],
+    }),
+  },
+  "research-final-computational-linguistics-dependency-parsing-annotation": {
+    id: "research-final-computational-linguistics-dependency-parsing-annotation",
+    name: "ComputationalLinguisticsDependencyParsingAnnotationSkill",
+    displayName: "Computational Linguistics Dependency Parsing Annotation",
+    categoryId: "research",
+    description: "Annotates syntactic dependency trees and universal dependency relations in corpora.",
+    tags: ["research","research-final","final","computational"],
+    transform: createStandardSkillTransform({
+      sectionName: "Computational Linguistics Dependency Parsing Annotation Standards",
+      ruSectionName: "Стандарты и регламенты: Computational Linguistics Dependency Parsing Annotation",
+      instructions: [
+        "Apply core domain tenets for Computational Linguistics Dependency Parsing Annotation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Computational Linguistics Dependency Parsing Annotation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","computational"],
+    }),
+  },
+
+  "research-final-agent-based-computational-economics-market-simulation": {
+    id: "research-final-agent-based-computational-economics-market-simulation",
+    name: "AgentBasedComputationalEconomicsMarketSimulationSkill",
+    displayName: "Agent-Based Computational Economics Market Simulation",
+    categoryId: "research",
+    description: "Simulates emergent macroeconomic phenomena from heterogeneous agent interactions.",
+    tags: ["research","research-final","final","agent"],
+    transform: createStandardSkillTransform({
+      sectionName: "Agent-Based Computational Economics Market Simulation Standards",
+      ruSectionName: "Стандарты и регламенты: Agent-Based Computational Economics Market Simulation",
+      instructions: [
+        "Apply core domain tenets for Agent-Based Computational Economics Market Simulation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Agent-Based Computational Economics Market Simulation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","agent"],
+    }),
+  },
+
+  "research-final-quantum-chemistry-density-functional-theory-calculation": {
+    id: "research-final-quantum-chemistry-density-functional-theory-calculation",
+    name: "QuantumChemistryDensityFunctionalTheoryCalculationSkill",
+    displayName: "Quantum Chemistry Density Functional Theory Calculation",
+    categoryId: "research",
+    description: "Models molecular electronic structures and chemical reaction barriers using DFT.",
+    tags: ["research","research-final","final","quantum"],
+    transform: createStandardSkillTransform({
+      sectionName: "Quantum Chemistry Density Functional Theory Calculation Standards",
+      ruSectionName: "Стандарты и регламенты: Quantum Chemistry Density Functional Theory Calculation",
+      instructions: [
+        "Apply core domain tenets for Quantum Chemistry Density Functional Theory Calculation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Quantum Chemistry Density Functional Theory Calculation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","quantum"],
+    }),
+  },
+
+  "research-final-ecological-niche-modeling-species-distribution-algorithm": {
+    id: "research-final-ecological-niche-modeling-species-distribution-algorithm",
+    name: "EcologicalNicheModelingSpeciesDistributionAlgorithmSkill",
+    displayName: "Ecological Niche Modeling Species Distribution Algorithm",
+    categoryId: "research",
+    description: "Predicts climate-driven biodiversity shifts using Maxent ecological niche modeling.",
+    tags: ["research","research-final","final","ecological"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ecological Niche Modeling Species Distribution Algorithm Standards",
+      ruSectionName: "Стандарты и регламенты: Ecological Niche Modeling Species Distribution Algorithm",
+      instructions: [
+        "Apply core domain tenets for Ecological Niche Modeling Species Distribution Algorithm.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Ecological Niche Modeling Species Distribution Algorithm.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","ecological"],
+    }),
+  },
+
+  "research-final-single-cell-rna-sequencing-trajectory-pseudotime": {
+    id: "research-final-single-cell-rna-sequencing-trajectory-pseudotime",
+    name: "SingleCellRNASequencingTrajectoryPseudotimeSkill",
+    displayName: "Single-Cell RNA Sequencing Trajectory Pseudotime",
+    categoryId: "research",
+    description: "Infers cell differentiation trajectories and developmental pseudotime from scRNA-seq.",
+    tags: ["research","research-final","final","single"],
+    transform: createStandardSkillTransform({
+      sectionName: "Single-Cell RNA Sequencing Trajectory Pseudotime Standards",
+      ruSectionName: "Стандарты и регламенты: Single-Cell RNA Sequencing Trajectory Pseudotime",
+      instructions: [
+        "Apply core domain tenets for Single-Cell RNA Sequencing Trajectory Pseudotime.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Single-Cell RNA Sequencing Trajectory Pseudotime.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","single"],
+    }),
+  },
+
+  "research-final-historical-epigraphy-paleography-transcription": {
+    id: "research-final-historical-epigraphy-paleography-transcription",
+    name: "HistoricalEpigraphyPaleographyTranscriptionSkill",
+    displayName: "Historical Epigraphy Paleography Transcription",
+    categoryId: "research",
+    description: "Transcribes and dates ancient manuscript inscriptions using paleographic standards.",
+    tags: ["research","research-final","final","historical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Historical Epigraphy Paleography Transcription Standards",
+      ruSectionName: "Стандарты и регламенты: Historical Epigraphy Paleography Transcription",
+      instructions: [
+        "Apply core domain tenets for Historical Epigraphy Paleography Transcription.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Historical Epigraphy Paleography Transcription.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","historical"],
+    }),
+  },
+
+  "research-final-behavioral-economics-randomized-field-experiment": {
+    id: "research-final-behavioral-economics-randomized-field-experiment",
+    name: "BehavioralEconomicsRandomizedFieldExperimentSkill",
+    displayName: "Behavioral Economics Randomized Field Experiment",
+    categoryId: "research",
+    description: "Designs natural field experiments testing behavioral nudges and incentive elasticity.",
+    tags: ["research","research-final","final","behavioral"],
+    transform: createStandardSkillTransform({
+      sectionName: "Behavioral Economics Randomized Field Experiment Standards",
+      ruSectionName: "Стандарты и регламенты: Behavioral Economics Randomized Field Experiment",
+      instructions: [
+        "Apply core domain tenets for Behavioral Economics Randomized Field Experiment.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Behavioral Economics Randomized Field Experiment.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","behavioral"],
+    }),
+  },
+
+  "research-final-spatial-econometrics-geographically-weighted-regression": {
+    id: "research-final-spatial-econometrics-geographically-weighted-regression",
+    name: "SpatialEconometricsGeographicallyWeightedRegressionSkill",
+    displayName: "Spatial Econometrics Geographically Weighted Regression",
+    categoryId: "research",
+    description: "Models spatial autocorrelation and spatial heterogeneity in regional economic datasets.",
+    tags: ["research","research-final","final","spatial"],
+    transform: createStandardSkillTransform({
+      sectionName: "Spatial Econometrics Geographically Weighted Regression Standards",
+      ruSectionName: "Стандарты и регламенты: Spatial Econometrics Geographically Weighted Regression",
+      instructions: [
+        "Apply core domain tenets for Spatial Econometrics Geographically Weighted Regression.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Spatial Econometrics Geographically Weighted Regression.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","spatial"],
+    }),
+  },
+
+  "research-final-climate-model-intercomparison-cmip-downscaling": {
+    id: "research-final-climate-model-intercomparison-cmip-downscaling",
+    name: "ClimateModelIntercomparisonCMIPDownscalingSkill",
+    displayName: "Climate Model Intercomparison CMIP Downscaling",
+    categoryId: "research",
+    description: "Downscales global climate model outputs to regional hydrological impact models.",
+    tags: ["research","research-final","final","climate"],
+    transform: createStandardSkillTransform({
+      sectionName: "Climate Model Intercomparison CMIP Downscaling Standards",
+      ruSectionName: "Стандарты и регламенты: Climate Model Intercomparison CMIP Downscaling",
+      instructions: [
+        "Apply core domain tenets for Climate Model Intercomparison CMIP Downscaling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Climate Model Intercomparison CMIP Downscaling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","climate"],
+    }),
+  },
+
+  "research-final-neuroimaging-fmri-event-related-bold-analysis": {
+    id: "research-final-neuroimaging-fmri-event-related-bold-analysis",
+    name: "NeuroimagingfMRIEventRelatedBOLDAnalysisSkill",
+    displayName: "Neuroimaging fMRI Event-Related BOLD Analysis",
+    categoryId: "research",
+    description: "Processes functional MRI BOLD signals using general linear models and spatial smoothing.",
+    tags: ["research","research-final","final","neuroimaging"],
+    transform: createStandardSkillTransform({
+      sectionName: "Neuroimaging fMRI Event-Related BOLD Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Neuroimaging fMRI Event-Related BOLD Analysis",
+      instructions: [
+        "Apply core domain tenets for Neuroimaging fMRI Event-Related BOLD Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Neuroimaging fMRI Event-Related BOLD Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","neuroimaging"],
+    }),
+  },
+
+  "research-final-high-energy-physics-particle-collider-monte-carlo": {
+    id: "research-final-high-energy-physics-particle-collider-monte-carlo",
+    name: "HighEnergyPhysicsParticleColliderMonteCarloSkill",
+    displayName: "High-Energy Physics Particle Collider Monte Carlo",
+    categoryId: "research",
+    description: "Simulates particle collision event generators and detector responses for LHC data.",
+    tags: ["research","research-final","final","high"],
+    transform: createStandardSkillTransform({
+      sectionName: "High-Energy Physics Particle Collider Monte Carlo Standards",
+      ruSectionName: "Стандарты и регламенты: High-Energy Physics Particle Collider Monte Carlo",
+      instructions: [
+        "Apply core domain tenets for High-Energy Physics Particle Collider Monte Carlo.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для High-Energy Physics Particle Collider Monte Carlo.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","high"],
+    }),
+  },
+
+  "research-final-structural-equation-modeling-confirmatory-factor": {
+    id: "research-final-structural-equation-modeling-confirmatory-factor",
+    name: "StructuralEquationModelingConfirmatoryFactorSkill",
+    displayName: "Structural Equation Modeling Confirmatory Factor",
+    categoryId: "research",
+    description: "Validates latent variable measurement models using covariance structure analysis.",
+    tags: ["research","research-final","final","structural"],
+    transform: createStandardSkillTransform({
+      sectionName: "Structural Equation Modeling Confirmatory Factor Standards",
+      ruSectionName: "Стандарты и регламенты: Structural Equation Modeling Confirmatory Factor",
+      instructions: [
+        "Apply core domain tenets for Structural Equation Modeling Confirmatory Factor.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Structural Equation Modeling Confirmatory Factor.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","structural"],
+    }),
+  },
+
+  "research-final-ethnographic-multi-sited-fieldwork-shadowing": {
+    id: "research-final-ethnographic-multi-sited-fieldwork-shadowing",
+    name: "EthnographicMultiSitedFieldworkShadowingSkill",
+    displayName: "Ethnographic Multi-Sited Fieldwork Shadowing",
+    categoryId: "research",
+    description: "Conducts multi-sited ethnographic observation across global supply chain nodes.",
+    tags: ["research","research-final","final","ethnographic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ethnographic Multi-Sited Fieldwork Shadowing Standards",
+      ruSectionName: "Стандарты и регламенты: Ethnographic Multi-Sited Fieldwork Shadowing",
+      instructions: [
+        "Apply core domain tenets for Ethnographic Multi-Sited Fieldwork Shadowing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Ethnographic Multi-Sited Fieldwork Shadowing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","ethnographic"],
+    }),
+  },
+
+  "research-final-materials-science-high-throughput-crystal-screening": {
+    id: "research-final-materials-science-high-throughput-crystal-screening",
+    name: "MaterialsScienceHighThroughputCrystalScreeningSkill",
+    displayName: "Materials Science High-Throughput Crystal Screening",
+    categoryId: "research",
+    description: "Screens novel inorganic crystal structures using automated density functional theory.",
+    tags: ["research","research-final","final","materials"],
+    transform: createStandardSkillTransform({
+      sectionName: "Materials Science High-Throughput Crystal Screening Standards",
+      ruSectionName: "Стандарты и регламенты: Materials Science High-Throughput Crystal Screening",
+      instructions: [
+        "Apply core domain tenets for Materials Science High-Throughput Crystal Screening.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Materials Science High-Throughput Crystal Screening.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","materials"],
+    }),
+  },
+
+  "research-final-urban-spatial-morphology-network-accessibility": {
+    id: "research-final-urban-spatial-morphology-network-accessibility",
+    name: "UrbanSpatialMorphologyNetworkAccessibilitySkill",
+    displayName: "Urban Spatial Morphology Network Accessibility",
+    categoryId: "research",
+    description: "Calculates spatial graph centrality and pedestrian catchment areas in urban layouts.",
+    tags: ["research","research-final","final","urban"],
+    transform: createStandardSkillTransform({
+      sectionName: "Urban Spatial Morphology Network Accessibility Standards",
+      ruSectionName: "Стандарты и регламенты: Urban Spatial Morphology Network Accessibility",
+      instructions: [
+        "Apply core domain tenets for Urban Spatial Morphology Network Accessibility.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Urban Spatial Morphology Network Accessibility.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","urban"],
+    }),
+  },
+
+  "research-final-demography-life-table-mortality-rate-projection": {
+    id: "research-final-demography-life-table-mortality-rate-projection",
+    name: "DemographyLifeTableMortalityRateProjectionSkill",
+    displayName: "Demography Life Table Mortality Rate Projection",
+    categoryId: "research",
+    description: "Models cohort mortality dynamics using Lee-Carter demographic forecasting.",
+    tags: ["research","research-final","final","demography"],
+    transform: createStandardSkillTransform({
+      sectionName: "Demography Life Table Mortality Rate Projection Standards",
+      ruSectionName: "Стандарты и регламенты: Demography Life Table Mortality Rate Projection",
+      instructions: [
+        "Apply core domain tenets for Demography Life Table Mortality Rate Projection.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Demography Life Table Mortality Rate Projection.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","demography"],
+    }),
+  },
+
+  "research-final-comparative-historical-sociology-process-tracing": {
+    id: "research-final-comparative-historical-sociology-process-tracing",
+    name: "ComparativeHistoricalSociologyProcessTracingSkill",
+    displayName: "Comparative Historical Sociology Process Tracing",
+    categoryId: "research",
+    description: "Tests causal mechanisms in historical state-building using process tracing.",
+    tags: ["research","research-final","final","comparative"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comparative Historical Sociology Process Tracing Standards",
+      ruSectionName: "Стандарты и регламенты: Comparative Historical Sociology Process Tracing",
+      instructions: [
+        "Apply core domain tenets for Comparative Historical Sociology Process Tracing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comparative Historical Sociology Process Tracing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","comparative"],
+    }),
+  },
+
+  "research-final-genomics-wide-association-study-polygenic-risk": {
+    id: "research-final-genomics-wide-association-study-polygenic-risk",
+    name: "GenomicsWideAssociationStudyPolygenicRiskSkill",
+    displayName: "Genomics Wide Association Study Polygenic Risk",
+    categoryId: "research",
+    description: "Calculates polygenic risk scores from population-scale GWAS summary statistics.",
+    tags: ["research","research-final","final","genomics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Genomics Wide Association Study Polygenic Risk Standards",
+      ruSectionName: "Стандарты и регламенты: Genomics Wide Association Study Polygenic Risk",
+      instructions: [
+        "Apply core domain tenets for Genomics Wide Association Study Polygenic Risk.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Genomics Wide Association Study Polygenic Risk.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","genomics"],
+    }),
+  },
+
+  "research-final-cognitive-psychology-eye-tracking-fixation-analysis": {
+    id: "research-final-cognitive-psychology-eye-tracking-fixation-analysis",
+    name: "CognitivePsychologyEyeTrackingFixationAnalysisSkill",
+    displayName: "Cognitive Psychology Eye-Tracking Fixation Analysis",
+    categoryId: "research",
+    description: "Analyzes visual fixation duration and saccade trajectories during cognitive tasks.",
+    tags: ["research","research-final","final","cognitive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cognitive Psychology Eye-Tracking Fixation Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Cognitive Psychology Eye-Tracking Fixation Analysis",
+      instructions: [
+        "Apply core domain tenets for Cognitive Psychology Eye-Tracking Fixation Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cognitive Psychology Eye-Tracking Fixation Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","cognitive"],
+    }),
+  },
+
+  "research-final-master-advanced-research-methodology-discovery": {
+    id: "research-final-master-advanced-research-methodology-discovery",
+    name: "MasterAdvancedResearchMethodologyDiscoverySkill",
+    displayName: "Master Advanced Research Methodology Discovery",
+    categoryId: "research",
+    description: "Enforces world-class scientific inquiry, empirical validation, and interdisciplinary research.",
+    tags: ["research","research-final","final","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Advanced Research Methodology Discovery Standards",
+      ruSectionName: "Стандарты и регламенты: Master Advanced Research Methodology Discovery",
+      instructions: [
+        "Apply core domain tenets for Master Advanced Research Methodology Discovery.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Advanced Research Methodology Discovery.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["research","research-final","final","master"],
+    }),
+  },
 };

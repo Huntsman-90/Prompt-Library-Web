@@ -3133,5 +3133,1254 @@ export const FRAMEWORKS_SKILLS: Record<string, SkillDefinition> = {
       tags: ["frameworks","finops","cloud-cost","aws","governance","optimization"],
     }),
   },
+  "frameworks-rag-context-role-task-constraint-framework": {
+    id: "frameworks-rag-context-role-task-constraint-framework",
+    name: "RAGContextRoleTaskConstraintFrameworkSkill",
+    displayName: "RAG Context-Role-Task-Constraint Framework",
+    categoryId: "frameworks",
+    description: "Structures RAG prompts: Context -> Role -> Task -> Constraints -> Format.",
+    tags: ["frameworks","frameworks","rag","context"],
+    transform: createStandardSkillTransform({
+      sectionName: "RAG Context-Role-Task-Constraint Framework Standards",
+      ruSectionName: "Стандарты и регламенты: RAG Context-Role-Task-Constraint Framework",
+      instructions: [
+        "Apply core domain tenets for RAG Context-Role-Task-Constraint Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для RAG Context-Role-Task-Constraint Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","rag","context"],
+    }),
+  },
+
+  "frameworks-risen-system-prompt-framework-role-input-steps-expectations-narrowing": {
+    id: "frameworks-risen-system-prompt-framework-role-input-steps-expectations-narrowing",
+    name: "RISENSystemPromptFrameworkRoleInputStepsExpectationsNarrowingSkill",
+    displayName: "RISEN System Prompt Framework (Role-Input-Steps-Expectations-Narrowing)",
+    categoryId: "frameworks",
+    description: "Applies RISEN framework for structured task execution instructions.",
+    tags: ["frameworks","frameworks","risen","system"],
+    transform: createStandardSkillTransform({
+      sectionName: "RISEN System Prompt Framework (Role-Input-Steps-Expectations-Narrowing) Standards",
+      ruSectionName: "Стандарты и регламенты: RISEN System Prompt Framework (Role-Input-Steps-Expectations-Narrowing)",
+      instructions: [
+        "Apply core domain tenets for RISEN System Prompt Framework (Role-Input-Steps-Expectations-Narrowing).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для RISEN System Prompt Framework (Role-Input-Steps-Expectations-Narrowing).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","risen","system"],
+    }),
+  },
+
+  "frameworks-pastor-copywriting-framework-problem-amplify-story-transformation-offer-response": {
+    id: "frameworks-pastor-copywriting-framework-problem-amplify-story-transformation-offer-response",
+    name: "PASTORCopywritingFrameworkProblemAmplifyStoryTransformationOfferResponseSkill",
+    displayName: "PASTOR Copywriting Framework (Problem-Amplify-Story-Transformation-Offer-Response)",
+    categoryId: "frameworks",
+    description: "Crafts persuasive sales copy using the PASTOR framework.",
+    tags: ["frameworks","frameworks","pastor","copywriting"],
+    transform: createStandardSkillTransform({
+      sectionName: "PASTOR Copywriting Framework (Problem-Amplify-Story-Transformation-Offer-Response) Standards",
+      ruSectionName: "Стандарты и регламенты: PASTOR Copywriting Framework (Problem-Amplify-Story-Transformation-Offer-Response)",
+      instructions: [
+        "Apply core domain tenets for PASTOR Copywriting Framework (Problem-Amplify-Story-Transformation-Offer-Response).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для PASTOR Copywriting Framework (Problem-Amplify-Story-Transformation-Offer-Response).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","pastor","copywriting"],
+    }),
+  },
+
+  "frameworks-bab-copywriting-framework-before-after-bridge": {
+    id: "frameworks-bab-copywriting-framework-before-after-bridge",
+    name: "BABCopywritingFrameworkBeforeAfterBridgeSkill",
+    displayName: "BAB Copywriting Framework (Before-After-Bridge)",
+    categoryId: "frameworks",
+    description: "Structures transformational marketing copy highlighting customer transformation.",
+    tags: ["frameworks","frameworks","bab","copywriting"],
+    transform: createStandardSkillTransform({
+      sectionName: "BAB Copywriting Framework (Before-After-Bridge) Standards",
+      ruSectionName: "Стандарты и регламенты: BAB Copywriting Framework (Before-After-Bridge)",
+      instructions: [
+        "Apply core domain tenets for BAB Copywriting Framework (Before-After-Bridge).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для BAB Copywriting Framework (Before-After-Bridge).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","bab","copywriting"],
+    }),
+  },
+
+  "frameworks-aida-marketing-framework-attention-interest-desire-action": {
+    id: "frameworks-aida-marketing-framework-attention-interest-desire-action",
+    name: "AIDAMarketingFrameworkAttentionInterestDesireActionSkill",
+    displayName: "AIDA Marketing Framework (Attention-Interest-Desire-Action)",
+    categoryId: "frameworks",
+    description: "Guides users through classic AIDA conversion funnel copywriting.",
+    tags: ["frameworks","frameworks","aida","marketing"],
+    transform: createStandardSkillTransform({
+      sectionName: "AIDA Marketing Framework (Attention-Interest-Desire-Action) Standards",
+      ruSectionName: "Стандарты и регламенты: AIDA Marketing Framework (Attention-Interest-Desire-Action)",
+      instructions: [
+        "Apply core domain tenets for AIDA Marketing Framework (Attention-Interest-Desire-Action).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AIDA Marketing Framework (Attention-Interest-Desire-Action).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","aida","marketing"],
+    }),
+  },
+
+  "frameworks-pas-marketing-framework-problem-agitate-solve": {
+    id: "frameworks-pas-marketing-framework-problem-agitate-solve",
+    name: "PASMarketingFrameworkProblemAgitateSolveSkill",
+    displayName: "PAS Marketing Framework (Problem-Agitate-Solve)",
+    categoryId: "frameworks",
+    description: "Identifies customer pain points, agitates implications, and presents solution.",
+    tags: ["frameworks","frameworks","pas","marketing"],
+    transform: createStandardSkillTransform({
+      sectionName: "PAS Marketing Framework (Problem-Agitate-Solve) Standards",
+      ruSectionName: "Стандарты и регламенты: PAS Marketing Framework (Problem-Agitate-Solve)",
+      instructions: [
+        "Apply core domain tenets for PAS Marketing Framework (Problem-Agitate-Solve).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для PAS Marketing Framework (Problem-Agitate-Solve).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","pas","marketing"],
+    }),
+  },
+
+  "frameworks-star-behavioral-interview-framework-situation-task-action-result": {
+    id: "frameworks-star-behavioral-interview-framework-situation-task-action-result",
+    name: "STARBehavioralInterviewFrameworkSituationTaskActionResultSkill",
+    displayName: "STAR Behavioral Interview Framework (Situation-Task-Action-Result)",
+    categoryId: "frameworks",
+    description: "Structures compelling behavioral interview responses and case studies.",
+    tags: ["frameworks","frameworks","star","behavioral"],
+    transform: createStandardSkillTransform({
+      sectionName: "STAR Behavioral Interview Framework (Situation-Task-Action-Result) Standards",
+      ruSectionName: "Стандарты и регламенты: STAR Behavioral Interview Framework (Situation-Task-Action-Result)",
+      instructions: [
+        "Apply core domain tenets for STAR Behavioral Interview Framework (Situation-Task-Action-Result).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для STAR Behavioral Interview Framework (Situation-Task-Action-Result).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","star","behavioral"],
+    }),
+  },
+
+  "frameworks-grow-coaching-framework-goal-reality-options-will": {
+    id: "frameworks-grow-coaching-framework-goal-reality-options-will",
+    name: "GROWCoachingFrameworkGoalRealityOptionsWillSkill",
+    displayName: "GROW Coaching Framework (Goal-Reality-Options-Will)",
+    categoryId: "frameworks",
+    description: "Guides coaching conversations to discover goals, explore reality, and commit.",
+    tags: ["frameworks","frameworks","grow","coaching"],
+    transform: createStandardSkillTransform({
+      sectionName: "GROW Coaching Framework (Goal-Reality-Options-Will) Standards",
+      ruSectionName: "Стандарты и регламенты: GROW Coaching Framework (Goal-Reality-Options-Will)",
+      instructions: [
+        "Apply core domain tenets for GROW Coaching Framework (Goal-Reality-Options-Will).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для GROW Coaching Framework (Goal-Reality-Options-Will).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","grow","coaching"],
+    }),
+  },
+
+  "frameworks-mckinsey-mece-framework-mutually-exclusive-collectively-exhaustive": {
+    id: "frameworks-mckinsey-mece-framework-mutually-exclusive-collectively-exhaustive",
+    name: "McKinseyMECEFrameworkMutuallyExclusiveCollectivelyExhaustiveSkill",
+    displayName: "McKinsey MECE Framework (Mutually Exclusive, Collectively Exhaustive)",
+    categoryId: "frameworks",
+    description: "Structures problem decomposition without gaps or overlapping categories.",
+    tags: ["frameworks","frameworks","mckinsey","mece"],
+    transform: createStandardSkillTransform({
+      sectionName: "McKinsey MECE Framework (Mutually Exclusive, Collectively Exhaustive) Standards",
+      ruSectionName: "Стандарты и регламенты: McKinsey MECE Framework (Mutually Exclusive, Collectively Exhaustive)",
+      instructions: [
+        "Apply core domain tenets for McKinsey MECE Framework (Mutually Exclusive, Collectively Exhaustive).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для McKinsey MECE Framework (Mutually Exclusive, Collectively Exhaustive).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","mckinsey","mece"],
+    }),
+  },
+
+  "frameworks-scamper-creative-framework-substitute-combine-adapt-modify-put-eliminate-reverse": {
+    id: "frameworks-scamper-creative-framework-substitute-combine-adapt-modify-put-eliminate-reverse",
+    name: "SCAMPERCreativeFrameworkSubstituteCombineAdaptModifyPutEliminateReverseSkill",
+    displayName: "SCAMPER Creative Framework (Substitute-Combine-Adapt-Modify-Put-Eliminate-Reverse)",
+    categoryId: "frameworks",
+    description: "Applies SCAMPER operators to innovate existing products and workflows.",
+    tags: ["frameworks","frameworks","scamper","creative"],
+    transform: createStandardSkillTransform({
+      sectionName: "SCAMPER Creative Framework (Substitute-Combine-Adapt-Modify-Put-Eliminate-Reverse) Standards",
+      ruSectionName: "Стандарты и регламенты: SCAMPER Creative Framework (Substitute-Combine-Adapt-Modify-Put-Eliminate-Reverse)",
+      instructions: [
+        "Apply core domain tenets for SCAMPER Creative Framework (Substitute-Combine-Adapt-Modify-Put-Eliminate-Reverse).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SCAMPER Creative Framework (Substitute-Combine-Adapt-Modify-Put-Eliminate-Reverse).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","scamper","creative"],
+    }),
+  },
+
+  "frameworks-clear-goal-setting-framework-collaborative-limited-emotional-appreciable-refinable": {
+    id: "frameworks-clear-goal-setting-framework-collaborative-limited-emotional-appreciable-refinable",
+    name: "CLEARGoalSettingFrameworkCollaborativeLimitedEmotionalAppreciableRefinableSkill",
+    displayName: "CLEAR Goal-Setting Framework (Collaborative-Limited-Emotional-Appreciable-Refinable)",
+    categoryId: "frameworks",
+    description: "Sets agile team goals designed for rapid iterative execution.",
+    tags: ["frameworks","frameworks","clear","goal"],
+    transform: createStandardSkillTransform({
+      sectionName: "CLEAR Goal-Setting Framework (Collaborative-Limited-Emotional-Appreciable-Refinable) Standards",
+      ruSectionName: "Стандарты и регламенты: CLEAR Goal-Setting Framework (Collaborative-Limited-Emotional-Appreciable-Refinable)",
+      instructions: [
+        "Apply core domain tenets for CLEAR Goal-Setting Framework (Collaborative-Limited-Emotional-Appreciable-Refinable).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для CLEAR Goal-Setting Framework (Collaborative-Limited-Emotional-Appreciable-Refinable).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","clear","goal"],
+    }),
+  },
+
+  "frameworks-okr-framework-objectives-key-results": {
+    id: "frameworks-okr-framework-objectives-key-results",
+    name: "OKRFrameworkObjectivesKeyResultsSkill",
+    displayName: "OKR Framework (Objectives & Key Results)",
+    categoryId: "frameworks",
+    description: "Structures ambitious corporate objectives paired with measurable key result metrics.",
+    tags: ["frameworks","frameworks","okr","framework"],
+    transform: createStandardSkillTransform({
+      sectionName: "OKR Framework (Objectives & Key Results) Standards",
+      ruSectionName: "Стандарты и регламенты: OKR Framework (Objectives & Key Results)",
+      instructions: [
+        "Apply core domain tenets for OKR Framework (Objectives & Key Results).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для OKR Framework (Objectives & Key Results).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","okr","framework"],
+    }),
+  },
+
+  "frameworks-smart-goal-framework-specific-measurable-achievable-relevant-timebound": {
+    id: "frameworks-smart-goal-framework-specific-measurable-achievable-relevant-timebound",
+    name: "SMARTGoalFrameworkSpecificMeasurableAchievableRelevantTimeboundSkill",
+    displayName: "SMART Goal Framework (Specific-Measurable-Achievable-Relevant-Timebound)",
+    categoryId: "frameworks",
+    description: "Formulates unambiguous, trackable operational goals.",
+    tags: ["frameworks","frameworks","smart","goal"],
+    transform: createStandardSkillTransform({
+      sectionName: "SMART Goal Framework (Specific-Measurable-Achievable-Relevant-Timebound) Standards",
+      ruSectionName: "Стандарты и регламенты: SMART Goal Framework (Specific-Measurable-Achievable-Relevant-Timebound)",
+      instructions: [
+        "Apply core domain tenets for SMART Goal Framework (Specific-Measurable-Achievable-Relevant-Timebound).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SMART Goal Framework (Specific-Measurable-Achievable-Relevant-Timebound).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","smart","goal"],
+    }),
+  },
+
+  "frameworks-swot-analysis-framework-strengths-weaknesses-opportunities-threats": {
+    id: "frameworks-swot-analysis-framework-strengths-weaknesses-opportunities-threats",
+    name: "SWOTAnalysisFrameworkStrengthsWeaknessesOpportunitiesThreatsSkill",
+    displayName: "SWOT Analysis Framework (Strengths-Weaknesses-Opportunities-Threats)",
+    categoryId: "frameworks",
+    description: "Evaluates internal capabilities against external market realities.",
+    tags: ["frameworks","frameworks","swot","analysis"],
+    transform: createStandardSkillTransform({
+      sectionName: "SWOT Analysis Framework (Strengths-Weaknesses-Opportunities-Threats) Standards",
+      ruSectionName: "Стандарты и регламенты: SWOT Analysis Framework (Strengths-Weaknesses-Opportunities-Threats)",
+      instructions: [
+        "Apply core domain tenets for SWOT Analysis Framework (Strengths-Weaknesses-Opportunities-Threats).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SWOT Analysis Framework (Strengths-Weaknesses-Opportunities-Threats).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","swot","analysis"],
+    }),
+  },
+
+  "frameworks-pestle-strategic-framework-political-economic-social-tech-legal-environmental": {
+    id: "frameworks-pestle-strategic-framework-political-economic-social-tech-legal-environmental",
+    name: "PESTLEStrategicFrameworkPoliticalEconomicSocialTechLegalEnvironmentalSkill",
+    displayName: "PESTLE Strategic Framework (Political-Economic-Social-Tech-Legal-Environmental)",
+    categoryId: "frameworks",
+    description: "Audits macro environmental factors impacting corporate strategy.",
+    tags: ["frameworks","frameworks","pestle","strategic"],
+    transform: createStandardSkillTransform({
+      sectionName: "PESTLE Strategic Framework (Political-Economic-Social-Tech-Legal-Environmental) Standards",
+      ruSectionName: "Стандарты и регламенты: PESTLE Strategic Framework (Political-Economic-Social-Tech-Legal-Environmental)",
+      instructions: [
+        "Apply core domain tenets for PESTLE Strategic Framework (Political-Economic-Social-Tech-Legal-Environmental).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для PESTLE Strategic Framework (Political-Economic-Social-Tech-Legal-Environmental).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","pestle","strategic"],
+    }),
+  },
+
+  "frameworks-porter-five-forces-competitive-framework": {
+    id: "frameworks-porter-five-forces-competitive-framework",
+    name: "PorterFiveForcesCompetitiveFrameworkSkill",
+    displayName: "Porter Five Forces Competitive Framework",
+    categoryId: "frameworks",
+    description: "Analyzes industry structure and competitive intensity across 5 market forces.",
+    tags: ["frameworks","frameworks","porter","five"],
+    transform: createStandardSkillTransform({
+      sectionName: "Porter Five Forces Competitive Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Porter Five Forces Competitive Framework",
+      instructions: [
+        "Apply core domain tenets for Porter Five Forces Competitive Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Porter Five Forces Competitive Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","porter","five"],
+    }),
+  },
+
+  "frameworks-boston-consulting-group-bcg-portfolio-matrix-framework": {
+    id: "frameworks-boston-consulting-group-bcg-portfolio-matrix-framework",
+    name: "BostonConsultingGroupBCGPortfolioMatrixFrameworkSkill",
+    displayName: "Boston Consulting Group (BCG) Portfolio Matrix Framework",
+    categoryId: "frameworks",
+    description: "Categorizes products into Stars, Cash Cows, Question Marks, and Dogs.",
+    tags: ["frameworks","frameworks","boston","consulting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Boston Consulting Group (BCG) Portfolio Matrix Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Boston Consulting Group (BCG) Portfolio Matrix Framework",
+      instructions: [
+        "Apply core domain tenets for Boston Consulting Group (BCG) Portfolio Matrix Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Boston Consulting Group (BCG) Portfolio Matrix Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","boston","consulting"],
+    }),
+  },
+
+  "frameworks-ansoff-product-market-growth-matrix-framework": {
+    id: "frameworks-ansoff-product-market-growth-matrix-framework",
+    name: "AnsoffProductMarketGrowthMatrixFrameworkSkill",
+    displayName: "Ansoff Product-Market Growth Matrix Framework",
+    categoryId: "frameworks",
+    description: "Selects growth vectors: Market Penetration, Product Dev, Market Dev, Diversification.",
+    tags: ["frameworks","frameworks","ansoff","product"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ansoff Product-Market Growth Matrix Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Ansoff Product-Market Growth Matrix Framework",
+      instructions: [
+        "Apply core domain tenets for Ansoff Product-Market Growth Matrix Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Ansoff Product-Market Growth Matrix Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","ansoff","product"],
+    }),
+  },
+
+  "frameworks-blue-ocean-strategy-errc-framework-eliminate-reduce-raise-create": {
+    id: "frameworks-blue-ocean-strategy-errc-framework-eliminate-reduce-raise-create",
+    name: "BlueOceanStrategyERRCFrameworkEliminateReduceRaiseCreateSkill",
+    displayName: "Blue Ocean Strategy ERRC Framework (Eliminate-Reduce-Raise-Create)",
+    categoryId: "frameworks",
+    description: "Reconfigures value curves to unlock uncontested market space.",
+    tags: ["frameworks","frameworks","blue","ocean"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blue Ocean Strategy ERRC Framework (Eliminate-Reduce-Raise-Create) Standards",
+      ruSectionName: "Стандарты и регламенты: Blue Ocean Strategy ERRC Framework (Eliminate-Reduce-Raise-Create)",
+      instructions: [
+        "Apply core domain tenets for Blue Ocean Strategy ERRC Framework (Eliminate-Reduce-Raise-Create).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Blue Ocean Strategy ERRC Framework (Eliminate-Reduce-Raise-Create).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","blue","ocean"],
+    }),
+  },
+
+  "frameworks-value-proposition-canvas-framework-pain-relievers-gain-creators": {
+    id: "frameworks-value-proposition-canvas-framework-pain-relievers-gain-creators",
+    name: "ValuePropositionCanvasFrameworkPainRelieversGainCreatorsSkill",
+    displayName: "Value Proposition Canvas Framework (Pain Relievers & Gain Creators)",
+    categoryId: "frameworks",
+    description: "Maps customer jobs, pains, and gains to product feature capabilities.",
+    tags: ["frameworks","frameworks","value","proposition"],
+    transform: createStandardSkillTransform({
+      sectionName: "Value Proposition Canvas Framework (Pain Relievers & Gain Creators) Standards",
+      ruSectionName: "Стандарты и регламенты: Value Proposition Canvas Framework (Pain Relievers & Gain Creators)",
+      instructions: [
+        "Apply core domain tenets for Value Proposition Canvas Framework (Pain Relievers & Gain Creators).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Value Proposition Canvas Framework (Pain Relievers & Gain Creators).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","value","proposition"],
+    }),
+  },
+
+  "frameworks-lean-canvas-one-page-business-model-framework": {
+    id: "frameworks-lean-canvas-one-page-business-model-framework",
+    name: "LeanCanvasOnePageBusinessModelFrameworkSkill",
+    displayName: "Lean Canvas One-Page Business Model Framework",
+    categoryId: "frameworks",
+    description: "Distills business model hypotheses into a 9-box single-page blueprint.",
+    tags: ["frameworks","frameworks","lean","canvas"],
+    transform: createStandardSkillTransform({
+      sectionName: "Lean Canvas One-Page Business Model Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Lean Canvas One-Page Business Model Framework",
+      instructions: [
+        "Apply core domain tenets for Lean Canvas One-Page Business Model Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Lean Canvas One-Page Business Model Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","lean","canvas"],
+    }),
+  },
+
+  "frameworks-cynefin-decision-framework-simple-complicated-complex-chaotic": {
+    id: "frameworks-cynefin-decision-framework-simple-complicated-complex-chaotic",
+    name: "CynefinDecisionFrameworkSimpleComplicatedComplexChaoticSkill",
+    displayName: "Cynefin Decision Framework (Simple-Complicated-Complex-Chaotic)",
+    categoryId: "frameworks",
+    description: "Categorizes operational contexts to select appropriate decision responses.",
+    tags: ["frameworks","frameworks","cynefin","decision"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cynefin Decision Framework (Simple-Complicated-Complex-Chaotic) Standards",
+      ruSectionName: "Стандарты и регламенты: Cynefin Decision Framework (Simple-Complicated-Complex-Chaotic)",
+      instructions: [
+        "Apply core domain tenets for Cynefin Decision Framework (Simple-Complicated-Complex-Chaotic).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cynefin Decision Framework (Simple-Complicated-Complex-Chaotic).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","cynefin","decision"],
+    }),
+  },
+
+  "frameworks-mckinsey-7s-organizational-alignment-framework": {
+    id: "frameworks-mckinsey-7s-organizational-alignment-framework",
+    name: "McKinsey7SOrganizationalAlignmentFrameworkSkill",
+    displayName: "McKinsey 7S Organizational Alignment Framework",
+    categoryId: "frameworks",
+    description: "Aligns Strategy, Structure, Systems, Shared Values, Style, Staff, and Skills.",
+    tags: ["frameworks","frameworks","mckinsey","7s"],
+    transform: createStandardSkillTransform({
+      sectionName: "McKinsey 7S Organizational Alignment Framework Standards",
+      ruSectionName: "Стандарты и регламенты: McKinsey 7S Organizational Alignment Framework",
+      instructions: [
+        "Apply core domain tenets for McKinsey 7S Organizational Alignment Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для McKinsey 7S Organizational Alignment Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","mckinsey","7s"],
+    }),
+  },
+
+  "frameworks-kano-customer-satisfaction-model-framework": {
+    id: "frameworks-kano-customer-satisfaction-model-framework",
+    name: "KanoCustomerSatisfactionModelFrameworkSkill",
+    displayName: "Kano Customer Satisfaction Model Framework",
+    categoryId: "frameworks",
+    description: "Categorizes features into Basic, Performance, and Delighter capabilities.",
+    tags: ["frameworks","frameworks","kano","customer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kano Customer Satisfaction Model Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Kano Customer Satisfaction Model Framework",
+      instructions: [
+        "Apply core domain tenets for Kano Customer Satisfaction Model Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kano Customer Satisfaction Model Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","kano","customer"],
+    }),
+  },
+
+  "frameworks-triz-40-inventive-principles-engineering-framework": {
+    id: "frameworks-triz-40-inventive-principles-engineering-framework",
+    name: "TRIZ40InventivePrinciplesEngineeringFrameworkSkill",
+    displayName: "TRIZ 40 Inventive Principles Engineering Framework",
+    categoryId: "frameworks",
+    description: "Solves technical contradictions using Altshuller 40 inventive principles.",
+    tags: ["frameworks","frameworks","triz","40"],
+    transform: createStandardSkillTransform({
+      sectionName: "TRIZ 40 Inventive Principles Engineering Framework Standards",
+      ruSectionName: "Стандарты и регламенты: TRIZ 40 Inventive Principles Engineering Framework",
+      instructions: [
+        "Apply core domain tenets for TRIZ 40 Inventive Principles Engineering Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для TRIZ 40 Inventive Principles Engineering Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","triz","40"],
+    }),
+  },
+
+  "frameworks-design-thinking-double-diamond-framework-discover-define-develop-deliver": {
+    id: "frameworks-design-thinking-double-diamond-framework-discover-define-develop-deliver",
+    name: "DesignThinkingDoubleDiamondFrameworkDiscoverDefineDevelopDeliverSkill",
+    displayName: "Design Thinking Double Diamond Framework (Discover-Define-Develop-Deliver)",
+    categoryId: "frameworks",
+    description: "Guides user-centered innovation from problem exploration to solution delivery.",
+    tags: ["frameworks","frameworks","design","thinking"],
+    transform: createStandardSkillTransform({
+      sectionName: "Design Thinking Double Diamond Framework (Discover-Define-Develop-Deliver) Standards",
+      ruSectionName: "Стандарты и регламенты: Design Thinking Double Diamond Framework (Discover-Define-Develop-Deliver)",
+      instructions: [
+        "Apply core domain tenets for Design Thinking Double Diamond Framework (Discover-Define-Develop-Deliver).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Design Thinking Double Diamond Framework (Discover-Define-Develop-Deliver).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","design","thinking"],
+    }),
+  },
+
+  "frameworks-jobs-to-be-done-jtbd-timeline-framework": {
+    id: "frameworks-jobs-to-be-done-jtbd-timeline-framework",
+    name: "JobstobeDoneJTBDTimelineFrameworkSkill",
+    displayName: "Jobs-to-be-Done (JTBD) Timeline Framework",
+    categoryId: "frameworks",
+    description: "Maps customer progress journeys from first thought to habituated product use.",
+    tags: ["frameworks","frameworks","jobs","to"],
+    transform: createStandardSkillTransform({
+      sectionName: "Jobs-to-be-Done (JTBD) Timeline Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Jobs-to-be-Done (JTBD) Timeline Framework",
+      instructions: [
+        "Apply core domain tenets for Jobs-to-be-Done (JTBD) Timeline Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Jobs-to-be-Done (JTBD) Timeline Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","jobs","to"],
+    }),
+  },
+
+  "frameworks-rice-product-prioritization-framework-reach-impact-confidence-effort": {
+    id: "frameworks-rice-product-prioritization-framework-reach-impact-confidence-effort",
+    name: "RICEProductPrioritizationFrameworkReachImpactConfidenceEffortSkill",
+    displayName: "RICE Product Prioritization Framework (Reach-Impact-Confidence-Effort)",
+    categoryId: "frameworks",
+    description: "Scores roadmap features objectively to maximize engineering ROI.",
+    tags: ["frameworks","frameworks","rice","product"],
+    transform: createStandardSkillTransform({
+      sectionName: "RICE Product Prioritization Framework (Reach-Impact-Confidence-Effort) Standards",
+      ruSectionName: "Стандарты и регламенты: RICE Product Prioritization Framework (Reach-Impact-Confidence-Effort)",
+      instructions: [
+        "Apply core domain tenets for RICE Product Prioritization Framework (Reach-Impact-Confidence-Effort).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для RICE Product Prioritization Framework (Reach-Impact-Confidence-Effort).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","rice","product"],
+    }),
+  },
+
+  "frameworks-moscow-feature-categorization-framework-must-should-could-wont": {
+    id: "frameworks-moscow-feature-categorization-framework-must-should-could-wont",
+    name: "MoSCoWFeatureCategorizationFrameworkMustShouldCouldWontSkill",
+    displayName: "MoSCoW Feature Categorization Framework (Must-Should-Could-Wont)",
+    categoryId: "frameworks",
+    description: "Prioritizes project scope for fixed-deadline agile release sprints.",
+    tags: ["frameworks","frameworks","moscow","feature"],
+    transform: createStandardSkillTransform({
+      sectionName: "MoSCoW Feature Categorization Framework (Must-Should-Could-Wont) Standards",
+      ruSectionName: "Стандарты и регламенты: MoSCoW Feature Categorization Framework (Must-Should-Could-Wont)",
+      instructions: [
+        "Apply core domain tenets for MoSCoW Feature Categorization Framework (Must-Should-Could-Wont).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для MoSCoW Feature Categorization Framework (Must-Should-Could-Wont).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","moscow","feature"],
+    }),
+  },
+
+  "frameworks-eisenhower-decision-matrix-framework-urgent-vs-important": {
+    id: "frameworks-eisenhower-decision-matrix-framework-urgent-vs-important",
+    name: "EisenhowerDecisionMatrixFrameworkUrgentvsImportantSkill",
+    displayName: "Eisenhower Decision Matrix Framework (Urgent vs Important)",
+    categoryId: "frameworks",
+    description: "Prioritizes tasks into Do, Schedule, Delegate, and Eliminate quadrants.",
+    tags: ["frameworks","frameworks","eisenhower","decision"],
+    transform: createStandardSkillTransform({
+      sectionName: "Eisenhower Decision Matrix Framework (Urgent vs Important) Standards",
+      ruSectionName: "Стандарты и регламенты: Eisenhower Decision Matrix Framework (Urgent vs Important)",
+      instructions: [
+        "Apply core domain tenets for Eisenhower Decision Matrix Framework (Urgent vs Important).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Eisenhower Decision Matrix Framework (Urgent vs Important).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","eisenhower","decision"],
+    }),
+  },
+
+  "frameworks-5w2h-problem-definition-framework-who-what-where-when-why-how-howmuch": {
+    id: "frameworks-5w2h-problem-definition-framework-who-what-where-when-why-how-howmuch",
+    name: "5W2HProblemDefinitionFrameworkWhoWhatWhereWhenWhyHowHowMuchSkill",
+    displayName: "5W2H Problem Definition Framework (Who-What-Where-When-Why-How-HowMuch)",
+    categoryId: "frameworks",
+    description: "Frames operational problems comprehensively across 7 core questions.",
+    tags: ["frameworks","frameworks","5w2h","problem"],
+    transform: createStandardSkillTransform({
+      sectionName: "5W2H Problem Definition Framework (Who-What-Where-When-Why-How-HowMuch) Standards",
+      ruSectionName: "Стандарты и регламенты: 5W2H Problem Definition Framework (Who-What-Where-When-Why-How-HowMuch)",
+      instructions: [
+        "Apply core domain tenets for 5W2H Problem Definition Framework (Who-What-Where-When-Why-How-HowMuch).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для 5W2H Problem Definition Framework (Who-What-Where-When-Why-How-HowMuch).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","5w2h","problem"],
+    }),
+  },
+
+  "frameworks-kaizen-continuous-improvement-pdca-framework-plan-do-check-act": {
+    id: "frameworks-kaizen-continuous-improvement-pdca-framework-plan-do-check-act",
+    name: "KaizenContinuousImprovementPDCAFrameworkPlanDoCheckActSkill",
+    displayName: "Kaizen Continuous Improvement PDCA Framework (Plan-Do-Check-Act)",
+    categoryId: "frameworks",
+    description: "Executes iterative quality improvement cycles across manufacturing/software.",
+    tags: ["frameworks","frameworks","kaizen","continuous"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kaizen Continuous Improvement PDCA Framework (Plan-Do-Check-Act) Standards",
+      ruSectionName: "Стандарты и регламенты: Kaizen Continuous Improvement PDCA Framework (Plan-Do-Check-Act)",
+      instructions: [
+        "Apply core domain tenets for Kaizen Continuous Improvement PDCA Framework (Plan-Do-Check-Act).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kaizen Continuous Improvement PDCA Framework (Plan-Do-Check-Act).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","kaizen","continuous"],
+    }),
+  },
+
+  "frameworks-six-sigma-dmaic-improvement-framework-define-measure-analyze-improve-control": {
+    id: "frameworks-six-sigma-dmaic-improvement-framework-define-measure-analyze-improve-control",
+    name: "SixSigmaDMAICImprovementFrameworkDefineMeasureAnalyzeImproveControlSkill",
+    displayName: "Six Sigma DMAIC Improvement Framework (Define-Measure-Analyze-Improve-Control)",
+    categoryId: "frameworks",
+    description: "Reduces process variance and defect rates to 3.4 defects per million.",
+    tags: ["frameworks","frameworks","six","sigma"],
+    transform: createStandardSkillTransform({
+      sectionName: "Six Sigma DMAIC Improvement Framework (Define-Measure-Analyze-Improve-Control) Standards",
+      ruSectionName: "Стандарты и регламенты: Six Sigma DMAIC Improvement Framework (Define-Measure-Analyze-Improve-Control)",
+      instructions: [
+        "Apply core domain tenets for Six Sigma DMAIC Improvement Framework (Define-Measure-Analyze-Improve-Control).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Six Sigma DMAIC Improvement Framework (Define-Measure-Analyze-Improve-Control).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","six","sigma"],
+    }),
+  },
+
+  "frameworks-scrum-agile-sprint-execution-framework": {
+    id: "frameworks-scrum-agile-sprint-execution-framework",
+    name: "SCRUMAgileSprintExecutionFrameworkSkill",
+    displayName: "SCRUM Agile Sprint Execution Framework",
+    categoryId: "frameworks",
+    description: "Orchestrates 2-week agile sprints with daily standups, reviews, and retrospectives.",
+    tags: ["frameworks","frameworks","scrum","agile"],
+    transform: createStandardSkillTransform({
+      sectionName: "SCRUM Agile Sprint Execution Framework Standards",
+      ruSectionName: "Стандарты и регламенты: SCRUM Agile Sprint Execution Framework",
+      instructions: [
+        "Apply core domain tenets for SCRUM Agile Sprint Execution Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SCRUM Agile Sprint Execution Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","scrum","agile"],
+    }),
+  },
+
+  "frameworks-kanban-flow-optimization-wip-limit-framework": {
+    id: "frameworks-kanban-flow-optimization-wip-limit-framework",
+    name: "KanbanFlowOptimizationWIPLimitFrameworkSkill",
+    displayName: "Kanban Flow Optimization & WIP Limit Framework",
+    categoryId: "frameworks",
+    description: "Optimizes value stream throughput by enforcing Work-In-Progress limits.",
+    tags: ["frameworks","frameworks","kanban","flow"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kanban Flow Optimization & WIP Limit Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Kanban Flow Optimization & WIP Limit Framework",
+      instructions: [
+        "Apply core domain tenets for Kanban Flow Optimization & WIP Limit Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kanban Flow Optimization & WIP Limit Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","kanban","flow"],
+    }),
+  },
+
+  "frameworks-safe-scaled-agile-framework-for-enterprise": {
+    id: "frameworks-safe-scaled-agile-framework-for-enterprise",
+    name: "SAFeScaledAgileFrameworkforEnterpriseSkill",
+    displayName: "SAFe Scaled Agile Framework for Enterprise",
+    categoryId: "frameworks",
+    description: "Scales agile practices across large enterprise release trains.",
+    tags: ["frameworks","frameworks","safe","scaled"],
+    transform: createStandardSkillTransform({
+      sectionName: "SAFe Scaled Agile Framework for Enterprise Standards",
+      ruSectionName: "Стандарты и регламенты: SAFe Scaled Agile Framework for Enterprise",
+      instructions: [
+        "Apply core domain tenets for SAFe Scaled Agile Framework for Enterprise.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SAFe Scaled Agile Framework for Enterprise.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","safe","scaled"],
+    }),
+  },
+
+  "frameworks-togaf-enterprise-architecture-framework-adm": {
+    id: "frameworks-togaf-enterprise-architecture-framework-adm",
+    name: "TOGAFEnterpriseArchitectureFrameworkADMSkill",
+    displayName: "TOGAF Enterprise Architecture Framework (ADM)",
+    categoryId: "frameworks",
+    description: "Architects enterprise IT systems using the Architecture Development Method.",
+    tags: ["frameworks","frameworks","togaf","enterprise"],
+    transform: createStandardSkillTransform({
+      sectionName: "TOGAF Enterprise Architecture Framework (ADM) Standards",
+      ruSectionName: "Стандарты и регламенты: TOGAF Enterprise Architecture Framework (ADM)",
+      instructions: [
+        "Apply core domain tenets for TOGAF Enterprise Architecture Framework (ADM).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для TOGAF Enterprise Architecture Framework (ADM).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","togaf","enterprise"],
+    }),
+  },
+
+  "frameworks-cobit-it-governance-management-framework": {
+    id: "frameworks-cobit-it-governance-management-framework",
+    name: "COBITITGovernanceManagementFrameworkSkill",
+    displayName: "COBIT IT Governance & Management Framework",
+    categoryId: "frameworks",
+    description: "Aligns IT goals with corporate risk management and governance objectives.",
+    tags: ["frameworks","frameworks","cobit","it"],
+    transform: createStandardSkillTransform({
+      sectionName: "COBIT IT Governance & Management Framework Standards",
+      ruSectionName: "Стандарты и регламенты: COBIT IT Governance & Management Framework",
+      instructions: [
+        "Apply core domain tenets for COBIT IT Governance & Management Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для COBIT IT Governance & Management Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","cobit","it"],
+    }),
+  },
+
+  "frameworks-nist-cybersecurity-framework-identify-protect-detect-respond-recover": {
+    id: "frameworks-nist-cybersecurity-framework-identify-protect-detect-respond-recover",
+    name: "NISTCybersecurityFrameworkIdentifyProtectDetectRespondRecoverSkill",
+    displayName: "NIST Cybersecurity Framework (Identify-Protect-Detect-Respond-Recover)",
+    categoryId: "frameworks",
+    description: "Structures organizational cybersecurity posture across 5 core functions.",
+    tags: ["frameworks","frameworks","nist","cybersecurity"],
+    transform: createStandardSkillTransform({
+      sectionName: "NIST Cybersecurity Framework (Identify-Protect-Detect-Respond-Recover) Standards",
+      ruSectionName: "Стандарты и регламенты: NIST Cybersecurity Framework (Identify-Protect-Detect-Respond-Recover)",
+      instructions: [
+        "Apply core domain tenets for NIST Cybersecurity Framework (Identify-Protect-Detect-Respond-Recover).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для NIST Cybersecurity Framework (Identify-Protect-Detect-Respond-Recover).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","nist","cybersecurity"],
+    }),
+  },
+
+  "frameworks-itil-4-service-value-system-framework": {
+    id: "frameworks-itil-4-service-value-system-framework",
+    name: "ITIL4ServiceValueSystemFrameworkSkill",
+    displayName: "ITIL 4 Service Value System Framework",
+    categoryId: "frameworks",
+    description: "Manages IT service lifecycle from strategy and design to operation.",
+    tags: ["frameworks","frameworks","itil","4"],
+    transform: createStandardSkillTransform({
+      sectionName: "ITIL 4 Service Value System Framework Standards",
+      ruSectionName: "Стандарты и регламенты: ITIL 4 Service Value System Framework",
+      instructions: [
+        "Apply core domain tenets for ITIL 4 Service Value System Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ITIL 4 Service Value System Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","itil","4"],
+    }),
+  },
+
+  "frameworks-gdpr-data-protection-compliance-framework": {
+    id: "frameworks-gdpr-data-protection-compliance-framework",
+    name: "GDPRDataProtectionComplianceFrameworkSkill",
+    displayName: "GDPR Data Protection Compliance Framework",
+    categoryId: "frameworks",
+    description: "Enforces privacy-by-design, data subject rights, and breach notification.",
+    tags: ["frameworks","frameworks","gdpr","data"],
+    transform: createStandardSkillTransform({
+      sectionName: "GDPR Data Protection Compliance Framework Standards",
+      ruSectionName: "Стандарты и регламенты: GDPR Data Protection Compliance Framework",
+      instructions: [
+        "Apply core domain tenets for GDPR Data Protection Compliance Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для GDPR Data Protection Compliance Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","gdpr","data"],
+    }),
+  },
+
+  "frameworks-soc-2-trust-services-criteria-framework": {
+    id: "frameworks-soc-2-trust-services-criteria-framework",
+    name: "SOC2TrustServicesCriteriaFrameworkSkill",
+    displayName: "SOC 2 Trust Services Criteria Framework",
+    categoryId: "frameworks",
+    description: "Audits security, availability, processing integrity, confidentiality, and privacy.",
+    tags: ["frameworks","frameworks","soc","2"],
+    transform: createStandardSkillTransform({
+      sectionName: "SOC 2 Trust Services Criteria Framework Standards",
+      ruSectionName: "Стандарты и регламенты: SOC 2 Trust Services Criteria Framework",
+      instructions: [
+        "Apply core domain tenets for SOC 2 Trust Services Criteria Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SOC 2 Trust Services Criteria Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","soc","2"],
+    }),
+  },
+
+  "frameworks-coso-enterprise-risk-management-framework": {
+    id: "frameworks-coso-enterprise-risk-management-framework",
+    name: "COSOEnterpriseRiskManagementFrameworkSkill",
+    displayName: "COSO Enterprise Risk Management Framework",
+    categoryId: "frameworks",
+    description: "Integrates risk management with corporate strategy and performance goals.",
+    tags: ["frameworks","frameworks","coso","enterprise"],
+    transform: createStandardSkillTransform({
+      sectionName: "COSO Enterprise Risk Management Framework Standards",
+      ruSectionName: "Стандарты и регламенты: COSO Enterprise Risk Management Framework",
+      instructions: [
+        "Apply core domain tenets for COSO Enterprise Risk Management Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для COSO Enterprise Risk Management Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","coso","enterprise"],
+    }),
+  },
+
+  "frameworks-balanced-scorecard-strategic-performance-framework": {
+    id: "frameworks-balanced-scorecard-strategic-performance-framework",
+    name: "BalancedScorecardStrategicPerformanceFrameworkSkill",
+    displayName: "Balanced Scorecard Strategic Performance Framework",
+    categoryId: "frameworks",
+    description: "Tracks financial, customer, internal process, and learning growth metrics.",
+    tags: ["frameworks","frameworks","balanced","scorecard"],
+    transform: createStandardSkillTransform({
+      sectionName: "Balanced Scorecard Strategic Performance Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Balanced Scorecard Strategic Performance Framework",
+      instructions: [
+        "Apply core domain tenets for Balanced Scorecard Strategic Performance Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Balanced Scorecard Strategic Performance Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","balanced","scorecard"],
+    }),
+  },
+
+  "frameworks-vrio-competitive-resource-framework": {
+    id: "frameworks-vrio-competitive-resource-framework",
+    name: "VRIOCompetitiveResourceFrameworkSkill",
+    displayName: "VRIO Competitive Resource Framework",
+    categoryId: "frameworks",
+    description: "Tests corporate assets for Value, Rarity, Inimitability, and Organization.",
+    tags: ["frameworks","frameworks","vrio","competitive"],
+    transform: createStandardSkillTransform({
+      sectionName: "VRIO Competitive Resource Framework Standards",
+      ruSectionName: "Стандарты и регламенты: VRIO Competitive Resource Framework",
+      instructions: [
+        "Apply core domain tenets for VRIO Competitive Resource Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для VRIO Competitive Resource Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","vrio","competitive"],
+    }),
+  },
+
+  "frameworks-three-horizons-of-growth-framework-mckinsey": {
+    id: "frameworks-three-horizons-of-growth-framework-mckinsey",
+    name: "ThreeHorizonsofGrowthFrameworkMcKinseySkill",
+    displayName: "Three Horizons of Growth Framework (McKinsey)",
+    categoryId: "frameworks",
+    description: "Allocates capital across Horizon 1 core, Horizon 2 scaling, and Horizon 3 bets.",
+    tags: ["frameworks","frameworks","three","horizons"],
+    transform: createStandardSkillTransform({
+      sectionName: "Three Horizons of Growth Framework (McKinsey) Standards",
+      ruSectionName: "Стандарты и регламенты: Three Horizons of Growth Framework (McKinsey)",
+      instructions: [
+        "Apply core domain tenets for Three Horizons of Growth Framework (McKinsey).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Three Horizons of Growth Framework (McKinsey).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","three","horizons"],
+    }),
+  },
+
+  "frameworks-flywheel-effect-compounding-growth-framework": {
+    id: "frameworks-flywheel-effect-compounding-growth-framework",
+    name: "FlywheelEffectCompoundingGrowthFrameworkSkill",
+    displayName: "Flywheel Effect Compounding Growth Framework",
+    categoryId: "frameworks",
+    description: "Maps interconnected business virtuous cycles where momentum compounds.",
+    tags: ["frameworks","frameworks","flywheel","effect"],
+    transform: createStandardSkillTransform({
+      sectionName: "Flywheel Effect Compounding Growth Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Flywheel Effect Compounding Growth Framework",
+      instructions: [
+        "Apply core domain tenets for Flywheel Effect Compounding Growth Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Flywheel Effect Compounding Growth Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","flywheel","effect"],
+    }),
+  },
+
+  "frameworks-hook-model-habit-forming-framework-trigger-action-variablereward-investment": {
+    id: "frameworks-hook-model-habit-forming-framework-trigger-action-variablereward-investment",
+    name: "HookModelHabitFormingFrameworkTriggerActionVariableRewardInvestmentSkill",
+    displayName: "Hook Model Habit-Forming Framework (Trigger-Action-VariableReward-Investment)",
+    categoryId: "frameworks",
+    description: "Designs habit-forming product engagement loops based on Nir Eyal's model.",
+    tags: ["frameworks","frameworks","hook","model"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hook Model Habit-Forming Framework (Trigger-Action-VariableReward-Investment) Standards",
+      ruSectionName: "Стандарты и регламенты: Hook Model Habit-Forming Framework (Trigger-Action-VariableReward-Investment)",
+      instructions: [
+        "Apply core domain tenets for Hook Model Habit-Forming Framework (Trigger-Action-VariableReward-Investment).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hook Model Habit-Forming Framework (Trigger-Action-VariableReward-Investment).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","hook","model"],
+    }),
+  },
+
+  "frameworks-crossing-the-chasm-technology-adoption-framework": {
+    id: "frameworks-crossing-the-chasm-technology-adoption-framework",
+    name: "CrossingtheChasmTechnologyAdoptionFrameworkSkill",
+    displayName: "Crossing the Chasm Technology Adoption Framework",
+    categoryId: "frameworks",
+    description: "Guides tech startups transitioning from Early Adopters to Pragmatists.",
+    tags: ["frameworks","frameworks","crossing","the"],
+    transform: createStandardSkillTransform({
+      sectionName: "Crossing the Chasm Technology Adoption Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Crossing the Chasm Technology Adoption Framework",
+      instructions: [
+        "Apply core domain tenets for Crossing the Chasm Technology Adoption Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Crossing the Chasm Technology Adoption Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","crossing","the"],
+    }),
+  },
+
+  "frameworks-master-framework-architecture-synthesizer": {
+    id: "frameworks-master-framework-architecture-synthesizer",
+    name: "MasterFrameworkArchitectureSynthesizerSkill",
+    displayName: "Master Framework Architecture Synthesizer",
+    categoryId: "frameworks",
+    description: "Selects and combines optimal management frameworks for complex challenges.",
+    tags: ["frameworks","frameworks","master","framework"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Framework Architecture Synthesizer Standards",
+      ruSectionName: "Стандарты и регламенты: Master Framework Architecture Synthesizer",
+      instructions: [
+        "Apply core domain tenets for Master Framework Architecture Synthesizer.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Framework Architecture Synthesizer.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["frameworks","frameworks","master","framework"],
+    }),
+  },
 };
 

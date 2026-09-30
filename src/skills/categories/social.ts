@@ -1999,4 +1999,2302 @@ sectionName: 'Superfan VIP Champions Council Framework',
       tags: ["social","social","listening","sentiment"],
     }),
   },
+  "social-tiktok-shorts-3-second-visual-hook-retention": {
+    id: "social-tiktok-shorts-3-second-visual-hook-retention",
+    name: "TikTokShorts3SecondVisualHookRetentionSkill",
+    displayName: "TikTok/Shorts 3-Second Visual Hook Retention",
+    categoryId: "social",
+    description: "Crafts high-retention video hooks in the first 3 seconds of short-form video.",
+    tags: ["social","social","tiktok","shorts"],
+    transform: createStandardSkillTransform({
+      sectionName: "TikTok/Shorts 3-Second Visual Hook Retention Standards",
+      ruSectionName: "Стандарты и регламенты: TikTok/Shorts 3-Second Visual Hook Retention",
+      instructions: [
+        "Apply core domain tenets for TikTok/Shorts 3-Second Visual Hook Retention.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для TikTok/Shorts 3-Second Visual Hook Retention.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","tiktok","shorts"],
+    }),
+  },
+
+  "social-linkedin-thought-leadership-personal-branding": {
+    id: "social-linkedin-thought-leadership-personal-branding",
+    name: "LinkedInThoughtLeadershipPersonalBrandingSkill",
+    displayName: "LinkedIn Thought Leadership Personal Branding",
+    categoryId: "social",
+    description: "Optimizes executive LinkedIn profiles, long-form posts, and engagement loops.",
+    tags: ["social","social","linkedin","thought"],
+    transform: createStandardSkillTransform({
+      sectionName: "LinkedIn Thought Leadership Personal Branding Standards",
+      ruSectionName: "Стандарты и регламенты: LinkedIn Thought Leadership Personal Branding",
+      instructions: [
+        "Apply core domain tenets for LinkedIn Thought Leadership Personal Branding.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для LinkedIn Thought Leadership Personal Branding.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","linkedin","thought"],
+    }),
+  },
+
+  "social-community-discord-server-onboarding-architecture": {
+    id: "social-community-discord-server-onboarding-architecture",
+    name: "CommunityDiscordServerOnboardingArchitectureSkill",
+    displayName: "Community Discord Server Onboarding Architecture",
+    categoryId: "social",
+    description: "Designs Discord server role hierarchies, channel navigation, and welcome bots.",
+    tags: ["social","social","community","discord"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Discord Server Onboarding Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: Community Discord Server Onboarding Architecture",
+      instructions: [
+        "Apply core domain tenets for Community Discord Server Onboarding Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community Discord Server Onboarding Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","community","discord"],
+    }),
+  },
+
+  "social-influencer-campaign-sponsorship-roi-attribution": {
+    id: "social-influencer-campaign-sponsorship-roi-attribution",
+    name: "InfluencerCampaignSponsorshipROIAttributionSkill",
+    displayName: "Influencer Campaign Sponsorship ROI Attribution",
+    categoryId: "social",
+    description: "Measures influencer campaign conversion lift via custom promo codes and UTMs.",
+    tags: ["social","social","influencer","campaign"],
+    transform: createStandardSkillTransform({
+      sectionName: "Influencer Campaign Sponsorship ROI Attribution Standards",
+      ruSectionName: "Стандарты и регламенты: Influencer Campaign Sponsorship ROI Attribution",
+      instructions: [
+        "Apply core domain tenets for Influencer Campaign Sponsorship ROI Attribution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Influencer Campaign Sponsorship ROI Attribution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","influencer","campaign"],
+    }),
+  },
+
+  "social-pr-crisis-twitter-storm-defusal-protocol": {
+    id: "social-pr-crisis-twitter-storm-defusal-protocol",
+    name: "PRCrisisTwitterStormDefusalProtocolSkill",
+    displayName: "PR Crisis Twitter Storm Defusal Protocol",
+    categoryId: "social",
+    description: "De-escalates social media public relations crises with calm, transparent responses.",
+    tags: ["social","social","pr","crisis"],
+    transform: createStandardSkillTransform({
+      sectionName: "PR Crisis Twitter Storm Defusal Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: PR Crisis Twitter Storm Defusal Protocol",
+      instructions: [
+        "Apply core domain tenets for PR Crisis Twitter Storm Defusal Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для PR Crisis Twitter Storm Defusal Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","pr","crisis"],
+    }),
+  },
+
+  "social-reddit-authentic-community-engagement-strategy": {
+    id: "social-reddit-authentic-community-engagement-strategy",
+    name: "RedditAuthenticCommunityEngagementStrategySkill",
+    displayName: "Reddit Authentic Community Engagement Strategy",
+    categoryId: "social",
+    description: "Engages Reddit communities genuinely without triggering self-promotion bans.",
+    tags: ["social","social","reddit","authentic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Reddit Authentic Community Engagement Strategy Standards",
+      ruSectionName: "Стандарты и регламенты: Reddit Authentic Community Engagement Strategy",
+      instructions: [
+        "Apply core domain tenets for Reddit Authentic Community Engagement Strategy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Reddit Authentic Community Engagement Strategy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","reddit","authentic"],
+    }),
+  },
+
+  "social-user-generated-content-ugc-campaign-architecture": {
+    id: "social-user-generated-content-ugc-campaign-architecture",
+    name: "UserGeneratedContentUGCCampaignArchitectureSkill",
+    displayName: "User-Generated Content (UGC) Campaign Architecture",
+    categoryId: "social",
+    description: "Drives customer video review creation through community contests and incentives.",
+    tags: ["social","social","user","generated"],
+    transform: createStandardSkillTransform({
+      sectionName: "User-Generated Content (UGC) Campaign Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: User-Generated Content (UGC) Campaign Architecture",
+      instructions: [
+        "Apply core domain tenets for User-Generated Content (UGC) Campaign Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для User-Generated Content (UGC) Campaign Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","user","generated"],
+    }),
+  },
+
+  "social-twitter-x-educational-thread-architecture": {
+    id: "social-twitter-x-educational-thread-architecture",
+    name: "TwitterXEducationalThreadArchitectureSkill",
+    displayName: "Twitter/X Educational Thread Architecture",
+    categoryId: "social",
+    description: "Structures multi-tweet educational threads with viral hooks and summary takeaways.",
+    tags: ["social","social","twitter","x"],
+    transform: createStandardSkillTransform({
+      sectionName: "Twitter/X Educational Thread Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: Twitter/X Educational Thread Architecture",
+      instructions: [
+        "Apply core domain tenets for Twitter/X Educational Thread Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Twitter/X Educational Thread Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","twitter","x"],
+    }),
+  },
+
+  "social-community-ambassador-champion-program": {
+    id: "social-community-ambassador-champion-program",
+    name: "CommunityAmbassadorChampionProgramSkill",
+    displayName: "Community Ambassador & Champion Program",
+    categoryId: "social",
+    description: "Recruits and empowers super-users to advocate for your brand and mentor peers.",
+    tags: ["social","social","community","ambassador"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Ambassador & Champion Program Standards",
+      ruSectionName: "Стандарты и регламенты: Community Ambassador & Champion Program",
+      instructions: [
+        "Apply core domain tenets for Community Ambassador & Champion Program.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community Ambassador & Champion Program.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","community","ambassador"],
+    }),
+  },
+
+  "social-viral-hashtag-challenge-gamification-campaign": {
+    id: "social-viral-hashtag-challenge-gamification-campaign",
+    name: "ViralHashtagChallengeGamificationCampaignSkill",
+    displayName: "Viral Hashtag Challenge Gamification Campaign",
+    categoryId: "social",
+    description: "Designs interactive social hashtag challenges that encourage user participation.",
+    tags: ["social","social","viral","hashtag"],
+    transform: createStandardSkillTransform({
+      sectionName: "Viral Hashtag Challenge Gamification Campaign Standards",
+      ruSectionName: "Стандарты и регламенты: Viral Hashtag Challenge Gamification Campaign",
+      instructions: [
+        "Apply core domain tenets for Viral Hashtag Challenge Gamification Campaign.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Viral Hashtag Challenge Gamification Campaign.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","viral","hashtag"],
+    }),
+  },
+
+  "social-linkedin-inmail-b2b-social-selling-outreach": {
+    id: "social-linkedin-inmail-b2b-social-selling-outreach",
+    name: "LinkedInInMailB2BSocialSellingOutreachSkill",
+    displayName: "LinkedIn InMail B2B Social Selling Outreach",
+    categoryId: "social",
+    description: "Drafts personalized InMail messages that start genuine business conversations.",
+    tags: ["social","social","linkedin","inmail"],
+    transform: createStandardSkillTransform({
+      sectionName: "LinkedIn InMail B2B Social Selling Outreach Standards",
+      ruSectionName: "Стандарты и регламенты: LinkedIn InMail B2B Social Selling Outreach",
+      instructions: [
+        "Apply core domain tenets for LinkedIn InMail B2B Social Selling Outreach.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для LinkedIn InMail B2B Social Selling Outreach.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","linkedin","inmail"],
+    }),
+  },
+
+  "social-community-moderation-anti-trolling-enforcement": {
+    id: "social-community-moderation-anti-trolling-enforcement",
+    name: "CommunityModerationAntiTrollingEnforcementSkill",
+    displayName: "Community Moderation Anti-Trolling Enforcement",
+    categoryId: "social",
+    description: "Enforces community guidelines firmness while maintaining a welcoming climate.",
+    tags: ["social","social","community","moderation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Moderation Anti-Trolling Enforcement Standards",
+      ruSectionName: "Стандарты и регламенты: Community Moderation Anti-Trolling Enforcement",
+      instructions: [
+        "Apply core domain tenets for Community Moderation Anti-Trolling Enforcement.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community Moderation Anti-Trolling Enforcement.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","community","moderation"],
+    }),
+  },
+
+  "social-live-stream-q-a-engagement-audience-polling": {
+    id: "social-live-stream-q-a-engagement-audience-polling",
+    name: "LiveStreamQAEngagementAudiencePollingSkill",
+    displayName: "Live Stream Q&A Engagement & Audience Polling",
+    categoryId: "social",
+    description: "Facilitates high-energy live streams with active chat Q&A and real-time polls.",
+    tags: ["social","social","live","stream"],
+    transform: createStandardSkillTransform({
+      sectionName: "Live Stream Q&A Engagement & Audience Polling Standards",
+      ruSectionName: "Стандарты и регламенты: Live Stream Q&A Engagement & Audience Polling",
+      instructions: [
+        "Apply core domain tenets for Live Stream Q&A Engagement & Audience Polling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Live Stream Q&A Engagement & Audience Polling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","live","stream"],
+    }),
+  },
+
+  "social-ethical-subcultural-meme-format-hijacking": {
+    id: "social-ethical-subcultural-meme-format-hijacking",
+    name: "EthicalSubculturalMemeFormatHijackingSkill",
+    displayName: "Ethical Subcultural Meme Format Hijacking",
+    categoryId: "social",
+    description: "Adapts viral internet meme formats authentically to match brand personality.",
+    tags: ["social","social","ethical","subcultural"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ethical Subcultural Meme Format Hijacking Standards",
+      ruSectionName: "Стандарты и регламенты: Ethical Subcultural Meme Format Hijacking",
+      instructions: [
+        "Apply core domain tenets for Ethical Subcultural Meme Format Hijacking.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Ethical Subcultural Meme Format Hijacking.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","ethical","subcultural"],
+    }),
+  },
+
+  "social-customer-video-testimonial-interview-blueprint": {
+    id: "social-customer-video-testimonial-interview-blueprint",
+    name: "CustomerVideoTestimonialInterviewBlueprintSkill",
+    displayName: "Customer Video Testimonial Interview Blueprint",
+    categoryId: "social",
+    description: "Conducts customer video interviews capturing authentic emotional transformation.",
+    tags: ["social","social","customer","video"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Video Testimonial Interview Blueprint Standards",
+      ruSectionName: "Стандарты и регламенты: Customer Video Testimonial Interview Blueprint",
+      instructions: [
+        "Apply core domain tenets for Customer Video Testimonial Interview Blueprint.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Customer Video Testimonial Interview Blueprint.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","customer","video"],
+    }),
+  },
+
+  "social-pinterest-visual-search-keyword-pin-strategy": {
+    id: "social-pinterest-visual-search-keyword-pin-strategy",
+    name: "PinterestVisualSearchKeywordPinStrategySkill",
+    displayName: "Pinterest Visual Search & Keyword Pin Strategy",
+    categoryId: "social",
+    description: "Optimizes Pinterest pins and boards for evergreen visual search traffic.",
+    tags: ["social","social","pinterest","visual"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pinterest Visual Search & Keyword Pin Strategy Standards",
+      ruSectionName: "Стандарты и регламенты: Pinterest Visual Search & Keyword Pin Strategy",
+      instructions: [
+        "Apply core domain tenets for Pinterest Visual Search & Keyword Pin Strategy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Pinterest Visual Search & Keyword Pin Strategy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","pinterest","visual"],
+    }),
+  },
+
+  "social-brand-voice-tone-multi-channel-matrix": {
+    id: "social-brand-voice-tone-multi-channel-matrix",
+    name: "BrandVoiceToneMultiChannelMatrixSkill",
+    displayName: "Brand Voice & Tone Multi-Channel Matrix",
+    categoryId: "social",
+    description: "Establishes consistent brand voice guidelines adapted across social channels.",
+    tags: ["social","social","brand","voice"],
+    transform: createStandardSkillTransform({
+      sectionName: "Brand Voice & Tone Multi-Channel Matrix Standards",
+      ruSectionName: "Стандарты и регламенты: Brand Voice & Tone Multi-Channel Matrix",
+      instructions: [
+        "Apply core domain tenets for Brand Voice & Tone Multi-Channel Matrix.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Brand Voice & Tone Multi-Channel Matrix.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","brand","voice"],
+    }),
+  },
+
+  "social-viral-controversy-de-escalation-brand-recovery": {
+    id: "social-viral-controversy-de-escalation-brand-recovery",
+    name: "ViralControversyDeescalationBrandRecoverySkill",
+    displayName: "Viral Controversy De-escalation & Brand Recovery",
+    categoryId: "social",
+    description: "Navigates online brand controversies with authentic accountability.",
+    tags: ["social","social","viral","controversy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Viral Controversy De-escalation & Brand Recovery Standards",
+      ruSectionName: "Стандарты и регламенты: Viral Controversy De-escalation & Brand Recovery",
+      instructions: [
+        "Apply core domain tenets for Viral Controversy De-escalation & Brand Recovery.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Viral Controversy De-escalation & Brand Recovery.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","viral","controversy"],
+    }),
+  },
+
+  "social-community-forum-gamification-badges-leaderboards": {
+    id: "social-community-forum-gamification-badges-leaderboards",
+    name: "CommunityForumGamificationBadgesLeaderboardsSkill",
+    displayName: "Community Forum Gamification Badges & Leaderboards",
+    categoryId: "social",
+    description: "Designs forum point systems, rank badges, and leaderboards to drive activity.",
+    tags: ["social","social","community","forum"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Forum Gamification Badges & Leaderboards Standards",
+      ruSectionName: "Стандарты и регламенты: Community Forum Gamification Badges & Leaderboards",
+      instructions: [
+        "Apply core domain tenets for Community Forum Gamification Badges & Leaderboards.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community Forum Gamification Badges & Leaderboards.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","community","forum"],
+    }),
+  },
+
+  "social-b2b-linkedin-company-page-organic-growth": {
+    id: "social-b2b-linkedin-company-page-organic-growth",
+    name: "B2BLinkedInCompanyPageOrganicGrowthSkill",
+    displayName: "B2B LinkedIn Company Page Organic Growth",
+    categoryId: "social",
+    description: "Grows company page followers through industry insights and employee advocacy.",
+    tags: ["social","social","b2b","linkedin"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B LinkedIn Company Page Organic Growth Standards",
+      ruSectionName: "Стандарты и регламенты: B2B LinkedIn Company Page Organic Growth",
+      instructions: [
+        "Apply core domain tenets for B2B LinkedIn Company Page Organic Growth.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B LinkedIn Company Page Organic Growth.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","b2b","linkedin"],
+    }),
+  },
+
+  "social-short-form-video-scripting-pacing-30s": {
+    id: "social-short-form-video-scripting-pacing-30s",
+    name: "ShortFormVideoScriptingPacing30sSkill",
+    displayName: "Short-Form Video Scripting & Pacing (30s)",
+    categoryId: "social",
+    description: "Scripts 30-second TikTok/Reels videos with rapid visual transitions and clear CTAs.",
+    tags: ["social","social","short","form"],
+    transform: createStandardSkillTransform({
+      sectionName: "Short-Form Video Scripting & Pacing (30s) Standards",
+      ruSectionName: "Стандарты и регламенты: Short-Form Video Scripting & Pacing (30s)",
+      instructions: [
+        "Apply core domain tenets for Short-Form Video Scripting & Pacing (30s).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Short-Form Video Scripting & Pacing (30s).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","short","form"],
+    }),
+  },
+
+  "social-twitch-stream-overlay-subscriber-rewards": {
+    id: "social-twitch-stream-overlay-subscriber-rewards",
+    name: "TwitchStreamOverlaySubscriberRewardsSkill",
+    displayName: "Twitch Stream Overlay & Subscriber Rewards",
+    categoryId: "social",
+    description: "Configures custom Twitch overlays, alerts, and custom channel point rewards.",
+    tags: ["social","social","twitch","stream"],
+    transform: createStandardSkillTransform({
+      sectionName: "Twitch Stream Overlay & Subscriber Rewards Standards",
+      ruSectionName: "Стандарты и регламенты: Twitch Stream Overlay & Subscriber Rewards",
+      instructions: [
+        "Apply core domain tenets for Twitch Stream Overlay & Subscriber Rewards.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Twitch Stream Overlay & Subscriber Rewards.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","twitch","stream"],
+    }),
+  },
+
+  "social-substack-newsletter-subscriber-growth-engine": {
+    id: "social-substack-newsletter-subscriber-growth-engine",
+    name: "SubstackNewsletterSubscriberGrowthEngineSkill",
+    displayName: "Substack Newsletter Subscriber Growth Engine",
+    categoryId: "social",
+    description: "Grows Substack email subscribers via free previews and recommendation swaps.",
+    tags: ["social","social","substack","newsletter"],
+    transform: createStandardSkillTransform({
+      sectionName: "Substack Newsletter Subscriber Growth Engine Standards",
+      ruSectionName: "Стандарты и регламенты: Substack Newsletter Subscriber Growth Engine",
+      instructions: [
+        "Apply core domain tenets for Substack Newsletter Subscriber Growth Engine.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Substack Newsletter Subscriber Growth Engine.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","substack","newsletter"],
+    }),
+  },
+
+  "social-twitter-spaces-audio-clubhouse-event-hosting": {
+    id: "social-twitter-spaces-audio-clubhouse-event-hosting",
+    name: "TwitterSpacesAudioClubhouseEventHostingSkill",
+    displayName: "Twitter Spaces / Audio Clubhouse Event Hosting",
+    categoryId: "social",
+    description: "Hosts live audio panel discussions with interactive speaker queue management.",
+    tags: ["social","social","twitter","spaces"],
+    transform: createStandardSkillTransform({
+      sectionName: "Twitter Spaces / Audio Clubhouse Event Hosting Standards",
+      ruSectionName: "Стандарты и регламенты: Twitter Spaces / Audio Clubhouse Event Hosting",
+      instructions: [
+        "Apply core domain tenets for Twitter Spaces / Audio Clubhouse Event Hosting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Twitter Spaces / Audio Clubhouse Event Hosting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","twitter","spaces"],
+    }),
+  },
+
+  "social-social-media-ad-copy-a-b-testing-blueprint": {
+    id: "social-social-media-ad-copy-a-b-testing-blueprint",
+    name: "SocialMediaAdCopyABTestingBlueprintSkill",
+    displayName: "Social Media Ad Copy A/B Testing Blueprint",
+    categoryId: "social",
+    description: "Creates ad copy variations testing different hooks, pain points, and CTAs.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media Ad Copy A/B Testing Blueprint Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media Ad Copy A/B Testing Blueprint",
+      instructions: [
+        "Apply core domain tenets for Social Media Ad Copy A/B Testing Blueprint.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media Ad Copy A/B Testing Blueprint.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-employee-social-advocacy-employee-amplification": {
+    id: "social-employee-social-advocacy-employee-amplification",
+    name: "EmployeeSocialAdvocacyEmployeeAmplificationSkill",
+    displayName: "Employee Social Advocacy Employee Amplification",
+    categoryId: "social",
+    description: "Empowers employees to share company news on their personal social channels.",
+    tags: ["social","social","employee","social"],
+    transform: createStandardSkillTransform({
+      sectionName: "Employee Social Advocacy Employee Amplification Standards",
+      ruSectionName: "Стандарты и регламенты: Employee Social Advocacy Employee Amplification",
+      instructions: [
+        "Apply core domain tenets for Employee Social Advocacy Employee Amplification.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Employee Social Advocacy Employee Amplification.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","employee","social"],
+    }),
+  },
+
+  "social-local-geo-fenced-social-media-campaign": {
+    id: "social-local-geo-fenced-social-media-campaign",
+    name: "LocalGeoFencedSocialMediaCampaignSkill",
+    displayName: "Local Geo-Fenced Social Media Campaign",
+    categoryId: "social",
+    description: "Runs targeted local social campaigns driving store foot-traffic.",
+    tags: ["social","social","local","geo"],
+    transform: createStandardSkillTransform({
+      sectionName: "Local Geo-Fenced Social Media Campaign Standards",
+      ruSectionName: "Стандарты и регламенты: Local Geo-Fenced Social Media Campaign",
+      instructions: [
+        "Apply core domain tenets for Local Geo-Fenced Social Media Campaign.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Local Geo-Fenced Social Media Campaign.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","local","geo"],
+    }),
+  },
+
+  "social-social-media-calendar-content-batching-system": {
+    id: "social-social-media-calendar-content-batching-system",
+    name: "SocialMediaCalendarContentBatchingSystemSkill",
+    displayName: "Social Media Calendar Content Batching System",
+    categoryId: "social",
+    description: "Batches social content creation into weekly editorial calendars.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media Calendar Content Batching System Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media Calendar Content Batching System",
+      instructions: [
+        "Apply core domain tenets for Social Media Calendar Content Batching System.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media Calendar Content Batching System.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-facebook-group-community-nurturing-blueprint": {
+    id: "social-facebook-group-community-nurturing-blueprint",
+    name: "FacebookGroupCommunityNurturingBlueprintSkill",
+    displayName: "Facebook Group Community Nurturing Blueprint",
+    categoryId: "social",
+    description: "Builds engaged Facebook groups around shared passions or hobbies.",
+    tags: ["social","social","facebook","group"],
+    transform: createStandardSkillTransform({
+      sectionName: "Facebook Group Community Nurturing Blueprint Standards",
+      ruSectionName: "Стандарты и регламенты: Facebook Group Community Nurturing Blueprint",
+      instructions: [
+        "Apply core domain tenets for Facebook Group Community Nurturing Blueprint.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Facebook Group Community Nurturing Blueprint.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","facebook","group"],
+    }),
+  },
+
+  "social-user-review-response-protocol-positive-negative": {
+    id: "social-user-review-response-protocol-positive-negative",
+    name: "UserReviewResponseProtocolPositiveNegativeSkill",
+    displayName: "User Review Response Protocol (Positive & Negative)",
+    categoryId: "social",
+    description: "Drafts professional, warm responses to G2, Google, and Yelp reviews.",
+    tags: ["social","social","user","review"],
+    transform: createStandardSkillTransform({
+      sectionName: "User Review Response Protocol (Positive & Negative) Standards",
+      ruSectionName: "Стандарты и регламенты: User Review Response Protocol (Positive & Negative)",
+      instructions: [
+        "Apply core domain tenets for User Review Response Protocol (Positive & Negative).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для User Review Response Protocol (Positive & Negative).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","user","review"],
+    }),
+  },
+
+  "social-viral-giveaway-contest-referral-virality": {
+    id: "social-viral-giveaway-contest-referral-virality",
+    name: "ViralGiveawayContestReferralViralitySkill",
+    displayName: "Viral Giveaway Contest & Referral Virality",
+    categoryId: "social",
+    description: "Runs viral giveaways where sharing increases odds of winning.",
+    tags: ["social","social","viral","giveaway"],
+    transform: createStandardSkillTransform({
+      sectionName: "Viral Giveaway Contest & Referral Virality Standards",
+      ruSectionName: "Стандарты и регламенты: Viral Giveaway Contest & Referral Virality",
+      instructions: [
+        "Apply core domain tenets for Viral Giveaway Contest & Referral Virality.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Viral Giveaway Contest & Referral Virality.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","viral","giveaway"],
+    }),
+  },
+
+  "social-tiktok-live-commerce-shopping-stream": {
+    id: "social-tiktok-live-commerce-shopping-stream",
+    name: "TikTokLiveCommerceShoppingStreamSkill",
+    displayName: "TikTok Live Commerce & Shopping Stream",
+    categoryId: "social",
+    description: "Conducts live stream sales events demonstrating products and offering flash deals.",
+    tags: ["social","social","tiktok","live"],
+    transform: createStandardSkillTransform({
+      sectionName: "TikTok Live Commerce & Shopping Stream Standards",
+      ruSectionName: "Стандарты и регламенты: TikTok Live Commerce & Shopping Stream",
+      instructions: [
+        "Apply core domain tenets for TikTok Live Commerce & Shopping Stream.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для TikTok Live Commerce & Shopping Stream.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","tiktok","live"],
+    }),
+  },
+
+  "social-whatsapp-telegram-community-broadcast-channel": {
+    id: "social-whatsapp-telegram-community-broadcast-channel",
+    name: "WhatsAppTelegramCommunityBroadcastChannelSkill",
+    displayName: "WhatsApp / Telegram Community Broadcast Channel",
+    categoryId: "social",
+    description: "Manages broadcast channels delivering exclusive updates to VIP subscribers.",
+    tags: ["social","social","whatsapp","telegram"],
+    transform: createStandardSkillTransform({
+      sectionName: "WhatsApp / Telegram Community Broadcast Channel Standards",
+      ruSectionName: "Стандарты и регламенты: WhatsApp / Telegram Community Broadcast Channel",
+      instructions: [
+        "Apply core domain tenets for WhatsApp / Telegram Community Broadcast Channel.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для WhatsApp / Telegram Community Broadcast Channel.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","whatsapp","telegram"],
+    }),
+  },
+
+  "social-influencer-contract-usage-rights-negotiation": {
+    id: "social-influencer-contract-usage-rights-negotiation",
+    name: "InfluencerContractUsageRightsNegotiationSkill",
+    displayName: "Influencer Contract & Usage Rights Negotiation",
+    categoryId: "social",
+    description: "Drafts influencer agreements defining content deliverables, exclusivity, and rights.",
+    tags: ["social","social","influencer","contract"],
+    transform: createStandardSkillTransform({
+      sectionName: "Influencer Contract & Usage Rights Negotiation Standards",
+      ruSectionName: "Стандарты и регламенты: Influencer Contract & Usage Rights Negotiation",
+      instructions: [
+        "Apply core domain tenets for Influencer Contract & Usage Rights Negotiation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Influencer Contract & Usage Rights Negotiation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","influencer","contract"],
+    }),
+  },
+
+  "social-social-media-crisis-dark-site-preparation": {
+    id: "social-social-media-crisis-dark-site-preparation",
+    name: "SocialMediaCrisisDarkSitePreparationSkill",
+    displayName: "Social Media Crisis Dark Site Preparation",
+    categoryId: "social",
+    description: "Prepares pre-approved crisis landing pages and social statements for emergency use.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media Crisis Dark Site Preparation Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media Crisis Dark Site Preparation",
+      instructions: [
+        "Apply core domain tenets for Social Media Crisis Dark Site Preparation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media Crisis Dark Site Preparation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-brand-storytelling-behind-the-scenes-access": {
+    id: "social-brand-storytelling-behind-the-scenes-access",
+    name: "BrandStorytellingBehindtheScenesAccessSkill",
+    displayName: "Brand Storytelling Behind-the-Scenes Access",
+    categoryId: "social",
+    description: "Shares authentic behind-the-scenes glimpses of team culture and manufacturing.",
+    tags: ["social","social","brand","storytelling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Brand Storytelling Behind-the-Scenes Access Standards",
+      ruSectionName: "Стандарты и регламенты: Brand Storytelling Behind-the-Scenes Access",
+      instructions: [
+        "Apply core domain tenets for Brand Storytelling Behind-the-Scenes Access.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Brand Storytelling Behind-the-Scenes Access.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","brand","storytelling"],
+    }),
+  },
+
+  "social-social-media-accessibility-captioning-alt-text": {
+    id: "social-social-media-accessibility-captioning-alt-text",
+    name: "SocialMediaAccessibilityCaptioningAltTextSkill",
+    displayName: "Social Media Accessibility Captioning & Alt-Text",
+    categoryId: "social",
+    description: "Adds closed captions to videos and descriptive alt-text to images for accessibility.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media Accessibility Captioning & Alt-Text Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media Accessibility Captioning & Alt-Text",
+      instructions: [
+        "Apply core domain tenets for Social Media Accessibility Captioning & Alt-Text.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media Accessibility Captioning & Alt-Text.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-community-survey-feedback-loop-integration": {
+    id: "social-community-survey-feedback-loop-integration",
+    name: "CommunitySurveyFeedbackLoopIntegrationSkill",
+    displayName: "Community Survey & Feedback Loop Integration",
+    categoryId: "social",
+    description: "Gathers community input to shape future product roadmaps.",
+    tags: ["social","social","community","survey"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Survey & Feedback Loop Integration Standards",
+      ruSectionName: "Стандарты и регламенты: Community Survey & Feedback Loop Integration",
+      instructions: [
+        "Apply core domain tenets for Community Survey & Feedback Loop Integration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community Survey & Feedback Loop Integration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","community","survey"],
+    }),
+  },
+
+  "social-micro-community-slack-group-leadership": {
+    id: "social-micro-community-slack-group-leadership",
+    name: "MicroCommunitySlackGroupLeadershipSkill",
+    displayName: "Micro-Community Slack Group Leadership",
+    categoryId: "social",
+    description: "Facilitates invite-only Slack communities for industry leaders.",
+    tags: ["social","social","micro","community"],
+    transform: createStandardSkillTransform({
+      sectionName: "Micro-Community Slack Group Leadership Standards",
+      ruSectionName: "Стандарты и регламенты: Micro-Community Slack Group Leadership",
+      instructions: [
+        "Apply core domain tenets for Micro-Community Slack Group Leadership.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Micro-Community Slack Group Leadership.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","micro","community"],
+    }),
+  },
+
+  "social-interactive-quiz-poll-engagement-hook": {
+    id: "social-interactive-quiz-poll-engagement-hook",
+    name: "InteractiveQuizPollEngagementHookSkill",
+    displayName: "Interactive Quiz & Poll Engagement Hook",
+    categoryId: "social",
+    description: "Creates interactive social quizzes that deliver personalized results.",
+    tags: ["social","social","interactive","quiz"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Quiz & Poll Engagement Hook Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Quiz & Poll Engagement Hook",
+      instructions: [
+        "Apply core domain tenets for Interactive Quiz & Poll Engagement Hook.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Quiz & Poll Engagement Hook.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","interactive","quiz"],
+    }),
+  },
+
+  "social-youtube-community-tab-engagement-posts": {
+    id: "social-youtube-community-tab-engagement-posts",
+    name: "YouTubeCommunityTabEngagementPostsSkill",
+    displayName: "YouTube Community Tab Engagement Posts",
+    categoryId: "social",
+    description: "Maintains subscriber engagement between video releases via poll posts.",
+    tags: ["social","social","youtube","community"],
+    transform: createStandardSkillTransform({
+      sectionName: "YouTube Community Tab Engagement Posts Standards",
+      ruSectionName: "Стандарты и регламенты: YouTube Community Tab Engagement Posts",
+      instructions: [
+        "Apply core domain tenets for YouTube Community Tab Engagement Posts.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для YouTube Community Tab Engagement Posts.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","youtube","community"],
+    }),
+  },
+
+  "social-social-media-trend-spotting-rapid-response": {
+    id: "social-social-media-trend-spotting-rapid-response",
+    name: "SocialMediaTrendSpottingRapidResponseSkill",
+    displayName: "Social Media Trend Spotting & Rapid Response",
+    categoryId: "social",
+    description: "Identifies trending audio and topics early to create timely content.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media Trend Spotting & Rapid Response Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media Trend Spotting & Rapid Response",
+      instructions: [
+        "Apply core domain tenets for Social Media Trend Spotting & Rapid Response.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media Trend Spotting & Rapid Response.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-cross-platform-content-repurposing-engine": {
+    id: "social-cross-platform-content-repurposing-engine",
+    name: "CrossPlatformContentRepurposingEngineSkill",
+    displayName: "Cross-Platform Content Repurposing Engine",
+    categoryId: "social",
+    description: "Repurposes 1 long-form podcast into 5 Shorts, 3 tweets, and a LinkedIn post.",
+    tags: ["social","social","cross","platform"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Platform Content Repurposing Engine Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Platform Content Repurposing Engine",
+      instructions: [
+        "Apply core domain tenets for Cross-Platform Content Repurposing Engine.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Platform Content Repurposing Engine.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","cross","platform"],
+    }),
+  },
+
+  "social-b2b-thought-leadership-white-paper-promotion": {
+    id: "social-b2b-thought-leadership-white-paper-promotion",
+    name: "B2BThoughtLeadershipWhitePaperPromotionSkill",
+    displayName: "B2B Thought Leadership White Paper Promotion",
+    categoryId: "social",
+    description: "Promotes research reports across social channels to drive lead downloads.",
+    tags: ["social","social","b2b","thought"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Thought Leadership White Paper Promotion Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Thought Leadership White Paper Promotion",
+      instructions: [
+        "Apply core domain tenets for B2B Thought Leadership White Paper Promotion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Thought Leadership White Paper Promotion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","b2b","thought"],
+    }),
+  },
+
+  "social-social-proof-wall-of-love-curation": {
+    id: "social-social-proof-wall-of-love-curation",
+    name: "SocialProofWallofLoveCurationSkill",
+    displayName: "Social Proof Wall-of-Love Curation",
+    categoryId: "social",
+    description: "Curates enthusiastic customer social posts into a public 'Wall of Love'.",
+    tags: ["social","social","social","proof"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Proof Wall-of-Love Curation Standards",
+      ruSectionName: "Стандарты и регламенты: Social Proof Wall-of-Love Curation",
+      instructions: [
+        "Apply core domain tenets for Social Proof Wall-of-Love Curation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Proof Wall-of-Love Curation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","proof"],
+    }),
+  },
+
+  "social-brand-mascot-persona-content-creation": {
+    id: "social-brand-mascot-persona-content-creation",
+    name: "BrandMascotPersonaContentCreationSkill",
+    displayName: "Brand Mascot & Persona Content Creation",
+    categoryId: "social",
+    description: "Develops distinct brand mascot personalities for social media interactions.",
+    tags: ["social","social","brand","mascot"],
+    transform: createStandardSkillTransform({
+      sectionName: "Brand Mascot & Persona Content Creation Standards",
+      ruSectionName: "Стандарты и регламенты: Brand Mascot & Persona Content Creation",
+      instructions: [
+        "Apply core domain tenets for Brand Mascot & Persona Content Creation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Brand Mascot & Persona Content Creation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","brand","mascot"],
+    }),
+  },
+
+  "social-community-event-meetup-organization-blueprint": {
+    id: "social-community-event-meetup-organization-blueprint",
+    name: "CommunityEventMeetupOrganizationBlueprintSkill",
+    displayName: "Community Event Meetup Organization Blueprint",
+    categoryId: "social",
+    description: "Organizes local offline meetups for online community members.",
+    tags: ["social","social","community","event"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Event Meetup Organization Blueprint Standards",
+      ruSectionName: "Стандарты и регламенты: Community Event Meetup Organization Blueprint",
+      instructions: [
+        "Apply core domain tenets for Community Event Meetup Organization Blueprint.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community Event Meetup Organization Blueprint.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","community","event"],
+    }),
+  },
+
+  "social-social-media-dm-automation-chatbot-flow": {
+    id: "social-social-media-dm-automation-chatbot-flow",
+    name: "SocialMediaDMAutomationChatbotFlowSkill",
+    displayName: "Social Media DM Automation & Chatbot Flow",
+    categoryId: "social",
+    description: "Configures automated Instagram/Facebook DM flows that deliver lead magnets.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media DM Automation & Chatbot Flow Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media DM Automation & Chatbot Flow",
+      instructions: [
+        "Apply core domain tenets for Social Media DM Automation & Chatbot Flow.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media DM Automation & Chatbot Flow.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-csr-environmental-cause-social-marketing": {
+    id: "social-csr-environmental-cause-social-marketing",
+    name: "CSREnvironmentalCauseSocialMarketingSkill",
+    displayName: "CSR & Environmental Cause Social Marketing",
+    categoryId: "social",
+    description: "Highlights corporate social responsibility initiatives authentically.",
+    tags: ["social","social","csr","environmental"],
+    transform: createStandardSkillTransform({
+      sectionName: "CSR & Environmental Cause Social Marketing Standards",
+      ruSectionName: "Стандарты и регламенты: CSR & Environmental Cause Social Marketing",
+      instructions: [
+        "Apply core domain tenets for CSR & Environmental Cause Social Marketing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для CSR & Environmental Cause Social Marketing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","csr","environmental"],
+    }),
+  },
+
+  "social-viral-challenge-audio-production-licensing": {
+    id: "social-viral-challenge-audio-production-licensing",
+    name: "ViralChallengeAudioProductionLicensingSkill",
+    displayName: "Viral Challenge Audio Production & Licensing",
+    categoryId: "social",
+    description: "Creates original catchy audio tracks designed for TikTok video reuse.",
+    tags: ["social","social","viral","challenge"],
+    transform: createStandardSkillTransform({
+      sectionName: "Viral Challenge Audio Production & Licensing Standards",
+      ruSectionName: "Стандарты и регламенты: Viral Challenge Audio Production & Licensing",
+      instructions: [
+        "Apply core domain tenets for Viral Challenge Audio Production & Licensing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Viral Challenge Audio Production & Licensing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","viral","challenge"],
+    }),
+  },
+
+  "social-social-media-b2b-abm-custom-audience-ads": {
+    id: "social-social-media-b2b-abm-custom-audience-ads",
+    name: "SocialMediaB2BABMCustomAudienceAdsSkill",
+    displayName: "Social Media B2B ABM Custom Audience Ads",
+    categoryId: "social",
+    description: "Targets custom social ads directly to decision-makers at target accounts.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media B2B ABM Custom Audience Ads Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media B2B ABM Custom Audience Ads",
+      instructions: [
+        "Apply core domain tenets for Social Media B2B ABM Custom Audience Ads.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media B2B ABM Custom Audience Ads.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-community-guidelines-enforcement-appeals": {
+    id: "social-community-guidelines-enforcement-appeals",
+    name: "CommunityGuidelinesEnforcementAppealsSkill",
+    displayName: "Community Guidelines Enforcement & Appeals",
+    categoryId: "social",
+    description: "Manages member suspension appeals transparently and fairly.",
+    tags: ["social","social","community","guidelines"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Guidelines Enforcement & Appeals Standards",
+      ruSectionName: "Стандарты и регламенты: Community Guidelines Enforcement & Appeals",
+      instructions: [
+        "Apply core domain tenets for Community Guidelines Enforcement & Appeals.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community Guidelines Enforcement & Appeals.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","community","guidelines"],
+    }),
+  },
+
+  "social-e-commerce-social-shopping-integration": {
+    id: "social-e-commerce-social-shopping-integration",
+    name: "ECommerceSocialShoppingIntegrationSkill",
+    displayName: "E-Commerce Social Shopping Integration",
+    categoryId: "social",
+    description: "Configures Instagram and TikTok shop catalogs for seamless in-app checkout.",
+    tags: ["social","social","e","commerce"],
+    transform: createStandardSkillTransform({
+      sectionName: "E-Commerce Social Shopping Integration Standards",
+      ruSectionName: "Стандарты и регламенты: E-Commerce Social Shopping Integration",
+      instructions: [
+        "Apply core domain tenets for E-Commerce Social Shopping Integration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для E-Commerce Social Shopping Integration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","e","commerce"],
+    }),
+  },
+
+  "social-niche-sub-culture-language-authentic-tuning": {
+    id: "social-niche-sub-culture-language-authentic-tuning",
+    name: "NicheSubCultureLanguageAuthenticTuningSkill",
+    displayName: "Niche Sub-Culture Language Authentic Tuning",
+    categoryId: "social",
+    description: "Tailors brand messaging authentically to niche sub-cultures (e.g. gaming, crypto).",
+    tags: ["social","social","niche","sub"],
+    transform: createStandardSkillTransform({
+      sectionName: "Niche Sub-Culture Language Authentic Tuning Standards",
+      ruSectionName: "Стандарты и регламенты: Niche Sub-Culture Language Authentic Tuning",
+      instructions: [
+        "Apply core domain tenets for Niche Sub-Culture Language Authentic Tuning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Niche Sub-Culture Language Authentic Tuning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","niche","sub"],
+    }),
+  },
+
+  "social-social-media-influencer-co-creation-product": {
+    id: "social-social-media-influencer-co-creation-product",
+    name: "SocialMediaInfluencerCoCreationProductSkill",
+    displayName: "Social Media Influencer Co-Creation Product",
+    categoryId: "social",
+    description: "Partners with influencers to co-design limited-edition product lines.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media Influencer Co-Creation Product Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media Influencer Co-Creation Product",
+      instructions: [
+        "Apply core domain tenets for Social Media Influencer Co-Creation Product.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media Influencer Co-Creation Product.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-crowdsourced-product-feature-voting-board": {
+    id: "social-crowdsourced-product-feature-voting-board",
+    name: "CrowdsourcedProductFeatureVotingBoardSkill",
+    displayName: "Crowdsourced Product Feature Voting Board",
+    categoryId: "social",
+    description: "Maintains public feature voting boards where users vote on product roadmaps.",
+    tags: ["social","social","crowdsourced","product"],
+    transform: createStandardSkillTransform({
+      sectionName: "Crowdsourced Product Feature Voting Board Standards",
+      ruSectionName: "Стандарты и регламенты: Crowdsourced Product Feature Voting Board",
+      instructions: [
+        "Apply core domain tenets for Crowdsourced Product Feature Voting Board.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Crowdsourced Product Feature Voting Board.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","crowdsourced","product"],
+    }),
+  },
+
+  "social-live-event-live-tweeting-coverage-arc": {
+    id: "social-live-event-live-tweeting-coverage-arc",
+    name: "LiveEventLiveTweetingCoverageArcSkill",
+    displayName: "Live Event Live-Tweeting & Coverage Arc",
+    categoryId: "social",
+    description: "Provides real-time event coverage with key quotes, photos, and thread updates.",
+    tags: ["social","social","live","event"],
+    transform: createStandardSkillTransform({
+      sectionName: "Live Event Live-Tweeting & Coverage Arc Standards",
+      ruSectionName: "Стандарты и регламенты: Live Event Live-Tweeting & Coverage Arc",
+      instructions: [
+        "Apply core domain tenets for Live Event Live-Tweeting & Coverage Arc.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Live Event Live-Tweeting & Coverage Arc.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","live","event"],
+    }),
+  },
+
+  "social-social-media-copywriting-hook-story-offer": {
+    id: "social-social-media-copywriting-hook-story-offer",
+    name: "SocialMediaCopywritingHookStoryOfferSkill",
+    displayName: "Social Media Copywriting Hook-Story-Offer",
+    categoryId: "social",
+    description: "Formats social posts using Hook -> Narrative Story -> Clear Call to Action.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media Copywriting Hook-Story-Offer Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media Copywriting Hook-Story-Offer",
+      instructions: [
+        "Apply core domain tenets for Social Media Copywriting Hook-Story-Offer.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media Copywriting Hook-Story-Offer.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-community-guild-working-group-architecture": {
+    id: "social-community-guild-working-group-architecture",
+    name: "CommunityGuildWorkingGroupArchitectureSkill",
+    displayName: "Community Guild & Working Group Architecture",
+    categoryId: "social",
+    description: "Establishes member-led working groups to accomplish community goals.",
+    tags: ["social","social","community","guild"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Guild & Working Group Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: Community Guild & Working Group Architecture",
+      instructions: [
+        "Apply core domain tenets for Community Guild & Working Group Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community Guild & Working Group Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","community","guild"],
+    }),
+  },
+
+  "social-influencer-affiliate-commission-management": {
+    id: "social-influencer-affiliate-commission-management",
+    name: "InfluencerAffiliateCommissionManagementSkill",
+    displayName: "Influencer Affiliate Commission Management",
+    categoryId: "social",
+    description: "Tracks influencer affiliate sales and manages automated monthly commission payouts.",
+    tags: ["social","social","influencer","affiliate"],
+    transform: createStandardSkillTransform({
+      sectionName: "Influencer Affiliate Commission Management Standards",
+      ruSectionName: "Стандарты и регламенты: Influencer Affiliate Commission Management",
+      instructions: [
+        "Apply core domain tenets for Influencer Affiliate Commission Management.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Influencer Affiliate Commission Management.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","influencer","affiliate"],
+    }),
+  },
+
+  "social-social-media-sentiment-analysis-report": {
+    id: "social-social-media-sentiment-analysis-report",
+    name: "SocialMediaSentimentAnalysisReportSkill",
+    displayName: "Social Media Sentiment Analysis Report",
+    categoryId: "social",
+    description: "Compiles monthly brand sentiment reports tracking positive vs negative perception.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media Sentiment Analysis Report Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media Sentiment Analysis Report",
+      instructions: [
+        "Apply core domain tenets for Social Media Sentiment Analysis Report.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media Sentiment Analysis Report.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-viral-infographic-visual-data-storytelling": {
+    id: "social-viral-infographic-visual-data-storytelling",
+    name: "ViralInfographicVisualDataStorytellingSkill",
+    displayName: "Viral Infographic Visual Data Storytelling",
+    categoryId: "social",
+    description: "Designs highly shareable visual infographics summarizing complex industry statistics.",
+    tags: ["social","social","viral","infographic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Viral Infographic Visual Data Storytelling Standards",
+      ruSectionName: "Стандарты и регламенты: Viral Infographic Visual Data Storytelling",
+      instructions: [
+        "Apply core domain tenets for Viral Infographic Visual Data Storytelling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Viral Infographic Visual Data Storytelling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","viral","infographic"],
+    }),
+  },
+
+  "social-podcast-listener-community-growth-engine": {
+    id: "social-podcast-listener-community-growth-engine",
+    name: "PodcastListenerCommunityGrowthEngineSkill",
+    displayName: "Podcast Listener Community Growth Engine",
+    categoryId: "social",
+    description: "Engages podcast listeners via private Discord channels and Q&A voicemails.",
+    tags: ["social","social","podcast","listener"],
+    transform: createStandardSkillTransform({
+      sectionName: "Podcast Listener Community Growth Engine Standards",
+      ruSectionName: "Стандарты и регламенты: Podcast Listener Community Growth Engine",
+      instructions: [
+        "Apply core domain tenets for Podcast Listener Community Growth Engine.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Podcast Listener Community Growth Engine.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","podcast","listener"],
+    }),
+  },
+
+  "social-b2b-sales-sdr-social-prospecting-system": {
+    id: "social-b2b-sales-sdr-social-prospecting-system",
+    name: "B2BSalesSDRSocialProspectingSystemSkill",
+    displayName: "B2B Sales SDR Social Prospecting System",
+    categoryId: "social",
+    description: "Trains sales reps to build relationships on social media before pitching.",
+    tags: ["social","social","b2b","sales"],
+    transform: createStandardSkillTransform({
+      sectionName: "B2B Sales SDR Social Prospecting System Standards",
+      ruSectionName: "Стандарты и регламенты: B2B Sales SDR Social Prospecting System",
+      instructions: [
+        "Apply core domain tenets for B2B Sales SDR Social Prospecting System.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для B2B Sales SDR Social Prospecting System.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","b2b","sales"],
+    }),
+  },
+
+  "social-community-health-metric-retention-tracking": {
+    id: "social-community-health-metric-retention-tracking",
+    name: "CommunityHealthMetricRetentionTrackingSkill",
+    displayName: "Community Health Metric & Retention Tracking",
+    categoryId: "social",
+    description: "Tracks active member ratios, post frequency, and churn in online communities.",
+    tags: ["social","social","community","health"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Health Metric & Retention Tracking Standards",
+      ruSectionName: "Стандарты и регламенты: Community Health Metric & Retention Tracking",
+      instructions: [
+        "Apply core domain tenets for Community Health Metric & Retention Tracking.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community Health Metric & Retention Tracking.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","community","health"],
+    }),
+  },
+
+  "social-user-testimonial-video-production-script": {
+    id: "social-user-testimonial-video-production-script",
+    name: "UserTestimonialVideoProductionScriptSkill",
+    displayName: "User Testimonial Video Production Script",
+    categoryId: "social",
+    description: "Scripts customer video interviews capturing authentic transformation stories.",
+    tags: ["social","social","user","testimonial"],
+    transform: createStandardSkillTransform({
+      sectionName: "User Testimonial Video Production Script Standards",
+      ruSectionName: "Стандарты и регламенты: User Testimonial Video Production Script",
+      instructions: [
+        "Apply core domain tenets for User Testimonial Video Production Script.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для User Testimonial Video Production Script.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","user","testimonial"],
+    }),
+  },
+
+  "social-social-media-algorithm-optimization-masterclass": {
+    id: "social-social-media-algorithm-optimization-masterclass",
+    name: "SocialMediaAlgorithmOptimizationMasterclassSkill",
+    displayName: "Social Media Algorithm Optimization Masterclass",
+    categoryId: "social",
+    description: "Optimizes post timing, formats, and engagement strategies for all social algorithms.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media Algorithm Optimization Masterclass Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media Algorithm Optimization Masterclass",
+      instructions: [
+        "Apply core domain tenets for Social Media Algorithm Optimization Masterclass.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media Algorithm Optimization Masterclass.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-brand-alignment-corporate-social-stance": {
+    id: "social-brand-alignment-corporate-social-stance",
+    name: "BrandAlignmentCorporateSocialStanceSkill",
+    displayName: "Brand Alignment Corporate Social Stance",
+    categoryId: "social",
+    description: "Guides company responses to social issues aligned with core corporate values.",
+    tags: ["social","social","brand","alignment"],
+    transform: createStandardSkillTransform({
+      sectionName: "Brand Alignment Corporate Social Stance Standards",
+      ruSectionName: "Стандарты и регламенты: Brand Alignment Corporate Social Stance",
+      instructions: [
+        "Apply core domain tenets for Brand Alignment Corporate Social Stance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Brand Alignment Corporate Social Stance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","brand","alignment"],
+    }),
+  },
+
+  "social-interactive-storytelling-poll-chain": {
+    id: "social-interactive-storytelling-poll-chain",
+    name: "InteractiveStorytellingPollChainSkill",
+    displayName: "Interactive Storytelling Poll Chain",
+    categoryId: "social",
+    description: "Runs multi-day interactive social story polls where audience votes determine outcome.",
+    tags: ["social","social","interactive","storytelling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Storytelling Poll Chain Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Storytelling Poll Chain",
+      instructions: [
+        "Apply core domain tenets for Interactive Storytelling Poll Chain.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Storytelling Poll Chain.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","interactive","storytelling"],
+    }),
+  },
+
+  "social-social-media-ad-creative-refresh-sequence": {
+    id: "social-social-media-ad-creative-refresh-sequence",
+    name: "SocialMediaAdCreativeRefreshSequenceSkill",
+    displayName: "Social Media Ad Creative Refresh Sequence",
+    categoryId: "social",
+    description: "Refreshes ad creatives bi-weekly to prevent ad fatigue and maintain low CAC.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media Ad Creative Refresh Sequence Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media Ad Creative Refresh Sequence",
+      instructions: [
+        "Apply core domain tenets for Social Media Ad Creative Refresh Sequence.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media Ad Creative Refresh Sequence.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-community-vip-beta-tester-program": {
+    id: "social-community-vip-beta-tester-program",
+    name: "CommunityVIPBetaTesterProgramSkill",
+    displayName: "Community VIP Beta Tester Program",
+    categoryId: "social",
+    description: "Grants top community members early access to beta software features.",
+    tags: ["social","social","community","vip"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community VIP Beta Tester Program Standards",
+      ruSectionName: "Стандарты и регламенты: Community VIP Beta Tester Program",
+      instructions: [
+        "Apply core domain tenets for Community VIP Beta Tester Program.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community VIP Beta Tester Program.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","community","vip"],
+    }),
+  },
+
+  "social-digital-pr-newsjacking-trend-response": {
+    id: "social-digital-pr-newsjacking-trend-response",
+    name: "DigitalPRNewsjackingTrendResponseSkill",
+    displayName: "Digital PR Newsjacking Trend Response",
+    categoryId: "social",
+    description: "Injects brand commentary into breaking news cycles to earn earned media.",
+    tags: ["social","social","digital","pr"],
+    transform: createStandardSkillTransform({
+      sectionName: "Digital PR Newsjacking Trend Response Standards",
+      ruSectionName: "Стандарты и регламенты: Digital PR Newsjacking Trend Response",
+      instructions: [
+        "Apply core domain tenets for Digital PR Newsjacking Trend Response.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Digital PR Newsjacking Trend Response.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","digital","pr"],
+    }),
+  },
+
+  "social-social-media-competitor-benchmarking-audit": {
+    id: "social-social-media-competitor-benchmarking-audit",
+    name: "SocialMediaCompetitorBenchmarkingAuditSkill",
+    displayName: "Social Media Competitor Benchmarking Audit",
+    categoryId: "social",
+    description: "Compares follower growth, engagement rates, and content strategy against peers.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media Competitor Benchmarking Audit Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media Competitor Benchmarking Audit",
+      instructions: [
+        "Apply core domain tenets for Social Media Competitor Benchmarking Audit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media Competitor Benchmarking Audit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-customer-success-community-q-a-knowledge-base": {
+    id: "social-customer-success-community-q-a-knowledge-base",
+    name: "CustomerSuccessCommunityQAKnowledgeBaseSkill",
+    displayName: "Customer Success Community Q&A Knowledge Base",
+    categoryId: "social",
+    description: "Encourages users to answer peer technical support questions in community forums.",
+    tags: ["social","social","customer","success"],
+    transform: createStandardSkillTransform({
+      sectionName: "Customer Success Community Q&A Knowledge Base Standards",
+      ruSectionName: "Стандарты и регламенты: Customer Success Community Q&A Knowledge Base",
+      instructions: [
+        "Apply core domain tenets for Customer Success Community Q&A Knowledge Base.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Customer Success Community Q&A Knowledge Base.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","customer","success"],
+    }),
+  },
+
+  "social-live-streaming-multi-camera-production-protocol": {
+    id: "social-live-streaming-multi-camera-production-protocol",
+    name: "LiveStreamingMultiCameraProductionProtocolSkill",
+    displayName: "Live Streaming Multi-Camera Production Protocol",
+    categoryId: "social",
+    description: "Coordinates multi-camera live stream broadcasts with professional graphics.",
+    tags: ["social","social","live","streaming"],
+    transform: createStandardSkillTransform({
+      sectionName: "Live Streaming Multi-Camera Production Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Live Streaming Multi-Camera Production Protocol",
+      instructions: [
+        "Apply core domain tenets for Live Streaming Multi-Camera Production Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Live Streaming Multi-Camera Production Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","live","streaming"],
+    }),
+  },
+
+  "social-short-form-video-transition-editing-fx": {
+    id: "social-short-form-video-transition-editing-fx",
+    name: "ShortFormVideoTransitionEditingFXSkill",
+    displayName: "Short-Form Video Transition & Editing FX",
+    categoryId: "social",
+    description: "Applies creative visual transitions to keep short-form video retention high.",
+    tags: ["social","social","short","form"],
+    transform: createStandardSkillTransform({
+      sectionName: "Short-Form Video Transition & Editing FX Standards",
+      ruSectionName: "Стандарты и регламенты: Short-Form Video Transition & Editing FX",
+      instructions: [
+        "Apply core domain tenets for Short-Form Video Transition & Editing FX.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Short-Form Video Transition & Editing FX.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","short","form"],
+    }),
+  },
+
+  "social-social-media-copywriting-emojis-spacing": {
+    id: "social-social-media-copywriting-emojis-spacing",
+    name: "SocialMediaCopywritingEmojisSpacingSkill",
+    displayName: "Social Media Copywriting Emojis & Spacing",
+    categoryId: "social",
+    description: "Uses strategic line breaks, bullet points, and emojis to improve post readability.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media Copywriting Emojis & Spacing Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media Copywriting Emojis & Spacing",
+      instructions: [
+        "Apply core domain tenets for Social Media Copywriting Emojis & Spacing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media Copywriting Emojis & Spacing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-community-executive-town-hall-q-a-event": {
+    id: "social-community-executive-town-hall-q-a-event",
+    name: "CommunityExecutiveTownHallQAEventSkill",
+    displayName: "Community Executive Town Hall Q&A Event",
+    categoryId: "social",
+    description: "Hosts quarterly live video town halls where company leaders answer community questions.",
+    tags: ["social","social","community","executive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community Executive Town Hall Q&A Event Standards",
+      ruSectionName: "Стандарты и регламенты: Community Executive Town Hall Q&A Event",
+      instructions: [
+        "Apply core domain tenets for Community Executive Town Hall Q&A Event.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community Executive Town Hall Q&A Event.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","community","executive"],
+    }),
+  },
+
+  "social-micro-sponsorship-podcast-newsletter-placement": {
+    id: "social-micro-sponsorship-podcast-newsletter-placement",
+    name: "MicroSponsorshipPodcastNewsletterPlacementSkill",
+    displayName: "Micro-Sponsorship Podcast & Newsletter Placement",
+    categoryId: "social",
+    description: "Sponsors niche podcasts and newsletters to reach hyper-targeted audiences.",
+    tags: ["social","social","micro","sponsorship"],
+    transform: createStandardSkillTransform({
+      sectionName: "Micro-Sponsorship Podcast & Newsletter Placement Standards",
+      ruSectionName: "Стандарты и регламенты: Micro-Sponsorship Podcast & Newsletter Placement",
+      instructions: [
+        "Apply core domain tenets for Micro-Sponsorship Podcast & Newsletter Placement.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Micro-Sponsorship Podcast & Newsletter Placement.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","micro","sponsorship"],
+    }),
+  },
+
+  "social-social-media-organic-to-paid-ad-scaling": {
+    id: "social-social-media-organic-to-paid-ad-scaling",
+    name: "SocialMediaOrganictoPaidAdScalingSkill",
+    displayName: "Social Media Organic to Paid Ad Scaling",
+    categoryId: "social",
+    description: "Identifies top-performing organic social posts and boosts them with paid ad budget.",
+    tags: ["social","social","social","media"],
+    transform: createStandardSkillTransform({
+      sectionName: "Social Media Organic to Paid Ad Scaling Standards",
+      ruSectionName: "Стандарты и регламенты: Social Media Organic to Paid Ad Scaling",
+      instructions: [
+        "Apply core domain tenets for Social Media Organic to Paid Ad Scaling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Social Media Organic to Paid Ad Scaling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","social","media"],
+    }),
+  },
+
+  "social-user-onboarding-social-media-welcome-sequence": {
+    id: "social-user-onboarding-social-media-welcome-sequence",
+    name: "UserOnboardingSocialMediaWelcomeSequenceSkill",
+    displayName: "User Onboarding Social Media Welcome Sequence",
+    categoryId: "social",
+    description: "Welcomes new customers with social media links and community invitations.",
+    tags: ["social","social","user","onboarding"],
+    transform: createStandardSkillTransform({
+      sectionName: "User Onboarding Social Media Welcome Sequence Standards",
+      ruSectionName: "Стандарты и регламенты: User Onboarding Social Media Welcome Sequence",
+      instructions: [
+        "Apply core domain tenets for User Onboarding Social Media Welcome Sequence.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для User Onboarding Social Media Welcome Sequence.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","user","onboarding"],
+    }),
+  },
+
+  "social-comprehensive-social-media-community-mastery-constitution": {
+    id: "social-comprehensive-social-media-community-mastery-constitution",
+    name: "ComprehensiveSocialMediaCommunityMasteryConstitutionSkill",
+    displayName: "Comprehensive Social Media & Community Mastery Constitution",
+    categoryId: "social",
+    description: "Enforces world-class social media strategy, community engagement, and brand building.",
+    tags: ["social","social","comprehensive","social"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comprehensive Social Media & Community Mastery Constitution Standards",
+      ruSectionName: "Стандарты и регламенты: Comprehensive Social Media & Community Mastery Constitution",
+      instructions: [
+        "Apply core domain tenets for Comprehensive Social Media & Community Mastery Constitution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comprehensive Social Media & Community Mastery Constitution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social","comprehensive","social"],
+    }),
+  },
+  "social-final-tiktok-live-shopping-broadcast-host-engagement": {
+    id: "social-final-tiktok-live-shopping-broadcast-host-engagement",
+    name: "TikTokLiveShoppingBroadcastHostEngagementSkill",
+    displayName: "TikTok Live Shopping Broadcast Host Engagement",
+    categoryId: "social",
+    description: "Drives real-time e-commerce sales during TikTok live streams with flash deals.",
+    tags: ["social","social-final","final","tiktok"],
+    transform: createStandardSkillTransform({
+      sectionName: "TikTok Live Shopping Broadcast Host Engagement Standards",
+      ruSectionName: "Стандарты и регламенты: TikTok Live Shopping Broadcast Host Engagement",
+      instructions: [
+        "Apply core domain tenets for TikTok Live Shopping Broadcast Host Engagement.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для TikTok Live Shopping Broadcast Host Engagement.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social-final","final","tiktok"],
+    }),
+  },
+
+  "social-final-substack-publication-paid-subscriber-conversion": {
+    id: "social-final-substack-publication-paid-subscriber-conversion",
+    name: "SubstackPublicationPaidSubscriberConversionSkill",
+    displayName: "Substack Publication Paid Subscriber Conversion",
+    categoryId: "social",
+    description: "Structures newsletter paywalls, lead magnets, and subscriber onboarding emails.",
+    tags: ["social","social-final","final","substack"],
+    transform: createStandardSkillTransform({
+      sectionName: "Substack Publication Paid Subscriber Conversion Standards",
+      ruSectionName: "Стандарты и регламенты: Substack Publication Paid Subscriber Conversion",
+      instructions: [
+        "Apply core domain tenets for Substack Publication Paid Subscriber Conversion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Substack Publication Paid Subscriber Conversion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social-final","final","substack"],
+    }),
+  },
+
+  "social-final-discord-server-automated-roles-bot-architecture": {
+    id: "social-final-discord-server-automated-roles-bot-architecture",
+    name: "DiscordServerAutomatedRolesBotArchitectureSkill",
+    displayName: "Discord Server Automated Roles Bot Architecture",
+    categoryId: "social",
+    description: "Configures community Discord servers with automated onboarding and custom bots.",
+    tags: ["social","social-final","final","discord"],
+    transform: createStandardSkillTransform({
+      sectionName: "Discord Server Automated Roles Bot Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: Discord Server Automated Roles Bot Architecture",
+      instructions: [
+        "Apply core domain tenets for Discord Server Automated Roles Bot Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Discord Server Automated Roles Bot Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social-final","final","discord"],
+    }),
+  },
+
+  "social-final-twitch-stream-overlay-interactive-channel-points": {
+    id: "social-final-twitch-stream-overlay-interactive-channel-points",
+    name: "TwitchStreamOverlayInteractiveChannelPointsSkill",
+    displayName: "Twitch Stream Overlay Interactive Channel Points",
+    categoryId: "social",
+    description: "Designs Twitch stream overlays and custom channel point gamification triggers.",
+    tags: ["social","social-final","final","twitch"],
+    transform: createStandardSkillTransform({
+      sectionName: "Twitch Stream Overlay Interactive Channel Points Standards",
+      ruSectionName: "Стандарты и регламенты: Twitch Stream Overlay Interactive Channel Points",
+      instructions: [
+        "Apply core domain tenets for Twitch Stream Overlay Interactive Channel Points.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Twitch Stream Overlay Interactive Channel Points.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social-final","final","twitch"],
+    }),
+  },
+
+  "social-final-youtube-shorts-virality-retention-hook-engineering": {
+    id: "social-final-youtube-shorts-virality-retention-hook-engineering",
+    name: "YouTubeShortsViralityRetentionHookEngineeringSkill",
+    displayName: "YouTube Shorts Virality Retention Hook Engineering",
+    categoryId: "social",
+    description: "Engineers first 3-second retention hooks and continuous looping audio for Shorts.",
+    tags: ["social","social-final","final","youtube"],
+    transform: createStandardSkillTransform({
+      sectionName: "YouTube Shorts Virality Retention Hook Engineering Standards",
+      ruSectionName: "Стандарты и регламенты: YouTube Shorts Virality Retention Hook Engineering",
+      instructions: [
+        "Apply core domain tenets for YouTube Shorts Virality Retention Hook Engineering.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для YouTube Shorts Virality Retention Hook Engineering.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social-final","final","youtube"],
+    }),
+  },
+
+  "social-final-linkedin-thought-leadership-carousel-playbook": {
+    id: "social-final-linkedin-thought-leadership-carousel-playbook",
+    name: "LinkedInThoughtLeadershipCarouselPlaybookSkill",
+    displayName: "LinkedIn Thought Leadership Carousel Playbook",
+    categoryId: "social",
+    description: "Formats PDF carousel slide decks optimized for LinkedIn feed engagement.",
+    tags: ["social","social-final","final","linkedin"],
+    transform: createStandardSkillTransform({
+      sectionName: "LinkedIn Thought Leadership Carousel Playbook Standards",
+      ruSectionName: "Стандарты и регламенты: LinkedIn Thought Leadership Carousel Playbook",
+      instructions: [
+        "Apply core domain tenets for LinkedIn Thought Leadership Carousel Playbook.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для LinkedIn Thought Leadership Carousel Playbook.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social-final","final","linkedin"],
+    }),
+  },
+
+  "social-final-reddit-organic-brand-advocacy-subreddit-engagement": {
+    id: "social-final-reddit-organic-brand-advocacy-subreddit-engagement",
+    name: "RedditOrganicBrandAdvocacySubredditEngagementSkill",
+    displayName: "Reddit Organic Brand Advocacy Subreddit Engagement",
+    categoryId: "social",
+    description: "Builds authentic brand presence on Reddit through value-first AMA and community posts.",
+    tags: ["social","social-final","final","reddit"],
+    transform: createStandardSkillTransform({
+      sectionName: "Reddit Organic Brand Advocacy Subreddit Engagement Standards",
+      ruSectionName: "Стандарты и регламенты: Reddit Organic Brand Advocacy Subreddit Engagement",
+      instructions: [
+        "Apply core domain tenets for Reddit Organic Brand Advocacy Subreddit Engagement.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Reddit Organic Brand Advocacy Subreddit Engagement.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social-final","final","reddit"],
+    }),
+  },
+
+  "social-final-threads-real-time-trending-topic-hijacking": {
+    id: "social-final-threads-real-time-trending-topic-hijacking",
+    name: "ThreadsRealTimeTrendingTopicHijackingSkill",
+    displayName: "Threads Real-Time Trending Topic Hijacking",
+    categoryId: "social",
+    description: "Drafts witty, high-converting replies to trending news topics on Meta Threads.",
+    tags: ["social","social-final","final","threads"],
+    transform: createStandardSkillTransform({
+      sectionName: "Threads Real-Time Trending Topic Hijacking Standards",
+      ruSectionName: "Стандарты и регламенты: Threads Real-Time Trending Topic Hijacking",
+      instructions: [
+        "Apply core domain tenets for Threads Real-Time Trending Topic Hijacking.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Threads Real-Time Trending Topic Hijacking.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social-final","final","threads"],
+    }),
+  },
+
+  "social-final-whatsapp-community-channel-broadcast-content-calendar": {
+    id: "social-final-whatsapp-community-channel-broadcast-content-calendar",
+    name: "WhatsAppCommunityChannelBroadcastContentCalendarSkill",
+    displayName: "WhatsApp Community Channel Broadcast Content Calendar",
+    categoryId: "social",
+    description: "Manages direct broadcast channels for VIP customers with exclusive content drops.",
+    tags: ["social","social-final","final","whatsapp"],
+    transform: createStandardSkillTransform({
+      sectionName: "WhatsApp Community Channel Broadcast Content Calendar Standards",
+      ruSectionName: "Стандарты и регламенты: WhatsApp Community Channel Broadcast Content Calendar",
+      instructions: [
+        "Apply core domain tenets for WhatsApp Community Channel Broadcast Content Calendar.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для WhatsApp Community Channel Broadcast Content Calendar.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social-final","final","whatsapp"],
+    }),
+  },
+
+  "social-final-master-social-media-audience-growth-playbook": {
+    id: "social-final-master-social-media-audience-growth-playbook",
+    name: "MasterSocialMediaAudienceGrowthPlaybookSkill",
+    displayName: "Master Social Media Audience Growth Playbook",
+    categoryId: "social",
+    description: "Enforces world-class social media strategy, content creation, and community viral growth.",
+    tags: ["social","social-final","final","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Social Media Audience Growth Playbook Standards",
+      ruSectionName: "Стандарты и регламенты: Master Social Media Audience Growth Playbook",
+      instructions: [
+        "Apply core domain tenets for Master Social Media Audience Growth Playbook.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Social Media Audience Growth Playbook.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["social","social-final","final","master"],
+    }),
+  },
 };

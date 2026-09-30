@@ -2895,4 +2895,1353 @@ export const REASONING_SKILLS: Record<string, SkillDefinition> = {
       tags: ["reasoning","defeasible","pollock","defeaters","non-monotonic"],
     }),
   },
+  "reasoning-counterfactual-causal-inference-reasoning": {
+    id: "reasoning-counterfactual-causal-inference-reasoning",
+    name: "CounterfactualCausalInferenceReasoningSkill",
+    displayName: "Counterfactual Causal Inference Reasoning",
+    categoryId: "reasoning",
+    description: "Evaluates what would have occurred had key historical variables been altered.",
+    tags: ["reasoning","reasoning","counterfactual","causal"],
+    transform: createStandardSkillTransform({
+      sectionName: "Counterfactual Causal Inference Reasoning Standards",
+      ruSectionName: "Стандарты и регламенты: Counterfactual Causal Inference Reasoning",
+      instructions: [
+        "Apply core domain tenets for Counterfactual Causal Inference Reasoning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Counterfactual Causal Inference Reasoning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","counterfactual","causal"],
+    }),
+  },
+
+  "reasoning-abductive-reasoning-to-best-explanation": {
+    id: "reasoning-abductive-reasoning-to-best-explanation",
+    name: "AbductiveReasoningtoBestExplanationSkill",
+    displayName: "Abductive Reasoning to Best Explanation",
+    categoryId: "reasoning",
+    description: "Infers the most plausible hypothesis given incomplete or noisy observations.",
+    tags: ["reasoning","reasoning","abductive","reasoning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Abductive Reasoning to Best Explanation Standards",
+      ruSectionName: "Стандарты и регламенты: Abductive Reasoning to Best Explanation",
+      instructions: [
+        "Apply core domain tenets for Abductive Reasoning to Best Explanation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Abductive Reasoning to Best Explanation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","abductive","reasoning"],
+    }),
+  },
+
+  "reasoning-reductio-ad-absurdum-logical-refutation": {
+    id: "reasoning-reductio-ad-absurdum-logical-refutation",
+    name: "ReductioadAbsurdumLogicalRefutationSkill",
+    displayName: "Reductio ad Absurdum Logical Refutation",
+    categoryId: "reasoning",
+    description: "Disproves a premise by demonstrating that its logical conclusion leads to an absurdity.",
+    tags: ["reasoning","reasoning","reductio","ad"],
+    transform: createStandardSkillTransform({
+      sectionName: "Reductio ad Absurdum Logical Refutation Standards",
+      ruSectionName: "Стандарты и регламенты: Reductio ad Absurdum Logical Refutation",
+      instructions: [
+        "Apply core domain tenets for Reductio ad Absurdum Logical Refutation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Reductio ad Absurdum Logical Refutation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","reductio","ad"],
+    }),
+  },
+
+  "reasoning-dialectical-thesis-antithesis-synthesis": {
+    id: "reasoning-dialectical-thesis-antithesis-synthesis",
+    name: "DialecticalThesisAntithesisSynthesisSkill",
+    displayName: "Dialectical Thesis Antithesis Synthesis",
+    categoryId: "reasoning",
+    description: "Resolves conflicting viewpoints by discovering a higher-level unifying synthesis.",
+    tags: ["reasoning","reasoning","dialectical","thesis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dialectical Thesis Antithesis Synthesis Standards",
+      ruSectionName: "Стандарты и регламенты: Dialectical Thesis Antithesis Synthesis",
+      instructions: [
+        "Apply core domain tenets for Dialectical Thesis Antithesis Synthesis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dialectical Thesis Antithesis Synthesis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","dialectical","thesis"],
+    }),
+  },
+
+  "reasoning-probabilistic-fermi-estimation-order-of-magnitude": {
+    id: "reasoning-probabilistic-fermi-estimation-order-of-magnitude",
+    name: "ProbabilisticFermiEstimationOrderofMagnitudeSkill",
+    displayName: "Probabilistic Fermi Estimation & Order of Magnitude",
+    categoryId: "reasoning",
+    description: "Calculates rapid order-of-magnitude estimates using dimensional decomposition.",
+    tags: ["reasoning","reasoning","probabilistic","fermi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Probabilistic Fermi Estimation & Order of Magnitude Standards",
+      ruSectionName: "Стандарты и регламенты: Probabilistic Fermi Estimation & Order of Magnitude",
+      instructions: [
+        "Apply core domain tenets for Probabilistic Fermi Estimation & Order of Magnitude.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Probabilistic Fermi Estimation & Order of Magnitude.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","probabilistic","fermi"],
+    }),
+  },
+
+  "reasoning-inversion-thinking-munger-backward-reasoning": {
+    id: "reasoning-inversion-thinking-munger-backward-reasoning",
+    name: "InversionThinkingMungerBackwardReasoningSkill",
+    displayName: "Inversion Thinking (Munger Backward Reasoning)",
+    categoryId: "reasoning",
+    description: "Solves difficult problems by analyzing how to fail and avoiding those pitfalls.",
+    tags: ["reasoning","reasoning","inversion","thinking"],
+    transform: createStandardSkillTransform({
+      sectionName: "Inversion Thinking (Munger Backward Reasoning) Standards",
+      ruSectionName: "Стандарты и регламенты: Inversion Thinking (Munger Backward Reasoning)",
+      instructions: [
+        "Apply core domain tenets for Inversion Thinking (Munger Backward Reasoning).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Inversion Thinking (Munger Backward Reasoning).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","inversion","thinking"],
+    }),
+  },
+
+  "reasoning-first-principles-chemical-physical-reduction": {
+    id: "reasoning-first-principles-chemical-physical-reduction",
+    name: "FirstPrinciplesChemicalPhysicalReductionSkill",
+    displayName: "First Principles Chemical/Physical Reduction",
+    categoryId: "reasoning",
+    description: "Deconstructs complex systems to fundamental physical/chemical laws.",
+    tags: ["reasoning","reasoning","first","principles"],
+    transform: createStandardSkillTransform({
+      sectionName: "First Principles Chemical/Physical Reduction Standards",
+      ruSectionName: "Стандарты и регламенты: First Principles Chemical/Physical Reduction",
+      instructions: [
+        "Apply core domain tenets for First Principles Chemical/Physical Reduction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для First Principles Chemical/Physical Reduction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","first","principles"],
+    }),
+  },
+
+  "reasoning-second-order-nth-order-consequence-analysis": {
+    id: "reasoning-second-order-nth-order-consequence-analysis",
+    name: "SecondOrderNthOrderConsequenceAnalysisSkill",
+    displayName: "Second-Order & Nth-Order Consequence Analysis",
+    categoryId: "reasoning",
+    description: "Evaluates delayed downstream ripple effects of immediate policy decisions.",
+    tags: ["reasoning","reasoning","second","order"],
+    transform: createStandardSkillTransform({
+      sectionName: "Second-Order & Nth-Order Consequence Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Second-Order & Nth-Order Consequence Analysis",
+      instructions: [
+        "Apply core domain tenets for Second-Order & Nth-Order Consequence Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Second-Order & Nth-Order Consequence Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","second","order"],
+    }),
+  },
+
+  "reasoning-bayesian-prior-vs-likelihood-belief-update": {
+    id: "reasoning-bayesian-prior-vs-likelihood-belief-update",
+    name: "BayesianPriorvsLikelihoodBeliefUpdateSkill",
+    displayName: "Bayesian Prior vs Likelihood Belief Update",
+    categoryId: "reasoning",
+    description: "Updates confidence probability systematically upon receiving fresh evidence.",
+    tags: ["reasoning","reasoning","bayesian","prior"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bayesian Prior vs Likelihood Belief Update Standards",
+      ruSectionName: "Стандарты и регламенты: Bayesian Prior vs Likelihood Belief Update",
+      instructions: [
+        "Apply core domain tenets for Bayesian Prior vs Likelihood Belief Update.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Bayesian Prior vs Likelihood Belief Update.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","bayesian","prior"],
+    }),
+  },
+
+  "reasoning-ockham-razor-parsimony-optimization": {
+    id: "reasoning-ockham-razor-parsimony-optimization",
+    name: "OckhamRazorParsimonyOptimizationSkill",
+    displayName: "Ockham Razor Parsimony Optimization",
+    categoryId: "reasoning",
+    description: "Selects the simplest hypothesis with the fewest unproven assumptions.",
+    tags: ["reasoning","reasoning","ockham","razor"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ockham Razor Parsimony Optimization Standards",
+      ruSectionName: "Стандарты и регламенты: Ockham Razor Parsimony Optimization",
+      instructions: [
+        "Apply core domain tenets for Ockham Razor Parsimony Optimization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Ockham Razor Parsimony Optimization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","ockham","razor"],
+    }),
+  },
+
+  "reasoning-inductive-pattern-generalization-boundary-testing": {
+    id: "reasoning-inductive-pattern-generalization-boundary-testing",
+    name: "InductivePatternGeneralizationBoundaryTestingSkill",
+    displayName: "Inductive Pattern Generalization & Boundary Testing",
+    categoryId: "reasoning",
+    description: "Derives general rules from specific observations while testing edge limits.",
+    tags: ["reasoning","reasoning","inductive","pattern"],
+    transform: createStandardSkillTransform({
+      sectionName: "Inductive Pattern Generalization & Boundary Testing Standards",
+      ruSectionName: "Стандарты и регламенты: Inductive Pattern Generalization & Boundary Testing",
+      instructions: [
+        "Apply core domain tenets for Inductive Pattern Generalization & Boundary Testing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Inductive Pattern Generalization & Boundary Testing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","inductive","pattern"],
+    }),
+  },
+
+  "reasoning-formal-deductive-syllogism-validation": {
+    id: "reasoning-formal-deductive-syllogism-validation",
+    name: "FormalDeductiveSyllogismValidationSkill",
+    displayName: "Formal Deductive Syllogism Validation",
+    categoryId: "reasoning",
+    description: "Constructs valid major/minor premise structures to prove sound conclusions.",
+    tags: ["reasoning","reasoning","formal","deductive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Formal Deductive Syllogism Validation Standards",
+      ruSectionName: "Стандарты и регламенты: Formal Deductive Syllogism Validation",
+      instructions: [
+        "Apply core domain tenets for Formal Deductive Syllogism Validation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Formal Deductive Syllogism Validation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","formal","deductive"],
+    }),
+  },
+
+  "reasoning-game-theoretic-nash-equilibrium-analysis": {
+    id: "reasoning-game-theoretic-nash-equilibrium-analysis",
+    name: "GameTheoreticNashEquilibriumAnalysisSkill",
+    displayName: "Game-Theoretic Nash Equilibrium Analysis",
+    categoryId: "reasoning",
+    description: "Models strategic interaction where no player benefits by unilaterally changing strategy.",
+    tags: ["reasoning","reasoning","game","theoretic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Game-Theoretic Nash Equilibrium Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Game-Theoretic Nash Equilibrium Analysis",
+      instructions: [
+        "Apply core domain tenets for Game-Theoretic Nash Equilibrium Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Game-Theoretic Nash Equilibrium Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","game","theoretic"],
+    }),
+  },
+
+  "reasoning-cognitive-bias-audit-debiasing-protocol": {
+    id: "reasoning-cognitive-bias-audit-debiasing-protocol",
+    name: "CognitiveBiasAuditDebiasingProtocolSkill",
+    displayName: "Cognitive Bias Audit & Debiasing Protocol",
+    categoryId: "reasoning",
+    description: "Identifies anchoring, confirmation, or availability bias in analytical models.",
+    tags: ["reasoning","reasoning","cognitive","bias"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cognitive Bias Audit & Debiasing Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Cognitive Bias Audit & Debiasing Protocol",
+      instructions: [
+        "Apply core domain tenets for Cognitive Bias Audit & Debiasing Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cognitive Bias Audit & Debiasing Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","cognitive","bias"],
+    }),
+  },
+
+  "reasoning-root-cause-5-whys-iterative-analysis": {
+    id: "reasoning-root-cause-5-whys-iterative-analysis",
+    name: "RootCause5WhysIterativeAnalysisSkill",
+    displayName: "Root Cause 5 Whys Iterative Analysis",
+    categoryId: "reasoning",
+    description: "Traces surface symptoms back to fundamental systemic failures.",
+    tags: ["reasoning","reasoning","root","cause"],
+    transform: createStandardSkillTransform({
+      sectionName: "Root Cause 5 Whys Iterative Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Root Cause 5 Whys Iterative Analysis",
+      instructions: [
+        "Apply core domain tenets for Root Cause 5 Whys Iterative Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Root Cause 5 Whys Iterative Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","root","cause"],
+    }),
+  },
+
+  "reasoning-analogical-reasoning-cross-domain-mapping": {
+    id: "reasoning-analogical-reasoning-cross-domain-mapping",
+    name: "AnalogicalReasoningCrossDomainMappingSkill",
+    displayName: "Analogical Reasoning Cross-Domain Mapping",
+    categoryId: "reasoning",
+    description: "Maps structural solutions from biology or history to solve novel tech problems.",
+    tags: ["reasoning","reasoning","analogical","reasoning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Analogical Reasoning Cross-Domain Mapping Standards",
+      ruSectionName: "Стандарты и регламенты: Analogical Reasoning Cross-Domain Mapping",
+      instructions: [
+        "Apply core domain tenets for Analogical Reasoning Cross-Domain Mapping.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Analogical Reasoning Cross-Domain Mapping.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","analogical","reasoning"],
+    }),
+  },
+
+  "reasoning-trolley-problem-ethical-utility-calculation": {
+    id: "reasoning-trolley-problem-ethical-utility-calculation",
+    name: "TrolleyProblemEthicalUtilityCalculationSkill",
+    displayName: "Trolley Problem Ethical Utility Calculation",
+    categoryId: "reasoning",
+    description: "Evaluates moral trade-offs using utilitarian vs deontological frameworks.",
+    tags: ["reasoning","reasoning","trolley","problem"],
+    transform: createStandardSkillTransform({
+      sectionName: "Trolley Problem Ethical Utility Calculation Standards",
+      ruSectionName: "Стандарты и регламенты: Trolley Problem Ethical Utility Calculation",
+      instructions: [
+        "Apply core domain tenets for Trolley Problem Ethical Utility Calculation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Trolley Problem Ethical Utility Calculation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","trolley","problem"],
+    }),
+  },
+
+  "reasoning-chesterton-fence-tradition-preservation-logic": {
+    id: "reasoning-chesterton-fence-tradition-preservation-logic",
+    name: "ChestertonFenceTraditionPreservationLogicSkill",
+    displayName: "Chesterton Fence Tradition Preservation Logic",
+    categoryId: "reasoning",
+    description: "Understands why a rule was created before attempting to remove or alter it.",
+    tags: ["reasoning","reasoning","chesterton","fence"],
+    transform: createStandardSkillTransform({
+      sectionName: "Chesterton Fence Tradition Preservation Logic Standards",
+      ruSectionName: "Стандарты и регламенты: Chesterton Fence Tradition Preservation Logic",
+      instructions: [
+        "Apply core domain tenets for Chesterton Fence Tradition Preservation Logic.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Chesterton Fence Tradition Preservation Logic.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","chesterton","fence"],
+    }),
+  },
+
+  "reasoning-decision-tree-expected-value-branching": {
+    id: "reasoning-decision-tree-expected-value-branching",
+    name: "DecisionTreeExpectedValueBranchingSkill",
+    displayName: "Decision Tree Expected Value Branching",
+    categoryId: "reasoning",
+    description: "Calculates EV across weighted probabilistic decision branches.",
+    tags: ["reasoning","reasoning","decision","tree"],
+    transform: createStandardSkillTransform({
+      sectionName: "Decision Tree Expected Value Branching Standards",
+      ruSectionName: "Стандарты и регламенты: Decision Tree Expected Value Branching",
+      instructions: [
+        "Apply core domain tenets for Decision Tree Expected Value Branching.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Decision Tree Expected Value Branching.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","decision","tree"],
+    }),
+  },
+
+  "reasoning-pareto-80-20-leverage-point-identification": {
+    id: "reasoning-pareto-80-20-leverage-point-identification",
+    name: "Pareto8020LeveragePointIdentificationSkill",
+    displayName: "Pareto 80/20 Leverage Point Identification",
+    categoryId: "reasoning",
+    description: "Isolates the 20% of critical inputs driving 80% of desired system outcomes.",
+    tags: ["reasoning","reasoning","pareto","80"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pareto 80/20 Leverage Point Identification Standards",
+      ruSectionName: "Стандарты и регламенты: Pareto 80/20 Leverage Point Identification",
+      instructions: [
+        "Apply core domain tenets for Pareto 80/20 Leverage Point Identification.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Pareto 80/20 Leverage Point Identification.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","pareto","80"],
+    }),
+  },
+
+  "reasoning-hanlon-razor-misconception-disambiguation": {
+    id: "reasoning-hanlon-razor-misconception-disambiguation",
+    name: "HanlonRazorMisconceptionDisambiguationSkill",
+    displayName: "Hanlon Razor Misconception Disambiguation",
+    categoryId: "reasoning",
+    description: "Attributes mistakes to incompetence or systemic noise rather than malice.",
+    tags: ["reasoning","reasoning","hanlon","razor"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hanlon Razor Misconception Disambiguation Standards",
+      ruSectionName: "Стандарты и регламенты: Hanlon Razor Misconception Disambiguation",
+      instructions: [
+        "Apply core domain tenets for Hanlon Razor Misconception Disambiguation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hanlon Razor Misconception Disambiguation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","hanlon","razor"],
+    }),
+  },
+
+  "reasoning-lindy-effect-longevity-forecasting": {
+    id: "reasoning-lindy-effect-longevity-forecasting",
+    name: "LindyEffectLongevityForecastingSkill",
+    displayName: "Lindy Effect Longevity Forecasting",
+    categoryId: "reasoning",
+    description: "Predicts future technology lifespan based on past historical endurance.",
+    tags: ["reasoning","reasoning","lindy","effect"],
+    transform: createStandardSkillTransform({
+      sectionName: "Lindy Effect Longevity Forecasting Standards",
+      ruSectionName: "Стандарты и регламенты: Lindy Effect Longevity Forecasting",
+      instructions: [
+        "Apply core domain tenets for Lindy Effect Longevity Forecasting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Lindy Effect Longevity Forecasting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","lindy","effect"],
+    }),
+  },
+
+  "reasoning-survivorship-bias-aircraft-armor-auditing": {
+    id: "reasoning-survivorship-bias-aircraft-armor-auditing",
+    name: "SurvivorshipBiasAircraftArmorAuditingSkill",
+    displayName: "Survivorship Bias Aircraft Armor Auditing",
+    categoryId: "reasoning",
+    description: "Analyzes missing data from failed entities rather than only surviving successes.",
+    tags: ["reasoning","reasoning","survivorship","bias"],
+    transform: createStandardSkillTransform({
+      sectionName: "Survivorship Bias Aircraft Armor Auditing Standards",
+      ruSectionName: "Стандарты и регламенты: Survivorship Bias Aircraft Armor Auditing",
+      instructions: [
+        "Apply core domain tenets for Survivorship Bias Aircraft Armor Auditing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Survivorship Bias Aircraft Armor Auditing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","survivorship","bias"],
+    }),
+  },
+
+  "reasoning-goodhart-law-metric-game-distortions": {
+    id: "reasoning-goodhart-law-metric-game-distortions",
+    name: "GoodhartLawMetricGameDistortionsSkill",
+    displayName: "Goodhart Law Metric Game Distortions",
+    categoryId: "reasoning",
+    description: "Guards against metrics becoming bad targets when optimized explicitly.",
+    tags: ["reasoning","reasoning","goodhart","law"],
+    transform: createStandardSkillTransform({
+      sectionName: "Goodhart Law Metric Game Distortions Standards",
+      ruSectionName: "Стандарты и регламенты: Goodhart Law Metric Game Distortions",
+      instructions: [
+        "Apply core domain tenets for Goodhart Law Metric Game Distortions.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Goodhart Law Metric Game Distortions.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","goodhart","law"],
+    }),
+  },
+
+  "reasoning-sorites-paradox-boundary-vagueness": {
+    id: "reasoning-sorites-paradox-boundary-vagueness",
+    name: "SoritesParadoxBoundaryVaguenessSkill",
+    displayName: "Sorites Paradox Boundary Vagueness",
+    categoryId: "reasoning",
+    description: "Handles gradual incremental state transitions with vague threshold boundaries.",
+    tags: ["reasoning","reasoning","sorites","paradox"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sorites Paradox Boundary Vagueness Standards",
+      ruSectionName: "Стандарты и регламенты: Sorites Paradox Boundary Vagueness",
+      instructions: [
+        "Apply core domain tenets for Sorites Paradox Boundary Vagueness.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sorites Paradox Boundary Vagueness.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","sorites","paradox"],
+    }),
+  },
+
+  "reasoning-black-swan-high-impact-uncertainty": {
+    id: "reasoning-black-swan-high-impact-uncertainty",
+    name: "BlackSwanHighImpactUncertaintySkill",
+    displayName: "Black Swan High-Impact Uncertainty",
+    categoryId: "reasoning",
+    description: "Prepares systems for extreme, low-probability, high-consequence events.",
+    tags: ["reasoning","reasoning","black","swan"],
+    transform: createStandardSkillTransform({
+      sectionName: "Black Swan High-Impact Uncertainty Standards",
+      ruSectionName: "Стандарты и регламенты: Black Swan High-Impact Uncertainty",
+      instructions: [
+        "Apply core domain tenets for Black Swan High-Impact Uncertainty.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Black Swan High-Impact Uncertainty.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","black","swan"],
+    }),
+  },
+
+  "reasoning-popper-falsifiability-test-criteria": {
+    id: "reasoning-popper-falsifiability-test-criteria",
+    name: "PopperFalsifiabilityTestCriteriaSkill",
+    displayName: "Popper Falsifiability Test Criteria",
+    categoryId: "reasoning",
+    description: "Ensures hypotheses propose concrete tests that could prove them wrong.",
+    tags: ["reasoning","reasoning","popper","falsifiability"],
+    transform: createStandardSkillTransform({
+      sectionName: "Popper Falsifiability Test Criteria Standards",
+      ruSectionName: "Стандарты и регламенты: Popper Falsifiability Test Criteria",
+      instructions: [
+        "Apply core domain tenets for Popper Falsifiability Test Criteria.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Popper Falsifiability Test Criteria.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","popper","falsifiability"],
+    }),
+  },
+
+  "reasoning-sunk-cost-fallacy-decision-reset": {
+    id: "reasoning-sunk-cost-fallacy-decision-reset",
+    name: "SunkCostFallacyDecisionResetSkill",
+    displayName: "Sunk Cost Fallacy Decision Reset",
+    categoryId: "reasoning",
+    description: "Ignores non-recoverable past investments when evaluating future choices.",
+    tags: ["reasoning","reasoning","sunk","cost"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sunk Cost Fallacy Decision Reset Standards",
+      ruSectionName: "Стандарты и регламенты: Sunk Cost Fallacy Decision Reset",
+      instructions: [
+        "Apply core domain tenets for Sunk Cost Fallacy Decision Reset.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sunk Cost Fallacy Decision Reset.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","sunk","cost"],
+    }),
+  },
+
+  "reasoning-tragedy-of-the-commons-shared-resource-logic": {
+    id: "reasoning-tragedy-of-the-commons-shared-resource-logic",
+    name: "TragedyoftheCommonsSharedResourceLogicSkill",
+    displayName: "Tragedy of the Commons Shared Resource Logic",
+    categoryId: "reasoning",
+    description: "Models individual rational incentives leading to collective resource depletion.",
+    tags: ["reasoning","reasoning","tragedy","of"],
+    transform: createStandardSkillTransform({
+      sectionName: "Tragedy of the Commons Shared Resource Logic Standards",
+      ruSectionName: "Стандарты и регламенты: Tragedy of the Commons Shared Resource Logic",
+      instructions: [
+        "Apply core domain tenets for Tragedy of the Commons Shared Resource Logic.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Tragedy of the Commons Shared Resource Logic.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","tragedy","of"],
+    }),
+  },
+
+  "reasoning-cobweb-model-market-price-oscillation": {
+    id: "reasoning-cobweb-model-market-price-oscillation",
+    name: "CobwebModelMarketPriceOscillationSkill",
+    displayName: "Cobweb Model Market Price Oscillation",
+    categoryId: "reasoning",
+    description: "Analyzes supply-demand lag cycles causing price volatility over time.",
+    tags: ["reasoning","reasoning","cobweb","model"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cobweb Model Market Price Oscillation Standards",
+      ruSectionName: "Стандарты и регламенты: Cobweb Model Market Price Oscillation",
+      instructions: [
+        "Apply core domain tenets for Cobweb Model Market Price Oscillation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cobweb Model Market Price Oscillation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","cobweb","model"],
+    }),
+  },
+
+  "reasoning-campbell-law-metric-inflation-safeguard": {
+    id: "reasoning-campbell-law-metric-inflation-safeguard",
+    name: "CampbellLawMetricInflationSafeguardSkill",
+    displayName: "Campbell Law Metric Inflation Safeguard",
+    categoryId: "reasoning",
+    description: "Protects quantitative indicators from corruption under high-stakes pressure.",
+    tags: ["reasoning","reasoning","campbell","law"],
+    transform: createStandardSkillTransform({
+      sectionName: "Campbell Law Metric Inflation Safeguard Standards",
+      ruSectionName: "Стандарты и регламенты: Campbell Law Metric Inflation Safeguard",
+      instructions: [
+        "Apply core domain tenets for Campbell Law Metric Inflation Safeguard.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Campbell Law Metric Inflation Safeguard.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","campbell","law"],
+    }),
+  },
+
+  "reasoning-broken-window-theory-escalation-logic": {
+    id: "reasoning-broken-window-theory-escalation-logic",
+    name: "BrokenWindowTheoryEscalationLogicSkill",
+    displayName: "Broken Window Theory Escalation Logic",
+    categoryId: "reasoning",
+    description: "Prevents minor unchecked flaws from encouraging widespread system decay.",
+    tags: ["reasoning","reasoning","broken","window"],
+    transform: createStandardSkillTransform({
+      sectionName: "Broken Window Theory Escalation Logic Standards",
+      ruSectionName: "Стандарты и регламенты: Broken Window Theory Escalation Logic",
+      instructions: [
+        "Apply core domain tenets for Broken Window Theory Escalation Logic.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Broken Window Theory Escalation Logic.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","broken","window"],
+    }),
+  },
+
+  "reasoning-streisand-effect-suppression-rebound": {
+    id: "reasoning-streisand-effect-suppression-rebound",
+    name: "StreisandEffectSuppressionReboundSkill",
+    displayName: "Streisand Effect Suppression Rebound",
+    categoryId: "reasoning",
+    description: "Anticipates how attempting to hide information amplifies public attention.",
+    tags: ["reasoning","reasoning","streisand","effect"],
+    transform: createStandardSkillTransform({
+      sectionName: "Streisand Effect Suppression Rebound Standards",
+      ruSectionName: "Стандарты и регламенты: Streisand Effect Suppression Rebound",
+      instructions: [
+        "Apply core domain tenets for Streisand Effect Suppression Rebound.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Streisand Effect Suppression Rebound.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","streisand","effect"],
+    }),
+  },
+
+  "reasoning-overton-window-public-policy-shifting": {
+    id: "reasoning-overton-window-public-policy-shifting",
+    name: "OvertonWindowPublicPolicyShiftingSkill",
+    displayName: "Overton Window Public Policy Shifting",
+    categoryId: "reasoning",
+    description: "Tracks acceptable range of ideas in political or corporate discourse.",
+    tags: ["reasoning","reasoning","overton","window"],
+    transform: createStandardSkillTransform({
+      sectionName: "Overton Window Public Policy Shifting Standards",
+      ruSectionName: "Стандарты и регламенты: Overton Window Public Policy Shifting",
+      instructions: [
+        "Apply core domain tenets for Overton Window Public Policy Shifting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Overton Window Public Policy Shifting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","overton","window"],
+    }),
+  },
+
+  "reasoning-eichmann-banality-of-evil-structural-drift": {
+    id: "reasoning-eichmann-banality-of-evil-structural-drift",
+    name: "EichmannBanalityofEvilStructuralDriftSkill",
+    displayName: "Eichmann Banality of Evil Structural Drift",
+    categoryId: "reasoning",
+    description: "Exposes how bureaucratic routine enables harmful systemic outcomes.",
+    tags: ["reasoning","reasoning","eichmann","banality"],
+    transform: createStandardSkillTransform({
+      sectionName: "Eichmann Banality of Evil Structural Drift Standards",
+      ruSectionName: "Стандарты и регламенты: Eichmann Banality of Evil Structural Drift",
+      instructions: [
+        "Apply core domain tenets for Eichmann Banality of Evil Structural Drift.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Eichmann Banality of Evil Structural Drift.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","eichmann","banality"],
+    }),
+  },
+
+  "reasoning-jevons-paradox-efficiency-demand-spike": {
+    id: "reasoning-jevons-paradox-efficiency-demand-spike",
+    name: "JevonsParadoxEfficiencyDemandSpikeSkill",
+    displayName: "Jevons Paradox Efficiency Demand Spike",
+    categoryId: "reasoning",
+    description: "Anticipates increased overall consumption as technology makes resource use cheaper.",
+    tags: ["reasoning","reasoning","jevons","paradox"],
+    transform: createStandardSkillTransform({
+      sectionName: "Jevons Paradox Efficiency Demand Spike Standards",
+      ruSectionName: "Стандарты и регламенты: Jevons Paradox Efficiency Demand Spike",
+      instructions: [
+        "Apply core domain tenets for Jevons Paradox Efficiency Demand Spike.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Jevons Paradox Efficiency Demand Spike.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","jevons","paradox"],
+    }),
+  },
+
+  "reasoning-pascal-wager-infinite-expected-value": {
+    id: "reasoning-pascal-wager-infinite-expected-value",
+    name: "PascalWagerInfiniteExpectedValueSkill",
+    displayName: "Pascal Wager Infinite Expected Value",
+    categoryId: "reasoning",
+    description: "Evaluates asymmetrical risk where potential loss is infinite.",
+    tags: ["reasoning","reasoning","pascal","wager"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pascal Wager Infinite Expected Value Standards",
+      ruSectionName: "Стандарты и регламенты: Pascal Wager Infinite Expected Value",
+      instructions: [
+        "Apply core domain tenets for Pascal Wager Infinite Expected Value.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Pascal Wager Infinite Expected Value.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","pascal","wager"],
+    }),
+  },
+
+  "reasoning-ship-of-theseus-identity-persistence": {
+    id: "reasoning-ship-of-theseus-identity-persistence",
+    name: "ShipofTheseusIdentityPersistenceSkill",
+    displayName: "Ship of Theseus Identity Persistence",
+    categoryId: "reasoning",
+    description: "Maintains core architectural identity through complete component replacements.",
+    tags: ["reasoning","reasoning","ship","of"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ship of Theseus Identity Persistence Standards",
+      ruSectionName: "Стандарты и регламенты: Ship of Theseus Identity Persistence",
+      instructions: [
+        "Apply core domain tenets for Ship of Theseus Identity Persistence.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Ship of Theseus Identity Persistence.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","ship","of"],
+    }),
+  },
+
+  "reasoning-prisoner-dilemma-iterated-cooperation": {
+    id: "reasoning-prisoner-dilemma-iterated-cooperation",
+    name: "PrisonerDilemmaIteratedCooperationSkill",
+    displayName: "Prisoner Dilemma Iterated Cooperation",
+    categoryId: "reasoning",
+    description: "Builds tit-for-tat strategies to foster long-term mutual trust in games.",
+    tags: ["reasoning","reasoning","prisoner","dilemma"],
+    transform: createStandardSkillTransform({
+      sectionName: "Prisoner Dilemma Iterated Cooperation Standards",
+      ruSectionName: "Стандарты и регламенты: Prisoner Dilemma Iterated Cooperation",
+      instructions: [
+        "Apply core domain tenets for Prisoner Dilemma Iterated Cooperation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Prisoner Dilemma Iterated Cooperation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","prisoner","dilemma"],
+    }),
+  },
+
+  "reasoning-principle-of-explosion-false-premise-containment": {
+    id: "reasoning-principle-of-explosion-false-premise-containment",
+    name: "PrincipleofExplosionFalsePremiseContainmentSkill",
+    displayName: "Principle of Explosion False Premise Containment",
+    categoryId: "reasoning",
+    description: "Prevents a single contradiction from destroying logical consistency.",
+    tags: ["reasoning","reasoning","principle","of"],
+    transform: createStandardSkillTransform({
+      sectionName: "Principle of Explosion False Premise Containment Standards",
+      ruSectionName: "Стандарты и регламенты: Principle of Explosion False Premise Containment",
+      instructions: [
+        "Apply core domain tenets for Principle of Explosion False Premise Containment.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Principle of Explosion False Premise Containment.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","principle","of"],
+    }),
+  },
+
+  "reasoning-g-del-incompleteness-boundary-recognition": {
+    id: "reasoning-g-del-incompleteness-boundary-recognition",
+    name: "GdelIncompletenessBoundaryRecognitionSkill",
+    displayName: "Gödel Incompleteness Boundary Recognition",
+    categoryId: "reasoning",
+    description: "Acknowledges inherent limitations in formal axiomatic systems.",
+    tags: ["reasoning","reasoning","g","del"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gödel Incompleteness Boundary Recognition Standards",
+      ruSectionName: "Стандарты и регламенты: Gödel Incompleteness Boundary Recognition",
+      instructions: [
+        "Apply core domain tenets for Gödel Incompleteness Boundary Recognition.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gödel Incompleteness Boundary Recognition.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","g","del"],
+    }),
+  },
+
+  "reasoning-heisenberg-observer-effect-measurement-drift": {
+    id: "reasoning-heisenberg-observer-effect-measurement-drift",
+    name: "HeisenbergObserverEffectMeasurementDriftSkill",
+    displayName: "Heisenberg Observer Effect Measurement Drift",
+    categoryId: "reasoning",
+    description: "Account for how measuring a process alters the behavior of the system.",
+    tags: ["reasoning","reasoning","heisenberg","observer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Heisenberg Observer Effect Measurement Drift Standards",
+      ruSectionName: "Стандарты и регламенты: Heisenberg Observer Effect Measurement Drift",
+      instructions: [
+        "Apply core domain tenets for Heisenberg Observer Effect Measurement Drift.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Heisenberg Observer Effect Measurement Drift.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","heisenberg","observer"],
+    }),
+  },
+
+  "reasoning-buridan-ass-indecision-disruption": {
+    id: "reasoning-buridan-ass-indecision-disruption",
+    name: "BuridanAssIndecisionDisruptionSkill",
+    displayName: "Buridan Ass Indecision Disruption",
+    categoryId: "reasoning",
+    description: "Forces a choice between equally attractive options to avoid paralysis.",
+    tags: ["reasoning","reasoning","buridan","ass"],
+    transform: createStandardSkillTransform({
+      sectionName: "Buridan Ass Indecision Disruption Standards",
+      ruSectionName: "Стандарты и регламенты: Buridan Ass Indecision Disruption",
+      instructions: [
+        "Apply core domain tenets for Buridan Ass Indecision Disruption.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Buridan Ass Indecision Disruption.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","buridan","ass"],
+    }),
+  },
+
+  "reasoning-dunning-kruger-competence-calibration": {
+    id: "reasoning-dunning-kruger-competence-calibration",
+    name: "DunningKrugerCompetenceCalibrationSkill",
+    displayName: "Dunning-Kruger Competence Calibration",
+    categoryId: "reasoning",
+    description: "Adjusts self-assessment based on actual domain expertise metrics.",
+    tags: ["reasoning","reasoning","dunning","kruger"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dunning-Kruger Competence Calibration Standards",
+      ruSectionName: "Стандарты и регламенты: Dunning-Kruger Competence Calibration",
+      instructions: [
+        "Apply core domain tenets for Dunning-Kruger Competence Calibration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dunning-Kruger Competence Calibration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","dunning","kruger"],
+    }),
+  },
+
+  "reasoning-zero-sum-vs-positive-sum-game-selection": {
+    id: "reasoning-zero-sum-vs-positive-sum-game-selection",
+    name: "ZeroSumvsPositiveSumGameSelectionSkill",
+    displayName: "Zero-Sum vs Positive-Sum Game Selection",
+    categoryId: "reasoning",
+    description: "Reframes competitive conflicts into mutually beneficial win-win deals.",
+    tags: ["reasoning","reasoning","zero","sum"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zero-Sum vs Positive-Sum Game Selection Standards",
+      ruSectionName: "Стандарты и регламенты: Zero-Sum vs Positive-Sum Game Selection",
+      instructions: [
+        "Apply core domain tenets for Zero-Sum vs Positive-Sum Game Selection.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Zero-Sum vs Positive-Sum Game Selection.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","zero","sum"],
+    }),
+  },
+
+  "reasoning-conjunction-fallacy-probability-correction": {
+    id: "reasoning-conjunction-fallacy-probability-correction",
+    name: "ConjunctionFallacyProbabilityCorrectionSkill",
+    displayName: "Conjunction Fallacy Probability Correction",
+    categoryId: "reasoning",
+    description: "Remembers that specific conditions are less probable than general ones.",
+    tags: ["reasoning","reasoning","conjunction","fallacy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Conjunction Fallacy Probability Correction Standards",
+      ruSectionName: "Стандарты и регламенты: Conjunction Fallacy Probability Correction",
+      instructions: [
+        "Apply core domain tenets for Conjunction Fallacy Probability Correction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Conjunction Fallacy Probability Correction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","conjunction","fallacy"],
+    }),
+  },
+
+  "reasoning-base-rate-neglect-prior-probability-anchor": {
+    id: "reasoning-base-rate-neglect-prior-probability-anchor",
+    name: "BaseRateNeglectPriorProbabilityAnchorSkill",
+    displayName: "Base Rate Neglect Prior Probability Anchor",
+    categoryId: "reasoning",
+    description: "Incorporates background statistical frequencies before evaluating specific test data.",
+    tags: ["reasoning","reasoning","base","rate"],
+    transform: createStandardSkillTransform({
+      sectionName: "Base Rate Neglect Prior Probability Anchor Standards",
+      ruSectionName: "Стандарты и регламенты: Base Rate Neglect Prior Probability Anchor",
+      instructions: [
+        "Apply core domain tenets for Base Rate Neglect Prior Probability Anchor.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Base Rate Neglect Prior Probability Anchor.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","base","rate"],
+    }),
+  },
+
+  "reasoning-regression-to-the-mean-statistical-normalization": {
+    id: "reasoning-regression-to-the-mean-statistical-normalization",
+    name: "RegressiontotheMeanStatisticalNormalizationSkill",
+    displayName: "Regression to the Mean Statistical Normalization",
+    categoryId: "reasoning",
+    description: "Anticipates extreme outlier performances will naturally return toward average.",
+    tags: ["reasoning","reasoning","regression","to"],
+    transform: createStandardSkillTransform({
+      sectionName: "Regression to the Mean Statistical Normalization Standards",
+      ruSectionName: "Стандарты и регламенты: Regression to the Mean Statistical Normalization",
+      instructions: [
+        "Apply core domain tenets for Regression to the Mean Statistical Normalization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Regression to the Mean Statistical Normalization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","regression","to"],
+    }),
+  },
+
+  "reasoning-survivorship-bias-historical-analysis": {
+    id: "reasoning-survivorship-bias-historical-analysis",
+    name: "SurvivorshipBiasHistoricalAnalysisSkill",
+    displayName: "Survivorship Bias Historical Analysis",
+    categoryId: "reasoning",
+    description: "Examines failures alongside successes to avoid skewed historical conclusions.",
+    tags: ["reasoning","reasoning","survivorship","bias"],
+    transform: createStandardSkillTransform({
+      sectionName: "Survivorship Bias Historical Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Survivorship Bias Historical Analysis",
+      instructions: [
+        "Apply core domain tenets for Survivorship Bias Historical Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Survivorship Bias Historical Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","survivorship","bias"],
+    }),
+  },
+
+  "reasoning-gambler-fallacy-independent-probability-check": {
+    id: "reasoning-gambler-fallacy-independent-probability-check",
+    name: "GamblerFallacyIndependentProbabilityCheckSkill",
+    displayName: "Gambler Fallacy Independent Probability Check",
+    categoryId: "reasoning",
+    description: "Treats past random outcomes as independent from future coin flips.",
+    tags: ["reasoning","reasoning","gambler","fallacy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gambler Fallacy Independent Probability Check Standards",
+      ruSectionName: "Стандарты и регламенты: Gambler Fallacy Independent Probability Check",
+      instructions: [
+        "Apply core domain tenets for Gambler Fallacy Independent Probability Check.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gambler Fallacy Independent Probability Check.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","gambler","fallacy"],
+    }),
+  },
+
+  "reasoning-availability-heuristic-vividness-neutralization": {
+    id: "reasoning-availability-heuristic-vividness-neutralization",
+    name: "AvailabilityHeuristicVividnessNeutralizationSkill",
+    displayName: "Availability Heuristic Vividness Neutralization",
+    categoryId: "reasoning",
+    description: "Weights statistical frequency higher than recent emotional memories.",
+    tags: ["reasoning","reasoning","availability","heuristic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Availability Heuristic Vividness Neutralization Standards",
+      ruSectionName: "Стандарты и регламенты: Availability Heuristic Vividness Neutralization",
+      instructions: [
+        "Apply core domain tenets for Availability Heuristic Vividness Neutralization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Availability Heuristic Vividness Neutralization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","availability","heuristic"],
+    }),
+  },
+
+  "reasoning-framing-effect-semantic-neutrality-reset": {
+    id: "reasoning-framing-effect-semantic-neutrality-reset",
+    name: "FramingEffectSemanticNeutralityResetSkill",
+    displayName: "Framing Effect Semantic Neutrality Reset",
+    categoryId: "reasoning",
+    description: "Evaluates information independently of whether it is presented positively or negatively.",
+    tags: ["reasoning","reasoning","framing","effect"],
+    transform: createStandardSkillTransform({
+      sectionName: "Framing Effect Semantic Neutrality Reset Standards",
+      ruSectionName: "Стандарты и регламенты: Framing Effect Semantic Neutrality Reset",
+      instructions: [
+        "Apply core domain tenets for Framing Effect Semantic Neutrality Reset.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Framing Effect Semantic Neutrality Reset.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","framing","effect"],
+    }),
+  },
+
+  "reasoning-false-dilemma-binary-choice-expansion": {
+    id: "reasoning-false-dilemma-binary-choice-expansion",
+    name: "FalseDilemmaBinaryChoiceExpansionSkill",
+    displayName: "False Dilemma Binary Choice Expansion",
+    categoryId: "reasoning",
+    description: "Identifies third and fourth hidden alternatives beyond rigid black-and-white options.",
+    tags: ["reasoning","reasoning","false","dilemma"],
+    transform: createStandardSkillTransform({
+      sectionName: "False Dilemma Binary Choice Expansion Standards",
+      ruSectionName: "Стандарты и регламенты: False Dilemma Binary Choice Expansion",
+      instructions: [
+        "Apply core domain tenets for False Dilemma Binary Choice Expansion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для False Dilemma Binary Choice Expansion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","false","dilemma"],
+    }),
+  },
+
+  "reasoning-straw-man-argument-steelmanning-elevation": {
+    id: "reasoning-straw-man-argument-steelmanning-elevation",
+    name: "StrawManArgumentSteelmanningElevationSkill",
+    displayName: "Straw Man Argument Steelmanning Elevation",
+    categoryId: "reasoning",
+    description: "Reframes opponent arguments in their strongest possible form before critique.",
+    tags: ["reasoning","reasoning","straw","man"],
+    transform: createStandardSkillTransform({
+      sectionName: "Straw Man Argument Steelmanning Elevation Standards",
+      ruSectionName: "Стандарты и регламенты: Straw Man Argument Steelmanning Elevation",
+      instructions: [
+        "Apply core domain tenets for Straw Man Argument Steelmanning Elevation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Straw Man Argument Steelmanning Elevation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["reasoning","reasoning","straw","man"],
+    }),
+  },
 };

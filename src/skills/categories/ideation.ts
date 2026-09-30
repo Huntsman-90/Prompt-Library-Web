@@ -1977,4 +1977,2377 @@ export const IDEATION_SKILLS: Record<string, SkillDefinition> = {
       tags: ["ideation","rapid","prototyping","paper"],
     }),
   },
+  "ideation-biomimicry-nature-inspired-product-innovation": {
+    id: "ideation-biomimicry-nature-inspired-product-innovation",
+    name: "BiomimicryNatureInspiredProductInnovationSkill",
+    displayName: "Biomimicry Nature-Inspired Product Innovation",
+    categoryId: "ideation",
+    description: "Adapts biological mechanisms (burrs, shark skin, bird beaks) to solve engineering problems.",
+    tags: ["ideation","ideation","biomimicry","nature"],
+    transform: createStandardSkillTransform({
+      sectionName: "Biomimicry Nature-Inspired Product Innovation Standards",
+      ruSectionName: "Стандарты и регламенты: Biomimicry Nature-Inspired Product Innovation",
+      instructions: [
+        "Apply core domain tenets for Biomimicry Nature-Inspired Product Innovation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Biomimicry Nature-Inspired Product Innovation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","biomimicry","nature"],
+    }),
+  },
+
+  "ideation-triz-40-inventive-principles-contradiction-matrix": {
+    id: "ideation-triz-40-inventive-principles-contradiction-matrix",
+    name: "TRIZ40InventivePrinciplesContradictionMatrixSkill",
+    displayName: "TRIZ 40 Inventive Principles Contradiction Matrix",
+    categoryId: "ideation",
+    description: "Resolves technical contradictions using Genrich Altshuller's 40 inventive principles.",
+    tags: ["ideation","ideation","triz","40"],
+    transform: createStandardSkillTransform({
+      sectionName: "TRIZ 40 Inventive Principles Contradiction Matrix Standards",
+      ruSectionName: "Стандарты и регламенты: TRIZ 40 Inventive Principles Contradiction Matrix",
+      instructions: [
+        "Apply core domain tenets for TRIZ 40 Inventive Principles Contradiction Matrix.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для TRIZ 40 Inventive Principles Contradiction Matrix.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","triz","40"],
+    }),
+  },
+
+  "ideation-opposable-mind-integrative-thinking-synthesis": {
+    id: "ideation-opposable-mind-integrative-thinking-synthesis",
+    name: "OpposableMindIntegrativeThinkingSynthesisSkill",
+    displayName: "Opposable Mind Integrative Thinking Synthesis",
+    categoryId: "ideation",
+    description: "Holds two opposing ideas in tension to create a superior third solution.",
+    tags: ["ideation","ideation","opposable","mind"],
+    transform: createStandardSkillTransform({
+      sectionName: "Opposable Mind Integrative Thinking Synthesis Standards",
+      ruSectionName: "Стандарты и регламенты: Opposable Mind Integrative Thinking Synthesis",
+      instructions: [
+        "Apply core domain tenets for Opposable Mind Integrative Thinking Synthesis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Opposable Mind Integrative Thinking Synthesis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","opposable","mind"],
+    }),
+  },
+
+  "ideation-design-thinking-empathize-define-innovation-loop": {
+    id: "ideation-design-thinking-empathize-define-innovation-loop",
+    name: "DesignThinkingEmpathizeDefineInnovationLoopSkill",
+    displayName: "Design Thinking Empathize-Define Innovation Loop",
+    categoryId: "ideation",
+    description: "Generates user-centered concepts based on deep ethnographic empathy observations.",
+    tags: ["ideation","ideation","design","thinking"],
+    transform: createStandardSkillTransform({
+      sectionName: "Design Thinking Empathize-Define Innovation Loop Standards",
+      ruSectionName: "Стандарты и регламенты: Design Thinking Empathize-Define Innovation Loop",
+      instructions: [
+        "Apply core domain tenets for Design Thinking Empathize-Define Innovation Loop.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Design Thinking Empathize-Define Innovation Loop.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","design","thinking"],
+    }),
+  },
+
+  "ideation-rapid-paper-prototyping-concept-mock": {
+    id: "ideation-rapid-paper-prototyping-concept-mock",
+    name: "RapidPaperPrototypingConceptMockSkill",
+    displayName: "Rapid Paper Prototyping Concept Mock",
+    categoryId: "ideation",
+    description: "Creates quick low-fidelity paper concept sketches to test ideas with users in 1 hour.",
+    tags: ["ideation","ideation","rapid","paper"],
+    transform: createStandardSkillTransform({
+      sectionName: "Rapid Paper Prototyping Concept Mock Standards",
+      ruSectionName: "Стандарты и регламенты: Rapid Paper Prototyping Concept Mock",
+      instructions: [
+        "Apply core domain tenets for Rapid Paper Prototyping Concept Mock.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Rapid Paper Prototyping Concept Mock.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","rapid","paper"],
+    }),
+  },
+
+  "ideation-disney-creative-strategy-three-rooms": {
+    id: "ideation-disney-creative-strategy-three-rooms",
+    name: "DisneyCreativeStrategyThreeRoomsSkill",
+    displayName: "Disney Creative Strategy Three Rooms",
+    categoryId: "ideation",
+    description: "Cycles ideas through the Dreamer (Vision), the Realist (Plan), and the Spoiler (Critique).",
+    tags: ["ideation","ideation","disney","creative"],
+    transform: createStandardSkillTransform({
+      sectionName: "Disney Creative Strategy Three Rooms Standards",
+      ruSectionName: "Стандарты и регламенты: Disney Creative Strategy Three Rooms",
+      instructions: [
+        "Apply core domain tenets for Disney Creative Strategy Three Rooms.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Disney Creative Strategy Three Rooms.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","disney","creative"],
+    }),
+  },
+
+  "ideation-six-serving-men-kipling-5w1h-framework": {
+    id: "ideation-six-serving-men-kipling-5w1h-framework",
+    name: "SixServingMenKipling5W1HFrameworkSkill",
+    displayName: "Six Serving Men Kipling 5W1H Framework",
+    categoryId: "ideation",
+    description: "Explores problem spaces using What, Why, When, How, Where, and Who questions.",
+    tags: ["ideation","ideation","six","serving"],
+    transform: createStandardSkillTransform({
+      sectionName: "Six Serving Men Kipling 5W1H Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Six Serving Men Kipling 5W1H Framework",
+      instructions: [
+        "Apply core domain tenets for Six Serving Men Kipling 5W1H Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Six Serving Men Kipling 5W1H Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","six","serving"],
+    }),
+  },
+
+  "ideation-provocation-movement-po-edward-de-bono": {
+    id: "ideation-provocation-movement-po-edward-de-bono",
+    name: "ProvocationMovementPOEdwarddeBonoSkill",
+    displayName: "Provocation & Movement (PO) Edward de Bono",
+    categoryId: "ideation",
+    description: "Uses absurd statements ('PO: Cars have square wheels') to jumpstart lateral thinking.",
+    tags: ["ideation","ideation","provocation","movement"],
+    transform: createStandardSkillTransform({
+      sectionName: "Provocation & Movement (PO) Edward de Bono Standards",
+      ruSectionName: "Стандарты и регламенты: Provocation & Movement (PO) Edward de Bono",
+      instructions: [
+        "Apply core domain tenets for Provocation & Movement (PO) Edward de Bono.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Provocation & Movement (PO) Edward de Bono.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","provocation","movement"],
+    }),
+  },
+
+  "ideation-mind-mapping-radial-concept-expansion": {
+    id: "ideation-mind-mapping-radial-concept-expansion",
+    name: "MindMappingRadialConceptExpansionSkill",
+    displayName: "Mind Mapping Radial Concept Expansion",
+    categoryId: "ideation",
+    description: "Expands central ideas outward into interconnected branches of sub-concepts.",
+    tags: ["ideation","ideation","mind","mapping"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mind Mapping Radial Concept Expansion Standards",
+      ruSectionName: "Стандарты и регламенты: Mind Mapping Radial Concept Expansion",
+      instructions: [
+        "Apply core domain tenets for Mind Mapping Radial Concept Expansion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Mind Mapping Radial Concept Expansion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","mind","mapping"],
+    }),
+  },
+
+  "ideation-lotus-blossom-idea-expansion-grid": {
+    id: "ideation-lotus-blossom-idea-expansion-grid",
+    name: "LotusBlossomIdeaExpansionGridSkill",
+    displayName: "Lotus Blossom Idea Expansion Grid",
+    categoryId: "ideation",
+    description: "Expands 1 core idea into 8 sub-ideas, then expands each sub-idea into 8 more.",
+    tags: ["ideation","ideation","lotus","blossom"],
+    transform: createStandardSkillTransform({
+      sectionName: "Lotus Blossom Idea Expansion Grid Standards",
+      ruSectionName: "Стандарты и регламенты: Lotus Blossom Idea Expansion Grid",
+      instructions: [
+        "Apply core domain tenets for Lotus Blossom Idea Expansion Grid.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Lotus Blossom Idea Expansion Grid.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","lotus","blossom"],
+    }),
+  },
+
+  "ideation-scamper-substitute-component-exploration": {
+    id: "ideation-scamper-substitute-component-exploration",
+    name: "SCAMPERSubstituteComponentExplorationSkill",
+    displayName: "SCAMPER Substitute Component Exploration",
+    categoryId: "ideation",
+    description: "Explores substituting materials, processes, or audiences in an existing product.",
+    tags: ["ideation","ideation","scamper","substitute"],
+    transform: createStandardSkillTransform({
+      sectionName: "SCAMPER Substitute Component Exploration Standards",
+      ruSectionName: "Стандарты и регламенты: SCAMPER Substitute Component Exploration",
+      instructions: [
+        "Apply core domain tenets for SCAMPER Substitute Component Exploration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SCAMPER Substitute Component Exploration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","scamper","substitute"],
+    }),
+  },
+
+  "ideation-scamper-combine-feature-integration": {
+    id: "ideation-scamper-combine-feature-integration",
+    name: "SCAMPERCombineFeatureIntegrationSkill",
+    displayName: "SCAMPER Combine Feature Integration",
+    categoryId: "ideation",
+    description: "Combines two separate products or services into a unified multi-tool.",
+    tags: ["ideation","ideation","scamper","combine"],
+    transform: createStandardSkillTransform({
+      sectionName: "SCAMPER Combine Feature Integration Standards",
+      ruSectionName: "Стандарты и регламенты: SCAMPER Combine Feature Integration",
+      instructions: [
+        "Apply core domain tenets for SCAMPER Combine Feature Integration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SCAMPER Combine Feature Integration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","scamper","combine"],
+    }),
+  },
+
+  "ideation-scamper-adapt-cross-industry-feature": {
+    id: "ideation-scamper-adapt-cross-industry-feature",
+    name: "SCAMPERAdaptCrossIndustryFeatureSkill",
+    displayName: "SCAMPER Adapt Cross-Industry Feature",
+    categoryId: "ideation",
+    description: "Adapts a feature from video games, aviation, or sports into corporate software.",
+    tags: ["ideation","ideation","scamper","adapt"],
+    transform: createStandardSkillTransform({
+      sectionName: "SCAMPER Adapt Cross-Industry Feature Standards",
+      ruSectionName: "Стандарты и регламенты: SCAMPER Adapt Cross-Industry Feature",
+      instructions: [
+        "Apply core domain tenets for SCAMPER Adapt Cross-Industry Feature.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SCAMPER Adapt Cross-Industry Feature.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","scamper","adapt"],
+    }),
+  },
+
+  "ideation-scamper-modify-magnify-minify-scale": {
+    id: "ideation-scamper-modify-magnify-minify-scale",
+    name: "SCAMPERModifyMagnifyMinifyScaleSkill",
+    displayName: "SCAMPER Modify Magnify/Minify Scale",
+    categoryId: "ideation",
+    description: "Magnifies or minifies size, speed, price, or frequency to invent new tiers.",
+    tags: ["ideation","ideation","scamper","modify"],
+    transform: createStandardSkillTransform({
+      sectionName: "SCAMPER Modify Magnify/Minify Scale Standards",
+      ruSectionName: "Стандарты и регламенты: SCAMPER Modify Magnify/Minify Scale",
+      instructions: [
+        "Apply core domain tenets for SCAMPER Modify Magnify/Minify Scale.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SCAMPER Modify Magnify/Minify Scale.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","scamper","modify"],
+    }),
+  },
+
+  "ideation-scamper-put-to-other-uses-repurposing": {
+    id: "ideation-scamper-put-to-other-uses-repurposing",
+    name: "SCAMPERPuttoOtherUsesRepurposingSkill",
+    displayName: "SCAMPER Put to Other Uses Repurposing",
+    categoryId: "ideation",
+    description: "Repurposes waste products or dormant assets for completely new markets.",
+    tags: ["ideation","ideation","scamper","put"],
+    transform: createStandardSkillTransform({
+      sectionName: "SCAMPER Put to Other Uses Repurposing Standards",
+      ruSectionName: "Стандарты и регламенты: SCAMPER Put to Other Uses Repurposing",
+      instructions: [
+        "Apply core domain tenets for SCAMPER Put to Other Uses Repurposing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SCAMPER Put to Other Uses Repurposing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","scamper","put"],
+    }),
+  },
+
+  "ideation-scamper-eliminate-feature-reduction": {
+    id: "ideation-scamper-eliminate-feature-reduction",
+    name: "SCAMPEREliminateFeatureReductionSkill",
+    displayName: "SCAMPER Eliminate Feature Reduction",
+    categoryId: "ideation",
+    description: "Eliminates core features to create ultra-simple, low-cost product variants.",
+    tags: ["ideation","ideation","scamper","eliminate"],
+    transform: createStandardSkillTransform({
+      sectionName: "SCAMPER Eliminate Feature Reduction Standards",
+      ruSectionName: "Стандарты и регламенты: SCAMPER Eliminate Feature Reduction",
+      instructions: [
+        "Apply core domain tenets for SCAMPER Eliminate Feature Reduction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SCAMPER Eliminate Feature Reduction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","scamper","eliminate"],
+    }),
+  },
+
+  "ideation-scamper-reverse-inverted-workflow": {
+    id: "ideation-scamper-reverse-inverted-workflow",
+    name: "SCAMPERReverseInvertedWorkflowSkill",
+    displayName: "SCAMPER Reverse Inverted Workflow",
+    categoryId: "ideation",
+    description: "Reverses the order of operations or flips buyer-seller roles in a transaction.",
+    tags: ["ideation","ideation","scamper","reverse"],
+    transform: createStandardSkillTransform({
+      sectionName: "SCAMPER Reverse Inverted Workflow Standards",
+      ruSectionName: "Стандарты и регламенты: SCAMPER Reverse Inverted Workflow",
+      instructions: [
+        "Apply core domain tenets for SCAMPER Reverse Inverted Workflow.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SCAMPER Reverse Inverted Workflow.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","scamper","reverse"],
+    }),
+  },
+
+  "ideation-brainwriting-6-3-5-silent-ideation": {
+    id: "ideation-brainwriting-6-3-5-silent-ideation",
+    name: "Brainwriting635SilentIdeationSkill",
+    displayName: "Brainwriting 6-3-5 Silent Ideation",
+    categoryId: "ideation",
+    description: "6 participants write 3 ideas on paper in 5 minutes, passing sheets to build on ideas silently.",
+    tags: ["ideation","ideation","brainwriting","6"],
+    transform: createStandardSkillTransform({
+      sectionName: "Brainwriting 6-3-5 Silent Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Brainwriting 6-3-5 Silent Ideation",
+      instructions: [
+        "Apply core domain tenets for Brainwriting 6-3-5 Silent Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Brainwriting 6-3-5 Silent Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","brainwriting","6"],
+    }),
+  },
+
+  "ideation-forced-connections-object-association": {
+    id: "ideation-forced-connections-object-association",
+    name: "ForcedConnectionsObjectAssociationSkill",
+    displayName: "Forced Connections Object Association",
+    categoryId: "ideation",
+    description: "Forces logical connections between a toaster, a tree, or a shoe and your business problem.",
+    tags: ["ideation","ideation","forced","connections"],
+    transform: createStandardSkillTransform({
+      sectionName: "Forced Connections Object Association Standards",
+      ruSectionName: "Стандарты и регламенты: Forced Connections Object Association",
+      instructions: [
+        "Apply core domain tenets for Forced Connections Object Association.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Forced Connections Object Association.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","forced","connections"],
+    }),
+  },
+
+  "ideation-question-storming-problem-reframing": {
+    id: "ideation-question-storming-problem-reframing",
+    name: "QuestionStormingProblemReframingSkill",
+    displayName: "Question Storming Problem Reframing",
+    categoryId: "ideation",
+    description: "Generates 50 questions about a problem before attempting to brainstorm any answers.",
+    tags: ["ideation","ideation","question","storming"],
+    transform: createStandardSkillTransform({
+      sectionName: "Question Storming Problem Reframing Standards",
+      ruSectionName: "Стандарты и регламенты: Question Storming Problem Reframing",
+      instructions: [
+        "Apply core domain tenets for Question Storming Problem Reframing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Question Storming Problem Reframing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","question","storming"],
+    }),
+  },
+
+  "ideation-superhero-persona-perspective-swap": {
+    id: "ideation-superhero-persona-perspective-swap",
+    name: "SuperheroPersonaPerspectiveSwapSkill",
+    displayName: "Superhero Persona Perspective Swap",
+    categoryId: "ideation",
+    description: "Asks 'How would Steve Jobs, Elon Musk, or Batman solve this problem?'.",
+    tags: ["ideation","ideation","superhero","persona"],
+    transform: createStandardSkillTransform({
+      sectionName: "Superhero Persona Perspective Swap Standards",
+      ruSectionName: "Стандарты и регламенты: Superhero Persona Perspective Swap",
+      instructions: [
+        "Apply core domain tenets for Superhero Persona Perspective Swap.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Superhero Persona Perspective Swap.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","superhero","persona"],
+    }),
+  },
+
+  "ideation-random-entry-dictionary-word-stimulus": {
+    id: "ideation-random-entry-dictionary-word-stimulus",
+    name: "RandomEntryDictionaryWordStimulusSkill",
+    displayName: "Random Entry Dictionary Word Stimulus",
+    categoryId: "ideation",
+    description: "Picks a random dictionary page to find unexpected metaphors for problem solving.",
+    tags: ["ideation","ideation","random","entry"],
+    transform: createStandardSkillTransform({
+      sectionName: "Random Entry Dictionary Word Stimulus Standards",
+      ruSectionName: "Стандарты и регламенты: Random Entry Dictionary Word Stimulus",
+      instructions: [
+        "Apply core domain tenets for Random Entry Dictionary Word Stimulus.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Random Entry Dictionary Word Stimulus.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","random","entry"],
+    }),
+  },
+
+  "ideation-attribute-listing-feature-decomposition": {
+    id: "ideation-attribute-listing-feature-decomposition",
+    name: "AttributeListingFeatureDecompositionSkill",
+    displayName: "Attribute Listing Feature Decomposition",
+    categoryId: "ideation",
+    description: "Lists all physical and functional attributes of a product, systematically tweaking each.",
+    tags: ["ideation","ideation","attribute","listing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Attribute Listing Feature Decomposition Standards",
+      ruSectionName: "Стандарты и регламенты: Attribute Listing Feature Decomposition",
+      instructions: [
+        "Apply core domain tenets for Attribute Listing Feature Decomposition.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Attribute Listing Feature Decomposition.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","attribute","listing"],
+    }),
+  },
+
+  "ideation-synectics-making-the-strange-familiar": {
+    id: "ideation-synectics-making-the-strange-familiar",
+    name: "SynecticsMakingtheStrangeFamiliarSkill",
+    displayName: "Synectics Making the Strange Familiar",
+    categoryId: "ideation",
+    description: "Uses personal analogies, direct analogies, and fantasy analogies to reframe problems.",
+    tags: ["ideation","ideation","synectics","making"],
+    transform: createStandardSkillTransform({
+      sectionName: "Synectics Making the Strange Familiar Standards",
+      ruSectionName: "Стандарты и регламенты: Synectics Making the Strange Familiar",
+      instructions: [
+        "Apply core domain tenets for Synectics Making the Strange Familiar.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Synectics Making the Strange Familiar.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","synectics","making"],
+    }),
+  },
+
+  "ideation-concept-fan-problem-abstraction-ladder": {
+    id: "ideation-concept-fan-problem-abstraction-ladder",
+    name: "ConceptFanProblemAbstractionLadderSkill",
+    displayName: "Concept Fan Problem Abstraction Ladder",
+    categoryId: "ideation",
+    description: "Broadens or narrows problem statements to discover alternative solution spaces.",
+    tags: ["ideation","ideation","concept","fan"],
+    transform: createStandardSkillTransform({
+      sectionName: "Concept Fan Problem Abstraction Ladder Standards",
+      ruSectionName: "Стандарты и регламенты: Concept Fan Problem Abstraction Ladder",
+      instructions: [
+        "Apply core domain tenets for Concept Fan Problem Abstraction Ladder.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Concept Fan Problem Abstraction Ladder.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","concept","fan"],
+    }),
+  },
+
+  "ideation-wishful-thinking-magic-wand-sandbox": {
+    id: "ideation-wishful-thinking-magic-wand-sandbox",
+    name: "WishfulThinkingMagicWandSandboxSkill",
+    displayName: "Wishful Thinking Magic Wand Sandbox",
+    categoryId: "ideation",
+    description: "Asks 'If magic were real and cost zero, what would the perfect solution look like?'.",
+    tags: ["ideation","ideation","wishful","thinking"],
+    transform: createStandardSkillTransform({
+      sectionName: "Wishful Thinking Magic Wand Sandbox Standards",
+      ruSectionName: "Стандарты и регламенты: Wishful Thinking Magic Wand Sandbox",
+      instructions: [
+        "Apply core domain tenets for Wishful Thinking Magic Wand Sandbox.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Wishful Thinking Magic Wand Sandbox.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","wishful","thinking"],
+    }),
+  },
+
+  "ideation-zero-to-one-peter-thiel-contrarian-truth": {
+    id: "ideation-zero-to-one-peter-thiel-contrarian-truth",
+    name: "ZeroToOnePeterThielContrarianTruthSkill",
+    displayName: "Zero-To-One Peter Thiel Contrarian Truth",
+    categoryId: "ideation",
+    description: "Asks 'What important truth do very few people agree with you on?' to spot monopolies.",
+    tags: ["ideation","ideation","zero","to"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zero-To-One Peter Thiel Contrarian Truth Standards",
+      ruSectionName: "Стандарты и регламенты: Zero-To-One Peter Thiel Contrarian Truth",
+      instructions: [
+        "Apply core domain tenets for Zero-To-One Peter Thiel Contrarian Truth.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Zero-To-One Peter Thiel Contrarian Truth.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","zero","to"],
+    }),
+  },
+
+  "ideation-flywheel-momentum-loop-ideation": {
+    id: "ideation-flywheel-momentum-loop-ideation",
+    name: "FlywheelMomentumLoopIdeationSkill",
+    displayName: "Flywheel Momentum Loop Ideation",
+    categoryId: "ideation",
+    description: "Designs self-reinforcing business loops where each customer action drives the next.",
+    tags: ["ideation","ideation","flywheel","momentum"],
+    transform: createStandardSkillTransform({
+      sectionName: "Flywheel Momentum Loop Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Flywheel Momentum Loop Ideation",
+      instructions: [
+        "Apply core domain tenets for Flywheel Momentum Loop Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Flywheel Momentum Loop Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","flywheel","momentum"],
+    }),
+  },
+
+  "ideation-network-effect-growth-engine-ideation": {
+    id: "ideation-network-effect-growth-engine-ideation",
+    name: "NetworkEffectGrowthEngineIdeationSkill",
+    displayName: "Network Effect Growth Engine Ideation",
+    categoryId: "ideation",
+    description: "Invents product features that become exponentially more valuable as more users join.",
+    tags: ["ideation","ideation","network","effect"],
+    transform: createStandardSkillTransform({
+      sectionName: "Network Effect Growth Engine Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Network Effect Growth Engine Ideation",
+      instructions: [
+        "Apply core domain tenets for Network Effect Growth Engine Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Network Effect Growth Engine Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","network","effect"],
+    }),
+  },
+
+  "ideation-unbundling-monolithic-industry-services": {
+    id: "ideation-unbundling-monolithic-industry-services",
+    name: "UnbundlingMonolithicIndustryServicesSkill",
+    displayName: "Unbundling Monolithic Industry Services",
+    categoryId: "ideation",
+    description: "Unbundles complex corporate software suites into hyper-focused single-purpose apps.",
+    tags: ["ideation","ideation","unbundling","monolithic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Unbundling Monolithic Industry Services Standards",
+      ruSectionName: "Стандарты и регламенты: Unbundling Monolithic Industry Services",
+      instructions: [
+        "Apply core domain tenets for Unbundling Monolithic Industry Services.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Unbundling Monolithic Industry Services.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","unbundling","monolithic"],
+    }),
+  },
+
+  "ideation-re-bundling-fragmented-tool-market": {
+    id: "ideation-re-bundling-fragmented-tool-market",
+    name: "RebundlingFragmentedToolMarketSkill",
+    displayName: "Re-bundling Fragmented Tool Market",
+    categoryId: "ideation",
+    description: "Re-bundles 10 disparate single-purpose tools into a unified seamless platform.",
+    tags: ["ideation","ideation","re","bundling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Re-bundling Fragmented Tool Market Standards",
+      ruSectionName: "Стандарты и регламенты: Re-bundling Fragmented Tool Market",
+      instructions: [
+        "Apply core domain tenets for Re-bundling Fragmented Tool Market.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Re-bundling Fragmented Tool Market.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","re","bundling"],
+    }),
+  },
+
+  "ideation-freemium-viral-mechanics-ideation": {
+    id: "ideation-freemium-viral-mechanics-ideation",
+    name: "FreemiumViralMechanicsIdeationSkill",
+    displayName: "Freemium Viral Mechanics Ideation",
+    categoryId: "ideation",
+    description: "Designs viral sharing mechanics where free users naturally invite paying teammates.",
+    tags: ["ideation","ideation","freemium","viral"],
+    transform: createStandardSkillTransform({
+      sectionName: "Freemium Viral Mechanics Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Freemium Viral Mechanics Ideation",
+      instructions: [
+        "Apply core domain tenets for Freemium Viral Mechanics Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Freemium Viral Mechanics Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","freemium","viral"],
+    }),
+  },
+
+  "ideation-product-led-growth-self-serve-onboarding": {
+    id: "ideation-product-led-growth-self-serve-onboarding",
+    name: "ProductLedGrowthSelfServeOnboardingSkill",
+    displayName: "Product-Led Growth Self-Serve Onboarding",
+    categoryId: "ideation",
+    description: "Ideates self-serve product flows that deliver Time-to-Value in under 60 seconds.",
+    tags: ["ideation","ideation","product","led"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product-Led Growth Self-Serve Onboarding Standards",
+      ruSectionName: "Стандарты и регламенты: Product-Led Growth Self-Serve Onboarding",
+      instructions: [
+        "Apply core domain tenets for Product-Led Growth Self-Serve Onboarding.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Product-Led Growth Self-Serve Onboarding.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","product","led"],
+    }),
+  },
+
+  "ideation-api-first-developer-platform-ideation": {
+    id: "ideation-api-first-developer-platform-ideation",
+    name: "APIFirstDeveloperPlatformIdeationSkill",
+    displayName: "API-First Developer Platform Ideation",
+    categoryId: "ideation",
+    description: "Re-imagines closed software as an open API platform for third-party developers.",
+    tags: ["ideation","ideation","api","first"],
+    transform: createStandardSkillTransform({
+      sectionName: "API-First Developer Platform Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: API-First Developer Platform Ideation",
+      instructions: [
+        "Apply core domain tenets for API-First Developer Platform Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для API-First Developer Platform Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","api","first"],
+    }),
+  },
+
+  "ideation-marketplace-two-sided-liquidity-ideation": {
+    id: "ideation-marketplace-two-sided-liquidity-ideation",
+    name: "MarketplaceTwoSidedLiquidityIdeationSkill",
+    displayName: "Marketplace Two-Sided Liquidity Ideation",
+    categoryId: "ideation",
+    description: "Solves chicken-and-egg cold-start problems in two-sided buyer-seller marketplaces.",
+    tags: ["ideation","ideation","marketplace","two"],
+    transform: createStandardSkillTransform({
+      sectionName: "Marketplace Two-Sided Liquidity Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Marketplace Two-Sided Liquidity Ideation",
+      instructions: [
+        "Apply core domain tenets for Marketplace Two-Sided Liquidity Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Marketplace Two-Sided Liquidity Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","marketplace","two"],
+    }),
+  },
+
+  "ideation-community-led-product-ideation": {
+    id: "ideation-community-led-product-ideation",
+    name: "CommunityLedProductIdeationSkill",
+    displayName: "Community-Led Product Ideation",
+    categoryId: "ideation",
+    description: "Builds product features that empower power users to create and share custom content.",
+    tags: ["ideation","ideation","community","led"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community-Led Product Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Community-Led Product Ideation",
+      instructions: [
+        "Apply core domain tenets for Community-Led Product Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community-Led Product Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","community","led"],
+    }),
+  },
+
+  "ideation-gamification-behavior-modification-ideation": {
+    id: "ideation-gamification-behavior-modification-ideation",
+    name: "GamificationBehaviorModificationIdeationSkill",
+    displayName: "Gamification Behavior Modification Ideation",
+    categoryId: "ideation",
+    description: "Applies streaks, XP points, leaderboards, and badges to make boring tasks engaging.",
+    tags: ["ideation","ideation","gamification","behavior"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gamification Behavior Modification Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Gamification Behavior Modification Ideation",
+      instructions: [
+        "Apply core domain tenets for Gamification Behavior Modification Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gamification Behavior Modification Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","gamification","behavior"],
+    }),
+  },
+
+  "ideation-micro-saas-niche-market-opportunity-spotting": {
+    id: "ideation-micro-saas-niche-market-opportunity-spotting",
+    name: "MicroSaaSNicheMarketOpportunitySpottingSkill",
+    displayName: "Micro-SaaS Niche Market Opportunity Spotting",
+    categoryId: "ideation",
+    description: "Identifies hyper-focused software niches serving specific professional sub-cultures.",
+    tags: ["ideation","ideation","micro","saas"],
+    transform: createStandardSkillTransform({
+      sectionName: "Micro-SaaS Niche Market Opportunity Spotting Standards",
+      ruSectionName: "Стандарты и регламенты: Micro-SaaS Niche Market Opportunity Spotting",
+      instructions: [
+        "Apply core domain tenets for Micro-SaaS Niche Market Opportunity Spotting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Micro-SaaS Niche Market Opportunity Spotting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","micro","saas"],
+    }),
+  },
+
+  "ideation-subscription-recurring-revenue-model-ideation": {
+    id: "ideation-subscription-recurring-revenue-model-ideation",
+    name: "SubscriptionRecurringRevenueModelIdeationSkill",
+    displayName: "Subscription Recurring Revenue Model Ideation",
+    categoryId: "ideation",
+    description: "Converts traditional one-time purchases into recurring value-add subscriptions.",
+    tags: ["ideation","ideation","subscription","recurring"],
+    transform: createStandardSkillTransform({
+      sectionName: "Subscription Recurring Revenue Model Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Subscription Recurring Revenue Model Ideation",
+      instructions: [
+        "Apply core domain tenets for Subscription Recurring Revenue Model Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Subscription Recurring Revenue Model Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","subscription","recurring"],
+    }),
+  },
+
+  "ideation-usage-based-dynamic-pricing-ideation": {
+    id: "ideation-usage-based-dynamic-pricing-ideation",
+    name: "UsageBasedDynamicPricingIdeationSkill",
+    displayName: "Usage-Based Dynamic Pricing Ideation",
+    categoryId: "ideation",
+    description: "Aligns pricing directly with customer success metrics (API calls, storage, revenue).",
+    tags: ["ideation","ideation","usage","based"],
+    transform: createStandardSkillTransform({
+      sectionName: "Usage-Based Dynamic Pricing Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Usage-Based Dynamic Pricing Ideation",
+      instructions: [
+        "Apply core domain tenets for Usage-Based Dynamic Pricing Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Usage-Based Dynamic Pricing Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","usage","based"],
+    }),
+  },
+
+  "ideation-ai-native-workflow-re-imagination": {
+    id: "ideation-ai-native-workflow-re-imagination",
+    name: "AINativeWorkflowReimaginationSkill",
+    displayName: "AI-Native Workflow Re-imagination",
+    categoryId: "ideation",
+    description: "Re-imagines classic software workflows with generative AI at the core.",
+    tags: ["ideation","ideation","ai","native"],
+    transform: createStandardSkillTransform({
+      sectionName: "AI-Native Workflow Re-imagination Standards",
+      ruSectionName: "Стандарты и регламенты: AI-Native Workflow Re-imagination",
+      instructions: [
+        "Apply core domain tenets for AI-Native Workflow Re-imagination.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для AI-Native Workflow Re-imagination.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","ai","native"],
+    }),
+  },
+
+  "ideation-zero-ui-voice-ambient-interface-ideation": {
+    id: "ideation-zero-ui-voice-ambient-interface-ideation",
+    name: "ZeroUIVoiceAmbientInterfaceIdeationSkill",
+    displayName: "Zero-UI Voice & Ambient Interface Ideation",
+    categoryId: "ideation",
+    description: "Designs invisible ambient interfaces that operate via sensors and voice.",
+    tags: ["ideation","ideation","zero","ui"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zero-UI Voice & Ambient Interface Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Zero-UI Voice & Ambient Interface Ideation",
+      instructions: [
+        "Apply core domain tenets for Zero-UI Voice & Ambient Interface Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Zero-UI Voice & Ambient Interface Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","zero","ui"],
+    }),
+  },
+
+  "ideation-no-code-visual-builder-ideation": {
+    id: "ideation-no-code-visual-builder-ideation",
+    name: "NoCodeVisualBuilderIdeationSkill",
+    displayName: "No-Code Visual Builder Ideation",
+    categoryId: "ideation",
+    description: "Transforms complex code tasks into intuitive drag-and-drop visual canvas builders.",
+    tags: ["ideation","ideation","no","code"],
+    transform: createStandardSkillTransform({
+      sectionName: "No-Code Visual Builder Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: No-Code Visual Builder Ideation",
+      instructions: [
+        "Apply core domain tenets for No-Code Visual Builder Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для No-Code Visual Builder Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","no","code"],
+    }),
+  },
+
+  "ideation-sustainable-circular-economy-product-ideation": {
+    id: "ideation-sustainable-circular-economy-product-ideation",
+    name: "SustainableCircularEconomyProductIdeationSkill",
+    displayName: "Sustainable Circular Economy Product Ideation",
+    categoryId: "ideation",
+    description: "Designs products for zero-waste repair, disassembly, and infinite material recycling.",
+    tags: ["ideation","ideation","sustainable","circular"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sustainable Circular Economy Product Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Sustainable Circular Economy Product Ideation",
+      instructions: [
+        "Apply core domain tenets for Sustainable Circular Economy Product Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sustainable Circular Economy Product Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","sustainable","circular"],
+    }),
+  },
+
+  "ideation-hyper-personalization-data-loop-ideation": {
+    id: "ideation-hyper-personalization-data-loop-ideation",
+    name: "HyperPersonalizationDataLoopIdeationSkill",
+    displayName: "Hyper-Personalization Data Loop Ideation",
+    categoryId: "ideation",
+    description: "Builds recommendation engines that customize UI and content for each individual.",
+    tags: ["ideation","ideation","hyper","personalization"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hyper-Personalization Data Loop Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Hyper-Personalization Data Loop Ideation",
+      instructions: [
+        "Apply core domain tenets for Hyper-Personalization Data Loop Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hyper-Personalization Data Loop Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","hyper","personalization"],
+    }),
+  },
+
+  "ideation-edge-computing-zero-latency-ideation": {
+    id: "ideation-edge-computing-zero-latency-ideation",
+    name: "EdgeComputingZeroLatencyIdeationSkill",
+    displayName: "Edge Computing Zero-Latency Ideation",
+    categoryId: "ideation",
+    description: "Invents local-first software features that run entirely on user devices offline.",
+    tags: ["ideation","ideation","edge","computing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Edge Computing Zero-Latency Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Edge Computing Zero-Latency Ideation",
+      instructions: [
+        "Apply core domain tenets for Edge Computing Zero-Latency Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Edge Computing Zero-Latency Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","edge","computing"],
+    }),
+  },
+
+  "ideation-augmented-reality-spatial-computing-ideation": {
+    id: "ideation-augmented-reality-spatial-computing-ideation",
+    name: "AugmentedRealitySpatialComputingIdeationSkill",
+    displayName: "Augmented Reality Spatial Computing Ideation",
+    categoryId: "ideation",
+    description: "Designs spatial 3D interfaces overlaid onto physical environments via AR glasses.",
+    tags: ["ideation","ideation","augmented","reality"],
+    transform: createStandardSkillTransform({
+      sectionName: "Augmented Reality Spatial Computing Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Augmented Reality Spatial Computing Ideation",
+      instructions: [
+        "Apply core domain tenets for Augmented Reality Spatial Computing Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Augmented Reality Spatial Computing Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","augmented","reality"],
+    }),
+  },
+
+  "ideation-biometric-continuous-authentication-ideation": {
+    id: "ideation-biometric-continuous-authentication-ideation",
+    name: "BiometricContinuousAuthenticationIdeationSkill",
+    displayName: "Biometric Continuous Authentication Ideation",
+    categoryId: "ideation",
+    description: "Replaces login forms with passive biometric security signals.",
+    tags: ["ideation","ideation","biometric","continuous"],
+    transform: createStandardSkillTransform({
+      sectionName: "Biometric Continuous Authentication Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Biometric Continuous Authentication Ideation",
+      instructions: [
+        "Apply core domain tenets for Biometric Continuous Authentication Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Biometric Continuous Authentication Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","biometric","continuous"],
+    }),
+  },
+
+  "ideation-decentralized-peer-to-peer-protocol-ideation": {
+    id: "ideation-decentralized-peer-to-peer-protocol-ideation",
+    name: "DecentralizedPeertoPeerProtocolIdeationSkill",
+    displayName: "Decentralized Peer-to-Peer Protocol Ideation",
+    categoryId: "ideation",
+    description: "Architects serverless peer-to-peer applications without central company control.",
+    tags: ["ideation","ideation","decentralized","peer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Decentralized Peer-to-Peer Protocol Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Decentralized Peer-to-Peer Protocol Ideation",
+      instructions: [
+        "Apply core domain tenets for Decentralized Peer-to-Peer Protocol Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Decentralized Peer-to-Peer Protocol Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","decentralized","peer"],
+    }),
+  },
+
+  "ideation-autonomous-agent-execution-ideation": {
+    id: "ideation-autonomous-agent-execution-ideation",
+    name: "AutonomousAgentExecutionIdeationSkill",
+    displayName: "Autonomous Agent Execution Ideation",
+    categoryId: "ideation",
+    description: "Designs software that operates autonomously as background AI workers.",
+    tags: ["ideation","ideation","autonomous","agent"],
+    transform: createStandardSkillTransform({
+      sectionName: "Autonomous Agent Execution Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Autonomous Agent Execution Ideation",
+      instructions: [
+        "Apply core domain tenets for Autonomous Agent Execution Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Autonomous Agent Execution Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","autonomous","agent"],
+    }),
+  },
+
+  "ideation-saas-vertical-integration-expansion": {
+    id: "ideation-saas-vertical-integration-expansion",
+    name: "SaaSVerticalIntegrationExpansionSkill",
+    displayName: "SaaS Vertical Integration Expansion",
+    categoryId: "ideation",
+    description: "Expands horizontal software into vertically integrated end-to-end industry suites.",
+    tags: ["ideation","ideation","saas","vertical"],
+    transform: createStandardSkillTransform({
+      sectionName: "SaaS Vertical Integration Expansion Standards",
+      ruSectionName: "Стандарты и регламенты: SaaS Vertical Integration Expansion",
+      instructions: [
+        "Apply core domain tenets for SaaS Vertical Integration Expansion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SaaS Vertical Integration Expansion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","saas","vertical"],
+    }),
+  },
+
+  "ideation-crowdsourced-intelligence-engine-ideation": {
+    id: "ideation-crowdsourced-intelligence-engine-ideation",
+    name: "CrowdsourcedIntelligenceEngineIdeationSkill",
+    displayName: "Crowdsourced Intelligence Engine Ideation",
+    categoryId: "ideation",
+    description: "Harnesses collective human intelligence to solve complex data labeling tasks.",
+    tags: ["ideation","ideation","crowdsourced","intelligence"],
+    transform: createStandardSkillTransform({
+      sectionName: "Crowdsourced Intelligence Engine Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Crowdsourced Intelligence Engine Ideation",
+      instructions: [
+        "Apply core domain tenets for Crowdsourced Intelligence Engine Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Crowdsourced Intelligence Engine Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","crowdsourced","intelligence"],
+    }),
+  },
+
+  "ideation-embedded-financial-services-integration": {
+    id: "ideation-embedded-financial-services-integration",
+    name: "EmbeddedFinancialServicesIntegrationSkill",
+    displayName: "Embedded Financial Services Integration",
+    categoryId: "ideation",
+    description: "Embeds banking, insurance, and lending features directly inside non-financial SaaS.",
+    tags: ["ideation","ideation","embedded","financial"],
+    transform: createStandardSkillTransform({
+      sectionName: "Embedded Financial Services Integration Standards",
+      ruSectionName: "Стандарты и регламенты: Embedded Financial Services Integration",
+      instructions: [
+        "Apply core domain tenets for Embedded Financial Services Integration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Embedded Financial Services Integration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","embedded","financial"],
+    }),
+  },
+
+  "ideation-dark-horse-unconventional-strategy-ideation": {
+    id: "ideation-dark-horse-unconventional-strategy-ideation",
+    name: "DarkHorseUnconventionalStrategyIdeationSkill",
+    displayName: "Dark Horse Unconventional Strategy Ideation",
+    categoryId: "ideation",
+    description: "Explores radical, counter-intuitive business moves that competitors would never expect.",
+    tags: ["ideation","ideation","dark","horse"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dark Horse Unconventional Strategy Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Dark Horse Unconventional Strategy Ideation",
+      instructions: [
+        "Apply core domain tenets for Dark Horse Unconventional Strategy Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dark Horse Unconventional Strategy Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","dark","horse"],
+    }),
+  },
+
+  "ideation-silent-brainstorming-digital-card-sorting": {
+    id: "ideation-silent-brainstorming-digital-card-sorting",
+    name: "SilentBrainstormingDigitalCardSortingSkill",
+    displayName: "Silent Brainstorming Digital Card Sorting",
+    categoryId: "ideation",
+    description: "Conducts async digital card sorting to group and prioritize product concepts.",
+    tags: ["ideation","ideation","silent","brainstorming"],
+    transform: createStandardSkillTransform({
+      sectionName: "Silent Brainstorming Digital Card Sorting Standards",
+      ruSectionName: "Стандарты и регламенты: Silent Brainstorming Digital Card Sorting",
+      instructions: [
+        "Apply core domain tenets for Silent Brainstorming Digital Card Sorting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Silent Brainstorming Digital Card Sorting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","silent","brainstorming"],
+    }),
+  },
+
+  "ideation-user-persona-friction-point-inversion": {
+    id: "ideation-user-persona-friction-point-inversion",
+    name: "UserPersonaFrictionPointInversionSkill",
+    displayName: "User Persona Friction Point Inversion",
+    categoryId: "ideation",
+    description: "Turns the top 3 complaints of target user personas into headline marketing features.",
+    tags: ["ideation","ideation","user","persona"],
+    transform: createStandardSkillTransform({
+      sectionName: "User Persona Friction Point Inversion Standards",
+      ruSectionName: "Стандарты и регламенты: User Persona Friction Point Inversion",
+      instructions: [
+        "Apply core domain tenets for User Persona Friction Point Inversion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для User Persona Friction Point Inversion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","user","persona"],
+    }),
+  },
+
+  "ideation-rapid-prototyping-smoke-test-landing-page": {
+    id: "ideation-rapid-prototyping-smoke-test-landing-page",
+    name: "RapidPrototypingSmokeTestLandingPageSkill",
+    displayName: "Rapid Prototyping Smoke Test Landing Page",
+    categoryId: "ideation",
+    description: "Tests product demand by launching 1-page landing pages with email waitlists.",
+    tags: ["ideation","ideation","rapid","prototyping"],
+    transform: createStandardSkillTransform({
+      sectionName: "Rapid Prototyping Smoke Test Landing Page Standards",
+      ruSectionName: "Стандарты и регламенты: Rapid Prototyping Smoke Test Landing Page",
+      instructions: [
+        "Apply core domain tenets for Rapid Prototyping Smoke Test Landing Page.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Rapid Prototyping Smoke Test Landing Page.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","rapid","prototyping"],
+    }),
+  },
+
+  "ideation-a-b-test-hypothesis-matrix-ideation": {
+    id: "ideation-a-b-test-hypothesis-matrix-ideation",
+    name: "ABTestHypothesisMatrixIdeationSkill",
+    displayName: "A/B Test Hypothesis Matrix Ideation",
+    categoryId: "ideation",
+    description: "Generates high-velocity growth experiment hypotheses for conversion optimization.",
+    tags: ["ideation","ideation","a","b"],
+    transform: createStandardSkillTransform({
+      sectionName: "A/B Test Hypothesis Matrix Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: A/B Test Hypothesis Matrix Ideation",
+      instructions: [
+        "Apply core domain tenets for A/B Test Hypothesis Matrix Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для A/B Test Hypothesis Matrix Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","a","b"],
+    }),
+  },
+
+  "ideation-cross-pollination-ecosystem-partnership": {
+    id: "ideation-cross-pollination-ecosystem-partnership",
+    name: "CrossPollinationEcosystemPartnershipSkill",
+    displayName: "Cross-Pollination Ecosystem Partnership",
+    categoryId: "ideation",
+    description: "Creates strategic co-marketing partnerships with complementary non-competing brands.",
+    tags: ["ideation","ideation","cross","pollination"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Pollination Ecosystem Partnership Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Pollination Ecosystem Partnership",
+      instructions: [
+        "Apply core domain tenets for Cross-Pollination Ecosystem Partnership.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Pollination Ecosystem Partnership.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","cross","pollination"],
+    }),
+  },
+
+  "ideation-product-disassembly-tear-down-analysis": {
+    id: "ideation-product-disassembly-tear-down-analysis",
+    name: "ProductDisassemblyTeardownAnalysisSkill",
+    displayName: "Product Disassembly & Tear-down Analysis",
+    categoryId: "ideation",
+    description: "Tears down competitor products step-by-step to identify hidden engineering innovations.",
+    tags: ["ideation","ideation","product","disassembly"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product Disassembly & Tear-down Analysis Standards",
+      ruSectionName: "Стандарты и регламенты: Product Disassembly & Tear-down Analysis",
+      instructions: [
+        "Apply core domain tenets for Product Disassembly & Tear-down Analysis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Product Disassembly & Tear-down Analysis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","product","disassembly"],
+    }),
+  },
+
+  "ideation-strategic-pre-mortem-failure-prevention": {
+    id: "ideation-strategic-pre-mortem-failure-prevention",
+    name: "StrategicPreMortemFailurePreventionSkill",
+    displayName: "Strategic Pre-Mortem Failure Prevention",
+    categoryId: "ideation",
+    description: "Assumes a project failed 1 year in the future and identifies all causes today.",
+    tags: ["ideation","ideation","strategic","pre"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strategic Pre-Mortem Failure Prevention Standards",
+      ruSectionName: "Стандарты и регламенты: Strategic Pre-Mortem Failure Prevention",
+      instructions: [
+        "Apply core domain tenets for Strategic Pre-Mortem Failure Prevention.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Strategic Pre-Mortem Failure Prevention.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","strategic","pre"],
+    }),
+  },
+
+  "ideation-value-chain-disintermediation-ideation": {
+    id: "ideation-value-chain-disintermediation-ideation",
+    name: "ValueChainDisintermediationIdeationSkill",
+    displayName: "Value Chain Disintermediation Ideation",
+    categoryId: "ideation",
+    description: "Cuts out middleman distributors to connect producers directly with end consumers.",
+    tags: ["ideation","ideation","value","chain"],
+    transform: createStandardSkillTransform({
+      sectionName: "Value Chain Disintermediation Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Value Chain Disintermediation Ideation",
+      instructions: [
+        "Apply core domain tenets for Value Chain Disintermediation Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Value Chain Disintermediation Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","value","chain"],
+    }),
+  },
+
+  "ideation-hyper-local-community-marketplace-ideation": {
+    id: "ideation-hyper-local-community-marketplace-ideation",
+    name: "HyperLocalCommunityMarketplaceIdeationSkill",
+    displayName: "Hyper-Local Community Marketplace Ideation",
+    categoryId: "ideation",
+    description: "Designs geo-fenced services that connect neighbors for local resource sharing.",
+    tags: ["ideation","ideation","hyper","local"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hyper-Local Community Marketplace Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Hyper-Local Community Marketplace Ideation",
+      instructions: [
+        "Apply core domain tenets for Hyper-Local Community Marketplace Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hyper-Local Community Marketplace Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","hyper","local"],
+    }),
+  },
+
+  "ideation-ethical-nudge-choice-architecture-ideation": {
+    id: "ideation-ethical-nudge-choice-architecture-ideation",
+    name: "EthicalNudgeChoiceArchitectureIdeationSkill",
+    displayName: "Ethical Nudge Choice Architecture Ideation",
+    categoryId: "ideation",
+    description: "Designs subtle interface nudges that guide users toward healthy financial/health choices.",
+    tags: ["ideation","ideation","ethical","nudge"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ethical Nudge Choice Architecture Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Ethical Nudge Choice Architecture Ideation",
+      instructions: [
+        "Apply core domain tenets for Ethical Nudge Choice Architecture Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Ethical Nudge Choice Architecture Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","ethical","nudge"],
+    }),
+  },
+
+  "ideation-accessibility-first-innovation-universal-design": {
+    id: "ideation-accessibility-first-innovation-universal-design",
+    name: "AccessibilityFirstInnovationUniversalDesignSkill",
+    displayName: "Accessibility-First Innovation Universal Design",
+    categoryId: "ideation",
+    description: "Innovates for disabled users first, creating superior features for all users.",
+    tags: ["ideation","ideation","accessibility","first"],
+    transform: createStandardSkillTransform({
+      sectionName: "Accessibility-First Innovation Universal Design Standards",
+      ruSectionName: "Стандарты и регламенты: Accessibility-First Innovation Universal Design",
+      instructions: [
+        "Apply core domain tenets for Accessibility-First Innovation Universal Design.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Accessibility-First Innovation Universal Design.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","accessibility","first"],
+    }),
+  },
+
+  "ideation-open-source-commercialization-model-ideation": {
+    id: "ideation-open-source-commercialization-model-ideation",
+    name: "OpenSourceCommercializationModelIdeationSkill",
+    displayName: "Open Source Commercialization Model Ideation",
+    categoryId: "ideation",
+    description: "Designs sustainable open-source business models around enterprise hosting/support.",
+    tags: ["ideation","ideation","open","source"],
+    transform: createStandardSkillTransform({
+      sectionName: "Open Source Commercialization Model Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Open Source Commercialization Model Ideation",
+      instructions: [
+        "Apply core domain tenets for Open Source Commercialization Model Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Open Source Commercialization Model Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","open","source"],
+    }),
+  },
+
+  "ideation-continuous-product-discovery-customer-cadence": {
+    id: "ideation-continuous-product-discovery-customer-cadence",
+    name: "ContinuousProductDiscoveryCustomerCadenceSkill",
+    displayName: "Continuous Product Discovery Customer Cadence",
+    categoryId: "ideation",
+    description: "Establishes weekly customer interview habits to fuel continuous feature ideation.",
+    tags: ["ideation","ideation","continuous","product"],
+    transform: createStandardSkillTransform({
+      sectionName: "Continuous Product Discovery Customer Cadence Standards",
+      ruSectionName: "Стандарты и регламенты: Continuous Product Discovery Customer Cadence",
+      instructions: [
+        "Apply core domain tenets for Continuous Product Discovery Customer Cadence.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Continuous Product Discovery Customer Cadence.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","continuous","product"],
+    }),
+  },
+
+  "ideation-iterative-hackathon-rapid-mvp-prototyping": {
+    id: "ideation-iterative-hackathon-rapid-mvp-prototyping",
+    name: "IterativeHackathonRapidMVPPrototypingSkill",
+    displayName: "Iterative Hackathon Rapid MVP Prototyping",
+    categoryId: "ideation",
+    description: "Runs 24-hour hackathons to build working proof-of-concept software MVPs.",
+    tags: ["ideation","ideation","iterative","hackathon"],
+    transform: createStandardSkillTransform({
+      sectionName: "Iterative Hackathon Rapid MVP Prototyping Standards",
+      ruSectionName: "Стандарты и регламенты: Iterative Hackathon Rapid MVP Prototyping",
+      instructions: [
+        "Apply core domain tenets for Iterative Hackathon Rapid MVP Prototyping.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Iterative Hackathon Rapid MVP Prototyping.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","iterative","hackathon"],
+    }),
+  },
+
+  "ideation-comprehensive-ideation-creative-innovation-framework": {
+    id: "ideation-comprehensive-ideation-creative-innovation-framework",
+    name: "ComprehensiveIdeationCreativeInnovationFrameworkSkill",
+    displayName: "Comprehensive Ideation & Creative Innovation Framework",
+    categoryId: "ideation",
+    description: "Applies world-class lateral thinking, SCAMPER, and design innovation methods.",
+    tags: ["ideation","ideation","comprehensive","ideation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comprehensive Ideation & Creative Innovation Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Comprehensive Ideation & Creative Innovation Framework",
+      instructions: [
+        "Apply core domain tenets for Comprehensive Ideation & Creative Innovation Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comprehensive Ideation & Creative Innovation Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","comprehensive","ideation"],
+    }),
+  },
+
+  "ideation-ideation-skill-90": {
+    id: "ideation-ideation-skill-90",
+    name: "ideationSkill90Skill",
+    displayName: "ideation Skill 90",
+    categoryId: "ideation",
+    description: "Applies advanced ideation Skill 90 standards and execution patterns.",
+    tags: ["ideation","ideation","ideation","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "ideation Skill 90 Standards",
+      ruSectionName: "Стандарты и регламенты: ideation Skill 90",
+      instructions: [
+        "Apply core domain tenets for ideation Skill 90.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ideation Skill 90.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation","ideation","skill"],
+    }),
+  },
+  "ideation-topup-disney-creative-strategy-three-rooms": {
+    id: "ideation-topup-disney-creative-strategy-three-rooms",
+    name: "DisneyCreativeStrategyThreeRoomsSkill",
+    displayName: "Disney Creative Strategy Three Rooms",
+    categoryId: "ideation",
+    description: "Cycles ideas through the Dreamer (Vision), the Realist (Plan), and the Spoiler (Critique).",
+    tags: ["ideation","ideation-topup","topup","disney"],
+    transform: createStandardSkillTransform({
+      sectionName: "Disney Creative Strategy Three Rooms Standards",
+      ruSectionName: "Стандарты и регламенты: Disney Creative Strategy Three Rooms",
+      instructions: [
+        "Apply core domain tenets for Disney Creative Strategy Three Rooms.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Disney Creative Strategy Three Rooms.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","disney"],
+    }),
+  },
+
+  "ideation-topup-six-serving-men-kipling-5w1h-framework": {
+    id: "ideation-topup-six-serving-men-kipling-5w1h-framework",
+    name: "SixServingMenKipling5W1HFrameworkSkill",
+    displayName: "Six Serving Men Kipling 5W1H Framework",
+    categoryId: "ideation",
+    description: "Explores problem spaces using What, Why, When, How, Where, and Who questions.",
+    tags: ["ideation","ideation-topup","topup","six"],
+    transform: createStandardSkillTransform({
+      sectionName: "Six Serving Men Kipling 5W1H Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Six Serving Men Kipling 5W1H Framework",
+      instructions: [
+        "Apply core domain tenets for Six Serving Men Kipling 5W1H Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Six Serving Men Kipling 5W1H Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","six"],
+    }),
+  },
+
+  "ideation-topup-provocation-movement-po-edward-de-bono": {
+    id: "ideation-topup-provocation-movement-po-edward-de-bono",
+    name: "ProvocationMovementPOEdwarddeBonoSkill",
+    displayName: "Provocation & Movement (PO) Edward de Bono",
+    categoryId: "ideation",
+    description: "Uses absurd statements ('PO: Cars have square wheels') to jumpstart lateral thinking.",
+    tags: ["ideation","ideation-topup","topup","provocation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Provocation & Movement (PO) Edward de Bono Standards",
+      ruSectionName: "Стандарты и регламенты: Provocation & Movement (PO) Edward de Bono",
+      instructions: [
+        "Apply core domain tenets for Provocation & Movement (PO) Edward de Bono.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Provocation & Movement (PO) Edward de Bono.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","provocation"],
+    }),
+  },
+
+  "ideation-topup-mind-mapping-radial-concept-expansion": {
+    id: "ideation-topup-mind-mapping-radial-concept-expansion",
+    name: "MindMappingRadialConceptExpansionSkill",
+    displayName: "Mind Mapping Radial Concept Expansion",
+    categoryId: "ideation",
+    description: "Expands central ideas outward into interconnected branches of sub-concepts.",
+    tags: ["ideation","ideation-topup","topup","mind"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mind Mapping Radial Concept Expansion Standards",
+      ruSectionName: "Стандарты и регламенты: Mind Mapping Radial Concept Expansion",
+      instructions: [
+        "Apply core domain tenets for Mind Mapping Radial Concept Expansion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Mind Mapping Radial Concept Expansion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","mind"],
+    }),
+  },
+
+  "ideation-topup-lotus-blossom-idea-expansion-grid": {
+    id: "ideation-topup-lotus-blossom-idea-expansion-grid",
+    name: "LotusBlossomIdeaExpansionGridSkill",
+    displayName: "Lotus Blossom Idea Expansion Grid",
+    categoryId: "ideation",
+    description: "Expands 1 core idea into 8 sub-ideas, then expands each sub-idea into 8 more.",
+    tags: ["ideation","ideation-topup","topup","lotus"],
+    transform: createStandardSkillTransform({
+      sectionName: "Lotus Blossom Idea Expansion Grid Standards",
+      ruSectionName: "Стандарты и регламенты: Lotus Blossom Idea Expansion Grid",
+      instructions: [
+        "Apply core domain tenets for Lotus Blossom Idea Expansion Grid.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Lotus Blossom Idea Expansion Grid.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","lotus"],
+    }),
+  },
+
+  "ideation-topup-brainwriting-6-3-5-silent-ideation": {
+    id: "ideation-topup-brainwriting-6-3-5-silent-ideation",
+    name: "Brainwriting635SilentIdeationSkill",
+    displayName: "Brainwriting 6-3-5 Silent Ideation",
+    categoryId: "ideation",
+    description: "6 participants write 3 ideas on paper in 5 minutes, passing sheets silently.",
+    tags: ["ideation","ideation-topup","topup","brainwriting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Brainwriting 6-3-5 Silent Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Brainwriting 6-3-5 Silent Ideation",
+      instructions: [
+        "Apply core domain tenets for Brainwriting 6-3-5 Silent Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Brainwriting 6-3-5 Silent Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","brainwriting"],
+    }),
+  },
+
+  "ideation-topup-forced-connections-object-association": {
+    id: "ideation-topup-forced-connections-object-association",
+    name: "ForcedConnectionsObjectAssociationSkill",
+    displayName: "Forced Connections Object Association",
+    categoryId: "ideation",
+    description: "Forces logical connections between a random object and your business problem.",
+    tags: ["ideation","ideation-topup","topup","forced"],
+    transform: createStandardSkillTransform({
+      sectionName: "Forced Connections Object Association Standards",
+      ruSectionName: "Стандарты и регламенты: Forced Connections Object Association",
+      instructions: [
+        "Apply core domain tenets for Forced Connections Object Association.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Forced Connections Object Association.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","forced"],
+    }),
+  },
+
+  "ideation-topup-question-storming-problem-reframing": {
+    id: "ideation-topup-question-storming-problem-reframing",
+    name: "QuestionStormingProblemReframingSkill",
+    displayName: "Question Storming Problem Reframing",
+    categoryId: "ideation",
+    description: "Generates 50 questions about a problem before attempting to brainstorm any answers.",
+    tags: ["ideation","ideation-topup","topup","question"],
+    transform: createStandardSkillTransform({
+      sectionName: "Question Storming Problem Reframing Standards",
+      ruSectionName: "Стандарты и регламенты: Question Storming Problem Reframing",
+      instructions: [
+        "Apply core domain tenets for Question Storming Problem Reframing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Question Storming Problem Reframing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","question"],
+    }),
+  },
+
+  "ideation-topup-superhero-persona-perspective-swap": {
+    id: "ideation-topup-superhero-persona-perspective-swap",
+    name: "SuperheroPersonaPerspectiveSwapSkill",
+    displayName: "Superhero Persona Perspective Swap",
+    categoryId: "ideation",
+    description: "Asks 'How would Steve Jobs, Elon Musk, or Batman solve this problem?'.",
+    tags: ["ideation","ideation-topup","topup","superhero"],
+    transform: createStandardSkillTransform({
+      sectionName: "Superhero Persona Perspective Swap Standards",
+      ruSectionName: "Стандарты и регламенты: Superhero Persona Perspective Swap",
+      instructions: [
+        "Apply core domain tenets for Superhero Persona Perspective Swap.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Superhero Persona Perspective Swap.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","superhero"],
+    }),
+  },
+
+  "ideation-topup-random-entry-dictionary-word-stimulus": {
+    id: "ideation-topup-random-entry-dictionary-word-stimulus",
+    name: "RandomEntryDictionaryWordStimulusSkill",
+    displayName: "Random Entry Dictionary Word Stimulus",
+    categoryId: "ideation",
+    description: "Picks a random dictionary page to find unexpected metaphors for problem solving.",
+    tags: ["ideation","ideation-topup","topup","random"],
+    transform: createStandardSkillTransform({
+      sectionName: "Random Entry Dictionary Word Stimulus Standards",
+      ruSectionName: "Стандарты и регламенты: Random Entry Dictionary Word Stimulus",
+      instructions: [
+        "Apply core domain tenets for Random Entry Dictionary Word Stimulus.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Random Entry Dictionary Word Stimulus.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","random"],
+    }),
+  },
+
+  "ideation-topup-attribute-listing-feature-decomposition": {
+    id: "ideation-topup-attribute-listing-feature-decomposition",
+    name: "AttributeListingFeatureDecompositionSkill",
+    displayName: "Attribute Listing Feature Decomposition",
+    categoryId: "ideation",
+    description: "Lists all physical and functional attributes of a product, systematically tweaking each.",
+    tags: ["ideation","ideation-topup","topup","attribute"],
+    transform: createStandardSkillTransform({
+      sectionName: "Attribute Listing Feature Decomposition Standards",
+      ruSectionName: "Стандарты и регламенты: Attribute Listing Feature Decomposition",
+      instructions: [
+        "Apply core domain tenets for Attribute Listing Feature Decomposition.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Attribute Listing Feature Decomposition.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","attribute"],
+    }),
+  },
+
+  "ideation-topup-synectics-making-the-strange-familiar": {
+    id: "ideation-topup-synectics-making-the-strange-familiar",
+    name: "SynecticsMakingtheStrangeFamiliarSkill",
+    displayName: "Synectics Making the Strange Familiar",
+    categoryId: "ideation",
+    description: "Uses personal analogies, direct analogies, and fantasy analogies to reframe problems.",
+    tags: ["ideation","ideation-topup","topup","synectics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Synectics Making the Strange Familiar Standards",
+      ruSectionName: "Стандарты и регламенты: Synectics Making the Strange Familiar",
+      instructions: [
+        "Apply core domain tenets for Synectics Making the Strange Familiar.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Synectics Making the Strange Familiar.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","synectics"],
+    }),
+  },
+
+  "ideation-topup-concept-fan-problem-abstraction-ladder": {
+    id: "ideation-topup-concept-fan-problem-abstraction-ladder",
+    name: "ConceptFanProblemAbstractionLadderSkill",
+    displayName: "Concept Fan Problem Abstraction Ladder",
+    categoryId: "ideation",
+    description: "Broadens or narrows problem statements to discover alternative solution spaces.",
+    tags: ["ideation","ideation-topup","topup","concept"],
+    transform: createStandardSkillTransform({
+      sectionName: "Concept Fan Problem Abstraction Ladder Standards",
+      ruSectionName: "Стандарты и регламенты: Concept Fan Problem Abstraction Ladder",
+      instructions: [
+        "Apply core domain tenets for Concept Fan Problem Abstraction Ladder.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Concept Fan Problem Abstraction Ladder.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","concept"],
+    }),
+  },
+
+  "ideation-topup-wishful-thinking-magic-wand-sandbox": {
+    id: "ideation-topup-wishful-thinking-magic-wand-sandbox",
+    name: "WishfulThinkingMagicWandSandboxSkill",
+    displayName: "Wishful Thinking Magic Wand Sandbox",
+    categoryId: "ideation",
+    description: "Asks 'If magic were real and cost zero, what would the perfect solution look like?'.",
+    tags: ["ideation","ideation-topup","topup","wishful"],
+    transform: createStandardSkillTransform({
+      sectionName: "Wishful Thinking Magic Wand Sandbox Standards",
+      ruSectionName: "Стандарты и регламенты: Wishful Thinking Magic Wand Sandbox",
+      instructions: [
+        "Apply core domain tenets for Wishful Thinking Magic Wand Sandbox.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Wishful Thinking Magic Wand Sandbox.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","wishful"],
+    }),
+  },
+
+  "ideation-topup-zero-to-one-peter-thiel-contrarian-truth": {
+    id: "ideation-topup-zero-to-one-peter-thiel-contrarian-truth",
+    name: "ZeroToOnePeterThielContrarianTruthSkill",
+    displayName: "Zero-To-One Peter Thiel Contrarian Truth",
+    categoryId: "ideation",
+    description: "Asks 'What important truth do very few people agree with you on?' to spot monopolies.",
+    tags: ["ideation","ideation-topup","topup","zero"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zero-To-One Peter Thiel Contrarian Truth Standards",
+      ruSectionName: "Стандарты и регламенты: Zero-To-One Peter Thiel Contrarian Truth",
+      instructions: [
+        "Apply core domain tenets for Zero-To-One Peter Thiel Contrarian Truth.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Zero-To-One Peter Thiel Contrarian Truth.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","zero"],
+    }),
+  },
+
+  "ideation-topup-flywheel-momentum-loop-ideation": {
+    id: "ideation-topup-flywheel-momentum-loop-ideation",
+    name: "FlywheelMomentumLoopIdeationSkill",
+    displayName: "Flywheel Momentum Loop Ideation",
+    categoryId: "ideation",
+    description: "Designs self-reinforcing business loops where each customer action drives the next.",
+    tags: ["ideation","ideation-topup","topup","flywheel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Flywheel Momentum Loop Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Flywheel Momentum Loop Ideation",
+      instructions: [
+        "Apply core domain tenets for Flywheel Momentum Loop Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Flywheel Momentum Loop Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","flywheel"],
+    }),
+  },
+
+  "ideation-topup-network-effect-growth-engine-ideation": {
+    id: "ideation-topup-network-effect-growth-engine-ideation",
+    name: "NetworkEffectGrowthEngineIdeationSkill",
+    displayName: "Network Effect Growth Engine Ideation",
+    categoryId: "ideation",
+    description: "Invents product features that become exponentially more valuable as more users join.",
+    tags: ["ideation","ideation-topup","topup","network"],
+    transform: createStandardSkillTransform({
+      sectionName: "Network Effect Growth Engine Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Network Effect Growth Engine Ideation",
+      instructions: [
+        "Apply core domain tenets for Network Effect Growth Engine Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Network Effect Growth Engine Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","network"],
+    }),
+  },
+
+  "ideation-topup-unbundling-monolithic-industry-services": {
+    id: "ideation-topup-unbundling-monolithic-industry-services",
+    name: "UnbundlingMonolithicIndustryServicesSkill",
+    displayName: "Unbundling Monolithic Industry Services",
+    categoryId: "ideation",
+    description: "Unbundles complex corporate software suites into hyper-focused single-purpose apps.",
+    tags: ["ideation","ideation-topup","topup","unbundling"],
+    transform: createStandardSkillTransform({
+      sectionName: "Unbundling Monolithic Industry Services Standards",
+      ruSectionName: "Стандарты и регламенты: Unbundling Monolithic Industry Services",
+      instructions: [
+        "Apply core domain tenets for Unbundling Monolithic Industry Services.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Unbundling Monolithic Industry Services.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","unbundling"],
+    }),
+  },
+
+  "ideation-topup-re-bundling-fragmented-tool-market": {
+    id: "ideation-topup-re-bundling-fragmented-tool-market",
+    name: "RebundlingFragmentedToolMarketSkill",
+    displayName: "Re-bundling Fragmented Tool Market",
+    categoryId: "ideation",
+    description: "Re-bundles 10 disparate single-purpose tools into a unified seamless platform.",
+    tags: ["ideation","ideation-topup","topup","re"],
+    transform: createStandardSkillTransform({
+      sectionName: "Re-bundling Fragmented Tool Market Standards",
+      ruSectionName: "Стандарты и регламенты: Re-bundling Fragmented Tool Market",
+      instructions: [
+        "Apply core domain tenets for Re-bundling Fragmented Tool Market.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Re-bundling Fragmented Tool Market.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","re"],
+    }),
+  },
+
+  "ideation-topup-freemium-viral-mechanics-ideation": {
+    id: "ideation-topup-freemium-viral-mechanics-ideation",
+    name: "FreemiumViralMechanicsIdeationSkill",
+    displayName: "Freemium Viral Mechanics Ideation",
+    categoryId: "ideation",
+    description: "Designs viral sharing mechanics where free users naturally invite paying teammates.",
+    tags: ["ideation","ideation-topup","topup","freemium"],
+    transform: createStandardSkillTransform({
+      sectionName: "Freemium Viral Mechanics Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Freemium Viral Mechanics Ideation",
+      instructions: [
+        "Apply core domain tenets for Freemium Viral Mechanics Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Freemium Viral Mechanics Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","freemium"],
+    }),
+  },
+
+  "ideation-topup-product-led-growth-self-serve-onboarding": {
+    id: "ideation-topup-product-led-growth-self-serve-onboarding",
+    name: "ProductLedGrowthSelfServeOnboardingSkill",
+    displayName: "Product-Led Growth Self-Serve Onboarding",
+    categoryId: "ideation",
+    description: "Ideates self-serve product flows that deliver Time-to-Value in under 60 seconds.",
+    tags: ["ideation","ideation-topup","topup","product"],
+    transform: createStandardSkillTransform({
+      sectionName: "Product-Led Growth Self-Serve Onboarding Standards",
+      ruSectionName: "Стандарты и регламенты: Product-Led Growth Self-Serve Onboarding",
+      instructions: [
+        "Apply core domain tenets for Product-Led Growth Self-Serve Onboarding.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Product-Led Growth Self-Serve Onboarding.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","product"],
+    }),
+  },
+
+  "ideation-topup-api-first-developer-platform-ideation": {
+    id: "ideation-topup-api-first-developer-platform-ideation",
+    name: "APIFirstDeveloperPlatformIdeationSkill",
+    displayName: "API-First Developer Platform Ideation",
+    categoryId: "ideation",
+    description: "Re-imagines closed software as an open API platform for third-party developers.",
+    tags: ["ideation","ideation-topup","topup","api"],
+    transform: createStandardSkillTransform({
+      sectionName: "API-First Developer Platform Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: API-First Developer Platform Ideation",
+      instructions: [
+        "Apply core domain tenets for API-First Developer Platform Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для API-First Developer Platform Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","api"],
+    }),
+  },
+
+  "ideation-topup-marketplace-two-sided-liquidity-ideation": {
+    id: "ideation-topup-marketplace-two-sided-liquidity-ideation",
+    name: "MarketplaceTwoSidedLiquidityIdeationSkill",
+    displayName: "Marketplace Two-Sided Liquidity Ideation",
+    categoryId: "ideation",
+    description: "Solves chicken-and-egg cold-start problems in two-sided buyer-seller marketplaces.",
+    tags: ["ideation","ideation-topup","topup","marketplace"],
+    transform: createStandardSkillTransform({
+      sectionName: "Marketplace Two-Sided Liquidity Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Marketplace Two-Sided Liquidity Ideation",
+      instructions: [
+        "Apply core domain tenets for Marketplace Two-Sided Liquidity Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Marketplace Two-Sided Liquidity Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","marketplace"],
+    }),
+  },
+
+  "ideation-topup-community-led-product-ideation": {
+    id: "ideation-topup-community-led-product-ideation",
+    name: "CommunityLedProductIdeationSkill",
+    displayName: "Community-Led Product Ideation",
+    categoryId: "ideation",
+    description: "Builds product features that empower power users to create and share custom content.",
+    tags: ["ideation","ideation-topup","topup","community"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community-Led Product Ideation Standards",
+      ruSectionName: "Стандарты и регламенты: Community-Led Product Ideation",
+      instructions: [
+        "Apply core domain tenets for Community-Led Product Ideation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community-Led Product Ideation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","community"],
+    }),
+  },
+
+  "ideation-topup-master-ideation-innovation-framework": {
+    id: "ideation-topup-master-ideation-innovation-framework",
+    name: "MasterIdeationInnovationFrameworkSkill",
+    displayName: "Master Ideation Innovation Framework",
+    categoryId: "ideation",
+    description: "Applies world-class lateral thinking, SCAMPER, and design innovation methods.",
+    tags: ["ideation","ideation-topup","topup","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Ideation Innovation Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Master Ideation Innovation Framework",
+      instructions: [
+        "Apply core domain tenets for Master Ideation Innovation Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Ideation Innovation Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ideation","ideation-topup","topup","master"],
+    }),
+  },
 };

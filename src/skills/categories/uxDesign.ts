@@ -2986,4 +2986,1253 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
       tags: ["ux-design","shortcuts","cheat-sheet","power-users","keyboard-navigation"],
     }),
   },
+  "ux-design-command-palette-cmd-k-fuzzy-search-action-center": {
+    id: "ux-design-command-palette-cmd-k-fuzzy-search-action-center",
+    name: "CommandPaletteCmdKFuzzySearchActionCenterSkill",
+    displayName: "Command Palette (Cmd+K) & Fuzzy Search Action Center",
+    categoryId: "ux_design",
+    description: "Designs keyboard-first navigation with global Cmd+K palettes and fuzzy search.",
+    tags: ["ux_design","ux-design","design","command"],
+    transform: createStandardSkillTransform({
+      sectionName: "Command Palette (Cmd+K) & Fuzzy Search Action Center Standards",
+      ruSectionName: "Стандарты и регламенты: Command Palette (Cmd+K) & Fuzzy Search Action Center",
+      instructions: [
+        "Apply core domain tenets for Command Palette (Cmd+K) & Fuzzy Search Action Center.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Command Palette (Cmd+K) & Fuzzy Search Action Center.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","command"],
+    }),
+  },
+
+  "ux-design-micro-interactions-with-spring-physics-tactile-haptics": {
+    id: "ux-design-micro-interactions-with-spring-physics-tactile-haptics",
+    name: "MicroInteractionswithSpringPhysicsTactileHapticsSkill",
+    displayName: "Micro-Interactions with Spring Physics & Tactile Haptics",
+    categoryId: "ux_design",
+    description: "Crafts tactile button clicks and toggle switches using physical spring damping.",
+    tags: ["ux_design","ux-design","design","micro"],
+    transform: createStandardSkillTransform({
+      sectionName: "Micro-Interactions with Spring Physics & Tactile Haptics Standards",
+      ruSectionName: "Стандарты и регламенты: Micro-Interactions with Spring Physics & Tactile Haptics",
+      instructions: [
+        "Apply core domain tenets for Micro-Interactions with Spring Physics & Tactile Haptics.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Micro-Interactions with Spring Physics & Tactile Haptics.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","micro"],
+    }),
+  },
+
+  "ux-design-wcag-2-2-accessible-focus-trap-keyboard-modals": {
+    id: "ux-design-wcag-2-2-accessible-focus-trap-keyboard-modals",
+    name: "WCAG22AccessibleFocusTrapKeyboardModalsSkill",
+    displayName: "WCAG 2.2 Accessible Focus-Trap & Keyboard Modals",
+    categoryId: "ux_design",
+    description: "Implements accessible modal dialogs with strict DOM focus trapping.",
+    tags: ["ux_design","ux-design","design","wcag"],
+    transform: createStandardSkillTransform({
+      sectionName: "WCAG 2.2 Accessible Focus-Trap & Keyboard Modals Standards",
+      ruSectionName: "Стандарты и регламенты: WCAG 2.2 Accessible Focus-Trap & Keyboard Modals",
+      instructions: [
+        "Apply core domain tenets for WCAG 2.2 Accessible Focus-Trap & Keyboard Modals.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для WCAG 2.2 Accessible Focus-Trap & Keyboard Modals.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","wcag"],
+    }),
+  },
+
+  "ux-design-frictionless-passwordless-login-passkeys-magic-links": {
+    id: "ux-design-frictionless-passwordless-login-passkeys-magic-links",
+    name: "FrictionlessPasswordlessLoginPasskeysMagicLinksSkill",
+    displayName: "Frictionless Passwordless Login (Passkeys & Magic Links)",
+    categoryId: "ux_design",
+    description: "Eliminates passwords with single-tap Passkey biometric authentication.",
+    tags: ["ux_design","ux-design","design","frictionless"],
+    transform: createStandardSkillTransform({
+      sectionName: "Frictionless Passwordless Login (Passkeys & Magic Links) Standards",
+      ruSectionName: "Стандарты и регламенты: Frictionless Passwordless Login (Passkeys & Magic Links)",
+      instructions: [
+        "Apply core domain tenets for Frictionless Passwordless Login (Passkeys & Magic Links).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Frictionless Passwordless Login (Passkeys & Magic Links).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","frictionless"],
+    }),
+  },
+
+  "ux-design-delightful-empty-states-first-time-user-activation": {
+    id: "ux-design-delightful-empty-states-first-time-user-activation",
+    name: "DelightfulEmptyStatesFirstTimeUserActivationSkill",
+    displayName: "Delightful Empty States & First-Time User Activation",
+    categoryId: "ux_design",
+    description: "Transforms blank screens into engaging launchpads with clear CTAs.",
+    tags: ["ux_design","ux-design","design","delightful"],
+    transform: createStandardSkillTransform({
+      sectionName: "Delightful Empty States & First-Time User Activation Standards",
+      ruSectionName: "Стандарты и регламенты: Delightful Empty States & First-Time User Activation",
+      instructions: [
+        "Apply core domain tenets for Delightful Empty States & First-Time User Activation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Delightful Empty States & First-Time User Activation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","delightful"],
+    }),
+  },
+
+  "ux-design-destructive-action-safeguards-intentional-friction": {
+    id: "ux-design-destructive-action-safeguards-intentional-friction",
+    name: "DestructiveActionSafeguardsIntentionalFrictionSkill",
+    displayName: "Destructive Action Safeguards & Intentional Friction",
+    categoryId: "ux_design",
+    description: "Prevents accidental data loss by requiring explicit resource name typing.",
+    tags: ["ux_design","ux-design","design","destructive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Destructive Action Safeguards & Intentional Friction Standards",
+      ruSectionName: "Стандарты и регламенты: Destructive Action Safeguards & Intentional Friction",
+      instructions: [
+        "Apply core domain tenets for Destructive Action Safeguards & Intentional Friction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Destructive Action Safeguards & Intentional Friction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","destructive"],
+    }),
+  },
+
+  "ux-design-mobile-bottom-sheet-gesture-ergonomics-thumb-zone": {
+    id: "ux-design-mobile-bottom-sheet-gesture-ergonomics-thumb-zone",
+    name: "MobileBottomSheetGestureErgonomicsThumbZoneSkill",
+    displayName: "Mobile Bottom Sheet Gesture Ergonomics & Thumb-Zone",
+    categoryId: "ux_design",
+    description: "Positions forms and filters in swipeable bottom sheets in the thumb zone.",
+    tags: ["ux_design","ux-design","design","mobile"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mobile Bottom Sheet Gesture Ergonomics & Thumb-Zone Standards",
+      ruSectionName: "Стандарты и регламенты: Mobile Bottom Sheet Gesture Ergonomics & Thumb-Zone",
+      instructions: [
+        "Apply core domain tenets for Mobile Bottom Sheet Gesture Ergonomics & Thumb-Zone.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Mobile Bottom Sheet Gesture Ergonomics & Thumb-Zone.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","mobile"],
+    }),
+  },
+
+  "ux-design-virtualized-list-windowing-infinite-scroll-ux": {
+    id: "ux-design-virtualized-list-windowing-infinite-scroll-ux",
+    name: "VirtualizedListWindowingInfiniteScrollUXSkill",
+    displayName: "Virtualized List Windowing & Infinite Scroll UX",
+    categoryId: "ux_design",
+    description: "Renders 100,000+ item lists at 60fps by rendering only visible DOM nodes.",
+    tags: ["ux_design","ux-design","design","virtualized"],
+    transform: createStandardSkillTransform({
+      sectionName: "Virtualized List Windowing & Infinite Scroll UX Standards",
+      ruSectionName: "Стандарты и регламенты: Virtualized List Windowing & Infinite Scroll UX",
+      instructions: [
+        "Apply core domain tenets for Virtualized List Windowing & Infinite Scroll UX.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Virtualized List Windowing & Infinite Scroll UX.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","virtualized"],
+    }),
+  },
+
+  "ux-design-faceted-search-multi-select-tag-filters-live-badges": {
+    id: "ux-design-faceted-search-multi-select-tag-filters-live-badges",
+    name: "FacetedSearchMultiSelectTagFiltersLiveBadgesSkill",
+    displayName: "Faceted Search, Multi-Select Tag Filters & Live Badges",
+    categoryId: "ux_design",
+    description: "Structures search with multi-select facet filters and live matching count badges.",
+    tags: ["ux_design","ux-design","design","faceted"],
+    transform: createStandardSkillTransform({
+      sectionName: "Faceted Search, Multi-Select Tag Filters & Live Badges Standards",
+      ruSectionName: "Стандарты и регламенты: Faceted Search, Multi-Select Tag Filters & Live Badges",
+      instructions: [
+        "Apply core domain tenets for Faceted Search, Multi-Select Tag Filters & Live Badges.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Faceted Search, Multi-Select Tag Filters & Live Badges.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","faceted"],
+    }),
+  },
+
+  "ux-design-accessible-dark-mode-apca-perceptual-contrast-scale": {
+    id: "ux-design-accessible-dark-mode-apca-perceptual-contrast-scale",
+    name: "AccessibleDarkModeAPCAPerceptualContrastScaleSkill",
+    displayName: "Accessible Dark Mode & APCA Perceptual Contrast Scale",
+    categoryId: "ux_design",
+    description: "Tunes dark mode surfaces with neutral grays and soft off-white text.",
+    tags: ["ux_design","ux-design","design","accessible"],
+    transform: createStandardSkillTransform({
+      sectionName: "Accessible Dark Mode & APCA Perceptual Contrast Scale Standards",
+      ruSectionName: "Стандарты и регламенты: Accessible Dark Mode & APCA Perceptual Contrast Scale",
+      instructions: [
+        "Apply core domain tenets for Accessible Dark Mode & APCA Perceptual Contrast Scale.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Accessible Dark Mode & APCA Perceptual Contrast Scale.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","accessible"],
+    }),
+  },
+
+  "ux-design-multi-step-onboarding-wizard-progress-completion-bar": {
+    id: "ux-design-multi-step-onboarding-wizard-progress-completion-bar",
+    name: "MultiStepOnboardingWizardProgressCompletionBarSkill",
+    displayName: "Multi-Step Onboarding Wizard & Progress Completion Bar",
+    categoryId: "ux_design",
+    description: "Guides users through setup flows with segmented progress bars and draft saving.",
+    tags: ["ux_design","ux-design","design","multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Step Onboarding Wizard & Progress Completion Bar Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Step Onboarding Wizard & Progress Completion Bar",
+      instructions: [
+        "Apply core domain tenets for Multi-Step Onboarding Wizard & Progress Completion Bar.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Step Onboarding Wizard & Progress Completion Bar.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","multi"],
+    }),
+  },
+
+  "ux-design-contextual-inline-tooltips-keyboard-hotkey-badges": {
+    id: "ux-design-contextual-inline-tooltips-keyboard-hotkey-badges",
+    name: "ContextualInlineTooltipsKeyboardHotkeyBadgesSkill",
+    displayName: "Contextual Inline Tooltips & Keyboard Hotkey Badges",
+    categoryId: "ux_design",
+    description: "Enhances icon buttons with delayed tooltips displaying shortcut keys.",
+    tags: ["ux_design","ux-design","design","contextual"],
+    transform: createStandardSkillTransform({
+      sectionName: "Contextual Inline Tooltips & Keyboard Hotkey Badges Standards",
+      ruSectionName: "Стандарты и регламенты: Contextual Inline Tooltips & Keyboard Hotkey Badges",
+      instructions: [
+        "Apply core domain tenets for Contextual Inline Tooltips & Keyboard Hotkey Badges.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Contextual Inline Tooltips & Keyboard Hotkey Badges.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","contextual"],
+    }),
+  },
+
+  "ux-design-fluid-typography-css-clamp-viewport-scaling": {
+    id: "ux-design-fluid-typography-css-clamp-viewport-scaling",
+    name: "FluidTypographyCSSclampViewportScalingSkill",
+    displayName: "Fluid Typography & CSS clamp() Viewport Scaling",
+    categoryId: "ux_design",
+    description: "Calculates seamless fluid font sizes scaling from mobile to ultra-wide desktop.",
+    tags: ["ux_design","ux-design","design","fluid"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fluid Typography & CSS clamp() Viewport Scaling Standards",
+      ruSectionName: "Стандарты и регламенты: Fluid Typography & CSS clamp() Viewport Scaling",
+      instructions: [
+        "Apply core domain tenets for Fluid Typography & CSS clamp() Viewport Scaling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Fluid Typography & CSS clamp() Viewport Scaling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","fluid"],
+    }),
+  },
+
+  "ux-design-proactive-inline-form-validation-input-masking": {
+    id: "ux-design-proactive-inline-form-validation-input-masking",
+    name: "ProactiveInlineFormValidationInputMaskingSkill",
+    displayName: "Proactive Inline Form Validation & Input Masking",
+    categoryId: "ux_design",
+    description: "Validates inputs on blur with positive checkmarks and smart input masks.",
+    tags: ["ux_design","ux-design","design","proactive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Proactive Inline Form Validation & Input Masking Standards",
+      ruSectionName: "Стандарты и регламенты: Proactive Inline Form Validation & Input Masking",
+      instructions: [
+        "Apply core domain tenets for Proactive Inline Form Validation & Input Masking.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Proactive Inline Form Validation & Input Masking.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","proactive"],
+    }),
+  },
+
+  "ux-design-figma-style-live-collaborative-presence-cursors": {
+    id: "ux-design-figma-style-live-collaborative-presence-cursors",
+    name: "FigmaStyleLiveCollaborativePresenceCursorsSkill",
+    displayName: "Figma-Style Live Collaborative Presence Cursors",
+    categoryId: "ux_design",
+    description: "Renders real-time peer user cursors with smooth spring interpolation.",
+    tags: ["ux_design","ux-design","design","figma"],
+    transform: createStandardSkillTransform({
+      sectionName: "Figma-Style Live Collaborative Presence Cursors Standards",
+      ruSectionName: "Стандарты и регламенты: Figma-Style Live Collaborative Presence Cursors",
+      instructions: [
+        "Apply core domain tenets for Figma-Style Live Collaborative Presence Cursors.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Figma-Style Live Collaborative Presence Cursors.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","figma"],
+    }),
+  },
+
+  "ux-design-dual-axis-sticky-headers-high-density-tables": {
+    id: "ux-design-dual-axis-sticky-headers-high-density-tables",
+    name: "DualAxisStickyHeadersHighDensityTablesSkill",
+    displayName: "Dual-Axis Sticky Headers & High-Density Tables",
+    categoryId: "ux_design",
+    description: "Builds large analytical grids with sticky column headers and frozen columns.",
+    tags: ["ux_design","ux-design","design","dual"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dual-Axis Sticky Headers & High-Density Tables Standards",
+      ruSectionName: "Стандарты и регламенты: Dual-Axis Sticky Headers & High-Density Tables",
+      instructions: [
+        "Apply core domain tenets for Dual-Axis Sticky Headers & High-Density Tables.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dual-Axis Sticky Headers & High-Density Tables.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","dual"],
+    }),
+  },
+
+  "ux-design-drag-and-drop-kanban-board-interaction-drop-shadows": {
+    id: "ux-design-drag-and-drop-kanban-board-interaction-drop-shadows",
+    name: "DragandDropKanbanBoardInteractionDropShadowsSkill",
+    displayName: "Drag-and-Drop Kanban Board Interaction & Drop Shadows",
+    categoryId: "ux_design",
+    description: "Implements accessible drag-and-drop task boards with drop indicator zones.",
+    tags: ["ux_design","ux-design","design","drag"],
+    transform: createStandardSkillTransform({
+      sectionName: "Drag-and-Drop Kanban Board Interaction & Drop Shadows Standards",
+      ruSectionName: "Стандарты и регламенты: Drag-and-Drop Kanban Board Interaction & Drop Shadows",
+      instructions: [
+        "Apply core domain tenets for Drag-and-Drop Kanban Board Interaction & Drop Shadows.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Drag-and-Drop Kanban Board Interaction & Drop Shadows.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","drag"],
+    }),
+  },
+
+  "ux-design-toast-notification-stacking-auto-dismiss-priority": {
+    id: "ux-design-toast-notification-stacking-auto-dismiss-priority",
+    name: "ToastNotificationStackingAutoDismissPrioritySkill",
+    displayName: "Toast Notification Stacking, Auto-Dismiss & Priority",
+    categoryId: "ux_design",
+    description: "Manages non-intrusive bottom-right toast alerts with progress bars.",
+    tags: ["ux_design","ux-design","design","toast"],
+    transform: createStandardSkillTransform({
+      sectionName: "Toast Notification Stacking, Auto-Dismiss & Priority Standards",
+      ruSectionName: "Стандарты и регламенты: Toast Notification Stacking, Auto-Dismiss & Priority",
+      instructions: [
+        "Apply core domain tenets for Toast Notification Stacking, Auto-Dismiss & Priority.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Toast Notification Stacking, Auto-Dismiss & Priority.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","toast"],
+    }),
+  },
+
+  "ux-design-progressive-disclosure-expandable-settings-drawers": {
+    id: "ux-design-progressive-disclosure-expandable-settings-drawers",
+    name: "ProgressiveDisclosureExpandableSettingsDrawersSkill",
+    displayName: "Progressive Disclosure & Expandable Settings Drawers",
+    categoryId: "ux_design",
+    description: "Keeps primary UI clean by concealing advanced configurations in drawers.",
+    tags: ["ux_design","ux-design","design","progressive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Progressive Disclosure & Expandable Settings Drawers Standards",
+      ruSectionName: "Стандарты и регламенты: Progressive Disclosure & Expandable Settings Drawers",
+      instructions: [
+        "Apply core domain tenets for Progressive Disclosure & Expandable Settings Drawers.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Progressive Disclosure & Expandable Settings Drawers.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","progressive"],
+    }),
+  },
+
+  "ux-design-shimmering-skeleton-content-loaders-placeholders": {
+    id: "ux-design-shimmering-skeleton-content-loaders-placeholders",
+    name: "ShimmeringSkeletonContentLoadersPlaceholdersSkill",
+    displayName: "Shimmering Skeleton Content Loaders & Placeholders",
+    categoryId: "ux_design",
+    description: "Replaces spinner wheels with shimmering gray wireframe placeholders.",
+    tags: ["ux_design","ux-design","design","shimmering"],
+    transform: createStandardSkillTransform({
+      sectionName: "Shimmering Skeleton Content Loaders & Placeholders Standards",
+      ruSectionName: "Стандарты и регламенты: Shimmering Skeleton Content Loaders & Placeholders",
+      instructions: [
+        "Apply core domain tenets for Shimmering Skeleton Content Loaders & Placeholders.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Shimmering Skeleton Content Loaders & Placeholders.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","shimmering"],
+    }),
+  },
+
+  "ux-design-screen-reader-live-regions-aria-live-polite": {
+    id: "ux-design-screen-reader-live-regions-aria-live-polite",
+    name: "ScreenReaderLiveRegionsarialivepoliteSkill",
+    displayName: "Screen Reader Live Regions (aria-live='polite')",
+    categoryId: "ux_design",
+    description: "Announces dynamic state updates to screen reader users.",
+    tags: ["ux_design","ux-design","design","screen"],
+    transform: createStandardSkillTransform({
+      sectionName: "Screen Reader Live Regions (aria-live='polite') Standards",
+      ruSectionName: "Стандарты и регламенты: Screen Reader Live Regions (aria-live='polite')",
+      instructions: [
+        "Apply core domain tenets for Screen Reader Live Regions (aria-live='polite').",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Screen Reader Live Regions (aria-live='polite').",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","screen"],
+    }),
+  },
+
+  "ux-design-infinite-canvas-navigation-pan-zoom-mini-map": {
+    id: "ux-design-infinite-canvas-navigation-pan-zoom-mini-map",
+    name: "InfiniteCanvasNavigationPanZoomMiniMapSkill",
+    displayName: "Infinite Canvas Navigation (Pan, Zoom, Mini-Map)",
+    categoryId: "ux_design",
+    description: "Implements infinite workspace navigation with pinch-to-zoom and mini-maps.",
+    tags: ["ux_design","ux-design","design","infinite"],
+    transform: createStandardSkillTransform({
+      sectionName: "Infinite Canvas Navigation (Pan, Zoom, Mini-Map) Standards",
+      ruSectionName: "Стандарты и регламенты: Infinite Canvas Navigation (Pan, Zoom, Mini-Map)",
+      instructions: [
+        "Apply core domain tenets for Infinite Canvas Navigation (Pan, Zoom, Mini-Map).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Infinite Canvas Navigation (Pan, Zoom, Mini-Map).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","infinite"],
+    }),
+  },
+
+  "ux-design-ux-microcopy-voice-tone-matrix": {
+    id: "ux-design-ux-microcopy-voice-tone-matrix",
+    name: "UXMicrocopyVoiceToneMatrixSkill",
+    displayName: "UX Microcopy Voice & Tone Matrix",
+    categoryId: "ux_design",
+    description: "Calibrates interface copy tone across emotional user states.",
+    tags: ["ux_design","ux-design","design","ux"],
+    transform: createStandardSkillTransform({
+      sectionName: "UX Microcopy Voice & Tone Matrix Standards",
+      ruSectionName: "Стандарты и регламенты: UX Microcopy Voice & Tone Matrix",
+      instructions: [
+        "Apply core domain tenets for UX Microcopy Voice & Tone Matrix.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для UX Microcopy Voice & Tone Matrix.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","ux"],
+    }),
+  },
+
+  "ux-design-side-by-side-unified-diff-viewer-revisions": {
+    id: "ux-design-side-by-side-unified-diff-viewer-revisions",
+    name: "SidebySideUnifiedDiffViewerRevisionsSkill",
+    displayName: "Side-by-Side Unified Diff Viewer & Revisions",
+    categoryId: "ux_design",
+    description: "Presents document revisions using split-screen diff views with red/green highlights.",
+    tags: ["ux_design","ux-design","design","side"],
+    transform: createStandardSkillTransform({
+      sectionName: "Side-by-Side Unified Diff Viewer & Revisions Standards",
+      ruSectionName: "Стандарты и регламенты: Side-by-Side Unified Diff Viewer & Revisions",
+      instructions: [
+        "Apply core domain tenets for Side-by-Side Unified Diff Viewer & Revisions.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Side-by-Side Unified Diff Viewer & Revisions.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","side"],
+    }),
+  },
+
+  "ux-design-information-architecture-tree-testing-nesting-depth": {
+    id: "ux-design-information-architecture-tree-testing-nesting-depth",
+    name: "InformationArchitectureTreeTestingNestingDepthSkill",
+    displayName: "Information Architecture Tree Testing & Nesting Depth",
+    categoryId: "ux_design",
+    description: "Evaluates menu hierarchies and category nesting depth via tree testing.",
+    tags: ["ux_design","ux-design","design","information"],
+    transform: createStandardSkillTransform({
+      sectionName: "Information Architecture Tree Testing & Nesting Depth Standards",
+      ruSectionName: "Стандарты и регламенты: Information Architecture Tree Testing & Nesting Depth",
+      instructions: [
+        "Apply core domain tenets for Information Architecture Tree Testing & Nesting Depth.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Information Architecture Tree Testing & Nesting Depth.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","information"],
+    }),
+  },
+
+  "ux-design-accessible-number-stepper-direct-typing-input": {
+    id: "ux-design-accessible-number-stepper-direct-typing-input",
+    name: "AccessibleNumberStepperDirectTypingInputSkill",
+    displayName: "Accessible Number Stepper & Direct Typing Input",
+    categoryId: "ux_design",
+    description: "Combines large increment buttons (+/-) with direct keyboard editing.",
+    tags: ["ux_design","ux-design","design","accessible"],
+    transform: createStandardSkillTransform({
+      sectionName: "Accessible Number Stepper & Direct Typing Input Standards",
+      ruSectionName: "Стандарты и регламенты: Accessible Number Stepper & Direct Typing Input",
+      instructions: [
+        "Apply core domain tenets for Accessible Number Stepper & Direct Typing Input.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Accessible Number Stepper & Direct Typing Input.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","accessible"],
+    }),
+  },
+
+  "ux-design-right-click-contextual-menus-radial-selectors": {
+    id: "ux-design-right-click-contextual-menus-radial-selectors",
+    name: "RightClickContextualMenusRadialSelectorsSkill",
+    displayName: "Right-Click Contextual Menus & Radial Selectors",
+    categoryId: "ux_design",
+    description: "Positions right-click context menus at exact cursor coordinates.",
+    tags: ["ux_design","ux-design","design","right"],
+    transform: createStandardSkillTransform({
+      sectionName: "Right-Click Contextual Menus & Radial Selectors Standards",
+      ruSectionName: "Стандарты и регламенты: Right-Click Contextual Menus & Radial Selectors",
+      instructions: [
+        "Apply core domain tenets for Right-Click Contextual Menus & Radial Selectors.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Right-Click Contextual Menus & Radial Selectors.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","right"],
+    }),
+  },
+
+  "ux-design-in-page-keyword-search-highlighting-match-cycling": {
+    id: "ux-design-in-page-keyword-search-highlighting-match-cycling",
+    name: "InPageKeywordSearchHighlightingMatchCyclingSkill",
+    displayName: "In-Page Keyword Search Highlighting & Match Cycling",
+    categoryId: "ux_design",
+    description: "Highlights all matching search terms with distinct active match pills.",
+    tags: ["ux_design","ux-design","design","in"],
+    transform: createStandardSkillTransform({
+      sectionName: "In-Page Keyword Search Highlighting & Match Cycling Standards",
+      ruSectionName: "Стандарты и регламенты: In-Page Keyword Search Highlighting & Match Cycling",
+      instructions: [
+        "Apply core domain tenets for In-Page Keyword Search Highlighting & Match Cycling.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для In-Page Keyword Search Highlighting & Match Cycling.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","in"],
+    }),
+  },
+
+  "ux-design-animated-sliding-pill-tabs-underline-indicator": {
+    id: "ux-design-animated-sliding-pill-tabs-underline-indicator",
+    name: "AnimatedSlidingPillTabsUnderlineIndicatorSkill",
+    displayName: "Animated Sliding Pill Tabs & Underline Indicator",
+    categoryId: "ux_design",
+    description: "Animates active tab selection with a sliding background pill.",
+    tags: ["ux_design","ux-design","design","animated"],
+    transform: createStandardSkillTransform({
+      sectionName: "Animated Sliding Pill Tabs & Underline Indicator Standards",
+      ruSectionName: "Стандарты и регламенты: Animated Sliding Pill Tabs & Underline Indicator",
+      instructions: [
+        "Apply core domain tenets for Animated Sliding Pill Tabs & Underline Indicator.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Animated Sliding Pill Tabs & Underline Indicator.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","animated"],
+    }),
+  },
+
+  "ux-design-real-time-password-entropy-meter-crack-time": {
+    id: "ux-design-real-time-password-entropy-meter-crack-time",
+    name: "RealTimePasswordEntropyMeterCrackTimeSkill",
+    displayName: "Real-Time Password Entropy Meter & Crack Time",
+    categoryId: "ux_design",
+    description: "Evaluates password strength in real time via zxcvbn entropy estimation.",
+    tags: ["ux_design","ux-design","design","real"],
+    transform: createStandardSkillTransform({
+      sectionName: "Real-Time Password Entropy Meter & Crack Time Standards",
+      ruSectionName: "Стандарты и регламенты: Real-Time Password Entropy Meter & Crack Time",
+      instructions: [
+        "Apply core domain tenets for Real-Time Password Entropy Meter & Crack Time.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Real-Time Password Entropy Meter & Crack Time.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","real"],
+    }),
+  },
+
+  "ux-design-universal-undo-redo-action-stack-reversible-history": {
+    id: "ux-design-universal-undo-redo-action-stack-reversible-history",
+    name: "UniversalUndoRedoActionStackReversibleHistorySkill",
+    displayName: "Universal Undo/Redo Action Stack & Reversible History",
+    categoryId: "ux_design",
+    description: "Implements command pattern undo/redo stacks with Cmd+Z shortcuts.",
+    tags: ["ux_design","ux-design","design","universal"],
+    transform: createStandardSkillTransform({
+      sectionName: "Universal Undo/Redo Action Stack & Reversible History Standards",
+      ruSectionName: "Стандарты и регламенты: Universal Undo/Redo Action Stack & Reversible History",
+      instructions: [
+        "Apply core domain tenets for Universal Undo/Redo Action Stack & Reversible History.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Universal Undo/Redo Action Stack & Reversible History.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","universal"],
+    }),
+  },
+
+  "ux-design-color-vision-deficiency-cvd-accessible-palettes": {
+    id: "ux-design-color-vision-deficiency-cvd-accessible-palettes",
+    name: "ColorVisionDeficiencyCVDAccessiblePalettesSkill",
+    displayName: "Color Vision Deficiency (CVD) Accessible Palettes",
+    categoryId: "ux_design",
+    description: "Designs interfaces accessible to color-blind users using dual encoding.",
+    tags: ["ux_design","ux-design","design","color"],
+    transform: createStandardSkillTransform({
+      sectionName: "Color Vision Deficiency (CVD) Accessible Palettes Standards",
+      ruSectionName: "Стандарты и регламенты: Color Vision Deficiency (CVD) Accessible Palettes",
+      instructions: [
+        "Apply core domain tenets for Color Vision Deficiency (CVD) Accessible Palettes.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Color Vision Deficiency (CVD) Accessible Palettes.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","color"],
+    }),
+  },
+
+  "ux-design-in-app-micro-surveys-customer-effort-score-ces": {
+    id: "ux-design-in-app-micro-surveys-customer-effort-score-ces",
+    name: "InAppMicroSurveysCustomerEffortScoreCESSkill",
+    displayName: "In-App Micro-Surveys & Customer Effort Score (CES)",
+    categoryId: "ux_design",
+    description: "Embeds 1-question lightweight micro-surveys after key workflow completions.",
+    tags: ["ux_design","ux-design","design","in"],
+    transform: createStandardSkillTransform({
+      sectionName: "In-App Micro-Surveys & Customer Effort Score (CES) Standards",
+      ruSectionName: "Стандарты и регламенты: In-App Micro-Surveys & Customer Effort Score (CES)",
+      instructions: [
+        "Apply core domain tenets for In-App Micro-Surveys & Customer Effort Score (CES).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для In-App Micro-Surveys & Customer Effort Score (CES).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","in"],
+    }),
+  },
+
+  "ux-design-drag-handle-grip-affordance-list-reordering": {
+    id: "ux-design-drag-handle-grip-affordance-list-reordering",
+    name: "DragHandleGripAffordanceListReorderingSkill",
+    displayName: "Drag-Handle Grip Affordance & List Reordering",
+    categoryId: "ux_design",
+    description: "Equips draggable list items with visible grip handles and keyboard move controls.",
+    tags: ["ux_design","ux-design","design","drag"],
+    transform: createStandardSkillTransform({
+      sectionName: "Drag-Handle Grip Affordance & List Reordering Standards",
+      ruSectionName: "Стандарты и регламенты: Drag-Handle Grip Affordance & List Reordering",
+      instructions: [
+        "Apply core domain tenets for Drag-Handle Grip Affordance & List Reordering.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Drag-Handle Grip Affordance & List Reordering.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","drag"],
+    }),
+  },
+
+  "ux-design-floating-rich-text-selection-bubble-menu": {
+    id: "ux-design-floating-rich-text-selection-bubble-menu",
+    name: "FloatingRichTextSelectionBubbleMenuSkill",
+    displayName: "Floating Rich Text Selection Bubble Menu",
+    categoryId: "ux_design",
+    description: "Displays a floating formatting toolbar directly above user text selections.",
+    tags: ["ux_design","ux-design","design","floating"],
+    transform: createStandardSkillTransform({
+      sectionName: "Floating Rich Text Selection Bubble Menu Standards",
+      ruSectionName: "Стандарты и регламенты: Floating Rich Text Selection Bubble Menu",
+      instructions: [
+        "Apply core domain tenets for Floating Rich Text Selection Bubble Menu.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Floating Rich Text Selection Bubble Menu.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","floating"],
+    }),
+  },
+
+  "ux-design-desktop-to-mobile-qr-code-session-handoff": {
+    id: "ux-design-desktop-to-mobile-qr-code-session-handoff",
+    name: "DesktoptoMobileQRCodeSessionHandoffSkill",
+    displayName: "Desktop-to-Mobile QR Code Session Handoff",
+    categoryId: "ux_design",
+    description: "Facilitates device switching by generating instant mobile QR codes.",
+    tags: ["ux_design","ux-design","design","desktop"],
+    transform: createStandardSkillTransform({
+      sectionName: "Desktop-to-Mobile QR Code Session Handoff Standards",
+      ruSectionName: "Стандарты и регламенты: Desktop-to-Mobile QR Code Session Handoff",
+      instructions: [
+        "Apply core domain tenets for Desktop-to-Mobile QR Code Session Handoff.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Desktop-to-Mobile QR Code Session Handoff.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","desktop"],
+    }),
+  },
+
+  "ux-design-smart-defaults-context-aware-form-pre-population": {
+    id: "ux-design-smart-defaults-context-aware-form-pre-population",
+    name: "SmartDefaultsContextAwareFormPrePopulationSkill",
+    displayName: "Smart Defaults & Context-Aware Form Pre-Population",
+    categoryId: "ux_design",
+    description: "Pre-fills form fields intelligently based on user geolocation and settings.",
+    tags: ["ux_design","ux-design","design","smart"],
+    transform: createStandardSkillTransform({
+      sectionName: "Smart Defaults & Context-Aware Form Pre-Population Standards",
+      ruSectionName: "Стандарты и регламенты: Smart Defaults & Context-Aware Form Pre-Population",
+      instructions: [
+        "Apply core domain tenets for Smart Defaults & Context-Aware Form Pre-Population.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Smart Defaults & Context-Aware Form Pre-Population.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","smart"],
+    }),
+  },
+
+  "ux-design-interactive-chart-tooltips-synchronized-crosshair": {
+    id: "ux-design-interactive-chart-tooltips-synchronized-crosshair",
+    name: "InteractiveChartTooltipsSynchronizedCrosshairSkill",
+    displayName: "Interactive Chart Tooltips & Synchronized Crosshair",
+    categoryId: "ux_design",
+    description: "Enhances timeseries charts with synchronized vertical crosshair guide lines.",
+    tags: ["ux_design","ux-design","design","interactive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Chart Tooltips & Synchronized Crosshair Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Chart Tooltips & Synchronized Crosshair",
+      instructions: [
+        "Apply core domain tenets for Interactive Chart Tooltips & Synchronized Crosshair.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Chart Tooltips & Synchronized Crosshair.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","interactive"],
+    }),
+  },
+
+  "ux-design-horizontal-scroll-filter-chips-gradient-edge-mask": {
+    id: "ux-design-horizontal-scroll-filter-chips-gradient-edge-mask",
+    name: "HorizontalScrollFilterChipsGradientEdgeMaskSkill",
+    displayName: "Horizontal Scroll Filter Chips & Gradient Edge Mask",
+    categoryId: "ux_design",
+    description: "Presents categories as a horizontal row of filter chips with gradient fade.",
+    tags: ["ux_design","ux-design","design","horizontal"],
+    transform: createStandardSkillTransform({
+      sectionName: "Horizontal Scroll Filter Chips & Gradient Edge Mask Standards",
+      ruSectionName: "Стандарты и регламенты: Horizontal Scroll Filter Chips & Gradient Edge Mask",
+      instructions: [
+        "Apply core domain tenets for Horizontal Scroll Filter Chips & Gradient Edge Mask.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Horizontal Scroll Filter Chips & Gradient Edge Mask.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","horizontal"],
+    }),
+  },
+
+  "ux-design-in-app-keyboard-shortcut-cheat-sheet-modal": {
+    id: "ux-design-in-app-keyboard-shortcut-cheat-sheet-modal",
+    name: "InAppKeyboardShortcutCheatSheetModalSkill",
+    displayName: "In-App Keyboard Shortcut Cheat Sheet Modal (?)",
+    categoryId: "ux_design",
+    description: "Displays a keyboard shortcut cheat sheet dialog triggered by Shift+?.",
+    tags: ["ux_design","ux-design","design","in"],
+    transform: createStandardSkillTransform({
+      sectionName: "In-App Keyboard Shortcut Cheat Sheet Modal (?) Standards",
+      ruSectionName: "Стандарты и регламенты: In-App Keyboard Shortcut Cheat Sheet Modal (?)",
+      instructions: [
+        "Apply core domain tenets for In-App Keyboard Shortcut Cheat Sheet Modal (?).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для In-App Keyboard Shortcut Cheat Sheet Modal (?).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","in"],
+    }),
+  },
+
+  "ux-design-breadcrumb-navigation-wayfinding-truncation": {
+    id: "ux-design-breadcrumb-navigation-wayfinding-truncation",
+    name: "BreadcrumbNavigationWayfindingTruncationSkill",
+    displayName: "Breadcrumb Navigation Wayfinding & Truncation",
+    categoryId: "ux_design",
+    description: "Provides clear hierarchical breadcrumb trails with smart middle truncation.",
+    tags: ["ux_design","ux-design","design","breadcrumb"],
+    transform: createStandardSkillTransform({
+      sectionName: "Breadcrumb Navigation Wayfinding & Truncation Standards",
+      ruSectionName: "Стандарты и регламенты: Breadcrumb Navigation Wayfinding & Truncation",
+      instructions: [
+        "Apply core domain tenets for Breadcrumb Navigation Wayfinding & Truncation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Breadcrumb Navigation Wayfinding & Truncation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","breadcrumb"],
+    }),
+  },
+
+  "ux-design-multi-language-selector-rtl-layout-support": {
+    id: "ux-design-multi-language-selector-rtl-layout-support",
+    name: "MultiLanguageSelectorRTLLayoutSupportSkill",
+    displayName: "Multi-Language Selector & RTL Layout Support",
+    categoryId: "ux_design",
+    description: "Supports seamless right-to-left (RTL) layout mirroring for Arabic/Hebrew.",
+    tags: ["ux_design","ux-design","design","multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Language Selector & RTL Layout Support Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Language Selector & RTL Layout Support",
+      instructions: [
+        "Apply core domain tenets for Multi-Language Selector & RTL Layout Support.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Language Selector & RTL Layout Support.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","multi"],
+    }),
+  },
+
+  "ux-design-sticky-call-to-action-bottom-bar-on-mobile": {
+    id: "ux-design-sticky-call-to-action-bottom-bar-on-mobile",
+    name: "StickyCalltoActionBottomBaronMobileSkill",
+    displayName: "Sticky Call-to-Action Bottom Bar on Mobile",
+    categoryId: "ux_design",
+    description: "Anchors primary conversion CTA buttons to the bottom viewport on mobile.",
+    tags: ["ux_design","ux-design","design","sticky"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sticky Call-to-Action Bottom Bar on Mobile Standards",
+      ruSectionName: "Стандарты и регламенты: Sticky Call-to-Action Bottom Bar on Mobile",
+      instructions: [
+        "Apply core domain tenets for Sticky Call-to-Action Bottom Bar on Mobile.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sticky Call-to-Action Bottom Bar on Mobile.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","sticky"],
+    }),
+  },
+
+  "ux-design-form-field-character-counter-soft-limit-warning": {
+    id: "ux-design-form-field-character-counter-soft-limit-warning",
+    name: "FormFieldCharacterCounterSoftLimitWarningSkill",
+    displayName: "Form Field Character Counter & Soft Limit Warning",
+    categoryId: "ux_design",
+    description: "Displays live character counters with visual warnings near limit thresholds.",
+    tags: ["ux_design","ux-design","design","form"],
+    transform: createStandardSkillTransform({
+      sectionName: "Form Field Character Counter & Soft Limit Warning Standards",
+      ruSectionName: "Стандарты и регламенты: Form Field Character Counter & Soft Limit Warning",
+      instructions: [
+        "Apply core domain tenets for Form Field Character Counter & Soft Limit Warning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Form Field Character Counter & Soft Limit Warning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","form"],
+    }),
+  },
+
+  "ux-design-file-drag-and-drop-zone-with-progress-ring": {
+    id: "ux-design-file-drag-and-drop-zone-with-progress-ring",
+    name: "FileDragandDropZonewithProgressRingSkill",
+    displayName: "File Drag-and-Drop Zone with Progress Ring",
+    categoryId: "ux_design",
+    description: "Designs high-visibility file upload drop zones with circular progress rings.",
+    tags: ["ux_design","ux-design","design","file"],
+    transform: createStandardSkillTransform({
+      sectionName: "File Drag-and-Drop Zone with Progress Ring Standards",
+      ruSectionName: "Стандарты и регламенты: File Drag-and-Drop Zone with Progress Ring",
+      instructions: [
+        "Apply core domain tenets for File Drag-and-Drop Zone with Progress Ring.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для File Drag-and-Drop Zone with Progress Ring.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","file"],
+    }),
+  },
+
+  "ux-design-interactive-accordion-faq-smooth-height-animate": {
+    id: "ux-design-interactive-accordion-faq-smooth-height-animate",
+    name: "InteractiveAccordionFAQSmoothHeightAnimateSkill",
+    displayName: "Interactive Accordion FAQ & Smooth Height Animate",
+    categoryId: "ux_design",
+    description: "Builds accessible FAQ accordions with smooth height transitions.",
+    tags: ["ux_design","ux-design","design","interactive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Accordion FAQ & Smooth Height Animate Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Accordion FAQ & Smooth Height Animate",
+      instructions: [
+        "Apply core domain tenets for Interactive Accordion FAQ & Smooth Height Animate.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Accordion FAQ & Smooth Height Animate.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","interactive"],
+    }),
+  },
+
+  "ux-design-search-auto-complete-dropdown-with-category-headers": {
+    id: "ux-design-search-auto-complete-dropdown-with-category-headers",
+    name: "SearchAutoCompleteDropdownwithCategoryHeadersSkill",
+    displayName: "Search Auto-Complete Dropdown with Category Headers",
+    categoryId: "ux_design",
+    description: "Displays instant search suggestions grouped by entity categories.",
+    tags: ["ux_design","ux-design","design","search"],
+    transform: createStandardSkillTransform({
+      sectionName: "Search Auto-Complete Dropdown with Category Headers Standards",
+      ruSectionName: "Стандарты и регламенты: Search Auto-Complete Dropdown with Category Headers",
+      instructions: [
+        "Apply core domain tenets for Search Auto-Complete Dropdown with Category Headers.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Search Auto-Complete Dropdown with Category Headers.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","search"],
+    }),
+  },
+
+  "ux-design-interactive-onboarding-tooltip-tour-hotspot-dots": {
+    id: "ux-design-interactive-onboarding-tooltip-tour-hotspot-dots",
+    name: "InteractiveOnboardingTooltipTourHotspotDotsSkill",
+    displayName: "Interactive Onboarding Tooltip Tour & Hotspot Dots",
+    categoryId: "ux_design",
+    description: "Guides new users through key feature hotspots with pulsing target dots.",
+    tags: ["ux_design","ux-design","design","interactive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Onboarding Tooltip Tour & Hotspot Dots Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Onboarding Tooltip Tour & Hotspot Dots",
+      instructions: [
+        "Apply core domain tenets for Interactive Onboarding Tooltip Tour & Hotspot Dots.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Onboarding Tooltip Tour & Hotspot Dots.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","interactive"],
+    }),
+  },
+
+  "ux-design-user-preference-settings-matrix-save-state-indicator": {
+    id: "ux-design-user-preference-settings-matrix-save-state-indicator",
+    name: "UserPreferenceSettingsMatrixSaveStateIndicatorSkill",
+    displayName: "User Preference Settings Matrix & Save State Indicator",
+    categoryId: "ux_design",
+    description: "Presents settings matrices with instant auto-save status feedback.",
+    tags: ["ux_design","ux-design","design","user"],
+    transform: createStandardSkillTransform({
+      sectionName: "User Preference Settings Matrix & Save State Indicator Standards",
+      ruSectionName: "Стандарты и регламенты: User Preference Settings Matrix & Save State Indicator",
+      instructions: [
+        "Apply core domain tenets for User Preference Settings Matrix & Save State Indicator.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для User Preference Settings Matrix & Save State Indicator.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","user"],
+    }),
+  },
+
+  "ux-design-comprehensive-ux-ui-accessibility-usability-constitution": {
+    id: "ux-design-comprehensive-ux-ui-accessibility-usability-constitution",
+    name: "ComprehensiveUXUIAccessibilityUsabilityConstitutionSkill",
+    displayName: "Comprehensive UX/UI Accessibility & Usability Constitution",
+    categoryId: "ux_design",
+    description: "Enforces production-grade, accessible, human-centric UI/UX design standards.",
+    tags: ["ux_design","ux-design","design","comprehensive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comprehensive UX/UI Accessibility & Usability Constitution Standards",
+      ruSectionName: "Стандарты и регламенты: Comprehensive UX/UI Accessibility & Usability Constitution",
+      instructions: [
+        "Apply core domain tenets for Comprehensive UX/UI Accessibility & Usability Constitution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comprehensive UX/UI Accessibility & Usability Constitution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["ux_design","ux-design","design","comprehensive"],
+    }),
+  },
 };

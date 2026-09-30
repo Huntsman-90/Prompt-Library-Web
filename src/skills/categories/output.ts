@@ -3029,5 +3029,1254 @@ export const OUTPUT_SKILLS: Record<string, SkillDefinition> = {
       tags: ["output","grafana","prometheus","json","dashboards","observability"],
     }),
   },
+  "output-strict-openapi-3-1-json-schema-validation": {
+    id: "output-strict-openapi-3-1-json-schema-validation",
+    name: "StrictOpenAPI31JSONSchemaValidationSkill",
+    displayName: "Strict OpenAPI 3.1 JSON Schema Validation",
+    categoryId: "output",
+    description: "Formats responses strictly adhering to OpenAPI 3.1 schema definitions.",
+    tags: ["output","output","strict","openapi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strict OpenAPI 3.1 JSON Schema Validation Standards",
+      ruSectionName: "Стандарты и регламенты: Strict OpenAPI 3.1 JSON Schema Validation",
+      instructions: [
+        "Apply core domain tenets for Strict OpenAPI 3.1 JSON Schema Validation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Strict OpenAPI 3.1 JSON Schema Validation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","strict","openapi"],
+    }),
+  },
+
+  "output-markdown-table-formatting-alignment-rules": {
+    id: "output-markdown-table-formatting-alignment-rules",
+    name: "MarkdownTableFormattingAlignmentRulesSkill",
+    displayName: "Markdown Table Formatting & Alignment Rules",
+    categoryId: "output",
+    description: "Presents structured data in clean, aligned Markdown tables with headers.",
+    tags: ["output","output","markdown","table"],
+    transform: createStandardSkillTransform({
+      sectionName: "Markdown Table Formatting & Alignment Rules Standards",
+      ruSectionName: "Стандарты и регламенты: Markdown Table Formatting & Alignment Rules",
+      instructions: [
+        "Apply core domain tenets for Markdown Table Formatting & Alignment Rules.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Markdown Table Formatting & Alignment Rules.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","markdown","table"],
+    }),
+  },
+
+  "output-yaml-configuration-syntax-indentation": {
+    id: "output-yaml-configuration-syntax-indentation",
+    name: "YAMLConfigurationSyntaxIndentationSkill",
+    displayName: "YAML Configuration Syntax & Indentation",
+    categoryId: "output",
+    description: "Outputs valid, parseable YAML with strict two-space indentation.",
+    tags: ["output","output","yaml","configuration"],
+    transform: createStandardSkillTransform({
+      sectionName: "YAML Configuration Syntax & Indentation Standards",
+      ruSectionName: "Стандарты и регламенты: YAML Configuration Syntax & Indentation",
+      instructions: [
+        "Apply core domain tenets for YAML Configuration Syntax & Indentation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для YAML Configuration Syntax & Indentation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","yaml","configuration"],
+    }),
+  },
+
+  "output-mermaid-js-flowchart-sequence-diagram": {
+    id: "output-mermaid-js-flowchart-sequence-diagram",
+    name: "MermaidjsFlowchartSequenceDiagramSkill",
+    displayName: "Mermaid.js Flowchart & Sequence Diagram",
+    categoryId: "output",
+    description: "Generates clean Mermaid syntax for flowcharts, sequence, and ER diagrams.",
+    tags: ["output","output","mermaid","js"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mermaid.js Flowchart & Sequence Diagram Standards",
+      ruSectionName: "Стандарты и регламенты: Mermaid.js Flowchart & Sequence Diagram",
+      instructions: [
+        "Apply core domain tenets for Mermaid.js Flowchart & Sequence Diagram.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Mermaid.js Flowchart & Sequence Diagram.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","mermaid","js"],
+    }),
+  },
+
+  "output-csv-data-export-with-proper-escaping": {
+    id: "output-csv-data-export-with-proper-escaping",
+    name: "CSVDataExportwithProperEscapingSkill",
+    displayName: "CSV Data Export with Proper Escaping",
+    categoryId: "output",
+    description: "Outputs RFC 4180 compliant CSV files with quote escaping for commas.",
+    tags: ["output","output","csv","data"],
+    transform: createStandardSkillTransform({
+      sectionName: "CSV Data Export with Proper Escaping Standards",
+      ruSectionName: "Стандарты и регламенты: CSV Data Export with Proper Escaping",
+      instructions: [
+        "Apply core domain tenets for CSV Data Export with Proper Escaping.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для CSV Data Export with Proper Escaping.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","csv","data"],
+    }),
+  },
+
+  "output-xml-document-formatting-tag-validation": {
+    id: "output-xml-document-formatting-tag-validation",
+    name: "XMLDocumentFormattingTagValidationSkill",
+    displayName: "XML Document Formatting & Tag Validation",
+    categoryId: "output",
+    description: "Generates well-formed XML documents with correct opening/closing tags.",
+    tags: ["output","output","xml","document"],
+    transform: createStandardSkillTransform({
+      sectionName: "XML Document Formatting & Tag Validation Standards",
+      ruSectionName: "Стандарты и регламенты: XML Document Formatting & Tag Validation",
+      instructions: [
+        "Apply core domain tenets for XML Document Formatting & Tag Validation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для XML Document Formatting & Tag Validation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","xml","document"],
+    }),
+  },
+
+  "output-typescript-interface-type-definitions": {
+    id: "output-typescript-interface-type-definitions",
+    name: "TypeScriptInterfaceTypeDefinitionsSkill",
+    displayName: "TypeScript Interface & Type Definitions",
+    categoryId: "output",
+    description: "Outputs strict, production-ready TypeScript interfaces and generic types.",
+    tags: ["output","output","typescript","interface"],
+    transform: createStandardSkillTransform({
+      sectionName: "TypeScript Interface & Type Definitions Standards",
+      ruSectionName: "Стандарты и регламенты: TypeScript Interface & Type Definitions",
+      instructions: [
+        "Apply core domain tenets for TypeScript Interface & Type Definitions.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для TypeScript Interface & Type Definitions.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","typescript","interface"],
+    }),
+  },
+
+  "output-sql-ddl-dml-script-formatting": {
+    id: "output-sql-ddl-dml-script-formatting",
+    name: "SQLDDLDMLScriptFormattingSkill",
+    displayName: "SQL DDL & DML Script Formatting",
+    categoryId: "output",
+    description: "Formats SQL schema migrations and queries with uppercase keywords.",
+    tags: ["output","output","sql","ddl"],
+    transform: createStandardSkillTransform({
+      sectionName: "SQL DDL & DML Script Formatting Standards",
+      ruSectionName: "Стандарты и регламенты: SQL DDL & DML Script Formatting",
+      instructions: [
+        "Apply core domain tenets for SQL DDL & DML Script Formatting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SQL DDL & DML Script Formatting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","sql","ddl"],
+    }),
+  },
+
+  "output-graphql-schema-definition-language-sdl": {
+    id: "output-graphql-schema-definition-language-sdl",
+    name: "GraphQLSchemaDefinitionLanguageSDLSkill",
+    displayName: "GraphQL Schema Definition Language (SDL)",
+    categoryId: "output",
+    description: "Generates valid GraphQL types, queries, mutations, and directives.",
+    tags: ["output","output","graphql","schema"],
+    transform: createStandardSkillTransform({
+      sectionName: "GraphQL Schema Definition Language (SDL) Standards",
+      ruSectionName: "Стандарты и регламенты: GraphQL Schema Definition Language (SDL)",
+      instructions: [
+        "Apply core domain tenets for GraphQL Schema Definition Language (SDL).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для GraphQL Schema Definition Language (SDL).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","graphql","schema"],
+    }),
+  },
+
+  "output-json-lines-jsonl-streaming-format": {
+    id: "output-json-lines-jsonl-streaming-format",
+    name: "JSONLinesJSONLStreamingFormatSkill",
+    displayName: "JSON Lines (JSONL) Streaming Format",
+    categoryId: "output",
+    description: "Formats bulk data as newline-delimited JSON objects for streaming.",
+    tags: ["output","output","json","lines"],
+    transform: createStandardSkillTransform({
+      sectionName: "JSON Lines (JSONL) Streaming Format Standards",
+      ruSectionName: "Стандарты и регламенты: JSON Lines (JSONL) Streaming Format",
+      instructions: [
+        "Apply core domain tenets for JSON Lines (JSONL) Streaming Format.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для JSON Lines (JSONL) Streaming Format.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","json","lines"],
+    }),
+  },
+
+  "output-latex-mathematical-equation-notation": {
+    id: "output-latex-mathematical-equation-notation",
+    name: "LatexMathematicalEquationNotationSkill",
+    displayName: "Latex Mathematical Equation Notation",
+    categoryId: "output",
+    description: "Renders complex mathematical equations in valid LaTeX inline or block syntax.",
+    tags: ["output","output","latex","mathematical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Latex Mathematical Equation Notation Standards",
+      ruSectionName: "Стандарты и регламенты: Latex Mathematical Equation Notation",
+      instructions: [
+        "Apply core domain tenets for Latex Mathematical Equation Notation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Latex Mathematical Equation Notation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","latex","mathematical"],
+    }),
+  },
+
+  "output-html5-semantic-markup-accessibility": {
+    id: "output-html5-semantic-markup-accessibility",
+    name: "HTML5SemanticMarkupAccessibilitySkill",
+    displayName: "HTML5 Semantic Markup & Accessibility",
+    categoryId: "output",
+    description: "Generates semantic HTML5 markup with ARIA attributes and clean structure.",
+    tags: ["output","output","html5","semantic"],
+    transform: createStandardSkillTransform({
+      sectionName: "HTML5 Semantic Markup & Accessibility Standards",
+      ruSectionName: "Стандарты и регламенты: HTML5 Semantic Markup & Accessibility",
+      instructions: [
+        "Apply core domain tenets for HTML5 Semantic Markup & Accessibility.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для HTML5 Semantic Markup & Accessibility.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","html5","semantic"],
+    }),
+  },
+
+  "output-bash-shell-script-boilerplate-with-safety-flags": {
+    id: "output-bash-shell-script-boilerplate-with-safety-flags",
+    name: "BashShellScriptBoilerplatewithSafetyFlagsSkill",
+    displayName: "Bash/Shell Script Boilerplate with Safety Flags",
+    categoryId: "output",
+    description: "Outputs robust shell scripts with `set -euo pipefail` safety headers.",
+    tags: ["output","output","bash","shell"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bash/Shell Script Boilerplate with Safety Flags Standards",
+      ruSectionName: "Стандарты и регламенты: Bash/Shell Script Boilerplate with Safety Flags",
+      instructions: [
+        "Apply core domain tenets for Bash/Shell Script Boilerplate with Safety Flags.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Bash/Shell Script Boilerplate with Safety Flags.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","bash","shell"],
+    }),
+  },
+
+  "output-docker-compose-yaml-service-definition": {
+    id: "output-docker-compose-yaml-service-definition",
+    name: "DockerComposeYAMLServiceDefinitionSkill",
+    displayName: "Docker Compose YAML Service Definition",
+    categoryId: "output",
+    description: "Generates valid Docker Compose files with healthchecks and volumes.",
+    tags: ["output","output","docker","compose"],
+    transform: createStandardSkillTransform({
+      sectionName: "Docker Compose YAML Service Definition Standards",
+      ruSectionName: "Стандарты и регламенты: Docker Compose YAML Service Definition",
+      instructions: [
+        "Apply core domain tenets for Docker Compose YAML Service Definition.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Docker Compose YAML Service Definition.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","docker","compose"],
+    }),
+  },
+
+  "output-protobuf-v3-schema-message-definition": {
+    id: "output-protobuf-v3-schema-message-definition",
+    name: "Protobufv3SchemaMessageDefinitionSkill",
+    displayName: "Protobuf v3 Schema Message Definition",
+    categoryId: "output",
+    description: "Formats Google Protocol Buffers schemas with explicit field numbers.",
+    tags: ["output","output","protobuf","v3"],
+    transform: createStandardSkillTransform({
+      sectionName: "Protobuf v3 Schema Message Definition Standards",
+      ruSectionName: "Стандарты и регламенты: Protobuf v3 Schema Message Definition",
+      instructions: [
+        "Apply core domain tenets for Protobuf v3 Schema Message Definition.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Protobuf v3 Schema Message Definition.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","protobuf","v3"],
+    }),
+  },
+
+  "output-terraform-hcl-infrastructure-code": {
+    id: "output-terraform-hcl-infrastructure-code",
+    name: "TerraformHCLInfrastructureCodeSkill",
+    displayName: "Terraform HCL Infrastructure Code",
+    categoryId: "output",
+    description: "Outputs clean HashiCorp Configuration Language (HCL) modules.",
+    tags: ["output","output","terraform","hcl"],
+    transform: createStandardSkillTransform({
+      sectionName: "Terraform HCL Infrastructure Code Standards",
+      ruSectionName: "Стандарты и регламенты: Terraform HCL Infrastructure Code",
+      instructions: [
+        "Apply core domain tenets for Terraform HCL Infrastructure Code.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Terraform HCL Infrastructure Code.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","terraform","hcl"],
+    }),
+  },
+
+  "output-regex-pattern-substitution-specification": {
+    id: "output-regex-pattern-substitution-specification",
+    name: "RegexPatternSubstitutionSpecificationSkill",
+    displayName: "Regex Pattern & Substitution Specification",
+    categoryId: "output",
+    description: "Provides tested regular expressions with flags and capture group explanations.",
+    tags: ["output","output","regex","pattern"],
+    transform: createStandardSkillTransform({
+      sectionName: "Regex Pattern & Substitution Specification Standards",
+      ruSectionName: "Стандарты и регламенты: Regex Pattern & Substitution Specification",
+      instructions: [
+        "Apply core domain tenets for Regex Pattern & Substitution Specification.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Regex Pattern & Substitution Specification.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","regex","pattern"],
+    }),
+  },
+
+  "output-cron-expression-syntax-human-explanation": {
+    id: "output-cron-expression-syntax-human-explanation",
+    name: "CronExpressionSyntaxHumanExplanationSkill",
+    displayName: "Cron Expression Syntax & Human Explanation",
+    categoryId: "output",
+    description: "Outputs standard 5-part cron expressions paired with plain-language schedule breakdowns.",
+    tags: ["output","output","cron","expression"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cron Expression Syntax & Human Explanation Standards",
+      ruSectionName: "Стандарты и регламенты: Cron Expression Syntax & Human Explanation",
+      instructions: [
+        "Apply core domain tenets for Cron Expression Syntax & Human Explanation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cron Expression Syntax & Human Explanation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","cron","expression"],
+    }),
+  },
+
+  "output-curl-command-example-with-headers": {
+    id: "output-curl-command-example-with-headers",
+    name: "cURLCommandExamplewithHeadersSkill",
+    displayName: "cURL Command Example with Headers",
+    categoryId: "output",
+    description: "Generates copy-pasteable cURL commands with proper HTTP method and auth headers.",
+    tags: ["output","output","curl","command"],
+    transform: createStandardSkillTransform({
+      sectionName: "cURL Command Example with Headers Standards",
+      ruSectionName: "Стандарты и регламенты: cURL Command Example with Headers",
+      instructions: [
+        "Apply core domain tenets for cURL Command Example with Headers.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для cURL Command Example with Headers.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","curl","command"],
+    }),
+  },
+
+  "output-git-commit-message-conventional-format": {
+    id: "output-git-commit-message-conventional-format",
+    name: "GitCommitMessageConventionalFormatSkill",
+    displayName: "Git Commit Message Conventional Format",
+    categoryId: "output",
+    description: "Formats commit messages adhering to `feat:`, `fix:`, or `chore:` conventional standards.",
+    tags: ["output","output","git","commit"],
+    transform: createStandardSkillTransform({
+      sectionName: "Git Commit Message Conventional Format Standards",
+      ruSectionName: "Стандарты и регламенты: Git Commit Message Conventional Format",
+      instructions: [
+        "Apply core domain tenets for Git Commit Message Conventional Format.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Git Commit Message Conventional Format.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","git","commit"],
+    }),
+  },
+
+  "output-semantic-versioning-release-tagging": {
+    id: "output-semantic-versioning-release-tagging",
+    name: "SemanticVersioningReleaseTaggingSkill",
+    displayName: "Semantic Versioning Release Tagging",
+    categoryId: "output",
+    description: "Formats release notes according to SemVer (MAJOR.MINOR.PATCH) rules.",
+    tags: ["output","output","semantic","versioning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Semantic Versioning Release Tagging Standards",
+      ruSectionName: "Стандарты и регламенты: Semantic Versioning Release Tagging",
+      instructions: [
+        "Apply core domain tenets for Semantic Versioning Release Tagging.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Semantic Versioning Release Tagging.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","semantic","versioning"],
+    }),
+  },
+
+  "output-bibtex-academic-citation-format": {
+    id: "output-bibtex-academic-citation-format",
+    name: "BibTeXAcademicCitationFormatSkill",
+    displayName: "BibTeX Academic Citation Format",
+    categoryId: "output",
+    description: "Generates well-structured BibTeX entries for academic papers and books.",
+    tags: ["output","output","bibtex","academic"],
+    transform: createStandardSkillTransform({
+      sectionName: "BibTeX Academic Citation Format Standards",
+      ruSectionName: "Стандарты и регламенты: BibTeX Academic Citation Format",
+      instructions: [
+        "Apply core domain tenets for BibTeX Academic Citation Format.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для BibTeX Academic Citation Format.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","bibtex","academic"],
+    }),
+  },
+
+  "output-postman-collection-v2-1-json-schema": {
+    id: "output-postman-collection-v2-1-json-schema",
+    name: "PostmanCollectionv21JSONSchemaSkill",
+    displayName: "Postman Collection v2.1 JSON Schema",
+    categoryId: "output",
+    description: "Outputs valid Postman API collection JSON files for import.",
+    tags: ["output","output","postman","collection"],
+    transform: createStandardSkillTransform({
+      sectionName: "Postman Collection v2.1 JSON Schema Standards",
+      ruSectionName: "Стандарты и регламенты: Postman Collection v2.1 JSON Schema",
+      instructions: [
+        "Apply core domain tenets for Postman Collection v2.1 JSON Schema.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Postman Collection v2.1 JSON Schema.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","postman","collection"],
+    }),
+  },
+
+  "output-plantuml-architecture-diagram-code": {
+    id: "output-plantuml-architecture-diagram-code",
+    name: "PlantUMLArchitectureDiagramCodeSkill",
+    displayName: "PlantUML Architecture Diagram Code",
+    categoryId: "output",
+    description: "Generates PlantUML syntax for UML class, component, and deployment diagrams.",
+    tags: ["output","output","plantuml","architecture"],
+    transform: createStandardSkillTransform({
+      sectionName: "PlantUML Architecture Diagram Code Standards",
+      ruSectionName: "Стандарты и регламенты: PlantUML Architecture Diagram Code",
+      instructions: [
+        "Apply core domain tenets for PlantUML Architecture Diagram Code.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для PlantUML Architecture Diagram Code.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","plantuml","architecture"],
+    }),
+  },
+
+  "output-toml-configuration-file-syntax": {
+    id: "output-toml-configuration-file-syntax",
+    name: "TOMLConfigurationFileSyntaxSkill",
+    displayName: "TOML Configuration File Syntax",
+    categoryId: "output",
+    description: "Outputs clean, valid TOML files for Rust, Python, or Cargo configuration.",
+    tags: ["output","output","toml","configuration"],
+    transform: createStandardSkillTransform({
+      sectionName: "TOML Configuration File Syntax Standards",
+      ruSectionName: "Стандарты и регламенты: TOML Configuration File Syntax",
+      instructions: [
+        "Apply core domain tenets for TOML Configuration File Syntax.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для TOML Configuration File Syntax.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","toml","configuration"],
+    }),
+  },
+
+  "output-diff-patch-syntax-for-code-changes": {
+    id: "output-diff-patch-syntax-for-code-changes",
+    name: "DiffPatchSyntaxforCodeChangesSkill",
+    displayName: "Diff Patch Syntax for Code Changes",
+    categoryId: "output",
+    description: "Formats code changes as standard unified diff patch blocks.",
+    tags: ["output","output","diff","patch"],
+    transform: createStandardSkillTransform({
+      sectionName: "Diff Patch Syntax for Code Changes Standards",
+      ruSectionName: "Стандарты и регламенты: Diff Patch Syntax for Code Changes",
+      instructions: [
+        "Apply core domain tenets for Diff Patch Syntax for Code Changes.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Diff Patch Syntax for Code Changes.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","diff","patch"],
+    }),
+  },
+
+  "output-string-literal-template-interpolation": {
+    id: "output-string-literal-template-interpolation",
+    name: "StringLiteralTemplateInterpolationSkill",
+    displayName: "String Literal Template Interpolation",
+    categoryId: "output",
+    description: "Outputs clean string template literals with explicit variable placeholders.",
+    tags: ["output","output","string","literal"],
+    transform: createStandardSkillTransform({
+      sectionName: "String Literal Template Interpolation Standards",
+      ruSectionName: "Стандарты и регламенты: String Literal Template Interpolation",
+      instructions: [
+        "Apply core domain tenets for String Literal Template Interpolation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для String Literal Template Interpolation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","string","literal"],
+    }),
+  },
+
+  "output-ascii-tree-folder-structure-diagram": {
+    id: "output-ascii-tree-folder-structure-diagram",
+    name: "ASCIITreeFolderStructureDiagramSkill",
+    displayName: "ASCII Tree Folder Structure Diagram",
+    categoryId: "output",
+    description: "Renders directory file structures in ASCII tree format.",
+    tags: ["output","output","ascii","tree"],
+    transform: createStandardSkillTransform({
+      sectionName: "ASCII Tree Folder Structure Diagram Standards",
+      ruSectionName: "Стандарты и регламенты: ASCII Tree Folder Structure Diagram",
+      instructions: [
+        "Apply core domain tenets for ASCII Tree Folder Structure Diagram.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ASCII Tree Folder Structure Diagram.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","ascii","tree"],
+    }),
+  },
+
+  "output-gherkin-feature-given-when-then-syntax": {
+    id: "output-gherkin-feature-given-when-then-syntax",
+    name: "GherkinFeatureGivenWhenThenSyntaxSkill",
+    displayName: "Gherkin Feature Given-When-Then Syntax",
+    categoryId: "output",
+    description: "Formats BDD test scenarios in clear Gherkin syntax.",
+    tags: ["output","output","gherkin","feature"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gherkin Feature Given-When-Then Syntax Standards",
+      ruSectionName: "Стандарты и регламенты: Gherkin Feature Given-When-Then Syntax",
+      instructions: [
+        "Apply core domain tenets for Gherkin Feature Given-When-Then Syntax.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gherkin Feature Given-When-Then Syntax.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","gherkin","feature"],
+    }),
+  },
+
+  "output-http-raw-request-response-packet": {
+    id: "output-http-raw-request-response-packet",
+    name: "HTTPRawRequestResponsePacketSkill",
+    displayName: "HTTP Raw Request/Response Packet",
+    categoryId: "output",
+    description: "Renders raw HTTP wire protocol headers, status codes, and body payloads.",
+    tags: ["output","output","http","raw"],
+    transform: createStandardSkillTransform({
+      sectionName: "HTTP Raw Request/Response Packet Standards",
+      ruSectionName: "Стандарты и регламенты: HTTP Raw Request/Response Packet",
+      instructions: [
+        "Apply core domain tenets for HTTP Raw Request/Response Packet.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для HTTP Raw Request/Response Packet.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","http","raw"],
+    }),
+  },
+
+  "output-systemd-service-unit-file-syntax": {
+    id: "output-systemd-service-unit-file-syntax",
+    name: "SystemdServiceUnitFileSyntaxSkill",
+    displayName: "Systemd Service Unit File Syntax",
+    categoryId: "output",
+    description: "Generates Linux systemd `.service` files with restart and security policies.",
+    tags: ["output","output","systemd","service"],
+    transform: createStandardSkillTransform({
+      sectionName: "Systemd Service Unit File Syntax Standards",
+      ruSectionName: "Стандарты и регламенты: Systemd Service Unit File Syntax",
+      instructions: [
+        "Apply core domain tenets for Systemd Service Unit File Syntax.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Systemd Service Unit File Syntax.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","systemd","service"],
+    }),
+  },
+
+  "output-nginx-server-block-configuration": {
+    id: "output-nginx-server-block-configuration",
+    name: "NginxServerBlockConfigurationSkill",
+    displayName: "Nginx Server Block Configuration",
+    categoryId: "output",
+    description: "Outputs valid Nginx reverse proxy, SSL, and location block configs.",
+    tags: ["output","output","nginx","server"],
+    transform: createStandardSkillTransform({
+      sectionName: "Nginx Server Block Configuration Standards",
+      ruSectionName: "Стандарты и регламенты: Nginx Server Block Configuration",
+      instructions: [
+        "Apply core domain tenets for Nginx Server Block Configuration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Nginx Server Block Configuration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","nginx","server"],
+    }),
+  },
+
+  "output-kubernetes-manifest-yaml-specification": {
+    id: "output-kubernetes-manifest-yaml-specification",
+    name: "KubernetesManifestYAMLSpecificationSkill",
+    displayName: "Kubernetes Manifest YAML Specification",
+    categoryId: "output",
+    description: "Generates valid Kubernetes Deployment, Service, and Ingress manifests.",
+    tags: ["output","output","kubernetes","manifest"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kubernetes Manifest YAML Specification Standards",
+      ruSectionName: "Стандарты и регламенты: Kubernetes Manifest YAML Specification",
+      instructions: [
+        "Apply core domain tenets for Kubernetes Manifest YAML Specification.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kubernetes Manifest YAML Specification.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","kubernetes","manifest"],
+    }),
+  },
+
+  "output-ansible-playbook-yaml-task-list": {
+    id: "output-ansible-playbook-yaml-task-list",
+    name: "AnsiblePlaybookYAMLTaskListSkill",
+    displayName: "Ansible Playbook YAML Task List",
+    categoryId: "output",
+    description: "Formats Ansible automation playbooks with idempotent tasks.",
+    tags: ["output","output","ansible","playbook"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ansible Playbook YAML Task List Standards",
+      ruSectionName: "Стандарты и регламенты: Ansible Playbook YAML Task List",
+      instructions: [
+        "Apply core domain tenets for Ansible Playbook YAML Task List.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Ansible Playbook YAML Task List.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","ansible","playbook"],
+    }),
+  },
+
+  "output-graphql-query-variable-json-payload": {
+    id: "output-graphql-query-variable-json-payload",
+    name: "GraphQLQueryVariableJSONPayloadSkill",
+    displayName: "GraphQL Query & Variable JSON Payload",
+    categoryId: "output",
+    description: "Pairs GraphQL query strings with separate JSON variable objects.",
+    tags: ["output","output","graphql","query"],
+    transform: createStandardSkillTransform({
+      sectionName: "GraphQL Query & Variable JSON Payload Standards",
+      ruSectionName: "Стандарты и регламенты: GraphQL Query & Variable JSON Payload",
+      instructions: [
+        "Apply core domain tenets for GraphQL Query & Variable JSON Payload.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для GraphQL Query & Variable JSON Payload.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","graphql","query"],
+    }),
+  },
+
+  "output-elasticsearch-query-dsl-json-payload": {
+    id: "output-elasticsearch-query-dsl-json-payload",
+    name: "ElasticsearchQueryDSLJSONPayloadSkill",
+    displayName: "Elasticsearch Query DSL JSON Payload",
+    categoryId: "output",
+    description: "Outputs complex Elasticsearch search queries in JSON DSL syntax.",
+    tags: ["output","output","elasticsearch","query"],
+    transform: createStandardSkillTransform({
+      sectionName: "Elasticsearch Query DSL JSON Payload Standards",
+      ruSectionName: "Стандарты и регламенты: Elasticsearch Query DSL JSON Payload",
+      instructions: [
+        "Apply core domain tenets for Elasticsearch Query DSL JSON Payload.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Elasticsearch Query DSL JSON Payload.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","elasticsearch","query"],
+    }),
+  },
+
+  "output-graphviz-dot-graph-visualization-code": {
+    id: "output-graphviz-dot-graph-visualization-code",
+    name: "GraphvizDOTGraphVisualizationCodeSkill",
+    displayName: "Graphviz DOT Graph Visualization Code",
+    categoryId: "output",
+    description: "Generates DOT syntax for rendering node-edge graphs via Graphviz.",
+    tags: ["output","output","graphviz","dot"],
+    transform: createStandardSkillTransform({
+      sectionName: "Graphviz DOT Graph Visualization Code Standards",
+      ruSectionName: "Стандарты и регламенты: Graphviz DOT Graph Visualization Code",
+      instructions: [
+        "Apply core domain tenets for Graphviz DOT Graph Visualization Code.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Graphviz DOT Graph Visualization Code.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","graphviz","dot"],
+    }),
+  },
+
+  "output-vtt-srt-subtitle-timestamp-format": {
+    id: "output-vtt-srt-subtitle-timestamp-format",
+    name: "VTTSRTSubtitleTimestampFormatSkill",
+    displayName: "VTT / SRT Subtitle Timestamp Format",
+    categoryId: "output",
+    description: "Formats video subtitle files with precise start/end millisecond timestamps.",
+    tags: ["output","output","vtt","srt"],
+    transform: createStandardSkillTransform({
+      sectionName: "VTT / SRT Subtitle Timestamp Format Standards",
+      ruSectionName: "Стандарты и регламенты: VTT / SRT Subtitle Timestamp Format",
+      instructions: [
+        "Apply core domain tenets for VTT / SRT Subtitle Timestamp Format.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для VTT / SRT Subtitle Timestamp Format.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","vtt","srt"],
+    }),
+  },
+
+  "output-robots-txt-sitemap-xml-syntax": {
+    id: "output-robots-txt-sitemap-xml-syntax",
+    name: "ROBOTStxtSitemapXMLSyntaxSkill",
+    displayName: "ROBOTS.txt & Sitemap XML Syntax",
+    categoryId: "output",
+    description: "Outputs search engine crawler directives and XML sitemaps.",
+    tags: ["output","output","robots","txt"],
+    transform: createStandardSkillTransform({
+      sectionName: "ROBOTS.txt & Sitemap XML Syntax Standards",
+      ruSectionName: "Стандарты и регламенты: ROBOTS.txt & Sitemap XML Syntax",
+      instructions: [
+        "Apply core domain tenets for ROBOTS.txt & Sitemap XML Syntax.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ROBOTS.txt & Sitemap XML Syntax.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","robots","txt"],
+    }),
+  },
+
+  "output-apache-httpd-configuration-directive": {
+    id: "output-apache-httpd-configuration-directive",
+    name: "ApacheHTTPDConfigurationDirectiveSkill",
+    displayName: "Apache HTTPD Configuration Directive",
+    categoryId: "output",
+    description: "Outputs valid Apache `.htaccess` or virtual host configuration rules.",
+    tags: ["output","output","apache","httpd"],
+    transform: createStandardSkillTransform({
+      sectionName: "Apache HTTPD Configuration Directive Standards",
+      ruSectionName: "Стандарты и регламенты: Apache HTTPD Configuration Directive",
+      instructions: [
+        "Apply core domain tenets for Apache HTTPD Configuration Directive.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Apache HTTPD Configuration Directive.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","apache","httpd"],
+    }),
+  },
+
+  "output-sparql-graph-query-language-syntax": {
+    id: "output-sparql-graph-query-language-syntax",
+    name: "SPARQLGraphQueryLanguageSyntaxSkill",
+    displayName: "SPARQL Graph Query Language Syntax",
+    categoryId: "output",
+    description: "Generates valid SPARQL queries for RDF knowledge bases.",
+    tags: ["output","output","sparql","graph"],
+    transform: createStandardSkillTransform({
+      sectionName: "SPARQL Graph Query Language Syntax Standards",
+      ruSectionName: "Стандарты и регламенты: SPARQL Graph Query Language Syntax",
+      instructions: [
+        "Apply core domain tenets for SPARQL Graph Query Language Syntax.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SPARQL Graph Query Language Syntax.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","sparql","graph"],
+    }),
+  },
+
+  "output-prometheus-alerting-rule-yaml-syntax": {
+    id: "output-prometheus-alerting-rule-yaml-syntax",
+    name: "PrometheusAlertingRuleYAMLSyntaxSkill",
+    displayName: "Prometheus Alerting Rule YAML Syntax",
+    categoryId: "output",
+    description: "Formats Prometheus alerting rules with metric thresholds and labels.",
+    tags: ["output","output","prometheus","alerting"],
+    transform: createStandardSkillTransform({
+      sectionName: "Prometheus Alerting Rule YAML Syntax Standards",
+      ruSectionName: "Стандарты и регламенты: Prometheus Alerting Rule YAML Syntax",
+      instructions: [
+        "Apply core domain tenets for Prometheus Alerting Rule YAML Syntax.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Prometheus Alerting Rule YAML Syntax.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","prometheus","alerting"],
+    }),
+  },
+
+  "output-swagger-openapi-endpoint-spec": {
+    id: "output-swagger-openapi-endpoint-spec",
+    name: "SwaggerOpenAPIEndpointSpecSkill",
+    displayName: "Swagger / OpenAPI Endpoint Spec",
+    categoryId: "output",
+    description: "Outputs individual endpoint specifications in OpenAPI YAML format.",
+    tags: ["output","output","swagger","openapi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Swagger / OpenAPI Endpoint Spec Standards",
+      ruSectionName: "Стандарты и регламенты: Swagger / OpenAPI Endpoint Spec",
+      instructions: [
+        "Apply core domain tenets for Swagger / OpenAPI Endpoint Spec.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Swagger / OpenAPI Endpoint Spec.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","swagger","openapi"],
+    }),
+  },
+
+  "output-json-patch-rfc-6902-operations-list": {
+    id: "output-json-patch-rfc-6902-operations-list",
+    name: "JSONPatchRFC6902OperationsListSkill",
+    displayName: "JSON Patch RFC 6902 Operations List",
+    categoryId: "output",
+    description: "Formats JSON modification operations as RFC 6902 patch arrays.",
+    tags: ["output","output","json","patch"],
+    transform: createStandardSkillTransform({
+      sectionName: "JSON Patch RFC 6902 Operations List Standards",
+      ruSectionName: "Стандарты и регламенты: JSON Patch RFC 6902 Operations List",
+      instructions: [
+        "Apply core domain tenets for JSON Patch RFC 6902 Operations List.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для JSON Patch RFC 6902 Operations List.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","json","patch"],
+    }),
+  },
+
+  "output-css-custom-property-design-token-list": {
+    id: "output-css-custom-property-design-token-list",
+    name: "CSSCustomPropertyDesignTokenListSkill",
+    displayName: "CSS Custom Property Design Token List",
+    categoryId: "output",
+    description: "Outputs design tokens as CSS variables (`--primary-color`).",
+    tags: ["output","output","css","custom"],
+    transform: createStandardSkillTransform({
+      sectionName: "CSS Custom Property Design Token List Standards",
+      ruSectionName: "Стандарты и регламенты: CSS Custom Property Design Token List",
+      instructions: [
+        "Apply core domain tenets for CSS Custom Property Design Token List.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для CSS Custom Property Design Token List.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","css","custom"],
+    }),
+  },
+
+  "output-jstest-jest-test-suite-syntax": {
+    id: "output-jstest-jest-test-suite-syntax",
+    name: "JSTestJestTestSuiteSyntaxSkill",
+    displayName: "JSTest / Jest Test Suite Syntax",
+    categoryId: "output",
+    description: "Formats unit tests with `describe`, `it`, and `expect` assertions.",
+    tags: ["output","output","jstest","jest"],
+    transform: createStandardSkillTransform({
+      sectionName: "JSTest / Jest Test Suite Syntax Standards",
+      ruSectionName: "Стандарты и регламенты: JSTest / Jest Test Suite Syntax",
+      instructions: [
+        "Apply core domain tenets for JSTest / Jest Test Suite Syntax.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для JSTest / Jest Test Suite Syntax.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","jstest","jest"],
+    }),
+  },
+
+  "output-pytest-test-function-fixture-syntax": {
+    id: "output-pytest-test-function-fixture-syntax",
+    name: "PyTestTestFunctionFixtureSyntaxSkill",
+    displayName: "PyTest Test Function & Fixture Syntax",
+    categoryId: "output",
+    description: "Formats Python test functions with `@pytest.fixture` annotations.",
+    tags: ["output","output","pytest","test"],
+    transform: createStandardSkillTransform({
+      sectionName: "PyTest Test Function & Fixture Syntax Standards",
+      ruSectionName: "Стандарты и регламенты: PyTest Test Function & Fixture Syntax",
+      instructions: [
+        "Apply core domain tenets for PyTest Test Function & Fixture Syntax.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для PyTest Test Function & Fixture Syntax.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","pytest","test"],
+    }),
+  },
+
+  "output-makefile-rule-dependency-target": {
+    id: "output-makefile-rule-dependency-target",
+    name: "MakefileRuleDependencyTargetSkill",
+    displayName: "Makefile Rule & Dependency Target",
+    categoryId: "output",
+    description: "Outputs clean Makefiles with phony targets and variable definitions.",
+    tags: ["output","output","makefile","rule"],
+    transform: createStandardSkillTransform({
+      sectionName: "Makefile Rule & Dependency Target Standards",
+      ruSectionName: "Стандарты и регламенты: Makefile Rule & Dependency Target",
+      instructions: [
+        "Apply core domain tenets for Makefile Rule & Dependency Target.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Makefile Rule & Dependency Target.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","makefile","rule"],
+    }),
+  },
+
+  "output-latex-table-array-environment": {
+    id: "output-latex-table-array-environment",
+    name: "LaTeXTableArrayEnvironmentSkill",
+    displayName: "LaTeX Table & Array Environment",
+    categoryId: "output",
+    description: "Formats complex data matrices in LaTeX table environments.",
+    tags: ["output","output","latex","table"],
+    transform: createStandardSkillTransform({
+      sectionName: "LaTeX Table & Array Environment Standards",
+      ruSectionName: "Стандарты и регламенты: LaTeX Table & Array Environment",
+      instructions: [
+        "Apply core domain tenets for LaTeX Table & Array Environment.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для LaTeX Table & Array Environment.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","latex","table"],
+    }),
+  },
+
+  "output-rfc-8259-strict-json-output-envelope": {
+    id: "output-rfc-8259-strict-json-output-envelope",
+    name: "RFC8259StrictJSONOutputEnvelopeSkill",
+    displayName: "RFC 8259 Strict JSON Output Envelope",
+    categoryId: "output",
+    description: "Wraps response data in a standardized JSON error/data envelope.",
+    tags: ["output","output","rfc","8259"],
+    transform: createStandardSkillTransform({
+      sectionName: "RFC 8259 Strict JSON Output Envelope Standards",
+      ruSectionName: "Стандарты и регламенты: RFC 8259 Strict JSON Output Envelope",
+      instructions: [
+        "Apply core domain tenets for RFC 8259 Strict JSON Output Envelope.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для RFC 8259 Strict JSON Output Envelope.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["output","output","rfc","8259"],
+    }),
+  },
 };
 

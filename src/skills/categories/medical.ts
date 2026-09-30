@@ -2005,4 +2005,2302 @@ sectionName: 'HPO Rare Disease Phenotypic Mapping',
       tags: ["medical","medical","ethics","four"],
     }),
   },
+  "medical-soap-note-clinical-documentation-standard": {
+    id: "medical-soap-note-clinical-documentation-standard",
+    name: "SOAPNoteClinicalDocumentationStandardSkill",
+    displayName: "SOAP Note Clinical Documentation Standard",
+    categoryId: "medical",
+    description: "Structures medical encounters: Subjective, Objective, Assessment, and Plan.",
+    tags: ["medical","medical","soap","note"],
+    transform: createStandardSkillTransform({
+      sectionName: "SOAP Note Clinical Documentation Standard Standards",
+      ruSectionName: "Стандарты и регламенты: SOAP Note Clinical Documentation Standard",
+      instructions: [
+        "Apply core domain tenets for SOAP Note Clinical Documentation Standard.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SOAP Note Clinical Documentation Standard.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","soap","note"],
+    }),
+  },
+
+  "medical-grade-evidence-based-quality-assessment": {
+    id: "medical-grade-evidence-based-quality-assessment",
+    name: "GRADEEvidenceBasedQualityAssessmentSkill",
+    displayName: "GRADE Evidence-Based Quality Assessment",
+    categoryId: "medical",
+    description: "Scores clinical research evidence quality from High to Very Low.",
+    tags: ["medical","medical","grade","evidence"],
+    transform: createStandardSkillTransform({
+      sectionName: "GRADE Evidence-Based Quality Assessment Standards",
+      ruSectionName: "Стандарты и регламенты: GRADE Evidence-Based Quality Assessment",
+      instructions: [
+        "Apply core domain tenets for GRADE Evidence-Based Quality Assessment.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для GRADE Evidence-Based Quality Assessment.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","grade","evidence"],
+    }),
+  },
+
+  "medical-qsofa-sepsis-early-warning-screening": {
+    id: "medical-qsofa-sepsis-early-warning-screening",
+    name: "qSOFASepsisEarlyWarningScreeningSkill",
+    displayName: "qSOFA & Sepsis Early Warning Screening",
+    categoryId: "medical",
+    description: "Screens patients for sepsis using altered mental status, respiratory rate, and blood pressure.",
+    tags: ["medical","medical","qsofa","sepsis"],
+    transform: createStandardSkillTransform({
+      sectionName: "qSOFA & Sepsis Early Warning Screening Standards",
+      ruSectionName: "Стандарты и регламенты: qSOFA & Sepsis Early Warning Screening",
+      instructions: [
+        "Apply core domain tenets for qSOFA & Sepsis Early Warning Screening.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для qSOFA & Sepsis Early Warning Screening.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","qsofa","sepsis"],
+    }),
+  },
+
+  "medical-12-lead-electrocardiogram-ecg-interpretation": {
+    id: "medical-12-lead-electrocardiogram-ecg-interpretation",
+    name: "12LeadElectrocardiogramECGInterpretationSkill",
+    displayName: "12-Lead Electrocardiogram (ECG) Interpretation",
+    categoryId: "medical",
+    description: "Systematically reads ECGs: rate, rhythm, axis, intervals, ST elevation, ischemia.",
+    tags: ["medical","medical","12","lead"],
+    transform: createStandardSkillTransform({
+      sectionName: "12-Lead Electrocardiogram (ECG) Interpretation Standards",
+      ruSectionName: "Стандарты и регламенты: 12-Lead Electrocardiogram (ECG) Interpretation",
+      instructions: [
+        "Apply core domain tenets for 12-Lead Electrocardiogram (ECG) Interpretation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для 12-Lead Electrocardiogram (ECG) Interpretation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","12","lead"],
+    }),
+  },
+
+  "medical-tnm-cancer-staging-multidisciplinary-tumor-board": {
+    id: "medical-tnm-cancer-staging-multidisciplinary-tumor-board",
+    name: "TNMCancerStagingMultidisciplinaryTumorBoardSkill",
+    displayName: "TNM Cancer Staging & Multidisciplinary Tumor Board",
+    categoryId: "medical",
+    description: "Stages solid tumors by Tumor size, Nodal spread, and Metastasis.",
+    tags: ["medical","medical","tnm","cancer"],
+    transform: createStandardSkillTransform({
+      sectionName: "TNM Cancer Staging & Multidisciplinary Tumor Board Standards",
+      ruSectionName: "Стандарты и регламенты: TNM Cancer Staging & Multidisciplinary Tumor Board",
+      instructions: [
+        "Apply core domain tenets for TNM Cancer Staging & Multidisciplinary Tumor Board.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для TNM Cancer Staging & Multidisciplinary Tumor Board.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","tnm","cancer"],
+    }),
+  },
+
+  "medical-pediatric-resuscitation-broselow-tape-dosing": {
+    id: "medical-pediatric-resuscitation-broselow-tape-dosing",
+    name: "PediatricResuscitationBroselowTapeDosingSkill",
+    displayName: "Pediatric Resuscitation Broselow Tape Dosing",
+    categoryId: "medical",
+    description: "Calculates emergency pediatric drug doses and equipment sizes by length.",
+    tags: ["medical","medical","pediatric","resuscitation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pediatric Resuscitation Broselow Tape Dosing Standards",
+      ruSectionName: "Стандарты и регламенты: Pediatric Resuscitation Broselow Tape Dosing",
+      instructions: [
+        "Apply core domain tenets for Pediatric Resuscitation Broselow Tape Dosing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Pediatric Resuscitation Broselow Tape Dosing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","pediatric","resuscitation"],
+    }),
+  },
+
+  "medical-atls-trauma-primary-secondary-survey": {
+    id: "medical-atls-trauma-primary-secondary-survey",
+    name: "ATLSTraumaPrimarySecondarySurveySkill",
+    displayName: "ATLS Trauma Primary & Secondary Survey",
+    categoryId: "medical",
+    description: "Executes Advanced Trauma Life Support survey: Airway, Breathing, Circulation, Disability.",
+    tags: ["medical","medical","atls","trauma"],
+    transform: createStandardSkillTransform({
+      sectionName: "ATLS Trauma Primary & Secondary Survey Standards",
+      ruSectionName: "Стандарты и регламенты: ATLS Trauma Primary & Secondary Survey",
+      instructions: [
+        "Apply core domain tenets for ATLS Trauma Primary & Secondary Survey.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ATLS Trauma Primary & Secondary Survey.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","atls","trauma"],
+    }),
+  },
+
+  "medical-acc-aha-hypertension-treatment-algorithm": {
+    id: "medical-acc-aha-hypertension-treatment-algorithm",
+    name: "ACCAHAHypertensionTreatmentAlgorithmSkill",
+    displayName: "ACC/AHA Hypertension Treatment Algorithm",
+    categoryId: "medical",
+    description: "Manages blood pressure using stepwise lifestyle, ACEi/ARB, CCB, and thiazides.",
+    tags: ["medical","medical","acc","aha"],
+    transform: createStandardSkillTransform({
+      sectionName: "ACC/AHA Hypertension Treatment Algorithm Standards",
+      ruSectionName: "Стандарты и регламенты: ACC/AHA Hypertension Treatment Algorithm",
+      instructions: [
+        "Apply core domain tenets for ACC/AHA Hypertension Treatment Algorithm.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ACC/AHA Hypertension Treatment Algorithm.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","acc","aha"],
+    }),
+  },
+
+  "medical-ada-type-2-diabetes-glycemic-management": {
+    id: "medical-ada-type-2-diabetes-glycemic-management",
+    name: "ADAType2DiabetesGlycemicManagementSkill",
+    displayName: "ADA Type 2 Diabetes Glycemic Management",
+    categoryId: "medical",
+    description: "Manages HbA1c targets using metformin, SGLT2i, GLP-1 RA, and insulin.",
+    tags: ["medical","medical","ada","type"],
+    transform: createStandardSkillTransform({
+      sectionName: "ADA Type 2 Diabetes Glycemic Management Standards",
+      ruSectionName: "Стандарты и регламенты: ADA Type 2 Diabetes Glycemic Management",
+      instructions: [
+        "Apply core domain tenets for ADA Type 2 Diabetes Glycemic Management.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ADA Type 2 Diabetes Glycemic Management.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","ada","type"],
+    }),
+  },
+
+  "medical-dsm-5-diagnostic-criteria-mental-health-workup": {
+    id: "medical-dsm-5-diagnostic-criteria-mental-health-workup",
+    name: "DSM5DiagnosticCriteriaMentalHealthWorkupSkill",
+    displayName: "DSM-5 Diagnostic Criteria Mental Health Workup",
+    categoryId: "medical",
+    description: "Evaluates psychiatric symptoms against DSM-5 criteria for Major Depression, Bipolar, Anxiety.",
+    tags: ["medical","medical","dsm","5"],
+    transform: createStandardSkillTransform({
+      sectionName: "DSM-5 Diagnostic Criteria Mental Health Workup Standards",
+      ruSectionName: "Стандарты и регламенты: DSM-5 Diagnostic Criteria Mental Health Workup",
+      instructions: [
+        "Apply core domain tenets for DSM-5 Diagnostic Criteria Mental Health Workup.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для DSM-5 Diagnostic Criteria Mental Health Workup.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","dsm","5"],
+    }),
+  },
+
+  "medical-chest-x-ray-abcde-systematic-interpretation": {
+    id: "medical-chest-x-ray-abcde-systematic-interpretation",
+    name: "ChestXRayABCDESystematicInterpretationSkill",
+    displayName: "Chest X-Ray ABCDE Systematic Interpretation",
+    categoryId: "medical",
+    description: "Reads CXRs systematically: Airway, Breathing, Cardiac, Diaphragm, Everything else.",
+    tags: ["medical","medical","chest","x"],
+    transform: createStandardSkillTransform({
+      sectionName: "Chest X-Ray ABCDE Systematic Interpretation Standards",
+      ruSectionName: "Стандарты и регламенты: Chest X-Ray ABCDE Systematic Interpretation",
+      instructions: [
+        "Apply core domain tenets for Chest X-Ray ABCDE Systematic Interpretation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Chest X-Ray ABCDE Systematic Interpretation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","chest","x"],
+    }),
+  },
+
+  "medical-revised-cardiac-risk-index-rcri-preop-assessment": {
+    id: "medical-revised-cardiac-risk-index-rcri-preop-assessment",
+    name: "RevisedCardiacRiskIndexRCRIPreopAssessmentSkill",
+    displayName: "Revised Cardiac Risk Index (RCRI) Preop Assessment",
+    categoryId: "medical",
+    description: "Evaluates perioperative cardiac risk before major non-cardiac surgery.",
+    tags: ["medical","medical","revised","cardiac"],
+    transform: createStandardSkillTransform({
+      sectionName: "Revised Cardiac Risk Index (RCRI) Preop Assessment Standards",
+      ruSectionName: "Стандарты и регламенты: Revised Cardiac Risk Index (RCRI) Preop Assessment",
+      instructions: [
+        "Apply core domain tenets for Revised Cardiac Risk Index (RCRI) Preop Assessment.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Revised Cardiac Risk Index (RCRI) Preop Assessment.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","revised","cardiac"],
+    }),
+  },
+
+  "medical-nihss-rapid-stroke-assessment-tpa-eligibility": {
+    id: "medical-nihss-rapid-stroke-assessment-tpa-eligibility",
+    name: "NIHSSRapidStrokeAssessmenttPAEligibilitySkill",
+    displayName: "NIHSS Rapid Stroke Assessment & tPA Eligibility",
+    categoryId: "medical",
+    description: "Evaluates acute ischemic stroke severity and contraindications for thrombolytics.",
+    tags: ["medical","medical","nihss","rapid"],
+    transform: createStandardSkillTransform({
+      sectionName: "NIHSS Rapid Stroke Assessment & tPA Eligibility Standards",
+      ruSectionName: "Стандарты и регламенты: NIHSS Rapid Stroke Assessment & tPA Eligibility",
+      instructions: [
+        "Apply core domain tenets for NIHSS Rapid Stroke Assessment & tPA Eligibility.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для NIHSS Rapid Stroke Assessment & tPA Eligibility.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","nihss","rapid"],
+    }),
+  },
+
+  "medical-obstetric-postpartum-hemorrhage-emergency-protocol": {
+    id: "medical-obstetric-postpartum-hemorrhage-emergency-protocol",
+    name: "ObstetricPostpartumHemorrhageEmergencyProtocolSkill",
+    displayName: "Obstetric Postpartum Hemorrhage Emergency Protocol",
+    categoryId: "medical",
+    description: "Manages 4 Ts of PPH (Tone, Trauma, Tissue, Thrombin) with uterotonics.",
+    tags: ["medical","medical","obstetric","postpartum"],
+    transform: createStandardSkillTransform({
+      sectionName: "Obstetric Postpartum Hemorrhage Emergency Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Obstetric Postpartum Hemorrhage Emergency Protocol",
+      instructions: [
+        "Apply core domain tenets for Obstetric Postpartum Hemorrhage Emergency Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Obstetric Postpartum Hemorrhage Emergency Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","obstetric","postpartum"],
+    }),
+  },
+
+  "medical-hospital-infection-control-ppe-biohazard-isolation": {
+    id: "medical-hospital-infection-control-ppe-biohazard-isolation",
+    name: "HospitalInfectionControlPPEBiohazardIsolationSkill",
+    displayName: "Hospital Infection Control & PPE Biohazard Isolation",
+    categoryId: "medical",
+    description: "Enforces Contact, Droplet, and Airborne isolation precautions.",
+    tags: ["medical","medical","hospital","infection"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hospital Infection Control & PPE Biohazard Isolation Standards",
+      ruSectionName: "Стандарты и регламенты: Hospital Infection Control & PPE Biohazard Isolation",
+      instructions: [
+        "Apply core domain tenets for Hospital Infection Control & PPE Biohazard Isolation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hospital Infection Control & PPE Biohazard Isolation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","hospital","infection"],
+    }),
+  },
+
+  "medical-kdigo-chronic-kidney-disease-staging": {
+    id: "medical-kdigo-chronic-kidney-disease-staging",
+    name: "KDIGOChronicKidneyDiseaseStagingSkill",
+    displayName: "KDIGO Chronic Kidney Disease Staging",
+    categoryId: "medical",
+    description: "Stages CKD by GFR and albuminuria categories, managing renoprotection.",
+    tags: ["medical","medical","kdigo","chronic"],
+    transform: createStandardSkillTransform({
+      sectionName: "KDIGO Chronic Kidney Disease Staging Standards",
+      ruSectionName: "Стандарты и регламенты: KDIGO Chronic Kidney Disease Staging",
+      instructions: [
+        "Apply core domain tenets for KDIGO Chronic Kidney Disease Staging.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для KDIGO Chronic Kidney Disease Staging.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","kdigo","chronic"],
+    }),
+  },
+
+  "medical-gina-asthma-stepwise-escalation-management": {
+    id: "medical-gina-asthma-stepwise-escalation-management",
+    name: "GINAAsthmaStepwiseEscalationManagementSkill",
+    displayName: "GINA Asthma Stepwise Escalation Management",
+    categoryId: "medical",
+    description: "Adjusts inhaler therapy based on symptom control and exacerbation history.",
+    tags: ["medical","medical","gina","asthma"],
+    transform: createStandardSkillTransform({
+      sectionName: "GINA Asthma Stepwise Escalation Management Standards",
+      ruSectionName: "Стандарты и регламенты: GINA Asthma Stepwise Escalation Management",
+      instructions: [
+        "Apply core domain tenets for GINA Asthma Stepwise Escalation Management.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для GINA Asthma Stepwise Escalation Management.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","gina","asthma"],
+    }),
+  },
+
+  "medical-rapid-sequence-induction-rsi-emergency-airway": {
+    id: "medical-rapid-sequence-induction-rsi-emergency-airway",
+    name: "RapidSequenceInductionRSIEmergencyAirwaySkill",
+    displayName: "Rapid Sequence Induction (RSI) Emergency Airway",
+    categoryId: "medical",
+    description: "Executes emergency endotracheal intubation with induction agents and paralytics.",
+    tags: ["medical","medical","rapid","sequence"],
+    transform: createStandardSkillTransform({
+      sectionName: "Rapid Sequence Induction (RSI) Emergency Airway Standards",
+      ruSectionName: "Стандарты и регламенты: Rapid Sequence Induction (RSI) Emergency Airway",
+      instructions: [
+        "Apply core domain tenets for Rapid Sequence Induction (RSI) Emergency Airway.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Rapid Sequence Induction (RSI) Emergency Airway.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","rapid","sequence"],
+    }),
+  },
+
+  "medical-dermatology-abcde-melanoma-lesion-screening": {
+    id: "medical-dermatology-abcde-melanoma-lesion-screening",
+    name: "DermatologyABCDEMelanomaLesionScreeningSkill",
+    displayName: "Dermatology ABCDE Melanoma Lesion Screening",
+    categoryId: "medical",
+    description: "Evaluates skin lesions for Asymmetry, Border, Color, Diameter, and Evolving.",
+    tags: ["medical","medical","dermatology","abcde"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dermatology ABCDE Melanoma Lesion Screening Standards",
+      ruSectionName: "Стандарты и регламенты: Dermatology ABCDE Melanoma Lesion Screening",
+      instructions: [
+        "Apply core domain tenets for Dermatology ABCDE Melanoma Lesion Screening.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dermatology ABCDE Melanoma Lesion Screening.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","dermatology","abcde"],
+    }),
+  },
+
+  "medical-surgical-site-infection-ssi-prevention-surveillance": {
+    id: "medical-surgical-site-infection-ssi-prevention-surveillance",
+    name: "SurgicalSiteInfectionSSIPreventionSurveillanceSkill",
+    displayName: "Surgical Site Infection (SSI) Prevention Surveillance",
+    categoryId: "medical",
+    description: "Implements pre-op chlorhexidine, prophylactic antibiotics, and sterile technique.",
+    tags: ["medical","medical","surgical","site"],
+    transform: createStandardSkillTransform({
+      sectionName: "Surgical Site Infection (SSI) Prevention Surveillance Standards",
+      ruSectionName: "Стандарты и регламенты: Surgical Site Infection (SSI) Prevention Surveillance",
+      instructions: [
+        "Apply core domain tenets for Surgical Site Infection (SSI) Prevention Surveillance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Surgical Site Infection (SSI) Prevention Surveillance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","surgical","site"],
+    }),
+  },
+
+  "medical-acls-cardiac-arrest-megacode-algorithm": {
+    id: "medical-acls-cardiac-arrest-megacode-algorithm",
+    name: "ACLSCardiacArrestMegacodeAlgorithmSkill",
+    displayName: "ACLS Cardiac Arrest Megacode Algorithm",
+    categoryId: "medical",
+    description: "Directs CPR, defibrillation for VF/pVT, epinephrine, and amiodarone.",
+    tags: ["medical","medical","acls","cardiac"],
+    transform: createStandardSkillTransform({
+      sectionName: "ACLS Cardiac Arrest Megacode Algorithm Standards",
+      ruSectionName: "Стандарты и регламенты: ACLS Cardiac Arrest Megacode Algorithm",
+      instructions: [
+        "Apply core domain tenets for ACLS Cardiac Arrest Megacode Algorithm.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для ACLS Cardiac Arrest Megacode Algorithm.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","acls","cardiac"],
+    }),
+  },
+
+  "medical-medical-ethics-four-principles-framework": {
+    id: "medical-medical-ethics-four-principles-framework",
+    name: "MedicalEthicsFourPrinciplesFrameworkSkill",
+    displayName: "Medical Ethics Four Principles Framework",
+    categoryId: "medical",
+    description: "Balances Autonomy, Beneficence, Non-Maleficence, and Justice in clinical cases.",
+    tags: ["medical","medical","medical","ethics"],
+    transform: createStandardSkillTransform({
+      sectionName: "Medical Ethics Four Principles Framework Standards",
+      ruSectionName: "Стандарты и регламенты: Medical Ethics Four Principles Framework",
+      instructions: [
+        "Apply core domain tenets for Medical Ethics Four Principles Framework.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Medical Ethics Four Principles Framework.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","medical","ethics"],
+    }),
+  },
+
+  "medical-sbar-clinical-handoff-communication-standard": {
+    id: "medical-sbar-clinical-handoff-communication-standard",
+    name: "SBARClinicalHandoffCommunicationStandardSkill",
+    displayName: "SBAR Clinical Handoff Communication Standard",
+    categoryId: "medical",
+    description: "Communicates patient handoffs: Situation, Background, Assessment, Recommendation.",
+    tags: ["medical","medical","sbar","clinical"],
+    transform: createStandardSkillTransform({
+      sectionName: "SBAR Clinical Handoff Communication Standard Standards",
+      ruSectionName: "Стандарты и регламенты: SBAR Clinical Handoff Communication Standard",
+      instructions: [
+        "Apply core domain tenets for SBAR Clinical Handoff Communication Standard.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SBAR Clinical Handoff Communication Standard.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","sbar","clinical"],
+    }),
+  },
+
+  "medical-differential-diagnosis-bayesian-probability-synthesis": {
+    id: "medical-differential-diagnosis-bayesian-probability-synthesis",
+    name: "DifferentialDiagnosisBayesianProbabilitySynthesisSkill",
+    displayName: "Differential Diagnosis Bayesian Probability Synthesis",
+    categoryId: "medical",
+    description: "Refines pre-test to post-test disease probabilities using likelihood ratios.",
+    tags: ["medical","medical","differential","diagnosis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Differential Diagnosis Bayesian Probability Synthesis Standards",
+      ruSectionName: "Стандарты и регламенты: Differential Diagnosis Bayesian Probability Synthesis",
+      instructions: [
+        "Apply core domain tenets for Differential Diagnosis Bayesian Probability Synthesis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Differential Diagnosis Bayesian Probability Synthesis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","differential","diagnosis"],
+    }),
+  },
+
+  "medical-opioid-risk-tool-safe-chronic-pain-management": {
+    id: "medical-opioid-risk-tool-safe-chronic-pain-management",
+    name: "OpioidRiskToolSafeChronicPainManagementSkill",
+    displayName: "Opioid Risk Tool & Safe Chronic Pain Management",
+    categoryId: "medical",
+    description: "Screens patients for addiction risk and monitors multimodal non-opioid pain plans.",
+    tags: ["medical","medical","opioid","risk"],
+    transform: createStandardSkillTransform({
+      sectionName: "Opioid Risk Tool & Safe Chronic Pain Management Standards",
+      ruSectionName: "Стандарты и регламенты: Opioid Risk Tool & Safe Chronic Pain Management",
+      instructions: [
+        "Apply core domain tenets for Opioid Risk Tool & Safe Chronic Pain Management.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Opioid Risk Tool & Safe Chronic Pain Management.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","opioid","risk"],
+    }),
+  },
+
+  "medical-anaphylaxis-emergency-treatment-epinephrine-dosing": {
+    id: "medical-anaphylaxis-emergency-treatment-epinephrine-dosing",
+    name: "AnaphylaxisEmergencyTreatmentEpinephrineDosingSkill",
+    displayName: "Anaphylaxis Emergency Treatment & Epinephrine Dosing",
+    categoryId: "medical",
+    description: "Identifies systemic allergic reactions and administers immediate IM epinephrine.",
+    tags: ["medical","medical","anaphylaxis","emergency"],
+    transform: createStandardSkillTransform({
+      sectionName: "Anaphylaxis Emergency Treatment & Epinephrine Dosing Standards",
+      ruSectionName: "Стандарты и регламенты: Anaphylaxis Emergency Treatment & Epinephrine Dosing",
+      instructions: [
+        "Apply core domain tenets for Anaphylaxis Emergency Treatment & Epinephrine Dosing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Anaphylaxis Emergency Treatment & Epinephrine Dosing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","anaphylaxis","emergency"],
+    }),
+  },
+
+  "medical-dka-hhs-diabetic-emergency-fluid-insulin-protocol": {
+    id: "medical-dka-hhs-diabetic-emergency-fluid-insulin-protocol",
+    name: "DKAHHSDiabeticEmergencyFluidInsulinProtocolSkill",
+    displayName: "DKA / HHS Diabetic Emergency Fluid & Insulin Protocol",
+    categoryId: "medical",
+    description: "Manages diabetic ketoacidosis with aggressive fluids, IV insulin, and potassium monitoring.",
+    tags: ["medical","medical","dka","hhs"],
+    transform: createStandardSkillTransform({
+      sectionName: "DKA / HHS Diabetic Emergency Fluid & Insulin Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: DKA / HHS Diabetic Emergency Fluid & Insulin Protocol",
+      instructions: [
+        "Apply core domain tenets for DKA / HHS Diabetic Emergency Fluid & Insulin Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для DKA / HHS Diabetic Emergency Fluid & Insulin Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","dka","hhs"],
+    }),
+  },
+
+  "medical-heart-failure-hfref-quadruple-therapy-escalation": {
+    id: "medical-heart-failure-hfref-quadruple-therapy-escalation",
+    name: "HeartFailureHFrEFQuadrupleTherapyEscalationSkill",
+    displayName: "Heart Failure HFrEF Quadruple Therapy Escalation",
+    categoryId: "medical",
+    description: "Optimizes ARNI/ACEi, beta-blockers, MRA, and SGLT2i for reduced ejection fraction.",
+    tags: ["medical","medical","heart","failure"],
+    transform: createStandardSkillTransform({
+      sectionName: "Heart Failure HFrEF Quadruple Therapy Escalation Standards",
+      ruSectionName: "Стандарты и регламенты: Heart Failure HFrEF Quadruple Therapy Escalation",
+      instructions: [
+        "Apply core domain tenets for Heart Failure HFrEF Quadruple Therapy Escalation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Heart Failure HFrEF Quadruple Therapy Escalation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","heart","failure"],
+    }),
+  },
+
+  "medical-venous-thromboembolism-vte-prophylaxis-risk-score": {
+    id: "medical-venous-thromboembolism-vte-prophylaxis-risk-score",
+    name: "VenousThromboembolismVTEProphylaxisRiskScoreSkill",
+    displayName: "Venous Thromboembolism (VTE) Prophylaxis Risk Score",
+    categoryId: "medical",
+    description: "Evaluates Padua/Caprini scores to prescribe chemical/mechanical DVT prevention.",
+    tags: ["medical","medical","venous","thromboembolism"],
+    transform: createStandardSkillTransform({
+      sectionName: "Venous Thromboembolism (VTE) Prophylaxis Risk Score Standards",
+      ruSectionName: "Стандарты и регламенты: Venous Thromboembolism (VTE) Prophylaxis Risk Score",
+      instructions: [
+        "Apply core domain tenets for Venous Thromboembolism (VTE) Prophylaxis Risk Score.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Venous Thromboembolism (VTE) Prophylaxis Risk Score.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","venous","thromboembolism"],
+    }),
+  },
+
+  "medical-acute-coronary-syndrome-acs-initial-management": {
+    id: "medical-acute-coronary-syndrome-acs-initial-management",
+    name: "AcuteCoronarySyndromeACSInitialManagementSkill",
+    displayName: "Acute Coronary Syndrome (ACS) Initial Management",
+    categoryId: "medical",
+    description: "Administers MONA (Morphine, Oxygen, Nitrates, Aspirin) and heparin for chest pain.",
+    tags: ["medical","medical","acute","coronary"],
+    transform: createStandardSkillTransform({
+      sectionName: "Acute Coronary Syndrome (ACS) Initial Management Standards",
+      ruSectionName: "Стандарты и регламенты: Acute Coronary Syndrome (ACS) Initial Management",
+      instructions: [
+        "Apply core domain tenets for Acute Coronary Syndrome (ACS) Initial Management.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Acute Coronary Syndrome (ACS) Initial Management.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","acute","coronary"],
+    }),
+  },
+
+  "medical-inpatient-delirium-cam-screening-prevention": {
+    id: "medical-inpatient-delirium-cam-screening-prevention",
+    name: "InpatientDeliriumCAMScreeningPreventionSkill",
+    displayName: "Inpatient Delirium CAM Screening & Prevention",
+    categoryId: "medical",
+    description: "Screens for acute confusion using Confusion Assessment Method and avoids sedatives.",
+    tags: ["medical","medical","inpatient","delirium"],
+    transform: createStandardSkillTransform({
+      sectionName: "Inpatient Delirium CAM Screening & Prevention Standards",
+      ruSectionName: "Стандарты и регламенты: Inpatient Delirium CAM Screening & Prevention",
+      instructions: [
+        "Apply core domain tenets for Inpatient Delirium CAM Screening & Prevention.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Inpatient Delirium CAM Screening & Prevention.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","inpatient","delirium"],
+    }),
+  },
+
+  "medical-polytrauma-massive-transfusion-protocol-mtp": {
+    id: "medical-polytrauma-massive-transfusion-protocol-mtp",
+    name: "PolytraumaMassiveTransfusionProtocolMTPSkill",
+    displayName: "Polytrauma Massive Transfusion Protocol (MTP)",
+    categoryId: "medical",
+    description: "Transfuses 1:1:1 ratios of packed RBCs, FFP, and platelets in hemorrhagic shock.",
+    tags: ["medical","medical","polytrauma","massive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Polytrauma Massive Transfusion Protocol (MTP) Standards",
+      ruSectionName: "Стандарты и регламенты: Polytrauma Massive Transfusion Protocol (MTP)",
+      instructions: [
+        "Apply core domain tenets for Polytrauma Massive Transfusion Protocol (MTP).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Polytrauma Massive Transfusion Protocol (MTP).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","polytrauma","massive"],
+    }),
+  },
+
+  "medical-pediatric-dehydration-oral-vs-iv-rehydration": {
+    id: "medical-pediatric-dehydration-oral-vs-iv-rehydration",
+    name: "PediatricDehydrationOralvsIVRehydrationSkill",
+    displayName: "Pediatric Dehydration Oral vs IV Rehydration",
+    categoryId: "medical",
+    description: "Calculates fluid deficit and maintenance requirements in pediatric gastroenteritis.",
+    tags: ["medical","medical","pediatric","dehydration"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pediatric Dehydration Oral vs IV Rehydration Standards",
+      ruSectionName: "Стандарты и регламенты: Pediatric Dehydration Oral vs IV Rehydration",
+      instructions: [
+        "Apply core domain tenets for Pediatric Dehydration Oral vs IV Rehydration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Pediatric Dehydration Oral vs IV Rehydration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","pediatric","dehydration"],
+    }),
+  },
+
+  "medical-thyroid-storm-emergency-resuscitation-protocol": {
+    id: "medical-thyroid-storm-emergency-resuscitation-protocol",
+    name: "ThyroidStormEmergencyResuscitationProtocolSkill",
+    displayName: "Thyroid Storm Emergency Resuscitation Protocol",
+    categoryId: "medical",
+    description: "Manages hyperthyroid crisis with propylthiouracil, iodine, beta-blockers, and steroids.",
+    tags: ["medical","medical","thyroid","storm"],
+    transform: createStandardSkillTransform({
+      sectionName: "Thyroid Storm Emergency Resuscitation Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Thyroid Storm Emergency Resuscitation Protocol",
+      instructions: [
+        "Apply core domain tenets for Thyroid Storm Emergency Resuscitation Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Thyroid Storm Emergency Resuscitation Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","thyroid","storm"],
+    }),
+  },
+
+  "medical-spinal-cord-injury-immobilization-neuro-check": {
+    id: "medical-spinal-cord-injury-immobilization-neuro-check",
+    name: "SpinalCordInjuryImmobilizationNeuroCheckSkill",
+    displayName: "Spinal Cord Injury Immobilization & Neuro Check",
+    categoryId: "medical",
+    description: "Maintains C-spine stabilization and conducts ASIA neurological impairment scoring.",
+    tags: ["medical","medical","spinal","cord"],
+    transform: createStandardSkillTransform({
+      sectionName: "Spinal Cord Injury Immobilization & Neuro Check Standards",
+      ruSectionName: "Стандарты и регламенты: Spinal Cord Injury Immobilization & Neuro Check",
+      instructions: [
+        "Apply core domain tenets for Spinal Cord Injury Immobilization & Neuro Check.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Spinal Cord Injury Immobilization & Neuro Check.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","spinal","cord"],
+    }),
+  },
+
+  "medical-hepatic-encephalopathy-lactulose-rifaximin-therapy": {
+    id: "medical-hepatic-encephalopathy-lactulose-rifaximin-therapy",
+    name: "HepaticEncephalopathyLactuloseRifaximinTherapySkill",
+    displayName: "Hepatic Encephalopathy Lactulose & Rifaximin Therapy",
+    categoryId: "medical",
+    description: "Treats liver cirrhosis confusion with lactulose bowel cleanses and targeted antibiotics.",
+    tags: ["medical","medical","hepatic","encephalopathy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hepatic Encephalopathy Lactulose & Rifaximin Therapy Standards",
+      ruSectionName: "Стандарты и регламенты: Hepatic Encephalopathy Lactulose & Rifaximin Therapy",
+      instructions: [
+        "Apply core domain tenets for Hepatic Encephalopathy Lactulose & Rifaximin Therapy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hepatic Encephalopathy Lactulose & Rifaximin Therapy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","hepatic","encephalopathy"],
+    }),
+  },
+
+  "medical-copd-acute-exacerbation-oxygen-steroid-protocol": {
+    id: "medical-copd-acute-exacerbation-oxygen-steroid-protocol",
+    name: "COPDAcuteExacerbationOxygenSteroidProtocolSkill",
+    displayName: "COPD Acute Exacerbation Oxygen & Steroid Protocol",
+    categoryId: "medical",
+    description: "Manages COPD flares with controlled O2 targets (88-92%), bronchodilators, and steroids.",
+    tags: ["medical","medical","copd","acute"],
+    transform: createStandardSkillTransform({
+      sectionName: "COPD Acute Exacerbation Oxygen & Steroid Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: COPD Acute Exacerbation Oxygen & Steroid Protocol",
+      instructions: [
+        "Apply core domain tenets for COPD Acute Exacerbation Oxygen & Steroid Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для COPD Acute Exacerbation Oxygen & Steroid Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","copd","acute"],
+    }),
+  },
+
+  "medical-acute-pancreatitis-ranson-criteria-fluid-resuscitation": {
+    id: "medical-acute-pancreatitis-ranson-criteria-fluid-resuscitation",
+    name: "AcutePancreatitisRansonCriteriaFluidResuscitationSkill",
+    displayName: "Acute Pancreatitis Ranson Criteria & Fluid Resuscitation",
+    categoryId: "medical",
+    description: "Predicts pancreatitis severity and administers targeted crystalloid fluids.",
+    tags: ["medical","medical","acute","pancreatitis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Acute Pancreatitis Ranson Criteria & Fluid Resuscitation Standards",
+      ruSectionName: "Стандарты и регламенты: Acute Pancreatitis Ranson Criteria & Fluid Resuscitation",
+      instructions: [
+        "Apply core domain tenets for Acute Pancreatitis Ranson Criteria & Fluid Resuscitation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Acute Pancreatitis Ranson Criteria & Fluid Resuscitation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","acute","pancreatitis"],
+    }),
+  },
+
+  "medical-hypertensive-emergency-target-organ-damage-escalation": {
+    id: "medical-hypertensive-emergency-target-organ-damage-escalation",
+    name: "HypertensiveEmergencyTargetOrganDamageEscalationSkill",
+    displayName: "Hypertensive Emergency Target Organ Damage Escalation",
+    categoryId: "medical",
+    description: "Reduces blood pressure by max 25% in hour 1 using IV nicardipine or labetalol.",
+    tags: ["medical","medical","hypertensive","emergency"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hypertensive Emergency Target Organ Damage Escalation Standards",
+      ruSectionName: "Стандарты и регламенты: Hypertensive Emergency Target Organ Damage Escalation",
+      instructions: [
+        "Apply core domain tenets for Hypertensive Emergency Target Organ Damage Escalation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hypertensive Emergency Target Organ Damage Escalation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","hypertensive","emergency"],
+    }),
+  },
+
+  "medical-pediatric-febrile-seizure-parental-reassurance": {
+    id: "medical-pediatric-febrile-seizure-parental-reassurance",
+    name: "PediatricFebrileSeizureParentalReassuranceSkill",
+    displayName: "Pediatric Febrile Seizure Parental Reassurance",
+    categoryId: "medical",
+    description: "Evaluates simple vs complex febrile seizures and counsels anxious parents.",
+    tags: ["medical","medical","pediatric","febrile"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pediatric Febrile Seizure Parental Reassurance Standards",
+      ruSectionName: "Стандарты и регламенты: Pediatric Febrile Seizure Parental Reassurance",
+      instructions: [
+        "Apply core domain tenets for Pediatric Febrile Seizure Parental Reassurance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Pediatric Febrile Seizure Parental Reassurance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","pediatric","febrile"],
+    }),
+  },
+
+  "medical-neutropenic-fever-empiric-antibiotic-escalation": {
+    id: "medical-neutropenic-fever-empiric-antibiotic-escalation",
+    name: "NeutropenicFeverEmpiricAntibioticEscalationSkill",
+    displayName: "Neutropenic Fever Empiric Antibiotic Escalation",
+    categoryId: "medical",
+    description: "Initiates immediate antipseudomonal beta-lactam monotherapy for oncology fevers.",
+    tags: ["medical","medical","neutropenic","fever"],
+    transform: createStandardSkillTransform({
+      sectionName: "Neutropenic Fever Empiric Antibiotic Escalation Standards",
+      ruSectionName: "Стандарты и регламенты: Neutropenic Fever Empiric Antibiotic Escalation",
+      instructions: [
+        "Apply core domain tenets for Neutropenic Fever Empiric Antibiotic Escalation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Neutropenic Fever Empiric Antibiotic Escalation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","neutropenic","fever"],
+    }),
+  },
+
+  "medical-psychiatric-suicide-risk-assessment-safe-t-protocol": {
+    id: "medical-psychiatric-suicide-risk-assessment-safe-t-protocol",
+    name: "PsychiatricSuicideRiskAssessmentSAFETProtocolSkill",
+    displayName: "Psychiatric Suicide Risk Assessment (SAFE-T Protocol)",
+    categoryId: "medical",
+    description: "Evaluates ideation, intent, plan, and protective factors to determine level of care.",
+    tags: ["medical","medical","psychiatric","suicide"],
+    transform: createStandardSkillTransform({
+      sectionName: "Psychiatric Suicide Risk Assessment (SAFE-T Protocol) Standards",
+      ruSectionName: "Стандарты и регламенты: Psychiatric Suicide Risk Assessment (SAFE-T Protocol)",
+      instructions: [
+        "Apply core domain tenets for Psychiatric Suicide Risk Assessment (SAFE-T Protocol).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Psychiatric Suicide Risk Assessment (SAFE-T Protocol).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","psychiatric","suicide"],
+    }),
+  },
+
+  "medical-geriatric-polypharmacy-beers-criteria-medication-audit": {
+    id: "medical-geriatric-polypharmacy-beers-criteria-medication-audit",
+    name: "GeriatricPolypharmacyBeersCriteriaMedicationAuditSkill",
+    displayName: "Geriatric Polypharmacy & Beers Criteria Medication Audit",
+    categoryId: "medical",
+    description: "Identifies potentially inappropriate medications in elderly patients to prevent falls.",
+    tags: ["medical","medical","geriatric","polypharmacy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Geriatric Polypharmacy & Beers Criteria Medication Audit Standards",
+      ruSectionName: "Стандарты и регламенты: Geriatric Polypharmacy & Beers Criteria Medication Audit",
+      instructions: [
+        "Apply core domain tenets for Geriatric Polypharmacy & Beers Criteria Medication Audit.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Geriatric Polypharmacy & Beers Criteria Medication Audit.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","geriatric","polypharmacy"],
+    }),
+  },
+
+  "medical-burn-resuscitation-parkland-formula-fluid-calculation": {
+    id: "medical-burn-resuscitation-parkland-formula-fluid-calculation",
+    name: "BurnResuscitationParklandFormulaFluidCalculationSkill",
+    displayName: "Burn Resuscitation Parkland Formula Fluid Calculation",
+    categoryId: "medical",
+    description: "Calculates 24-hour Lactated Ringer's fluid requirements based on % Total Body Surface Area.",
+    tags: ["medical","medical","burn","resuscitation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Burn Resuscitation Parkland Formula Fluid Calculation Standards",
+      ruSectionName: "Стандарты и регламенты: Burn Resuscitation Parkland Formula Fluid Calculation",
+      instructions: [
+        "Apply core domain tenets for Burn Resuscitation Parkland Formula Fluid Calculation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Burn Resuscitation Parkland Formula Fluid Calculation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","burn","resuscitation"],
+    }),
+  },
+
+  "medical-acute-glaucoma-intraocular-pressure-reduction-protocol": {
+    id: "medical-acute-glaucoma-intraocular-pressure-reduction-protocol",
+    name: "AcuteGlaucomaIntraocularPressureReductionProtocolSkill",
+    displayName: "Acute Glaucoma Intraocular Pressure Reduction Protocol",
+    categoryId: "medical",
+    description: "Administers topical beta-blockers, alpha-agonists, and IV acetazolamide for eye pain.",
+    tags: ["medical","medical","acute","glaucoma"],
+    transform: createStandardSkillTransform({
+      sectionName: "Acute Glaucoma Intraocular Pressure Reduction Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Acute Glaucoma Intraocular Pressure Reduction Protocol",
+      instructions: [
+        "Apply core domain tenets for Acute Glaucoma Intraocular Pressure Reduction Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Acute Glaucoma Intraocular Pressure Reduction Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","acute","glaucoma"],
+    }),
+  },
+
+  "medical-rheumatoid-arthritis-disease-modifying-anti-rheumatic-therapy": {
+    id: "medical-rheumatoid-arthritis-disease-modifying-anti-rheumatic-therapy",
+    name: "RheumatoidArthritisDiseaseModifyingAntiRheumaticTherapySkill",
+    displayName: "Rheumatoid Arthritis Disease-Modifying Anti-Rheumatic Therapy",
+    categoryId: "medical",
+    description: "Escalates methotrexate and biologic DMARDs to achieve clinical remission.",
+    tags: ["medical","medical","rheumatoid","arthritis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Rheumatoid Arthritis Disease-Modifying Anti-Rheumatic Therapy Standards",
+      ruSectionName: "Стандарты и регламенты: Rheumatoid Arthritis Disease-Modifying Anti-Rheumatic Therapy",
+      instructions: [
+        "Apply core domain tenets for Rheumatoid Arthritis Disease-Modifying Anti-Rheumatic Therapy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Rheumatoid Arthritis Disease-Modifying Anti-Rheumatic Therapy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","rheumatoid","arthritis"],
+    }),
+  },
+
+  "medical-inflammatory-bowel-disease-crohn-s-vs-ulcerative-colitis": {
+    id: "medical-inflammatory-bowel-disease-crohn-s-vs-ulcerative-colitis",
+    name: "InflammatoryBowelDiseaseCrohnsvsUlcerativeColitisSkill",
+    displayName: "Inflammatory Bowel Disease Crohn's vs Ulcerative Colitis",
+    categoryId: "medical",
+    description: "Differentiates skip lesions vs continuous mucosal inflammation on colonoscopy.",
+    tags: ["medical","medical","inflammatory","bowel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Inflammatory Bowel Disease Crohn's vs Ulcerative Colitis Standards",
+      ruSectionName: "Стандарты и регламенты: Inflammatory Bowel Disease Crohn's vs Ulcerative Colitis",
+      instructions: [
+        "Apply core domain tenets for Inflammatory Bowel Disease Crohn's vs Ulcerative Colitis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Inflammatory Bowel Disease Crohn's vs Ulcerative Colitis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","inflammatory","bowel"],
+    }),
+  },
+
+  "medical-gout-acute-exacerbation-colchicine-nsaid-therapy": {
+    id: "medical-gout-acute-exacerbation-colchicine-nsaid-therapy",
+    name: "GoutAcuteExacerbationColchicineNSAIDTherapySkill",
+    displayName: "Gout Acute Exacerbation Colchicine & NSAID Therapy",
+    categoryId: "medical",
+    description: "Treats acute uric acid crystal arthritis with colchicine and avoids starting allopurinol mid-flare.",
+    tags: ["medical","medical","gout","acute"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gout Acute Exacerbation Colchicine & NSAID Therapy Standards",
+      ruSectionName: "Стандарты и регламенты: Gout Acute Exacerbation Colchicine & NSAID Therapy",
+      instructions: [
+        "Apply core domain tenets for Gout Acute Exacerbation Colchicine & NSAID Therapy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gout Acute Exacerbation Colchicine & NSAID Therapy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","gout","acute"],
+    }),
+  },
+
+  "medical-hyperkalemia-emergency-cardiac-membrane-stabilization": {
+    id: "medical-hyperkalemia-emergency-cardiac-membrane-stabilization",
+    name: "HyperkalemiaEmergencyCardiacMembraneStabilizationSkill",
+    displayName: "Hyperkalemia Emergency Cardiac Membrane Stabilization",
+    categoryId: "medical",
+    description: "Administers IV calcium gluconate for ECG changes, followed by insulin/glucose.",
+    tags: ["medical","medical","hyperkalemia","emergency"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hyperkalemia Emergency Cardiac Membrane Stabilization Standards",
+      ruSectionName: "Стандарты и регламенты: Hyperkalemia Emergency Cardiac Membrane Stabilization",
+      instructions: [
+        "Apply core domain tenets for Hyperkalemia Emergency Cardiac Membrane Stabilization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hyperkalemia Emergency Cardiac Membrane Stabilization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","hyperkalemia","emergency"],
+    }),
+  },
+
+  "medical-hyponatremia-corrected-sodium-osmotic-demyelination": {
+    id: "medical-hyponatremia-corrected-sodium-osmotic-demyelination",
+    name: "HyponatremiaCorrectedSodiumOsmoticDemyelinationSkill",
+    displayName: "Hyponatremia Corrected Sodium & Osmotic Demyelination",
+    categoryId: "medical",
+    description: "Limits sodium correction to max 8 mEq/L in 24 hours to prevent central pontine myelinolysis.",
+    tags: ["medical","medical","hyponatremia","corrected"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hyponatremia Corrected Sodium & Osmotic Demyelination Standards",
+      ruSectionName: "Стандарты и регламенты: Hyponatremia Corrected Sodium & Osmotic Demyelination",
+      instructions: [
+        "Apply core domain tenets for Hyponatremia Corrected Sodium & Osmotic Demyelination.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hyponatremia Corrected Sodium & Osmotic Demyelination.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","hyponatremia","corrected"],
+    }),
+  },
+
+  "medical-alcohol-withdrawal-ciwa-protocol-benzodiazepines": {
+    id: "medical-alcohol-withdrawal-ciwa-protocol-benzodiazepines",
+    name: "AlcoholWithdrawalCIWAProtocolBenzodiazepinesSkill",
+    displayName: "Alcohol Withdrawal CIWA Protocol & Benzodiazepines",
+    categoryId: "medical",
+    description: "Monitors CIWA-Ar scores and administers symptom-triggered lorazepam.",
+    tags: ["medical","medical","alcohol","withdrawal"],
+    transform: createStandardSkillTransform({
+      sectionName: "Alcohol Withdrawal CIWA Protocol & Benzodiazepines Standards",
+      ruSectionName: "Стандарты и регламенты: Alcohol Withdrawal CIWA Protocol & Benzodiazepines",
+      instructions: [
+        "Apply core domain tenets for Alcohol Withdrawal CIWA Protocol & Benzodiazepines.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Alcohol Withdrawal CIWA Protocol & Benzodiazepines.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","alcohol","withdrawal"],
+    }),
+  },
+
+  "medical-lyme-disease-erythema-migrans-doxycycline-protocol": {
+    id: "medical-lyme-disease-erythema-migrans-doxycycline-protocol",
+    name: "LymeDiseaseErythemaMigransDoxycyclineProtocolSkill",
+    displayName: "Lyme Disease Erythema Migrans & Doxycycline Protocol",
+    categoryId: "medical",
+    description: "Diagnoses bullseye rash and prescribes 10-14 days of oral doxycycline.",
+    tags: ["medical","medical","lyme","disease"],
+    transform: createStandardSkillTransform({
+      sectionName: "Lyme Disease Erythema Migrans & Doxycycline Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Lyme Disease Erythema Migrans & Doxycycline Protocol",
+      instructions: [
+        "Apply core domain tenets for Lyme Disease Erythema Migrans & Doxycycline Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Lyme Disease Erythema Migrans & Doxycycline Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","lyme","disease"],
+    }),
+  },
+
+  "medical-community-acquired-pneumonia-curb-65-outpatient-vs-inpatient": {
+    id: "medical-community-acquired-pneumonia-curb-65-outpatient-vs-inpatient",
+    name: "CommunityAcquiredPneumoniaCURB65OutpatientvsInpatientSkill",
+    displayName: "Community-Acquired Pneumonia CURB-65 Outpatient vs Inpatient",
+    categoryId: "medical",
+    description: "Scores Confusion, Urea, Respiratory rate, Blood pressure, Age 65 to decide admission.",
+    tags: ["medical","medical","community","acquired"],
+    transform: createStandardSkillTransform({
+      sectionName: "Community-Acquired Pneumonia CURB-65 Outpatient vs Inpatient Standards",
+      ruSectionName: "Стандарты и регламенты: Community-Acquired Pneumonia CURB-65 Outpatient vs Inpatient",
+      instructions: [
+        "Apply core domain tenets for Community-Acquired Pneumonia CURB-65 Outpatient vs Inpatient.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Community-Acquired Pneumonia CURB-65 Outpatient vs Inpatient.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","community","acquired"],
+    }),
+  },
+
+  "medical-osteomyelitis-mri-diagnosis-long-term-antibiotics": {
+    id: "medical-osteomyelitis-mri-diagnosis-long-term-antibiotics",
+    name: "OsteomyelitisMRIDiagnosisLongTermAntibioticsSkill",
+    displayName: "Osteomyelitis MRI Diagnosis & Long-Term Antibiotics",
+    categoryId: "medical",
+    description: "Confirms bone infection on MRI and manages 6-week targeted IV antibiotic courses.",
+    tags: ["medical","medical","osteomyelitis","mri"],
+    transform: createStandardSkillTransform({
+      sectionName: "Osteomyelitis MRI Diagnosis & Long-Term Antibiotics Standards",
+      ruSectionName: "Стандарты и регламенты: Osteomyelitis MRI Diagnosis & Long-Term Antibiotics",
+      instructions: [
+        "Apply core domain tenets for Osteomyelitis MRI Diagnosis & Long-Term Antibiotics.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Osteomyelitis MRI Diagnosis & Long-Term Antibiotics.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","osteomyelitis","mri"],
+    }),
+  },
+
+  "medical-deep-vein-thrombosis-dvt-wells-score-doac-therapy": {
+    id: "medical-deep-vein-thrombosis-dvt-wells-score-doac-therapy",
+    name: "DeepVeinThrombosisDVTWellsScoreDOACTherapySkill",
+    displayName: "Deep Vein Thrombosis (DVT) Wells Score & DOAC Therapy",
+    categoryId: "medical",
+    description: "Evaluates pre-test probability, orders D-dimer/ultrasound, and initiates apixaban.",
+    tags: ["medical","medical","deep","vein"],
+    transform: createStandardSkillTransform({
+      sectionName: "Deep Vein Thrombosis (DVT) Wells Score & DOAC Therapy Standards",
+      ruSectionName: "Стандарты и регламенты: Deep Vein Thrombosis (DVT) Wells Score & DOAC Therapy",
+      instructions: [
+        "Apply core domain tenets for Deep Vein Thrombosis (DVT) Wells Score & DOAC Therapy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Deep Vein Thrombosis (DVT) Wells Score & DOAC Therapy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","deep","vein"],
+    }),
+  },
+
+  "medical-pulmonary-embolism-perc-rule-ct-pulmonary-angiogram": {
+    id: "medical-pulmonary-embolism-perc-rule-ct-pulmonary-angiogram",
+    name: "PulmonaryEmbolismPERCRuleCTPulmonaryAngiogramSkill",
+    displayName: "Pulmonary Embolism PERC Rule & CT Pulmonary Angiogram",
+    categoryId: "medical",
+    description: "Rules out PE with PERC criteria or confirms with CTPA in high-risk patients.",
+    tags: ["medical","medical","pulmonary","embolism"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pulmonary Embolism PERC Rule & CT Pulmonary Angiogram Standards",
+      ruSectionName: "Стандарты и регламенты: Pulmonary Embolism PERC Rule & CT Pulmonary Angiogram",
+      instructions: [
+        "Apply core domain tenets for Pulmonary Embolism PERC Rule & CT Pulmonary Angiogram.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Pulmonary Embolism PERC Rule & CT Pulmonary Angiogram.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","pulmonary","embolism"],
+    }),
+  },
+
+  "medical-cervical-spine-clearance-nexus-criteria-canadian-rule": {
+    id: "medical-cervical-spine-clearance-nexus-criteria-canadian-rule",
+    name: "CervicalSpineClearanceNexusCriteriaCanadianRuleSkill",
+    displayName: "Cervical Spine Clearance Nexus Criteria & Canadian Rule",
+    categoryId: "medical",
+    description: "Clears C-spine clinically without X-rays in low-risk trauma patients.",
+    tags: ["medical","medical","cervical","spine"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cervical Spine Clearance Nexus Criteria & Canadian Rule Standards",
+      ruSectionName: "Стандарты и регламенты: Cervical Spine Clearance Nexus Criteria & Canadian Rule",
+      instructions: [
+        "Apply core domain tenets for Cervical Spine Clearance Nexus Criteria & Canadian Rule.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cervical Spine Clearance Nexus Criteria & Canadian Rule.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","cervical","spine"],
+    }),
+  },
+
+  "medical-pericarditis-friction-rub-colchicine-anti-inflammatory": {
+    id: "medical-pericarditis-friction-rub-colchicine-anti-inflammatory",
+    name: "PericarditisFrictionRubColchicineAntiInflammatorySkill",
+    displayName: "Pericarditis Friction Rub & Colchicine Anti-Inflammatory",
+    categoryId: "medical",
+    description: "Identifies PR depression / diffuse ST elevation on ECG and prescribes colchicine.",
+    tags: ["medical","medical","pericarditis","friction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pericarditis Friction Rub & Colchicine Anti-Inflammatory Standards",
+      ruSectionName: "Стандарты и регламенты: Pericarditis Friction Rub & Colchicine Anti-Inflammatory",
+      instructions: [
+        "Apply core domain tenets for Pericarditis Friction Rub & Colchicine Anti-Inflammatory.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Pericarditis Friction Rub & Colchicine Anti-Inflammatory.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","pericarditis","friction"],
+    }),
+  },
+
+  "medical-infective-endocarditis-duke-criteria-blood-cultures": {
+    id: "medical-infective-endocarditis-duke-criteria-blood-cultures",
+    name: "InfectiveEndocarditisDukeCriteriaBloodCulturesSkill",
+    displayName: "Infective Endocarditis Duke Criteria & Blood Cultures",
+    categoryId: "medical",
+    description: "Diagnoses heart valve infections using major bacteremia and echo criteria.",
+    tags: ["medical","medical","infective","endocarditis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Infective Endocarditis Duke Criteria & Blood Cultures Standards",
+      ruSectionName: "Стандарты и регламенты: Infective Endocarditis Duke Criteria & Blood Cultures",
+      instructions: [
+        "Apply core domain tenets for Infective Endocarditis Duke Criteria & Blood Cultures.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Infective Endocarditis Duke Criteria & Blood Cultures.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","infective","endocarditis"],
+    }),
+  },
+
+  "medical-multiple-sclerosis-mcdonald-diagnostic-criteria-mri": {
+    id: "medical-multiple-sclerosis-mcdonald-diagnostic-criteria-mri",
+    name: "MultipleSclerosisMcDonaldDiagnosticCriteriaMRISkill",
+    displayName: "Multiple Sclerosis McDonald Diagnostic Criteria & MRI",
+    categoryId: "medical",
+    description: "Confirms demyelinating lesions separated in time and space on brain MRI.",
+    tags: ["medical","medical","multiple","sclerosis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multiple Sclerosis McDonald Diagnostic Criteria & MRI Standards",
+      ruSectionName: "Стандарты и регламенты: Multiple Sclerosis McDonald Diagnostic Criteria & MRI",
+      instructions: [
+        "Apply core domain tenets for Multiple Sclerosis McDonald Diagnostic Criteria & MRI.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multiple Sclerosis McDonald Diagnostic Criteria & MRI.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","multiple","sclerosis"],
+    }),
+  },
+
+  "medical-parkinson-s-disease-cardinal-symptoms-levodopa-therapy": {
+    id: "medical-parkinson-s-disease-cardinal-symptoms-levodopa-therapy",
+    name: "ParkinsonsDiseaseCardinalSymptomsLevodopaTherapySkill",
+    displayName: "Parkinson's Disease Cardinal Symptoms & Levodopa Therapy",
+    categoryId: "medical",
+    description: "Identifies Bradykinesia, Resting Tremor, and Rigidity, titrating carbidopa-levodopa.",
+    tags: ["medical","medical","parkinson","s"],
+    transform: createStandardSkillTransform({
+      sectionName: "Parkinson's Disease Cardinal Symptoms & Levodopa Therapy Standards",
+      ruSectionName: "Стандарты и регламенты: Parkinson's Disease Cardinal Symptoms & Levodopa Therapy",
+      instructions: [
+        "Apply core domain tenets for Parkinson's Disease Cardinal Symptoms & Levodopa Therapy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Parkinson's Disease Cardinal Symptoms & Levodopa Therapy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","parkinson","s"],
+    }),
+  },
+
+  "medical-myasthenia-gravis-pyridostigmine-crisis-surveillance": {
+    id: "medical-myasthenia-gravis-pyridostigmine-crisis-surveillance",
+    name: "MyastheniaGravisPyridostigmineCrisisSurveillanceSkill",
+    displayName: "Myasthenia Gravis Pyridostigmine & Crisis Surveillance",
+    categoryId: "medical",
+    description: "Treats neuromuscular weakness with acetylcholinesterase inhibitors.",
+    tags: ["medical","medical","myasthenia","gravis"],
+    transform: createStandardSkillTransform({
+      sectionName: "Myasthenia Gravis Pyridostigmine & Crisis Surveillance Standards",
+      ruSectionName: "Стандарты и регламенты: Myasthenia Gravis Pyridostigmine & Crisis Surveillance",
+      instructions: [
+        "Apply core domain tenets for Myasthenia Gravis Pyridostigmine & Crisis Surveillance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Myasthenia Gravis Pyridostigmine & Crisis Surveillance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","myasthenia","gravis"],
+    }),
+  },
+
+  "medical-aortic-dissection-stanford-type-a-vs-b-emergency": {
+    id: "medical-aortic-dissection-stanford-type-a-vs-b-emergency",
+    name: "AorticDissectionStanfordTypeAvsBEmergencySkill",
+    displayName: "Aortic Dissection Stanford Type A vs B Emergency",
+    categoryId: "medical",
+    description: "Identifies tearing chest/back pain, managing Type A with immediate surgery.",
+    tags: ["medical","medical","aortic","dissection"],
+    transform: createStandardSkillTransform({
+      sectionName: "Aortic Dissection Stanford Type A vs B Emergency Standards",
+      ruSectionName: "Стандарты и регламенты: Aortic Dissection Stanford Type A vs B Emergency",
+      instructions: [
+        "Apply core domain tenets for Aortic Dissection Stanford Type A vs B Emergency.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Aortic Dissection Stanford Type A vs B Emergency.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","aortic","dissection"],
+    }),
+  },
+
+  "medical-abdominal-aortic-aneurysm-aaa-screening-repair-threshold": {
+    id: "medical-abdominal-aortic-aneurysm-aaa-screening-repair-threshold",
+    name: "AbdominalAorticAneurysmAAAScreeningRepairThresholdSkill",
+    displayName: "Abdominal Aortic Aneurysm (AAA) Screening & Repair Threshold",
+    categoryId: "medical",
+    description: "Monitors AAA diameter with ultrasound, referring for repair at >= 5.5 cm.",
+    tags: ["medical","medical","abdominal","aortic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Abdominal Aortic Aneurysm (AAA) Screening & Repair Threshold Standards",
+      ruSectionName: "Стандарты и регламенты: Abdominal Aortic Aneurysm (AAA) Screening & Repair Threshold",
+      instructions: [
+        "Apply core domain tenets for Abdominal Aortic Aneurysm (AAA) Screening & Repair Threshold.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Abdominal Aortic Aneurysm (AAA) Screening & Repair Threshold.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","abdominal","aortic"],
+    }),
+  },
+
+  "medical-peripheral-artery-disease-ankle-brachial-index-abi": {
+    id: "medical-peripheral-artery-disease-ankle-brachial-index-abi",
+    name: "PeripheralArteryDiseaseAnkleBrachialIndexABISkill",
+    displayName: "Peripheral Artery Disease Ankle-Brachial Index (ABI)",
+    categoryId: "medical",
+    description: "Diagnoses leg claudication with ABI < 0.9 and prescribes cilostazol.",
+    tags: ["medical","medical","peripheral","artery"],
+    transform: createStandardSkillTransform({
+      sectionName: "Peripheral Artery Disease Ankle-Brachial Index (ABI) Standards",
+      ruSectionName: "Стандарты и регламенты: Peripheral Artery Disease Ankle-Brachial Index (ABI)",
+      instructions: [
+        "Apply core domain tenets for Peripheral Artery Disease Ankle-Brachial Index (ABI).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Peripheral Artery Disease Ankle-Brachial Index (ABI).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","peripheral","artery"],
+    }),
+  },
+
+  "medical-idiopathic-pulmonary-fibrosis-high-resolution-ct": {
+    id: "medical-idiopathic-pulmonary-fibrosis-high-resolution-ct",
+    name: "IdiopathicPulmonaryFibrosisHighResolutionCTSkill",
+    displayName: "Idiopathic Pulmonary Fibrosis High-Resolution CT",
+    categoryId: "medical",
+    description: "Identifies usual interstitial pneumonia (UIP) honeycombing on chest CT.",
+    tags: ["medical","medical","idiopathic","pulmonary"],
+    transform: createStandardSkillTransform({
+      sectionName: "Idiopathic Pulmonary Fibrosis High-Resolution CT Standards",
+      ruSectionName: "Стандарты и регламенты: Idiopathic Pulmonary Fibrosis High-Resolution CT",
+      instructions: [
+        "Apply core domain tenets for Idiopathic Pulmonary Fibrosis High-Resolution CT.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Idiopathic Pulmonary Fibrosis High-Resolution CT.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","idiopathic","pulmonary"],
+    }),
+  },
+
+  "medical-obstructive-sleep-apnea-stop-bang-screening-cpap": {
+    id: "medical-obstructive-sleep-apnea-stop-bang-screening-cpap",
+    name: "ObstructiveSleepApneaStopBangScreeningCPAPSkill",
+    displayName: "Obstructive Sleep Apnea Stop-Bang Screening & CPAP",
+    categoryId: "medical",
+    description: "Screens snoring and daytime somnolence, prescribing continuous positive airway pressure.",
+    tags: ["medical","medical","obstructive","sleep"],
+    transform: createStandardSkillTransform({
+      sectionName: "Obstructive Sleep Apnea Stop-Bang Screening & CPAP Standards",
+      ruSectionName: "Стандарты и регламенты: Obstructive Sleep Apnea Stop-Bang Screening & CPAP",
+      instructions: [
+        "Apply core domain tenets for Obstructive Sleep Apnea Stop-Bang Screening & CPAP.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Obstructive Sleep Apnea Stop-Bang Screening & CPAP.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","obstructive","sleep"],
+    }),
+  },
+
+  "medical-gastroesophageal-reflux-disease-gerd-ppi-escalation": {
+    id: "medical-gastroesophageal-reflux-disease-gerd-ppi-escalation",
+    name: "GastroesophagealRefluxDiseaseGERDPPIEscalationSkill",
+    displayName: "Gastroesophageal Reflux Disease (GERD) PPI Escalation",
+    categoryId: "medical",
+    description: "Manages heartburn with 8-week proton pump inhibitor trials and lifestyle changes.",
+    tags: ["medical","medical","gastroesophageal","reflux"],
+    transform: createStandardSkillTransform({
+      sectionName: "Gastroesophageal Reflux Disease (GERD) PPI Escalation Standards",
+      ruSectionName: "Стандарты и регламенты: Gastroesophageal Reflux Disease (GERD) PPI Escalation",
+      instructions: [
+        "Apply core domain tenets for Gastroesophageal Reflux Disease (GERD) PPI Escalation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Gastroesophageal Reflux Disease (GERD) PPI Escalation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","gastroesophageal","reflux"],
+    }),
+  },
+
+  "medical-peptic-ulcer-disease-h-pylori-eradication-quadruple-therapy": {
+    id: "medical-peptic-ulcer-disease-h-pylori-eradication-quadruple-therapy",
+    name: "PepticUlcerDiseaseHpyloriEradicationQuadrupleTherapySkill",
+    displayName: "Peptic Ulcer Disease H. pylori Eradication Quadruple Therapy",
+    categoryId: "medical",
+    description: "Treats stomach ulcers with bismuth, metronidazole, tetracycline, and PPI.",
+    tags: ["medical","medical","peptic","ulcer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Peptic Ulcer Disease H. pylori Eradication Quadruple Therapy Standards",
+      ruSectionName: "Стандарты и регламенты: Peptic Ulcer Disease H. pylori Eradication Quadruple Therapy",
+      instructions: [
+        "Apply core domain tenets for Peptic Ulcer Disease H. pylori Eradication Quadruple Therapy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Peptic Ulcer Disease H. pylori Eradication Quadruple Therapy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","peptic","ulcer"],
+    }),
+  },
+
+  "medical-c-difficile-colitis-vancomycin-oral-regimen": {
+    id: "medical-c-difficile-colitis-vancomycin-oral-regimen",
+    name: "CdifficileColitisVancomycinOralRegimenSkill",
+    displayName: "C. difficile Colitis Vancomycin Oral Regimen",
+    categoryId: "medical",
+    description: "Treats severe watery diarrhea after antibiotic exposure with oral vancomycin.",
+    tags: ["medical","medical","c","difficile"],
+    transform: createStandardSkillTransform({
+      sectionName: "C. difficile Colitis Vancomycin Oral Regimen Standards",
+      ruSectionName: "Стандарты и регламенты: C. difficile Colitis Vancomycin Oral Regimen",
+      instructions: [
+        "Apply core domain tenets for C. difficile Colitis Vancomycin Oral Regimen.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для C. difficile Colitis Vancomycin Oral Regimen.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","c","difficile"],
+    }),
+  },
+
+  "medical-nonalcoholic-fatty-liver-disease-nafld-fib-4-score": {
+    id: "medical-nonalcoholic-fatty-liver-disease-nafld-fib-4-score",
+    name: "NonalcoholicFattyLiverDiseaseNAFLDFIB4ScoreSkill",
+    displayName: "Nonalcoholic Fatty Liver Disease (NAFLD) FIB-4 Score",
+    categoryId: "medical",
+    description: "Calculates non-invasive liver fibrosis risk scores to guide lifestyle interventions.",
+    tags: ["medical","medical","nonalcoholic","fatty"],
+    transform: createStandardSkillTransform({
+      sectionName: "Nonalcoholic Fatty Liver Disease (NAFLD) FIB-4 Score Standards",
+      ruSectionName: "Стандарты и регламенты: Nonalcoholic Fatty Liver Disease (NAFLD) FIB-4 Score",
+      instructions: [
+        "Apply core domain tenets for Nonalcoholic Fatty Liver Disease (NAFLD) FIB-4 Score.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Nonalcoholic Fatty Liver Disease (NAFLD) FIB-4 Score.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","nonalcoholic","fatty"],
+    }),
+  },
+
+  "medical-polycystic-ovary-syndrome-pcos-rotterdam-criteria": {
+    id: "medical-polycystic-ovary-syndrome-pcos-rotterdam-criteria",
+    name: "PolycysticOvarySyndromePCOSRotterdamCriteriaSkill",
+    displayName: "Polycystic Ovary Syndrome (PCOS) Rotterdam Criteria",
+    categoryId: "medical",
+    description: "Diagnoses PCOS based on oligo-ovulation, hyperandrogenism, and polycystic ovaries.",
+    tags: ["medical","medical","polycystic","ovary"],
+    transform: createStandardSkillTransform({
+      sectionName: "Polycystic Ovary Syndrome (PCOS) Rotterdam Criteria Standards",
+      ruSectionName: "Стандарты и регламенты: Polycystic Ovary Syndrome (PCOS) Rotterdam Criteria",
+      instructions: [
+        "Apply core domain tenets for Polycystic Ovary Syndrome (PCOS) Rotterdam Criteria.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Polycystic Ovary Syndrome (PCOS) Rotterdam Criteria.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","polycystic","ovary"],
+    }),
+  },
+
+  "medical-endometriosis-dysmenorrhea-hormonal-suppression": {
+    id: "medical-endometriosis-dysmenorrhea-hormonal-suppression",
+    name: "EndometriosisDysmenorrheaHormonalSuppressionSkill",
+    displayName: "Endometriosis Dysmenorrhea & Hormonal Suppression",
+    categoryId: "medical",
+    description: "Manages pelvic pain with NSAIDs, oral contraceptives, and GnRH agonists.",
+    tags: ["medical","medical","endometriosis","dysmenorrhea"],
+    transform: createStandardSkillTransform({
+      sectionName: "Endometriosis Dysmenorrhea & Hormonal Suppression Standards",
+      ruSectionName: "Стандарты и регламенты: Endometriosis Dysmenorrhea & Hormonal Suppression",
+      instructions: [
+        "Apply core domain tenets for Endometriosis Dysmenorrhea & Hormonal Suppression.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Endometriosis Dysmenorrhea & Hormonal Suppression.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","endometriosis","dysmenorrhea"],
+    }),
+  },
+
+  "medical-benign-prostatic-hyperplasia-bph-aua-symptom-score": {
+    id: "medical-benign-prostatic-hyperplasia-bph-aua-symptom-score",
+    name: "BenignProstaticHyperplasiaBPHAUASymptomScoreSkill",
+    displayName: "Benign Prostatic Hyperplasia (BPH) AUA Symptom Score",
+    categoryId: "medical",
+    description: "Treats urinary hesitancy with tamsulosin (alpha-blocker) and finasteride.",
+    tags: ["medical","medical","benign","prostatic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Benign Prostatic Hyperplasia (BPH) AUA Symptom Score Standards",
+      ruSectionName: "Стандарты и регламенты: Benign Prostatic Hyperplasia (BPH) AUA Symptom Score",
+      instructions: [
+        "Apply core domain tenets for Benign Prostatic Hyperplasia (BPH) AUA Symptom Score.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Benign Prostatic Hyperplasia (BPH) AUA Symptom Score.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","benign","prostatic"],
+    }),
+  },
+
+  "medical-nephrolithiasis-kidney-stone-ct-alpha-blocker-pass": {
+    id: "medical-nephrolithiasis-kidney-stone-ct-alpha-blocker-pass",
+    name: "NephrolithiasisKidneyStoneCTAlphaBlockerPassSkill",
+    displayName: "Nephrolithiasis Kidney Stone CT & Alpha-Blocker Pass",
+    categoryId: "medical",
+    description: "Evaluates stone size on non-contrast CT, prescribing tamsulosin for stones < 10mm.",
+    tags: ["medical","medical","nephrolithiasis","kidney"],
+    transform: createStandardSkillTransform({
+      sectionName: "Nephrolithiasis Kidney Stone CT & Alpha-Blocker Pass Standards",
+      ruSectionName: "Стандарты и регламенты: Nephrolithiasis Kidney Stone CT & Alpha-Blocker Pass",
+      instructions: [
+        "Apply core domain tenets for Nephrolithiasis Kidney Stone CT & Alpha-Blocker Pass.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Nephrolithiasis Kidney Stone CT & Alpha-Blocker Pass.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","nephrolithiasis","kidney"],
+    }),
+  },
+
+  "medical-urinary-tract-infection-uncomplicated-cystitis-nitrofurantoin": {
+    id: "medical-urinary-tract-infection-uncomplicated-cystitis-nitrofurantoin",
+    name: "UrinaryTractInfectionUncomplicatedCystitisNitrofurantoinSkill",
+    displayName: "Urinary Tract Infection Uncomplicated Cystitis Nitrofurantoin",
+    categoryId: "medical",
+    description: "Treats female dysuria with 5 days of oral nitrofurantoin or single-dose fosfomycin.",
+    tags: ["medical","medical","urinary","tract"],
+    transform: createStandardSkillTransform({
+      sectionName: "Urinary Tract Infection Uncomplicated Cystitis Nitrofurantoin Standards",
+      ruSectionName: "Стандарты и регламенты: Urinary Tract Infection Uncomplicated Cystitis Nitrofurantoin",
+      instructions: [
+        "Apply core domain tenets for Urinary Tract Infection Uncomplicated Cystitis Nitrofurantoin.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Urinary Tract Infection Uncomplicated Cystitis Nitrofurantoin.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","urinary","tract"],
+    }),
+  },
+
+  "medical-osteoporosis-dexa-scan-t-score-bisphosphonate": {
+    id: "medical-osteoporosis-dexa-scan-t-score-bisphosphonate",
+    name: "OsteoporosisDEXAScanTScoreBisphosphonateSkill",
+    displayName: "Osteoporosis DEXA Scan T-Score & Bisphosphonate",
+    categoryId: "medical",
+    description: "Diagnoses osteoporosis at T-score <= -2.5, prescribing oral alendronate.",
+    tags: ["medical","medical","osteoporosis","dexa"],
+    transform: createStandardSkillTransform({
+      sectionName: "Osteoporosis DEXA Scan T-Score & Bisphosphonate Standards",
+      ruSectionName: "Стандарты и регламенты: Osteoporosis DEXA Scan T-Score & Bisphosphonate",
+      instructions: [
+        "Apply core domain tenets for Osteoporosis DEXA Scan T-Score & Bisphosphonate.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Osteoporosis DEXA Scan T-Score & Bisphosphonate.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","osteoporosis","dexa"],
+    }),
+  },
+
+  "medical-fibromyalgia-widespread-pain-index-snri-therapy": {
+    id: "medical-fibromyalgia-widespread-pain-index-snri-therapy",
+    name: "FibromyalgiaWidespreadPainIndexSNRITherapySkill",
+    displayName: "Fibromyalgia Widespread Pain Index & SNRI Therapy",
+    categoryId: "medical",
+    description: "Manages chronic musculoskeletal pain with duloxetine, pregabalin, and exercise.",
+    tags: ["medical","medical","fibromyalgia","widespread"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fibromyalgia Widespread Pain Index & SNRI Therapy Standards",
+      ruSectionName: "Стандарты и регламенты: Fibromyalgia Widespread Pain Index & SNRI Therapy",
+      instructions: [
+        "Apply core domain tenets for Fibromyalgia Widespread Pain Index & SNRI Therapy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Fibromyalgia Widespread Pain Index & SNRI Therapy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","fibromyalgia","widespread"],
+    }),
+  },
+
+  "medical-major-depressive-disorder-phq-9-ssri-selection": {
+    id: "medical-major-depressive-disorder-phq-9-ssri-selection",
+    name: "MajorDepressiveDisorderPHQ9SSRISelectionSkill",
+    displayName: "Major Depressive Disorder PHQ-9 & SSRI Selection",
+    categoryId: "medical",
+    description: "Monitors depression severity with PHQ-9, selecting sertraline or escitalopram.",
+    tags: ["medical","medical","major","depressive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Major Depressive Disorder PHQ-9 & SSRI Selection Standards",
+      ruSectionName: "Стандарты и регламенты: Major Depressive Disorder PHQ-9 & SSRI Selection",
+      instructions: [
+        "Apply core domain tenets for Major Depressive Disorder PHQ-9 & SSRI Selection.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Major Depressive Disorder PHQ-9 & SSRI Selection.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","major","depressive"],
+    }),
+  },
+
+  "medical-generalized-anxiety-disorder-gad-7-cbt-therapy": {
+    id: "medical-generalized-anxiety-disorder-gad-7-cbt-therapy",
+    name: "GeneralizedAnxietyDisorderGAD7CBTTherapySkill",
+    displayName: "Generalized Anxiety Disorder GAD-7 & CBT Therapy",
+    categoryId: "medical",
+    description: "Treats persistent worry with cognitive behavioral therapy and SSRIs.",
+    tags: ["medical","medical","generalized","anxiety"],
+    transform: createStandardSkillTransform({
+      sectionName: "Generalized Anxiety Disorder GAD-7 & CBT Therapy Standards",
+      ruSectionName: "Стандарты и регламенты: Generalized Anxiety Disorder GAD-7 & CBT Therapy",
+      instructions: [
+        "Apply core domain tenets for Generalized Anxiety Disorder GAD-7 & CBT Therapy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Generalized Anxiety Disorder GAD-7 & CBT Therapy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","generalized","anxiety"],
+    }),
+  },
+
+  "medical-schizophrenia-positive-vs-negative-symptoms-antipsychotics": {
+    id: "medical-schizophrenia-positive-vs-negative-symptoms-antipsychotics",
+    name: "SchizophreniaPositivevsNegativeSymptomsAntipsychoticsSkill",
+    displayName: "Schizophrenia Positive vs Negative Symptoms & Antipsychotics",
+    categoryId: "medical",
+    description: "Manages hallucinations with second-generation antipsychotics like risperidone.",
+    tags: ["medical","medical","schizophrenia","positive"],
+    transform: createStandardSkillTransform({
+      sectionName: "Schizophrenia Positive vs Negative Symptoms & Antipsychotics Standards",
+      ruSectionName: "Стандарты и регламенты: Schizophrenia Positive vs Negative Symptoms & Antipsychotics",
+      instructions: [
+        "Apply core domain tenets for Schizophrenia Positive vs Negative Symptoms & Antipsychotics.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Schizophrenia Positive vs Negative Symptoms & Antipsychotics.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","schizophrenia","positive"],
+    }),
+  },
+
+  "medical-bipolar-i-disorder-acute-mania-lithium-valproate": {
+    id: "medical-bipolar-i-disorder-acute-mania-lithium-valproate",
+    name: "BipolarIDisorderAcuteManiaLithiumValproateSkill",
+    displayName: "Bipolar I Disorder Acute Mania Lithium & Valproate",
+    categoryId: "medical",
+    description: "Stabilizes mood swings with lithium or divalproex, monitoring serum blood levels.",
+    tags: ["medical","medical","bipolar","i"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bipolar I Disorder Acute Mania Lithium & Valproate Standards",
+      ruSectionName: "Стандарты и регламенты: Bipolar I Disorder Acute Mania Lithium & Valproate",
+      instructions: [
+        "Apply core domain tenets for Bipolar I Disorder Acute Mania Lithium & Valproate.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Bipolar I Disorder Acute Mania Lithium & Valproate.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","bipolar","i"],
+    }),
+  },
+
+  "medical-attention-deficit-hyperactivity-disorder-adhd-stimulant-titration": {
+    id: "medical-attention-deficit-hyperactivity-disorder-adhd-stimulant-titration",
+    name: "AttentionDeficitHyperactivityDisorderADHDStimulantTitrationSkill",
+    displayName: "Attention Deficit Hyperactivity Disorder (ADHD) Stimulant Titration",
+    categoryId: "medical",
+    description: "Treats inattention in children and adults with methylphenidate or amphetamines.",
+    tags: ["medical","medical","attention","deficit"],
+    transform: createStandardSkillTransform({
+      sectionName: "Attention Deficit Hyperactivity Disorder (ADHD) Stimulant Titration Standards",
+      ruSectionName: "Стандарты и регламенты: Attention Deficit Hyperactivity Disorder (ADHD) Stimulant Titration",
+      instructions: [
+        "Apply core domain tenets for Attention Deficit Hyperactivity Disorder (ADHD) Stimulant Titration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Attention Deficit Hyperactivity Disorder (ADHD) Stimulant Titration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","attention","deficit"],
+    }),
+  },
+
+  "medical-post-traumatic-stress-disorder-ptsd-pcl-5-prolonged-exposure": {
+    id: "medical-post-traumatic-stress-disorder-ptsd-pcl-5-prolonged-exposure",
+    name: "PostTraumaticStressDisorderPTSDPCL5ProlongedExposureSkill",
+    displayName: "Post-Traumatic Stress Disorder (PTSD) PCL-5 & Prolonged Exposure",
+    categoryId: "medical",
+    description: "Treats trauma flashbacks with trauma-focused CBT and prazosin for nightmares.",
+    tags: ["medical","medical","post","traumatic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Post-Traumatic Stress Disorder (PTSD) PCL-5 & Prolonged Exposure Standards",
+      ruSectionName: "Стандарты и регламенты: Post-Traumatic Stress Disorder (PTSD) PCL-5 & Prolonged Exposure",
+      instructions: [
+        "Apply core domain tenets for Post-Traumatic Stress Disorder (PTSD) PCL-5 & Prolonged Exposure.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Post-Traumatic Stress Disorder (PTSD) PCL-5 & Prolonged Exposure.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","post","traumatic"],
+    }),
+  },
+
+  "medical-anorexia-nervosa-refeeding-syndrome-prevention": {
+    id: "medical-anorexia-nervosa-refeeding-syndrome-prevention",
+    name: "AnorexiaNervosaRefeedingSyndromePreventionSkill",
+    displayName: "Anorexia Nervosa Refeeding Syndrome Prevention",
+    categoryId: "medical",
+    description: "Monitors electrolyte drops (phosphate, potassium) during nutritional re-feeding.",
+    tags: ["medical","medical","anorexia","nervosa"],
+    transform: createStandardSkillTransform({
+      sectionName: "Anorexia Nervosa Refeeding Syndrome Prevention Standards",
+      ruSectionName: "Стандарты и регламенты: Anorexia Nervosa Refeeding Syndrome Prevention",
+      instructions: [
+        "Apply core domain tenets for Anorexia Nervosa Refeeding Syndrome Prevention.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Anorexia Nervosa Refeeding Syndrome Prevention.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","anorexia","nervosa"],
+    }),
+  },
+
+  "medical-obesity-bariatric-surgery-qualification-criteria": {
+    id: "medical-obesity-bariatric-surgery-qualification-criteria",
+    name: "ObesityBariatricSurgeryQualificationCriteriaSkill",
+    displayName: "Obesity Bariatric Surgery Qualification Criteria",
+    categoryId: "medical",
+    description: "Refers patients with BMI >= 40 or BMI >= 35 with comorbidities for bariatric evaluation.",
+    tags: ["medical","medical","obesity","bariatric"],
+    transform: createStandardSkillTransform({
+      sectionName: "Obesity Bariatric Surgery Qualification Criteria Standards",
+      ruSectionName: "Стандарты и регламенты: Obesity Bariatric Surgery Qualification Criteria",
+      instructions: [
+        "Apply core domain tenets for Obesity Bariatric Surgery Qualification Criteria.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Obesity Bariatric Surgery Qualification Criteria.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","obesity","bariatric"],
+    }),
+  },
+
+  "medical-comprehensive-clinical-medicine-evidence-based-constitution": {
+    id: "medical-comprehensive-clinical-medicine-evidence-based-constitution",
+    name: "ComprehensiveClinicalMedicineEvidenceBasedConstitutionSkill",
+    displayName: "Comprehensive Clinical Medicine & Evidence-Based Constitution",
+    categoryId: "medical",
+    description: "Enforces world-class medical evidence scoring, SOAP documentation, and patient safety.",
+    tags: ["medical","medical","comprehensive","clinical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comprehensive Clinical Medicine & Evidence-Based Constitution Standards",
+      ruSectionName: "Стандарты и регламенты: Comprehensive Clinical Medicine & Evidence-Based Constitution",
+      instructions: [
+        "Apply core domain tenets for Comprehensive Clinical Medicine & Evidence-Based Constitution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comprehensive Clinical Medicine & Evidence-Based Constitution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical","comprehensive","clinical"],
+    }),
+  },
+  "medical-final-clinical-pathway-evidence-based-patient-care-flowchart": {
+    id: "medical-final-clinical-pathway-evidence-based-patient-care-flowchart",
+    name: "ClinicalPathwayEvidenceBasedPatientCareFlowchartSkill",
+    displayName: "Clinical Pathway Evidence-Based Patient Care Flowchart",
+    categoryId: "medical",
+    description: "Standardizes hospital treatment protocols according to evidence-based clinical guidelines.",
+    tags: ["medical","medical-final","final","clinical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Clinical Pathway Evidence-Based Patient Care Flowchart Standards",
+      ruSectionName: "Стандарты и регламенты: Clinical Pathway Evidence-Based Patient Care Flowchart",
+      instructions: [
+        "Apply core domain tenets for Clinical Pathway Evidence-Based Patient Care Flowchart.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Clinical Pathway Evidence-Based Patient Care Flowchart.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical-final","final","clinical"],
+    }),
+  },
+
+  "medical-final-pharmacovigilance-adverse-event-reporting-signal-detection": {
+    id: "medical-final-pharmacovigilance-adverse-event-reporting-signal-detection",
+    name: "PharmacovigilanceAdverseEventReportingSignalDetectionSkill",
+    displayName: "Pharmacovigilance Adverse Event Reporting Signal Detection",
+    categoryId: "medical",
+    description: "Monitors drug safety databases for emerging adverse event signals and MedDRA coding.",
+    tags: ["medical","medical-final","final","pharmacovigilance"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pharmacovigilance Adverse Event Reporting Signal Detection Standards",
+      ruSectionName: "Стандарты и регламенты: Pharmacovigilance Adverse Event Reporting Signal Detection",
+      instructions: [
+        "Apply core domain tenets for Pharmacovigilance Adverse Event Reporting Signal Detection.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Pharmacovigilance Adverse Event Reporting Signal Detection.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical-final","final","pharmacovigilance"],
+    }),
+  },
+
+  "medical-final-telemedicine-remote-patient-monitoring-triaging-protocol": {
+    id: "medical-final-telemedicine-remote-patient-monitoring-triaging-protocol",
+    name: "TelemedicineRemotePatientMonitoringTriagingProtocolSkill",
+    displayName: "Telemedicine Remote Patient Monitoring Triaging Protocol",
+    categoryId: "medical",
+    description: "Triages vital sign anomalies from wearable medical devices in chronic care patients.",
+    tags: ["medical","medical-final","final","telemedicine"],
+    transform: createStandardSkillTransform({
+      sectionName: "Telemedicine Remote Patient Monitoring Triaging Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Telemedicine Remote Patient Monitoring Triaging Protocol",
+      instructions: [
+        "Apply core domain tenets for Telemedicine Remote Patient Monitoring Triaging Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Telemedicine Remote Patient Monitoring Triaging Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical-final","final","telemedicine"],
+    }),
+  },
+
+  "medical-final-oncology-tumor-board-multidisciplinary-case-presentation": {
+    id: "medical-final-oncology-tumor-board-multidisciplinary-case-presentation",
+    name: "OncologyTumorBoardMultidisciplinaryCasePresentationSkill",
+    displayName: "Oncology Tumor Board Multidisciplinary Case Presentation",
+    categoryId: "medical",
+    description: "Synthesizes pathology, radiology, and genetic markers for personalized cancer therapy.",
+    tags: ["medical","medical-final","final","oncology"],
+    transform: createStandardSkillTransform({
+      sectionName: "Oncology Tumor Board Multidisciplinary Case Presentation Standards",
+      ruSectionName: "Стандарты и регламенты: Oncology Tumor Board Multidisciplinary Case Presentation",
+      instructions: [
+        "Apply core domain tenets for Oncology Tumor Board Multidisciplinary Case Presentation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Oncology Tumor Board Multidisciplinary Case Presentation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical-final","final","oncology"],
+    }),
+  },
+
+  "medical-final-master-clinical-medical-science-patient-care": {
+    id: "medical-final-master-clinical-medical-science-patient-care",
+    name: "MasterClinicalMedicalSciencePatientCareSkill",
+    displayName: "Master Clinical Medical Science Patient Care",
+    categoryId: "medical",
+    description: "Enforces world-class clinical reasoning, evidence-based medicine, and healthcare standards.",
+    tags: ["medical","medical-final","final","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Clinical Medical Science Patient Care Standards",
+      ruSectionName: "Стандарты и регламенты: Master Clinical Medical Science Patient Care",
+      instructions: [
+        "Apply core domain tenets for Master Clinical Medical Science Patient Care.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Clinical Medical Science Patient Care.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["medical","medical-final","final","master"],
+    }),
+  },
 };

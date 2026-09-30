@@ -2011,4 +2011,2302 @@ sectionName: 'Reverse Mentorship & Apprenticeship Protocol',
       tags: ["miscellaneous","indoor","houseplant","soil"],
     }),
   },
+  "misc-universal-metric-to-imperial-conversion-mechanics": {
+    id: "misc-universal-metric-to-imperial-conversion-mechanics",
+    name: "UniversalMetrictoImperialConversionMechanicsSkill",
+    displayName: "Universal Metric-to-Imperial Conversion Mechanics",
+    categoryId: "miscellaneous",
+    description: "Converts length, weight, volume, and temperature units with high precision.",
+    tags: ["miscellaneous","misc","universal","metric"],
+    transform: createStandardSkillTransform({
+      sectionName: "Universal Metric-to-Imperial Conversion Mechanics Standards",
+      ruSectionName: "Стандарты и регламенты: Universal Metric-to-Imperial Conversion Mechanics",
+      instructions: [
+        "Apply core domain tenets for Universal Metric-to-Imperial Conversion Mechanics.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Universal Metric-to-Imperial Conversion Mechanics.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","universal","metric"],
+    }),
+  },
+
+  "misc-aviation-phonetic-alphabet-radio-telephony": {
+    id: "misc-aviation-phonetic-alphabet-radio-telephony",
+    name: "AviationPhoneticAlphabetRadioTelephonySkill",
+    displayName: "Aviation Phonetic Alphabet & Radio Telephony",
+    categoryId: "miscellaneous",
+    description: "Uses standard NATO phonetic alphabet (Alpha, Bravo) and aviation radio callouts.",
+    tags: ["miscellaneous","misc","aviation","phonetic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Aviation Phonetic Alphabet & Radio Telephony Standards",
+      ruSectionName: "Стандарты и регламенты: Aviation Phonetic Alphabet & Radio Telephony",
+      instructions: [
+        "Apply core domain tenets for Aviation Phonetic Alphabet & Radio Telephony.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Aviation Phonetic Alphabet & Radio Telephony.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","aviation","phonetic"],
+    }),
+  },
+
+  "misc-texas-style-low-and-slow-barbecue-smoke-science": {
+    id: "misc-texas-style-low-and-slow-barbecue-smoke-science",
+    name: "TexasStyleLowandSlowBarbecueSmokeScienceSkill",
+    displayName: "Texas Style Low-and-Slow Barbecue Smoke Science",
+    categoryId: "miscellaneous",
+    description: "Manages pit temperature, wood smoke chemistry, collagen breakdown, and bark.",
+    tags: ["miscellaneous","misc","texas","style"],
+    transform: createStandardSkillTransform({
+      sectionName: "Texas Style Low-and-Slow Barbecue Smoke Science Standards",
+      ruSectionName: "Стандарты и регламенты: Texas Style Low-and-Slow Barbecue Smoke Science",
+      instructions: [
+        "Apply core domain tenets for Texas Style Low-and-Slow Barbecue Smoke Science.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Texas Style Low-and-Slow Barbecue Smoke Science.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","texas","style"],
+    }),
+  },
+
+  "misc-specialty-coffee-pour-over-extraction-science": {
+    id: "misc-specialty-coffee-pour-over-extraction-science",
+    name: "SpecialtyCoffeePourOverExtractionScienceSkill",
+    displayName: "Specialty Coffee Pour-Over Extraction Science",
+    categoryId: "miscellaneous",
+    description: "Controls water temperature, grind size distribution, brew ratio, and TDS extraction.",
+    tags: ["miscellaneous","misc","specialty","coffee"],
+    transform: createStandardSkillTransform({
+      sectionName: "Specialty Coffee Pour-Over Extraction Science Standards",
+      ruSectionName: "Стандарты и регламенты: Specialty Coffee Pour-Over Extraction Science",
+      instructions: [
+        "Apply core domain tenets for Specialty Coffee Pour-Over Extraction Science.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Specialty Coffee Pour-Over Extraction Science.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","specialty","coffee"],
+    }),
+  },
+
+  "misc-master-home-composting-carbon-to-nitrogen-ratio": {
+    id: "misc-master-home-composting-carbon-to-nitrogen-ratio",
+    name: "MasterHomeCompostingCarbontoNitrogenRatioSkill",
+    displayName: "Master Home Composting Carbon-to-Nitrogen Ratio",
+    categoryId: "miscellaneous",
+    description: "Balances green/brown materials (30:1 C:N ratio) for fast aerobic composting.",
+    tags: ["miscellaneous","misc","master","home"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Home Composting Carbon-to-Nitrogen Ratio Standards",
+      ruSectionName: "Стандарты и регламенты: Master Home Composting Carbon-to-Nitrogen Ratio",
+      instructions: [
+        "Apply core domain tenets for Master Home Composting Carbon-to-Nitrogen Ratio.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Home Composting Carbon-to-Nitrogen Ratio.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","master","home"],
+    }),
+  },
+
+  "misc-fermentation-sourdough-hydration-starter-health": {
+    id: "misc-fermentation-sourdough-hydration-starter-health",
+    name: "FermentationSourdoughHydrationStarterHealthSkill",
+    displayName: "Fermentation Sourdough Hydration & Starter Health",
+    categoryId: "miscellaneous",
+    description: "Maintains wild yeast sourdough starters, controlling hydration and fermentation.",
+    tags: ["miscellaneous","misc","fermentation","sourdough"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fermentation Sourdough Hydration & Starter Health Standards",
+      ruSectionName: "Стандарты и регламенты: Fermentation Sourdough Hydration & Starter Health",
+      instructions: [
+        "Apply core domain tenets for Fermentation Sourdough Hydration & Starter Health.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Fermentation Sourdough Hydration & Starter Health.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","fermentation","sourdough"],
+    }),
+  },
+
+  "misc-minimalist-everyday-carry-edc-gear-optimization": {
+    id: "misc-minimalist-everyday-carry-edc-gear-optimization",
+    name: "MinimalistEverydayCarryEDCGearOptimizationSkill",
+    displayName: "Minimalist Everyday Carry (EDC) Gear Optimization",
+    categoryId: "miscellaneous",
+    description: "Optimizes daily pocket tools and gear for utility, durability, and minimal weight.",
+    tags: ["miscellaneous","misc","minimalist","everyday"],
+    transform: createStandardSkillTransform({
+      sectionName: "Minimalist Everyday Carry (EDC) Gear Optimization Standards",
+      ruSectionName: "Стандарты и регламенты: Minimalist Everyday Carry (EDC) Gear Optimization",
+      instructions: [
+        "Apply core domain tenets for Minimalist Everyday Carry (EDC) Gear Optimization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Minimalist Everyday Carry (EDC) Gear Optimization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","minimalist","everyday"],
+    }),
+  },
+
+  "misc-horology-mechanical-watch-escapement-tuning": {
+    id: "misc-horology-mechanical-watch-escapement-tuning",
+    name: "HorologyMechanicalWatchEscapementTuningSkill",
+    displayName: "Horology Mechanical Watch Escapement Tuning",
+    categoryId: "miscellaneous",
+    description: "Adjusts mechanical watch balance wheels, hairsprings, and lever escapements.",
+    tags: ["miscellaneous","misc","horology","mechanical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Horology Mechanical Watch Escapement Tuning Standards",
+      ruSectionName: "Стандарты и регламенты: Horology Mechanical Watch Escapement Tuning",
+      instructions: [
+        "Apply core domain tenets for Horology Mechanical Watch Escapement Tuning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Horology Mechanical Watch Escapement Tuning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","horology","mechanical"],
+    }),
+  },
+
+  "misc-scuba-diving-decompression-table-planning": {
+    id: "misc-scuba-diving-decompression-table-planning",
+    name: "ScubaDivingDecompressionTablePlanningSkill",
+    displayName: "Scuba Diving Decompression Table Planning",
+    categoryId: "miscellaneous",
+    description: "Calculates safe dive profiles, nitrogen absorption, and decompression stops.",
+    tags: ["miscellaneous","misc","scuba","diving"],
+    transform: createStandardSkillTransform({
+      sectionName: "Scuba Diving Decompression Table Planning Standards",
+      ruSectionName: "Стандарты и регламенты: Scuba Diving Decompression Table Planning",
+      instructions: [
+        "Apply core domain tenets for Scuba Diving Decompression Table Planning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Scuba Diving Decompression Table Planning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","scuba","diving"],
+    }),
+  },
+
+  "misc-artisan-cheese-aging-affinage-microbiology": {
+    id: "misc-artisan-cheese-aging-affinage-microbiology",
+    name: "ArtisanCheeseAgingAffinageMicrobiologySkill",
+    displayName: "Artisan Cheese Aging Affinage & Microbiology",
+    categoryId: "miscellaneous",
+    description: "Controls humidity, temperature, and rind flora during cheese maturation.",
+    tags: ["miscellaneous","misc","artisan","cheese"],
+    transform: createStandardSkillTransform({
+      sectionName: "Artisan Cheese Aging Affinage & Microbiology Standards",
+      ruSectionName: "Стандарты и регламенты: Artisan Cheese Aging Affinage & Microbiology",
+      instructions: [
+        "Apply core domain tenets for Artisan Cheese Aging Affinage & Microbiology.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Artisan Cheese Aging Affinage & Microbiology.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","artisan","cheese"],
+    }),
+  },
+
+  "misc-bicycle-derailleur-indexing-cable-tuning": {
+    id: "misc-bicycle-derailleur-indexing-cable-tuning",
+    name: "BicycleDerailleurIndexingCableTuningSkill",
+    displayName: "Bicycle Derailleur Indexing & Cable Tuning",
+    categoryId: "miscellaneous",
+    description: "Adjusts bike gear shifters, cable tension, and limit screws for crisp shifting.",
+    tags: ["miscellaneous","misc","bicycle","derailleur"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bicycle Derailleur Indexing & Cable Tuning Standards",
+      ruSectionName: "Стандарты и регламенты: Bicycle Derailleur Indexing & Cable Tuning",
+      instructions: [
+        "Apply core domain tenets for Bicycle Derailleur Indexing & Cable Tuning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Bicycle Derailleur Indexing & Cable Tuning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","bicycle","derailleur"],
+    }),
+  },
+
+  "misc-pin-tumbler-lockpicking-mechanics-binding-order": {
+    id: "misc-pin-tumbler-lockpicking-mechanics-binding-order",
+    name: "PinTumblerLockpickingMechanicsBindingOrderSkill",
+    displayName: "Pin-Tumbler Lockpicking Mechanics & Binding Order",
+    categoryId: "miscellaneous",
+    description: "Explains pin-tumbler lock shear lines, binding order, and single-pin picking.",
+    tags: ["miscellaneous","misc","pin","tumbler"],
+    transform: createStandardSkillTransform({
+      sectionName: "Pin-Tumbler Lockpicking Mechanics & Binding Order Standards",
+      ruSectionName: "Стандарты и регламенты: Pin-Tumbler Lockpicking Mechanics & Binding Order",
+      instructions: [
+        "Apply core domain tenets for Pin-Tumbler Lockpicking Mechanics & Binding Order.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Pin-Tumbler Lockpicking Mechanics & Binding Order.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","pin","tumbler"],
+    }),
+  },
+
+  "misc-rigging-knots-cordage-lashings-bowline-clove": {
+    id: "misc-rigging-knots-cordage-lashings-bowline-clove",
+    name: "RiggingKnotsCordageLashingsBowlineCloveSkill",
+    displayName: "Rigging Knots & Cordage Lashings (Bowline, Clove)",
+    categoryId: "miscellaneous",
+    description: "Ties reliable knots: Bowline, Clove Hitch, Taut-line, and square lashings.",
+    tags: ["miscellaneous","misc","rigging","knots"],
+    transform: createStandardSkillTransform({
+      sectionName: "Rigging Knots & Cordage Lashings (Bowline, Clove) Standards",
+      ruSectionName: "Стандарты и регламенты: Rigging Knots & Cordage Lashings (Bowline, Clove)",
+      instructions: [
+        "Apply core domain tenets for Rigging Knots & Cordage Lashings (Bowline, Clove).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Rigging Knots & Cordage Lashings (Bowline, Clove).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","rigging","knots"],
+    }),
+  },
+
+  "misc-beekeeping-langstroth-hive-inspection-health": {
+    id: "misc-beekeeping-langstroth-hive-inspection-health",
+    name: "BeekeepingLangstrothHiveInspectionHealthSkill",
+    displayName: "Beekeeping Langstroth Hive Inspection & Health",
+    categoryId: "miscellaneous",
+    description: "Inspects bee hives for queen health, honey stores, and varroa mite prevention.",
+    tags: ["miscellaneous","misc","beekeeping","langstroth"],
+    transform: createStandardSkillTransform({
+      sectionName: "Beekeeping Langstroth Hive Inspection & Health Standards",
+      ruSectionName: "Стандарты и регламенты: Beekeeping Langstroth Hive Inspection & Health",
+      instructions: [
+        "Apply core domain tenets for Beekeeping Langstroth Hive Inspection & Health.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Beekeeping Langstroth Hive Inspection & Health.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","beekeeping","langstroth"],
+    }),
+  },
+
+  "misc-darkroom-black-and-white-film-chemistry": {
+    id: "misc-darkroom-black-and-white-film-chemistry",
+    name: "DarkroomBlackandWhiteFilmChemistrySkill",
+    displayName: "Darkroom Black-and-White Film Chemistry",
+    categoryId: "miscellaneous",
+    description: "Develops 35mm B&W film using developer, stop bath, fixer, and wash chemistry.",
+    tags: ["miscellaneous","misc","darkroom","black"],
+    transform: createStandardSkillTransform({
+      sectionName: "Darkroom Black-and-White Film Chemistry Standards",
+      ruSectionName: "Стандарты и регламенты: Darkroom Black-and-White Film Chemistry",
+      instructions: [
+        "Apply core domain tenets for Darkroom Black-and-White Film Chemistry.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Darkroom Black-and-White Film Chemistry.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","darkroom","black"],
+    }),
+  },
+
+  "misc-blacksmithing-hammer-forging-heat-treatment": {
+    id: "misc-blacksmithing-hammer-forging-heat-treatment",
+    name: "BlacksmithingHammerForgingHeatTreatmentSkill",
+    displayName: "Blacksmithing Hammer Forging & Heat Treatment",
+    categoryId: "miscellaneous",
+    description: "Forges steel tools using anvil techniques, quenching, and tempering cycles.",
+    tags: ["miscellaneous","misc","blacksmithing","hammer"],
+    transform: createStandardSkillTransform({
+      sectionName: "Blacksmithing Hammer Forging & Heat Treatment Standards",
+      ruSectionName: "Стандарты и регламенты: Blacksmithing Hammer Forging & Heat Treatment",
+      instructions: [
+        "Apply core domain tenets for Blacksmithing Hammer Forging & Heat Treatment.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Blacksmithing Hammer Forging & Heat Treatment.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","blacksmithing","hammer"],
+    }),
+  },
+
+  "misc-indoor-houseplant-soil-aeration-lighting": {
+    id: "misc-indoor-houseplant-soil-aeration-lighting",
+    name: "IndoorHouseplantSoilAerationLightingSkill",
+    displayName: "Indoor Houseplant Soil Aeration & Lighting",
+    categoryId: "miscellaneous",
+    description: "Selects soil mixes, watering schedules, and grow light spectra for tropical plants.",
+    tags: ["miscellaneous","misc","indoor","houseplant"],
+    transform: createStandardSkillTransform({
+      sectionName: "Indoor Houseplant Soil Aeration & Lighting Standards",
+      ruSectionName: "Стандарты и регламенты: Indoor Houseplant Soil Aeration & Lighting",
+      instructions: [
+        "Apply core domain tenets for Indoor Houseplant Soil Aeration & Lighting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Indoor Houseplant Soil Aeration & Lighting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","indoor","houseplant"],
+    }),
+  },
+
+  "misc-classic-cocktail-mixology-balance-chemistry": {
+    id: "misc-classic-cocktail-mixology-balance-chemistry",
+    name: "ClassicCocktailMixologyBalanceChemistrySkill",
+    displayName: "Classic Cocktail Mixology & Balance Chemistry",
+    categoryId: "miscellaneous",
+    description: "Balances spirit, acid, sugar, and dilution ratios in classic cocktails.",
+    tags: ["miscellaneous","misc","classic","cocktail"],
+    transform: createStandardSkillTransform({
+      sectionName: "Classic Cocktail Mixology & Balance Chemistry Standards",
+      ruSectionName: "Стандарты и регламенты: Classic Cocktail Mixology & Balance Chemistry",
+      instructions: [
+        "Apply core domain tenets for Classic Cocktail Mixology & Balance Chemistry.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Classic Cocktail Mixology & Balance Chemistry.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","classic","cocktail"],
+    }),
+  },
+
+  "misc-woodworking-hand-plane-sharpening-jointing": {
+    id: "misc-woodworking-hand-plane-sharpening-jointing",
+    name: "WoodworkingHandPlaneSharpeningJointingSkill",
+    displayName: "Woodworking Hand Plane Sharpening & Jointing",
+    categoryId: "miscellaneous",
+    description: "Tunes hand planes and cuts precise mortise-and-tenon or dovetail joints.",
+    tags: ["miscellaneous","misc","woodworking","hand"],
+    transform: createStandardSkillTransform({
+      sectionName: "Woodworking Hand Plane Sharpening & Jointing Standards",
+      ruSectionName: "Стандарты и регламенты: Woodworking Hand Plane Sharpening & Jointing",
+      instructions: [
+        "Apply core domain tenets for Woodworking Hand Plane Sharpening & Jointing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Woodworking Hand Plane Sharpening & Jointing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","woodworking","hand"],
+    }),
+  },
+
+  "misc-sailboat-wind-tacking-sail-trim-ergonomics": {
+    id: "misc-sailboat-wind-tacking-sail-trim-ergonomics",
+    name: "SailboatWindTackingSailTrimErgonomicsSkill",
+    displayName: "Sailboat Wind Tacking & Sail Trim Ergonomics",
+    categoryId: "miscellaneous",
+    description: "Trims mainsails and headsails to optimize speed on different points of sail.",
+    tags: ["miscellaneous","misc","sailboat","wind"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sailboat Wind Tacking & Sail Trim Ergonomics Standards",
+      ruSectionName: "Стандарты и регламенты: Sailboat Wind Tacking & Sail Trim Ergonomics",
+      instructions: [
+        "Apply core domain tenets for Sailboat Wind Tacking & Sail Trim Ergonomics.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sailboat Wind Tacking & Sail Trim Ergonomics.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","sailboat","wind"],
+    }),
+  },
+
+  "misc-vintage-audio-vacuum-tube-amplifier-restoration": {
+    id: "misc-vintage-audio-vacuum-tube-amplifier-restoration",
+    name: "VintageAudioVacuumTubeAmplifierRestorationSkill",
+    displayName: "Vintage Audio Vacuum Tube Amplifier Restoration",
+    categoryId: "miscellaneous",
+    description: "Tests and replaces vacuum tubes, capacitors, and bias resistors in tube amps.",
+    tags: ["miscellaneous","misc","vintage","audio"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vintage Audio Vacuum Tube Amplifier Restoration Standards",
+      ruSectionName: "Стандарты и регламенты: Vintage Audio Vacuum Tube Amplifier Restoration",
+      instructions: [
+        "Apply core domain tenets for Vintage Audio Vacuum Tube Amplifier Restoration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Vintage Audio Vacuum Tube Amplifier Restoration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","vintage","audio"],
+    }),
+  },
+
+  "misc-astronomy-telescope-polar-alignment-collimation": {
+    id: "misc-astronomy-telescope-polar-alignment-collimation",
+    name: "AstronomyTelescopePolarAlignmentCollimationSkill",
+    displayName: "Astronomy Telescope Polar Alignment & Collimation",
+    categoryId: "miscellaneous",
+    description: "Aligns equatorial telescope mounts with celestial poles for astrophotography.",
+    tags: ["miscellaneous","misc","astronomy","telescope"],
+    transform: createStandardSkillTransform({
+      sectionName: "Astronomy Telescope Polar Alignment & Collimation Standards",
+      ruSectionName: "Стандарты и регламенты: Astronomy Telescope Polar Alignment & Collimation",
+      instructions: [
+        "Apply core domain tenets for Astronomy Telescope Polar Alignment & Collimation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Astronomy Telescope Polar Alignment & Collimation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","astronomy","telescope"],
+    }),
+  },
+
+  "misc-wild-edible-mushroom-foraging-identification": {
+    id: "misc-wild-edible-mushroom-foraging-identification",
+    name: "WildEdibleMushroomForagingIdentificationSkill",
+    displayName: "Wild Edible Mushroom Foraging Identification",
+    categoryId: "miscellaneous",
+    description: "Identifies safe wild edible mushrooms while avoiding toxic lookalikes.",
+    tags: ["miscellaneous","misc","wild","edible"],
+    transform: createStandardSkillTransform({
+      sectionName: "Wild Edible Mushroom Foraging Identification Standards",
+      ruSectionName: "Стандарты и регламенты: Wild Edible Mushroom Foraging Identification",
+      instructions: [
+        "Apply core domain tenets for Wild Edible Mushroom Foraging Identification.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Wild Edible Mushroom Foraging Identification.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","wild","edible"],
+    }),
+  },
+
+  "misc-acoustic-guitar-setup-action-intonation": {
+    id: "misc-acoustic-guitar-setup-action-intonation",
+    name: "AcousticGuitarSetupActionIntonationSkill",
+    displayName: "Acoustic Guitar Setup Action & Intonation",
+    categoryId: "miscellaneous",
+    description: "Adjusts guitar truss rods, nut slots, and saddle height for perfect intonation.",
+    tags: ["miscellaneous","misc","acoustic","guitar"],
+    transform: createStandardSkillTransform({
+      sectionName: "Acoustic Guitar Setup Action & Intonation Standards",
+      ruSectionName: "Стандарты и регламенты: Acoustic Guitar Setup Action & Intonation",
+      instructions: [
+        "Apply core domain tenets for Acoustic Guitar Setup Action & Intonation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Acoustic Guitar Setup Action & Intonation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","acoustic","guitar"],
+    }),
+  },
+
+  "misc-hydroponic-deep-water-culture-dwc-nutrient-ec": {
+    id: "misc-hydroponic-deep-water-culture-dwc-nutrient-ec",
+    name: "HydroponicDeepWaterCultureDWCNutrientECSkill",
+    displayName: "Hydroponic Deep Water Culture (DWC) Nutrient EC",
+    categoryId: "miscellaneous",
+    description: "Monitors pH and electrical conductivity (EC) in hydroponic nutrient reservoirs.",
+    tags: ["miscellaneous","misc","hydroponic","deep"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hydroponic Deep Water Culture (DWC) Nutrient EC Standards",
+      ruSectionName: "Стандарты и регламенты: Hydroponic Deep Water Culture (DWC) Nutrient EC",
+      instructions: [
+        "Apply core domain tenets for Hydroponic Deep Water Culture (DWC) Nutrient EC.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hydroponic Deep Water Culture (DWC) Nutrient EC.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","hydroponic","deep"],
+    }),
+  },
+
+  "misc-traditional-meat-curing-charcuterie-salumi": {
+    id: "misc-traditional-meat-curing-charcuterie-salumi",
+    name: "TraditionalMeatCuringCharcuterieSalumiSkill",
+    displayName: "Traditional Meat Curing & Charcuterie Salumi",
+    categoryId: "miscellaneous",
+    description: "Cures whole-muscle meats using equilibrium nitrites, fermentation, and drying.",
+    tags: ["miscellaneous","misc","traditional","meat"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Meat Curing & Charcuterie Salumi Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Meat Curing & Charcuterie Salumi",
+      instructions: [
+        "Apply core domain tenets for Traditional Meat Curing & Charcuterie Salumi.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Meat Curing & Charcuterie Salumi.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","traditional","meat"],
+    }),
+  },
+
+  "misc-stained-glass-copper-foil-tiffany-technique": {
+    id: "misc-stained-glass-copper-foil-tiffany-technique",
+    name: "StainedGlassCopperFoilTiffanyTechniqueSkill",
+    displayName: "Stained Glass Copper Foil Tiffany Technique",
+    categoryId: "miscellaneous",
+    description: "Cuts glass, applies copper foil tape, and solders stained glass panels.",
+    tags: ["miscellaneous","misc","stained","glass"],
+    transform: createStandardSkillTransform({
+      sectionName: "Stained Glass Copper Foil Tiffany Technique Standards",
+      ruSectionName: "Стандарты и регламенты: Stained Glass Copper Foil Tiffany Technique",
+      instructions: [
+        "Apply core domain tenets for Stained Glass Copper Foil Tiffany Technique.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Stained Glass Copper Foil Tiffany Technique.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","stained","glass"],
+    }),
+  },
+
+  "misc-hand-pottery-wheel-throwing-centering": {
+    id: "misc-hand-pottery-wheel-throwing-centering",
+    name: "HandPotteryWheelThrowingCenteringSkill",
+    displayName: "Hand Pottery Wheel Throwing & Centering",
+    categoryId: "miscellaneous",
+    description: "Centers clay on the pottery wheel and pulls uniform cylinder walls.",
+    tags: ["miscellaneous","misc","hand","pottery"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hand Pottery Wheel Throwing & Centering Standards",
+      ruSectionName: "Стандарты и регламенты: Hand Pottery Wheel Throwing & Centering",
+      instructions: [
+        "Apply core domain tenets for Hand Pottery Wheel Throwing & Centering.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hand Pottery Wheel Throwing & Centering.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","hand","pottery"],
+    }),
+  },
+
+  "misc-urban-beekeeping-top-bar-hive-construction": {
+    id: "misc-urban-beekeeping-top-bar-hive-construction",
+    name: "UrbanBeekeepingTopBarHiveConstructionSkill",
+    displayName: "Urban Beekeeping Top-Bar Hive Construction",
+    categoryId: "miscellaneous",
+    description: "Builds and manages horizontal top-bar beehives for natural comb building.",
+    tags: ["miscellaneous","misc","urban","beekeeping"],
+    transform: createStandardSkillTransform({
+      sectionName: "Urban Beekeeping Top-Bar Hive Construction Standards",
+      ruSectionName: "Стандарты и регламенты: Urban Beekeeping Top-Bar Hive Construction",
+      instructions: [
+        "Apply core domain tenets for Urban Beekeeping Top-Bar Hive Construction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Urban Beekeeping Top-Bar Hive Construction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","urban","beekeeping"],
+    }),
+  },
+
+  "misc-high-altitude-baking-chemistry-adjustments": {
+    id: "misc-high-altitude-baking-chemistry-adjustments",
+    name: "HighAltitudeBakingChemistryAdjustmentsSkill",
+    displayName: "High-Altitude Baking Chemistry Adjustments",
+    categoryId: "miscellaneous",
+    description: "Adjusts flour, liquid, leavening, and oven temps for baking above 5000 feet.",
+    tags: ["miscellaneous","misc","high","altitude"],
+    transform: createStandardSkillTransform({
+      sectionName: "High-Altitude Baking Chemistry Adjustments Standards",
+      ruSectionName: "Стандарты и регламенты: High-Altitude Baking Chemistry Adjustments",
+      instructions: [
+        "Apply core domain tenets for High-Altitude Baking Chemistry Adjustments.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для High-Altitude Baking Chemistry Adjustments.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","high","altitude"],
+    }),
+  },
+
+  "misc-typewriter-restoration-mechanical-unsticking": {
+    id: "misc-typewriter-restoration-mechanical-unsticking",
+    name: "TypewriterRestorationMechanicalUnstickingSkill",
+    displayName: "Typewriter Restoration Mechanical Unsticking",
+    categoryId: "miscellaneous",
+    description: "Cleans and aligns manual typewriter segment typebars and drawbands.",
+    tags: ["miscellaneous","misc","typewriter","restoration"],
+    transform: createStandardSkillTransform({
+      sectionName: "Typewriter Restoration Mechanical Unsticking Standards",
+      ruSectionName: "Стандарты и регламенты: Typewriter Restoration Mechanical Unsticking",
+      instructions: [
+        "Apply core domain tenets for Typewriter Restoration Mechanical Unsticking.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Typewriter Restoration Mechanical Unsticking.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","typewriter","restoration"],
+    }),
+  },
+
+  "misc-fly-fishing-match-the-hatch-insect-selection": {
+    id: "misc-fly-fishing-match-the-hatch-insect-selection",
+    name: "FlyFishingMatchtheHatchInsectSelectionSkill",
+    displayName: "Fly Fishing Match-the-Hatch Insect Selection",
+    categoryId: "miscellaneous",
+    description: "Selects artificial dry flies matching local aquatic insect hatches.",
+    tags: ["miscellaneous","misc","fly","fishing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fly Fishing Match-the-Hatch Insect Selection Standards",
+      ruSectionName: "Стандарты и регламенты: Fly Fishing Match-the-Hatch Insect Selection",
+      instructions: [
+        "Apply core domain tenets for Fly Fishing Match-the-Hatch Insect Selection.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Fly Fishing Match-the-Hatch Insect Selection.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","fly","fishing"],
+    }),
+  },
+
+  "misc-traditional-screen-printing-emulsion-exposure": {
+    id: "misc-traditional-screen-printing-emulsion-exposure",
+    name: "TraditionalScreenPrintingEmulsionExposureSkill",
+    displayName: "Traditional Screen Printing Emulsion Exposure",
+    categoryId: "miscellaneous",
+    description: "Exposes photo-emulsion screens and pulls even ink passes on apparel.",
+    tags: ["miscellaneous","misc","traditional","screen"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Screen Printing Emulsion Exposure Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Screen Printing Emulsion Exposure",
+      instructions: [
+        "Apply core domain tenets for Traditional Screen Printing Emulsion Exposure.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Screen Printing Emulsion Exposure.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","traditional","screen"],
+    }),
+  },
+
+  "misc-bookbinding-coptic-stitch-leather-binding": {
+    id: "misc-bookbinding-coptic-stitch-leather-binding",
+    name: "BookbindingCopticStitchLeatherBindingSkill",
+    displayName: "Bookbinding Coptic Stitch & Leather Binding",
+    categoryId: "miscellaneous",
+    description: "Binds multi-signature hardcover books using traditional Coptic stitching.",
+    tags: ["miscellaneous","misc","bookbinding","coptic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bookbinding Coptic Stitch & Leather Binding Standards",
+      ruSectionName: "Стандарты и регламенты: Bookbinding Coptic Stitch & Leather Binding",
+      instructions: [
+        "Apply core domain tenets for Bookbinding Coptic Stitch & Leather Binding.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Bookbinding Coptic Stitch & Leather Binding.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","bookbinding","coptic"],
+    }),
+  },
+
+  "misc-soap-making-cold-process-saponification-math": {
+    id: "misc-soap-making-cold-process-saponification-math",
+    name: "SoapMakingColdProcessSaponificationMathSkill",
+    displayName: "Soap Making Cold Process Saponification Math",
+    categoryId: "miscellaneous",
+    description: "Calculates lye-to-oil ratios and superfat percentages for cold process soap.",
+    tags: ["miscellaneous","misc","soap","making"],
+    transform: createStandardSkillTransform({
+      sectionName: "Soap Making Cold Process Saponification Math Standards",
+      ruSectionName: "Стандарты и регламенты: Soap Making Cold Process Saponification Math",
+      instructions: [
+        "Apply core domain tenets for Soap Making Cold Process Saponification Math.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Soap Making Cold Process Saponification Math.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","soap","making"],
+    }),
+  },
+
+  "misc-solar-power-off-grid-battery-bank-sizing": {
+    id: "misc-solar-power-off-grid-battery-bank-sizing",
+    name: "SolarPowerOffGridBatteryBankSizingSkill",
+    displayName: "Solar Power Off-Grid Battery Bank Sizing",
+    categoryId: "miscellaneous",
+    description: "Sizes off-grid solar panels, MPPT charge controllers, and LiFePO4 battery banks.",
+    tags: ["miscellaneous","misc","solar","power"],
+    transform: createStandardSkillTransform({
+      sectionName: "Solar Power Off-Grid Battery Bank Sizing Standards",
+      ruSectionName: "Стандарты и регламенты: Solar Power Off-Grid Battery Bank Sizing",
+      instructions: [
+        "Apply core domain tenets for Solar Power Off-Grid Battery Bank Sizing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Solar Power Off-Grid Battery Bank Sizing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","solar","power"],
+    }),
+  },
+
+  "misc-fermented-kombucha-scoby-tea-management": {
+    id: "misc-fermented-kombucha-scoby-tea-management",
+    name: "FermentedKombuchaSCOBYTeaManagementSkill",
+    displayName: "Fermented Kombucha SCOBY Tea Management",
+    categoryId: "miscellaneous",
+    description: "Brew secondary fermented kombucha with fruit purees and carbonation.",
+    tags: ["miscellaneous","misc","fermented","kombucha"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fermented Kombucha SCOBY Tea Management Standards",
+      ruSectionName: "Стандарты и регламенты: Fermented Kombucha SCOBY Tea Management",
+      instructions: [
+        "Apply core domain tenets for Fermented Kombucha SCOBY Tea Management.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Fermented Kombucha SCOBY Tea Management.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","fermented","kombucha"],
+    }),
+  },
+
+  "misc-manual-espresso-machine-extraction-pressure": {
+    id: "misc-manual-espresso-machine-extraction-pressure",
+    name: "ManualEspressoMachineExtractionPressureSkill",
+    displayName: "Manual Espresso Machine Extraction Pressure",
+    categoryId: "miscellaneous",
+    description: "Pulls manual espresso shots at 9 bars pressure, dialing in puck resistance.",
+    tags: ["miscellaneous","misc","manual","espresso"],
+    transform: createStandardSkillTransform({
+      sectionName: "Manual Espresso Machine Extraction Pressure Standards",
+      ruSectionName: "Стандарты и регламенты: Manual Espresso Machine Extraction Pressure",
+      instructions: [
+        "Apply core domain tenets for Manual Espresso Machine Extraction Pressure.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Manual Espresso Machine Extraction Pressure.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","manual","espresso"],
+    }),
+  },
+
+  "misc-traditional-weaving-loom-warping-threading": {
+    id: "misc-traditional-weaving-loom-warping-threading",
+    name: "TraditionalWeavingLoomWarpingThreadingSkill",
+    displayName: "Traditional Weaving Loom Warping & Threading",
+    categoryId: "miscellaneous",
+    description: "Drafts floor loom weaving patterns, warping threads through heddles.",
+    tags: ["miscellaneous","misc","traditional","weaving"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Weaving Loom Warping & Threading Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Weaving Loom Warping & Threading",
+      instructions: [
+        "Apply core domain tenets for Traditional Weaving Loom Warping & Threading.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Weaving Loom Warping & Threading.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","traditional","weaving"],
+    }),
+  },
+
+  "misc-custom-pc-building-component-compatibility": {
+    id: "misc-custom-pc-building-component-compatibility",
+    name: "CustomPCBuildingComponentCompatibilitySkill",
+    displayName: "Custom PC Building Component Compatibility",
+    categoryId: "miscellaneous",
+    description: "Selects compatible CPU sockets, motherboard VRMs, RAM speeds, and PSU wattage.",
+    tags: ["miscellaneous","misc","custom","pc"],
+    transform: createStandardSkillTransform({
+      sectionName: "Custom PC Building Component Compatibility Standards",
+      ruSectionName: "Стандарты и регламенты: Custom PC Building Component Compatibility",
+      instructions: [
+        "Apply core domain tenets for Custom PC Building Component Compatibility.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Custom PC Building Component Compatibility.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","custom","pc"],
+    }),
+  },
+
+  "misc-automotive-engine-oil-change-maintenance": {
+    id: "misc-automotive-engine-oil-change-maintenance",
+    name: "AutomotiveEngineOilChangeMaintenanceSkill",
+    displayName: "Automotive Engine Oil Change & Maintenance",
+    categoryId: "miscellaneous",
+    description: "Performs DIY car oil changes, spark plug replacement, and brake pad service.",
+    tags: ["miscellaneous","misc","automotive","engine"],
+    transform: createStandardSkillTransform({
+      sectionName: "Automotive Engine Oil Change & Maintenance Standards",
+      ruSectionName: "Стандарты и регламенты: Automotive Engine Oil Change & Maintenance",
+      instructions: [
+        "Apply core domain tenets for Automotive Engine Oil Change & Maintenance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Automotive Engine Oil Change & Maintenance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","automotive","engine"],
+    }),
+  },
+
+  "misc-home-hydroponic-microgreens-vertical-farming": {
+    id: "misc-home-hydroponic-microgreens-vertical-farming",
+    name: "HomeHydroponicMicrogreensVerticalFarmingSkill",
+    displayName: "Home Hydroponic Microgreens Vertical Farming",
+    categoryId: "miscellaneous",
+    description: "Grows dense trays of nutrient-rich microgreens under LED grow lights.",
+    tags: ["miscellaneous","misc","home","hydroponic"],
+    transform: createStandardSkillTransform({
+      sectionName: "Home Hydroponic Microgreens Vertical Farming Standards",
+      ruSectionName: "Стандарты и регламенты: Home Hydroponic Microgreens Vertical Farming",
+      instructions: [
+        "Apply core domain tenets for Home Hydroponic Microgreens Vertical Farming.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Home Hydroponic Microgreens Vertical Farming.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","home","hydroponic"],
+    }),
+  },
+
+  "misc-shoe-care-leather-conditioning-mirror-shine": {
+    id: "misc-shoe-care-leather-conditioning-mirror-shine",
+    name: "ShoeCareLeatherConditioningMirrorShineSkill",
+    displayName: "Shoe Care Leather Conditioning & Mirror Shine",
+    categoryId: "miscellaneous",
+    description: "Cleans, conditions, and polishes dress shoes to a high-gloss mirror shine.",
+    tags: ["miscellaneous","misc","shoe","care"],
+    transform: createStandardSkillTransform({
+      sectionName: "Shoe Care Leather Conditioning & Mirror Shine Standards",
+      ruSectionName: "Стандарты и регламенты: Shoe Care Leather Conditioning & Mirror Shine",
+      instructions: [
+        "Apply core domain tenets for Shoe Care Leather Conditioning & Mirror Shine.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Shoe Care Leather Conditioning & Mirror Shine.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","shoe","care"],
+    }),
+  },
+
+  "misc-loudspeaker-crossover-filter-circuit-design": {
+    id: "misc-loudspeaker-crossover-filter-circuit-design",
+    name: "LoudspeakerCrossoverFilterCircuitDesignSkill",
+    displayName: "Loudspeaker Crossover Filter Circuit Design",
+    categoryId: "miscellaneous",
+    description: "Designs passive 2-way audio crossover circuits using inductors and capacitors.",
+    tags: ["miscellaneous","misc","loudspeaker","crossover"],
+    transform: createStandardSkillTransform({
+      sectionName: "Loudspeaker Crossover Filter Circuit Design Standards",
+      ruSectionName: "Стандарты и регламенты: Loudspeaker Crossover Filter Circuit Design",
+      instructions: [
+        "Apply core domain tenets for Loudspeaker Crossover Filter Circuit Design.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Loudspeaker Crossover Filter Circuit Design.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","loudspeaker","crossover"],
+    }),
+  },
+
+  "misc-traditional-japanese-tea-ceremony-chado-etiquette": {
+    id: "misc-traditional-japanese-tea-ceremony-chado-etiquette",
+    name: "TraditionalJapaneseTeaCeremonyChadoEtiquetteSkill",
+    displayName: "Traditional Japanese Tea Ceremony (Chado) Etiquette",
+    categoryId: "miscellaneous",
+    description: "Prepares matcha green tea using traditional bamboo whisks and tea bowls.",
+    tags: ["miscellaneous","misc","traditional","japanese"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Japanese Tea Ceremony (Chado) Etiquette Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Japanese Tea Ceremony (Chado) Etiquette",
+      instructions: [
+        "Apply core domain tenets for Traditional Japanese Tea Ceremony (Chado) Etiquette.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Japanese Tea Ceremony (Chado) Etiquette.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","traditional","japanese"],
+    }),
+  },
+
+  "misc-mushroom-cultivation-grain-spawn-sterilization": {
+    id: "misc-mushroom-cultivation-grain-spawn-sterilization",
+    name: "MushroomCultivationGrainSpawnSterilizationSkill",
+    displayName: "Mushroom Cultivation Grain Spawn Sterilization",
+    categoryId: "miscellaneous",
+    description: "Sterilizes grain substrates in pressure cookers for gourmet mushroom spawn.",
+    tags: ["miscellaneous","misc","mushroom","cultivation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Mushroom Cultivation Grain Spawn Sterilization Standards",
+      ruSectionName: "Стандарты и регламенты: Mushroom Cultivation Grain Spawn Sterilization",
+      instructions: [
+        "Apply core domain tenets for Mushroom Cultivation Grain Spawn Sterilization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Mushroom Cultivation Grain Spawn Sterilization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","mushroom","cultivation"],
+    }),
+  },
+
+  "misc-ham-radio-antenna-dipole-wire-construction": {
+    id: "misc-ham-radio-antenna-dipole-wire-construction",
+    name: "HamRadioAntennaDipoleWireConstructionSkill",
+    displayName: "Ham Radio Antenna Dipole Wire Construction",
+    categoryId: "miscellaneous",
+    description: "Calculates half-wave dipole wire antenna lengths for specific HF bands.",
+    tags: ["miscellaneous","misc","ham","radio"],
+    transform: createStandardSkillTransform({
+      sectionName: "Ham Radio Antenna Dipole Wire Construction Standards",
+      ruSectionName: "Стандарты и регламенты: Ham Radio Antenna Dipole Wire Construction",
+      instructions: [
+        "Apply core domain tenets for Ham Radio Antenna Dipole Wire Construction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Ham Radio Antenna Dipole Wire Construction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","ham","radio"],
+    }),
+  },
+
+  "misc-automotive-detailing-paint-correction-ceramic": {
+    id: "misc-automotive-detailing-paint-correction-ceramic",
+    name: "AutomotiveDetailingPaintCorrectionCeramicSkill",
+    displayName: "Automotive Detailing Paint Correction & Ceramic",
+    categoryId: "miscellaneous",
+    description: "Decontaminates car paint, machine polishes swirls, and applies ceramic coatings.",
+    tags: ["miscellaneous","misc","automotive","detailing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Automotive Detailing Paint Correction & Ceramic Standards",
+      ruSectionName: "Стандарты и регламенты: Automotive Detailing Paint Correction & Ceramic",
+      instructions: [
+        "Apply core domain tenets for Automotive Detailing Paint Correction & Ceramic.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Automotive Detailing Paint Correction & Ceramic.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","automotive","detailing"],
+    }),
+  },
+
+  "misc-fermented-kimchi-napa-cabbage-brining": {
+    id: "misc-fermented-kimchi-napa-cabbage-brining",
+    name: "FermentedKimchiNapaCabbageBriningSkill",
+    displayName: "Fermented Kimchi Napa Cabbage Brining",
+    categoryId: "miscellaneous",
+    description: "Brines and seasons Korean kimchi with gochugaru, garlic, and ginger paste.",
+    tags: ["miscellaneous","misc","fermented","kimchi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fermented Kimchi Napa Cabbage Brining Standards",
+      ruSectionName: "Стандарты и регламенты: Fermented Kimchi Napa Cabbage Brining",
+      instructions: [
+        "Apply core domain tenets for Fermented Kimchi Napa Cabbage Brining.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Fermented Kimchi Napa Cabbage Brining.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","fermented","kimchi"],
+    }),
+  },
+
+  "misc-traditional-calligraphy-chisel-nib-lettering": {
+    id: "misc-traditional-calligraphy-chisel-nib-lettering",
+    name: "TraditionalCalligraphyChiselNibLetteringSkill",
+    displayName: "Traditional Calligraphy Chisel Nib Lettering",
+    categoryId: "miscellaneous",
+    description: "Drives broad-edge calligraphy pens at 45-degree angles for Italic script.",
+    tags: ["miscellaneous","misc","traditional","calligraphy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Calligraphy Chisel Nib Lettering Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Calligraphy Chisel Nib Lettering",
+      instructions: [
+        "Apply core domain tenets for Traditional Calligraphy Chisel Nib Lettering.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Calligraphy Chisel Nib Lettering.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","traditional","calligraphy"],
+    }),
+  },
+
+  "misc-permaculture-guild-fruit-tree-swale-design": {
+    id: "misc-permaculture-guild-fruit-tree-swale-design",
+    name: "PermacultureGuildFruitTreeSwaleDesignSkill",
+    displayName: "Permaculture Guild Fruit Tree Swale Design",
+    categoryId: "miscellaneous",
+    description: "Plants companion support species around fruit trees to build self-sustaining guilds.",
+    tags: ["miscellaneous","misc","permaculture","guild"],
+    transform: createStandardSkillTransform({
+      sectionName: "Permaculture Guild Fruit Tree Swale Design Standards",
+      ruSectionName: "Стандарты и регламенты: Permaculture Guild Fruit Tree Swale Design",
+      instructions: [
+        "Apply core domain tenets for Permaculture Guild Fruit Tree Swale Design.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Permaculture Guild Fruit Tree Swale Design.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","permaculture","guild"],
+    }),
+  },
+
+  "misc-custom-mechanical-keyboard-switch-lubrication": {
+    id: "misc-custom-mechanical-keyboard-switch-lubrication",
+    name: "CustomMechanicalKeyboardSwitchLubricationSkill",
+    displayName: "Custom Mechanical Keyboard Switch Lubrication",
+    categoryId: "miscellaneous",
+    description: "Disassembles, lubricates, and films mechanical keyboard switches for smooth travel.",
+    tags: ["miscellaneous","misc","custom","mechanical"],
+    transform: createStandardSkillTransform({
+      sectionName: "Custom Mechanical Keyboard Switch Lubrication Standards",
+      ruSectionName: "Стандарты и регламенты: Custom Mechanical Keyboard Switch Lubrication",
+      instructions: [
+        "Apply core domain tenets for Custom Mechanical Keyboard Switch Lubrication.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Custom Mechanical Keyboard Switch Lubrication.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","custom","mechanical"],
+    }),
+  },
+
+  "misc-home-draft-beer-kegerator-co2-pressure-tuning": {
+    id: "misc-home-draft-beer-kegerator-co2-pressure-tuning",
+    name: "HomeDraftBeerKegeratorCO2PressureTuningSkill",
+    displayName: "Home Draft Beer Kegerator CO2 Pressure Tuning",
+    categoryId: "miscellaneous",
+    description: "Balances draft beer line length and CO2 pressure to pour perfect foam heads.",
+    tags: ["miscellaneous","misc","home","draft"],
+    transform: createStandardSkillTransform({
+      sectionName: "Home Draft Beer Kegerator CO2 Pressure Tuning Standards",
+      ruSectionName: "Стандарты и регламенты: Home Draft Beer Kegerator CO2 Pressure Tuning",
+      instructions: [
+        "Apply core domain tenets for Home Draft Beer Kegerator CO2 Pressure Tuning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Home Draft Beer Kegerator CO2 Pressure Tuning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","home","draft"],
+    }),
+  },
+
+  "misc-3d-printing-fdm-slicer-layer-height-tuning": {
+    id: "misc-3d-printing-fdm-slicer-layer-height-tuning",
+    name: "3DPrintingFDMSlicerLayerHeightTuningSkill",
+    displayName: "3D Printing FDM Slicer Layer Height Tuning",
+    categoryId: "miscellaneous",
+    description: "Tunes 3D printer slicing settings: nozzle temp, retraction, and infill density.",
+    tags: ["miscellaneous","misc","3d","printing"],
+    transform: createStandardSkillTransform({
+      sectionName: "3D Printing FDM Slicer Layer Height Tuning Standards",
+      ruSectionName: "Стандарты и регламенты: 3D Printing FDM Slicer Layer Height Tuning",
+      instructions: [
+        "Apply core domain tenets for 3D Printing FDM Slicer Layer Height Tuning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для 3D Printing FDM Slicer Layer Height Tuning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","3d","printing"],
+    }),
+  },
+
+  "misc-traditional-bread-scoring-lame-expansion": {
+    id: "misc-traditional-bread-scoring-lame-expansion",
+    name: "TraditionalBreadScoringLameExpansionSkill",
+    displayName: "Traditional Bread Scoring Lame Expansion",
+    categoryId: "miscellaneous",
+    description: "Scores sourdough loaves with razor blades to control oven spring expansion.",
+    tags: ["miscellaneous","misc","traditional","bread"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Bread Scoring Lame Expansion Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Bread Scoring Lame Expansion",
+      instructions: [
+        "Apply core domain tenets for Traditional Bread Scoring Lame Expansion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Bread Scoring Lame Expansion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","traditional","bread"],
+    }),
+  },
+
+  "misc-aviation-pilot-pre-flight-walkaround-inspection": {
+    id: "misc-aviation-pilot-pre-flight-walkaround-inspection",
+    name: "AviationPilotPreFlightWalkaroundInspectionSkill",
+    displayName: "Aviation Pilot Pre-Flight Walkaround Inspection",
+    categoryId: "miscellaneous",
+    description: "Inspects small aircraft control surfaces, fuel strainers, and engine oil levels.",
+    tags: ["miscellaneous","misc","aviation","pilot"],
+    transform: createStandardSkillTransform({
+      sectionName: "Aviation Pilot Pre-Flight Walkaround Inspection Standards",
+      ruSectionName: "Стандарты и регламенты: Aviation Pilot Pre-Flight Walkaround Inspection",
+      instructions: [
+        "Apply core domain tenets for Aviation Pilot Pre-Flight Walkaround Inspection.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Aviation Pilot Pre-Flight Walkaround Inspection.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","aviation","pilot"],
+    }),
+  },
+
+  "misc-artisan-chocolate-tempering-crystal-beta-v": {
+    id: "misc-artisan-chocolate-tempering-crystal-beta-v",
+    name: "ArtisanChocolateTemperingCrystalBetaVSkill",
+    displayName: "Artisan Chocolate Tempering Crystal Beta V",
+    categoryId: "miscellaneous",
+    description: "Tempers dark chocolate through precise heating and cooling to achieve Beta V crystals.",
+    tags: ["miscellaneous","misc","artisan","chocolate"],
+    transform: createStandardSkillTransform({
+      sectionName: "Artisan Chocolate Tempering Crystal Beta V Standards",
+      ruSectionName: "Стандарты и регламенты: Artisan Chocolate Tempering Crystal Beta V",
+      instructions: [
+        "Apply core domain tenets for Artisan Chocolate Tempering Crystal Beta V.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Artisan Chocolate Tempering Crystal Beta V.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","artisan","chocolate"],
+    }),
+  },
+
+  "misc-traditional-wood-carving-whittling-knife-safety": {
+    id: "misc-traditional-wood-carving-whittling-knife-safety",
+    name: "TraditionalWoodCarvingWhittlingKnifeSafetySkill",
+    displayName: "Traditional Wood Carving Whittling Knife Safety",
+    categoryId: "miscellaneous",
+    description: "Carves wooden figures using push cuts, stop cuts, and thumb-push technique.",
+    tags: ["miscellaneous","misc","traditional","wood"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Wood Carving Whittling Knife Safety Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Wood Carving Whittling Knife Safety",
+      instructions: [
+        "Apply core domain tenets for Traditional Wood Carving Whittling Knife Safety.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Wood Carving Whittling Knife Safety.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","traditional","wood"],
+    }),
+  },
+
+  "misc-home-rainwater-harvesting-cistern-calculation": {
+    id: "misc-home-rainwater-harvesting-cistern-calculation",
+    name: "HomeRainwaterHarvestingCisternCalculationSkill",
+    displayName: "Home Rainwater Harvesting Cistern Calculation",
+    categoryId: "miscellaneous",
+    description: "Sizes rainwater storage tanks based on roof square footage and rainfall.",
+    tags: ["miscellaneous","misc","home","rainwater"],
+    transform: createStandardSkillTransform({
+      sectionName: "Home Rainwater Harvesting Cistern Calculation Standards",
+      ruSectionName: "Стандарты и регламенты: Home Rainwater Harvesting Cistern Calculation",
+      instructions: [
+        "Apply core domain tenets for Home Rainwater Harvesting Cistern Calculation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Home Rainwater Harvesting Cistern Calculation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","home","rainwater"],
+    }),
+  },
+
+  "misc-bicycle-wheel-truing-spoke-tensioning": {
+    id: "misc-bicycle-wheel-truing-spoke-tensioning",
+    name: "BicycleWheelTruingSpokeTensioningSkill",
+    displayName: "Bicycle Wheel Truing & Spoke Tensioning",
+    categoryId: "miscellaneous",
+    description: "Trues wobbly bike wheels using spoke wrenches and truing stands.",
+    tags: ["miscellaneous","misc","bicycle","wheel"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bicycle Wheel Truing & Spoke Tensioning Standards",
+      ruSectionName: "Стандарты и регламенты: Bicycle Wheel Truing & Spoke Tensioning",
+      instructions: [
+        "Apply core domain tenets for Bicycle Wheel Truing & Spoke Tensioning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Bicycle Wheel Truing & Spoke Tensioning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","bicycle","wheel"],
+    }),
+  },
+
+  "misc-traditional-soapstone-carving-polishing": {
+    id: "misc-traditional-soapstone-carving-polishing",
+    name: "TraditionalSoapstoneCarvingPolishingSkill",
+    displayName: "Traditional Soapstone Carving & Polishing",
+    categoryId: "miscellaneous",
+    description: "Shapes soft soapstone with rasps and polishes with wet/dry sandpaper.",
+    tags: ["miscellaneous","misc","traditional","soapstone"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Soapstone Carving & Polishing Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Soapstone Carving & Polishing",
+      instructions: [
+        "Apply core domain tenets for Traditional Soapstone Carving & Polishing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Soapstone Carving & Polishing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","traditional","soapstone"],
+    }),
+  },
+
+  "misc-fermented-hot-sauce-pepper-mash-aging": {
+    id: "misc-fermented-hot-sauce-pepper-mash-aging",
+    name: "FermentedHotSaucePepperMashAgingSkill",
+    displayName: "Fermented Hot Sauce Pepper Mash Aging",
+    categoryId: "miscellaneous",
+    description: "Ferments chili pepper mashes in 3% salt brine for complex hot sauce.",
+    tags: ["miscellaneous","misc","fermented","hot"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fermented Hot Sauce Pepper Mash Aging Standards",
+      ruSectionName: "Стандарты и регламенты: Fermented Hot Sauce Pepper Mash Aging",
+      instructions: [
+        "Apply core domain tenets for Fermented Hot Sauce Pepper Mash Aging.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Fermented Hot Sauce Pepper Mash Aging.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","fermented","hot"],
+    }),
+  },
+
+  "misc-acoustic-room-treatment-bass-trap-positioning": {
+    id: "misc-acoustic-room-treatment-bass-trap-positioning",
+    name: "AcousticRoomTreatmentBassTrapPositioningSkill",
+    displayName: "Acoustic Room Treatment Bass Trap Positioning",
+    categoryId: "miscellaneous",
+    description: "Places broadband absorber panels and bass traps at acoustic reflection points.",
+    tags: ["miscellaneous","misc","acoustic","room"],
+    transform: createStandardSkillTransform({
+      sectionName: "Acoustic Room Treatment Bass Trap Positioning Standards",
+      ruSectionName: "Стандарты и регламенты: Acoustic Room Treatment Bass Trap Positioning",
+      instructions: [
+        "Apply core domain tenets for Acoustic Room Treatment Bass Trap Positioning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Acoustic Room Treatment Bass Trap Positioning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","acoustic","room"],
+    }),
+  },
+
+  "misc-vintage-camera-rangefinder-focus-calibration": {
+    id: "misc-vintage-camera-rangefinder-focus-calibration",
+    name: "VintageCameraRangefinderFocusCalibrationSkill",
+    displayName: "Vintage Camera Rangefinder Focus Calibration",
+    categoryId: "miscellaneous",
+    description: "Calibrates optical rangefinders on vintage film cameras for sharp focus.",
+    tags: ["miscellaneous","misc","vintage","camera"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vintage Camera Rangefinder Focus Calibration Standards",
+      ruSectionName: "Стандарты и регламенты: Vintage Camera Rangefinder Focus Calibration",
+      instructions: [
+        "Apply core domain tenets for Vintage Camera Rangefinder Focus Calibration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Vintage Camera Rangefinder Focus Calibration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","vintage","camera"],
+    }),
+  },
+
+  "misc-traditional-hand-drawn-animation-in-betweening": {
+    id: "misc-traditional-hand-drawn-animation-in-betweening",
+    name: "TraditionalHandDrawnAnimationInBetweeningSkill",
+    displayName: "Traditional Hand-Drawn Animation In-Betweening",
+    categoryId: "miscellaneous",
+    description: "Draws intermediate animation frames between keyframes to create smooth motion.",
+    tags: ["miscellaneous","misc","traditional","hand"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Hand-Drawn Animation In-Betweening Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Hand-Drawn Animation In-Betweening",
+      instructions: [
+        "Apply core domain tenets for Traditional Hand-Drawn Animation In-Betweening.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Hand-Drawn Animation In-Betweening.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","traditional","hand"],
+    }),
+  },
+
+  "misc-home-jerky-dehydration-curing-salt-ratios": {
+    id: "misc-home-jerky-dehydration-curing-salt-ratios",
+    name: "HomeJerkyDehydrationCuringSaltRatiosSkill",
+    displayName: "Home Jerky Dehydration & Curing Salt Ratios",
+    categoryId: "miscellaneous",
+    description: "Marinates and dehydrates lean beef jerky with safe curing salt proportions.",
+    tags: ["miscellaneous","misc","home","jerky"],
+    transform: createStandardSkillTransform({
+      sectionName: "Home Jerky Dehydration & Curing Salt Ratios Standards",
+      ruSectionName: "Стандарты и регламенты: Home Jerky Dehydration & Curing Salt Ratios",
+      instructions: [
+        "Apply core domain tenets for Home Jerky Dehydration & Curing Salt Ratios.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Home Jerky Dehydration & Curing Salt Ratios.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","home","jerky"],
+    }),
+  },
+
+  "misc-hydroponic-nutrient-film-technique-nft-channels": {
+    id: "misc-hydroponic-nutrient-film-technique-nft-channels",
+    name: "HydroponicNutrientFilmTechniqueNFTChannelsSkill",
+    displayName: "Hydroponic Nutrient Film Technique (NFT) Channels",
+    categoryId: "miscellaneous",
+    description: "Circulates thin nutrient streams through NFT gullies for leafy greens.",
+    tags: ["miscellaneous","misc","hydroponic","nutrient"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hydroponic Nutrient Film Technique (NFT) Channels Standards",
+      ruSectionName: "Стандарты и регламенты: Hydroponic Nutrient Film Technique (NFT) Channels",
+      instructions: [
+        "Apply core domain tenets for Hydroponic Nutrient Film Technique (NFT) Channels.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hydroponic Nutrient Film Technique (NFT) Channels.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","hydroponic","nutrient"],
+    }),
+  },
+
+  "misc-custom-leather-belt-edge-beveling-dyeing": {
+    id: "misc-custom-leather-belt-edge-beveling-dyeing",
+    name: "CustomLeatherBeltEdgeBevelingDyeingSkill",
+    displayName: "Custom Leather Belt Edge Beveling & Dyeing",
+    categoryId: "miscellaneous",
+    description: "Bevels, dyes, and burnishes heavy veg-tan leather belt edges.",
+    tags: ["miscellaneous","misc","custom","leather"],
+    transform: createStandardSkillTransform({
+      sectionName: "Custom Leather Belt Edge Beveling & Dyeing Standards",
+      ruSectionName: "Стандарты и регламенты: Custom Leather Belt Edge Beveling & Dyeing",
+      instructions: [
+        "Apply core domain tenets for Custom Leather Belt Edge Beveling & Dyeing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Custom Leather Belt Edge Beveling & Dyeing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","custom","leather"],
+    }),
+  },
+
+  "misc-traditional-frame-drum-head-skin-tuning": {
+    id: "misc-traditional-frame-drum-head-skin-tuning",
+    name: "TraditionalFrameDrumHeadSkinTuningSkill",
+    displayName: "Traditional Frame Drum Head Skin Tuning",
+    categoryId: "miscellaneous",
+    description: "Tones natural goat skin drum heads using heat and moisture balancing.",
+    tags: ["miscellaneous","misc","traditional","frame"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Frame Drum Head Skin Tuning Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Frame Drum Head Skin Tuning",
+      instructions: [
+        "Apply core domain tenets for Traditional Frame Drum Head Skin Tuning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Frame Drum Head Skin Tuning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","traditional","frame"],
+    }),
+  },
+
+  "misc-high-altitude-hiking-acclimatization-strategy": {
+    id: "misc-high-altitude-hiking-acclimatization-strategy",
+    name: "HighAltitudeHikingAcclimatizationStrategySkill",
+    displayName: "High-Altitude Hiking Acclimatization Strategy",
+    categoryId: "miscellaneous",
+    description: "Prevents acute mountain sickness through gradual elevation gain schedules.",
+    tags: ["miscellaneous","misc","high","altitude"],
+    transform: createStandardSkillTransform({
+      sectionName: "High-Altitude Hiking Acclimatization Strategy Standards",
+      ruSectionName: "Стандарты и регламенты: High-Altitude Hiking Acclimatization Strategy",
+      instructions: [
+        "Apply core domain tenets for High-Altitude Hiking Acclimatization Strategy.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для High-Altitude Hiking Acclimatization Strategy.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","high","altitude"],
+    }),
+  },
+
+  "misc-home-micro-brewery-all-grain-mash-temperature": {
+    id: "misc-home-micro-brewery-all-grain-mash-temperature",
+    name: "HomeMicroBreweryAllGrainMashTemperatureSkill",
+    displayName: "Home Micro-Brewery All-Grain Mash Temperature",
+    categoryId: "miscellaneous",
+    description: "Mashes malted barley at 152°F to convert starches into fermentable sugars.",
+    tags: ["miscellaneous","misc","home","micro"],
+    transform: createStandardSkillTransform({
+      sectionName: "Home Micro-Brewery All-Grain Mash Temperature Standards",
+      ruSectionName: "Стандарты и регламенты: Home Micro-Brewery All-Grain Mash Temperature",
+      instructions: [
+        "Apply core domain tenets for Home Micro-Brewery All-Grain Mash Temperature.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Home Micro-Brewery All-Grain Mash Temperature.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","home","micro"],
+    }),
+  },
+
+  "misc-indoor-succulent-cactus-propagation": {
+    id: "misc-indoor-succulent-cactus-propagation",
+    name: "IndoorSucculentCactusPropagationSkill",
+    displayName: "Indoor Succulent & Cactus Propagation",
+    categoryId: "miscellaneous",
+    description: "Propagates succulents from leaf cuttings in well-draining coarse soil.",
+    tags: ["miscellaneous","misc","indoor","succulent"],
+    transform: createStandardSkillTransform({
+      sectionName: "Indoor Succulent & Cactus Propagation Standards",
+      ruSectionName: "Стандарты и регламенты: Indoor Succulent & Cactus Propagation",
+      instructions: [
+        "Apply core domain tenets for Indoor Succulent & Cactus Propagation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Indoor Succulent & Cactus Propagation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","indoor","succulent"],
+    }),
+  },
+
+  "misc-traditional-blacksmithing-anvil-horn-bending": {
+    id: "misc-traditional-blacksmithing-anvil-horn-bending",
+    name: "TraditionalBlacksmithingAnvilHornBendingSkill",
+    displayName: "Traditional Blacksmithing Anvil Horn Bending",
+    categoryId: "miscellaneous",
+    description: "Bends hot iron bars into precise circles over the anvil horn.",
+    tags: ["miscellaneous","misc","traditional","blacksmithing"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Blacksmithing Anvil Horn Bending Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Blacksmithing Anvil Horn Bending",
+      instructions: [
+        "Apply core domain tenets for Traditional Blacksmithing Anvil Horn Bending.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Blacksmithing Anvil Horn Bending.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","traditional","blacksmithing"],
+    }),
+  },
+
+  "misc-automotive-manual-transmission-heel-and-toe-shift": {
+    id: "misc-automotive-manual-transmission-heel-and-toe-shift",
+    name: "AutomotiveManualTransmissionHeelandToeShiftSkill",
+    displayName: "Automotive Manual Transmission Heel-and-Toe Shift",
+    categoryId: "miscellaneous",
+    description: "Executes smooth downshifts while braking using heel-and-toe throttle blips.",
+    tags: ["miscellaneous","misc","automotive","manual"],
+    transform: createStandardSkillTransform({
+      sectionName: "Automotive Manual Transmission Heel-and-Toe Shift Standards",
+      ruSectionName: "Стандарты и регламенты: Automotive Manual Transmission Heel-and-Toe Shift",
+      instructions: [
+        "Apply core domain tenets for Automotive Manual Transmission Heel-and-Toe Shift.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Automotive Manual Transmission Heel-and-Toe Shift.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","automotive","manual"],
+    }),
+  },
+
+  "misc-bonsai-deadwood-jin-shari-lime-sulfur-treatment": {
+    id: "misc-bonsai-deadwood-jin-shari-lime-sulfur-treatment",
+    name: "BonsaiDeadwoodJinShariLimeSulfurTreatmentSkill",
+    displayName: "Bonsai Deadwood Jin & Shari Lime Sulfur Treatment",
+    categoryId: "miscellaneous",
+    description: "Carves and preserves deadwood features on bonsai trees using lime sulfur.",
+    tags: ["miscellaneous","misc","bonsai","deadwood"],
+    transform: createStandardSkillTransform({
+      sectionName: "Bonsai Deadwood Jin & Shari Lime Sulfur Treatment Standards",
+      ruSectionName: "Стандарты и регламенты: Bonsai Deadwood Jin & Shari Lime Sulfur Treatment",
+      instructions: [
+        "Apply core domain tenets for Bonsai Deadwood Jin & Shari Lime Sulfur Treatment.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Bonsai Deadwood Jin & Shari Lime Sulfur Treatment.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","bonsai","deadwood"],
+    }),
+  },
+
+  "misc-traditional-oil-painting-fat-over-lean-layering": {
+    id: "misc-traditional-oil-painting-fat-over-lean-layering",
+    name: "TraditionalOilPaintingFatOverLeanLayeringSkill",
+    displayName: "Traditional Oil Painting Fat-Over-Lean Layering",
+    categoryId: "miscellaneous",
+    description: "Applies paint layers with increasing oil content to prevent cracking.",
+    tags: ["miscellaneous","misc","traditional","oil"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Oil Painting Fat-Over-Lean Layering Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Oil Painting Fat-Over-Lean Layering",
+      instructions: [
+        "Apply core domain tenets for Traditional Oil Painting Fat-Over-Lean Layering.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Oil Painting Fat-Over-Lean Layering.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","traditional","oil"],
+    }),
+  },
+
+  "misc-home-canning-water-bath-acidic-food-preservation": {
+    id: "misc-home-canning-water-bath-acidic-food-preservation",
+    name: "HomeCanningWaterBathAcidicFoodPreservationSkill",
+    displayName: "Home Canning Water Bath Acidic Food Preservation",
+    categoryId: "miscellaneous",
+    description: "Preserves jams and pickles safely in boiling water bath canners.",
+    tags: ["miscellaneous","misc","home","canning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Home Canning Water Bath Acidic Food Preservation Standards",
+      ruSectionName: "Стандарты и регламенты: Home Canning Water Bath Acidic Food Preservation",
+      instructions: [
+        "Apply core domain tenets for Home Canning Water Bath Acidic Food Preservation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Home Canning Water Bath Acidic Food Preservation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","home","canning"],
+    }),
+  },
+
+  "misc-sailboat-anchor-setting-scope-ratio": {
+    id: "misc-sailboat-anchor-setting-scope-ratio",
+    name: "SailboatAnchorSettingScopeRatioSkill",
+    displayName: "Sailboat Anchor Setting & Scope Ratio",
+    categoryId: "miscellaneous",
+    description: "Sets anchors securely in sand/mud using 5:1 to 7:1 scope line ratios.",
+    tags: ["miscellaneous","misc","sailboat","anchor"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sailboat Anchor Setting & Scope Ratio Standards",
+      ruSectionName: "Стандарты и регламенты: Sailboat Anchor Setting & Scope Ratio",
+      instructions: [
+        "Apply core domain tenets for Sailboat Anchor Setting & Scope Ratio.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sailboat Anchor Setting & Scope Ratio.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","sailboat","anchor"],
+    }),
+  },
+
+  "misc-traditional-wood-joinery-dovetail-fitting": {
+    id: "misc-traditional-wood-joinery-dovetail-fitting",
+    name: "TraditionalWoodJoineryDovetailFittingSkill",
+    displayName: "Traditional Wood Joinery Dovetail Fitting",
+    categoryId: "miscellaneous",
+    description: "Cuts interlocking pins and tails for hand-crafted wooden dovetail joints.",
+    tags: ["miscellaneous","misc","traditional","wood"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Wood Joinery Dovetail Fitting Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Wood Joinery Dovetail Fitting",
+      instructions: [
+        "Apply core domain tenets for Traditional Wood Joinery Dovetail Fitting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Wood Joinery Dovetail Fitting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","traditional","wood"],
+    }),
+  },
+
+  "misc-fermented-sauerkraut-cabbage-salt-massage": {
+    id: "misc-fermented-sauerkraut-cabbage-salt-massage",
+    name: "FermentedSauerkrautCabbageSaltMassageSkill",
+    displayName: "Fermented Sauerkraut Cabbage Salt Massage",
+    categoryId: "miscellaneous",
+    description: "Massages shredded cabbage with 2% sea salt to release natural brine.",
+    tags: ["miscellaneous","misc","fermented","sauerkraut"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fermented Sauerkraut Cabbage Salt Massage Standards",
+      ruSectionName: "Стандарты и регламенты: Fermented Sauerkraut Cabbage Salt Massage",
+      instructions: [
+        "Apply core domain tenets for Fermented Sauerkraut Cabbage Salt Massage.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Fermented Sauerkraut Cabbage Salt Massage.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","fermented","sauerkraut"],
+    }),
+  },
+
+  "misc-comprehensive-life-crafts-everyday-mastery-constitution": {
+    id: "misc-comprehensive-life-crafts-everyday-mastery-constitution",
+    name: "ComprehensiveLifeCraftsEverydayMasteryConstitutionSkill",
+    displayName: "Comprehensive Life Crafts & Everyday Mastery Constitution",
+    categoryId: "miscellaneous",
+    description: "Enforces world-class craftsmanship, hands-on DIY skills, and practical mastery.",
+    tags: ["miscellaneous","misc","comprehensive","life"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comprehensive Life Crafts & Everyday Mastery Constitution Standards",
+      ruSectionName: "Стандарты и регламенты: Comprehensive Life Crafts & Everyday Mastery Constitution",
+      instructions: [
+        "Apply core domain tenets for Comprehensive Life Crafts & Everyday Mastery Constitution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comprehensive Life Crafts & Everyday Mastery Constitution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","comprehensive","life"],
+    }),
+  },
+
+  "misc-misc-skill-90": {
+    id: "misc-misc-skill-90",
+    name: "miscSkill90Skill",
+    displayName: "misc Skill 90",
+    categoryId: "miscellaneous",
+    description: "Applies advanced misc Skill 90 standards and execution patterns.",
+    tags: ["miscellaneous","misc","misc","skill"],
+    transform: createStandardSkillTransform({
+      sectionName: "misc Skill 90 Standards",
+      ruSectionName: "Стандарты и регламенты: misc Skill 90",
+      instructions: [
+        "Apply core domain tenets for misc Skill 90.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для misc Skill 90.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc","misc","skill"],
+    }),
+  },
+  "misc-final-traditional-horology-mechanical-watch-regulation": {
+    id: "misc-final-traditional-horology-mechanical-watch-regulation",
+    name: "TraditionalHorologyMechanicalWatchRegulationSkill",
+    displayName: "Traditional Horology Mechanical Watch Regulation",
+    categoryId: "miscellaneous",
+    description: "Regulates mechanical watch balance spring beat error and rate timing across positions.",
+    tags: ["miscellaneous","misc-final","final","traditional"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Horology Mechanical Watch Regulation Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Horology Mechanical Watch Regulation",
+      instructions: [
+        "Apply core domain tenets for Traditional Horology Mechanical Watch Regulation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Horology Mechanical Watch Regulation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc-final","final","traditional"],
+    }),
+  },
+
+  "misc-final-custom-stained-glass-lead-came-window-construction": {
+    id: "misc-final-custom-stained-glass-lead-came-window-construction",
+    name: "CustomStainedGlassLeadCameWindowConstructionSkill",
+    displayName: "Custom Stained Glass Lead Came Window Construction",
+    categoryId: "miscellaneous",
+    description: "Builds lead came stained glass windows with waterproofing cement glazing.",
+    tags: ["miscellaneous","misc-final","final","custom"],
+    transform: createStandardSkillTransform({
+      sectionName: "Custom Stained Glass Lead Came Window Construction Standards",
+      ruSectionName: "Стандарты и регламенты: Custom Stained Glass Lead Came Window Construction",
+      instructions: [
+        "Apply core domain tenets for Custom Stained Glass Lead Came Window Construction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Custom Stained Glass Lead Came Window Construction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc-final","final","custom"],
+    }),
+  },
+
+  "misc-final-artisan-leather-shoes-goodyear-welt-stitching": {
+    id: "misc-final-artisan-leather-shoes-goodyear-welt-stitching",
+    name: "ArtisanLeatherShoesGoodyearWeltStitchingSkill",
+    displayName: "Artisan Leather Shoes Goodyear Welt Stitching",
+    categoryId: "miscellaneous",
+    description: "Constructs welted leather dress shoes with cork footbed fillers and hand stitching.",
+    tags: ["miscellaneous","misc-final","final","artisan"],
+    transform: createStandardSkillTransform({
+      sectionName: "Artisan Leather Shoes Goodyear Welt Stitching Standards",
+      ruSectionName: "Стандарты и регламенты: Artisan Leather Shoes Goodyear Welt Stitching",
+      instructions: [
+        "Apply core domain tenets for Artisan Leather Shoes Goodyear Welt Stitching.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Artisan Leather Shoes Goodyear Welt Stitching.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc-final","final","artisan"],
+    }),
+  },
+
+  "misc-final-micro-distillery-whiskey-mash-fermentation-spirit-cut": {
+    id: "misc-final-micro-distillery-whiskey-mash-fermentation-spirit-cut",
+    name: "MicroDistilleryWhiskeyMashFermentationSpiritCutSkill",
+    displayName: "Micro-Distillery Whiskey Mash Fermentation Spirit Cut",
+    categoryId: "miscellaneous",
+    description: "Monitors grain mashing, sour mash fermentation, and sensory spirit cuts on pot stills.",
+    tags: ["miscellaneous","misc-final","final","micro"],
+    transform: createStandardSkillTransform({
+      sectionName: "Micro-Distillery Whiskey Mash Fermentation Spirit Cut Standards",
+      ruSectionName: "Стандарты и регламенты: Micro-Distillery Whiskey Mash Fermentation Spirit Cut",
+      instructions: [
+        "Apply core domain tenets for Micro-Distillery Whiskey Mash Fermentation Spirit Cut.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Micro-Distillery Whiskey Mash Fermentation Spirit Cut.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc-final","final","micro"],
+    }),
+  },
+
+  "misc-final-traditional-stucco-lime-plaster-wall-application": {
+    id: "misc-final-traditional-stucco-lime-plaster-wall-application",
+    name: "TraditionalStuccoLimePlasterWallApplicationSkill",
+    displayName: "Traditional Stucco Lime Plaster Wall Application",
+    categoryId: "miscellaneous",
+    description: "Applies three-coat breathable lime plaster over wood lath on heritage buildings.",
+    tags: ["miscellaneous","misc-final","final","traditional"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Stucco Lime Plaster Wall Application Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Stucco Lime Plaster Wall Application",
+      instructions: [
+        "Apply core domain tenets for Traditional Stucco Lime Plaster Wall Application.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Stucco Lime Plaster Wall Application.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc-final","final","traditional"],
+    }),
+  },
+
+  "misc-final-antique-furniture-french-polish-shellac-refinishing": {
+    id: "misc-final-antique-furniture-french-polish-shellac-refinishing",
+    name: "AntiqueFurnitureFrenchPolishShellacRefinishingSkill",
+    displayName: "Antique Furniture French Polish Shellac Refinishing",
+    categoryId: "miscellaneous",
+    description: "Builds high-gloss mirror finishes on antique timber using shellac and rubber pads.",
+    tags: ["miscellaneous","misc-final","final","antique"],
+    transform: createStandardSkillTransform({
+      sectionName: "Antique Furniture French Polish Shellac Refinishing Standards",
+      ruSectionName: "Стандарты и регламенты: Antique Furniture French Polish Shellac Refinishing",
+      instructions: [
+        "Apply core domain tenets for Antique Furniture French Polish Shellac Refinishing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Antique Furniture French Polish Shellac Refinishing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc-final","final","antique"],
+    }),
+  },
+
+  "misc-final-urban-aquaponics-tilapia-leafy-green-nutrient-balance": {
+    id: "misc-final-urban-aquaponics-tilapia-leafy-green-nutrient-balance",
+    name: "UrbanAquaponicsTilapiaLeafyGreenNutrientBalanceSkill",
+    displayName: "Urban Aquaponics Tilapia Leafy Green Nutrient Balance",
+    categoryId: "miscellaneous",
+    description: "Balances nitrifying bacteria, fish stocking density, and plant iron uptake in aquaponics.",
+    tags: ["miscellaneous","misc-final","final","urban"],
+    transform: createStandardSkillTransform({
+      sectionName: "Urban Aquaponics Tilapia Leafy Green Nutrient Balance Standards",
+      ruSectionName: "Стандарты и регламенты: Urban Aquaponics Tilapia Leafy Green Nutrient Balance",
+      instructions: [
+        "Apply core domain tenets for Urban Aquaponics Tilapia Leafy Green Nutrient Balance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Urban Aquaponics Tilapia Leafy Green Nutrient Balance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc-final","final","urban"],
+    }),
+  },
+
+  "misc-final-traditional-bowyer-wooden-longbow-tillering": {
+    id: "misc-final-traditional-bowyer-wooden-longbow-tillering",
+    name: "TraditionalBowyerWoodenLongbowTilleringSkill",
+    displayName: "Traditional Bowyer Wooden Longbow Tillering",
+    categoryId: "miscellaneous",
+    description: "Tiles wooden self-bow staves to even limb curvature and precise draw weight.",
+    tags: ["miscellaneous","misc-final","final","traditional"],
+    transform: createStandardSkillTransform({
+      sectionName: "Traditional Bowyer Wooden Longbow Tillering Standards",
+      ruSectionName: "Стандарты и регламенты: Traditional Bowyer Wooden Longbow Tillering",
+      instructions: [
+        "Apply core domain tenets for Traditional Bowyer Wooden Longbow Tillering.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Traditional Bowyer Wooden Longbow Tillering.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc-final","final","traditional"],
+    }),
+  },
+
+  "misc-final-artisan-glassblowing-furnace-gathering-pipe-shaping": {
+    id: "misc-final-artisan-glassblowing-furnace-gathering-pipe-shaping",
+    name: "ArtisanGlassblowingFurnaceGatheringPipeShapingSkill",
+    displayName: "Artisan Glassblowing Furnace Gathering Pipe Shaping",
+    categoryId: "miscellaneous",
+    description: "Gathers molten glass at 2100°F, marvering and blowing vessel forms.",
+    tags: ["miscellaneous","misc-final","final","artisan"],
+    transform: createStandardSkillTransform({
+      sectionName: "Artisan Glassblowing Furnace Gathering Pipe Shaping Standards",
+      ruSectionName: "Стандарты и регламенты: Artisan Glassblowing Furnace Gathering Pipe Shaping",
+      instructions: [
+        "Apply core domain tenets for Artisan Glassblowing Furnace Gathering Pipe Shaping.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Artisan Glassblowing Furnace Gathering Pipe Shaping.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc-final","final","artisan"],
+    }),
+  },
+
+  "misc-final-master-everyday-crafts-applied-life-skills": {
+    id: "misc-final-master-everyday-crafts-applied-life-skills",
+    name: "MasterEverydayCraftsAppliedLifeSkillsSkill",
+    displayName: "Master Everyday Crafts Applied Life Skills",
+    categoryId: "miscellaneous",
+    description: "Enforces world-class practical craftsmanship, DIY engineering, and artisan mastery.",
+    tags: ["miscellaneous","misc-final","final","master"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Everyday Crafts Applied Life Skills Standards",
+      ruSectionName: "Стандарты и регламенты: Master Everyday Crafts Applied Life Skills",
+      instructions: [
+        "Apply core domain tenets for Master Everyday Crafts Applied Life Skills.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Everyday Crafts Applied Life Skills.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["miscellaneous","misc-final","final","master"],
+    }),
+  },
 };

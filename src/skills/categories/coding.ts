@@ -3029,5 +3029,1254 @@ export const CODING_SKILLS: Record<string, SkillDefinition> = {
       tags: ["coding","service-worker","pwa","offline-first","cache-storage"],
     }),
   },
+  "coding-react-19-server-components-actions-architecture": {
+    id: "coding-react-19-server-components-actions-architecture",
+    name: "React19ServerComponentsActionsArchitectureSkill",
+    displayName: "React 19 Server Components & Actions Architecture",
+    categoryId: "coding",
+    description: "Builds production-grade React 19 apps with Server Components, Actions, and optimistic UI.",
+    tags: ["coding","coding","react","19"],
+    transform: createStandardSkillTransform({
+      sectionName: "React 19 Server Components & Actions Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: React 19 Server Components & Actions Architecture",
+      instructions: [
+        "Apply core domain tenets for React 19 Server Components & Actions Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для React 19 Server Components & Actions Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","react","19"],
+    }),
+  },
+
+  "coding-typescript-strict-template-literal-types": {
+    id: "coding-typescript-strict-template-literal-types",
+    name: "TypeScriptStrictTemplateLiteralTypesSkill",
+    displayName: "TypeScript Strict Template Literal Types",
+    categoryId: "coding",
+    description: "Constructs advanced type-safe API route paths and event handlers using template literals.",
+    tags: ["coding","coding","typescript","strict"],
+    transform: createStandardSkillTransform({
+      sectionName: "TypeScript Strict Template Literal Types Standards",
+      ruSectionName: "Стандарты и регламенты: TypeScript Strict Template Literal Types",
+      instructions: [
+        "Apply core domain tenets for TypeScript Strict Template Literal Types.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для TypeScript Strict Template Literal Types.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","typescript","strict"],
+    }),
+  },
+
+  "coding-rust-zero-cost-abstractions-ownership-borrowing": {
+    id: "coding-rust-zero-cost-abstractions-ownership-borrowing",
+    name: "RustZeroCostAbstractionsOwnershipBorrowingSkill",
+    displayName: "Rust Zero-Cost Abstractions & Ownership Borrowing",
+    categoryId: "coding",
+    description: "Implements high-performance memory-safe algorithms leveraging Rust lifetime scopes.",
+    tags: ["coding","coding","rust","zero"],
+    transform: createStandardSkillTransform({
+      sectionName: "Rust Zero-Cost Abstractions & Ownership Borrowing Standards",
+      ruSectionName: "Стандарты и регламенты: Rust Zero-Cost Abstractions & Ownership Borrowing",
+      instructions: [
+        "Apply core domain tenets for Rust Zero-Cost Abstractions & Ownership Borrowing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Rust Zero-Cost Abstractions & Ownership Borrowing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","rust","zero"],
+    }),
+  },
+
+  "coding-go-csp-concurrency-channels-goroutines": {
+    id: "coding-go-csp-concurrency-channels-goroutines",
+    name: "GoCSPConcurrencyChannelsGoroutinesSkill",
+    displayName: "Go CSP Concurrency Channels & Goroutines",
+    categoryId: "coding",
+    description: "Orchestrates concurrent worker pipelines with bounded channels and select statement timeouts.",
+    tags: ["coding","coding","go","csp"],
+    transform: createStandardSkillTransform({
+      sectionName: "Go CSP Concurrency Channels & Goroutines Standards",
+      ruSectionName: "Стандарты и регламенты: Go CSP Concurrency Channels & Goroutines",
+      instructions: [
+        "Apply core domain tenets for Go CSP Concurrency Channels & Goroutines.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Go CSP Concurrency Channels & Goroutines.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","go","csp"],
+    }),
+  },
+
+  "coding-python-asyncio-event-loop-semaphore-concurrency": {
+    id: "coding-python-asyncio-event-loop-semaphore-concurrency",
+    name: "PythonAsyncioEventLoopSemaphoreConcurrencySkill",
+    displayName: "Python Asyncio Event Loop & Semaphore Concurrency",
+    categoryId: "coding",
+    description: "Manages high-throughput async Python I/O pipelines with asyncio TaskGroups and semaphores.",
+    tags: ["coding","coding","python","asyncio"],
+    transform: createStandardSkillTransform({
+      sectionName: "Python Asyncio Event Loop & Semaphore Concurrency Standards",
+      ruSectionName: "Стандарты и регламенты: Python Asyncio Event Loop & Semaphore Concurrency",
+      instructions: [
+        "Apply core domain tenets for Python Asyncio Event Loop & Semaphore Concurrency.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Python Asyncio Event Loop & Semaphore Concurrency.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","python","asyncio"],
+    }),
+  },
+
+  "coding-postgresql-query-execution-plan-optimization": {
+    id: "coding-postgresql-query-execution-plan-optimization",
+    name: "PostgreSQLQueryExecutionPlanOptimizationSkill",
+    displayName: "PostgreSQL Query Execution Plan Optimization",
+    categoryId: "coding",
+    description: "Optimizes slow SQL queries using EXPLAIN ANALYZE, index scans, and join strategies.",
+    tags: ["coding","coding","postgresql","query"],
+    transform: createStandardSkillTransform({
+      sectionName: "PostgreSQL Query Execution Plan Optimization Standards",
+      ruSectionName: "Стандарты и регламенты: PostgreSQL Query Execution Plan Optimization",
+      instructions: [
+        "Apply core domain tenets for PostgreSQL Query Execution Plan Optimization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для PostgreSQL Query Execution Plan Optimization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","postgresql","query"],
+    }),
+  },
+
+  "coding-graphql-dataloader-batching-n-1-prevention": {
+    id: "coding-graphql-dataloader-batching-n-1-prevention",
+    name: "GraphQLDataLoaderBatchingN1PreventionSkill",
+    displayName: "GraphQL DataLoader Batching & N+1 Prevention",
+    categoryId: "coding",
+    description: "Eliminates N+1 database queries in GraphQL resolvers using Facebook DataLoader batching.",
+    tags: ["coding","coding","graphql","dataloader"],
+    transform: createStandardSkillTransform({
+      sectionName: "GraphQL DataLoader Batching & N+1 Prevention Standards",
+      ruSectionName: "Стандарты и регламенты: GraphQL DataLoader Batching & N+1 Prevention",
+      instructions: [
+        "Apply core domain tenets for GraphQL DataLoader Batching & N+1 Prevention.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для GraphQL DataLoader Batching & N+1 Prevention.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","graphql","dataloader"],
+    }),
+  },
+
+  "coding-webassembly-simd-high-performance-pipeline": {
+    id: "coding-webassembly-simd-high-performance-pipeline",
+    name: "WebAssemblySIMDHighPerformancePipelineSkill",
+    displayName: "WebAssembly SIMD High-Performance Pipeline",
+    categoryId: "coding",
+    description: "Compiles performance-critical C++/Rust algorithms to Wasm with 128-bit SIMD vectorization.",
+    tags: ["coding","coding","webassembly","simd"],
+    transform: createStandardSkillTransform({
+      sectionName: "WebAssembly SIMD High-Performance Pipeline Standards",
+      ruSectionName: "Стандарты и регламенты: WebAssembly SIMD High-Performance Pipeline",
+      instructions: [
+        "Apply core domain tenets for WebAssembly SIMD High-Performance Pipeline.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для WebAssembly SIMD High-Performance Pipeline.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","webassembly","simd"],
+    }),
+  },
+
+  "coding-tailwind-css-v4-design-token-system": {
+    id: "coding-tailwind-css-v4-design-token-system",
+    name: "TailwindCSSv4DesignTokenSystemSkill",
+    displayName: "Tailwind CSS v4 Design Token System",
+    categoryId: "coding",
+    description: "Configures custom CSS variables, design tokens, and OKLCH color scales in Tailwind CSS v4.",
+    tags: ["coding","coding","tailwind","css"],
+    transform: createStandardSkillTransform({
+      sectionName: "Tailwind CSS v4 Design Token System Standards",
+      ruSectionName: "Стандарты и регламенты: Tailwind CSS v4 Design Token System",
+      instructions: [
+        "Apply core domain tenets for Tailwind CSS v4 Design Token System.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Tailwind CSS v4 Design Token System.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","tailwind","css"],
+    }),
+  },
+
+  "coding-opentelemetry-distributed-tracing-w3c-context": {
+    id: "coding-opentelemetry-distributed-tracing-w3c-context",
+    name: "OpenTelemetryDistributedTracingW3CContextSkill",
+    displayName: "OpenTelemetry Distributed Tracing & W3C Context",
+    categoryId: "coding",
+    description: "Instruments microservices with OpenTelemetry spans, trace IDs, and W3C baggage headers.",
+    tags: ["coding","coding","opentelemetry","distributed"],
+    transform: createStandardSkillTransform({
+      sectionName: "OpenTelemetry Distributed Tracing & W3C Context Standards",
+      ruSectionName: "Стандарты и регламенты: OpenTelemetry Distributed Tracing & W3C Context",
+      instructions: [
+        "Apply core domain tenets for OpenTelemetry Distributed Tracing & W3C Context.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для OpenTelemetry Distributed Tracing & W3C Context.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","opentelemetry","distributed"],
+    }),
+  },
+
+  "coding-zod-schema-validation-type-inference": {
+    id: "coding-zod-schema-validation-type-inference",
+    name: "ZodSchemaValidationTypeInferenceSkill",
+    displayName: "Zod Schema Validation & Type Inference",
+    categoryId: "coding",
+    description: "Validates and transforms untrusted user payloads with type-inferred Zod schemas.",
+    tags: ["coding","coding","zod","schema"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zod Schema Validation & Type Inference Standards",
+      ruSectionName: "Стандарты и регламенты: Zod Schema Validation & Type Inference",
+      instructions: [
+        "Apply core domain tenets for Zod Schema Validation & Type Inference.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Zod Schema Validation & Type Inference.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","zod","schema"],
+    }),
+  },
+
+  "coding-zero-downtime-database-schema-migration": {
+    id: "coding-zero-downtime-database-schema-migration",
+    name: "ZeroDowntimeDatabaseSchemaMigrationSkill",
+    displayName: "Zero-Downtime Database Schema Migration",
+    categoryId: "coding",
+    description: "Executes expand-and-contract zero-downtime database migrations without table locks.",
+    tags: ["coding","coding","zero","downtime"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zero-Downtime Database Schema Migration Standards",
+      ruSectionName: "Стандарты и регламенты: Zero-Downtime Database Schema Migration",
+      instructions: [
+        "Apply core domain tenets for Zero-Downtime Database Schema Migration.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Zero-Downtime Database Schema Migration.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","zero","downtime"],
+    }),
+  },
+
+  "coding-webrtc-p2p-datachannels-stun-turn": {
+    id: "coding-webrtc-p2p-datachannels-stun-turn",
+    name: "WebRTCP2PDataChannelsSTUNTURNSkill",
+    displayName: "WebRTC P2P DataChannels & STUN/TURN",
+    categoryId: "coding",
+    description: "Establishes ultra-low latency browser-to-browser audio/video and binary data streams.",
+    tags: ["coding","coding","webrtc","p2p"],
+    transform: createStandardSkillTransform({
+      sectionName: "WebRTC P2P DataChannels & STUN/TURN Standards",
+      ruSectionName: "Стандарты и регламенты: WebRTC P2P DataChannels & STUN/TURN",
+      instructions: [
+        "Apply core domain tenets for WebRTC P2P DataChannels & STUN/TURN.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для WebRTC P2P DataChannels & STUN/TURN.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","webrtc","p2p"],
+    }),
+  },
+
+  "coding-hexagonal-clean-architecture-ports-adapters": {
+    id: "coding-hexagonal-clean-architecture-ports-adapters",
+    name: "HexagonalCleanArchitecturePortsAdaptersSkill",
+    displayName: "Hexagonal Clean Architecture & Ports Adapters",
+    categoryId: "coding",
+    description: "Decouples domain business rules from external frameworks and database models.",
+    tags: ["coding","coding","hexagonal","clean"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hexagonal Clean Architecture & Ports Adapters Standards",
+      ruSectionName: "Стандарты и регламенты: Hexagonal Clean Architecture & Ports Adapters",
+      instructions: [
+        "Apply core domain tenets for Hexagonal Clean Architecture & Ports Adapters.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hexagonal Clean Architecture & Ports Adapters.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","hexagonal","clean"],
+    }),
+  },
+
+  "coding-offscreencanvas-dedicated-web-worker-rendering": {
+    id: "coding-offscreencanvas-dedicated-web-worker-rendering",
+    name: "OffscreenCanvasDedicatedWebWorkerRenderingSkill",
+    displayName: "OffscreenCanvas Dedicated Web Worker Rendering",
+    categoryId: "coding",
+    description: "Renders heavy 60fps animations and WebGL graphics on background worker threads.",
+    tags: ["coding","coding","offscreencanvas","dedicated"],
+    transform: createStandardSkillTransform({
+      sectionName: "OffscreenCanvas Dedicated Web Worker Rendering Standards",
+      ruSectionName: "Стандарты и регламенты: OffscreenCanvas Dedicated Web Worker Rendering",
+      instructions: [
+        "Apply core domain tenets for OffscreenCanvas Dedicated Web Worker Rendering.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для OffscreenCanvas Dedicated Web Worker Rendering.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","offscreencanvas","dedicated"],
+    }),
+  },
+
+  "coding-css-container-queries-container-subgrid": {
+    id: "coding-css-container-queries-container-subgrid",
+    name: "CSSContainerQueriescontainerSubgridSkill",
+    displayName: "CSS Container Queries (@container) & Subgrid",
+    categoryId: "coding",
+    description: "Constructs modular, component-driven responsive layouts adapting to container width.",
+    tags: ["coding","coding","css","container"],
+    transform: createStandardSkillTransform({
+      sectionName: "CSS Container Queries (@container) & Subgrid Standards",
+      ruSectionName: "Стандарты и регламенты: CSS Container Queries (@container) & Subgrid",
+      instructions: [
+        "Apply core domain tenets for CSS Container Queries (@container) & Subgrid.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для CSS Container Queries (@container) & Subgrid.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","css","container"],
+    }),
+  },
+
+  "coding-temporal-io-durable-workflow-execution": {
+    id: "coding-temporal-io-durable-workflow-execution",
+    name: "TemporalioDurableWorkflowExecutionSkill",
+    displayName: "Temporal.io Durable Workflow Execution",
+    categoryId: "coding",
+    description: "Orchestrates multi-step distributed business workflows with automatic retry and sagas.",
+    tags: ["coding","coding","temporal","io"],
+    transform: createStandardSkillTransform({
+      sectionName: "Temporal.io Durable Workflow Execution Standards",
+      ruSectionName: "Стандарты и регламенты: Temporal.io Durable Workflow Execution",
+      instructions: [
+        "Apply core domain tenets for Temporal.io Durable Workflow Execution.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Temporal.io Durable Workflow Execution.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","temporal","io"],
+    }),
+  },
+
+  "coding-vitest-unit-playwright-e2e-automation": {
+    id: "coding-vitest-unit-playwright-e2e-automation",
+    name: "VitestUnitPlaywrightE2EAutomationSkill",
+    displayName: "Vitest Unit & Playwright E2E Automation",
+    categoryId: "coding",
+    description: "Designs deterministic unit, component, and full browser E2E test suites with MSW.",
+    tags: ["coding","coding","vitest","unit"],
+    transform: createStandardSkillTransform({
+      sectionName: "Vitest Unit & Playwright E2E Automation Standards",
+      ruSectionName: "Стандарты и регламенты: Vitest Unit & Playwright E2E Automation",
+      instructions: [
+        "Apply core domain tenets for Vitest Unit & Playwright E2E Automation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Vitest Unit & Playwright E2E Automation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","vitest","unit"],
+    }),
+  },
+
+  "coding-progressive-web-app-service-worker-offline-cache": {
+    id: "coding-progressive-web-app-service-worker-offline-cache",
+    name: "ProgressiveWebAppServiceWorkerOfflineCacheSkill",
+    displayName: "Progressive Web App Service Worker Offline Cache",
+    categoryId: "coding",
+    description: "Implements stale-while-revalidate and offline-first caching strategies.",
+    tags: ["coding","coding","progressive","web"],
+    transform: createStandardSkillTransform({
+      sectionName: "Progressive Web App Service Worker Offline Cache Standards",
+      ruSectionName: "Стандарты и регламенты: Progressive Web App Service Worker Offline Cache",
+      instructions: [
+        "Apply core domain tenets for Progressive Web App Service Worker Offline Cache.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Progressive Web App Service Worker Offline Cache.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","progressive","web"],
+    }),
+  },
+
+  "coding-node-js-worker-threads-cpu-computation-pool": {
+    id: "coding-node-js-worker-threads-cpu-computation-pool",
+    name: "NodejsWorkerThreadsCPUComputationPoolSkill",
+    displayName: "Node.js Worker Threads CPU Computation Pool",
+    categoryId: "coding",
+    description: "Offloads heavy cryptographic or parsing tasks to a managed pool of worker threads.",
+    tags: ["coding","coding","node","js"],
+    transform: createStandardSkillTransform({
+      sectionName: "Node.js Worker Threads CPU Computation Pool Standards",
+      ruSectionName: "Стандарты и регламенты: Node.js Worker Threads CPU Computation Pool",
+      instructions: [
+        "Apply core domain tenets for Node.js Worker Threads CPU Computation Pool.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Node.js Worker Threads CPU Computation Pool.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","node","js"],
+    }),
+  },
+
+  "coding-sql-window-functions-analytical-partitioning": {
+    id: "coding-sql-window-functions-analytical-partitioning",
+    name: "SQLWindowFunctionsAnalyticalPartitioningSkill",
+    displayName: "SQL Window Functions & Analytical Partitioning",
+    categoryId: "coding",
+    description: "Constructs analytical queries using ROW_NUMBER, RANK, LAG, LEAD, and OVER partitions.",
+    tags: ["coding","coding","sql","window"],
+    transform: createStandardSkillTransform({
+      sectionName: "SQL Window Functions & Analytical Partitioning Standards",
+      ruSectionName: "Стандарты и регламенты: SQL Window Functions & Analytical Partitioning",
+      instructions: [
+        "Apply core domain tenets for SQL Window Functions & Analytical Partitioning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SQL Window Functions & Analytical Partitioning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","sql","window"],
+    }),
+  },
+
+  "coding-solid-principles-object-oriented-design": {
+    id: "coding-solid-principles-object-oriented-design",
+    name: "SOLIDPrinciplesObjectOrientedDesignSkill",
+    displayName: "SOLID Principles & Object-Oriented Design",
+    categoryId: "coding",
+    description: "Enforces Single Responsibility, Open-Closed, Liskov, Interface Segregation, and Dependency Inversion.",
+    tags: ["coding","coding","solid","principles"],
+    transform: createStandardSkillTransform({
+      sectionName: "SOLID Principles & Object-Oriented Design Standards",
+      ruSectionName: "Стандарты и регламенты: SOLID Principles & Object-Oriented Design",
+      instructions: [
+        "Apply core domain tenets for SOLID Principles & Object-Oriented Design.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SOLID Principles & Object-Oriented Design.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","solid","principles"],
+    }),
+  },
+
+  "coding-docker-multi-stage-build-minimal-image": {
+    id: "coding-docker-multi-stage-build-minimal-image",
+    name: "DockerMultiStageBuildMinimalImageSkill",
+    displayName: "Docker Multi-Stage Build Minimal Image",
+    categoryId: "coding",
+    description: "Optimizes container images using multi-stage builds and distroless base layers.",
+    tags: ["coding","coding","docker","multi"],
+    transform: createStandardSkillTransform({
+      sectionName: "Docker Multi-Stage Build Minimal Image Standards",
+      ruSectionName: "Стандарты и регламенты: Docker Multi-Stage Build Minimal Image",
+      instructions: [
+        "Apply core domain tenets for Docker Multi-Stage Build Minimal Image.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Docker Multi-Stage Build Minimal Image.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","docker","multi"],
+    }),
+  },
+
+  "coding-kubernetes-custom-resource-definition-crd": {
+    id: "coding-kubernetes-custom-resource-definition-crd",
+    name: "KubernetesCustomResourceDefinitionCRDSkill",
+    displayName: "Kubernetes Custom Resource Definition (CRD)",
+    categoryId: "coding",
+    description: "Extends Kubernetes API with custom controllers and operator reconciliation loops.",
+    tags: ["coding","coding","kubernetes","custom"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kubernetes Custom Resource Definition (CRD) Standards",
+      ruSectionName: "Стандарты и регламенты: Kubernetes Custom Resource Definition (CRD)",
+      instructions: [
+        "Apply core domain tenets for Kubernetes Custom Resource Definition (CRD).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kubernetes Custom Resource Definition (CRD).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","kubernetes","custom"],
+    }),
+  },
+
+  "coding-redis-data-structures-memory-optimization": {
+    id: "coding-redis-data-structures-memory-optimization",
+    name: "RedisDataStructuresMemoryOptimizationSkill",
+    displayName: "Redis Data Structures & Memory Optimization",
+    categoryId: "coding",
+    description: "Utilizes Redis Hashes, Sorted Sets, Bitmaps, and Streams for sub-millisecond ops.",
+    tags: ["coding","coding","redis","data"],
+    transform: createStandardSkillTransform({
+      sectionName: "Redis Data Structures & Memory Optimization Standards",
+      ruSectionName: "Стандарты и регламенты: Redis Data Structures & Memory Optimization",
+      instructions: [
+        "Apply core domain tenets for Redis Data Structures & Memory Optimization.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Redis Data Structures & Memory Optimization.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","redis","data"],
+    }),
+  },
+
+  "coding-graphql-schema-first-sdl-federation": {
+    id: "coding-graphql-schema-first-sdl-federation",
+    name: "GraphQLSchemaFirstSDLFederationSkill",
+    displayName: "GraphQL Schema First SDL & Federation",
+    categoryId: "coding",
+    description: "Designs unified GraphQL supergraphs connecting independent domain subgraphs.",
+    tags: ["coding","coding","graphql","schema"],
+    transform: createStandardSkillTransform({
+      sectionName: "GraphQL Schema First SDL & Federation Standards",
+      ruSectionName: "Стандарты и регламенты: GraphQL Schema First SDL & Federation",
+      instructions: [
+        "Apply core domain tenets for GraphQL Schema First SDL & Federation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для GraphQL Schema First SDL & Federation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","graphql","schema"],
+    }),
+  },
+
+  "coding-restful-api-level-3-richardson-maturity-hateoas": {
+    id: "coding-restful-api-level-3-richardson-maturity-hateoas",
+    name: "RESTfulAPILevel3RichardsonMaturityHATEOASSkill",
+    displayName: "RESTful API Level 3 Richardson Maturity (HATEOAS)",
+    categoryId: "coding",
+    description: "Implements hypermedia-driven REST APIs with dynamic hypermedia controls.",
+    tags: ["coding","coding","restful","api"],
+    transform: createStandardSkillTransform({
+      sectionName: "RESTful API Level 3 Richardson Maturity (HATEOAS) Standards",
+      ruSectionName: "Стандарты и регламенты: RESTful API Level 3 Richardson Maturity (HATEOAS)",
+      instructions: [
+        "Apply core domain tenets for RESTful API Level 3 Richardson Maturity (HATEOAS).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для RESTful API Level 3 Richardson Maturity (HATEOAS).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","restful","api"],
+    }),
+  },
+
+  "coding-ebpf-kernel-network-packet-tracing": {
+    id: "coding-ebpf-kernel-network-packet-tracing",
+    name: "eBPFKernelNetworkPacketTracingSkill",
+    displayName: "eBPF Kernel Network Packet Tracing",
+    categoryId: "coding",
+    description: "Attaches eBPF programs to Linux kernel sockets for high-performance observability.",
+    tags: ["coding","coding","ebpf","kernel"],
+    transform: createStandardSkillTransform({
+      sectionName: "eBPF Kernel Network Packet Tracing Standards",
+      ruSectionName: "Стандарты и регламенты: eBPF Kernel Network Packet Tracing",
+      instructions: [
+        "Apply core domain tenets for eBPF Kernel Network Packet Tracing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для eBPF Kernel Network Packet Tracing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","ebpf","kernel"],
+    }),
+  },
+
+  "coding-kafka-event-consumer-group-partition-rebalance": {
+    id: "coding-kafka-event-consumer-group-partition-rebalance",
+    name: "KafkaEventConsumerGroupPartitionRebalanceSkill",
+    displayName: "Kafka Event Consumer Group Partition Rebalance",
+    categoryId: "coding",
+    description: "Manages Kafka consumer group offsets, rebalance listeners, and static membership.",
+    tags: ["coding","coding","kafka","event"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kafka Event Consumer Group Partition Rebalance Standards",
+      ruSectionName: "Стандарты и регламенты: Kafka Event Consumer Group Partition Rebalance",
+      instructions: [
+        "Apply core domain tenets for Kafka Event Consumer Group Partition Rebalance.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kafka Event Consumer Group Partition Rebalance.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","kafka","event"],
+    }),
+  },
+
+  "coding-c-20-concepts-template-metaprogramming": {
+    id: "coding-c-20-concepts-template-metaprogramming",
+    name: "C20ConceptsTemplateMetaprogrammingSkill",
+    displayName: "C++20 Concepts & Template Metaprogramming",
+    categoryId: "coding",
+    description: "Constrains template arguments using C++20 concepts for compile-time safety.",
+    tags: ["coding","coding","c","20"],
+    transform: createStandardSkillTransform({
+      sectionName: "C++20 Concepts & Template Metaprogramming Standards",
+      ruSectionName: "Стандарты и регламенты: C++20 Concepts & Template Metaprogramming",
+      instructions: [
+        "Apply core domain tenets for C++20 Concepts & Template Metaprogramming.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для C++20 Concepts & Template Metaprogramming.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","c","20"],
+    }),
+  },
+
+  "coding-css-grid-flexbox-precision-layout-engine": {
+    id: "coding-css-grid-flexbox-precision-layout-engine",
+    name: "CSSGridFlexboxPrecisionLayoutEngineSkill",
+    displayName: "CSS Grid & Flexbox Precision Layout Engine",
+    categoryId: "coding",
+    description: "Constructs complex multi-column application layouts using CSS Grid and Flexbox.",
+    tags: ["coding","coding","css","grid"],
+    transform: createStandardSkillTransform({
+      sectionName: "CSS Grid & Flexbox Precision Layout Engine Standards",
+      ruSectionName: "Стандарты и регламенты: CSS Grid & Flexbox Precision Layout Engine",
+      instructions: [
+        "Apply core domain tenets for CSS Grid & Flexbox Precision Layout Engine.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для CSS Grid & Flexbox Precision Layout Engine.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","css","grid"],
+    }),
+  },
+
+  "coding-monorepo-workspace-management-turborepo-nx": {
+    id: "coding-monorepo-workspace-management-turborepo-nx",
+    name: "MonorepoWorkspaceManagementTurborepoNxSkill",
+    displayName: "Monorepo Workspace Management (Turborepo / Nx)",
+    categoryId: "coding",
+    description: "Configures high-speed monorepo build caching and task pipelines across packages.",
+    tags: ["coding","coding","monorepo","workspace"],
+    transform: createStandardSkillTransform({
+      sectionName: "Monorepo Workspace Management (Turborepo / Nx) Standards",
+      ruSectionName: "Стандарты и регламенты: Monorepo Workspace Management (Turborepo / Nx)",
+      instructions: [
+        "Apply core domain tenets for Monorepo Workspace Management (Turborepo / Nx).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Monorepo Workspace Management (Turborepo / Nx).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","monorepo","workspace"],
+    }),
+  },
+
+  "coding-jwt-authentication-refresh-token-rotation": {
+    id: "coding-jwt-authentication-refresh-token-rotation",
+    name: "JWTAuthenticationRefreshTokenRotationSkill",
+    displayName: "JWT Authentication & Refresh Token Rotation",
+    categoryId: "coding",
+    description: "Secures user sessions using short-lived JWT access tokens and sliding refresh tokens.",
+    tags: ["coding","coding","jwt","authentication"],
+    transform: createStandardSkillTransform({
+      sectionName: "JWT Authentication & Refresh Token Rotation Standards",
+      ruSectionName: "Стандарты и регламенты: JWT Authentication & Refresh Token Rotation",
+      instructions: [
+        "Apply core domain tenets for JWT Authentication & Refresh Token Rotation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для JWT Authentication & Refresh Token Rotation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","jwt","authentication"],
+    }),
+  },
+
+  "coding-oauth-2-1-pkce-flow-for-single-page-apps": {
+    id: "coding-oauth-2-1-pkce-flow-for-single-page-apps",
+    name: "OAuth21PKCEFlowforSinglePageAppsSkill",
+    displayName: "OAuth 2.1 PKCE Flow for Single Page Apps",
+    categoryId: "coding",
+    description: "Implements secure OAuth 2.1 Authorization Code Flow with PKCE for SPAs.",
+    tags: ["coding","coding","oauth","2"],
+    transform: createStandardSkillTransform({
+      sectionName: "OAuth 2.1 PKCE Flow for Single Page Apps Standards",
+      ruSectionName: "Стандарты и регламенты: OAuth 2.1 PKCE Flow for Single Page Apps",
+      instructions: [
+        "Apply core domain tenets for OAuth 2.1 PKCE Flow for Single Page Apps.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для OAuth 2.1 PKCE Flow for Single Page Apps.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","oauth","2"],
+    }),
+  },
+
+  "coding-websocket-real-time-binary-protocol-heartbeat": {
+    id: "coding-websocket-real-time-binary-protocol-heartbeat",
+    name: "WebSocketRealTimeBinaryProtocolHeartbeatSkill",
+    displayName: "WebSocket Real-Time Binary Protocol & Heartbeat",
+    categoryId: "coding",
+    description: "Builds resilient real-time WebSocket connections with ping/pong heartbeats.",
+    tags: ["coding","coding","websocket","real"],
+    transform: createStandardSkillTransform({
+      sectionName: "WebSocket Real-Time Binary Protocol & Heartbeat Standards",
+      ruSectionName: "Стандарты и регламенты: WebSocket Real-Time Binary Protocol & Heartbeat",
+      instructions: [
+        "Apply core domain tenets for WebSocket Real-Time Binary Protocol & Heartbeat.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для WebSocket Real-Time Binary Protocol & Heartbeat.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","websocket","real"],
+    }),
+  },
+
+  "coding-sqlite-wal-mode-embedded-database-tuning": {
+    id: "coding-sqlite-wal-mode-embedded-database-tuning",
+    name: "SQLiteWALModeEmbeddedDatabaseTuningSkill",
+    displayName: "SQLite WAL Mode & Embedded Database Tuning",
+    categoryId: "coding",
+    description: "Optimizes embedded SQLite databases using Write-Ahead Logging and pragmas.",
+    tags: ["coding","coding","sqlite","wal"],
+    transform: createStandardSkillTransform({
+      sectionName: "SQLite WAL Mode & Embedded Database Tuning Standards",
+      ruSectionName: "Стандарты и регламенты: SQLite WAL Mode & Embedded Database Tuning",
+      instructions: [
+        "Apply core domain tenets for SQLite WAL Mode & Embedded Database Tuning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для SQLite WAL Mode & Embedded Database Tuning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","sqlite","wal"],
+    }),
+  },
+
+  "coding-elasticsearch-index-lifecycle-management-ilm": {
+    id: "coding-elasticsearch-index-lifecycle-management-ilm",
+    name: "ElasticsearchIndexLifecycleManagementILMSkill",
+    displayName: "Elasticsearch Index Lifecycle Management (ILM)",
+    categoryId: "coding",
+    description: "Automates index rollover, hot-warm-cold storage tiering, and retention in ES.",
+    tags: ["coding","coding","elasticsearch","index"],
+    transform: createStandardSkillTransform({
+      sectionName: "Elasticsearch Index Lifecycle Management (ILM) Standards",
+      ruSectionName: "Стандарты и регламенты: Elasticsearch Index Lifecycle Management (ILM)",
+      instructions: [
+        "Apply core domain tenets for Elasticsearch Index Lifecycle Management (ILM).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Elasticsearch Index Lifecycle Management (ILM).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","elasticsearch","index"],
+    }),
+  },
+
+  "coding-terraform-infrastructure-as-code-module-design": {
+    id: "coding-terraform-infrastructure-as-code-module-design",
+    name: "TerraformInfrastructureasCodeModuleDesignSkill",
+    displayName: "Terraform Infrastructure as Code Module Design",
+    categoryId: "coding",
+    description: "Authors reusable, modular Terraform infrastructure code with strict variable typing.",
+    tags: ["coding","coding","terraform","infrastructure"],
+    transform: createStandardSkillTransform({
+      sectionName: "Terraform Infrastructure as Code Module Design Standards",
+      ruSectionName: "Стандарты и регламенты: Terraform Infrastructure as Code Module Design",
+      instructions: [
+        "Apply core domain tenets for Terraform Infrastructure as Code Module Design.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Terraform Infrastructure as Code Module Design.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","terraform","infrastructure"],
+    }),
+  },
+
+  "coding-web-accessibility-a11y-aria-attribute-suite": {
+    id: "coding-web-accessibility-a11y-aria-attribute-suite",
+    name: "WebAccessibilitya11yARIAAttributeSuiteSkill",
+    displayName: "Web Accessibility (a11y) ARIA Attribute Suite",
+    categoryId: "coding",
+    description: "Ensures 100% keyboard accessibility and screen reader support across custom UI components.",
+    tags: ["coding","coding","web","accessibility"],
+    transform: createStandardSkillTransform({
+      sectionName: "Web Accessibility (a11y) ARIA Attribute Suite Standards",
+      ruSectionName: "Стандарты и регламенты: Web Accessibility (a11y) ARIA Attribute Suite",
+      instructions: [
+        "Apply core domain tenets for Web Accessibility (a11y) ARIA Attribute Suite.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Web Accessibility (a11y) ARIA Attribute Suite.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","web","accessibility"],
+    }),
+  },
+
+  "coding-micro-frontend-module-federation-isolation": {
+    id: "coding-micro-frontend-module-federation-isolation",
+    name: "MicroFrontendModuleFederationIsolationSkill",
+    displayName: "Micro-Frontend Module Federation & Isolation",
+    categoryId: "coding",
+    description: "Architects scalable micro-frontend applications using Webpack/Vite Module Federation.",
+    tags: ["coding","coding","micro","frontend"],
+    transform: createStandardSkillTransform({
+      sectionName: "Micro-Frontend Module Federation & Isolation Standards",
+      ruSectionName: "Стандарты и регламенты: Micro-Frontend Module Federation & Isolation",
+      instructions: [
+        "Apply core domain tenets for Micro-Frontend Module Federation & Isolation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Micro-Frontend Module Federation & Isolation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","micro","frontend"],
+    }),
+  },
+
+  "coding-postgresql-jsonb-indexing-gin-operators": {
+    id: "coding-postgresql-jsonb-indexing-gin-operators",
+    name: "PostgreSQLJSONBIndexingGINOperatorsSkill",
+    displayName: "PostgreSQL JSONB Indexing & GIN Operators",
+    categoryId: "coding",
+    description: "Queries and indexes unstructured JSONB documents efficiently in PostgreSQL.",
+    tags: ["coding","coding","postgresql","jsonb"],
+    transform: createStandardSkillTransform({
+      sectionName: "PostgreSQL JSONB Indexing & GIN Operators Standards",
+      ruSectionName: "Стандарты и регламенты: PostgreSQL JSONB Indexing & GIN Operators",
+      instructions: [
+        "Apply core domain tenets for PostgreSQL JSONB Indexing & GIN Operators.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для PostgreSQL JSONB Indexing & GIN Operators.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","postgresql","jsonb"],
+    }),
+  },
+
+  "coding-swift-combine-async-await-concurrency": {
+    id: "coding-swift-combine-async-await-concurrency",
+    name: "SwiftCombineAsyncAwaitConcurrencySkill",
+    displayName: "Swift Combine & Async/Await Concurrency",
+    categoryId: "coding",
+    description: "Builds responsive iOS applications using Swift modern concurrency and Combine.",
+    tags: ["coding","coding","swift","combine"],
+    transform: createStandardSkillTransform({
+      sectionName: "Swift Combine & Async/Await Concurrency Standards",
+      ruSectionName: "Стандарты и регламенты: Swift Combine & Async/Await Concurrency",
+      instructions: [
+        "Apply core domain tenets for Swift Combine & Async/Await Concurrency.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Swift Combine & Async/Await Concurrency.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","swift","combine"],
+    }),
+  },
+
+  "coding-kotlin-coroutines-flow-reactive-streams": {
+    id: "coding-kotlin-coroutines-flow-reactive-streams",
+    name: "KotlinCoroutinesFlowReactiveStreamsSkill",
+    displayName: "Kotlin Coroutines & Flow Reactive Streams",
+    categoryId: "coding",
+    description: "Manages asynchronous Android UI execution using Kotlin coroutines and Flows.",
+    tags: ["coding","coding","kotlin","coroutines"],
+    transform: createStandardSkillTransform({
+      sectionName: "Kotlin Coroutines & Flow Reactive Streams Standards",
+      ruSectionName: "Стандарты и регламенты: Kotlin Coroutines & Flow Reactive Streams",
+      instructions: [
+        "Apply core domain tenets for Kotlin Coroutines & Flow Reactive Streams.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Kotlin Coroutines & Flow Reactive Streams.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","kotlin","coroutines"],
+    }),
+  },
+
+  "coding-protobuf-grpc-high-speed-rpc-microservices": {
+    id: "coding-protobuf-grpc-high-speed-rpc-microservices",
+    name: "ProtobufgRPCHighSpeedRPCMicroservicesSkill",
+    displayName: "Protobuf & gRPC High-Speed RPC Microservices",
+    categoryId: "coding",
+    description: "Defines binary RPC services using Protocol Buffers and gRPC streaming.",
+    tags: ["coding","coding","protobuf","grpc"],
+    transform: createStandardSkillTransform({
+      sectionName: "Protobuf & gRPC High-Speed RPC Microservices Standards",
+      ruSectionName: "Стандарты и регламенты: Protobuf & gRPC High-Speed RPC Microservices",
+      instructions: [
+        "Apply core domain tenets for Protobuf & gRPC High-Speed RPC Microservices.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Protobuf & gRPC High-Speed RPC Microservices.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","protobuf","grpc"],
+    }),
+  },
+
+  "coding-web-gpu-shaders-compute-shader-pipeline": {
+    id: "coding-web-gpu-shaders-compute-shader-pipeline",
+    name: "WebGPUShadersComputeShaderPipelineSkill",
+    displayName: "Web GPU Shaders & Compute Shader Pipeline",
+    categoryId: "coding",
+    description: "Executes parallel GPGPU calculations and 3D graphics using WebGPU WGSL shaders.",
+    tags: ["coding","coding","web","gpu"],
+    transform: createStandardSkillTransform({
+      sectionName: "Web GPU Shaders & Compute Shader Pipeline Standards",
+      ruSectionName: "Стандарты и регламенты: Web GPU Shaders & Compute Shader Pipeline",
+      instructions: [
+        "Apply core domain tenets for Web GPU Shaders & Compute Shader Pipeline.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Web GPU Shaders & Compute Shader Pipeline.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","web","gpu"],
+    }),
+  },
+
+  "coding-linux-syscall-performance-i-o-ring-io-uring": {
+    id: "coding-linux-syscall-performance-i-o-ring-io-uring",
+    name: "LinuxSyscallPerformanceIORingiouringSkill",
+    displayName: "Linux Syscall Performance & I/O Ring (io_uring)",
+    categoryId: "coding",
+    description: "Utilizes Linux `io_uring` for asynchronous zero-copy system call performance.",
+    tags: ["coding","coding","linux","syscall"],
+    transform: createStandardSkillTransform({
+      sectionName: "Linux Syscall Performance & I/O Ring (io_uring) Standards",
+      ruSectionName: "Стандарты и регламенты: Linux Syscall Performance & I/O Ring (io_uring)",
+      instructions: [
+        "Apply core domain tenets for Linux Syscall Performance & I/O Ring (io_uring).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Linux Syscall Performance & I/O Ring (io_uring).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","linux","syscall"],
+    }),
+  },
+
+  "coding-service-worker-background-sync-web-push": {
+    id: "coding-service-worker-background-sync-web-push",
+    name: "ServiceWorkerBackgroundSyncWebPushSkill",
+    displayName: "Service Worker Background Sync & Web Push",
+    categoryId: "coding",
+    description: "Enables offline form submission sync and push notifications in PWAs.",
+    tags: ["coding","coding","service","worker"],
+    transform: createStandardSkillTransform({
+      sectionName: "Service Worker Background Sync & Web Push Standards",
+      ruSectionName: "Стандарты и регламенты: Service Worker Background Sync & Web Push",
+      instructions: [
+        "Apply core domain tenets for Service Worker Background Sync & Web Push.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Service Worker Background Sync & Web Push.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","service","worker"],
+    }),
+  },
+
+  "coding-refactoring-code-smells-clean-code-principles": {
+    id: "coding-refactoring-code-smells-clean-code-principles",
+    name: "RefactoringCodeSmellsCleanCodePrinciplesSkill",
+    displayName: "Refactoring Code Smells & Clean Code Principles",
+    categoryId: "coding",
+    description: "Eliminates long functions, large classes, and primitive obsession via refactoring.",
+    tags: ["coding","coding","refactoring","code"],
+    transform: createStandardSkillTransform({
+      sectionName: "Refactoring Code Smells & Clean Code Principles Standards",
+      ruSectionName: "Стандарты и регламенты: Refactoring Code Smells & Clean Code Principles",
+      instructions: [
+        "Apply core domain tenets for Refactoring Code Smells & Clean Code Principles.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Refactoring Code Smells & Clean Code Principles.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","refactoring","code"],
+    }),
+  },
+
+  "coding-automated-code-review-static-analysis-ci-cd": {
+    id: "coding-automated-code-review-static-analysis-ci-cd",
+    name: "AutomatedCodeReviewStaticAnalysisCICDSkill",
+    displayName: "Automated Code Review & Static Analysis CI/CD",
+    categoryId: "coding",
+    description: "Configures ESLint, Prettier, SonarQube, and Husky pre-commit hooks in CI/CD.",
+    tags: ["coding","coding","automated","code"],
+    transform: createStandardSkillTransform({
+      sectionName: "Automated Code Review & Static Analysis CI/CD Standards",
+      ruSectionName: "Стандарты и регламенты: Automated Code Review & Static Analysis CI/CD",
+      instructions: [
+        "Apply core domain tenets for Automated Code Review & Static Analysis CI/CD.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Automated Code Review & Static Analysis CI/CD.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","automated","code"],
+    }),
+  },
+
+  "coding-master-software-architecture-system-design": {
+    id: "coding-master-software-architecture-system-design",
+    name: "MasterSoftwareArchitectureSystemDesignSkill",
+    displayName: "Master Software Architecture & System Design",
+    categoryId: "coding",
+    description: "Architects scalable, fault-tolerant, high-availability distributed web systems.",
+    tags: ["coding","coding","master","software"],
+    transform: createStandardSkillTransform({
+      sectionName: "Master Software Architecture & System Design Standards",
+      ruSectionName: "Стандарты и регламенты: Master Software Architecture & System Design",
+      instructions: [
+        "Apply core domain tenets for Master Software Architecture & System Design.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Master Software Architecture & System Design.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["coding","coding","master","software"],
+    }),
+  },
 };
 

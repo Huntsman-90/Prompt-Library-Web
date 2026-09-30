@@ -2942,4 +2942,1378 @@ export const CORE_SKILLS: Record<string, SkillDefinition> = {
       tags: ["core","cache","data-locality","cpu","performance","systems"],
     }),
   },
+  "core-universal-task-scoping-boundary-contract": {
+    id: "core-universal-task-scoping-boundary-contract",
+    name: "UniversalTaskScopingBoundaryContractSkill",
+    displayName: "Universal Task Scoping & Boundary Contract",
+    categoryId: "core",
+    description: "Establishes non-overlapping operational scope, explicit inputs, outputs, and non-goals.",
+    tags: ["core","core","universal","task"],
+    transform: createStandardSkillTransform({
+      sectionName: "Universal Task Scoping & Boundary Contract Standards",
+      ruSectionName: "Стандарты и регламенты: Universal Task Scoping & Boundary Contract",
+      instructions: [
+        "Apply core domain tenets for Universal Task Scoping & Boundary Contract.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Universal Task Scoping & Boundary Contract.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","universal","task"],
+    }),
+  },
+
+  "core-constraint-hierarchy-hard-soft-preference-weighting": {
+    id: "core-constraint-hierarchy-hard-soft-preference-weighting",
+    name: "ConstraintHierarchyHardSoftPreferenceWeightingSkill",
+    displayName: "Constraint Hierarchy & Hard/Soft Preference Weighting",
+    categoryId: "core",
+    description: "Prioritizes non-negotiable compliance rules over flexible stylistic formatting preferences.",
+    tags: ["core","core","constraint","hierarchy"],
+    transform: createStandardSkillTransform({
+      sectionName: "Constraint Hierarchy & Hard/Soft Preference Weighting Standards",
+      ruSectionName: "Стандарты и регламенты: Constraint Hierarchy & Hard/Soft Preference Weighting",
+      instructions: [
+        "Apply core domain tenets for Constraint Hierarchy & Hard/Soft Preference Weighting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Constraint Hierarchy & Hard/Soft Preference Weighting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","constraint","hierarchy"],
+    }),
+  },
+
+  "core-context-window-preservation-token-pruning": {
+    id: "core-context-window-preservation-token-pruning",
+    name: "ContextWindowPreservationTokenPruningSkill",
+    displayName: "Context Window Preservation & Token Pruning",
+    categoryId: "core",
+    description: "Eliminates conversational fluff and boilerplate to maximize semantic context density.",
+    tags: ["core","core","context","window"],
+    transform: createStandardSkillTransform({
+      sectionName: "Context Window Preservation & Token Pruning Standards",
+      ruSectionName: "Стандарты и регламенты: Context Window Preservation & Token Pruning",
+      instructions: [
+        "Apply core domain tenets for Context Window Preservation & Token Pruning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Context Window Preservation & Token Pruning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","context","window"],
+    }),
+  },
+
+  "core-zero-shot-task-instruction-framing": {
+    id: "core-zero-shot-task-instruction-framing",
+    name: "ZeroShotTaskInstructionFramingSkill",
+    displayName: "Zero-Shot Task Instruction Framing",
+    categoryId: "core",
+    description: "Formulates unambiguous task instructions without requiring prior few-shot examples.",
+    tags: ["core","core","zero","shot"],
+    transform: createStandardSkillTransform({
+      sectionName: "Zero-Shot Task Instruction Framing Standards",
+      ruSectionName: "Стандарты и регламенты: Zero-Shot Task Instruction Framing",
+      instructions: [
+        "Apply core domain tenets for Zero-Shot Task Instruction Framing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Zero-Shot Task Instruction Framing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","zero","shot"],
+    }),
+  },
+
+  "core-multi-role-composite-system-directive": {
+    id: "core-multi-role-composite-system-directive",
+    name: "MultiRoleCompositeSystemDirectiveSkill",
+    displayName: "Multi-Role Composite System Directive",
+    categoryId: "core",
+    description: "Synthesizes dual perspectives (e.g. auditor + architect) into a single cohesive persona.",
+    tags: ["core","core","multi","role"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Role Composite System Directive Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Role Composite System Directive",
+      instructions: [
+        "Apply core domain tenets for Multi-Role Composite System Directive.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Role Composite System Directive.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","multi","role"],
+    }),
+  },
+
+  "core-explicit-output-format-pre-commitment": {
+    id: "core-explicit-output-format-pre-commitment",
+    name: "ExplicitOutputFormatPreCommitmentSkill",
+    displayName: "Explicit Output Format Pre-Commitment",
+    categoryId: "core",
+    description: "Locks the response schema before generating any narrative analysis or reasoning.",
+    tags: ["core","core","explicit","output"],
+    transform: createStandardSkillTransform({
+      sectionName: "Explicit Output Format Pre-Commitment Standards",
+      ruSectionName: "Стандарты и регламенты: Explicit Output Format Pre-Commitment",
+      instructions: [
+        "Apply core domain tenets for Explicit Output Format Pre-Commitment.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Explicit Output Format Pre-Commitment.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","explicit","output"],
+    }),
+  },
+
+  "core-negative-space-non-goal-exclusion": {
+    id: "core-negative-space-non-goal-exclusion",
+    name: "NegativeSpaceNonGoalExclusionSkill",
+    displayName: "Negative Space Non-Goal Exclusion",
+    categoryId: "core",
+    description: "Defines explicit exclusions ('Do NOT do X, Y, or Z') to prevent unwanted agent drift.",
+    tags: ["core","core","negative","space"],
+    transform: createStandardSkillTransform({
+      sectionName: "Negative Space Non-Goal Exclusion Standards",
+      ruSectionName: "Стандарты и регламенты: Negative Space Non-Goal Exclusion",
+      instructions: [
+        "Apply core domain tenets for Negative Space Non-Goal Exclusion.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Negative Space Non-Goal Exclusion.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","negative","space"],
+    }),
+  },
+
+  "core-hierarchical-instruction-decomposition": {
+    id: "core-hierarchical-instruction-decomposition",
+    name: "HierarchicalInstructionDecompositionSkill",
+    displayName: "Hierarchical Instruction Decomposition",
+    categoryId: "core",
+    description: "Breaks complex multi-part prompts into nested, numbered sub-directives.",
+    tags: ["core","core","hierarchical","instruction"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hierarchical Instruction Decomposition Standards",
+      ruSectionName: "Стандарты и регламенты: Hierarchical Instruction Decomposition",
+      instructions: [
+        "Apply core domain tenets for Hierarchical Instruction Decomposition.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hierarchical Instruction Decomposition.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","hierarchical","instruction"],
+    }),
+  },
+
+  "core-anchor-context-injection-grounding": {
+    id: "core-anchor-context-injection-grounding",
+    name: "AnchorContextInjectionGroundingSkill",
+    displayName: "Anchor Context Injection & Grounding",
+    categoryId: "core",
+    description: "Anchors reasoning strictly to provided source documents without external memory leak.",
+    tags: ["core","core","anchor","context"],
+    transform: createStandardSkillTransform({
+      sectionName: "Anchor Context Injection & Grounding Standards",
+      ruSectionName: "Стандарты и регламенты: Anchor Context Injection & Grounding",
+      instructions: [
+        "Apply core domain tenets for Anchor Context Injection & Grounding.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Anchor Context Injection & Grounding.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","anchor","context"],
+    }),
+  },
+
+  "core-iterative-refinement-self-correction-loop": {
+    id: "core-iterative-refinement-self-correction-loop",
+    name: "IterativeRefinementSelfCorrectionLoopSkill",
+    displayName: "Iterative Refinement Self-Correction Loop",
+    categoryId: "core",
+    description: "Executes an internal verification pass before outputting final response payloads.",
+    tags: ["core","core","iterative","refinement"],
+    transform: createStandardSkillTransform({
+      sectionName: "Iterative Refinement Self-Correction Loop Standards",
+      ruSectionName: "Стандарты и регламенты: Iterative Refinement Self-Correction Loop",
+      instructions: [
+        "Apply core domain tenets for Iterative Refinement Self-Correction Loop.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Iterative Refinement Self-Correction Loop.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","iterative","refinement"],
+    }),
+  },
+
+  "core-deterministic-variables-interpolation-template": {
+    id: "core-deterministic-variables-interpolation-template",
+    name: "DeterministicVariablesInterpolationTemplateSkill",
+    displayName: "Deterministic Variables Interpolation Template",
+    categoryId: "core",
+    description: "Uses strict `{{variable_name}}` placeholders for dynamic runtime data binding.",
+    tags: ["core","core","deterministic","variables"],
+    transform: createStandardSkillTransform({
+      sectionName: "Deterministic Variables Interpolation Template Standards",
+      ruSectionName: "Стандарты и регламенты: Deterministic Variables Interpolation Template",
+      instructions: [
+        "Apply core domain tenets for Deterministic Variables Interpolation Template.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Deterministic Variables Interpolation Template.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","deterministic","variables"],
+    }),
+  },
+
+  "core-preamble-metadata-header-protocol": {
+    id: "core-preamble-metadata-header-protocol",
+    name: "PreambleMetadataHeaderProtocolSkill",
+    displayName: "Preamble & Metadata Header Protocol",
+    categoryId: "core",
+    description: "Standardizes document meta-tags, timestamps, and execution context blocks.",
+    tags: ["core","core","preamble","metadata"],
+    transform: createStandardSkillTransform({
+      sectionName: "Preamble & Metadata Header Protocol Standards",
+      ruSectionName: "Стандарты и регламенты: Preamble & Metadata Header Protocol",
+      instructions: [
+        "Apply core domain tenets for Preamble & Metadata Header Protocol.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Preamble & Metadata Header Protocol.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","preamble","metadata"],
+    }),
+  },
+
+  "core-sovereign-task-authority-tone-elevation": {
+    id: "core-sovereign-task-authority-tone-elevation",
+    name: "SovereignTaskAuthorityToneElevationSkill",
+    displayName: "Sovereign Task Authority & Tone Elevation",
+    categoryId: "core",
+    description: "Establishes authoritative domain expertise and decisive professional judgment.",
+    tags: ["core","core","sovereign","task"],
+    transform: createStandardSkillTransform({
+      sectionName: "Sovereign Task Authority & Tone Elevation Standards",
+      ruSectionName: "Стандарты и регламенты: Sovereign Task Authority & Tone Elevation",
+      instructions: [
+        "Apply core domain tenets for Sovereign Task Authority & Tone Elevation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Sovereign Task Authority & Tone Elevation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","sovereign","task"],
+    }),
+  },
+
+  "core-edge-case-exception-handling-matrix": {
+    id: "core-edge-case-exception-handling-matrix",
+    name: "EdgeCaseExceptionHandlingMatrixSkill",
+    displayName: "Edge Case & Exception Handling Matrix",
+    categoryId: "core",
+    description: "Pre-defines handling behavior for missing data, null values, and edge anomalies.",
+    tags: ["core","core","edge","case"],
+    transform: createStandardSkillTransform({
+      sectionName: "Edge Case & Exception Handling Matrix Standards",
+      ruSectionName: "Стандарты и регламенты: Edge Case & Exception Handling Matrix",
+      instructions: [
+        "Apply core domain tenets for Edge Case & Exception Handling Matrix.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Edge Case & Exception Handling Matrix.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","edge","case"],
+    }),
+  },
+
+  "core-multi-document-source-disambiguation": {
+    id: "core-multi-document-source-disambiguation",
+    name: "MultiDocumentSourceDisambiguationSkill",
+    displayName: "Multi-Document Source Disambiguation",
+    categoryId: "core",
+    description: "Resolves conflicting facts across multiple input sources via explicit provenance weighting.",
+    tags: ["core","core","multi","document"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Document Source Disambiguation Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Document Source Disambiguation",
+      instructions: [
+        "Apply core domain tenets for Multi-Document Source Disambiguation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Document Source Disambiguation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","multi","document"],
+    }),
+  },
+
+  "core-strict-input-payload-schema-validation": {
+    id: "core-strict-input-payload-schema-validation",
+    name: "StrictInputPayloadSchemaValidationSkill",
+    displayName: "Strict Input Payload Schema Validation",
+    categoryId: "core",
+    description: "Validates incoming JSON/YAML payloads against structural type definitions before processing.",
+    tags: ["core","core","strict","input"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strict Input Payload Schema Validation Standards",
+      ruSectionName: "Стандарты и регламенты: Strict Input Payload Schema Validation",
+      instructions: [
+        "Apply core domain tenets for Strict Input Payload Schema Validation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Strict Input Payload Schema Validation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","strict","input"],
+    }),
+  },
+
+  "core-prompt-versioning-migration-tagging": {
+    id: "core-prompt-versioning-migration-tagging",
+    name: "PromptVersioningMigrationTaggingSkill",
+    displayName: "Prompt Versioning & Migration Tagging",
+    categoryId: "core",
+    description: "Embeds semantic version identifiers (`v2.4.0`) to track instruction updates.",
+    tags: ["core","core","prompt","versioning"],
+    transform: createStandardSkillTransform({
+      sectionName: "Prompt Versioning & Migration Tagging Standards",
+      ruSectionName: "Стандарты и регламенты: Prompt Versioning & Migration Tagging",
+      instructions: [
+        "Apply core domain tenets for Prompt Versioning & Migration Tagging.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Prompt Versioning & Migration Tagging.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","prompt","versioning"],
+    }),
+  },
+
+  "core-conversational-history-window-pruning": {
+    id: "core-conversational-history-window-pruning",
+    name: "ConversationalHistoryWindowPruningSkill",
+    displayName: "Conversational History Window Pruning",
+    categoryId: "core",
+    description: "Summarizes and truncates old chat turns to maintain fast response generation.",
+    tags: ["core","core","conversational","history"],
+    transform: createStandardSkillTransform({
+      sectionName: "Conversational History Window Pruning Standards",
+      ruSectionName: "Стандарты и регламенты: Conversational History Window Pruning",
+      instructions: [
+        "Apply core domain tenets for Conversational History Window Pruning.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Conversational History Window Pruning.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","conversational","history"],
+    }),
+  },
+
+  "core-tone-modulation-audience-adaptation": {
+    id: "core-tone-modulation-audience-adaptation",
+    name: "ToneModulationAudienceAdaptationSkill",
+    displayName: "Tone Modulation & Audience Adaptation",
+    categoryId: "core",
+    description: "Adjusts technical complexity dynamically based on target audience persona.",
+    tags: ["core","core","tone","modulation"],
+    transform: createStandardSkillTransform({
+      sectionName: "Tone Modulation & Audience Adaptation Standards",
+      ruSectionName: "Стандарты и регламенты: Tone Modulation & Audience Adaptation",
+      instructions: [
+        "Apply core domain tenets for Tone Modulation & Audience Adaptation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Tone Modulation & Audience Adaptation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","tone","modulation"],
+    }),
+  },
+
+  "core-task-success-criteria-verification-rubric": {
+    id: "core-task-success-criteria-verification-rubric",
+    name: "TaskSuccessCriteriaVerificationRubricSkill",
+    displayName: "Task Success Criteria & Verification Rubric",
+    categoryId: "core",
+    description: "Lists explicit test conditions that must pass for the output to be considered valid.",
+    tags: ["core","core","task","success"],
+    transform: createStandardSkillTransform({
+      sectionName: "Task Success Criteria & Verification Rubric Standards",
+      ruSectionName: "Стандарты и регламенты: Task Success Criteria & Verification Rubric",
+      instructions: [
+        "Apply core domain tenets for Task Success Criteria & Verification Rubric.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Task Success Criteria & Verification Rubric.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","task","success"],
+    }),
+  },
+
+  "core-language-localization-cultural-adaptation": {
+    id: "core-language-localization-cultural-adaptation",
+    name: "LanguageLocalizationCulturalAdaptationSkill",
+    displayName: "Language Localization & Cultural Adaptation",
+    categoryId: "core",
+    description: "Adapts idioms, date formats, and currencies to target locale expectations.",
+    tags: ["core","core","language","localization"],
+    transform: createStandardSkillTransform({
+      sectionName: "Language Localization & Cultural Adaptation Standards",
+      ruSectionName: "Стандарты и регламенты: Language Localization & Cultural Adaptation",
+      instructions: [
+        "Apply core domain tenets for Language Localization & Cultural Adaptation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Language Localization & Cultural Adaptation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","language","localization"],
+    }),
+  },
+
+  "core-system-prompt-override-guard": {
+    id: "core-system-prompt-override-guard",
+    name: "SystemPromptOverrideGuardSkill",
+    displayName: "System Prompt Override Guard",
+    categoryId: "core",
+    description: "Protects core system instructions from user-prompt injection and tampering.",
+    tags: ["core","core","system","prompt"],
+    transform: createStandardSkillTransform({
+      sectionName: "System Prompt Override Guard Standards",
+      ruSectionName: "Стандарты и регламенты: System Prompt Override Guard",
+      instructions: [
+        "Apply core domain tenets for System Prompt Override Guard.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для System Prompt Override Guard.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","system","prompt"],
+    }),
+  },
+
+  "core-multi-step-workflow-sequence-anchor": {
+    id: "core-multi-step-workflow-sequence-anchor",
+    name: "MultiStepWorkflowSequenceAnchorSkill",
+    displayName: "Multi-Step Workflow Sequence Anchor",
+    categoryId: "core",
+    description: "Enforces strict step-by-step progress tracking across multi-turn interactions.",
+    tags: ["core","core","multi","step"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Step Workflow Sequence Anchor Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Step Workflow Sequence Anchor",
+      instructions: [
+        "Apply core domain tenets for Multi-Step Workflow Sequence Anchor.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Step Workflow Sequence Anchor.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","multi","step"],
+    }),
+  },
+
+  "core-fallback-response-template-specification": {
+    id: "core-fallback-response-template-specification",
+    name: "FallbackResponseTemplateSpecificationSkill",
+    displayName: "Fallback Response Template Specification",
+    categoryId: "core",
+    description: "Defines safe, informative fallback responses when primary generation fails.",
+    tags: ["core","core","fallback","response"],
+    transform: createStandardSkillTransform({
+      sectionName: "Fallback Response Template Specification Standards",
+      ruSectionName: "Стандарты и регламенты: Fallback Response Template Specification",
+      instructions: [
+        "Apply core domain tenets for Fallback Response Template Specification.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Fallback Response Template Specification.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","fallback","response"],
+    }),
+  },
+
+  "core-semantic-entity-disambiguation-rule": {
+    id: "core-semantic-entity-disambiguation-rule",
+    name: "SemanticEntityDisambiguationRuleSkill",
+    displayName: "Semantic Entity Disambiguation Rule",
+    categoryId: "core",
+    description: "Clarifies ambiguous terms (e.g. Apple company vs fruit) before generating response.",
+    tags: ["core","core","semantic","entity"],
+    transform: createStandardSkillTransform({
+      sectionName: "Semantic Entity Disambiguation Rule Standards",
+      ruSectionName: "Стандарты и регламенты: Semantic Entity Disambiguation Rule",
+      instructions: [
+        "Apply core domain tenets for Semantic Entity Disambiguation Rule.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Semantic Entity Disambiguation Rule.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","semantic","entity"],
+    }),
+  },
+
+  "core-interactive-clarification-prompt-trigger": {
+    id: "core-interactive-clarification-prompt-trigger",
+    name: "InteractiveClarificationPromptTriggerSkill",
+    displayName: "Interactive Clarification Prompt Trigger",
+    categoryId: "core",
+    description: "Asks targeted follow-up questions when user input is insufficient or ambiguous.",
+    tags: ["core","core","interactive","clarification"],
+    transform: createStandardSkillTransform({
+      sectionName: "Interactive Clarification Prompt Trigger Standards",
+      ruSectionName: "Стандарты и регламенты: Interactive Clarification Prompt Trigger",
+      instructions: [
+        "Apply core domain tenets for Interactive Clarification Prompt Trigger.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Interactive Clarification Prompt Trigger.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","interactive","clarification"],
+    }),
+  },
+
+  "core-multi-perspective-balanced-synthesis": {
+    id: "core-multi-perspective-balanced-synthesis",
+    name: "MultiPerspectiveBalancedSynthesisSkill",
+    displayName: "Multi-Perspective Balanced Synthesis",
+    categoryId: "core",
+    description: "Presents opposing viewpoints fairly before articulating a grounded recommendation.",
+    tags: ["core","core","multi","perspective"],
+    transform: createStandardSkillTransform({
+      sectionName: "Multi-Perspective Balanced Synthesis Standards",
+      ruSectionName: "Стандарты и регламенты: Multi-Perspective Balanced Synthesis",
+      instructions: [
+        "Apply core domain tenets for Multi-Perspective Balanced Synthesis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Multi-Perspective Balanced Synthesis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","multi","perspective"],
+    }),
+  },
+
+  "core-uncertainty-confidence-level-quantification": {
+    id: "core-uncertainty-confidence-level-quantification",
+    name: "UncertaintyConfidenceLevelQuantificationSkill",
+    displayName: "Uncertainty & Confidence Level Quantification",
+    categoryId: "core",
+    description: "Annotates statements with explicit confidence ratings (High / Medium / Low).",
+    tags: ["core","core","uncertainty","confidence"],
+    transform: createStandardSkillTransform({
+      sectionName: "Uncertainty & Confidence Level Quantification Standards",
+      ruSectionName: "Стандарты и регламенты: Uncertainty & Confidence Level Quantification",
+      instructions: [
+        "Apply core domain tenets for Uncertainty & Confidence Level Quantification.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Uncertainty & Confidence Level Quantification.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","uncertainty","confidence"],
+    }),
+  },
+
+  "core-summary-first-executive-structure-bluf": {
+    id: "core-summary-first-executive-structure-bluf",
+    name: "SummaryFirstExecutiveStructureBLUFSkill",
+    displayName: "Summary-First Executive Structure (BLUF)",
+    categoryId: "core",
+    description: "Leads with Bottom Line Up Front before detailing supporting evidence.",
+    tags: ["core","core","summary","first"],
+    transform: createStandardSkillTransform({
+      sectionName: "Summary-First Executive Structure (BLUF) Standards",
+      ruSectionName: "Стандарты и регламенты: Summary-First Executive Structure (BLUF)",
+      instructions: [
+        "Apply core domain tenets for Summary-First Executive Structure (BLUF).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Summary-First Executive Structure (BLUF).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","summary","first"],
+    }),
+  },
+
+  "core-explicit-assumptions-listing": {
+    id: "core-explicit-assumptions-listing",
+    name: "ExplicitAssumptionsListingSkill",
+    displayName: "Explicit Assumptions Listing",
+    categoryId: "core",
+    description: "States all underlying assumptions made when working with incomplete user prompts.",
+    tags: ["core","core","explicit","assumptions"],
+    transform: createStandardSkillTransform({
+      sectionName: "Explicit Assumptions Listing Standards",
+      ruSectionName: "Стандарты и регламенты: Explicit Assumptions Listing",
+      instructions: [
+        "Apply core domain tenets for Explicit Assumptions Listing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Explicit Assumptions Listing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","explicit","assumptions"],
+    }),
+  },
+
+  "core-token-budget-allocation-chunking": {
+    id: "core-token-budget-allocation-chunking",
+    name: "TokenBudgetAllocationChunkingSkill",
+    displayName: "Token Budget Allocation & Chunking",
+    categoryId: "core",
+    description: "Distributes available token length strategically across analysis, reasoning, and output.",
+    tags: ["core","core","token","budget"],
+    transform: createStandardSkillTransform({
+      sectionName: "Token Budget Allocation & Chunking Standards",
+      ruSectionName: "Стандарты и регламенты: Token Budget Allocation & Chunking",
+      instructions: [
+        "Apply core domain tenets for Token Budget Allocation & Chunking.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Token Budget Allocation & Chunking.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","token","budget"],
+    }),
+  },
+
+  "core-strict-fact-checking-citation-constraint": {
+    id: "core-strict-fact-checking-citation-constraint",
+    name: "StrictFactCheckingCitationConstraintSkill",
+    displayName: "Strict Fact-Checking Citation Constraint",
+    categoryId: "core",
+    description: "Mandates inline citations for all factual assertions back to source text.",
+    tags: ["core","core","strict","fact"],
+    transform: createStandardSkillTransform({
+      sectionName: "Strict Fact-Checking Citation Constraint Standards",
+      ruSectionName: "Стандарты и регламенты: Strict Fact-Checking Citation Constraint",
+      instructions: [
+        "Apply core domain tenets for Strict Fact-Checking Citation Constraint.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Strict Fact-Checking Citation Constraint.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","strict","fact"],
+    }),
+  },
+
+  "core-jargon-to-plain-language-translation": {
+    id: "core-jargon-to-plain-language-translation",
+    name: "JargontoPlainLanguageTranslationSkill",
+    displayName: "Jargon-to-Plain-Language Translation",
+    categoryId: "core",
+    description: "Translates complex domain terminology into accessible everyday explanations.",
+    tags: ["core","core","jargon","to"],
+    transform: createStandardSkillTransform({
+      sectionName: "Jargon-to-Plain-Language Translation Standards",
+      ruSectionName: "Стандарты и регламенты: Jargon-to-Plain-Language Translation",
+      instructions: [
+        "Apply core domain tenets for Jargon-to-Plain-Language Translation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Jargon-to-Plain-Language Translation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","jargon","to"],
+    }),
+  },
+
+  "core-structured-markdown-document-architecture": {
+    id: "core-structured-markdown-document-architecture",
+    name: "StructuredMarkdownDocumentArchitectureSkill",
+    displayName: "Structured Markdown Document Architecture",
+    categoryId: "core",
+    description: "Applies consistent heading levels (# H1, ## H2, ### H3) and visual callouts.",
+    tags: ["core","core","structured","markdown"],
+    transform: createStandardSkillTransform({
+      sectionName: "Structured Markdown Document Architecture Standards",
+      ruSectionName: "Стандарты и регламенты: Structured Markdown Document Architecture",
+      instructions: [
+        "Apply core domain tenets for Structured Markdown Document Architecture.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Structured Markdown Document Architecture.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","structured","markdown"],
+    }),
+  },
+
+  "core-anti-repetition-prose-conciseness": {
+    id: "core-anti-repetition-prose-conciseness",
+    name: "AntiRepetitionProseConcisenessSkill",
+    displayName: "Anti-Repetition & Prose Conciseness",
+    categoryId: "core",
+    description: "Eliminates redundant phrasing and filler words for maximum density.",
+    tags: ["core","core","anti","repetition"],
+    transform: createStandardSkillTransform({
+      sectionName: "Anti-Repetition & Prose Conciseness Standards",
+      ruSectionName: "Стандарты и регламенты: Anti-Repetition & Prose Conciseness",
+      instructions: [
+        "Apply core domain tenets for Anti-Repetition & Prose Conciseness.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Anti-Repetition & Prose Conciseness.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","anti","repetition"],
+    }),
+  },
+
+  "core-socratic-guided-discovery-prompt": {
+    id: "core-socratic-guided-discovery-prompt",
+    name: "SocraticGuidedDiscoveryPromptSkill",
+    displayName: "Socratic Guided Discovery Prompt",
+    categoryId: "core",
+    description: "Guides the user to discover solutions through targeted probing questions.",
+    tags: ["core","core","socratic","guided"],
+    transform: createStandardSkillTransform({
+      sectionName: "Socratic Guided Discovery Prompt Standards",
+      ruSectionName: "Стандарты и регламенты: Socratic Guided Discovery Prompt",
+      instructions: [
+        "Apply core domain tenets for Socratic Guided Discovery Prompt.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Socratic Guided Discovery Prompt.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","socratic","guided"],
+    }),
+  },
+
+  "core-parallel-options-comparison-table": {
+    id: "core-parallel-options-comparison-table",
+    name: "ParallelOptionsComparisonTableSkill",
+    displayName: "Parallel Options Comparison Table",
+    categoryId: "core",
+    description: "Presents trade-offs across multiple choices in a side-by-side structured matrix.",
+    tags: ["core","core","parallel","options"],
+    transform: createStandardSkillTransform({
+      sectionName: "Parallel Options Comparison Table Standards",
+      ruSectionName: "Стандарты и регламенты: Parallel Options Comparison Table",
+      instructions: [
+        "Apply core domain tenets for Parallel Options Comparison Table.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Parallel Options Comparison Table.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","parallel","options"],
+    }),
+  },
+
+  "core-contextual-memory-tagging-recall": {
+    id: "core-contextual-memory-tagging-recall",
+    name: "ContextualMemoryTaggingRecallSkill",
+    displayName: "Contextual Memory Tagging & Recall",
+    categoryId: "core",
+    description: "Tags key user preferences to recall consistently across extended sessions.",
+    tags: ["core","core","contextual","memory"],
+    transform: createStandardSkillTransform({
+      sectionName: "Contextual Memory Tagging & Recall Standards",
+      ruSectionName: "Стандарты и регламенты: Contextual Memory Tagging & Recall",
+      instructions: [
+        "Apply core domain tenets for Contextual Memory Tagging & Recall.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Contextual Memory Tagging & Recall.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","contextual","memory"],
+    }),
+  },
+
+  "core-role-based-access-information-gating": {
+    id: "core-role-based-access-information-gating",
+    name: "RoleBasedAccessInformationGatingSkill",
+    displayName: "Role-Based Access & Information Gating",
+    categoryId: "core",
+    description: "Restricts sensitive data disclosures according to user authorization level.",
+    tags: ["core","core","role","based"],
+    transform: createStandardSkillTransform({
+      sectionName: "Role-Based Access & Information Gating Standards",
+      ruSectionName: "Стандарты и регламенты: Role-Based Access & Information Gating",
+      instructions: [
+        "Apply core domain tenets for Role-Based Access & Information Gating.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Role-Based Access & Information Gating.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","role","based"],
+    }),
+  },
+
+  "core-action-oriented-verbs-directives": {
+    id: "core-action-oriented-verbs-directives",
+    name: "ActionOrientedVerbsDirectivesSkill",
+    displayName: "Action-Oriented Verbs & Directives",
+    categoryId: "core",
+    description: "Replaces passive commentary with active, imperative step-by-step guidance.",
+    tags: ["core","core","action","oriented"],
+    transform: createStandardSkillTransform({
+      sectionName: "Action-Oriented Verbs & Directives Standards",
+      ruSectionName: "Стандарты и регламенты: Action-Oriented Verbs & Directives",
+      instructions: [
+        "Apply core domain tenets for Action-Oriented Verbs & Directives.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Action-Oriented Verbs & Directives.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","action","oriented"],
+    }),
+  },
+
+  "core-data-anonymization-pii-redaction": {
+    id: "core-data-anonymization-pii-redaction",
+    name: "DataAnonymizationPIIRedactionSkill",
+    displayName: "Data Anonymization & PII Redaction",
+    categoryId: "core",
+    description: "Replaces sensitive names, emails, and numbers with generic placeholders.",
+    tags: ["core","core","data","anonymization"],
+    transform: createStandardSkillTransform({
+      sectionName: "Data Anonymization & PII Redaction Standards",
+      ruSectionName: "Стандарты и регламенты: Data Anonymization & PII Redaction",
+      instructions: [
+        "Apply core domain tenets for Data Anonymization & PII Redaction.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Data Anonymization & PII Redaction.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","data","anonymization"],
+    }),
+  },
+
+  "core-comparative-benchmark-evaluation": {
+    id: "core-comparative-benchmark-evaluation",
+    name: "ComparativeBenchmarkEvaluationSkill",
+    displayName: "Comparative Benchmark Evaluation",
+    categoryId: "core",
+    description: "Evaluates proposed solutions against industry gold-standard benchmarks.",
+    tags: ["core","core","comparative","benchmark"],
+    transform: createStandardSkillTransform({
+      sectionName: "Comparative Benchmark Evaluation Standards",
+      ruSectionName: "Стандарты и регламенты: Comparative Benchmark Evaluation",
+      instructions: [
+        "Apply core domain tenets for Comparative Benchmark Evaluation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Comparative Benchmark Evaluation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","comparative","benchmark"],
+    }),
+  },
+
+  "core-dynamic-depth-scaling-brief-vs-exhaustive": {
+    id: "core-dynamic-depth-scaling-brief-vs-exhaustive",
+    name: "DynamicDepthScalingBriefvsExhaustiveSkill",
+    displayName: "Dynamic Depth Scaling (Brief vs Exhaustive)",
+    categoryId: "core",
+    description: "Adjusts detail level based on user-requested verbosity flags.",
+    tags: ["core","core","dynamic","depth"],
+    transform: createStandardSkillTransform({
+      sectionName: "Dynamic Depth Scaling (Brief vs Exhaustive) Standards",
+      ruSectionName: "Стандарты и регламенты: Dynamic Depth Scaling (Brief vs Exhaustive)",
+      instructions: [
+        "Apply core domain tenets for Dynamic Depth Scaling (Brief vs Exhaustive).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Dynamic Depth Scaling (Brief vs Exhaustive).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","dynamic","depth"],
+    }),
+  },
+
+  "core-modular-section-re-assembly": {
+    id: "core-modular-section-re-assembly",
+    name: "ModularSectionReAssemblySkill",
+    displayName: "Modular Section Re-Assembly",
+    categoryId: "core",
+    description: "Organizes output into independent, reusable modules for easy copy-pasting.",
+    tags: ["core","core","modular","section"],
+    transform: createStandardSkillTransform({
+      sectionName: "Modular Section Re-Assembly Standards",
+      ruSectionName: "Стандарты и регламенты: Modular Section Re-Assembly",
+      instructions: [
+        "Apply core domain tenets for Modular Section Re-Assembly.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Modular Section Re-Assembly.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","modular","section"],
+    }),
+  },
+
+  "core-task-pre-flight-sanity-check": {
+    id: "core-task-pre-flight-sanity-check",
+    name: "TaskPreFlightSanityCheckSkill",
+    displayName: "Task Pre-Flight Sanity Check",
+    categoryId: "core",
+    description: "Scans input data for glaring errors or contradictions before starting execution.",
+    tags: ["core","core","task","pre"],
+    transform: createStandardSkillTransform({
+      sectionName: "Task Pre-Flight Sanity Check Standards",
+      ruSectionName: "Стандарты и регламенты: Task Pre-Flight Sanity Check",
+      instructions: [
+        "Apply core domain tenets for Task Pre-Flight Sanity Check.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Task Pre-Flight Sanity Check.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","task","pre"],
+    }),
+  },
+
+  "core-root-cause-problem-reframing": {
+    id: "core-root-cause-problem-reframing",
+    name: "RootCauseProblemReframingSkill",
+    displayName: "Root Cause Problem Reframing",
+    categoryId: "core",
+    description: "Reframes surface-level user requests to address underlying systemic issues.",
+    tags: ["core","core","root","cause"],
+    transform: createStandardSkillTransform({
+      sectionName: "Root Cause Problem Reframing Standards",
+      ruSectionName: "Стандарты и регламенты: Root Cause Problem Reframing",
+      instructions: [
+        "Apply core domain tenets for Root Cause Problem Reframing.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Root Cause Problem Reframing.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","root","cause"],
+    }),
+  },
+
+  "core-time-horizon-categorization-immediate-vs-long-term": {
+    id: "core-time-horizon-categorization-immediate-vs-long-term",
+    name: "TimeHorizonCategorizationImmediatevsLongTermSkill",
+    displayName: "Time Horizon Categorization (Immediate vs Long-Term)",
+    categoryId: "core",
+    description: "Categorizes action items by implementation timeframe and urgency.",
+    tags: ["core","core","time","horizon"],
+    transform: createStandardSkillTransform({
+      sectionName: "Time Horizon Categorization (Immediate vs Long-Term) Standards",
+      ruSectionName: "Стандарты и регламенты: Time Horizon Categorization (Immediate vs Long-Term)",
+      instructions: [
+        "Apply core domain tenets for Time Horizon Categorization (Immediate vs Long-Term).",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Time Horizon Categorization (Immediate vs Long-Term).",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","time","horizon"],
+    }),
+  },
+
+  "core-cross-functional-domain-bridging": {
+    id: "core-cross-functional-domain-bridging",
+    name: "CrossFunctionalDomainBridgingSkill",
+    displayName: "Cross-Functional Domain Bridging",
+    categoryId: "core",
+    description: "Translates technical engineering requirements into business value terms.",
+    tags: ["core","core","cross","functional"],
+    transform: createStandardSkillTransform({
+      sectionName: "Cross-Functional Domain Bridging Standards",
+      ruSectionName: "Стандарты и регламенты: Cross-Functional Domain Bridging",
+      instructions: [
+        "Apply core domain tenets for Cross-Functional Domain Bridging.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Cross-Functional Domain Bridging.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","cross","functional"],
+    }),
+  },
+
+  "core-hypothetical-scenario-simulation": {
+    id: "core-hypothetical-scenario-simulation",
+    name: "HypotheticalScenarioSimulationSkill",
+    displayName: "Hypothetical Scenario Simulation",
+    categoryId: "core",
+    description: "Explores 'What-If' scenarios to stress-test proposed strategic decisions.",
+    tags: ["core","core","hypothetical","scenario"],
+    transform: createStandardSkillTransform({
+      sectionName: "Hypothetical Scenario Simulation Standards",
+      ruSectionName: "Стандарты и регламенты: Hypothetical Scenario Simulation",
+      instructions: [
+        "Apply core domain tenets for Hypothetical Scenario Simulation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Hypothetical Scenario Simulation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","hypothetical","scenario"],
+    }),
+  },
+
+  "core-standard-operating-procedure-sop-drafting": {
+    id: "core-standard-operating-procedure-sop-drafting",
+    name: "StandardOperatingProcedureSOPDraftingSkill",
+    displayName: "Standard Operating Procedure (SOP) Drafting",
+    categoryId: "core",
+    description: "Converts informal workflows into formalized, repeatable SOP documents.",
+    tags: ["core","core","standard","operating"],
+    transform: createStandardSkillTransform({
+      sectionName: "Standard Operating Procedure (SOP) Drafting Standards",
+      ruSectionName: "Стандарты и регламенты: Standard Operating Procedure (SOP) Drafting",
+      instructions: [
+        "Apply core domain tenets for Standard Operating Procedure (SOP) Drafting.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Standard Operating Procedure (SOP) Drafting.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","standard","operating"],
+    }),
+  },
+
+  "core-visual-flowchart-text-representation": {
+    id: "core-visual-flowchart-text-representation",
+    name: "VisualFlowchartTextRepresentationSkill",
+    displayName: "Visual Flowchart Text Representation",
+    categoryId: "core",
+    description: "Renders complex logic flows in ASCII or Mermaid diagram syntax.",
+    tags: ["core","core","visual","flowchart"],
+    transform: createStandardSkillTransform({
+      sectionName: "Visual Flowchart Text Representation Standards",
+      ruSectionName: "Стандарты и регламенты: Visual Flowchart Text Representation",
+      instructions: [
+        "Apply core domain tenets for Visual Flowchart Text Representation.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Visual Flowchart Text Representation.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","visual","flowchart"],
+    }),
+  },
+
+  "core-executive-elevator-pitch-synthesis": {
+    id: "core-executive-elevator-pitch-synthesis",
+    name: "ExecutiveElevatorPitchSynthesisSkill",
+    displayName: "Executive Elevator Pitch Synthesis",
+    categoryId: "core",
+    description: "Distills complex proposals into a 30-second compelling verbal pitch.",
+    tags: ["core","core","executive","elevator"],
+    transform: createStandardSkillTransform({
+      sectionName: "Executive Elevator Pitch Synthesis Standards",
+      ruSectionName: "Стандарты и регламенты: Executive Elevator Pitch Synthesis",
+      instructions: [
+        "Apply core domain tenets for Executive Elevator Pitch Synthesis.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Executive Elevator Pitch Synthesis.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","executive","elevator"],
+    }),
+  },
+
+  "core-risk-assessment-mitigation-matrix": {
+    id: "core-risk-assessment-mitigation-matrix",
+    name: "RiskAssessmentMitigationMatrixSkill",
+    displayName: "Risk Assessment & Mitigation Matrix",
+    categoryId: "core",
+    description: "Identifies potential failure modes and pairs each with an action plan.",
+    tags: ["core","core","risk","assessment"],
+    transform: createStandardSkillTransform({
+      sectionName: "Risk Assessment & Mitigation Matrix Standards",
+      ruSectionName: "Стандарты и регламенты: Risk Assessment & Mitigation Matrix",
+      instructions: [
+        "Apply core domain tenets for Risk Assessment & Mitigation Matrix.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Risk Assessment & Mitigation Matrix.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","risk","assessment"],
+    }),
+  },
+
+  "core-continuous-alignment-checkpoint": {
+    id: "core-continuous-alignment-checkpoint",
+    name: "ContinuousAlignmentCheckpointSkill",
+    displayName: "Continuous Alignment Checkpoint",
+    categoryId: "core",
+    description: "Inserts periodic confirmation prompts during long multi-step generations.",
+    tags: ["core","core","continuous","alignment"],
+    transform: createStandardSkillTransform({
+      sectionName: "Continuous Alignment Checkpoint Standards",
+      ruSectionName: "Стандарты и регламенты: Continuous Alignment Checkpoint",
+      instructions: [
+        "Apply core domain tenets for Continuous Alignment Checkpoint.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Continuous Alignment Checkpoint.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","continuous","alignment"],
+    }),
+  },
+
+  "core-final-deliverable-polish-quality-pass": {
+    id: "core-final-deliverable-polish-quality-pass",
+    name: "FinalDeliverablePolishQualityPassSkill",
+    displayName: "Final Deliverable Polish & Quality Pass",
+    categoryId: "core",
+    description: "Performs final proofreading, formatting verification, and link checks.",
+    tags: ["core","core","final","deliverable"],
+    transform: createStandardSkillTransform({
+      sectionName: "Final Deliverable Polish & Quality Pass Standards",
+      ruSectionName: "Стандарты и регламенты: Final Deliverable Polish & Quality Pass",
+      instructions: [
+        "Apply core domain tenets for Final Deliverable Polish & Quality Pass.",
+        "Enforce strict validation, error-handling, and clear structural bounds.",
+        "Verify output consistency against benchmark standards."
+],
+      ruInstructions: [
+        "Применяйте ключевые принципы и стандарты для Final Deliverable Polish & Quality Pass.",
+        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
+        "Проверяйте результаты на соответствие эталонным критериям."
+],
+      semanticType: "process_directive",
+      tags: ["core","core","final","deliverable"],
+    }),
+  },
 };
