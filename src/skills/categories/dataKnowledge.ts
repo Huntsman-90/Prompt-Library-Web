@@ -5,6 +5,7 @@ import {
   parsePromptSections,
   reconstructPrompt,
   deduplicatePromptSections,
+  createStandardSkillTransform,
 } from '../skillHelpers';
 
 export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
@@ -440,5 +441,389 @@ export const DATA_KNOWLEDGE_SKILLS: Record<string, SkillDefinition> = {
       );
       return reconstructPrompt(preamble, deduplicatePromptSections(sections, isRu));
     },
+  },
+
+'change-data-capture-debezium': {
+    id: 'change-data-capture-debezium',
+    name: 'ChangeDataCaptureDebeziumSkill',
+    displayName: 'Change Data Capture (CDC) & Debezium Streaming',
+    categoryId: 'data_knowledge',
+    description: 'Captures database row-level mutations via transaction log tailing (WAL) and streams them to Kafka topics without polling.',
+    tags: ['data_knowledge', 'cdc', 'debezium', 'kafka', 'streaming', 'database'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Захват Изменений Данных (Change Data Capture / Debezium)',
+      'Change Data Capture (CDC) & Debezium Streaming Architecture',
+      [
+        '- **Чтение журнала транзакций (WAL / Binlog)**: Извлекать события вставок, обновлений и удалений без создания нагрузки на БД запросами SELECT.',
+        '- **Контракт события Debezium**: Форматировать сообщения с блоками `before`, `after`, `source` (ts_ms, lsn) и операцией `op` (c, u, d).',
+        '- **Гарантия порядка**: Секционировать топики Kafka по первичному ключу таблицы для строгой очередности событий одной записи.',
+      ],
+      [
+        '- **Transaction Log Tailing (WAL/Binlog)**: Stream row-level mutations directly from database write-ahead logs with zero query overhead.',
+        '- **Debezium Event Envelope**: Format payloads featuring explicit `before`, `after`, `source` metadata (ts_ms, lsn), and `op` enum.',
+        '- **Keyed Partition Ordering**: Partition destination Kafka topics strictly by table primary key to guarantee in-order message delivery.',
+      ]
+    ),
+  },
+
+  'slowly-changing-dimensions-scd2': {
+    id: 'slowly-changing-dimensions-scd2',
+    name: 'SlowlyChangingDimensionsScd2Skill',
+    displayName: 'Slowly Changing Dimensions (SCD Type 2) Modeling',
+    categoryId: 'data_knowledge',
+    description: 'Models historical dimension changes using SCD Type 2 with `valid_from`, `valid_to`, `is_current`, and surrogate keys.',
+    tags: ['data_knowledge', 'data-warehouse', 'scd2', 'dimensional-modeling', 'sql', 'analytics'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Моделирование Исторических Данных (SCD Type 2 Dimension)',
+      'Slowly Changing Dimensions (SCD Type 2) Architecture',
+      [
+        '- **Суррогатный первичный ключ**: Использовать синтетический ключ `dim_key` вместо естественного бизнес-ключа для уникальности каждой версии.',
+        '- **Временные метки версий**: Добавить колонки `valid_from` (TIMESTAMP), `valid_to` (TIMESTAMP, default \'9999-12-31\') и `is_current` (BOOLEAN).',
+        '- **Атомарное закрытие старой версии**: При изменении атрибута закрывать текущую строку (`is_current = false, valid_to = now()`) и вставлять новую.',
+      ],
+      [
+        '- **Synthetic Surrogate Key**: Decouple natural business keys from unique historical rows using dedicated surrogate dimension keys.',
+        '- **Temporal Tracking Columns**: Maintain `valid_from` (timestamp), `valid_to` (timestamp with infinity fallback), and boolean `is_current`.',
+        '- **Atomic Version Rollover**: On attribute mutation, expire active row (`is_current = false, valid_to = now()`) and insert new version atomically.',
+      ]
+    ),
+  },
+
+  'apache-iceberg-table-format': {
+    id: 'apache-iceberg-table-format',
+    name: 'ApacheIcebergTableFormatSkill',
+    displayName: 'Apache Iceberg Open Lakehouse Table Format',
+    categoryId: 'data_knowledge',
+    description: 'Designs modern Lakehouse storage on Apache Iceberg with hidden partitioning, schema evolution, and time-travel snapshot queries.',
+    tags: ['data_knowledge', 'iceberg', 'lakehouse', 'parquet', 'data-engineering', 'storage'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Формат Таблиц Apache Iceberg (Modern Lakehouse Storage)',
+      'Apache Iceberg Open Lakehouse Table Architecture',
+      [
+        '- **Скрытое секционирование (Hidden Partitioning)**: Партиционировать по датам или бакетам без необходимости пользователям указывать партиции в WHERE.',
+        '- **Эволюция схем без переписывания**: Добавление, переименование и удаление колонок без изменения физических файлов Parquet.',
+        '- **Time Travel и Snapshots**: Поддержка запросов к историческим слепкам данных: `SELECT * FROM table FOR SYSTEM_TIME AS OF \'2026-09-01\'`.',
+      ],
+      [
+        '- **Hidden Partitioning Discipline**: Partition by identity, hour, or bucket transforms eliminating explicit partition column predicate requirements.',
+        '- **In-Place Schema Evolution**: Add, rename, drop, or reorder table columns without physically rewriting immutable underlying Parquet files.',
+        '- **Snapshot Time Travel**: Enable historical point-in-time auditing queries via `FOR SYSTEM_TIME AS OF` or snapshot ID specifications.',
+      ]
+    ),
+  },
+
+  'dbt-semantic-layer-metrics': {
+    id: 'dbt-semantic-layer-metrics',
+    name: 'DbtSemanticLayerMetricsSkill',
+    displayName: 'dbt Semantic Layer & MetricFlow Definitions',
+    categoryId: 'data_knowledge',
+    description: 'Defines standardized enterprise metrics in dbt with measures, dimensions, granular time-grains, and cumulative windows.',
+    tags: ['data_knowledge', 'dbt', 'semantic-layer', 'metricflow', 'bi', 'metrics'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Спецификация dbt Semantic Layer (MetricFlow YAML)',
+      'dbt Semantic Layer & MetricFlow Definition Architecture',
+      [
+        '- **Семантическая модель**: Описать сущности `entities`, физические измерения `dimensions` и агрегируемые меры `measures` в YAML.',
+        '- **Определение метрик**: Создать метрики `metrics` (simple, derived, cumulative) с привязкой к мерам и временным окнам.',
+        '- **Единый источник правды**: Гарантировать, что метрика «Revenue» или «Active Users» вычисляется одинаково во всех BI-системах.',
+      ],
+      [
+        '- **Semantic Model YAML**: Declare semantic entities, categorical dimensions, and additive aggregations (measures) in dbt YAML contracts.',
+        '- **Standardized Metric Types**: Define simple, ratio, derived, and cumulative rolling metrics with explicit grain definitions.',
+        '- **Single Truth Source**: Eliminate conflicting metric calculations across Tableau, Looker, and downstream operational pipelines.',
+      ]
+    ),
+  },
+
+  'graph-database-cypher-query': {
+    id: 'graph-database-cypher-query',
+    name: 'GraphDatabaseCypherQuerySkill',
+    displayName: 'Property Graph Modeling & Neo4j Cypher Queries',
+    categoryId: 'data_knowledge',
+    description: 'Models highly connected networks as Property Graphs with labeled nodes, directed relationships, properties, and Cypher queries.',
+    tags: ['data_knowledge', 'graph', 'neo4j', 'cypher', 'knowledge-graph', 'network-analysis'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Моделирование Графов Знаний и Запросы Cypher (Neo4j)',
+      'Property Graph Modeling & Neo4j Cypher Query Architecture',
+      [
+        '- **Узлы и ребра**: Описать сущности как узлы с метками `:User`, `:Company` и направленные связи `[:WORKS_AT { since: 2024 }]`.',
+        '- **Шаблоны Cypher**: Использовать декларативный синтаксис `MATCH (u:User)-[:OWNS]->(a:Account) WHERE a.balance > 1000 RETURN u`.',
+        '- **Оптимизация обхода графа**: Создавать индексы по свойствам узлов и ограничивать глубину обхода `*1..3` во избежание комбинаторного взрыва.',
+      ],
+      [
+        '- **Property Graph Schema**: Model real-world networks into typed nodes (`:Entity`) and directed relationships (`-[:RELATION]->`) with properties.',
+        '- **Declarative Cypher Matching**: Structure queries using graph pattern matching (`MATCH (a)-[:LINK]->(b) WHERE b.active RETURN a`).',
+        '- **Traversal Path Bounding**: Anchor node lookup indices and constrain traversal depths (`*1..3`) to avoid exponential graph explosions.',
+      ]
+    ),
+  },
+
+  'columnar-storage-parquet-tuning': {
+    id: 'columnar-storage-parquet-tuning',
+    name: 'ColumnarStorageParquetTuningSkill',
+    displayName: 'Apache Parquet Columnar Storage Tuning',
+    categoryId: 'data_knowledge',
+    description: 'Optimizes Parquet layouts: row group sizes (128-512MB), dictionary encoding, ZSTD/Snappy compression, and column pruning.',
+    tags: ['data_knowledge', 'parquet', 'columnar', 'performance', 'data-lake', 'compression'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Оптимизация Колоночного Хранения Apache Parquet',
+      'Apache Parquet Columnar Storage & Compression Optimization Protocol',
+      [
+        '- **Размер Row Group**: Настроить размер группы строк в диапазоне 128–512 МБ для баланса параллельного чтения и памяти.',
+        '- **Кодирование и компрессия**: Использовать Dictionary Encoding для низкокардинальных полей и алгоритм сжатия ZSTD (или Snappy).',
+        '- **Статистика для пропуска данных (Data Skipping)**: Сохранять min/max статистики в заголовках страниц для пропуска блоков при чтении.',
+      ],
+      [
+        '- **Row Group Sizing**: Calibrate row group thresholds between 128MB and 512MB balancing multi-threaded I/O parallelism and memory caps.',
+        '- **Encoding & Compression Tuning**: Enforce Dictionary Encoding on low-cardinality string columns; apply ZSTD compression for cold data.',
+        '- **Page-Level Statistics**: Ensure min/max metadata statistics are written to headers enabling query engines to skip unread row groups.',
+      ]
+    ),
+  },
+
+  'bayesian-ab-testing-framework': {
+    id: 'bayesian-ab-testing-framework',
+    name: 'BayesianAbTestingFrameworkSkill',
+    displayName: 'Bayesian A/B Testing & Posterior Loss Modeling',
+    categoryId: 'data_knowledge',
+    description: 'Replaces p-values with Bayesian A/B inference: Beta-Binomial conjugate priors, Posterior probability to beat control, and Expected Loss.',
+    tags: ['data_knowledge', 'bayesian', 'ab-testing', 'statistics', 'experimentation', 'inference'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Байесовское A/B Тестирование и Оценка Ожидаемых Потерь',
+      'Bayesian A/B Testing & Posterior Expected Loss Protocol',
+      [
+        '- **Априорное распределение (Priors)**: Задать информативное или слабоинформативное априорное распределение Beta(alpha, beta).',
+        '- **Вероятность превосходства (P(B > A))**: Вычислить вероятность того, что вариант B превосходит вариант A по метрике конверсии.',
+        '- **Ожидаемые потери (Expected Loss)**: Рассчитать ожидаемую величину ошибки в случае ложного выбора B; останавливать тест при Loss < 0.001.',
+      ],
+      [
+        '- **Conjugate Prior Calibration**: Establish defensible historical Beta(alpha, beta) priors bounding conversion distributions.',
+        '- **Posterior Superiority Estimation**: Compute Monte Carlo probability P(Variant B > Variant A) yielding intuitive decision percentages.',
+        '- **Expected Loss Decision Rule**: Calculate Expected Loss (risk of picking worse variant); trigger rollouts strictly when loss drops below epsilon.',
+      ]
+    ),
+  },
+
+  'reverse-etl-sync-engine': {
+    id: 'reverse-etl-sync-engine',
+    name: 'ReverseEtlSyncEngineSkill',
+    displayName: 'Reverse ETL & Operational Analytics Sync',
+    categoryId: 'data_knowledge',
+    description: 'Pipes dimensional data warehouse tables back into operational SaaS tools (Salesforce, HubSpot, Stripe) with delta syncing.',
+    tags: ['data_knowledge', 'reverse-etl', 'operational-analytics', 'sync', 'salesforce', 'integrations'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Архитектура Reverse ETL (Синхронизация с Бизнес-Приложениями)',
+      'Reverse ETL & Operational Analytics Synchronization Protocol',
+      [
+        '- **Дельта-синхронизация**: Передавать только измененные строки с момента последнего синка, вычисляя хеш строки (`md5(concat(fields))` или `updated_at`).',
+        '- **Сопоставление идентификаторов (Identity Resolution)**: Использовать корпоративный email или account_id в качестве первичного ключа сопоставления.',
+        '- **Соблюдение лимитов API**: Пакетировать запросы (до 200 записей за вызов) и соблюдать суточные квоты вызовов CRM API.',
+      ],
+      [
+        '- **Stateful Delta Differencing**: Isolate modified entities using row hashing (`hash(all_columns)`) or monotonic timestamps to sync diffs only.',
+        '- **Determinative Identity Mapping**: Align warehouse customer IDs with SaaS destination primary keys (e.g. corporate email, Stripe Customer ID).',
+        '- **API Throttling & Batching**: Batch outbound payloads (up to 200 records per call) and throttle dispatches to stay within CRM API quotas.',
+      ]
+    ),
+  },
+
+  'data-lineage-openlineage-spec': {
+    id: 'data-lineage-openlineage-spec',
+    name: 'DataLineageOpenlineageSkill',
+    displayName: 'OpenLineage Metadata & Provenance Standard',
+    categoryId: 'data_knowledge',
+    description: 'Instruments end-to-end data pipelines with OpenLineage standard events tracing dataset inputs, transformations, and output dependencies.',
+    tags: ['data_knowledge', 'openlineage', 'data-lineage', 'metadata', 'governance', 'provenance'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Спецификация Происхождения Данных (OpenLineage Standard)',
+      'OpenLineage Metadata & Data Lineage Specification',
+      [
+        '- **Формат событий OpenLineage**: Излучать события жизненного цикла (`START`, `RUNNING`, `COMPLETE`, `FAIL`) с точным таймстемпом.',
+        '- **Входы и выходы (Datasets)**: Для каждого набора данных указать `namespace` (напр. s3://bucket или postgres://host) и имя таблицы `name`.',
+        '- **Фасеты (Facets)**: Включать фасет схемы `schemaFacets` и фасет SQL-запроса `sqlFacets` для построения графа зависимостей.',
+      ],
+      [
+        '- **OpenLineage Event Lifecycle**: Emit structured telemetry payloads across `START`, `RUNNING`, `COMPLETE`, and `ABORT` job execution states.',
+        '- **Dataset URI Attribution**: Pinpoint input and output datasets with canonical `namespace` (e.g. `s3://prod-lake/`) and table `name`.',
+        '- **Lineage Facets Enrichment**: Accompany job runs with `schemaFacets` and compiled `sqlFacets` mapping dataset-to-dataset column lineage.',
+      ]
+    ),
+  },
+
+  'sparse-dense-hybrid-search': {
+    id: 'sparse-dense-hybrid-search',
+    name: 'SparseDenseHybridSearchSkill',
+    displayName: 'Hybrid Search & Reciprocal Rank Fusion (RRF)',
+    categoryId: 'data_knowledge',
+    description: 'Combines BM25 lexical keyword matching with dense vector semantic search, merging rank scores via Reciprocal Rank Fusion.',
+    tags: ['data_knowledge', 'search', 'hybrid-search', 'rrf', 'bm25', 'vector-search', 'rag'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Гибридный Поиск (BM25 + Dense Vectors) и Слияние RRF',
+      'Hybrid Lexical/Dense Search & Reciprocal Rank Fusion (RRF) Protocol',
+      [
+        '- **Двухпоточный поиск**: Параллельно выполнить BM25 поиск по ключевым словам и поиск ближайших соседей (kNN) по плотным векторам.',
+        '- **Слияние Reciprocal Rank Fusion (RRF)**: Формула: score = 1 / (60 + rank_bm25) + 1 / (60 + rank_vector).',
+        '- **Устранение слепых зон**: Обеспечить нахождение как точных артикулов и аббревиатур (BM25), так и концептуальных синонимов (векторы).',
+      ],
+      [
+        '- **Dual-Engine Execution**: Dispatch parallel queries to BM25 lexical inverted index and dense embedding vector space simultaneously.',
+        '- **Reciprocal Rank Fusion (RRF)**: Blend disparate candidate rank positions using canonical formula: `score = sum(1 / (k + rank_i))` where k=60.',
+        '- **Complementary Advantage**: Capture exact keyword terminology (IDs, codes, proper nouns) alongside fuzzy conceptual semantic intent.',
+      ]
+    ),
+  },
+
+  'geospatial-postgis-h3-indexing': {
+    id: 'geospatial-postgis-h3-indexing',
+    name: 'GeospatialPostgisH3IndexingSkill',
+    displayName: 'PostGIS & Uber H3 Hexagonal Spatial Indexing',
+    categoryId: 'data_knowledge',
+    description: 'Indexes geospatial points using Uber H3 hexagonal hierarchical spatial cells and PostGIS GiST geometric operators.',
+    tags: ['data_knowledge', 'geospatial', 'postgis', 'h3', 'gis', 'spatial-index'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Пространственная Индексация (PostGIS и Шестиугольники Uber H3)',
+      'PostGIS & Uber H3 Hexagonal Spatial Indexing Architecture',
+      [
+        '- **Шестиугольная сетка Uber H3**: Преобразовывать широту/долготу в дискретный 64-битный индекс ячейки H3 (разрешение 7–9).',
+        '- **Радиальный поиск (k-Ring)**: Выполнять агрегацию и поиск ближайших объектов через соседние ячейки `h3_k_ring(cell, 2)`.',
+        '- **Индексы PostGIS GiST**: Создавать пространственные индексы `USING GIST(geom)` для полигональных пересечений `ST_Intersects`.',
+      ],
+      [
+        '- **Uber H3 Discrete Binning**: Convert continuous latitude/longitude pairs into 64-bit integer H3 hexagonal grid cells (resolution 7-9).',
+        '- **Constant-Time Neighborhood (k-Ring)**: Execute spatial proximity clustering and radius lookups via discrete `h3_k_ring(cell, k)` sets.',
+        '- **PostGIS GiST Indices**: Accelerate arbitrary polygon boundary intersections and geofencing checks using spatial `USING GIST(geometry)` trees.',
+      ]
+    ),
+  },
+
+  'anomaly-detection-isolation-forest': {
+    id: 'anomaly-detection-isolation-forest',
+    name: 'AnomalyDetectionIsolationForestSkill',
+    displayName: 'Isolation Forest & Time-Series Anomaly Detection',
+    categoryId: 'data_knowledge',
+    description: 'Identifies multi-dimensional outliers using Isolation Forests and seasonal ESD (Extreme Studentized Deviate) decomposition.',
+    tags: ['data_knowledge', 'anomaly-detection', 'isolation-forest', 'time-series', 'statistics', 'ml'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Детекция Аномалий в Данных (Isolation Forest Protocol)',
+      'Isolation Forest & Time-Series Anomaly Detection Protocol',
+      [
+        '- **Принцип изолирующего леса (Isolation Forest)**: Аномальные точки изолируются меньшим числом случайных разбиений дерева, чем нормальные.',
+        '- **Учет сезонности и тренда**: Перед детекцией устранить дневную и недельную сезонность с помощью STL-декомпозиции.',
+        '- **Калибровка порога контаминации**: Настроить процент ожидаемых выбросов `contamination = 0.01` (1% данных) с генерацией алерта.',
+      ],
+      [
+        '- **Tree Partitioning Anomaly Score**: Isolate outliers based on short average path length in randomized decision isolation trees.',
+        '- **Seasonal Decomposition Gate**: Pre-process time-series data using STL decomposition to subtract weekly/daily seasonality from residual noise.',
+        '- **Contamination Tuning**: Calibrate contamination budget (default 1%) paired with severity classification tiers (Critical, Warning, Informational).',
+      ]
+    ),
+  },
+
+  'data-privacy-pii-tokenization': {
+    id: 'data-privacy-pii-tokenization',
+    name: 'DataPrivacyPiiTokenizationSkill',
+    displayName: 'PII Pseudonymization & Vaultless Tokenization',
+    categoryId: 'data_knowledge',
+    description: 'Protects personal data (GDPR/HIPAA) using format-preserving encryption (FPE), HMAC tokenization, and differential privacy noise.',
+    tags: ['data_knowledge', 'pii', 'privacy', 'tokenization', 'gdpr', 'security', 'fpe'],
+    transform: createStandardSkillTransform(
+      'constraints',
+      'Токенизация и Защита Персональных Данных (PII Protection)',
+      'PII Pseudonymization & Vaultless Tokenization Protocol',
+      [
+        '- **Формат-сохраняющее шифрование (FPE)**: Шифровать номера кредитных карт и телефонов с сохранением их длины и валидности синтаксиса.',
+        '- **HMAC токенизация идентификаторов**: Заменять персональные email на `HMAC-SHA256(email, secret_salt)` для сквозной аналитики без утечки данных.',
+        '- **Запрет сырых PII в Data Lake**: Автоматически маскировать или удалять любые PII до их записи в аналитическое хранилище.',
+      ],
+      [
+        '- **Format-Preserving Encryption (FPE)**: Encrypt structured PII (credit cards, SSNs) ensuring ciphertext retains identical length and digit syntax.',
+        '- **Keyed HMAC Pseudonymization**: Substitute user emails with `HMAC-SHA256(email, rotation_salt)` enabling cohort analytics without storing raw identity.',
+        '- **Ingestion Redaction Gate**: Intercept and scrub unhashed PII at ingest gateways before persistence into analytics lakehouse storage.',
+      ]
+    ),
+  },
+
+  'clickhouse-olap-aggregating-mergetree': {
+    id: 'clickhouse-olap-aggregating-mergetree',
+    name: 'ClickhouseAggregatingMergeTreeSkill',
+    displayName: 'ClickHouse AggregatingMergeTree OLAP Optimization',
+    categoryId: 'data_knowledge',
+    description: 'Designs sub-second real-time aggregation queries on ClickHouse using AggregatingMergeTree tables and Materialized Views.',
+    tags: ['data_knowledge', 'clickhouse', 'olap', 'aggregating-mergetree', 'real-time', 'big-data'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Оптимизация ClickHouse OLAP (AggregatingMergeTree Engine)',
+      'ClickHouse AggregatingMergeTree & Materialized View Architecture',
+      [
+        '- **Движок AggregatingMergeTree**: Использовать для предвычисления промежуточных состояний агрегатов (HLL, Quantiles, Sum).',
+        '- **Комбинаторы State и Merge**: Записывать промежуточные состояния функций через `-State` (`uniqState(user_id)`), а читать через `-Merge`.',
+        '- **Материализованные представления (MV)**: Создавать Materialized View для непрерывного фонового обновления агрегированных таблиц при вставке.',
+      ],
+      [
+        '- **AggregatingMergeTree Engine**: Pre-aggregate metrics in background merges using binary state representations (HyperLogLog, Quantiles, Sum).',
+        '- **State/Merge Function Combinators**: Persist aggregation state using `-State` combinators (`uniqState(user_id)`); query results using `-Merge`.',
+        '- **Materialized View Push Stream**: Wire trigger Materialized Views on base tables to continuously compute real-time aggregate rollups upon insert.',
+      ]
+    ),
+  },
+
+  'semantic-search-reranking-cohere': {
+    id: 'semantic-search-reranking-cohere',
+    name: 'SemanticSearchRerankingCohereSkill',
+    displayName: 'Two-Stage Retrieval & Cross-Encoder Reranking',
+    categoryId: 'data_knowledge',
+    description: 'Implements two-stage search: High-recall retrieval (top-100 via vector/BM25) followed by high-precision Cross-Encoder reranking (top-5).',
+    tags: ['data_knowledge', 'reranking', 'cohere', 'cross-encoder', 'retrieval', 'rag', 'search'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Двухэтапный Поиск и Cross-Encoder Реренкинг (Two-Stage Retrieval)',
+      'Two-Stage Retrieval & Cross-Encoder Reranking Protocol',
+      [
+        '- **Этап 1 (High Recall)**: Извлечь топ-50 кандидатов с помощью быстрого био-кодировщика (векторный поиск) или BM25.',
+        '- **Этап 2 (High Precision)**: Пропустить 50 пар (Запрос, Документ) через глубокий Cross-Encoder (Cohere Rerank / BGE-Reranker).',
+        '- **Финальная фильтрация**: Отобрать топ-5 документов с наибольшей семантической релевантностью для передачи в контекст LLM.',
+      ],
+      [
+        '- **Stage 1 Fast Candidate Retrieval**: Fetch top-50 candidate documents with broad recall using lightweight bi-encoder vector lookups or BM25.',
+        '- **Stage 2 Deep Cross-Encoder Scoring**: Score all 50 `(query, document)` pairs simultaneously through a cross-attention reranking model.',
+        '- **Score Threshold Pruning**: Select top-5 highest-scoring passages, discarding entries failing relevance confidence ceilings.',
+      ]
+    ),
+  },
+
+  'data-mesh-domain-ownership-manifest': {
+    id: 'data-mesh-domain-ownership-manifest',
+    name: 'DataMeshDomainOwnershipSkill',
+    displayName: 'Data Mesh Product Specification & Ownership',
+    categoryId: 'data_knowledge',
+    description: 'Formalizes Data Mesh decentralized domain products: output ports, SLA freshness guarantees, access control, and ownership metadata.',
+    tags: ['data_knowledge', 'data-mesh', 'data-product', 'domain-ownership', 'governance', 'architecture'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Манифест Продукта Данных (Data Mesh Product Manifest)',
+      'Data Mesh Domain Product & Output Port Specification',
+      [
+        '- **Владелец и домен**: Четко указать ответственную продуктовую команду (`domain: billing`, `owner_team: payments-eng`).',
+        '- **Спецификация Output Ports**: Предоставить типизированные интерфейсы для потребителей (SQL-вью, Kafka топик, S3 бакет).',
+        '- **Гарантии качества данных (SLO)**: Время обновления (freshness), допустимый процент пропусков и окно сохранения истории.',
+      ],
+      [
+        '- **Domain Ownership Attribution**: Explicitly assign domain stewardship metadata (`domain: orders`, `owner_email: billing-eng@org.com`).',
+        '- **Typed Output Port Endpoints**: Publish machine-readable consumer ports: SQL Analytical View, Kafka Event Topic, and S3 Parquet partitions.',
+        '- **SLO Quality Contracts**: Declare strict SLAs covering maximum freshness lag (e.g. <15 mins), completeness thresholds, and retention policies.',
+      ]
+    ),
   },
 };

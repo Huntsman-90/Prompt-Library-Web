@@ -6,6 +6,7 @@ import {
   reconstructPrompt,
   deduplicatePromptSections,
   extractTaskFromGeneratedPrompt,
+  createStandardSkillTransform,
 } from '../skillHelpers';
 import { derivePreciseRole } from '../skillArchitect';
 
@@ -458,5 +459,413 @@ export const CORE_SKILLS: Record<string, SkillDefinition> = {
       );
       return reconstructPrompt(preamble, deduplicatePromptSections(sections, isRu));
     },
+  },
+
+  'first-principles-framing': {
+    id: 'first-principles-framing',
+    name: 'FirstPrinciplesFramingSkill',
+    displayName: 'First-Principles Problem Framing',
+    categoryId: 'core',
+    description: 'Deconstructs problems down to bedrock physical, mathematical, and algorithmic axioms before building up.',
+    tags: ['core', 'first-principles', 'axioms', 'foundations', 'decomposition'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Декомпозиция до Первых Принципов (First Principles)',
+      'First-Principles Problem Framing Protocol',
+      [
+        '- **Редукция к аксиомам**: Очистить проблему от поверхностных аналогий и исторического контекста; выделить нерушимые физические и логические константы.',
+        '- **Проверка базовых истин**: Проанализировать каждую предпосылку вопросом «Что из этого абсолютно непреложно, а что является всего лишь привычкой?».',
+        '- **Синтез снизу вверх**: Собрать архитектурное решение строго на основе доказанных фактов без оглядки на устаревшие шаблоны.',
+      ],
+      [
+        '- **Axiomatic Reduction**: Strip away historical precedents and superficial analogies; isolate bedrock physical and logical invariables.',
+        '- **Baseline Truth Audit**: Interrogate every premise: "What is physically/mathematically unalterable vs. merely industry convention?".',
+        '- **Bottom-Up Synthesis**: Construct solutions upward strictly from validated core truths without legacy conformity.',
+      ]
+    ),
+  },
+
+  'falsifiability-criterion': {
+    id: 'falsifiability-criterion',
+    name: 'FalsifiabilityCriterionSkill',
+    displayName: 'Falsifiability & Refutation Criteria',
+    categoryId: 'core',
+    description: 'Formulates explicit testable criteria under which the proposed solution or hypothesis is considered disproven.',
+    tags: ['core', 'falsifiability', 'testing', 'refutation', 'empiricism'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Критерий Фальсифицируемости и Условия Опровержения',
+      'Falsifiability & Hypothesis Refutation Protocol',
+      [
+        '- **Условия опровержения**: Сформулировать четкие эмпирические условия, при наступлении которых текущая гипотеза считается ложной.',
+        '- **Контрольный эксперимент**: Описать минимальный тест, способный однозначно подтвердить или опровергнуть работоспособность подхода.',
+        '- **Запрет неуязвимых формулировок**: Исключить размытые тезисы, которые невозможно опровергнуть результатами замеров или метриками.',
+      ],
+      [
+        '- **Explicit Refutation Triggers**: Articulate concrete empirical outcomes that would conclusively disprove the proposed hypothesis.',
+        '- **Discriminative Experimentation**: Define minimal litmus tests capable of unambiguously validating or invalidating the architectural claim.',
+        '- **No Unfalsifiable Claims**: Eliminate vague assertions immune to telemetry verification or metric-based disproof.',
+      ]
+    ),
+  },
+
+  'constraints-first-design': {
+    id: 'constraints-first-design',
+    name: 'ConstraintsFirstDesignSkill',
+    displayName: 'Constraints-First Architecture',
+    categoryId: 'core',
+    description: 'Enforces rigorous upfront mapping of non-negotiable compute, network, memory, cost, and legal boundaries.',
+    tags: ['core', 'constraints', 'limits', 'boundaries', 'resource-allocation'],
+    transform: createStandardSkillTransform(
+      'constraints',
+      'Ограничения Системы и Граничные Ресурсы',
+      'Hard Constraints & Environmental Boundaries',
+      [
+        '- **Картирование жестких лимитов**: До генерации вариантов зафиксировать пределы по ресурсам: бюджет, CPU/память, задержка сети, compliance.',
+        '- **Дизайн в границах**: Отбрасывать любые идеи, нарушающие хотя бы одно жесткое ограничение, независимо от их теоретической привлекательности.',
+        '- **Запас прочности (Headroom)**: Проектировать с обязательным резервом 25-30% от предельно допустимых лимитов нагрузки.',
+      ],
+      [
+        '- **Hard Boundary Mapping**: Map non-negotiable ceilings upfront: budget caps, memory/compute envelope, network latency SLAs, and compliance mandates.',
+        '- **Constraint-Bounded Ideation**: Instantly discard solutions violating any hard boundary, regardless of theoretical novelty.',
+        '- **Safety Headroom**: Engineer all operational models with a mandatory 25-30% headroom buffer below peak stress thresholds.',
+      ]
+    ),
+  },
+
+  'signal-to-noise-optimization': {
+    id: 'signal-to-noise-optimization',
+    name: 'SignalToNoiseOptimizationSkill',
+    displayName: 'Signal-to-Noise Ratio Maximization',
+    categoryId: 'core',
+    description: 'Maximizes information density by eradicating rhetorical padding, ceremonial preambles, and conversational fillers.',
+    tags: ['core', 'conciseness', 'density', 'signal-to-noise', 'precision'],
+    transform: createStandardSkillTransform(
+      'constraints',
+      'Максимизация Плотности Смысла (Signal-to-Noise)',
+      'Signal-to-Noise Ratio Optimization',
+      [
+        '- **Нулевая вода**: Полностью исключить вежливые вступления («Конечно, вот решение...»), банальные трюизмы и очевидные определения.',
+        '- **Высокая плотность понятий**: Каждое предложение обязано содержать конкретные параметры, механизмы, структуры данных или аргументы.',
+        '- **Компактная нотация**: Использовать списки, формулы, матрицы решений и таблицы вместо многословных описательных абзацев.',
+      ],
+      [
+        '- **Zero Conversational Padding**: Ban courteous preambles ("Certainly, here is...", "As we know..."), truisms, and textbook definitions.',
+        '- **High Semantic Density**: Every sentence must convey concrete technical parameters, data structures, failure modes, or architectural choices.',
+        '- **Compact Structured Notation**: Default to bulleted specs, decision matrices, and code/schema blocks over narrative prose.',
+      ]
+    ),
+  },
+
+  'explicit-uncertainty-quantification': {
+    id: 'explicit-uncertainty-quantification',
+    name: 'ExplicitUncertaintyQuantificationSkill',
+    displayName: 'Uncertainty & Risk Quantification',
+    categoryId: 'core',
+    description: 'Replaces hand-wavy adjectives with calibrated probabilities, confidence bounds, and variance distributions.',
+    tags: ['core', 'uncertainty', 'probability', 'risk', 'quantification'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Количественная Оценка Неопределенности и Рисков',
+      'Explicit Uncertainty & Risk Quantification Protocol',
+      [
+        '- **Замена качественных оценок**: Запретить слова «вероятно», «быстро», «редко»; указывать численные диапазоны (напр. «вероятность 75–85%», «задержка 120–150 мс»).',
+        '- **Доверительные интервалы**: Сопровождать прогнозы интервалами P50/P90/P99 и перечнем факторов, способных сдвинуть распределение.',
+        '- **Градация риска**: Классифицировать угрозы по матрице «Вероятность возникновения × Тяжесть последствий» с выделением критического пути.',
+      ],
+      [
+        '- **Quantitative Precision**: Ban subjective adjectives ("likely", "fast", "rarely"); enforce explicit confidence percentages and numerical bounds (e.g. "p=0.80", "120-150ms").',
+        '- **Variance & Confidence Intervals**: Frame projections with P50/P90/P99 latency or cost distributions, identifying high-volatility levers.',
+        '- **Severity-Probability Matrix**: Map systemic hazards across a formal Probability × Impact matrix, highlighting single-point failure vectors.',
+      ]
+    ),
+  },
+
+  'failure-mode-anticipation': {
+    id: 'failure-mode-anticipation',
+    name: 'FailureModeAnticipationSkill',
+    displayName: 'Failure Mode Anticipation & Triad',
+    categoryId: 'core',
+    description: 'Proactively identifies systemic degradation paths, cascade failure triggers, and recovery fallbacks.',
+    tags: ['core', 'resilience', 'failure-modes', 'cascade', 'fallback'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Проектирование Режимов Отказа и Устойчивости (Failure Modes)',
+      'Failure Mode Anticipation & Degradation Protocol',
+      [
+        '- **Анализ точек отказа**: Для каждого узла системы определить: как он ломается (timeout, corrupted state, split-brain, OOM) и к чему это ведет.',
+        '- **Каскадная изоляция (Bulkheading)**: Обеспечить изоляцию сбоя одного компонента от критического ядра системы.',
+        '- **Плавная деградация (Graceful Degradation)**: Предусмотреть аварийный режим пониженной функциональности вместо полного падения.',
+      ],
+      [
+        '- **Failure Mode Catalog**: For every component, specify failure signatures: timeout, memory exhaustion, partial partitions, data corruption.',
+        '- **Bulkheading & Blast Radius**: Enforce strict architectural isolation to prevent local faults from triggering cascading systemic outages.',
+        '- **Graceful Degradation Contract**: Detail fallbacks and degraded operational modes that preserve essential availability during downstream failure.',
+      ]
+    ),
+  },
+
+  'semantic-disambiguation': {
+    id: 'semantic-disambiguation',
+    name: 'SemanticDisambiguationSkill',
+    displayName: 'Domain Semantic Disambiguation',
+    categoryId: 'core',
+    description: 'Unambiguously defines polysemous and overloaded terminology before architectural reasoning commences.',
+    tags: ['core', 'semantics', 'glossary', 'definitions', 'taxonomy'],
+    transform: createStandardSkillTransform(
+      'context',
+      'Устранение Семантической Неоднозначности (Disambiguation)',
+      'Domain Semantic Disambiguation Protocol',
+      [
+        '- **Фиксация глоссария**: В самом начале четко зафиксировать значения многозначных понятий (напр., Session, State, Event, Model, Cluster).',
+        '- **Разрешение терминологических конфликтов**: Указать, в каком именно отраслевом стандарте (DDD, RFC, UML) употребляется термин.',
+        '- **Единообразие в тексте**: Запретить использование синонимов для обозначения одного и того же концептуального объекта.',
+      ],
+      [
+        '- **Upfront Glossary Locking**: Explicitly define polysemous domain terms (e.g. "Session", "Event", "Entity", "Transaction") before elaboration.',
+        '- **Framework Alignment**: Anchor terminology to explicit industry standards (e.g., Domain-Driven Design, POSIX, W3C specs).',
+        '- **Consistent Synonym Ban**: Prohibit switching terms mid-document; maintain strict 1:1 mapping between words and conceptual entities.',
+      ]
+    ),
+  },
+
+  'decision-memo-architecture': {
+    id: 'decision-memo-architecture',
+    name: 'DecisionMemoArchitectureSkill',
+    displayName: 'Executive Decision Memo Architecture',
+    categoryId: 'core',
+    description: 'Structures complex engineering decisions into Context, Options, Invariants, Recommendation, and Actionable Next Steps.',
+    tags: ['core', 'memo', 'rfc', 'decision', 'architecture'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Формат Инженерного Мемо (Decision Memo)',
+      'Executive Decision Memo Structure',
+      [
+        '- **Спецификация разделов**: Ответ должен следовать канону: 1) Executive Summary, 2) Проблема и контекст, 3) Рассмотренные альтернативы, 4) Рекомендация с доказательствами, 5) План действий.',
+        '- **Таблица сравнения опций**: Оформить сравнительную матрицу альтернатив по единой шкале критериев.',
+        '- **Ответственные лица и сроки**: Каждый шаг должен иметь владельца (Owner) и критерий готовности.',
+      ],
+      [
+        '- **Standardized Memo Structure**: Format deliverable into: 1) Executive Summary, 2) Problem Context & Drivers, 3) Options Evaluated, 4) Justified Recommendation, 5) Actionable Roadmap.',
+        '- **Trade-off Comparison Matrix**: Present evaluated options in a comparative table scored against uniform technical and cost criteria.',
+        '- **Accountability & Execution**: Conclude with an unambiguous next-steps checklist with defined owners and completion gates.',
+      ]
+    ),
+  },
+
+  'invariant-preservation': {
+    id: 'invariant-preservation',
+    name: 'InvariantPreservationSkill',
+    displayName: 'Systemic Invariant Preservation',
+    categoryId: 'core',
+    description: 'Identifies and rigorously preserves immutable business rules, data schemas, and mathematical consistency invariants.',
+    tags: ['core', 'invariants', 'data-integrity', 'consistency', 'contracts'],
+    transform: createStandardSkillTransform(
+      'constraints',
+      'Сохранение Системных Инвариантов и Целостности',
+      'Systemic Invariant Preservation Directives',
+      [
+        '- **Выделение инвариантов**: Четко перечислить свойства системы, которые ни при каких условиях не должны нарушаться (ACID, idempotency, zero data loss).',
+        '- **Проверка переходных состояний**: Доказать, что при любых переключениях или миграциях инварианты сохраняются непрерывно.',
+        '- **Защитные проверки (Assertions)**: Снабдить спецификации проверками предусловий (preconditions) и постусловий (postconditions).',
+      ],
+      [
+        '- **Explicit Invariant Definition**: Enumerate immutable system truths that must hold true before, during, and after every transaction.',
+        '- **State Transition Safety**: Prove that concurrent updates, failovers, and schema migrations cannot violate core invariants.',
+        '- **Contract Assertions**: Specify machine-verifiable preconditions, postconditions, and runtime assertions protecting data integrity.',
+      ]
+    ),
+  },
+
+  'reversibility-analysis': {
+    id: 'reversibility-analysis',
+    name: 'ReversibilityAnalysisSkill',
+    displayName: 'Two-Way Door & Reversibility Analysis',
+    categoryId: 'core',
+    description: 'Categorizes architectural decisions into reversible (Type 2) vs irreversible (Type 1) with explicit exit strategies.',
+    tags: ['core', 'reversibility', 'decisions', 'risk-management', 'migration'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Анализ Обратимости Решений (One-Way vs Two-Way Doors)',
+      'Decision Reversibility & Exit Strategy Protocol',
+      [
+        '- **Классификация решений**: Разделить решения на «двусторонние двери» (легко отменить) и «односторонние» (необратимые или крайне дорогие в отмене).',
+        '- **План отката (Rollback / Exit Strategy)**: Для каждого ключевого выбора подготовить четкий план вывода из эксплуатации или миграции на альтернативу.',
+        '- **Оценка стоимости отката**: Зафиксировать трудозатраты и риски в случае необходимости отмены принятого архитектурного решения.',
+      ],
+      [
+        '- **Door Classification**: Classify every major architectural choice as Type 1 (irreversible one-way door) or Type 2 (rapidly reversible two-way door).',
+        '- **Concrete Exit Strategy**: Require an explicit rollback plan, data migration path, and vendor decoupling strategy for all Type 1 decisions.',
+        '- **Reversal Cost Assessment**: Quantify the blast radius and engineering hours required to unwind the proposed architecture if assumptions fail.',
+      ]
+    ),
+  },
+
+  'minimal-viable-intervention': {
+    id: 'minimal-viable-intervention',
+    name: 'MinimalViableInterventionSkill',
+    displayName: 'Minimal Viable Intervention (MVI)',
+    categoryId: 'core',
+    description: 'Enforces the principle of least complexity: solve the problem with the smallest, least invasive architectural footprint.',
+    tags: ['core', 'simplicity', 'mvi', 'minimalism', 'occams-razor'],
+    transform: createStandardSkillTransform(
+      'constraints',
+      'Принцип Минимального Необходимого Вмешательства (MVI)',
+      'Minimal Viable Intervention (MVI) Principle',
+      [
+        '- **Бритва Оккама**: Отсекать любые избыточные сервисы, сторонние библиотеки и сложные слои абстракции, если задачу можно решить базовыми инструментами.',
+        '- **Минимизация диффа**: Предпочитать точечные, безопасные изменения глобальным переписываниям систем.',
+        '- **Контроль накладных расходов**: Любое усложнение архитектуры должно оправдываться критическим выигрышем в метриках.',
+      ],
+      [
+        '- **Occams Razor in Engineering**: Reject superfluous microservices, heavy external dependencies, and premature meta-frameworks.',
+        '- **Minimal Surface Mutation**: Favor minimal atomic mutations and surgical refactoring over high-risk wholesale rewrites.',
+        '- **Complexity Tax Justification**: Every added layer of abstraction must justify its maintenance and debugging overhead with hard metrics.',
+      ]
+    ),
+  },
+
+  'downstream-impact-mapping': {
+    id: 'downstream-impact-mapping',
+    name: 'DownstreamImpactMappingSkill',
+    displayName: 'Downstream & Second-Order Impact Mapping',
+    categoryId: 'core',
+    description: 'Traces second- and third-order ripple effects across downstream consumer services, databases, and operational teams.',
+    tags: ['core', 'second-order', 'downstream', 'impact-analysis', 'systems-thinking'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Картирование Второпорядковых Последствий (Second-Order Effects)',
+      'Downstream & Second-Order Impact Mapping Protocol',
+      [
+        '- **Анализ эффекта домино**: Исследовать, как предлагаемое изменение повлияет на смежные системы, очереди сообщений, аналитику и партнерские API.',
+        '- **Обратная совместимость (Backwards Compatibility)**: Гарантировать сохранение контрактов для всех существующих потребителей данных.',
+        '- **Оповещение стейкхолдеров**: Составить матрицу систем и команд, требующих уведомления или согласования перед релизом.',
+      ],
+      [
+        '- **Ripple Effect Tracing**: Model secondary and tertiary ramifications across message brokers, downstream replica lag, and analytics pipelines.',
+        '- **Strict Backward Compatibility**: Enforce schema evolution rules (e.g. Protobuf/JSON schema backward compatibility) for all active consumers.',
+        '- **Stakeholder Notification Matrix**: Catalog all impacted platform consumers, client SDKs, and operations teams requiring coordinated rollouts.',
+      ]
+    ),
+  },
+
+  'evidence-hierarchy-enforcement': {
+    id: 'evidence-hierarchy-enforcement',
+    name: 'EvidenceHierarchyEnforcementSkill',
+    displayName: 'Evidence Hierarchy & Grounding',
+    categoryId: 'core',
+    description: 'Prioritizes empirical benchmarks and telemetry over theoretical models and subjective opinions.',
+    tags: ['core', 'evidence', 'empirical', 'benchmarks', 'grounding'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Иерархия Доказательств и Эмпирическая База',
+      'Evidence Hierarchy & Empirical Grounding Protocol',
+      [
+        '- **Строгая субординация источников**: Опираться на факты в порядке: 1) Замеры продакшн-телеметрии, 2) Воспроизводимые бенчмарки, 3) Официальная документация, 4) Экспертная эвристика.',
+        '- **Исключение голословных утверждений**: Каждое утверждение о производительности или безопасности должно сопровождаться ссылкой на замер или стандарт.',
+        '- **Маркировка личного мнения**: Явно разграничивать доказанные факты и субъективные предпочтения.',
+      ],
+      [
+        '- **Hierarchical Source Priority**: Weight arguments strictly: 1) Production telemetry & profiler traces > 2) Reproducible benchmarks > 3) Official specifications > 4) Expert heuristics.',
+        '- **Substantiated Claims Only**: Every claim regarding performance, memory footprint, or security posture must cite concrete measurements.',
+        '- **Opinion Demarcation**: Explicitly label architectural taste or subjective stylistic preference as distinct from empirical imperatives.',
+      ]
+    ),
+  },
+
+  'operational-readiness-gate': {
+    id: 'operational-readiness-gate',
+    name: 'OperationalReadinessGateSkill',
+    displayName: 'Operational Readiness Gate (ORR)',
+    categoryId: 'core',
+    description: 'Validates observability, alerting thresholds, runbooks, and disaster recovery procedures before deployment.',
+    tags: ['core', 'orr', 'observability', 'runbooks', 'deployment'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Шлюз Операционной Готовности (Operational Readiness Review)',
+      'Operational Readiness Review (ORR) Gate',
+      [
+        '- **Метрики и логирование**: Специфицировать структурированные метрики (RED / USE), трейсинг (OpenTelemetry) и формат логов для нового функционала.',
+        '- **Алерты и пороги срабатывания**: Задать точные триггеры для дежурного инженера с минимальным уровнем ложных срабатываний.',
+        '- **Эксплуатационный регламент (Runbook)**: Подготовить пошаговую инструкцию по устранению типовых сбоев и процедуре экстренного отката.',
+      ],
+      [
+        '- **Observability Instrumentation**: Mandate structured telemetry (RED/USE metrics, OpenTelemetry spans, audit logs) for all new pathways.',
+        '- **Actionable Alerting Thresholds**: Specify high-signal alert rules with unambiguous triggers, runbook links, and zero alert fatigue.',
+        '- **Disaster Runbook Protocol**: Provide an actionable runbook detailing emergency triage, kill-switches, and automated rollback workflows.',
+      ]
+    ),
+  },
+
+  'problem-statement-reframing': {
+    id: 'problem-statement-reframing',
+    name: 'ProblemStatementReframingSkill',
+    displayName: 'Problem Statement Root Reframing',
+    categoryId: 'core',
+    description: 'Validates that the provided directive solves the actual fundamental business or engineering root cause rather than a symptom.',
+    tags: ['core', 'reframing', 'root-cause', 'problem-definition', 'clarity'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Переформулирование и Поиск Первопричины Проблемы',
+      'Problem Statement Reframing & Root Cause Validation',
+      [
+        '- **Анализ симптома против причины**: Проверить, не является ли поставленная задача попыткой замаскировать более глубокую системную проблему.',
+        '- **Пять Почему (5 Whys)**: Углубиться в контекст запроса, чтобы убедиться в целесообразности выбранного вектора решения.',
+        '- **Уточненная формулировка**: Предложить уточненную постановку проблемы, если изначальная ведет к неэффективным тратам ресурсов.',
+      ],
+      [
+        '- **Symptom vs Root Cause Audit**: Verify whether the requested task addresses a fundamental disease or merely a superficial symptom.',
+        '- **5-Whys Diagnostic**: Trace the operational origin of the friction to confirm that engineering investment is directed at the true bottleneck.',
+        '- **Reframed Problem Proposition**: Formulate an upgraded problem statement if the original query leads to fragile or misdirected solutions.',
+      ]
+    ),
+  },
+
+  'context-budget-optimization': {
+    id: 'context-budget-optimization',
+    name: 'ContextBudgetOptimizationSkill',
+    displayName: 'Context Window & Attention Budgeting',
+    categoryId: 'core',
+    description: 'Compresses context, removes redundant tokens, and focuses model attention on critical decision surfaces.',
+    tags: ['core', 'context-window', 'compression', 'tokens', 'attention'],
+    transform: createStandardSkillTransform(
+      'constraints',
+      'Оптимизация Контекста и Бюджета Внимания',
+      'Context Window & Attention Optimization',
+      [
+        '- **Информационная компрессия**: Сжать избыточные описания до компактных спецификаций без потери ключевых ограничений.',
+        '- **Фокусировка внимания**: Разместить критические инструкции и инварианты в зонах наивысшего внимания (начало и конец промпта).',
+        '- **Исключение дублирования**: Удалить повторяющиеся формулировки и перекрестные дубли между разделами.',
+      ],
+      [
+        '- **Token Compression**: Condense descriptive text into terse, schema-driven declarations without discarding technical invariants.',
+        '- **Attention Primacy & Recency**: Position non-negotiable constraints at the structural poles (beginning and conclusion) to maximize adherence.',
+        '- **Redundancy Elimination**: Purge duplicated directives and overlapping rules across sections to conserve cognitive budget.',
+      ]
+    ),
+  },
+
+  'system-boundary-demarcation': {
+    id: 'system-boundary-demarcation',
+    name: 'SystemBoundaryDemarcationSkill',
+    displayName: 'System & Trust Boundary Demarcation',
+    categoryId: 'core',
+    description: 'Maps security zones, trust perimeters, process isolation, and data classification boundaries.',
+    tags: ['core', 'boundaries', 'trust-zones', 'security', 'isolation'],
+    transform: createStandardSkillTransform(
+      'context',
+      'Демаркация Границ Системы и Зон Доверия',
+      'System & Trust Boundary Demarcation Protocol',
+      [
+        '- **Карта зон доверия**: Четко разграничить недоверенную внешнюю среду (публичный интернет, пользовательский ввод) и доверенный внутренний периметр.',
+        '- **Точки валидации (Sanitization Gates)**: Определить обязательные барьеры валидации данных на каждом пересечении границы.',
+        '- **Модель изоляции**: Указать механизмы изоляции процессов, сетевых сегментов и криптографических ключей.',
+      ],
+      [
+        '- **Trust Perimeter Mapping**: Demarcate untrusted ingress boundaries (public web, client payloads) from hardened internal processing zones.',
+        '- **Ingress Validation Gateways**: Establish strict schema validation, sanitization, and authorization barriers at every boundary crossover.',
+        '- **Isolation Primitives**: Explicitly define network sandboxing, process privilege levels, and compartmentalization boundaries.',
+      ]
+    ),
   },
 };

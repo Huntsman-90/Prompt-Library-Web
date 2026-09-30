@@ -67,17 +67,46 @@ export function ensureSection(
   }
 }
 
+export interface StandardSkillConfig {
+  sectionName: string;
+  ruSectionName: string;
+  instructions: string[];
+  ruInstructions: string[];
+  semanticType?: ParsedSection['semanticType'];
+  tags?: string[];
+}
+
 /**
  * Helper to standardly transform a prompt by adding directives to a specific section,
  * adapting context to the user's task and eliminating generic weak wrappers.
  */
 export function createStandardSkillTransform(
-  semanticType: ParsedSection['semanticType'],
-  titleRu: string,
-  titleEn: string,
-  directivesRu: string[],
-  directivesEn: string[]
+  configOrSemanticType: ParsedSection['semanticType'] | StandardSkillConfig,
+  titleRu?: string,
+  titleEn?: string,
+  directivesRu?: string[],
+  directivesEn?: string[]
 ) {
+  let semanticType: ParsedSection['semanticType'];
+  let tRu: string;
+  let tEn: string;
+  let dRu: string[];
+  let dEn: string[];
+
+  if (typeof configOrSemanticType === 'object' && configOrSemanticType !== null) {
+    semanticType = configOrSemanticType.semanticType || 'process_directive';
+    tRu = configOrSemanticType.ruSectionName || configOrSemanticType.sectionName;
+    tEn = configOrSemanticType.sectionName || configOrSemanticType.ruSectionName;
+    dRu = configOrSemanticType.ruInstructions || configOrSemanticType.instructions || [];
+    dEn = configOrSemanticType.instructions || configOrSemanticType.ruInstructions || [];
+  } else {
+    semanticType = configOrSemanticType;
+    tRu = titleRu || '';
+    tEn = titleEn || '';
+    dRu = directivesRu || [];
+    dEn = directivesEn || [];
+  }
+
   return (prompt: string, _context?: Record<string, any>): string => {
     const isRu = isRussianText(prompt);
     let cleanedPrompt = (prompt || '')
@@ -107,10 +136,10 @@ export function createStandardSkillTransform(
       });
     }
 
-    const adaptedRu = adaptDirectivesToTask(directivesRu, hasRealTask ? task : '', true);
-    const adaptedEn = adaptDirectivesToTask(directivesEn, hasRealTask ? task : '', false);
+    const adaptedRu = adaptDirectivesToTask(dRu, hasRealTask ? task : '', true);
+    const adaptedEn = adaptDirectivesToTask(dEn, hasRealTask ? task : '', false);
 
-    ensureSection(sections, semanticType, titleRu, titleEn, adaptedRu, adaptedEn, isRu);
+    ensureSection(sections, semanticType, tRu, tEn, adaptedRu, adaptedEn, isRu);
     return reconstructPrompt(sections.length > 0 && hasRealTask ? '' : preamble, deduplicatePromptSections(sections, isRu));
   };
 }

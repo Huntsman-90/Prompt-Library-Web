@@ -5,6 +5,7 @@ import {
   parsePromptSections,
   reconstructPrompt,
   deduplicatePromptSections,
+  createStandardSkillTransform,
 } from '../skillHelpers';
 
 export const CODING_SKILLS: Record<string, SkillDefinition> = {
@@ -443,4 +444,389 @@ export const CODING_SKILLS: Record<string, SkillDefinition> = {
       return reconstructPrompt(preamble, deduplicatePromptSections(sections, isRu));
     },
   },
+
+  'tdd-red-green-refactor': {
+    id: 'tdd-red-green-refactor',
+    name: 'TddRedGreenRefactorSkill',
+    displayName: 'Strict Test-Driven Development (TDD Loop)',
+    categoryId: 'coding',
+    description: 'Enforces strict TDD discipline: failing test first (Red), minimal passing implementation (Green), and design cleanup (Refactor).',
+    tags: ['coding', 'tdd', 'testing', 'unit-tests', 'red-green-refactor', 'clean-code'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Протокол Разработки через Тестирование (TDD Red-Green-Refactor)',
+      'Strict Test-Driven Development (TDD) Red-Green-Refactor Protocol',
+      [
+        '- **Шаг 1 (Red)**: Написать изолированный юнит-тест, проверяющий желаемое поведение, и убедиться, что он падает с понятной ошибкой.',
+        '- **Шаг 2 (Green)**: Написать минимально необходимый объем рабочего кода, чтобы тест стал зеленым (без преждевременной оптимизации).',
+        '- **Шаг 3 (Refactor)**: Устранить дублирование, улучшить читаемость и архитектуру кода, сохраняя все тесты проходящими.',
+      ],
+      [
+        '- **Phase 1 (Red)**: Author a failing unit test asserting the exact desired contract; verify it fails with explicit diagnostic assertion messages.',
+        '- **Phase 2 (Green)**: Implement the bare minimum executable code required to satisfy the assertion without premature over-engineering.',
+        '- **Phase 3 (Refactor)**: Clean code smells, extract pure functions, and harden types while preserving a 100% green test suite.',
+      ]
+    ),
+  },
+
+  'ast-parser-transformer': {
+    id: 'ast-parser-transformer',
+    name: 'AstParserTransformerSkill',
+    displayName: 'Abstract Syntax Tree (AST) Codemod & Transformation',
+    categoryId: 'coding',
+    description: 'Designs robust AST codemods using TypeScript Compiler API, Babel, or jscodeshift with tree traversal and zero text regex bugs.',
+    tags: ['coding', 'ast', 'compiler', 'babel', 'typescript', 'codemod', 'metaprogramming'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Протокол Трансформации AST (Abstract Syntax Tree Codemod)',
+      'Abstract Syntax Tree (AST) Parsing & Transformation Architecture',
+      [
+        '- **Парсинг в AST**: Запретить использование регулярок для модификации кода; парсить исходники в валидное дерево узлов (AST).',
+        '- **Паттерн Visitor**: Обходить дерево с помощью посетителя (Visitor), проверяя типы узлов (`ts.isCallExpression`, `isIdentifier`).',
+        '- **Безопасная кодогенерация**: Генерировать модифицированный код с сохранением комментариев и форматирования (Prettier / Printer API).',
+      ],
+      [
+        '- **AST-First Parsing**: Forbid fragile regex substitutions; parse source text into fully typed Abstract Syntax Tree representation.',
+        '- **Visitor Pattern Traversal**: Traverse AST nodes safely using type guards (`ts.isCallExpression`, `isPropertyAccessExpression`).',
+        '- **Preserved Source Synthesis**: Emit transformed source trees with round-trip comment retention and formatter formatting.',
+      ]
+    ),
+  },
+
+  'concurrency-race-condition-auditor': {
+    id: 'concurrency-race-condition-auditor',
+    name: 'ConcurrencyRaceConditionAuditorSkill',
+    displayName: 'Concurrency & Race Condition Elimination',
+    categoryId: 'coding',
+    description: 'Audits multi-threaded and asynchronous code for race conditions, deadlocks, TOCTOU vulnerabilities, and unhandled promise states.',
+    tags: ['coding', 'concurrency', 'async', 'deadlock', 'race-condition', 'threads'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Аудит Конкурентности и Устранение Race Conditions',
+      'Concurrency Safety & Race Condition Audit Protocol',
+      [
+        '- **Поиск гонок состояний (Race Conditions)**: Проверить наличие TOCTOU (Time-of-Check to Time-of-Use) и несинхронизированного доступа к общим переменным.',
+        '- **Атомарные операции и мьютексы**: Защитить критические секции с помощью атомарных операций, распределенных блокировок (Redis Redlock) или очередей.',
+        '- **Безопасный Promise.allSettled**: Заменить `Promise.all` на `Promise.allSettled` там, где ошибка одной задачи не должна обрывать остальные.',
+      ],
+      [
+        '- **TOCTOU & State Drift Audit**: Inspect non-atomic shared mutable state access across asynchronous turns and threaded workloads.',
+        '- **Synchronization Primitives**: Guard critical execution paths with Mutexes, optimistic concurrency versioning, or serial execution queues.',
+        '- **Resilient Aggregation**: Replace fragile `Promise.all` with `Promise.allSettled` to isolate individual asynchronous task failures.',
+      ]
+    ),
+  },
+
+  'sql-query-performance-tuner': {
+    id: 'sql-query-performance-tuner',
+    name: 'SqlQueryPerformanceTunerSkill',
+    displayName: 'PostgreSQL EXPLAIN ANALYZE Query Tuner',
+    categoryId: 'coding',
+    description: 'Diagnoses slow database queries via EXPLAIN ANALYZE, eliminating Seq Scans, nested loops, N+1 queries, and index bloat.',
+    tags: ['coding', 'sql', 'postgres', 'query-optimization', 'explain-analyze', 'indexing'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Оптимизация SQL-Запросов (EXPLAIN ANALYZE Tuning)',
+      'PostgreSQL Query Execution Plan & Index Optimization Protocol',
+      [
+        '- **Анализ плана выполнения**: Интерпретировать вывод `EXPLAIN (ANALYZE, BUFFERS)`: найти Sequential Scan на больших таблицах и дорогостоящие Hash Joins.',
+        '- **Индексная стратегия**: Разработать B-Tree / GIN / BRIN составные индексы с покрывающими колонками (`INCLUDE`), избегая избыточных индексов.',
+        '- **Устранение N+1 проблем**: Переписать циклы запросов на эффективные `JOIN`, `LATERAL` выборки или пакетные CTE.',
+      ],
+      [
+        '- **Execution Plan Diagnostics**: Parse `EXPLAIN (ANALYZE, BUFFERS)` identifying costly Sequential Scans, spills to disk, and Cartesian joins.',
+        '- **Strategic Index Design**: Architect composite B-Tree, partial, or covering (`INCLUDE`) indexes matching exact WHERE/ORDER BY query filters.',
+        '- **N+1 Batch Elimination**: Rewrite ORM iterative subqueries into unified CTE window functions or parameterized batch fetches.',
+      ]
+    ),
+  },
+
+  'distributed-tracing-opentelemetry': {
+    id: 'distributed-tracing-opentelemetry',
+    name: 'DistributedTracingOpentelemetrySkill',
+    displayName: 'OpenTelemetry Distributed Tracing & Spans',
+    categoryId: 'coding',
+    description: 'Instruments applications with OpenTelemetry standard spans, semantic attributes, baggage context propagation, and error records.',
+    tags: ['coding', 'opentelemetry', 'otel', 'tracing', 'observability', 'metrics'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Инструментирование Распределенной Трассировки (OpenTelemetry)',
+      'OpenTelemetry Distributed Tracing & Context Propagation Protocol',
+      [
+        '- **Семантические атрибуты OTel**: Использовать официальные конвенции OpenTelemetry (`http.status_code`, `db.system`, `rpc.method`).',
+        '- **Проброс контекста (W3C TraceContext)**: Извлекать и передавать заголовки `traceparent` и `tracestate` через границы HTTP и gRPC вызовов.',
+        '- **Обработка исключений в спанах**: При возникновении ошибки вызывать `span.recordException(err)` и устанавливать `span.setStatus({ code: SpanStatusCode.ERROR })`.',
+      ],
+      [
+        '- **OTel Semantic Conventions**: Standardize span attributes matching canonical OpenTelemetry schemas (`http.request.method`, `db.statement`).',
+        '- **W3C TraceContext Propagation**: Inject and extract `traceparent` and `tracestate` across HTTP, gRPC, and messaging boundaries.',
+        '- **Error Telemetry Recording**: On exceptions, execute `span.recordException(err)` and flag `span.setStatus({ code: SpanStatusCode.ERROR })`.',
+      ]
+    ),
+  },
+
+  'resilience-circuit-breaker-retry': {
+    id: 'resilience-circuit-breaker-retry',
+    name: 'ResilienceCircuitBreakerRetrySkill',
+    displayName: 'Circuit Breaker, Jitter & Retry Resilience',
+    categoryId: 'coding',
+    description: 'Implements production fault tolerance: 3-state Circuit Breaker (Closed, Open, Half-Open), exponential backoff with full jitter, and bulkheads.',
+    tags: ['coding', 'resilience', 'circuit-breaker', 'retry', 'jitter', 'fault-tolerance'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Паттерн Отказоустойчивости (Circuit Breaker & Exponential Jitter)',
+      'Production Circuit Breaker & Exponential Jitter Resilience Protocol',
+      [
+        '- **3 состояния автомата**: Реализовать логику `Closed` (норма), `Open` (аварийный разрыв цепи при 50% ошибок), `Half-Open` (пробные запросы).',
+        '- **Экспоненциальная задержка с джиттером**: Формула `sleep = min(max_delay, base * 2^attempt) * random(0.5, 1.5)` для защиты от эффекта громоподобного стада (Thundering Herd).',
+        '- **Деградированный fallback**: Предусмотреть возврат кэшированных данных или безопасного ответа по умолчанию при открытом предохранителе.',
+      ],
+      [
+        '- **Tri-State Circuit Machine**: Enforce transitions across `Closed` (healthy), `Open` (fast-fail on error threshold), and `Half-Open` (canary probe).',
+        '- **Exponential Backoff with Full Jitter**: Calculate retry delays dynamically via `min(max_wait, base * 2^attempt) * uniform(0.5, 1.5)`.',
+        '- **Graceful Fallback Envelope**: Return cached stale responses or degraded safe defaults when downstream services are tripped.',
+      ]
+    ),
+  },
+
+  'wasm-rust-interop-bridge': {
+    id: 'wasm-rust-interop-bridge',
+    name: 'WasmRustInteropBridgeSkill',
+    displayName: 'WebAssembly (WASM) & Rust Zero-Copy Interop',
+    categoryId: 'coding',
+    description: 'Architects high-performance Rust WebAssembly modules with `wasm-bindgen`, typed arrays, and zero-copy shared memory buffers.',
+    tags: ['coding', 'wasm', 'rust', 'webassembly', 'performance', 'memory'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Мост Производительности WebAssembly (Rust wasm-bindgen)',
+      'Rust WebAssembly (WASM) & Zero-Copy Interop Architecture',
+      [
+        '- **Zero-Copy передача памяти**: Передавать большие массивы данных через прямые указатели на линейную память WASM (`Uint8Array` views).',
+        '- **Контракт wasm-bindgen**: Использовать атрибуты `#[wasm_bindgen]` со строгими типами для исключения накладных расходов сериализации JSON.',
+        '- **Управление жизненным циклом**: Явно вызывать `.free()` для аллоцированных структур Rust при сборке мусора в JavaScript.',
+      ],
+      [
+        '- **Zero-Copy Buffer Sharing**: Exchange massive tabular payloads directly via linear memory views (`Uint8Array`) without JSON parsing overhead.',
+        '- **Strict wasm-bindgen Contracts**: Decorate native methods with typed `#[wasm_bindgen]` signatures ensuring low-overhead FFI crossings.',
+        '- **Explicit Memory Lifecycle**: Implement RAII patterns and deterministic memory teardown on the JavaScript runtime side.',
+      ]
+    ),
+  },
+
+  'css-grid-flexbox-fluid-layout': {
+    id: 'css-grid-flexbox-fluid-layout',
+    name: 'CssGridFlexboxFluidLayoutSkill',
+    displayName: 'Fluid CSS Grid, Subgrid & Zero-CLS Layout',
+    categoryId: 'coding',
+    description: 'Architects modern fluid frontend layouts using CSS Grid, `subgrid`, container queries `@container`, and `clamp()` without Cumulative Layout Shift.',
+    tags: ['coding', 'css', 'grid', 'subgrid', 'fluid', 'cls', 'frontend'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Архитектура Адаптивного CSS Grid и Zero Cumulative Layout Shift',
+      'Modern Fluid CSS Grid, Subgrid & Zero-CLS Layout Architecture',
+      [
+        '- **Контейнерные запросы (@container)**: Стилизовать компоненты относительно размера их родительского контейнера, а не глобального окна viewport.',
+        '- **Использование Subgrid**: Выравнивать вложенные элементы карточек по единой сетке родителя через `grid-template-rows: subgrid`.',
+        '- **Zero Cumulative Layout Shift (CLS)**: Фиксировать соотношение сторон через `aspect-ratio` и резервировать место под шрифты и изображения.',
+      ],
+      [
+        '- **Container Query Modularization**: Style components responsively based on container boundaries using `@container` rules.',
+        '- **CSS Subgrid Alignment**: Leverage `grid-template-rows: subgrid` to ensure pixel-perfect vertical alignment across card layouts.',
+        '- **Zero Cumulative Layout Shift (CLS)**: Lock aspect ratios via `aspect-ratio` and allocate reserved layout geometry for async media.',
+      ]
+    ),
+  },
+
+  'websocket-reconnect-backoff': {
+    id: 'websocket-reconnect-backoff',
+    name: 'WebsocketReconnectBackoffSkill',
+    displayName: 'Resilient WebSocket Lifecycle & Heartbeat Protocol',
+    categoryId: 'coding',
+    description: 'Implements production WebSocket client/server architecture with bidirectional ping-pong heartbeats, message queues, and reconnect backoff.',
+    tags: ['coding', 'websocket', 'realtime', 'heartbeat', 'reconnect', 'networking'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Протокол Отказоустойчивого WebSocket (Heartbeats & Reconnect Queue)',
+      'Resilient WebSocket Lifecycle & Heartbeat Protocol',
+      [
+        '- **Heartbeat Ping-Pong**: Каждые 30 секунд отправлять ping; если pong не получен в течение 10 секунд — признать соединение мертвым и закрыть сокет.',
+        '- **Очередь сообщений при обрыве**: Буферизовать исходящие сообщения в локальную очередь (до 100 сообщений) во время переподключения.',
+        '- **Бесшовный Reconnect**: Переподключаться с нарастающей задержкой и автоматически воспроизводить сообщения из буфера после рукопожатия.',
+      ],
+      [
+        '- **Heartbeat Ping-Pong Protocol**: Dispatch periodic ping frames; close socket and trigger reconnect if pong is missing within 10 seconds.',
+        '- **Offline Message Buffer**: Queue outbound payloads locally during disconnections with configurable backpressure caps.',
+        '- **Seamless Reconnection Handshake**: Re-establish connection with exponential backoff and replay queued messages in strict FIFO order.',
+      ]
+    ),
+  },
+
+  'clean-architecture-hexagonal-ports': {
+    id: 'clean-architecture-hexagonal-ports',
+    name: 'CleanArchitectureHexagonalPortsSkill',
+    displayName: 'Hexagonal Ports & Adapters Architecture',
+    categoryId: 'coding',
+    description: 'Separates business logic from I/O frameworks using Ports & Adapters (Hexagonal Architecture) with dependency inversion.',
+    tags: ['coding', 'architecture', 'hexagonal', 'ports-and-adapters', 'clean-architecture', 'domain'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Гексагональная Архитектура (Ports & Adapters)',
+      'Hexagonal (Ports & Adapters) Architectural Pattern',
+      [
+        '- **Изоляция домена**: Бизнес-логика (Entities & Use Cases) не должна иметь зависимостей от сторонних фреймворков, баз данных или протоколов HTTP.',
+        '- **Порты как интерфейсы**: Входные (Driver) и выходные (Driven) порты определяются строго как интерфейсы внутри доменного слоя.',
+        '- **Адаптеры как реализация**: Базы данных (Postgres, Mongo) и внешние API реализуются в слое инфраструктуры через адаптеры к портам.',
+      ],
+      [
+        '- **Pristine Core Isolation**: Keep domain entities and use cases completely free from HTTP frameworks, ORMs, or third-party SDKs.',
+        '- **Inbound & Outbound Ports**: Define primary (driver) and secondary (driven) interfaces strictly within the core domain boundary.',
+        '- **Infrastructure Adapters**: Encapsulate concrete SQL engines, cloud queues, and REST clients inside swappable adapter modules.',
+      ]
+    ),
+  },
+
+  'memory-heap-profiling-optimizer': {
+    id: 'memory-heap-profiling-optimizer',
+    name: 'MemoryHeapProfilingOptimizerSkill',
+    displayName: 'V8 Heap Profiling & Garbage Collection Tuning',
+    categoryId: 'coding',
+    description: 'Diagnoses JavaScript/Node.js memory leaks using heap snapshots, retained object trees, and object pooling to reduce GC pauses.',
+    tags: ['coding', 'memory', 'v8', 'heap', 'profiling', 'garbage-collection', 'performance'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Профилирование Памяти V8 и Устранение Утечек (Heap Profiling)',
+      'V8 Engine Heap Profiling & Memory Leak Mitigation Protocol',
+      [
+        '- **Анализ дерева удержания (Retained Size)**: Найти объекты, удерживаемые глобальными ссылками, забытыми Event Listeners или замыканиями.',
+        '- **Пул объектов (Object Pooling)**: В высоконагруженных циклах переиспользовать существующие объекты вместо постоянного создания новых, снижая давление на GC.',
+        '- **Проверка WeakRef и WeakMap**: Использовать `WeakMap` для кэшей, чтобы сборщик мусора мог свободно освобождать объекты при отсутствии активных ссылок.',
+      ],
+      [
+        '- **Retained Object Diagnostics**: Isolate memory leaks caused by lingering event listeners, detached DOM trees, and uncollected closure scopes.',
+        '- **Object Pooling for High-Throughput**: Re-use object instances across hot compute loops to eliminate GC pressure and stop-the-world pauses.',
+        '- **Weak References**: Employ `WeakMap` and `WeakSet` collections for caching to allow effortless garbage collection of abandoned keys.',
+      ]
+    ),
+  },
+
+  'secure-input-sanitization-xss-sqli': {
+    id: 'secure-input-sanitization-xss-sqli',
+    name: 'SecureInputSanitizationXssSqliSkill',
+    displayName: 'Defense-in-Depth Input Sanitization & XSS/SQLi Defense',
+    categoryId: 'coding',
+    description: 'Enforces parameterized SQL queries, DOMPurify HTML sanitization, strict CSP nonces, and context-aware output encoding.',
+    tags: ['coding', 'security', 'xss', 'sqli', 'sanitization', 'owasp', 'defense'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Эшелонированная Санитизация Ввода (Защита от XSS и SQLi)',
+      'Defense-in-Depth Input Sanitization & XSS/SQLi Elimination',
+      [
+        '- **Параметризованные запросы**: Категорический запрет конкатенации строк при формировании SQL-запросов; использовать только `$1, $2` плейсхолдеры.',
+        '- **Санитизация DOMPurify**: Перед рендерингом любого внешнего HTML пропускать строку через DOMPurify с белым списком безопасных тегов.',
+        '- **Контекстное экранирование**: Экранировать спецсимволы в зависимости от контекста вставки (HTML-атрибут, текст, JavaScript-переменная, URL).',
+      ],
+      [
+        '- **Parameterized SQL Invariant**: Strictly forbid string interpolation in SQL clauses; enforce parameterized query drivers exclusively.',
+        '- **DOMPurify HTML Scrubbing**: Pass all user-rendered HTML through DOMPurify with an explicit minimal allowlist of tags and attributes.',
+        '- **Context-Aware Output Encoding**: Apply distinct encoding rules depending on placement (HTML body, attribute value, script block, query string).',
+      ]
+    ),
+  },
+
+  'api-idempotency-key-pattern': {
+    id: 'api-idempotency-key-pattern',
+    name: 'ApiIdempotencyKeyPatternSkill',
+    displayName: 'Distributed Idempotency Key Lock & Replay Pattern',
+    categoryId: 'coding',
+    description: 'Designs bulletproof distributed idempotency using Redis SETNX with TTL, atomic request locking, and cached response replay.',
+    tags: ['coding', 'idempotency', 'redis', 'api', 'distributed-systems', 'transactions'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Паттерн Идемпотентных API Запросов (Distributed Idempotency)',
+      'Distributed Idempotency Key Locking & Replay Architecture',
+      [
+        '- **Блокировка по Idempotency-Key**: При получении запроса с заголовком `Idempotency-Key` попытаться захватить распределенный lock в Redis (`SET key "processing" NX EX 120`).',
+        '- **Обработка параллельных дубликатов**: Если ключ уже находится в состоянии `processing`, вернуть статус `409 Conflict` или заблокировать поток до завершения.',
+        '- **Кэширование и возврат оригинального ответа**: После успешного выполнения сохранить статус-код и тело ответа в Redis на 24 часа для мгновенного реплея.',
+      ],
+      [
+        '- **Distributed Idempotency Lock**: Atomically acquire execution lock via Redis `SET key "in_flight" NX EX 120` using request idempotency header.',
+        '- **Concurrent In-Flight Handling**: Emit HTTP 409 Conflict if an identical request is actively processing, preventing dual-charging.',
+        '- **Deterministic Response Replay**: Cache terminal response code, headers, and payload for 24 hours to replay on identical retried keys.',
+      ]
+    ),
+  },
+
+  'graphql-dataloader-batching': {
+    id: 'graphql-dataloader-batching',
+    name: 'GraphqlDataloaderBatchingSkill',
+    displayName: 'GraphQL DataLoader Batching & Memoization',
+    categoryId: 'coding',
+    description: 'Eliminates GraphQL N+1 execution bottlenecks by coalescing individual field resolver queries into single batched database lookups.',
+    tags: ['coding', 'graphql', 'dataloader', 'batching', 'n-plus-one', 'performance'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Пакетная Загрузка GraphQL через DataLoader (Устранение N+1)',
+      'GraphQL DataLoader Batching & Per-Request Memoization Protocol',
+      [
+        '- **Пакетная функция загрузки**: Создавать DataLoader с функцией `batchFunction(keys: readonly K[]): Promise<V[]>`, возвращающей результаты в том же порядке.',
+        '- **Изоляция контекста запроса**: Создавать новые экземпляры DataLoader на каждый входящий HTTP-запрос для предотвращения утечек данных между пользователями.',
+        '- **Мемоизация в рамках запроса**: Использовать встроенный кэш DataLoader для устранения повторных запросов одного и того же ID за один запрос.',
+      ],
+      [
+        '- **Batched Resolution Contract**: Construct DataLoaders pairing keys to values in exact 1:1 order: `batchFn(keys) => Promise<values>`.',
+        '- **Per-Request Context Lifecycle**: Instantiate fresh DataLoaders on every inbound HTTP context to prevent cross-user data leakage.',
+        '- **Turn-Scoped Memoization**: Leverage DataLoader internal map to eliminate redundant round-trips for shared entity IDs within a request.',
+      ]
+    ),
+  },
+
+  'microfrontend-module-federation': {
+    id: 'microfrontend-module-federation',
+    name: 'MicrofrontendModuleFederationSkill',
+    displayName: 'Webpack / Vite Module Federation Contracts',
+    categoryId: 'coding',
+    description: 'Architects microfrontends via Module Federation with shared singleton dependencies, fallback error boundaries, and SemVer version negotiation.',
+    tags: ['coding', 'microfrontend', 'module-federation', 'webpack', 'vite', 'frontend-architecture'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Архитектура Микрофронтендов (Module Federation)',
+      'Microfrontend Module Federation & Shared Singleton Architecture',
+      [
+        '- **Синглтоны общих библиотек**: Конфигурировать `shared: { react: { singleton: true, requiredVersion: "^19.0.0" } }` для исключения двойной загрузки React.',
+        '- **Изолирующие Error Boundaries**: Оборачивать каждый удаленный модуль (Remote) в локальный `ErrorBoundary` со скелетоном fallback на случай сбоя хоста.',
+        '- **Типизированные контракты модулей**: Экспортировать TypeScript-интерфейсы пропсов удаленных компонентов для предотвращения несовместимости при релизах.',
+      ],
+      [
+        '- **Shared Singleton Dependencies**: Configure shared packages (`react`, `react-dom`) with `singleton: true` and strict `requiredVersion` bounds.',
+        '- **Remote Error Isolation**: Enclose every remote component in a resilient `ErrorBoundary` accompanied by a graceful fallback placeholder.',
+        '- **Typed Remote Contracts**: Publish and consume contract `.d.ts` interfaces ensuring build-time compatibility across decoupled repositories.',
+      ]
+    ),
+  },
+
+  'git-bisect-rebase-hygiene': {
+    id: 'git-bisect-rebase-hygiene',
+    name: 'GitBisectRebaseHygieneSkill',
+    displayName: 'Atomic Git Commits & Automated Bisect Hygiene',
+    categoryId: 'coding',
+    description: 'Enforces atomic conventional commits, interactive rebase squashing, and automated `git bisect run` regression hunting scripts.',
+    tags: ['coding', 'git', 'commits', 'rebase', 'bisect', 'hygiene', 'devops'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Дисциплина Атомарных Коммитов и Автоматический Git Bisect',
+      'Atomic Git Commits & Automated Bisect Regression Protocol',
+      [
+        '- **Атомарность каждого коммита**: Каждый коммит обязан компилироваться и проходить тесты независимо, без смешивания несвязанных изменений.',
+        '- **Conventional Commits**: Использовать строгий префикс `feat:`, `fix:`, `refactor:`, `perf:` с кратким императивным описанием.',
+        '- **Скрипт для `git bisect run`**: Предоставить bash-скрипт с кодом возврата (0 = Good, 1 = Bad, 125 = Skip) для автоматического нахождения коммита-регрессии.',
+      ],
+      [
+        '- **Atomic Commit Invariant**: Every discrete commit must compile and pass tests independently to ensure bisect safety.',
+        '- **Conventional Commit Specification**: Format headers strictly: `type(scope): concise imperative description`.',
+        '- **Automated Bisect Script**: Provide executable shell scripts yielding canonical return codes (0=good, 1=bad, 125=skip) for `git bisect run`.',
+      ]
+    ),
+  },
 };
+

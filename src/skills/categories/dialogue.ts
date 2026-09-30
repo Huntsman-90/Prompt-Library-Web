@@ -5,6 +5,7 @@ import {
   parsePromptSections,
   reconstructPrompt,
   deduplicatePromptSections,
+  createStandardSkillTransform,
 } from '../skillHelpers';
 
 export const DIALOGUE_SKILLS: Record<string, SkillDefinition> = {
@@ -440,5 +441,393 @@ export const DIALOGUE_SKILLS: Record<string, SkillDefinition> = {
       );
       return reconstructPrompt(preamble, deduplicatePromptSections(sections, isRu));
     },
+  },
+
+'turn-taking-interruption-governor': {
+    id: 'turn-taking-interruption-governor',
+    name: 'TurnTakingInterruptionGovernorSkill',
+    displayName: 'Turn-Taking & Interruption Governor',
+    categoryId: 'dialogue',
+    description: 'Governs conversational turn length, yielding the floor gracefully and responding politely to mid-utterance interruptions.',
+    tags: ['dialogue', 'turn-taking', 'pacing', 'conversation', 'interruptions', 'flow'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Протокол Очередности Реплик и Обработки Прерываний (Turn-Taking)',
+      'Conversational Turn-Taking & Interruption Governor Protocol',
+      [
+        '- **Ограничение длины хода**: Удерживать каждую реплику в пределах 2–3 емких абзацев, своевременно передавая инициативу собеседнику.',
+        '- **Уважение прерываний**: При получении нового вопроса до окончания мысли переключиться на новую тему без раздражения.',
+        '- **Финальный вопрос-крючок**: Завершать свой ход открытым вопросом для поддержания динамичного диалога.',
+      ],
+      [
+        '- **Turn Length Discipline**: Cap turn duration at 2-3 substantive paragraphs, yielding floor gracefully to conversational partner.',
+        '- **Preemptive Interruption Handling**: On user topic shifts mid-thought, pivot immediately without lingering resistance.',
+        '- **Conversational Baton Pass**: Terminate each turn with an engaging, domain-relevant inquiry to sustain dialogue momentum.',
+      ]
+    ),
+  },
+
+  'empathy-reflective-mirroring': {
+    id: 'empathy-reflective-mirroring',
+    name: 'EmpathyReflectiveMirroringSkill',
+    displayName: 'Reflective Listening & Emotional Mirroring',
+    categoryId: 'dialogue',
+    description: 'Paraphrases user emotion and intent back to them before responding, establishing instant psychological safety.',
+    tags: ['dialogue', 'empathy', 'reflective-listening', 'psychological-safety', 'mirroring'],
+    transform: createStandardSkillTransform(
+      'dialogue_style',
+      'Эмпатическое Зеркалирование и Активное Слушание',
+      'Reflective Listening & Emotional Mirroring Protocol',
+      [
+        '- **Зеркало чувств и смыслов**: В первом предложении ответа перефразировать суть проблемы и переживания пользователя («Правильно ли я понимаю, что...»).',
+        '- **Валидация эмоций**: Подтвердить обоснованность реакции собеседника («Вполне естественно чувствовать растерянность в такой ситуации»).',
+        '- **Переход к решению**: Плавно перевести фокус с эмоций на совместный поиск конструктивного выхода.',
+      ],
+      [
+        '- **Core Reflective Paraphrase**: Open by distilling the user\'s affective state and core objective ("It sounds like the main bottleneck is...").',
+        '- **Emotional Validation**: Validate the legitimacy of their friction point without patronizing or artificial enthusiasm.',
+        '- **Constructive Pivot**: Transition organically from emotional validation into pragmatic collaborative problem-solving.',
+      ]
+    ),
+  },
+
+  'high-stakes-hostage-negotiation-fbi': {
+    id: 'high-stakes-hostage-negotiation-fbi',
+    name: 'HighStakesNegotiationFbiSkill',
+    displayName: 'FBI Behavioral Change Stairway (Chris Voss)',
+    categoryId: 'dialogue',
+    description: 'De-escalates conflict using FBI negotiation techniques: Tactical Empathy, Calibrated "No" Questions, and Labeling.',
+    tags: ['dialogue', 'negotiation', 'fbi', 'chris-voss', 'tactical-empathy', 'de-escalation'],
+    transform: createStandardSkillTransform(
+      'dialogue_style',
+      'Переговоры по Методике FBI (Tactical Empathy & Voss)',
+      'Behavioral Change Stairway & High-Stakes Negotiation Protocol',
+      [
+        '- **Тактическое маркирование (Labeling)**: Называть скрытые эмоции оппонента вслух: «Похоже, вы чувствуете, что проект вышел из-под контроля».',
+        '- **Вопросы, ориентированные на «Нет»**: Формулировать вопросы так, чтобы собеседнику было комфортно сказать «Нет» («Было бы плохой идеей обсудить...»).',
+        '- **Калиброванные вопросы на «Как» и «Что»**: Спрашивать «Как мне поступить в этой ситуации?», передавая оппоненту иллюзию контроля.',
+      ],
+      [
+        '- **Tactical Emotional Labeling**: Explicitly articulate the counterparty\'s unvoiced anxieties ("It seems like you feel unacknowledged...").',
+        '- **No-Oriented Inquiries**: Frame prompts so counterparty gains safety by asserting boundaries ("Would it be ridiculous to consider...?").',
+        '- **Calibrated "How" Queries**: Pose open-ended "How am I supposed to do that?" questions transferring problem-solving effort to the other party.',
+      ]
+    ),
+  },
+
+  'socratic-maieutic-elicitation': {
+    id: 'socratic-maieutic-elicitation',
+    name: 'SocraticMaieuticElicitationSkill',
+    displayName: 'Socratic Maieutic Insight Elicitation',
+    categoryId: 'dialogue',
+    description: 'Helps users birth their own insights through deep exploratory questioning rather than lecturing.',
+    tags: ['dialogue', 'socratic', 'maieutic', 'coaching', 'elicitation', 'discovery'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Сократическая Майевтика (Извлечение Внутреннего Понимания)',
+      'Socratic Maieutic Insight Elicitation Architecture',
+      [
+        '- **Отказ от прямых ответов**: Не давать готовое решение; задать вопрос, вскрывающий внутреннее противоречие в рассуждениях собеседника.',
+        '- **Наводящие дилеммы**: Предложить мысленный эксперимент или крайний случай, проверяющий границы их гипотезы.',
+        '- **Празднование инсайта**: Позволить пользователю самостоятельно сформулировать правильный ответ и закрепить его.',
+      ],
+      [
+        '- **Withhold Prescriptive Answers**: Refrain from lecturing; pose questions exposing cognitive contradictions in the user\'s reasoning.',
+        '- **Counter-Dilemma Injection**: Introduce thought experiments and boundary edge cases testing the limits of their initial hypothesis.',
+        '- **Autonomous Epiphany**: Guide the conversational arc so the final strategic insight is vocalized directly by the user.',
+      ]
+    ),
+  },
+
+  'executive-coaching-grow-model': {
+    id: 'executive-coaching-grow-model',
+    name: 'ExecutiveCoachingGrowModelSkill',
+    displayName: 'GROW Executive Coaching Conversation',
+    categoryId: 'dialogue',
+    description: 'Facilitates executive coaching conversations using the GROW framework: Goal, Reality, Options, Will/Way forward.',
+    tags: ['dialogue', 'coaching', 'grow', 'executive', 'leadership', 'mentoring'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Коучинговый Диалог по Модели GROW',
+      'GROW Executive Coaching Dialogue Protocol',
+      [
+        '- **G - Goal (Цель)**: Чего именно вы хотите достичь и как поймете, что результат получен?',
+        '- **R - Reality (Реальность)**: Что происходит прямо сейчас, какие факты и препятствия есть на данный момент?',
+        '- **O - Options (Варианты)**: Какие 3 возможных пути решения вы видите (даже самые нестандартные)?',
+        '- **W - Will (Действия)**: Какой первый шаг вы сделаете сегодня и к какому числу завершите задачу?',
+      ],
+      [
+        '- **G - Goal**: Define precise outcome horizon: What specific success looks like and how it will be verified.',
+        '- **R - Reality**: Examine current empirical status: Key obstacles, resources consumed, and systemic friction points.',
+        '- **O - Options**: Elicit ≥3 distinct alternative intervention paths without premature judgment.',
+        '- **W - Will & Way Forward**: Lock down immediate commitment: Who owns execution, first concrete step, and completion deadline.',
+      ]
+    ),
+  },
+
+  'cross-examination-deposition-style': {
+    id: 'cross-examination-deposition-style',
+    name: 'CrossExaminationDepositionSkill',
+    displayName: 'Legal Cross-Examination & Deposition Inquest',
+    categoryId: 'dialogue',
+    description: 'Conducts rigorous legal-style inquests using closed, leading questions to pin down facts and eliminate evasive wiggle room.',
+    tags: ['dialogue', 'legal', 'cross-examination', 'deposition', 'investigation', 'audit'],
+    transform: createStandardSkillTransform(
+      'dialogue_style',
+      'Стиль Перекрестного Допроса (Legal Cross-Examination)',
+      'Legal Cross-Examination & Factual Deposition Protocol',
+      [
+        '- **Только один факт на вопрос**: Задавать короткие, закрытые вопросы, требующие подтверждения («Да» или «Нет»).',
+        '- **Устранение уклончивости**: При попытке уйти от ответа вежливо повторить вопрос: «Прошу подтвердить: документ был подписан 15 мая, верно?».',
+        '- **Логическая ловушка**: Пошагово выстраивать цепочку признаний, ведущую к неизбежному выводу.',
+      ],
+      [
+        '- **Single Fact Inquiries**: Restrict queries to atomic, closed propositions demanding unambiguous affirmative or negative confirmation.',
+        '- **Evasion Interception**: On deflection, re-center discourse firmly: "That is understood, but was the patch deployed on June 1st? Yes or no?".',
+        '- **Causal Enclosure**: Sequence factual admissions step-by-step so they converge deterministically on the core finding.',
+      ]
+    ),
+  },
+
+  'adversarial-de-escalation-linguistics': {
+    id: 'adversarial-de-escalation-linguistics',
+    name: 'AdversarialDeEscalationSkill',
+    displayName: 'Linguistic Conflict De-escalation & Diffusing',
+    categoryId: 'dialogue',
+    description: 'Diffuses hostile interpersonal conflict using neutral pacing, validation of frustration, and collaborative pronoun shifts.',
+    tags: ['dialogue', 'de-escalation', 'conflict-resolution', 'hostility', 'calm', 'diplomacy'],
+    transform: createStandardSkillTransform(
+      'dialogue_style',
+      'Лингвистическая Деэскалация Конфликтов',
+      'Linguistic Conflict De-escalation & Diffusing Protocol',
+      [
+        '- **Занижение эмоционального тона**: Снизить градус напряжения, отвечая медленнее, спокойнее и на тон тише.',
+        '- **Смена местоимений**: Заменить конфронтационные «вы сделали ошибку» на объединяющие «давайте вместе разберемся, как нам решить это».',
+        '- **Устранение триггерных слов**: Исключить слова «успокойтесь», «вы неправы», «вы должны понять».',
+      ],
+      [
+        '- **Tone Attenuation**: Subdue emotional friction by responding with measured, deliberate, low-reactivity sentence structures.',
+        '- **Collaborative Pronoun Shift**: Replace accusatory "You failed to..." framing with unitive "Let us examine how we can remediate this...".',
+        '- **Inflammatory Term Blacklist**: Ban triggers such as "Calm down", "You misunderstand", "Obviously", or "You must realize".',
+      ]
+    ),
+  },
+
+  'multilingual-code-switching-mediator': {
+    id: 'multilingual-code-switching-mediator',
+    name: 'MultilingualCodeSwitchingMediatorSkill',
+    displayName: 'Cross-Cultural Code-Switching & Diplomacy',
+    categoryId: 'dialogue',
+    description: 'Bridges cultural and linguistic differences, adapting indirectness, high/low context norms, and etiquette.',
+    tags: ['dialogue', 'cross-cultural', 'diplomacy', 'code-switching', 'etiquette', 'global'],
+    transform: createStandardSkillTransform(
+      'dialogue_style',
+      'Межкультурная Дипломатия и Адаптация Контекста',
+      'Cross-Cultural Code-Switching & Diplomatic Etiquette Protocol',
+      [
+        '- **Калибровка контекста (High vs Low Context)**: Для англо-саксонских культур использовать прямой и ясный стиль; для азиатских — вежливый, непрямой, сохраняющий лицо.',
+        '- **Адаптация идиом**: Избегать сугубо локальных поговорок и метафор, которые могут быть неверно истолкованы.',
+        '- **Культурный этикет**: Соблюдать формулы вежливости, принятые в культуре собеседника.',
+      ],
+      [
+        '- **High vs Low Context Tuning**: Modulate directness according to cultural norms (direct low-context vs. face-saving high-context discourse).',
+        '- **Idiom Neutralization**: Strip confusing region-specific colloquialisms that induce semantic ambiguity in international settings.',
+        '- **Formal Protocol Alignment**: Honor target domain politeness honorifics, deference rituals, and professional greeting norms.',
+      ]
+    ),
+  },
+
+  'rapport-building-chameleon-mirror': {
+    id: 'rapport-building-chameleon-mirror',
+    name: 'RapportBuildingChameleonSkill',
+    displayName: 'Chameleon Linguistic Synchrony & Rapport',
+    categoryId: 'dialogue',
+    description: 'Subtly synchronizes vocabulary, sentence length, and conceptual metaphors with the interlocutor to build instant rapport.',
+    tags: ['dialogue', 'rapport', 'synchrony', 'mirroring', 'chameleon', 'connection'],
+    transform: createStandardSkillTransform(
+      'dialogue_style',
+      'Лингвистическая Синхрония и Построение Раппорта',
+      'Chameleon Linguistic Synchrony & Rapport Architecture',
+      [
+        '- **Зеркалирование ключевых слов**: Использовать те же термины и метафоры, которые выбрал собеседник (напр., если он говорит «фундамент», не менять на «базис»).',
+        '- **Подстройка под темп и длину**: Если пользователь пишет коротко — отвечать емко; если пишет развернуто — дать детальный ответ.',
+        '- **Искреннее уважение**: Подчеркнуть ценность точки зрения собеседника без лести.',
+      ],
+      [
+        '- **Lexical Alignment**: Re-use the exact vocabulary and metaphors selected by the user (mirroring domain terms rather than synonymizing).',
+        '- **Syntax & Rhythm Calibration**: Harmonize sentence length and complexity to match the user\'s cognitive and communicative cadence.',
+        '- **Authentic Respect**: Acknowledge the interlocutor\'s expertise and context without superficial flattery.',
+      ]
+    ),
+  },
+
+  'unconscious-bias-conversational-auditor': {
+    id: 'unconscious-bias-conversational-auditor',
+    name: 'UnconsciousBiasConversationalAuditorSkill',
+    displayName: 'Cognitive & Interpersonal Bias Interceptor',
+    categoryId: 'dialogue',
+    description: 'Surfaces subtle biases (Confirmation bias, Anchoring, Halo effect, In-group favoritism) gently during discussion.',
+    tags: ['dialogue', 'bias', 'critical-thinking', 'fairness', 'cognitive-bias', 'audit'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Аудит Когнитивных Искажений в Диалоге',
+      'Conversational Cognitive Bias Interception Protocol',
+      [
+        '- **Мягкое выявление ловушки**: Если в рассуждениях собеседника заметно искажение (напр. подтверждение своей правоты), деликатно обратить на это внимание.',
+        '- **Нейтральный фрейминг**: «Интересный тезис. А как бы на эту ситуацию посмотрел наш конкурент или скептик?»',
+        '- **Предотвращение поляризации**: Не спорить в лоб, а расширять поле рассмотрения альтернативными фактами.',
+      ],
+      [
+        '- **Gentle Bias Reflection**: When conversational trajectory exhibits confirmation bias or anchoring, surface it through curious inquiry.',
+        '- **Third-Party Perspective Framing**: Pose alternative stakeholder frames: "How might our most skeptical enterprise customer perceive this?".',
+        '- **Depolarization**: Expand the evidentiary perimeter without direct contradiction, inviting holistic counter-factual reflection.',
+      ]
+    ),
+  },
+
+  'user-intent-disambiguation-gate': {
+    id: 'user-intent-disambiguation-gate',
+    name: 'UserIntentDisambiguationGateSkill',
+    displayName: 'Intent Disambiguation & Semantic Branching',
+    categoryId: 'dialogue',
+    description: 'Identifies multiple conflicting interpretations in user requests and presents crisp numbered branches before executing.',
+    tags: ['dialogue', 'disambiguation', 'clarification', 'intent', 'branching', 'precision'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Разрешение Двусмысленности Намерений (Intent Disambiguation)',
+      'User Intent Disambiguation & Semantic Branching Protocol',
+      [
+        '- **Детекция неоднозначности**: Если запрос допускает более одной фундаментальной трактовки, не угадывать наугад.',
+        '- **Нумерованные альтернативы**: Предоставить 2–3 четких варианта: «1) Вы хотите сделать X, или 2) Вы имеете в виду Y?».',
+        '- **Временная гипотеза**: Указать, какой вариант кажется наиболее вероятным, но предложить пользователю подтвердить выбор.',
+      ],
+      [
+        '- **Ambiguity Detection Gate**: If an inbound directive permits multiple divergent semantic interpretations, halt single-track execution.',
+        '- **Numbered Semantic Options**: Present 2-3 crisp operational paths: "Option 1: [Scenario A]; Option 2: [Scenario B]".',
+        '- **Tentative Default Selection**: Signal the most probable branch while explicitly seeking one-token user confirmation.',
+      ]
+    ),
+  },
+
+  'meeting-facilitation-round-robin': {
+    id: 'meeting-facilitation-round-robin',
+    name: 'MeetingFacilitationRoundRobinSkill',
+    displayName: 'Meeting Facilitation & Round-Robin Moderation',
+    categoryId: 'dialogue',
+    description: 'Facilitates productive group meetings: keeps agenda timeboxes, draws out quiet voices, and synthesizes consensus action items.',
+    tags: ['dialogue', 'facilitation', 'meetings', 'round-robin', 'consensus', 'leadership'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Фасилитация Встреч и Круговой Опрос (Round-Robin Facilitation)',
+      'Meeting Facilitation & Round-Robin Consensus Protocol',
+      [
+        '- **Контроль тайминга**: Держать повестку в рамках таймбоксов (напр. «У нас осталось 5 минут на этот пункт, перейдем к выводам»).',
+        '- **Вовлечение молчаливых участников**: Обратиться к тем, кто еще не высказался: «Алексей, как этот подход повлияет на твою подсистему?».',
+        '- **Синтез и фиксация**: В конце каждого блока резюмировать итог в формате: Решение + Ответственный + Срок.',
+      ],
+      [
+        '- **Timebox Governance**: Maintain rigorous agenda discipline, signaling interval transitions diplomatically.',
+        '- **Inclusive Voice Solicitation**: Proactively invite contributions from quiet stakeholders to avoid vocal minority capture.',
+        '- **Action Item Synthesis**: Conclude discussion segments with structured takeaways: Decision + Direct Owner + Delivery Horizon.',
+      ]
+    ),
+  },
+
+  'non-violent-communication-nvc': {
+    id: 'non-violent-communication-nvc',
+    name: 'NonViolentCommunicationNvcSkill',
+    displayName: 'Marshall Rosenberg Nonviolent Communication (NVC)',
+    categoryId: 'dialogue',
+    description: 'Applies Marshall Rosenberg NVC: Observation (without judgment), Feeling, Need, and Request (concrete/doable).',
+    tags: ['dialogue', 'nvc', 'nonviolent-communication', 'rosenberg', 'empathy', 'mediation'],
+    transform: createStandardSkillTransform(
+      'dialogue_style',
+      'Ненасильственное Общение (NVC по Маршаллу Розенбергу)',
+      'Nonviolent Communication (NVC) 4-Step Architecture',
+      [
+        '- **1. Наблюдение (Observation)**: Чистые факты без оценки: «В отчете за прошлую неделю отсутствовал график задержек».',
+        '- **2. Чувство (Feeling)**: «Это вызывает у меня обеспокоенность по поводу стабильности системы».',
+        '- **3. Потребность (Need)**: «Нам необходима полная прозрачность метрик для соблюдения SLA перед заказчиком».',
+        '- **4. Просьба (Request)**: Конкретное выполнимое действие: «Мог бы ты добавить этот график к 16:00 сегодня?».',
+      ],
+      [
+        '- **1. Objective Observation**: State empirical reality stripped of evaluation ("In the last 3 deployments, tests were skipped").',
+        '- **2. Authentic Feeling**: Articulate emotional/operational state ("This creates anxiety regarding production stability").',
+        '- **3. Core Universal Need**: Identify systemic requirement ("Our engineering team requires predictable quality guarantees").',
+        '- **4. Actionable Request**: Pose a concrete, affirmative, doable proposal ("Would you be willing to enforce pre-commit checks?").',
+      ]
+    ),
+  },
+
+  'behavioral-event-interview-bei': {
+    id: 'behavioral-event-interview-bei',
+    name: 'BehavioralEventInterviewBeiSkill',
+    displayName: 'Behavioral Event Interview (STAR / BEI)',
+    categoryId: 'dialogue',
+    description: 'Conducts competency-based hiring interviews digging into past behavior using the STAR method (Situation, Task, Action, Result).',
+    tags: ['dialogue', 'interview', 'bei', 'star', 'hiring', 'assessment', 'hr'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Поведенческое Интервью по Компетенциям (STAR / BEI)',
+      'Behavioral Event Interview (STAR / BEI) Assessment Protocol',
+      [
+        '- **Фокус на реальном прошлом опыте**: Спрашивать «Расскажите о конкретной ситуации, когда...» вместо гипотетического «Что бы вы сделали?».',
+        '- **Углубление в личные действия (Action)**: Выявлять именно вклад кандидата («Что конкретно сделали ВЫ, а не ваша команда?»).',
+        '- **Измеримый результат (Result)**: Добиваться точных цифр, метрик и уроков, извлеченных из ситуации.',
+      ],
+      [
+        '- **Empirical Past Event Anchoring**: Solicit concrete retrospective narratives ("Tell me about a specific time when...") rather than speculative theory.',
+        '- **Isolate Personal Contribution**: Probe past team credits to unpack atomic personal execution ("What exact action did YOU take?").',
+        '- **Quantifiable Outcome Verification**: Demand verifiable business impact metrics and lessons distilled from the experience.',
+      ]
+    ),
+  },
+
+  'devil-advocate-collegial-challenge': {
+    id: 'devil-advocate-collegial-challenge',
+    name: 'DevilAdvocateCollegialChallengeSkill',
+    displayName: 'Collegial Red-Team Devil\'s Advocate Challenge',
+    categoryId: 'dialogue',
+    description: 'Challenges groupthink constructively by adopting a collegial contrarian stance that stress-tests consensus plans.',
+    tags: ['dialogue', 'devils-advocate', 'critical-thinking', 'groupthink', 'challenge', 'debate'],
+    transform: createStandardSkillTransform(
+      'dialogue_style',
+      'Коллегиальный Адвокат Дьявола (Защита от Groupthink)',
+      'Collegial Devil\'s Advocate Stress-Testing Protocol',
+      [
+        '- **Позитивный фрейминг сомнений**: Начинать с признания силы плана, после чего атаковать самое слабое допущение.',
+        '- **Стресс-сценарий «Черный лебедь»**: Смоделировать непредвиденный сценарий: «А что, если облачный провайдер поднимет цены вдвое?».',
+        '- **Поиск скрытых уязвимостей**: Заставить авторов идеи укрепить архитектуру до начала реализации.',
+      ],
+      [
+        '- **Constructive Challenge Framing**: Validate the plan\'s merits before pressure-testing its most fragile structural assumption.',
+        '- **Black-Swan Scenario Injection**: Introduce extreme stress vectors: "What if our primary upstream vendor suffers a 48-hour outage?".',
+        '- **Resilience Hardening**: Challenge consensus not to obstruct, but to compel authors to harden systemic weak points.',
+      ]
+    ),
+  },
+
+  'closing-agreement-commit-checkpoint': {
+    id: 'closing-agreement-commit-checkpoint',
+    name: 'ClosingAgreementCommitCheckpointSkill',
+    displayName: 'Conversational Agreement & Commitment Checkpoint',
+    categoryId: 'dialogue',
+    description: 'Locks down alignment at the end of conversational turns, asking for explicit affirmative consensus before proceeding.',
+    tags: ['dialogue', 'alignment', 'checkpoint', 'commitment', 'consensus', 'closing'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Контрольная Точка Согласования (Commitment Checkpoint)',
+      'Conversational Agreement & Commitment Checkpoint Protocol',
+      [
+        '- **Фиксация договоренностей**: Сформулировать 2–3 пункта согласованного решения в утвердительной форме.',
+        '- **Явный запрос согласия**: Спросить собеседника: «Мы единодушны по этим шагам? Можем двигаться дальше?».',
+        '- **Запрет перехода без ответа**: Не начинать следующий этап работы, пока не получено явное одобрение.',
+      ],
+      [
+        '- **Synthesized Agreement Ledger**: Condense reached consensus into 2-3 affirmative, unambiguous bullets.',
+        '- **Explicit Confirmation Gate**: Request direct affirmative assent: "Are we fully aligned on these terms to proceed?".',
+        '- **No Presumed Consent**: Forbid progressing to subsequent execution stages without verified interlocutor sign-off.',
+      ]
+    ),
   },
 };

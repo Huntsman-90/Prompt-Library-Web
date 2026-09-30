@@ -129,10 +129,19 @@ export interface ParsedSection {
   lines: string[];
   semanticType:
     | 'role'
+    | 'role_directive'
     | 'context'
+    | 'context_directive'
     | 'protocol'
+    | 'process_directive'
     | 'constraints'
+    | 'compliance_directive'
+    | 'guardrail_directive'
+    | 'behavior_directive'
     | 'output_format'
+    | 'structural_directive'
+    | 'writing_style'
+    | 'dialogue_style'
     | 'variables'
     | 'examples'
     | 'domain_specific';

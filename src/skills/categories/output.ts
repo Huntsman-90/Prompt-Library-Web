@@ -5,6 +5,7 @@ import {
   parsePromptSections,
   reconstructPrompt,
   deduplicatePromptSections,
+  createStandardSkillTransform,
 } from '../skillHelpers';
 
 export const OUTPUT_SKILLS: Record<string, SkillDefinition> = {
@@ -441,4 +442,389 @@ export const OUTPUT_SKILLS: Record<string, SkillDefinition> = {
       return reconstructPrompt(preamble, deduplicatePromptSections(sections, isRu));
     },
   },
+
+  'streaming-sse-event-stream': {
+    id: 'streaming-sse-event-stream',
+    name: 'StreamingSseEventStreamSkill',
+    displayName: 'Server-Sent Events (SSE) Protocol Stream',
+    categoryId: 'output',
+    description: 'Emits standard SSE wire protocol (`id`, `event`, `data: {...}\n\n`) for real-time AI and telemetry pipelines.',
+    tags: ['output', 'sse', 'streaming', 'realtime', 'protocol', 'events'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Формат Потока Server-Sent Events (SSE Wire Protocol)',
+      'Server-Sent Events (SSE Wire Protocol) Specification',
+      [
+        '- **Спецификация SSE**: Вывод должен строго соответствовать стандарту W3C Server-Sent Events с разделителем двойного перевода строки `\\n\\n`.',
+        '- **Формат кадров**: Каждый фрейм состоит из полей: `event: <имя_события>\\ndata: <json_payload>\\n\\n` (опционально `id: <seq>`).',
+        '- **Кадр завершения**: По завершении потока передавать терминальный маркер `event: done\\ndata: [DONE]\\n\\n`.',
+      ],
+      [
+        '- **W3C SSE Standard**: Format emitted data strictly conforming to Server-Sent Events wire format delimited by double newlines `\\n\\n`.',
+        '- **Frame Structure**: Every chunk must follow `event: <name>\\ndata: <json_payload>\\n\\n` with optional monotonic `id: <int>` sequence.',
+        '- **Stream Termination**: Emit an explicit terminal sentinel `event: done\\ndata: [DONE]\\n\\n` upon pipeline completion.',
+      ]
+    ),
+  },
+
+  'unified-diff-patch': {
+    id: 'unified-diff-patch',
+    name: 'UnifiedDiffPatchSkill',
+    displayName: 'Strict Unified Diff (Git Patch Format)',
+    categoryId: 'output',
+    description: 'Formats code modifications strictly as standard unified diffs (`diff --git a/... b/...`, `@@ -l,s +l,s @@`) executable via `git apply`.',
+    tags: ['output', 'diff', 'patch', 'git', 'code', 'vcs'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Формат Унифицированного Git Diff Патча',
+      'Strict Unified Diff Patch (Git Apply Compatible)',
+      [
+        '- **Стандарт Git Diff**: Оформить изменения строго в формате unified diff, совместимом с утилитой `git apply` или `patch -p1`.',
+        '- **Ханки и контекст**: Каждый блок изменений должен содержать точный заголовок `@@ -start,count +start,count @@` и 3 строки неизменного контекста.',
+        '- **Запрет пояснений вокруг**: Выдавать только чистый блок патча без разговорного текста до и после кода.',
+      ],
+      [
+        '- **Standard Git Unified Diff**: Output patch strictly compatible with `git apply` or `patch -p1` command-line tools.',
+        '- **Accurate Hunk Headers**: Calculate precise line offsets and lengths in headers `@@ -start,count +start,count @@` with 3 lines of context.',
+        '- **Zero Prose Framing**: Deliver pure diff syntax without conversational introduction or post-hoc commentary.',
+      ]
+    ),
+  },
+
+  'json-api-spec-v1': {
+    id: 'json-api-spec-v1',
+    name: 'JsonApiSpecV1Skill',
+    displayName: 'JSON:API v1.1 Specification Contract',
+    categoryId: 'output',
+    description: 'Encapsulates data models according to strict jsonapi.org standards with `data`, `attributes`, `relationships`, and `included`.',
+    tags: ['output', 'jsonapi', 'spec', 'rest', 'standards', 'api'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Спецификация JSON:API v1.1 (jsonapi.org)',
+      'JSON:API v1.1 Standard Response Architecture',
+      [
+        '- **Структура верхнего уровня**: Использовать корневые ключи `data`, `errors`, `meta`, `jsonapi: { "version": "1.1" }`.',
+        '- **Объекты ресурсов**: Каждый элемент в `data` обязан содержать строковые поля `id` и `type`, а полезную нагрузку группировать в `attributes`.',
+        '- **Связи и включения**: Связи оформлять через ключ `relationships` с идентификаторами ресурсов, а детали связей — в массиве `included`.',
+      ],
+      [
+        '- **Root Envelope**: Enforce strict top-level keys `data`, `errors`, `meta`, and `jsonapi: { "version": "1.1" }`.',
+        '- **Resource Identity**: Every resource object must specify string `id` and `type` fields, encapsulating payload fields within `attributes`.',
+        '- **Compound Documents**: Model foreign keys under `relationships` and resolve full entity representations inside the `included` array.',
+      ]
+    ),
+  },
+
+  'apache-avro-schema': {
+    id: 'apache-avro-schema',
+    name: 'ApacheAvroSchemaSkill',
+    displayName: 'Apache Avro Binary Schema Definition',
+    categoryId: 'output',
+    description: 'Generates valid Apache Avro JSON schema specifications for Kafka pipelines with type compatibility and docstrings.',
+    tags: ['output', 'avro', 'schema', 'kafka', 'streaming', 'data-engineering'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Спецификация Схемы Apache Avro (.avsc)',
+      'Apache Avro Schema Definition (.avsc) Specification',
+      [
+        '- **Корневой контракт**: Формат схемы `type: "record"`, с указанием полного `namespace` и понятного `name`.',
+        '- **Типизация полей**: Каждое поле в массиве `fields` должно иметь `name`, `type` (с поддержкой union для null), `doc` и значение по умолчанию `default`.',
+        '- **Эволюция схем**: Проектировать поля так, чтобы гарантировать обратную совместимость (Backward Compatibility) в Kafka Schema Registry.',
+      ],
+      [
+        '- **Avro Record Envelope**: Declare `type: "record"`, fully qualified `namespace`, and canonical record `name`.',
+        '- **Field Signatures**: Each field in `fields` must feature explicit `name`, `type` (including `["null", type]` unions), `doc`, and safe `default`.',
+        '- **Evolution Guarantees**: Design schema fields to guarantee strict Backward Compatibility in Schema Registries.',
+      ]
+    ),
+  },
+
+  'csv-tsv-tabular-rfc4180': {
+    id: 'csv-tsv-tabular-rfc4180',
+    name: 'CsvTsvTabularRfc4180Skill',
+    displayName: 'RFC 4180 Compliant CSV / TSV Matrix',
+    categoryId: 'output',
+    description: 'Formats high-integrity tabular exports strictly conforming to RFC 4180 with proper quotation, escaping, and line breaks.',
+    tags: ['output', 'csv', 'tsv', 'rfc4180', 'tabular', 'spreadsheet'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Формат Табличных Данных CSV по RFC 4180',
+      'RFC 4180 Compliant Tabular CSV / TSV Format',
+      [
+        '- **Стандарт RFC 4180**: Первая строка — точные названия колонок. Разделитель полей — запятая `,` (или табуляция `\\t` для TSV).',
+        '- **Правила экранирования**: Поля, содержащие запятые, переносы строк или кавычки, обязательно заключать в двойные кавычки `""`. Внутренние кавычки дублировать `""`.',
+        '- **Одинаковое число столбцов**: Каждая строка обязана содержать ровно такое же количество колонок, как и заголовок.',
+      ],
+      [
+        '- **RFC 4180 Compliance**: Header row mandatory with unambiguous column keys. Standard comma delimiter (or tab for TSV).',
+        '- **Quotation & Escaping Rules**: Enclose fields containing delimiters, newlines, or double quotes in `""`. Escape inner quotes as `""`.',
+        '- **Column Parity Invariant**: Every emitted data row must contain the exact column count established by the header.',
+      ]
+    ),
+  },
+
+  'postman-collection-v2': {
+    id: 'postman-collection-v2',
+    name: 'PostmanCollectionV2Skill',
+    displayName: 'Postman Collection v2.1.0 Export',
+    categoryId: 'output',
+    description: 'Generates importable Postman Collection v2.1.0 JSON payloads with pre-request scripts, tests, headers, and body mocks.',
+    tags: ['output', 'postman', 'api', 'testing', 'http', 'collection'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Спецификация Коллекции Postman v2.1.0',
+      'Postman Collection v2.1.0 Specification',
+      [
+        '- **Схема v2.1.0**: Использовать `schema: "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"` в объекте `info`.',
+        '- **Структура запросов**: Группировать эндпоинты по папкам в `item`, задавать метод, заголовки, query-параметры и тело запроса `raw` (JSON).',
+        '- **Тестовые скрипты**: Добавлять в `event` тесты `pm.test(...)` на статус 200/201, валидацию времени ответа и JSON-схемы.',
+      ],
+      [
+        '- **Schema Declaration**: Anchor schema as `https://schema.getpostman.com/json/collection/v2.1.0/collection.json` in root `info`.',
+        '- **Request Item Hierarchy**: Group endpoints logically inside `item` arrays with parameterized `url`, headers, and `raw` JSON bodies.',
+        '- **Automated Assertions**: Embed `pm.test(...)` assertions in the `test` event array validating status codes and schema conformance.',
+      ]
+    ),
+  },
+
+  'cron-crontab-schedule': {
+    id: 'cron-crontab-schedule',
+    name: 'CronCrontabScheduleSkill',
+    displayName: 'POSIX Crontab & Temporal Schedule Matrix',
+    categoryId: 'output',
+    description: 'Outputs strict 5-part POSIX crontab configurations with human-readable schedule explanations and environment directives.',
+    tags: ['output', 'cron', 'crontab', 'devops', 'scheduling', 'automation'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Формат Конфигурации Расписания Crontab',
+      'POSIX Crontab & Temporal Schedule Specification',
+      [
+        '- **Синтаксис Cron**: Формировать строки по 5 полям: `минута час день_месяца месяц день_недели /путь/к/команде >> /лог 2>&1`.',
+        '- **Поясняющие комментарии**: Перед каждой задачей добавлять комментарий с расшифровкой на человеческом языке и таймзоной (UTC).',
+        '- **Переменные окружения**: В начале файла явно задать `SHELL=/bin/bash`, `PATH` и `MAILTO`.',
+      ],
+      [
+        '- **POSIX Cron Syntax**: Structure schedule lines: `minute hour day_of_month month day_of_week /binary >> /log 2>&1`.',
+        '- **Human Schedule Annotation**: Precede every cron directive with a human-readable temporal explanation and UTC timezone declaration.',
+        '- **Environment Header**: Initialize shell environment variables `SHELL=/bin/bash`, `PATH`, and error notifications at top.',
+      ]
+    ),
+  },
+
+  'docker-compose-v3-spec': {
+    id: 'docker-compose-v3-spec',
+    name: 'DockerComposeV3SpecSkill',
+    displayName: 'Production Docker Compose v3 YAML',
+    categoryId: 'output',
+    description: 'Formats container infrastructure as production-grade compose YAML with healthchecks, resource limits, and named networks.',
+    tags: ['output', 'docker', 'compose', 'containers', 'devops', 'yaml'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Спецификация Docker Compose (Production YAML)',
+      'Production Docker Compose v3 YAML Specification',
+      [
+        '- **Стандарты сервисов**: Для каждого сервиса указать `image`, `restart: unless-stopped`, переменные окружения через `${ENV_VAR:-default}`.',
+        '- **Healthcheck и зависимости**: Обязательно настраивать `healthcheck` (test, interval, timeout, retries) и `depends_on` с условием `condition: service_healthy`.',
+        '- **Ограничения ресурсов**: Включать блок `deploy.resources.limits` (cpus, memory) и изолированные пользовательские сети `networks`.',
+      ],
+      [
+        '- **Service Hardening**: Define explicit `image`, `restart: unless-stopped`, and environment declarations via `${ENV_VAR:-default}`.',
+        '- **Healthchecks & Dependencies**: Mandate robust `healthcheck` suites with `depends_on: { service: { condition: service_healthy } }`.',
+        '- **Resource Budgets**: Enforce `deploy.resources.limits` (cpus, memory caps) and isolate inter-service traffic via named `networks`.',
+      ]
+    ),
+  },
+
+  'github-actions-workflow': {
+    id: 'github-actions-workflow',
+    name: 'GithubActionsWorkflowSkill',
+    displayName: 'GitHub Actions CI/CD Workflow YAML',
+    categoryId: 'output',
+    description: 'Formats automated pipelines into strict GitHub Actions workflows with concurrency groups, step caching, and least-privilege tokens.',
+    tags: ['output', 'github-actions', 'ci-cd', 'devops', 'yaml', 'automation'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Спецификация GitHub Actions Workflow (.github/workflows/*.yml)',
+      'GitHub Actions CI/CD Workflow Specification',
+      [
+        '- **Минимальные права доступа**: Явно объявить блок `permissions` на уровне workflow или job (least privilege principle).',
+        '- **Управление конкурентностью**: Задавать `concurrency: group: ${{ github.workflow }}-${{ github.ref }}, cancel-in-progress: true`.',
+        '- **Кэширование и шаги**: Использовать официальные экшены с фиксацией версий (напр. `@v4`), кэширование зависимостей и понятные `name` шагов.',
+      ],
+      [
+        '- **Least Privilege Permissions**: Explicitly specify top-level `permissions` block adhering strictly to minimal token access scopes.',
+        '- **Concurrency Cancellation**: Configure `concurrency` with `cancel-in-progress: true` to prevent redundant parallel pipeline runs.',
+        '- **Version-Pinned Actions**: Pin third-party actions to stable major releases (e.g. `@v4`), configure caching, and label all step names.',
+      ]
+    ),
+  },
+
+  'k8s-manifest-bundle': {
+    id: 'k8s-manifest-bundle',
+    name: 'K8sManifestBundleSkill',
+    displayName: 'Multi-Document Kubernetes Manifest Bundle',
+    categoryId: 'output',
+    description: 'Generates hardened Kubernetes YAML manifests (Deployment, Service, ConfigMap, PDB, Ingress) separated by `---`.',
+    tags: ['output', 'kubernetes', 'k8s', 'manifests', 'devops', 'yaml'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Бандл Манифестов Kubernetes (Multi-Doc YAML)',
+      'Multi-Document Kubernetes Production Manifest Bundle',
+      [
+        '- **Разделитель документов**: Разделять ресурсы манифеста тройным дефисом `---`.',
+        '- **Безопасность PodSecurity**: Настраивать `securityContext` (`runAsNonRoot: true`, `readOnlyRootFilesystem: true`, `drop: ["ALL"]`).',
+        '- **Пробы и ресурсы**: Обязательно указывать `resources.requests` и `resources.limits`, а также `livenessProbe` и `readinessProbe`.',
+      ],
+      [
+        '- **Document Separation**: Delimit discrete Kubernetes manifests using standard `---` document markers.',
+        '- **Pod Security Standards**: Enforce hardened `securityContext` (`runAsNonRoot: true`, `readOnlyRootFilesystem: true`, drop capabilities).',
+        '- **Telemetry Probes & Quotas**: Require explicit `resources.limits/requests` and fine-tuned `livenessProbe` and `readinessProbe` blocks.',
+      ]
+    ),
+  },
+
+  'terraform-hcl-declarative': {
+    id: 'terraform-hcl-declarative',
+    name: 'TerraformHclDeclarativeSkill',
+    displayName: 'Declarative Terraform / OpenTofu HCL',
+    categoryId: 'output',
+    description: 'Formats infrastructure code into declarative Terraform HCL with typed variables, validation rules, locals, and outputs.',
+    tags: ['output', 'terraform', 'hcl', 'opentofu', 'infrastructure', 'iac'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Формат Кода Инфраструктуры Terraform HCL',
+      'Declarative Terraform / OpenTofu HCL Specification',
+      [
+        '- **Модульная структура HCL**: Оформить блоки `terraform { required_version, required_providers }`, `locals`, `variable`, `resource` и `output`.',
+        '- **Типизация и валидация**: Каждая переменная `variable` обязана иметь `type`, `description` и блок `validation { condition, error_message }`.',
+        '- **Понятные Output**: Выходные значения снабжать `description` и пометкой `sensitive = true` при необходимости.',
+      ],
+      [
+        '- **HCL Block Architecture**: Structure codebase across `terraform {}`, `locals {}`, typed `variable {}`, `resource {}`, and `output {}`.',
+        '- **Variable Validation Contracts**: Enforce strict `type` definitions and defensive `validation` blocks with actionable error messages.',
+        '- **Explicit Outputs**: Document all emitted attributes with detailed `description` and `sensitive = true` guards where appropriate.',
+      ]
+    ),
+  },
+
+  'plantuml-state-sequence': {
+    id: 'plantuml-state-sequence',
+    name: 'PlantumlStateSequenceSkill',
+    displayName: 'PlantUML Sequence & State Diagram',
+    categoryId: 'output',
+    description: 'Formats system interactions and lifecycles into valid PlantUML diagrams wrapped in `@startuml` and `@enduml`.',
+    tags: ['output', 'plantuml', 'diagram', 'sequence', 'architecture', 'uml'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Спецификация Диаграммы PlantUML (@startuml ... @enduml)',
+      'PlantUML Sequence & Architecture Diagram Specification',
+      [
+        '- **Маркеры начала и конца**: Обязательно оборачивать диаграмму в `@startuml` и `@enduml`.',
+        '- **Объявление участников**: Явно объявлять акторов и сущности через `actor`, `participant`, `database`, `queue` с краткими алиасами.',
+        '- **Группы и ветвления**: Использовать конструкции `alt / else / end`, `loop`, `opt` и `autonumber` для наглядной нумерации шагов.',
+      ],
+      [
+        '- **PlantUML Delimiters**: Enclose diagram definition strictly within `@startuml` and `@enduml` blocks.',
+        '- **Explicit Entity Declarations**: Declare entities using semantic stereotyping (`actor`, `participant`, `database`, `queue`) with concise aliases.',
+        '- **Interaction Logic**: Leverage `alt / else / end` conditional branches, `loop` wrappers, and `autonumber` for message sequences.',
+      ]
+    ),
+  },
+
+  'adr-architecture-record': {
+    id: 'adr-architecture-record',
+    name: 'AdrArchitectureRecordSkill',
+    displayName: 'Architecture Decision Record (ADR Standard)',
+    categoryId: 'output',
+    description: 'Formats engineering decisions using Michael Nygard ADR format (Title, Status, Context, Decision, Consequences).',
+    tags: ['output', 'adr', 'architecture', 'decision', 'documentation', 'governance'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Формат Architecture Decision Record (ADR)',
+      'Architecture Decision Record (ADR Nygard Standard)',
+      [
+        '- **Стандартные разделы ADR**: Документ должен содержать секции: `1. Title`, `2. Status` (Proposed/Accepted/Deprecated), `3. Context`, `4. Decision`, `5. Consequences`.',
+        '- **Взвешенные последствия**: В разделе Consequences подробно расписать как позитивные результаты, так и негативные компромиссы (trade-offs).',
+        '- **Нейтральный технический тон**: Описывать факты, технические драйверы и архитектурные альтернативы без эмоций.',
+      ],
+      [
+        '- **Nygard ADR Structure**: Organize decision log into: `1. Title`, `2. Status` (Proposed/Accepted/Superseded), `3. Context`, `4. Decision`, `5. Consequences`.',
+        '- **Honest Trade-off Accounting**: Section 5 must explicitly itemize positive architectural wins alongside negative operational burdens.',
+        '- **Objective Engineering Tone**: Ground decision rationale in concrete technical invariants, benchmarks, and architectural constraints.',
+      ]
+    ),
+  },
+
+  'junit-xml-test-report': {
+    id: 'junit-xml-test-report',
+    name: 'JunitXmlTestReportSkill',
+    displayName: 'JUnit XML Test Result Schema',
+    categoryId: 'output',
+    description: 'Formats test execution suites into standard JUnit XML reports consumable by Jenkins, GitLab CI, and GitHub Actions.',
+    tags: ['output', 'junit', 'xml', 'testing', 'ci-cd', 'reporting'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Формат Отчетов Тестирования JUnit XML',
+      'JUnit XML Standard Test Execution Schema',
+      [
+        '- **Корневой элемент XML**: Использовать элемент `<testsuites>` с атрибутами `name`, `tests`, `failures`, `errors`, `time`.',
+        '- **Тестовые кейсы**: Каждый тест представлять тегом `<testcase classname="..." name="..." time="...">`.',
+        '- **Детали ошибок**: При сбое включать дочерний элемент `<failure message="..." type="...">текст стека</failure>`.',
+      ],
+      [
+        '- **Root Testsuites Envelope**: Wrap output in `<testsuites>` with cumulative metrics: `tests`, `failures`, `errors`, and `time` attributes.',
+        '- **Atomic Testcase Nodes**: Render individual test runs via `<testcase classname="..." name="..." time="...">`.',
+        '- **Diagnostic Failure Traces**: For failing cases, embed nested `<failure message="..." type="...">stacktrace</failure>` nodes.',
+      ]
+    ),
+  },
+
+  'toml-configuration-spec': {
+    id: 'toml-configuration-spec',
+    name: 'TomlConfigurationSpecSkill',
+    displayName: 'Strict TOML v1.0 Configuration File',
+    categoryId: 'output',
+    description: 'Formats systems and application settings into clean TOML v1.0 configuration with typed tables, inline arrays, and comments.',
+    tags: ['output', 'toml', 'config', 'rust', 'python', 'settings'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Спецификация Файла Конфигурации TOML v1.0',
+      'Strict TOML v1.0 Configuration Specification',
+      [
+        '- **Таблицы TOML**: Организовать настройки по таблицам `[table]` и массивам таблиц `[[table.array]]`.',
+        '- **Строгая типизация**: Четко разделять строки в кавычках `"str"`, числа `42`, булевы флаги `true/false`, даты ISO `2026-09-30T00:00:00Z`.',
+        '- **Понятные комментарии**: Каждую ключевую секцию сопровождать кратким поясняющим комментарием `# ...`.',
+      ],
+      [
+        '- **TOML Table Scoping**: Group related configuration attributes inside explicit `[section]` tables and `[[array.of.tables]]`.',
+        '- **Type Rigor**: Strictly format strings in quotes, integers/floats without suffixes, booleans as `true/false`, and ISO datetimes.',
+        '- **Inline Explanations**: Annotate non-obvious operational variables with concise `#` inline configuration comments.',
+      ]
+    ),
+  },
+
+  'sarif-security-report': {
+    id: 'sarif-security-report',
+    name: 'SarifSecurityReportSkill',
+    displayName: 'OASIS SARIF v2.1.0 Security Report',
+    categoryId: 'output',
+    description: 'Formats static analysis security findings into standard SARIF JSON v2.1.0 compatible with GitHub Advanced Security.',
+    tags: ['output', 'sarif', 'security', 'vulnerabilities', 'oasis', 'json'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Формат Отчета Безопасности OASIS SARIF v2.1.0',
+      'OASIS SARIF v2.1.0 Static Analysis Security Specification',
+      [
+        '- **Стандарт SARIF**: Формат должен валидироваться по схеме `https://docs.oasis-open.org/sarif/sarif/v2.1.0/cos02/schemas/sarif-schema-2.1.0.json`.',
+        '- **Структура `runs`**: Включать объект `tool.driver` с описанием правил `rules` (id, name, shortDescription, defaultConfiguration.level).',
+        '- **Локация дефектов**: Каждая находка в `results` обязана указывать `ruleId`, `message.text`, и точные физические координаты `locations[].physicalLocation`.',
+      ],
+      [
+        '- **OASIS SARIF Conformance**: Validate schema against canonical OASIS SARIF v2.1.0 specification.',
+        '- **Tool Driver Metadata**: Define rule catalog under `runs[].tool.driver.rules` with severity levels (error, warning, note).',
+        '- **Exact Result Physical Location**: Detail all vulnerabilities inside `results` featuring precise `physicalLocation.artifactLocation` file offsets.',
+      ]
+    ),
+  },
 };
+

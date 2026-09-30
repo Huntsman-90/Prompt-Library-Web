@@ -5,6 +5,7 @@ import {
   parsePromptSections,
   reconstructPrompt,
   deduplicatePromptSections,
+  createStandardSkillTransform,
 } from '../skillHelpers';
 
 export const FRAMEWORKS_SKILLS: Record<string, SkillDefinition> = {
@@ -552,4 +553,383 @@ export const FRAMEWORKS_SKILLS: Record<string, SkillDefinition> = {
       return reconstructPrompt(preamble, deduplicatePromptSections(sections, isRu));
     },
   },
+
+  'rtf-role-task-format': {
+    id: 'rtf-role-task-format',
+    name: 'RtfRoleTaskFormatFramework',
+    displayName: 'RTF (Role, Task, Format) Execution Framework',
+    categoryId: 'frameworks',
+    description: 'Foundational prompt engineering architecture establishing precise persona calibration, operational task, and strict format envelope.',
+    tags: ['frameworks', 'composite', 'rtf', 'role', 'task', 'format', 'standard'],
+    subSkills: ['role-calibration', 'task-decomposition', 'json-schema-strict'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Фреймворк RTF (Role, Task, Format Architecture)',
+      'RTF (Role, Task, Format) Execution Protocol',
+      [
+        '- **1. Роль (Role)**: Точная экспертная калибровка с указанием специализации, стажа и границ ответственности.',
+        '- **2. Задача (Task)**: Детальное описание директивы с явным перечислением входных данных, бизнес-контекста и критериев готовности (DoD).',
+        '- **3. Формат (Format)**: Жесткая спецификация структуры вывода (заголовки, поля JSON/Markdown, ограничения по объему).',
+      ],
+      [
+        '- **1. Calibrated Role**: High-authority persona definition establishing domain seniority and mandate boundaries.',
+        '- **2. Operational Task**: Precise directive statement detailing input parameters, operational context, and Definition of Done.',
+        '- **3. Inviolable Format**: Strict output envelope governing Markdown headers, JSON schemas, and structural boundaries.',
+      ]
+    ),
+  },
+
+  'create-clarity-framework': {
+    id: 'create-clarity-framework',
+    name: 'CreateClarityFramework',
+    displayName: 'CREATE Clarity & Nuance Architecture',
+    categoryId: 'frameworks',
+    description: 'Enterprise framework: Character, Request, Examples, Adjustments, Type, Extras for high-precision deliverables.',
+    tags: ['frameworks', 'composite', 'create', 'prompt-design', 'enterprise', 'clarity'],
+    subSkills: ['role-calibration', 'few-shot-generator', 'executive-brevity-craft'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Комплексный Фреймворк CREATE (Character, Request, Examples)',
+      'CREATE Enterprise Clarity & Nuance Architecture',
+      [
+        '- **C - Character**: Профессиональная роль и мировоззрение эксперта.',
+        '- **R - Request**: Конкретный запрос с декомпозицией шагов.',
+        '- **E - Examples**: Эталонные примеры желаемого уровня качества.',
+        '- **A - Adjustments**: Негативные ограничения и правила калибровки тона.',
+        '- **T - Type**: Тип и синтаксис конечного артефакта.',
+        '- **E - Extras**: Дополнительные сценарии расширения и граничные условия.',
+      ],
+      [
+        '- **C - Character**: Elite domain persona calibration and operational tone.',
+        '- **R - Request**: Explicit directive broken down into deterministic atomic actions.',
+        '- **E - Examples**: Reference gold exemplars setting quality benchmarks.',
+        '- **A - Adjustments**: Negative constraints, guardrails, and voice tuning.',
+        '- **T - Type**: Artifact topology, encoding syntax, and validation schema.',
+        '- **E - Extras**: Edge conditions, follow-up extensions, and contingency branches.',
+      ]
+    ),
+  },
+
+  'ape-action-purpose-expectation': {
+    id: 'ape-action-purpose-expectation',
+    name: 'ApeActionPurposeExpectationFramework',
+    displayName: 'APE (Action, Purpose, Expectation) Framework',
+    categoryId: 'frameworks',
+    description: 'Outcome-driven framework: specific Action, strategic Purpose, and measurable Expectation metrics.',
+    tags: ['frameworks', 'composite', 'ape', 'action', 'purpose', 'expectation', 'strategy'],
+    subSkills: ['role-calibration', 'task-decomposition', 'clarity-ambiguity-scanner'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Фреймворк APE (Action, Purpose, Expectation)',
+      'APE (Action, Purpose, Expectation) Outcome Framework',
+      [
+        '- **Action**: Какое именно действие должно быть выполнено без абстрактных формулировок.',
+        '- **Purpose**: Стратегическая цель и бизнес-смысл: какую проблему мы решаем и для кого.',
+        '- **Expectation**: Измеримые критерии приемки, формат артефакта и количественные KPI успеха.',
+      ],
+      [
+        '- **Action**: Concrete operational intervention without hand-waving abstractions.',
+        '- **Purpose**: Strategic intent, target user persona, and foundational problem statement.',
+        '- **Expectation**: Quantifiable acceptance criteria, performance bounds, and output specification.',
+      ]
+    ),
+  },
+
+  'trace-task-request-action-context-example': {
+    id: 'trace-task-request-action-context-example',
+    name: 'TraceWorkflowFramework',
+    displayName: 'TRACE Enterprise Operational Workflow Suite',
+    categoryId: 'frameworks',
+    description: 'Enterprise workflow standard: Task, Request, Action, Context, and Exemplars for deterministic team execution.',
+    tags: ['frameworks', 'composite', 'trace', 'workflow', 'operations', 'enterprise'],
+    subSkills: ['role-calibration', 'task-decomposition', 'few-shot-generator'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Фреймворк TRACE (Task, Request, Action, Context, Example)',
+      'TRACE Enterprise Operational Workflow Protocol',
+      [
+        '- **1. Task**: Высокоуровневая производственная задача.',
+        '- **2. Request**: Точные параметры запроса и целевые стейкхолдеры.',
+        '- **3. Action**: Пошаговый алгоритм действий с точками контроля.',
+        '- **4. Context**: Архитектурные ограничения, стек технологий и зависимости.',
+        '- **5. Example**: Эталонный формат готового артефакта.',
+      ],
+      [
+        '- **1. Task**: Overarching operational and technical mission.',
+        '- **2. Request**: Stakeholder specifications and SLA turnaround requirements.',
+        '- **3. Action**: Step-by-step procedural action plan with deterministic verification gates.',
+        '- **4. Context**: Architectural environment, runtime constraints, and system dependencies.',
+        '- **5. Example**: Reference gold deliverable validating artifact topology.',
+      ]
+    ),
+  },
+
+  'tag-task-action-goal': {
+    id: 'tag-task-action-goal',
+    name: 'TagTaskActionGoalFramework',
+    displayName: 'TAG (Task, Action, Goal) High-Velocity Framework',
+    categoryId: 'frameworks',
+    description: 'High-velocity operational triad: atomic Task definition, decisive Action steps, and overarching Goal alignment.',
+    tags: ['frameworks', 'composite', 'tag', 'velocity', 'agile', 'productivity'],
+    subSkills: ['task-decomposition', 'executive-brevity-craft'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Фреймворк TAG (Task, Action, Goal Velocity Protocol)',
+      'TAG (Task, Action, Goal) High-Velocity Framework',
+      [
+        '- **Task**: Четкое определение границ задачи.',
+        '- **Action**: Список конкретных, незамедлительных шагов.',
+        '- **Goal**: Финальное состояние системы и ценность для конечного пользователя.',
+      ],
+      [
+        '- **Task**: Crisp boundary definition of the immediate operational scope.',
+        '- **Action**: Concrete immediate execution steps stripped of procedural delay.',
+        '- **Goal**: Verified end-state system condition and measurable user value.',
+      ]
+    ),
+  },
+
+  'zero-trust-security-review-framework': {
+    id: 'zero-trust-security-review-framework',
+    name: 'ZeroTrustSecurityReviewFramework',
+    displayName: 'Zero-Trust Architecture & Threat Modeling Suite',
+    categoryId: 'frameworks',
+    description: 'End-to-end security architecture: STRIDE threat model, identity boundary verification, mTLS encryption, and audit logs.',
+    tags: ['frameworks', 'composite', 'security', 'zero-trust', 'stride', 'threat-modeling', 'iam'],
+    subSkills: ['role-calibration', 'adversarial-red-teaming', 'fmea-risk-matrix'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Комплексный Фреймворк Архитектуры Zero-Trust (STRIDE Suite)',
+      'Zero-Trust Architecture & STRIDE Threat Modeling Suite',
+      [
+        '- **1. Моделирование угроз STRIDE**: Детальный разбор векторов: Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation of Privilege.',
+        '- **2. Границы доверия и IAM**: Строгая аутентификация каждого запроса (OAuth2 / mTLS / SPIFFE), принцип наименьших привилегий (PoLP).',
+        '- **3. Защита данных**: Шифрование в покое (AES-256) и при передаче (TLS 1.3), изоляция арендаторов в multi-tenant средах.',
+        '- **4. Аудиторский след (SIEM)**: Неизменяемые журналы доступа с корреляцией requestId и алертами на аномалии.',
+      ],
+      [
+        '- **1. STRIDE Threat Matrix**: Systematic evaluation of Spoofing, Tampering, Repudiation, Info Disclosure, DoS, and Privilege Elevation.',
+        '- **2. Trust Boundary & IAM**: Continuous cryptographic authentication per request (OAuth2/mTLS/SPIFFE), least-privilege RBAC/ABAC.',
+        '- **3. Cryptographic Invariants**: AES-256 encryption at rest, mandatory TLS 1.3 in transit, and cryptographic tenant isolation.',
+        '- **4. Telemetry & SIEM Audit**: Immutable audit logging pipelines featuring traceparent correlation and anomaly alerts.',
+      ]
+    ),
+  },
+
+  'gtm-launch-readiness-suite': {
+    id: 'gtm-launch-readiness-suite',
+    name: 'GtmLaunchReadinessSuite',
+    displayName: 'Go-to-Market (GTM) Launch Readiness Suite',
+    categoryId: 'frameworks',
+    description: 'Comprehensive product commercialization: ICP profile, value messaging, pricing tiers, CAC/LTV unit economics, and launch checklist.',
+    tags: ['frameworks', 'composite', 'business', 'gtm', 'product', 'marketing', 'launch'],
+    subSkills: ['role-calibration', 'first-principles-reasoning', 'executive-markdown-table'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Комплексный Фреймворк Запуска Продукта на Рынок (GTM Suite)',
+      'Go-to-Market (GTM) Commercialization & Launch Readiness Suite',
+      [
+        '- **1. Профиль идеального клиента (ICP)**: Размер компании, стек, боли, триггеры покупки и ЛПР (Buyer Persona).',
+        '- **2. Карта ценностного предложения (Value Prop)**: Дифференциаторы, позиционирование против конкурентов и доказательства (Proof Points).',
+        '- **3. Модель монетизации**: Тарифная сетка, упаковка фич, метрики юнит-экономики (CAC, LTV, Payback Period).',
+        '- **4. Чек-лист готовности к запуску**: Матрица задач по каналам (Product, Sales, Marketing, Support, Legal) с датами T-30, T-0, T+30.',
+      ],
+      [
+        '- **1. Ideal Customer Profile (ICP)**: Firmographics, technology stack, acute pain drivers, and decision-maker psychographics.',
+        '- **2. Value Positioning Matrix**: Defensible differentiators against incumbents, category creation thesis, and empirical proof points.',
+        '- **3. Monetization & Packaging**: Pricing tiers, packaging fences, and unit economic models (CAC, LTV, Payback horizon).',
+        '- **4. Launch Readiness Playbook**: Cross-functional checklist across Product, Sales, Support, and Legal across T-30, T-0, and T+30 milestones.',
+      ]
+    ),
+  },
+
+  'dddd-domain-driven-design-framework': {
+    id: 'dddd-domain-driven-design-framework',
+    name: 'DdddDomainDrivenDesignFramework',
+    displayName: 'Domain-Driven Design (DDD) Enterprise Blueprint',
+    categoryId: 'frameworks',
+    description: 'Strategic DDD framework: Ubiquitous Language glossary, Bounded Context map, Aggregate Roots, Domain Events, and Anti-Corruption Layer.',
+    tags: ['frameworks', 'composite', 'ddd', 'architecture', 'domain-driven', 'microservices'],
+    subSkills: ['role-calibration', 'type-safety-contracts', 'mermaid-diagram-suite'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Фреймворк Предметно-Ориентированного Проектирования (DDD Suite)',
+      'Domain-Driven Design (DDD) Strategic Architecture Suite',
+      [
+        '- **1. Единый язык (Ubiquitous Language)**: Глоссарий терминов предметной области с запретом технических жаргонизмов базы данных.',
+        '- **2. Карта ограниченных контекстов (Context Map)**: Разделение домена на поддомены (Core, Supporting, Generic) и типы связей (Upstream/Downstream, ACL).',
+        '- **3. Агрегаты и сущности**: Выделение Aggregate Roots, Entity, Value Object с описанием бизнес-инвариантов.',
+        '- **4. Доменные события (Domain Events)**: Список событий в прошедшем времени (`OrderPlaced`, `PaymentFailed`) и их полезная нагрузка.',
+      ],
+      [
+        '- **1. Ubiquitous Language Glossary**: Strict enterprise domain dictionary bridging business domain experts and software engineers.',
+        '- **2. Strategic Context Mapping**: Subdomain classification (Core, Supporting, Generic) and relationship topologies (Upstream, Downstream, ACL).',
+        '- **3. Aggregates & Invariants**: Boundary definitions for Aggregate Roots, Entities, and immutable Value Objects enforcing transactional invariants.',
+        '- **4. Domain Event Choreography**: Event catalog typed in past-tense notation (`OrderPlaced`, `InvoiceSettled`) with schema payloads.',
+      ]
+    ),
+  },
+
+  'data-contract-mesh-framework': {
+    id: 'data-contract-mesh-framework',
+    name: 'DataContractMeshFramework',
+    displayName: 'Data Mesh Contract & Governance Suite',
+    categoryId: 'frameworks',
+    description: 'Enterprise Data Mesh standard: schema contracts, SLA freshness guarantees, data quality assertions, and lineage documentation.',
+    tags: ['frameworks', 'composite', 'data-mesh', 'data-contract', 'governance', 'analytics'],
+    subSkills: ['role-calibration', 'json-schema-strict', 'sql-ddl-dml-script'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Комплексный Фреймворк Дата-Контрактов (Data Mesh Suite)',
+      'Data Mesh Data Contract & Product Governance Suite',
+      [
+        '- **1. Спецификация контракта**: Полномочия владельца доменного дата-продукта, версия схемы и протокол передачи.',
+        '- **2. Гарантии SLA / SLO**: Максимальная задержка поступления данных (freshness), допустимый процент пропусков и uptime.',
+        '- **3. Проверки качества данных (Data Quality)**: Тесты Great Expectations / dbt (null-check, unique, referential integrity, range tests).',
+        '- **4. Политика изменения схемы**: Правила версионирования (SemVer), аудит обратной совместимости и уведомления потребителей за 30 дней.',
+      ],
+      [
+        '- **1. Data Product Interface**: Domain owner governance, schema versioning, and transport protocol bindings.',
+        '- **2. SLO/SLA Commitments**: Freshness latency ceilings, partition arrival schedules, and availability uptime thresholds.',
+        '- **3. Quality Test Harness**: Executable assertions (nullity, uniqueness, distribution drift, referential integrity).',
+        '- **4. Breaking Change Governance**: Semantic versioning rules, backwards-compatibility regression gates, and 30-day consumer notice policies.',
+      ]
+    ),
+  },
+
+  'api-design-first-governance-suite': {
+    id: 'api-design-first-governance-suite',
+    name: 'ApiDesignFirstGovernanceSuite',
+    displayName: 'API Design-First & OpenAPI Governance Suite',
+    categoryId: 'frameworks',
+    description: 'Enterprise REST/gRPC API governance: resource hierarchy, status code matrix, idempotency headers, error envelopes, and OpenAPI 3.1 contract.',
+    tags: ['frameworks', 'composite', 'api', 'openapi', 'rest', 'governance', 'contracts'],
+    subSkills: ['role-calibration', 'openapi-yaml-spec', 'json-schema-strict'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Комплексный Фреймворк API Design-First (REST & OpenAPI Suite)',
+      'API Design-First & OpenAPI Enterprise Governance Suite',
+      [
+        '- **1. Иерархия ресурсов и URI**: Существительные во множественном числе, вложенность ресурсов не глубже 2 уровней, пагинация (cursor-based).',
+        '- **2. Матрица HTTP-статусов**: Четкое сопоставление исходов (200, 201, 204, 400, 401, 403, 404, 409, 422, 429, 500).',
+        '- **3. Идемпотентность и безопасность**: Использование заголовка `Idempotency-Key` для мутирующих запросов, rate-limiting заголовки.',
+        '- **4. Стандартизированный конверт ошибок**: RFC 7807 Problem Details (`type`, `title`, `status`, `detail`, `instance`, `invalid_params`).',
+      ],
+      [
+        '- **1. Resource Taxonomy & URIs**: Pluralized nouns, maximum 2 nesting levels, and scalable cursor-based pagination.',
+        '- **2. Deterministic Status Code Matrix**: Rigorous mapping across 200/201/204, client faults (400, 401, 403, 404, 409, 422, 429), and 500.',
+        '- **3. Idempotency & Rate Limiting**: `Idempotency-Key` header enforcement for non-safe verbs and standard rate-limiting telemetry.',
+        '- **4. RFC 7807 Problem Details**: Standardized machine-readable error payload (`type`, `title`, `status`, `detail`, `invalid_params`).',
+      ]
+    ),
+  },
+
+  'cost-finops-cloud-optimization-suite': {
+    id: 'cost-finops-cloud-optimization-suite',
+    name: 'CostFinopsCloudOptimizationSuite',
+    displayName: 'Cloud FinOps & Infrastructure Cost Optimization Suite',
+    categoryId: 'frameworks',
+    description: 'Cloud cost governance: waste identification, rightsizing recommendations, reserved/spot instances, and unit cost allocation.',
+    tags: ['frameworks', 'composite', 'finops', 'cloud', 'aws', 'cost-optimization', 'infrastructure'],
+    subSkills: ['role-calibration', 'executive-markdown-table', 'fmea-risk-matrix'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Фреймворк FinOps и Оптимизации Облачных Затрат',
+      'Cloud FinOps & Infrastructure Cost Optimization Suite',
+      [
+        '- **1. Аудит неэффективных ресурсов**: Выявление простаивающих инстансов, неиспользуемых EBS/дисков, забытых snapshot и NAT Gateway трафика.',
+        '- **2. План сайзинга (Rightsizing)**: Конкретные рекомендации по смене семейств машин (напр. переход на Graviton / ARM) с расчетом экономии.',
+        '- **3. Стратегия обязательств**: Моделирование Reserved Instances (RI) и Savings Plans для базовой нагрузки + Spot инстансы для batch-задач.',
+        '- **4. Распределение затрат (Cost Allocation)**: Политика тегирования ресурсов (`Environment`, `CostCenter`, `Owner`) и KPI unit-экономики.',
+      ],
+      [
+        '- **1. Cloud Waste Triage**: Inventory idle compute instances, unattached block storage, orphaned snapshots, and egress telemetry.',
+        '- **2. Rightsizing Playbook**: Workload profiling guiding architecture transitions (e.g. x86 to Graviton ARM) with concrete ROI projections.',
+        '- **3. Commitment Optimization**: Blended baseline commitments (Savings Plans / RIs) combined with opportunistic spot fleets for async compute.',
+        '- **4. Granular Cost Allocation**: Mandatory tagging governance (`Environment`, `Service`, `CostCenter`) tracking unit cost per transaction.',
+      ]
+    ),
+  },
+
+  'accessibility-wcag-audit-suite': {
+    id: 'accessibility-wcag-audit-suite',
+    name: 'AccessibilityWcagAuditSuite',
+    displayName: 'WCAG 2.2 AA Accessibility & Inclusive Design Suite',
+    categoryId: 'frameworks',
+    description: 'Comprehensive digital accessibility audit: perceivable contrast, operable keyboard navigation, understandable semantics, and ARIA patterns.',
+    tags: ['frameworks', 'composite', 'a11y', 'accessibility', 'wcag', 'frontend', 'inclusive-design'],
+    subSkills: ['role-calibration', 'executive-markdown-table', 'code-audit-smells'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Комплексный Фреймворк Доступности WCAG 2.2 AA (A11y Suite)',
+      'WCAG 2.2 AA Accessibility & Inclusive Design Suite',
+      [
+        '- **1. Воспринимаемость (Perceivable)**: Контрастность текста ≥ 4.5:1 (для крупного 3:1), текстовые альтернативы `alt` для всех изображений, субтитры.',
+        '- **2. Управляемость (Operable)**: 100% функционала доступно с клавиатуры (Tab, Enter, Escape, Arrow), видимый фокус, защита от захвата фокуса (focus trap).',
+        '- **3. Понятность (Understandable)**: Язык страницы `lang`, предсказуемая навигация, валидация форм с человеческими ошибками и подсказками.',
+        '- **4. Надежность (Robust / ARIA)**: Корректные роли `role`, состояния `aria-expanded`, `aria-live` для динамических обновлений без визуального спама.',
+      ],
+      [
+        '- **1. Perceivable Standards**: Color contrast ratios ≥ 4.5:1 (3:1 for large text), descriptive `alt` attributes, and screen-reader transcriptions.',
+        '- **2. Operable Keyboard Navigation**: Full tab index traversal, prominent focus rings, keyboard trap avoidance, and skip-to-content links.',
+        '- **3. Understandable Semantics**: Explicit document language attributes, predictable input focus behavior, and inline accessible error recovery.',
+        '- **4. Robust ARIA Integration**: Native HTML5 semantics over custom ARIA, verified `aria-expanded/controls` bindings, and polite `aria-live` regions.',
+      ]
+    ),
+  },
+
+  'rfc-consensus-architecture-suite': {
+    id: 'rfc-consensus-architecture-suite',
+    name: 'RfcConsensusArchitectureSuite',
+    displayName: 'RFC Engineering Consensus & Architectural Suite',
+    categoryId: 'frameworks',
+    description: 'Standard engineering proposal framework: Summary, Motivation, Detailed Design, Trade-offs, Security, and Rollout/Rollback.',
+    tags: ['frameworks', 'composite', 'rfc', 'architecture', 'consensus', 'engineering-standards'],
+    subSkills: ['role-calibration', 'rfc-standard-document', 'first-principles-reasoning'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Комплексный Фреймворк Инженерного Консенсуса RFC (Architecture Suite)',
+      'RFC Engineering Consensus & Architectural Proposal Suite',
+      [
+        '- **1. Мотивация и проблема**: Почему текущее решение не работает, количественные метрики проблемы и цели/не-цели (Non-Goals).',
+        '- **2. Детальный дизайн архитектуры**: Схемы взаимодействия, контракты данных, изменения в БД и обработка сбоев.',
+        '- **3. Рассмотренные альтернативы**: Минимум 2 отвергнутых альтернативных варианта с подробным объяснением, почему они хуже.',
+        '- **4. План развертывания и отката (Canary / Rollback)**: Поэтапный ввод в эксплуатацию (1% -> 10% -> 100%) и триггеры экстренного отката.',
+      ],
+      [
+        '- **1. Strategic Motivation & Non-Goals**: Root systemic bottleneck, quantitative pain metrics, and strict Non-Goals bounding scope.',
+        '- **2. Detailed Technical Design**: Component interaction topology, database schema mutations, failure modes, and concurrency models.',
+        '- **3. Rejected Alternatives Analysis**: Itemize ≥2 alternative architectures accompanied by technical trade-off justifications for rejection.',
+        '- **4. Rollout & Rollback Strategy**: Phased canary deployment milestones (1% -> 10% -> 100%) with automated telemetry rollback tripwires.',
+      ]
+    ),
+  },
+
+  'heuristic-usability-evaluation-suite': {
+    id: 'heuristic-usability-evaluation-suite',
+    name: 'HeuristicUsabilityEvaluationSuite',
+    displayName: 'Jakob Nielsen 10 Heuristics UX Evaluation Suite',
+    categoryId: 'frameworks',
+    description: 'Systematic UX audit against Nielsen\'s 10 usability heuristics with severity scoring (0-4), user journey maps, and wireframe fixes.',
+    tags: ['frameworks', 'composite', 'ux', 'nielsen', 'heuristics', 'usability', 'audit'],
+    subSkills: ['role-calibration', 'executive-markdown-table', 'first-principles-reasoning'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Комплексный Фреймворк Эвристической UX-Оценки Нильсена (10 Heuristics)',
+      'Jakob Nielsen 10 Usability Heuristics Evaluation Suite',
+      [
+        '- **1. Аудит по 10 эвристикам**: Проверка статуса системы, соответствия реальному миру, свободы пользователя, консистентности, защиты от ошибок.',
+        '- **2. Шкала критичности дефектов (Severity 0-4)**: 0 - не проблема, 1 - косметическая, 2 - минорная, 3 - мажорная, 4 - катастрофа юзабилити.',
+        '- **3. Контекст пользовательского пути (Journey Step)**: В какой именно момент сценария пользователь сталкивается с барьером.',
+        '- **4. Практические рекомендации**: Конкретные изменения UI/UX, копирайта и логики взаимодействия для устранения каждой проблемы.',
+      ],
+      [
+        '- **1. 10 Heuristics Audit**: Systematic audit across visibility of status, match with real world, error prevention, recognition over recall, etc.',
+        '- **2. Nielsen Severity Scale (0-4)**: Calibrated defect triage (0 = None, 1 = Cosmetic, 2 = Minor, 3 = Major usability roadblock, 4 = Catastrophic blocker).',
+        '- **3. Journey Stage Pinpointing**: Mapping each identified UX friction point to its exact step in the core user flow.',
+        '- **4. Tactical Redesign Remedies**: Concrete microcopy, layout, and interaction state modifications resolving each violation.',
+      ]
+    ),
+  },
 };
+

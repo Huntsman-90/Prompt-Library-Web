@@ -40,10 +40,7 @@ export interface SkillDefinition {
   transform: (prompt: string, context?: Record<string, any>) => string;
 }
 
-/**
- * Built-in skills registry (350+ skills across all categories)
- */
-export const BUILTIN_SKILLS_REGISTRY: Record<string, SkillDefinition> = {
+const RAW_BUILTIN_SKILLS_REGISTRY: Record<string, any> = {
   ...CORE_SKILLS,
   ...REASONING_SKILLS,
   ...CONTROL_FLOW_SKILLS,
@@ -70,6 +67,24 @@ export const BUILTIN_SKILLS_REGISTRY: Record<string, SkillDefinition> = {
   ...MISCELLANEOUS_SKILLS,
   ...FRAMEWORKS_SKILLS,
 };
+
+/**
+ * Built-in skills registry (760+ skills across all categories)
+ */
+export const BUILTIN_SKILLS_REGISTRY: Record<string, SkillDefinition> = Object.fromEntries(
+  Object.entries(RAW_BUILTIN_SKILLS_REGISTRY).map(([key, raw]) => {
+    const fn = raw.transform || raw.promptTransform || ((p: string) => p);
+    const tags = Array.isArray(raw.tags) ? raw.tags : [];
+    return [
+      key,
+      {
+        ...raw,
+        tags,
+        transform: fn,
+      } as SkillDefinition,
+    ];
+  })
+);
 
 // Initialize user skills from storage
 if (typeof window !== 'undefined') {

@@ -5,6 +5,7 @@ import {
   parsePromptSections,
   reconstructPrompt,
   deduplicatePromptSections,
+  createStandardSkillTransform,
 } from '../skillHelpers';
 
 export const AGENTIC_SKILLS: Record<string, SkillDefinition> = {
@@ -440,5 +441,437 @@ export const AGENTIC_SKILLS: Record<string, SkillDefinition> = {
       );
       return reconstructPrompt(preamble, deduplicatePromptSections(sections, isRu));
     },
+  },
+
+  'reflexion-episodic-memory': {
+    id: 'reflexion-episodic-memory',
+    name: 'ReflexionEpisodicMemorySkill',
+    displayName: 'Reflexion Episodic Memory & Learning',
+    categoryId: 'agentic',
+    description: 'Maintains an episodic memory buffer of verbal post-trial reflections to eliminate repeated exploration mistakes.',
+    tags: ['agentic', 'reflexion', 'memory', 'reinforcement', 'learning', 'self-reflection'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Эпизодическая Память Ошибок и Саморефлексия (Reflexion)',
+      'Reflexion Episodic Memory & Self-Learning Protocol',
+      [
+        '- **Вербальная рефлексия после сбоя**: При неудачном выполнении подзадачи сгенерировать вербальное заключение: почему действие не сработало и что нужно изменить.',
+        '- **Буфер эпизодической памяти**: Сохранить выводы в краткосрочном буфере рефлексий и проверять их перед каждым новым действием.',
+        '- **Запрет повторных ошибок**: Категорически запрещено повторять траекторию вызова инструментов, которая уже привела к ошибке в текущей сессии.',
+      ],
+      [
+        '- **Post-Failure Verbal Reflection**: On tool error or hallucinated goal delta, generate explicit verbal self-critique detailing why the hypothesis failed.',
+        '- **Episodic Working Buffer**: Maintain reflections in an active memory scratchpad consultable before selecting subsequent actions.',
+        '- **Eradicate Repetitive Failures**: Strictly forbid re-executing action trajectories that previously yielded failure signatures in the current trajectory.',
+      ]
+    ),
+  },
+
+  'map-reduce-subagent-dispatch': {
+    id: 'map-reduce-subagent-dispatch',
+    name: 'MapReduceSubagentDispatchSkill',
+    displayName: 'Map-Reduce Parallel Subagent Swarm',
+    categoryId: 'agentic',
+    description: 'Splits massive multi-item jobs into concurrent worker subagents, joining and deduplicating outputs via a master reducer.',
+    tags: ['agentic', 'map-reduce', 'parallel', 'subagents', 'swarm', 'concurrency'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Параллельный Диспетчер Под-Агентов (Map-Reduce)',
+      'Map-Reduce Subagent Dispatch Protocol',
+      [
+        '- **Фаза Map (Разделение)**: Разбить массив входных данных (файлы, репозитории, сущности) на изолированные независимые чанки.',
+        '- **Изолированное исполнение воркеров**: Назначить на каждый чанк отдельный экземпляр под-агента со своим контекстом и строгой схемой возврата.',
+        '- **Фаза Reduce (Сборка и Дедупликация)**: Агент-редуктор собирает частичные результаты, устраняет дубликаты и синтезирует согласованный финальный артефакт.',
+      ],
+      [
+        '- **Map Stage Chunk Partitioning**: Decompose monolithic batch datasets (files, endpoints, codebase repos) into isolated atomic chunks.',
+        '- **Ephemeral Worker Isolation**: Dispatch concurrent, context-isolated worker agents per chunk enforcing uniform JSON output contracts.',
+        '- **Reduce Consolidation**: Master reducer agent ingests worker streams, performs conflict resolution, deduplicates insights, and emits a synthesized deliverable.',
+      ]
+    ),
+  },
+
+  'agentic-tool-registry-pruning': {
+    id: 'agentic-tool-registry-pruning',
+    name: 'AgenticToolRegistryPruningSkill',
+    displayName: 'Dynamic Tool Registry Pruning & Selection',
+    categoryId: 'agentic',
+    description: 'Filters massive tool catalogues, dynamically injecting only the top-K relevant tool schemas into context per turn.',
+    tags: ['agentic', 'tool-selection', 'pruning', 'context-management', 'schema'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Динамический Отбор и Фильтрация Инструментов (Tool Pruning)',
+      'Dynamic Tool Registry Pruning Protocol',
+      [
+        '- **Релевантный отбор Top-K**: Из каталога десятков инструментов отбирать только 3–5 наиболее подходящих для текущего шага.',
+        '- **Предотвращение размытия внимания**: Исключить нерелевантные схемы вызовов, чтобы избежать галлюцинаций аргументов и переполнения контекста.',
+        '- **Обоснование выбора**: Агент должен кратко аргументировать, почему для шага выбран именно этот инструмент из доступных.',
+      ],
+      [
+        '- **Top-K Tool Injection**: From comprehensive tool libraries, dynamically retrieve and inject only the 3-5 most pertinent schemas for the immediate step.',
+        '- **Context Bloat Prevention**: Shield LLM attention from tool clutter to minimize parameter hallucinations and schema degradation.',
+        '- **Invocation Rationale**: Require the agent to explicitly state tool selection logic before dispatching payloads.',
+      ]
+    ),
+  },
+
+  'critique-revise-loop-actor': {
+    id: 'critique-revise-loop-actor',
+    name: 'CritiqueReviseLoopActorSkill',
+    displayName: 'Actor-Critic Dual-Agent Revision Loop',
+    categoryId: 'agentic',
+    description: 'Decouples output generation from adversarial critique, looping revisions until the Critic signs off.',
+    tags: ['agentic', 'actor-critic', 'revision', 'dual-agent', 'quality-gate'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Двухагентный Контур «Генератор — Критик» (Actor-Critic)',
+      'Actor-Critic Dual-Agent Revision Loop Protocol',
+      [
+        '- **Разделение ролей**: Роль Актёра генерирует решение; Роль Критика выступает враждебным аудитором, выискивающим ошибки и уязвимости.',
+        '- **Строгие критерии согласования**: Актёр не может закрыть задачу, пока Критик не выставит вердикт «Approved» по всем критериям безопасности и качества.',
+        '- **Итеративная доработка**: При замечаниях Критика Актёр получает структурированный перечень дефектов и переделывает решение.',
+      ],
+      [
+        '- **Role Bifurcation**: Actor entity synthesizes candidate solutions; Critic entity acts as an adversarial auditor scrutinizing for flaws.',
+        '- **Sign-off Quality Gate**: The agent cannot declare task completion until the Critic issues a formal "Approved" clearance token.',
+        '- **Targeted Rectification**: On rejection, Critic outputs machine-readable bug vectors that the Actor systematically resolves in the next turn.',
+      ]
+    ),
+  },
+
+  'conversational-state-machine': {
+    id: 'conversational-state-machine',
+    name: 'ConversationalStateMachineSkill',
+    displayName: 'Deterministic Finite State Machine (FSM)',
+    categoryId: 'agentic',
+    description: 'Constrains multi-turn autonomous dialogs to explicit deterministic states (Init -> Intake -> Verification -> Execution -> Final).',
+    tags: ['agentic', 'fsm', 'state-machine', 'dialogue', 'deterministic', 'workflow'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Конечный Автомат Диалога (Deterministic FSM)',
+      'Deterministic Finite State Machine (FSM) Protocol',
+      [
+        '- **Спецификация состояний**: Агент обязан находиться в одном из состояний: `INIT`, `INFO_GATHERING`, `VALIDATION`, `EXECUTION`, `TERMINATED`.',
+        '- **Правила переходов (Transitions)**: Переход в следующее состояние возможен только при выполнении строгих входных условий (Guard Conditions).',
+        '- **Маркировка состояния**: Каждый ответ агента должен начинаться с мета-тега текущего состояния (напр. `[STATE: VALIDATION]`).',
+      ],
+      [
+        '- **Discrete State Topology**: Constrain execution to explicit states: `INIT`, `INTAKE`, `VERIFICATION`, `MUTATION`, `FINALIZED`.',
+        '- **Guard Condition Transitions**: State transitions require 100% satisfaction of formal preconditions (e.g. all parameters validated).',
+        '- **State Header Annotation**: Every agent emission must begin with its active state marker (e.g. `[CURRENT_STATE: VERIFICATION]`).',
+      ]
+    ),
+  },
+
+  'budget-constrained-agent-cutoff': {
+    id: 'budget-constrained-agent-cutoff',
+    name: 'BudgetConstrainedAgentCutoffSkill',
+    displayName: 'Token & Monetary Execution Budget Guard',
+    categoryId: 'agentic',
+    description: 'Enforces hard token counters and execution step ceilings, triggering graceful best-effort consolidation at 90% budget.',
+    tags: ['agentic', 'budget', 'token-limit', 'circuit-breaker', 'cost-control'],
+    transform: createStandardSkillTransform(
+      'constraints',
+      'Контроль Бюджета Токенов и Лимита Шагов (Budget Guard)',
+      'Execution Budget & Step Ceiling Protocol',
+      [
+        '- **Лимит итераций и токенов**: Зафиксировать жесткий лимит: максимум N шагов (напр. 8) или X токенов.',
+        '- **Порог 90% (Graceful Wind-Down)**: При достижении 90% лимита агент обязан прекратить исследовательские вызовы и собрать лучший промежуточный ответ.',
+        '- **Прозрачность расходов**: В конце работы указать количество затраченных шагов и оставшийся бюджет.',
+      ],
+      [
+        '- **Hard Step & Token Ceilings**: Enforce maximum iteration cap (e.g. 8 turns) and maximum token consumption envelope.',
+        '- **90% Budget Emergency Consolidation**: At 90% budget consumption, abort exploratory tool calls and synthesize best-effort partial deliverables.',
+        '- **Resource Spend Telemetry**: Conclude execution with an itemized accounting of turns elapsed and token budget variance.',
+      ]
+    ),
+  },
+
+  'semantic-cache-retrieval': {
+    id: 'semantic-cache-retrieval',
+    name: 'SemanticCacheRetrievalSkill',
+    displayName: 'Semantic Vector Tool-Result Caching',
+    categoryId: 'agentic',
+    description: 'Intercepts tool invocations with semantic vector cache lookups to bypass expensive repetitive external API queries.',
+    tags: ['agentic', 'caching', 'vector-cache', 'performance', 'latency', 'api'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Семантическое Кэширование Вызовов Инструментов',
+      'Semantic Vector Tool-Result Caching Protocol',
+      [
+        '- **Проверка кэша перед запросом**: Перед обращением к внешнему API или тяжелому инструменту проверить наличие семантически эквивалентного ответа в кэше.',
+        '- **Порог схожести (Cosine Similarity > 0.92)**: Использовать кэшированный результат только при высокой степени совпадения параметров.',
+        '- **Инвалидация и TTL**: Обязательно учитывать срок жизни данных (TTL) и не использовать устаревшие кэшированные состояния.',
+      ],
+      [
+        '- **Pre-Invocation Cache Probe**: Intercept outbound tool calls by matching normalized parameter embeddings against cached historical results.',
+        '- **Semantic Similarity Threshold**: Re-use cached output payloads only when cosine similarity exceeds 0.92 with identical environmental context.',
+        '- **TTL & Freshness Verification**: Reject cached payloads exceeding TTL freshness horizons, enforcing live queries for volatile real-time entities.',
+      ]
+    ),
+  },
+
+  'context-compaction-summarizer': {
+    id: 'context-compaction-summarizer',
+    name: 'ContextCompactionSummarizerSkill',
+    displayName: 'Scratchpad Context Compaction & Pruning',
+    categoryId: 'agentic',
+    description: 'Periodically compresses historical tool outputs and reasoning scratchpads into dense state snapshots to preserve context window.',
+    tags: ['agentic', 'context-compaction', 'summarization', 'tokens', 'scratchpad'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Компрессия Контекста и Сжатие Истории Шагов',
+      'Scratchpad Context Compaction Protocol',
+      [
+        '- **Периодическая свертка (Каждые 3–4 шага)**: Сворачивать сырые логи вызовов инструментов в компактное резюме ключевых фактов.',
+        '- **Удаление промежуточного мусора**: Стирать из активного контекста гигантские JSON-ответы, сохраняя только извлеченные сущности.',
+        '- **Сохранение целевого вектора**: В компактном снепшоте обязательно сохранять неизменную исходную цель задачи.',
+      ],
+      [
+        '- **Periodic Compaction Cadence**: Every 3-4 turns, compress raw execution logs into a dense factual delta state vector.',
+        '- **Payload Stripping**: Discard multi-kilobyte raw JSON tool payloads, preserving solely isolated parameters and validated return values.',
+        '- **Core Goal Persistence**: Ensure the condensed scratchpad maintains explicit alignment with the root user directive.',
+      ]
+    ),
+  },
+
+  'deterministic-fallback-routing': {
+    id: 'deterministic-fallback-routing',
+    name: 'DeterministicFallbackRoutingSkill',
+    displayName: 'Deterministic Fallback & Safe Routing',
+    categoryId: 'agentic',
+    description: 'Switches execution from speculative LLM tool loops to deterministic hardcoded algorithms when divergence or loops are detected.',
+    tags: ['agentic', 'fallback', 'deterministic', 'safety', 'circuit-breaker'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Детерминированный Аварийный Фоллбэк (Fallback Routing)',
+      'Deterministic Fallback & Safe Routing Protocol',
+      [
+        '- **Детекция расхождения (Divergence Detection)**: Фиксировать ситуации, когда агент делает более 2 нерелевантных действий подряд.',
+        '- **Аварийное переключение на код**: При потере курса немедленно переключить задачу на классический детерминированный алгоритм (regex, SQL, hardcoded rule).',
+        '- **Безопасное завершение**: Предоставить прозрачное объяснение причин переключения на аварийный сценарий.',
+      ],
+      [
+        '- **Divergence Threshold Trip**: Monitor for semantic drift or when >2 consecutive actions yield zero progress toward target invariants.',
+        '- **Deterministic Circuit Breaker**: Instantly fall back to static deterministic heuristics (compiled regex, hardcoded queries, rule-based scripts).',
+        '- **Safe Exit Transparency**: Document why autonomous execution was suspended and provide diagnostic logs to the supervisory system.',
+      ]
+    ),
+  },
+
+  'tool-payload-schema-guard': {
+    id: 'tool-payload-schema-guard',
+    name: 'ToolPayloadSchemaGuardSkill',
+    displayName: 'Runtime Zod / JSON Schema Tool Guard',
+    categoryId: 'agentic',
+    description: 'Strictly validates and auto-repairs tool payloads against formal JSON schemas before network transmission.',
+    tags: ['agentic', 'zod', 'schema-guard', 'json-schema', 'validation', 'runtime'],
+    transform: createStandardSkillTransform(
+      'constraints',
+      'Строгая Валидация Схемы Полезной Нагрузки (Schema Guard)',
+      'Runtime Tool Payload Schema Guard Protocol',
+      [
+        '- **Предварительная валидация схемы**: Перед отправкой проверить каждый параметр на соответствие типам (string, number, boolean, array, enum).',
+        '- **Автоматическое приведение типов (Coercion)**: Автоматически конвертировать числовые строки в `number` и приводить даты к ISO-8601.',
+        '- **Отклонение невалидных вызовов**: Запретить отправку payload с недостающими обязательными полями (Required Fields).',
+      ],
+      [
+        '- **Pre-Flight Schema Validation**: Validate every tool argument payload against declared JSON Schema / Zod contracts prior to network dispatch.',
+        '- **Type Coercion & Normalization**: Automatically normalize scalar string numbers into true numeric types and parse dates into ISO-8601.',
+        '- **Required Key Enforcement**: Intercept payloads with omitted non-nullable parameters and repair them in-memory before execution.',
+      ]
+    ),
+  },
+
+  'hierarchical-delegation-supervisor': {
+    id: 'hierarchical-delegation-supervisor',
+    name: 'HierarchicalDelegationSupervisorSkill',
+    displayName: 'Supervisor-Worker Hierarchical Delegation',
+    categoryId: 'agentic',
+    description: 'Implements an authoritative Supervisor agent that plans, assigns sub-goals to Worker agents, and audits pull requests.',
+    tags: ['agentic', 'supervisor', 'delegation', 'hierarchy', 'multi-agent', 'orchestration'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Иерархическая Делегация «Супервизор — Воркеры»',
+      'Hierarchical Supervisor-Worker Delegation Protocol',
+      [
+        '- **Разделение полномочий**: Супервизор отвечает за глобальный план и приемку; Воркеры выполняют конкретные технические задачи.',
+        '- **Контракт поручения**: Каждое задание для воркера содержит: контекст, допустимые инструменты, критерий готовности и тайм-аут.',
+        '- **Приемка результата супервизором**: Супервизор тестирует артефакт воркера перед включением его в главный результат проекта.',
+      ],
+      [
+        '- **Authority Demarcation**: Supervisor agent maintains the global architectural DAG; Worker agents execute localized atomic directives.',
+        '- **Delegation Work Order**: Each worker dispatch contract includes: bounded context, allowable tool whitelist, and binary acceptance criteria.',
+        '- **Supervisory Audit Gate**: Supervisor tests and verifies worker deliverables against system invariants before merging into the main branch.',
+      ]
+    ),
+  },
+
+  'dry-run-speculative-execution': {
+    id: 'dry-run-speculative-execution',
+    name: 'DryRunSpeculativeExecutionSkill',
+    displayName: 'Dry-Run Sandbox Speculative Execution',
+    categoryId: 'agentic',
+    description: 'Executes non-destructive dry-run / simulation passes before issuing destructive, state-mutating, or financial operations.',
+    tags: ['agentic', 'dry-run', 'sandbox', 'safety', 'speculation', 'mutation'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Режим Симуляции и Проверки без Мутаций (Dry-Run)',
+      'Dry-Run Sandbox Speculative Execution Protocol',
+      [
+        '- **Флаг `--dry-run`**: Для любых операций изменения данных (удаление, перезапись, финансовая транзакция) сначала выполнить симуляцию с флагом проверки.',
+        '- **Анализ предполагаемого диффа**: Изучить список файлов или записей, которые будут затронуты мутацией.',
+        '- **Подтверждение безопасности**: Выполнять реальное изменение только после того, как симуляция завершилась успешно и без непредвиденных побочных эффектов.',
+      ],
+      [
+        '- **Simulation Pass Requirement**: Enforce a mandatory `--dry-run` or sandbox validation pass prior to committing mutating actions (e.g. DELETE, DROP, billing API).',
+        '- **Blast Radius Diff Inspection**: Inspect the projected state mutation delta (rows affected, files touched, network payload sent).',
+        '- **Commit Clearance Gate**: Dispatch irreversible live mutations only when the simulation pass finishes with zero unexpected side-effects.',
+      ]
+    ),
+  },
+
+  'active-perception-information-gathering': {
+    id: 'active-perception-information-gathering',
+    name: 'ActivePerceptionInformationGatheringSkill',
+    displayName: 'Active Perception & Entropy-Driven Exploration',
+    categoryId: 'agentic',
+    description: 'Directs diagnostic tool calls strictly toward minimizing the Shannon entropy of the most uncertain system variable.',
+    tags: ['agentic', 'active-perception', 'entropy', 'diagnostics', 'exploration', 'information-theory'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Активное Восприятие и Снижение Энтропии Неопределенности',
+      'Active Perception & Entropy-Driven Exploration Protocol',
+      [
+        '- **Выявление максимальной неопределенности**: Определить, какой параметр системы наименее понятен, но критичен для успеха.',
+        '- **Целевой диагностический вызов**: Вызывать только те инструменты, которые дают максимум информации об этой конкретной неизвестной.',
+        '- **Остановка сбора данных**: Немедленно прекратить сбор информации, как только уровень уверенности превысил 95%.',
+      ],
+      [
+        '- **Maximal Uncertainty Identification**: Isolate the specific systemic variable exhibiting highest epistemic entropy / variance.',
+        '- **Entropy-Targeted Probing**: Dispatch diagnostic queries engineered strictly to maximize information gain regarding that critical unknown.',
+        '- **Exploration Halt Horizon**: Terminate data-gathering calls instantly once confidence reaches the 95% threshold, pivoting directly to execution.',
+      ]
+    ),
+  },
+
+  'unrecoverable-loop-circuit-breaker': {
+    id: 'unrecoverable-loop-circuit-breaker',
+    name: 'UnrecoverableLoopCircuitBreakerSkill',
+    displayName: 'Loop Detection & Cyclical Action Breaker',
+    categoryId: 'agentic',
+    description: 'Detects repetitive thought/action cycles (e.g. repeated failure on same arguments) and trips a hard circuit breaker.',
+    tags: ['agentic', 'loop-breaker', 'circuit-breaker', 'anti-stuck', 'cycle-detection'],
+    transform: createStandardSkillTransform(
+      'constraints',
+      'Защита от Зацикливания (Loop Circuit Breaker)',
+      'Action Loop Detection & Circuit Breaker Protocol',
+      [
+        '- **Детекция циклов**: Если агент вызывает один и тот же инструмент с идентичными аргументами 2 раза подряд с одинаковым результатом — объявить обнаружение цикла.',
+        '- **Аварийный разрыв (Trip Circuit)**: Запретить повторный вызов зацикленного инструмента; принудительно сменить стратегию или обратиться к человеку.',
+        '- **Смена эвристики**: Попробовать альтернативный путь решения или переформулировать запрос.',
+      ],
+      [
+        '- **Repetitive Action Cycle Detection**: Intercept agent trajectories executing identical tool/argument payloads ≥2 times without state delta.',
+        '- **Circuit Breaker Trip**: Hard-block re-dispatch of the cycling tool; force an instantaneous paradigm shift or trigger human escalation.',
+        '- **Heuristic Diversification**: Mandate alternative exploratory trajectories rather than perseverating on failed endpoints.',
+      ]
+    ),
+  },
+
+  'agent-persona-role-specialization': {
+    id: 'agent-persona-role-specialization',
+    name: 'AgentPersonaRoleSpecializationSkill',
+    displayName: 'Agent Role Boundary & Mandate Enforcement',
+    categoryId: 'agentic',
+    description: 'Enforces strict organizational role boundaries between agents (e.g. Auditor never writes code, Coder never modifies specs).',
+    tags: ['agentic', 'roles', 'boundaries', 'specialization', 'collaboration'],
+    transform: createStandardSkillTransform(
+      'role',
+      'Специализация Ролей и Разделение Обязанностей Агента',
+      'Agent Persona Role Specialization & Boundary Protocol',
+      [
+        '- **Четкие границы мандата**: Агент выполняет строго предписанную роль (напр., Архитектор, Ревьюер, QA-инженер, Security-аудитор).',
+        '- **Запрет выхода за рамки роли**: Агент-аудитор не пишет производственный код; Агент-разработчик не может сам утверждать свои PR.',
+        '- **Профессиональный язык роли**: Использовать специализированный вокабуляр и ментальные модели, соответствующие назначенной позиции.',
+      ],
+      [
+        '- **Strict Mandate Boundaries**: Constrain agent operations to its precise mandate (e.g. Security Auditor, System Architect, Test Engineer).',
+        '- **No Role Contamination**: Auditor agents are forbidden from mutating application code; developer agents cannot self-approve pull requests.',
+        '- **Domain Nomenclature Alignment**: Enforce deep alignment with the vocabulary, risk models, and review standards of the assigned persona.',
+      ]
+    ),
+  },
+
+  'asynchronous-event-queue-handler': {
+    id: 'asynchronous-event-queue-handler',
+    name: 'AsynchronousEventQueueHandlerSkill',
+    displayName: 'Asynchronous Event Queue & Webhook Ingestion',
+    categoryId: 'agentic',
+    description: 'Manages non-blocking asynchronous event intake, prioritizing high-urgency interruptions while preserving state continuity.',
+    tags: ['agentic', 'async', 'events', 'webhooks', 'queues', 'concurrency'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Асинхронная Очередь Событий и Обработка Прерываний',
+      'Asynchronous Event Queue & Webhook Ingestion Protocol',
+      [
+        '- **Очередь событий с приоритетом**: Сортировать входящие внешние сигналы (вебхуки, алерты, сообщения) по приоритету (Critical / Normal / Low).',
+        '- **Корректная обработка прерываний**: При поступлении критического события сохранить текущее состояние задачи, обработать инцидент и вернуться к прерванной работе.',
+        '- **Защита от потери сообщений**: Использовать семантику «At-Least-Once» с подтверждением обработки (Ack/Nack).',
+      ],
+      [
+        '- **Priority-Ranked Event Queue**: Ingest and categorize external signals (webhooks, alerts, human inputs) across Critical, Operational, and Background queues.',
+        '- **Preemptive Interruption Handling**: On Critical alert arrival, snapshot current working scratchpad, remediate the alert, and resume original state.',
+        '- **At-Least-Once Delivery Guarantees**: Enforce explicit acknowledgment (ACK/NACK) protocols ensuring zero event loss during async turns.',
+      ]
+    ),
+  },
+
+  'dynamic-few-shot-exemplar-selection': {
+    id: 'dynamic-few-shot-exemplar-selection',
+    name: 'DynamicFewShotExemplarSelectionSkill',
+    displayName: 'Dynamic Few-Shot Trajectory Retrieval',
+    categoryId: 'agentic',
+    description: 'Retrieves past high-scoring tool trajectories semantically matching the current task to guide autonomous generation.',
+    tags: ['agentic', 'few-shot', 'trajectories', 'exemplars', 'in-context-learning'],
+    transform: createStandardSkillTransform(
+      'context',
+      'Динамический Подбор Успешных Примеров Траекторий (Few-Shot)',
+      'Dynamic Few-Shot Trajectory Retrieval Protocol',
+      [
+        '- **Семантический поиск примеров**: Найти в библиотеке 2 эталонных примера решения схожих задач с успешными цепочками вызовов инструментов.',
+        '- **Демонстрация формата успеха**: Использовать примеры для калибровки формата аргументов и логики рассуждений агента.',
+        '- **Исключение нерелевантного шума**: Включать в промпт только компактные, релевантные шаги без длинных лишних данных.',
+      ],
+      [
+        '- **Vector Trajectory Retrieval**: Retrieve 2 gold-standard operational trajectories solving topologically similar tool-use challenges.',
+        '- **Exemplar Trajectory Injection**: Format selected exemplars to calibrate proper JSON syntax, error recovery, and intermediate deductions.',
+        '- **Minimal Exemplar Footprint**: Trim exemplar context to essential thought/action/observation tokens to avoid crowding available attention.',
+      ]
+    ),
+  },
+
+  'dual-system-fast-slow-arbiter': {
+    id: 'dual-system-fast-slow-arbiter',
+    name: 'DualSystemFastSlowArbiterSkill',
+    displayName: 'Dual-Process (System 1 vs System 2) Arbiter',
+    categoryId: 'agentic',
+    description: 'Routes routine queries through fast direct heuristic answers (System 1) while reserving multi-turn agentic loops for high-complexity problems (System 2).',
+    tags: ['agentic', 'system-1-system-2', 'routing', 'efficiency', 'arbiter', 'cognitive-load'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Двухсистемный Арбитр Сложности (Система 1 против Системы 2)',
+      'Dual-Process (System 1 vs System 2) Routing Protocol',
+      [
+        '- **Классификация сложности запроса**: На входе оценить сложность задачи: простая фактологическая (Система 1) или многошаговая инженерная (Система 2).',
+        '- **Быстрый ответ (Система 1)**: Простые задачи решать мгновенно за один шаг без запуска тяжелых циклов и вызова сторонних инструментов.',
+        '- **Глубокий автономный контур (Система 2)**: Включать многошаговый протокол ReAct только для задач с неопределенностью, сложным графом зависимостей и рисками.',
+      ],
+      [
+        '- **Cognitive Complexity Triage**: Triage incoming prompt complexity into System 1 (direct retrieval / low ambiguity) vs. System 2 (multi-step planning).',
+        '- **System 1 Fast-Path**: Resolve straightforward lookups and format conversions in a single atomic turn without initiating tool loops.',
+        '- **System 2 Heavyweight Orchestration**: Reserve iterative ReAct planning and multi-agent coordination strictly for high-uncertainty engineering directives.',
+      ]
+    ),
   },
 };

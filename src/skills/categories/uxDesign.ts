@@ -5,6 +5,7 @@ import {
   parsePromptSections,
   reconstructPrompt,
   deduplicatePromptSections,
+  createStandardSkillTransform,
 } from '../skillHelpers';
 
 export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
@@ -440,5 +441,389 @@ export const UX_DESIGN_SKILLS: Record<string, SkillDefinition> = {
       );
       return reconstructPrompt(preamble, deduplicatePromptSections(sections, isRu));
     },
+  },
+
+'affordance-signifier-clarity': {
+    id: 'affordance-signifier-clarity',
+    name: 'AffordanceSignifierClaritySkill',
+    displayName: 'Affordance & Signifier Visual Hierarchy',
+    categoryId: 'ux_design',
+    description: 'Ensures interactive UI elements have intuitive physical affordances and unmistakable signifiers (hover, focus, depth).',
+    tags: ['ux_design', 'affordance', 'signifiers', 'visual-hierarchy', 'interactions', 'ui'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Проектирование Аффордансов и Сигнификаторов Интерфейса',
+      'Affordance & Signifier Visual Hierarchy Protocol',
+      [
+        '- **Кликабельность элементов**: Кнопки и ссылки должны выглядеть кликабельными (тени, контрастный фон, границы, курсор pointer).',
+        '- **Состояния взаимодействия**: Для каждого интерактивного элемента описать 4 состояния: Default, Hover, Active, Focus-Visible.',
+        '- **Устранение ложных аффордансов**: Статичный текст и баннеры не должны выглядеть как кнопки или поля ввода.',
+      ],
+      [
+        '- **Clickability Cues**: Ensure interactive controls possess unmistakable physical cues (depth, contrast borders, cursor pointer).',
+        '- **State Quad Specification**: Specify Default, Hover, Active, and Focus-Visible styling for all actionable controls.',
+        '- **Zero False Affordances**: Ensure decorative containers and static badges never emulate interactive inputs or buttons.',
+      ]
+    ),
+  },
+
+  'fitts-hick-law-optimizer': {
+    id: 'fitts-hick-law-optimizer',
+    name: 'FittsHickLawOptimizerSkill',
+    displayName: 'Fitts\'s & Hick\'s Law Interaction Optimizer',
+    categoryId: 'ux_design',
+    description: 'Applies Fitts\'s Law (target size & distance) and Hick\'s Law (choice reduction) to streamline user decision speed.',
+    tags: ['ux_design', 'fitts-law', 'hicks-law', 'ergonomics', 'decision-time', 'ux-laws'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Оптимизация по Законам Фиттса и Хика (UX Ergonomics)',
+      'Fitts\'s & Hick\'s Law Ergonomic Interaction Protocol',
+      [
+        '- **Закон Фиттса (Минимальный размер цели)**: Основные кнопки действий делать не менее 44x44px на мобильных и располагать в зоне легкой досягаемости пальца.',
+        '- **Закон Хика (Сокращение вариантов)**: Не предлагать более 5–7 вариантов в одном меню; дробить сложные выборы на последовательные шаги.',
+        '- **Выделение рекомендованного выбора**: Визуально акцентировать рекомендуемый вариант (Default Choice) для ускорения решения.',
+      ],
+      [
+        '- **Fitts\'s Law Target Geometry**: Primary tap targets must exceed 44x44px minimum geometry positioned in natural thumb reach zones.',
+        '- **Hick\'s Law Choice Pruning**: Cap parallel menu options at 5-7 items; decompose complex decision trees into phased progressive steps.',
+        '- **Default Pathway Salience**: Visually elevate the optimal default path to slash user cognitive processing duration.',
+      ]
+    ),
+  },
+
+  'progressive-disclosure-stepper': {
+    id: 'progressive-disclosure-stepper',
+    name: 'ProgressiveDisclosureStepperSkill',
+    displayName: 'Progressive Disclosure & Phased Complexity',
+    categoryId: 'ux_design',
+    description: 'Hides advanced settings behind expandable disclosure controls, keeping default interfaces clean and non-intimidating.',
+    tags: ['ux_design', 'progressive-disclosure', 'simplicity', 'onboarding', 'complexity-management'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Прогрессивное Раскрытие Сложности (Progressive Disclosure)',
+      'Progressive Disclosure & Complexity Phasing Protocol',
+      [
+        '- **Главный экран для 80% задач**: На первом экране показывать только те настройки, которые нужны 80% пользователей.',
+        '- **Скрытые экспертные функции**: Продвинутые параметры прятать под аккуратный спойлер «Дополнительные параметры (Advanced)».',
+        '- **Сохранение состояния**: Запоминать состояние раскрытия спойлеров для опытных пользователей.',
+      ],
+      [
+        '- **80/20 Core Surface**: Reserve default viewport exclusively for the vital parameters required by 80% of routine workflows.',
+        '- **Secondary Disclosure Panels**: Nest advanced parameters inside intuitive expandable accordions ("Advanced Options").',
+        '- **State Persistence**: Preserve expansion preferences in local session cache to respect power-user velocity.',
+      ]
+    ),
+  },
+
+  'dark-pattern-ethical-scrubber': {
+    id: 'dark-pattern-ethical-scrubber',
+    name: 'DarkPatternEthicalScrubberSkill',
+    displayName: 'Dark Pattern Audit & Ethical UX Defense',
+    categoryId: 'ux_design',
+    description: 'Audits and eliminates deceptive dark patterns (Roach motels, sneak into basket, disguised ads, confirmshaming).',
+    tags: ['ux_design', 'dark-patterns', 'ethics', 'compliance', 'trust', 'user-advocacy'],
+    transform: createStandardSkillTransform(
+      'constraints',
+      'Аудит и Устранение Dark Patterns (Этический UX)',
+      'Dark Pattern Elimination & Ethical UX Defense Protocol',
+      [
+        '- **Запрет Confirmshaming**: Тексты отказа от подписки или скидки должны быть нейтральными («Нет, спасибо»), без манипуляций («Нет, я не люблю экономить»).',
+        '- **Симметричность действий**: Отписка или удаление аккаунта должны требовать не больше кликов, чем подписка или регистрация.',
+        '- **Прозрачность цен**: Никаких скрытых сборов и автоматических галочек страховок в корзине на этапе оплаты.',
+      ],
+      [
+        '- **Confirmshaming Elimination**: Format decline buttons neutrally ("No, thank you") banning emotional manipulation copy.',
+        '- **Symmetric Cancellation**: Ensure unsubscribing or account closure requires zero more friction or steps than initial sign-up.',
+        '- **Transparent Checkout Fences**: Ban pre-checked add-on boxes, hidden recurring billing toggles, or surprise checkout fees.',
+      ]
+    ),
+  },
+
+  'responsive-fluid-breakpoint-spec': {
+    id: 'responsive-fluid-breakpoint-spec',
+    name: 'ResponsiveFluidBreakpointSpecSkill',
+    displayName: 'Adaptive Responsive Breakpoint Matrix',
+    categoryId: 'ux_design',
+    description: 'Defines responsive behaviors across mobile (320px), tablet (768px), desktop (1024px), and wide (1440px+) layouts.',
+    tags: ['ux_design', 'responsive', 'mobile-first', 'breakpoints', 'css', 'layout'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Матрица Адаптивных Брейкпоинтов Интерфейса',
+      'Adaptive Responsive Breakpoint Specification Matrix',
+      [
+        '- **Mobile-First подход**: Спроектировать базовый лейаут для экранов 320–480px (одна колонка, нижняя навигация).',
+        '- **Планшет (768–1023px)**: Двухколоночная сетка, сворачиваемый сайдбар, адаптивные таблицы со скроллом.',
+        '- **Десктоп (1024px+)**: Полноценная многоколоночная панель, фиксированная боковая навигация, модальные окна.',
+      ],
+      [
+        '- **Mobile-First Foundation**: Baseline architecture targets 320-480px viewports (single-column stack, sticky bottom tab navigation).',
+        '- **Tablet Dynamics (768-1023px)**: Two-column grid reflow, collapsible drawer navigation, and horizontally scrolling responsive data tables.',
+        '- **Desktop Ergonomics (1024px+)**: Multi-pane split views, fixed persistent sidebar navigation, and centered modal dialogues.',
+      ]
+    ),
+  },
+
+  'dashboard-widget-visual-hierarchy': {
+    id: 'dashboard-widget-visual-hierarchy',
+    name: 'DashboardWidgetVisualHierarchySkill',
+    displayName: 'Executive Dashboard Widget Architecture',
+    categoryId: 'ux_design',
+    description: 'Arranges analytics dashboards with primary KPI scorecards up top, trend graphs in center, and granular data grids below.',
+    tags: ['ux_design', 'dashboard', 'analytics', 'kpi', 'data-viz', 'layout'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Архитектура Визуальной Иерархии Аналитического Дашборда',
+      'Executive Analytics Dashboard Visual Hierarchy Architecture',
+      [
+        '- **Верхняя полоса KPI**: 3–4 карточки ключевых метрик с дельтами изменений (+12% MoM) и спарклайнами.',
+        '- **Центральная зона трендов**: Интерактивные графики динамики за период с тултипами при наведении.',
+        '- **Нижняя табличная часть**: Детализированная таблица с фильтрами, сортировкой колонок и пагинацией.',
+      ],
+      [
+        '- **Hero KPI Scorecard Strip**: 3-4 primary vital metric cards featuring comparative delta badges (+12% MoM) and inline sparklines.',
+        '- **Mid-Tier Trend Canvas**: Interactive time-series charts equipped with crosshair hover tooltips and time-range selectors.',
+        '- **Granular Data Bottom Grid**: Filterable, sortable tabular ledger equipped with cursor pagination and CSV export controls.',
+      ]
+    ),
+  },
+
+  'error-prevention-confirmation-dialog': {
+    id: 'error-prevention-confirmation-dialog',
+    name: 'ErrorPreventionConfirmationDialogSkill',
+    displayName: 'Destructive Action & Error Prevention Safeguard',
+    categoryId: 'ux_design',
+    description: 'Implements two-step confirmation dialogs with explicit typing verification (e.g. type repo name) for irreversible destructive tasks.',
+    tags: ['ux_design', 'error-prevention', 'confirmation', 'destructive', 'dialogs', 'safety'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Предотвращение Ошибок и Подтверждение Деструктивных Действий',
+      'Destructive Action Error Prevention & Confirmation Safeguard',
+      [
+        '- **Ввод названия для подтверждения**: При удалении проекта или БД требовать ручного ввода точного имени сущности.',
+        '- **Красный акцент опасности**: Кнопка окончательного удаления окрашивается в красный цвет (Destructive Red) и активна только после верного ввода.',
+        '- **Таймер отмены (Undo Snackbar)**: Предоставлять 5-секундное окно для отмены действия через плавающее уведомление Undo.',
+      ],
+      [
+        '- **Explicit Entity Name Typing**: For catastrophic actions (database drop, project purge), mandate typing the exact entity name.',
+        '- **Destructive Red Intent**: Color final commit button in warning crimson, keeping it disabled until full verification string matches.',
+        '- **Graceful Undo Window**: Accompany immediate soft-deletions with a persistent 5-second toast featuring a single-click Undo trigger.',
+      ]
+    ),
+  },
+
+  'onboarding-aha-moment-accelerator': {
+    id: 'onboarding-aha-moment-accelerator',
+    name: 'OnboardingAhaMomentAcceleratorSkill',
+    displayName: 'First-Run Onboarding "Aha Moment" Accelerator',
+    categoryId: 'ux_design',
+    description: 'Designs first-run user experiences that guide new users to their first value milestone in under 60 seconds with pre-seeded templates.',
+    tags: ['ux_design', 'onboarding', 'aha-moment', 'activation', 'retention', 'product-led-growth'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Ускорение Первого Инсайта (Aha Moment) в Онбординге',
+      'First-Run Onboarding "Aha Moment" Activation Architecture',
+      [
+        '- **Меньше 60 секунд до ценности**: Устранить лишние опросы при регистрации; перенаправлять пользователя сразу к первому полезному действию.',
+        '- **Предзаполненные шаблоны**: Показывать готовые данные и примеры в пустом проекте, чтобы интерфейс не пугал пустотой.',
+        '- **Интерактивный туториал из 3 шагов**: Подсвечивать элементы интерфейса с поздравлением после создания первого артефакта.',
+      ],
+      [
+        '- **Sub-60s Time-to-Value**: Strip non-essential onboarding surveys; route new signups directly into the core creation canvas.',
+        '- **Pre-Seeded Interactive Templates**: Populate empty accounts with realistic sample datasets to eliminate the blank-canvas anxiety.',
+        '- **3-Step Micro-Tour**: Anchor targeted pulse spotlights on critical controls, triggering confetti celebration upon first task completion.',
+      ]
+    ),
+  },
+
+  'gamification-progress-loop': {
+    id: 'gamification-progress-loop',
+    name: 'GamificationProgressLoopSkill',
+    displayName: 'Gamification Progress Bar & Endowed Progress',
+    categoryId: 'ux_design',
+    description: 'Leverages the Endowed Progress Effect and visual progress rings to drive task completion without feeling manipulative.',
+    tags: ['ux_design', 'gamification', 'progress-bar', 'motivation', 'completion', 'psychology'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Геймификация и Эффект Наделённого Прогресса (Progress Loops)',
+      'Endowed Progress & Task Completion Gamification Protocol',
+      [
+        '- **Эффект наделенного прогресса**: При создании профиля показывать шкалу заполнения уже на 20% («Шаг 1: Аккаунт создан — выполнено!»).',
+        '- **Дробление на микро-цели**: Разбить длинную анкету на 3 коротких шага с понятной визуальной шкалой прогресса.',
+        '- **Мгновенная обратная связь**: Показывать анимацию галочки и ободряющий микрокопирайт при завершении каждого шага.',
+      ],
+      [
+        '- **Endowed Progress Kickstart**: Initialize profile completion bars at 20% credit immediately upon signup ("Step 1: Account Created!").',
+        '- **Micro-Milestone Segmentation**: Decompose long flows into 3 digestible stages illuminated by animated segmented progress indicators.',
+        '- **Instant Delight Feedback**: Dispatch tactile checkmark micro-animations and positive progress feedback upon step completion.',
+      ]
+    ),
+  },
+
+  'heuristic-evaluation-severity-matrix': {
+    id: 'heuristic-evaluation-severity-matrix',
+    name: 'HeuristicEvaluationSeverityMatrixSkill',
+    displayName: 'Usability Defect Severity Matrix & Triage',
+    categoryId: 'ux_design',
+    description: 'Categorizes discovered UX defects into Severity 0 to 4 with actionable redesign recommendations and engineering tickets.',
+    tags: ['ux_design', 'usability', 'heuristics', 'triage', 'severity-matrix', 'qa'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Матрица Критичности Юзабилити-Дефектов (UX Severity Triage)',
+      'Usability Defect Severity & Remediation Matrix',
+      [
+        '- **Шкала критичности 0-4**: 0 = Замечание, 1 = Косметический дефект, 2 = Минорный баг, 3 = Мажорный барьер, 4 = Критический блокер конверсии.',
+        '- **Локация и скриншот**: Указать конкретный экран, селектор элемента и сценарий возникновения дефекта.',
+        '- **Инженерная рекомендация**: Дать готовое решение для UI/CSS или логики фронтенда для быстрого устранения.',
+      ],
+      [
+        '- **Severity Tiering (0-4)**: Triage usability bugs across Cosmetic (1), Minor (2), Major (3), and Catastrophic Conversion Blocker (4).',
+        '- **Component Coordinate Pinpointing**: Document exact view route, DOM component selector, and offending interaction trajectory.',
+        '- **Prescriptive Frontend Fix**: Accompany each logged defect with production-ready CSS, layout, or copy remediation recommendations.',
+      ]
+    ),
+  },
+
+  'design-system-design-tokens-v2': {
+    id: 'design-system-design-tokens-v2',
+    name: 'DesignSystemDesignTokensV2Skill',
+    displayName: 'W3C Design Tokens Community Group (DTCG) Spec',
+    categoryId: 'ux_design',
+    description: 'Structures design system tokens conforming to DTCG standard JSON with $value, $type, semantic aliases, and dark mode modes.',
+    tags: ['ux_design', 'design-tokens', 'dtcg', 'design-system', 'css-variables', 'theme'],
+    transform: createStandardSkillTransform(
+      'output_format',
+      'Спецификация Дизайн-Токенов (W3C DTCG Standard)',
+      'W3C Design Tokens Community Group (DTCG) Specification',
+      [
+        '- **Формат DTCG**: Структурировать токены с полями $value, $type (color, dimension, typography, duration) и $description.',
+        '- **Трехуровневая архитектура**: 1) Глобальные примитивы (blue-500), 2) Семантические токены (color-primary), 3) Компонентные токены (btn-bg-primary).',
+        '- **Поддержка темной темы**: Организовать семантические токены так, чтобы смена темы происходила через переопределение CSS-переменных на уровне :root.',
+      ],
+      [
+        '- **DTCG JSON Architecture**: Format tokens with strict $value, $type (color, dimension, typography, duration), and $description properties.',
+        '- **Three-Tier Token Hierarchy**: Global Primitives (e.g. blue.500) -> Semantic Tokens (action.primary.surface) -> Component Tokens.',
+        '- **Theme Switch Invariants**: Structure semantic tokens to enable zero-runtime-cost dark mode swaps via cascading CSS custom properties.',
+      ]
+    ),
+  },
+
+  'zero-state-actionable-prompt': {
+    id: 'zero-state-actionable-prompt',
+    name: 'ZeroStateActionablePromptSkill',
+    displayName: 'Actionable Empty State & First-Step Catalyst',
+    categoryId: 'ux_design',
+    description: 'Transforms dead-end blank pages into motivating empty states featuring thematic illustrations, value propositions, and primary CTAs.',
+    tags: ['ux_design', 'empty-state', 'zero-state', 'cta', 'onboarding', 'conversion'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Проектирование Активных Пустых Состояний (Empty States)',
+      'Actionable Zero-State & First-Step Catalyst Architecture',
+      [
+        '- **Понятная иллюстрация и заголовок**: Лаконичный заголовок, объясняющий назначение раздела («Здесь будут ваши проекты»).',
+        '- **Ценностное предложение**: Одно предложение о том, какую пользу получит пользователь после добавления первой записи.',
+        '- **Единственная яркая кнопка**: Контрастный первичный CTA («Создать первый проект»), запускающий модалку или мастер добавления.',
+      ],
+      [
+        '- **Thematic Illustration & Header**: Concise benefit-driven headline explaining section purpose ("Your deployed APIs will live here").',
+        '- **Value Proposition Microcopy**: Single crisp sentence clarifying the tangible operational upside of initiating the first record.',
+        '- **Singular High-Contrast CTA**: Prominent primary button trigger ("Launch Your First API") immediately launching creation modal.',
+      ]
+    ),
+  },
+
+  'multi-step-form-wizard-pacing': {
+    id: 'multi-step-form-wizard-pacing',
+    name: 'MultiStepFormWizardPacingSkill',
+    displayName: 'Multi-Step Form Wizard & Cognitive Pacing',
+    categoryId: 'ux_design',
+    description: 'Deconstructs massive input forms into manageable wizard steps with inline validation, progress indicators, and auto-save.',
+    tags: ['ux_design', 'forms', 'wizard', 'multi-step', 'validation', 'auto-save'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Многошаговый Мастер Форм (Form Wizard Pacing)',
+      'Multi-Step Form Wizard & Cognitive Pacing Protocol',
+      [
+        '- **Группировка по смыслу**: Разбить форму на 3–4 логических шага: Базовая информация -> Конфигурация -> Оплата -> Подтверждение.',
+        '- **Инлайн-валидация при потере фокуса**: Показывать ошибки валидации только после ухода курсора из поля (onBlur), а не при наборе текста.',
+        '- **Автосохранение черновика**: Сохранять введенные данные в localStorage, чтобы при случайной перезагрузке страницы пользователь не потерял прогресс.',
+      ],
+      [
+        '- **Logical Step Clustering**: Segment inputs across 3-4 natural chapters: Profile -> Infrastructure Parameters -> Billing -> Verification.',
+        '- **Polite onBlur Inline Validation**: Trigger error alerts strictly upon field blur (onBlur), avoiding distracting validation flashes mid-typing.',
+        '- **Continuous Draft Auto-Save**: Persist uncommitted form state into client localStorage shielding users from accidental page refreshes.',
+      ]
+    ),
+  },
+
+  'mobile-sheet-bottom-drawer-ux': {
+    id: 'mobile-sheet-bottom-drawer-ux',
+    name: 'MobileSheetBottomDrawerUxSkill',
+    displayName: 'Mobile Bottom Sheet & Gesture Drawer UX',
+    categoryId: 'ux_design',
+    description: 'Designs mobile bottom sheet drawers with drag-to-dismiss handles, snap points (50%, 90%), and backdrop scroll locks.',
+    tags: ['ux_design', 'mobile', 'bottom-sheet', 'gestures', 'drawer', 'touch'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Проектирование Мобильных Нижних Шторок (Bottom Sheet UX)',
+      'Mobile Bottom Sheet & Gesture Drawer Architecture',
+      [
+        '- **Жест смахивания вниз**: Поддерживать естественное закрытие шторки свайпом вниз с визуальной ручкой (Drag Handle).',
+        '- **Точки фиксации (Snap Points)**: Предусмотреть фиксированные высоты раскрытия: 50% экрана для быстрого просмотра и 90% для полного экрана.',
+        '- **Блокировка прокрутки фона**: При открытой шторке блокировать скролл страницы под ней (overflow: hidden).',
+      ],
+      [
+        '- **Swipe-to-Dismiss Gesture**: Implement native velocity-based swipe-down dismiss mechanics paired with a prominent touch pill handle.',
+        '- **Calibrated Snap Points**: Anchor predictable expansion heights: half-sheet (50vh preview) and full-expansion (90vh edit mode).',
+        '- **Backdrop Scroll Locking**: Freeze document body scrolling (overflow: hidden) whenever the overlay drawer is mounted.',
+      ]
+    ),
+  },
+
+  'inline-search-autocomplete-trie': {
+    id: 'inline-search-autocomplete-trie',
+    name: 'InlineSearchAutocompleteTrieSkill',
+    displayName: 'Inline Search & Typeahead Autocomplete UX',
+    categoryId: 'ux_design',
+    description: 'Designs keyboard-navigable autocomplete dropdowns with debounced inputs, bold match highlights, and recent searches.',
+    tags: ['ux_design', 'search', 'autocomplete', 'typeahead', 'keyboard-navigation', 'aria'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Инлайн-Поиск с Автодополнением (Typeahead Autocomplete UX)',
+      'Inline Search & Typeahead Autocomplete UX Protocol',
+      [
+        '- **Debounce ввода (300 мс)**: Задерживать отправку запроса на 300 мс после последнего нажатия клавиши для экономии серверных ресурсов.',
+        '- **Подсветка совпадений**: Выделять введенные пользователем буквы в выпадающем списке жирным шрифтом (mark или font-bold).',
+        '- **Полная навигация с клавиатуры**: Поддерживать перемещение стрелками Вверх/Вниз, выбор через Enter и закрытие по Escape.',
+      ],
+      [
+        '- **Debounced Input Stream (300ms)**: Buffer keystroke dispatches via 300ms debounce to conserve search cluster computing resources.',
+        '- **Substring Match Highlighting**: Wrap matching query substrings inside bold formatting tags in results list.',
+        '- **Full Keyboard Traversal**: Support ArrowUp/ArrowDown highlight cycling, Enter selection, and Escape menu dismiss.',
+      ]
+    ),
+  },
+
+  'skeleton-shimmer-loading-state': {
+    id: 'skeleton-shimmer-loading-state',
+    name: 'SkeletonShimmerLoadingStateSkill',
+    displayName: 'Skeleton Shimmer & Perceived Performance',
+    categoryId: 'ux_design',
+    description: 'Replaces jarring spinners with layout-accurate skeleton screens featuring gentle shimmer animations to boost perceived performance.',
+    tags: ['ux_design', 'skeleton', 'shimmer', 'loading', 'perceived-performance', 'performance'],
+    transform: createStandardSkillTransform(
+      'protocol',
+      'Скелетоны Загрузки с Анимацией Shimmer (Perceived Performance)',
+      'Skeleton Shimmer Screen & Perceived Latency Protocol',
+      [
+        '- **Точное повторение формы контента**: Скелетон карточки должен в точности повторять геометрию аватара, заголовка и строк текста.',
+        '- **Мягкая пульсация Shimmer**: Использовать плавный градиентный перелив (shimmer) вместо резких мигающих спиннеров.',
+        '- **Бесшовный переход**: При загрузке данных заменять скелетон на реальный контент с мгновенным плавным появлением без дергания макета.',
+      ],
+      [
+        '- **Geometry Parity**: Skeleton placeholders must mirror exact avatar dimensions, heading widths, and line-heights of incoming payloads.',
+        '- **Gentle Shimmer Gradient**: Apply a subtle, continuous linear gradient sweep animation avoiding abrasive full-screen spinners.',
+        '- **Zero Jitter Transition**: Swap skeleton nodes for verified payload elements seamlessly without inducing Cumulative Layout Shift.',
+      ]
+    ),
   },
 };
