@@ -16,7 +16,11 @@ const withoutSkills = generatePromptPipeline(baseParams, []);
 assert.ok(withoutSkills.prompt.includes(task), 'the original task must remain verbatim without Skills');
 assert.ok(withoutSkills.prompt.includes('Reduce the task to facts'), 'the selected reasoning method must be represented');
 assert.ok(withoutSkills.prompt.includes('Use focused questions to test critical assumptions'), 'the selected tone must be represented');
+assert.ok(withoutSkills.prompt.includes('Coverage & Quality Check'), 'balanced detail should include a completeness module');
 assert.equal(withoutSkills.appliedSkills.length, 0);
+
+const minimalist = generatePromptPipeline({ ...baseParams, detailLevel: 'minimalist' }, []);
+assert.ok(!minimalist.prompt.includes('Coverage & Quality Check'), 'minimal detail should omit optional validation modules');
 
 const copywriting = generatePromptPipeline({
   ...baseParams,
@@ -24,9 +28,42 @@ const copywriting = generatePromptPipeline({
   task: 'Write a landing page headline for an analytics product.',
   detailLevel: 'exhaustive',
 }, []);
-assert.ok(copywriting.prompt.includes('Creative Scope'), 'the selected domain must influence the base template');
-assert.ok(copywriting.prompt.includes('Hooks & Headlines'), 'exhaustive detail must select the deeper domain template');
+assert.ok(copywriting.prompt.includes('Editorial Brief'), 'the selected domain must contribute relevant modules');
+assert.ok(copywriting.prompt.includes('Headline Variations'), 'task signals must select a matching section');
+assert.ok(copywriting.prompt.includes('Risks & Alternatives'), 'exhaustive detail must add cross-domain validation modules');
 assert.ok(copywriting.prompt.includes('Write a landing page headline for an analytics product.'));
+assert.ok(!copywriting.prompt.includes('[[content_type]]'), 'composed sections must not leave fixed-template placeholders');
+
+const emailCopy = generatePromptPipeline({
+  ...baseParams,
+  domain: 'Copywriting & Conversion',
+  task: 'Draft an onboarding email for new users.',
+}, []);
+assert.ok(emailCopy.prompt.includes('Message Sequence'), 'a different task in the same domain should select a different module');
+assert.ok(!emailCopy.prompt.includes('Headline Variations'));
+
+const pricing = generatePromptPipeline({
+  ...baseParams,
+  domain: 'Business',
+  task: 'Evaluate pricing for a SaaS product with limited customer data.',
+}, []);
+assert.ok(pricing.prompt.includes('Pricing & Economics'));
+assert.ok(pricing.prompt.includes('instead of fabricated point estimates'));
+
+const research = generatePromptPipeline({
+  ...baseParams,
+  domain: 'Research',
+  task: 'Compare the findings in these interview notes.',
+}, []);
+assert.ok(research.prompt.includes('Research Protocol'));
+assert.ok(research.prompt.includes('Do not fabricate sources'));
+
+const retro = generatePromptPipeline({
+  ...baseParams,
+  domain: 'General',
+  task: 'Conduct a retrospective on the recent production incident and outage.',
+}, []);
+assert.ok(retro.prompt.includes('Incident Facts & Timeline'), 'incident tasks should compose retrospective modules automatically');
 
 const withSkills = generatePromptPipeline(baseParams, ['code-audit-smells', 'type-safety-contracts']);
 assert.ok(withSkills.prompt.includes(task), 'the original task must survive Skill transforms');
