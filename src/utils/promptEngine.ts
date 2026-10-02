@@ -469,13 +469,6 @@ export function deduplicatePromptSections(sections: ParsedSection[], isRu: boole
       } else {
         mergedConstraints.lines.push(...sec.lines);
       }
-    } else if (sec.semanticType === 'output_format') {
-      if (seenCategories.has('output_format')) {
-        continue;
-      }
-      seenCategories.add('output_format');
-      seenTitles.add(normTitle);
-      result.push(sec);
     } else {
       seenTitles.add(normTitle);
       result.push(sec);
@@ -1019,7 +1012,8 @@ export function buildDomainPrompt(
     riskAudit?: boolean;
     constraints?: boolean;
     examples?: boolean;
-  }
+  },
+  domainHint?: string
 ): string {
   // If the input prompt is ALREADY a structured prompt, route to idempotent refinement!
   if (isPromptAlreadyOptimized(input)) {
@@ -1029,7 +1023,14 @@ export function buildDomainPrompt(
   const isRu = isRussianText(cleanGoal.length > 3 ? cleanGoal : input);
 
   // Detect domain
-  const domain = detectPromptDomain(input);
+  const hintedDomain = (domainHint || '').toLowerCase();
+  const domain = /cod|software|system|код|систем/i.test(hintedDomain)
+    ? 'coding'
+    : /business|gtm|бизнес|стратег/i.test(hintedDomain)
+      ? 'business'
+      : /copy|writing|conversion|копирайт|текст/i.test(hintedDomain)
+        ? 'copywriting'
+        : detectPromptDomain(input);
   const isRetro = domain === 'retro';
   const isCoding = domain === 'coding';
   const isBusiness = domain === 'business';
@@ -1555,7 +1556,11 @@ export function translatePrompt(input: string, targetLanguage: string): string {
  * according to the thinking & execution style of each major LLM family.
  * Idempotent: Does not double-wrap or duplicate sections on multiple executions.
  */
-export function adaptPromptForModel(input: string, model: 'claude' | 'openai' | 'gemini' | 'grok' | 'llama'): string {
+export function adaptPromptForModel(
+  input: string,
+  model: 'claude' | 'openai' | 'gemini' | 'grok' | 'llama',
+  normalizeInput = true
+): string {
   if (!input.trim()) return '';
 
   // 1. Check if already adapted for this exact model (idempotent!)
@@ -1598,9 +1603,13 @@ export function adaptPromptForModel(input: string, model: 'claude' | 'openai' | 
     operationalCore = llamaMatch[1].trim();
   }
 
-  // 3. Obtain domain prompt (refine idempotently if already structured, or build new domain prompt if raw)
+  // 3. Obtain domain prompt (refine idempotently if already structured, or build new domain prompt if raw).
+  // The unified generation pipeline passes normalizeInput=false so model adaptation
+  // cannot discard or rebuild content already supplied by real Skill transforms.
   let domainPrompt = operationalCore;
-  if (!isPromptAlreadyOptimized(operationalCore)) {
+  if (!normalizeInput) {
+    domainPrompt = operationalCore;
+  } else if (!isPromptAlreadyOptimized(operationalCore)) {
     domainPrompt = buildDomainPrompt(operationalCore, 'medium');
   } else {
     domainPrompt = refineOptimizedPrompt(operationalCore, 'medium');
@@ -1634,7 +1643,7 @@ export function generatePromptFromParams(params: GeneratePromptParams): string {
   if (detailLevel === 'minimalist') aggressiveness = 'low';
   if (detailLevel === 'exhaustive') aggressiveness = 'high';
 
-  const basePrompt = buildDomainPrompt(task, aggressiveness);
+  const basePrompt = buildDomainPrompt(task, aggressiveness, undefined, domain);
 
   if (targetModel.includes('Claude')) {
     return adaptPromptForModel(basePrompt, 'claude');

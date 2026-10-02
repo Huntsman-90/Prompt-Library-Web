@@ -46,12 +46,18 @@ export function ensureSection(
   directivesEn: string[],
   isRu: boolean
 ): void {
-  const existing = sections.find(
-    (s) => s.semanticType === semanticType || s.cleanTitle.includes(isRu ? titleRu.toLowerCase() : titleEn.toLowerCase())
-  );
-
   const title = isRu ? titleRu : titleEn;
   const directives = isRu ? directivesRu : directivesEn;
+  const normalizedTitle = title
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
+    .trim();
+  const existing = sections.find((section) =>
+    section.cleanTitle
+      .toLowerCase()
+      .replace(/[^\p{L}\p{N}]+/gu, ' ')
+      .trim() === normalizedTitle
+  );
 
   if (existing) {
     existing.lines = deduplicateBullets([...existing.lines, ...directives]);

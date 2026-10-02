@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useUIStore } from '../../store/useUIStore';
-import { generatePromptFromParams, isRussianText } from '../../utils/promptEngine';
-import { applySkills, getSkillsByCategory, SKILLS_REGISTRY, type SkillDefinition } from '../../skills/skillsRegistry';
+import { isRussianText } from '../../utils/promptEngine';
+import { getSkillsByCategory, SKILLS_REGISTRY, type SkillDefinition } from '../../skills/skillsRegistry';
+import { generatePromptPipeline } from '../../utils/promptGenerationPipeline';
 import { CATEGORIES } from '../../data/categories';
 import { X, Wand2, Copy, Check, Plus, Zap, ChevronDown, ChevronUp } from 'lucide-react';
 
@@ -51,36 +52,30 @@ export const PromptGeneratorModal: React.FC = () => {
       (isRu
         ? `Разработать комплексное экспертное решение по направлению «${domain}».`
         : `Synthesize an authoritative engineering solution for ${domain}.`);
-    let finalResult = '';
-    let appliedSkillsList: SkillDefinition[] = [];
-
-    if (selectedSkillIds.length > 0) {
-      const { prompt: skillResult, appliedSkills } = applySkills(targetTask, selectedSkillIds, {
-        domain,
-        technique,
-        tone,
-        detailLevel,
-        targetModel,
+    let finalResult: string;
+    let appliedSkillsList: SkillDefinition[];
+    try {
+      ({ prompt: finalResult, appliedSkills: appliedSkillsList } = generatePromptPipeline(
+        { domain, task: targetTask, technique, tone, detailLevel, targetModel },
+        selectedSkillIds
+      ));
+    } catch (error) {
+      addToast({
+        type: 'error',
+        title: 'Prompt generation failed',
+        description: error instanceof Error ? error.message : 'A selected Skill could not be applied.',
       });
-      finalResult = skillResult;
-      appliedSkillsList = appliedSkills;
-    } else {
-      finalResult = generatePromptFromParams({
-        domain,
-        task: targetTask,
-        technique,
-        tone,
-        detailLevel,
-        targetModel,
-      });
+      return;
     }
 
     setGeneratedPrompt(finalResult);
     setAppliedSkillNames(appliedSkillsList.map((s) => s.displayName));
     addToast({
       type: 'success',
-      title: 'Prompt generated with active skills!',
-      description: `${appliedSkillsList.length} skills woven into prompt architecture`,
+      title: appliedSkillsList.length > 0 ? 'Prompt generated with active skills!' : 'Prompt generated!',
+      description: appliedSkillsList.length > 0
+        ? `${appliedSkillsList.length} skills and sub-skills executed in the prompt pipeline`
+        : 'Generated with the selected domain, task, style, detail level, and model settings',
     });
   };
 
