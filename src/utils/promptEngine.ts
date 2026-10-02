@@ -7,6 +7,7 @@ export interface GeneratePromptParams {
   tone: string;
   detailLevel: 'minimalist' | 'balanced' | 'exhaustive';
   targetModel: string;
+  includeTaskInScope?: boolean;
 }
 
 /**
@@ -1012,7 +1013,8 @@ export function buildDomainPrompt(
     constraints?: boolean;
     examples?: boolean;
   },
-  domainHint?: string
+  domainHint?: string,
+  includeTaskInScope = true
 ): string {
   if (isPromptAlreadyOptimized(input)) {
     return refineOptimizedPrompt(input, aggressiveness, options);
@@ -1074,7 +1076,9 @@ export function buildDomainPrompt(
     choose('Задача и границы', 'Task & Scope'),
     'context',
     [
-      choose(`**Задача:** ${task}`, `**Task:** ${task}`),
+      includeTaskInScope
+        ? choose(`**Задача:** ${task}`, `**Task:** ${task}`)
+        : choose('Используйте дословный раздел «Исходная задача» как единственный источник формулировки; не пересказывайте и не сужайте его.', 'Use the verbatim Task Input section as the single source for the request; do not paraphrase or narrow it.'),
       choose('Используйте только релевантные к цели вводные. Отделяйте факты от допущений и отмечайте действительно блокирующие пробелы.', 'Use only context relevant to the objective. Separate facts from assumptions and flag only gaps that materially block progress.'),
     ]
   );
@@ -1136,13 +1140,13 @@ export function buildDomainPrompt(
       choose('Извлеките из задачи аудиторию, канал, желаемое действие и подтверждённые факты. Если часть брифа отсутствует, используйте нейтральное допущение или обозначьте переменную.', 'Infer audience, channel, desired action, and substantiated facts from the task. If brief details are missing, use a neutral assumption or mark a variable.'),
       choose('Подберите структуру убеждения под материал; не навязывайте AIDA/PAS, если формат или цель этого не требуют.', 'Choose a persuasive structure suited to the asset; do not force AIDA/PAS when the format or objective does not call for it.'),
     ]);
-    if (/headline|subject line|заголов|тема письма/i.test(taskLower)) {
+    if (/headline|заголов/i.test(taskLower)) {
       addSection(choose('Варианты заголовка', 'Headline Variations'), 'protocol', [
         choose('Подготовьте несколько содержательно разных вариантов и кратко поясните их угол подачи; не используйте неподтверждённые цифры или обещания.', 'Offer several meaningfully distinct angles with a brief rationale; do not use unsupported numbers or promises.'),
       ]);
-    } else if (/email|письм|рассылк/i.test(taskLower)) {
+    } else if (/email|e-mail|subject line|preview text|письм|рассылк|тема письма|прехедер/i.test(taskLower)) {
       addSection(choose('Структура сообщения', 'Message Sequence'), 'protocol', [
-        choose('Согласуйте тему, первое предложение, основное сообщение и один ясный призыв к действию.', 'Align the subject, opening, core message, and one clear call to action.'),
+        choose('Согласуйте тему и прехедер (если запрошены), первое предложение, основное сообщение и один ясный призыв к действию.', 'Align the subject line and preview text (when requested), opening, core message, and one clear call to action.'),
       ]);
     } else {
       addSection(choose('Композиция материала', 'Content Composition'), 'protocol', [
@@ -1202,9 +1206,21 @@ export function buildDomainPrompt(
     ]);
   }
 
+  const deferImplementation =
+    /\b(?:do not|don't|never)\b[^.!?]{0,160}\b(?:write|implement|produce|generate)\b[^.!?]{0,60}\b(?:code|implementation)\b/i.test(task) ||
+    /не\s+(?:пиши|писать|реализуй|реализовывай|генерируй|генерировать)[^.!?]{0,120}(?:код|реализац)/i.test(task);
+  const codingOutput: [string, string] = deferImplementation
+    ? [
+        'Опишите дизайн и контракты, план проверок и rollout; отложите реализацию кода до получения текущего обработчика и необходимых интерфейсов.',
+        'Provide a design and contract plan, checks, and rollout; defer implementation code until the current handler and required interfaces are supplied.',
+      ]
+    : [
+        'Предпочтительный формат — применимое изменение или код, затем объяснение и релевантные тесты; если входных материалов не хватает, укажите это.',
+        'Prefer an actionable change or code, followed by rationale and relevant tests; state when required input is missing.',
+      ];
   const outputByDomain: Record<CompositionDomain, [string, string]> = {
     retro: ['Краткое резюме, хронология, анализ причин и таблица действий с проверяемыми критериями.', 'Concise summary, timeline, causal analysis, and action table with verifiable completion criteria.'],
-    coding: ['Предпочтительный формат — применимое изменение или код, затем объяснение и релевантные тесты; если входных материалов не хватает, укажите это.', 'Prefer an actionable change or code, followed by rationale and relevant tests; state when required input is missing.'],
+    coding: codingOutput,
     business: ['Резюме решения, обоснование, допущения, метрики и план следующих шагов; не заполняйте пробелы вымышленными цифрами.', 'Decision summary, rationale, assumptions, metrics, and next steps; do not fill data gaps with invented numbers.'],
     copywriting: ['Сначала готовый материал, затем при необходимости короткие варианты и редакторские пояснения.', 'Lead with the finished copy, then provide concise variants or editorial notes when useful.'],
     product: ['Структурируйте ответ как проблема пользователя, приоритетные изменения и способ проверить эффект.', 'Structure the response as user problem, prioritized changes, and a way to validate impact.'],
@@ -1478,7 +1494,7 @@ export function generatePromptFromParams(params: GeneratePromptParams): string {
   if (detailLevel === 'minimalist') aggressiveness = 'low';
   if (detailLevel === 'exhaustive') aggressiveness = 'high';
 
-  const basePrompt = buildDomainPrompt(task, aggressiveness, undefined, domain);
+  const basePrompt = buildDomainPrompt(task, aggressiveness, undefined, domain, params.includeTaskInScope);
 
   if (targetModel.includes('Claude')) {
     return adaptPromptForModel(basePrompt, 'claude');

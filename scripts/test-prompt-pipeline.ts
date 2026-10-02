@@ -14,10 +14,25 @@ const baseParams = {
 
 const withoutSkills = generatePromptPipeline(baseParams, []);
 assert.ok(withoutSkills.prompt.includes(task), 'the original task must remain verbatim without Skills');
+assert.equal(withoutSkills.prompt.split(task).length - 1, 1, 'the original task should appear only once in the composed prompt');
 assert.ok(withoutSkills.prompt.includes('Reduce the task to facts'), 'the selected reasoning method must be represented');
 assert.ok(withoutSkills.prompt.includes('Use focused questions to test critical assumptions'), 'the selected tone must be represented');
 assert.ok(withoutSkills.prompt.includes('Coverage & Quality Check'), 'balanced detail should include a completeness module');
+assert.ok(withoutSkills.prompt.includes('Explicit requirements, constraints, and prohibitions in the original task take precedence'), 'user instructions must outrank generic Skill guidance');
 assert.equal(withoutSkills.appliedSkills.length, 0);
+
+const deferredImplementation = generatePromptPipeline({
+  ...baseParams,
+  task: 'Review the webhook contract. Do not write implementation code until I provide the current handler.',
+}, []);
+assert.ok(deferredImplementation.prompt.includes('defer implementation code until the current handler'), 'explicit implementation deferrals must shape the deliverable');
+assert.ok(!deferredImplementation.prompt.includes('Prefer an actionable change or code'), 'generic output defaults must not override an explicit prohibition');
+const deferredWithSkill = generatePromptPipeline({
+  ...baseParams,
+  task: 'Review the webhook contract. Do not write implementation code until I provide the current handler.',
+}, ['code-audit-smells']);
+assert.ok(deferredWithSkill.prompt.includes('defer implementation code until the current handler'));
+assert.ok(deferredWithSkill.prompt.lastIndexOf('Instruction Precedence') > deferredWithSkill.prompt.indexOf('Code Smell & Architectural Anti-Pattern Audit'));
 
 const minimalist = generatePromptPipeline({ ...baseParams, detailLevel: 'minimalist' }, []);
 assert.ok(!minimalist.prompt.includes('Coverage & Quality Check'), 'minimal detail should omit optional validation modules');
@@ -37,10 +52,19 @@ assert.ok(!copywriting.prompt.includes('[[content_type]]'), 'composed sections m
 const emailCopy = generatePromptPipeline({
   ...baseParams,
   domain: 'Copywriting & Conversion',
-  task: 'Draft an onboarding email for new users.',
+  task: 'Draft an onboarding email for new users with a subject line and preview text.',
 }, []);
 assert.ok(emailCopy.prompt.includes('Message Sequence'), 'a different task in the same domain should select a different module');
+assert.ok(emailCopy.prompt.includes('subject line and preview text'), 'email metadata should be handled by the email module');
 assert.ok(!emailCopy.prompt.includes('Headline Variations'));
+
+const copyWithConflictingSkill = generatePromptPipeline({
+  ...baseParams,
+  domain: 'Copywriting',
+  task: 'Write an onboarding email. Do not invent social proof or customer results.',
+}, ['copywriting-aida-attention-interest-desire']);
+assert.ok(copyWithConflictingSkill.prompt.includes('social proof'));
+assert.ok(copyWithConflictingSkill.prompt.lastIndexOf('Instruction Precedence') > copyWithConflictingSkill.prompt.indexOf('AIDA Marketing Copywriting Protocol'));
 
 const pricing = generatePromptPipeline({
   ...baseParams,
