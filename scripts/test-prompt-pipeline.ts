@@ -222,6 +222,12 @@ assert.ok(!tabletopWithDefaultSkills.prompt.includes('Выбранная обл�
 assert.ok(!tabletopWithDefaultSkills.prompt.includes('Запрет на недоделанный код'), 'generic guardrails must not inject coding-only rules');
 assert.ok(!tabletopWithDefaultSkills.prompt.includes('SPOF'), 'generic guardrails must not inject irrelevant infrastructure constraints');
 assert.ok(tabletopWithDefaultSkills.prompt.includes('Не выдумывать факты, результаты, источники, правила'), 'the default guardrail should remain relevant and task-safe');
+const tabletopSkillFilter = generatePromptPipeline({ ...baseParams, domain: 'Coding', task: tabletopPromptRequest }, [
+  'narrative-arc-storytelling',
+  'clinical-trial-pico-extractor',
+]);
+assert.ok(tabletopSkillFilter.appliedSkills.some((skill) => skill.id === 'narrative-arc-storytelling'), 'narrative Skills should survive the inferred TTRPG task group');
+assert.ok(!tabletopSkillFilter.appliedSkills.some((skill) => skill.id === 'clinical-trial-pico-extractor'), 'unrelated clinical Skills should not survive merely because Coding was the UI default');
 
 const tabletopAiBuildWithSkills = applySkillsWithPreflight(tabletopBasic, ['role-calibration', 'constraint-injection'], {
   complexity: 'basic',

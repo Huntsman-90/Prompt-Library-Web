@@ -1,4 +1,4 @@
-import { isRussianText, parsePromptSections, reconstructPrompt, type ParsedSection } from '../utils/promptEngine';
+import { isRussianText, isTabletopGameMasterPromptRequest, parsePromptSections, reconstructPrompt, type ParsedSection } from '../utils/promptEngine';
 import { SKILLS_REGISTRY, type SkillDefinition } from './skillsRegistry';
 
 export type SkillPreflightDiagnosticType =
@@ -99,10 +99,11 @@ function groupForCategory(categoryId: string): DomainGroup | null {
 
 function groupForSkill(skill: SkillDefinition): DomainGroup | null {
   const text = `${skill.id} ${skill.name} ${skill.displayName} ${skill.description} ${(skill.tags || []).join(' ')}`;
-  return classifyDomain(text) || groupForCategory(skill.categoryId);
+  return groupForCategory(skill.categoryId) || classifyDomain(text);
 }
 
 function getTaskGroup(task: string, domain?: string): DomainGroup | null {
+  if (isTabletopGameMasterPromptRequest(task)) return 'writing';
   return classifyDomain(task) || classifyDomain(domain || '');
 }
 
