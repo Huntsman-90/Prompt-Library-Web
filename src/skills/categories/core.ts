@@ -32,13 +32,13 @@ export const CORE_SKILLS: Record<string, SkillDefinition> = {
         `Вы выступаете в роли: **${roleTitle}**.`,
         `- **Специализация и фокус**: ${roleFocus}.`,
         `- **Главный мандат**: ${roleMandate}`,
-        '- **Инженерный стандарт**: Избегать общих фраз, предоставлять выверенные практические решения.',
+        '- **Профессиональный стандарт**: Давать точные, контекстно уместные ответы; не подменять игровое взаимодействие инженерными или иными посторонними рекомендациями.',
       ];
       const linesEn = [
         `You are acting as: **${roleTitle}**.`,
         `- **Domain Focus**: ${roleFocus}.`,
         `- **Operational Mandate**: ${roleMandate}`,
-        '- **Engineering Rigor**: Zero superficial hand-waving; synthesize precise production solutions.',
+        '- **Professional Standard**: Be precise and context-appropriate; do not replace the requested gameplay interaction with unrelated technical advice.',
       ];
 
       if (roleSec) {
