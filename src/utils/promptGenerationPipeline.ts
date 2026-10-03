@@ -7,11 +7,13 @@ import {
   type GeneratePromptParams,
   type ParsedSection,
 } from './promptEngine';
-import { applySkills, type SkillDefinition } from '../skills/skillsRegistry';
+import type { SkillDefinition } from '../skills/skillsRegistry';
+import { applySkillsWithPreflight, type SkillPreflightDiagnostic } from '../skills/skillPreflight';
 
 export interface PromptGenerationResult {
   prompt: string;
   appliedSkills: SkillDefinition[];
+  diagnostics: SkillPreflightDiagnostic[];
 }
 
 function addTaskAndPreferences(
@@ -115,29 +117,6 @@ function adaptToSelectedModel(prompt: string, targetModel: string): string {
   return prompt;
 }
 
-function addInstructionPrecedence(prompt: string, task: string): string {
-  const isRu = isRussianText(task);
-  const { preamble, sections } = parsePromptSections(prompt);
-  const section: ParsedSection = {
-    rawHeader: isRu ? '### Приоритет инструкций' : '### Instruction Precedence',
-    level: 3,
-    title: isRu ? 'Приоритет инструкций' : 'Instruction Precedence',
-    cleanTitle: isRu ? 'приоритет инструкций' : 'instruction precedence',
-    lines: isRu
-      ? [
-          'Явные требования, ограничения и запреты исходной задачи важнее общих рекомендаций Skills и шаблонов.',
-          'Если рекомендация Skill противоречит задаче или требует неподтверждённых фактов, адаптируйте или опустите её; не выдумывайте данные.',
-        ]
-      : [
-          'Explicit requirements, constraints, and prohibitions in the original task take precedence over generic Skill guidance and templates.',
-          'If a Skill instruction conflicts with the task or requires unsupported facts, adapt or omit it; never fabricate evidence.',
-        ],
-    semanticType: 'guardrail_directive',
-  };
-  sections.push(section);
-  return reconstructPrompt(preamble, sections);
-}
-
 /**
  * The one generation path used by the UI: domain template, verbatim task and
  * preferences, ordered Skill transforms (including composite sub-skills), then
@@ -153,18 +132,18 @@ export function generatePromptPipeline(
     includeTaskInScope: false,
   });
   const enrichedPrompt = addTaskAndPreferences(basePrompt, params);
-  const { prompt: skilledPrompt, appliedSkills } = applySkills(enrichedPrompt, skillIds, {
+  const { prompt: prioritizedPrompt, appliedSkills, diagnostics } = applySkillsWithPreflight(enrichedPrompt, skillIds, {
     domain: params.domain,
     task: params.task,
     technique: params.technique,
     tone: params.tone,
     detailLevel: params.detailLevel,
     targetModel: params.targetModel,
-  });
-  const prioritizedPrompt = addInstructionPrecedence(skilledPrompt, params.task);
+  }, params.task, params.domain);
 
   return {
     prompt: adaptToSelectedModel(prioritizedPrompt, params.targetModel),
     appliedSkills,
+    diagnostics,
   };
 }

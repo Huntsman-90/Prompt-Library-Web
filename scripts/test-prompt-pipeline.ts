@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { generatePromptPipeline } from '../src/utils/promptGenerationPipeline.ts';
 import { saveUserSkill } from '../src/skills/customSkillsManager.ts';
+import { applySkillsWithPreflight } from '../src/skills/skillPreflight.ts';
 
 const task = 'Audit the billing webhook retries and propose a safe idempotency strategy.';
 const baseParams = {
@@ -132,6 +133,18 @@ try {
     targetSection: 'protocol',
     transformationDirectives: '- Reject duplicate event IDs and verify the replay window.',
   });
+  await saveUserSkill({
+    id: 'custom-code-directive-skill',
+    name: 'CodeDirectiveSkill',
+    displayName: 'Code Directive Skill',
+    categoryId: 'my_skills',
+    description: 'A test skill that asks for implementation code.',
+    tags: ['test', 'coding'],
+    transformationMode: 'section',
+    customSectionTitle: 'Implementation Directive',
+    targetSection: 'protocol',
+    transformationDirectives: '- Generate complete implementation code and provide the full patch.',
+  });
 } finally {
   console.warn = originalWarn;
 }
@@ -141,3 +154,49 @@ assert.ok(withCustomSkill.prompt.includes('Reject duplicate event IDs and verify
 assert.ok(withCustomSkill.appliedSkills.some((skill) => skill.id === 'custom-test-skill'));
 
 console.log('Prompt pipeline tests passed (base, multi-skill, composite, model adapter, custom skill).');
+
+// --- Preflight Relevance & Conflict Tests ---
+
+// 1. Cross-domain irrelevant Skill filtering
+const codingWithClinicalSkill = generatePromptPipeline({
+  ...baseParams,
+  domain: 'Coding',
+  task: 'Fix SQL query timeout on Postgres invoices table.',
+}, ['clinical-trial-pico-extractor', 'type-safety-contracts']);
+assert.ok(codingWithClinicalSkill.appliedSkills.some((s) => s.id === 'type-safety-contracts'), 'relevant skill must be applied');
+assert.ok(!codingWithClinicalSkill.appliedSkills.some((s) => s.id === 'clinical-trial-pico-extractor'), 'clinical skill must be filtered out for SQL task');
+assert.ok(codingWithClinicalSkill.diagnostics.some((d) => d.type === 'skill-filtered' && d.skillId === 'clinical-trial-pico-extractor'));
+
+// 2. AIDA marketing claim adjustment when task prohibits fabrication
+const onboardingWithAida = generatePromptPipeline({
+  ...baseParams,
+  domain: 'Copywriting',
+  task: 'Write one onboarding email. Do not invent social proof or customer results.',
+}, ['copywriting-aida-attention-interest-desire']);
+assert.ok(onboardingWithAida.diagnostics.some((d) => d.type === 'directive-adjusted' && d.skillId === 'copywriting-aida-attention-interest-desire'));
+assert.ok(!onboardingWithAida.prompt.includes('social proof, case studies, and concrete before/after transformations'), 'unsubstantiated directive must be adjusted');
+assert.ok(!onboardingWithAida.prompt.includes('traditional methods fail'), 'unsupported claims that alternatives fail must be removed');
+assert.ok(onboardingWithAida.prompt.includes('Use social proof, case studies, and before/after claims only when directly supported by supplied material'), 'adjusted claim guidance must appear');
+assert.ok(onboardingWithAida.prompt.includes('do not invent terms, scarcity, or deadlines'), 'unsupported guarantee and urgency claims must be constrained');
+assert.equal(onboardingWithAida.prompt.split('Use statistics, social proof, case studies, guarantees, and urgency only when directly supported by supplied material').length - 1, 0, 'generic conflict replacements should not be duplicated');
+
+// 3. Signature & threshold specification adjustment for unverified webhooks
+const webhookPreflight = generatePromptPipeline({
+  ...baseParams,
+  domain: 'Coding',
+  task: 'Handle payment webhooks safely in Node.js.',
+}, ['unverified-external-webhook-signature-audit']);
+assert.ok(webhookPreflight.diagnostics.some((d) => d.skillId === 'unverified-external-webhook-signature-audit' && d.type === 'directive-adjusted'));
+assert.ok(!webhookPreflight.prompt.includes('reject payloads older than 5 minutes'), 'unsupported 5 minute constant must be generalized');
+
+// 4. Implementation code directive adjusted when user forbids code
+const designOnlyWithCodingSkill = generatePromptPipeline({
+  ...baseParams,
+  domain: 'Coding',
+  task: 'Design the cache topology. Do not write implementation code.',
+}, ['custom-code-directive-skill']);
+assert.ok(designOnlyWithCodingSkill.diagnostics.some((d) => d.type === 'directive-adjusted' && d.skillId === 'custom-code-directive-skill'));
+assert.ok(!designOnlyWithCodingSkill.prompt.includes('Generate complete implementation code'), 'conflicting user-created directive must be replaced');
+assert.ok(designOnlyWithCodingSkill.prompt.includes('Do not provide implementation code'), 'safe replacement must preserve the user prohibition');
+
+console.log('Skill preflight relevance and conflict tests passed.');

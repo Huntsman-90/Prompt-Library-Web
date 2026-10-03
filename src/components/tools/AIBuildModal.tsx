@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { useUIStore } from '../../store/useUIStore';
 import { buildPromptFromDescription } from '../../utils/promptEngine';
-import { applySkills, getSkillsByCategory, SKILLS_REGISTRY, type SkillDefinition } from '../../skills/skillsRegistry';
+import { getSkillsByCategory, SKILLS_REGISTRY, type SkillDefinition } from '../../skills/skillsRegistry';
+import { applySkillsWithPreflight, type SkillPreflightDiagnostic } from '../../skills/skillPreflight';
+import { SkillPreflightNotice } from './SkillPreflightNotice';
 import { CATEGORIES } from '../../data/categories';
 import { X, Bot, Sparkles, Copy, Check, Plus, Zap, ChevronDown, ChevronUp } from 'lucide-react';
 
@@ -30,6 +32,7 @@ export const AIBuildModal: React.FC = () => {
 
   const [builtPrompt, setBuiltPrompt] = useState('');
   const [appliedSkillNames, setAppliedSkillNames] = useState<string[]>([]);
+  const [skillDiagnostics, setSkillDiagnostics] = useState<SkillPreflightDiagnostic[]>([]);
   const [copied, setCopied] = useState(false);
 
   if (activeTool !== 'aibuild') return null;
@@ -46,23 +49,22 @@ export const AIBuildModal: React.FC = () => {
       addToast({ type: 'error', title: 'Please provide a description' });
       return;
     }
-    let finalResult = '';
-    let appliedSkillsList: SkillDefinition[] = [];
-
-    if (selectedSkillIds.length > 0) {
-      const { prompt: skillResult, appliedSkills } = applySkills(description, selectedSkillIds, { complexity });
-      finalResult = skillResult;
-      appliedSkillsList = appliedSkills;
-    } else {
-      finalResult = buildPromptFromDescription(description, complexity);
-    }
+    const basePrompt = selectedSkillIds.length > 0
+      ? description
+      : buildPromptFromDescription(description, complexity);
+    const {
+      prompt: finalResult,
+      appliedSkills: appliedSkillsList,
+      diagnostics,
+    } = applySkillsWithPreflight(basePrompt, selectedSkillIds, { complexity, task: description }, description);
 
     setBuiltPrompt(finalResult);
     setAppliedSkillNames(appliedSkillsList.map((s) => s.displayName));
+    setSkillDiagnostics(diagnostics);
     addToast({
       type: 'success',
       title: 'Master prompt assembled with active skills!',
-      description: `${appliedSkillsList.length} skills woven into prompt architecture`,
+      description: `${appliedSkillsList.length} Skills applied; ${diagnostics.length} preflight adjustment(s).`,
     });
   };
 
@@ -323,6 +325,7 @@ export const AIBuildModal: React.FC = () => {
                 value={builtPrompt}
                 className="w-full rounded-2xl border border-slate-800 bg-slate-950 p-3 font-mono text-xs text-slate-200 focus:outline-none leading-relaxed"
               />
+              <SkillPreflightNotice diagnostics={skillDiagnostics} />
             </div>
           )}
         </div>
