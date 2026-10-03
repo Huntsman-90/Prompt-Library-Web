@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import { useUIStore } from '../../store/useUIStore';
-import { generatePromptFromParams, isRussianText } from '../../utils/promptEngine';
-import { applySkills, getSkillsByCategory, SKILLS_REGISTRY, type SkillDefinition } from '../../skills/skillsRegistry';
+import { isRussianText } from '../../utils/promptEngine';
+import { getSkillsByCategory, SKILLS_REGISTRY, type SkillDefinition } from '../../skills/skillsRegistry';
+import { generatePromptPipeline } from '../../utils/promptGenerationPipeline';
+import { SkillPreflightNotice } from './SkillPreflightNotice';
+import type { SkillPreflightDiagnostic } from '../../skills/skillPreflight';
 import { CATEGORIES } from '../../data/categories';
 import { X, Wand2, Copy, Check, Plus, Zap, ChevronDown, ChevronUp } from 'lucide-react';
 
@@ -33,6 +36,7 @@ export const PromptGeneratorModal: React.FC = () => {
 
   const [generatedPrompt, setGeneratedPrompt] = useState('');
   const [appliedSkillNames, setAppliedSkillNames] = useState<string[]>([]);
+  const [skillDiagnostics, setSkillDiagnostics] = useState<SkillPreflightDiagnostic[]>([]);
   const [copied, setCopied] = useState(false);
 
   if (activeTool !== 'generator') return null;
@@ -51,36 +55,32 @@ export const PromptGeneratorModal: React.FC = () => {
       (isRu
         ? `Разработать комплексное экспертное решение по направлению «${domain}».`
         : `Synthesize an authoritative engineering solution for ${domain}.`);
-    let finalResult = '';
-    let appliedSkillsList: SkillDefinition[] = [];
-
-    if (selectedSkillIds.length > 0) {
-      const { prompt: skillResult, appliedSkills } = applySkills(targetTask, selectedSkillIds, {
-        domain,
-        technique,
-        tone,
-        detailLevel,
-        targetModel,
+    let finalResult: string;
+    let appliedSkillsList: SkillDefinition[];
+    let diagnostics: SkillPreflightDiagnostic[];
+    try {
+      ({ prompt: finalResult, appliedSkills: appliedSkillsList, diagnostics } = generatePromptPipeline(
+        { domain, task: targetTask, technique, tone, detailLevel, targetModel },
+        selectedSkillIds
+      ));
+    } catch (error) {
+      addToast({
+        type: 'error',
+        title: 'Prompt generation failed',
+        description: error instanceof Error ? error.message : 'A selected Skill could not be applied.',
       });
-      finalResult = skillResult;
-      appliedSkillsList = appliedSkills;
-    } else {
-      finalResult = generatePromptFromParams({
-        domain,
-        task: targetTask,
-        technique,
-        tone,
-        detailLevel,
-        targetModel,
-      });
+      return;
     }
 
     setGeneratedPrompt(finalResult);
     setAppliedSkillNames(appliedSkillsList.map((s) => s.displayName));
+    setSkillDiagnostics(diagnostics);
+    const filteredCount = diagnostics.filter((d) => d.type === 'skill-filtered' || d.type === 'unknown-skill').length;
+    const adjustedCount = diagnostics.filter((d) => d.type === 'directive-adjusted' || d.type === 'directive-removed').length;
     addToast({
       type: 'success',
-      title: 'Prompt generated with active skills!',
-      description: `${appliedSkillsList.length} skills woven into prompt architecture`,
+      title: appliedSkillsList.length > 0 ? 'Prompt generated with active skills!' : 'Prompt generated!',
+      description: `${appliedSkillsList.length} Skills applied; ${filteredCount} filtered; ${adjustedCount} directive adjustment(s).`,
     });
   };
 
@@ -372,6 +372,7 @@ export const PromptGeneratorModal: React.FC = () => {
                 value={generatedPrompt}
                 className="w-full rounded-2xl border border-slate-800 bg-slate-950 p-3 font-mono text-xs text-slate-200 focus:outline-none leading-relaxed"
               />
+              <SkillPreflightNotice diagnostics={skillDiagnostics} />
             </div>
           )}
         </div>

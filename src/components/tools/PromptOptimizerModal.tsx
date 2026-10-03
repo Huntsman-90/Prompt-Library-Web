@@ -1,7 +1,9 @@
 import React, { useState, useMemo } from 'react';
 import { useUIStore } from '../../store/useUIStore';
 import { optimizePrompt } from '../../utils/promptEngine';
-import { detectSkillsInPrompt, applySkills, SKILLS_REGISTRY, getSkillsByCategory } from '../../skills/skillsRegistry';
+import { detectSkillsInPrompt, SKILLS_REGISTRY, getSkillsByCategory } from '../../skills/skillsRegistry';
+import { applySkillsWithPreflight, type SkillPreflightDiagnostic } from '../../skills/skillPreflight';
+import { SkillPreflightNotice } from './SkillPreflightNotice';
 import { CATEGORIES } from '../../data/categories';
 import { X, Sparkles, Copy, Check, Plus, Zap, ShieldCheck, ChevronDown, ChevronUp } from 'lucide-react';
 
@@ -33,6 +35,7 @@ export const PromptOptimizerModal: React.FC = () => {
 
   const [optimizedOutput, setOptimizedOutput] = useState('');
   const [copied, setCopied] = useState(false);
+  const [skillDiagnostics, setSkillDiagnostics] = useState<SkillPreflightDiagnostic[]>([]);
 
   // Detect skills present in the input prompt
   const detectedInputSkills = useMemo(() => {
@@ -72,9 +75,10 @@ export const PromptOptimizerModal: React.FC = () => {
     if (structure) skillIdsToApply.add('clarity-and-density');
 
     let result = '';
+    let diagnostics: SkillPreflightDiagnostic[] = [];
 
     if (skillIdsToApply.size > 0) {
-      const { prompt: skillAugmented } = applySkills(inputPrompt, Array.from(skillIdsToApply), {
+      const preflight = applySkillsWithPreflight(inputPrompt, Array.from(skillIdsToApply), {
         clarity,
         specificity,
         structure,
@@ -83,8 +87,9 @@ export const PromptOptimizerModal: React.FC = () => {
         chainOfThought,
         riskAudit,
         aggressiveness,
-      });
-      result = skillAugmented;
+      }, inputPrompt);
+      result = preflight.prompt;
+      diagnostics = preflight.diagnostics;
     } else {
       result = optimizePrompt(inputPrompt, {
         clarity,
@@ -99,6 +104,7 @@ export const PromptOptimizerModal: React.FC = () => {
     }
 
     setOptimizedOutput(result);
+    setSkillDiagnostics(diagnostics);
     addToast({
       type: 'success',
       title: 'Prompt optimized!',
@@ -434,6 +440,7 @@ export const PromptOptimizerModal: React.FC = () => {
                 value={optimizedOutput}
                 className="w-full rounded-2xl border border-slate-800 bg-slate-950 p-3 font-mono text-xs text-slate-200 focus:outline-none leading-relaxed"
               />
+              <SkillPreflightNotice diagnostics={skillDiagnostics} />
             </div>
           )}
         </div>

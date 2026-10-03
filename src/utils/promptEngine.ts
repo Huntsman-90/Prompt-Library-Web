@@ -7,6 +7,7 @@ export interface GeneratePromptParams {
   tone: string;
   detailLevel: 'minimalist' | 'balanced' | 'exhaustive';
   targetModel: string;
+  includeTaskInScope?: boolean;
 }
 
 /**
@@ -469,13 +470,6 @@ export function deduplicatePromptSections(sections: ParsedSection[], isRu: boole
       } else {
         mergedConstraints.lines.push(...sec.lines);
       }
-    } else if (sec.semanticType === 'output_format') {
-      if (seenCategories.has('output_format')) {
-        continue;
-      }
-      seenCategories.add('output_format');
-      seenTitles.add(normTitle);
-      result.push(sec);
     } else {
       seenTitles.add(normTitle);
       result.push(sec);
@@ -1007,9 +1001,8 @@ export function refineOptimizedPrompt(
 }
 
 /**
- * Transforms raw user tasks into specialized, standalone domain prompts.
- * Generates domain-specific sections (e.g. Incident Timelines, 5 Whys, Code Audits, GTM Roadmaps, AIDA Copy Arc)
- * completely removing raw meta-text.
+ * Composes a standalone prompt from shared sections and task-relevant domain modules.
+ * Domain and task signals select only the sections that apply; detail level controls depth.
  */
 export function buildDomainPrompt(
   input: string,
@@ -1019,366 +1012,225 @@ export function buildDomainPrompt(
     riskAudit?: boolean;
     constraints?: boolean;
     examples?: boolean;
-  }
+  },
+  domainHint?: string,
+  includeTaskInScope = true
 ): string {
-  // If the input prompt is ALREADY a structured prompt, route to idempotent refinement!
   if (isPromptAlreadyOptimized(input)) {
     return refineOptimizedPrompt(input, aggressiveness, options);
   }
+
   const cleanGoal = extractTaskFromGeneratedPrompt(input);
-  const isRu = isRussianText(cleanGoal.length > 3 ? cleanGoal : input);
+  const task = cleanGoal || input.trim() || 'Complete the requested task';
+  const isRu = isRussianText(task.length > 3 ? task : input);
+  const taskLower = task.toLowerCase();
+  const hintedDomain = (domainHint || '').toLowerCase();
 
-  // Detect domain
-  const domain = detectPromptDomain(input);
-  const isRetro = domain === 'retro';
-  const isCoding = domain === 'coding';
-  const isBusiness = domain === 'business';
-  const isCopywriting = domain === 'copywriting';
+  type CompositionDomain = 'retro' | 'coding' | 'business' | 'copywriting' | 'product' | 'research' | 'executive' | 'general';
+  let domain: CompositionDomain = detectPromptDomain(input);
+  if (/cod|software|system|код|систем/i.test(hintedDomain)) domain = 'coding';
+  else if (/business|gtm|бизнес|стратег/i.test(hintedDomain)) domain = 'business';
+  else if (/copy|writing|conversion|копирайт|текст/i.test(hintedDomain)) domain = 'copywriting';
+  else if (/product|ux|продукт|дизайн/i.test(hintedDomain)) domain = 'product';
+  else if (/research|academic|scientific|исслед|науч|академ/i.test(hintedDomain)) domain = 'research';
+  else if (/executive|leadership|руковод|директор/i.test(hintedDomain)) domain = 'executive';
 
-  // 1. RETROSPECTIVE & INCIDENT POST-MORTEM DOMAIN
-  if (isRetro) {
-    if (isRu) {
-      if (aggressiveness === 'low') {
-        return `### Роль и Задачи\nВы выступаете в роли опытного Agile Coach и Фасилитатора ретроспектив.\n\n### Контекст и Постановка Задачи\nПровести системный разбор и ретроспективу инцидента/спринта [[название_события]] для выявления узких мест и планирования улучшений.\n\n### Правила Проведения\n- Соблюдать принцип культуры без поиска виновных (Blameless).\n- Фиксировать ключевые выводы и согласованные Action Items.`;
-      }
-      if (aggressiveness === 'medium') {
-        return `### Роль и Принципы (Blameless Culture)\nВы выступаете в роли Site Reliability Lead и Фасилитатора, специализирующегося на проведении безнаказанных (Blameless) ретроспектив и разборе сбоев.\n\n### Контекст и Область Применения\nПровести глубокую ретроспективу инцидента [[название_инцидента]], восстановить хронологию событий и сформировать план предотвращения повторных аварий.\n\n### 1. Восстановление Хронологии (Timeline)\n- Время обнаружения (Detection) и локализации сбоя.\n- Временные меры по стабилизации (Mitigation) и финальное решение (Resolution).\n\n### 2. Анализ Первопричин (Root Cause)\nПрименить метод «5 Почему» для поиска системных уязвимостей в процессах и архитектуре.\n\n### 3. Матрица Действий (Action Items)\n| Действие | Ответственный | Приоритет | Срок |\n|---|---|---|---|\n| [[action_item_1]] | [[owner_1]] | P0 | [[deadline_1]] |`;
-      }
-      // DEEP
-      return `### Роль и Принципы (Blameless Culture)
-Вы выступаете в роли опытного Site Reliability Lead и Фасилитатора, специализирующегося на проведении системных ретроспектив инцидентов и разборе сбоев в культуре без поиска виновных (Blameless Culture).
+  const sections: ParsedSection[] = [];
+  const addSection = (
+    title: string,
+    semanticType: ParsedSection['semanticType'],
+    lines: string[]
+  ) => {
+    sections.push({
+      rawHeader: `### ${title}`,
+      level: 3,
+      title,
+      cleanTitle: title.toLowerCase(),
+      lines,
+      semanticType,
+    });
+  };
+  const choose = (ru: string, en: string) => isRu ? ru : en;
 
-### Контекст и Область Применения
-Провести комплексную ретроспективу инцидента [[название_инцидента]], полностью восстановить хронологию событий, установить инженерные и процессные первопричины (Root Causes), оценить объём ущерба и сформировать план предотвращения повторных аварий.
+  const roleByDomain: Record<CompositionDomain, [string, string]> = {
+    retro: ['Фасилитатор разбора инцидентов и надёжности систем', 'Incident Review & Reliability Facilitator'],
+    coding: ['Инженер-программист, ориентированный на решение конкретной технической задачи', 'Software Engineer focused on the stated technical task'],
+    business: ['Практик по стратегии и операционным решениям', 'Strategy and Operations Practitioner'],
+    copywriting: ['Редактор и автор, ориентированный на аудиторию и цель материала', 'Audience- and objective-focused Writer and Editor'],
+    product: ['Специалист по продукту и пользовательским сценариям', 'Product and User-Experience Practitioner'],
+    research: ['Исследователь, работающий с проверяемыми данными и методологией', 'Researcher focused on verifiable evidence and sound methodology'],
+    executive: ['Советник руководителя, фокусирующийся на решениях и последствиях', 'Executive Advisor focused on decisions and consequences'],
+    general: ['Профильный специалист, выбранный по фактической задаче', 'A practitioner appropriate to the actual task'],
+  };
 
-### 1. Контекст и Масштаб Инцидента
-- Название / ID Инцидента: [[id_инцидента]]
-- Затронутые сервисы / Системы: [[затронутые_сервисы]]
-- Уровень критичности (Severity): [[уровень_severity]]
-- Длительность простоя (Downtime): [[длительность_мин]] мин
+  addSection(
+    choose('Роль и рабочий стандарт', 'Role & Working Standard'),
+    'role',
+    [
+      choose(`Выступайте как ${roleByDomain[domain][0]}.`, `Act as ${roleByDomain[domain][1]}.`),
+      choose('Сначала следуйте фактической задаче и предоставленным материалам; не подменяйте их типовым сценарием.', 'Prioritize the stated task and supplied materials; do not substitute a familiar but different scenario.'),
+    ]
+  );
 
-### 2. Реконструкция Хронологии (Timeline)
-- **Обнаружение (Detection)**: Время и канал первого сигнала (мониторинг, саппорт, пользователи).
-- **Локализация и Триатлон (Triage)**: Определение эпицентра сбоя.
-- **Стабилизация (Mitigation)**: Временные меры для восстановления работоспособности.
-- **Полное Решение (Resolution)**: Окончательное устранение дефекта.
+  addSection(
+    choose('Задача и границы', 'Task & Scope'),
+    'context',
+    [
+      includeTaskInScope
+        ? choose(`**Задача:** ${task}`, `**Task:** ${task}`)
+        : choose('Используйте дословный раздел «Исходная задача» как единственный источник формулировки; не пересказывайте и не сужайте его.', 'Use the verbatim Task Input section as the single source for the request; do not paraphrase or narrow it.'),
+      choose('Используйте только релевантные к цели вводные. Отделяйте факты от допущений и отмечайте действительно блокирующие пробелы.', 'Use only context relevant to the objective. Separate facts from assumptions and flag only gaps that materially block progress.'),
+    ]
+  );
 
-### 3. Анализ Первопричин (Протокол 5 Почему / Root Cause)
-Примените цепочку «5 Почему» для перехода от поверхностных симптомов (человеческий фактор, ошибка конфигурации) к глубиновым архитектурным и процессным уязвимостям.
-
-### 4. Оценка Ущерба и Влияния на Бизнес
-- Потерянный доход / Финансовый ущерб
-- Нарушение SLA / SLO договоренностей
-- Репутационные риски и жалобы пользователей
-
-### 5. Матрица Предотвращения и Action Items
-| Действие / Таск | Ответственный | Приоритет (P0/P1/P2) | Срок |
-|---|---|---|---|
-| [[action_item_1]] | [[owner_1]] | P0 | [[deadline_1]] |
-
-### 6. Ограничения и Правила
-- ФОКУС strictly на процессах, архитектуре и системных лазейках, а не на персоналиях.
-- Каждое рекомендательное действие должно иметь четкий критерий проверки (Definition of Done).
-- Исключить вводную воду, вежливые клише («Конечно, вот ваш ответ») и мета-комментарии.
-- Излагать материал кратко, емко и с высокой плотностью смысла.`;
+  if (domain === 'retro') {
+    addSection(choose('Факты и хронология события', 'Incident Facts & Timeline'), 'protocol', [
+      choose('Соберите подтверждённые данные о влиянии, затронутых системах, времени и действиях; неизвестные значения оставьте явно неизвестными.', 'Establish verified impact, affected systems, timestamps, and actions; keep unknown values explicitly unknown.'),
+      choose('Расположите события по времени и различайте начало деградации, обнаружение, меры смягчения и восстановление.', 'Order events chronologically and distinguish onset, detection, mitigation, and recovery.'),
+    ]);
+    addSection(choose('Системные причины и вклад факторов', 'Systemic Causes & Contributing Factors'), 'protocol', [
+      choose('Свяжите наблюдаемые симптомы с техническими и процессными условиями; различайте триггер, способствующие факторы и первопричины.', 'Connect observed symptoms to technical and process conditions; distinguish trigger, contributing factors, and root causes.'),
+      choose('Не приписывайте вину отдельным людям; рассматривайте возможности обнаружения, предотвращения и ограничения последствий.', 'Avoid individual blame; examine detection, prevention, and blast-radius controls.'),
+    ]);
+    if (aggressiveness !== 'low') {
+      addSection(choose('Меры восстановления и предупреждения', 'Recovery & Prevention Actions'), 'protocol', [
+        choose('Предложите действия, соразмерные установленным причинам; для каждого укажите владельца-ролевую функцию, приоритет и проверяемый критерий готовности.', 'Tie actions to established causes; give each an owner role, priority, and verifiable completion criterion.'),
+        choose('Разделяйте немедленное устранение, улучшение обнаружения и долгосрочное снижение риска.', 'Separate immediate remediation, detection improvements, and longer-term risk reduction.'),
+      ]);
+    }
+  } else if (domain === 'coding') {
+    addSection(choose('Технический протокол', 'Technical Work Protocol'), 'protocol', [
+      choose('Изучите предоставленный код, спецификацию или симптомы. Если необходимого артефакта нет, не выдумывайте его: запросите его либо дайте ограниченный план диагностики.', 'Inspect supplied code, specifications, or symptoms. If a necessary artifact is missing, do not invent it: request it or provide a bounded diagnostic plan.'),
+      choose('Сформулируйте причину или инженерный выбор, затем предложите минимальное достаточное изменение с учётом совместимости и существующих соглашений проекта.', 'Explain the cause or engineering choice, then propose the smallest sufficient change while respecting compatibility and project conventions.'),
+      choose('Укажите проверки, тесты и возможные побочные эффекты, относящиеся именно к этому изменению.', 'Specify checks, tests, and possible side effects relevant to this particular change.'),
+    ]);
+    if (/api|webhook|http|интеграц|идемпотент|очеред|retry|повторн/i.test(taskLower)) {
+      addSection(choose('Контракты интеграций и повторных вызовов', 'Integration Contracts & Retries'), 'protocol', [
+        choose('Проверьте границы доверия, обработку тайм-аутов, повторов и дублирующих запросов; не вводите идемпотентность или доставку «ровно один раз» без подходящего контракта.', 'Check trust boundaries, timeouts, retries, and duplicate requests; do not claim idempotency or exactly-once delivery without an appropriate contract.'),
+      ]);
+    }
+    if (/sql|database|postgres|баз[аы] данных|миграц|запрос/i.test(taskLower)) {
+      addSection(choose('Данные и целостность', 'Data & Integrity'), 'protocol', [
+        choose('Учитывайте схему, транзакционные границы, объём данных и план отката; не предлагайте миграции без оценки совместимости.', 'Account for schema, transaction boundaries, data volume, and rollback; do not suggest migrations without assessing compatibility.'),
+      ]);
+    }
+    if (/security|auth|permission|credential|безопас|авторизац|аутентификац|доступ/i.test(taskLower)) {
+      addSection(choose('Границы безопасности', 'Security Boundaries'), 'protocol', [
+        choose('Проверьте аутентификацию, авторизацию, валидацию входа и раскрытие секретов только в той мере, в какой они относятся к задаче.', 'Review authentication, authorization, input validation, and secret exposure only to the extent relevant to the task.'),
+      ]);
+    }
+  } else if (domain === 'business') {
+    addSection(choose('Стратегический анализ', 'Strategic Analysis'), 'protocol', [
+      choose('Определите целевой сегмент, проблему клиента, ценностное предложение и альтернативы; не объявляйте конкурентное преимущество без оснований.', 'Identify target segments, customer problem, value proposition, and alternatives; do not claim competitive advantage without evidence.'),
+      choose('Свяжите рекомендации с доступными ресурсами, ограничениями и измеримыми результатами.', 'Tie recommendations to available resources, constraints, and measurable outcomes.'),
+    ]);
+    if (/price|pricing|цена|тариф|монетизац/i.test(taskLower)) {
+      addSection(choose('Ценообразование и экономика', 'Pricing & Economics'), 'protocol', [
+        choose('Разделяйте известные исходные данные и оценки; показывайте формулы, диапазоны и чувствительность вместо вымышленных точных показателей.', 'Separate known inputs from estimates; show formulas, ranges, and sensitivities instead of fabricated point estimates.'),
+        choose('Сопоставьте ценовую модель с ценностью для клиента, затратами и конкурентными альтернативами.', 'Relate pricing mechanics to customer value, cost structure, and competitive alternatives.'),
+      ]);
+    }
+    if (/launch|market|gtm|growth|вывод на рынок|запуск|рост|масштаб/i.test(taskLower)) {
+      addSection(choose('Выход на рынок и проверка гипотез', 'Go-to-Market & Validation'), 'protocol', [
+        choose('Разбейте инициативу на проверяемые этапы; для каждого задайте гипотезу, канал, метрику и условие продолжения или остановки.', 'Break the initiative into testable stages; specify a hypothesis, channel, metric, and continue/stop gate for each.'),
+      ]);
+    }
+  } else if (domain === 'copywriting') {
+    addSection(choose('Редакторский бриф', 'Editorial Brief'), 'context', [
+      choose('Извлеките из задачи аудиторию, канал, желаемое действие и подтверждённые факты. Если часть брифа отсутствует, используйте нейтральное допущение или обозначьте переменную.', 'Infer audience, channel, desired action, and substantiated facts from the task. If brief details are missing, use a neutral assumption or mark a variable.'),
+      choose('Подберите структуру убеждения под материал; не навязывайте AIDA/PAS, если формат или цель этого не требуют.', 'Choose a persuasive structure suited to the asset; do not force AIDA/PAS when the format or objective does not call for it.'),
+    ]);
+    if (/headline|заголов/i.test(taskLower)) {
+      addSection(choose('Варианты заголовка', 'Headline Variations'), 'protocol', [
+        choose('Подготовьте несколько содержательно разных вариантов и кратко поясните их угол подачи; не используйте неподтверждённые цифры или обещания.', 'Offer several meaningfully distinct angles with a brief rationale; do not use unsupported numbers or promises.'),
+      ]);
+    } else if (/email|e-mail|subject line|preview text|письм|рассылк|тема письма|прехедер/i.test(taskLower)) {
+      addSection(choose('Структура сообщения', 'Message Sequence'), 'protocol', [
+        choose('Согласуйте тему и прехедер (если запрошены), первое предложение, основное сообщение и один ясный призыв к действию.', 'Align the subject line and preview text (when requested), opening, core message, and one clear call to action.'),
+      ]);
     } else {
-      // English
-      if (aggressiveness === 'low') {
-        return `### Role & Expertise\nYou are acting as an experienced Agile Facilitator leading an incident retrospective.\n\n### Context & Scope\nConduct a systematic retrospective for [[event_name]] to identify process bottlenecks and outline corrective actions.\n\n### Execution Rules\n- Maintain a blameless culture focusing on systems rather than individuals.\n- Deliver concise, actionable takeaways.`;
-      }
-      if (aggressiveness === 'medium') {
-        return `### Role & Blameless Principles\nYou are acting as a Site Reliability Lead specializing in blameless incident retrospectives.\n\n### Context & Scope\nFacilitate a thorough retrospective for [[incident_title]] to reconstruct timeline events, analyze root causes, and establish preventive measures.\n\n### 1. Timeline Reconstruction\n- Detection time, triage, mitigation, and permanent resolution milestones.\n\n### 2. Root Cause Analysis (5 Whys Protocol)\nExecute 5 Whys chain to transition from symptoms to underlying process and architectural flaws.\n\n### 3. Action Items Matrix\n| Action Item | Owner | Priority (P0/P1/P2) | Deadline |\n|---|---|---|---|\n| [[action_item_1]] | [[owner_1]] | P0 | [[deadline_1]] |`;
-      }
-      // DEEP
-      return `### Role & Blameless Principles
-You are acting as a Senior Site Reliability Engineer and Systems Auditor specializing in blameless post-mortems and incident retrospectives.
-
-### Context & Scope
-Facilitate a comprehensive, blameless incident retrospective for [[incident_title]] to reconstruct timeline events, isolate root cause vulnerabilities, evaluate business impact, and establish preventative safeguards.
-
-### 1. Incident Framing & Scope
-- Incident Title / ID: [[incident_id]]
-- Affected Systems & Services: [[affected_services]]
-- Severity Rating: [[severity_rating]]
-- Total Downtime: [[downtime_minutes]] minutes
-
-### 2. Timeline Reconstruction
-- **Detection Phase**: Initial trigger, monitoring alert, or user escalation.
-- **Triage Phase**: Failure isolation and diagnosis.
-- **Mitigation Phase**: Workaround applied to restore service.
-- **Resolution Phase**: Permanent fix deployment.
-
-### 3. Root Cause Analysis (5 Whys Protocol)
-Execute a 5-Whys diagnostic chain to transition from surface symptoms (human mistake, config error) to deep architectural, policy, or testing deficits.
-
-### 4. Impact & Loss Assessment
-- Quantified financial loss & revenue impact.
-- SLA/SLO breach thresholds.
-- Customer trust and support ticket volume delta.
-
-### 5. Preventative Action Items Matrix
-| Action Item | Owner | Priority (P0/P1/P2) | Target Date |
-|---|---|---|---|
-| [[action_item_1]] | [[owner_1]] | P0 | [[target_date_1]] |
-
-### 6. Governance & Negative Constraints
-- Maintain absolute focus on process, tooling, and architectural flaws rather than personal blame.
-- Every corrective action item must feature a verifiable Definition of Done.
-- Zero conversational fluff or introductory chatter. Begin immediately with substantive content.
-- Maintain maximum information density and rigorous technical precision.`;
+      addSection(choose('Композиция материала', 'Content Composition'), 'protocol', [
+        choose('Начните с релевантного читателю тезиса, развейте его проверяемой аргументацией и завершите уместным следующим шагом.', 'Open with a reader-relevant point, support it with substantiated reasoning, and close with an appropriate next step.'),
+      ]);
     }
-  }
-
-  // 2. CODE REFACTORING & SOFTWARE AUDIT DOMAIN
-  if (isCoding) {
-    if (isRu) {
-      if (aggressiveness === 'low') {
-        return `### Роль и Задачи\nВы выступаете в роли Senior Software Engineer.\n\n### Область Рефакторинга\nПровести рефакторинг представленного кода <code_snippet>[[код]]</code_snippet> для повышения читаемости, устранения ошибок и улучшения архитектуры.\n\n### Правила\n- Предоставить чистый, рабочеспособный код.\n- Добавить краткие пояснения сделанных изменений.`;
-      }
-      if (aggressiveness === 'medium') {
-        return `### Роль и Полномочия\nВы выступаете в роли Principal Software Architect, специализирующегося на чистом коде, типобезопасности и оптимизации производительности.\n\n### Область Рефакторинга\nПровести рефакторинг кода <code_snippet>[[код]]</code_snippet> для улучшения типобезопасности, разделения ответственности и оптимизации алгоритмической сложности.\n\n### 1. Направления Оптимизации\n- Устранить \`any\` типы и заменить их на строгие интерфейсы.\n- Извлечь сложные монолитные блоки в вспомогательные функции.\n- Оптимизировать время выполнения и аллокации памяти.\n\n### 2. Формат Вывода\nРефакторенный код и краткая справка по изменениям.`;
-      }
-      // DEEP
-      return `### Роль и Полномочия
-Вы выступаете в роли Главного Архитектора ПО (Principal Software Architect), специализирующегося на чистой архитектуре, типобезопасности, оптимизации производительности и надёжности сложных распределённых систем.
-
-### Область Рефакторинга
-Провести глубокий аудит и рефакторинг представленного фрагмента кода <code_snippet>[[фрагмент_кода]]</code_snippet> для устранения architectural smells, повышения читаемости, обеспечения 100% типобезопасности и оптимизации runtime-производительности.
-
-### 1. Аудит Кода и Выявление Проблем
-- **Типобезопасность**: Поиск неявных \`any\`, небезопасных приведений типов и отсутствующих интерфейсов.
-- **Производительность**: Выявление лишних аллокаций памяти, неоптимальных циклов и утечек памяти.
-- **Архитектурная Связность**: Извлечение сложной монолитной логики в чистые, тестируемые вспомогательные функции.
-
-### 2. Директивы по Рефакторингу
-- Внедрить строгие интерфейсы и дискриминантные объединения (Discriminated Unions).
-- Оптимизировать асинхронные вызовы и обработку ошибок через явную иерархию исключений.
-- Ограничить вычислительную сложность алгоритмов верхним пределом O(N).
-
-### 3. Гарантия Регрессионной Безопасности
-Предоставить модуль юнит-тестов (Vitest/Jest), покрывающий базовый сценарий (Happy Path), граничные условия (Edge Cases) и обработку ошибок.
-
-### 4. Формат Вывода
-- Четкий сфокусированный рефакторенный код в блоке кода.
-- Краткие архитектурные комментарии с пояснением изменений и дельты сложности.
-
-### 5. Ограничения и Правила
-- Исключить вводную воду, вежливые клише («Конечно, вот ваш ответ») и мета-комментарии.
-- Излагать материал кратко, емко и с высокой плотностью смысла.`;
-    } else {
-      if (aggressiveness === 'low') {
-        return `### Role & Expertise\nYou are acting as a Senior Software Engineer.\n\n### Refactoring Scope\nRefactor the provided code snippet <code_snippet>[[code_snippet]]</code_snippet> to improve code readability, fix bugs, and enhance structure.\n\n### Execution Rules\n- Output clean, working code.\n- Provide a brief summary of refactored sections.`;
-      }
-      if (aggressiveness === 'medium') {
-        return `### Role & Authority\nYou are acting as a Principal Software Architect specializing in clean code and type safety.\n\n### Refactoring Scope\nAudit and refactor the code block <code_snippet>[[code_snippet]]</code_snippet> to enforce strict typing, modularity, and algorithmic efficiency.\n\n### 1. Refactoring Directives\n- Replace untyped constructs with explicit interface contracts.\n- Extract monolithic logic into pure helper functions.\n- Reduce time and space complexity.\n\n### 2. Output Specification\nRefactored production-ready code accompanied by concise architectural notes.`;
-      }
-      // DEEP
-      return `### Role & Authority
-You are acting as a Principal Software Architect specializing in clean code, type safety, low-latency performance, and resilient systems design.
-
-### Refactoring Scope
-Audit and refactor the provided code block <code_snippet>[[code_snippet]]</code_snippet> to eliminate architectural design smells, ensure strict type safety, optimize runtime performance, and enhance long-term maintainability.
-
-### 1. Code Audit & Vulnerability Screening
-- **Type Safety**: Locate implicit \`any\` types, unsafe assertions, or missing contracts.
-- **Performance**: Identify redundant re-renders, unindexed queries, or memory leaks.
-- **Modularity**: Decouple monolithic structures into pure, easily testable functions.
-
-### 2. Refactoring Directives
-- Enforce strict TypeScript interfaces and discriminated unions.
-- Optimize asynchronous operations and error boundaries.
-- Adhere strictly to SOLID principles and DRY patterns.
-
-### 3. Regression Safeguard & Testing
-Provide a Vitest/Jest unit test suite covering happy path execution, boundary values, and error states.
-
-### 4. Output Format
-- Refactored production-ready code block.
-- Concise architectural commentary detailing key trade-offs and complexity improvements.
-
-### 5. Governance & Negative Constraints
-- Zero conversational fluff or introductory chatter. Begin immediately with substantive content.
-- Maintain maximum information density and rigorous technical precision.`;
-    }
-  }
-
-  // 3. BUSINESS STRATEGY & GTM DOMAIN
-  if (isBusiness) {
-    if (isRu) {
-      if (aggressiveness === 'low') {
-        return `### Роль и Задачи\nВы выступаете в роли Бизнес-Консультанта.\n\n### Стратегический Контекст\nРазработать стратегический план по теме [[тема_бизнеса]] с акцентом на рост продаж и оптимизацию ресурсов.\n\n### Правила Выполнения\n- Фокус на росте продаж и практической отдаче.\n- Излагать тезисно и без абстрактных рассуждений.`;
-      }
-      if (aggressiveness === 'medium') {
-        return `### Роль и Экспертиза\nВы выступаете в роли Директора по Стратегии (CSO) и бизнес-консультанта.\n\n### Стратегический Контекст\nСформировать стратегию вывода на рынок [[название_продукта]] и оптимизации ценообразования.\n\n### 1. Конкурентный Анализ\nОпределить ICP и асимметричные преимущества перед конкурентами.\n\n### 2. Юнит-Экономика\nРассчитать показатели LTV, CAC Payback и структуру ценообразования.\n\n### 3. Дорожная Карта\nПошаговый план выхода на рынок по фазам.`;
-      }
-      // DEEP
-      return `### Роль и Экспертиза
-Вы выступаете в роли Директора по Стратегии (CSO) и бизнес-консультанта, специализирующегося на юнит-экономике, выходе на рынок (GTM), монетизации и конкурентных преимуществах.
-
-### Стратегический Контекст
-Разработать исчерпывающую стратегию выхода на рынок и роста для продукта [[название_продукта]] в целевом сегменте [[целевой_рынок]].
-
-### 1. Позиционирование и Целевой Сегмент
-- Профиль идеального клиента (ICP) и ключевые точки боли (Pain Points).
-- Несимметричные конкурентные преимущества перед существующими игроками.
-
-### 2. Юнит-Экономика и Монетизация
-- Модель ценообразования (Packaging & Pricing Tiers).
-- Расчет окупаемости CAC Payback Period и LTV:CAC целевых показателей.
-
-### 3. План Выхода на Рынок (GTM Roadmap)
-- Фаза 1 (Beachhead): Захват первичного сегмента аудитории.
-- Фаза 2 (Expansion): Масштабирование каналов привлечения.
-- Фаза 3 (Defensibility): Построение долгосрочных сетевых эффектов.
-
-### 4. Формат Вывода
-Структурированный Markdown-документ с резюме (Executive Summary) и таблицей ключевых KPI.`;
-    } else {
-      if (aggressiveness === 'low') {
-        return `### Role & Expertise\nYou are acting as a Business Strategy Consultant.\n\n### Strategic Scope\nFormulate a strategic initiative regarding [[business_topic]] focused on ROI and operational efficiency.\n\n### Execution Rules\n- Deliver clear ROI-focused strategic initiatives.\n- Maintain operational pragmatism without excessive buzzwords.`;
-      }
-      if (aggressiveness === 'medium') {
-        return `### Role & Authority\nYou are acting as a Chief Strategy Officer specializing in go-to-market execution.\n\n### Strategic Scope\nDevelop a GTM strategy and pricing model for [[product_name]].\n\n### 1. Target Positioning\nIdentify ICP pain points and competitive advantages.\n\n### 2. Unit Economics\nDetail CAC payback, LTV targets, and pricing tiers.\n\n### 3. Execution Roadmap\nPhased rollout from beachhead launch to expansion.`;
-      }
-      // DEEP
-      return `### Role & Authority
-You are acting as a Chief Strategy Officer and Enterprise Advisor specializing in unit economics, go-to-market execution, and defensible moats.
-
-### Strategic Scope
-Develop a comprehensive go-to-market and growth strategy for [[product_name]] in target market [[target_market]].
-
-### 1. Positioning & ICP Mapping
-- Ideal Customer Profile (ICP) and visceral pain points.
-- Asymmetric competitive advantages over incumbents.
-
-### 2. Unit Economics & Monetization
-- Pricing and packaging tier architecture.
-- CAC payback period and LTV:CAC benchmarking targets.
-
-### 3. Go-To-Market Execution Roadmap
-- Phase 1 (Beachhead): Capturing initial high-intent segment.
-- Phase 2 (Expansion): Scaling customer acquisition channels.
-- Phase 3 (Defensibility): Building long-term network effects.
-
-### 4. Output Specification
-Structured executive report containing an Executive Summary and quantitative KPI matrix.`;
-    }
-  }
-
-  // 4. COPYWRITING DOMAIN
-  if (isCopywriting) {
-    if (isRu) {
-      if (aggressiveness === 'low') {
-        return `### Роль и Задачи\nВы выступаете в роли профессионального Копирайтера.\n\n### Творческий Брифинг\nНаписать высококонверсионный текст [[тип_текста]] для аудитории [[целевая_аудитория]].\n\n### Правила\n- Без воды и клише.\n- Четкий призыв к действию.`;
-      }
-      if (aggressiveness === 'medium') {
-        return `### Роль и Стиль\nВы выступаете в роли Элитного Копирайтера, специализирующегося на высокой конверсии и сжатом стиле.\n\n### Творческий Брифинг\nСоздать продающий текст [[тип_текста]] для [[целевая_аудитория]].\n\n### 1. Структура Паттерна (PAS)\n- Боль (Pain) -> Усиление (Agitation) -> Решение (Solution).\n\n### 2. Призыв к Действию\nЧеткий, понятный CTA с минимальным трением.`;
-      }
-      // DEEP
-      return `### Роль и Стиль
-Вы выступаете в роли Элитного Копирайтера и Главного Редактора, специализирующегося на высокой конверсии, ясности изложения и убедительном сторителлинге.
-
-### Творческий Брифинг
-Создать высококонверсионный текст [[тип_материала]] для целевой аудитории [[целевая_аудитория]] с фокусировкой на решении проблемы [[проблема_клиента]].
-
-### 1. Заголовок и Hook
-Сформировать 3 варианта цепляющих заголовков (Contrarian, Data-Driven, Story-Based), привлекающих внимание за первые 3 секунды.
-
-### 2. Продающая Структура (AIDA / PAS)
-- **Проблема (Pain)**: Четкая демонстрация понимания боли клиента.
-- **Усиление (Agitation)**: Показ стоимости бездействия и сохранения статуса-кво.
-- **Решение (Solution)**: Представление продукта [[название_продукта]] как единственного логичного шага.
-
-### 3. Призыв к Действию (Call-to-Action)
-Четкий, понятный и безусловный CTA с устранением трения.
-
-### 4. Ограничения по Стилю
-Без корпоративных клише, без канцелярита и без вводной воды. Максимальная плотность смысла.`;
-    } else {
-      if (aggressiveness === 'low') {
-        return `### Role & Expertise\nYou are acting as a Professional Copywriter.\n\n### Creative Scope\nDraft persuasive copy for [[content_type]] targeting [[target_audience]].\n\n### Rules\n- Zero fluff or buzzwords.\n- Clear, single-focus Call to Action.`;
-      }
-      if (aggressiveness === 'medium') {
-        return `### Role & Authority\nYou are acting as an Elite Direct-Response Copywriter.\n\n### Creative Scope\nWrite high-converting copy for [[content_type]] targeting [[target_audience]].\n\n### 1. Copy Structure (PAS Arc)\n- Pain -> Agitate -> Solution.\n\n### 2. Call to Action\nUnambiguous, friction-free CTA.`;
-      }
-      // DEEP
-      return `### Role & Authority
-You are acting as an Elite Direct-Response Copywriter and Marketing Communications Director.
-
-### Creative Scope
-Craft high-converting, persuasive narrative copy for [[content_type]] targeting [[target_audience]] that solves [[customer_pain]].
-
-### 1. Hooks & Headlines
-Generate 3 hook variations (Contrarian, Data-Driven, Epiphany-Bridge) designed to capture immediate attention.
-
-### 2. Narrative Persuasion Arc (PAS / AIDA)
-- **Pain Point**: Demonstrate visceral understanding of customer challenge.
-- **Agitation**: Quantify the cost of inaction and status quo inertia.
-- **Breakthrough**: Present [[product_name]] as the logical resolution.
-
-### 3. Call to Action (CTA)
-Unambiguous, singleless CTA engineered to maximize conversion velocity.
-
-### 4. Editing Constraints
-No corporate jargon, zero filler, maximum information density.`;
-    }
-  }
-
-  // 5. GENERAL FALLBACK DOMAIN
-  const mandate = rephraseGoalToMandate(cleanGoal, isRu);
-
-  if (isRu) {
-    if (aggressiveness === 'low') {
-      return `### Роль и Полномочия\nВы выступаете в роли профильного специалиста.\n\n### Контекст и Постановка Задачи\n${mandate}\n\n### Правила Выполнения\n- Излагать суть без вводных фраз и клише.\n- Структурировать вывод в виде четкого списка.`;
-    }
-    if (aggressiveness === 'medium') {
-      return `### Роль и Полномочия\nВы выступаете в роли эксперта и аналитика в соответствующей предметной области.\n\n### Контекст и Постановка Задачи\n${mandate}\n\n### 1. Протокол Выполнения\n1. Проанализировать вводные данные и выделить ключевые факторы.\n2. Сформировать пошаговое решение с практическими примерами.\n3. Проверить результат на полноту и точность.\n\n### 2. Требования к Формату\nЛаконичный Markdown-формат с четкими заголовками.`;
-    }
-    // DEEP
-    return `### Роль и Полномочия
-Вы выступаете в роли Ведущего Эксперта и Стратега в соответствующей предметной области.
-
-### Контекст и Постановка Задачи
-${mandate}
-
-### 1. Пошаговый Протокол Выполнения
-1. Проанализировать ключевые вводные параметры и выявить скрытые допущения.
-2. Сформировать пошаговый план решения с приоритетом на наиболее результативные шаги.
-3. Проверить полученные выводы на соответствие критериям качества и отсутствие ошибок.
-
-### 2. Качественные Ограничения
-- Исключить вводную воду, вежливые клише («Конечно, вот ваш ответ») и мета-комментарии.
-- Излагать материал кратко, емко и с высокой плотностью смысла.
-
-### 3. Формат Вывода
-Структурированный Markdown-отчет с резюме, ключевыми выводами и матрицей следующих шагов.`;
+  } else if (domain === 'product') {
+    addSection(choose('Пользовательский сценарий и ценность', 'User Journey & Product Value'), 'protocol', [
+      choose('Опишите целевого пользователя, его задачу и препятствия на ключевом сценарии; отличайте наблюдаемые данные от гипотез.', 'Describe the user, their job, and friction in the key journey; distinguish observed evidence from hypotheses.'),
+      choose('Приоритизируйте предложения по влиянию, уверенности и стоимости; задайте критерий проверки результата.', 'Prioritize proposals by impact, confidence, and effort; define a validation measure.'),
+    ]);
+  } else if (domain === 'research') {
+    addSection(choose('Исследовательский протокол', 'Research Protocol'), 'protocol', [
+      choose('Уточните вопрос, популяцию или корпус данных, метод и критерии включения; обозначьте ограничения и возможные источники смещения.', 'Clarify the question, population or corpus, method, and inclusion criteria; state limitations and potential sources of bias.'),
+      choose('Не выдумывайте источники, цитаты, результаты или статистику. Отмечайте, какие выводы подтверждены предоставленными данными.', 'Do not fabricate sources, quotations, findings, or statistics. Mark which conclusions are supported by supplied evidence.'),
+    ]);
+  } else if (domain === 'executive') {
+    addSection(choose('Решение и компромиссы', 'Decision & Trade-offs'), 'protocol', [
+      choose('Сформулируйте решение или рекомендацию в начале; затем изложите варианты, ключевые компромиссы, последствия и уровень уверенности.', 'State the decision or recommendation first, followed by options, material trade-offs, consequences, and confidence.'),
+      choose('Разделите решаемые сейчас вопросы, необходимые данные и отложенные риски.', 'Separate what can be decided now, required information, and deferred risks.'),
+    ]);
   } else {
-    // English General
-    if (aggressiveness === 'low') {
-      return `### Role & Expertise\nYou are acting as a domain specialist.\n\n### Context & Scope\n${mandate}\n\n### Rules\n- Provide direct output without conversational preambles.\n- Use concise Markdown formatting.`;
-    }
-    if (aggressiveness === 'medium') {
-      return `### Role & Authority\nYou are acting as an expert analyst and strategist.\n\n### Context & Scope\n${mandate}\n\n### 1. Execution Protocol\n1. Deconstruct requirements and analyze core parameters.\n2. Apply step-by-step domain logic to deliver solution.\n3. Verify output against quality standards.\n\n### 2. Output Format\nClean Markdown layout with clear section headers.`;
-    }
-    // DEEP
-    return `### Role & Authority
-You are acting as a Principal Domain Specialist and Enterprise Advisor.
-
-### Context & Scope
-${mandate}
-
-### 1. Execution & Reasoning Protocol
-1. Deconstruct request into functional sub-components.
-2. Identify implicit constraints, edge cases, and dependencies.
-3. Apply step-by-step reasoning to synthesize optimal deliverable.
-
-### 2. Quality Constraints & Rules
-- Zero conversational fluff or introductory chatter.
-- Support statements with concrete rationale or metrics.
-
-### 3. Output Specification
-Structured Markdown report featuring an Executive Summary, substantive deliverable, and actionable next steps.`;
+    addSection(choose('Рабочий протокол', 'Working Protocol'), 'protocol', [
+      choose('Разложите цель на несколько проверяемых частей; выберите метод, соответствующий предмету и ожидаемому результату.', 'Break the objective into verifiable parts and choose a method appropriate to the subject and desired outcome.'),
+      choose('Представьте выводы вместе с необходимыми основаниями, допущениями и следующим практическим шагом.', 'Present findings with the necessary rationale, assumptions, and a practical next step.'),
+    ]);
   }
+
+  if (aggressiveness !== 'low') {
+    addSection(choose('Полнота и проверка качества', 'Coverage & Quality Check'), 'protocol', [
+      choose('Сверьте итог с целью и всеми существенными требованиями; обозначьте неразрешённые допущения и проверки.', 'Check the result against the objective and material requirements; surface unresolved assumptions and validation needs.'),
+    ]);
+  }
+
+  if (options?.chainOfThought) {
+    addSection(choose('Проверяемые этапы рассуждения', 'Verifiable Reasoning Steps'), 'protocol', [
+      choose('Покажите краткие промежуточные выводы и их основания; не раскрывайте скрытую внутреннюю цепочку рассуждений.', 'Show concise intermediate conclusions and their grounds; do not expose hidden internal reasoning.'),
+    ]);
+  }
+
+  if (options?.riskAudit || aggressiveness === 'high') {
+    addSection(choose('Риски и альтернативы', 'Risks & Alternatives'), 'protocol', [
+      choose('Проверьте наиболее существенные сценарии отказа, побочные эффекты и альтернативы; ранжируйте только риски, обоснованные контекстом.', 'Check material failure modes, side effects, and alternatives; rank only risks supported by the context.'),
+    ]);
+  }
+
+  if (options?.examples) {
+    addSection(choose('Пример или контрольный случай', 'Example or Check Case'), 'examples', [
+      choose('Добавьте короткий пример только если он проясняет решение; явно маркируйте гипотетические значения.', 'Add a short example only when it clarifies the solution; label hypothetical values explicitly.'),
+    ]);
+  }
+
+  if (options?.constraints !== false) {
+    addSection(choose('Ограничения качества', 'Quality Constraints'), 'constraints', [
+      choose('Не выдумывайте факты, результаты, метрики или возможности инструментов. Явно обозначайте неопределённость.', 'Do not invent facts, results, metrics, or tool capabilities. Make uncertainty explicit.'),
+      choose('Избегайте вводных клише и повторов; сохраняйте детализацию соразмерной задаче.', 'Avoid boilerplate openings and repetition; keep detail proportional to the task.'),
+    ]);
+  }
+
+  const deferImplementation =
+    /\b(?:do not|don't|never)\b[^.!?]{0,160}\b(?:write|implement|produce|generate)\b[^.!?]{0,60}\b(?:code|implementation)\b/i.test(task) ||
+    /не\s+(?:пиши|писать|реализуй|реализовывай|генерируй|генерировать)[^.!?]{0,120}(?:код|реализац)/i.test(task);
+  const codingOutput: [string, string] = deferImplementation
+    ? [
+        'Опишите дизайн и контракты, план проверок и rollout; отложите реализацию кода до получения текущего обработчика и необходимых интерфейсов.',
+        'Provide a design and contract plan, checks, and rollout; defer implementation code until the current handler and required interfaces are supplied.',
+      ]
+    : [
+        'Предпочтительный формат — применимое изменение или код, затем объяснение и релевантные тесты; если входных материалов не хватает, укажите это.',
+        'Prefer an actionable change or code, followed by rationale and relevant tests; state when required input is missing.',
+      ];
+  const outputByDomain: Record<CompositionDomain, [string, string]> = {
+    retro: ['Краткое резюме, хронология, анализ причин и таблица действий с проверяемыми критериями.', 'Concise summary, timeline, causal analysis, and action table with verifiable completion criteria.'],
+    coding: codingOutput,
+    business: ['Резюме решения, обоснование, допущения, метрики и план следующих шагов; не заполняйте пробелы вымышленными цифрами.', 'Decision summary, rationale, assumptions, metrics, and next steps; do not fill data gaps with invented numbers.'],
+    copywriting: ['Сначала готовый материал, затем при необходимости короткие варианты и редакторские пояснения.', 'Lead with the finished copy, then provide concise variants or editorial notes when useful.'],
+    product: ['Структурируйте ответ как проблема пользователя, приоритетные изменения и способ проверить эффект.', 'Structure the response as user problem, prioritized changes, and a way to validate impact.'],
+    research: ['Структурируйте выводы, метод, качество свидетельств и ограничения; отделяйте подтверждённое от гипотез.', 'Structure findings, method, evidence quality, and limitations; separate supported conclusions from hypotheses.'],
+    executive: ['Начните с решения; затем кратко укажите последствия, риски, владельца следующего шага и срок, если они известны.', 'Lead with the decision; briefly state consequences, risks, and the owner and timing of the next step when known.'],
+    general: ['Используйте ясную структуру, соответствующую типу результата; включайте только полезные разделы.', 'Use a clear structure suited to the deliverable; include only useful sections.'],
+  };
+  addSection(choose('Формат результата', 'Deliverable Format'), 'output_format', [outputByDomain[domain][isRu ? 0 : 1]]);
+
+  return reconstructPrompt('', sections);
 }
 
 /**
@@ -1555,7 +1407,11 @@ export function translatePrompt(input: string, targetLanguage: string): string {
  * according to the thinking & execution style of each major LLM family.
  * Idempotent: Does not double-wrap or duplicate sections on multiple executions.
  */
-export function adaptPromptForModel(input: string, model: 'claude' | 'openai' | 'gemini' | 'grok' | 'llama'): string {
+export function adaptPromptForModel(
+  input: string,
+  model: 'claude' | 'openai' | 'gemini' | 'grok' | 'llama',
+  normalizeInput = true
+): string {
   if (!input.trim()) return '';
 
   // 1. Check if already adapted for this exact model (idempotent!)
@@ -1598,9 +1454,13 @@ export function adaptPromptForModel(input: string, model: 'claude' | 'openai' | 
     operationalCore = llamaMatch[1].trim();
   }
 
-  // 3. Obtain domain prompt (refine idempotently if already structured, or build new domain prompt if raw)
+  // 3. Obtain domain prompt (refine idempotently if already structured, or build new domain prompt if raw).
+  // The unified generation pipeline passes normalizeInput=false so model adaptation
+  // cannot discard or rebuild content already supplied by real Skill transforms.
   let domainPrompt = operationalCore;
-  if (!isPromptAlreadyOptimized(operationalCore)) {
+  if (!normalizeInput) {
+    domainPrompt = operationalCore;
+  } else if (!isPromptAlreadyOptimized(operationalCore)) {
     domainPrompt = buildDomainPrompt(operationalCore, 'medium');
   } else {
     domainPrompt = refineOptimizedPrompt(operationalCore, 'medium');
@@ -1634,7 +1494,7 @@ export function generatePromptFromParams(params: GeneratePromptParams): string {
   if (detailLevel === 'minimalist') aggressiveness = 'low';
   if (detailLevel === 'exhaustive') aggressiveness = 'high';
 
-  const basePrompt = buildDomainPrompt(task, aggressiveness);
+  const basePrompt = buildDomainPrompt(task, aggressiveness, undefined, domain, params.includeTaskInScope);
 
   if (targetModel.includes('Claude')) {
     return adaptPromptForModel(basePrompt, 'claude');
