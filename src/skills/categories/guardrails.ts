@@ -6,6 +6,7 @@ import {
   reconstructPrompt,
   deduplicatePromptSections,
   createStandardSkillTransform,
+  extractTaskFromGeneratedPrompt,
 } from '../skillHelpers';
 
 export const GUARDRAILS_SKILLS: Record<string, SkillDefinition> = {
@@ -18,22 +19,36 @@ export const GUARDRAILS_SKILLS: Record<string, SkillDefinition> = {
     tags: ['guardrails', 'constraints', 'invariants', 'negative', 'safety', 'bounds'],
     transform: (prompt: string) => {
       const isRu = isRussianText(prompt);
+      const task = extractTaskFromGeneratedPrompt(prompt).toLowerCase();
+      const isCodingTask = /\b(?:code|coding|software|programming|typescript|javascript|python|api|database|sql)\b|код|программ|разработк|рефакторинг|баз[аы]\s+данных/i.test(task);
+      const directivesRu = [
+        '- **Приоритет требований**: Соблюдать заданные пользователем цель, формат, границы и явные запреты; не добавлять противоречащие им требования.',
+        '- **Фактическая точность**: Не выдумывать факты, результаты, источники, правила или возможности; обозначать существенную неопределённость.',
+        '- **Релевантный объём**: Включать только ограничения и предосторожности, относящиеся к задаче; не переносить инженерные, финансовые или иные специальные правила на несвязанную тему.',
+        '- **Соразмерная подача**: Избегать пустых вводных и держать детализацию в пределах цели и формата.',
+      ];
+      const directivesEn = [
+        '- **Requirement Priority**: Follow the user\'s stated goal, format, scope, and explicit prohibitions; do not add conflicting requirements.',
+        '- **Factual Accuracy**: Do not invent facts, results, sources, rules, or capabilities; state material uncertainty.',
+        '- **Relevant Scope**: Include only constraints and safeguards applicable to the task; do not transfer engineering, financial, or other specialized rules to an unrelated topic.',
+        '- **Proportionate Delivery**: Avoid filler and keep detail aligned with the goal and requested format.',
+      ];
+      if (isCodingTask) {
+        directivesRu.push(
+          '- **Полнота кода**: Если задача явно требует код, не оставлять незавершённые заглушки; учитывать релевантные риски надёжности и безопасности.'
+        );
+        directivesEn.push(
+          '- **Code Completeness**: When the task explicitly requests code, do not leave incomplete stubs; address relevant reliability and security risks.'
+        );
+      }
       const { preamble, sections } = parsePromptSections(prompt);
       ensureSection(
         sections,
         'constraints',
         'Жесткие Ограничения и Негативные Инварианты',
         'Non-Negotiable Guardrails & Negative Invariants',
-        [
-          '- **Категорический запрет на воду**: Исключить вводные вежливые конструкции («Конечно!», «Рад помочь»), переходя сразу к сути решения.',
-          '- **Запрет на недоделанный код**: Не оставлять заглушек вида `// TODO: add logic here` или `/* implement later */`; код должен быть полным и компилируемым.',
-          '- **Контроль архитектурных антипаттернов**: Запрещено предлагать архитектурные решения с единой точкой отказа (SPOF) или синхронными блокирующими вызовами в критических путях.',
-        ],
-        [
-          '- **Zero Conversational Fluff**: Strip pleasantries, greetings, and conversational fillers; emit pure technical signal immediately.',
-          '- **Zero Incomplete Code Stubs**: Strictly ban truncation comments like `// TODO: implement later` or `/* logic here */`; deliver fully formulated code.',
-          '- **Anti-Pattern Elimination**: Reject designs with unhandled SPOFs, race conditions, or unmetered blocking synchronous I/O on hot paths.',
-        ],
+        directivesRu,
+        directivesEn,
         isRu
       );
       return reconstructPrompt(preamble, deduplicatePromptSections(sections, isRu));

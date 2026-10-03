@@ -2,6 +2,7 @@ import {
   adaptPromptForModel,
   generatePromptFromParams,
   isRussianText,
+  isTabletopGameMasterPromptRequest,
   parsePromptSections,
   reconstructPrompt,
   type GeneratePromptParams,
@@ -21,6 +22,7 @@ function addTaskAndPreferences(
   params: GeneratePromptParams
 ): string {
   const isRu = isRussianText(params.task);
+  const isGameMasterPrompt = isTabletopGameMasterPromptRequest(params.task);
   const { preamble, sections } = parsePromptSections(prompt);
   const task = params.task.trim();
 
@@ -79,7 +81,7 @@ function addTaskAndPreferences(
 
   const technique = techniqueText[params.technique];
   const tone = toneText[params.tone];
-  const preferenceLines = [
+  const preferenceLines = isGameMasterPrompt ? [] : [
     ...(params.domain
       ? [isRu ? `- **Выбранная область**: ${params.domain}.` : `- **Selected domain**: ${params.domain}.`]
       : []),

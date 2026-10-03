@@ -49,9 +49,7 @@ export const AIBuildModal: React.FC = () => {
       addToast({ type: 'error', title: 'Please provide a description' });
       return;
     }
-    const basePrompt = selectedSkillIds.length > 0
-      ? description
-      : buildPromptFromDescription(description, complexity);
+    const basePrompt = buildPromptFromDescription(description, complexity);
     const {
       prompt: finalResult,
       appliedSkills: appliedSkillsList,

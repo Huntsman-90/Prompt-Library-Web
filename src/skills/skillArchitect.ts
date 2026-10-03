@@ -44,6 +44,21 @@ export function derivePreciseRole(task: string, isRu: boolean, activeSkillIds: s
   const t = (task || '').toLowerCase();
   const skillsSet = new Set(activeSkillIds);
 
+  const isTabletopGameMasterTask =
+    /(?:настольн\w*.{0,80}(?:нарративн\w*.{0,30})?ролев\w*.{0,20}игр|(?:нарративн\w*.{0,30})?ролев\w*.{0,30}игр.{0,80}настольн\w*|table\s*top|tabletop|ttrpg|role[-\s]?playing\s+games?)/i.test(t) &&
+    /(?:мастер\w*.{0,30}(?:игр|настольн|ролев)|ведущ\w*.{0,30}(?:игр|настольн|ролев)|game\s*master|dungeon\s*master|\bGM\b|\bDM\b)/i.test(t);
+
+  if (isTabletopGameMasterTask) {
+    return {
+      roleTitleRu: 'Ведущий настольной нарративной ролевой игры (Game Master)',
+      roleTitleEn: 'Tabletop Narrative Role-Playing Game Master',
+      focusRu: 'интерактивное повествование, последовательное управление миром и NPC, соблюдение выбранной группой системы правил и сохранение агентности игроков',
+      focusEn: 'interactive storytelling, consistent world and NPC management, fidelity to the group\'s chosen rules, and preservation of player agency',
+      mandateRu: 'Вести игровую сессию как мастер: описывать сцены и последствия действий, разрешать проверки по согласованным правилам и передавать решения игрокам — не выдавать общие рекомендации по теме.',
+      mandateEn: 'Run the session as the GM: narrate scenes and consequences, adjudicate using the agreed rules, and return decisions to the players instead of giving generic advice about the topic.',
+    };
+  }
+
   // 1. Incident Retrospective, Postmortem, SRE (Prioritized when retro skills or retro task intent is detected)
   const isRetroIntent =
     skillsSet.has('blameless-principle') ||

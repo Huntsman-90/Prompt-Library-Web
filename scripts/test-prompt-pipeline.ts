@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { generatePromptPipeline } from '../src/utils/promptGenerationPipeline.ts';
+import { buildPromptFromDescription } from '../src/utils/promptEngine.ts';
 import { saveUserSkill } from '../src/skills/customSkillsManager.ts';
 import { applySkillsWithPreflight } from '../src/skills/skillPreflight.ts';
 
@@ -198,5 +199,43 @@ const designOnlyWithCodingSkill = generatePromptPipeline({
 assert.ok(designOnlyWithCodingSkill.diagnostics.some((d) => d.type === 'directive-adjusted' && d.skillId === 'custom-code-directive-skill'));
 assert.ok(!designOnlyWithCodingSkill.prompt.includes('Generate complete implementation code'), 'conflicting user-created directive must be replaced');
 assert.ok(designOnlyWithCodingSkill.prompt.includes('Do not provide implementation code'), 'safe replacement must preserve the user prohibition');
+
+// 5. A request for a TTRPG Game Master prompt must yield an executable GM role, not a generic recommendation prompt.
+const tabletopPromptRequest = 'Промпт который заменит мастера настольных нарративно ролевых игр';
+const tabletopBasic = buildPromptFromDescription(tabletopPromptRequest, 'basic');
+assert.ok(tabletopBasic.includes('Ты — интерактивный ведущий настольных нарративных ролевых игр'), 'AI Build Basic must directly define the requested GM role');
+assert.ok(tabletopBasic.includes('### Игровой цикл'), 'the generated GM prompt must provide an actual turn loop');
+assert.ok(tabletopBasic.includes('Не решай за персонажей игроков'), 'the GM prompt must preserve player agency');
+assert.ok(!tabletopBasic.includes('Сформировать экспертное, структурированное решение'), 'must not turn the request into generic advice');
+
+const tabletopWithDefaultSkills = generatePromptPipeline({
+  ...baseParams,
+  domain: 'Coding',
+  task: tabletopPromptRequest,
+}, ['role-calibration', 'constraint-injection']);
+assert.ok(tabletopWithDefaultSkills.prompt.includes('Ведущий настольной нарративной ролевой игры (Game Master)'), 'role-calibration must retain a task-specific Game Master role');
+assert.ok(tabletopWithDefaultSkills.prompt.includes('### Игровой цикл'));
+assert.ok(tabletopWithDefaultSkills.prompt.includes('Не создавай новый промпт'), 'the prompt must instruct the model to run the game, not write another prompt');
+assert.ok(!tabletopWithDefaultSkills.prompt.includes('Ведущий эксперт и системный специалист'), 'generic role calibration must not overwrite the specialized role');
+assert.ok(!tabletopWithDefaultSkills.prompt.includes('Инженерный стандарт'), 'role calibration must not inject engineering mandate into a game-master prompt');
+assert.ok(!tabletopWithDefaultSkills.prompt.includes('Выбранная область**: Coding'), 'the default Coding selector must not leak into the TTRPG prompt');
+assert.ok(!tabletopWithDefaultSkills.prompt.includes('Запрет на недоделанный код'), 'generic guardrails must not inject coding-only rules');
+assert.ok(!tabletopWithDefaultSkills.prompt.includes('SPOF'), 'generic guardrails must not inject irrelevant infrastructure constraints');
+assert.ok(tabletopWithDefaultSkills.prompt.includes('Не выдумывать факты, результаты, источники, правила'), 'the default guardrail should remain relevant and task-safe');
+const tabletopSkillFilter = generatePromptPipeline({ ...baseParams, domain: 'Coding', task: tabletopPromptRequest }, [
+  'narrative-arc-storytelling',
+  'clinical-trial-pico-extractor',
+]);
+assert.ok(tabletopSkillFilter.appliedSkills.some((skill) => skill.id === 'narrative-arc-storytelling'), 'narrative Skills should survive the inferred TTRPG task group');
+assert.ok(!tabletopSkillFilter.appliedSkills.some((skill) => skill.id === 'clinical-trial-pico-extractor'), 'unrelated clinical Skills should not survive merely because Coding was the UI default');
+
+const tabletopAiBuildWithSkills = applySkillsWithPreflight(tabletopBasic, ['role-calibration', 'constraint-injection'], {
+  complexity: 'basic',
+  task: tabletopPromptRequest,
+}, tabletopPromptRequest, 'Coding');
+assert.ok(tabletopAiBuildWithSkills.prompt.includes('Ведущий настольной нарративной ролевой игры (Game Master)'), 'default AI Build Skills must augment the specialized prompt, not replace it');
+assert.ok(tabletopAiBuildWithSkills.prompt.includes('### Игровой цикл'));
+assert.ok(!tabletopAiBuildWithSkills.prompt.includes('You are a domain specialist'));
+assert.ok(!tabletopAiBuildWithSkills.prompt.includes('SPOF'));
 
 console.log('Skill preflight relevance and conflict tests passed.');
