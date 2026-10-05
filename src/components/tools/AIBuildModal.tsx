@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { useUIStore } from '../../store/useUIStore';
-import { buildPromptFromDescription } from '../../utils/promptEngine';
+import { generatePromptPipeline } from '../../utils/promptGenerationPipeline';
+import { classifyTask } from '../../utils/taskIntent';
 import { getSkillsByCategory, SKILLS_REGISTRY, type SkillDefinition } from '../../skills/skillsRegistry';
-import { applySkillsWithPreflight, type SkillPreflightDiagnostic } from '../../skills/skillPreflight';
+import type { SkillPreflightDiagnostic } from '../../skills/skillPreflight';
 import { SkillPreflightNotice } from './SkillPreflightNotice';
 import { CATEGORIES } from '../../data/categories';
 import { X, Bot, Sparkles, Copy, Check, Plus, Zap, ChevronDown, ChevronUp } from 'lucide-react';
@@ -23,10 +24,7 @@ export const AIBuildModal: React.FC = () => {
 
   const [description, setDescription] = useState('');
   const [complexity, setComplexity] = useState<'basic' | 'intermediate' | 'expert'>('expert');
-  const [selectedSkillIds, setSelectedSkillIds] = useState<string[]>([
-    'role-calibration',
-    'constraint-injection',
-  ]);
+  const [selectedSkillIds, setSelectedSkillIds] = useState<string[]>([]);
   const [showAllCategories, setShowAllCategories] = useState(false);
   const [activeCategoryFilter, setActiveCategoryFilter] = useState('reasoning');
 
@@ -49,20 +47,26 @@ export const AIBuildModal: React.FC = () => {
       addToast({ type: 'error', title: 'Please provide a description' });
       return;
     }
-    const basePrompt = buildPromptFromDescription(description, complexity);
     const {
       prompt: finalResult,
       appliedSkills: appliedSkillsList,
       diagnostics,
-    } = applySkillsWithPreflight(basePrompt, selectedSkillIds, { complexity, task: description }, description);
+    } = generatePromptPipeline({
+      domain: 'Auto',
+      task: description.trim(),
+      technique: 'Auto',
+      tone: 'Auto',
+      detailLevel: complexity === 'basic' ? 'minimalist' : complexity === 'intermediate' ? 'balanced' : 'exhaustive',
+      targetModel: 'Universal',
+    }, selectedSkillIds);
 
     setBuiltPrompt(finalResult);
     setAppliedSkillNames(appliedSkillsList.map((s) => s.displayName));
     setSkillDiagnostics(diagnostics);
     addToast({
       type: 'success',
-      title: 'Master prompt assembled with active skills!',
-      description: `${appliedSkillsList.length} Skills applied; ${diagnostics.length} preflight adjustment(s).`,
+      title: appliedSkillsList.length > 0 ? 'Prompt assembled with active Skills!' : 'Prompt assembled!',
+      description: `${appliedSkillsList.length} Skills applied; ${diagnostics.length} preflight diagnostic(s).`,
     });
   };
 
@@ -84,8 +88,8 @@ export const AIBuildModal: React.FC = () => {
       title: description.slice(0, 32) + (description.length > 32 ? '...' : ''),
       description: `Built via AI Build (${complexity}) + ${selectedSkillIds.length} Skills`,
       content: builtPrompt,
-      category: 'aibuild',
-      tags: ['aibuild', complexity, ...selectedSkillIds],
+      category: classifyTask(description, 'Auto').domain,
+      tags: ['aibuild', classifyTask(description, 'Auto').domain, complexity, ...selectedSkillIds],
       variables: [],
       isFavorite: false,
       usageCount: 0,
@@ -170,8 +174,8 @@ export const AIBuildModal: React.FC = () => {
                       : 'bg-slate-800 border-slate-700 text-slate-300'
                   }`}
                 >
-                  <p className="font-semibold">Prompt Engineer</p>
-                  <p className="text-[10px] text-slate-400 mt-0.5">XML, persona, rubric</p>
+                  <p className="font-semibold">Detailed</p>
+                  <p className="text-[10px] text-slate-400 mt-0.5">Role, workflow, constraints & QA</p>
                 </button>
               </div>
             </div>

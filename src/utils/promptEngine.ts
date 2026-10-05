@@ -1,4 +1,5 @@
 import { extractVariables } from '../hooks/useVariables';
+import { classifyTask, isTabletopGameMasterPromptRequest as isTTRPGPromptRequest, type DeliverableKind, type PromptDomain } from './taskIntent';
 
 export interface GeneratePromptParams {
   domain: string;
@@ -123,10 +124,7 @@ function rephraseGoalToMandate(cleanGoal: string, isRu: boolean): string {
 }
 
 export function isTabletopGameMasterPromptRequest(text: string): boolean {
-  const asksForPrompt = /(?:промпт|prompt|system\s+instruction)/i.test(text);
-  const mentionsTabletopRpg = /(?:настольн\w*.{0,80}(?:нарративн\w*.{0,30})?ролев\w*.{0,20}игр|(?:нарративн\w*.{0,30})?ролев\w*.{0,30}игр.{0,80}настольн\w*|table\s*top|tabletop|ttrpg|role[-\s]?playing\s+games?)/i.test(text);
-  const mentionsGameMaster = /(?:мастер\w*.{0,30}(?:игр|настольн|ролев)|ведущ\w*.{0,30}(?:игр|настольн|ролев)|game\s*master|dungeon\s*master|\bGM\b|\bDM\b)/i.test(text);
-  return asksForPrompt && mentionsTabletopRpg && mentionsGameMaster;
+  return isTTRPGPromptRequest(text);
 }
 
 function buildTabletopGameMasterPrompt(isRu: boolean, includeTaskInScope = false, task = ''): string {
@@ -600,41 +598,9 @@ export function reconstructPrompt(preamble: string, sections: ParsedSection[]): 
   return parts.join('\n\n').trim();
 }
 
-export function detectPromptDomain(text: string): 'retro' | 'coding' | 'business' | 'copywriting' | 'general' {
-  const lower = text.toLowerCase();
-
-  // 1. Role or title indicators (strongest signal for structured/semi-structured prompts)
-  if (/site reliability|blameless|постмортем|ретроспектив|хронологи|5 почему|timeline reconstruction|incident retrospective/i.test(lower)) {
-    return 'retro';
-  }
-  if (/software architect|архитектор по|code_snippet|фрагмент_кода|директивы по рефакторингу|refactoring directive|типобезопасност|vitest|jest|refactoring scope|область рефакторинга|чистой архитектуре/i.test(lower)) {
-    return 'coding';
-  }
-  if (/chief strategy|директор по стратеги|юнит-экономик|unit economic|gtm roadmap|дорожная карта выхода на рынок|позиционирование и целевой сегмент/i.test(lower)) {
-    return 'business';
-  }
-  if (/direct-response copywriter|элитный копирайтер|hooks & headlines|крючки и заголовки|арка убеждения|persuasion arc|creative scope/i.test(lower)) {
-    return 'copywriting';
-  }
-
-  // 2. Goal / scope keywords (strictly isolated words)
-  const taskGoal = extractTaskFromGeneratedPrompt(text).toLowerCase();
-  const searchScope = taskGoal.length > 5 ? taskGoal : lower;
-
-  if (/(?:^|[^а-яa-z0-9_])(?:retrospect|postmortem|incident|outage|ретроспектив|постмортем|инцидент|авари|сбой|скрам|спринт)(?:[^а-яa-z0-9_]|$)/i.test(searchScope)) {
-    return 'retro';
-  }
-  if (/(?:^|[^а-яa-z0-9_])(?:code|refactor|typescript|react|python|sql|debug|api|bug|github|docker|код|рефакторинг|исправь|ошибк|скрипт)(?:[^а-яa-z0-9_]|$)/i.test(searchScope)) {
-    return 'coding';
-  }
-  if (/(?:^|[^а-яa-z0-9_])(?:strategy|gtm|pricing|investor|saas|pitch|бизнес|стратеги|питч|продаж|маркетинг|ценообразовани)(?:[^а-яa-z0-9_]|$)/i.test(searchScope)) {
-    return 'business';
-  }
-  if (/(?:^|[^а-яa-z0-9_])(?:copywriting|copywriter|article|newsletter|копирайтинг|копирайтер|рассылк)(?:[^а-яa-z0-9_]|$)/i.test(searchScope)) {
-    return 'copywriting';
-  }
-
-  return 'general';
+export function detectPromptDomain(text: string): PromptDomain {
+  const task = extractTaskFromGeneratedPrompt(text);
+  return classifyTask(task || text).domain;
 }
 
 export function refineOptimizedPrompt(
@@ -1107,14 +1073,9 @@ export function buildDomainPrompt(
   const taskLower = task.toLowerCase();
   const hintedDomain = (domainHint || '').toLowerCase();
 
-  type CompositionDomain = 'retro' | 'coding' | 'business' | 'copywriting' | 'product' | 'research' | 'executive' | 'general';
-  let domain: CompositionDomain = detectPromptDomain(input);
-  if (/cod|software|system|код|систем/i.test(hintedDomain)) domain = 'coding';
-  else if (/business|gtm|бизнес|стратег/i.test(hintedDomain)) domain = 'business';
-  else if (/copy|writing|conversion|копирайт|текст/i.test(hintedDomain)) domain = 'copywriting';
-  else if (/product|ux|продукт|дизайн/i.test(hintedDomain)) domain = 'product';
-  else if (/research|academic|scientific|исслед|науч|академ/i.test(hintedDomain)) domain = 'research';
-  else if (/executive|leadership|руковод|директор/i.test(hintedDomain)) domain = 'executive';
+  type CompositionDomain = PromptDomain;
+  const classification = classifyTask(task, hintedDomain);
+  const domain: CompositionDomain = classification.domain;
 
   const sections: ParsedSection[] = [];
   const addSection = (
@@ -1141,14 +1102,20 @@ export function buildDomainPrompt(
     product: ['Специалист по продукту и пользовательским сценариям', 'Product and User-Experience Practitioner'],
     research: ['Исследователь, работающий с проверяемыми данными и методологией', 'Researcher focused on verifiable evidence and sound methodology'],
     executive: ['Советник руководителя, фокусирующийся на решениях и последствиях', 'Executive Advisor focused on decisions and consequences'],
+    creative: ['Ведущий настольной ролевой игры', 'Tabletop Role-Playing Game Master'],
     general: ['Профильный специалист, выбранный по фактической задаче', 'A practitioner appropriate to the actual task'],
   };
+  const roleByDeliverable: Partial<Record<DeliverableKind, [string, string]>> = {
+    facilitation_guide: ['Фасилитатор межфункциональных встреч', 'Cross-functional Meeting Facilitator'],
+    practical_plan: ['Практик по операционному планированию', 'Practical Operations Planner'],
+  };
+  const role = roleByDeliverable[classification.deliverable] || roleByDomain[domain];
 
   addSection(
     choose('Роль и рабочий стандарт', 'Role & Working Standard'),
     'role',
     [
-      choose(`Выступайте как ${roleByDomain[domain][0]}.`, `Act as ${roleByDomain[domain][1]}.`),
+      choose(`Выступайте как ${role[0]}.`, `Act as ${role[1]}.`),
       choose('Сначала следуйте фактической задаче и предоставленным материалам; не подменяйте их типовым сценарием.', 'Prioritize the stated task and supplied materials; do not substitute a familiar but different scenario.'),
     ]
   );
@@ -1186,8 +1153,19 @@ export function buildDomainPrompt(
       choose('Укажите проверки, тесты и возможные побочные эффекты, относящиеся именно к этому изменению.', 'Specify checks, tests, and possible side effects relevant to this particular change.'),
     ]);
     if (/api|webhook|http|интеграц|идемпотент|очеред|retry|повторн/i.test(taskLower)) {
+      const explicitIdempotencyRequest =
+        /(?:\b(?:need|must|require|implement|design|ensure|support|provide)\b|нужн|требу|реализ|обеспеч|поддерж)[^.!?\n]{0,80}(?:idempotenc\w*|идемпотент\w*)|(?:idempotenc\w*|идемпотент\w*)[^.!?\n]{0,60}(?:\b(?:required|necessary|needed|must|requirement)\b|нужн|требу|необходим)/i.test(task) &&
+        !/(?:\b(?:do not|don't|never|avoid)\b[^.!?\n]{0,50}\b(?:implement|add|support|use|provide)\b[^.!?\n]{0,50}(?:idempotenc\w*|идемпотент\w*)|не\s+(?:реализ|добав|обеспеч|поддерж)[^.!?\n]{0,50}идемпотент)/i.test(task);
       addSection(choose('Контракты интеграций и повторных вызовов', 'Integration Contracts & Retries'), 'protocol', [
-        choose('Проверьте границы доверия, обработку тайм-аутов, повторов и дублирующих запросов; не вводите идемпотентность или доставку «ровно один раз» без подходящего контракта.', 'Check trust boundaries, timeouts, retries, and duplicate requests; do not claim idempotency or exactly-once delivery without an appropriate contract.'),
+        explicitIdempotencyRequest
+          ? choose(
+              'Соблюдайте явное требование идемпотентной обработки повторных доставок: опирайтесь на идентификатор события и гарантии провайдера только если они заданы; если ключ или граница транзакции не описаны, обозначьте их как допущение либо необходимую зависимость. Не приравнивайте защиту от повторного применения к гарантии exactly-once.',
+              'Honor the explicit idempotency requirement for repeated deliveries. Rely on an event identifier and provider guarantees only when specified; if the key or transaction boundary is missing, state it as an assumption or required dependency. Do not equate duplicate suppression with an exactly-once guarantee.'
+            )
+          : choose(
+              'Проверьте границы доверия, тайм-ауты, повторы и дублирующие запросы; используйте только гарантии идемпотентности, подтверждённые контрактом, и не обещайте доставку «ровно один раз».',
+              'Check trust boundaries, timeouts, retries, and duplicate requests; rely only on idempotency guarantees supported by the contract and do not promise exactly-once delivery.'
+            ),
       ]);
     }
     if (/sql|database|postgres|баз[аы] данных|миграц|запрос/i.test(taskLower)) {
@@ -1201,19 +1179,21 @@ export function buildDomainPrompt(
       ]);
     }
   } else if (domain === 'business') {
-    addSection(choose('Стратегический анализ', 'Strategic Analysis'), 'protocol', [
-      choose('Определите целевой сегмент, проблему клиента, ценностное предложение и альтернативы; не объявляйте конкурентное преимущество без оснований.', 'Identify target segments, customer problem, value proposition, and alternatives; do not claim competitive advantage without evidence.'),
-      choose('Свяжите рекомендации с доступными ресурсами, ограничениями и измеримыми результатами.', 'Tie recommendations to available resources, constraints, and measurable outcomes.'),
-    ]);
-    if (/price|pricing|цена|тариф|монетизац/i.test(taskLower)) {
+    if (classification.deliverable !== 'pricing_analysis') {
+      addSection(choose('Стратегический анализ', 'Strategic Analysis'), 'protocol', [
+        choose('Определите целевой сегмент, проблему клиента, ценностное предложение и альтернативы; не объявляйте конкурентное преимущество без оснований.', 'Identify target segments, customer problem, value proposition, and alternatives; do not claim competitive advantage without evidence.'),
+        choose('Свяжите рекомендации с доступными ресурсами, ограничениями и измеримыми результатами.', 'Tie recommendations to available resources, constraints, and measurable outcomes.'),
+      ]);
+    }
+    if (/price|pricing|цен(?:а|ы|е|у|овой|ового|овую|ам|ами|ах)|ценообраз|тариф|монетизац/i.test(taskLower)) {
       addSection(choose('Ценообразование и экономика', 'Pricing & Economics'), 'protocol', [
         choose('Разделяйте известные исходные данные и оценки; показывайте формулы, диапазоны и чувствительность вместо вымышленных точных показателей.', 'Separate known inputs from estimates; show formulas, ranges, and sensitivities instead of fabricated point estimates.'),
-        choose('Сопоставьте ценовую модель с ценностью для клиента, затратами и конкурентными альтернативами.', 'Relate pricing mechanics to customer value, cost structure, and competitive alternatives.'),
+        choose('Сопоставьте подходящие модели цены с ценностью для клиента и доступными данными; предложите недорогой эксперимент готовности платить без вымышленных результатов.', 'Compare relevant pricing models using customer value and available evidence; propose a low-cost willingness-to-pay experiment without fabricating results.'),
       ]);
     }
     if (/launch|market|gtm|growth|вывод на рынок|запуск|рост|масштаб/i.test(taskLower)) {
       addSection(choose('Выход на рынок и проверка гипотез', 'Go-to-Market & Validation'), 'protocol', [
-        choose('Разбейте инициативу на проверяемые этапы; для каждого задайте гипотезу, канал, метрику и условие продолжения или остановки.', 'Break the initiative into testable stages; specify a hypothesis, channel, metric, and continue/stop gate for each.'),
+        choose('Планируйте этапы внутри заданного горизонта и с учётом указанных ресурсов; для каждого теста назовите гипотезу, канал, наблюдаемую метрику и условие продолжения или остановки без произвольных порогов.', 'Plan stages within the stated horizon and resources; for each test name a hypothesis, channel, observable metric, and continue/stop condition without arbitrary thresholds.'),
       ]);
     }
   } else if (domain === 'copywriting') {
@@ -1223,11 +1203,11 @@ export function buildDomainPrompt(
     ]);
     if (/headline|заголов/i.test(taskLower)) {
       addSection(choose('Варианты заголовка', 'Headline Variations'), 'protocol', [
-        choose('Подготовьте несколько содержательно разных вариантов и кратко поясните их угол подачи; не используйте неподтверждённые цифры или обещания.', 'Offer several meaningfully distinct angles with a brief rationale; do not use unsupported numbers or promises.'),
+        choose('Подготовьте запрошенное количество содержательно разных заголовков; не добавляйте пояснения, CTA, цифры или обещания, если этого нет в исходной задаче.', 'Provide the requested number of meaningfully distinct headlines; do not add rationale, CTAs, numbers, or promises unless requested.'),
       ]);
     } else if (/email|e-mail|subject line|preview text|письм|рассылк|тема письма|прехедер/i.test(taskLower)) {
       addSection(choose('Структура сообщения', 'Message Sequence'), 'protocol', [
-        choose('Согласуйте тему и прехедер (если запрошены), первое предложение, основное сообщение и один ясный призыв к действию.', 'Align the subject line and preview text (when requested), opening, core message, and one clear call to action.'),
+        choose('Составьте только запрошенное письмо; добавляйте тему, прехедер и призыв к действию лишь в указанном объёме, сохраняя заданный тон.', 'Write only the requested email; include a subject, preview text, and call to action only to the extent requested, preserving the specified voice.'),
       ]);
     } else {
       addSection(choose('Композиция материала', 'Content Composition'), 'protocol', [
@@ -1235,13 +1215,19 @@ export function buildDomainPrompt(
       ]);
     }
   } else if (domain === 'product') {
-    addSection(choose('Пользовательский сценарий и ценность', 'User Journey & Product Value'), 'protocol', [
-      choose('Опишите целевого пользователя, его задачу и препятствия на ключевом сценарии; отличайте наблюдаемые данные от гипотез.', 'Describe the user, their job, and friction in the key journey; distinguish observed evidence from hypotheses.'),
-      choose('Приоритизируйте предложения по влиянию, уверенности и стоимости; задайте критерий проверки результата.', 'Prioritize proposals by impact, confidence, and effort; define a validation measure.'),
-    ]);
+    if (classification.deliverable === 'acceptance_criteria') {
+      addSection(choose('Критерии приёмки', 'Acceptance Criteria'), 'protocol', [
+        choose('Опишите проверяемое поведение только для перечисленных состояний и сценариев; включите граничные случаи из исходной задачи. Не предписывайте технологический стек и не расширяйте объём функции.', 'Specify testable behavior for the stated states and flows, including edge cases named in the task. Do not prescribe a technology stack or expand feature scope.'),
+      ]);
+    } else {
+      addSection(choose('Пользовательский сценарий и ценность', 'User Journey & Product Value'), 'protocol', [
+        choose('Опишите подтверждённые потребности и препятствия в указанном сценарии; не выводите пользовательские мотивы за пределами заметок.', 'Describe evidenced user needs and friction in the stated journey; do not infer motives beyond the supplied notes.'),
+        choose('Предлагайте соразмерные изменения и для каждого укажите способ проверки; приоритизируйте только когда исходных данных достаточно.', 'Suggest proportionate changes and a way to validate each; prioritize only when the supplied evidence supports doing so.'),
+      ]);
+    }
   } else if (domain === 'research') {
     addSection(choose('Исследовательский протокол', 'Research Protocol'), 'protocol', [
-      choose('Уточните вопрос, популяцию или корпус данных, метод и критерии включения; обозначьте ограничения и возможные источники смещения.', 'Clarify the question, population or corpus, method, and inclusion criteria; state limitations and potential sources of bias.'),
+      choose('Используйте предоставленный корпус как границу анализа; описывайте метод, выборку и ограничения только настолько, насколько это нужно для запрошенного синтеза или сравнения.', 'Treat the supplied material as the analysis boundary; describe methods, samples, and limitations only to the extent needed for the requested synthesis or comparison.'),
       choose('Не выдумывайте источники, цитаты, результаты или статистику. Отмечайте, какие выводы подтверждены предоставленными данными.', 'Do not fabricate sources, quotations, findings, or statistics. Mark which conclusions are supported by supplied evidence.'),
     ]);
   } else if (domain === 'executive') {
@@ -1253,6 +1239,25 @@ export function buildDomainPrompt(
     addSection(choose('Рабочий протокол', 'Working Protocol'), 'protocol', [
       choose('Разложите цель на несколько проверяемых частей; выберите метод, соответствующий предмету и ожидаемому результату.', 'Break the objective into verifiable parts and choose a method appropriate to the subject and desired outcome.'),
       choose('Представьте выводы вместе с необходимыми основаниями, допущениями и следующим практическим шагом.', 'Present findings with the necessary rationale, assumptions, and a practical next step.'),
+    ]);
+  }
+
+  if (domain === 'coding' && classification.deliverable === 'technical_design' && /webhook|идемпотент|повторн\w* доставк/i.test(taskLower)) {
+    addSection(choose('Проектирование идемпотентности вебхуков', 'Webhook Idempotency Design'), 'domain_specific', [
+      choose('Сохраните требование идемпотентной обработки. Опишите стабильный ключ события, если его предоставляет контракт; долговременную дедупликацию и атомарную/конкурентную обработку побочного эффекта; различение повторной и новой легитимной доставки; поведение при сбое до и после фиксации состояния. Отметьте неизвестные гарантии провайдера и хранилища как вопросы или допущения.', 'Honor the explicit idempotency requirement. Describe a stable event key when the provider contract supplies one; durable deduplication and atomic/concurrent handling of side effects; distinguishing redelivery from a new legitimate event; and failure behavior before and after state is recorded. Mark unknown provider or storage guarantees as questions or assumptions.'),
+      choose('Предложите сфокусированные проверки: повтор того же события, одновременные дубликаты, разные события и сбои вокруг записи дедупликации/обработки. Не требуйте конкретный тестовый framework или базу данных без контекста и не обещайте exactly-once доставку.', 'Specify focused checks for same-event redelivery, concurrent duplicates, distinct events, and failures around deduplication/processing. Do not prescribe a test framework or database without context, and do not promise exactly-once delivery.'),
+    ]);
+  }
+
+  if (domain === 'coding' && classification.deliverable === 'code_change' && /modal|dialog|keyboard|focus|accessib|a11y|фокус|клавиатур|доступност|диалог|модальн/i.test(taskLower)) {
+    addSection(choose('Проверки поведения диалога', 'Dialog Accessibility Checks'), 'domain_specific', [
+      choose('Ограничьте изменение затронутым диалогом и существующей реализацией. Проверьте клавиатурную навигацию, начальный фокус и его возврат после закрытия; добавляйте удержание фокуса или закрытие по Escape только если это следует из требуемого поведения/текущего контракта. Следуйте проектным соглашениям и добавьте сфокусированные проверки.', 'Keep the change within the affected dialog and existing implementation. Check keyboard navigation, initial focus, and focus restoration after closing; add focus containment or Escape-to-close only when required by the stated behavior or existing contract. Follow project conventions and add focused checks.'),
+    ]);
+  }
+
+  if (domain === 'executive' && /\b(?:budget|allocation|allocate|retention|referral|marginal return|return on investment)\b|бюджет|распределен|удержан|реферал|рекомендац|маржинальн\w* доход/i.test(taskLower)) {
+    addSection(choose('План получения недостающих данных', 'Plan to Resolve Decision Uncertainty'), 'domain_specific', [
+      choose('Если сравнимых данных о результате или предельной отдаче нет, укажите, какие наблюдаемые показатели нужны, как получить сопоставимые данные (тест — только если он уместен и явно обозначен как предложение) и когда пересмотреть распределение. Не выдумывайте значения, владельцев или даты; отделяйте план измерения от уже известных фактов.', 'If comparable outcome or marginal-return data is missing, specify the observable measures needed, how to collect comparable evidence (propose a test only when suitable and label it as a proposal), and when to revisit the allocation. Do not invent values, owners, or dates; distinguish the measurement plan from established facts.'),
     ]);
   }
 
@@ -1291,9 +1296,14 @@ export function buildDomainPrompt(
     /\b(?:do not|don't|never)\b[^.!?]{0,160}\b(?:write|implement|produce|generate)\b[^.!?]{0,60}\b(?:code|implementation)\b/i.test(task) ||
     /не\s+(?:пиши|писать|реализуй|реализовывай|генерируй|генерировать)[^.!?]{0,120}(?:код|реализац)/i.test(task);
   const codingOutput: [string, string] = deferImplementation
-    ? [
+      ? [
         'Опишите дизайн и контракты, план проверок и rollout; отложите реализацию кода до получения текущего обработчика и необходимых интерфейсов.',
         'Provide a design and contract plan, checks, and rollout; defer implementation code until the current handler and required interfaces are supplied.',
+      ]
+      : classification.deliverable === 'technical_design'
+      ? [
+        'Сначала предложите решение, обозначьте необходимые контрактные допущения и дайте сфокусированные тест-кейсы; не утверждайте гарантий, не подтверждённых контрактом.',
+        'Describe the proposed solution, identify required contract assumptions, and give focused test cases; do not claim guarantees not established by the contract.',
       ]
     : [
         'Предпочтительный формат — применимое изменение или код, затем объяснение и релевантные тесты; если входных материалов не хватает, укажите это.',
@@ -1307,9 +1317,76 @@ export function buildDomainPrompt(
     product: ['Структурируйте ответ как проблема пользователя, приоритетные изменения и способ проверить эффект.', 'Structure the response as user problem, prioritized changes, and a way to validate impact.'],
     research: ['Структурируйте выводы, метод, качество свидетельств и ограничения; отделяйте подтверждённое от гипотез.', 'Structure findings, method, evidence quality, and limitations; separate supported conclusions from hypotheses.'],
     executive: ['Начните с решения; затем кратко укажите последствия, риски, владельца следующего шага и срок, если они известны.', 'Lead with the decision; briefly state consequences, risks, and the owner and timing of the next step when known.'],
+    creative: ['Ведите игровую сессию как мастер; не отвечайте общими рекомендациями о библиотеке или создании промптов.', 'Run the game session as the GM; do not answer with generic advice about prompt libraries or prompt creation.'],
     general: ['Используйте ясную структуру, соответствующую типу результата; включайте только полезные разделы.', 'Use a clear structure suited to the deliverable; include only useful sections.'],
   };
-  addSection(choose('Формат результата', 'Deliverable Format'), 'output_format', [outputByDomain[domain][isRu ? 0 : 1]]);
+  const headlineCountMatch = taskLower.match(/\b(\d+|one|two|three|four|five|six|seven|eight|nine|ten|один|одна|два|две|три|четыре|пять|шесть|семь|восемь|девять|десять)\s+(?:(?:distinct|different|различн\w*)\s+)?(?:landing[- ]page\s+)?headlines?\b|(?:\b(\d+)\s+(?:вариант\w*\s+)?заголов\w*)/i);
+  const countToken = headlineCountMatch?.[1] || headlineCountMatch?.[2];
+  const countWords: Record<string, string> = { one: '1', two: '2', three: '3', four: '4', five: '5', six: '6', seven: '7', eight: '8', nine: '9', ten: '10', один: '1', одна: '1', два: '2', две: '2', три: '3', четыре: '4', пять: '5', шесть: '6', семь: '7', восемь: '8', девять: '9', десять: '10' };
+  const headlineCount = countToken ? (countWords[countToken] || countToken) : '';
+  const deliverableOutput: Partial<Record<DeliverableKind, [string, string]>> = {
+    email: [
+      'Верните только запрошенное письмо; соблюдайте аудиторию, тон, краткость и число CTA. Используйте только факты о продукте, данные в задаче; не добавляйте функций, результатов или обещаний. Если адресат CTA не задан, не придумывайте конкретный экран или функцию; не вставляйте placeholders, если они не нужны для корректного письма.',
+      'Return only the requested email; honor the stated audience, voice, brevity, and CTA count. Use only product facts supplied in the task; do not add features, outcomes, or promises. If the CTA destination is unspecified, do not invent a screen or feature; avoid placeholders unless they are necessary to make the draft usable.',
+    ],
+    headline_set: [
+      headlineCount ? `Верните ровно ${headlineCount} содержательно различных заголовков; варьируйте подачу, а не факты. Используйте только указанные функции и преимущества; не добавляйте CTA или пояснения, если они не запрошены.` : 'Верните только запрошенный набор содержательно различных заголовков. Используйте только указанные факты, функции и преимущества; не добавляйте CTA или пояснения, если они не запрошены.',
+      headlineCount ? `Return exactly ${headlineCount} materially distinct headlines; vary the framing, not the facts. Use only stated product facts and benefits; add no CTA or rationale unless requested.` : 'Return only the requested set of materially distinct headlines, grounded in the stated product facts and benefits; add no CTA or rationale unless requested.',
+    ],
+    acceptance_criteria: [
+      'Выведите краткие нумерованные критерии приёмки: для каждого укажите действие или условие и наблюдаемый ожидаемый результат. Покройте только названные сценарии, состояния и граничные случаи; не расширяйте функциональность, не предписывайте стек и не добавляйте общий обзор продукта.',
+      'Return concise, numbered acceptance criteria. For each, state the triggering action or condition and the observable expected result. Cover only the named flows, states, and edge cases; do not expand the feature, prescribe a stack, or add a general product review.',
+    ],
+    pricing_analysis: [
+      'Сопоставьте только релевантные модели цены в компактной таблице: модель, соответствие ценности, необходимые данные, преимущества и риски. Отделите наблюдения от гипотез; завершите одним недорогим экспериментом с гипотезой, методом и наблюдаемым сигналом решения. Не подставляйте отсутствующие цены, размеры выборки, CAC/LTV или пороги.',
+      'Compare only relevant pricing models in a compact matrix: model, value fit, evidence needed, advantages, and risks. Separate observations from hypotheses; finish with one low-cost experiment specifying its hypothesis, method, and observable decision signal. Do not invent prices, sample sizes, CAC/LTV, or thresholds.',
+    ],
+    gtm_plan: [
+      'Сформируйте этапный план, чьи временные интервалы покрывают весь указанный горизонт и соразмерны размеру команды и бюджету. Для каждого этапа укажите цель/сегмент, проверяемый канал или действие, владельца по роли, требуемый ресурс, наблюдаемый сигнал и условие продолжения, изменения или остановки. Выберите этапы по контексту, а не по шаблону; не распределяйте неуказанный бюджет и не придумывайте числовые пороги.',
+      'Build a phased plan whose time windows cover the full stated horizon and fit the team size and budget. For each phase specify its objective/segment, testable channel or activity, role owner, required resource, observable signal, and continue/change/stop condition. Choose phases for the context rather than imposing a stock launch sequence; do not allocate unstated budget or invent numeric thresholds.',
+    ],
+    executive_memo: [
+      'Подготовьте краткую записку: решение/рекомендация в начале; затем варианты и основания, компромиссы для затронутых сторон, ключевые неизвестные и риски. Для каждого следующего действия предложите владельца по роли, если он не задан, и явно пометьте его как предложение; не выдумывайте личные имена или даты. Укажите, какие данные изменили бы рекомендацию; не выдавайте допущения за факты.',
+      'Write a concise memo: lead with the decision/recommendation, then options and rationale, stakeholder trade-offs, material unknowns, and risks. For each next action, suggest a role-level owner when none is supplied and label it as proposed; do not invent personal names or dates. State what evidence would change the recommendation; never present assumptions as facts.',
+    ],
+    interview_synthesis: [
+      'Сгруппируйте предоставленные наблюдения по темам; для каждой отделите подтверждающие данные и разногласия. Считайте агрегированные числа упоминаниями, а не непересекающимися группами участников; не выводите пересечения, причинность или противоречие без прямых данных. Сохраните числа как есть, не выдумывайте цитаты; если явное противоречие не подтверждается, скажите это прямо.',
+      'Group the supplied observations into themes and distinguish supporting evidence from divergence. Treat aggregate counts as mentions, not mutually exclusive participant groups; do not infer overlap, causality, or contradiction without direct evidence. Preserve counts as given, invent no quotations, and say explicitly when no direct contradiction can be established.',
+    ],
+    study_comparison: [
+      'Сопоставьте материалы по каждому исследованию: вопрос/контекст, дизайн и выборка (только если описаны), измеренные результаты, совпадения и расхождения, ограничения. Если данных нет в абстракте, напишите «не сообщается»; не превращайте отсутствие сведений в доказанный недостаток метода. Разделяйте выводы авторов и сопоставление; не выводите причинность и не добавляйте источники.',
+      'Compare each supplied study by question/context, design and sample (only as reported), measured outcomes, agreements and differences, and limitations. If an abstract omits a detail, label it “not reported”; do not treat missing information as a demonstrated methodological flaw. Distinguish authors’ findings from the comparison; do not infer causality or add sources.',
+    ],
+    incident_review: [
+      'Представьте в хронологии только подтверждённые события и переданные временные отметки; неизвестные время, влияние и причинные связи обозначьте как неизвестные, а объяснения — как гипотезы. Затем отдельно перечислите действия для проверки/снижения риска с проверяемым результатом. Если владелец не указан, предложите роль и пометьте её как гипотезу; не выдумывайте имена, Jira IDs или сроки. Соблюдайте blameless-подход.',
+      'Put only confirmed events and supplied timestamps in the chronology; mark unknown timing, impact, and causal links as unknown, and frame explanations as hypotheses. Then list risk-reduction or investigation actions with verifiable outcomes. If no owner is supplied, suggest a role and label it as proposed; do not invent names, Jira IDs, or due dates. Remain blameless.',
+    ],
+    code_change: [
+      'Если исходный код доступен, верните минимальный патч для затронутого поведения и сфокусированные регрессионные проверки, следуя существующим соглашениям проекта. Если кода или необходимого контракта нет, назовите конкретные недостающие файлы/интерфейсы и не выдумывайте патч или test runner; не меняйте несвязанные компоненты.',
+      'When source code is available, return a minimal patch for the affected behavior and focused regression checks, following the project’s existing conventions. If code or a required contract is missing, name the specific files/interfaces needed and do not invent a patch or test runner; leave unrelated components untouched.',
+    ],
+    technical_design: deferImplementation
+      ? ['Опишите целевой дизайн и контрактные допущения, укажите недостающие входные интерфейсы и сфокусированные проверки; отложите реализацию кода до получения текущего обработчика и необходимых интерфейсов.', 'Describe the target design and contract assumptions, identify missing interfaces, and specify focused checks; defer implementation code until the current handler and required interfaces are supplied.']
+      : ['Опишите решение для явно названной проблемы: ключевые компоненты/границы, поток данных или управления, контрактные допущения, отказные случаи и проверки. Отделите подтверждённые гарантии от предположений; код добавляйте только если он запрошен и необходим.', 'Describe a solution to the stated problem: key components/boundaries, data or control flow, contract assumptions, failure cases, and checks. Separate established guarantees from assumptions; include code only if requested and necessary.'],
+    product_recommendations: [
+      'Для каждого изменения свяжите наблюдение с гипотезой и предложением, укажите ожидаемое поведение пользователя и соразмерный способ проверки. Приоритизируйте только при достаточных основаниях; не превращайте единичные заметки в утверждения о всех пользователях.',
+      'For each recommendation, link the observation to a hypothesis and proposed change, state the intended user behavior, and specify a proportionate validation. Prioritize only when evidence supports it; do not generalize isolated notes to all users.',
+    ],
+    research_synthesis: [
+      'Структурируйте синтез по вопросу, подтверждённым выводам, расхождениям между материалами и ограничениям доказательств. Не добавляйте источники, методы, результаты или статистику, которых нет во входных данных.',
+      'Structure the synthesis around the question, supported findings, disagreements across materials, and evidence limitations. Add no sources, methods, findings, or statistics absent from the input.',
+    ],
+    facilitation_guide: [
+      'Дайте повестку с этапами и тайм-боксами, сумма которых соответствует указанной длительности; для каждого этапа задайте цель, инструкцию/вопрос ведущего и фиксируемый результат, учитывая указанное число участников. Завершите решениями и зависимостями; попросите группу назначить владельца каждому действию. Если владелец не согласован, отметьте это как нерешённое и укажите шаг для назначения; не выдумывайте имена. Не предполагайте специальные инструменты или предварительную подготовку.',
+      'Provide an agenda with time boxes that add up to the stated duration; for each phase give its goal, facilitator prompt/instruction, and captured output, scaled to the stated group size. Close with decisions and dependencies, and have the group assign an owner to each action. If no owner is agreed, record it as unresolved and specify a follow-up to assign one; do not invent names. Do not assume special tools or prior preparation.',
+    ],
+    practical_plan: [
+      'Разбейте план на выполнимые шаги в указанном порядке и временных рамках; для каждого укажите нужные материалы/устройство и проверяемый результат. Если запрошена организация файлов, приведите пример структуры папок и простой шаблон имени файла. Соблюдайте запреты на сервисы и инструменты; для локальной резервной копии предложите проверку восстановимости на одном файле без предположения о дополнительном оборудовании.',
+      'Break the plan into actionable steps within the stated order and time limits; name required materials/devices and a verifiable outcome for each. If file organization is requested, include an example folder tree and simple filename pattern. Respect service and tool prohibitions; for a local backup, propose a recoverability check on one file without assuming extra hardware.',
+    ],
+  };
+  const output = deliverableOutput[classification.deliverable] || outputByDomain[domain];
+  addSection(choose('Формат результата', 'Deliverable Format'), 'output_format', [output[isRu ? 0 : 1]]);
 
   return reconstructPrompt('', sections);
 }

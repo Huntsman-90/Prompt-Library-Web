@@ -1,5 +1,7 @@
 import { isRussianText, isTabletopGameMasterPromptRequest, parsePromptSections, reconstructPrompt, type ParsedSection } from '../utils/promptEngine';
 import { SKILLS_REGISTRY, type SkillDefinition } from './skillsRegistry';
+import { getDeliverableSkillMismatch } from './skillApplicability';
+import { classifyTask, type TaskClassification } from '../utils/taskIntent';
 
 export type SkillPreflightDiagnosticType =
   | 'skill-filtered'
@@ -99,12 +101,22 @@ function groupForCategory(categoryId: string): DomainGroup | null {
 
 function groupForSkill(skill: SkillDefinition): DomainGroup | null {
   const text = `${skill.id} ${skill.name} ${skill.displayName} ${skill.description} ${(skill.tags || []).join(' ')}`;
+  if (/^(?:core-summary-first-executive-structure-bluf|bulleted-executive-memo|comparative-tradeoff-matrix|executive-markdown-table)$/.test(skill.id.toLowerCase())) return 'business';
   return groupForCategory(skill.categoryId) || classifyDomain(text);
 }
 
 function getTaskGroup(task: string, domain?: string): DomainGroup | null {
-  if (isTabletopGameMasterPromptRequest(task)) return 'writing';
-  return classifyDomain(task) || classifyDomain(domain || '');
+  const inferred = classifyTask(task, domain).domain;
+  const groups: Partial<Record<TaskClassification['domain'], DomainGroup>> = {
+    coding: 'engineering',
+    business: 'business',
+    copywriting: 'writing',
+    product: 'product',
+    research: 'research',
+    executive: 'business',
+    creative: 'writing',
+  };
+  return groups[inferred] || (inferred === 'retro' || inferred === 'general' ? null : classifyDomain(domain || ''));
 }
 
 function relevantTerms(task: string, skill: SkillDefinition): string[] {
@@ -143,9 +155,12 @@ function resolveSelectedSkills(skillIds: string[], diagnostics: SkillPreflightDi
 function filterReason(
   skill: SkillDefinition,
   task: string,
-  taskGroup: DomainGroup | null
+  taskGroup: DomainGroup | null,
+  classification: TaskClassification
 ): string | null {
   if (skill.isUserCreated || UNIVERSAL_SKILL_IDS.has(skill.id)) return null;
+  const deliverableMismatch = getDeliverableSkillMismatch(skill.id, classification.deliverable, task);
+  if (deliverableMismatch) return deliverableMismatch;
   if (!taskGroup) return null;
 
   const matches = relevantTerms(task, skill);
@@ -162,6 +177,8 @@ interface TaskConstraints {
   noQuotes: boolean;
   singleDeliverable: boolean;
   jsonOnly: boolean;
+  noUnrequestedStack: boolean;
+  narrowScope: boolean;
 }
 
 function detectTaskConstraints(task: string): TaskConstraints {
@@ -169,7 +186,9 @@ function detectTaskConstraints(task: string): TaskConstraints {
   const noFabrication =
     /\b(?:do not|don't|never|without)\b[^.!?\n]{0,100}\b(?:invent|fabricate|make up|unsupported|unsubstantiated)\b/i.test(task) ||
     /\buse only\s+(?:the\s+)?(?:supplied|provided|attached|following)\b/i.test(task) ||
+    /\b(?:only|solely)\s+confirmed facts\b|\bdo not infer\b[^.!?\n]{0,80}\b(?:as fact|as established)\b|\bunknowns?\b[^.!?\n]{0,80}\b(?:as facts?|established)\b/i.test(task) ||
     /не\s+(?:выдумывай|выдумывайте|придумывай|придумывайте|фабрикуй|фабрикуйте)[^.!?\n]{0,100}/i.test(task) ||
+    /(?:только|лишь)\s+подтвержд[её]нн\w*\s+факт|не\s+выводи\w*[^.!?\n]{0,80}(?:как\s+)?установленн\w*\s+причин|не\s+(?:выдавай|представляй|подавай)\w*[^.!?\n]{0,80}установленн\w*\s+причин/i.test(task) ||
     /используй(?:те)?\s+только\s+(?:предоставлен|приложен|исходн|эти\s+замет)/i.test(task);
   const noImplementation =
     /\b(?:do not|don't|never|no)\b[^.!?\n]{0,100}\b(?:write|generate|produce|implement|output)\b[^.!?\n]{0,60}\b(?:code|implementation)\b/i.test(task) ||
@@ -190,8 +209,10 @@ function detectTaskConstraints(task: string): TaskConstraints {
     /\bодин\s+(?:единственный\s+)?(?:текст|пост|вариант|заголов|email|письм)\b/i.test(text) ||
     /\bтолько\s+один\b/i.test(text);
   const jsonOnly = /\b(?:only|strictly|raw)\s+(?:valid\s+)?json\b|\bjson\s+only\b|только\s+(?:валидный\s+)?json\b/i.test(task);
+  const noUnrequestedStack = /without prescribing an? unrequested technical stack|do not assume (?:access to |a )?(?:special )?(?:software|tool|framework)|не\s+(?:задавай|предписывай|навязывай)\s+(?:не)?запрошенн\w*\s+(?:техническ\w+\s+)?стек|без предположений о (?:специальном )?(?:ПО|инструментах|стеке)/i.test(task);
+  const narrowScope = /minimal patch|focused tests|do not refactor unrelated|do not change unrelated|stay within (?:the )?(?:requested|stated) scope|не рефактор(?:и|ируй) несвязанн|не меняй несвязанн|только целевое изменение/i.test(task);
 
-  return { noFabrication, noImplementation, noExternalSources, noQuotes, singleDeliverable, jsonOnly };
+  return { noFabrication, noImplementation, noExternalSources, noQuotes, singleDeliverable, jsonOnly, noUnrequestedStack, narrowScope };
 }
 
 interface DirectiveAdjustment {
@@ -200,10 +221,97 @@ interface DirectiveAdjustment {
   replacement: string | null;
 }
 
-function inspectDirective(line: string, task: string, constraints: TaskConstraints): DirectiveAdjustment | null {
+function inspectDirective(
+  line: string,
+  task: string,
+  constraints: TaskConstraints,
+  classification: TaskClassification
+): DirectiveAdjustment | null {
   const lower = line.toLowerCase();
   const isRu = isRussianText(task);
   if (/\b(?:only when supported|if supported|if evidence exists|when evidence is available|только при подтверждении|если подтверждено|при наличии данных)\b/i.test(lower)) return null;
+
+  if (classification.domain !== 'coding' && /\b(?:code completeness|incomplete stubs|generated code|implementation code completeness)\b|полнот[аы]\s+кода|незавершённ(?:ый|ые)\s+заглушк/i.test(line)) {
+    return {
+      type: 'directive-removed',
+      message: isRu ? 'Удалено нерелевантное для этой задачи требование полноты кода.' : 'Removed code-completeness boilerplate from a non-coding deliverable.',
+      replacement: null,
+    };
+  }
+
+  if (/\b(?:multi[- ]agent|agent debate|consensus synthesis|consensus-building workflow)\b|мультиагент\w*|дебат\w*|синтез консенсуса/i.test(line) && !/\b(?:multi[- ]agent|multiple perspectives|debate|consensus synthesis)\b|мультиагент|разные точки зрения|дебат|консенсус/i.test(task)) {
+    return {
+      type: 'directive-removed',
+      message: isRu ? 'Удалён не запрошенный многоагентный/дискуссионный процесс.' : 'Removed an unrequested multi-agent or debate workflow.',
+      replacement: null,
+    };
+  }
+
+  if (constraints.narrowScope && /\b(?:entire codebase|all components|all modules|comprehensive architectural audit|refactor broadly|rewrite the whole|full platform redesign)\b|всю кодовую базу|все компоненты|полный архитектурный аудит|масштабный рефакторинг/i.test(line)) {
+    return {
+      type: 'directive-adjusted',
+      message: isRu ? 'Объём Skill ограничен явным запросом на минимальное целевое изменение.' : 'Narrowed the Skill to honor the requested minimal, focused scope.',
+      replacement: isRu ? 'Работайте только в рамках указанной задачи и связанных компонентов; не расширяйте объём изменения.' : 'Stay within the stated task and directly related components; do not broaden the change scope.',
+    };
+  }
+
+  const tools = ['TypeScript', 'JavaScript', 'React', 'Vue', 'Angular', 'Vitest', 'Jest', 'Playwright', 'Cypress', 'Pytest', 'Python', 'Java', 'PostgreSQL', 'Redis'];
+  const introducedTools = tools.filter((tool) => {
+    const escaped = tool.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp(`\\b${escaped}\\b`, 'i').test(line) && !new RegExp(`\\b${escaped}\\b`, 'i').test(task);
+  });
+  if (introducedTools.length > 0) {
+    return {
+      type: 'directive-adjusted',
+      message: isRu ? 'Неуказанный стек или test runner заменён требованием следовать контексту проекта.' : 'Replaced an unrequested stack or test runner with a repository-convention requirement.',
+      replacement: isRu ? 'Следуйте стеку и тестовым соглашениям, уже установленным в проекте; если они недоступны, укажите это, не предписывая новый инструмент.' : 'Follow the stack and test conventions established by the project; if they are unavailable, state the gap rather than prescribing a new tool.',
+    };
+  }
+
+  const forcedScoring = /(?:weighted criteria|normalized evaluation dimensions|total weight\s*=|sum of weights|sensitivity (?:testing|analysis)|\bscore each (?:option|alternative)|оцен(?:ите|ивать) каждый вариант|сумма весов|взвешенн\w* критери|анализ чувствительност)/i.test(line);
+  if (forcedScoring && /\d|%|±|\b(?:1\s*(?:-|to)\s*5)\b/i.test(line)) {
+    const values = line.match(/\d+(?:[.,]\d+)?\s*%?/g) || [];
+    if (values.some((value) => !task.includes(value.trim())) || !/weight|score|sensitivity|вес|шкал|чувствительност/i.test(task)) {
+      return {
+        type: 'directive-adjusted',
+        message: isRu ? 'Удалены неподтверждённые веса и балльная шкала; сохранено сравнение по обоснованным данным.' : 'Removed unsupported weights and scoring scales while retaining evidence-based comparison.',
+        replacement: isRu ? 'Сравнивайте варианты по критериям, относящимся к решению, только если они подтверждены вводными; при нехватке данных покажите качественные компромиссы и обозначьте допущения, не выдумывая веса, баллы или диапазоны чувствительности.' : 'Compare options using decision-relevant criteria supported by the supplied context; when evidence is insufficient, present qualitative trade-offs and label assumptions without inventing weights, scores, or sensitivity ranges.',
+      };
+    }
+  }
+
+  const unsupportedCount = line.match(/\b\d+\s+(?:design partners?|customers?|users?|participants?|interviews?|accounts?|founders?|stores?|locations?|teams?|контрагент\w*|партн[её]р\w*|клиент\w*|пользовател\w*|участник\w*|интервью|команд\w*)/i);
+  if (unsupportedCount && !task.includes(unsupportedCount[0].match(/\d+/)?.[0] || '')) {
+    return {
+      type: 'directive-adjusted',
+      message: isRu ? 'Убран не заданный задачей размер выборки или target count.' : 'Removed an unprovided sample size or target count.',
+      replacement: isRu ? 'Определяйте объём набора или эксперимента по доступным ресурсам и обосновывайте его; при отсутствии данных обозначьте количество как гипотезу, а не обязательную цель.' : 'Size recruitment or experiments to the stated resources and justify the choice; when evidence is absent, label counts as hypotheses rather than fixed targets.',
+    };
+  }
+
+  if (/\b(?:private alpha|public beta|commercial ga|scale-up phase)\b|частн\w* альф\w*|публичн\w* бет\w*|коммерческ\w* ga/i.test(line) && !/\b(?:private alpha|public beta|commercial ga)\b|частн\w* альф\w*|публичн\w* бет\w*/i.test(task)) {
+    return {
+      type: 'directive-adjusted',
+      message: isRu ? 'Заменена предписанная последовательность запуска; этапы должны соответствовать контексту продукта.' : 'Replaced a prescribed launch sequence with context-dependent phasing.',
+      replacement: isRu ? 'Выберите число, названия и порядок этапов по готовности продукта, аудитории и заданным ресурсам; не предполагайте обязательный путь alpha → beta → GA → scale.' : 'Choose the number, labels, and order of phases based on product readiness, audience, and stated resources; do not assume an alpha → beta → GA → scale sequence.',
+    };
+  }
+
+  if (/\b(?:jira ids?|hard deadlines|named accountable people|exact (?:figures|dates|names)|specific personal names|assigned owners and hard deadlines)\b|дедлайн(?:ом)? до\s+\d+|конкретн\w* ответственн\w* лиц\w* и срок/i.test(line) && !/\b(?:jira|ticket id|hard deadline|exact dates|specific personal names)\b|точн\w* дат|именно\s+конкретн\w* имен/i.test(task)) {
+    return {
+      type: 'directive-adjusted',
+      message: isRu ? 'Неподтверждённые личные имена, ticket IDs и сроки заменены на явно помечаемые предложения.' : 'Replaced unsupported names, ticket IDs, and deadlines with clearly labeled proposals.',
+      replacement: isRu ? 'Не выдумывайте имена, номера задач или сроки; если задача требует владельца, предложите роль как вариант и пометьте её как предлагаемую, а неизвестные даты оставьте открытыми.' : 'Do not invent names, ticket IDs, or dates; when ownership is required, suggest a role and label it as proposed, leaving unknown dates open.',
+    };
+  }
+
+  if (classification.deliverable === 'executive_memo' && /candidate architectures?|throughput|\bTCO\b|architecture criteria/i.test(line) && !/candidate architecture|throughput|\bTCO\b|architecture/i.test(task)) {
+    return {
+      type: 'directive-adjusted',
+      message: isRu ? 'Удалены архитектурные критерии, не относящиеся к запрошенному управленческому решению.' : 'Removed architecture-scoring criteria unrelated to the requested executive decision.',
+      replacement: isRu ? 'Оценивайте только последствия и компромиссы, относящиеся к решению из исходной задачи.' : 'Assess only the consequences and trade-offs relevant to the decision in the original task.',
+    };
+  }
 
   if (constraints.noImplementation && /\b(?:write|generate|produce|implement|deliver)\b[^.!?]{0,100}\b(?:implementation\s+)?code\b/i.test(line)) {
     return {
@@ -283,6 +391,34 @@ function inspectDirective(line: string, task: string, constraints: TaskConstrain
     };
   }
 
+  if (classification.deliverable === 'incident_review' && /\b(?:minute-by-minute|exact chronological timeline|T0|trigger\s*[-–>]\s*detection\s*[-–>]\s*escalation|full resolution)\b/i.test(line) && !/\b(?:minute-by-minute|T0|exact chronological timeline)\b/i.test(task)) {
+    return {
+      type: 'directive-adjusted',
+      message: isRu ? 'Убрано требование неподтверждённых точных временных отметок или промежуточных событий.' : 'Removed an exact-timeline requirement that exceeds the supplied incident facts.',
+      replacement: isRu ? 'Сохраняйте только переданные события и временные отметки; не заполняйте промежуточные шаги, время обнаружения или полного восстановления без данных.' : 'Preserve only supplied events and timestamps; do not fill intermediate steps, detection times, or full-resolution timing without evidence.',
+    };
+  }
+
+  if (constraints.noFabrication && /\b(?:monitoring blindspots?|deployment gaps?|missing circuit breakers?|contributing systemic factors?)\b|слеп\w* зон\w* мониторинг|пробел\w* депло|отсутств\w* circuit breaker/i.test(line)) {
+    return {
+      type: 'directive-adjusted',
+      message: isRu ? 'Примеры причин переведены в гипотезы для проверки, а не в выводы.' : 'Reframed speculative cause examples as hypotheses to test, not findings.',
+      replacement: isRu ? 'Рассматривайте системные факторы только как гипотезы, если они следуют из подтверждённых фактов; неизвестные причины оставьте открытыми и предложите способы проверки.' : 'Treat systemic factors only as hypotheses when they follow from confirmed facts; keep unknown causes open and specify how to test them.',
+    };
+  }
+
+  const metricTarget = line.match(/(?:\b(?:NPS|LTV|CAC|retention|conversion|churn|payback|ROI|KPI|metric|target|threshold|benchmark|complexity|coverage|success rate)\b|удержан|конверси|порог|метрик|сложност|покрыти)[^.!?\n]{0,80}(?:>=|<=|>|<|≥|≤|at least|at most|above|below|over|under|не менее|не выше|более|менее)\s*\$?\d+(?:[.,]\d+)?\s*%?/i);
+  if (metricTarget) {
+    const numericValues = metricTarget[0].match(/\d+(?:[.,]\d+)?/g) || [];
+    if (numericValues.some((value) => !task.includes(value))) {
+      return {
+        type: 'directive-adjusted',
+        message: isRu ? 'Неподтверждённый числовой порог удалён; метрику следует обосновать контекстом.' : 'Removed an unsupported numeric target; ground any metric in the supplied context.',
+        replacement: isRu ? 'Используйте релевантную метрику только при наличии подходящих данных и обоснованного ориентира; иначе предложите способ измерения и обозначьте целевые значения как гипотезы.' : 'Use a relevant metric only when suitable data and a justified benchmark exist; otherwise propose how to measure it and label any target as a hypothesis.',
+      };
+    }
+  }
+
   const specifiesHmac = /\bHMAC[-\s]?SHA-?256\b/i.test(line);
   if (specifiesHmac && !/\bHMAC[-\s]?SHA-?256\b/i.test(task)) {
     return {
@@ -292,12 +428,15 @@ function inspectDirective(line: string, task: string, constraints: TaskConstrain
     };
   }
 
-  const duration = line.match(/\b\d+\s*(?:seconds?|minutes?|hours?|days?|секунд\w*|минут\w*|час\w*|дн\w*)\b/i)?.[0];
+  const duration = line.match(/\b\d+\s*(?:seconds?|minutes?|hours?|days?)\b|\d+\s*(?:секунд|минут|час|дн)\w*/i)?.[0];
   if (duration && !new RegExp(duration.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i').test(task)) {
+    const isDeadline = /\b(?:deadline|due date|hard deadline)\b|дедлайн|срок/i.test(line);
     return {
       type: 'directive-adjusted',
       message: isRu ? `Неподтверждённый порог «${duration}» заменён требованием свериться с контрактом.` : `Replaced the unprovided threshold "${duration}" with a requirement to verify the contract.`,
-      replacement: isRu ? 'Используйте порог, документированный соответствующим провайдером или контрактом; не вводите неподтверждённое фиксированное значение.' : 'Use the threshold documented by the relevant provider or contract; do not introduce an unsupported fixed value.',
+      replacement: isDeadline
+        ? (isRu ? 'Не назначайте неподтверждённый срок; если срок нужен, предложите его как допущение, связанное с приоритетом и доступными ресурсами.' : 'Do not impose an unsupported due date; if timing is needed, label it as a proposal tied to priority and available resources.')
+        : (isRu ? 'Используйте порог, документированный соответствующим провайдером или контрактом; не вводите неподтверждённое фиксированное значение.' : 'Use the threshold documented by the relevant provider or contract; do not introduce an unsupported fixed value.'),
     };
   }
 
@@ -308,14 +447,14 @@ function addedDirectiveLines(before: string, after: string): string[] {
   const counts = new Map<string, number>();
   for (const line of before.split(/\r?\n/)) {
     const value = line.trim();
-    if (!value || /^#{1,6}\s/.test(value)) continue;
+    if (!value || (/^#{1,6}\s/.test(value) && !/\b(?:vitest|jest|playwright|cypress|pytest|code completeness|weighted criteria|jira|tco)\b/i.test(value))) continue;
     counts.set(value, (counts.get(value) || 0) + 1);
   }
 
   const added: string[] = [];
   for (const line of after.split(/\r?\n/)) {
     const value = line.trim();
-    if (!value || /^#{1,6}\s/.test(value)) continue;
+    if (!value || (/^#{1,6}\s/.test(value) && !/\b(?:vitest|jest|playwright|cypress|pytest|code completeness|weighted criteria|jira|tco)\b/i.test(value))) continue;
     const count = counts.get(value) || 0;
     if (count > 0) counts.set(value, count - 1);
     else added.push(value);
@@ -373,13 +512,15 @@ export function applySkillsWithPreflight(
 ): SkillPreflightResult {
   const diagnostics: SkillPreflightDiagnostic[] = [];
   const candidateSkills = resolveSelectedSkills(skillIds || [], diagnostics);
+  const classification = classifyTask(task, domain);
   const taskGroup = getTaskGroup(task, domain);
   const constraints = detectTaskConstraints(task);
+  if (classification.domain === 'coding') constraints.noUnrequestedStack = true;
   let currentPrompt = prompt || '';
   const appliedSkills: SkillDefinition[] = [];
 
   for (const skill of candidateSkills) {
-    const reason = filterReason(skill, task, taskGroup);
+    const reason = filterReason(skill, task, taskGroup, classification);
     if (reason) {
       diagnostics.push({
         type: 'skill-filtered',
@@ -390,13 +531,20 @@ export function applySkillsWithPreflight(
       continue;
     }
 
+    // A composite is a selection container. Its own hard-coded bundle would bypass
+    // the relevance and conflict checks applied to its individual sub-skills.
+    if (skill.subSkills?.length) {
+      appliedSkills.push(skill);
+      continue;
+    }
+
     const transformed = skill.transform(currentPrompt, context);
     if (typeof transformed !== 'string') throw new TypeError(`Skill "${skill.id}" returned a non-string prompt.`);
 
     let candidatePrompt = transformed;
     const added = addedDirectiveLines(currentPrompt, transformed);
     for (const directive of added) {
-      const adjustment = inspectDirective(directive, task, constraints);
+      const adjustment = inspectDirective(directive, task, constraints, classification);
       if (!adjustment) continue;
       candidatePrompt = replaceLastDirective(candidatePrompt, directive, adjustment.replacement);
       diagnostics.push({

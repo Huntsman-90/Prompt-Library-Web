@@ -1,8 +1,10 @@
 import React, { useState, useMemo } from 'react';
 import { useUIStore } from '../../store/useUIStore';
-import { optimizePrompt } from '../../utils/promptEngine';
+import { extractTaskFromGeneratedPrompt } from '../../utils/promptEngine';
+import { optimizePromptPipeline } from '../../utils/promptGenerationPipeline';
+import { classifyTask } from '../../utils/taskIntent';
 import { detectSkillsInPrompt, SKILLS_REGISTRY, getSkillsByCategory } from '../../skills/skillsRegistry';
-import { applySkillsWithPreflight, type SkillPreflightDiagnostic } from '../../skills/skillPreflight';
+import type { SkillPreflightDiagnostic } from '../../skills/skillPreflight';
 import { SkillPreflightNotice } from './SkillPreflightNotice';
 import { CATEGORIES } from '../../data/categories';
 import { X, Sparkles, Copy, Check, Plus, Zap, ShieldCheck, ChevronDown, ChevronUp } from 'lucide-react';
@@ -49,6 +51,15 @@ export const PromptOptimizerModal: React.FC = () => {
     return detectSkillsInPrompt(optimizedOutput);
   }, [optimizedOutput]);
 
+  const taskForClassification = useMemo(
+    () => extractTaskFromGeneratedPrompt(inputPrompt) || inputPrompt,
+    [inputPrompt]
+  );
+  const taskClassification = useMemo(
+    () => classifyTask(taskForClassification, 'Auto'),
+    [taskForClassification]
+  );
+
   if (activeTool !== 'optimizer') return null;
 
   const toggleExtraSkill = (id: string) => {
@@ -64,51 +75,40 @@ export const PromptOptimizerModal: React.FC = () => {
       return;
     }
 
+    // These checkbox modules are already composed by optimizePromptPipeline;
+    // auto-detected copies would duplicate the same directive. Explicitly
+    // selected catalog Skills remain eligible through extraSkills.
+    const composerManagedSkillIds = new Set([
+      'chain-of-thought',
+      'constraint-injection',
+      'inversion-thinking',
+      'clarity-and-density',
+    ]);
     const skillIdsToApply = new Set<string>([
-      ...detectedInputSkills.map((s) => s.id),
+      ...detectedInputSkills.map((s) => s.id).filter((id) => !composerManagedSkillIds.has(id)),
       ...extraSkills,
     ]);
 
-    if (chainOfThought) skillIdsToApply.add('chain-of-thought');
-    if (constraints) skillIdsToApply.add('constraint-injection');
-    if (riskAudit) skillIdsToApply.add('inversion-thinking');
-    if (structure) skillIdsToApply.add('clarity-and-density');
+    const options = {
+      clarity,
+      specificity,
+      structure,
+      constraints,
+      examples,
+      chainOfThought,
+      riskAudit,
+      aggressiveness,
+    };
+    const preflight = optimizePromptPipeline(inputPrompt, options, Array.from(skillIdsToApply));
 
-    let result = '';
-    let diagnostics: SkillPreflightDiagnostic[] = [];
-
-    if (skillIdsToApply.size > 0) {
-      const preflight = applySkillsWithPreflight(inputPrompt, Array.from(skillIdsToApply), {
-        clarity,
-        specificity,
-        structure,
-        constraints,
-        examples,
-        chainOfThought,
-        riskAudit,
-        aggressiveness,
-      }, inputPrompt);
-      result = preflight.prompt;
-      diagnostics = preflight.diagnostics;
-    } else {
-      result = optimizePrompt(inputPrompt, {
-        clarity,
-        specificity,
-        structure,
-        constraints,
-        examples,
-        chainOfThought,
-        riskAudit,
-        aggressiveness,
-      });
-    }
-
-    setOptimizedOutput(result);
-    setSkillDiagnostics(diagnostics);
+    setOptimizedOutput(preflight.prompt);
+    setSkillDiagnostics(preflight.diagnostics);
+    const filteredCount = preflight.diagnostics.filter((d) => d.type === 'skill-filtered' || d.type === 'unknown-skill').length;
+    const adjustedCount = preflight.diagnostics.filter((d) => d.type === 'directive-adjusted' || d.type === 'directive-removed').length;
     addToast({
       type: 'success',
       title: 'Prompt optimized!',
-      description: 'Restructured with architectural skills & rubric',
+      description: `Domain: ${taskClassification.domain}; ${preflight.appliedSkills.length} Skills applied; ${filteredCount} filtered; ${adjustedCount} adjusted.`,
     });
   };
 
@@ -181,6 +181,13 @@ export const PromptOptimizerModal: React.FC = () => {
                 placeholder="Paste the draft prompt you want to elevate..."
                 className="w-full rounded-xl border border-slate-700 bg-slate-800 p-3 font-mono text-xs text-slate-100 placeholder-slate-500 focus:border-indigo-500 focus:outline-none resize-none leading-relaxed"
               />
+
+              {inputPrompt.trim() && (
+                <p className="mt-1 text-[10px] text-slate-400">
+                  Detected domain: <span className="font-medium text-purple-300">{taskClassification.domain}</span>
+                  {!taskClassification.taskSignal && <span> (general fallback)</span>}
+                </p>
+              )}
 
               {/* Detected Skills in Input Prompt */}
               {detectedInputSkills.length > 0 && (

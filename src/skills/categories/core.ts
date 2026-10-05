@@ -18,11 +18,11 @@ export const CORE_SKILLS: Record<string, SkillDefinition> = {
     categoryId: 'core',
     description: 'Calibrates authority, perspective, seniority, and mandate to match exact task demands.',
     tags: ['core', 'role', 'persona', 'authority'],
-    transform: (prompt: string) => {
+    transform: (prompt: string, context?: Record<string, any>) => {
       const isRu = isRussianText(prompt);
       const { preamble, sections } = parsePromptSections(prompt);
       const task = extractTaskFromGeneratedPrompt(prompt) || (isRu ? 'Выполнить задачу' : 'Execute directive');
-      const roleSpec = derivePreciseRole(task, isRu, ['role-calibration']);
+      const roleSpec = derivePreciseRole(task, isRu, ['role-calibration'], context?.domain || 'Auto');
       const roleTitle = isRu ? roleSpec.roleTitleRu : roleSpec.roleTitleEn;
       const roleFocus = isRu ? roleSpec.focusRu : roleSpec.focusEn;
       const roleMandate = isRu ? roleSpec.mandateRu : roleSpec.mandateEn;
@@ -32,13 +32,13 @@ export const CORE_SKILLS: Record<string, SkillDefinition> = {
         `Вы выступаете в роли: **${roleTitle}**.`,
         `- **Специализация и фокус**: ${roleFocus}.`,
         `- **Главный мандат**: ${roleMandate}`,
-        '- **Профессиональный стандарт**: Давать точные, контекстно уместные ответы; не подменять игровое взаимодействие инженерными или иными посторонними рекомендациями.',
+        '- **Профессиональный стандарт**: Следовать исходной задаче, запрошенному формату и предоставленным данным; не добавлять неподтверждённые требования.',
       ];
       const linesEn = [
         `You are acting as: **${roleTitle}**.`,
         `- **Domain Focus**: ${roleFocus}.`,
         `- **Operational Mandate**: ${roleMandate}`,
-        '- **Professional Standard**: Be precise and context-appropriate; do not replace the requested gameplay interaction with unrelated technical advice.',
+        '- **Professional Standard**: Follow the stated task, requested format, and supplied evidence; do not add unsupported requirements.',
       ];
 
       if (roleSec) {

@@ -1,36 +1,25 @@
 import React, { useState } from 'react';
 import { useUIStore } from '../../store/useUIStore';
-import { isRussianText } from '../../utils/promptEngine';
 import { getSkillsByCategory, SKILLS_REGISTRY, type SkillDefinition } from '../../skills/skillsRegistry';
 import { generatePromptPipeline } from '../../utils/promptGenerationPipeline';
+import { classifyTask } from '../../utils/taskIntent';
+import { getDomainRecommendedSkills } from '../../skills/domainRecommendations';
 import { SkillPreflightNotice } from './SkillPreflightNotice';
 import type { SkillPreflightDiagnostic } from '../../skills/skillPreflight';
 import { CATEGORIES } from '../../data/categories';
 import { X, Wand2, Copy, Check, Plus, Zap, ChevronDown, ChevronUp } from 'lucide-react';
 
-const DOMAIN_RECOMMENDED_SKILLS: Record<string, string[]> = {
-  Coding: ['code-audit-smells', 'type-safety-contracts', 'regression-test-specs'],
-  Business: ['unit-economics-modeling', 'gtm-roadmap-phasing', 'defensible-moats'],
-  Copywriting: ['persuasive-copy-arc', 'executive-memo-style', 'clarity-and-density'],
-  Product: ['user-persona-empathy', 'usability-heuristic-audit', 'microcopy-ux-writing'],
-  Research: ['literature-synthesis', 'methodology-critique', 'hypothesis-falsification'],
-  Executive: ['executive-summary-distiller', 'decision-tradeoff-matrix', 'executive-sponsor-persona'],
-};
-
 export const PromptGeneratorModal: React.FC = () => {
   const { activeTool, closeTool, openEditor, addToast } = useUIStore();
 
-  const [domain, setDomain] = useState('Coding');
+  const [domain, setDomain] = useState('Auto');
   const [task, setTask] = useState('');
-  const [technique, setTechnique] = useState('Chain-of-Thought');
-  const [tone, setTone] = useState('Matter-of-Fact');
+  const [technique, setTechnique] = useState('Auto');
+  const [tone, setTone] = useState('Auto');
   const [detailLevel, setDetailLevel] = useState<'minimalist' | 'balanced' | 'exhaustive'>('balanced');
   const [targetModel, setTargetModel] = useState('Universal');
 
-  const [selectedSkillIds, setSelectedSkillIds] = useState<string[]>([
-    'role-calibration',
-    'constraint-injection',
-  ]);
+  const [selectedSkillIds, setSelectedSkillIds] = useState<string[]>([]);
   const [showAllCategories, setShowAllCategories] = useState(false);
   const [activeCategoryFilter, setActiveCategoryFilter] = useState('coding');
 
@@ -49,12 +38,11 @@ export const PromptGeneratorModal: React.FC = () => {
 
   const handleGenerate = (e: React.FormEvent) => {
     e.preventDefault();
-    const isRu = isRussianText(task);
-    const targetTask =
-      task.trim() ||
-      (isRu
-        ? `Разработать комплексное экспертное решение по направлению «${domain}».`
-        : `Synthesize an authoritative engineering solution for ${domain}.`);
+    if (!task.trim()) {
+      addToast({ type: 'error', title: 'Task required', description: 'Describe the task before generating its prompt.' });
+      return;
+    }
+    const targetTask = task.trim();
     let finalResult: string;
     let appliedSkillsList: SkillDefinition[];
     let diagnostics: SkillPreflightDiagnostic[];
@@ -97,13 +85,14 @@ export const PromptGeneratorModal: React.FC = () => {
 
   const handleOpenInEditor = () => {
     closeTool();
+    const resolvedDomain = classifyTask(task, domain).domain;
     openEditor({
       id: 'prompt-' + Math.random().toString(36).substring(2, 9),
-      title: `${domain} - ${technique} Prompt`,
+      title: `${resolvedDomain} - ${technique} Prompt`,
       description: `Generated for ${task || domain} with ${selectedSkillIds.length} Skills`,
       content: generatedPrompt,
-      category: domain.toLowerCase(),
-      tags: [domain.toLowerCase(), technique.toLowerCase(), ...selectedSkillIds],
+      category: resolvedDomain,
+      tags: [resolvedDomain, technique.toLowerCase(), ...selectedSkillIds],
       variables: [],
       isFavorite: false,
       usageCount: 0,
@@ -112,7 +101,7 @@ export const PromptGeneratorModal: React.FC = () => {
     });
   };
 
-  const domainSkills = DOMAIN_RECOMMENDED_SKILLS[domain] || [];
+  const domainSkills = getDomainRecommendedSkills(domain, task).map((skill) => skill.id);
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-md p-2 sm:p-4 animate-in fade-in">
@@ -144,6 +133,7 @@ export const PromptGeneratorModal: React.FC = () => {
                   onChange={(e) => setDomain(e.target.value)}
                   className="w-full rounded-xl border border-slate-700 bg-slate-800 px-3 py-2 text-xs text-slate-200 focus:outline-none"
                 >
+                  <option value="Auto">Auto-detect from task</option>
                   <option value="Coding">Coding & Systems Architecture</option>
                   <option value="Business">Business & GTM Strategy</option>
                   <option value="Copywriting">Copywriting & Conversion</option>
@@ -160,6 +150,7 @@ export const PromptGeneratorModal: React.FC = () => {
                   onChange={(e) => setTechnique(e.target.value)}
                   className="w-full rounded-xl border border-slate-700 bg-slate-800 px-3 py-2 text-xs text-slate-200 focus:outline-none"
                 >
+                  <option value="Auto">Auto (follow task)</option>
                   <option value="Chain-of-Thought">Chain-of-Thought (Step-by-step)</option>
                   <option value="Six-Hats">Six Thinking Hats (De Bono)</option>
                   <option value="First-Principles">First Principles Axioms</option>
@@ -190,6 +181,7 @@ export const PromptGeneratorModal: React.FC = () => {
                   onChange={(e) => setTone(e.target.value)}
                   className="w-full rounded-xl border border-slate-700 bg-slate-800 px-3 py-2 text-xs text-slate-200 focus:outline-none"
                 >
+                  <option value="Auto">Auto (follow task)</option>
                   <option value="Matter-of-Fact">Matter-of-Fact & Objective</option>
                   <option value="Radical-Candor">Radical Candor (Direct)</option>
                   <option value="Executive">Executive Brief (BLUF)</option>
