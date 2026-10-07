@@ -49,7 +49,8 @@ const copywriting = generatePromptPipeline({
 }, []);
 assert.ok(copywriting.prompt.includes('Editorial Brief'), 'the selected domain must contribute relevant modules');
 assert.ok(copywriting.prompt.includes('Headline Variations'), 'task signals must select a matching section');
-assert.ok(copywriting.prompt.includes('Risks & Alternatives'), 'exhaustive detail must add cross-domain validation modules');
+assert.ok(copywriting.prompt.includes('Internally check task fit, voice, and factual constraints'), 'output-only copy should receive an internal quality check');
+assert.ok(!copywriting.prompt.includes('Risks & Alternatives'), 'output-only copy must not be diluted by a public risk-analysis section');
 assert.ok(copywriting.prompt.includes('Write a landing page headline for an analytics product.'));
 assert.ok(!copywriting.prompt.includes('[[content_type]]'), 'composed sections must not leave fixed-template placeholders');
 
@@ -76,7 +77,7 @@ const pricing = generatePromptPipeline({
   task: 'Evaluate pricing for a SaaS product with limited customer data.',
 }, []);
 assert.ok(pricing.prompt.includes('Pricing & Economics'));
-assert.ok(pricing.prompt.includes('instead of fabricated point estimates'));
+assert.ok(pricing.prompt.includes('only when supported by the inputs'));
 
 const research = generatePromptPipeline({
   ...baseParams,
@@ -116,7 +117,7 @@ assert.ok(composite.appliedSkills.some((skill) => skill.id === 'code-audit-smell
 assert.ok(!composite.appliedSkills.some((skill) => skill.id === 'type-safety-contracts'), 'composite containers must not bypass the task-specific type-safety filter');
 assert.ok(composite.diagnostics.some((item) => item.type === 'skill-filtered' && item.skillId === 'type-safety-contracts'));
 assert.ok(composite.appliedSkills.some((skill) => skill.id === 'regression-test-specs'));
-assert.ok(composite.prompt.includes('AAA Test Structure'), 'composite sub-skill transforms must execute');
+assert.ok(composite.prompt.includes('Focused Regression Test Specification'), 'composite sub-skill transforms must execute');
 
 const claude = generatePromptPipeline({ ...baseParams, targetModel: 'Anthropic Claude (XML)' }, ['code-audit-smells']);
 assert.ok(claude.prompt.startsWith('<system_instructions>'));
@@ -157,6 +158,51 @@ try {
     targetSection: 'protocol',
     transformationDirectives: '- Generate complete implementation code and provide the full patch.',
   });
+  await saveUserSkill({
+    id: 'custom-unbounded-executive-skill',
+    name: 'Unbounded Executive Scorecard',
+    displayName: 'Unbounded Executive Scorecard',
+    categoryId: 'my_skills',
+    description: 'Regression fixture for unsupported executive precision.',
+    tags: ['test', 'executive'],
+    transformationMode: 'section',
+    customSectionTitle: 'Executive Scorecard Directives',
+    targetSection: 'protocol',
+    transformationDirectives: [
+      '- Grade every option from 1 to 5 on a weighted scale.',
+      '- Replace qualitative generalities with exact dollar amounts, dates, and quantitative KPIs.',
+      '- Conclude with a Decisions Required section detailing binary options (Option A vs Option B).',
+      '- Formulate engineering tickets with assigned owners and 30-day completion SLAs.',
+    ].join('\n'),
+  });
+  await saveUserSkill({
+    id: 'custom-unbounded-gtm-skill',
+    name: 'Unbounded GTM Channels',
+    displayName: 'Unbounded GTM Channels',
+    categoryId: 'my_skills',
+    description: 'Regression fixture for preset channel assumptions.',
+    tags: ['test', 'business'],
+    transformationMode: 'section',
+    customSectionTitle: 'Channel Mix',
+    targetSection: 'protocol',
+    transformationDirectives: '- Delineate primary acquisition channels (PLG viral loops vs. High-Touch Outbound Enterprise Sales).',
+  });
+  await saveUserSkill({
+    id: 'custom-unbounded-incident-skill',
+    name: 'Unbounded Incident Timeline',
+    displayName: 'Unbounded Incident Timeline',
+    categoryId: 'my_skills',
+    description: 'Regression fixture for unsupported incident timelines and SLAs.',
+    tags: ['test', 'incident'],
+    transformationMode: 'section',
+    customSectionTitle: 'Incident Timeline Directives',
+    targetSection: 'protocol',
+    transformationDirectives: [
+      '- Фиксируйте поминутный таймлайн от триггера до полного восстановления.',
+      '- Выявите системные факторы: слепые зоны мониторинга и отсутствие защиты от сбоев.',
+      '- Формируйте задачи с дедлайном до 30-дневного срока.',
+    ].join('\n'),
+  });
 } finally {
   console.warn = originalWarn;
 }
@@ -164,6 +210,21 @@ const withCustomSkill = generatePromptPipeline(baseParams, ['custom-test-skill']
 assert.ok(withCustomSkill.prompt.includes('Billing Webhook Checks'));
 assert.ok(withCustomSkill.prompt.includes('Reject duplicate event IDs and verify the replay window.'));
 assert.ok(withCustomSkill.appliedSkills.some((skill) => skill.id === 'custom-test-skill'));
+
+const executiveTask = PROMPT_QUALITY_CASES.find((item) => item.id === 'executive-01-budget')!.task;
+const executiveUnbounded = generatePromptPipeline({ ...baseParams, domain: 'Executive', task: executiveTask }, ['custom-unbounded-executive-skill']);
+assert.ok(executiveUnbounded.diagnostics.filter((d) => d.skillId === 'custom-unbounded-executive-skill' && d.type === 'directive-adjusted').length >= 4, 'preflight should diagnose scoring, precision, binary-format, and SLA directives');
+assert.ok(!/from 1 to 5|exact dollar amounts|quantitative KPIs|Option A vs Option B|30-day completion SLAs/i.test(executiveUnbounded.prompt), 'unsupported executive directives must not survive preflight');
+
+const gtmTask = PROMPT_QUALITY_CASES.find((item) => item.id === 'business-02-gtm')!.task;
+const gtmUnbounded = generatePromptPipeline({ ...baseParams, domain: 'Business', task: gtmTask }, ['custom-unbounded-gtm-skill']);
+assert.ok(gtmUnbounded.diagnostics.some((d) => d.skillId === 'custom-unbounded-gtm-skill' && d.type === 'directive-adjusted'));
+assert.ok(!/PLG viral loops|High-Touch Outbound Enterprise Sales/i.test(gtmUnbounded.prompt));
+
+const incidentTask = PROMPT_QUALITY_CASES.find((item) => item.id === 'retro-01-outage')!.task;
+const incidentUnbounded = generatePromptPipeline({ ...baseParams, domain: 'Auto', task: incidentTask }, ['custom-unbounded-incident-skill']);
+assert.ok(incidentUnbounded.diagnostics.filter((d) => d.skillId === 'custom-unbounded-incident-skill' && d.type === 'directive-adjusted').length >= 3, 'preflight should adjust the timeline, speculative cause, and fixed SLA');
+assert.ok(!/поминутный таймлайн|слепые зоны мониторинга|30-дневного срока/i.test(incidentUnbounded.prompt), 'unsupported incident stages, causes, and dates must not survive preflight');
 
 console.log('Prompt pipeline tests passed (base, multi-skill, composite, model adapter, custom skill).');
 
@@ -269,7 +330,7 @@ const expectedOutputMarkers: Record<string, string> = {
   'copywriting-02-headlines': 'Return exactly 5 materially distinct headlines',
   'product-01-onboarding-dropoff': 'Для каждого изменения свяжите наблюдение',
   'product-02-filter-spec': 'triggering action or condition',
-  'research-01-interviews': 'Сгруппируйте предоставленные наблюдения',
+  'research-01-interviews': 'Сгруппируйте наблюдения по темам',
   'research-02-study-comparison': 'Compare each supplied study',
   'executive-01-budget': 'какие данные изменили бы рекомендацию',
   'executive-02-launch-delay': 'what evidence would change the recommendation',
@@ -330,15 +391,18 @@ for (const testCase of PROMPT_QUALITY_CASES) {
     domain: testCase.uiDomain,
     task: testCase.task,
   }, testCase.skills);
+  assert.equal(taskSelected.prompt.split(testCase.task).length - 1, 1, `${testCase.id}: task-selected Skills must preserve the verbatim task exactly once`);
   if (testCase.id === 'coding-01-webhook') {
     assert.ok(taskSelected.prompt.includes('стабильный ключ события'));
     assert.ok(taskSelected.prompt.includes('одновременные дубликаты'));
     assert.ok(!/\b(?:Vitest|Jest|Playwright|Cypress|Pytest)\b/i.test(taskSelected.prompt), 'a skill must not prescribe an unspecified test runner');
+    assert.ok(!/Arrange\s*->\s*Act\s*->\s*Assert|integer overflow|network dropouts|100% of branch logic/i.test(taskSelected.prompt), 'testing Skill must not impose unrelated test format or exhaustive cases');
   }
   if (testCase.id === 'coding-02-accessibility') {
     assert.ok(taskSelected.diagnostics.some((d) => d.type === 'skill-filtered' && d.skillId === 'code-audit-smells'), 'a modal patch should not inherit a broad code-smell audit');
     assert.ok(taskSelected.prompt.includes('initial focus') && taskSelected.prompt.includes('focus restoration'));
     assert.ok(!/god-object|SOLID violations|\bVitest\b|\bJest\b/i.test(taskSelected.prompt), 'accessibility fixes must remain scoped and framework-neutral');
+    assert.ok(!/BDD `describe\/it`|\bnull\b|\bundefined\b|integer overflow|network dropouts/i.test(taskSelected.prompt), 'accessibility test plan must not inherit unrelated exhaustive edge cases');
   }
   if (testCase.id === 'business-01-pricing') {
     assert.ok(taskSelected.diagnostics.some((d) => d.type === 'skill-filtered' && d.skillId === 'unit-economics-modeling'));
@@ -347,6 +411,7 @@ for (const testCase of PROMPT_QUALITY_CASES) {
   }
   if (testCase.id === 'business-02-gtm') {
     assert.ok(!/10 design partners|Private Alpha|Public Beta|Commercial GA/i.test(taskSelected.prompt), 'GTM phases and sample sizes must not be hard-coded by a Skill');
+    assert.ok(!/PLG viral loops|High-Touch Outbound Enterprise Sales|NPS\s*>\s*50|Retention\s*>\s*40%/i.test(taskSelected.prompt), 'GTM channel and metric assumptions must be task-grounded');
     assert.ok(taskSelected.prompt.includes('time windows cover the full stated horizon'));
   }
   if (testCase.id === 'product-01-onboarding-dropoff') {
@@ -356,27 +421,55 @@ for (const testCase of PROMPT_QUALITY_CASES) {
   if (testCase.id === 'research-01-interviews') {
     assert.ok(taskSelected.diagnostics.some((d) => d.type === 'skill-filtered' && d.skillId === 'analysis-multi-multi-perspective-qualitative-research-analysis'));
     assert.ok(!/multi-agent|consensus synthesis|мультиагент|синтез консенсуса/i.test(taskSelected.prompt));
-    assert.ok(taskSelected.prompt.includes('не выводите пересечения'));
+    assert.ok(taskSelected.prompt.includes('не предполагайте пересечение или взаимоисключение'));
+    assert.ok(taskSelected.prompt.includes('Сохраните числа и единицы так, как они заданы'));
   }
   if (testCase.id === 'research-02-study-comparison') {
     assert.ok(taskSelected.diagnostics.some((d) => d.type === 'skill-filtered' && d.skillId === 'methodology-critique-peer-review'));
     assert.ok(!/multiple hypothesis testing|Bonferroni|instrumentation drift/i.test(taskSelected.prompt));
-    assert.ok(taskSelected.prompt.includes('label it “not reported”'));
+    assert.ok(taskSelected.prompt.includes('label it “not reported.”'));
   }
   if (testCase.id === 'executive-01-budget' || testCase.id === 'executive-02-launch-delay') {
     assert.ok(!/100\s*%|±\s*15\s*%|\b1\s*(?:-|–|to)\s*5\b|\bTCO\b/i.test(taskSelected.prompt), `${testCase.id}: do not force arbitrary scoring or architecture metrics`);
+    assert.ok(!/Extreme Metric Density|exact dollar amounts|quantitative KPIs|Option A vs Option B|binary options/i.test(taskSelected.prompt), `${testCase.id}: do not force fabricated precision or a binary memo template`);
   }
   if (testCase.id === 'executive-01-budget') {
     assert.ok(taskSelected.prompt.includes('какие наблюдаемые показатели нужны'));
+    assert.ok(taskSelected.prompt.includes('сумма должна точно равняться заданному бюджету $500,000'));
+  }
+  if (testCase.id === 'executive-02-launch-delay') {
+    assert.ok(taskSelected.prompt.includes('Assess each stated blocker separately'));
   }
   if (testCase.id === 'retro-01-outage') {
-    assert.ok(!/дедлайном до 30 дней|30 days|Jira IDs\) with assigned owners/i.test(taskSelected.prompt));
+    assert.ok(!/дедлайном до 30 дней|30 days|30-днев|поминутн|слепые зоны мониторинга|Jira IDs\) with assigned owners/i.test(taskSelected.prompt));
   }
   if (testCase.id === 'retro-02-queue') {
-    assert.ok(!/minute-by-minute|\bT0\b|Jira IDs\) with assigned owners|hard deadlines/i.test(taskSelected.prompt));
+    assert.ok(!/minute-by-minute|\bT0\b|30-day|Jira IDs\) with assigned owners|hard deadlines/i.test(taskSelected.prompt));
+    assert.ok(/do not require an established root cause before proposing investigation/i.test(taskSelected.prompt));
+  }
+  if (testCase.id === 'copywriting-01-onboarding') {
+    assert.ok(taskSelected.prompt.includes('Верните только запрошенное письмо'));
+    assert.ok(taskSelected.prompt.includes('Внутренне проверьте соответствие задаче'));
+    assert.ok(!/surface unresolved assumptions and validation needs|editorial notes when useful/i.test(taskSelected.prompt));
+  }
+  if (testCase.id === 'copywriting-02-headlines') {
+    assert.ok(!/Infer audience, channel, desired action|mark a variable/i.test(taskSelected.prompt));
+    assert.ok(taskSelected.prompt.includes('do not invent product claims, a desired action, or placeholders'));
+  }
+  if (testCase.id === 'business-01-pricing') {
+    assert.ok(taskSelected.prompt.includes('направленную проверку со стандартизированным выбором вариантов цены/пакета'));
+    assert.ok(taskSelected.prompt.includes('считайте результат сигналом, а не репрезентативной оценкой'));
+  }
+  if (testCase.id === 'product-01-onboarding-dropoff') {
+    assert.ok(taskSelected.prompt.includes('пометьте приоритет как предварительный'));
+  }
+  if (testCase.id === 'research-02-study-comparison') {
+    assert.ok(taskSelected.prompt.includes('If an abstract or required source material is missing'));
   }
   if (testCase.id === 'general-01-archive') {
     assert.ok(generated.prompt.includes('пример структуры папок') && generated.prompt.includes('шаблон имени файла'));
+    assert.ok(generated.prompt.includes('Вечер 1, Вечер 2 и Вечер 3'));
+    assert.ok(generated.prompt.includes('не предполагайте сканер, внешний диск, облако или другое оборудование'));
   }
   if (testCase.id === 'general-02-meeting') {
     assert.ok(generated.prompt.includes('have the group assign an owner'));

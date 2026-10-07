@@ -3653,14 +3653,12 @@ export const CORE_SKILLS: Record<string, SkillDefinition> = {
       sectionName: "Summary-First Executive Structure (BLUF) Standards",
       ruSectionName: "Стандарты и регламенты: Summary-First Executive Structure (BLUF)",
       instructions: [
-        "Apply core domain tenets for Summary-First Executive Structure (BLUF).",
-        "Enforce strict validation, error-handling, and clear structural bounds.",
-        "Verify output consistency against benchmark standards."
+        "Lead with the requested decision or conclusion, then give only the most decision-relevant supporting evidence, trade-offs, uncertainty, and next action.",
+        "Keep the summary proportionate to the task and distinguish supplied facts from assumptions; do not invent benchmark criteria or numeric targets."
 ],
       ruInstructions: [
-        "Применяйте ключевые принципы и стандарты для Summary-First Executive Structure (BLUF).",
-        "Обеспечивайте строгую валидацию, обработку ошибок и структурные границы.",
-        "Проверяйте результаты на соответствие эталонным критериям."
+        "Начните с запрошенного решения или вывода, затем приведите только наиболее важные для решения основания, компромиссы, неопределённость и следующий шаг.",
+        "Сохраняйте соразмерность записки задаче и отделяйте факты из вводных от допущений; не выдумывайте эталонные критерии или числовые цели."
 ],
       semanticType: "process_directive",
       tags: ["core","core","summary","first"],

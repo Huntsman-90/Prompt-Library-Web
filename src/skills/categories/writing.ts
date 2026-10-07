@@ -2324,20 +2324,20 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
     name: "WritingPostMortemBlamelessIncidentReportSkill",
     displayName: "Blameless Engineering Post-Mortem & Root Cause Analysis (RCA)",
     categoryId: "writing",
-    description: "Documents system outages objectively with precise incident timelines, root causes, contributing factors, and preventative action items.",
+    description: "Documents outages objectively while separating confirmed events, causal hypotheses, unknowns, and proportionate follow-up actions.",
     tags: ["writing","post-mortem","incident-report","engineering","devops","rca"],
     transform: createStandardSkillTransform({
       sectionName: "Blameless Post-Mortem Documentation Standards",
       ruSectionName: "Стандарт составления бескомпромиссного постмортема инцидентов (Blameless RCA)",
       instructions: [
-        "Maintain absolute blameless culture: focus on systemic guardrail failures, not individual human error.",
-        "Construct minute-by-minute timeline from detection (`T0`) to mitigation and recovery.",
-        "Commit to concrete, prioritized Action Items (Jira IDs) with assigned owners and hard deadlines."
+        "Use blameless language; distinguish confirmed events and evidence from hypotheses, and do not assert an unverified root cause or systemic failure.",
+        "Use only supplied timestamps; leave gaps or unknown detection/recovery times explicit instead of constructing a minute-by-minute timeline.",
+        "Suggest proportionate follow-up actions with observable outcomes. Use a role-level owner only when requested or needed, and do not invent ticket IDs or deadlines."
 ],
       ruInstructions: [
-        "Соблюдайте принцип ненаказуемости (Blameless): анализируйте сбои процессов и защит, а не ошибки людей.",
-        "Фиксируйте поминутный таймлайн от момента возникновения сбоя до полного восстановления.",
-        "Формируйте список превентивных задач с конкретными ответственными лицами и сроками исполнения."
+        "Используйте безобвинительные формулировки; отделяйте подтверждённые события и свидетельства от гипотез и не утверждайте неподтверждённую первопричину или системный сбой.",
+        "Используйте только переданные временные отметки; неизвестные промежутки и время обнаружения/восстановления оставляйте явно неизвестными вместо поминутной реконструкции.",
+        "Предлагайте соразмерные последующие действия с наблюдаемым результатом. Указывайте владельца по роли только если это запрошено или необходимо; не выдумывайте ticket IDs или сроки."
 ],
       semanticType: "process_directive",
       tags: ["writing","post-mortem","incident-report","engineering","devops","rca"],
@@ -5840,4 +5840,3 @@ export const WRITING_SKILLS: Record<string, SkillDefinition> = {
     }),
   },
 };
-

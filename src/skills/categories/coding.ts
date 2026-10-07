@@ -76,25 +76,25 @@ export const CODING_SKILLS: Record<string, SkillDefinition> = {
     name: 'RegressionTestSpecsSkill',
     displayName: 'Automated Regression & Property Test Suite',
     categoryId: 'coding',
-    description: 'Generates robust Vitest/Jest unit, boundary, and property-based test suites covering 100% of branch logic.',
-    tags: ['coding', 'testing', 'unit-tests', 'jest', 'vitest', 'regression', 'qa'],
+    description: 'Creates focused regression checks from the stated behavior and follows the project’s existing test conventions.',
+    tags: ['coding', 'testing', 'unit-tests', 'regression', 'qa'],
     transform: (prompt: string) => {
       const isRu = isRussianText(prompt);
       const { preamble, sections } = parsePromptSections(prompt);
       ensureSection(
         sections,
         'output_format',
-        'Спецификация Тестов (Vitest / Jest Test Suite)',
-        'Automated Test Suite Specification (Vitest / Jest)',
+        'Спецификация Фокусированных Регрессионных Проверок',
+        'Focused Regression Test Specification',
         [
-          '- **Структура тестов (AAA)**: Оформлять каждый тест по схеме Arrange -> Act -> Assert.',
-          '- **Покрытие краевых случаев**: Включить тесты на `null`, `undefined`, пустые массивы, экстремальные числа и обрывы сети.',
-          '- **Изоляция моков**: Мокировать внешние I/O зависимости с проверкой контрактов вызовов.',
+          '- Выведите проверки из заявленного поведения и дефекта: основной сценарий, относящаяся к изменению граница и регрессия исходной проблемы. Не добавляйте несвязанные случаи и не требуйте произвольного процента покрытия.',
+          '- Следуйте тестовому runner и стилю проекта; если они неизвестны, обозначьте это, не предписывая framework или структуру теста.',
+          '- Изолируйте только действительно внешние границы, влияющие на сценарий; не придумывайте зависимости и не требуйте повсеместных моков.',
         ],
         [
-          '- **AAA Test Structure**: Format every test case strictly as Arrange -> Act -> Assert with descriptive BDD `describe/it` blocks.',
-          '- **Exhaustive Edge Coverage**: Implement test cases for `null`, `undefined`, empty collections, integer overflow, and network dropouts.',
-          '- **Hermetic Mocking**: Mock external I/O boundaries with strict contract verification and reset between suites.',
+          '- Derive checks from the stated behavior and defect: the primary path, a relevant boundary, and a regression for the reported problem. Do not add unrelated cases or require an arbitrary coverage percentage.',
+          '- Follow the test runner and style established by the project; if unknown, state that rather than prescribing a framework or test structure.',
+          '- Isolate only external boundaries relevant to the scenario; do not invent dependencies or require blanket mocking.',
         ],
         isRu
       );
@@ -5778,4 +5778,3 @@ export const CODING_SKILLS: Record<string, SkillDefinition> = {
     }),
   },
 };
-

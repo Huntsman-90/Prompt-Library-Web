@@ -229,7 +229,6 @@ function inspectDirective(
 ): DirectiveAdjustment | null {
   const lower = line.toLowerCase();
   const isRu = isRussianText(task);
-  if (/\b(?:only when supported|if supported|if evidence exists|when evidence is available|только при подтверждении|если подтверждено|при наличии данных)\b/i.test(lower)) return null;
 
   if (classification.domain !== 'coding' && /\b(?:code completeness|incomplete stubs|generated code|implementation code completeness)\b|полнот[аы]\s+кода|незавершённ(?:ый|ые)\s+заглушк/i.test(line)) {
     return {
@@ -268,16 +267,42 @@ function inspectDirective(
     };
   }
 
-  const forcedScoring = /(?:weighted criteria|normalized evaluation dimensions|total weight\s*=|sum of weights|sensitivity (?:testing|analysis)|\bscore each (?:option|alternative)|оцен(?:ите|ивать) каждый вариант|сумма весов|взвешенн\w* критери|анализ чувствительност)/i.test(line);
-  if (forcedScoring && /\d|%|±|\b(?:1\s*(?:-|to)\s*5)\b/i.test(line)) {
-    const values = line.match(/\d+(?:[.,]\d+)?\s*%?/g) || [];
-    if (values.some((value) => !task.includes(value.trim())) || !/weight|score|sensitivity|вес|шкал|чувствительност/i.test(task)) {
+  const scoringDirective = /(?:weighted criteria|normalized evaluation dimensions|total weight\s*=|sum of weights|sensitivity (?:testing|analysis)|\b(?:score|grade|rate)\s+(?:each|every|candidate)|scoring matrix|rating scale|табличн[а-яё]* скоринг|оцен[а-яё]* каждый вариант|сумма весов|взвешенн[а-яё]* критери[а-яё]*|анализ чувствительност[а-яё]*)/i.test(line);
+  const numericScale = /(?:\b\d+\s*(?:to|[-–])\s*\d+\b|\b\d+\s*[- ]?point\s+scale\b|\b\d+\s*%|±\s*\d)/i.test(line);
+  const taskRequestsScoring = /\b(?:weighted scoring|scoring matrix|numeric scoring|score each|rate each|rating scale|sensitivity analysis)\b|взвешенн[а-яё]* скоринг|балльн[а-яё]* шкал|оцен[а-яё]* каждый вариант|анализ чувствительност[а-яё]*/i.test(task);
+  const conditionalScoring = /\b(?:only if|only when|unless requested|when explicitly requested)\b|только если|только когда|если это прямо запрошено/i.test(line);
+  if (scoringDirective && numericScale && !taskRequestsScoring && !conditionalScoring) {
       return {
         type: 'directive-adjusted',
         message: isRu ? 'Удалены неподтверждённые веса и балльная шкала; сохранено сравнение по обоснованным данным.' : 'Removed unsupported weights and scoring scales while retaining evidence-based comparison.',
         replacement: isRu ? 'Сравнивайте варианты по критериям, относящимся к решению, только если они подтверждены вводными; при нехватке данных покажите качественные компромиссы и обозначьте допущения, не выдумывая веса, баллы или диапазоны чувствительности.' : 'Compare options using decision-relevant criteria supported by the supplied context; when evidence is insufficient, present qualitative trade-offs and label assumptions without inventing weights, scores, or sensitivity ranges.',
       };
-    }
+  }
+
+  const forcedMetricDensity = /\b(?:extreme metric density|metric density|exact dollar amounts?|exact figures?|exact dates?|exact names?|quantitative KPIs?|maximum specificity|precise figures?)\b|максимум конкретики|точн[а-яё]* цифр[а-яё]*|точн[а-яё]* срок[а-яё]*|имена ответственн[а-яё]*|конкретн[а-яё]* ответственн[а-яё]* лиц/i.test(line);
+  const taskRequestsExactMetrics = /\b(?:exact figures?|exact dollar amounts?|quantitative KPIs?|precise dates?|named owners?)\b|точн[а-яё]* цифр[а-яё]*|точн[а-яё]* дат[а-яё]*|именованн[а-яё]* владельц[а-яё]*/i.test(task);
+  if (forcedMetricDensity && !taskRequestsExactMetrics) {
+    return {
+      type: 'directive-adjusted',
+      message: isRu ? 'Требование точных метрик/имён заменено подтверждёнными данными и предлагаемыми ролями.' : 'Replaced forced metrics and named owners with evidence-bounded figures and proposed role owners.',
+      replacement: isRu ? 'Используйте только цифры и сроки из вводных; прогнозы помечайте как оценки. Если задача требует владельца, предложите роль и обозначьте её как предварительную; не выдумывайте личные имена или KPI.' : 'Use only figures and timing supplied in the task; label projections as estimates. If ownership is required, suggest a provisional role-level owner; do not invent personal names or KPIs.',
+    };
+  }
+
+  if (/\b(?:binary options?|option A\s*(?:vs\.?|versus)\s*option B|decision gate section|dedicated .{0,20}decisions required section)\b|бинарн[а-яё]* вариант[а-яё]*|option a\s*\/\s*option b/i.test(line) && !/\b(?:option A\s*(?:vs\.?|versus)\s*option B|A\/B options?)\b/i.test(task)) {
+    return {
+      type: 'directive-adjusted',
+      message: isRu ? 'Формат решения оставлен в форме, запрошенной задачей; отдельный бинарный A/B блок не навязывается.' : 'Kept the decision format aligned with the task rather than forcing a separate binary A/B section.',
+      replacement: isRu ? 'Сформулируйте решение или следующий выбор в формате исходной задачи; не навязывайте отдельный A/B блок.' : 'State the decision or next choice in the format requested by the task; do not force a separate A/B section.',
+    };
+  }
+
+  if (classification.deliverable === 'gtm_plan' && /\b(?:PLG|product-led growth)\b[^.!?]{0,80}(?:\bvs\.?\s|\bversus\b|\bor\b)[^.!?]{0,80}\b(?:enterprise sales|high-touch outbound)\b|канал[а-яё]*[^.!?]{0,80}(?:plg|product-led growth)[^.!?]{0,80}(?:enterprise sales|корпоративн[а-яё]* продаж)/i.test(line) && !/\b(?:PLG|product-led growth|enterprise sales|high-touch outbound)\b/i.test(task)) {
+    return {
+      type: 'directive-adjusted',
+      message: isRu ? 'Удалено предположение о бизнес-модели каналов; выбор каналов привязан к аудитории и ресурсам.' : 'Removed an assumed channel/business-model preset; channel choice is grounded in the stated audience and resources.',
+      replacement: isRu ? 'Выбирайте каналы по указанной аудитории, доступным ресурсам и подтверждённым данным; непроверенную пригодность помечайте как гипотезу.' : 'Select channels based on the stated audience, available resources, and supplied evidence; label untested fit as a hypothesis.',
+    };
   }
 
   const unsupportedCount = line.match(/\b\d+\s+(?:design partners?|customers?|users?|participants?|interviews?|accounts?|founders?|stores?|locations?|teams?|контрагент\w*|партн[её]р\w*|клиент\w*|пользовател\w*|участник\w*|интервью|команд\w*)/i);
@@ -391,7 +416,7 @@ function inspectDirective(
     };
   }
 
-  if (classification.deliverable === 'incident_review' && /\b(?:minute-by-minute|exact chronological timeline|T0|trigger\s*[-–>]\s*detection\s*[-–>]\s*escalation|full resolution)\b/i.test(line) && !/\b(?:minute-by-minute|T0|exact chronological timeline)\b/i.test(task)) {
+  if (classification.deliverable === 'incident_review' && /\b(?:minute-by-minute|exact chronological timeline|T0|trigger\s*[-–>]\s*detection\s*[-–>]\s*escalation|full resolution)\b|поминутн[а-яё]*|триггер\s*[-–>]\s*обнаружени[а-яё]*\s*[-–>]\s*эскалаци[а-яё]*/i.test(line) && !/\b(?:minute-by-minute|T0|exact chronological timeline)\b|поминутн[а-яё]*/i.test(task)) {
     return {
       type: 'directive-adjusted',
       message: isRu ? 'Убрано требование неподтверждённых точных временных отметок или промежуточных событий.' : 'Removed an exact-timeline requirement that exceeds the supplied incident facts.',
@@ -399,7 +424,7 @@ function inspectDirective(
     };
   }
 
-  if (constraints.noFabrication && /\b(?:monitoring blindspots?|deployment gaps?|missing circuit breakers?|contributing systemic factors?)\b|слеп\w* зон\w* мониторинг|пробел\w* депло|отсутств\w* circuit breaker/i.test(line)) {
+  if (classification.deliverable === 'incident_review' && /\b(?:monitoring blindspots?|deployment gaps?|missing circuit breakers?|contributing systemic factors?|systemic guardrail failures?)\b|слеп(?:ые|ых|ую)?\s+зон[а-яё]*\s+мониторинг[а-яё]*|пробел[а-яё]*\s+депло[а-яё]*|отсутств[а-яё]*\s+(?:circuit breaker|защит[а-яё]* от сбой[а-яё]*)/i.test(line)) {
     return {
       type: 'directive-adjusted',
       message: isRu ? 'Примеры причин переведены в гипотезы для проверки, а не в выводы.' : 'Reframed speculative cause examples as hypotheses to test, not findings.',
@@ -428,9 +453,9 @@ function inspectDirective(
     };
   }
 
-  const duration = line.match(/\b\d+\s*(?:seconds?|minutes?|hours?|days?)\b|\d+\s*(?:секунд|минут|час|дн)\w*/i)?.[0];
+  const duration = line.match(/\b\d+\s*[-–]?\s*(?:seconds?|minutes?|hours?|days?|weeks?|months?)\b|\d+\s*[-–]?\s*(?:секунд|минут|час|дн)[а-яё]*/i)?.[0];
   if (duration && !new RegExp(duration.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i').test(task)) {
-    const isDeadline = /\b(?:deadline|due date|hard deadline)\b|дедлайн|срок/i.test(line);
+    const isDeadline = /\b(?:deadline|due date|hard deadline|SLA|service[- ]level agreement)\b|дедлайн|срок/i.test(line);
     return {
       type: 'directive-adjusted',
       message: isRu ? `Неподтверждённый порог «${duration}» заменён требованием свериться с контрактом.` : `Replaced the unprovided threshold "${duration}" with a requirement to verify the contract.`,

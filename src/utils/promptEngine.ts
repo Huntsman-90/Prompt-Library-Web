@@ -1076,6 +1076,7 @@ export function buildDomainPrompt(
   type CompositionDomain = PromptDomain;
   const classification = classifyTask(task, hintedDomain);
   const domain: CompositionDomain = classification.domain;
+  const outputOnlyCopy = classification.deliverable === 'email' || classification.deliverable === 'headline_set';
 
   const sections: ParsedSection[] = [];
   const addSection = (
@@ -1134,16 +1135,16 @@ export function buildDomainPrompt(
   if (domain === 'retro') {
     addSection(choose('Факты и хронология события', 'Incident Facts & Timeline'), 'protocol', [
       choose('Соберите подтверждённые данные о влиянии, затронутых системах, времени и действиях; неизвестные значения оставьте явно неизвестными.', 'Establish verified impact, affected systems, timestamps, and actions; keep unknown values explicitly unknown.'),
-      choose('Расположите события по времени и различайте начало деградации, обнаружение, меры смягчения и восстановление.', 'Order events chronologically and distinguish onset, detection, mitigation, and recovery.'),
+      choose('Расположите только переданные события; если время начала, обнаружения, смягчения или восстановления неизвестно, оставьте этот пробел явным.', 'Order only supplied events; if onset, detection, mitigation, or recovery timing is unknown, leave the gap explicit.'),
     ]);
     addSection(choose('Системные причины и вклад факторов', 'Systemic Causes & Contributing Factors'), 'protocol', [
-      choose('Свяжите наблюдаемые симптомы с техническими и процессными условиями; различайте триггер, способствующие факторы и первопричины.', 'Connect observed symptoms to technical and process conditions; distinguish trigger, contributing factors, and root causes.'),
-      choose('Не приписывайте вину отдельным людям; рассматривайте возможности обнаружения, предотвращения и ограничения последствий.', 'Avoid individual blame; examine detection, prevention, and blast-radius controls.'),
+      choose('Отделите подтверждённые факты от гипотез о триггерах и способствующих факторах; не утверждайте первопричину или отказ защиты, не подтверждённые материалами.', 'Separate confirmed facts from hypotheses about triggers and contributing factors; do not assert a root cause or failed safeguard unsupported by the material.'),
+      choose('Не приписывайте вину людям; предлагайте вопросы для проверки обнаружения, предотвращения и ограничения последствий только если они относятся к подтверждённым фактам.', 'Avoid individual blame; propose questions about detection, prevention, and blast-radius controls only when relevant to confirmed facts.'),
     ]);
     if (aggressiveness !== 'low') {
       addSection(choose('Меры восстановления и предупреждения', 'Recovery & Prevention Actions'), 'protocol', [
-        choose('Предложите действия, соразмерные установленным причинам; для каждого укажите владельца-ролевую функцию, приоритет и проверяемый критерий готовности.', 'Tie actions to established causes; give each an owner role, priority, and verifiable completion criterion.'),
-        choose('Разделяйте немедленное устранение, улучшение обнаружения и долгосрочное снижение риска.', 'Separate immediate remediation, detection improvements, and longer-term risk reduction.'),
+        choose('Разделяйте действия по снижению подтверждённого риска и проверки, которые могут прояснить неизвестные причины; для каждого укажите наблюдаемый результат. Не требуйте установленной первопричины, чтобы предложить расследование.', 'Separate actions that reduce evidenced risk from investigations that could clarify unknown causes; give each an observable outcome. Do not require an established root cause before proposing investigation.'),
+        choose('Предложите владельца по роли только если он нужен или запрошен; не выдумывайте имя, ticket ID или срок.', 'Suggest a role-level owner only when needed or requested; do not invent a name, ticket ID, or deadline.'),
       ]);
     }
   } else if (domain === 'coding') {
@@ -1187,7 +1188,7 @@ export function buildDomainPrompt(
     }
     if (/price|pricing|цен(?:а|ы|е|у|овой|ового|овую|ам|ами|ах)|ценообраз|тариф|монетизац/i.test(taskLower)) {
       addSection(choose('Ценообразование и экономика', 'Pricing & Economics'), 'protocol', [
-        choose('Разделяйте известные исходные данные и оценки; показывайте формулы, диапазоны и чувствительность вместо вымышленных точных показателей.', 'Separate known inputs from estimates; show formulas, ranges, and sensitivities instead of fabricated point estimates.'),
+        choose('Разделяйте известные исходные данные и оценки; используйте формулы, диапазоны и чувствительность только если они поддерживаются вводными, иначе укажите, какие данные нужны.', 'Separate known inputs from estimates; use formulas, ranges, and sensitivity only when supported by the inputs, otherwise state what data is needed.'),
         choose('Сопоставьте подходящие модели цены с ценностью для клиента и доступными данными; предложите недорогой эксперимент готовности платить без вымышленных результатов.', 'Compare relevant pricing models using customer value and available evidence; propose a low-cost willingness-to-pay experiment without fabricating results.'),
       ]);
     }
@@ -1197,10 +1198,14 @@ export function buildDomainPrompt(
       ]);
     }
   } else if (domain === 'copywriting') {
-    addSection(choose('Редакторский бриф', 'Editorial Brief'), 'context', [
-      choose('Извлеките из задачи аудиторию, канал, желаемое действие и подтверждённые факты. Если часть брифа отсутствует, используйте нейтральное допущение или обозначьте переменную.', 'Infer audience, channel, desired action, and substantiated facts from the task. If brief details are missing, use a neutral assumption or mark a variable.'),
-      choose('Подберите структуру убеждения под материал; не навязывайте AIDA/PAS, если формат или цель этого не требуют.', 'Choose a persuasive structure suited to the asset; do not force AIDA/PAS when the format or objective does not call for it.'),
-    ]);
+    addSection(choose('Редакторский бриф', 'Editorial Brief'), 'context', classification.deliverable === 'headline_set'
+      ? [
+          choose('Используйте только категорию продукта, аудиторию и функции, прямо названные в задаче. Если конкретные преимущества не заданы, создавайте точность через аудиторию и сценарий, не выдумывая свойства, желаемое действие или переменные-заполнители.', 'Use only the product category, audience, and features explicitly stated in the task. If specific benefits are absent, ground specificity in the audience and use case; do not invent product claims, a desired action, or placeholders.'),
+        ]
+      : [
+          choose('Извлеките из задачи аудиторию, канал, желаемое действие и подтверждённые факты. Если часть брифа отсутствует, используйте нейтральное допущение, не добавляйте неподтверждённые свойства или обозначьте переменную только если без неё нельзя подготовить материал.', 'Infer audience, channel, desired action, and substantiated facts from the task. If details are missing, use a neutral assumption, avoid unsupported product claims, and mark a variable only if it is necessary to produce the asset.'),
+          choose('Подберите структуру убеждения под материал; не навязывайте AIDA/PAS, если формат или цель этого не требуют.', 'Choose a persuasive structure suited to the asset; do not force AIDA/PAS when the format or objective does not call for it.'),
+        ]);
     if (/headline|заголов/i.test(taskLower)) {
       addSection(choose('Варианты заголовка', 'Headline Variations'), 'protocol', [
         choose('Подготовьте запрошенное количество содержательно разных заголовков; не добавляйте пояснения, CTA, цифры или обещания, если этого нет в исходной задаче.', 'Provide the requested number of meaningfully distinct headlines; do not add rationale, CTAs, numbers, or promises unless requested.'),
@@ -1261,25 +1266,46 @@ export function buildDomainPrompt(
     ]);
   }
 
-  if (aggressiveness !== 'low') {
-    addSection(choose('Полнота и проверка качества', 'Coverage & Quality Check'), 'protocol', [
-      choose('Сверьте итог с целью и всеми существенными требованиями; обозначьте неразрешённые допущения и проверки.', 'Check the result against the objective and material requirements; surface unresolved assumptions and validation needs.'),
+  if (domain === 'executive' && classification.deliverable === 'executive_memo' && /\$\s*[\d,]+|\b\d+(?:[.,]\d+)?\s*(?:million|thousand)\b/i.test(task) && /\b(?:allocate|allocation|split|distribute|budget)\b|распредел|разделить|бюджет/i.test(taskLower)) {
+    const statedBudget = task.match(/\$\s*[\d,]+|\b\d+(?:[.,]\d+)?\s*(?:million|thousand)\b/i)?.[0] || '';
+    addSection(choose('Ограничение заданного бюджета', 'Stated Budget Constraint'), 'domain_specific', [
+      choose(`Если предлагаете распределение, его сумма должна точно равняться заданному бюджету ${statedBudget}; пометьте выбор как предварительный, если нет данных о предельной отдаче. Не изображайте вариант как оптимизированный без таких данных.`, `If proposing an allocation, make the total equal the stated budget ${statedBudget}; label the choice provisional when marginal-return data is unavailable. Do not present it as optimized without that evidence.`),
     ]);
   }
 
-  if (options?.chainOfThought) {
+  if (domain === 'executive' && classification.deliverable === 'executive_memo' && /accessibility blocker|accessibility issue|critical accessibility|барьер.{0,20}доступност|критическ.{0,20}доступност/i.test(taskLower)) {
+    addSection(choose('Проверка решения о доступности и запуске', 'Accessibility Launch Decision Checks'), 'domain_specific', [
+      choose('Рассмотрите каждый названный блокер отдельно: какие предоставленные свидетельства подтверждают его критичность, как проверить устранение, какой пользовательский риск останется при запуске и как этот риск соотносится с указанной задержкой. Укажите ролевых владельцев только как предложения; не придумывайте суммы, KPI, дополнительные сроки или критерии.', 'Assess each stated blocker separately: what supplied evidence establishes its severity, how resolution would be verified, what user risk remains if launch proceeds, and how that risk compares with the stated delay. Label role owners as proposals; do not invent dollar amounts, KPIs, extra dates, or thresholds.'),
+    ]);
+  }
+
+  if (domain === 'general' && classification.deliverable === 'practical_plan' && /\b(?:three|3)\s+(?:evenings|nights)\b|за\s+три\s+вечера/i.test(taskLower)) {
+    addSection(choose('План по трём вечерам', 'Three-Evening Plan'), 'domain_specific', [
+      choose('Разделите план на Вечер 1, Вечер 2 и Вечер 3; укажите последовательные действия и проверяемый результат каждого вечера. Используйте только названные телефон и локальный компьютер; не предполагайте сканер, внешний диск, облако или другое оборудование.', 'Divide the plan into Evening 1, Evening 2, and Evening 3, with sequential actions and a verifiable result for each. Use only the stated phone and local computer; do not assume a scanner, external drive, cloud service, or other equipment.'),
+    ]);
+  }
+
+  if (aggressiveness !== 'low') {
+    addSection(choose('Полнота и проверка качества', 'Coverage & Quality Check'), 'protocol', [
+      outputOnlyCopy
+        ? choose('Внутренне проверьте соответствие задаче, тону и ограничениям на факты; в ответе оставьте только запрошенный материал, без допущений, проверки качества или редакторских комментариев.', 'Internally check task fit, voice, and factual constraints; return only the requested copy, without assumptions, QA notes, or editorial commentary.')
+        : choose('Сверьте итог с целью и существенными требованиями; сообщайте только те неизвестные, которые блокируют корректный результат.', 'Check the result against the objective and material requirements; surface only unknowns that block a correct deliverable.'),
+    ]);
+  }
+
+  if (options?.chainOfThought && !outputOnlyCopy) {
     addSection(choose('Проверяемые этапы рассуждения', 'Verifiable Reasoning Steps'), 'protocol', [
       choose('Покажите краткие промежуточные выводы и их основания; не раскрывайте скрытую внутреннюю цепочку рассуждений.', 'Show concise intermediate conclusions and their grounds; do not expose hidden internal reasoning.'),
     ]);
   }
 
-  if (options?.riskAudit || aggressiveness === 'high') {
+  if ((options?.riskAudit || aggressiveness === 'high') && !outputOnlyCopy) {
     addSection(choose('Риски и альтернативы', 'Risks & Alternatives'), 'protocol', [
       choose('Проверьте наиболее существенные сценарии отказа, побочные эффекты и альтернативы; ранжируйте только риски, обоснованные контекстом.', 'Check material failure modes, side effects, and alternatives; rank only risks supported by the context.'),
     ]);
   }
 
-  if (options?.examples) {
+  if (options?.examples && !outputOnlyCopy) {
     addSection(choose('Пример или контрольный случай', 'Example or Check Case'), 'examples', [
       choose('Добавьте короткий пример только если он проясняет решение; явно маркируйте гипотетические значения.', 'Add a short example only when it clarifies the solution; label hypothetical values explicitly.'),
     ]);
@@ -1310,10 +1336,12 @@ export function buildDomainPrompt(
         'Prefer an actionable change or code, followed by rationale and relevant tests; state when required input is missing.',
       ];
   const outputByDomain: Record<CompositionDomain, [string, string]> = {
-    retro: ['Краткое резюме, хронология, анализ причин и таблица действий с проверяемыми критериями.', 'Concise summary, timeline, causal analysis, and action table with verifiable completion criteria.'],
+    retro: ['Краткое резюме, подтверждённая хронология, гипотезы и неизвестные, а также действия по снижению риска или проверке; не утверждайте неподтверждённую причину.', 'Concise summary, confirmed timeline, hypotheses and unknowns, plus risk-reduction or investigative actions; do not assert an unverified cause.'],
     coding: codingOutput,
     business: ['Резюме решения, обоснование, допущения, метрики и план следующих шагов; не заполняйте пробелы вымышленными цифрами.', 'Decision summary, rationale, assumptions, metrics, and next steps; do not fill data gaps with invented numbers.'],
-    copywriting: ['Сначала готовый материал, затем при необходимости короткие варианты и редакторские пояснения.', 'Lead with the finished copy, then provide concise variants or editorial notes when useful.'],
+    copywriting: outputOnlyCopy
+      ? ['Выведите только запрошенный готовый материал; не добавляйте анализ, варианты или редакторские пояснения.', 'Return only the requested finished copy; do not add analysis, variants, or editorial notes.']
+      : ['Сначала готовый материал, затем при необходимости короткие варианты и редакторские пояснения.', 'Lead with the finished copy, then provide concise variants or editorial notes when useful.'],
     product: ['Структурируйте ответ как проблема пользователя, приоритетные изменения и способ проверить эффект.', 'Structure the response as user problem, prioritized changes, and a way to validate impact.'],
     research: ['Структурируйте выводы, метод, качество свидетельств и ограничения; отделяйте подтверждённое от гипотез.', 'Structure findings, method, evidence quality, and limitations; separate supported conclusions from hypotheses.'],
     executive: ['Начните с решения; затем кратко укажите последствия, риски, владельца следующего шага и срок, если они известны.', 'Lead with the decision; briefly state consequences, risks, and the owner and timing of the next step when known.'],
@@ -1338,8 +1366,8 @@ export function buildDomainPrompt(
       'Return concise, numbered acceptance criteria. For each, state the triggering action or condition and the observable expected result. Cover only the named flows, states, and edge cases; do not expand the feature, prescribe a stack, or add a general product review.',
     ],
     pricing_analysis: [
-      'Сопоставьте только релевантные модели цены в компактной таблице: модель, соответствие ценности, необходимые данные, преимущества и риски. Отделите наблюдения от гипотез; завершите одним недорогим экспериментом с гипотезой, методом и наблюдаемым сигналом решения. Не подставляйте отсутствующие цены, размеры выборки, CAC/LTV или пороги.',
-      'Compare only relevant pricing models in a compact matrix: model, value fit, evidence needed, advantages, and risks. Separate observations from hypotheses; finish with one low-cost experiment specifying its hypothesis, method, and observable decision signal. Do not invent prices, sample sizes, CAC/LTV, or thresholds.',
+      'Сопоставьте только релевантные модели цены в компактной таблице: модель, соответствие ценности, необходимые данные, преимущества и риски. Отделите наблюдения от гипотез; завершите одним недорогим экспериментом с гипотезой, методом и наблюдаемым сигналом решения. Если вводные основаны только на качественных интервью и количественной оценки willingness-to-pay нет, предложите направленную проверку со стандартизированным выбором вариантов цены/пакета; считайте результат сигналом, а не репрезентативной оценкой. Не выдумывайте цену, выборку, CAC/LTV или пороги.',
+      'Compare only relevant pricing models in a compact matrix: model, value fit, evidence needed, advantages, and risks. Separate observations from hypotheses; finish with one low-cost experiment specifying its hypothesis, method, and observable decision signal. When inputs are qualitative interviews without a quantitative willingness-to-pay estimate, propose a directional test using consistently presented price/package alternatives; treat results as a signal, not a representative estimate. Do not invent prices, sample sizes, CAC/LTV, or thresholds.',
     ],
     gtm_plan: [
       'Сформируйте этапный план, чьи временные интервалы покрывают весь указанный горизонт и соразмерны размеру команды и бюджету. Для каждого этапа укажите цель/сегмент, проверяемый канал или действие, владельца по роли, требуемый ресурс, наблюдаемый сигнал и условие продолжения, изменения или остановки. Выберите этапы по контексту, а не по шаблону; не распределяйте неуказанный бюджет и не придумывайте числовые пороги.',
@@ -1350,12 +1378,12 @@ export function buildDomainPrompt(
       'Write a concise memo: lead with the decision/recommendation, then options and rationale, stakeholder trade-offs, material unknowns, and risks. For each next action, suggest a role-level owner when none is supplied and label it as proposed; do not invent personal names or dates. State what evidence would change the recommendation; never present assumptions as facts.',
     ],
     interview_synthesis: [
-      'Сгруппируйте предоставленные наблюдения по темам; для каждой отделите подтверждающие данные и разногласия. Считайте агрегированные числа упоминаниями, а не непересекающимися группами участников; не выводите пересечения, причинность или противоречие без прямых данных. Сохраните числа как есть, не выдумывайте цитаты; если явное противоречие не подтверждается, скажите это прямо.',
-      'Group the supplied observations into themes and distinguish supporting evidence from divergence. Treat aggregate counts as mentions, not mutually exclusive participant groups; do not infer overlap, causality, or contradiction without direct evidence. Preserve counts as given, invent no quotations, and say explicitly when no direct contradiction can be established.',
+      'Сгруппируйте наблюдения по темам и отделите подтверждения от разногласий. Сохраните числа и единицы так, как они заданы (например, число участников или упоминаний); не предполагайте пересечение или взаимоисключение категорий, если это не сообщено. Не выводите причинность или противоречие без прямых данных; если подтверждённого противоречия нет, скажите это. Не выдумывайте цитаты.',
+      'Group the supplied observations into themes and distinguish supporting evidence from divergence. Preserve counts and their stated units (for example, participants or mentions); do not assume categories overlap or are mutually exclusive unless reported. Do not infer causality or contradiction without direct evidence; say explicitly when no direct contradiction is established. Invent no quotations.',
     ],
     study_comparison: [
-      'Сопоставьте материалы по каждому исследованию: вопрос/контекст, дизайн и выборка (только если описаны), измеренные результаты, совпадения и расхождения, ограничения. Если данных нет в абстракте, напишите «не сообщается»; не превращайте отсутствие сведений в доказанный недостаток метода. Разделяйте выводы авторов и сопоставление; не выводите причинность и не добавляйте источники.',
-      'Compare each supplied study by question/context, design and sample (only as reported), measured outcomes, agreements and differences, and limitations. If an abstract omits a detail, label it “not reported”; do not treat missing information as a demonstrated methodological flaw. Distinguish authors’ findings from the comparison; do not infer causality or add sources.',
+      'Сопоставьте материалы по каждому исследованию: вопрос/контекст, дизайн и выборка (только если описаны), результаты, совпадения, расхождения и ограничения. Если абстракт или нужная часть материала отсутствует, отметьте это и сравнивайте только предоставленное; если деталь не сообщается внутри абстракта, так и укажите. Не превращайте пробел в доказанный недостаток метода. Разделяйте выводы авторов и сопоставление; не выводите причинность и не добавляйте источники.',
+      'Compare each supplied study by question/context, design and sample (only as reported), outcomes, agreements, differences, and limitations. If an abstract or required source material is missing, say so and compare only what was supplied; if a detail is omitted within an abstract, label it “not reported.” Do not treat missing information as a demonstrated methodological flaw. Distinguish authors’ findings from the comparison; do not infer causality or add sources.',
     ],
     incident_review: [
       'Представьте в хронологии только подтверждённые события и переданные временные отметки; неизвестные время, влияние и причинные связи обозначьте как неизвестные, а объяснения — как гипотезы. Затем отдельно перечислите действия для проверки/снижения риска с проверяемым результатом. Если владелец не указан, предложите роль и пометьте её как гипотезу; не выдумывайте имена, Jira IDs или сроки. Соблюдайте blameless-подход.',
@@ -1369,8 +1397,8 @@ export function buildDomainPrompt(
       ? ['Опишите целевой дизайн и контрактные допущения, укажите недостающие входные интерфейсы и сфокусированные проверки; отложите реализацию кода до получения текущего обработчика и необходимых интерфейсов.', 'Describe the target design and contract assumptions, identify missing interfaces, and specify focused checks; defer implementation code until the current handler and required interfaces are supplied.']
       : ['Опишите решение для явно названной проблемы: ключевые компоненты/границы, поток данных или управления, контрактные допущения, отказные случаи и проверки. Отделите подтверждённые гарантии от предположений; код добавляйте только если он запрошен и необходим.', 'Describe a solution to the stated problem: key components/boundaries, data or control flow, contract assumptions, failure cases, and checks. Separate established guarantees from assumptions; include code only if requested and necessary.'],
     product_recommendations: [
-      'Для каждого изменения свяжите наблюдение с гипотезой и предложением, укажите ожидаемое поведение пользователя и соразмерный способ проверки. Приоритизируйте только при достаточных основаниях; не превращайте единичные заметки в утверждения о всех пользователях.',
-      'For each recommendation, link the observation to a hypothesis and proposed change, state the intended user behavior, and specify a proportionate validation. Prioritize only when evidence supports it; do not generalize isolated notes to all users.',
+      'Для каждого изменения свяжите наблюдение с гипотезой и предложением, укажите ожидаемое поведение пользователя и соразмерную проверку. При скудных качественных данных пометьте приоритет как предварительный и укажите, какие новые наблюдения могли бы изменить порядок; не обобщайте единичные заметки на всех пользователей и не выдумывайте размер выборки.',
+      'For each recommendation, link the observation to a hypothesis and proposed change, state the intended user behavior, and specify proportionate validation. With sparse qualitative evidence, label priorities preliminary and say what evidence could change the ordering; do not generalize isolated notes to all users or invent a sample size.',
     ],
     research_synthesis: [
       'Структурируйте синтез по вопросу, подтверждённым выводам, расхождениям между материалами и ограничениям доказательств. Не добавляйте источники, методы, результаты или статистику, которых нет во входных данных.',
