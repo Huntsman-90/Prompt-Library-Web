@@ -45,7 +45,7 @@ export const BUSINESS_SKILLS: Record<string, SkillDefinition> = {
     name: 'GtmRoadmapPhasingSkill',
     displayName: 'Phased Go-To-Market Execution Roadmap',
     categoryId: 'business',
-    description: 'Sequences commercial launches across Private Alpha, Public Beta, General Availability (GA), and Expansion phases.',
+    description: 'Plans context-dependent go-to-market phases, channels, and decision gates within stated resources.',
     tags: ['business', 'gtm', 'roadmap', 'launch', 'milestones', 'strategy'],
     transform: (prompt: string) => {
       const isRu = isRussianText(prompt);
@@ -56,14 +56,14 @@ export const BUSINESS_SKILLS: Record<string, SkillDefinition> = {
         'Поэтапная Дорожная Карта Запуска (GTM Roadmap)',
         'Phased GTM Launch Execution Roadmap',
         [
-          '- **Фазы запуска**: Разбить запуск на 4 этапа: 1) Private Alpha (10 дизайн-партнеров), 2) Public Beta (тест юнит-экономики), 3) Commercial GA, 4) Scale Expansion.',
-          '- **Критерии перехода (Phase Gates)**: Определить жесткие условия перехода на следующий этап (NPS > 50, Retention > 40%, zero P0 багов).',
-          '- **Каналы дистрибуции**: Специфицировать ведущие каналы привлечения (Product-Led Growth vs. Outbound Enterprise Sales).',
+          '- Выберите этапы и их число по готовности продукта, горизонту, аудитории и указанным ресурсам; не навязывайте последовательность alpha/beta/GA.',
+          '- Подберите каналы по целевой аудитории и доступным свидетельствам; сравнивайте только правдоподобные варианты и помечайте непроверенную пригодность как гипотезу.',
+          '- Используйте числовые phase gates только если они заданы или обоснованы вводными; иначе укажите наблюдаемые сигналы и условия продолжения/остановки без вымышленных порогов.',
         ],
         [
-          '- **Launch Milestones**: Segment launch across 1) Private Alpha (10 design partners), 2) Public Beta (monetization test), 3) Commercial GA, 4) Scale.',
-          '- **Phase Gate Criteria**: Establish strict quantitative gates to unlock next phase (NPS > 50, Day-30 Retention > 40%, zero P0 bugs).',
-          '- **Channel Mix**: Delineate primary acquisition channels (PLG viral loops vs. High-Touch Outbound Enterprise Sales).',
+          '- Choose phases and their number based on product readiness, horizon, audience, and stated resources; do not impose an alpha/beta/GA sequence.',
+          '- Select channels based on the target audience and available evidence; compare only plausible options and label untested fit as a hypothesis.',
+          '- Use numeric phase gates only when supplied or justified by the task; otherwise specify observable signals and continue/stop conditions without inventing thresholds.',
         ],
         isRu
       );

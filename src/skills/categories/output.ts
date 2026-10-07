@@ -243,13 +243,13 @@ export const OUTPUT_SKILLS: Record<string, SkillDefinition> = {
         'Output Format: High-Scannability Executive Memo',
         [
           '- **Плотный списочный стиль**: Излагать информацию короткими, емкими буллетами с выделением ключевого тезиса в начале каждого пункта жирным шрифтом.',
-          '- **Максимум конкретики**: Заменять общие фразы на точные цифры, сроки и имена ответственных.',
-          '- **Раздел решений (Decision Required)**: Завершить мемо блоком «Требуемые решения» с четкими вариантами выбора (Option A / Option B).',
+          '- Используйте только подтверждённые цифры и сроки; владельцев указывайте по роли, если это требуется задачей, и помечайте предложенные роли как предварительные. Не выдумывайте имена, даты или KPI.',
+          '- Завершите решением или необходимым следующим выбором только если он следует из задачи; не навязывайте бинарный A/B формат.',
         ],
         [
           '- **Bold-Prefixed Bullets**: Structure insights into dense, scannable bullet items with bold lead phrases.',
-          '- **Extreme Metric Density**: Replace qualitative generalities with exact dollar amounts, dates, and quantitative KPIs.',
-          '- **Decision Gate Section**: Conclude with a dedicated "Decisions Required" section detailing binary options (Option A vs Option B).',
+          '- Use only supplied or clearly evidenced figures and dates; use role-level owners only when the task calls for them, and label suggested roles as provisional. Do not invent names, dates, or KPIs.',
+          '- End with the decision or next choice only when the task calls for one; do not force a binary A/B format.',
         ],
         isRu
       );
@@ -5778,4 +5778,3 @@ export const OUTPUT_SKILLS: Record<string, SkillDefinition> = {
     }),
   },
 };
-

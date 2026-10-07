@@ -1,8 +1,10 @@
 import {
   adaptPromptForModel,
+  extractTaskFromGeneratedPrompt,
   generatePromptFromParams,
   isRussianText,
   isTabletopGameMasterPromptRequest,
+  optimizePrompt,
   parsePromptSections,
   reconstructPrompt,
   type GeneratePromptParams,
@@ -10,6 +12,7 @@ import {
 } from './promptEngine';
 import type { SkillDefinition } from '../skills/skillsRegistry';
 import { applySkillsWithPreflight, type SkillPreflightDiagnostic } from '../skills/skillPreflight';
+import { classifyTask } from './taskIntent';
 
 export interface PromptGenerationResult {
   prompt: string;
@@ -23,6 +26,7 @@ function addTaskAndPreferences(
 ): string {
   const isRu = isRussianText(params.task);
   const isGameMasterPrompt = isTabletopGameMasterPromptRequest(params.task);
+  const resolvedDomain = classifyTask(params.task, params.domain).domain;
   const { preamble, sections } = parsePromptSections(prompt);
   const task = params.task.trim();
 
@@ -82,8 +86,8 @@ function addTaskAndPreferences(
   const technique = techniqueText[params.technique];
   const tone = toneText[params.tone];
   const preferenceLines = isGameMasterPrompt ? [] : [
-    ...(params.domain
-      ? [isRu ? `- **Выбранная область**: ${params.domain}.` : `- **Selected domain**: ${params.domain}.`]
+    ...(params.domain && !/^auto$/i.test(params.domain)
+      ? [isRu ? `- **Выбранная область**: ${resolvedDomain}.` : `- **Selected domain**: ${resolvedDomain}.`]
       : []),
     ...(technique
       ? [isRu ? `- **Метод работы**: ${technique[0]}` : `- **Reasoning method**: ${technique[1]}`]
@@ -148,4 +152,28 @@ export function generatePromptPipeline(
     appliedSkills,
     diagnostics,
   };
+}
+
+/**
+ * Optimizes an existing prompt through the same composition and Skill-preflight
+ * sequence used by generation, while retaining the original task as the source
+ * of truth for relevance and constraint checks.
+ */
+export function optimizePromptPipeline(
+  inputPrompt: string,
+  options: Parameters<typeof optimizePrompt>[1],
+  skillIds: string[] = []
+): PromptGenerationResult {
+  const task = extractTaskFromGeneratedPrompt(inputPrompt) || inputPrompt.trim();
+  const classification = classifyTask(task, 'Auto');
+  const basePrompt = optimizePrompt(inputPrompt, options);
+  const { prompt, appliedSkills, diagnostics } = applySkillsWithPreflight(
+    basePrompt,
+    skillIds,
+    { ...options, task, domain: classification.domain },
+    task,
+    classification.taskSignal ? classification.domain : 'Auto'
+  );
+
+  return { prompt, appliedSkills, diagnostics };
 }

@@ -233,9 +233,9 @@ export const ANALYSIS_SKILLS: Record<string, SkillDefinition> = {
   'comparative-tradeoff-matrix': {
     id: 'comparative-tradeoff-matrix',
     name: 'ComparativeTradeoffMatrixSkill',
-    displayName: 'Weighted Multi-Criteria Decision Matrix',
+    displayName: 'Evidence-Based Trade-off Matrix',
     categoryId: 'analysis',
-    description: 'Constructs weighted scoring matrices comparing architectural alternatives with sensitivity thresholds.',
+    description: 'Compares requested alternatives using evidence-bounded criteria and qualitative trade-offs; uses numeric scoring only when requested and supported.',
     tags: ['analysis', 'matrix', 'decision', 'tradeoff', 'scoring', 'evaluation'],
     transform: (prompt: string) => {
       const isRu = isRussianText(prompt);
@@ -243,17 +243,17 @@ export const ANALYSIS_SKILLS: Record<string, SkillDefinition> = {
       ensureSection(
         sections,
         'output_format',
-        'Взвешенная Матрица Сравнения Альтернатив',
+        'Матрица Компромиссов и Доказательств',
         'Weighted Multi-Criteria Decision Matrix',
         [
-          '- **Критерии и веса**: Задать взвешенные критерии (Сумма весов = 100%, например: Производительность 30%, Сложность 25%, Стоимость 25%, Безопасность 20%).',
-          '- **Табличный скоринг**: Оценить каждый вариант от 1 до 5 по каждому критерию с расчетом взвешенного балла.',
-          '- **Анализ чувствительности**: Проверить, изменится ли выбор лидера при колебании весов критериев на ±15%.',
+          '- Сопоставьте запрошенные варианты по релевантным критериям в компактной таблице; используйте качественные компромиссы, если исходные данные не обосновывают числовые веса и оценки.',
+          '- Отделите подтверждённые данные, допущения и пробелы; укажите, какие сведения могли бы изменить вывод.',
+          '- Используйте баллы, веса или анализ чувствительности только если они прямо запрошены и есть обоснованные вводные; не выдумывайте шкалы, веса или диапазоны.',
         ],
         [
-          '- **Weighted Criteria**: Define normalized evaluation dimensions (Total weight = 100%, e.g., Throughput 30%, Complexity 25%, TCO 25%, Security 20%).',
-          '- **Scoring Matrix**: Grade candidate architectures from 1 to 5 per criterion, computing normalized composite scores.',
-          '- **Sensitivity Testing**: Audit recommendation stability against a ±15% variance in criterion weighting.',
+          '- Compare the requested alternatives on decision-relevant criteria in a compact table; use qualitative trade-offs unless supplied inputs justify numeric weights and scores.',
+          '- Separate established evidence, assumptions, and missing information; state what evidence could change the conclusion.',
+          '- Use ratings, weights, or sensitivity analysis only when explicitly requested and supported by defensible inputs; do not invent scales, weights, or ranges.',
         ],
         isRu
       );
@@ -2885,22 +2885,22 @@ export const ANALYSIS_SKILLS: Record<string, SkillDefinition> = {
   "root-cause-timeline-retro-postmortem": {
     id: "root-cause-timeline-retro-postmortem",
     name: "RootCauseTimelineRetroPostmortemSkill",
-    displayName: "Blameless Incident Postmortem & Chronological Timeline",
+    displayName: "Blameless Incident Evidence Review",
     categoryId: "analysis",
-    description: "Reconstructs exact minute-by-minute timeline of production incidents with blameless systemic action items.",
+    description: "Builds an evidence-bounded, blameless incident review from supplied events, timestamps, and operational context.",
     tags: ["analysis","postmortem","incident-timeline","blameless","sre","reliability"],
     transform: createStandardSkillTransform({
       sectionName: "Blameless Incident Postmortem & Timeline",
-      ruSectionName: "Безобвинительный постмортем инцидента и поминутная хронология (SRE)",
+      ruSectionName: "Безобвинительный разбор инцидента по подтверждённым данным (SRE)",
       instructions: [
-        "Reconstruct exact chronological timeline: Trigger -> Detection -> Escalation -> Mitigation -> Full Resolution.",
-        "Identify contributing systemic factors (monitoring blindspots, deployment gaps, missing circuit breakers).",
-        "Formulate actionable preventive engineering tickets with assigned owners and 30-day completion SLAs."
+        "Build a chronology only from supplied events and timestamps; leave gaps unknown rather than imposing a fixed incident-stage sequence.",
+        "Separate confirmed evidence from candidate systemic hypotheses; do not assume monitoring, deployment, or guardrail failures without supporting facts.",
+        "Suggest proportionate investigation or mitigation actions with observable outcomes. Do not require ticketing, named owners, or fixed deadlines unless requested; label any proposed role or timing as provisional."
 ],
       ruInstructions: [
-        "Восстановите хронологию: Триггер -> Обнаружение -> Эскалация -> Локализация -> Полное устранение.",
-        "Выявите системные факторы (слепые зоны мониторинга, отсутствие защиты от сбоев).",
-        "Сформируйте конкретные задачи на доработку с дедлайном до 30 дней."
+        "Стройте хронологию только по переданным событиям и временным отметкам; неизвестные промежутки оставляйте неизвестными, не навязывая фиксированную последовательность стадий инцидента.",
+        "Отделяйте подтверждённые свидетельства от гипотез о системных факторах; не предполагайте сбои мониторинга, деплоя или защит без подтверждения.",
+        "Предлагайте соразмерные действия по проверке или снижению риска с наблюдаемым результатом. Не требуйте ticketing, именованных владельцев или фиксированных сроков, если это не запрошено; помечайте предложенные роли и сроки как предварительные."
 ],
       semanticType: "process_directive",
       tags: ["analysis","postmortem","incident-timeline","blameless","sre","reliability"],

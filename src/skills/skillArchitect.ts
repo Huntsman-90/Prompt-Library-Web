@@ -1,4 +1,5 @@
 import { SKILLS_REGISTRY, type SkillDefinition } from './skillsRegistry';
+import { classifyTask, type DeliverableKind, type PromptDomain } from '../utils/taskIntent';
 
 /**
  * Purges obsolete XML tags, synthetic preambles, and generic prompt templates.
@@ -40,262 +41,77 @@ export interface PreciseRoleSpec {
  * Calibrates a narrow, precise, high-authority domain role based on task context and active skills.
  * Strictly BANS generic "elite principal engineer" placeholders.
  */
-export function derivePreciseRole(task: string, isRu: boolean, activeSkillIds: string[] = []): PreciseRoleSpec {
-  const t = (task || '').toLowerCase();
-  const skillsSet = new Set(activeSkillIds);
+export function derivePreciseRole(
+  task: string,
+  isRu: boolean,
+  activeSkillIds: string[] = [],
+  domainHint = 'Auto'
+): PreciseRoleSpec {
+  // Kept in the signature for source compatibility; task intent, not the selected
+  // Skill list, determines the role so an unrelated Skill cannot hijack it.
+  void activeSkillIds;
+  const classification = classifyTask(task, domainHint);
 
-  const isTabletopGameMasterTask =
-    /(?:настольн\w*.{0,80}(?:нарративн\w*.{0,30})?ролев\w*.{0,20}игр|(?:нарративн\w*.{0,30})?ролев\w*.{0,30}игр.{0,80}настольн\w*|table\s*top|tabletop|ttrpg|role[-\s]?playing\s+games?)/i.test(t) &&
-    /(?:мастер\w*.{0,30}(?:игр|настольн|ролев)|ведущ\w*.{0,30}(?:игр|настольн|ролев)|game\s*master|dungeon\s*master|\bGM\b|\bDM\b)/i.test(t);
-
-  if (isTabletopGameMasterTask) {
+  if (classification.deliverable === 'ttrpg_gm_prompt') {
     return {
       roleTitleRu: 'Ведущий настольной нарративной ролевой игры (Game Master)',
       roleTitleEn: 'Tabletop Narrative Role-Playing Game Master',
-      focusRu: 'интерактивное повествование, последовательное управление миром и NPC, соблюдение выбранной группой системы правил и сохранение агентности игроков',
-      focusEn: 'interactive storytelling, consistent world and NPC management, fidelity to the group\'s chosen rules, and preservation of player agency',
-      mandateRu: 'Вести игровую сессию как мастер: описывать сцены и последствия действий, разрешать проверки по согласованным правилам и передавать решения игрокам — не выдавать общие рекомендации по теме.',
-      mandateEn: 'Run the session as the GM: narrate scenes and consequences, adjudicate using the agreed rules, and return decisions to the players instead of giving generic advice about the topic.',
+      focusRu: 'интерактивное повествование, последовательность мира и NPC, правила, согласованные группой, и агентность игроков',
+      focusEn: 'interactive storytelling, consistent world and NPCs, the rules agreed by the group, and player agency',
+      mandateRu: 'Вести игру: описывать сцены и последствия, разрешать действия по согласованным правилам и оставлять решения игрокам.',
+      mandateEn: 'Run the game: narrate scenes and consequences, adjudicate actions under the agreed rules, and leave decisions to the players.',
     };
   }
 
-  // 1. Incident Retrospective, Postmortem, SRE (Prioritized when retro skills or retro task intent is detected)
-  const isRetroIntent =
-    skillsSet.has('blameless-principle') ||
-    skillsSet.has('blameless-retrospective-framework') ||
-    skillsSet.has('incident-postmortem') ||
-    skillsSet.has('timeline-reconstruction') ||
-    skillsSet.has('action-items-matrix') ||
-    /инцидент|постмортем|ретроспектив|сбой|авария|outage|downtime|sre|поломк|падени/i.test(t);
+  const title: Record<PromptDomain, [string, string]> = {
+    retro: ['Фасилитатор анализа инцидентов', 'Incident Review Facilitator'],
+    coding: ['Инженер по программному обеспечению', 'Software Engineer'],
+    business: ['Бизнес-аналитик', 'Business Analyst'],
+    copywriting: ['Автор и редактор', 'Writer and Editor'],
+    product: ['Специалист по продукту и пользовательскому опыту', 'Product and User-Experience Practitioner'],
+    research: ['Исследователь-аналитик', 'Research Analyst'],
+    executive: ['Советник по принятию решений', 'Decision Advisor'],
+    creative: ['Специалист по творческой задаче', 'Creative Practitioner'],
+    general: ['Специалист по поставленной задаче', 'Practitioner for the Stated Task'],
+  };
+  const titleByDeliverable: Partial<Record<DeliverableKind, [string, string]>> = {
+    facilitation_guide: ['Фасилитатор межфункциональных встреч', 'Cross-functional Meeting Facilitator'],
+    practical_plan: ['Практик по операционному планированию', 'Practical Operations Planner'],
+  };
+  const resolvedTitle = titleByDeliverable[classification.deliverable] || title[classification.domain];
 
-  if (isRetroIntent) {
-    let subDomainRu = 'инфраструктурных систем';
-    let subDomainEn = 'Distributed Infrastructure & Core Services';
-
-    if (/redis|кэш|кеш/i.test(t)) {
-      subDomainRu = 'Redis & Cache-кластеров';
-      subDomainEn = 'Redis Distributed Cache Systems';
-    } else if (/платеж|billing|payment|checkout/i.test(t)) {
-      subDomainRu = 'платежных шлюзов и финансовых транзакций';
-      subDomainEn = 'Payment Gateway & Transaction Systems';
-    } else if (/баз[аы]\s+данных|postgres|sql|db/i.test(t)) {
-      subDomainRu = 'баз данных и слоя персистентности';
-      subDomainEn = 'Database & Persistence Tier';
-    } else if (/api|gateway|микросервис/i.test(t)) {
-      subDomainRu = 'микросервисных API-контуров';
-      subDomainEn = 'Microservices & API Gateway Mesh';
-    }
-
-    return {
-      roleTitleRu: `Staff Site Reliability Engineer (SRE) & Incident Commander (${subDomainRu})`,
-      roleTitleEn: `Staff Site Reliability Engineer (SRE) & Incident Commander (${subDomainEn})`,
-      focusRu: `беспристрастное расследование системных сбоев, детерминированная реконструкция хронологии (T0-T3), выявление фундаментальных первопричин (5 Whys) и инженерная защита от повторения`,
-      focusEn: `blameless incident investigation, deterministic event timeline reconstruction (T0-T3), systematic 5-Whys root cause discovery, and automated preventative safeguards`,
-      mandateRu: 'Провести объективный, системный разбор инцидента, сфокусированный исключительно на архитектурных уязвимостях и процедурных сбоях без поиска виновных.',
-      mandateEn: 'Execute an exhaustive, blameless post-mortem focused strictly on architectural failure modes, timeline fidelity, and automated preventative remediation.',
-    };
-  }
-
-  // 2. Redis, Caching, In-Memory Distributed Systems (When not an incident)
-  if (/redis|кэш|кеш|caching|memcached|cache invalidation|key-value/i.test(t)) {
-    return {
-      roleTitleRu: 'Senior Distributed Systems & Cache Architecture Engineer',
-      roleTitleEn: 'Senior Distributed Systems & Cache Architecture Engineer',
-      focusRu: 'архитектура Redis, превентивная инвалидация кэша, синхронизация распределенного состояния и предотвращение race conditions / cache stampede',
-      focusEn: 'Redis cluster topology, atomic cache invalidation semantics, distributed locking, and cache stampede mitigation',
-      mandateRu: 'Спроектировать высокопроизводительное, отказоустойчивое решение с субмиллисекундной задержкой и детерминированной консистентностью.',
-      mandateEn: 'Synthesize a high-throughput, fault-tolerant caching architecture with sub-millisecond latency and guaranteed state consistency.',
-    };
-  }
-
-  // 3. Autonomous Agents, Tool Use, Execution Protocols
-  if (
-    skillsSet.has('react-loop') ||
-    skillsSet.has('task-decomposition') ||
-    skillsSet.has('tool-use-protocol') ||
-    skillsSet.has('agentic-task-solver') ||
-    skillsSet.has('memory-context-protocol') ||
-    /агент|agent|react|dag|tool use|инструмент|автономн/i.test(t)
-  ) {
-    return {
-      roleTitleRu: 'Autonomous Agent Systems Architect & Protocol Engineer',
-      roleTitleEn: 'Autonomous Agent Systems Architect & Protocol Engineer',
-      focusRu: 'декомпозиция DAG-графов задач, детерминированные циклы ReAct (Thought/Action/Observation), строгие контракты вызова инструментов и изолированная память',
-      focusEn: 'DAG task decomposition, deterministic ReAct cycles (Thought/Action/Observation), strict tool schema contracts, and bounded memory scratchpads',
-      mandateRu: 'Сконструировать самовосстанавливающийся агентный конвейер с жестким контролем выполнения, защитой от зацикливания и проверкой каждого шага.',
-      mandateEn: 'Architect a self-healing autonomous execution workflow with bounded memory scratchpads, schema-validated tool calls, and deterministic halt criteria.',
-    };
-  }
-
-  // 4. React, Frontend, UI Performance, Next.js
-  if (/react|frontend|фронтенд|компонент|ui|ux|next\.?js|vite|vue|tailwind/i.test(t)) {
-    return {
-      roleTitleRu: 'Staff Frontend & UI Performance Architect',
-      roleTitleEn: 'Staff Frontend & UI Performance Architect',
-      focusRu: 'архитектура React-компонентов, профилирование жизненного цикла рендеринга, статическая типобезопасность интерфейсов и соответствие стандарту WCAG AA',
-      focusEn: 'React component architecture, render lifecycle profiling, strict TypeScript UI contracts, and WCAG AA accessibility',
-      mandateRu: 'Сформировать модульную, переиспользуемую архитектуру интерфейса с нулевой терпимостью к визуальным сдвигам и утечкам памяти.',
-      mandateEn: 'Engineer a modular, bulletproof frontend architecture with strict state isolation, optimal Core Web Vitals, and zero layout degradation.',
-    };
-  }
-
-  // 5. Databases, PostgreSQL, SQL, Migrations
-  if (/баз[аы]\s+данных|postgres|sql|миграци|индекс|dbre|database|schema/i.test(t)) {
-    return {
-      roleTitleRu: 'Principal Database Reliability Engineer (DBRE) & Data Architect',
-      roleTitleEn: 'Principal Database Reliability Engineer (DBRE) & Data Architect',
-      focusRu: 'реляционные схемы PostgreSQL, топология составных индексов, оптимизация планов выполнения (EXPLAIN ANALYZE) и безаварийные миграции',
-      focusEn: 'PostgreSQL relational schemas, composite index topologies, query plan optimization, and zero-downtime transactional migrations',
-      mandateRu: 'Спроектировать нормализованную, высоконагруженную схему данных с гарантией строгой транзакционной целостности (ACID).',
-      mandateEn: 'Architect a hardened relational data tier guaranteeing strict ACID compliance and optimal query execution plans.',
-    };
-  }
-
-  // 6. Code Refactoring, Architecture, Security, Clean Code
-  if (
-    skillsSet.has('code-audit-smells') ||
-    skillsSet.has('code-refactoring-suite') ||
-    skillsSet.has('type-safety-contracts') ||
-    skillsSet.has('regression-test-specs') ||
-    /рефакторинг|код|typescript|refactor|smell|архитектур|security|уязвимост|тест/i.test(t)
-  ) {
-    return {
-      roleTitleRu: 'Principal Software Architect & Code Auditor',
-      roleTitleEn: 'Principal Software Architect & Code Auditor',
-      focusRu: 'устранение архитектурного долга, статическая типизация без `any`, обработка ошибок через `Result<T,E>`, изоляция побочных эффектов и регрессионные спецификации',
-      focusEn: 'architectural debt eradication, strict static contract typing, algebraic error handling (`Result<T,E>`), and executable regression test specifications',
-      mandateRu: 'Провести бескомпромиссный аудит кодовой базы, изолировать дефекты и предоставить чистый рефакторинг с гарантией типобезопасности.',
-      mandateEn: 'Conduct a rigorous architectural audit, eliminate latent code smells, and deliver a mathematically sound, regression-resistant implementation.',
-    };
-  }
-
-  // 7. Business, Strategy, GTM, Pricing, Unit Economics
-  if (
-    skillsSet.has('unit-economics-modeling') ||
-    skillsSet.has('gtm-roadmap-phasing') ||
-    skillsSet.has('gtm-strategy-engine') ||
-    skillsSet.has('defensible-moats') ||
-    /стратеги|бизнес|gtm|юнит|экономик|pricing|монетизаци|инвестор|рынок|swot/i.test(t)
-  ) {
-    return {
-      roleTitleRu: 'Chief Strategy Officer (CSO) & Enterprise GTM Lead',
-      roleTitleEn: 'Chief Strategy Officer (CSO) & Enterprise GTM Lead',
-      focusRu: 'юнит-экономика (LTV/CAC/Payback), позиционирование ценности (Beachhead ICP), фазирование выхода на рынок и возведение структурных конкурентных рвов',
-      focusEn: 'unit economics modeling (LTV/CAC, Payback), ICP positioning, phased go-to-market horizons, and structural competitive defensibility',
-      mandateRu: 'Разработать экономически выверенную стратегию коммерциализации с прозрачной финансовой моделью и управляемыми рисками.',
-      mandateEn: 'Deliver an economically rigorous commercialization strategy backed by empirical metrics and defensible competitive advantages.',
-    };
-  }
-
-  // 8. Copywriting, Marketing, Conversion
-  if (
-    skillsSet.has('persuasive-copy-arc') ||
-    skillsSet.has('executive-memo-style') ||
-    skillsSet.has('inverted-pyramid-copy') ||
-    /копирайт|текст|стать|пост|рассылк|продающ|конверси|лендинг|voice|меморандум/i.test(t)
-  ) {
-    return {
-      roleTitleRu: 'Principal Narrative Architect & Senior Conversion Copywriter',
-      roleTitleEn: 'Principal Narrative Architect & Senior Conversion Copywriter',
-      focusRu: 'психологическая динамика убеждения (PAS/AIDA), структурирование внимания по перевернутой пирамиде, устранение воды и максимальная конверсия',
-      focusEn: 'conversion copywriting arcs (PAS/AIDA), executive narrative framing, zero-filler prose rhythm, and compelling call-to-action hooks',
-      mandateRu: 'Создать емкий, пробивающий баннерную слепоту материал, ориентированный на конкретный профиль читателя с четким целевым действием.',
-      mandateEn: 'Craft a punchy, psychologically calibrated narrative that cuts through cognitive fatigue and drives definitive action.',
-    };
-  }
-
-  // 9. Legal, Compliance, Regulatory
-  if (
-    skillsSet.has('contract-risk-analysis') ||
-    skillsSet.has('regulatory-compliance') ||
-    skillsSet.has('ambiguity-mitigation') ||
-    /юрист|договор|комплаенс|gdpr|риск|регулятор|legal|contract|liability/i.test(t)
-  ) {
-    return {
-      roleTitleRu: 'Senior Corporate Counsel & Regulatory Risk Strategist',
-      roleTitleEn: 'Senior Corporate Counsel & Regulatory Risk Strategist',
-      focusRu: 'ограничение ответственности, устранение правовых двусмысленностей, защита интеллектуальной собственности и комплаенс (GDPR/SOC2)',
-      focusEn: 'contractual liability containment, indemnification exposure, IP protection, and statutory compliance (GDPR/SOC2)',
-      mandateRu: 'Провести доскональный юридический аудит документации и исключить двусмысленные формулировки с финансовыми и регуляторными рисками.',
-      mandateEn: 'Execute an exhaustive legal risk assessment, hardening contractual clauses and closing exposure loopholes.',
-    };
-  }
-
-  // 10. Medical & Clinical
-  if (
-    skillsSet.has('clinical-trial-evaluation') ||
-    skillsSet.has('diagnostic-differential') ||
-    skillsSet.has('patient-communication') ||
-    /медицин|клиническ|пациент|диагноз|лечени|medical|clinical|trial|patient/i.test(t)
-  ) {
-    return {
-      roleTitleRu: 'Medical Research Director & Clinical Evidence Specialist',
-      roleTitleEn: 'Medical Research Director & Clinical Evidence Specialist',
-      focusRu: 'доказательная медицина (EBM/GRADE), иерархия клинических испытаний, безопасность терапии и дифференциальная диагностика',
-      focusEn: 'evidence-based clinical methodology (EBM/GRADE), trial design rigor, therapeutic safety, and differential diagnosis',
-      mandateRu: 'Сформировать доказательный клинический обзор с четкой оценкой статистической мощности и терапевтического эффекта.',
-      mandateEn: 'Synthesize an authoritative, evidence-grounded clinical assessment with explicit bias audits and patient safety safeguards.',
-    };
-  }
-
-  // 11. Pedagogy & Education
-  if (
-    skillsSet.has('scaffolding-pedagogy') ||
-    skillsSet.has('feynman-technique') ||
-    skillsSet.has('knowledge-check-quiz') ||
-    /обучени|педагогик|урок|feynman|курс|education|pedagogy|tutor/i.test(t)
-  ) {
-    return {
-      roleTitleRu: 'Principal Learning Architect & Cognitive Pedagogy Lead',
-      roleTitleEn: 'Principal Learning Architect & Cognitive Pedagogy Lead',
-      focusRu: 'декомпозиция сложных концепций по Фейнману, прогрессивные строительные леса (Scaffolding / ZPD) и диагностика скрытых заблуждений',
-      focusEn: 'Feynman conceptual reduction, scaffolded progression (Zone of Proximal Development), and formative misconception diagnostics',
-      mandateRu: 'Построить интуитивно понятный образовательный путь с активной практикой и проверкой понимания на каждом этапе.',
-      mandateEn: 'Design an intuitive pedagogical path that dismantles complexity and establishes verifiable mental models.',
-    };
-  }
-
-  // 12. UX & Product Design
-  if (
-    skillsSet.has('user-persona-empathy') ||
-    skillsSet.has('usability-heuristic-audit') ||
-    skillsSet.has('microcopy-ux-writing') ||
-    /ux|usability|юзабилити|интерфейс|дизайн интерфейса|эвристик/i.test(t)
-  ) {
-    return {
-      roleTitleRu: 'Staff UX Architect & Usability Systems Specialist',
-      roleTitleEn: 'Staff UX Architect & Usability Systems Specialist',
-      focusRu: 'эвристический аудит Нильсена-Нормана, снижение когнитивной нагрузки, микрокопирайтинг интерфейсов и типографическая иерархия',
-      focusEn: 'Nielsen-Norman usability heuristics, cognitive load compression, interface microcopy architecture, and WCAG AA accessibility',
-      mandateRu: 'Спроектировать интуитивный интерфейсный сценарий с превентивной защитой от ошибок пользователя.',
-      mandateEn: 'Architect an intuitive interaction workflow with proactive error prevention and transparent affordances.',
-    };
-  }
-
-  // 13. Dynamic Context-Driven Specific Role (Never "elite principal engineer" or "universal AI")
-  let sanitizedTask = task
-    .replace(/^(мне\s+нужен|напиши|создай|сделай|разработай|проанализируй|построй|подготовь|сгенерируй|i\s+need|create|write|build|generate|analyze|execute|выполнить)\s+/i, '')
-    .replace(/^(?:directive|specialized task directive|target objective|задачу|директиву|специализированную задачу)\s*/i, '')
-    .trim();
-
-  const isGeneric = !sanitizedTask || sanitizedTask.length < 3;
-  const titleCoreRu = isGeneric ? 'Профильная системная архитектура' : (sanitizedTask.slice(0, 42));
-  const titleCoreEn = isGeneric ? 'Specialized Domain Architecture' : (sanitizedTask.slice(0, 42));
+  const focusByDeliverable: Partial<Record<DeliverableKind, [string, string]>> = {
+    technical_design: ['проектирование решения, явные допущения и тестовые сценарии', 'solution design, explicit assumptions, and test scenarios'],
+    code_change: ['минимальное целевое изменение и относящиеся к нему проверки', 'the smallest targeted change and checks relevant to it'],
+    pricing_analysis: ['сравнение применимых моделей цены и проверка гипотез на доступных данных', 'comparison of relevant pricing models and validation of hypotheses with available data'],
+    gtm_plan: ['этапный план выхода на рынок, соразмерный указанным сроку и ресурсам', 'a phased go-to-market plan sized to the stated horizon and resources'],
+    email: ['ясное сообщение, подходящее указанной аудитории, тону и каналу', 'clear messaging matched to the stated audience, tone, and channel'],
+    headline_set: ['точные, различимые и подтверждаемые формулировки заголовков', 'specific, distinct, and supportable headline options'],
+    acceptance_criteria: ['проверяемое описание требуемого поведения и граничных случаев', 'testable behavior and edge cases for the requested feature'],
+    interview_synthesis: ['темы и различия в пределах предоставленных наблюдений', 'themes and differences bounded by the supplied observations'],
+    study_comparison: ['сопоставление только предоставленных материалов, методов и ограничений', 'comparison of only the supplied materials, methods, and limitations'],
+    executive_memo: ['решение, компромиссы, допущения, риски и следующие шаги', 'the decision, trade-offs, assumptions, risks, and next steps'],
+    incident_review: ['подтверждённые события, гипотезы, неизвестные и последующие действия', 'confirmed events, hypotheses, unknowns, and follow-up actions'],
+    product_recommendations: ['приоритетные изменения, отделение наблюдений от гипотез и их проверка', 'prioritized changes, separation of observations from hypotheses, and validation'],
+    facilitation_guide: ['практичный ход встречи и достижение заявленного результата', 'a practical meeting flow that reaches the stated outcome'],
+    practical_plan: ['выполнимые шаги в рамках заданных времени и ресурсов', 'actionable steps within the stated time and resource constraints'],
+  };
+  const genericFocus: [string, string] = ['точное выполнение задачи и формат, который прямо запрошен пользователем', 'accurate completion of the task in the format explicitly requested'];
+  const focus = focusByDeliverable[classification.deliverable] || genericFocus;
+  const mandate: [string, string] = [
+    'Следовать исходной задаче и предоставленным данным; отделять факты от допущений и не добавлять неподтверждённые требования.',
+    'Follow the original task and supplied evidence; distinguish facts from assumptions and do not add unsupported requirements.',
+  ];
 
   return {
-    roleTitleRu: `Ведущий эксперт и системный специалист по направлению «${titleCoreRu}»`,
-    roleTitleEn: `Staff Domain Authority & Technical Lead in ${titleCoreEn}`,
-    focusRu: isGeneric
-      ? 'глубокое системное моделирование, строгая отраслевая терминология и бескомпромиссная надежность инженерных решений'
-      : `глубокое системное моделирование, строгая отраслевая терминология и практическая реализация задачи: ${sanitizedTask}`,
-    focusEn: isGeneric
-      ? 'canonical industry taxonomy, structural completeness, and battle-tested production execution'
-      : `canonical industry taxonomy, structural completeness, and battle-tested execution for: ${sanitizedTask}`,
-    mandateRu: 'Предоставить бескомпромиссное, структурированное инженерное решение без общих фраз и поверхностных допущений.',
-    mandateEn: 'Deliver an authoritative, structurally rigorous domain deliverable with zero generic hand-waving.',
+    roleTitleRu: resolvedTitle[0],
+    roleTitleEn: resolvedTitle[1],
+    focusRu: focus[0],
+    focusEn: focus[1],
+    mandateRu: mandate[0],
+    mandateEn: mandate[1],
   };
 }
-
 /**
  * The Master Skill Architect: synthesizes a cohesive, unified, production-grade prompt
  * out of active skills, understanding domain synergies and eliminating chaotic fragments.
@@ -332,6 +148,9 @@ export function composeSkillsArchitecture(
 
   let prompt = rawInput || '';
   for (const skill of orderedSkills) {
+    // Composite transforms contain unfiltered bundled directives; execute their
+    // selected leaf Skills instead so task-level preflight can remain authoritative.
+    if (skill.subSkills?.length) continue;
     const transformed = skill.transform(prompt, context);
     if (typeof transformed !== 'string') {
       throw new TypeError(`Skill "${skill.id}" returned a non-string prompt.`);
