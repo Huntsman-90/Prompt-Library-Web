@@ -22,8 +22,28 @@ assert.equal(withoutSkills.prompt.split(task).length - 1, 1, 'the original task 
 assert.ok(withoutSkills.prompt.includes('Reduce the task to facts'), 'the selected reasoning method must be represented');
 assert.ok(withoutSkills.prompt.includes('Use focused questions to test critical assumptions'), 'the selected tone must be represented');
 assert.ok(withoutSkills.prompt.includes('Coverage & Quality Check'), 'balanced detail should include a completeness module');
-assert.ok(withoutSkills.prompt.includes('Explicit requirements, constraints, and prohibitions in the original task take precedence'), 'user instructions must outrank generic Skill guidance');
+assert.ok(!withoutSkills.prompt.includes('Instruction Precedence'), 'baseline prompts should not carry a generic Skill-priority section when no Skill is applied');
 assert.equal(withoutSkills.appliedSkills.length, 0);
+
+const genericGameMasterTask = 'Создай промпт который заменит опытного ведущего настольных нарративно ролевых игр';
+const genericGameMaster = generatePromptPipeline({ ...baseParams, domain: 'Auto', task: genericGameMasterTask }, []);
+assert.ok(genericGameMaster.prompt.includes('Ты — интерактивный ведущий настольных нарративных ролевых игр'));
+assert.ok(!genericGameMaster.prompt.includes(genericGameMasterTask), 'a prompt-creation request must not be repeated as a conflicting runtime instruction');
+assert.ok(!genericGameMaster.prompt.includes('Исходная задача (без изменений)'));
+assert.ok(!genericGameMaster.prompt.includes('Приоритет инструкций'), 'the Skill-priority boilerplate should be absent when no Skill was applied');
+
+const specificGameMasterTask = 'Создай промпт который заменит опытного ведущего настольных нарративно ролевых игр для D&D 5e в жанре тёмного фэнтези; исключи графическое насилие.';
+const specificGameMaster = generatePromptPipeline({ ...baseParams, domain: 'Auto', task: specificGameMasterTask }, []);
+assert.ok(!specificGameMaster.prompt.includes('Создай промпт'), 'do not carry the meta prompt-construction request into the runtime prompt');
+assert.ok(specificGameMaster.prompt.includes('Дополнительные требования к игре'));
+assert.ok(specificGameMaster.prompt.includes('D&D 5e в жанре тёмного фэнтези; исключи графическое насилие'), 'specific user requirements must survive TTRPG prompt cleanup');
+
+const specificEnglishGameMasterTask = 'Create a prompt that replaces an experienced tabletop role-playing game master for D&D 5e in dark fantasy; avoid graphic violence.';
+const specificEnglishGameMaster = generatePromptPipeline({ ...baseParams, domain: 'Auto', task: specificEnglishGameMasterTask }, []);
+assert.ok(specificEnglishGameMaster.prompt.includes('You are the interactive Game Master'));
+assert.ok(!specificEnglishGameMaster.prompt.includes('Create a prompt'));
+assert.ok(specificEnglishGameMaster.prompt.includes('Additional Game Requirements'));
+assert.ok(specificEnglishGameMaster.prompt.includes('D&D 5e in dark fantasy; avoid graphic violence'), 'English user constraints must survive TTRPG prompt cleanup');
 
 const deferredImplementation = generatePromptPipeline({
   ...baseParams,
@@ -69,7 +89,8 @@ const copyWithConflictingSkill = generatePromptPipeline({
   task: 'Write an onboarding email. Do not invent social proof or customer results.',
 }, ['copywriting-aida-attention-interest-desire']);
 assert.ok(copyWithConflictingSkill.prompt.includes('social proof'));
-assert.ok(copyWithConflictingSkill.prompt.lastIndexOf('Instruction Precedence') > copyWithConflictingSkill.prompt.indexOf('AIDA Marketing Copywriting Protocol'));
+assert.ok(copyWithConflictingSkill.diagnostics.some((d) => d.type === 'skill-filtered' && d.skillId === 'copywriting-aida-attention-interest-desire'), 'an unrequested persuasion framework should be filtered instead of injected');
+assert.ok(!copyWithConflictingSkill.prompt.includes('AIDA Marketing Copywriting Protocol'));
 
 const pricing = generatePromptPipeline({
   ...baseParams,

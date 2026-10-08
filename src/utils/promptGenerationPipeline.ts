@@ -1,5 +1,6 @@
 import {
   adaptPromptForModel,
+  extractCoreGoalAndCleanMeta,
   extractTaskFromGeneratedPrompt,
   generatePromptFromParams,
   isRussianText,
@@ -20,6 +21,21 @@ export interface PromptGenerationResult {
   diagnostics: SkillPreflightDiagnostic[];
 }
 
+function extractTabletopSpecificContext(task: string): string | null {
+  let context = extractCoreGoalAndCleanMeta(task).trim();
+  context = context
+    .replace(/^(?:(?:to\s+)?replace(?:s)?|will\s+replace|заменить|заменит|заменять)\s+/i, '')
+    .replace(/^(?:(?:an?|the)\s+)?(?:(?:experienced|expert|professional|опытн[а-яё]*|профессиональн[а-яё]*)\s+)/i, '')
+    .replace(/^(?:ведущ[а-яё]*|мастер[а-яё]*)\s*/i, '')
+    .replace(/^(?:(?:настольн[а-яё]*|нарративн[а-яё]*|ролев[а-яё]*|игр[а-яё]*)\s*)+/i, '')
+    .replace(/^(?:(?:tabletop|table-top|narrative|role[-\s]?playing|ttrpg|rpg)\s+)*/i, '')
+    .replace(/^(?:dungeon\s+master|game\s+master|master|gm|dm)\b/i, '')
+    .replace(/^(?:для|в|на|for|with|using|about)\s+/i, '')
+    .replace(/^[\s,:;—-]+|[\s,:;—-]+$/g, '')
+    .trim();
+  return /[\p{L}\p{N}]/u.test(context) ? context : null;
+}
+
 function addTaskAndPreferences(
   prompt: string,
   params: GeneratePromptParams
@@ -30,7 +46,7 @@ function addTaskAndPreferences(
   const { preamble, sections } = parsePromptSections(prompt);
   const task = params.task.trim();
 
-  if (task) {
+  if (task && !isGameMasterPrompt) {
     sections.unshift({
       rawHeader: isRu ? '### Исходная задача (без изменений)' : '### Task Input (Verbatim)',
       level: 3,
@@ -39,6 +55,18 @@ function addTaskAndPreferences(
       lines: task.split('\n'),
       semanticType: 'context',
     });
+  } else if (task && isGameMasterPrompt) {
+    const specificContext = extractTabletopSpecificContext(task);
+    if (specificContext) {
+      sections.splice(Math.min(1, sections.length), 0, {
+        rawHeader: isRu ? '### Дополнительные требования к игре' : '### Additional Game Requirements',
+        level: 3,
+        title: isRu ? 'Дополнительные требования к игре' : 'Additional Game Requirements',
+        cleanTitle: isRu ? 'дополнительные требования к игре' : 'additional game requirements',
+        lines: [specificContext],
+        semanticType: 'context',
+      });
+    }
   }
 
   const techniqueText: Record<string, [string, string]> = {
@@ -124,9 +152,9 @@ function adaptToSelectedModel(prompt: string, targetModel: string): string {
 }
 
 /**
- * The one generation path used by the UI: domain template, verbatim task and
- * preferences, ordered Skill transforms (including composite sub-skills), then
- * the optional target-model wrapper.
+ * The one generation path used by the UI: domain template, task-aware context
+ * (verbatim for ordinary tasks; meta-prompt cleanup for the dedicated TTRPG path),
+ * ordered Skill transforms, then the optional target-model wrapper.
  */
 export function generatePromptPipeline(
   params: GeneratePromptParams,
