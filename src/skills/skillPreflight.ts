@@ -606,7 +606,7 @@ export function applySkillsWithPreflight(
   }
 
   return {
-    prompt: appendInstructionPrecedence(currentPrompt, task),
+    prompt: appliedSkills.length > 0 ? appendInstructionPrecedence(currentPrompt, task) : currentPrompt,
     appliedSkills,
     diagnostics,
   };
